@@ -1,0 +1,63 @@
+{
+	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\feature_rules\\overworld_underground_platinumore_feature.json",
+	"file_type": "feature_rule",
+	"format_version": 1,
+	"file_uuid": "3fae275b_189d_4a44_a4b5_1cb05bb97c97",
+	"file_version": 1,
+	"cache_content": {
+		"is_minified": true,
+		"children": {
+			"format_version": "1.16.0",
+			"minecraft:feature_rules": {
+				"description": {
+					"identifier": "overworld_underground_platinumore_feature",
+					"places_feature": "platinumore_feature"
+				},
+				"conditions": {
+					"placement_pass": "underground_pass",
+					"minecraft:biome_filter": [
+						{
+							"any_of": [
+								{
+									"test": "has_biome_tag",
+									"operator": "==",
+									"value": "overworld"
+								},
+								{
+									"test": "has_biome_tag",
+									"operator": "==",
+									"value": "overworld_generation"
+								}
+							]
+						}
+					]
+				},
+				"distribution": {
+					"iterations": 1,
+					"coordinate_eval_order": "zyx",
+					"x": {
+						"distribution": "uniform",
+						"extent": [
+							0,
+							16
+						]
+					},
+					"y": {
+						"distribution": "uniform",
+						"extent": [
+							0,
+							16
+						]
+					},
+					"z": {
+						"distribution": "uniform",
+						"extent": [
+							0,
+							16
+						]
+					}
+				}
+			}
+		}
+	}
+}

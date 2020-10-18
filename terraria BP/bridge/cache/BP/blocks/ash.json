@@ -1,0 +1,224 @@
+{
+	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP/blocks/ash.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "0a56d6f2_7382_4976_94ce_677bce99204c",
+	"file_version": 10,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:block": {
+						"description": {
+							"identifier": "terrariamod:ash"
+						},
+						"components": {
+							"minecraft:loot": "loot_tables/chests/simple_dungeon.json",
+							"minecraft:destroy_time": 4,
+							"minecraft:friction": 0.6,
+							"minecraft:map_color": "#00ff00",
+							"minecraft:flammable": {
+								"flame_odds": 50,
+								"burn_odds": 0
+							},
+							"minecraft:block_light_emission": 1,
+							"minecraft:material_instances": {
+								"*": {
+									"texture": "ash",
+									"render_method": "opaque"
+								}
+							}
+						}
+					}
+				},
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:block": {
+						"description": {
+							"identifier": "terrariamod:ash"
+						},
+						"components": {
+							"minecraft:loot": "loot_tables/chests/simple_dungeon.json",
+							"minecraft:destroy_time": 4,
+							"minecraft:friction": 0.6,
+							"minecraft:map_color": "#00ff00",
+							"minecraft:flammable": {
+								"flame_odds": 50,
+								"burn_odds": 0
+							},
+							"minecraft:block_light_emission": 1,
+							"minecraft:material_instances": {
+								"*": {
+									"texture": "ash",
+									"render_method": "opaque"
+								}
+							}
+						}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:ash"
+							},
+							"components": {
+								"minecraft:loot": "loot_tables/chests/simple_dungeon.json",
+								"minecraft:destroy_time": 4,
+								"minecraft:friction": 0.6,
+								"minecraft:map_color": "#00ff00",
+								"minecraft:flammable": {
+									"flame_odds": 50,
+									"burn_odds": 0
+								},
+								"minecraft:block_light_emission": 1,
+								"minecraft:material_instances": {
+									"*": {
+										"texture": "ash",
+										"render_method": "opaque"
+									}
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:ash"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:ash"
+							},
+							"components": {
+								"minecraft:loot": "loot_tables/chests/simple_dungeon.json",
+								"minecraft:destroy_time": 4,
+								"minecraft:friction": 0.6,
+								"minecraft:map_color": "#00ff00",
+								"minecraft:flammable": {
+									"flame_odds": 50,
+									"burn_odds": 0
+								},
+								"minecraft:block_light_emission": 1,
+								"minecraft:material_instances": {
+									"*": {
+										"texture": "ash",
+										"render_method": "opaque"
+									}
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"open": {
+									"minecraft:loot": "loot_tables/chests/simple_dungeon.json",
+									"minecraft:destroy_time": 4,
+									"minecraft:friction": 0.6,
+									"minecraft:map_color": "#00ff00",
+									"minecraft:flammable": {
+										"flame_odds": 50,
+										"burn_odds": 0
+									},
+									"minecraft:block_light_emission": 1,
+									"minecraft:material_instances": {
+										"*": {
+											"texture": "ash",
+											"render_method": "opaque"
+										}
+									}
+								},
+								"data": "loot_tables/chests/simple_dungeon.json",
+								"key": "minecraft:loot"
+							},
+							{
+								"data": "4",
+								"key": "minecraft:destroy_time"
+							},
+							{
+								"data": "0.6",
+								"key": "minecraft:friction"
+							},
+							{
+								"data": "#00ff00",
+								"key": "minecraft:map_color"
+							},
+							{
+								"key": "minecraft:flammable",
+								"is_minified": true,
+								"children": {
+									"flame_odds": 50,
+									"burn_odds": 0
+								}
+							},
+							{
+								"open": {
+									"minecraft:loot": "loot_tables/chests/simple_dungeon.json",
+									"minecraft:destroy_time": 4,
+									"minecraft:friction": 0.6,
+									"minecraft:map_color": "#00ff00",
+									"minecraft:flammable": {
+										"flame_odds": 50,
+										"burn_odds": 0
+									},
+									"minecraft:block_light_emission": 1,
+									"minecraft:material_instances": {
+										"*": {
+											"texture": "ash",
+											"render_method": "opaque"
+										}
+									}
+								},
+								"data": "1",
+								"key": "minecraft:block_light_emission"
+							},
+							{
+								"open": {
+									"minecraft:loot": "loot_tables/chests/simple_dungeon.json",
+									"minecraft:destroy_time": 4,
+									"minecraft:friction": 0.6,
+									"minecraft:map_color": "#00ff00",
+									"minecraft:flammable": {
+										"flame_odds": 50,
+										"burn_odds": 0
+									},
+									"minecraft:block_light_emission": 1,
+									"minecraft:material_instances": {
+										"*": {
+											"texture": "ash",
+											"render_method": "opaque"
+										}
+									}
+								},
+								"key": "minecraft:material_instances",
+								"children": [
+									{
+										"open": {
+											"*": {
+												"texture": "ash",
+												"render_method": "opaque"
+											}
+										},
+										"key": "*",
+										"is_minified": true,
+										"children": {
+											"texture": "ash",
+											"render_method": "opaque"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

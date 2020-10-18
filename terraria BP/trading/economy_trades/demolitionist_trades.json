@@ -1,0 +1,61 @@
+//bridge-file-version: #10
+{
+	"tiers": [
+		{
+			"trades": [
+				{
+					"wants": [
+						{
+							"item": "terrariamod:coppercoin",
+							"quantity": {
+								"min": 75,
+								"max": 75
+							}
+						}
+					],
+					"gives": [
+						{
+							"item": "terrariamod:grenade"
+						}
+					]
+				},
+				{
+					"wants": [
+						{
+							"item": "terrariamod:silvercoin",
+							"quantity": {
+								"min": 3,
+								"max": 3
+							}
+						}
+					],
+					"gives": [
+						{
+							"item": "terrariamod:bomb"
+						}
+					]
+				}
+			]
+		},
+		{
+			"trades": [
+				{
+					"wants": [
+						{
+							"item": "terrariamod:silvercoin",
+							"quantity": {
+								"min": 20,
+								"max": 20
+							}
+						}
+					],
+					"gives": [
+						{
+							"item": "terrariamod:dynamite"
+						}
+					]
+				}
+			]
+		}
+	]
+}

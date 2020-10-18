@@ -1,0 +1,716 @@
+{
+	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\entities\\ash.json",
+	"file_type": "entity",
+	"format_version": 0,
+	"cache_content": {
+		"format_version": "1.13.0",
+		"minecraft:entity": {
+			"description": {
+				"identifier": "terrariamod:ash",
+				"is_spawnable": true,
+				"is_summonable": true,
+				"is_experimental": false,
+				"runtime_identifier": "minecraft:cat"
+			},
+			"component_groups": {
+				"terrariamod:ash_baby": {
+					"minecraft:is_baby": {},
+					"minecraft:scale": {
+						"value": 0.4
+					},
+					"minecraft:ageable": {
+						"duration": 1200,
+						"feed_items": [
+							"fish",
+							"salmon"
+						],
+						"grow_up": {
+							"event": "minecraft:ageable_grow_up",
+							"target": "self"
+						}
+					}
+				},
+				"terrariamod:ash_adult": {
+					"minecraft:experience_reward": {
+						"on_bred": "Math.Random(1,7)",
+						"on_death": "query.last_hit_by_player ? Math.Random(1,3) : 0"
+					},
+					"minecraft:loot": {
+						"table": "loot_tables/entities/ash.json"
+					},
+					"minecraft:scale": {
+						"value": 0.8
+					},
+					"minecraft:behavior.breed": {
+						"priority": 3,
+						"speed_multiplier": 1
+					},
+					"minecraft:breedable": {
+						"require_tame": true,
+						"allow_sitting": true,
+						"breeds_with": {
+							"mate_type": "terrariamod:ash",
+							"baby_type": "terrariamod:ash",
+							"breed_event": {
+								"event": "minecraft:entity_born",
+								"target": "baby"
+							}
+						},
+						"breed_items": [
+							"fish",
+							"salmon"
+						]
+					}
+				},
+				"terrariamod:ash_wild": {
+					"minecraft:health": {
+						"value": 10,
+						"max": 10
+					},
+					"minecraft:tameable": {
+						"probability": 0.33,
+						"tame_items": [
+							"fish",
+							"salmon"
+						],
+						"tame_event": {
+							"event": "minecraft:on_tame",
+							"target": "self"
+						}
+					},
+					"minecraft:rideable": {
+						"seat_count": 1,
+						"family_types": [
+							"zombie"
+						],
+						"seats": {
+							"position": [
+								0,
+								0.35,
+								0
+							]
+						}
+					},
+					"minecraft:behavior.nearest_attackable_target": {
+						"priority": 1,
+						"attack_interval": 10,
+						"reselect_targets": true,
+						"within_radius": 16,
+						"entity_types": [
+							{
+								"filters": {
+									"test": "is_family",
+									"subject": "other",
+									"value": "rabbit"
+								},
+								"max_dist": 8
+							},
+							{
+								"filters": {
+									"all_of": [
+										{
+											"test": "is_family",
+											"subject": "other",
+											"value": "baby_turtle"
+										},
+										{
+											"test": "in_water",
+											"subject": "other",
+											"operator": "!=",
+											"value": true
+										}
+									]
+								},
+								"max_dist": 8
+							}
+						]
+					},
+					"minecraft:behavior.tempt": {
+						"priority": 5,
+						"speed_multiplier": 0.5,
+						"within_radius": 16,
+						"can_get_scared": true,
+						"items": [
+							"fish",
+							"salmon"
+						]
+					},
+					"minecraft:behavior.avoid_mob_type": {
+						"priority": 6,
+						"entity_types": [
+							{
+								"filters": {
+									"test": "is_family",
+									"subject": "other",
+									"value": "player"
+								},
+								"max_dist": 10,
+								"walk_speed_multiplier": 0.8,
+								"sprint_speed_multiplier": 1.33
+							}
+						]
+					},
+					"minecraft:behavior.move_towards_restriction": {
+						"priority": 7
+					}
+				},
+				"terrariamod:ash_tame": {
+					"minecraft:is_tamed": {},
+					"minecraft:health": {
+						"value": 20,
+						"max": 20
+					},
+					"minecraft:color": {
+						"value": 14
+					},
+					"minecraft:sittable": {},
+					"minecraft:behavior.tempt": {
+						"priority": 5,
+						"speed_multiplier": 0.5,
+						"within_radius": 16,
+						"items": [
+							"fish",
+							"salmon"
+						]
+					},
+					"minecraft:is_dyeable": {
+						"interact_text": "action.interact.dye"
+					},
+					"minecraft:leashable": {
+						"soft_distance": 4,
+						"hard_distance": 6,
+						"max_distance": 10
+					},
+					"minecraft:behavior.follow_owner": {
+						"priority": 4,
+						"speed_multiplier": 1,
+						"start_distance": 10,
+						"stop_distance": 2
+					},
+					"minecraft:behavior.stay_while_sitting": {
+						"priority": 3
+					},
+					"minecraft:behavior.ocelot_sit_on_block": {
+						"priority": 7,
+						"speed_multiplier": 1
+					},
+					"minecraft:behavior.pet_sleep_with_owner": {
+						"priority": 2,
+						"speed_multiplier": 1.2,
+						"search_radius": 10,
+						"search_height": 10,
+						"goal_radius": 1
+					},
+					"minecraft:on_wake_with_owner": {
+						"event": "minecraft:pet_slept_with_owner",
+						"target": "self"
+					}
+				},
+				"terrariamod:ash_gift_for_owner": {
+					"minecraft:behavior.drop_item_for": {
+						"priority": 1,
+						"speed_multiplier": 1,
+						"search_range": 5,
+						"search_height": 2,
+						"search_count": 0,
+						"goal_radius": 1,
+						"entity_types": [
+							{
+								"filters": {
+									"test": "is_family",
+									"subject": "other",
+									"value": "player"
+								},
+								"max_dist": 6
+							}
+						],
+						"max_dist": 5,
+						"drop_item_chance": 0.7,
+						"offering_distance": 5,
+						"loot_table": "loot_tables/entities/ash_gift.json",
+						"time_of_day_range": [
+							0.74999,
+							0.8
+						],
+						"on_drop_attempt": {
+							"event": "terrariamod:ash_gifted_owner",
+							"target": "self"
+						}
+					}
+				},
+				"terrariamod:ash_white": {
+					"minecraft:variant": {
+						"value": 0
+					}
+				},
+				"terrariamod:ash_tuxedo": {
+					"minecraft:variant": {
+						"value": 1
+					}
+				},
+				"terrariamod:ash_red": {
+					"minecraft:variant": {
+						"value": 2
+					}
+				},
+				"terrariamod:ash_siamese": {
+					"minecraft:variant": {
+						"value": 3
+					}
+				},
+				"terrariamod:ash_british": {
+					"minecraft:variant": {
+						"value": 4
+					}
+				},
+				"terrariamod:ash_calico": {
+					"minecraft:variant": {
+						"value": 5
+					}
+				},
+				"terrariamod:ash_persian": {
+					"minecraft:variant": {
+						"value": 6
+					}
+				},
+				"terrariamod:ash_ragdoll": {
+					"minecraft:variant": {
+						"value": 7
+					}
+				},
+				"terrariamod:ash_tabby": {
+					"minecraft:variant": {
+						"value": 8
+					}
+				},
+				"terrariamod:ash_black": {
+					"minecraft:variant": {
+						"value": 9
+					}
+				},
+				"terrariamod:ash_jellie": {
+					"minecraft:variant": {
+						"value": 10
+					}
+				}
+			},
+			"components": {
+				"minecraft:attack_damage": {
+					"value": 4
+				},
+				"minecraft:nameable": {},
+				"minecraft:type_family": {
+					"family": [
+						"ash",
+						"mob"
+					]
+				},
+				"minecraft:breathable": {
+					"total_supply": 15,
+					"suffocate_time": 0
+				},
+				"minecraft:collision_box": {
+					"width": 0.6,
+					"height": 0.7
+				},
+				"minecraft:healable": {
+					"items": [
+						{
+							"item": "fish",
+							"heal_amount": 2
+						},
+						{
+							"item": "salmon",
+							"heal_amount": 2
+						}
+					]
+				},
+				"minecraft:hurt_on_condition": {
+					"damage_conditions": [
+						{
+							"filters": {
+								"test": "in_lava",
+								"subject": "self",
+								"operator": "==",
+								"value": true
+							},
+							"cause": "lava",
+							"damage_per_tick": 4
+						}
+					]
+				},
+				"minecraft:movement": {
+					"value": 0.3
+				},
+				"minecraft:navigation.walk": {
+					"can_float": true,
+					"avoid_water": true,
+					"avoid_damage_blocks": true
+				},
+				"minecraft:movement.basic": {},
+				"minecraft:jump.static": {},
+				"minecraft:can_climb": {},
+				"minecraft:damage_sensor": {
+					"triggers": {
+						"cause": "fall",
+						"deals_damage": false
+					}
+				},
+				"minecraft:dweller": {
+					"dwelling_type": "village",
+					"dweller_role": "passive",
+					"update_interval_base": 60,
+					"update_interval_variant": 40,
+					"can_find_poi": false,
+					"can_migrate": true,
+					"first_founding_reward": 0
+				},
+				"minecraft:behavior.float": {
+					"priority": 0
+				},
+				"minecraft:behavior.panic": {
+					"priority": 1,
+					"speed_multiplier": 1.25
+				},
+				"minecraft:behavior.mount_pathing": {
+					"priority": 1,
+					"speed_multiplier": 1.25,
+					"target_dist": 0,
+					"track_target": true
+				},
+				"minecraft:behavior.leap_at_target": {
+					"priority": 3,
+					"target_dist": 0.3
+				},
+				"minecraft:behavior.ocelotattack": {
+					"priority": 4,
+					"walk_speed_multiplier": 0.8,
+					"sprint_speed_multiplier": 1.33,
+					"sneak_speed_multiplier": 0.6
+				},
+				"minecraft:behavior.random_stroll": {
+					"priority": 8,
+					"speed_multiplier": 0.8
+				},
+				"minecraft:behavior.look_at_player": {
+					"priority": 9
+				},
+				"minecraft:physics": {},
+				"minecraft:pushable": {
+					"is_pushable": true,
+					"is_pushable_by_piston": true
+				}
+			},
+			"events": {
+				"minecraft:entity_spawned": {
+					"sequence": [
+						{
+							"randomize": [
+								{
+									"weight": 3,
+									"remove": {},
+									"add": {
+										"component_groups": [
+											"terrariamod:ash_adult",
+											"terrariamod:ash_wild"
+										]
+									}
+								},
+								{
+									"weight": 1,
+									"remove": {},
+									"add": {
+										"component_groups": [
+											"terrariamod:ash_baby",
+											"terrariamod:ash_wild"
+										]
+									}
+								}
+							]
+						},
+						{
+							"randomize": [
+								{
+									"weight": 15,
+									"add": {
+										"component_groups": [
+											"terrariamod:ash_white"
+										]
+									}
+								},
+								{
+									"weight": 15,
+									"add": {
+										"component_groups": [
+											"terrariamod:ash_tuxedo"
+										]
+									}
+								},
+								{
+									"weight": 15,
+									"add": {
+										"component_groups": [
+											"terrariamod:ash_red"
+										]
+									}
+								},
+								{
+									"weight": 15,
+									"add": {
+										"component_groups": [
+											"terrariamod:ash_siamese"
+										]
+									}
+								},
+								{
+									"weight": 15,
+									"add": {
+										"component_groups": [
+											"terrariamod:ash_british"
+										]
+									}
+								},
+								{
+									"weight": 15,
+									"add": {
+										"component_groups": [
+											"terrariamod:ash_calico"
+										]
+									}
+								},
+								{
+									"weight": 15,
+									"add": {
+										"component_groups": [
+											"terrariamod:ash_persian"
+										]
+									}
+								},
+								{
+									"weight": 15,
+									"add": {
+										"component_groups": [
+											"terrariamod:ash_ragdoll"
+										]
+									}
+								},
+								{
+									"weight": 15,
+									"add": {
+										"component_groups": [
+											"terrariamod:ash_tabby"
+										]
+									}
+								},
+								{
+									"weight": 15,
+									"add": {
+										"component_groups": [
+											"terrariamod:ash_black"
+										]
+									}
+								},
+								{
+									"weight": 15,
+									"add": {
+										"component_groups": [
+											"terrariamod:ash_jellie"
+										]
+									}
+								}
+							]
+						}
+					]
+				},
+				"minecraft:spawn_from_village": {
+					"sequence": [
+						{
+							"randomize": [
+								{
+									"weight": 3,
+									"remove": {},
+									"add": {
+										"component_groups": [
+											"terrariamod:ash_adult",
+											"terrariamod:ash_wild"
+										]
+									}
+								},
+								{
+									"weight": 1,
+									"remove": {},
+									"add": {
+										"component_groups": [
+											"terrariamod:ash_baby",
+											"terrariamod:ash_wild"
+										]
+									}
+								}
+							]
+						},
+						{
+							"randomize": [
+								{
+									"weight": 15,
+									"add": {
+										"component_groups": [
+											"terrariamod:ash_tuxedo"
+										]
+									}
+								},
+								{
+									"weight": 15,
+									"add": {
+										"component_groups": [
+											"terrariamod:ash_red"
+										]
+									}
+								},
+								{
+									"weight": 15,
+									"add": {
+										"component_groups": [
+											"terrariamod:ash_siamese"
+										]
+									}
+								},
+								{
+									"weight": 15,
+									"add": {
+										"component_groups": [
+											"terrariamod:ash_white"
+										]
+									}
+								},
+								{
+									"weight": 15,
+									"add": {
+										"component_groups": [
+											"terrariamod:ash_british"
+										]
+									}
+								},
+								{
+									"weight": 15,
+									"add": {
+										"component_groups": [
+											"terrariamod:ash_calico"
+										]
+									}
+								},
+								{
+									"weight": 15,
+									"add": {
+										"component_groups": [
+											"terrariamod:ash_persian"
+										]
+									}
+								},
+								{
+									"weight": 15,
+									"add": {
+										"component_groups": [
+											"terrariamod:ash_ragdoll"
+										]
+									}
+								},
+								{
+									"weight": 15,
+									"add": {
+										"component_groups": [
+											"terrariamod:ash_tabby"
+										]
+									}
+								},
+								{
+									"weight": 15,
+									"add": {
+										"component_groups": [
+											"terrariamod:ash_jellie"
+										]
+									}
+								}
+							]
+						}
+					]
+				},
+				"minecraft:spawn_midnight_ash": {
+					"sequence": [
+						{
+							"add": {
+								"component_groups": [
+									"terrariamod:ash_adult",
+									"terrariamod:ash_wild",
+									"terrariamod:ash_black"
+								]
+							}
+						}
+					]
+				},
+				"minecraft:entity_born": {
+					"sequence": [
+						{
+							"filters": {
+								"test": "has_component",
+								"operator": "!=",
+								"value": "minecraft:is_baby"
+							},
+							"remove": {},
+							"add": {
+								"component_groups": [
+									"terrariamod:ash_baby",
+									"terrariamod:ash_tame"
+								]
+							}
+						}
+					]
+				},
+				"minecraft:ageable_grow_up": {
+					"remove": {
+						"component_groups": [
+							"terrariamod:ash_baby"
+						]
+					},
+					"add": {
+						"component_groups": [
+							"terrariamod:ash_adult"
+						]
+					}
+				},
+				"minecraft:on_tame": {
+					"sequence": [
+						{
+							"remove": {
+								"component_groups": [
+									"terrariamod:ash_wild"
+								]
+							}
+						},
+						{
+							"add": {
+								"component_groups": [
+									"terrariamod:ash_tame"
+								]
+							}
+						}
+					]
+				},
+				"minecraft:pet_slept_with_owner": {
+					"add": {
+						"component_groups": [
+							"terrariamod:ash_gift_for_owner"
+						]
+					}
+				},
+				"terrariamod:ash_gifted_owner": {
+					"remove": {
+						"component_groups": [
+							"terrariamod:ash_gift_for_owner"
+						]
+					}
+				}
+			}
+		}
+	},
+	"file_uuid": "e85273fe_4e26_464b_b084_e23359b8d935"
+}

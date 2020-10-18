@@ -1,0 +1,25 @@
+//bridge-file-version: #8
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "terrariamod:tungsten_greaves",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:wearable": {
+				"slot": "slot.armor.legs"
+			},
+			"minecraft:armor": {
+				"protection": 3
+			},
+			"minecraft:display_name": {
+				"value": "item.terrariamod:tungsten_greaves.name"
+			},
+			"minecraft:icon": {
+				"texture": "terrariamod:tungsten_greaves"
+			}
+		}
+	}
+}

@@ -1,0 +1,191 @@
+{
+	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\items\\meteorite_greaves.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "e319898d_a8fc_450d_88d2_60c94c5dc718",
+	"file_version": 9,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "terrariamod:meteorite_greaves",
+							"category": "equipment"
+						},
+						"components": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:armor": {
+								"protection": 5
+							},
+							"minecraft:wearable": {
+								"slot": "slot.armor.legs"
+							},
+							"minecraft:icon": {
+								"texture": "terrariamod:meteorite_greaves"
+							},
+							"minecraft:display_name": {
+								"value": "item.terrariamod:meteorite_greaves.name"
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:meteorite_greaves",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:armor": {
+									"protection": 5
+								},
+								"minecraft:wearable": {
+									"slot": "slot.armor.legs"
+								},
+								"minecraft:icon": {
+									"texture": "terrariamod:meteorite_greaves"
+								},
+								"minecraft:display_name": {
+									"value": "item.terrariamod:meteorite_greaves.name"
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:meteorite_greaves",
+							"category": "equipment"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:meteorite_greaves",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:armor": {
+									"protection": 5
+								},
+								"minecraft:wearable": {
+									"slot": "slot.armor.legs"
+								},
+								"minecraft:icon": {
+									"texture": "terrariamod:meteorite_greaves"
+								},
+								"minecraft:display_name": {
+									"value": "item.terrariamod:meteorite_greaves.name"
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "1",
+								"key": "minecraft:max_stack_size"
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:armor": {
+										"protection": 5
+									},
+									"minecraft:wearable": {
+										"slot": "slot.armor.legs"
+									},
+									"minecraft:icon": {
+										"texture": "terrariamod:meteorite_greaves"
+									},
+									"minecraft:display_name": {
+										"value": "item.terrariamod:meteorite_greaves.name"
+									}
+								},
+								"key": "minecraft:armor",
+								"is_minified": true,
+								"children": {
+									"protection": 5
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:armor": {
+										"protection": 5
+									},
+									"minecraft:wearable": {
+										"slot": "slot.armor.legs"
+									},
+									"minecraft:icon": {
+										"texture": "terrariamod:meteorite_greaves"
+									},
+									"minecraft:display_name": {
+										"value": "item.terrariamod:meteorite_greaves.name"
+									}
+								},
+								"key": "minecraft:wearable",
+								"is_minified": true,
+								"children": {
+									"slot": "slot.armor.legs"
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:armor": {
+										"protection": 5
+									},
+									"minecraft:wearable": {
+										"slot": "slot.armor.legs"
+									},
+									"minecraft:icon": {
+										"texture": "terrariamod:meteorite_greaves"
+									},
+									"minecraft:display_name": {
+										"value": "item.terrariamod:meteorite_greaves.name"
+									}
+								},
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "terrariamod:meteorite_greaves"
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:armor": {
+										"protection": 5
+									},
+									"minecraft:wearable": {
+										"slot": "slot.armor.legs"
+									},
+									"minecraft:icon": {
+										"texture": "terrariamod:meteorite_greaves"
+									},
+									"minecraft:display_name": {
+										"value": "item.terrariamod:meteorite_greaves.name"
+									}
+								},
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "item.terrariamod:meteorite_greaves.name"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

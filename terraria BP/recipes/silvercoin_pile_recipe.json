@@ -1,0 +1,25 @@
+//bridge-file-version: #2
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "terrariamod:silvercoin_pile_recipe"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"###",
+			"###",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "terrariamod:silvercoin"
+			}
+		},
+		"result": {
+			"item": "terrariamod:silvercoin_pile"
+		}
+	}
+}

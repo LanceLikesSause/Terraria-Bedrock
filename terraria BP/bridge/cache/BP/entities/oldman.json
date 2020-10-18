@@ -1,0 +1,3193 @@
+{
+	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\entities\\oldman.json",
+	"file_type": "entity",
+	"format_version": 1,
+	"file_uuid": "090f2123_c250_46c0_8eba_4773c877969c",
+	"file_version": 36,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.0",
+					"minecraft:entity": {
+						"description": {
+							"identifier": "terrariamod:oldman",
+							"is_spawnable": true,
+							"is_summonable": true,
+							"is_experimental": false
+						},
+						"component_groups": {
+							"terrariamod:interacted_1": {
+								"minecraft:spawn_entity": {
+									"entities": [
+										{
+											"single_use": true,
+											"spawn_entity": "terrariamod:skeletron_head",
+											"min_wait_time": 1,
+											"max_wait_time": 1
+										}
+									]
+								}
+							}
+						},
+						"components": {
+							"minecraft:behavior.trade_interest": {
+								"priority": 5,
+								"within_radius": 6,
+								"interest_time": 45,
+								"remove_item_time": 1,
+								"carried_item_switch_time": 2,
+								"cooldown": 2
+							},
+							"minecraft:type_family": {
+								"family": [
+									"mob"
+								]
+							},
+							"minecraft:mark_variant": {
+								"value": 0
+							},
+							"minecraft:breathable": {
+								"total_supply": 15,
+								"suffocate_time": 0
+							},
+							"minecraft:health": {
+								"value": 250,
+								"max": 250,
+								"min": 1
+							},
+							"minecraft:hurt_on_condition": {
+								"damage_conditions": [
+									{
+										"filters": {
+											"test": "in_lava",
+											"subject": "self",
+											"operator": "==",
+											"value": true
+										},
+										"cause": "lava",
+										"damage_per_tick": 4
+									}
+								]
+							},
+							"minecraft:hide": {},
+							"minecraft:collision_box": {
+								"width": 0.6,
+								"height": 1.9
+							},
+							"minecraft:nameable": {},
+							"minecraft:movement": {
+								"value": 0
+							},
+							"minecraft:navigation.walk": {
+								"can_path_over_water": true,
+								"can_pass_doors": true,
+								"can_open_doors": true,
+								"avoid_water": true
+							},
+							"minecraft:follow_range": {
+								"value": 128
+							},
+							"minecraft:annotation.open_door": {},
+							"minecraft:movement.basic": {},
+							"minecraft:jump.static": {},
+							"minecraft:can_climb": {},
+							"minecraft:inventory": {
+								"inventory_size": 8,
+								"private": true
+							},
+							"minecraft:dweller": {
+								"dwelling_type": "village",
+								"dweller_role": "inhabitant",
+								"update_interval_base": 60,
+								"update_interval_variant": 40,
+								"can_find_poi": true,
+								"can_migrate": true,
+								"first_founding_reward": 5
+							},
+							"minecraft:persistent": {},
+							"minecraft:behavior.float": {
+								"priority": 0
+							},
+							"minecraft:behavior.hide": {
+								"priority": 0,
+								"speed_multiplier": 0.8,
+								"poi_type": "bed",
+								"duration": 30
+							},
+							"minecraft:behavior.panic": {
+								"priority": 1,
+								"speed_multiplier": 0.6,
+								"damage_sources": "entity_attack"
+							},
+							"minecraft:behavior.trade_with_player": {
+								"priority": 2
+							},
+							"minecraft:behavior.avoid_mob_type": {
+								"priority": 4,
+								"entity_types": [
+									{
+										"filters": {
+											"any_of": [
+												{
+													"test": "is_family",
+													"subject": "other",
+													"value": "zombie"
+												},
+												{
+													"test": "is_family",
+													"subject": "other",
+													"value": "zombie_villager"
+												},
+												{
+													"test": "is_family",
+													"subject": "other",
+													"value": "zombie_pigman"
+												},
+												{
+													"test": "is_family",
+													"subject": "other",
+													"value": "illager"
+												},
+												{
+													"test": "is_family",
+													"subject": "other",
+													"value": "vex"
+												}
+											]
+										},
+										"max_dist": 8,
+										"walk_speed_multiplier": 0.6,
+										"sprint_speed_multiplier": 0.6
+									}
+								]
+							},
+							"minecraft:behavior.pickup_items": {
+								"priority": 4,
+								"max_dist": 3,
+								"goal_radius": 2,
+								"speed_multiplier": 0.5,
+								"can_pickup_to_hand_or_equipment": false
+							},
+							"minecraft:behavior.move_indoors": {
+								"priority": 6,
+								"speed_multiplier": 0.8,
+								"timeout_cooldown": 8
+							},
+							"minecraft:behavior.look_at_trading_player": {
+								"priority": 7
+							},
+							"minecraft:behavior.look_at_player": {
+								"priority": 8,
+								"look_distance": 8,
+								"probability": 0.02
+							},
+							"minecraft:behavior.share_items": {
+								"priority": 9,
+								"max_dist": 3,
+								"goal_radius": 2,
+								"speed_multiplier": 0.5,
+								"entity_types": [
+									{
+										"filters": {
+											"test": "is_family",
+											"subject": "other",
+											"value": "villager"
+										}
+									}
+								]
+							},
+							"minecraft:behavior.move_towards_restriction": {
+								"priority": 10,
+								"speed_multiplier": 0.6
+							},
+							"minecraft:behavior.random_stroll": {
+								"priority": 10,
+								"speed_multiplier": 0.6
+							},
+							"minecraft:physics": {},
+							"minecraft:pushable": {
+								"is_pushable": true,
+								"is_pushable_by_piston": true
+							},
+							"minecraft:behavior.nearest_attackable_target": {
+								"priority": 2,
+								"must_see": true,
+								"reselect_targets": true,
+								"entity_types": [
+									{
+										"filters": {
+											"test": "is_family",
+											"subject": "other",
+											"value": "slimes_terraria"
+										},
+										"max_dist": 8
+									}
+								]
+							},
+							"minecraft:behavior.ranged_attack": {
+								"priority": 0,
+								"attack_interval_min": 1,
+								"attack_interval_max": 3,
+								"attack_radius": 15
+							},
+							"minecraft:shooter": {
+								"def": "terrariamod:musketball_projectile_flintlockpistol"
+							},
+							"minecraft:interact": {
+								"interactions": [
+									{
+										"cooldown": 999,
+										"interact_text": "curse",
+										"on_interact": {
+											"event": "terrariamod:on_interact_1"
+										}
+									},
+									{
+										"interact_text": "talk",
+										"on_interact": {
+											"event": "terrariamod:on_interact_2"
+										}
+									}
+								]
+							}
+						},
+						"events": {
+							"terrariamod:on_interact_1": {
+								"add": {
+									"component_groups": [
+										"terrariamod:interacted_1"
+									]
+								},
+								"execute": {
+									"commands": [
+										"/function oldman_skeletron"
+									]
+								}
+							},
+							"terrariamod:on_interact_2": {
+								"execute": {
+									"commands": [
+										"/function oldman_talk"
+									]
+								}
+							}
+						}
+					}
+				},
+				"key": "minecraft:entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:oldman",
+								"is_spawnable": true,
+								"is_summonable": true,
+								"is_experimental": false
+							},
+							"component_groups": {
+								"terrariamod:interacted_1": {
+									"minecraft:spawn_entity": {
+										"entities": [
+											{
+												"single_use": true,
+												"spawn_entity": "terrariamod:skeletron_head",
+												"min_wait_time": 1,
+												"max_wait_time": 1
+											}
+										]
+									}
+								}
+							},
+							"components": {
+								"minecraft:behavior.trade_interest": {
+									"priority": 5,
+									"within_radius": 6,
+									"interest_time": 45,
+									"remove_item_time": 1,
+									"carried_item_switch_time": 2,
+									"cooldown": 2
+								},
+								"minecraft:type_family": {
+									"family": [
+										"mob"
+									]
+								},
+								"minecraft:mark_variant": {
+									"value": 0
+								},
+								"minecraft:breathable": {
+									"total_supply": 15,
+									"suffocate_time": 0
+								},
+								"minecraft:health": {
+									"value": 250,
+									"max": 250,
+									"min": 1
+								},
+								"minecraft:hurt_on_condition": {
+									"damage_conditions": [
+										{
+											"filters": {
+												"test": "in_lava",
+												"subject": "self",
+												"operator": "==",
+												"value": true
+											},
+											"cause": "lava",
+											"damage_per_tick": 4
+										}
+									]
+								},
+								"minecraft:hide": {},
+								"minecraft:collision_box": {
+									"width": 0.6,
+									"height": 1.9
+								},
+								"minecraft:nameable": {},
+								"minecraft:movement": {
+									"value": 0
+								},
+								"minecraft:navigation.walk": {
+									"can_path_over_water": true,
+									"can_pass_doors": true,
+									"can_open_doors": true,
+									"avoid_water": true
+								},
+								"minecraft:follow_range": {
+									"value": 128
+								},
+								"minecraft:annotation.open_door": {},
+								"minecraft:movement.basic": {},
+								"minecraft:jump.static": {},
+								"minecraft:can_climb": {},
+								"minecraft:inventory": {
+									"inventory_size": 8,
+									"private": true
+								},
+								"minecraft:dweller": {
+									"dwelling_type": "village",
+									"dweller_role": "inhabitant",
+									"update_interval_base": 60,
+									"update_interval_variant": 40,
+									"can_find_poi": true,
+									"can_migrate": true,
+									"first_founding_reward": 5
+								},
+								"minecraft:persistent": {},
+								"minecraft:behavior.float": {
+									"priority": 0
+								},
+								"minecraft:behavior.hide": {
+									"priority": 0,
+									"speed_multiplier": 0.8,
+									"poi_type": "bed",
+									"duration": 30
+								},
+								"minecraft:behavior.panic": {
+									"priority": 1,
+									"speed_multiplier": 0.6,
+									"damage_sources": "entity_attack"
+								},
+								"minecraft:behavior.trade_with_player": {
+									"priority": 2
+								},
+								"minecraft:behavior.avoid_mob_type": {
+									"priority": 4,
+									"entity_types": [
+										{
+											"filters": {
+												"any_of": [
+													{
+														"test": "is_family",
+														"subject": "other",
+														"value": "zombie"
+													},
+													{
+														"test": "is_family",
+														"subject": "other",
+														"value": "zombie_villager"
+													},
+													{
+														"test": "is_family",
+														"subject": "other",
+														"value": "zombie_pigman"
+													},
+													{
+														"test": "is_family",
+														"subject": "other",
+														"value": "illager"
+													},
+													{
+														"test": "is_family",
+														"subject": "other",
+														"value": "vex"
+													}
+												]
+											},
+											"max_dist": 8,
+											"walk_speed_multiplier": 0.6,
+											"sprint_speed_multiplier": 0.6
+										}
+									]
+								},
+								"minecraft:behavior.pickup_items": {
+									"priority": 4,
+									"max_dist": 3,
+									"goal_radius": 2,
+									"speed_multiplier": 0.5,
+									"can_pickup_to_hand_or_equipment": false
+								},
+								"minecraft:behavior.move_indoors": {
+									"priority": 6,
+									"speed_multiplier": 0.8,
+									"timeout_cooldown": 8
+								},
+								"minecraft:behavior.look_at_trading_player": {
+									"priority": 7
+								},
+								"minecraft:behavior.look_at_player": {
+									"priority": 8,
+									"look_distance": 8,
+									"probability": 0.02
+								},
+								"minecraft:behavior.share_items": {
+									"priority": 9,
+									"max_dist": 3,
+									"goal_radius": 2,
+									"speed_multiplier": 0.5,
+									"entity_types": [
+										{
+											"filters": {
+												"test": "is_family",
+												"subject": "other",
+												"value": "villager"
+											}
+										}
+									]
+								},
+								"minecraft:behavior.move_towards_restriction": {
+									"priority": 10,
+									"speed_multiplier": 0.6
+								},
+								"minecraft:behavior.random_stroll": {
+									"priority": 10,
+									"speed_multiplier": 0.6
+								},
+								"minecraft:physics": {},
+								"minecraft:pushable": {
+									"is_pushable": true,
+									"is_pushable_by_piston": true
+								},
+								"minecraft:behavior.nearest_attackable_target": {
+									"priority": 2,
+									"must_see": true,
+									"reselect_targets": true,
+									"entity_types": [
+										{
+											"filters": {
+												"test": "is_family",
+												"subject": "other",
+												"value": "slimes_terraria"
+											},
+											"max_dist": 8
+										}
+									]
+								},
+								"minecraft:behavior.ranged_attack": {
+									"priority": 0,
+									"attack_interval_min": 1,
+									"attack_interval_max": 3,
+									"attack_radius": 15
+								},
+								"minecraft:shooter": {
+									"def": "terrariamod:musketball_projectile_flintlockpistol"
+								},
+								"minecraft:interact": {
+									"interactions": [
+										{
+											"cooldown": 999,
+											"interact_text": "curse",
+											"on_interact": {
+												"event": "terrariamod:on_interact_1"
+											}
+										},
+										{
+											"interact_text": "talk",
+											"on_interact": {
+												"event": "terrariamod:on_interact_2"
+											}
+										}
+									]
+								}
+							},
+							"events": {
+								"terrariamod:on_interact_1": {
+									"add": {
+										"component_groups": [
+											"terrariamod:interacted_1"
+										]
+									},
+									"execute": {
+										"commands": [
+											"/function oldman_skeletron"
+										]
+									}
+								},
+								"terrariamod:on_interact_2": {
+									"execute": {
+										"commands": [
+											"/function oldman_talk"
+										]
+									}
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:oldman",
+							"is_spawnable": true,
+							"is_summonable": true,
+							"is_experimental": false
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:oldman",
+								"is_spawnable": true,
+								"is_summonable": true,
+								"is_experimental": false
+							},
+							"component_groups": {
+								"terrariamod:interacted_1": {
+									"minecraft:spawn_entity": {
+										"entities": [
+											{
+												"single_use": true,
+												"spawn_entity": "terrariamod:skeletron_head",
+												"min_wait_time": 1,
+												"max_wait_time": 1
+											}
+										]
+									}
+								}
+							},
+							"components": {
+								"minecraft:behavior.trade_interest": {
+									"priority": 5,
+									"within_radius": 6,
+									"interest_time": 45,
+									"remove_item_time": 1,
+									"carried_item_switch_time": 2,
+									"cooldown": 2
+								},
+								"minecraft:type_family": {
+									"family": [
+										"mob"
+									]
+								},
+								"minecraft:mark_variant": {
+									"value": 0
+								},
+								"minecraft:breathable": {
+									"total_supply": 15,
+									"suffocate_time": 0
+								},
+								"minecraft:health": {
+									"value": 250,
+									"max": 250,
+									"min": 1
+								},
+								"minecraft:hurt_on_condition": {
+									"damage_conditions": [
+										{
+											"filters": {
+												"test": "in_lava",
+												"subject": "self",
+												"operator": "==",
+												"value": true
+											},
+											"cause": "lava",
+											"damage_per_tick": 4
+										}
+									]
+								},
+								"minecraft:hide": {},
+								"minecraft:collision_box": {
+									"width": 0.6,
+									"height": 1.9
+								},
+								"minecraft:nameable": {},
+								"minecraft:movement": {
+									"value": 0
+								},
+								"minecraft:navigation.walk": {
+									"can_path_over_water": true,
+									"can_pass_doors": true,
+									"can_open_doors": true,
+									"avoid_water": true
+								},
+								"minecraft:follow_range": {
+									"value": 128
+								},
+								"minecraft:annotation.open_door": {},
+								"minecraft:movement.basic": {},
+								"minecraft:jump.static": {},
+								"minecraft:can_climb": {},
+								"minecraft:inventory": {
+									"inventory_size": 8,
+									"private": true
+								},
+								"minecraft:dweller": {
+									"dwelling_type": "village",
+									"dweller_role": "inhabitant",
+									"update_interval_base": 60,
+									"update_interval_variant": 40,
+									"can_find_poi": true,
+									"can_migrate": true,
+									"first_founding_reward": 5
+								},
+								"minecraft:persistent": {},
+								"minecraft:behavior.float": {
+									"priority": 0
+								},
+								"minecraft:behavior.hide": {
+									"priority": 0,
+									"speed_multiplier": 0.8,
+									"poi_type": "bed",
+									"duration": 30
+								},
+								"minecraft:behavior.panic": {
+									"priority": 1,
+									"speed_multiplier": 0.6,
+									"damage_sources": "entity_attack"
+								},
+								"minecraft:behavior.trade_with_player": {
+									"priority": 2
+								},
+								"minecraft:behavior.avoid_mob_type": {
+									"priority": 4,
+									"entity_types": [
+										{
+											"filters": {
+												"any_of": [
+													{
+														"test": "is_family",
+														"subject": "other",
+														"value": "zombie"
+													},
+													{
+														"test": "is_family",
+														"subject": "other",
+														"value": "zombie_villager"
+													},
+													{
+														"test": "is_family",
+														"subject": "other",
+														"value": "zombie_pigman"
+													},
+													{
+														"test": "is_family",
+														"subject": "other",
+														"value": "illager"
+													},
+													{
+														"test": "is_family",
+														"subject": "other",
+														"value": "vex"
+													}
+												]
+											},
+											"max_dist": 8,
+											"walk_speed_multiplier": 0.6,
+											"sprint_speed_multiplier": 0.6
+										}
+									]
+								},
+								"minecraft:behavior.pickup_items": {
+									"priority": 4,
+									"max_dist": 3,
+									"goal_radius": 2,
+									"speed_multiplier": 0.5,
+									"can_pickup_to_hand_or_equipment": false
+								},
+								"minecraft:behavior.move_indoors": {
+									"priority": 6,
+									"speed_multiplier": 0.8,
+									"timeout_cooldown": 8
+								},
+								"minecraft:behavior.look_at_trading_player": {
+									"priority": 7
+								},
+								"minecraft:behavior.look_at_player": {
+									"priority": 8,
+									"look_distance": 8,
+									"probability": 0.02
+								},
+								"minecraft:behavior.share_items": {
+									"priority": 9,
+									"max_dist": 3,
+									"goal_radius": 2,
+									"speed_multiplier": 0.5,
+									"entity_types": [
+										{
+											"filters": {
+												"test": "is_family",
+												"subject": "other",
+												"value": "villager"
+											}
+										}
+									]
+								},
+								"minecraft:behavior.move_towards_restriction": {
+									"priority": 10,
+									"speed_multiplier": 0.6
+								},
+								"minecraft:behavior.random_stroll": {
+									"priority": 10,
+									"speed_multiplier": 0.6
+								},
+								"minecraft:physics": {},
+								"minecraft:pushable": {
+									"is_pushable": true,
+									"is_pushable_by_piston": true
+								},
+								"minecraft:behavior.nearest_attackable_target": {
+									"priority": 2,
+									"must_see": true,
+									"reselect_targets": true,
+									"entity_types": [
+										{
+											"filters": {
+												"test": "is_family",
+												"subject": "other",
+												"value": "slimes_terraria"
+											},
+											"max_dist": 8
+										}
+									]
+								},
+								"minecraft:behavior.ranged_attack": {
+									"priority": 0,
+									"attack_interval_min": 1,
+									"attack_interval_max": 3,
+									"attack_radius": 15
+								},
+								"minecraft:shooter": {
+									"def": "terrariamod:musketball_projectile_flintlockpistol"
+								},
+								"minecraft:interact": {
+									"interactions": [
+										{
+											"cooldown": 999,
+											"interact_text": "curse",
+											"on_interact": {
+												"event": "terrariamod:on_interact_1"
+											}
+										},
+										{
+											"interact_text": "talk",
+											"on_interact": {
+												"event": "terrariamod:on_interact_2"
+											}
+										}
+									]
+								}
+							},
+							"events": {
+								"terrariamod:on_interact_1": {
+									"add": {
+										"component_groups": [
+											"terrariamod:interacted_1"
+										]
+									},
+									"execute": {
+										"commands": [
+											"/function oldman_skeletron"
+										]
+									}
+								},
+								"terrariamod:on_interact_2": {
+									"execute": {
+										"commands": [
+											"/function oldman_talk"
+										]
+									}
+								}
+							}
+						},
+						"key": "component_groups",
+						"children": [
+							{
+								"open": {
+									"terrariamod:interacted_1": {
+										"minecraft:spawn_entity": {
+											"entities": [
+												{
+													"single_use": true,
+													"spawn_entity": "terrariamod:skeletron_head",
+													"min_wait_time": 1,
+													"max_wait_time": 1
+												}
+											]
+										}
+									}
+								},
+								"key": "terrariamod:interacted_1",
+								"children": [
+									{
+										"key": "minecraft:spawn_entity",
+										"children": [
+											{
+												"open": {
+													"entities": [
+														{
+															"single_use": true,
+															"spawn_entity": "terrariamod:skeletron_head",
+															"min_wait_time": 1,
+															"max_wait_time": 1
+														}
+													]
+												},
+												"key": "entities",
+												"children": [
+													{
+														"open": [
+															{
+																"single_use": true,
+																"spawn_entity": "terrariamod:skeletron_head",
+																"min_wait_time": 1,
+																"max_wait_time": 1
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"single_use": true,
+															"spawn_entity": "terrariamod:skeletron_head",
+															"min_wait_time": 1,
+															"max_wait_time": 1
+														}
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:oldman",
+								"is_spawnable": true,
+								"is_summonable": true,
+								"is_experimental": false
+							},
+							"component_groups": {
+								"terrariamod:interacted_1": {
+									"minecraft:spawn_entity": {
+										"entities": [
+											{
+												"single_use": true,
+												"spawn_entity": "terrariamod:skeletron_head",
+												"min_wait_time": 1,
+												"max_wait_time": 1
+											}
+										]
+									}
+								}
+							},
+							"components": {
+								"minecraft:behavior.trade_interest": {
+									"priority": 5,
+									"within_radius": 6,
+									"interest_time": 45,
+									"remove_item_time": 1,
+									"carried_item_switch_time": 2,
+									"cooldown": 2
+								},
+								"minecraft:type_family": {
+									"family": [
+										"mob"
+									]
+								},
+								"minecraft:mark_variant": {
+									"value": 0
+								},
+								"minecraft:breathable": {
+									"total_supply": 15,
+									"suffocate_time": 0
+								},
+								"minecraft:health": {
+									"value": 250,
+									"max": 250,
+									"min": 1
+								},
+								"minecraft:hurt_on_condition": {
+									"damage_conditions": [
+										{
+											"filters": {
+												"test": "in_lava",
+												"subject": "self",
+												"operator": "==",
+												"value": true
+											},
+											"cause": "lava",
+											"damage_per_tick": 4
+										}
+									]
+								},
+								"minecraft:hide": {},
+								"minecraft:collision_box": {
+									"width": 0.6,
+									"height": 1.9
+								},
+								"minecraft:nameable": {},
+								"minecraft:movement": {
+									"value": 0
+								},
+								"minecraft:navigation.walk": {
+									"can_path_over_water": true,
+									"can_pass_doors": true,
+									"can_open_doors": true,
+									"avoid_water": true
+								},
+								"minecraft:follow_range": {
+									"value": 128
+								},
+								"minecraft:annotation.open_door": {},
+								"minecraft:movement.basic": {},
+								"minecraft:jump.static": {},
+								"minecraft:can_climb": {},
+								"minecraft:inventory": {
+									"inventory_size": 8,
+									"private": true
+								},
+								"minecraft:dweller": {
+									"dwelling_type": "village",
+									"dweller_role": "inhabitant",
+									"update_interval_base": 60,
+									"update_interval_variant": 40,
+									"can_find_poi": true,
+									"can_migrate": true,
+									"first_founding_reward": 5
+								},
+								"minecraft:persistent": {},
+								"minecraft:behavior.float": {
+									"priority": 0
+								},
+								"minecraft:behavior.hide": {
+									"priority": 0,
+									"speed_multiplier": 0.8,
+									"poi_type": "bed",
+									"duration": 30
+								},
+								"minecraft:behavior.panic": {
+									"priority": 1,
+									"speed_multiplier": 0.6,
+									"damage_sources": "entity_attack"
+								},
+								"minecraft:behavior.trade_with_player": {
+									"priority": 2
+								},
+								"minecraft:behavior.avoid_mob_type": {
+									"priority": 4,
+									"entity_types": [
+										{
+											"filters": {
+												"any_of": [
+													{
+														"test": "is_family",
+														"subject": "other",
+														"value": "zombie"
+													},
+													{
+														"test": "is_family",
+														"subject": "other",
+														"value": "zombie_villager"
+													},
+													{
+														"test": "is_family",
+														"subject": "other",
+														"value": "zombie_pigman"
+													},
+													{
+														"test": "is_family",
+														"subject": "other",
+														"value": "illager"
+													},
+													{
+														"test": "is_family",
+														"subject": "other",
+														"value": "vex"
+													}
+												]
+											},
+											"max_dist": 8,
+											"walk_speed_multiplier": 0.6,
+											"sprint_speed_multiplier": 0.6
+										}
+									]
+								},
+								"minecraft:behavior.pickup_items": {
+									"priority": 4,
+									"max_dist": 3,
+									"goal_radius": 2,
+									"speed_multiplier": 0.5,
+									"can_pickup_to_hand_or_equipment": false
+								},
+								"minecraft:behavior.move_indoors": {
+									"priority": 6,
+									"speed_multiplier": 0.8,
+									"timeout_cooldown": 8
+								},
+								"minecraft:behavior.look_at_trading_player": {
+									"priority": 7
+								},
+								"minecraft:behavior.look_at_player": {
+									"priority": 8,
+									"look_distance": 8,
+									"probability": 0.02
+								},
+								"minecraft:behavior.share_items": {
+									"priority": 9,
+									"max_dist": 3,
+									"goal_radius": 2,
+									"speed_multiplier": 0.5,
+									"entity_types": [
+										{
+											"filters": {
+												"test": "is_family",
+												"subject": "other",
+												"value": "villager"
+											}
+										}
+									]
+								},
+								"minecraft:behavior.move_towards_restriction": {
+									"priority": 10,
+									"speed_multiplier": 0.6
+								},
+								"minecraft:behavior.random_stroll": {
+									"priority": 10,
+									"speed_multiplier": 0.6
+								},
+								"minecraft:physics": {},
+								"minecraft:pushable": {
+									"is_pushable": true,
+									"is_pushable_by_piston": true
+								},
+								"minecraft:behavior.nearest_attackable_target": {
+									"priority": 2,
+									"must_see": true,
+									"reselect_targets": true,
+									"entity_types": [
+										{
+											"filters": {
+												"test": "is_family",
+												"subject": "other",
+												"value": "slimes_terraria"
+											},
+											"max_dist": 8
+										}
+									]
+								},
+								"minecraft:behavior.ranged_attack": {
+									"priority": 0,
+									"attack_interval_min": 1,
+									"attack_interval_max": 3,
+									"attack_radius": 15
+								},
+								"minecraft:shooter": {
+									"def": "terrariamod:musketball_projectile_flintlockpistol"
+								},
+								"minecraft:interact": {
+									"interactions": [
+										{
+											"cooldown": 999,
+											"interact_text": "curse",
+											"on_interact": {
+												"event": "terrariamod:on_interact_1"
+											}
+										},
+										{
+											"interact_text": "talk",
+											"on_interact": {
+												"event": "terrariamod:on_interact_2"
+											}
+										}
+									]
+								}
+							},
+							"events": {
+								"terrariamod:on_interact_1": {
+									"add": {
+										"component_groups": [
+											"terrariamod:interacted_1"
+										]
+									},
+									"execute": {
+										"commands": [
+											"/function oldman_skeletron"
+										]
+									}
+								},
+								"terrariamod:on_interact_2": {
+									"execute": {
+										"commands": [
+											"/function oldman_talk"
+										]
+									}
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"key": "minecraft:behavior.trade_interest",
+								"is_minified": true,
+								"children": {
+									"priority": 5,
+									"within_radius": 6,
+									"interest_time": 45,
+									"remove_item_time": 1,
+									"carried_item_switch_time": 2,
+									"cooldown": 2
+								}
+							},
+							{
+								"open": {
+									"minecraft:behavior.trade_interest": {
+										"priority": 5,
+										"within_radius": 6,
+										"interest_time": 45,
+										"remove_item_time": 1,
+										"carried_item_switch_time": 2,
+										"cooldown": 2
+									},
+									"minecraft:type_family": {
+										"family": [
+											"mob"
+										]
+									},
+									"minecraft:mark_variant": {
+										"value": 0
+									},
+									"minecraft:breathable": {
+										"total_supply": 15,
+										"suffocate_time": 0
+									},
+									"minecraft:health": {
+										"value": 250,
+										"max": 250,
+										"min": 1
+									},
+									"minecraft:hurt_on_condition": {
+										"damage_conditions": [
+											{
+												"filters": {
+													"test": "in_lava",
+													"subject": "self",
+													"operator": "==",
+													"value": true
+												},
+												"cause": "lava",
+												"damage_per_tick": 4
+											}
+										]
+									},
+									"minecraft:hide": {},
+									"minecraft:collision_box": {
+										"width": 0.6,
+										"height": 1.9
+									},
+									"minecraft:nameable": {},
+									"minecraft:movement": {
+										"value": 0
+									},
+									"minecraft:navigation.walk": {
+										"can_path_over_water": true,
+										"can_pass_doors": true,
+										"can_open_doors": true,
+										"avoid_water": true
+									},
+									"minecraft:follow_range": {
+										"value": 128
+									},
+									"minecraft:annotation.open_door": {},
+									"minecraft:movement.basic": {},
+									"minecraft:jump.static": {},
+									"minecraft:can_climb": {},
+									"minecraft:inventory": {
+										"inventory_size": 8,
+										"private": true
+									},
+									"minecraft:dweller": {
+										"dwelling_type": "village",
+										"dweller_role": "inhabitant",
+										"update_interval_base": 60,
+										"update_interval_variant": 40,
+										"can_find_poi": true,
+										"can_migrate": true,
+										"first_founding_reward": 5
+									},
+									"minecraft:persistent": {},
+									"minecraft:behavior.float": {
+										"priority": 0
+									},
+									"minecraft:behavior.hide": {
+										"priority": 0,
+										"speed_multiplier": 0.8,
+										"poi_type": "bed",
+										"duration": 30
+									},
+									"minecraft:behavior.panic": {
+										"priority": 1,
+										"speed_multiplier": 0.6,
+										"damage_sources": "entity_attack"
+									},
+									"minecraft:behavior.trade_with_player": {
+										"priority": 2
+									},
+									"minecraft:behavior.avoid_mob_type": {
+										"priority": 4,
+										"entity_types": [
+											{
+												"filters": {
+													"any_of": [
+														{
+															"test": "is_family",
+															"subject": "other",
+															"value": "zombie"
+														},
+														{
+															"test": "is_family",
+															"subject": "other",
+															"value": "zombie_villager"
+														},
+														{
+															"test": "is_family",
+															"subject": "other",
+															"value": "zombie_pigman"
+														},
+														{
+															"test": "is_family",
+															"subject": "other",
+															"value": "illager"
+														},
+														{
+															"test": "is_family",
+															"subject": "other",
+															"value": "vex"
+														}
+													]
+												},
+												"max_dist": 8,
+												"walk_speed_multiplier": 0.6,
+												"sprint_speed_multiplier": 0.6
+											}
+										]
+									},
+									"minecraft:behavior.pickup_items": {
+										"priority": 4,
+										"max_dist": 3,
+										"goal_radius": 2,
+										"speed_multiplier": 0.5,
+										"can_pickup_to_hand_or_equipment": false
+									},
+									"minecraft:behavior.move_indoors": {
+										"priority": 6,
+										"speed_multiplier": 0.8,
+										"timeout_cooldown": 8
+									},
+									"minecraft:behavior.look_at_trading_player": {
+										"priority": 7
+									},
+									"minecraft:behavior.look_at_player": {
+										"priority": 8,
+										"look_distance": 8,
+										"probability": 0.02
+									},
+									"minecraft:behavior.share_items": {
+										"priority": 9,
+										"max_dist": 3,
+										"goal_radius": 2,
+										"speed_multiplier": 0.5,
+										"entity_types": [
+											{
+												"filters": {
+													"test": "is_family",
+													"subject": "other",
+													"value": "villager"
+												}
+											}
+										]
+									},
+									"minecraft:behavior.move_towards_restriction": {
+										"priority": 10,
+										"speed_multiplier": 0.6
+									},
+									"minecraft:behavior.random_stroll": {
+										"priority": 10,
+										"speed_multiplier": 0.6
+									},
+									"minecraft:physics": {},
+									"minecraft:pushable": {
+										"is_pushable": true,
+										"is_pushable_by_piston": true
+									},
+									"minecraft:behavior.nearest_attackable_target": {
+										"priority": 2,
+										"must_see": true,
+										"reselect_targets": true,
+										"entity_types": [
+											{
+												"filters": {
+													"test": "is_family",
+													"subject": "other",
+													"value": "slimes_terraria"
+												},
+												"max_dist": 8
+											}
+										]
+									},
+									"minecraft:behavior.ranged_attack": {
+										"priority": 0,
+										"attack_interval_min": 1,
+										"attack_interval_max": 3,
+										"attack_radius": 15
+									},
+									"minecraft:shooter": {
+										"def": "terrariamod:musketball_projectile_flintlockpistol"
+									},
+									"minecraft:interact": {
+										"interactions": [
+											{
+												"cooldown": 999,
+												"interact_text": "curse",
+												"on_interact": {
+													"event": "terrariamod:on_interact_1"
+												}
+											},
+											{
+												"interact_text": "talk",
+												"on_interact": {
+													"event": "terrariamod:on_interact_2"
+												}
+											}
+										]
+									}
+								},
+								"key": "minecraft:type_family",
+								"children": [
+									{
+										"open": {
+											"family": [
+												"mob"
+											]
+										},
+										"key": "family",
+										"is_minified": true,
+										"children": [
+											"mob"
+										]
+									}
+								]
+							},
+							{
+								"key": "minecraft:mark_variant",
+								"is_minified": true,
+								"children": {
+									"value": 0
+								}
+							},
+							{
+								"key": "minecraft:breathable",
+								"is_minified": true,
+								"children": {
+									"total_supply": 15,
+									"suffocate_time": 0
+								}
+							},
+							{
+								"key": "minecraft:health",
+								"is_minified": true,
+								"children": {
+									"value": 250,
+									"max": 250,
+									"min": 1
+								}
+							},
+							{
+								"key": "minecraft:hurt_on_condition",
+								"is_minified": true,
+								"children": {
+									"damage_conditions": [
+										{
+											"filters": {
+												"test": "in_lava",
+												"subject": "self",
+												"operator": "==",
+												"value": true
+											},
+											"cause": "lava",
+											"damage_per_tick": 4
+										}
+									]
+								}
+							},
+							{
+								"key": "minecraft:hide",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"key": "minecraft:collision_box",
+								"is_minified": true,
+								"children": {
+									"width": 0.6,
+									"height": 1.9
+								}
+							},
+							{
+								"key": "minecraft:nameable",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"open": {
+									"minecraft:behavior.trade_interest": {
+										"priority": 5,
+										"within_radius": 6,
+										"interest_time": 45,
+										"remove_item_time": 1,
+										"carried_item_switch_time": 2,
+										"cooldown": 2
+									},
+									"minecraft:type_family": {
+										"family": [
+											"mob"
+										]
+									},
+									"minecraft:mark_variant": {
+										"value": 0
+									},
+									"minecraft:breathable": {
+										"total_supply": 15,
+										"suffocate_time": 0
+									},
+									"minecraft:health": {
+										"value": 250,
+										"max": 250,
+										"min": 1
+									},
+									"minecraft:hurt_on_condition": {
+										"damage_conditions": [
+											{
+												"filters": {
+													"test": "in_lava",
+													"subject": "self",
+													"operator": "==",
+													"value": true
+												},
+												"cause": "lava",
+												"damage_per_tick": 4
+											}
+										]
+									},
+									"minecraft:hide": {},
+									"minecraft:collision_box": {
+										"width": 0.6,
+										"height": 1.9
+									},
+									"minecraft:nameable": {},
+									"minecraft:movement": {
+										"value": 0
+									},
+									"minecraft:navigation.walk": {
+										"can_path_over_water": true,
+										"can_pass_doors": true,
+										"can_open_doors": true,
+										"avoid_water": true
+									},
+									"minecraft:follow_range": {
+										"value": 128
+									},
+									"minecraft:annotation.open_door": {},
+									"minecraft:movement.basic": {},
+									"minecraft:jump.static": {},
+									"minecraft:can_climb": {},
+									"minecraft:inventory": {
+										"inventory_size": 8,
+										"private": true
+									},
+									"minecraft:dweller": {
+										"dwelling_type": "village",
+										"dweller_role": "inhabitant",
+										"update_interval_base": 60,
+										"update_interval_variant": 40,
+										"can_find_poi": true,
+										"can_migrate": true,
+										"first_founding_reward": 5
+									},
+									"minecraft:persistent": {},
+									"minecraft:behavior.float": {
+										"priority": 0
+									},
+									"minecraft:behavior.hide": {
+										"priority": 0,
+										"speed_multiplier": 0.8,
+										"poi_type": "bed",
+										"duration": 30
+									},
+									"minecraft:behavior.panic": {
+										"priority": 1,
+										"speed_multiplier": 0.6,
+										"damage_sources": "entity_attack"
+									},
+									"minecraft:behavior.trade_with_player": {
+										"priority": 2
+									},
+									"minecraft:behavior.avoid_mob_type": {
+										"priority": 4,
+										"entity_types": [
+											{
+												"filters": {
+													"any_of": [
+														{
+															"test": "is_family",
+															"subject": "other",
+															"value": "zombie"
+														},
+														{
+															"test": "is_family",
+															"subject": "other",
+															"value": "zombie_villager"
+														},
+														{
+															"test": "is_family",
+															"subject": "other",
+															"value": "zombie_pigman"
+														},
+														{
+															"test": "is_family",
+															"subject": "other",
+															"value": "illager"
+														},
+														{
+															"test": "is_family",
+															"subject": "other",
+															"value": "vex"
+														}
+													]
+												},
+												"max_dist": 8,
+												"walk_speed_multiplier": 0.6,
+												"sprint_speed_multiplier": 0.6
+											}
+										]
+									},
+									"minecraft:behavior.pickup_items": {
+										"priority": 4,
+										"max_dist": 3,
+										"goal_radius": 2,
+										"speed_multiplier": 0.5,
+										"can_pickup_to_hand_or_equipment": false
+									},
+									"minecraft:behavior.move_indoors": {
+										"priority": 6,
+										"speed_multiplier": 0.8,
+										"timeout_cooldown": 8
+									},
+									"minecraft:behavior.look_at_trading_player": {
+										"priority": 7
+									},
+									"minecraft:behavior.look_at_player": {
+										"priority": 8,
+										"look_distance": 8,
+										"probability": 0.02
+									},
+									"minecraft:behavior.share_items": {
+										"priority": 9,
+										"max_dist": 3,
+										"goal_radius": 2,
+										"speed_multiplier": 0.5,
+										"entity_types": [
+											{
+												"filters": {
+													"test": "is_family",
+													"subject": "other",
+													"value": "villager"
+												}
+											}
+										]
+									},
+									"minecraft:behavior.move_towards_restriction": {
+										"priority": 10,
+										"speed_multiplier": 0.6
+									},
+									"minecraft:behavior.random_stroll": {
+										"priority": 10,
+										"speed_multiplier": 0.6
+									},
+									"minecraft:physics": {},
+									"minecraft:pushable": {
+										"is_pushable": true,
+										"is_pushable_by_piston": true
+									},
+									"minecraft:behavior.nearest_attackable_target": {
+										"priority": 2,
+										"must_see": true,
+										"reselect_targets": true,
+										"entity_types": [
+											{
+												"filters": {
+													"test": "is_family",
+													"subject": "other",
+													"value": "slimes_terraria"
+												},
+												"max_dist": 8
+											}
+										]
+									},
+									"minecraft:behavior.ranged_attack": {
+										"priority": 0,
+										"attack_interval_min": 1,
+										"attack_interval_max": 3,
+										"attack_radius": 15
+									},
+									"minecraft:shooter": {
+										"def": "terrariamod:musketball_projectile_flintlockpistol"
+									},
+									"minecraft:interact": {
+										"interactions": [
+											{
+												"cooldown": 999,
+												"interact_text": "curse",
+												"on_interact": {
+													"event": "terrariamod:on_interact_1"
+												}
+											},
+											{
+												"interact_text": "talk",
+												"on_interact": {
+													"event": "terrariamod:on_interact_2"
+												}
+											}
+										]
+									}
+								},
+								"key": "minecraft:movement",
+								"is_minified": true,
+								"children": {
+									"value": 0
+								}
+							},
+							{
+								"key": "minecraft:navigation.walk",
+								"is_minified": true,
+								"children": {
+									"can_path_over_water": true,
+									"can_pass_doors": true,
+									"can_open_doors": true,
+									"avoid_water": true
+								}
+							},
+							{
+								"key": "minecraft:follow_range",
+								"is_minified": true,
+								"children": {
+									"value": 128
+								}
+							},
+							{
+								"key": "minecraft:annotation.open_door",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"open": {
+									"minecraft:behavior.trade_interest": {
+										"priority": 5,
+										"within_radius": 6,
+										"interest_time": 45,
+										"remove_item_time": 1,
+										"carried_item_switch_time": 2,
+										"cooldown": 2
+									},
+									"minecraft:type_family": {
+										"family": [
+											"mob"
+										]
+									},
+									"minecraft:mark_variant": {
+										"value": 0
+									},
+									"minecraft:breathable": {
+										"total_supply": 15,
+										"suffocate_time": 0
+									},
+									"minecraft:health": {
+										"value": 250,
+										"max": 250,
+										"min": 1
+									},
+									"minecraft:hurt_on_condition": {
+										"damage_conditions": [
+											{
+												"filters": {
+													"test": "in_lava",
+													"subject": "self",
+													"operator": "==",
+													"value": true
+												},
+												"cause": "lava",
+												"damage_per_tick": 4
+											}
+										]
+									},
+									"minecraft:hide": {},
+									"minecraft:collision_box": {
+										"width": 0.6,
+										"height": 1.9
+									},
+									"minecraft:nameable": {},
+									"minecraft:movement": {
+										"value": 0
+									},
+									"minecraft:navigation.walk": {
+										"can_path_over_water": true,
+										"can_pass_doors": true,
+										"can_open_doors": true,
+										"avoid_water": true
+									},
+									"minecraft:follow_range": {
+										"value": 128
+									},
+									"minecraft:annotation.open_door": {},
+									"minecraft:movement.basic": {},
+									"minecraft:jump.static": {},
+									"minecraft:can_climb": {},
+									"minecraft:inventory": {
+										"inventory_size": 8,
+										"private": true
+									},
+									"minecraft:dweller": {
+										"dwelling_type": "village",
+										"dweller_role": "inhabitant",
+										"update_interval_base": 60,
+										"update_interval_variant": 40,
+										"can_find_poi": true,
+										"can_migrate": true,
+										"first_founding_reward": 5
+									},
+									"minecraft:persistent": {},
+									"minecraft:behavior.float": {
+										"priority": 0
+									},
+									"minecraft:behavior.hide": {
+										"priority": 0,
+										"speed_multiplier": 0.8,
+										"poi_type": "bed",
+										"duration": 30
+									},
+									"minecraft:behavior.panic": {
+										"priority": 1,
+										"speed_multiplier": 0.6,
+										"damage_sources": "entity_attack"
+									},
+									"minecraft:behavior.trade_with_player": {
+										"priority": 2
+									},
+									"minecraft:behavior.avoid_mob_type": {
+										"priority": 4,
+										"entity_types": [
+											{
+												"filters": {
+													"any_of": [
+														{
+															"test": "is_family",
+															"subject": "other",
+															"value": "zombie"
+														},
+														{
+															"test": "is_family",
+															"subject": "other",
+															"value": "zombie_villager"
+														},
+														{
+															"test": "is_family",
+															"subject": "other",
+															"value": "zombie_pigman"
+														},
+														{
+															"test": "is_family",
+															"subject": "other",
+															"value": "illager"
+														},
+														{
+															"test": "is_family",
+															"subject": "other",
+															"value": "vex"
+														}
+													]
+												},
+												"max_dist": 8,
+												"walk_speed_multiplier": 0.6,
+												"sprint_speed_multiplier": 0.6
+											}
+										]
+									},
+									"minecraft:behavior.pickup_items": {
+										"priority": 4,
+										"max_dist": 3,
+										"goal_radius": 2,
+										"speed_multiplier": 0.5,
+										"can_pickup_to_hand_or_equipment": false
+									},
+									"minecraft:behavior.move_indoors": {
+										"priority": 6,
+										"speed_multiplier": 0.8,
+										"timeout_cooldown": 8
+									},
+									"minecraft:behavior.look_at_trading_player": {
+										"priority": 7
+									},
+									"minecraft:behavior.look_at_player": {
+										"priority": 8,
+										"look_distance": 8,
+										"probability": 0.02
+									},
+									"minecraft:behavior.share_items": {
+										"priority": 9,
+										"max_dist": 3,
+										"goal_radius": 2,
+										"speed_multiplier": 0.5,
+										"entity_types": [
+											{
+												"filters": {
+													"test": "is_family",
+													"subject": "other",
+													"value": "villager"
+												}
+											}
+										]
+									},
+									"minecraft:behavior.move_towards_restriction": {
+										"priority": 10,
+										"speed_multiplier": 0.6
+									},
+									"minecraft:behavior.random_stroll": {
+										"priority": 10,
+										"speed_multiplier": 0.6
+									},
+									"minecraft:physics": {},
+									"minecraft:pushable": {
+										"is_pushable": true,
+										"is_pushable_by_piston": true
+									},
+									"minecraft:behavior.nearest_attackable_target": {
+										"priority": 2,
+										"must_see": true,
+										"reselect_targets": true,
+										"entity_types": [
+											{
+												"filters": {
+													"test": "is_family",
+													"subject": "other",
+													"value": "slimes_terraria"
+												},
+												"max_dist": 8
+											}
+										]
+									},
+									"minecraft:behavior.ranged_attack": {
+										"priority": 0,
+										"attack_interval_min": 1,
+										"attack_interval_max": 3,
+										"attack_radius": 15
+									},
+									"minecraft:shooter": {
+										"def": "terrariamod:musketball_projectile_flintlockpistol"
+									},
+									"minecraft:interact": {
+										"interactions": [
+											{
+												"cooldown": 999,
+												"interact_text": "curse",
+												"on_interact": {
+													"event": "terrariamod:on_interact_1"
+												}
+											},
+											{
+												"interact_text": "talk",
+												"on_interact": {
+													"event": "terrariamod:on_interact_2"
+												}
+											}
+										]
+									}
+								},
+								"key": "minecraft:movement.basic",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"key": "minecraft:jump.static",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"key": "minecraft:can_climb",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"key": "minecraft:inventory",
+								"is_minified": true,
+								"children": {
+									"inventory_size": 8,
+									"private": true
+								}
+							},
+							{
+								"key": "minecraft:dweller",
+								"is_minified": true,
+								"children": {
+									"dwelling_type": "village",
+									"dweller_role": "inhabitant",
+									"update_interval_base": 60,
+									"update_interval_variant": 40,
+									"can_find_poi": true,
+									"can_migrate": true,
+									"first_founding_reward": 5
+								}
+							},
+							{
+								"key": "minecraft:persistent",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"key": "minecraft:behavior.float",
+								"is_minified": true,
+								"children": {
+									"priority": 0
+								}
+							},
+							{
+								"key": "minecraft:behavior.hide",
+								"is_minified": true,
+								"children": {
+									"priority": 0,
+									"speed_multiplier": 0.8,
+									"poi_type": "bed",
+									"duration": 30
+								}
+							},
+							{
+								"open": {
+									"minecraft:behavior.trade_interest": {
+										"priority": 5,
+										"within_radius": 6,
+										"interest_time": 45,
+										"remove_item_time": 1,
+										"carried_item_switch_time": 2,
+										"cooldown": 2
+									},
+									"minecraft:type_family": {
+										"family": [
+											"mob"
+										]
+									},
+									"minecraft:mark_variant": {
+										"value": 0
+									},
+									"minecraft:breathable": {
+										"total_supply": 15,
+										"suffocate_time": 0
+									},
+									"minecraft:health": {
+										"value": 250,
+										"max": 250,
+										"min": 1
+									},
+									"minecraft:hurt_on_condition": {
+										"damage_conditions": [
+											{
+												"filters": {
+													"test": "in_lava",
+													"subject": "self",
+													"operator": "==",
+													"value": true
+												},
+												"cause": "lava",
+												"damage_per_tick": 4
+											}
+										]
+									},
+									"minecraft:hide": {},
+									"minecraft:collision_box": {
+										"width": 0.6,
+										"height": 1.9
+									},
+									"minecraft:nameable": {},
+									"minecraft:movement": {
+										"value": 0
+									},
+									"minecraft:navigation.walk": {
+										"can_path_over_water": true,
+										"can_pass_doors": true,
+										"can_open_doors": true,
+										"avoid_water": true
+									},
+									"minecraft:follow_range": {
+										"value": 128
+									},
+									"minecraft:annotation.open_door": {},
+									"minecraft:movement.basic": {},
+									"minecraft:jump.static": {},
+									"minecraft:can_climb": {},
+									"minecraft:inventory": {
+										"inventory_size": 8,
+										"private": true
+									},
+									"minecraft:dweller": {
+										"dwelling_type": "village",
+										"dweller_role": "inhabitant",
+										"update_interval_base": 60,
+										"update_interval_variant": 40,
+										"can_find_poi": true,
+										"can_migrate": true,
+										"first_founding_reward": 5
+									},
+									"minecraft:persistent": {},
+									"minecraft:behavior.float": {
+										"priority": 0
+									},
+									"minecraft:behavior.hide": {
+										"priority": 0,
+										"speed_multiplier": 0.8,
+										"poi_type": "bed",
+										"duration": 30
+									},
+									"minecraft:behavior.panic": {
+										"priority": 1,
+										"speed_multiplier": 0.6,
+										"damage_sources": "entity_attack"
+									},
+									"minecraft:behavior.trade_with_player": {
+										"priority": 2
+									},
+									"minecraft:behavior.avoid_mob_type": {
+										"priority": 4,
+										"entity_types": [
+											{
+												"filters": {
+													"any_of": [
+														{
+															"test": "is_family",
+															"subject": "other",
+															"value": "zombie"
+														},
+														{
+															"test": "is_family",
+															"subject": "other",
+															"value": "zombie_villager"
+														},
+														{
+															"test": "is_family",
+															"subject": "other",
+															"value": "zombie_pigman"
+														},
+														{
+															"test": "is_family",
+															"subject": "other",
+															"value": "illager"
+														},
+														{
+															"test": "is_family",
+															"subject": "other",
+															"value": "vex"
+														}
+													]
+												},
+												"max_dist": 8,
+												"walk_speed_multiplier": 0.6,
+												"sprint_speed_multiplier": 0.6
+											}
+										]
+									},
+									"minecraft:behavior.pickup_items": {
+										"priority": 4,
+										"max_dist": 3,
+										"goal_radius": 2,
+										"speed_multiplier": 0.5,
+										"can_pickup_to_hand_or_equipment": false
+									},
+									"minecraft:behavior.move_indoors": {
+										"priority": 6,
+										"speed_multiplier": 0.8,
+										"timeout_cooldown": 8
+									},
+									"minecraft:behavior.look_at_trading_player": {
+										"priority": 7
+									},
+									"minecraft:behavior.look_at_player": {
+										"priority": 8,
+										"look_distance": 8,
+										"probability": 0.02
+									},
+									"minecraft:behavior.share_items": {
+										"priority": 9,
+										"max_dist": 3,
+										"goal_radius": 2,
+										"speed_multiplier": 0.5,
+										"entity_types": [
+											{
+												"filters": {
+													"test": "is_family",
+													"subject": "other",
+													"value": "villager"
+												}
+											}
+										]
+									},
+									"minecraft:behavior.move_towards_restriction": {
+										"priority": 10,
+										"speed_multiplier": 0.6
+									},
+									"minecraft:behavior.random_stroll": {
+										"priority": 10,
+										"speed_multiplier": 0.6
+									},
+									"minecraft:physics": {},
+									"minecraft:pushable": {
+										"is_pushable": true,
+										"is_pushable_by_piston": true
+									},
+									"minecraft:behavior.nearest_attackable_target": {
+										"priority": 2,
+										"must_see": true,
+										"reselect_targets": true,
+										"entity_types": [
+											{
+												"filters": {
+													"test": "is_family",
+													"subject": "other",
+													"value": "slimes_terraria"
+												},
+												"max_dist": 8
+											}
+										]
+									},
+									"minecraft:behavior.ranged_attack": {
+										"priority": 0,
+										"attack_interval_min": 1,
+										"attack_interval_max": 3,
+										"attack_radius": 15
+									},
+									"minecraft:shooter": {
+										"def": "terrariamod:musketball_projectile_flintlockpistol"
+									},
+									"minecraft:interact": {
+										"interactions": [
+											{
+												"cooldown": 999,
+												"interact_text": "curse",
+												"on_interact": {
+													"event": "terrariamod:on_interact_1"
+												}
+											},
+											{
+												"interact_text": "talk",
+												"on_interact": {
+													"event": "terrariamod:on_interact_2"
+												}
+											}
+										]
+									}
+								},
+								"key": "minecraft:behavior.panic",
+								"is_minified": true,
+								"children": {
+									"priority": 1,
+									"speed_multiplier": 0.6,
+									"damage_sources": "entity_attack"
+								}
+							},
+							{
+								"key": "minecraft:behavior.trade_with_player",
+								"is_minified": true,
+								"children": {
+									"priority": 2
+								}
+							},
+							{
+								"key": "minecraft:behavior.avoid_mob_type",
+								"is_minified": true,
+								"children": {
+									"priority": 4,
+									"entity_types": [
+										{
+											"filters": {
+												"any_of": [
+													{
+														"test": "is_family",
+														"subject": "other",
+														"value": "zombie"
+													},
+													{
+														"test": "is_family",
+														"subject": "other",
+														"value": "zombie_villager"
+													},
+													{
+														"test": "is_family",
+														"subject": "other",
+														"value": "zombie_pigman"
+													},
+													{
+														"test": "is_family",
+														"subject": "other",
+														"value": "illager"
+													},
+													{
+														"test": "is_family",
+														"subject": "other",
+														"value": "vex"
+													}
+												]
+											},
+											"max_dist": 8,
+											"walk_speed_multiplier": 0.6,
+											"sprint_speed_multiplier": 0.6
+										}
+									]
+								}
+							},
+							{
+								"key": "minecraft:behavior.pickup_items",
+								"is_minified": true,
+								"children": {
+									"priority": 4,
+									"max_dist": 3,
+									"goal_radius": 2,
+									"speed_multiplier": 0.5,
+									"can_pickup_to_hand_or_equipment": false
+								}
+							},
+							{
+								"key": "minecraft:behavior.move_indoors",
+								"is_minified": true,
+								"children": {
+									"priority": 6,
+									"speed_multiplier": 0.8,
+									"timeout_cooldown": 8
+								}
+							},
+							{
+								"key": "minecraft:behavior.look_at_trading_player",
+								"is_minified": true,
+								"children": {
+									"priority": 7
+								}
+							},
+							{
+								"key": "minecraft:behavior.look_at_player",
+								"is_minified": true,
+								"children": {
+									"priority": 8,
+									"look_distance": 8,
+									"probability": 0.02
+								}
+							},
+							{
+								"key": "minecraft:behavior.share_items",
+								"is_minified": true,
+								"children": {
+									"priority": 9,
+									"max_dist": 3,
+									"goal_radius": 2,
+									"speed_multiplier": 0.5,
+									"entity_types": [
+										{
+											"filters": {
+												"test": "is_family",
+												"subject": "other",
+												"value": "villager"
+											}
+										}
+									]
+								}
+							},
+							{
+								"key": "minecraft:behavior.move_towards_restriction",
+								"is_minified": true,
+								"children": {
+									"priority": 10,
+									"speed_multiplier": 0.6
+								}
+							},
+							{
+								"key": "minecraft:behavior.random_stroll",
+								"is_minified": true,
+								"children": {
+									"priority": 10,
+									"speed_multiplier": 0.6
+								}
+							},
+							{
+								"key": "minecraft:physics",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"key": "minecraft:pushable",
+								"is_minified": true,
+								"children": {
+									"is_pushable": true,
+									"is_pushable_by_piston": true
+								}
+							},
+							{
+								"key": "minecraft:behavior.nearest_attackable_target",
+								"children": [
+									{
+										"data": "2",
+										"key": "priority"
+									},
+									{
+										"data": "true",
+										"key": "must_see"
+									},
+									{
+										"data": "true",
+										"key": "reselect_targets"
+									},
+									{
+										"open": {
+											"priority": 2,
+											"must_see": true,
+											"reselect_targets": true,
+											"entity_types": [
+												{
+													"filters": {
+														"test": "is_family",
+														"subject": "other",
+														"value": "slimes_terraria"
+													},
+													"max_dist": 8
+												}
+											]
+										},
+										"key": "entity_types",
+										"children": [
+											{
+												"open": [
+													{
+														"filters": {
+															"test": "is_family",
+															"subject": "other",
+															"value": "slimes_terraria"
+														},
+														"max_dist": 8
+													}
+												],
+												"children": [
+													{
+														"open": {
+															"filters": {
+																"test": "is_family",
+																"subject": "other",
+																"value": "slimes_terraria"
+															},
+															"max_dist": 8
+														},
+														"key": "filters",
+														"is_minified": true,
+														"children": {
+															"test": "is_family",
+															"subject": "other",
+															"value": "slimes_terraria"
+														}
+													},
+													{
+														"open": {
+															"filters": {
+																"test": "is_family",
+																"subject": "other",
+																"value": "slimes_terraria"
+															},
+															"max_dist": 8
+														},
+														"data": "8",
+														"key": "max_dist"
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"key": "minecraft:behavior.ranged_attack",
+								"is_minified": true,
+								"children": {
+									"priority": 0,
+									"attack_interval_min": 1,
+									"attack_interval_max": 3,
+									"attack_radius": 15
+								}
+							},
+							{
+								"key": "minecraft:shooter",
+								"is_minified": true,
+								"children": {
+									"def": "terrariamod:musketball_projectile_flintlockpistol"
+								}
+							},
+							{
+								"open": {
+									"minecraft:behavior.trade_interest": {
+										"priority": 5,
+										"within_radius": 6,
+										"interest_time": 45,
+										"remove_item_time": 1,
+										"carried_item_switch_time": 2,
+										"cooldown": 2
+									},
+									"minecraft:type_family": {
+										"family": [
+											"mob"
+										]
+									},
+									"minecraft:mark_variant": {
+										"value": 0
+									},
+									"minecraft:breathable": {
+										"total_supply": 15,
+										"suffocate_time": 0
+									},
+									"minecraft:health": {
+										"value": 250,
+										"max": 250,
+										"min": 1
+									},
+									"minecraft:hurt_on_condition": {
+										"damage_conditions": [
+											{
+												"filters": {
+													"test": "in_lava",
+													"subject": "self",
+													"operator": "==",
+													"value": true
+												},
+												"cause": "lava",
+												"damage_per_tick": 4
+											}
+										]
+									},
+									"minecraft:hide": {},
+									"minecraft:collision_box": {
+										"width": 0.6,
+										"height": 1.9
+									},
+									"minecraft:nameable": {},
+									"minecraft:movement": {
+										"value": 0
+									},
+									"minecraft:navigation.walk": {
+										"can_path_over_water": true,
+										"can_pass_doors": true,
+										"can_open_doors": true,
+										"avoid_water": true
+									},
+									"minecraft:follow_range": {
+										"value": 128
+									},
+									"minecraft:annotation.open_door": {},
+									"minecraft:movement.basic": {},
+									"minecraft:jump.static": {},
+									"minecraft:can_climb": {},
+									"minecraft:inventory": {
+										"inventory_size": 8,
+										"private": true
+									},
+									"minecraft:dweller": {
+										"dwelling_type": "village",
+										"dweller_role": "inhabitant",
+										"update_interval_base": 60,
+										"update_interval_variant": 40,
+										"can_find_poi": true,
+										"can_migrate": true,
+										"first_founding_reward": 5
+									},
+									"minecraft:persistent": {},
+									"minecraft:behavior.float": {
+										"priority": 0
+									},
+									"minecraft:behavior.hide": {
+										"priority": 0,
+										"speed_multiplier": 0.8,
+										"poi_type": "bed",
+										"duration": 30
+									},
+									"minecraft:behavior.panic": {
+										"priority": 1,
+										"speed_multiplier": 0.6,
+										"damage_sources": "entity_attack"
+									},
+									"minecraft:behavior.trade_with_player": {
+										"priority": 2
+									},
+									"minecraft:behavior.avoid_mob_type": {
+										"priority": 4,
+										"entity_types": [
+											{
+												"filters": {
+													"any_of": [
+														{
+															"test": "is_family",
+															"subject": "other",
+															"value": "zombie"
+														},
+														{
+															"test": "is_family",
+															"subject": "other",
+															"value": "zombie_villager"
+														},
+														{
+															"test": "is_family",
+															"subject": "other",
+															"value": "zombie_pigman"
+														},
+														{
+															"test": "is_family",
+															"subject": "other",
+															"value": "illager"
+														},
+														{
+															"test": "is_family",
+															"subject": "other",
+															"value": "vex"
+														}
+													]
+												},
+												"max_dist": 8,
+												"walk_speed_multiplier": 0.6,
+												"sprint_speed_multiplier": 0.6
+											}
+										]
+									},
+									"minecraft:behavior.pickup_items": {
+										"priority": 4,
+										"max_dist": 3,
+										"goal_radius": 2,
+										"speed_multiplier": 0.5,
+										"can_pickup_to_hand_or_equipment": false
+									},
+									"minecraft:behavior.move_indoors": {
+										"priority": 6,
+										"speed_multiplier": 0.8,
+										"timeout_cooldown": 8
+									},
+									"minecraft:behavior.look_at_trading_player": {
+										"priority": 7
+									},
+									"minecraft:behavior.look_at_player": {
+										"priority": 8,
+										"look_distance": 8,
+										"probability": 0.02
+									},
+									"minecraft:behavior.share_items": {
+										"priority": 9,
+										"max_dist": 3,
+										"goal_radius": 2,
+										"speed_multiplier": 0.5,
+										"entity_types": [
+											{
+												"filters": {
+													"test": "is_family",
+													"subject": "other",
+													"value": "villager"
+												}
+											}
+										]
+									},
+									"minecraft:behavior.move_towards_restriction": {
+										"priority": 10,
+										"speed_multiplier": 0.6
+									},
+									"minecraft:behavior.random_stroll": {
+										"priority": 10,
+										"speed_multiplier": 0.6
+									},
+									"minecraft:physics": {},
+									"minecraft:pushable": {
+										"is_pushable": true,
+										"is_pushable_by_piston": true
+									},
+									"minecraft:behavior.nearest_attackable_target": {
+										"priority": 2,
+										"must_see": true,
+										"reselect_targets": true,
+										"entity_types": [
+											{
+												"filters": {
+													"test": "is_family",
+													"subject": "other",
+													"value": "slimes_terraria"
+												},
+												"max_dist": 8
+											}
+										]
+									},
+									"minecraft:behavior.ranged_attack": {
+										"priority": 0,
+										"attack_interval_min": 1,
+										"attack_interval_max": 3,
+										"attack_radius": 15
+									},
+									"minecraft:shooter": {
+										"def": "terrariamod:musketball_projectile_flintlockpistol"
+									},
+									"minecraft:interact": {
+										"interactions": [
+											{
+												"cooldown": 999,
+												"interact_text": "curse",
+												"on_interact": {
+													"event": "terrariamod:on_interact_1"
+												}
+											},
+											{
+												"interact_text": "talk",
+												"on_interact": {
+													"event": "terrariamod:on_interact_2"
+												}
+											}
+										]
+									}
+								},
+								"key": "minecraft:interact",
+								"children": [
+									{
+										"open": {
+											"interactions": [
+												{
+													"cooldown": 999,
+													"interact_text": "curse",
+													"on_interact": {
+														"event": "terrariamod:on_interact_1"
+													}
+												},
+												{
+													"interact_text": "talk",
+													"on_interact": {
+														"event": "terrariamod:on_interact_2"
+													}
+												}
+											]
+										},
+										"key": "interactions",
+										"children": [
+											{
+												"open": [
+													{
+														"cooldown": 999,
+														"interact_text": "curse",
+														"on_interact": {
+															"event": "terrariamod:on_interact_1"
+														}
+													},
+													{
+														"interact_text": "talk",
+														"on_interact": {
+															"event": "terrariamod:on_interact_2"
+														}
+													}
+												],
+												"children": [
+													{
+														"data": "999",
+														"key": "cooldown"
+													},
+													{
+														"data": "curse",
+														"key": "interact_text"
+													},
+													{
+														"open": {
+															"cooldown": 999,
+															"interact_text": "curse",
+															"on_interact": {
+																"event": "terrariamod:on_interact_1"
+															}
+														},
+														"key": "on_interact",
+														"is_minified": true,
+														"children": {
+															"event": "terrariamod:on_interact_1"
+														}
+													}
+												]
+											},
+											{
+												"open": [
+													{
+														"cooldown": 999,
+														"interact_text": "curse",
+														"on_interact": {
+															"event": "terrariamod:on_interact_1"
+														}
+													},
+													{
+														"interact_text": "talk",
+														"on_interact": {
+															"event": "terrariamod:on_interact_2"
+														}
+													}
+												],
+												"children": [
+													{
+														"data": "talk",
+														"key": "interact_text"
+													},
+													{
+														"open": {
+															"interact_text": "talk",
+															"on_interact": {
+																"event": "terrariamod:on_interact_2"
+															}
+														},
+														"key": "on_interact",
+														"is_minified": true,
+														"children": {
+															"event": "terrariamod:on_interact_2"
+														}
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:oldman",
+								"is_spawnable": true,
+								"is_summonable": true,
+								"is_experimental": false
+							},
+							"component_groups": {
+								"terrariamod:interacted_1": {
+									"minecraft:spawn_entity": {
+										"entities": [
+											{
+												"single_use": true,
+												"spawn_entity": "terrariamod:skeletron_head",
+												"min_wait_time": 1,
+												"max_wait_time": 1
+											}
+										]
+									}
+								}
+							},
+							"components": {
+								"minecraft:behavior.trade_interest": {
+									"priority": 5,
+									"within_radius": 6,
+									"interest_time": 45,
+									"remove_item_time": 1,
+									"carried_item_switch_time": 2,
+									"cooldown": 2
+								},
+								"minecraft:type_family": {
+									"family": [
+										"mob"
+									]
+								},
+								"minecraft:mark_variant": {
+									"value": 0
+								},
+								"minecraft:breathable": {
+									"total_supply": 15,
+									"suffocate_time": 0
+								},
+								"minecraft:health": {
+									"value": 250,
+									"max": 250,
+									"min": 1
+								},
+								"minecraft:hurt_on_condition": {
+									"damage_conditions": [
+										{
+											"filters": {
+												"test": "in_lava",
+												"subject": "self",
+												"operator": "==",
+												"value": true
+											},
+											"cause": "lava",
+											"damage_per_tick": 4
+										}
+									]
+								},
+								"minecraft:hide": {},
+								"minecraft:collision_box": {
+									"width": 0.6,
+									"height": 1.9
+								},
+								"minecraft:nameable": {},
+								"minecraft:movement": {
+									"value": 0
+								},
+								"minecraft:navigation.walk": {
+									"can_path_over_water": true,
+									"can_pass_doors": true,
+									"can_open_doors": true,
+									"avoid_water": true
+								},
+								"minecraft:follow_range": {
+									"value": 128
+								},
+								"minecraft:annotation.open_door": {},
+								"minecraft:movement.basic": {},
+								"minecraft:jump.static": {},
+								"minecraft:can_climb": {},
+								"minecraft:inventory": {
+									"inventory_size": 8,
+									"private": true
+								},
+								"minecraft:dweller": {
+									"dwelling_type": "village",
+									"dweller_role": "inhabitant",
+									"update_interval_base": 60,
+									"update_interval_variant": 40,
+									"can_find_poi": true,
+									"can_migrate": true,
+									"first_founding_reward": 5
+								},
+								"minecraft:persistent": {},
+								"minecraft:behavior.float": {
+									"priority": 0
+								},
+								"minecraft:behavior.hide": {
+									"priority": 0,
+									"speed_multiplier": 0.8,
+									"poi_type": "bed",
+									"duration": 30
+								},
+								"minecraft:behavior.panic": {
+									"priority": 1,
+									"speed_multiplier": 0.6,
+									"damage_sources": "entity_attack"
+								},
+								"minecraft:behavior.trade_with_player": {
+									"priority": 2
+								},
+								"minecraft:behavior.avoid_mob_type": {
+									"priority": 4,
+									"entity_types": [
+										{
+											"filters": {
+												"any_of": [
+													{
+														"test": "is_family",
+														"subject": "other",
+														"value": "zombie"
+													},
+													{
+														"test": "is_family",
+														"subject": "other",
+														"value": "zombie_villager"
+													},
+													{
+														"test": "is_family",
+														"subject": "other",
+														"value": "zombie_pigman"
+													},
+													{
+														"test": "is_family",
+														"subject": "other",
+														"value": "illager"
+													},
+													{
+														"test": "is_family",
+														"subject": "other",
+														"value": "vex"
+													}
+												]
+											},
+											"max_dist": 8,
+											"walk_speed_multiplier": 0.6,
+											"sprint_speed_multiplier": 0.6
+										}
+									]
+								},
+								"minecraft:behavior.pickup_items": {
+									"priority": 4,
+									"max_dist": 3,
+									"goal_radius": 2,
+									"speed_multiplier": 0.5,
+									"can_pickup_to_hand_or_equipment": false
+								},
+								"minecraft:behavior.move_indoors": {
+									"priority": 6,
+									"speed_multiplier": 0.8,
+									"timeout_cooldown": 8
+								},
+								"minecraft:behavior.look_at_trading_player": {
+									"priority": 7
+								},
+								"minecraft:behavior.look_at_player": {
+									"priority": 8,
+									"look_distance": 8,
+									"probability": 0.02
+								},
+								"minecraft:behavior.share_items": {
+									"priority": 9,
+									"max_dist": 3,
+									"goal_radius": 2,
+									"speed_multiplier": 0.5,
+									"entity_types": [
+										{
+											"filters": {
+												"test": "is_family",
+												"subject": "other",
+												"value": "villager"
+											}
+										}
+									]
+								},
+								"minecraft:behavior.move_towards_restriction": {
+									"priority": 10,
+									"speed_multiplier": 0.6
+								},
+								"minecraft:behavior.random_stroll": {
+									"priority": 10,
+									"speed_multiplier": 0.6
+								},
+								"minecraft:physics": {},
+								"minecraft:pushable": {
+									"is_pushable": true,
+									"is_pushable_by_piston": true
+								},
+								"minecraft:behavior.nearest_attackable_target": {
+									"priority": 2,
+									"must_see": true,
+									"reselect_targets": true,
+									"entity_types": [
+										{
+											"filters": {
+												"test": "is_family",
+												"subject": "other",
+												"value": "slimes_terraria"
+											},
+											"max_dist": 8
+										}
+									]
+								},
+								"minecraft:behavior.ranged_attack": {
+									"priority": 0,
+									"attack_interval_min": 1,
+									"attack_interval_max": 3,
+									"attack_radius": 15
+								},
+								"minecraft:shooter": {
+									"def": "terrariamod:musketball_projectile_flintlockpistol"
+								},
+								"minecraft:interact": {
+									"interactions": [
+										{
+											"cooldown": 999,
+											"interact_text": "curse",
+											"on_interact": {
+												"event": "terrariamod:on_interact_1"
+											}
+										},
+										{
+											"interact_text": "talk",
+											"on_interact": {
+												"event": "terrariamod:on_interact_2"
+											}
+										}
+									]
+								}
+							},
+							"events": {
+								"terrariamod:on_interact_1": {
+									"add": {
+										"component_groups": [
+											"terrariamod:interacted_1"
+										]
+									},
+									"execute": {
+										"commands": [
+											"/function oldman_skeletron"
+										]
+									}
+								},
+								"terrariamod:on_interact_2": {
+									"execute": {
+										"commands": [
+											"/function oldman_talk"
+										]
+									}
+								}
+							}
+						},
+						"key": "events",
+						"children": [
+							{
+								"open": {
+									"terrariamod:on_interact_1": {
+										"add": {
+											"component_groups": [
+												"terrariamod:interacted_1"
+											]
+										},
+										"execute": {
+											"commands": [
+												"/function oldman_skeletron"
+											]
+										}
+									},
+									"terrariamod:on_interact_2": {
+										"execute": {
+											"commands": [
+												"/function oldman_talk"
+											]
+										}
+									}
+								},
+								"key": "terrariamod:on_interact_1",
+								"children": [
+									{
+										"open": {
+											"add": {
+												"component_groups": [
+													"terrariamod:interacted_1"
+												]
+											},
+											"execute": {
+												"commands": [
+													"/function oldman_skeletron"
+												]
+											}
+										},
+										"key": "add",
+										"children": [
+											{
+												"open": {
+													"component_groups": [
+														"terrariamod:interacted_1"
+													]
+												},
+												"key": "component_groups",
+												"is_minified": true,
+												"children": [
+													"terrariamod:interacted_1"
+												]
+											}
+										]
+									},
+									{
+										"open": {
+											"add": {
+												"component_groups": [
+													"terrariamod:interacted_1"
+												]
+											},
+											"execute": {
+												"commands": [
+													"/function oldman_skeletron"
+												]
+											}
+										},
+										"key": "execute",
+										"children": [
+											{
+												"open": {
+													"commands": [
+														"/function oldman_skeletron"
+													]
+												},
+												"key": "commands",
+												"is_minified": true,
+												"children": [
+													"/function oldman_skeletron"
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": {
+									"terrariamod:on_interact_1": {
+										"add": {
+											"component_groups": [
+												"terrariamod:interacted_1"
+											]
+										},
+										"execute": {
+											"commands": [
+												"/function oldman_skeletron"
+											]
+										}
+									},
+									"terrariamod:on_interact_2": {
+										"execute": {
+											"commands": [
+												"/function oldman_talk"
+											]
+										}
+									}
+								},
+								"key": "terrariamod:on_interact_2",
+								"children": [
+									{
+										"open": {
+											"execute": {
+												"commands": [
+													"/function oldman_talk"
+												]
+											}
+										},
+										"key": "execute",
+										"children": [
+											{
+												"open": {
+													"commands": [
+														"/function oldman_talk"
+													]
+												},
+												"key": "commands",
+												"is_minified": true,
+												"children": [
+													"/function oldman_talk"
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

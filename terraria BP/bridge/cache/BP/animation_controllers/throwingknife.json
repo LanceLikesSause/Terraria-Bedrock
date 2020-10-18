@@ -1,0 +1,302 @@
+{
+	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\animation_controllers\\throwingknife.json",
+	"file_type": "animation_controller",
+	"format_version": 1,
+	"file_uuid": "2125aa49_16fd_4d8d_96c0_91a181aa80f0",
+	"file_version": 16,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"animation_controllers": {
+						"controller.animation.throwingknife": {
+							"initial_state": "default",
+							"states": {
+								"default": {
+									"transitions": [
+										{
+											"shoot": "query.get_equipped_item_name=='throwingknife'"
+										},
+										{
+											"shoot": "(query.time_stamp - variable.startTime) > 25"
+										}
+									],
+									"on_entry": [
+										"variable.startTime = query.time_stamp;"
+									]
+								},
+								"shoot": {
+									"transitions": [
+										{
+											"default": "query.get_equipped_item_name=='throwingknife'"
+										}
+									],
+									"on_entry": [
+										"/clear @s terrariamod:throwingknife 0 1",
+										"/playsound pa_arc_inframun_shot"
+									]
+								}
+							}
+						}
+					}
+				},
+				"key": "animation_controllers",
+				"children": [
+					{
+						"open": {
+							"controller.animation.throwingknife": {
+								"initial_state": "default",
+								"states": {
+									"default": {
+										"transitions": [
+											{
+												"shoot": "query.get_equipped_item_name=='throwingknife'"
+											},
+											{
+												"shoot": "(query.time_stamp - variable.startTime) > 25"
+											}
+										],
+										"on_entry": [
+											"variable.startTime = query.time_stamp;"
+										]
+									},
+									"shoot": {
+										"transitions": [
+											{
+												"default": "query.get_equipped_item_name=='throwingknife'"
+											}
+										],
+										"on_entry": [
+											"/clear @s terrariamod:throwingknife 0 1",
+											"/playsound pa_arc_inframun_shot"
+										]
+									}
+								}
+							}
+						},
+						"key": "controller.animation.throwingknife",
+						"children": [
+							{
+								"data": "default",
+								"key": "initial_state"
+							},
+							{
+								"open": {
+									"initial_state": "default",
+									"states": {
+										"default": {
+											"transitions": [
+												{
+													"shoot": "query.get_equipped_item_name=='throwingknife'"
+												},
+												{
+													"shoot": "(query.time_stamp - variable.startTime) > 25"
+												}
+											],
+											"on_entry": [
+												"variable.startTime = query.time_stamp;"
+											]
+										},
+										"shoot": {
+											"transitions": [
+												{
+													"default": "query.get_equipped_item_name=='throwingknife'"
+												}
+											],
+											"on_entry": [
+												"/clear @s terrariamod:throwingknife 0 1",
+												"/playsound pa_arc_inframun_shot"
+											]
+										}
+									}
+								},
+								"key": "states",
+								"children": [
+									{
+										"open": {
+											"default": {
+												"transitions": [
+													{
+														"shoot": "query.get_equipped_item_name=='throwingknife'"
+													},
+													{
+														"shoot": "(query.time_stamp - variable.startTime) > 25"
+													}
+												],
+												"on_entry": [
+													"variable.startTime = query.time_stamp;"
+												]
+											},
+											"shoot": {
+												"transitions": [
+													{
+														"default": "query.get_equipped_item_name=='throwingknife'"
+													}
+												],
+												"on_entry": [
+													"/clear @s terrariamod:throwingknife 0 1",
+													"/playsound pa_arc_inframun_shot"
+												]
+											}
+										},
+										"key": "default",
+										"children": [
+											{
+												"open": {
+													"transitions": [
+														{
+															"shoot": "query.get_equipped_item_name=='throwingknife'"
+														},
+														{
+															"shoot": "(query.time_stamp - variable.startTime) > 25"
+														}
+													],
+													"on_entry": [
+														"variable.startTime = query.time_stamp;"
+													]
+												},
+												"key": "transitions",
+												"children": [
+													{
+														"open": [
+															{
+																"shoot": "query.get_equipped_item_name=='throwingknife'"
+															},
+															{
+																"shoot": "(query.time_stamp - variable.startTime) > 25"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"shoot": "query.get_equipped_item_name=='throwingknife'"
+														}
+													},
+													{
+														"open": [
+															{
+																"shoot": "query.get_equipped_item_name=='throwingknife'"
+															},
+															{
+																"shoot": "(query.time_stamp - variable.startTime) > 25"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"shoot": "(query.time_stamp - variable.startTime) > 25"
+														}
+													}
+												]
+											},
+											{
+												"open": {
+													"transitions": [
+														{
+															"shoot": "query.get_equipped_item_name=='throwingknife'"
+														},
+														{
+															"shoot": "(query.time_stamp - variable.startTime) > 25"
+														}
+													],
+													"on_entry": [
+														"variable.startTime = query.time_stamp;"
+													]
+												},
+												"key": "on_entry",
+												"is_minified": true,
+												"children": [
+													"variable.startTime = query.time_stamp;"
+												]
+											}
+										]
+									},
+									{
+										"open": {
+											"default": {
+												"transitions": [
+													{
+														"shoot": "query.get_equipped_item_name=='throwingknife'"
+													},
+													{
+														"shoot": "(query.time_stamp - variable.startTime) > 25"
+													}
+												],
+												"on_entry": [
+													"variable.startTime = query.time_stamp;"
+												]
+											},
+											"shoot": {
+												"transitions": [
+													{
+														"default": "query.get_equipped_item_name=='throwingknife'"
+													}
+												],
+												"on_entry": [
+													"/clear @s terrariamod:throwingknife 0 1",
+													"/playsound pa_arc_inframun_shot"
+												]
+											}
+										},
+										"key": "shoot",
+										"children": [
+											{
+												"open": {
+													"transitions": [
+														{
+															"default": "query.get_equipped_item_name=='throwingknife'"
+														}
+													],
+													"on_entry": [
+														"/clear @s terrariamod:throwingknife 0 1",
+														"/playsound pa_arc_inframun_shot"
+													]
+												},
+												"key": "transitions",
+												"children": [
+													{
+														"open": [
+															{
+																"default": "query.get_equipped_item_name=='throwingknife'"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"default": "query.get_equipped_item_name=='throwingknife'"
+														}
+													}
+												]
+											},
+											{
+												"open": {
+													"transitions": [
+														{
+															"default": "query.get_equipped_item_name=='throwingknife'"
+														}
+													],
+													"on_entry": [
+														"/clear @s terrariamod:throwingknife 0 1",
+														"/playsound pa_arc_inframun_shot"
+													]
+												},
+												"key": "on_entry",
+												"is_minified": true,
+												"children": [
+													"/clear @s terrariamod:throwingknife 0 1",
+													"/playsound pa_arc_inframun_shot"
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

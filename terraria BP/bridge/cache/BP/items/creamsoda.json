@@ -1,0 +1,788 @@
+{
+	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\items\\creamsoda.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "8724e816_ae1a_40ac_9aaf_9cc9bf4f5b97",
+	"file_version": 12,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "terrariamod:creamsoda",
+							"category": "equipment"
+						},
+						"components": {
+							"minecraft:stacked_by_data": true,
+							"minecraft:max_stack_size": 1,
+							"minecraft:use_duration": 1,
+							"minecraft:hand_equipped": true,
+							"minecraft:food": {
+								"on_consume": {
+									"event": "minecraft:use",
+									"target": "self"
+								},
+								"can_always_eat": true
+							},
+							"minecraft:icon": {
+								"texture": "terrariamod:creamsoda"
+							},
+							"minecraft:display_name": {
+								"value": "item.terrariamod:creamsoda.name"
+							},
+							"minecraft:use_animation": "drink"
+						},
+						"events": {
+							"minecraft:use": {
+								"sequence": [
+									{
+										"add_mob_effect": {
+											"effect": "absorption",
+											"target": "holder",
+											"duration": 99,
+											"amplifier": 2
+										}
+									},
+									{
+										"add_mob_effect": {
+											"effect": "strength",
+											"target": "holder",
+											"duration": 99,
+											"amplifier": 1
+										}
+									},
+									{
+										"add_mob_effect": {
+											"effect": "speed",
+											"target": "holder",
+											"duration": 99,
+											"amplifier": 1
+										}
+									},
+									{
+										"add_mob_effect": {
+											"effect": "haste",
+											"target": "holder",
+											"duration": 99,
+											"amplifier": 1
+										}
+									},
+									{
+										"add_mob_effect": {
+											"effect": "regeneration",
+											"target": "holder",
+											"duration": 99,
+											"amplifier": 1
+										}
+									}
+								]
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:creamsoda",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:stacked_by_data": true,
+								"minecraft:max_stack_size": 1,
+								"minecraft:use_duration": 1,
+								"minecraft:hand_equipped": true,
+								"minecraft:food": {
+									"on_consume": {
+										"event": "minecraft:use",
+										"target": "self"
+									},
+									"can_always_eat": true
+								},
+								"minecraft:icon": {
+									"texture": "terrariamod:creamsoda"
+								},
+								"minecraft:display_name": {
+									"value": "item.terrariamod:creamsoda.name"
+								},
+								"minecraft:use_animation": "drink"
+							},
+							"events": {
+								"minecraft:use": {
+									"sequence": [
+										{
+											"add_mob_effect": {
+												"effect": "absorption",
+												"target": "holder",
+												"duration": 99,
+												"amplifier": 2
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "strength",
+												"target": "holder",
+												"duration": 99,
+												"amplifier": 1
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "speed",
+												"target": "holder",
+												"duration": 99,
+												"amplifier": 1
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "haste",
+												"target": "holder",
+												"duration": 99,
+												"amplifier": 1
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "regeneration",
+												"target": "holder",
+												"duration": 99,
+												"amplifier": 1
+											}
+										}
+									]
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:creamsoda",
+							"category": "equipment"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:creamsoda",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:stacked_by_data": true,
+								"minecraft:max_stack_size": 1,
+								"minecraft:use_duration": 1,
+								"minecraft:hand_equipped": true,
+								"minecraft:food": {
+									"on_consume": {
+										"event": "minecraft:use",
+										"target": "self"
+									},
+									"can_always_eat": true
+								},
+								"minecraft:icon": {
+									"texture": "terrariamod:creamsoda"
+								},
+								"minecraft:display_name": {
+									"value": "item.terrariamod:creamsoda.name"
+								},
+								"minecraft:use_animation": "drink"
+							},
+							"events": {
+								"minecraft:use": {
+									"sequence": [
+										{
+											"add_mob_effect": {
+												"effect": "absorption",
+												"target": "holder",
+												"duration": 99,
+												"amplifier": 2
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "strength",
+												"target": "holder",
+												"duration": 99,
+												"amplifier": 1
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "speed",
+												"target": "holder",
+												"duration": 99,
+												"amplifier": 1
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "haste",
+												"target": "holder",
+												"duration": 99,
+												"amplifier": 1
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "regeneration",
+												"target": "holder",
+												"duration": 99,
+												"amplifier": 1
+											}
+										}
+									]
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "true",
+								"key": "minecraft:stacked_by_data"
+							},
+							{
+								"data": "1",
+								"key": "minecraft:max_stack_size"
+							},
+							{
+								"data": "1",
+								"key": "minecraft:use_duration"
+							},
+							{
+								"data": "true",
+								"key": "minecraft:hand_equipped"
+							},
+							{
+								"key": "minecraft:food",
+								"is_minified": true,
+								"children": {
+									"on_consume": {
+										"event": "minecraft:use",
+										"target": "self"
+									},
+									"can_always_eat": true
+								}
+							},
+							{
+								"open": {
+									"minecraft:stacked_by_data": true,
+									"minecraft:max_stack_size": 1,
+									"minecraft:use_duration": 1,
+									"minecraft:hand_equipped": true,
+									"minecraft:food": {
+										"on_consume": {
+											"event": "minecraft:use",
+											"target": "self"
+										},
+										"can_always_eat": true
+									},
+									"minecraft:icon": {
+										"texture": "terrariamod:creamsoda"
+									},
+									"minecraft:display_name": {
+										"value": "item.terrariamod:creamsoda.name"
+									},
+									"minecraft:use_animation": "drink"
+								},
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "terrariamod:creamsoda"
+								}
+							},
+							{
+								"open": {
+									"minecraft:stacked_by_data": true,
+									"minecraft:max_stack_size": 1,
+									"minecraft:use_duration": 1,
+									"minecraft:hand_equipped": true,
+									"minecraft:food": {
+										"on_consume": {
+											"event": "minecraft:use",
+											"target": "self"
+										},
+										"can_always_eat": true
+									},
+									"minecraft:icon": {
+										"texture": "terrariamod:creamsoda"
+									},
+									"minecraft:display_name": {
+										"value": "item.terrariamod:creamsoda.name"
+									},
+									"minecraft:use_animation": "drink"
+								},
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "item.terrariamod:creamsoda.name"
+								}
+							},
+							{
+								"data": "drink",
+								"key": "minecraft:use_animation"
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:creamsoda",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:stacked_by_data": true,
+								"minecraft:max_stack_size": 1,
+								"minecraft:use_duration": 1,
+								"minecraft:hand_equipped": true,
+								"minecraft:food": {
+									"on_consume": {
+										"event": "minecraft:use",
+										"target": "self"
+									},
+									"can_always_eat": true
+								},
+								"minecraft:icon": {
+									"texture": "terrariamod:creamsoda"
+								},
+								"minecraft:display_name": {
+									"value": "item.terrariamod:creamsoda.name"
+								},
+								"minecraft:use_animation": "drink"
+							},
+							"events": {
+								"minecraft:use": {
+									"sequence": [
+										{
+											"add_mob_effect": {
+												"effect": "absorption",
+												"target": "holder",
+												"duration": 99,
+												"amplifier": 2
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "strength",
+												"target": "holder",
+												"duration": 99,
+												"amplifier": 1
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "speed",
+												"target": "holder",
+												"duration": 99,
+												"amplifier": 1
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "haste",
+												"target": "holder",
+												"duration": 99,
+												"amplifier": 1
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "regeneration",
+												"target": "holder",
+												"duration": 99,
+												"amplifier": 1
+											}
+										}
+									]
+								}
+							}
+						},
+						"key": "events",
+						"children": [
+							{
+								"key": "minecraft:use",
+								"children": [
+									{
+										"open": {
+											"sequence": [
+												{
+													"add_mob_effect": {
+														"effect": "absorption",
+														"target": "holder",
+														"duration": 99,
+														"amplifier": 2
+													}
+												},
+												{
+													"add_mob_effect": {
+														"effect": "strength",
+														"target": "holder",
+														"duration": 99,
+														"amplifier": 1
+													}
+												},
+												{
+													"add_mob_effect": {
+														"effect": "speed",
+														"target": "holder",
+														"duration": 99,
+														"amplifier": 1
+													}
+												},
+												{
+													"add_mob_effect": {
+														"effect": "haste",
+														"target": "holder",
+														"duration": 99,
+														"amplifier": 1
+													}
+												},
+												{
+													"add_mob_effect": {
+														"effect": "regeneration",
+														"target": "holder",
+														"duration": 99,
+														"amplifier": 1
+													}
+												}
+											]
+										},
+										"key": "sequence",
+										"children": [
+											{
+												"open": [
+													{
+														"add_mob_effect": {
+															"effect": "absorption",
+															"target": "holder",
+															"duration": 99,
+															"amplifier": 2
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "strength",
+															"target": "holder",
+															"duration": 99,
+															"amplifier": 1
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "speed",
+															"target": "holder",
+															"duration": 99,
+															"amplifier": 1
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "haste",
+															"target": "holder",
+															"duration": 99,
+															"amplifier": 1
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "regeneration",
+															"target": "holder",
+															"duration": 99,
+															"amplifier": 1
+														}
+													}
+												],
+												"children": [
+													{
+														"open": {
+															"add_mob_effect": {
+																"effect": "absorption",
+																"target": "holder",
+																"duration": 99,
+																"amplifier": 2
+															}
+														},
+														"key": "add_mob_effect",
+														"is_minified": true,
+														"children": {
+															"effect": "absorption",
+															"target": "holder",
+															"duration": 99,
+															"amplifier": 2
+														}
+													}
+												]
+											},
+											{
+												"open": [
+													{
+														"add_mob_effect": {
+															"effect": "absorption",
+															"target": "holder",
+															"duration": 99,
+															"amplifier": 2
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "strength",
+															"target": "holder",
+															"duration": 99,
+															"amplifier": 1
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "speed",
+															"target": "holder",
+															"duration": 99,
+															"amplifier": 1
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "haste",
+															"target": "holder",
+															"duration": 99,
+															"amplifier": 1
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "regeneration",
+															"target": "holder",
+															"duration": 99,
+															"amplifier": 1
+														}
+													}
+												],
+												"children": [
+													{
+														"open": {
+															"add_mob_effect": {
+																"effect": "strength",
+																"target": "holder",
+																"duration": 99,
+																"amplifier": 1
+															}
+														},
+														"key": "add_mob_effect",
+														"is_minified": true,
+														"children": {
+															"effect": "strength",
+															"target": "holder",
+															"duration": 99,
+															"amplifier": 1
+														}
+													}
+												]
+											},
+											{
+												"open": [
+													{
+														"add_mob_effect": {
+															"effect": "absorption",
+															"target": "holder",
+															"duration": 99,
+															"amplifier": 2
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "strength",
+															"target": "holder",
+															"duration": 99,
+															"amplifier": 1
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "speed",
+															"target": "holder",
+															"duration": 99,
+															"amplifier": 1
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "haste",
+															"target": "holder",
+															"duration": 99,
+															"amplifier": 1
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "regeneration",
+															"target": "holder",
+															"duration": 99,
+															"amplifier": 1
+														}
+													}
+												],
+												"children": [
+													{
+														"open": {
+															"add_mob_effect": {
+																"effect": "speed",
+																"target": "holder",
+																"duration": 99,
+																"amplifier": 1
+															}
+														},
+														"key": "add_mob_effect",
+														"is_minified": true,
+														"children": {
+															"effect": "speed",
+															"target": "holder",
+															"duration": 99,
+															"amplifier": 1
+														}
+													}
+												]
+											},
+											{
+												"open": [
+													{
+														"add_mob_effect": {
+															"effect": "absorption",
+															"target": "holder",
+															"duration": 99,
+															"amplifier": 2
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "strength",
+															"target": "holder",
+															"duration": 99,
+															"amplifier": 1
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "speed",
+															"target": "holder",
+															"duration": 99,
+															"amplifier": 1
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "haste",
+															"target": "holder",
+															"duration": 99,
+															"amplifier": 1
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "regeneration",
+															"target": "holder",
+															"duration": 99,
+															"amplifier": 1
+														}
+													}
+												],
+												"children": [
+													{
+														"open": {
+															"add_mob_effect": {
+																"effect": "haste",
+																"target": "holder",
+																"duration": 99,
+																"amplifier": 1
+															}
+														},
+														"key": "add_mob_effect",
+														"is_minified": true,
+														"children": {
+															"effect": "haste",
+															"target": "holder",
+															"duration": 99,
+															"amplifier": 1
+														}
+													}
+												]
+											},
+											{
+												"open": [
+													{
+														"add_mob_effect": {
+															"effect": "absorption",
+															"target": "holder",
+															"duration": 99,
+															"amplifier": 2
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "strength",
+															"target": "holder",
+															"duration": 99,
+															"amplifier": 1
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "speed",
+															"target": "holder",
+															"duration": 99,
+															"amplifier": 1
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "haste",
+															"target": "holder",
+															"duration": 99,
+															"amplifier": 1
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "regeneration",
+															"target": "holder",
+															"duration": 99,
+															"amplifier": 1
+														}
+													}
+												],
+												"children": [
+													{
+														"open": {
+															"add_mob_effect": {
+																"effect": "regeneration",
+																"target": "holder",
+																"duration": 99,
+																"amplifier": 1
+															}
+														},
+														"key": "add_mob_effect",
+														"is_minified": true,
+														"children": {
+															"effect": "regeneration",
+															"target": "holder",
+															"duration": 99,
+															"amplifier": 1
+														}
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

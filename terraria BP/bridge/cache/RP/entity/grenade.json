@@ -1,0 +1,223 @@
+{
+	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\terraria RP\\entity\\grenade.json",
+	"file_type": "client_entity",
+	"format_version": 1,
+	"file_uuid": "1983d16b_799a_4569_a05c_a3310b5d7016",
+	"file_version": 6,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "terrariamod:grenade",
+							"materials": {
+								"default": "snowball"
+							},
+							"textures": {
+								"default": "textures/items/weapons/grenade"
+							},
+							"geometry": {
+								"default": "geometry.item_sprite"
+							},
+							"render_controllers": [
+								"controller.render.item_sprite"
+							],
+							"animations": {
+								"flying": "animation.actor.billboard"
+							},
+							"scripts": {
+								"animate": [
+									"flying"
+								]
+							}
+						}
+					}
+				},
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "terrariamod:grenade",
+							"materials": {
+								"default": "snowball"
+							},
+							"textures": {
+								"default": "textures/items/weapons/grenade"
+							},
+							"geometry": {
+								"default": "geometry.item_sprite"
+							},
+							"render_controllers": [
+								"controller.render.item_sprite"
+							],
+							"animations": {
+								"flying": "animation.actor.billboard"
+							},
+							"scripts": {
+								"animate": [
+									"flying"
+								]
+							}
+						}
+					}
+				},
+				"key": "minecraft:client_entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:grenade",
+								"materials": {
+									"default": "snowball"
+								},
+								"textures": {
+									"default": "textures/items/weapons/grenade"
+								},
+								"geometry": {
+									"default": "geometry.item_sprite"
+								},
+								"render_controllers": [
+									"controller.render.item_sprite"
+								],
+								"animations": {
+									"flying": "animation.actor.billboard"
+								},
+								"scripts": {
+									"animate": [
+										"flying"
+									]
+								}
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"open": {
+									"identifier": "terrariamod:grenade",
+									"materials": {
+										"default": "snowball"
+									},
+									"textures": {
+										"default": "textures/items/weapons/grenade"
+									},
+									"geometry": {
+										"default": "geometry.item_sprite"
+									},
+									"render_controllers": [
+										"controller.render.item_sprite"
+									],
+									"animations": {
+										"flying": "animation.actor.billboard"
+									},
+									"scripts": {
+										"animate": [
+											"flying"
+										]
+									}
+								},
+								"data": "terrariamod:grenade",
+								"key": "identifier"
+							},
+							{
+								"key": "materials",
+								"is_minified": true,
+								"children": {
+									"default": "snowball"
+								}
+							},
+							{
+								"open": {
+									"identifier": "terrariamod:grenade",
+									"materials": {
+										"default": "snowball"
+									},
+									"textures": {
+										"default": "textures/items/weapons/grenade"
+									},
+									"geometry": {
+										"default": "geometry.item_sprite"
+									},
+									"render_controllers": [
+										"controller.render.item_sprite"
+									],
+									"animations": {
+										"flying": "animation.actor.billboard"
+									},
+									"scripts": {
+										"animate": [
+											"flying"
+										]
+									}
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": {
+									"default": "textures/items/weapons/grenade"
+								}
+							},
+							{
+								"open": {
+									"identifier": "terrariamod:grenade",
+									"materials": {
+										"default": "snowball"
+									},
+									"textures": {
+										"default": "textures/items/weapons/grenade"
+									},
+									"geometry": {
+										"default": "geometry.item_sprite"
+									},
+									"render_controllers": [
+										"controller.render.item_sprite"
+									],
+									"animations": {
+										"flying": "animation.actor.billboard"
+									},
+									"scripts": {
+										"animate": [
+											"flying"
+										]
+									}
+								},
+								"key": "geometry",
+								"is_minified": true,
+								"children": {
+									"default": "geometry.item_sprite"
+								}
+							},
+							{
+								"key": "render_controllers",
+								"is_minified": true,
+								"children": [
+									"controller.render.item_sprite"
+								]
+							},
+							{
+								"key": "animations",
+								"is_minified": true,
+								"children": {
+									"flying": "animation.actor.billboard"
+								}
+							},
+							{
+								"key": "scripts",
+								"is_minified": true,
+								"children": {
+									"animate": [
+										"flying"
+									]
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

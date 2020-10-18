@@ -1,0 +1,28 @@
+//bridge-file-version: #3
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "ironpickaxe_recipe"
+		},
+		"tags": [
+			"iron_anvil"
+		],
+		"pattern": [
+			"XXX",
+			" # ",
+			" # "
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:planks"
+			},
+			"X": {
+				"item": "terrariamod:ironblock"
+			}
+		},
+		"result": {
+			"item": "terrariamod:ironpickaxe"
+		}
+	}
+}

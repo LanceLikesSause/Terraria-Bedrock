@@ -1,0 +1,117 @@
+//bridge-file-version: #3
+{
+	"format_version": "1.13.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "terrariamod:facemonster",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"component_groups": {
+			"terrariamod:facemonster": {}
+		},
+		"components": {
+			"minecraft:nameable": {},
+			"minecraft:type_family": {
+				"family": [
+					"terrariamod:facemonster",
+					"pa_facemonster",
+					"mob",
+					"monster"
+				]
+			},
+			"minecraft:breathable": {
+				"totalSupply": 15,
+				"suffocateTime": 0
+			},
+			"minecraft:loot": {
+				"table": "loot_tables/entities/facemonster.json"
+			},
+			"minecraft:collision_box": {
+				"width": 0.6,
+				"height": 1.7
+			},
+			"minecraft:health": {
+				"value": 70,
+				"max": 70
+			},
+			"minecraft:attack": {
+				"damage": 25
+			},
+			"minecraft:movement": {
+				"value": 0.23
+			},
+			"minecraft:navigation.walk": {
+				"can_path_over_water": true
+			},
+			"minecraft:jump.static": {},
+			"minecraft:physics": {
+				"has_collision": true,
+				"has_gravity": true
+			},
+			"minecraft:hurt_on_condition": {
+				"damage_conditions": [
+					{
+						"filters": {
+							"test": "in_lava",
+							"subject": "self",
+							"operator": "==",
+							"value": true
+						},
+						"cause": "lava",
+						"damage_per_tick": 4
+					}
+				]
+			},
+			"minecraft:pushable": {
+				"is_pushable": true,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:behavior.melee_attack": {
+				"priority": 1,
+				"speed_multiplier": 1,
+				"attack_once": false
+			},
+			"minecraft:behavior.hurt_by_target": {
+				"priority": 2,
+				"alert_same_type": false
+			},
+			"minecraft:movement.basic": {},
+			"minecraft:behavior.random_look_around": {
+				"priority": 4
+			},
+			"minecraft:behavior.nearest_attackable_target": {
+				"priority": 5,
+				"must_see": false,
+				"must_reach": false,
+				"entity_types": [
+					{
+						"filters": {
+							"any_of": [
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "player"
+								}
+							]
+						},
+						"max_dist": 16
+					}
+				]
+			},
+			"minecraft:follow_range": {
+				"value": 64
+			},
+			"minecraft:behavior.random_stroll": {
+				"priority": 7,
+				"speed_multiplier": 1
+			},
+			"minecraft:behavior.move_to_random_block": {
+				"priority": 5,
+				"speed_multiplier": 0.9
+			}
+		},
+		"events": {}
+	}
+}

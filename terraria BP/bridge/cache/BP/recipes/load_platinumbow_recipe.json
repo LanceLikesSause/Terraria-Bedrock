@@ -1,0 +1,199 @@
+{
+	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\recipes\\load_platinumbow_recipe.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "417a8bee_c92c_49ca_8d9e_e214fcc4dc9e",
+	"file_version": 4,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:recipe_shapeless": {
+						"description": {
+							"identifier": "terrariamod:load_platinumbow_recipe"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"ingredients": [
+							{
+								"item": "terrariamod:platinumbow_unloaded"
+							},
+							{
+								"item": "terrariamod:woodenarrow",
+								"count": 8
+							}
+						],
+						"result": [
+							{
+								"item": "terrariamod:platinumbow_loaded"
+							}
+						]
+					}
+				},
+				"key": "minecraft:recipe_shapeless",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:load_platinumbow_recipe"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"ingredients": [
+								{
+									"item": "terrariamod:platinumbow_unloaded"
+								},
+								{
+									"item": "terrariamod:woodenarrow",
+									"count": 8
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:platinumbow_loaded"
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:load_platinumbow_recipe"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:load_platinumbow_recipe"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"ingredients": [
+								{
+									"item": "terrariamod:platinumbow_unloaded"
+								},
+								{
+									"item": "terrariamod:woodenarrow",
+									"count": 8
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:platinumbow_loaded"
+								}
+							]
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"crafting_table"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:load_platinumbow_recipe"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"ingredients": [
+								{
+									"item": "terrariamod:platinumbow_unloaded"
+								},
+								{
+									"item": "terrariamod:woodenarrow",
+									"count": 8
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:platinumbow_loaded"
+								}
+							]
+						},
+						"key": "ingredients",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "terrariamod:platinumbow_unloaded"
+									},
+									{
+										"item": "terrariamod:woodenarrow",
+										"count": 8
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "terrariamod:platinumbow_unloaded"
+								}
+							},
+							{
+								"open": [
+									{
+										"item": "terrariamod:platinumbow_unloaded"
+									},
+									{
+										"item": "terrariamod:woodenarrow",
+										"count": 8
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "terrariamod:woodenarrow",
+									"count": 8
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:load_platinumbow_recipe"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"ingredients": [
+								{
+									"item": "terrariamod:platinumbow_unloaded"
+								},
+								{
+									"item": "terrariamod:woodenarrow",
+									"count": 8
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:platinumbow_loaded"
+								}
+							]
+						},
+						"key": "result",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "terrariamod:platinumbow_loaded"
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "terrariamod:platinumbow_loaded"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

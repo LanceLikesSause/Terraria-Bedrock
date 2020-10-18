@@ -1,0 +1,20 @@
+//bridge-file-version: #13
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "terrariamod:silverbow",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:display_name": {
+				"value": "item.terrariamod:silverbow.name"
+			},
+			"minecraft:icon": {
+				"texture": "terrariamod:silverbow"
+			}
+		}
+	}
+}

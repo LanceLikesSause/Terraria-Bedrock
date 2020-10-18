@@ -1,0 +1,215 @@
+{
+	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\items\\hellstone_helmet.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "4faccd28_7235_4351_a0ed_0c45ad170266",
+	"file_version": 5,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "terrariamod:hellstone_helmet",
+							"category": "equipment"
+						},
+						"components": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:armor": {
+								"protection": 8
+							},
+							"minecraft:wearable": {
+								"slot": "slot.armor.head"
+							},
+							"minecraft:display_name": {
+								"value": "item.terrariamod:hellstone_helmet.name"
+							},
+							"minecraft:icon": {
+								"texture": "terrariamod:hellstone_helmet"
+							}
+						}
+					}
+				},
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "terrariamod:hellstone_helmet",
+							"category": "equipment"
+						},
+						"components": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:armor": {
+								"protection": 8
+							},
+							"minecraft:wearable": {
+								"slot": "slot.armor.head"
+							},
+							"minecraft:display_name": {
+								"value": "item.terrariamod:hellstone_helmet.name"
+							},
+							"minecraft:icon": {
+								"texture": "terrariamod:hellstone_helmet"
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:hellstone_helmet",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:armor": {
+									"protection": 8
+								},
+								"minecraft:wearable": {
+									"slot": "slot.armor.head"
+								},
+								"minecraft:display_name": {
+									"value": "item.terrariamod:hellstone_helmet.name"
+								},
+								"minecraft:icon": {
+									"texture": "terrariamod:hellstone_helmet"
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:hellstone_helmet",
+							"category": "equipment"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:hellstone_helmet",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:armor": {
+									"protection": 8
+								},
+								"minecraft:wearable": {
+									"slot": "slot.armor.head"
+								},
+								"minecraft:display_name": {
+									"value": "item.terrariamod:hellstone_helmet.name"
+								},
+								"minecraft:icon": {
+									"texture": "terrariamod:hellstone_helmet"
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "1",
+								"key": "minecraft:max_stack_size"
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:armor": {
+										"protection": 8
+									},
+									"minecraft:wearable": {
+										"slot": "slot.armor.head"
+									},
+									"minecraft:display_name": {
+										"value": "item.terrariamod:hellstone_helmet.name"
+									},
+									"minecraft:icon": {
+										"texture": "terrariamod:hellstone_helmet"
+									}
+								},
+								"key": "minecraft:armor",
+								"is_minified": true,
+								"children": {
+									"protection": 8
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:armor": {
+										"protection": 8
+									},
+									"minecraft:wearable": {
+										"slot": "slot.armor.head"
+									},
+									"minecraft:display_name": {
+										"value": "item.terrariamod:hellstone_helmet.name"
+									},
+									"minecraft:icon": {
+										"texture": "terrariamod:hellstone_helmet"
+									}
+								},
+								"key": "minecraft:wearable",
+								"is_minified": true,
+								"children": {
+									"slot": "slot.armor.head"
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:armor": {
+										"protection": 8
+									},
+									"minecraft:wearable": {
+										"slot": "slot.armor.head"
+									},
+									"minecraft:display_name": {
+										"value": "item.terrariamod:hellstone_helmet.name"
+									},
+									"minecraft:icon": {
+										"texture": "terrariamod:hellstone_helmet"
+									}
+								},
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "item.terrariamod:hellstone_helmet.name"
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:armor": {
+										"protection": 8
+									},
+									"minecraft:wearable": {
+										"slot": "slot.armor.head"
+									},
+									"minecraft:display_name": {
+										"value": "item.terrariamod:hellstone_helmet.name"
+									},
+									"minecraft:icon": {
+										"texture": "terrariamod:hellstone_helmet"
+									}
+								},
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "terrariamod:hellstone_helmet"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

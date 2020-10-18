@@ -1,0 +1,26 @@
+//bridge-file-version: #6
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "terrariamod:flamarang_recipe"
+		},
+		"tags": [
+			"iron_anvil"
+		],
+		"ingredients": [
+			{
+				"item": "terrariamod:enchantedboomerang"
+			},
+			{
+				"item": "terrariamod:hellstonebar",
+				"count": 8
+			}
+		],
+		"result": [
+			{
+				"item": "terrariamod:flamarang"
+			}
+		]
+	}
+}

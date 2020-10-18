@@ -1,0 +1,29 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.pa_arc_inframun": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "shoot": "query.mark_variant == 1 && query.get_equipped_item_name=='arc_inframun' && query.item_remaining_use_duration > 0"
+            }
+          ]
+        },
+        "shoot": {
+          "transitions": [
+            {
+              "default": "query.mark_variant == 1 && query.get_equipped_item_name=='arc_inframun' && query.item_remaining_use_duration > 0"
+            }
+          ],
+          "on_entry": [
+            "@s pa:arc_inframun_fire",
+            "/replaceitem entity @s slot.weapon.mainhand 0 pa:arc_inframun 1 1",
+            "/playsound pa_arc_inframun_shot"
+          ]
+        }
+      }
+    }
+  }
+}

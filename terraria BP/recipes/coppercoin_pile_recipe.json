@@ -1,0 +1,25 @@
+//bridge-file-version: #1
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "terrariamod:coppercoin_pile_recipe"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"###",
+			"###",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "terrariamod:coppercoin"
+			}
+		},
+		"result": {
+			"item": "terrariamod:coppercoin_pile"
+		}
+	}
+}

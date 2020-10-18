@@ -1,0 +1,233 @@
+{
+	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria/feature_rules/leadore.json",
+	"file_type": "feature_rule",
+	"format_version": 1,
+	"file_uuid": "e89ec98a_d774_4227_bc7b_7e558d687b10",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.13.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.13.0",
+					"minecraft:feature_rules": {
+						"description": {
+							"identifier": "overworld_underground_leadore_feature",
+							"places_feature": "terrariamod:leadore_feature"
+						},
+						"conditions": {
+							"placement_pass": "underground_pass",
+							"minecraft:biome_filter": [
+								{
+									"any_of": [
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "overworld"
+										},
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "overworld_generation"
+										}
+									]
+								}
+							]
+						},
+						"distribution": {
+							"iterations": 20,
+							"coordinate_eval_order": "zyx",
+							"x": {
+								"distribution": "uniform",
+								"extent": [
+									0,
+									16
+								]
+							},
+							"y": {
+								"distribution": "uniform",
+								"extent": [
+									0,
+									64
+								]
+							},
+							"z": {
+								"distribution": "uniform",
+								"extent": [
+									0,
+									16
+								]
+							}
+						}
+					}
+				},
+				"key": "minecraft:feature_rules",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "overworld_underground_leadore_feature",
+								"places_feature": "terrariamod:leadore_feature"
+							},
+							"conditions": {
+								"placement_pass": "underground_pass",
+								"minecraft:biome_filter": [
+									{
+										"any_of": [
+											{
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "overworld"
+											},
+											{
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "overworld_generation"
+											}
+										]
+									}
+								]
+							},
+							"distribution": {
+								"iterations": 20,
+								"coordinate_eval_order": "zyx",
+								"x": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								},
+								"y": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										64
+									]
+								},
+								"z": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "overworld_underground_leadore_feature",
+							"places_feature": "terrariamod:leadore_feature"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "overworld_underground_leadore_feature",
+								"places_feature": "terrariamod:leadore_feature"
+							},
+							"conditions": {
+								"placement_pass": "underground_pass",
+								"minecraft:biome_filter": [
+									{
+										"any_of": [
+											{
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "overworld"
+											},
+											{
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "overworld_generation"
+											}
+										]
+									}
+								]
+							},
+							"distribution": {
+								"iterations": 20,
+								"coordinate_eval_order": "zyx",
+								"x": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								},
+								"y": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										64
+									]
+								},
+								"z": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								}
+							}
+						},
+						"key": "conditions",
+						"is_minified": true,
+						"children": {
+							"placement_pass": "underground_pass",
+							"minecraft:biome_filter": [
+								{
+									"any_of": [
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "overworld"
+										},
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "overworld_generation"
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"key": "distribution",
+						"is_minified": true,
+						"children": {
+							"iterations": 20,
+							"coordinate_eval_order": "zyx",
+							"x": {
+								"distribution": "uniform",
+								"extent": [
+									0,
+									16
+								]
+							},
+							"y": {
+								"distribution": "uniform",
+								"extent": [
+									0,
+									64
+								]
+							},
+							"z": {
+								"distribution": "uniform",
+								"extent": [
+									0,
+									16
+								]
+							}
+						}
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,65 @@
+{
+	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\blocks\\silverore.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "d27976df_a090_4987_96f6_656d30ccae0d",
+	"file_version": 7,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.13.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.13.0",
+					"minecraft:block": {
+						"description": {
+							"identifier": "terrariamod:silverore",
+							"register_to_creative_menu": true,
+							"is_experimental": false
+						},
+						"components": {
+							"minecraft:destroy_time": 0.1,
+							"minecraft:loot": "loot_tables/blocks/silverore.json",
+							"minecraft:explosion_resistance": 0.5
+						}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:silverore",
+							"register_to_creative_menu": true,
+							"is_experimental": false
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:silverore",
+								"register_to_creative_menu": true,
+								"is_experimental": false
+							},
+							"components": {
+								"minecraft:destroy_time": 0.1,
+								"minecraft:loot": "loot_tables/blocks/silverore.json",
+								"minecraft:explosion_resistance": 0.5
+							}
+						},
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:destroy_time": 0.1,
+							"minecraft:loot": "loot_tables/blocks/silverore.json",
+							"minecraft:explosion_resistance": 0.5
+						}
+					}
+				]
+			}
+		]
+	}
+}

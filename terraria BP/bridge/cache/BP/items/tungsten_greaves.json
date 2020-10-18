@@ -1,0 +1,191 @@
+{
+	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\items\\tungsten_greaves.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "078f4ea4_f243_4d1a_af7b_eac030032d3f",
+	"file_version": 8,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "terrariamod:tungsten_greaves",
+							"category": "equipment"
+						},
+						"components": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:wearable": {
+								"slot": "slot.armor.legs"
+							},
+							"minecraft:armor": {
+								"protection": 3
+							},
+							"minecraft:display_name": {
+								"value": "item.terrariamod:tungsten_greaves.name"
+							},
+							"minecraft:icon": {
+								"texture": "terrariamod:tungsten_greaves"
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:tungsten_greaves",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:wearable": {
+									"slot": "slot.armor.legs"
+								},
+								"minecraft:armor": {
+									"protection": 3
+								},
+								"minecraft:display_name": {
+									"value": "item.terrariamod:tungsten_greaves.name"
+								},
+								"minecraft:icon": {
+									"texture": "terrariamod:tungsten_greaves"
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:tungsten_greaves",
+							"category": "equipment"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:tungsten_greaves",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:wearable": {
+									"slot": "slot.armor.legs"
+								},
+								"minecraft:armor": {
+									"protection": 3
+								},
+								"minecraft:display_name": {
+									"value": "item.terrariamod:tungsten_greaves.name"
+								},
+								"minecraft:icon": {
+									"texture": "terrariamod:tungsten_greaves"
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "1",
+								"key": "minecraft:max_stack_size"
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:wearable": {
+										"slot": "slot.armor.legs"
+									},
+									"minecraft:armor": {
+										"protection": 3
+									},
+									"minecraft:display_name": {
+										"value": "item.terrariamod:tungsten_greaves.name"
+									},
+									"minecraft:icon": {
+										"texture": "terrariamod:tungsten_greaves"
+									}
+								},
+								"key": "minecraft:wearable",
+								"is_minified": true,
+								"children": {
+									"slot": "slot.armor.legs"
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:wearable": {
+										"slot": "slot.armor.legs"
+									},
+									"minecraft:armor": {
+										"protection": 3
+									},
+									"minecraft:display_name": {
+										"value": "item.terrariamod:tungsten_greaves.name"
+									},
+									"minecraft:icon": {
+										"texture": "terrariamod:tungsten_greaves"
+									}
+								},
+								"key": "minecraft:armor",
+								"is_minified": true,
+								"children": {
+									"protection": 3
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:wearable": {
+										"slot": "slot.armor.legs"
+									},
+									"minecraft:armor": {
+										"protection": 3
+									},
+									"minecraft:display_name": {
+										"value": "item.terrariamod:tungsten_greaves.name"
+									},
+									"minecraft:icon": {
+										"texture": "terrariamod:tungsten_greaves"
+									}
+								},
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "item.terrariamod:tungsten_greaves.name"
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:wearable": {
+										"slot": "slot.armor.legs"
+									},
+									"minecraft:armor": {
+										"protection": 3
+									},
+									"minecraft:display_name": {
+										"value": "item.terrariamod:tungsten_greaves.name"
+									},
+									"minecraft:icon": {
+										"texture": "terrariamod:tungsten_greaves"
+									}
+								},
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "terrariamod:tungsten_greaves"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

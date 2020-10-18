@@ -1,0 +1,73 @@
+{
+	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\blocks\\tinore.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "f104e55b_7964_49f5_a3e7_0da838f32a6b",
+	"file_version": 3,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.13.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.13.0",
+					"minecraft:block": {
+						"description": {
+							"identifier": "terrariamod:tinore",
+							"register_to_creative_menu": true
+						},
+						"components": {
+							"minecraft:destroy_time": 1,
+							"minecraft:loot": "loot_tables/blocks/tinore.json",
+							"minecraft:explosion_resistance": 0.5
+						}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:tinore",
+								"register_to_creative_menu": true
+							},
+							"components": {
+								"minecraft:destroy_time": 1,
+								"minecraft:loot": "loot_tables/blocks/tinore.json",
+								"minecraft:explosion_resistance": 0.5
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:tinore",
+							"register_to_creative_menu": true
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:tinore",
+								"register_to_creative_menu": true
+							},
+							"components": {
+								"minecraft:destroy_time": 1,
+								"minecraft:loot": "loot_tables/blocks/tinore.json",
+								"minecraft:explosion_resistance": 0.5
+							}
+						},
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:destroy_time": 1,
+							"minecraft:loot": "loot_tables/blocks/tinore.json",
+							"minecraft:explosion_resistance": 0.5
+						}
+					}
+				]
+			}
+		]
+	}
+}

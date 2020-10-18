@@ -1,0 +1,57 @@
+//bridge-file-version: #19
+{
+	"tiers": [
+		{
+			"trades": [
+				{
+					"wants": [
+						{
+							"item": "terrariamod:coppercoin",
+							"quantity": {
+								"min": 7,
+								"max": 7
+							}
+						}
+					],
+					"gives": [
+						{
+							"item": "terrariamod:musketball"
+						}
+					]
+				},
+				{
+					"wants": [
+						{
+							"item": "terrariamod:goldcoin",
+							"quantity": {
+								"min": 5,
+								"max": 5
+							}
+						}
+					],
+					"gives": [
+						{
+							"item": "terrariamod:flintlockpistol"
+						}
+					]
+				},
+				{
+					"wants": [
+						{
+							"item": "terrariamod:goldcoin",
+							"quantity": {
+								"min": 35,
+								"max": 35
+							}
+						}
+					],
+					"gives": [
+						{
+							"item": "terrariamod:minishark"
+						}
+					]
+				}
+			]
+		}
+	]
+}

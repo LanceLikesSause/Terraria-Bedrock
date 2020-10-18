@@ -1,0 +1,28 @@
+//bridge-file-version: #3
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "tungstensword_minecraftwood_recipe"
+		},
+		"tags": [
+			"iron_anvil"
+		],
+		"pattern": [
+			"X",
+			"X",
+			"#"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:planks"
+			},
+			"X": {
+				"item": "terrariamod:tungstenblock"
+			}
+		},
+		"result": {
+			"item": "terrariamod:tungstensword"
+		}
+	}
+}

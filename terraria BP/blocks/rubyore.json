@@ -1,0 +1,14 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.13.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "terrariamod:rubyore",
+			"register_to_creative_menu": true
+		},
+		"components": {
+			"minecraft:destroy_time": 1,
+			"minecraft:loot": "loot_tables/blocks/rubyore.json"
+		}
+	}
+}

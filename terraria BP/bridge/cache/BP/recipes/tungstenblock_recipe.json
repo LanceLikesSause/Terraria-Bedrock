@@ -1,0 +1,188 @@
+{
+	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\recipes\\tungstenblock_recipe.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "5e3f3f04_6f53_461c_9ef8_27eecbec1a2c",
+	"file_version": 3,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:recipe_shapeless": {
+						"description": {
+							"identifier": "terrariamod:tungstenblock_recipe"
+						},
+						"tags": [
+							"tfurnace"
+						],
+						"ingredients": [
+							{
+								"item": "terrariamod:tungstenbar",
+								"count": 4
+							}
+						],
+						"result": [
+							{
+								"item": "terrariamod:tungstenblock"
+							}
+						]
+					}
+				},
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:recipe_shapeless": {
+						"description": {
+							"identifier": "terrariamod:tungstenblock_recipe"
+						},
+						"tags": [
+							"tfurnace"
+						],
+						"ingredients": [
+							{
+								"item": "terrariamod:tungstenbar",
+								"count": 4
+							}
+						],
+						"result": [
+							{
+								"item": "terrariamod:tungstenblock"
+							}
+						]
+					}
+				},
+				"key": "minecraft:recipe_shapeless",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:tungstenblock_recipe"
+							},
+							"tags": [
+								"tfurnace"
+							],
+							"ingredients": [
+								{
+									"item": "terrariamod:tungstenbar",
+									"count": 4
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:tungstenblock"
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:tungstenblock_recipe"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:tungstenblock_recipe"
+							},
+							"tags": [
+								"tfurnace"
+							],
+							"ingredients": [
+								{
+									"item": "terrariamod:tungstenbar",
+									"count": 4
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:tungstenblock"
+								}
+							]
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"tfurnace"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:tungstenblock_recipe"
+							},
+							"tags": [
+								"tfurnace"
+							],
+							"ingredients": [
+								{
+									"item": "terrariamod:tungstenbar",
+									"count": 4
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:tungstenblock"
+								}
+							]
+						},
+						"key": "ingredients",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "terrariamod:tungstenbar",
+										"count": 4
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "terrariamod:tungstenbar",
+									"count": 4
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:tungstenblock_recipe"
+							},
+							"tags": [
+								"tfurnace"
+							],
+							"ingredients": [
+								{
+									"item": "terrariamod:tungstenbar",
+									"count": 4
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:tungstenblock"
+								}
+							]
+						},
+						"key": "result",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "terrariamod:tungstenblock"
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "terrariamod:tungstenblock"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,27 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.cavebat.flyy": {
+			"loop": true,
+			"animation_length": 0.76,
+			"bones": {
+				"wingright": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.24": [0, -50, 0],
+						"0.52": [0, 50, 0],
+						"0.76": [0, 0, 0]
+					}
+				},
+				"wingleft": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.24": [0, 50, 0],
+						"0.52": [0, -50, 0],
+						"0.76": [0, 0, 0]
+					}
+				}
+			}
+		}
+	}
+}

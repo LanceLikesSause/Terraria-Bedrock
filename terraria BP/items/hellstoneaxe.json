@@ -1,0 +1,41 @@
+//bridge-file-version: #26
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "terrariamod:hellstoneaxe",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:mining_speed": 1,
+			"minecraft:damage": 20,
+			"minecraft:enchantable": {
+				"value": 14,
+				"slot": "axe"
+			},
+			"minecraft:digger": {
+				"use_efficiency": true,
+				"destroy_speeds": [
+					{
+						"block": {
+							"tags": "q.any_tag('wood')"
+						},
+						"speed": 11
+					}
+				]
+			},
+			"minecraft:icon": {
+				"texture": "terrariamod:hellstoneaxe"
+			},
+			"tag:minecraft:is_axe": {},
+			"minecraft:display_name": {
+				"value": "item.terrariamod:hellstoneaxe.name"
+			},
+			"minecraft:render_offsets": "bow",
+			"minecraft:weapon": {},
+			"minecraft:foil": true
+		}
+	}
+}

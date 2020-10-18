@@ -1,0 +1,19 @@
+//bridge-file-version: #4
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "terrariamod:silvercoin_pile",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:max_stack_size": 64,
+			"minecraft:display_name": {
+				"value": "item.terrariamod:silvercoin_pile.name"
+			},
+			"minecraft:icon": {
+				"texture": "terrariamod:silvercoin_pile"
+			}
+		}
+	}
+}

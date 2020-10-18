@@ -1,0 +1,25 @@
+//bridge-file-version: #9
+{
+	"tiers": [
+		{
+			"trades": [
+				{
+					"wants": [
+						{
+							"item": "terrariamod:coppercoin",
+							"quantity": {
+								"min": 5,
+								"max": 5
+							}
+						}
+					],
+					"gives": [
+						{
+							"item": "terrariamod:lesserhealingpotion"
+						}
+					]
+				}
+			]
+		}
+	]
+}

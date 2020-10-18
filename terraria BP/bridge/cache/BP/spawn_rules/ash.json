@@ -1,0 +1,15 @@
+{
+	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\spawn_rules\\ash.json",
+	"file_type": "spawn_rule",
+	"format_version": 0,
+	"cache_content": {
+		"format_version": "1.8.0",
+		"minecraft:spawn_rules": {
+			"description": {
+				"identifier": "terrariamod:ash",
+				"population_control": "cat"
+			}
+		}
+	},
+	"file_uuid": "36300065_6f81_4be0_8547_1d898422d1ce"
+}

@@ -1,0 +1,25 @@
+//bridge-file-version: #4
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "terrariamod:gold_to_platinum_recipe"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"###",
+			"###",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "terrariamod:goldcoin_pile"
+			}
+		},
+		"result": {
+			"item": "terrariamod:platinumcoin"
+		}
+	}
+}

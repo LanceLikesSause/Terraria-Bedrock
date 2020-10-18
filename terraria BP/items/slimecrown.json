@@ -1,0 +1,21 @@
+//bridge-file-version: #6
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "terrariamod:slimecrown",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:entity_placer": {
+				"entity": "terrariamod:kingslime"
+			},
+			"minecraft:display_name": {
+				"value": "item.terrariamod:slimecrown.name"
+			},
+			"minecraft:icon": {
+				"texture": "terrariamod:slimecrown"
+			}
+		}
+	}
+}

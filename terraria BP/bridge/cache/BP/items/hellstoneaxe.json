@@ -1,0 +1,263 @@
+{
+	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\items\\hellstoneaxe.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "b7f1dc49_1a82_4c3b_affc_4e8ec34ed393",
+	"file_version": 26,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "terrariamod:hellstoneaxe",
+							"category": "equipment"
+						},
+						"components": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:hand_equipped": true,
+							"minecraft:mining_speed": 1,
+							"minecraft:damage": 20,
+							"minecraft:enchantable": {
+								"value": 14,
+								"slot": "axe"
+							},
+							"minecraft:digger": {
+								"use_efficiency": true,
+								"destroy_speeds": [
+									{
+										"block": {
+											"tags": "q.any_tag('wood')"
+										},
+										"speed": 11
+									}
+								]
+							},
+							"minecraft:icon": {
+								"texture": "terrariamod:hellstoneaxe"
+							},
+							"tag:minecraft:is_axe": {},
+							"minecraft:display_name": {
+								"value": "item.terrariamod:hellstoneaxe.name"
+							},
+							"minecraft:render_offsets": "bow",
+							"minecraft:weapon": {},
+							"minecraft:foil": true
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:hellstoneaxe",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:hand_equipped": true,
+								"minecraft:mining_speed": 1,
+								"minecraft:damage": 20,
+								"minecraft:enchantable": {
+									"value": 14,
+									"slot": "axe"
+								},
+								"minecraft:digger": {
+									"use_efficiency": true,
+									"destroy_speeds": [
+										{
+											"block": {
+												"tags": "q.any_tag('wood')"
+											},
+											"speed": 11
+										}
+									]
+								},
+								"minecraft:icon": {
+									"texture": "terrariamod:hellstoneaxe"
+								},
+								"tag:minecraft:is_axe": {},
+								"minecraft:display_name": {
+									"value": "item.terrariamod:hellstoneaxe.name"
+								},
+								"minecraft:render_offsets": "bow",
+								"minecraft:weapon": {},
+								"minecraft:foil": true
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:hellstoneaxe",
+							"category": "equipment"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:hellstoneaxe",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:hand_equipped": true,
+								"minecraft:mining_speed": 1,
+								"minecraft:damage": 20,
+								"minecraft:enchantable": {
+									"value": 14,
+									"slot": "axe"
+								},
+								"minecraft:digger": {
+									"use_efficiency": true,
+									"destroy_speeds": [
+										{
+											"block": {
+												"tags": "q.any_tag('wood')"
+											},
+											"speed": 11
+										}
+									]
+								},
+								"minecraft:icon": {
+									"texture": "terrariamod:hellstoneaxe"
+								},
+								"tag:minecraft:is_axe": {},
+								"minecraft:display_name": {
+									"value": "item.terrariamod:hellstoneaxe.name"
+								},
+								"minecraft:render_offsets": "bow",
+								"minecraft:weapon": {},
+								"minecraft:foil": true
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "1",
+								"key": "minecraft:max_stack_size"
+							},
+							{
+								"data": "true",
+								"key": "minecraft:hand_equipped"
+							},
+							{
+								"data": "1",
+								"key": "minecraft:mining_speed"
+							},
+							{
+								"data": "20",
+								"key": "minecraft:damage"
+							},
+							{
+								"key": "minecraft:enchantable",
+								"is_minified": true,
+								"children": {
+									"value": 14,
+									"slot": "axe"
+								}
+							},
+							{
+								"key": "minecraft:digger",
+								"children": [
+									{
+										"data": "true",
+										"key": "use_efficiency"
+									},
+									{
+										"open": {
+											"use_efficiency": true,
+											"destroy_speeds": [
+												{
+													"block": {
+														"tags": "q.any_tag('wood')"
+													},
+													"speed": 11
+												}
+											]
+										},
+										"key": "destroy_speeds",
+										"children": [
+											{
+												"open": [
+													{
+														"block": {
+															"tags": "q.any_tag('wood')"
+														},
+														"speed": 11
+													}
+												],
+												"children": [
+													{
+														"open": {
+															"block": {
+																"tags": "q.any_tag('wood')"
+															},
+															"speed": 11
+														},
+														"key": "block",
+														"is_minified": true,
+														"children": {
+															"tags": "q.any_tag('wood')"
+														}
+													},
+													{
+														"open": {
+															"block": {
+																"tags": "q.any_tag('wood')"
+															},
+															"speed": 11
+														},
+														"data": "11",
+														"key": "speed"
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "terrariamod:hellstoneaxe"
+								}
+							},
+							{
+								"key": "tag:minecraft:is_axe",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "item.terrariamod:hellstoneaxe.name"
+								}
+							},
+							{
+								"data": "bow",
+								"key": "minecraft:render_offsets"
+							},
+							{
+								"key": "minecraft:weapon",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"data": "true",
+								"key": "minecraft:foil"
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

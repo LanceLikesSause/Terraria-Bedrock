@@ -1,0 +1,59 @@
+//bridge-file-version: #21
+{
+	"format_version": "1.10.0",
+	"particle_effect": {
+		"description": {
+			"identifier": "terrariamod:rocketboots_effect",
+			"basic_render_parameters": {
+				"material": "particles_alpha",
+				"texture": "textures/particle/fire"
+			}
+		},
+		"components": {
+			"minecraft:emitter_rate_steady": {
+				"spawn_rate": 20,
+				"max_particles": 20
+			},
+			"minecraft:emitter_lifetime_looping": {
+				"active_time": 3
+			},
+			"minecraft:emitter_shape_box": {
+				"half_dimensions": [
+					2,
+					5,
+					2
+				],
+				"surface_only": false,
+				"direction": [
+					"2+Math.random(-1, 4)",
+					"-26-Math.random(0, 2)",
+					"Math.random(-1, 10)"
+				]
+			},
+			"minecraft:particle_lifetime_expression": {
+				"max_lifetime": 2.5
+			},
+			"minecraft:particle_initial_speed": 10,
+			"minecraft:particle_motion_dynamic": {},
+			"minecraft:particle_appearance_billboard": {
+				"size": [
+					1,
+					1
+				],
+				"facing_camera_mode": "rotate_xyz",
+				"uv": {
+					"texture_width": 16,
+					"texture_height": 16,
+					"uv": [
+						0,
+						0
+					],
+					"uv_size": [
+						16,
+						16
+					]
+				}
+			}
+		}
+	}
+}

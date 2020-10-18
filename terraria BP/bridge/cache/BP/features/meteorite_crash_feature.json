@@ -1,0 +1,83 @@
+{
+	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\features\\meteorite_crash_feature.json",
+	"file_type": "feature",
+	"format_version": 1,
+	"file_uuid": "1dc4ecb3_99e8_4d62_a17a_d8c44fda2f34",
+	"file_version": 11,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.13.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.13.0",
+					"minecraft:structure_template_feature": {
+						"description": {
+							"identifier": "meteorite_crash_feature"
+						},
+						"structure_name": "mystructure:meteorite_crash",
+						"adjustment_radius": 8,
+						"facing_direction": "random",
+						"constraints": {}
+					}
+				},
+				"key": "minecraft:structure_template_feature",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "meteorite_crash_feature"
+							},
+							"structure_name": "mystructure:meteorite_crash",
+							"adjustment_radius": 8,
+							"facing_direction": "random",
+							"constraints": {}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "meteorite_crash_feature"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "meteorite_crash_feature"
+							},
+							"structure_name": "mystructure:meteorite_crash",
+							"adjustment_radius": 8,
+							"facing_direction": "random",
+							"constraints": {}
+						},
+						"data": "mystructure:meteorite_crash",
+						"key": "structure_name"
+					},
+					{
+						"data": "8",
+						"key": "adjustment_radius"
+					},
+					{
+						"data": "random",
+						"key": "facing_direction"
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "meteorite_crash_feature"
+							},
+							"structure_name": "mystructure:meteorite_crash",
+							"adjustment_radius": 8,
+							"facing_direction": "random",
+							"constraints": {}
+						},
+						"key": "constraints",
+						"is_minified": true,
+						"children": {}
+					}
+				]
+			}
+		]
+	}
+}

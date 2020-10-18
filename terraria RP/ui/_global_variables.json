@@ -1,0 +1,13 @@
+{
+  //Options
+  "$light_button_default_text_color": [ 0.6, 0.6, 0.6 ],
+  "$light_button_hover_text_color": [ 1, 1, 0 ],
+  "$light_button_pressed_text_color": [ 1, 1, 0 ],
+  "$light_button_locked_text_color": [ 1, 1, 0.0 ],
+  
+  "$light_toggle_default_text_color": [ 0.6, 0.6, 0.6 ],
+  "$light_toggle_hover_text_color": [ 1, 1, 1 ],
+  "$light_toggle_checked_default_text_color": [ 1, 1, 0.0 ],
+  "$light_toggle_checked_hover_text_color": [ 1, 1, 0.0 ]
+ 
+}

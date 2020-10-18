@@ -1,0 +1,480 @@
+{
+	"resource_pack_name": "TerrariaModLLS",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"terrariamod:copperaxe": {
+			"textures": "textures/items/axes/copperaxe"
+		},
+		"terrariamod:tinaxe": {
+			"textures": "textures/items/axes/tinaxe"
+		},
+		"terrariamod:leadaxe": {
+			"textures": "textures/items/axes/leadaxe"
+		},
+		"terrariamod:ironaxe": {
+			"textures": "textures/items/axes/ironaxe"
+		},
+		"terrariamod:silveraxe": {
+			"textures": "textures/items/axes/silveraxe"
+		},
+		"terrariamod:tungstenaxe": {
+			"textures": "textures/items/axes/tungstenaxe"
+		},
+		"terrariamod:goldaxe": {
+			"textures": "textures/items/axes/goldaxe"
+		},
+		"terrariamod:platinumaxe": {
+			"textures": "textures/items/axes/platinumaxe"
+		},
+		"terrariamod:crimtaneaxe": {
+			"textures": "textures/items/axes/crimtaneaxe"
+		},
+		"terrariamod:hellstoneaxe": {
+			"textures": "textures/items/axes/hellstoneaxe"
+		},
+		"terrariamod:meteoriteaxe": {
+			"textures": "textures/items/axes/meteoriteaxe"
+		},
+		"terrariamod:ale": {
+			"textures": "textures/items/potions/ale"
+		},
+		"terrariamod:healingpotion": {
+			"textures": "textures/items/potions/healingpotion"
+		},
+		"terrariamod:glowing_mushroom": {
+			"textures": "textures/items/potions/glowing_mushroom"
+		},
+		"terrariamod:regenerationpotion": {
+			"textures": "textures/items/potions/regenerationpotion"
+		},
+		"terrariamod:mushroom": {
+			"textures": "textures/items/pamobile/mushroom"
+		},
+		"terrariamod:aquascepter": {
+			"textures": "textures/items/guns/aquascepter"
+		},
+		"terrariamod:creamsoda": {
+			"textures": "textures/items/potions/creamsoda"
+		},
+		"terrariamod:bone_terraria": {
+			"textures": "textures/items/guns/bone_terraria"
+		},
+		"terrariamod:phoenixblaster": {
+			"textures": "textures/items/guns/phoenixblaster"
+		},
+		"terrariamod:handgun": {
+			"textures": "textures/items/guns/handgun"
+		},
+		"terrariamod:muramasa": {
+			"textures": "textures/items/swords/muramasa"
+		},
+		"terrariamod:goldenkey_dungeon": {
+			"textures": "textures/items/pamobile/goldenkey_dungeon"
+		},
+		"terrariamod:waterbolt": {
+			"textures": "textures/items/guns/waterbolt"
+		},
+		"terrariamod:armsdealer_summoner": {
+			"textures": "textures/items/pamobile/armsdealer_summoner"
+		},
+		"terrariamod:boomstick": {
+			"textures": "textures/items/guns/boomstick"
+		},
+		"terrariamod:minishark": {
+			"textures": "textures/items/guns/minishark"
+		},
+		"terrariamod:musketball": {
+			"textures": "textures/items/projectiles/musketball"
+		},
+		"terrariamod:flintlockpistol": {
+			"textures": "textures/items/guns/flintlockpistol"
+		},
+		"terrariamod:spacegun": {
+			"textures": "textures/items/guns/spacegun"
+		},
+		"terrariamod:hellstonebow": {
+			"textures": "textures/items/guns/hellstonebow"
+		},
+		"terrariamod:crimtanebow": {
+			"textures": "textures/items/guns/crimtanebow"
+		},
+		"terrariamod:platinumbow": {
+			"textures": "textures/items/guns/platinumbow"
+		},
+		"terrariamod:goldbow": {
+			"textures": "textures/items/guns/goldbow"
+		},
+		"terrariamod:tungstenbow": {
+			"textures": "textures/items/guns/tungstenbow"
+		},
+		"terrariamod:silverbow": {
+			"textures": "textures/items/guns/silverbow"
+		},
+		"terrariamod:ironbow": {
+			"textures": "textures/items/guns/ironbow"
+		},
+		"terrariamod:leadbow": {
+			"textures": "textures/items/guns/leadbow"
+		},
+		"terrariamod:tinbow": {
+			"textures": "textures/items/guns/tinbow"
+		},
+		"terrariamod:copperbow": {
+			"textures": "textures/items/guns/copperbow"
+		},
+		"terrariamod:woodenbow": {
+			"textures": "textures/items/guns/woodenbow"
+		},
+		"terrariamod:woodenarrow": {
+			"textures": "textures/items/projectiles/woodenarrow"
+		},
+		"terrariamod:fallenstars": {
+			"textures": "textures/items/pamobile/fallenstars"
+		},
+		"terrariamod:flamarang": {
+			"textures": "textures/items/guns/flamarang"
+		},
+		"terrariamod:enchantedboomerang": {
+			"textures": "textures/items/guns/enchantedboomerang"
+		},
+		"terrariamod:umbrella": {
+			"textures": "textures/items/accessories/umbrella"
+		},
+		"terrariamod:woodenboomerang": {
+			"textures": "textures/items/guns/woodenboomerang"
+		},
+		"terrariamod:poisonedknife": {
+			"textures": "textures/items/guns/poisonedknife"
+		},
+		"terrariamod:throwingknife": {
+			"textures": "textures/items/guns/throwingknife"
+		},
+		"terrariamod:slimegun": {
+			"textures": "textures/items/guns/slimegun"
+		},
+		"terrariamod:magicmirror": {
+			"textures": "textures/items/accessories/magicmirror"
+		},
+		"terrariamod:bandofregeneration": {
+			"textures": "textures/items/accessories/bandofregeneration"
+		},
+		"terrariamod:rocketboots": {
+			"textures": "textures/items/accessories/rocketboots"
+		},
+		"terrariamod:lavacharm": {
+			"textures": "textures/items/accessories/lavacharm"
+		},
+		"terrariamod:balloonpufferfish": {
+			"textures": "textures/items/accessories/balloonpufferfish"
+		},
+		"terrariamod:hermesboots": {
+			"textures": "textures/items/accessories/hermesboots"
+		},
+		"terrariamod:aglet": {
+			"textures": "textures/items/accessories/aglet"
+		},
+		"terrariamod:bonepickaxe": {
+			"textures": "textures/items/pickaxes/bonepickaxe"
+		},
+		"terrariamod:zombiearm": {
+			"textures": "textures/items/swords/zombiearm"
+		},
+		"terrariamod:depthmeter": {
+			"textures": "textures/items/accessories/depthmeter"
+		},
+		"terrariamod:cartonofmilk": {
+			"textures": "textures/items/pamobile/cartonofmilk"
+		},
+		"terrariamod:bonesword": {
+			"textures": "textures/items/swords/bonesword"
+		},
+		"terrariamod:demolitionist_summoner": {
+			"textures": "textures/items/pamobile/demolitionist_summoner"
+		},
+		"terrariamod:nurse_summoner": {
+			"textures": "textures/items/pamobile/nurse_summoner"
+		},
+		"terrariamod:merchant_summoner": {
+			"textures": "textures/items/pamobile/merchant_summoner"
+		},
+		"terrariamod:grenade": {
+			"textures": "textures/items/weapons/grenade"
+		},
+		"terrariamod:bomb": {
+			"textures": "textures/items/weapons/bomb"
+		},
+		"terrariamod:dynamite": {
+			"textures": "textures/items/weapons/dynamite"
+		},
+		"minecraft:mushroom_brown": {
+			"textures": "textures/items/pamobile/mushroom_brown"
+		},
+		"terrariamod:shuriken": {
+			"textures": "textures/items/weapons/shuriken"
+		},
+		"terrariamod:coppercoin": {
+			"textures": "textures/items/coins/coppercoin"
+		},
+		"terrariamod:coppercoin_pile": {
+			"textures": "textures/items/coins/coppercoin_pile"
+		},
+		"terrariamod:silvercoin": {
+			"textures": "textures/items/coins/silvercoin"
+		},
+		"terrariamod:silvercoin_pile": {
+			"textures": "textures/items/coins/silvercoin_pile"
+		},
+		"terrariamod:goldcoin": {
+			"textures": "textures/items/coins/goldcoin"
+		},
+		"terrariamod:goldcoin_pile": {
+			"textures": "textures/items/coins/goldcoin_pile"
+		},
+		"terrariamod:platinumcoin": {
+			"textures": "textures/items/coins/platinumcoin"
+		},
+		"terrariamod:platinumcoin_pile": {
+			"textures": "textures/items/coins/platinumcoin_pile"
+		},
+		"terrariamod:vertebra": {
+			"textures": "textures/items/pamobile/vertebra"
+		},
+		"terrariamod:bloodyspine": {
+			"textures": "textures/items/pamobile/bloodyspine"
+		},
+		"terrariamod:tissuesample": {
+			"textures": "textures/items/pamobile/tissuesample"
+		},
+		"terrariamod:lens": {
+			"textures": "textures/items/pamobile/lens"
+		},
+		"terrariamod:gel": {
+			"textures": "textures/items/pamobile/gel"
+		},
+		"terrariamod:copperbar": {
+			"textures": "textures/items/ingots/copperbar"
+		},
+		"terrariamod:tinbar": {
+			"textures": "textures/items/ingots/tinbar"
+		},
+		"terrariamod:leadbar": {
+			"textures": "textures/items/ingots/leadbar"
+		},
+		"terrariamod:ironbar": {
+			"textures": "textures/items/ingots/ironbar"
+		},
+		"terrariamod:silverbar": {
+			"textures": "textures/items/ingots/silverbar"
+		},
+		"terrariamod:tungstenbar": {
+			"textures": "textures/items/ingots/tungstenbar"
+		},
+		"terrariamod:platinumbar": {
+			"textures": "textures/items/ingots/platinumbar"
+		},
+		"terrariamod:goldbar": {
+			"textures": "textures/items/ingots/goldbar"
+		},
+		"terrariamod:crimtanebar": {
+			"textures": "textures/items/ingots/crimtanebar"
+		},
+		"terrariamod:meteoritebar": {
+			"textures": "textures/items/ingots/meteoritebar"
+		},
+		"terrariamod:hellstonebar": {
+			"textures": "textures/items/ingots/hellstonebar"
+		},
+		"terrariamod:ruby": {
+			"textures": "textures/items/ingots/ruby"
+		},
+		"terrariamod:sapphire": {
+			"textures": "textures/items/ingots/sapphire"
+		},
+		"terrariamod:cactuspickaxe": {
+			"textures": "textures/items/pickaxes/cactuspickaxe"
+		},
+		"terrariamod:copperpickaxe": {
+			"textures": "textures/items/pickaxes/copperpickaxe"
+		},
+		"terrariamod:tinpickaxe": {
+			"textures": "textures/items/pickaxes/tinpickaxe"
+		},
+		"terrariamod:leadpickaxe": {
+			"textures": "textures/items/pickaxes/leadpickaxe"
+		},
+		"terrariamod:ironpickaxe": {
+			"textures": "textures/items/pickaxes/ironpickaxe"
+		},
+		"terrariamod:silverpickaxe": {
+			"textures": "textures/items/pickaxes/silverpickaxe"
+		},
+		"terrariamod:tungstenpickaxe": {
+			"textures": "textures/items/pickaxes/tungstenpickaxe"
+		},
+		"terrariamod:goldpickaxe": {
+			"textures": "textures/items/pickaxes/goldpickaxe"
+		},
+		"terrariamod:platinumpickaxe": {
+			"textures": "textures/items/pickaxes/platinumpickaxe"
+		},
+		"terrariamod:hellstonepickaxe": {
+			"textures": "textures/items/pickaxes/hellstonepickaxe"
+		},
+		"terrariamod:crimtanepickaxe": {
+			"textures": "textures/items/pickaxes/crimtanepickaxe"
+		},
+		"terrariamod:cactussword": {
+			"textures": "textures/items/swords/cactussword"
+		},
+		"terrariamod:coppersword": {
+			"textures": "textures/items/swords/coppersword"
+		},
+		"terrariamod:tinsword": {
+			"textures": "textures/items/swords/tinsword"
+		},
+		"terrariamod:leadsword": {
+			"textures": "textures/items/swords/leadsword"
+		},
+		"terrariamod:ironsword": {
+			"textures": "textures/items/swords/ironsword"
+		},
+		"terrariamod:silversword": {
+			"textures": "textures/items/swords/silversword"
+		},
+		"terrariamod:tungstensword": {
+			"textures": "textures/items/swords/tungstensword"
+		},
+		"terrariamod:goldsword": {
+			"textures": "textures/items/swords/goldsword"
+		},
+		"terrariamod:platinumsword": {
+			"textures": "textures/items/swords/platinumsword"
+		},
+		"terrariamod:hellstonesword": {
+			"textures": "textures/items/swords/hellstonesword"
+		},
+		"terrariamod:crimtanesword": {
+			"textures": "textures/items/swords/crimtanesword"
+		},
+		"terrariamod:bluephaseblade": {
+			"textures": "textures/items/swords/bluephaseblade"
+		},
+		"terrariamod:slimestaff": {
+			"textures": "textures/items/weapons/slimestaff"
+		},
+		"terrariamod:suspiciouslookingeye": {
+			"textures": "textures/items/pamobile/suspiciouslookingeye"
+		},
+		"terrariamod:slimecrown": {
+			"textures": "textures/items/pamobile/slimecrown"
+		},
+		"terrariamod:goldcrown": {
+			"textures": "textures/items/pamobile/goldcrown"
+		},
+		"terrariamod:lesserhealingpotion": {
+			"textures": "textures/items/potions/lesserhealingpotion"
+		},
+		"terrariamod:lifecrystal": {
+			"textures": "textures/items/pamobile/lifecrystal"
+		},
+		"terrariamod:copper_helmet": {
+			"textures": "textures/items/armor/copper_helmet"
+		},
+		"terrariamod:copper_chestplate": {
+			"textures": "textures/items/armor/copper_chestplate"
+		},
+		"terrariamod:copper_greaves": {
+			"textures": "textures/items/armor/copper_greaves"
+		},
+		"terrariamod:tin_helmet": {
+			"textures": "textures/items/armor/tin_helmet"
+		},
+		"terrariamod:tin_chestplate": {
+			"textures": "textures/items/armor/tin_chestplate"
+		},
+		"terrariamod:tin_greaves": {
+			"textures": "textures/items/armor/tin_greaves"
+		},
+		"terrariamod:lead_helmet": {
+			"textures": "textures/items/armor/lead_helmet"
+		},
+		"terrariamod:lead_chestplate": {
+			"textures": "textures/items/armor/lead_chestplate"
+		},
+		"terrariamod:lead_greaves": {
+			"textures": "textures/items/armor/lead_greaves"
+		},
+		"terrariamod:iron_helmet": {
+			"textures": "textures/items/armor/iron_helmet"
+		},
+		"terrariamod:iron_chestplate": {
+			"textures": "textures/items/armor/iron_chestplate"
+		},
+		"terrariamod:iron_greaves": {
+			"textures": "textures/items/armor/iron_greaves"
+		},
+		"terrariamod:silver_helmet": {
+			"textures": "textures/items/armor/silver_helmet"
+		},
+		"terrariamod:silver_chestplate": {
+			"textures": "textures/items/armor/silver_chestplate"
+		},
+		"terrariamod:silver_greaves": {
+			"textures": "textures/items/armor/silver_greaves"
+		},
+		"terrariamod:tungsten_helmet": {
+			"textures": "textures/items/armor/tungsten_helmet"
+		},
+		"terrariamod:tungsten_chestplate": {
+			"textures": "textures/items/armor/tungsten_chestplate"
+		},
+		"terrariamod:tungsten_greaves": {
+			"textures": "textures/items/armor/tungsten_greaves"
+		},
+		"terrariamod:gold_helmet": {
+			"textures": "textures/items/armor/gold_helmet"
+		},
+		"terrariamod:gold_chestplate": {
+			"textures": "textures/items/armor/gold_chestplate"
+		},
+		"terrariamod:gold_greaves": {
+			"textures": "textures/items/armor/gold_greaves"
+		},
+		"terrariamod:platinum_helmet": {
+			"textures": "textures/items/armor/platinum_helmet"
+		},
+		"terrariamod:platinum_chestplate": {
+			"textures": "textures/items/armor/platinum_chestplate"
+		},
+		"terrariamod:platinum_greaves": {
+			"textures": "textures/items/armor/platinum_greaves"
+		},
+		"terrariamod:hellstone_helmet": {
+			"textures": "textures/items/armor/hellstone_helmet"
+		},
+		"terrariamod:hellstone_chestplate": {
+			"textures": "textures/items/armor/hellstone_chestplate"
+		},
+		"terrariamod:hellstone_greaves": {
+			"textures": "textures/items/armor/hellstone_greaves"
+		},
+		"terrariamod:crimtane_helmet": {
+			"textures": "textures/items/armor/crimtane_helmet"
+		},
+		"terrariamod:crimtane_chestplate": {
+			"textures": "textures/items/armor/crimtane_chestplate"
+		},
+		"terrariamod:crimtane_greaves": {
+			"textures": "textures/items/armor/crimtane_greaves"
+		},
+		"terrariamod:meteorite_helmet": {
+			"textures": "textures/items/armor/meteorite_helmet"
+		},
+		"terrariamod:meteorite_chestplate": {
+			"textures": "textures/items/armor/meteorite_chestplate"
+		},
+		"terrariamod:meteorite_greaves": {
+			"textures": "textures/items/armor/meteorite_greaves"
+		}
+	}
+}

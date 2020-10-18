@@ -1,0 +1,166 @@
+{
+	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\recipes\\tinbar_recipe.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "9dff3418_f56a_4ff3_9718_3a0e2fd2bc73",
+	"file_version": 3,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:recipe_shapeless": {
+						"description": {
+							"identifier": "terrariamod:tinbar_recipe"
+						},
+						"tags": [
+							"tfurnace"
+						],
+						"ingredients": [
+							{
+								"item": "terrariamod:tinore",
+								"count": 3
+							}
+						],
+						"result": [
+							{
+								"item": "terrariamod:tinbar"
+							}
+						]
+					}
+				},
+				"key": "minecraft:recipe_shapeless",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:tinbar_recipe"
+							},
+							"tags": [
+								"tfurnace"
+							],
+							"ingredients": [
+								{
+									"item": "terrariamod:tinore",
+									"count": 3
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:tinbar"
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:tinbar_recipe"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:tinbar_recipe"
+							},
+							"tags": [
+								"tfurnace"
+							],
+							"ingredients": [
+								{
+									"item": "terrariamod:tinore",
+									"count": 3
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:tinbar"
+								}
+							]
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"tfurnace"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:tinbar_recipe"
+							},
+							"tags": [
+								"tfurnace"
+							],
+							"ingredients": [
+								{
+									"item": "terrariamod:tinore",
+									"count": 3
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:tinbar"
+								}
+							]
+						},
+						"key": "ingredients",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "terrariamod:tinore",
+										"count": 3
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "terrariamod:tinore",
+									"count": 3
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:tinbar_recipe"
+							},
+							"tags": [
+								"tfurnace"
+							],
+							"ingredients": [
+								{
+									"item": "terrariamod:tinore",
+									"count": 3
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:tinbar"
+								}
+							]
+						},
+						"key": "result",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "terrariamod:tinbar"
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "terrariamod:tinbar"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,286 @@
+{
+	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\items\\copperaxe.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "52aa1f61_47d4_4f2c_bb2b_b8cf47fbe022",
+	"file_version": 13,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "terrariamod:copperaxe",
+							"category": "equipment"
+						},
+						"components": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:hand_equipped": true,
+							"minecraft:mining_speed": 1,
+							"minecraft:damage": 3,
+							"minecraft:enchantable": {
+								"value": 14,
+								"slot": "axe"
+							},
+							"minecraft:digger": {
+								"use_efficiency": true,
+								"destroy_speeds": [
+									{
+										"block": {
+											"tags": "q.any_tag('wood')"
+										},
+										"speed": 1
+									}
+								]
+							},
+							"minecraft:icon": {
+								"texture": "terrariamod:copperaxe"
+							},
+							"tag:minecraft:is_axe": {},
+							"minecraft:render_offsets": "bow",
+							"minecraft:display_name": {
+								"value": "item.terrariamod:copperaxe.name"
+							},
+							"minecraft:weapon": {}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:copperaxe",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:hand_equipped": true,
+								"minecraft:mining_speed": 1,
+								"minecraft:damage": 3,
+								"minecraft:enchantable": {
+									"value": 14,
+									"slot": "axe"
+								},
+								"minecraft:digger": {
+									"use_efficiency": true,
+									"destroy_speeds": [
+										{
+											"block": {
+												"tags": "q.any_tag('wood')"
+											},
+											"speed": 1
+										}
+									]
+								},
+								"minecraft:icon": {
+									"texture": "terrariamod:copperaxe"
+								},
+								"tag:minecraft:is_axe": {},
+								"minecraft:render_offsets": "bow",
+								"minecraft:display_name": {
+									"value": "item.terrariamod:copperaxe.name"
+								},
+								"minecraft:weapon": {}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:copperaxe",
+							"category": "equipment"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:copperaxe",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:hand_equipped": true,
+								"minecraft:mining_speed": 1,
+								"minecraft:damage": 3,
+								"minecraft:enchantable": {
+									"value": 14,
+									"slot": "axe"
+								},
+								"minecraft:digger": {
+									"use_efficiency": true,
+									"destroy_speeds": [
+										{
+											"block": {
+												"tags": "q.any_tag('wood')"
+											},
+											"speed": 1
+										}
+									]
+								},
+								"minecraft:icon": {
+									"texture": "terrariamod:copperaxe"
+								},
+								"tag:minecraft:is_axe": {},
+								"minecraft:render_offsets": "bow",
+								"minecraft:display_name": {
+									"value": "item.terrariamod:copperaxe.name"
+								},
+								"minecraft:weapon": {}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "1",
+								"key": "minecraft:max_stack_size"
+							},
+							{
+								"data": "true",
+								"key": "minecraft:hand_equipped"
+							},
+							{
+								"data": "1",
+								"key": "minecraft:mining_speed"
+							},
+							{
+								"data": "3",
+								"key": "minecraft:damage"
+							},
+							{
+								"key": "minecraft:enchantable",
+								"is_minified": true,
+								"children": {
+									"value": 14,
+									"slot": "axe"
+								}
+							},
+							{
+								"key": "minecraft:digger",
+								"children": [
+									{
+										"data": "true",
+										"key": "use_efficiency"
+									},
+									{
+										"open": {
+											"use_efficiency": true,
+											"destroy_speeds": [
+												{
+													"block": {
+														"tags": "q.any_tag('wood')"
+													},
+													"speed": 1
+												}
+											]
+										},
+										"key": "destroy_speeds",
+										"children": [
+											{
+												"open": [
+													{
+														"block": {
+															"tags": "q.any_tag('wood')"
+														},
+														"speed": 1
+													}
+												],
+												"children": [
+													{
+														"open": {
+															"block": {
+																"tags": "q.any_tag('wood')"
+															},
+															"speed": 1
+														},
+														"key": "block",
+														"is_minified": true,
+														"children": {
+															"tags": "q.any_tag('wood')"
+														}
+													},
+													{
+														"open": {
+															"block": {
+																"tags": "q.any_tag('wood')"
+															},
+															"speed": 1
+														},
+														"data": "1",
+														"key": "speed"
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "terrariamod:copperaxe"
+								}
+							},
+							{
+								"key": "tag:minecraft:is_axe",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"data": "bow",
+								"key": "minecraft:render_offsets"
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:hand_equipped": true,
+									"minecraft:mining_speed": 1,
+									"minecraft:damage": 3,
+									"minecraft:enchantable": {
+										"value": 14,
+										"slot": "axe"
+									},
+									"minecraft:digger": {
+										"use_efficiency": true,
+										"destroy_speeds": [
+											{
+												"block": {
+													"tags": "q.any_tag('wood')"
+												},
+												"speed": 1
+											}
+										]
+									},
+									"minecraft:icon": {
+										"texture": "terrariamod:copperaxe"
+									},
+									"tag:minecraft:is_axe": {},
+									"minecraft:render_offsets": "bow",
+									"minecraft:display_name": {
+										"value": "item.terrariamod:copperaxe.name"
+									},
+									"minecraft:weapon": {}
+								},
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "item.terrariamod:copperaxe.name"
+								}
+							},
+							{
+								"key": "minecraft:weapon",
+								"is_minified": true,
+								"children": {}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

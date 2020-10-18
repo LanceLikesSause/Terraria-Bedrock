@@ -1,0 +1,63 @@
+{
+	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\blocks\\tungstenore.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "3775194f_2862_4b6d_ade3_a3b0616e3ceb",
+	"file_version": 2,
+	"cache_content": {
+		"children": [
+			{
+				"key": "format_version",
+				"is_minified": true,
+				"children": {}
+			},
+			{
+				"open": {
+					"format_version": {},
+					"minecraft:block": {
+						"description": {
+							"identifier": "terrariamod:tungstenore",
+							"register_to_creative_menu": true
+						},
+						"components": {
+							"minecraft:destroy_time": 1,
+							"minecraft:loot": "loot_tables/blocks/tungstenore.json",
+							"minecraft:explosion_resistance": 0.5
+						}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:tungstenore",
+							"register_to_creative_menu": true
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:tungstenore",
+								"register_to_creative_menu": true
+							},
+							"components": {
+								"minecraft:destroy_time": 1,
+								"minecraft:loot": "loot_tables/blocks/tungstenore.json",
+								"minecraft:explosion_resistance": 0.5
+							}
+						},
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:destroy_time": 1,
+							"minecraft:loot": "loot_tables/blocks/tungstenore.json",
+							"minecraft:explosion_resistance": 0.5
+						}
+					}
+				]
+			}
+		]
+	}
+}

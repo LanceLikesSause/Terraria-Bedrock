@@ -1,0 +1,157 @@
+{
+	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\terraria RP\\blocks.json",
+	"file_type": "client_block",
+	"format_version": 1,
+	"file_uuid": "b9d0f7bc_21a2_4789_93ad_6a104624b561",
+	"file_version": 6,
+	"cache_content": {
+		"children": [
+			{
+				"key": "terrariamod:crimtaneore",
+				"is_minified": true,
+				"children": {
+					"textures": "crimtaneore",
+					"sound": "stone"
+				}
+			},
+			{
+				"key": "terrariamod:crimson_log",
+				"is_minified": true,
+				"children": {
+					"textures": "crimson_log",
+					"sound": "wood"
+				}
+			},
+			{
+				"open": {
+					"terrariamod:crimtaneore": {
+						"textures": "crimtaneore",
+						"sound": "stone"
+					},
+					"terrariamod:crimson_log": {
+						"textures": "crimson_log",
+						"sound": "wood"
+					},
+					"terrariamod:crimson_grass": {
+						"sound": "grass",
+						"textures": {
+							"up": "crimson_grass_up",
+							"down": "crimson_grass_down",
+							"side": "crimson_grass_side"
+						}
+					},
+					"terrariamod:crimson_leaves": {
+						"textures": "crimson_leaves",
+						"sound": "grass"
+					},
+					"terrariamod:crimstone": {
+						"textures": "crimstone",
+						"sound": "stone",
+						"blockshape": "invisible"
+					},
+					"terrariamod:copperore": {
+						"textures": "copperore",
+						"sound": "stone"
+					},
+					"terrariamod:tinore": {
+						"textures": "tinore",
+						"sound": "stone"
+					},
+					"terrariamod:leadore": {
+						"textures": "leadore",
+						"sound": "stone"
+					},
+					"terrariamod:silverore": {
+						"textures": "silverore",
+						"sound": "stone"
+					},
+					"terrariamod:viciousmushroom": {
+						"textures": "viciousmushroom",
+						"sound": "grass"
+					}
+				},
+				"key": "terrariamod:crimson_grass",
+				"children": [
+					{
+						"data": "grass",
+						"key": "sound"
+					},
+					{
+						"open": {
+							"sound": "grass",
+							"textures": {
+								"up": "crimson_grass_up",
+								"down": "crimson_grass_down",
+								"side": "crimson_grass_side"
+							}
+						},
+						"key": "textures",
+						"is_minified": true,
+						"children": {
+							"up": "crimson_grass_up",
+							"down": "crimson_grass_down",
+							"side": "crimson_grass_side"
+						}
+					}
+				]
+			},
+			{
+				"key": "terrariamod:crimson_leaves",
+				"is_minified": true,
+				"children": {
+					"textures": "crimson_leaves",
+					"sound": "grass"
+				}
+			},
+			{
+				"key": "terrariamod:crimstone",
+				"is_minified": true,
+				"children": {
+					"textures": "crimstone",
+					"sound": "stone",
+					"blockshape": "invisible"
+				}
+			},
+			{
+				"key": "terrariamod:copperore",
+				"is_minified": true,
+				"children": {
+					"textures": "copperore",
+					"sound": "stone"
+				}
+			},
+			{
+				"key": "terrariamod:tinore",
+				"is_minified": true,
+				"children": {
+					"textures": "tinore",
+					"sound": "stone"
+				}
+			},
+			{
+				"key": "terrariamod:leadore",
+				"is_minified": true,
+				"children": {
+					"textures": "leadore",
+					"sound": "stone"
+				}
+			},
+			{
+				"key": "terrariamod:silverore",
+				"is_minified": true,
+				"children": {
+					"textures": "silverore",
+					"sound": "stone"
+				}
+			},
+			{
+				"key": "terrariamod:viciousmushroom",
+				"is_minified": true,
+				"children": {
+					"textures": "viciousmushroom",
+					"sound": "grass"
+				}
+			}
+		]
+	}
+}

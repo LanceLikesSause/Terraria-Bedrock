@@ -1,0 +1,90 @@
+{
+	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria\\features\\crimtaneore_feature.json",
+	"file_type": "feature",
+	"format_version": 1,
+	"file_uuid": "eb8dd9c3_b1db_4451_ab94_945369e20f47",
+	"file_version": 3,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.13.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.13.0",
+					"minecraft:ore_feature": {
+						"description": {
+							"identifier": "crimtaneore_feature"
+						},
+						"count": 17,
+						"places_block": "terrariamod:crimtaneore",
+						"may_replace": [
+							{
+								"name": "terrariamod:crimstone"
+							}
+						]
+					}
+				},
+				"key": "minecraft:ore_feature",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "crimtaneore_feature"
+							},
+							"count": 17,
+							"places_block": "terrariamod:crimtaneore",
+							"may_replace": [
+								{
+									"name": "terrariamod:crimstone"
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "crimtaneore_feature"
+						}
+					},
+					{
+						"data": "17",
+						"key": "count"
+					},
+					{
+						"data": "terrariamod:crimtaneore",
+						"key": "places_block"
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "crimtaneore_feature"
+							},
+							"count": 17,
+							"places_block": "terrariamod:crimtaneore",
+							"may_replace": [
+								{
+									"name": "terrariamod:crimstone"
+								}
+							]
+						},
+						"key": "may_replace",
+						"array": [
+							{
+								"open": [
+									{
+										"name": "terrariamod:crimstone"
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"name": "terrariamod:crimstone"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,25 @@
+//bridge-file-version: #3
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "terrariamod:silver_to_gold_recipe"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"###",
+			"###",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "terrariamod:silvercoin_pile"
+			}
+		},
+		"result": {
+			"item": "terrariamod:goldcoin"
+		}
+	}
+}

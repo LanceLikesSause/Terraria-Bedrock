@@ -1,0 +1,281 @@
+{
+	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\terraria RP\\entity\\bloodcrawler.json",
+	"file_type": "client_entity",
+	"format_version": 1,
+	"file_uuid": "74f489a3_cb14_4a06_bb6c_5f11283cca8e",
+	"file_version": 2,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.8.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.8.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "terrariamod:bloodcrawler",
+							"min_engine_version": "1.8.0",
+							"materials": {
+								"default": "spider",
+								"invisible": "spider_invisible"
+							},
+							"textures": {
+								"default": "textures/entity/pamobile/bloodcrawler"
+							},
+							"geometry": {
+								"default": "geometry.bloodcrawler"
+							},
+							"animations": {
+								"default_leg_pose": "animation.spider.default_leg_pose",
+								"look_at_target": "animation.spider.look_at_target",
+								"walk": "animation.spider.walk"
+							},
+							"animation_controllers": [
+								{
+									"move": "controller.animation.spider.move"
+								}
+							],
+							"render_controllers": [
+								"controller.render.spider"
+							],
+							"spawn_egg": {
+								"base_color": "#FF5752",
+								"overlay_color": "#D22117"
+							}
+						}
+					}
+				},
+				"key": "minecraft:client_entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:bloodcrawler",
+								"min_engine_version": "1.8.0",
+								"materials": {
+									"default": "spider",
+									"invisible": "spider_invisible"
+								},
+								"textures": {
+									"default": "textures/entity/pamobile/bloodcrawler"
+								},
+								"geometry": {
+									"default": "geometry.bloodcrawler"
+								},
+								"animations": {
+									"default_leg_pose": "animation.spider.default_leg_pose",
+									"look_at_target": "animation.spider.look_at_target",
+									"walk": "animation.spider.walk"
+								},
+								"animation_controllers": [
+									{
+										"move": "controller.animation.spider.move"
+									}
+								],
+								"render_controllers": [
+									"controller.render.spider"
+								],
+								"spawn_egg": {
+									"base_color": "#FF5752",
+									"overlay_color": "#D22117"
+								}
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"open": {
+									"identifier": "terrariamod:bloodcrawler",
+									"min_engine_version": "1.8.0",
+									"materials": {
+										"default": "spider",
+										"invisible": "spider_invisible"
+									},
+									"textures": {
+										"default": "textures/entity/pamobile/bloodcrawler"
+									},
+									"geometry": {
+										"default": "geometry.bloodcrawler"
+									},
+									"animations": {
+										"default_leg_pose": "animation.spider.default_leg_pose",
+										"look_at_target": "animation.spider.look_at_target",
+										"walk": "animation.spider.walk"
+									},
+									"animation_controllers": [
+										{
+											"move": "controller.animation.spider.move"
+										}
+									],
+									"render_controllers": [
+										"controller.render.spider"
+									],
+									"spawn_egg": {
+										"base_color": "#FF5752",
+										"overlay_color": "#D22117"
+									}
+								},
+								"data": "terrariamod:bloodcrawler",
+								"key": "identifier"
+							},
+							{
+								"data": "1.8.0",
+								"key": "min_engine_version"
+							},
+							{
+								"key": "materials",
+								"is_minified": true,
+								"children": {
+									"default": "spider",
+									"invisible": "spider_invisible"
+								}
+							},
+							{
+								"open": {
+									"identifier": "terrariamod:bloodcrawler",
+									"min_engine_version": "1.8.0",
+									"materials": {
+										"default": "spider",
+										"invisible": "spider_invisible"
+									},
+									"textures": {
+										"default": "textures/entity/pamobile/bloodcrawler"
+									},
+									"geometry": {
+										"default": "geometry.bloodcrawler"
+									},
+									"animations": {
+										"default_leg_pose": "animation.spider.default_leg_pose",
+										"look_at_target": "animation.spider.look_at_target",
+										"walk": "animation.spider.walk"
+									},
+									"animation_controllers": [
+										{
+											"move": "controller.animation.spider.move"
+										}
+									],
+									"render_controllers": [
+										"controller.render.spider"
+									],
+									"spawn_egg": {
+										"base_color": "#FF5752",
+										"overlay_color": "#D22117"
+									}
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": {
+									"default": "textures/entity/pamobile/bloodcrawler"
+								}
+							},
+							{
+								"open": {
+									"identifier": "terrariamod:bloodcrawler",
+									"min_engine_version": "1.8.0",
+									"materials": {
+										"default": "spider",
+										"invisible": "spider_invisible"
+									},
+									"textures": {
+										"default": "textures/entity/pamobile/bloodcrawler"
+									},
+									"geometry": {
+										"default": "geometry.bloodcrawler"
+									},
+									"animations": {
+										"default_leg_pose": "animation.spider.default_leg_pose",
+										"look_at_target": "animation.spider.look_at_target",
+										"walk": "animation.spider.walk"
+									},
+									"animation_controllers": [
+										{
+											"move": "controller.animation.spider.move"
+										}
+									],
+									"render_controllers": [
+										"controller.render.spider"
+									],
+									"spawn_egg": {
+										"base_color": "#FF5752",
+										"overlay_color": "#D22117"
+									}
+								},
+								"key": "geometry",
+								"is_minified": true,
+								"children": {
+									"default": "geometry.bloodcrawler"
+								}
+							},
+							{
+								"key": "animations",
+								"is_minified": true,
+								"children": {
+									"default_leg_pose": "animation.spider.default_leg_pose",
+									"look_at_target": "animation.spider.look_at_target",
+									"walk": "animation.spider.walk"
+								}
+							},
+							{
+								"key": "animation_controllers",
+								"is_minified": true,
+								"children": [
+									{
+										"move": "controller.animation.spider.move"
+									}
+								]
+							},
+							{
+								"key": "render_controllers",
+								"is_minified": true,
+								"children": [
+									"controller.render.spider"
+								]
+							},
+							{
+								"open": {
+									"identifier": "terrariamod:bloodcrawler",
+									"min_engine_version": "1.8.0",
+									"materials": {
+										"default": "spider",
+										"invisible": "spider_invisible"
+									},
+									"textures": {
+										"default": "textures/entity/pamobile/bloodcrawler"
+									},
+									"geometry": {
+										"default": "geometry.bloodcrawler"
+									},
+									"animations": {
+										"default_leg_pose": "animation.spider.default_leg_pose",
+										"look_at_target": "animation.spider.look_at_target",
+										"walk": "animation.spider.walk"
+									},
+									"animation_controllers": [
+										{
+											"move": "controller.animation.spider.move"
+										}
+									],
+									"render_controllers": [
+										"controller.render.spider"
+									],
+									"spawn_egg": {
+										"base_color": "#FF5752",
+										"overlay_color": "#D22117"
+									}
+								},
+								"key": "spawn_egg",
+								"is_minified": true,
+								"children": {
+									"base_color": "#FF5752",
+									"overlay_color": "#D22117"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

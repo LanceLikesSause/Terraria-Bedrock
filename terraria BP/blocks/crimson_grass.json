@@ -1,0 +1,42 @@
+//bridge-file-version: #49
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "terrariamod:crimson_grass",
+			"register_to_creative_menu": true
+		},
+		"components": {
+			"minecraft:destroy_time": 5,
+			"minecraft:loot": "loot_tables/blocks/stone.json",
+			"minecraft:block_light_emission": 0.7,
+			"tag:thalasso:crystal": {},
+			"minecraft:material_instances": {
+				"*": {
+					"render_method": "opaque",
+					"texture": "terrariamod:crimson_grass"
+				}
+			},
+			"minecraft:ticking": {
+				"looping": false,
+				"range": [
+					6000,
+					6000
+				],
+				"on_tick": {
+					"target": "self",
+					"event": "thalasso:crack"
+				}
+			}
+		},
+		"events": {
+			"thalasso:crack": {
+				"run_command": {
+					"command": [
+						"function crimson_grass"
+					]
+				}
+			}
+		}
+	}
+}

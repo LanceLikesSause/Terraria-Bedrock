@@ -1,0 +1,22 @@
+//bridge-file-version: #21
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "terrariamod:cactussword",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:damage": 8,
+			"minecraft:weapon": {},
+			"minecraft:icon": {
+				"texture": "terrariamod:cactussword"
+			},
+			"minecraft:display_name": {
+				"value": "item.terrariamod:cactussword.name"
+			}
+		}
+	}
+}

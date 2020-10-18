@@ -1,0 +1,23 @@
+//bridge-file-version: #6
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "terrariamod:spacegun_recipe"
+		},
+		"tags": [
+			"iron_anvil"
+		],
+		"ingredients": [
+			{
+				"item": "terrariamod:meteoriteblock",
+				"count": 2
+			}
+		],
+		"result": [
+			{
+				"item": "terrariamod:spacegun"
+			}
+		]
+	}
+}

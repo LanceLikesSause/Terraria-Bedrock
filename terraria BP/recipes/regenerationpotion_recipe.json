@@ -1,0 +1,27 @@
+//bridge-file-version: #7
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "terrariamod:regenerationpotion_recipe"
+		},
+		"tags": [
+			"bottle"
+		],
+		"ingredients": [
+			{
+				"item": "terrariamod:mushroom",
+				"count": 1
+			},
+			{
+				"item": "minecraft:yellow_flower",
+				"count": 1
+			}
+		],
+		"result": [
+			{
+				"item": "terrariamod:regenerationpotion"
+			}
+		]
+	}
+}

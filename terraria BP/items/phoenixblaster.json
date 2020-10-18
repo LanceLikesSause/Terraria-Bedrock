@@ -1,0 +1,19 @@
+//bridge-file-version: #20
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "terrariamod:phoenixblaster"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:icon": {
+				"texture": "terrariamod:phoenixblaster"
+			},
+			"minecraft:display_name": {
+				"value": "item.terrariamod:phoenixblaster.name"
+			}
+		}
+	}
+}

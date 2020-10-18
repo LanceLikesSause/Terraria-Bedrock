@@ -1,0 +1,53 @@
+//bridge-file-version: #12
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "terrariamod:lavacharm",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:stacked_by_data": true,
+			"minecraft:max_stack_size": 1,
+			"minecraft:use_duration": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:food": {
+				"on_consume": {
+					"event": "minecraft:use",
+					"target": "self"
+				},
+				"can_always_eat": true
+			},
+			"minecraft:cooldown": {
+				"category": "chorusfruit",
+				"duration": 7
+			},
+			"minecraft:icon": {
+				"texture": "terrariamod:lavacharm"
+			},
+			"minecraft:display_name": {
+				"value": "item.terrariamod:lavacharm.name"
+			}
+		},
+		"events": {
+			"minecraft:use": {
+				"sequence": [
+					{
+						"remove_mob_effect": {
+							"effect": "fire_resistance",
+							"target": "holder"
+						}
+					},
+					{
+						"add_mob_effect": {
+							"target": "holder",
+							"duration": 7,
+							"amplifier": 1,
+							"effect": "fire_resistance"
+						}
+					}
+				]
+			}
+		}
+	}
+}

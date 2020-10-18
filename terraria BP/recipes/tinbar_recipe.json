@@ -1,0 +1,23 @@
+//bridge-file-version: #3
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "terrariamod:tinbar_recipe"
+		},
+		"tags": [
+			"tfurnace"
+		],
+		"ingredients": [
+			{
+				"item": "terrariamod:tinore",
+				"count": 3
+			}
+		],
+		"result": [
+			{
+				"item": "terrariamod:tinbar"
+			}
+		]
+	}
+}

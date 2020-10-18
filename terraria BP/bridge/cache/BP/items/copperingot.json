@@ -1,0 +1,61 @@
+{
+	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria/items/copperingot.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "7a097034_5cc9_4ca1_82a0_f1d120261934",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.13.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.13.0",
+					"minecraft:item": {
+						"description": {
+							"identifier": "terrariamod:copperingot"
+						},
+						"components": {
+							"minecraft:max_stack_size": 64
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:copperingot"
+							},
+							"components": {
+								"minecraft:max_stack_size": 64
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:copperingot"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:copperingot"
+							},
+							"components": {
+								"minecraft:max_stack_size": 64
+							}
+						},
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:max_stack_size": 64
+						}
+					}
+				]
+			}
+		]
+	}
+}

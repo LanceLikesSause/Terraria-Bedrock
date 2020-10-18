@@ -1,0 +1,135 @@
+{
+	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\items\\leadbar.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "a9bfab10_d7a3_4730_9b6d_6429ff730ee3",
+	"file_version": 2,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "terrariamod:leadbar",
+							"category": "items"
+						},
+						"components": {
+							"minecraft:max_stack_size": 64,
+							"minecraft:icon": {
+								"texture": "terrariamod:leadbar"
+							},
+							"minecraft:display_name": {
+								"value": "item.terrariamod:leadbar.name"
+							}
+						}
+					}
+				},
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "terrariamod:leadbar",
+							"category": "items"
+						},
+						"components": {
+							"minecraft:max_stack_size": 64,
+							"minecraft:icon": {
+								"texture": "terrariamod:leadbar"
+							},
+							"minecraft:display_name": {
+								"value": "item.terrariamod:leadbar.name"
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:leadbar",
+								"category": "items"
+							},
+							"components": {
+								"minecraft:max_stack_size": 64,
+								"minecraft:icon": {
+									"texture": "terrariamod:leadbar"
+								},
+								"minecraft:display_name": {
+									"value": "item.terrariamod:leadbar.name"
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:leadbar",
+							"category": "items"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:leadbar",
+								"category": "items"
+							},
+							"components": {
+								"minecraft:max_stack_size": 64,
+								"minecraft:icon": {
+									"texture": "terrariamod:leadbar"
+								},
+								"minecraft:display_name": {
+									"value": "item.terrariamod:leadbar.name"
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "64",
+								"key": "minecraft:max_stack_size"
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 64,
+									"minecraft:icon": {
+										"texture": "terrariamod:leadbar"
+									},
+									"minecraft:display_name": {
+										"value": "item.terrariamod:leadbar.name"
+									}
+								},
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "terrariamod:leadbar"
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 64,
+									"minecraft:icon": {
+										"texture": "terrariamod:leadbar"
+									},
+									"minecraft:display_name": {
+										"value": "item.terrariamod:leadbar.name"
+									}
+								},
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "item.terrariamod:leadbar.name"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

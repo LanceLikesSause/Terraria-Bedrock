@@ -1,0 +1,160 @@
+{
+	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\loot_tables\\spawn_bonus_chest.json",
+	"file_type": "loot_table",
+	"format_version": 1,
+	"file_uuid": "834eca3c_f5ae_4c2c_92de_c50859a0d286",
+	"file_version": 1,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"pools": [
+						{
+							"rolls": 1,
+							"entries": [
+								{
+									"type": "item",
+									"name": "terrariamod:coppersword",
+									"weight": 99
+								}
+							]
+						},
+						{
+							"rolls": 1,
+							"entries": [
+								{
+									"type": "item",
+									"name": "terrariamod:copperpickaxe",
+									"weight": 99
+								}
+							]
+						}
+					]
+				},
+				"key": "pools",
+				"children": [
+					{
+						"open": [
+							{
+								"rolls": 1,
+								"entries": [
+									{
+										"type": "item",
+										"name": "terrariamod:coppersword",
+										"weight": 99
+									}
+								]
+							},
+							{
+								"rolls": 1,
+								"entries": [
+									{
+										"type": "item",
+										"name": "terrariamod:copperpickaxe",
+										"weight": 99
+									}
+								]
+							}
+						],
+						"children": [
+							{
+								"data": "1",
+								"key": "rolls"
+							},
+							{
+								"open": {
+									"rolls": 1,
+									"entries": [
+										{
+											"type": "item",
+											"name": "terrariamod:coppersword",
+											"weight": 99
+										}
+									]
+								},
+								"key": "entries",
+								"children": [
+									{
+										"open": [
+											{
+												"type": "item",
+												"name": "terrariamod:coppersword",
+												"weight": 99
+											}
+										],
+										"is_minified": true,
+										"children": {
+											"type": "item",
+											"name": "terrariamod:coppersword",
+											"weight": 99
+										}
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": [
+							{
+								"rolls": 1,
+								"entries": [
+									{
+										"type": "item",
+										"name": "terrariamod:coppersword",
+										"weight": 99
+									}
+								]
+							},
+							{
+								"rolls": 1,
+								"entries": [
+									{
+										"type": "item",
+										"name": "terrariamod:copperpickaxe",
+										"weight": 99
+									}
+								]
+							}
+						],
+						"children": [
+							{
+								"data": "1",
+								"key": "rolls"
+							},
+							{
+								"open": {
+									"rolls": 1,
+									"entries": [
+										{
+											"type": "item",
+											"name": "terrariamod:copperpickaxe",
+											"weight": 99
+										}
+									]
+								},
+								"key": "entries",
+								"children": [
+									{
+										"open": [
+											{
+												"type": "item",
+												"name": "terrariamod:copperpickaxe",
+												"weight": 99
+											}
+										],
+										"is_minified": true,
+										"children": {
+											"type": "item",
+											"name": "terrariamod:copperpickaxe",
+											"weight": 99
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

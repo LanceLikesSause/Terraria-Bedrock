@@ -1,0 +1,61 @@
+{
+	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\blocks\\meteoriteblock.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "2da4ff25_0268_4cb4_99ef_6b7954fd7f9b",
+	"file_version": 2,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:block": {
+						"description": {
+							"identifier": "terrariamod:meteoriteblock"
+						},
+						"components": {
+							"minecraft:destroy_time": 1
+						}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:meteoriteblock"
+							},
+							"components": {
+								"minecraft:destroy_time": 1
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:meteoriteblock"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:meteoriteblock"
+							},
+							"components": {
+								"minecraft:destroy_time": 1
+							}
+						},
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:destroy_time": 1
+						}
+					}
+				]
+			}
+		]
+	}
+}

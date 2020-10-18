@@ -1,0 +1,4046 @@
+{
+	"BP/feature_rules/crimtaneore_feature.json/unnamed.json": {
+		"data": {}
+	},
+	"BP/feature_rules/overworld_underground_crimtaneore_feature.json/crimtaneore_feature.json": {
+		"data": {}
+	},
+	"BP/entities/pa_crimera.json": {
+		"data": {}
+	},
+	"BP/entities/pa_facemonster.json": {
+		"data": {}
+	},
+	"BP/animation_controllers/bridge/custom_item_behavior.json": {
+		"data": {
+			"8db89586_0c19_4187_871a_03c4acb8bc98": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"dc1b39b6_b990_45a7_b52f_07dc6066aab9": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"12060164_cd10_41a4_bddd_943fdb6c6cc0": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"7a097034_5cc9_4ca1_82a0_f1d120261934": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"820606a3_6a99_4ed3_9bb3_db77b9447517": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"99c27edb_7361_4979_a8d4_0c3098efbd34": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"a9bfab10_d7a3_4730_9b6d_6429ff730ee3": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"afbf141d_426e_4a41_959a_15204be81319": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"0f00499b_2ff0_4a01_b9a3_a630744d4be1": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"6dacc2dc_b2e5_4e56_8029_8a330eace269": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"a496ba97_2852_4116_b5c4_186c7902c8e0": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"ea2d350e_018e_4491_9608_db47ddcb784f": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"774c260c_db2f_45d7_9cc4_e1f44d57ad17": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"026a55cd_6e6e_4da7_9b50_631509bec544": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {
+								"transitions": [
+									{
+										"holds_copperpickaxe": "query.get_equipped_item_name(0, 0) == 'copperpickaxe'"
+									}
+								],
+								"on_entry": [
+									"@s bridge:on_reset_player"
+								]
+							},
+							"holds_copperpickaxe": {
+								"transitions": [
+									{
+										"default": "query.get_equipped_item_name(0, 0) != 'copperpickaxe'"
+									}
+								],
+								"on_entry": [
+									"@s bridge:on_equipped_026a55cd_6e6e_4da7_9b50_631509bec544"
+								],
+								"on_exit": [
+									"@s bridge:on_unequipped_026a55cd_6e6e_4da7_9b50_631509bec544"
+								]
+							}
+						}
+					}
+				}
+			},
+			"9671a890_4e78_48ed_bc3d_0648fe52d526": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"cd00d7bd_6645_421d_abfd_536624ee0a36": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"2966dc03_8522_46ad_b4c0_d742d8ae7542": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"423e2028_27de_47cd_abd7_e88600eeede7": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {
+								"transitions": [
+									{
+										"holds_silverpickaxe": "query.get_equipped_item_name(0, 0) == 'silverpickaxe'"
+									}
+								],
+								"on_entry": [
+									"@s bridge:on_reset_player"
+								]
+							},
+							"holds_silverpickaxe": {
+								"transitions": [
+									{
+										"default": "query.get_equipped_item_name(0, 0) != 'silverpickaxe'"
+									}
+								],
+								"on_entry": [
+									"@s bridge:on_equipped_423e2028_27de_47cd_abd7_e88600eeede7"
+								],
+								"on_exit": [
+									"@s bridge:on_unequipped_423e2028_27de_47cd_abd7_e88600eeede7"
+								]
+							}
+						}
+					}
+				}
+			},
+			"87d82831_22f5_4f27_8a3b_db845e124246": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {
+								"transitions": [
+									{
+										"holds_tungstenpickaxe": "query.get_equipped_item_name(0, 0) == 'tungstenpickaxe'"
+									}
+								],
+								"on_entry": [
+									"@s bridge:on_reset_player"
+								]
+							},
+							"holds_tungstenpickaxe": {
+								"transitions": [
+									{
+										"default": "query.get_equipped_item_name(0, 0) != 'tungstenpickaxe'"
+									}
+								],
+								"on_entry": [
+									"@s bridge:on_equipped_87d82831_22f5_4f27_8a3b_db845e124246"
+								],
+								"on_exit": [
+									"@s bridge:on_unequipped_87d82831_22f5_4f27_8a3b_db845e124246"
+								]
+							}
+						}
+					}
+				}
+			},
+			"1ea0c21e_d66a_45c6_b359_e5df47fc8a84": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {
+								"transitions": [
+									{
+										"holds_platinumpickaxe": "query.get_equipped_item_name(0, 0) == 'platinumpickaxe'"
+									}
+								],
+								"on_entry": [
+									"@s bridge:on_reset_player"
+								]
+							},
+							"holds_platinumpickaxe": {
+								"transitions": [
+									{
+										"default": "query.get_equipped_item_name(0, 0) != 'platinumpickaxe'"
+									}
+								],
+								"on_entry": [
+									"@s bridge:on_equipped_1ea0c21e_d66a_45c6_b359_e5df47fc8a84"
+								],
+								"on_exit": [
+									"@s bridge:on_unequipped_1ea0c21e_d66a_45c6_b359_e5df47fc8a84"
+								]
+							}
+						}
+					}
+				}
+			},
+			"367bec14_61bb_481f_9de5_8b6e9781aaa7": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"cfadf0e9_29bd_4955_af17_e0e3bbe02f2f": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"149f535d_603d_477b_bbc6_ede57f8253b9": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"2daa104d_c689_4162_b649_b20726c53ff5": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {
+								"transitions": [
+									{
+										"holds_meteoritepickaxe": "query.get_equipped_item_name(0, 0) == 'meteoritepickaxe'"
+									}
+								],
+								"on_entry": [
+									"@s bridge:on_reset_player"
+								]
+							},
+							"holds_meteoritepickaxe": {
+								"transitions": [
+									{
+										"default": "query.get_equipped_item_name(0, 0) != 'meteoritepickaxe'"
+									}
+								],
+								"on_entry": [
+									"@s bridge:on_equipped_2daa104d_c689_4162_b649_b20726c53ff5"
+								],
+								"on_exit": [
+									"@s bridge:on_unequipped_2daa104d_c689_4162_b649_b20726c53ff5"
+								]
+							}
+						}
+					}
+				}
+			},
+			"76efc4f2_35b5_4650_9962_2006c9e19fbf": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"a1bc94cb_0abd_4861_9541_85c2c1ccacb8": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"24220a7f_fefc_4e9e_8118_bac11ed6d9da": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"bd34333c_bea9_4a32_af5e_ce94cec741ef": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"54c45ebd_5416_4441_8660_380c5db46788": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"be811bc3_ab21_4aa9_be5c_2db1e9bc14ac": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"3eedb5d8_7918_418b_86d1_538931894059": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"79e8eefa_c765_4f22_b9ad_7def7df1f47a": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"1e793aaa_1bd6_406e_8af4_c994058d9353": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"0df8cc86_2cdc_48b0_9670_f831e8e677e1": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"19ef51f1_b103_45ae_99cd_f3639124e4df": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"6e634ef8_6969_43f4_97dd_a9f91c6e0dc2": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"41fe1d27_72a5_460d_b4b5_e8a36148cfe8": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"7dc4cdb0_40cb_4b3a_b050_dbbd68d2b4ec": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"2ef7a3f7_bbbb_45c6_bb6f_7dcba71645f9": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"5ef67e08_229b_4db1_ad37_20bca18659d0": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"3e4bcf30_a3da_45c8_93e5_7753a3bee82c": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"cfac9d6b_af3f_44c9_bc10_6fb2d36fcec0": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {
+								"transitions": [
+									{
+										"holds_slimestaff": "query.get_equipped_item_name(0, 0) == 'slimestaff'"
+									}
+								],
+								"on_entry": [
+									"@s bridge:on_reset_player"
+								]
+							},
+							"holds_slimestaff": {
+								"transitions": [
+									{
+										"default": "query.get_equipped_item_name(0, 0) != 'slimestaff'"
+									}
+								],
+								"on_entry": [
+									"@s bridge:on_equipped_cfac9d6b_af3f_44c9_bc10_6fb2d36fcec0",
+									"/function slimestaff"
+								],
+								"on_exit": [
+									"@s bridge:on_unequipped_cfac9d6b_af3f_44c9_bc10_6fb2d36fcec0"
+								]
+							}
+						}
+					}
+				}
+			},
+			"fb0396ef_5147_47a3_9844_c00574623e4d": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {
+								"transitions": [
+									{
+										"holds_cactuspickaxe": "query.get_equipped_item_name(0, 0) == 'cactuspickaxe'"
+									}
+								],
+								"on_entry": [
+									"@s bridge:on_reset_player"
+								]
+							},
+							"holds_cactuspickaxe": {
+								"transitions": [
+									{
+										"default": "query.get_equipped_item_name(0, 0) != 'cactuspickaxe'"
+									}
+								],
+								"on_entry": [
+									"@s bridge:on_equipped_fb0396ef_5147_47a3_9844_c00574623e4d"
+								],
+								"on_exit": [
+									"@s bridge:on_unequipped_fb0396ef_5147_47a3_9844_c00574623e4d"
+								]
+							}
+						}
+					}
+				}
+			},
+			"ab352f4e_1e72_48a0_9780_75ca1dd97de1": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {
+								"transitions": [
+									{
+										"holds_cactussword": "query.get_equipped_item_name(0, 0) == 'cactussword'"
+									}
+								],
+								"on_entry": [
+									"@s bridge:on_reset_player"
+								]
+							},
+							"holds_cactussword": {
+								"transitions": [
+									{
+										"default": "query.get_equipped_item_name(0, 0) != 'cactussword'"
+									}
+								],
+								"on_entry": [
+									"@s bridge:on_equipped_ab352f4e_1e72_48a0_9780_75ca1dd97de1"
+								],
+								"on_exit": [
+									"@s bridge:on_unequipped_ab352f4e_1e72_48a0_9780_75ca1dd97de1"
+								]
+							}
+						}
+					}
+				}
+			},
+			"3a77eee0_d0ea_4e5f_a519_e08bd31c3b6c": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"c1dbb6e6_5c83_4290_b2b2_c5283aaa9979": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"42f67ae2_ff10_4637_a33e_97ecf918e9c9": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"234fc763_d4b1_49fe_9a0d_043521f2c070": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"c7aaf803_9f00_437d_825b_6ff155d01a26": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"2d99c955_5195_422b_8cd7_c7a500d3704d": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"dd07fa67_93b5_4d65_a042_b0dfa44e35ec": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"af50b209_2018_4897_961b_6201b84fa6d9": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"4a796f47_c4df_4c65_b906_7ad8d9de9291": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"8d66aa2c_5be2_43a5_8171_28211cd474fa": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"a242bd22_6b8e_4f38_8f76_42cf661b9c22": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"935b013b_5387_4d4c_bb9c_7a72dfb46e36": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"075e874d_bf78_41bb_9fa9_d7857a88c792": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"0ed3cb4e_d9d8_489a_998d_5ec8285430ce": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"1c5dc17c_28a1_44e1_81f6_bcaf44d7bf5e": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"f118885b_07bf_466d_a704_94ff6dff5135": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"ff8666a5_c8b1_45da_a791_642b7492668e": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"2398c7c2_118f_4afc_b543_5c60d97117af": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"e07b188f_0559_4d65_b860_5bd7671e2c53": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"5f3649ca_18f3_4e95_b318_1ef7fec3538a": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"c77956a8_2b9b_4ddc_9841_2a0e61cc4cb7": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"259f2ddd_7a54_4400_8e7f_41dda471dbf9": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"1873b55a_ab36_4901_925e_237a1119bd20": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {
+								"transitions": [
+									{
+										"holds_balloonpufferfish": "query.get_equipped_item_name(0, 0) == 'balloonpufferfish'"
+									}
+								],
+								"on_entry": [
+									"@s bridge:on_reset_player"
+								]
+							},
+							"holds_balloonpufferfish": {
+								"transitions": [
+									{
+										"default": "query.get_equipped_item_name(0, 0) != 'balloonpufferfish'"
+									}
+								],
+								"on_entry": [
+									"@s bridge:on_equipped_1873b55a_ab36_4901_925e_237a1119bd20"
+								],
+								"on_exit": [
+									"@s bridge:on_unequipped_1873b55a_ab36_4901_925e_237a1119bd20"
+								]
+							}
+						}
+					}
+				}
+			},
+			"3f8d53bc_4548_45f2_a165_4c2e6795874a": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"8d75c9a8_0c28_4d84_a78d_6c1fdd4fcb51": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"aab73ec7_efd9_446c_8e84_f026a381210c": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {
+								"transitions": [
+									{
+										"holds_bandofregeneration": "query.get_equipped_item_name(0, 0) == 'bandofregeneration'"
+									}
+								],
+								"on_entry": [
+									"@s bridge:on_reset_player"
+								]
+							},
+							"holds_bandofregeneration": {
+								"transitions": [
+									{
+										"default": "query.get_equipped_item_name(0, 0) != 'bandofregeneration'"
+									}
+								],
+								"on_entry": [
+									"@s bridge:on_equipped_aab73ec7_efd9_446c_8e84_f026a381210c"
+								],
+								"on_exit": [
+									"@s bridge:on_unequipped_aab73ec7_efd9_446c_8e84_f026a381210c"
+								]
+							}
+						}
+					}
+				}
+			},
+			"5ea225f3_9d29_455e_89c9_86d3f5828749": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"40e05fb2_d425_4c9b_bb94_f4db94859dbf": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"4b4e9792_568a_4059_a128_0aa5f312823c": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"05fa6fe0_b1c7_4401_93cf_20f96d71a6eb": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"918cf4b8_e4fa_4481_8d6c_c427665a5563": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"b953cbdc_f212_4b03_bbe0_670c09044572": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"1a4a1fea_c250_4060_a49b_b40abeb1319d": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"2f17f2f8_95b2_45b0_b072_1d017165c42c": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"aef19848_d920_414e_a354_b18c5f211cac": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"15c04c2c_6bd7_43c2_b22e_f6105bc08acf": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"00886dbb_6acc_4ed2_8c33_365c5bc2d852": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"eab7f133_ca2d_4d2a_acb7_1e1215a4c112": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"6458c5da_1532_4068_aa04_44bfec568f64": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"2ae7179f_1f6b_4880_91f3_420bdbc963d2": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"16837618_a757_491b_b411_c834dd0b6146": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"5ce65d7b_3772_4d3c_8e6a_89c921a8dd36": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"d330ceb5_8e00_4be5_825f_482764d03160": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"83bd9295_dc84_4010_87ec_615d74157b48": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"7bbb892b_8a8e_4948_8c6d_102fe5976025": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"d5915b75_e7cf_47f6_adb5_0c4c7c59daf0": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"768dd462_907f_4b02_899c_22a42cd4b066": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"8e2d2496_25ce_4e24_9136_eaddf9a334b7": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"7d265024_5c2c_448e_80d0_a6c5d22e9481": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"08456b26_7501_4293_b02b_45c8d2c13044": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"b163689e_977a_492e_bdf3_02041bb796eb": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"fe06cf48_b873_4410_9793_defe9714242b": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"a1137859_076b_450b_be32_b58586d76993": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"1f84eba5_4595_4fb4_954e_a34fd3e4a358": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"cfbacf3f_0f75_4ccb_a337_ad8a63a41508": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"b81b6585_767b_41ba_883d_d73031c37ca2": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"c0ecdc20_9957_4c56_bcab_ee2643543e84": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"7d96f89a_8f7d_42b3_82ce_b2249b72feb9": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"c3d09d3c_e951_4b24_bee7_d8623e2efd47": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {
+								"transitions": [
+									{
+										"holds_bone_terraria": "query.get_equipped_item_name(0, 0) == 'bone_terraria'"
+									}
+								],
+								"on_entry": [
+									"@s bridge:on_reset_player"
+								]
+							},
+							"holds_bone_terraria": {
+								"transitions": [
+									{
+										"default": "query.get_equipped_item_name(0, 0) != 'bone_terraria'"
+									}
+								],
+								"on_entry": [
+									"@s bridge:on_equipped_c3d09d3c_e951_4b24_bee7_d8623e2efd47"
+								],
+								"on_exit": [
+									"@s bridge:on_unequipped_c3d09d3c_e951_4b24_bee7_d8623e2efd47"
+								]
+							}
+						}
+					}
+				}
+			},
+			"8724e816_ae1a_40ac_9aaf_9cc9bf4f5b97": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"6e648b6d_d81d_466b_b131_bcbbe89bde96": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"1520ceae_c19f_46f9_bc50_fe352ee8dc5b": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"4fe8785c_e269_44a1_81bb_bd318d0141c8": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"fe99e77e_9969_42a8_8ecd_1e0796d07d8e": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"b3a37b22_d8e4_482e_ad56_991e12851a90": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"967766b0_1d36_451b_bfa7_4f50979a0607": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"e35bf27b_a341_4144_9658_3a205af8c5d2": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"514722cf_84d6_423a_a318_1cdd993d9bac": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"4b20fc23_590f_4593_8b09_03f035be0c6d": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"a4e3c7f5_cb40_4dd6_83eb_c733d490bec3": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"d1adcfb8_7399_4a79_a2fb_9dc52ce60196": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"227eadff_af4c_4b08_b066_6f74db06e212": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"38f386e8_17ce_4895_8dd2_22b2379ff989": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"ebd19993_0fb8_4db1_b89e_ec4587d0e589": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"157597b8_9006_46ed_b83b_b214c800a32e": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"71794623_29b2_4472_a99f_7793c0bb9b2b": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"18d27bc7_85e7_4d4f_acd0_bf6fabd17a6f": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"1437a99d_a325_4b0a_9a41_b5da610d1af1": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"6a130994_1462_44e5_9abe_867f8e01aa6b": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"aa215877_fb6a_4832_97c8_a0f9d8625bf3": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"35b88a6e_a089_426d_bf7a_9159307022e2": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"57bacc29_25cf_4fff_a74d_b51390bb9b68": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"8ff9e642_d9df_413e_851c_912904db5dd9": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"b297f429_1312_4969_a9ac_760d73360670": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"92aea7c8_fcae_4add_9121_61f1b2eefaf4": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"e1f2d9e4_0590_4164_9f6e_8d8bc52c8ba6": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"833a6c86_f89b_49fd_a7a8_02b532828829": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"17df9671_f2ea_49d5_bab2_bee29a1a1cea": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"bf9ec43c_78f7_46ab_a5fb_af84bf65ae46": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"2e912e27_1aea_4031_993c_ae06761752a5": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"7a7091d9_3709_4bec_992a_62936a9a13bc": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"147d2a31_6d59_4eb0_b51f_e9507a28a488": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"df111cff_a19c_40b4_9b79_4a373eef07aa": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"08afc227_9271_48d1_8561_bbd2ee37d742": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"3fa4a31d_7330_4455_90cd_771b3065bdc6": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"dbd4d3f4_f887_46d0_9297_f063b948ee69": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"81aa0f1e_5e3a_47d4_a4e6_7bdfde3307ea": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"1e8779f9_a6ac_44a3_be99_371c23bbad5b": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"06e10840_0189_421b_9493_fb3ff7312c66": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"7039e877_98b9_4f2a_96b7_bed6be8a9dbc": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"13dad6f8_0e5f_48e9_bff6_a03bb21cace3": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"e2683eac_6533_45f1_8489_6575341fc756": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"9ee1d948_23ce_4aaf_b590_f4e96589b4cf": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"b77abcf0_1610_4620_a918_bb0502ceb8aa": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"6bf5f9ee_09b7_4e5f_8f94_144f78e255ea": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"0496c04b_018c_4b27_a752_66f360f4d6f4": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"617467b1_69d8_4292_84e2_7e844034d753": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"078f4ea4_f243_4d1a_af7b_eac030032d3f": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"a9df96e8_957d_4e3a_9780_d5a4b3dd7261": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"6ecd29ba_e347_4670_8824_86a3f53c1a16": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"fae85aa3_3206_4099_ac6a_0b82a598dceb": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"1fa97722_b299_43ec_b08a_e16a5521face": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"4e360a4b_6e3c_41a5_a2a0_c581032cd2bf": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"6ab2d992_90e9_4486_b6f8_8faa7eeaa01b": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"52aa1f61_47d4_4f2c_bb2b_b8cf47fbe022": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"8c8c9c10_4cdd_4108_949f_3f599325a83e": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"4f6d6e48_7b26_4218_b11e_2214e31a54da": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"aca53346_d08a_4b9e_a2b7_7edd1b02bbaf": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"37dc386d_9d3c_4091_99f5_ee080f9d8cf0": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"21b39011_12a5_4e52_aa7a_79373b62085a": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"e041097b_2996_4c63_83e3_a55a2670a951": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"5f0dc7d5_b81e_4644_9367_f44cbbf1cc7a": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"9ee6a742_9d47_46c6_a28b_b05266a8314f": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"b7f1dc49_1a82_4c3b_affc_4e8ec34ed393": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"cd16795d_5aa0_4a97_b2c7_dc3b5f79f4c1": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"003f49f6_1290_4197_8815_cdbcb69d811b": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"a3d890e1_13b2_4a53_b0e4_596a2169edf6": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"4faccd28_7235_4351_a0ed_0c45ad170266": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"d0bf7fab_a542_43f0_857d_4b1c1fd0eecc": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"3c796386_53fd_425f_9ba9_81c1ee7bd295": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"eb34ec7e_e63c_4537_9cb5_34a35975626b": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"e8094b94_2c4e_47aa_b459_4fddd31e9823": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"e319898d_a8fc_450d_88d2_60c94c5dc718": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"3b32ae6d_3a2b_4f66_a5c6_cc5f53014346": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			}
+		}
+	},
+	"BP/items/unnamed.json": {
+		"data": {}
+	},
+	"RP/items/pa_bloodyspine.json": {
+		"data": {}
+	},
+	"RP/textures/item_texture.json": {
+		"data": {}
+	},
+	"BP/loot_tables/entities/pa_brainofchuthulu.json": {
+		"data": {}
+	},
+	"RP/textures/terrain_texture.json": {
+		"data": {}
+	},
+	"BP/manifest.json": {
+		"data": {}
+	},
+	"RP/manifest.json": {
+		"data": {}
+	},
+	"BP/blocks/copperore.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/copperore.json": {
+		"data": {}
+	},
+	"RP/blocks.json": {
+		"data": {}
+	},
+	"BP/features/copperore_feature.json/overworld_underground_copperore_feature.json": {
+		"data": {}
+	},
+	"BP/features/copperore_feature.json": {
+		"data": {}
+	},
+	"BP/feature_rules/overworld_underground_copperore_feature.json": {
+		"data": {}
+	},
+	"BP/feature_rules/overworld_underground_crimtaneore_feature.json": {
+		"data": {}
+	},
+	"BP/features/crimtaneore_feature.json": {
+		"data": {}
+	},
+	"BP/blocks/tinore.json": {
+		"data": {}
+	},
+	"BP/feature_rules/overworld_underground_tinore_feature.json": {
+		"data": {}
+	},
+	"BP/features/tinore_feature.json": {
+		"data": {}
+	},
+	"BP/blocks/leadore.json": {
+		"data": {}
+	},
+	"BP/feature_rules/overworld_underground_leadore_feature.json/leadore.json": {
+		"data": {}
+	},
+	"BP/features/leadore_feature.json": {
+		"data": {}
+	},
+	"BP/feature_rules/overworld_underground_leadore_feature.json": {
+		"data": {}
+	},
+	"BP/feature_rules/overworld_underground_silverore_feature.json": {
+		"data": {}
+	},
+	"BP/features/silverore_feature.json": {
+		"data": {}
+	},
+	"BP/blocks/platinumore.json": {
+		"data": {}
+	},
+	"BP/features/tungstenore_feature.json": {
+		"data": {}
+	},
+	"BP/feature_rules/overworld_underground_platinumore_feature.json": {
+		"data": {}
+	},
+	"BP/features/platinumore_feature.json": {
+		"data": {}
+	},
+	"BP/feature_rules/overworld_underground_tungstenore_feature.json/tungstenore.json": {
+		"data": {}
+	},
+	"BP/items/lens.json": {
+		"data": {}
+	},
+	"BP/loot_tables/demoneye.json": {
+		"data": {}
+	},
+	"BP/recipes/suspiciouslookingeye.json": {
+		"data": {}
+	},
+	"BP/items/suspiciouslookingeye.json": {
+		"data": {}
+	},
+	"RP/entity/demoneye.json": {
+		"data": {}
+	},
+	"RP/entity/crimera.json": {
+		"data": {}
+	},
+	"BP/loot_tables/eyeofcthulhu.json": {
+		"data": {}
+	},
+	"BP/blocks/viciousmushroom.json": {
+		"data": {}
+	},
+	"BP/feature_rules/overworld_surface_viciousmushroom_feature.json": {
+		"data": {}
+	},
+	"BP/entities/eyeofcthulhu.json": {
+		"data": {}
+	},
+	"RP/entity/eyeofcthulhu.json": {
+		"data": {}
+	},
+	"RP/items/copperbar.json/copperingot.json": {
+		"data": {}
+	},
+	"BP/items/copperbar.json/copperingot.json": {
+		"data": {}
+	},
+	"BP/items/copperbar.json": {
+		"data": {}
+	},
+	"BP/recipes/copperbar.json/copperingot.json": {
+		"data": {}
+	},
+	"BP/blocks/crimstone.json": {
+		"data": {}
+	},
+	"BP/blocks/crimtaneore.json": {
+		"data": {}
+	},
+	"BP/blocks/tungstenore.json": {
+		"data": {}
+	},
+	"BP/items/tinbar.json": {
+		"data": {}
+	},
+	"BP/recipes/copperbar_recipe.json/copperbar.json": {
+		"data": {}
+	},
+	"BP/recipes/tinbar_recipe.json": {
+		"data": {}
+	},
+	"BP/items/leadbar.json": {
+		"data": {}
+	},
+	"BP/recipes/leadbar_recipe.json": {
+		"data": {}
+	},
+	"RP/items/leadbar.json/leadore.json": {
+		"data": {}
+	},
+	"BP/items/silverbar.json": {
+		"data": {}
+	},
+	"BP/recipes/silverbar_recipe.json": {
+		"data": {}
+	},
+	"BP/items/tungstenbar.json/tungstenore.json": {
+		"data": {}
+	},
+	"BP/items/tungstenbar.json": {
+		"data": {}
+	},
+	"BP/recipes/tungstenbar_recipe.json/tungstenore_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/tungstenbar_recipe.json": {
+		"data": {}
+	},
+	"RP/items/tungstenbar.json/tungstenore.json": {
+		"data": {}
+	},
+	"BP/items/platinumbar.json": {
+		"data": {}
+	},
+	"BP/recipes/platinumbar_recipe.json": {
+		"data": {}
+	},
+	"BP/items/crimtanebar.json": {
+		"data": {}
+	},
+	"RP/biomes_client.json": {
+		"data": {}
+	},
+	"BP/feature_rules/crimson_tree_1_rotd0_feature_rule.json": {
+		"data": {}
+	},
+	"BP/spawn_rules/bloodcrawler.json": {
+		"data": {}
+	},
+	"BP/spawn_rules/crimera.json": {
+		"data": {}
+	},
+	"BP/spawn_rules/facemonster.json": {
+		"data": {}
+	},
+	"BP/loot_tables/viciousmushroom.json": {
+		"data": {}
+	},
+	"BP/recipes/bloodyspine_recipe.json": {
+		"data": {}
+	},
+	"BP/feature_rules/viciousmushroom_feature_rule.json": {
+		"data": {}
+	},
+	"BP/features/viciousmushroom_feature.json": {
+		"data": {}
+	},
+	"BP/biomes/thecrimson.json/thecrimson.biome.json": {
+		"data": {}
+	},
+	"RP/entity/brainofcthulhu.json": {
+		"data": {}
+	},
+	"RP/animations/facemonster.animation.json": {
+		"data": {}
+	},
+	"BP/entities/facemonster.json": {
+		"data": {}
+	},
+	"BP/animation_controllers/facemonster.json": {
+		"data": {}
+	},
+	"BP/blocks/shadewood.json": {
+		"data": {}
+	},
+	"BP/recipes/copperpickaxe_recipe_shadewood.json/copperpickaxe_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/craftingtable_shadewood.json": {
+		"data": {}
+	},
+	"BP/recipes/copperpickaxe_shadewood_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/tinpickaxe_shadewood_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/leadpickaxe_shadewood_recipe.json": {
+		"data": {}
+	},
+	"BP/spawn_rules/greenslime.json": {
+		"data": {}
+	},
+	"RP/entity/bloodcrawler.json": {
+		"data": {}
+	},
+	"BP/blocks/ironore_terraria.json": {
+		"data": {}
+	},
+	"BP/features/ironore_terraria_feature.json": {
+		"data": {}
+	},
+	"BP/feature_rules/overworld_undeground_ironore_terraria_feature.json": {
+		"data": {}
+	},
+	"BP/blocks/goldore_terraria.json": {
+		"data": {}
+	},
+	"BP/features/goldore_terraria_feature.json": {
+		"data": {}
+	},
+	"BP/feature_rules/overworld_underground_goldore_terraria_feature.json": {
+		"data": {}
+	},
+	"BP/recipes/ironbar_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/goldbar_recipe.json": {
+		"data": {}
+	},
+	"BP/items/ironbar.json": {
+		"data": {}
+	},
+	"BP/items/goldbar.json": {
+		"data": {}
+	},
+	"RP/entity/greenslime.json": {
+		"data": {}
+	},
+	"BP/recipes/torch_shadewood.json/torch_gel.json": {
+		"data": {}
+	},
+	"BP/items/gel.json": {
+		"data": {}
+	},
+	"BP/recipes/torch_shadewood.json": {
+		"data": {}
+	},
+	"BP/blocks/crimsand.json/crimsand .json": {
+		"data": {}
+	},
+	"BP/recipes/ironpickaxe_shadewood_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/silverpickaxe_shadewood_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/tungstenpickaxe_shadewood_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/goldpickaxe_shadewood_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/platinumpickaxe_shadewood_recipe.json": {
+		"data": {}
+	},
+	"BP/blocks/meteorite.json": {
+		"data": {}
+	},
+	"BP/blocks/hellstone.json": {
+		"data": {}
+	},
+	"BP/items/hellstonebar.json": {
+		"data": {}
+	},
+	"BP/items/hellstonepickaxe.json": {
+		"data": {}
+	},
+	"BP/items/crimtanepickaxe.json": {
+		"data": {}
+	},
+	"BP/items/meteoritepickaxe.json": {
+		"data": {}
+	},
+	"RP/items/meteoritepickaxe.json": {
+		"data": {}
+	},
+	"BP/features/meteoritesite_feature.json": {
+		"data": {}
+	},
+	"BP/feature_rules/meteoritesite_feature_rules.json": {
+		"data": {}
+	},
+	"BP/blocks/crimson_cactus.json": {
+		"data": {}
+	},
+	"BP/items/tissuesample.json": {
+		"data": {}
+	},
+	"BP/recipes/crimtanepickaxe_recipe.json/crimtanepickaxe_shadewood_recipe.json": {
+		"data": {}
+	},
+	"BP/blocks/crimsand.json": {
+		"data": {}
+	},
+	"BP/blocks/crimson_grass.json": {
+		"data": {}
+	},
+	"BP/blocks/crimson_leaves.json": {
+		"data": {}
+	},
+	"BP/blocks/crimson_log.json": {
+		"data": {}
+	},
+	"BP/feature_rules/hellstone_rules.json": {
+		"data": {}
+	},
+	"BP/features/hellstone_feature.json": {
+		"data": {}
+	},
+	"RP/entity/testnpc.json": {
+		"data": {}
+	},
+	"BP/items/coppersword.json": {
+		"data": {}
+	},
+	"BP/items/tinsword.json": {
+		"data": {}
+	},
+	"BP/items/ironsword.json": {
+		"data": {}
+	},
+	"BP/items/leadsword.json": {
+		"data": {}
+	},
+	"BP/items/silversword.json": {
+		"data": {}
+	},
+	"BP/items/tungstensword.json": {
+		"data": {}
+	},
+	"BP/items/goldsword.json": {
+		"data": {}
+	},
+	"BP/items/platinumsword.json": {
+		"data": {}
+	},
+	"BP/items/bluephaseblade.json": {
+		"data": {}
+	},
+	"BP/items/crimtanesword.json": {
+		"data": {}
+	},
+	"BP/items/hellstonesword.json": {
+		"data": {}
+	},
+	"RP/items/terrariamod:platinumsword.json": {
+		"data": {}
+	},
+	"BP/recipes/coppersword_shadewood_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/tinsword_shadewood_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/ironsword_shadewood_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/leadsword_shadewood_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/silversword_shadewood_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/tungstensword_shadewood_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/goldsword_shadewood_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/platinumsword_shadewood_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/bluephaseblade_shadewood_recipe.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/rubyore.json": {
+		"data": {}
+	},
+	"BP/blocks/rubyore.json": {
+		"data": {}
+	},
+	"BP/items/ruby.json": {
+		"data": {}
+	},
+	"BP/feature_rules/overworld_underground_rubyore_feature.json": {
+		"data": {}
+	},
+	"BP/features/rubyore_feature.json": {
+		"data": {}
+	},
+	"BP/blocks/sapphireore.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/sapphireore.json": {
+		"data": {}
+	},
+	"BP/items/sapphire.json": {
+		"data": {}
+	},
+	"BP/feature_rules/overworld_underground_sapphireore_feature.json": {
+		"data": {}
+	},
+	"BP/features/sapphireore_feature.json": {
+		"data": {}
+	},
+	"BP/feature_rules/crimson_tree_1_feature_rule.json": {
+		"data": {}
+	},
+	"BP/features/crimson_tree_1_feature.json": {
+		"data": {}
+	},
+	"BP/entities/bloodcrawler.json": {
+		"data": {}
+	},
+	"BP/entities/crimera.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/viciousmushroom.json": {
+		"data": {}
+	},
+	"BP/entities/brainofcthulhu.json": {
+		"data": {}
+	},
+	"BP/entities/creepers.json": {
+		"data": {}
+	},
+	"BP/entities/zombie_terraria.json": {
+		"data": {}
+	},
+	"RP/entity/zombie_terraria.json": {
+		"data": {}
+	},
+	"BP/spawn_rules/zombie_terraria.json": {
+		"data": {}
+	},
+	"BP/entities/greenslime.json": {
+		"data": {}
+	},
+	"BP/recipes/tinpickaxe_minecraftwood_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/ironpickaxe_minecraftwood_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/leadpickaxe_minecraftwood_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/silverpickaxe_minecraftwood_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/tungstenpickaxe_minecraftwood_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/goldpickaxe_minecraftwood_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/platinumpickaxe_minecraftwood_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/crimtanesword_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/tinsword_minecraftwood_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/ironsword_minecraftwood_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/leadsword_minecraftwood_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/silversword_minecraftwood_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/tungstensword_minecraftwood_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/goldsword_minecraftwood_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/platinumsword_minecraftwood_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/hellstonepickaxe_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/hellstonesword_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/torch_minecraftwood.json": {
+		"data": {}
+	},
+	"BP/entities/giantworm.json": {
+		"data": {}
+	},
+	"RP/entity/giantworm.json": {
+		"data": {}
+	},
+	"BP/spawn_rules/giantworm.json": {
+		"data": {}
+	},
+	"BP/entities/demoneye.json": {
+		"data": {}
+	},
+	"BP/items/slimecrown.json": {
+		"data": {}
+	},
+	"BP/items/goldcrown.json": {
+		"data": {}
+	},
+	"BP/recipes/goldcrown_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/slimecrown_recipe.json": {
+		"data": {}
+	},
+	"BP/blocks/greenbrick.json": {
+		"data": {}
+	},
+	"BP/blocks/pinkbrick.json": {
+		"data": {}
+	},
+	"BP/blocks/pinkbrick_wall.json": {
+		"data": {}
+	},
+	"BP/blocks/pinkbrick_slab.json": {
+		"data": {}
+	},
+	"RP/animations/demoneye.animation.json": {
+		"data": {}
+	},
+	"BP/entities/skeletron_head.json": {
+		"data": {}
+	},
+	"RP/entity/skeletron_head.json": {
+		"data": {}
+	},
+	"RP/entity/kingslime.json": {
+		"data": {}
+	},
+	"BP/entities/kingslime.json": {
+		"data": {}
+	},
+	"BP/entities/blueslime.json": {
+		"data": {}
+	},
+	"RP/entity/blueslime.json": {
+		"data": {}
+	},
+	"BP/spawn_rules/demoneye.json": {
+		"data": {}
+	},
+	"BP/spawn_rules/blueslime.json": {
+		"data": {}
+	},
+	"BP/entities/purpleslime.json": {
+		"data": {}
+	},
+	"RP/entity/purpleslime.json": {
+		"data": {}
+	},
+	"BP/spawn_rules/purpleslime.json": {
+		"data": {}
+	},
+	"BP/entities/blackslime.json": {
+		"data": {}
+	},
+	"RP/entity/blackslime.json": {
+		"data": {}
+	},
+	"BP/spawn_rules/blackslime.json": {
+		"data": {}
+	},
+	"BP/entities/redslime.json": {
+		"data": {}
+	},
+	"RP/entity/redslime.json": {
+		"data": {}
+	},
+	"BP/entities/yellowslime.json": {
+		"data": {}
+	},
+	"RP/entity/yellowslime.json": {
+		"data": {}
+	},
+	"BP/spawn_rules/blueslime_cave.json": {
+		"data": {}
+	},
+	"BP/spawn_rules/redslime.json": {
+		"data": {}
+	},
+	"BP/spawn_rules/yellowslime.json": {
+		"data": {}
+	},
+	"RP/entity/pinkslime.json": {
+		"data": {}
+	},
+	"BP/entities/pinkslime.json": {
+		"data": {}
+	},
+	"BP/items/slimestaff.json": {
+		"data": {}
+	},
+	"RP/entity/minionslime.json": {
+		"data": {}
+	},
+	"BP/recipes/cactuspickaxe_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/cactussword_recipe.json": {
+		"data": {}
+	},
+	"BP/blocks/crystalheart.json": {
+		"data": {}
+	},
+	"BP/items/lifecrystal.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/crystalheart.json": {
+		"data": {}
+	},
+	"BP/feature_rules/overworld_underground_crystalheart_feature.json": {
+		"data": {}
+	},
+	"BP/features/crystalheart_feature.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/entities": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/hellstone.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/meteorite.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/spawn_bonus_chest.json": {
+		"data": {}
+	},
+	"BP/loot_tables/surfacechest.json": {
+		"data": {}
+	},
+	"RP/entity/facemonster.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/surfacechest.json": {
+		"data": {}
+	},
+	"BP/blocks/surfacechest.json": {
+		"data": {}
+	},
+	"BP/items/lesserhealingpotion.json": {
+		"data": {}
+	},
+	"BP/feature_rules/overworld_underground_diorite_feature.json": {
+		"data": {}
+	},
+	"BP/feature_rules/overworld_underground_andesite_feature.json": {
+		"data": {}
+	},
+	"BP/feature_rules/overworld_underground_granite_feature.json": {
+		"data": {}
+	},
+	"BP/features/surfacechest_feature.json": {
+		"data": {}
+	},
+	"BP/entities/minionslime.json": {
+		"data": {}
+	},
+	"BP/entities/servantofcthulhu.json": {
+		"data": {}
+	},
+	"RP/entity/servantofcthulhu.json": {
+		"data": {}
+	},
+	"RP/particles/sand.json": {
+		"data": {}
+	},
+	"BP/items/coppercoin.json": {
+		"data": {}
+	},
+	"BP/items/coppercoin_pile.json": {
+		"data": {}
+	},
+	"BP/recipes/coppercoin_pile_recipe.json": {
+		"data": {}
+	},
+	"BP/items/silvercoin.json": {
+		"data": {}
+	},
+	"BP/items/silvercoin_pile.json": {
+		"data": {}
+	},
+	"BP/recipes/silvercoin_pile_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/goldcoin_pile_recipe.json": {
+		"data": {}
+	},
+	"BP/items/goldcoin.json": {
+		"data": {}
+	},
+	"BP/items/goldcoin_pile.json": {
+		"data": {}
+	},
+	"BP/items/platinumcoin.json": {
+		"data": {}
+	},
+	"BP/items/platinumcoin_pile.json": {
+		"data": {}
+	},
+	"BP/recipes/platinumcoin_pile_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/copper_to_silver_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/silver_to_gold_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/gold_to_platinum_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/silver_to_copper_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/gold_to_silver_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/platinum_to_gold_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/platinum_piletocoin_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/gold_piletocoin_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/silver_piletocoin_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/copper_piletocoin_recipe.json": {
+		"data": {}
+	},
+	"BP/loot_tables/entities/bloodcrawler.json": {
+		"data": {}
+	},
+	"BP/loot_tables/entities/greenslime.json": {
+		"data": {}
+	},
+	"BP/loot_tables/entities/brainofcthulhu.json": {
+		"data": {}
+	},
+	"BP/loot_tables/entities/creepers.json": {
+		"data": {}
+	},
+	"BP/loot_tables/entities/crimera.json": {
+		"data": {}
+	},
+	"BP/loot_tables/entities/demoneye.json": {
+		"data": {}
+	},
+	"BP/loot_tables/entities/eyeofcthulhu.json": {
+		"data": {}
+	},
+	"BP/loot_tables/entities/facemonster.json": {
+		"data": {}
+	},
+	"BP/entities/merchant.json": {
+		"data": {}
+	},
+	"BP/trading/economy_trades/guide.json": {
+		"data": {}
+	},
+	"BP/trading/economy_trades/merchant_trades.json": {
+		"data": {}
+	},
+	"RP/entity/shuriken.json": {
+		"data": {}
+	},
+	"BP/items/shuriken.json": {
+		"data": {}
+	},
+	"BP/entities/nurse.json": {
+		"data": {}
+	},
+	"BP/trading/economy_trades/nurse_trades.json": {
+		"data": {}
+	},
+	"BP/items/grenade.json": {
+		"data": {}
+	},
+	"BP/_packs/MoreTNTDAT/entities/more_tnt/throwable_bombs/landed/generic_bomb_landed.json": {
+		"data": {}
+	},
+	"RP/entity/grenade.json": {
+		"data": {}
+	},
+	"BP/entities/grenade.json": {
+		"data": {}
+	},
+	"BP/items/dynamite.json": {
+		"data": {}
+	},
+	"BP/entities/dynamite.json": {
+		"data": {}
+	},
+	"RP/entity/dynamite.json": {
+		"data": {}
+	},
+	"BP/entities/demolitionist.json": {
+		"data": {}
+	},
+	"BP/trading/economy_trades/demolitionist_trades.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/merchant_spawner.json": {
+		"data": {}
+	},
+	"BP/items/merchant_summoner.json": {
+		"data": {}
+	},
+	"BP/recipes/merchant_summoner_recipe.json": {
+		"data": {}
+	},
+	"BP/items/nurse_summoner.json": {
+		"data": {}
+	},
+	"BP/recipes/nurse_summoner.json": {
+		"data": {}
+	},
+	"BP/items/demolitionist_summoner.json": {
+		"data": {}
+	},
+	"BP/recipes/demolitionist_summoner.json": {
+		"data": {}
+	},
+	"BP/recipes/lifecrystal_2_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/lifecrystal_3_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/lifecrystal_4_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/lifecrystal_5_recipe.json": {
+		"data": {}
+	},
+	"BP/spawn_rules/pinkslime.json": {
+		"data": {}
+	},
+	"BP/entities/skeleton_terraria.json": {
+		"data": {}
+	},
+	"BP/loot_tables/entities/skeleton_terraria.json": {
+		"data": {}
+	},
+	"RP/entity/skeleton_terraria.json": {
+		"data": {}
+	},
+	"BP/spawn_rules/skeleton_terraria.json": {
+		"data": {}
+	},
+	"BP/items/bonesword.json": {
+		"data": {}
+	},
+	"BP/items/cartonofmilk.json": {
+		"data": {}
+	},
+	"RP/entity/cavebat.json": {
+		"data": {}
+	},
+	"BP/blocks/copperblock.json": {
+		"data": {}
+	},
+	"BP/recipes/copperpickaxe_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/coppersword_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/tinpickaxe_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/tinsword_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/ironpickaxe_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/ironsword_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/leadpickaxe_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/leadsword_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/silverpickaxe_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/silversword_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/tungstenpickaxe_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/tungstensword_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/goldpickaxe_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/goldsword_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/platinumpickaxe_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/platinumsword_recipe.json": {
+		"data": {}
+	},
+	"BP/blocks/tinblock.json": {
+		"data": {}
+	},
+	"BP/blocks/ironblock.json": {
+		"data": {}
+	},
+	"BP/blocks/leadblock.json": {
+		"data": {}
+	},
+	"BP/blocks/silverblock.json": {
+		"data": {}
+	},
+	"BP/blocks/tungstenblock.json": {
+		"data": {}
+	},
+	"BP/blocks/goldblock.json": {
+		"data": {}
+	},
+	"BP/blocks/platinumblock.json": {
+		"data": {}
+	},
+	"BP/recipes/copperblock_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/tinblock_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/ironblock_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/leadblock_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/silverblock_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/tungstenblock_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/goldblock_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/platinumblock_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/copperbar_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/crimtanebar_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/hellstonebar_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/meteoritebar_recipe.json": {
+		"data": {}
+	},
+	"BP/feature_rules/overworld_underground_coal_ore_feature.json": {
+		"data": {}
+	},
+	"BP/feature_rules/overworld_underground_iron_ore_feature.json.json": {
+		"data": {}
+	},
+	"BP/feature_rules/overworld_underground_diamond_ore_feature.json.json": {
+		"data": {}
+	},
+	"BP/feature_rules/meteorite_crash_feature_rule.json": {
+		"data": {}
+	},
+	"BP/features/meteorite_crash_feature.json": {
+		"data": {}
+	},
+	"BP/entities/cavebat.json": {
+		"data": {}
+	},
+	"BP/items/depthmeter.json": {
+		"data": {}
+	},
+	"BP/loot_tables/entities/cavebat.json": {
+		"data": {}
+	},
+	"BP/loot_tables/entities/zombie_terraria.json": {
+		"data": {}
+	},
+	"BP/items/zombiearm.json": {
+		"data": {}
+	},
+	"BP/loot_tables/entities/skeletron_head.json": {
+		"data": {}
+	},
+	"BP/entities/undeadminer.json": {
+		"data": {}
+	},
+	"RP/entity/undeadminer.json": {
+		"data": {}
+	},
+	"BP/loot_tables/entities/undeadminer.json": {
+		"data": {}
+	},
+	"BP/spawn_rules/undeadminer.json": {
+		"data": {}
+	},
+	"RP/entity/overworld_day.json": {
+		"data": {}
+	},
+	"BP/spawn_rules/overworld_day.json": {
+		"data": {}
+	},
+	"BP/items/aglet.json": {
+		"data": {}
+	},
+	"BP/items/hermesboots.json": {
+		"data": {}
+	},
+	"BP/loot_tables/inflatedpufferfish.json": {
+		"data": {}
+	},
+	"BP/items/lavacharm.json": {
+		"data": {}
+	},
+	"BP/items/rocketboots.json": {
+		"data": {}
+	},
+	"BP/blocks/cavernchest.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/cavernchest.json": {
+		"data": {}
+	},
+	"RP/particles/rocketboots_effect.json": {
+		"data": {}
+	},
+	"BP/blocks/silverore.json": {
+		"data": {}
+	},
+	"BP/features/cavernchest_feature.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/undergroundchest.json": {
+		"data": {}
+	},
+	"BP/blocks/undergroundchest.json": {
+		"data": {}
+	},
+	"BP/feature_rules/surfacechest_feature_rule.json": {
+		"data": {}
+	},
+	"BP/features/undergroundchest_feature.json": {
+		"data": {}
+	},
+	"BP/feature_rules/undergroundchest_feature_rule.json": {
+		"data": {}
+	},
+	"BP/feature_rules/cavernchest_feature_rule.json": {
+		"data": {}
+	},
+	"BP/items/magicmirror.json": {
+		"data": {}
+	},
+	"BP/items/bomb.json": {
+		"data": {}
+	},
+	"BP/entities/bomb.json": {
+		"data": {}
+	},
+	"BP/items/slimegun.json": {
+		"data": {}
+	},
+	"BP/loot_tables/entities/kingslime.json": {
+		"data": {}
+	},
+	"RP/particles/magicmirror_effect.json": {
+		"data": {}
+	},
+	"BP/items/throwingknife.json": {
+		"data": {}
+	},
+	"BP/animation_controllers/throwingknife.json": {
+		"data": {}
+	},
+	"BP/animation_controllers/poisonedknife.json": {
+		"data": {}
+	},
+	"BP/items/poisonedknife.json": {
+		"data": {}
+	},
+	"BP/items/woodenboomerang.json": {
+		"data": {}
+	},
+	"BP/items/umbrella.json": {
+		"data": {}
+	},
+	"BP/items/enchantedboomerang.json": {
+		"data": {}
+	},
+	"BP/items/flamarang.json": {
+		"data": {}
+	},
+	"BP/recipes/poisonedknife_recipe.json": {
+		"data": {}
+	},
+	"BP/items/fallenstars.json": {
+		"data": {}
+	},
+	"BP/recipes/enchantedboomerang_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/flamarang_recipe.json": {
+		"data": {}
+	},
+	"BP/entities/woodenarrow_projectile.json": {
+		"data": {}
+	},
+	"BP/items/woodenarrow.json": {
+		"data": {}
+	},
+	"BP/recipes/load_woodenbow_recipe.json": {
+		"data": {}
+	},
+	"BP/animation_controllers/copperbow.json": {
+		"data": {}
+	},
+	"BP/entities/woodenarrow_projectile_copper.json": {
+		"data": {}
+	},
+	"RP/entity/woodenarrow_projectile_copper.json": {
+		"data": {}
+	},
+	"BP/animation_controllers/tinbow.json": {
+		"data": {}
+	},
+	"BP/entities/woodenarrow_projectile_tin.json": {
+		"data": {}
+	},
+	"BP/recipes/load_tinbow_recipe.json": {
+		"data": {}
+	},
+	"RP/entity/woodenarrow_projectile_tin.json": {
+		"data": {}
+	},
+	"BP/entities/woodenarrow_projectile_lead.json": {
+		"data": {}
+	},
+	"BP/recipes/load_leadbow_recipe.json": {
+		"data": {}
+	},
+	"RP/entity/woodenarrow_projectile_lead.json": {
+		"data": {}
+	},
+	"BP/entities/woodenarrow_projectile_iron.json": {
+		"data": {}
+	},
+	"BP/recipes/load_ironbow_recipe.json": {
+		"data": {}
+	},
+	"RP/entity/woodenarrow_projectile_iron.json": {
+		"data": {}
+	},
+	"BP/entities/woodenarrow_projectile_silver.json": {
+		"data": {}
+	},
+	"BP/recipes/load_silverbow_recipe.json": {
+		"data": {}
+	},
+	"RP/entity/woodenarrow_projectile_silver.json": {
+		"data": {}
+	},
+	"BP/entities/woodenarrow_projectile_tungsten.json": {
+		"data": {}
+	},
+	"BP/recipes/load_tungstenbow_recipe.json": {
+		"data": {}
+	},
+	"RP/entity/woodenarrow_projectile_tungsten.json": {
+		"data": {}
+	},
+	"BP/entities/woodenarrow_projectile_gold.json": {
+		"data": {}
+	},
+	"RP/entity/woodenarrow_projectile_gold.json": {
+		"data": {}
+	},
+	"BP/entities/woodenarrow_projectile_platinumbow.json": {
+		"data": {}
+	},
+	"BP/recipes/load_platinumbow_recipe.json": {
+		"data": {}
+	},
+	"RP/entity/woodenarrow_projectile_platinum.json": {
+		"data": {}
+	},
+	"BP/entities/woodenarrow_projectile_crimtane.json": {
+		"data": {}
+	},
+	"RP/entity/woodenarrow_projectile_crimtane.json": {
+		"data": {}
+	},
+	"BP/entities/woodenarrow_projectile_hellstone.json": {
+		"data": {}
+	},
+	"RP/entity/woodenarrow_projectile_hellstone.json": {
+		"data": {}
+	},
+	"BP/recipes/woodenbow_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/copperbow_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/tinbow_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/ironbow_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/leadbow_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/silverbow_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/tungstenbow_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/goldbow_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/platinumbow_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/crimtanebow_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/hellstonebow_recipe.json": {
+		"data": {}
+	},
+	"BP/entities/spacegun_projectile.json": {
+		"data": {}
+	},
+	"BP/recipes/load_spacegun_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/spacegun_recipe.json": {
+		"data": {}
+	},
+	"RP/entity/spacegun_projectile.json": {
+		"data": {}
+	},
+	"BP/blocks/meteoriteblock.json": {
+		"data": {}
+	},
+	"BP/recipes/meteoriteblock_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/woodenarrow_recipe.json": {
+		"data": {}
+	},
+	"BP/entities/armsdealer.json": {
+		"data": {}
+	},
+	"BP/entities/musketball_projectile_flintlockpistol.json": {
+		"data": {}
+	},
+	"RP/entity/musketball_projectile_flintlockpistol.json": {
+		"data": {}
+	},
+	"BP/items/musketball.json": {
+		"data": {}
+	},
+	"BP/trading/economy_trades/armsdealer_trades.json": {
+		"data": {}
+	},
+	"BP/entities/musketball_projectile_minishark.json": {
+		"data": {}
+	},
+	"BP/recipes/load_minishark_recipe.json": {
+		"data": {}
+	},
+	"RP/entity/musketball_projectile_minishark.json": {
+		"data": {}
+	},
+	"BP/entities/musketball_projectile_boomstick.json": {
+		"data": {}
+	},
+	"RP/entity/musketball_projectile_boomstick.json": {
+		"data": {}
+	},
+	"BP/recipes/armsdealer_summoner_recipe.json": {
+		"data": {}
+	},
+	"BP/items/armsdealer_summoner.json": {
+		"data": {}
+	},
+	"RP/entity/woodenarrow_projectile.json": {
+		"data": {}
+	},
+	"BP/recipes/load_waterbolt_recipe.json": {
+		"data": {}
+	},
+	"RP/entity/waterbolt_projectile.json": {
+		"data": {}
+	},
+	"BP/entities/waterbolt_projectile.json": {
+		"data": {}
+	},
+	"BP/blocks/dungeon_shelves.json": {
+		"data": {}
+	},
+	"BP/entities/oldman.json": {
+		"data": {}
+	},
+	"BP/entities/angrybones.json": {
+		"data": {}
+	},
+	"RP/entity/angrybones.json": {
+		"data": {}
+	},
+	"BP/entities/darkcaster.json": {
+		"data": {}
+	},
+	"RP/entity/darkcaster.json": {
+		"data": {}
+	},
+	"BP/spawn_rules/cavebat.json": {
+		"data": {}
+	},
+	"BP/entities/cursedskull.json": {
+		"data": {}
+	},
+	"RP/entity/cursedskull.json": {
+		"data": {}
+	},
+	"BP/entities/dungeonslime.json": {
+		"data": {}
+	},
+	"RP/entity/dungeonslime.json": {
+		"data": {}
+	},
+	"BP/blocks/dungeonchest_locked.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/dungeonchest_locked.json": {
+		"data": {}
+	},
+	"BP/items/goldenkey_dungeon.json": {
+		"data": {}
+	},
+	"BP/blocks/dungeonchest_unlocked.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/dungeonchest_unlocked.json": {
+		"data": {}
+	},
+	"BP/recipes/dungeonchest_recipe.json": {
+		"data": {}
+	},
+	"BP/items/muramasa.json": {
+		"data": {}
+	},
+	"BP/entities/musketball_projectile_handgun.json": {
+		"data": {}
+	},
+	"RP/entity/musketball_projectile_handgun.json": {
+		"data": {}
+	},
+	"BP/entities/musketball_projectile_phoenixblaster.json": {
+		"data": {}
+	},
+	"BP/recipes/load_phoenixblaster_recipe.json": {
+		"data": {}
+	},
+	"RP/entity/musketball_projectile_phoenixblaster.json": {
+		"data": {}
+	},
+	"BP/loot_tables/entities/angrybones.json": {
+		"data": {}
+	},
+	"BP/loot_tables/entities/cursedskull.json": {
+		"data": {}
+	},
+	"BP/items/creamsoda.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/dungeon_shelves.json": {
+		"data": {}
+	},
+	"BP/entities/water_projectile_aquascepter.json": {
+		"data": {}
+	},
+	"RP/entity/water_projectile_aquascepter.json": {
+		"data": {}
+	},
+	"BP/loot_tables/entities/dungeonslime.json": {
+		"data": {}
+	},
+	"BP/entities/spikes.json": {
+		"data": {}
+	},
+	"RP/entity/spikes.json": {
+		"data": {}
+	},
+	"BP/items/mushroom.json": {
+		"data": {}
+	},
+	"BP/recipes/lesserhealingpotion_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/regenerationpotion_recipe.json": {
+		"data": {}
+	},
+	"BP/items/regenerationpotion.json": {
+		"data": {}
+	},
+	"BP/blocks/mushroom_grass.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/mushroom_grass.json": {
+		"data": {}
+	},
+	"BP/blocks/mushroom_stem.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/mushroom_stem.json": {
+		"data": {}
+	},
+	"BP/blocks/mushroom_hat.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/mushroom_hat.json": {
+		"data": {}
+	},
+	"BP/items/glowing_mushroom.json": {
+		"data": {}
+	},
+	"BP/entities/sporeskeleton.json": {
+		"data": {}
+	},
+	"RP/entity/sporeskeleton.json": {
+		"data": {}
+	},
+	"BP/entities/sporezombie.json": {
+		"data": {}
+	},
+	"RP/entity/sporezombie.json": {
+		"data": {}
+	},
+	"BP/loot_tables/entities/sporezombie.json": {
+		"data": {}
+	},
+	"BP/feature_rules/glowingmushroombiome_feature_rule.json": {
+		"data": {}
+	},
+	"BP/features/glowingmushroombiome_feature.json": {
+		"data": {}
+	},
+	"BP/recipes/phoenixblaster_recipe.json": {
+		"data": {}
+	},
+	"BP/items/healingpotion.json": {
+		"data": {}
+	},
+	"BP/recipes/healingpotion.json": {
+		"data": {}
+	},
+	"BP/loot_tables/entities/sporeskeleton.json": {
+		"data": {}
+	},
+	"BP/items/ale.json": {
+		"data": {}
+	},
+	"RP/entity/armsdealer.json": {
+		"data": {}
+	},
+	"BP/items/balloonpufferfish.json": {
+		"data": {}
+	},
+	"BP/items/bandofregeneration.json": {
+		"data": {}
+	},
+	"BP/items/bloodyspine.json": {
+		"data": {}
+	},
+	"BP/items/bone_terraria.json": {
+		"data": {}
+	},
+	"BP/entities/player.json": {
+		"data": {
+			"item_component@general": {
+				"minecraft:entity": {
+					"description": {
+						"animations": {
+							"bridge_custom_item_behavior": "controller.animation.bridge_custom_item_behavior"
+						},
+						"scripts": {
+							"animate": [
+								"bridge_custom_item_behavior"
+							]
+						}
+					}
+				}
+			},
+			"item_component@cfac9d6b_af3f_44c9_bc10_6fb2d36fcec0": {
+				"minecraft:entity": {
+					"component_groups": {
+						"bridge:default_player": {},
+						"bridge:equipped_cfac9d6b_af3f_44c9_bc10_6fb2d36fcec0": {}
+					},
+					"events": {
+						"bridge:on_reset_player": {
+							"add": {
+								"component_groups": [
+									"bridge:default_player"
+								]
+							}
+						},
+						"bridge:on_equipped_cfac9d6b_af3f_44c9_bc10_6fb2d36fcec0": {
+							"add": {
+								"component_groups": [
+									"bridge:equipped_cfac9d6b_af3f_44c9_bc10_6fb2d36fcec0"
+								]
+							}
+						},
+						"bridge:on_unequipped_cfac9d6b_af3f_44c9_bc10_6fb2d36fcec0": {
+							"remove": {
+								"component_groups": [
+									"bridge:equipped_cfac9d6b_af3f_44c9_bc10_6fb2d36fcec0"
+								]
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"BP/items/copperpickaxe.json": {
+		"data": {}
+	},
+	"BP/items/cactuspickaxe.json": {
+		"data": {}
+	},
+	"BP/items/tinpickaxe.json": {
+		"data": {}
+	},
+	"BP/items/ironpickaxe.json": {
+		"data": {}
+	},
+	"BP/items/leadpickaxe.json": {
+		"data": {}
+	},
+	"BP/items/silverpickaxe.json": {
+		"data": {}
+	},
+	"BP/items/tungstenpickaxe.json": {
+		"data": {}
+	},
+	"BP/items/bonepickaxe.json": {
+		"data": {}
+	},
+	"BP/items/goldpickaxe.json": {
+		"data": {}
+	},
+	"BP/items/platinumpickaxe.json": {
+		"data": {}
+	},
+	"BP/items/cactussword.json": {
+		"data": {}
+	},
+	"BP/items/lifecrystal_2.json": {
+		"data": {}
+	},
+	"BP/items/lifecrystal_3.json": {
+		"data": {}
+	},
+	"BP/items/lifecrystal_4.json": {
+		"data": {}
+	},
+	"BP/items/lifecrystal_5.json": {
+		"data": {}
+	},
+	"RP/entity/merchant.json": {
+		"data": {}
+	},
+	"RP/entity/demolitionist.json": {
+		"data": {}
+	},
+	"RP/entity/nurse.json": {
+		"data": {}
+	},
+	"BP/items/vertebra.json": {
+		"data": {}
+	},
+	"BP/items/meteoritebar.json": {
+		"data": {}
+	},
+	"RP/animation_controllers/ash.json": {
+		"data": {}
+	},
+	"BP/loot_tables/entities/ash_gift/ash.json": {
+		"data": {}
+	},
+	"RP/entity/ash.json": {
+		"data": {}
+	},
+	"RP/render_controllers/ash.json": {
+		"data": {}
+	},
+	"BP/entities/ash.json": {
+		"data": {}
+	},
+	"BP/spawn_rules/ash.json": {
+		"data": {}
+	},
+	"RP/animations/ash.json": {
+		"data": {}
+	},
+	"RP/models/entity/ash.json": {
+		"data": {}
+	},
+	"BP/loot_tables/entities/ash.json": {
+		"data": {}
+	},
+	"BP/entities/bone_terraria_projectile.json": {
+		"data": {}
+	},
+	"BP/entities/flamarang_projectile.json": {
+		"data": {}
+	},
+	"RP/entity/bone_terraria_projectile.json": {
+		"data": {}
+	},
+	"RP/entity/flamarang_projectile.json": {
+		"data": {}
+	},
+	"RP/entity/enchantedboomerang_projectile.json": {
+		"data": {}
+	},
+	"BP/entities/enchantedboomerang_projectile.json": {
+		"data": {}
+	},
+	"BP/entities/woodenboomerang_projectile.json": {
+		"data": {}
+	},
+	"RP/entity/woodenboomerang_projectile.json": {
+		"data": {}
+	},
+	"BP/entities/poisonedknife_projectile.json": {
+		"data": {}
+	},
+	"RP/entity/poisonedknife_projectile.json": {
+		"data": {}
+	},
+	"RP/entity/throwingknife_projectile.json": {
+		"data": {}
+	},
+	"BP/entities/throwingknife_projectile.json": {
+		"data": {}
+	},
+	"BP/entities/slimegun_projectile.json": {
+		"data": {}
+	},
+	"RP/entity/slimegun_projectile.json": {
+		"data": {}
+	},
+	"BP/items/copperbow.json": {
+		"data": {}
+	},
+	"RP/entity/oldman.json": {
+		"data": {}
+	},
+	"BP/blocks/h.json": {
+		"data": {}
+	},
+	"RP/entity/player.json": {
+		"data": {}
+	},
+	"RP/entity/bomb.json": {
+		"data": {}
+	},
+	"BP/feature_rules/crimson_cactus_1_feature_rule.json": {
+		"data": {}
+	},
+	"BP/feature_rules/overworld_underground_ironore_terraria_feature.json": {
+		"data": {}
+	},
+	"BP/feature_rules/overworld_underground_tungstenore_feature.json": {
+		"data": {}
+	},
+	"BP/feature_rules/vicious_mushroom_1_feature_rule.json": {
+		"data": {}
+	},
+	"BP/entities/dungeon_spawner.json": {
+		"data": {}
+	},
+	"RP/entity/dungeon_spawner.json": {
+		"data": {}
+	},
+	"BP/items/aquascepter.json": {
+		"data": {}
+	},
+	"BP/feature_rules/copperore_featurerule.json": {
+		"data": {}
+	},
+	"BP/items/boomstick.json": {
+		"data": {}
+	},
+	"BP/items/crimtanebow.json": {
+		"data": {}
+	},
+	"BP/items/flintlockpistol.json": {
+		"data": {}
+	},
+	"BP/items/goldbow.json": {
+		"data": {}
+	},
+	"BP/items/handgun.json": {
+		"data": {}
+	},
+	"BP/items/hellstonebow.json": {
+		"data": {}
+	},
+	"BP/items/ironbow.json": {
+		"data": {}
+	},
+	"BP/items/leadbow.json": {
+		"data": {}
+	},
+	"BP/items/minishark.json": {
+		"data": {}
+	},
+	"BP/items/phoenixblaster.json": {
+		"data": {}
+	},
+	"BP/items/platinumbow.json": {
+		"data": {}
+	},
+	"BP/items/silverbow.json": {
+		"data": {}
+	},
+	"BP/items/spacegun.json": {
+		"data": {}
+	},
+	"BP/items/tinbow.json": {
+		"data": {}
+	},
+	"BP/items/tungstenbow.json": {
+		"data": {}
+	},
+	"BP/items/waterbolt.json": {
+		"data": {}
+	},
+	"BP/items/woodenbow.json": {
+		"data": {}
+	},
+	"BP/entities/test_slime.json": {
+		"data": {}
+	},
+	"RP/entity/test_slime.json": {
+		"data": {}
+	},
+	"BP/blocks/mushroom.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/mushroom.json": {
+		"data": {}
+	},
+	"BP/blocks/workbench.json": {
+		"data": {}
+	},
+	"BP/items/copper_chestplate.json": {
+		"data": {}
+	},
+	"BP/items/copper_helmet.json": {
+		"data": {}
+	},
+	"BP/items/tin_chestplate.json": {
+		"data": {}
+	},
+	"BP/items/tin_greaves.json": {
+		"data": {}
+	},
+	"BP/items/tin_helmet.json": {
+		"data": {}
+	},
+	"BP/items/iron_chestplate.json": {
+		"data": {}
+	},
+	"BP/items/iron_helmet.json": {
+		"data": {}
+	},
+	"BP/items/copper_greaves.json": {
+		"data": {}
+	},
+	"BP/items/iron_greaves.json": {
+		"data": {}
+	},
+	"BP/items/lead_chestplate.json": {
+		"data": {}
+	},
+	"BP/items/lead_greaves.json": {
+		"data": {}
+	},
+	"BP/items/lead_helmet.json": {
+		"data": {}
+	},
+	"BP/items/silver_chestplate.json": {
+		"data": {}
+	},
+	"BP/items/silver_greaves.json": {
+		"data": {}
+	},
+	"BP/items/silver_helmet.json": {
+		"data": {}
+	},
+	"BP/items/tungsten_chestplate.json": {
+		"data": {}
+	},
+	"BP/items/tungsten_greaves.json": {
+		"data": {}
+	},
+	"BP/items/tungsten_helmet.json": {
+		"data": {}
+	},
+	"BP/items/gold_chestplate.json": {
+		"data": {}
+	},
+	"BP/items/gold_greaves.json": {
+		"data": {}
+	},
+	"BP/items/gold_helmet.json": {
+		"data": {}
+	},
+	"BP/items/platinum_chestplate.json": {
+		"data": {}
+	},
+	"BP/items/platinum_greaves.json": {
+		"data": {}
+	},
+	"BP/items/platinum_helmet.json": {
+		"data": {}
+	},
+	"BP/items/copperaxe.json": {
+		"data": {}
+	},
+	"BP/items/tinaxe.json": {
+		"data": {}
+	},
+	"BP/items/leadaxe.json": {
+		"data": {}
+	},
+	"BP/items/ironaxe.json": {
+		"data": {}
+	},
+	"BP/items/silveraxe.json": {
+		"data": {}
+	},
+	"BP/items/tungstenaxe.json": {
+		"data": {}
+	},
+	"BP/items/goldaxe.json": {
+		"data": {}
+	},
+	"BP/items/platinumaxe.json": {
+		"data": {}
+	},
+	"BP/items/meteoriteaxe.json": {
+		"data": {}
+	},
+	"BP/items/hellstoneaxe.json": {
+		"data": {}
+	},
+	"BP/items/crimtaneaxe.json": {
+		"data": {}
+	},
+	"BP/items/hellstone_chestplate.json": {
+		"data": {}
+	},
+	"BP/items/hellstone_greaves.json": {
+		"data": {}
+	},
+	"BP/items/hellstone_helmet.json": {
+		"data": {}
+	},
+	"RP/particles/hellstone_effect.json": {
+		"data": {}
+	},
+	"BP/items/crimtane_chestplate.json": {
+		"data": {}
+	},
+	"BP/items/crimtane_greaves.json": {
+		"data": {}
+	},
+	"BP/items/crimtane_helmet.json": {
+		"data": {}
+	},
+	"BP/items/meteorite_chestplate.json": {
+		"data": {}
+	},
+	"BP/items/meteorite_greaves.json": {
+		"data": {}
+	},
+	"BP/items/meteorite_helmet.json": {
+		"data": {}
+	},
+	"BP/biomes/cold_biome.biome.json": {
+		"data": {}
+	},
+	"BP/blocks/crimson_alter.json": {
+		"data": {}
+	},
+	"BP/blocks/demon_alter.json": {
+		"data": {}
+	},
+	"BP/recipes/crimtanepickaxe_recipe.json": {
+		"data": {}
+	},
+	"BP/blocks/bottle_station.json": {
+		"data": {}
+	},
+	"BP/blocks/hellforge.json": {
+		"data": {}
+	}
+}

@@ -1,0 +1,25 @@
+//bridge-file-version: #3
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "terrariamod:goldoin_pile_recipe"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"###",
+			"###",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "terrariamod:goldcoin"
+			}
+		},
+		"result": {
+			"item": "terrariamod:goldcoin_pile"
+		}
+	}
+}

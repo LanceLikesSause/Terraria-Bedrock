@@ -1,0 +1,15 @@
+//bridge-file-version: #3
+{
+	"format_version": "1.13.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "terrariamod:pinkbrick_wall",
+			"register_to_creative_menu": true
+		},
+		"components": {
+			"minecraft:destroy_time": 999,
+			"minecraft:map_color": "#D017D2",
+			"minecraft:explosion_resistance": 0.9
+		}
+	}
+}

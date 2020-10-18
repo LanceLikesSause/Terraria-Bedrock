@@ -1,0 +1,150 @@
+{
+	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\blocks\\demon_alter.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "8f4d1ab7_7130_4439_9543_e5b9398e43b0",
+	"file_version": 5,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.0",
+					"minecraft:block": {
+						"description": {
+							"identifier": "terrariamod:demon_alter",
+							"register_to_creative_menu": true
+						},
+						"components": {
+							"minecraft:destroy_time": 5,
+							"minecraft:geometry": "geometry.cross",
+							"minecraft:material_instances": {
+								"*": {
+									"texture": "demon_alter",
+									"render_method": "alpha_test"
+								}
+							},
+							"minecraft:crafting_table": {
+								"grid_size": 3,
+								"crafting_tags": [
+									"alter"
+								]
+							},
+							"minecraft:entity_collision": false,
+							"minecraft:block_light_emission": 1
+						}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:demon_alter",
+							"register_to_creative_menu": true
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:demon_alter",
+								"register_to_creative_menu": true
+							},
+							"components": {
+								"minecraft:destroy_time": 5,
+								"minecraft:geometry": "geometry.cross",
+								"minecraft:material_instances": {
+									"*": {
+										"texture": "demon_alter",
+										"render_method": "alpha_test"
+									}
+								},
+								"minecraft:crafting_table": {
+									"grid_size": 3,
+									"crafting_tags": [
+										"alter"
+									]
+								},
+								"minecraft:entity_collision": false,
+								"minecraft:block_light_emission": 1
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "5",
+								"key": "minecraft:destroy_time"
+							},
+							{
+								"data": "geometry.cross",
+								"key": "minecraft:geometry"
+							},
+							{
+								"key": "minecraft:material_instances",
+								"is_minified": true,
+								"children": {
+									"*": {
+										"texture": "demon_alter",
+										"render_method": "alpha_test"
+									}
+								}
+							},
+							{
+								"open": {
+									"minecraft:destroy_time": 5,
+									"minecraft:geometry": "geometry.cross",
+									"minecraft:material_instances": {
+										"*": {
+											"texture": "demon_alter",
+											"render_method": "alpha_test"
+										}
+									},
+									"minecraft:crafting_table": {
+										"grid_size": 3,
+										"crafting_tags": [
+											"alter"
+										]
+									},
+									"minecraft:entity_collision": false,
+									"minecraft:block_light_emission": 1
+								},
+								"key": "minecraft:crafting_table",
+								"children": [
+									{
+										"data": "3",
+										"key": "grid_size"
+									},
+									{
+										"open": {
+											"grid_size": 3,
+											"crafting_tags": [
+												"alter"
+											]
+										},
+										"key": "crafting_tags",
+										"is_minified": true,
+										"children": [
+											"alter"
+										]
+									}
+								]
+							},
+							{
+								"data": "false",
+								"key": "minecraft:entity_collision"
+							},
+							{
+								"data": "1",
+								"key": "minecraft:block_light_emission"
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

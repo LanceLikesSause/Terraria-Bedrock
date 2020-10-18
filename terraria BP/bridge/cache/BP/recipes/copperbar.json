@@ -1,0 +1,101 @@
+{
+	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria\\recipes\\copperbar.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "890ac99c_e274_420e_b451_8f95d165f39f",
+	"file_version": 3,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.13.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.13.0",
+					"minecraft:recipe_furnace": {
+						"description": {
+							"identifier": "terrariamod:copperbar_recipe"
+						},
+						"tags": [
+							"furnace",
+							"blast_furnace"
+						],
+						"input": "terrariamod:copperore",
+						"output": "terrariamod:copperbar"
+					}
+				},
+				"key": "minecraft:recipe_furnace",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:copperbar_recipe"
+							},
+							"tags": [
+								"furnace",
+								"blast_furnace"
+							],
+							"input": "terrariamod:copperore",
+							"output": "terrariamod:copperbar"
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:copperbar_recipe"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:copperbar_recipe"
+							},
+							"tags": [
+								"furnace",
+								"blast_furnace"
+							],
+							"input": "terrariamod:copperore",
+							"output": "terrariamod:copperbar"
+						},
+						"key": "tags",
+						"is_minified": true,
+						"array": [
+							"furnace",
+							"blast_furnace"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:copperbar_recipe"
+							},
+							"tags": [
+								"furnace",
+								"blast_furnace"
+							],
+							"input": "terrariamod:copperore",
+							"output": "terrariamod:copperbar"
+						},
+						"data": "terrariamod:copperore",
+						"key": "input"
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:copperbar_recipe"
+							},
+							"tags": [
+								"furnace",
+								"blast_furnace"
+							],
+							"input": "terrariamod:copperore",
+							"output": "terrariamod:copperbar"
+						},
+						"data": "terrariamod:copperbar",
+						"key": "output"
+					}
+				]
+			}
+		]
+	}
+}

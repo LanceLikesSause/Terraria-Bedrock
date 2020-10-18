@@ -1,0 +1,26 @@
+//bridge-file-version: #9
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "terrariamod:phoenixblaster_recipe"
+		},
+		"tags": [
+			"iron_anvil"
+		],
+		"ingredients": [
+			{
+				"item": "terrariamod:handgun"
+			},
+			{
+				"item": "terrariamod:hellstonebar",
+				"count": 8
+			}
+		],
+		"result": [
+			{
+				"item": "terrariamod:phoenixblaster"
+			}
+		]
+	}
+}

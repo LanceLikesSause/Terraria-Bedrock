@@ -1,0 +1,77 @@
+{
+	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\blocks\\cavernchest.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "f0415e80_acb8_4c52_b609_4cbeb4e1faf9",
+	"file_version": 2,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:block": {
+						"description": {
+							"identifier": "terrariamod:cavernchest"
+						},
+						"components": {
+							"minecraft:destroy_time": 0.1,
+							"minecraft:loot": "loot_tables/blocks/cavernchest.json"
+						}
+					}
+				},
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:block": {
+						"description": {
+							"identifier": "terrariamod:cavernchest"
+						},
+						"components": {
+							"minecraft:destroy_time": 0.1,
+							"minecraft:loot": "loot_tables/blocks/cavernchest.json"
+						}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:cavernchest"
+							},
+							"components": {
+								"minecraft:destroy_time": 0.1,
+								"minecraft:loot": "loot_tables/blocks/cavernchest.json"
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:cavernchest"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:cavernchest"
+							},
+							"components": {
+								"minecraft:destroy_time": 0.1,
+								"minecraft:loot": "loot_tables/blocks/cavernchest.json"
+							}
+						},
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:destroy_time": 0.1,
+							"minecraft:loot": "loot_tables/blocks/cavernchest.json"
+						}
+					}
+				]
+			}
+		]
+	}
+}

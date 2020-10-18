@@ -1,0 +1,428 @@
+{
+	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\entities\\flamarang_projectile.json",
+	"file_type": "entity",
+	"format_version": 1,
+	"file_uuid": "c28fd5d7_846d_4251_9d7b_ceb9fb040b6b",
+	"file_version": 20,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.13.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.13.0",
+					"minecraft:entity": {
+						"description": {
+							"identifier": "terrariamod:flamarang_projectile",
+							"is_spawnable": false,
+							"is_summonable": true,
+							"is_experimental": false
+						},
+						"component_groups": {},
+						"components": {
+							"minecraft:collision_box": {
+								"width": 0.25,
+								"height": 0.25
+							},
+							"minecraft:hurt_on_condition": {
+								"damage_conditions": [
+									{
+										"filters": {
+											"test": "in_lava",
+											"subject": "self",
+											"operator": "==",
+											"value": true
+										},
+										"cause": "lava",
+										"damage_per_tick": 4
+									}
+								]
+							},
+							"minecraft:projectile": {
+								"on_hit": {
+									"impact_damage": {
+										"damage": [
+											20,
+											20
+										],
+										"knockback": true,
+										"semi_random_diff_damage": false,
+										"destroy_on_hit": true
+									},
+									"remove_on_hit": {}
+								},
+								"hit_sound": "bow.hit",
+								"power": 1.4,
+								"gravity": 0.03,
+								"anchor": 0.1,
+								"should_bounce": false,
+								"offset": [
+									0,
+									-0.1,
+									0
+								],
+								"catch_fire": true
+							}
+						}
+					}
+				},
+				"key": "minecraft:entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:flamarang_projectile",
+								"is_spawnable": false,
+								"is_summonable": true,
+								"is_experimental": false
+							},
+							"component_groups": {},
+							"components": {
+								"minecraft:collision_box": {
+									"width": 0.25,
+									"height": 0.25
+								},
+								"minecraft:hurt_on_condition": {
+									"damage_conditions": [
+										{
+											"filters": {
+												"test": "in_lava",
+												"subject": "self",
+												"operator": "==",
+												"value": true
+											},
+											"cause": "lava",
+											"damage_per_tick": 4
+										}
+									]
+								},
+								"minecraft:projectile": {
+									"on_hit": {
+										"impact_damage": {
+											"damage": [
+												20,
+												20
+											],
+											"knockback": true,
+											"semi_random_diff_damage": false,
+											"destroy_on_hit": true
+										},
+										"remove_on_hit": {}
+									},
+									"hit_sound": "bow.hit",
+									"power": 1.4,
+									"gravity": 0.03,
+									"anchor": 0.1,
+									"should_bounce": false,
+									"offset": [
+										0,
+										-0.1,
+										0
+									],
+									"catch_fire": true
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:flamarang_projectile",
+							"is_spawnable": false,
+							"is_summonable": true,
+							"is_experimental": false
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:flamarang_projectile",
+								"is_spawnable": false,
+								"is_summonable": true,
+								"is_experimental": false
+							},
+							"component_groups": {},
+							"components": {
+								"minecraft:collision_box": {
+									"width": 0.25,
+									"height": 0.25
+								},
+								"minecraft:hurt_on_condition": {
+									"damage_conditions": [
+										{
+											"filters": {
+												"test": "in_lava",
+												"subject": "self",
+												"operator": "==",
+												"value": true
+											},
+											"cause": "lava",
+											"damage_per_tick": 4
+										}
+									]
+								},
+								"minecraft:projectile": {
+									"on_hit": {
+										"impact_damage": {
+											"damage": [
+												20,
+												20
+											],
+											"knockback": true,
+											"semi_random_diff_damage": false,
+											"destroy_on_hit": true
+										},
+										"remove_on_hit": {}
+									},
+									"hit_sound": "bow.hit",
+									"power": 1.4,
+									"gravity": 0.03,
+									"anchor": 0.1,
+									"should_bounce": false,
+									"offset": [
+										0,
+										-0.1,
+										0
+									],
+									"catch_fire": true
+								}
+							}
+						},
+						"key": "component_groups",
+						"is_minified": true,
+						"children": {}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:flamarang_projectile",
+								"is_spawnable": false,
+								"is_summonable": true,
+								"is_experimental": false
+							},
+							"component_groups": {},
+							"components": {
+								"minecraft:collision_box": {
+									"width": 0.25,
+									"height": 0.25
+								},
+								"minecraft:hurt_on_condition": {
+									"damage_conditions": [
+										{
+											"filters": {
+												"test": "in_lava",
+												"subject": "self",
+												"operator": "==",
+												"value": true
+											},
+											"cause": "lava",
+											"damage_per_tick": 4
+										}
+									]
+								},
+								"minecraft:projectile": {
+									"on_hit": {
+										"impact_damage": {
+											"damage": [
+												20,
+												20
+											],
+											"knockback": true,
+											"semi_random_diff_damage": false,
+											"destroy_on_hit": true
+										},
+										"remove_on_hit": {}
+									},
+									"hit_sound": "bow.hit",
+									"power": 1.4,
+									"gravity": 0.03,
+									"anchor": 0.1,
+									"should_bounce": false,
+									"offset": [
+										0,
+										-0.1,
+										0
+									],
+									"catch_fire": true
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"key": "minecraft:collision_box",
+								"is_minified": true,
+								"children": {
+									"width": 0.25,
+									"height": 0.25
+								}
+							},
+							{
+								"key": "minecraft:hurt_on_condition",
+								"is_minified": true,
+								"children": {
+									"damage_conditions": [
+										{
+											"filters": {
+												"test": "in_lava",
+												"subject": "self",
+												"operator": "==",
+												"value": true
+											},
+											"cause": "lava",
+											"damage_per_tick": 4
+										}
+									]
+								}
+							},
+							{
+								"open": {
+									"minecraft:collision_box": {
+										"width": 0.25,
+										"height": 0.25
+									},
+									"minecraft:hurt_on_condition": {
+										"damage_conditions": [
+											{
+												"filters": {
+													"test": "in_lava",
+													"subject": "self",
+													"operator": "==",
+													"value": true
+												},
+												"cause": "lava",
+												"damage_per_tick": 4
+											}
+										]
+									},
+									"minecraft:projectile": {
+										"on_hit": {
+											"impact_damage": {
+												"damage": [
+													20,
+													20
+												],
+												"knockback": true,
+												"semi_random_diff_damage": false,
+												"destroy_on_hit": true
+											},
+											"remove_on_hit": {}
+										},
+										"hit_sound": "bow.hit",
+										"power": 1.4,
+										"gravity": 0.03,
+										"anchor": 0.1,
+										"should_bounce": false,
+										"offset": [
+											0,
+											-0.1,
+											0
+										],
+										"catch_fire": true
+									}
+								},
+								"key": "minecraft:projectile",
+								"children": [
+									{
+										"open": {
+											"on_hit": {
+												"impact_damage": {
+													"damage": [
+														20,
+														20
+													],
+													"knockback": true,
+													"semi_random_diff_damage": false,
+													"destroy_on_hit": true
+												},
+												"remove_on_hit": {}
+											},
+											"hit_sound": "bow.hit",
+											"power": 1.4,
+											"gravity": 0.03,
+											"anchor": 0.1,
+											"should_bounce": false,
+											"offset": [
+												0,
+												-0.1,
+												0
+											],
+											"catch_fire": true
+										},
+										"key": "on_hit",
+										"children": [
+											{
+												"open": {
+													"impact_damage": {
+														"damage": [
+															20,
+															20
+														],
+														"knockback": true,
+														"semi_random_diff_damage": false,
+														"destroy_on_hit": true
+													},
+													"remove_on_hit": {}
+												},
+												"key": "impact_damage",
+												"is_minified": true,
+												"children": {
+													"damage": [
+														20,
+														20
+													],
+													"knockback": true,
+													"semi_random_diff_damage": false,
+													"destroy_on_hit": true
+												}
+											},
+											{
+												"key": "remove_on_hit",
+												"is_minified": true,
+												"children": {}
+											}
+										]
+									},
+									{
+										"data": "bow.hit",
+										"key": "hit_sound"
+									},
+									{
+										"data": "1.4",
+										"key": "power"
+									},
+									{
+										"data": "0.03",
+										"key": "gravity"
+									},
+									{
+										"data": "0.1",
+										"key": "anchor"
+									},
+									{
+										"data": "false",
+										"key": "should_bounce"
+									},
+									{
+										"key": "offset",
+										"is_minified": true,
+										"children": [
+											0,
+											-0.1,
+											0
+										]
+									},
+									{
+										"data": "true",
+										"key": "catch_fire"
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

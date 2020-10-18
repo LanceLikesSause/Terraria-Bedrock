@@ -1,0 +1,145 @@
+{
+	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\items\\bonesword.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "ff8666a5_c8b1_45da_a791_642b7492668e",
+	"file_version": 5,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "terrariamod:bonesword",
+							"category": "equipment"
+						},
+						"components": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:hand_equipped": true,
+							"minecraft:damage": 16,
+							"minecraft:weapon": {},
+							"minecraft:icon": {
+								"texture": "terrariamod:bonesword"
+							},
+							"minecraft:display_name": {
+								"value": "item.terrariamod:bonesword.name"
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:bonesword",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:hand_equipped": true,
+								"minecraft:damage": 16,
+								"minecraft:weapon": {},
+								"minecraft:icon": {
+									"texture": "terrariamod:bonesword"
+								},
+								"minecraft:display_name": {
+									"value": "item.terrariamod:bonesword.name"
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:bonesword",
+							"category": "equipment"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:bonesword",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:hand_equipped": true,
+								"minecraft:damage": 16,
+								"minecraft:weapon": {},
+								"minecraft:icon": {
+									"texture": "terrariamod:bonesword"
+								},
+								"minecraft:display_name": {
+									"value": "item.terrariamod:bonesword.name"
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "1",
+								"key": "minecraft:max_stack_size"
+							},
+							{
+								"data": "true",
+								"key": "minecraft:hand_equipped"
+							},
+							{
+								"data": "16",
+								"key": "minecraft:damage"
+							},
+							{
+								"key": "minecraft:weapon",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:hand_equipped": true,
+									"minecraft:damage": 16,
+									"minecraft:weapon": {},
+									"minecraft:icon": {
+										"texture": "terrariamod:bonesword"
+									},
+									"minecraft:display_name": {
+										"value": "item.terrariamod:bonesword.name"
+									}
+								},
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "terrariamod:bonesword"
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:hand_equipped": true,
+									"minecraft:damage": 16,
+									"minecraft:weapon": {},
+									"minecraft:icon": {
+										"texture": "terrariamod:bonesword"
+									},
+									"minecraft:display_name": {
+										"value": "item.terrariamod:bonesword.name"
+									}
+								},
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "item.terrariamod:bonesword.name"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,37 @@
+//bridge-file-version: #4
+{
+	"format_version": "1.8.0",
+	"minecraft:spawn_rules": {
+		"description": {
+			"identifier": "terrariamod:overworld_day",
+			"population_control": "animal"
+		},
+		"conditions": [
+			{
+				"minecraft:spawns_on_surface": {},
+				"minecraft:spawns_on_block_filter": "minecraft:grass",
+				"minecraft:brightness_filter": {
+					"min": 7,
+					"max": 15,
+					"adjust_for_weather": false
+				},
+				"minecraft:weight": {
+					"default": 5000
+				},
+				"minecraft:herd": {
+					"min_size": 1,
+					"max_size": 1
+				},
+				"minecraft:biome_filter": {
+					"test": "has_biome_tag",
+					"operator": "==",
+					"value": "animal"
+				},
+				"minecraft:density_limit": {
+					"surface": 1,
+					"underground": 1
+				}
+			}
+		]
+	}
+}

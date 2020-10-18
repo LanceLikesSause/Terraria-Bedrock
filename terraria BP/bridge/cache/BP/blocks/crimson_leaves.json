@@ -1,0 +1,68 @@
+{
+	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\blocks\\crimson_leaves.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "a43dbd1a_ca4a_4a9b_a28f_7eb83f4815ba",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"minecraft:block": {
+						"description": {
+							"identifier": "terrariamod:crimson_leaves",
+							"is_experimental": false,
+							"register_to_creative_menu": true
+						},
+						"components": {
+							"minecraft:loot": "loot_tables/blocks/crimson_leaves.json",
+							"minecraft:destroy_time": 0.5,
+							"minecraft:block_light_absorption": 0,
+							"minecraft:block_light_emission": 0
+						}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:crimson_leaves",
+							"is_experimental": false,
+							"register_to_creative_menu": true
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:crimson_leaves",
+								"is_experimental": false,
+								"register_to_creative_menu": true
+							},
+							"components": {
+								"minecraft:loot": "loot_tables/blocks/crimson_leaves.json",
+								"minecraft:destroy_time": 0.5,
+								"minecraft:block_light_absorption": 0,
+								"minecraft:block_light_emission": 0
+							}
+						},
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:loot": "loot_tables/blocks/crimson_leaves.json",
+							"minecraft:destroy_time": 0.5,
+							"minecraft:block_light_absorption": 0,
+							"minecraft:block_light_emission": 0
+						}
+					}
+				]
+			}
+		]
+	}
+}

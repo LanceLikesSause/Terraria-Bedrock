@@ -1,0 +1,26 @@
+//bridge-file-version: #34
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "terrariamod:poisonedknife",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:throwable": {
+				"do_swing_animation": true
+			},
+			"minecraft:projectile": {
+				"projectile_entity": "terrariamod:poisonedknife_projectile"
+			},
+			"minecraft:explodable": true,
+			"minecraft:max_stack_size": 64,
+			"minecraft:display_name": {
+				"value": "item.terrariamod:poisonedknife.name"
+			},
+			"minecraft:icon": {
+				"texture": "terrariamod:poisonedknife"
+			}
+		}
+	}
+}

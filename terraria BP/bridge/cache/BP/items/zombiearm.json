@@ -1,0 +1,145 @@
+{
+	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\items\\zombiearm.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "5f3649ca_18f3_4e95_b318_1ef7fec3538a",
+	"file_version": 3,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "terrariamod:zombiearm",
+							"category": "equipment"
+						},
+						"components": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:hand_equipped": true,
+							"minecraft:damage": 12,
+							"minecraft:weapon": {},
+							"minecraft:icon": {
+								"texture": "terrariamod:zombiearm"
+							},
+							"minecraft:display_name": {
+								"value": "item.terrariamod:zombiearm.name"
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:zombiearm",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:hand_equipped": true,
+								"minecraft:damage": 12,
+								"minecraft:weapon": {},
+								"minecraft:icon": {
+									"texture": "terrariamod:zombiearm"
+								},
+								"minecraft:display_name": {
+									"value": "item.terrariamod:zombiearm.name"
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:zombiearm",
+							"category": "equipment"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:zombiearm",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:hand_equipped": true,
+								"minecraft:damage": 12,
+								"minecraft:weapon": {},
+								"minecraft:icon": {
+									"texture": "terrariamod:zombiearm"
+								},
+								"minecraft:display_name": {
+									"value": "item.terrariamod:zombiearm.name"
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "1",
+								"key": "minecraft:max_stack_size"
+							},
+							{
+								"data": "true",
+								"key": "minecraft:hand_equipped"
+							},
+							{
+								"data": "12",
+								"key": "minecraft:damage"
+							},
+							{
+								"key": "minecraft:weapon",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:hand_equipped": true,
+									"minecraft:damage": 12,
+									"minecraft:weapon": {},
+									"minecraft:icon": {
+										"texture": "terrariamod:zombiearm"
+									},
+									"minecraft:display_name": {
+										"value": "item.terrariamod:zombiearm.name"
+									}
+								},
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "terrariamod:zombiearm"
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:hand_equipped": true,
+									"minecraft:damage": 12,
+									"minecraft:weapon": {},
+									"minecraft:icon": {
+										"texture": "terrariamod:zombiearm"
+									},
+									"minecraft:display_name": {
+										"value": "item.terrariamod:zombiearm.name"
+									}
+								},
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "item.terrariamod:zombiearm.name"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

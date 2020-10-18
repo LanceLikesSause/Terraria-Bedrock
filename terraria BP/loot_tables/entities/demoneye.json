@@ -1,0 +1,51 @@
+//bridge-file-version: #3
+{
+	"id": 1588402018287,
+	"name": "DemonEye",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "terrariamod:coppercoin",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 75,
+								"max": 86
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"conditions": [
+				{
+					"condition": "random_chance",
+					"chance": 0.3
+				}
+			],
+			"entries": [
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "terrariamod:lens",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 1
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

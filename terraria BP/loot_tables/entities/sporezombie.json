@@ -1,0 +1,45 @@
+//bridge-file-version: #19
+{
+	"id": 1588402018287,
+	"name": "Zombie Terraria",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "terrariamod:silvercoin",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 12,
+								"max": 12
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "terrariamod:glowing_mushroom",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 2,
+								"max": 5
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

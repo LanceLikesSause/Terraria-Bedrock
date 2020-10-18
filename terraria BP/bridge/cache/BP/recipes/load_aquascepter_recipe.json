@@ -1,0 +1,199 @@
+{
+	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\recipes\\load_aquascepter_recipe.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "5ac059e6_abb1_4066_8589_844da374018b",
+	"file_version": 8,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:recipe_shapeless": {
+						"description": {
+							"identifier": "terrariamod:load_aquascepter_recipe"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"ingredients": [
+							{
+								"item": "terrariamod:aquascepter_unloaded"
+							},
+							{
+								"item": "terrariamod:fallenstars",
+								"count": 8
+							}
+						],
+						"result": [
+							{
+								"item": "terrariamod:aquascepter_loaded"
+							}
+						]
+					}
+				},
+				"key": "minecraft:recipe_shapeless",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:load_aquascepter_recipe"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"ingredients": [
+								{
+									"item": "terrariamod:aquascepter_unloaded"
+								},
+								{
+									"item": "terrariamod:fallenstars",
+									"count": 8
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:aquascepter_loaded"
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:load_aquascepter_recipe"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:load_aquascepter_recipe"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"ingredients": [
+								{
+									"item": "terrariamod:aquascepter_unloaded"
+								},
+								{
+									"item": "terrariamod:fallenstars",
+									"count": 8
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:aquascepter_loaded"
+								}
+							]
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"crafting_table"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:load_aquascepter_recipe"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"ingredients": [
+								{
+									"item": "terrariamod:aquascepter_unloaded"
+								},
+								{
+									"item": "terrariamod:fallenstars",
+									"count": 8
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:aquascepter_loaded"
+								}
+							]
+						},
+						"key": "ingredients",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "terrariamod:aquascepter_unloaded"
+									},
+									{
+										"item": "terrariamod:fallenstars",
+										"count": 8
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "terrariamod:aquascepter_unloaded"
+								}
+							},
+							{
+								"open": [
+									{
+										"item": "terrariamod:aquascepter_unloaded"
+									},
+									{
+										"item": "terrariamod:fallenstars",
+										"count": 8
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "terrariamod:fallenstars",
+									"count": 8
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:load_aquascepter_recipe"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"ingredients": [
+								{
+									"item": "terrariamod:aquascepter_unloaded"
+								},
+								{
+									"item": "terrariamod:fallenstars",
+									"count": 8
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:aquascepter_loaded"
+								}
+							]
+						},
+						"key": "result",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "terrariamod:aquascepter_loaded"
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "terrariamod:aquascepter_loaded"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

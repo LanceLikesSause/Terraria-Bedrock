@@ -1,0 +1,50 @@
+{
+	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\loot_tables\\entities\\ash_gift\\ash.json",
+	"file_type": "loot_table",
+	"format_version": 0,
+	"cache_content": {
+		"pools": [
+			{
+				"rolls": 1,
+				"entries": [
+					{
+						"type": "item",
+						"name": "minecraft:rabbit_hide",
+						"weight": 10
+					},
+					{
+						"type": "item",
+						"name": "minecraft:rabbit_foot",
+						"weight": 10
+					},
+					{
+						"type": "item",
+						"name": "minecraft:chicken",
+						"weight": 10
+					},
+					{
+						"type": "item",
+						"name": "minecraft:feather",
+						"weight": 10
+					},
+					{
+						"type": "item",
+						"name": "minecraft:rotten_flesh",
+						"weight": 10
+					},
+					{
+						"type": "item",
+						"name": "minecraft:string",
+						"weight": 10
+					},
+					{
+						"type": "item",
+						"name": "minecraft:phantom_membrane",
+						"weight": 2
+					}
+				]
+			}
+		]
+	},
+	"file_uuid": "ce68c988_a7c9_4481_afa8_1e7f134152c3"
+}

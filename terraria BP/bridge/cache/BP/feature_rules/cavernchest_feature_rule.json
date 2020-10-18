@@ -1,0 +1,454 @@
+{
+	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\feature_rules\\cavernchest_feature_rule.json",
+	"file_type": "feature_rule",
+	"format_version": 1,
+	"file_uuid": "81e0abee_0fd7_459d_8157_3fc22304e16e",
+	"file_version": 24,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.13.0",
+					"minecraft:feature_rules": {
+						"description": {
+							"identifier": "cavernchest_feature_rule",
+							"places_feature": "cavernchest_feature"
+						},
+						"conditions": {
+							"placement_pass": "underground_pass",
+							"minecraft:biome_filter": [
+								{
+									"any_of": [
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "overworld"
+										}
+									]
+								}
+							]
+						},
+						"distribution": {
+							"scatter_chance": 2,
+							"iterations": 1,
+							"x": {
+								"distribution": "uniform",
+								"extent": [
+									0,
+									16
+								]
+							},
+							"y": {
+								"distribution": "uniform",
+								"extent": [
+									0,
+									30
+								]
+							},
+							"z": {
+								"distribution": "uniform",
+								"extent": [
+									0,
+									16
+								]
+							}
+						}
+					}
+				},
+				"data": "1.13.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.13.0",
+					"minecraft:feature_rules": {
+						"description": {
+							"identifier": "cavernchest_feature_rule",
+							"places_feature": "cavernchest_feature"
+						},
+						"conditions": {
+							"placement_pass": "underground_pass",
+							"minecraft:biome_filter": [
+								{
+									"any_of": [
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "overworld"
+										}
+									]
+								}
+							]
+						},
+						"distribution": {
+							"scatter_chance": 2,
+							"iterations": 1,
+							"x": {
+								"distribution": "uniform",
+								"extent": [
+									0,
+									16
+								]
+							},
+							"y": {
+								"distribution": "uniform",
+								"extent": [
+									0,
+									30
+								]
+							},
+							"z": {
+								"distribution": "uniform",
+								"extent": [
+									0,
+									16
+								]
+							}
+						}
+					}
+				},
+				"key": "minecraft:feature_rules",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "cavernchest_feature_rule",
+								"places_feature": "cavernchest_feature"
+							},
+							"conditions": {
+								"placement_pass": "underground_pass",
+								"minecraft:biome_filter": [
+									{
+										"any_of": [
+											{
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "overworld"
+											}
+										]
+									}
+								]
+							},
+							"distribution": {
+								"scatter_chance": 2,
+								"iterations": 1,
+								"x": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								},
+								"y": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										30
+									]
+								},
+								"z": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "cavernchest_feature_rule",
+							"places_feature": "cavernchest_feature"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "cavernchest_feature_rule",
+								"places_feature": "cavernchest_feature"
+							},
+							"conditions": {
+								"placement_pass": "underground_pass",
+								"minecraft:biome_filter": [
+									{
+										"any_of": [
+											{
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "overworld"
+											}
+										]
+									}
+								]
+							},
+							"distribution": {
+								"scatter_chance": 2,
+								"iterations": 1,
+								"x": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								},
+								"y": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										30
+									]
+								},
+								"z": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								}
+							}
+						},
+						"key": "conditions",
+						"children": [
+							{
+								"open": {
+									"placement_pass": "underground_pass",
+									"minecraft:biome_filter": [
+										{
+											"any_of": [
+												{
+													"test": "has_biome_tag",
+													"operator": "==",
+													"value": "overworld"
+												}
+											]
+										}
+									]
+								},
+								"data": "underground_pass",
+								"key": "placement_pass"
+							},
+							{
+								"open": {
+									"placement_pass": "underground_pass",
+									"minecraft:biome_filter": [
+										{
+											"any_of": [
+												{
+													"test": "has_biome_tag",
+													"operator": "==",
+													"value": "overworld"
+												}
+											]
+										}
+									]
+								},
+								"key": "minecraft:biome_filter",
+								"children": [
+									{
+										"open": [
+											{
+												"any_of": [
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "overworld"
+													}
+												]
+											}
+										],
+										"children": [
+											{
+												"open": {
+													"any_of": [
+														{
+															"test": "has_biome_tag",
+															"operator": "==",
+															"value": "overworld"
+														}
+													]
+												},
+												"key": "any_of",
+												"children": [
+													{
+														"open": [
+															{
+																"test": "has_biome_tag",
+																"operator": "==",
+																"value": "overworld"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"test": "has_biome_tag",
+															"operator": "==",
+															"value": "overworld"
+														}
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "cavernchest_feature_rule",
+								"places_feature": "cavernchest_feature"
+							},
+							"conditions": {
+								"placement_pass": "underground_pass",
+								"minecraft:biome_filter": [
+									{
+										"any_of": [
+											{
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "overworld"
+											}
+										]
+									}
+								]
+							},
+							"distribution": {
+								"scatter_chance": 2,
+								"iterations": 1,
+								"x": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								},
+								"y": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										30
+									]
+								},
+								"z": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								}
+							}
+						},
+						"key": "distribution",
+						"children": [
+							{
+								"open": {
+									"scatter_chance": 2,
+									"iterations": 1,
+									"x": {
+										"distribution": "uniform",
+										"extent": [
+											0,
+											16
+										]
+									},
+									"y": {
+										"distribution": "uniform",
+										"extent": [
+											0,
+											30
+										]
+									},
+									"z": {
+										"distribution": "uniform",
+										"extent": [
+											0,
+											16
+										]
+									}
+								},
+								"data": "2",
+								"key": "scatter_chance"
+							},
+							{
+								"data": "1",
+								"key": "iterations"
+							},
+							{
+								"key": "x",
+								"is_minified": true,
+								"children": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								}
+							},
+							{
+								"open": {
+									"scatter_chance": 2,
+									"iterations": 1,
+									"x": {
+										"distribution": "uniform",
+										"extent": [
+											0,
+											16
+										]
+									},
+									"y": {
+										"distribution": "uniform",
+										"extent": [
+											0,
+											30
+										]
+									},
+									"z": {
+										"distribution": "uniform",
+										"extent": [
+											0,
+											16
+										]
+									}
+								},
+								"key": "y",
+								"children": [
+									{
+										"data": "uniform",
+										"key": "distribution"
+									},
+									{
+										"open": {
+											"distribution": "uniform",
+											"extent": [
+												0,
+												30
+											]
+										},
+										"key": "extent",
+										"is_minified": true,
+										"children": [
+											0,
+											30
+										]
+									}
+								]
+							},
+							{
+								"key": "z",
+								"is_minified": true,
+								"children": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

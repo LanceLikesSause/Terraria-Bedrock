@@ -1,0 +1,123 @@
+{
+	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\terraria RP\\entity\\testnpc.json",
+	"file_type": "client_entity",
+	"format_version": 1,
+	"file_uuid": "ab152885_7a97_4864_8d11_7c0011a69c35",
+	"file_version": 4,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.8.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.8.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "terrariamod:testnpc",
+							"geometry": {
+								"default": "geometry.npc"
+							},
+							"spawn_egg": {
+								"texture": "spawn_egg",
+								"texture_index": 35
+							},
+							"textures": {
+								"default": "textures\\entity\\npc\\npc_1.png"
+							}
+						}
+					}
+				},
+				"key": "minecraft:client_entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:testnpc",
+								"geometry": {
+									"default": "geometry.npc"
+								},
+								"spawn_egg": {
+									"texture": "spawn_egg",
+									"texture_index": 35
+								},
+								"textures": {
+									"default": "textures\\entity\\npc\\npc_1.png"
+								}
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"open": {
+									"identifier": "terrariamod:testnpc",
+									"geometry": {
+										"default": "geometry.npc"
+									},
+									"spawn_egg": {
+										"texture": "spawn_egg",
+										"texture_index": 35
+									},
+									"textures": {
+										"default": "textures\\entity\\npc\\npc_1.png"
+									}
+								},
+								"data": "terrariamod:testnpc",
+								"key": "identifier"
+							},
+							{
+								"open": {
+									"identifier": "terrariamod:testnpc",
+									"geometry": {
+										"default": "geometry.npc"
+									},
+									"spawn_egg": {
+										"texture": "spawn_egg",
+										"texture_index": 35
+									},
+									"textures": {
+										"default": "textures\\entity\\npc\\npc_1.png"
+									}
+								},
+								"key": "geometry",
+								"is_minified": true,
+								"children": {
+									"default": "geometry.npc"
+								}
+							},
+							{
+								"key": "spawn_egg",
+								"is_minified": true,
+								"children": {
+									"texture": "spawn_egg",
+									"texture_index": 35
+								}
+							},
+							{
+								"open": {
+									"identifier": "terrariamod:testnpc",
+									"geometry": {
+										"default": "geometry.npc"
+									},
+									"spawn_egg": {
+										"texture": "spawn_egg",
+										"texture_index": 35
+									},
+									"textures": {
+										"default": "textures\\entity\\npc\\npc_1.png"
+									}
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": {
+									"default": "textures\\entity\\npc\\npc_1.png"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

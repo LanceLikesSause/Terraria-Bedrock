@@ -1,0 +1,166 @@
+{
+	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\items\\ironsword.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "54c45ebd_5416_4441_8660_380c5db46788",
+	"file_version": 6,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "terrariamod:ironsword",
+							"category": "equipment"
+						},
+						"components": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:hand_equipped": true,
+							"minecraft:weapon": {},
+							"minecraft:damage": 10,
+							"minecraft:display_name": {
+								"value": "item.terrariamod:ironsword.name"
+							},
+							"minecraft:icon": {
+								"texture": "terrariamod:ironsword"
+							}
+						}
+					}
+				},
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "terrariamod:ironsword",
+							"category": "equipment"
+						},
+						"components": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:hand_equipped": true,
+							"minecraft:weapon": {},
+							"minecraft:damage": 10,
+							"minecraft:display_name": {
+								"value": "item.terrariamod:ironsword.name"
+							},
+							"minecraft:icon": {
+								"texture": "terrariamod:ironsword"
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:ironsword",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:hand_equipped": true,
+								"minecraft:weapon": {},
+								"minecraft:damage": 10,
+								"minecraft:display_name": {
+									"value": "item.terrariamod:ironsword.name"
+								},
+								"minecraft:icon": {
+									"texture": "terrariamod:ironsword"
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:ironsword",
+							"category": "equipment"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:ironsword",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:hand_equipped": true,
+								"minecraft:weapon": {},
+								"minecraft:damage": 10,
+								"minecraft:display_name": {
+									"value": "item.terrariamod:ironsword.name"
+								},
+								"minecraft:icon": {
+									"texture": "terrariamod:ironsword"
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "1",
+								"key": "minecraft:max_stack_size"
+							},
+							{
+								"data": "true",
+								"key": "minecraft:hand_equipped"
+							},
+							{
+								"key": "minecraft:weapon",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"data": "10",
+								"key": "minecraft:damage"
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:hand_equipped": true,
+									"minecraft:weapon": {},
+									"minecraft:damage": 10,
+									"minecraft:display_name": {
+										"value": "item.terrariamod:ironsword.name"
+									},
+									"minecraft:icon": {
+										"texture": "terrariamod:ironsword"
+									}
+								},
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "item.terrariamod:ironsword.name"
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:hand_equipped": true,
+									"minecraft:weapon": {},
+									"minecraft:damage": 10,
+									"minecraft:display_name": {
+										"value": "item.terrariamod:ironsword.name"
+									},
+									"minecraft:icon": {
+										"texture": "terrariamod:ironsword"
+									}
+								},
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "terrariamod:ironsword"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

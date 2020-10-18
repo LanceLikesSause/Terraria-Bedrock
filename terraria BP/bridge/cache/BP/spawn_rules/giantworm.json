@@ -1,0 +1,256 @@
+{
+	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\spawn_rules\\giantworm.json",
+	"file_type": "spawn_rule",
+	"format_version": 1,
+	"file_uuid": "2f3a5dbb_146f_4a24_ad5e_b81cbc333354",
+	"file_version": 3,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.8.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.8.0",
+					"minecraft:spawn_rules": {
+						"description": {
+							"identifier": "terrariamod:giantworm",
+							"population_control": "monster"
+						},
+						"conditions": [
+							{
+								"minecraft:spawns_underground": {},
+								"minecraft:brightness_filter": {
+									"min": 0,
+									"max": 4,
+									"adjust_for_weather": true
+								},
+								"minecraft:height_filter": {
+									"min": 0,
+									"max": 63
+								},
+								"minecraft:weight": {
+									"default": 999
+								},
+								"minecraft:herd": {
+									"min_size": 2,
+									"max_size": 2
+								},
+								"minecraft:biome_filter": {
+									"test": "has_biome_tag",
+									"operator": "==",
+									"value": "monster"
+								}
+							}
+						]
+					}
+				},
+				"key": "minecraft:spawn_rules",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:giantworm",
+								"population_control": "monster"
+							},
+							"conditions": [
+								{
+									"minecraft:spawns_underground": {},
+									"minecraft:brightness_filter": {
+										"min": 0,
+										"max": 4,
+										"adjust_for_weather": true
+									},
+									"minecraft:height_filter": {
+										"min": 0,
+										"max": 63
+									},
+									"minecraft:weight": {
+										"default": 999
+									},
+									"minecraft:herd": {
+										"min_size": 2,
+										"max_size": 2
+									},
+									"minecraft:biome_filter": {
+										"test": "has_biome_tag",
+										"operator": "==",
+										"value": "monster"
+									}
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:giantworm",
+							"population_control": "monster"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:giantworm",
+								"population_control": "monster"
+							},
+							"conditions": [
+								{
+									"minecraft:spawns_underground": {},
+									"minecraft:brightness_filter": {
+										"min": 0,
+										"max": 4,
+										"adjust_for_weather": true
+									},
+									"minecraft:height_filter": {
+										"min": 0,
+										"max": 63
+									},
+									"minecraft:weight": {
+										"default": 999
+									},
+									"minecraft:herd": {
+										"min_size": 2,
+										"max_size": 2
+									},
+									"minecraft:biome_filter": {
+										"test": "has_biome_tag",
+										"operator": "==",
+										"value": "monster"
+									}
+								}
+							]
+						},
+						"key": "conditions",
+						"children": [
+							{
+								"open": [
+									{
+										"minecraft:spawns_underground": {},
+										"minecraft:brightness_filter": {
+											"min": 0,
+											"max": 4,
+											"adjust_for_weather": true
+										},
+										"minecraft:height_filter": {
+											"min": 0,
+											"max": 63
+										},
+										"minecraft:weight": {
+											"default": 999
+										},
+										"minecraft:herd": {
+											"min_size": 2,
+											"max_size": 2
+										},
+										"minecraft:biome_filter": {
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "monster"
+										}
+									}
+								],
+								"children": [
+									{
+										"open": {
+											"minecraft:spawns_underground": {},
+											"minecraft:brightness_filter": {
+												"min": 0,
+												"max": 4,
+												"adjust_for_weather": true
+											},
+											"minecraft:height_filter": {
+												"min": 0,
+												"max": 63
+											},
+											"minecraft:weight": {
+												"default": 999
+											},
+											"minecraft:herd": {
+												"min_size": 2,
+												"max_size": 2
+											},
+											"minecraft:biome_filter": {
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "monster"
+											}
+										},
+										"key": "minecraft:spawns_underground",
+										"is_minified": true,
+										"children": {}
+									},
+									{
+										"key": "minecraft:brightness_filter",
+										"is_minified": true,
+										"children": {
+											"min": 0,
+											"max": 4,
+											"adjust_for_weather": true
+										}
+									},
+									{
+										"key": "minecraft:height_filter",
+										"is_minified": true,
+										"children": {
+											"min": 0,
+											"max": 63
+										}
+									},
+									{
+										"key": "minecraft:weight",
+										"is_minified": true,
+										"children": {
+											"default": 999
+										}
+									},
+									{
+										"key": "minecraft:herd",
+										"is_minified": true,
+										"children": {
+											"min_size": 2,
+											"max_size": 2
+										}
+									},
+									{
+										"open": {
+											"minecraft:spawns_underground": {},
+											"minecraft:brightness_filter": {
+												"min": 0,
+												"max": 4,
+												"adjust_for_weather": true
+											},
+											"minecraft:height_filter": {
+												"min": 0,
+												"max": 63
+											},
+											"minecraft:weight": {
+												"default": 999
+											},
+											"minecraft:herd": {
+												"min_size": 2,
+												"max_size": 2
+											},
+											"minecraft:biome_filter": {
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "monster"
+											}
+										},
+										"key": "minecraft:biome_filter",
+										"is_minified": true,
+										"children": {
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "monster"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

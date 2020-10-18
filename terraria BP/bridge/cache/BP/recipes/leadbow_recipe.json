@@ -1,0 +1,188 @@
+{
+	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\recipes\\leadbow_recipe.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "b94804eb_3e0b_48a1_aa38_3177b02f5a19",
+	"file_version": 6,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:recipe_shapeless": {
+						"description": {
+							"identifier": "terrariamod:leadbow_recipe"
+						},
+						"tags": [
+							"iron_anvil"
+						],
+						"ingredients": [
+							{
+								"item": "terrariamod:leadbar",
+								"count": 7
+							}
+						],
+						"result": [
+							{
+								"item": "terrariamod:leadbow"
+							}
+						]
+					}
+				},
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:recipe_shapeless": {
+						"description": {
+							"identifier": "terrariamod:leadbow_recipe"
+						},
+						"tags": [
+							"iron_anvil"
+						],
+						"ingredients": [
+							{
+								"item": "terrariamod:leadbar",
+								"count": 7
+							}
+						],
+						"result": [
+							{
+								"item": "terrariamod:leadbow"
+							}
+						]
+					}
+				},
+				"key": "minecraft:recipe_shapeless",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:leadbow_recipe"
+							},
+							"tags": [
+								"iron_anvil"
+							],
+							"ingredients": [
+								{
+									"item": "terrariamod:leadbar",
+									"count": 7
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:leadbow"
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:leadbow_recipe"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:leadbow_recipe"
+							},
+							"tags": [
+								"iron_anvil"
+							],
+							"ingredients": [
+								{
+									"item": "terrariamod:leadbar",
+									"count": 7
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:leadbow"
+								}
+							]
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"iron_anvil"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:leadbow_recipe"
+							},
+							"tags": [
+								"iron_anvil"
+							],
+							"ingredients": [
+								{
+									"item": "terrariamod:leadbar",
+									"count": 7
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:leadbow"
+								}
+							]
+						},
+						"key": "ingredients",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "terrariamod:leadbar",
+										"count": 7
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "terrariamod:leadbar",
+									"count": 7
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:leadbow_recipe"
+							},
+							"tags": [
+								"iron_anvil"
+							],
+							"ingredients": [
+								{
+									"item": "terrariamod:leadbar",
+									"count": 7
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:leadbow"
+								}
+							]
+						},
+						"key": "result",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "terrariamod:leadbow"
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "terrariamod:leadbow"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

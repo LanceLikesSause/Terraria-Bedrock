@@ -1,0 +1,188 @@
+{
+	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\recipes\\spacegun_recipe.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "eda7a71e_2e37_4d30_9491_9eb93332f3fd",
+	"file_version": 6,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:recipe_shapeless": {
+						"description": {
+							"identifier": "terrariamod:spacegun_recipe"
+						},
+						"tags": [
+							"iron_anvil"
+						],
+						"ingredients": [
+							{
+								"item": "terrariamod:meteoriteblock",
+								"count": 2
+							}
+						],
+						"result": [
+							{
+								"item": "terrariamod:spacegun"
+							}
+						]
+					}
+				},
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:recipe_shapeless": {
+						"description": {
+							"identifier": "terrariamod:spacegun_recipe"
+						},
+						"tags": [
+							"iron_anvil"
+						],
+						"ingredients": [
+							{
+								"item": "terrariamod:meteoriteblock",
+								"count": 2
+							}
+						],
+						"result": [
+							{
+								"item": "terrariamod:spacegun"
+							}
+						]
+					}
+				},
+				"key": "minecraft:recipe_shapeless",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:spacegun_recipe"
+							},
+							"tags": [
+								"iron_anvil"
+							],
+							"ingredients": [
+								{
+									"item": "terrariamod:meteoriteblock",
+									"count": 2
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:spacegun"
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:spacegun_recipe"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:spacegun_recipe"
+							},
+							"tags": [
+								"iron_anvil"
+							],
+							"ingredients": [
+								{
+									"item": "terrariamod:meteoriteblock",
+									"count": 2
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:spacegun"
+								}
+							]
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"iron_anvil"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:spacegun_recipe"
+							},
+							"tags": [
+								"iron_anvil"
+							],
+							"ingredients": [
+								{
+									"item": "terrariamod:meteoriteblock",
+									"count": 2
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:spacegun"
+								}
+							]
+						},
+						"key": "ingredients",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "terrariamod:meteoriteblock",
+										"count": 2
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "terrariamod:meteoriteblock",
+									"count": 2
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:spacegun_recipe"
+							},
+							"tags": [
+								"iron_anvil"
+							],
+							"ingredients": [
+								{
+									"item": "terrariamod:meteoriteblock",
+									"count": 2
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:spacegun"
+								}
+							]
+						},
+						"key": "result",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "terrariamod:spacegun"
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "terrariamod:spacegun"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

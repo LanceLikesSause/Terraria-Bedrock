@@ -1,0 +1,28 @@
+//bridge-file-version: #4
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "terrariamod:crimtanepickaxe_recipe"
+		},
+		"tags": [
+			"iron_anvil"
+		],
+		"pattern": [
+			"XXX",
+			" # ",
+			" # "
+		],
+		"key": {
+			"#": {
+				"item": "terrariamod:tissuesample"
+			},
+			"X": {
+				"item": "terrariamod:crimtanebar"
+			}
+		},
+		"result": {
+			"item": "terrariamod:crimtanepickaxe"
+		}
+	}
+}

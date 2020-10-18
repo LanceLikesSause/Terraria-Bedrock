@@ -1,0 +1,39 @@
+//bridge-file-version: #16
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "terrariamod:umbrella",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:stacked_by_data": true,
+			"minecraft:max_stack_size": 1,
+			"minecraft:use_duration": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:food": {
+				"on_consume": {
+					"event": "minecraft:use",
+					"target": "self"
+				},
+				"can_always_eat": true
+			},
+			"minecraft:icon": {
+				"texture": "terrariamod:umbrella"
+			},
+			"minecraft:display_name": {
+				"value": "item.terrariamod:umbrella.name"
+			}
+		},
+		"events": {
+			"minecraft:use": {
+				"add_mob_effect": {
+					"target": "holder",
+					"duration": 15,
+					"amplifier": 1,
+					"effect": "slow_falling"
+				}
+			}
+		}
+	}
+}

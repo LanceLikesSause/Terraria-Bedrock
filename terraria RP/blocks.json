@@ -1,0 +1,307 @@
+{
+	"terrariamod:mushroom": {
+		"sound": "grass",
+		"textures": "mushroom"
+	},
+	"terrariamod:mushroom_hat": {
+		"sound": "wood",
+		"textures": "mushroom_hat"
+	},
+	"terrariamod:mushroom_stem": {
+		"sound": "wood",
+		"textures": {
+			"down": "mushroom_stem_up",
+			"side": "mushroom_stem_side",
+			"up": "mushroom_stem_up"
+		}
+	},
+	"terrariamod:mushroom_grass": {
+		"sound": "grass",
+		"textures": {
+			"up": "mushroom_grass_up",
+			"down": "mushroom_grass_down",
+			"side": "mushroom_grass_side"
+		}
+	},
+	"terrariamod:dungeonchest_locked": {
+		"sound": "wood",
+		"textures": "dungeonchest"
+	},
+	"terrariamod:dungeonchest_unlocked": {
+		"sound": "wood",
+		"textures": "dungeonchest"
+	},
+	"terrariamod:dungeon_shelves": {
+		"sound": "wood",
+		"textures": "dungeon_shelves"
+	},
+	"terrariamod:meteoriteblock": {
+		"sound": "stone",
+		"textures": "meteoriteblock"
+	},
+	"terrariamod:undergroundchest": {
+		"sound": "wood",
+		"textures": "undergroundchest"
+	},
+	"terrariamod:cavernchest": {
+		"sound": "wood",
+		"textures": "cavernchest"
+	},
+	"terrariamod:platinumblock": {
+		"sound": "stone",
+		"textures": "platinumblock"
+	},
+	"terrariamod:goldblock": {
+		"sound": "stone",
+		"textures": "goldblock"
+	},
+	"terrariamod:tungstenblock": {
+		"sound": "stone",
+		"textures": "silverblock"
+	},
+	"terrariamod:silverblock": {
+		"sound": "stone",
+		"textures": "silverblock"
+	},
+	"terrariamod:leadblock": {
+		"sound": "stone",
+		"textures": "leadblock"
+	},
+	"terrariamod:ironblock": {
+		"sound": "stone",
+		"textures": "ironblock"
+	},
+	"terrariamod:tinblock": {
+		"sound": "stone",
+		"textures": "tinblock"
+	},
+	"terrariamod:copperblock": {
+		"sound": "stone",
+		"textures": "copperblock"
+	},
+	"terrariamod:crimtaneore": {
+		"textures": "crimtaneore",
+		"sound": "stone"
+	},
+	"terrariamod:meteorite": {
+		"textures": "meteorite",
+		"sound": "stone"
+	},
+	"minecraft:obsidian": {
+		"textures": "obsidian_terraria",
+		"sound": "stone"
+	},
+	"terrariamod:hellstone": {
+		"textures": "hellstone",
+		"sound": "stone"
+	},
+	"terrariamod:crimson_log": {
+		"textures": "crimson_log",
+		"sound": "wood"
+	},
+	"terrariamod:crimson_grass": {
+		"sound": "grass",
+		"textures": {
+			"up": "crimson_grass_up",
+			"down": "crimson_grass_down",
+			"side": "crimson_grass_side"
+		}
+	},
+	"terrariamod:crimson_leaves": {
+		"textures": "crimson_leaves",
+		"sound": "grass"
+	},
+	"terrariamod:crimsand": {
+		"textures": "crimsand",
+		"sound": "sand"
+	},
+	"terrariamod:crimson_cactus": {
+		"textures": "crimson_cactus",
+		"sound": "cloth"
+	},
+	"terrariamod:crimstone": {
+		"textures": "crimstone",
+		"sound": "stone"
+	},
+	"terrariamod:shadewood": {
+		"textures": "shadewood",
+		"sound": "wood"
+	},
+	"terrariamod:copperore": {
+		"textures": "copperore",
+		"sound": "stone"
+	},
+	"terrariamod:tinore": {
+		"textures": "tinore",
+		"sound": "stone"
+	},
+	"terrariamod:leadore": {
+		"textures": "leadore",
+		"sound": "stone"
+	},
+	"terrariamod:ironore": {
+		"textures": "ironore_terraria",
+		"sound": "stone"
+	},
+	"terrariamod:silverore": {
+		"textures": "silverore",
+		"sound": "stone"
+	},
+	"terrariamod:tungstenore": {
+		"textures": "tungstenore",
+		"sound": "stone"
+	},
+	"terrariamod:goldore": {
+		"textures": "goldore_terraria",
+		"sound": "stone"
+	},
+	"terrariamod:platinumore": {
+		"textures": "platinumore",
+		"sound": "stone"
+	},
+	"terrariamod:rubyore": {
+		"textures": "rubyore",
+		"sound": "stone"
+	},
+	"terrariamod:sapphireore": {
+		"textures": "sapphireore",
+		"sound": "stone"
+	},
+	"terrariamod:crystalheart": {
+		"textures": "crystalheart",
+		"sound": "stone"
+	},
+	"terrariamod:surfacechest": {
+		"textures": "surfacechest",
+		"sound": "wood"
+	},
+	"terrariamod:viciousmushroom": {
+		"textures": "viciousmushroom",
+		"sound": "grass"
+	},
+	"terrariamod:ash": {
+		"textures": "ash",
+		"sound": "stone"
+	},
+	"terrariamod:pinkbrick": {
+		"textures": "pinkbrick",
+		"sound": "stone"
+	},
+	"terrariamod:pinkbrick_wall": {
+		"textures": "pinkbrick_wall",
+		"sound": "stone"
+	},
+	"terrariamod:pinkbrick_slab": {
+		"textures": "pinkbrick_slab",
+		"sound": "stone"
+	},
+	"terrariamod:greenbrick": {
+		"textures": "greenbrick",
+		"sound": "stone"
+	},
+	"minecraft:planks": {
+		"textures": "planks",
+		"sound": "wood"
+	},
+	"minecraft:cobblestone": {
+		"textures": "cobblestone",
+		"sound": "stone"
+	},
+	"minecraft:mossy_cobblestone": {
+		"textures": "mossy_cobblestone",
+		"sound": "stone"
+	},
+	"minecraft:stone": {
+		"textures": "stone_terraria",
+		"sound": "stone"
+	},
+	"minecraft:sand": {
+		"textures": "sand",
+		"sound": "sand"
+	},
+	"minecraft:sandstone": {
+		"textures": "sandstone",
+		"sound": "stone"
+	},
+	"minecraft:dirt": {
+		"textures": "dirt",
+		"sound": "gravel"
+	},
+	"minecraft:grass": {
+		"carried_textures": {
+			"down": "grass_carried_bottom",
+			"side": "grass_carried",
+			"up": "grass_carried_top"
+		},
+		"isotropic": {
+			"down": true,
+			"up": true
+		},
+		"sound": "grass",
+		"textures": {
+			"down": "grass_bottom",
+			"side": "grass_side",
+			"up": "grass_top"
+		}
+	},
+	"minecraft:log": {
+		"sound": "wood",
+		"textures": {
+			"down": "log_terraria_down",
+			"side": "log_terraria_side",
+			"up": "log_terraria_down"
+		}
+	},
+   "terrariamod:corrupted_grass": {
+		"sound": "grass",
+		"textures": {
+			"up": "corrupted_grass_up",
+			"down": "crimson_grass_down",
+			"side": "corrupted_grass_side"
+		}
+	},
+	"terrariamod:ebonstone": {
+		"textures": "ebonstone",
+		"sound": "stone"
+	},
+	"terrariamod:workbench": {
+		"textures": "workbench",
+		"sound": "wood"
+	},
+	"terrariamod:bottle_station": {
+		"textures": "bottle_station",
+		"sound": "glass"
+	},
+	"terrariamod:hellforge": {
+		"textures": "hellforge",
+		"sound": "stone"
+	},
+	"terrariamod:demon_alter": {
+		"textures": "demon_alter",
+		"sound": "stone"
+	},
+	"terrariamod:crimson_alter": {
+		"textures": "crimson_alter",
+		"sound": "stone"
+	},
+	"terrariamod:tfurnace": {
+		"textures": "tfurnace",
+		"sound": "stone"
+	},
+	"terrariamod:iron_anvil": {
+		"textures": "iron_anvil",
+		"sound": "stone"
+	},
+	"terrariamod:tree_top": {
+		"textures": "tree_top",
+		"sound": "wood"
+	},
+	"terrariamod:tree_bottom": {
+		"textures": "tree_bottom",
+		"sound": "wood"
+	},
+	"terrariamod:h": {
+		"textures": "terrariamod_h",
+		"sound": "stone"
+	}
+}

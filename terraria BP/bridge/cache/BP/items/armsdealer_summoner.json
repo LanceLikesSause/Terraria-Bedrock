@@ -1,0 +1,141 @@
+{
+	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\items\\armsdealer_summoner.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "a1137859_076b_450b_be32_b58586d76993",
+	"file_version": 12,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "terrariamod:armsdealer_summoner",
+							"category": "nature"
+						},
+						"components": {
+							"minecraft:entity_placer": {
+								"entity": "terrariamod:armsdealer"
+							},
+							"minecraft:icon": {
+								"texture": "terrariamod:armsdealer_summoner"
+							},
+							"minecraft:display_name": {
+								"value": "item.terrariamod:armsdealer_summoner.name"
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:armsdealer_summoner",
+								"category": "nature"
+							},
+							"components": {
+								"minecraft:entity_placer": {
+									"entity": "terrariamod:armsdealer"
+								},
+								"minecraft:icon": {
+									"texture": "terrariamod:armsdealer_summoner"
+								},
+								"minecraft:display_name": {
+									"value": "item.terrariamod:armsdealer_summoner.name"
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:armsdealer_summoner",
+							"category": "nature"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:armsdealer_summoner",
+								"category": "nature"
+							},
+							"components": {
+								"minecraft:entity_placer": {
+									"entity": "terrariamod:armsdealer"
+								},
+								"minecraft:icon": {
+									"texture": "terrariamod:armsdealer_summoner"
+								},
+								"minecraft:display_name": {
+									"value": "item.terrariamod:armsdealer_summoner.name"
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"open": {
+									"minecraft:entity_placer": {
+										"entity": "terrariamod:armsdealer"
+									},
+									"minecraft:icon": {
+										"texture": "terrariamod:armsdealer_summoner"
+									},
+									"minecraft:display_name": {
+										"value": "item.terrariamod:armsdealer_summoner.name"
+									}
+								},
+								"key": "minecraft:entity_placer",
+								"is_minified": true,
+								"children": {
+									"entity": "terrariamod:armsdealer"
+								}
+							},
+							{
+								"open": {
+									"minecraft:entity_placer": {
+										"entity": "terrariamod:armsdealer"
+									},
+									"minecraft:icon": {
+										"texture": "terrariamod:armsdealer_summoner"
+									},
+									"minecraft:display_name": {
+										"value": "item.terrariamod:armsdealer_summoner.name"
+									}
+								},
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "terrariamod:armsdealer_summoner"
+								}
+							},
+							{
+								"open": {
+									"minecraft:entity_placer": {
+										"entity": "terrariamod:armsdealer"
+									},
+									"minecraft:icon": {
+										"texture": "terrariamod:armsdealer_summoner"
+									},
+									"minecraft:display_name": {
+										"value": "item.terrariamod:armsdealer_summoner.name"
+									}
+								},
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "item.terrariamod:armsdealer_summoner.name"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,21 @@
+//bridge-file-version: #13
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "terrariamod:bloodyspine",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:entity_placer": {
+				"entity": "terrariamod:brainofcthulhu"
+			},
+			"minecraft:icon": {
+				"texture": "terrariamod:bloodyspine"
+			},
+			"minecraft:display_name": {
+				"value": "item.terrariamod:bloodyspine.name"
+			}
+		}
+	}
+}

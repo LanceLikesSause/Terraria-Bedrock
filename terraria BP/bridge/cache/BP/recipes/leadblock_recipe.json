@@ -1,0 +1,188 @@
+{
+	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\recipes\\leadblock_recipe.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "a54bff65_0b96_4745_b218_a09c50e50a6a",
+	"file_version": 3,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:recipe_shapeless": {
+						"description": {
+							"identifier": "terrariamod:leadblock_recipe"
+						},
+						"tags": [
+							"tfurnace"
+						],
+						"ingredients": [
+							{
+								"item": "terrariamod:leadbar",
+								"count": 4
+							}
+						],
+						"result": [
+							{
+								"item": "terrariamod:leadblock"
+							}
+						]
+					}
+				},
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:recipe_shapeless": {
+						"description": {
+							"identifier": "terrariamod:leadblock_recipe"
+						},
+						"tags": [
+							"tfurnace"
+						],
+						"ingredients": [
+							{
+								"item": "terrariamod:leadbar",
+								"count": 4
+							}
+						],
+						"result": [
+							{
+								"item": "terrariamod:leadblock"
+							}
+						]
+					}
+				},
+				"key": "minecraft:recipe_shapeless",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:leadblock_recipe"
+							},
+							"tags": [
+								"tfurnace"
+							],
+							"ingredients": [
+								{
+									"item": "terrariamod:leadbar",
+									"count": 4
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:leadblock"
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:leadblock_recipe"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:leadblock_recipe"
+							},
+							"tags": [
+								"tfurnace"
+							],
+							"ingredients": [
+								{
+									"item": "terrariamod:leadbar",
+									"count": 4
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:leadblock"
+								}
+							]
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"tfurnace"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:leadblock_recipe"
+							},
+							"tags": [
+								"tfurnace"
+							],
+							"ingredients": [
+								{
+									"item": "terrariamod:leadbar",
+									"count": 4
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:leadblock"
+								}
+							]
+						},
+						"key": "ingredients",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "terrariamod:leadbar",
+										"count": 4
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "terrariamod:leadbar",
+									"count": 4
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:leadblock_recipe"
+							},
+							"tags": [
+								"tfurnace"
+							],
+							"ingredients": [
+								{
+									"item": "terrariamod:leadbar",
+									"count": 4
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:leadblock"
+								}
+							]
+						},
+						"key": "result",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "terrariamod:leadblock"
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "terrariamod:leadblock"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

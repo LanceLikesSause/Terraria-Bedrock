@@ -1,0 +1,188 @@
+{
+	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\recipes\\woodenbow_recipe.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "cb798151_912e_4bc3_b3b9_f3f847024f1a",
+	"file_version": 6,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:recipe_shapeless": {
+						"description": {
+							"identifier": "terrariamod:woodenbow_recipe"
+						},
+						"tags": [
+							"workbench"
+						],
+						"ingredients": [
+							{
+								"item": "minecraft:planks",
+								"count": 7
+							}
+						],
+						"result": [
+							{
+								"item": "terrariamod:woodenbow"
+							}
+						]
+					}
+				},
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:recipe_shapeless": {
+						"description": {
+							"identifier": "terrariamod:woodenbow_recipe"
+						},
+						"tags": [
+							"workbench"
+						],
+						"ingredients": [
+							{
+								"item": "minecraft:planks",
+								"count": 7
+							}
+						],
+						"result": [
+							{
+								"item": "terrariamod:woodenbow"
+							}
+						]
+					}
+				},
+				"key": "minecraft:recipe_shapeless",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:woodenbow_recipe"
+							},
+							"tags": [
+								"workbench"
+							],
+							"ingredients": [
+								{
+									"item": "minecraft:planks",
+									"count": 7
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:woodenbow"
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:woodenbow_recipe"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:woodenbow_recipe"
+							},
+							"tags": [
+								"workbench"
+							],
+							"ingredients": [
+								{
+									"item": "minecraft:planks",
+									"count": 7
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:woodenbow"
+								}
+							]
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"workbench"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:woodenbow_recipe"
+							},
+							"tags": [
+								"workbench"
+							],
+							"ingredients": [
+								{
+									"item": "minecraft:planks",
+									"count": 7
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:woodenbow"
+								}
+							]
+						},
+						"key": "ingredients",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "minecraft:planks",
+										"count": 7
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:planks",
+									"count": 7
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:woodenbow_recipe"
+							},
+							"tags": [
+								"workbench"
+							],
+							"ingredients": [
+								{
+									"item": "minecraft:planks",
+									"count": 7
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:woodenbow"
+								}
+							]
+						},
+						"key": "result",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "terrariamod:woodenbow"
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "terrariamod:woodenbow"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

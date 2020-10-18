@@ -1,0 +1,66 @@
+{
+	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\JourneyCra/items/pa_bloodyspine.json",
+	"file_type": "client_item",
+	"format_version": 1,
+	"file_uuid": "3e15974a_1b95_4355_933c_e6ae5b07188a",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"key": "format_version",
+				"is_minified": true,
+				"children": {}
+			},
+			{
+				"open": {
+					"format_version": {},
+					"minecraft:item": {
+						"description": {
+							"identifier": "pa:bloodyspine",
+							"category": "Items"
+						},
+						"components": {
+							"minecraft:icon": "pa:bloodyspine"
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "pa:bloodyspine",
+								"category": "Items"
+							},
+							"components": {
+								"minecraft:icon": "pa:bloodyspine"
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "pa:bloodyspine",
+							"category": "Items"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "pa:bloodyspine",
+								"category": "Items"
+							},
+							"components": {
+								"minecraft:icon": "pa:bloodyspine"
+							}
+						},
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:icon": "pa:bloodyspine"
+						}
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,20 @@
+//bridge-file-version: #14
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "terrariamod:glowing_mushroom",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:stacked_by_data": true,
+			"minecraft:foil": false,
+			"minecraft:icon": {
+				"texture": "terrariamod:glowing_mushroom"
+			},
+			"minecraft:display_name": {
+				"value": "item.terrariamod:glowing_mushroom.name"
+			}
+		}
+	}
+}

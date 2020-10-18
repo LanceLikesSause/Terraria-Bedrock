@@ -1,0 +1,22 @@
+//bridge-file-version: #3
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "terrariamod:zombiearm",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:damage": 12,
+			"minecraft:weapon": {},
+			"minecraft:icon": {
+				"texture": "terrariamod:zombiearm"
+			},
+			"minecraft:display_name": {
+				"value": "item.terrariamod:zombiearm.name"
+			}
+		}
+	}
+}

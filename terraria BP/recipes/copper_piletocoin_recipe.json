@@ -1,0 +1,21 @@
+//bridge-file-version: #15
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "terrariamod:copper_piletocoin_gold"
+		},
+		"tags": [
+			"workbench"
+		],
+		"ingredients": [
+			{
+				"item": "terrariamod:coppercoin_pile"
+			}
+		],
+		"result": {
+			"item": "terrariamod:coppercoin",
+			"count": 9
+		}
+	}
+}

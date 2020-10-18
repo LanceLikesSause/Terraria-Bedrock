@@ -1,0 +1,23 @@
+//bridge-file-version: #2
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "terrariamod:tree_log"
+		},
+		"components": {
+			"minecraft:destroy_time": 2,
+			"minecraft:block_light_emission": 0,
+			"minecraft:block_light_absorption": 0,
+			"minecraft:explosion_resistance": 0,
+			"minecraft:geometry": "geometry.tree",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "tree",
+					"render_method": "alpha_test"
+				}
+			}
+		},
+		"events": {}
+	}
+}

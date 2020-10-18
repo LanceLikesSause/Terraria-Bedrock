@@ -1,0 +1,315 @@
+{
+	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\items\\lifecrystal_5.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "833a6c86_f89b_49fd_a7a8_02b532828829",
+	"file_version": 66,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "terrariamod:lifecrystal_5",
+							"category": "equipment"
+						},
+						"components": {
+							"minecraft:stacked_by_data": true,
+							"minecraft:max_stack_size": 64,
+							"minecraft:use_duration": 1,
+							"minecraft:hand_equipped": true,
+							"minecraft:food": {
+								"on_consume": {
+									"event": "minecraft:use",
+									"target": "self"
+								},
+								"can_always_eat": true
+							},
+							"minecraft:display_name": {
+								"value": "item.terrariamod:lifecrystal_5.name"
+							},
+							"minecraft:icon": {
+								"texture": "terrariamod:lifecrystal"
+							}
+						},
+						"events": {
+							"minecraft:use": {
+								"add_mob_effect": {
+									"effect": "health_boost",
+									"target": "holder",
+									"duration": 1500,
+									"amplifier": 20
+								}
+							}
+						}
+					}
+				},
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "terrariamod:lifecrystal_5",
+							"category": "equipment"
+						},
+						"components": {
+							"minecraft:stacked_by_data": true,
+							"minecraft:max_stack_size": 64,
+							"minecraft:use_duration": 1,
+							"minecraft:hand_equipped": true,
+							"minecraft:food": {
+								"on_consume": {
+									"event": "minecraft:use",
+									"target": "self"
+								},
+								"can_always_eat": true
+							},
+							"minecraft:display_name": {
+								"value": "item.terrariamod:lifecrystal_5.name"
+							},
+							"minecraft:icon": {
+								"texture": "terrariamod:lifecrystal"
+							}
+						},
+						"events": {
+							"minecraft:use": {
+								"add_mob_effect": {
+									"effect": "health_boost",
+									"target": "holder",
+									"duration": 1500,
+									"amplifier": 20
+								}
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:lifecrystal_5",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:stacked_by_data": true,
+								"minecraft:max_stack_size": 64,
+								"minecraft:use_duration": 1,
+								"minecraft:hand_equipped": true,
+								"minecraft:food": {
+									"on_consume": {
+										"event": "minecraft:use",
+										"target": "self"
+									},
+									"can_always_eat": true
+								},
+								"minecraft:display_name": {
+									"value": "item.terrariamod:lifecrystal_5.name"
+								},
+								"minecraft:icon": {
+									"texture": "terrariamod:lifecrystal"
+								}
+							},
+							"events": {
+								"minecraft:use": {
+									"add_mob_effect": {
+										"effect": "health_boost",
+										"target": "holder",
+										"duration": 1500,
+										"amplifier": 20
+									}
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:lifecrystal_5",
+							"category": "equipment"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:lifecrystal_5",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:stacked_by_data": true,
+								"minecraft:max_stack_size": 64,
+								"minecraft:use_duration": 1,
+								"minecraft:hand_equipped": true,
+								"minecraft:food": {
+									"on_consume": {
+										"event": "minecraft:use",
+										"target": "self"
+									},
+									"can_always_eat": true
+								},
+								"minecraft:display_name": {
+									"value": "item.terrariamod:lifecrystal_5.name"
+								},
+								"minecraft:icon": {
+									"texture": "terrariamod:lifecrystal"
+								}
+							},
+							"events": {
+								"minecraft:use": {
+									"add_mob_effect": {
+										"effect": "health_boost",
+										"target": "holder",
+										"duration": 1500,
+										"amplifier": 20
+									}
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "true",
+								"key": "minecraft:stacked_by_data"
+							},
+							{
+								"open": {
+									"minecraft:stacked_by_data": true,
+									"minecraft:max_stack_size": 64,
+									"minecraft:use_duration": 1,
+									"minecraft:hand_equipped": true,
+									"minecraft:food": {
+										"on_consume": {
+											"event": "minecraft:use",
+											"target": "self"
+										},
+										"can_always_eat": true
+									},
+									"minecraft:display_name": {
+										"value": "item.terrariamod:lifecrystal_5.name"
+									},
+									"minecraft:icon": {
+										"texture": "terrariamod:lifecrystal"
+									}
+								},
+								"data": "64",
+								"key": "minecraft:max_stack_size"
+							},
+							{
+								"data": "1",
+								"key": "minecraft:use_duration"
+							},
+							{
+								"data": "true",
+								"key": "minecraft:hand_equipped"
+							},
+							{
+								"key": "minecraft:food",
+								"is_minified": true,
+								"children": {
+									"on_consume": {
+										"event": "minecraft:use",
+										"target": "self"
+									},
+									"can_always_eat": true
+								}
+							},
+							{
+								"open": {
+									"minecraft:stacked_by_data": true,
+									"minecraft:max_stack_size": 64,
+									"minecraft:use_duration": 1,
+									"minecraft:hand_equipped": true,
+									"minecraft:food": {
+										"on_consume": {
+											"event": "minecraft:use",
+											"target": "self"
+										},
+										"can_always_eat": true
+									},
+									"minecraft:display_name": {
+										"value": "item.terrariamod:lifecrystal_5.name"
+									},
+									"minecraft:icon": {
+										"texture": "terrariamod:lifecrystal"
+									}
+								},
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "item.terrariamod:lifecrystal_5.name"
+								}
+							},
+							{
+								"open": {
+									"minecraft:stacked_by_data": true,
+									"minecraft:max_stack_size": 64,
+									"minecraft:use_duration": 1,
+									"minecraft:hand_equipped": true,
+									"minecraft:food": {
+										"on_consume": {
+											"event": "minecraft:use",
+											"target": "self"
+										},
+										"can_always_eat": true
+									},
+									"minecraft:display_name": {
+										"value": "item.terrariamod:lifecrystal_5.name"
+									},
+									"minecraft:icon": {
+										"texture": "terrariamod:lifecrystal"
+									}
+								},
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "terrariamod:lifecrystal"
+								}
+							}
+						]
+					},
+					{
+						"key": "events",
+						"children": [
+							{
+								"open": {
+									"minecraft:use": {
+										"add_mob_effect": {
+											"effect": "health_boost",
+											"target": "holder",
+											"duration": 1500,
+											"amplifier": 20
+										}
+									}
+								},
+								"key": "minecraft:use",
+								"children": [
+									{
+										"open": {
+											"add_mob_effect": {
+												"effect": "health_boost",
+												"target": "holder",
+												"duration": 1500,
+												"amplifier": 20
+											}
+										},
+										"key": "add_mob_effect",
+										"is_minified": true,
+										"children": {
+											"effect": "health_boost",
+											"target": "holder",
+											"duration": 1500,
+											"amplifier": 20
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

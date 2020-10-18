@@ -1,0 +1,65 @@
+{
+	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP/blocks/dungeon_shelves.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "282813a7_88de_4470_8fd6_a37a329a8578",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:block": {
+						"description": {
+							"identifier": "terrariamod:dungeon_shelves"
+						},
+						"components": {
+							"minecraft:destroy_time": 0.5,
+							"minecraft:loot": "loot_tables/blocks/dungeon_shelves"
+						}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:dungeon_shelves"
+							},
+							"components": {
+								"minecraft:destroy_time": 0.5,
+								"minecraft:loot": "loot_tables/blocks/dungeon_shelves"
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:dungeon_shelves"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:dungeon_shelves"
+							},
+							"components": {
+								"minecraft:destroy_time": 0.5,
+								"minecraft:loot": "loot_tables/blocks/dungeon_shelves"
+							}
+						},
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:destroy_time": 0.5,
+							"minecraft:loot": "loot_tables/blocks/dungeon_shelves"
+						}
+					}
+				]
+			}
+		]
+	}
+}

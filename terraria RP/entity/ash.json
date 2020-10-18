@@ -1,0 +1,65 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "terrariamod:ash",
+			"materials": {
+				"default": "cat"
+			},
+			"textures": {
+				"white": "textures/entity/ash/ash_white",
+				"black": "textures/entity/ash/ash_tuxedo",
+				"red": "textures/entity/ash/ash_redtabby",
+				"siamese": "textures/entity/ash/ash_siamesecat",
+				"british": "textures/entity/ash/ash_britishshorthair",
+				"calico": "textures/entity/ash/ash_calico",
+				"persian": "textures/entity/ash/ash_persian",
+				"ragdoll": "textures/entity/ash/ash_ragdoll",
+				"tabby": "textures/entity/ash/ash_tabby",
+				"jellie": "textures/entity/ash/ash_jellie",
+				"all_black": "textures/entity/ash/ash_allblackcat",
+				"white_tame": "textures/entity/ash/ash_white_tame",
+				"black_tame": "textures/entity/ash/ash_tuxedo_tame",
+				"red_tame": "textures/entity/ash/ash_redtabby_tame",
+				"siamese_tame": "textures/entity/ash/ash_siamesecat_tame",
+				"british_tame": "textures/entity/ash/ash_britishshorthair_tame",
+				"calico_tame": "textures/entity/ash/ash_calico_tame",
+				"persian_tame": "textures/entity/ash/ash_persian_tame",
+				"ragdoll_tame": "textures/entity/ash/ash_ragdoll_tame",
+				"tabby_tame": "textures/entity/ash/ash_tabby_tame",
+				"all_black_tame": "textures/entity/ash/ash_allblackcat_tame",
+				"jellie_tame": "textures/entity/ash/ash_jellie_tame"
+			},
+			"geometry": {
+				"default": "geometry.ash"
+			},
+			"animations": {
+				"sneak": "animation.ash.sneak",
+				"walk": "animation.ash.walk",
+				"sprint": "animation.ash.sprint",
+				"sit": "animation.ash.sit",
+				"look_at_target": "animation.common.look_at_target",
+				"baby_transform": "animation.ash.baby_transform",
+				"lie_down": "animation.ash.lie_down"
+			},
+			"animation_controllers": [
+				{
+					"look_at_target": "controller.animation.ash.look_at_target"
+				},
+				{
+					"move": "controller.animation.ash.move"
+				},
+				{
+					"baby": "controller.animation.ash.baby"
+				}
+			],
+			"render_controllers": [
+				"controller.render.ash"
+			],
+			"spawn_egg": {
+				"base_color": "#000000",
+				"overlay_color": "#FFFFFF"
+			}
+		}
+	}
+}

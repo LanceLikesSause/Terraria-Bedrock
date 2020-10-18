@@ -1,0 +1,26 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.13.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "terrariamod:craftingtable_shadewood"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"AA",
+			"AA"
+		],
+		"key": {
+			"A": {
+				"item": "terrariamod:shadewood"
+			}
+		},
+		"result": [
+			{
+				"item": "terrariamod:workbench"
+			}
+		]
+	}
+}

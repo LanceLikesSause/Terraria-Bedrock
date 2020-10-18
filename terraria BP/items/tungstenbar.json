@@ -1,0 +1,19 @@
+//bridge-file-version: #3
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "terrariamod:tungstenbar",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:max_stack_size": 64,
+			"minecraft:display_name": {
+				"value": "item.terrariamod:tungstenbar.name"
+			},
+			"minecraft:icon": {
+				"texture": "terrariamod:tungstenbar"
+			}
+		}
+	}
+}

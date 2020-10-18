@@ -1,0 +1,708 @@
+{
+	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\items\\leadpickaxe.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "18d27bc7_85e7_4d4f_acd0_bf6fabd17a6f",
+	"file_version": 60,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "terrariamod:leadpickaxe",
+							"category": "equipment"
+						},
+						"components": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:hand_equipped": true,
+							"minecraft:mining_speed": 2,
+							"minecraft:damage": 2,
+							"minecraft:enchantable": {
+								"value": 22,
+								"slot": "pickaxe"
+							},
+							"minecraft:digger": {
+								"use_efficiency": true,
+								"destroy_speeds": [
+									{
+										"block": "terrariamod:copperore",
+										"speed": 1
+									},
+									{
+										"block": "terrariamod:tinore",
+										"speed": 1
+									},
+									{
+										"block": "terrariamod:ironore",
+										"speed": 1
+									},
+									{
+										"block": "terrariamod:leadore",
+										"speed": 1
+									},
+									{
+										"block": "terrariamod:silverore",
+										"speed": 1
+									},
+									{
+										"block": "terrariamod:tungstenore",
+										"speed": 1
+									},
+									{
+										"block": "terrariamod:goldore",
+										"speed": 1
+									},
+									{
+										"speed": 4,
+										"block": {
+											"tags": "query.any_tag('stone', 'metal', 'gravel', 'grass', 'snow', 'dirt', 'sand')"
+										}
+									}
+								]
+							},
+							"minecraft:display_name": {
+								"value": "item.terrariamod:leadpickaxe.name"
+							},
+							"minecraft:icon": {
+								"texture": "terrariamod:leadpickaxe"
+							}
+						}
+					}
+				},
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "terrariamod:leadpickaxe",
+							"category": "equipment"
+						},
+						"components": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:hand_equipped": true,
+							"minecraft:mining_speed": 2,
+							"minecraft:damage": 2,
+							"minecraft:enchantable": {
+								"value": 22,
+								"slot": "pickaxe"
+							},
+							"minecraft:digger": {
+								"use_efficiency": true,
+								"destroy_speeds": [
+									{
+										"block": "terrariamod:copperore",
+										"speed": 1
+									},
+									{
+										"block": "terrariamod:tinore",
+										"speed": 1
+									},
+									{
+										"block": "terrariamod:ironore",
+										"speed": 1
+									},
+									{
+										"block": "terrariamod:leadore",
+										"speed": 1
+									},
+									{
+										"block": "terrariamod:silverore",
+										"speed": 1
+									},
+									{
+										"block": "terrariamod:tungstenore",
+										"speed": 1
+									},
+									{
+										"block": "terrariamod:goldore",
+										"speed": 1
+									},
+									{
+										"speed": 4,
+										"block": {
+											"tags": "query.any_tag('stone', 'metal', 'gravel', 'grass', 'snow', 'dirt', 'sand')"
+										}
+									}
+								]
+							},
+							"minecraft:display_name": {
+								"value": "item.terrariamod:leadpickaxe.name"
+							},
+							"minecraft:icon": {
+								"texture": "terrariamod:leadpickaxe"
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:leadpickaxe",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:hand_equipped": true,
+								"minecraft:mining_speed": 2,
+								"minecraft:damage": 2,
+								"minecraft:enchantable": {
+									"value": 22,
+									"slot": "pickaxe"
+								},
+								"minecraft:digger": {
+									"use_efficiency": true,
+									"destroy_speeds": [
+										{
+											"block": "terrariamod:copperore",
+											"speed": 1
+										},
+										{
+											"block": "terrariamod:tinore",
+											"speed": 1
+										},
+										{
+											"block": "terrariamod:ironore",
+											"speed": 1
+										},
+										{
+											"block": "terrariamod:leadore",
+											"speed": 1
+										},
+										{
+											"block": "terrariamod:silverore",
+											"speed": 1
+										},
+										{
+											"block": "terrariamod:tungstenore",
+											"speed": 1
+										},
+										{
+											"block": "terrariamod:goldore",
+											"speed": 1
+										},
+										{
+											"speed": 4,
+											"block": {
+												"tags": "query.any_tag('stone', 'metal', 'gravel', 'grass', 'snow', 'dirt', 'sand')"
+											}
+										}
+									]
+								},
+								"minecraft:display_name": {
+									"value": "item.terrariamod:leadpickaxe.name"
+								},
+								"minecraft:icon": {
+									"texture": "terrariamod:leadpickaxe"
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:leadpickaxe",
+							"category": "equipment"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:leadpickaxe",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:hand_equipped": true,
+								"minecraft:mining_speed": 2,
+								"minecraft:damage": 2,
+								"minecraft:enchantable": {
+									"value": 22,
+									"slot": "pickaxe"
+								},
+								"minecraft:digger": {
+									"use_efficiency": true,
+									"destroy_speeds": [
+										{
+											"block": "terrariamod:copperore",
+											"speed": 1
+										},
+										{
+											"block": "terrariamod:tinore",
+											"speed": 1
+										},
+										{
+											"block": "terrariamod:ironore",
+											"speed": 1
+										},
+										{
+											"block": "terrariamod:leadore",
+											"speed": 1
+										},
+										{
+											"block": "terrariamod:silverore",
+											"speed": 1
+										},
+										{
+											"block": "terrariamod:tungstenore",
+											"speed": 1
+										},
+										{
+											"block": "terrariamod:goldore",
+											"speed": 1
+										},
+										{
+											"speed": 4,
+											"block": {
+												"tags": "query.any_tag('stone', 'metal', 'gravel', 'grass', 'snow', 'dirt', 'sand')"
+											}
+										}
+									]
+								},
+								"minecraft:display_name": {
+									"value": "item.terrariamod:leadpickaxe.name"
+								},
+								"minecraft:icon": {
+									"texture": "terrariamod:leadpickaxe"
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "1",
+								"key": "minecraft:max_stack_size"
+							},
+							{
+								"data": "true",
+								"key": "minecraft:hand_equipped"
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:hand_equipped": true,
+									"minecraft:mining_speed": 2,
+									"minecraft:damage": 2,
+									"minecraft:enchantable": {
+										"value": 22,
+										"slot": "pickaxe"
+									},
+									"minecraft:digger": {
+										"use_efficiency": true,
+										"destroy_speeds": [
+											{
+												"block": "terrariamod:copperore",
+												"speed": 1
+											},
+											{
+												"block": "terrariamod:tinore",
+												"speed": 1
+											},
+											{
+												"block": "terrariamod:ironore",
+												"speed": 1
+											},
+											{
+												"block": "terrariamod:leadore",
+												"speed": 1
+											},
+											{
+												"block": "terrariamod:silverore",
+												"speed": 1
+											},
+											{
+												"block": "terrariamod:tungstenore",
+												"speed": 1
+											},
+											{
+												"block": "terrariamod:goldore",
+												"speed": 1
+											},
+											{
+												"speed": 4,
+												"block": {
+													"tags": "query.any_tag('stone', 'metal', 'gravel', 'grass', 'snow', 'dirt', 'sand')"
+												}
+											}
+										]
+									},
+									"minecraft:display_name": {
+										"value": "item.terrariamod:leadpickaxe.name"
+									},
+									"minecraft:icon": {
+										"texture": "terrariamod:leadpickaxe"
+									}
+								},
+								"data": "2",
+								"key": "minecraft:mining_speed"
+							},
+							{
+								"data": "2",
+								"key": "minecraft:damage"
+							},
+							{
+								"key": "minecraft:enchantable",
+								"is_minified": true,
+								"children": {
+									"value": 22,
+									"slot": "pickaxe"
+								}
+							},
+							{
+								"key": "minecraft:digger",
+								"children": [
+									{
+										"open": {
+											"use_efficiency": true,
+											"destroy_speeds": [
+												{
+													"block": "terrariamod:copperore",
+													"speed": 1
+												},
+												{
+													"block": "terrariamod:tinore",
+													"speed": 1
+												},
+												{
+													"block": "terrariamod:ironore",
+													"speed": 1
+												},
+												{
+													"block": "terrariamod:leadore",
+													"speed": 1
+												},
+												{
+													"block": "terrariamod:silverore",
+													"speed": 1
+												},
+												{
+													"block": "terrariamod:tungstenore",
+													"speed": 1
+												},
+												{
+													"block": "terrariamod:goldore",
+													"speed": 1
+												},
+												{
+													"speed": 4,
+													"block": {
+														"tags": "query.any_tag('stone', 'metal', 'gravel', 'grass', 'snow', 'dirt', 'sand')"
+													}
+												}
+											]
+										},
+										"data": "true",
+										"key": "use_efficiency"
+									},
+									{
+										"open": {
+											"use_efficiency": true,
+											"destroy_speeds": [
+												{
+													"block": "terrariamod:copperore",
+													"speed": 1
+												},
+												{
+													"block": "terrariamod:tinore",
+													"speed": 1
+												},
+												{
+													"block": "terrariamod:ironore",
+													"speed": 1
+												},
+												{
+													"block": "terrariamod:leadore",
+													"speed": 1
+												},
+												{
+													"block": "terrariamod:silverore",
+													"speed": 1
+												},
+												{
+													"block": "terrariamod:tungstenore",
+													"speed": 1
+												},
+												{
+													"block": "terrariamod:goldore",
+													"speed": 1
+												},
+												{
+													"speed": 4,
+													"block": {
+														"tags": "query.any_tag('stone', 'metal', 'gravel', 'grass', 'snow', 'dirt', 'sand')"
+													}
+												}
+											]
+										},
+										"key": "destroy_speeds",
+										"children": [
+											{
+												"is_minified": true,
+												"children": {
+													"block": "terrariamod:copperore",
+													"speed": 1
+												}
+											},
+											{
+												"is_minified": true,
+												"children": {
+													"block": "terrariamod:tinore",
+													"speed": 1
+												}
+											},
+											{
+												"is_minified": true,
+												"children": {
+													"block": "terrariamod:ironore",
+													"speed": 1
+												}
+											},
+											{
+												"is_minified": true,
+												"children": {
+													"block": "terrariamod:leadore",
+													"speed": 1
+												}
+											},
+											{
+												"is_minified": true,
+												"children": {
+													"block": "terrariamod:silverore",
+													"speed": 1
+												}
+											},
+											{
+												"is_minified": true,
+												"children": {
+													"block": "terrariamod:tungstenore",
+													"speed": 1
+												}
+											},
+											{
+												"open": [
+													{
+														"block": "terrariamod:copperore",
+														"speed": 1
+													},
+													{
+														"block": "terrariamod:tinore",
+														"speed": 1
+													},
+													{
+														"block": "terrariamod:ironore",
+														"speed": 1
+													},
+													{
+														"block": "terrariamod:leadore",
+														"speed": 1
+													},
+													{
+														"block": "terrariamod:silverore",
+														"speed": 1
+													},
+													{
+														"block": "terrariamod:tungstenore",
+														"speed": 1
+													},
+													{
+														"block": "terrariamod:goldore",
+														"speed": 1
+													},
+													{
+														"speed": 4,
+														"block": {
+															"tags": "query.any_tag('stone', 'metal', 'gravel', 'grass', 'snow', 'dirt', 'sand')"
+														}
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"block": "terrariamod:goldore",
+													"speed": 1
+												}
+											},
+											{
+												"open": [
+													{
+														"block": "terrariamod:copperore",
+														"speed": 1
+													},
+													{
+														"block": "terrariamod:tinore",
+														"speed": 1
+													},
+													{
+														"block": "terrariamod:ironore",
+														"speed": 1
+													},
+													{
+														"block": "terrariamod:leadore",
+														"speed": 1
+													},
+													{
+														"block": "terrariamod:silverore",
+														"speed": 1
+													},
+													{
+														"block": "terrariamod:tungstenore",
+														"speed": 1
+													},
+													{
+														"block": "terrariamod:goldore",
+														"speed": 1
+													},
+													{
+														"speed": 4,
+														"block": {
+															"tags": "query.any_tag('stone', 'metal', 'gravel', 'grass', 'snow', 'dirt', 'sand')"
+														}
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"speed": 4,
+													"block": {
+														"tags": "query.any_tag('stone', 'metal', 'gravel', 'grass', 'snow', 'dirt', 'sand')"
+													}
+												}
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:hand_equipped": true,
+									"minecraft:mining_speed": 2,
+									"minecraft:damage": 2,
+									"minecraft:enchantable": {
+										"value": 22,
+										"slot": "pickaxe"
+									},
+									"minecraft:digger": {
+										"use_efficiency": true,
+										"destroy_speeds": [
+											{
+												"block": "terrariamod:copperore",
+												"speed": 1
+											},
+											{
+												"block": "terrariamod:tinore",
+												"speed": 1
+											},
+											{
+												"block": "terrariamod:ironore",
+												"speed": 1
+											},
+											{
+												"block": "terrariamod:leadore",
+												"speed": 1
+											},
+											{
+												"block": "terrariamod:silverore",
+												"speed": 1
+											},
+											{
+												"block": "terrariamod:tungstenore",
+												"speed": 1
+											},
+											{
+												"block": "terrariamod:goldore",
+												"speed": 1
+											},
+											{
+												"speed": 4,
+												"block": {
+													"tags": "query.any_tag('stone', 'metal', 'gravel', 'grass', 'snow', 'dirt', 'sand')"
+												}
+											}
+										]
+									},
+									"minecraft:display_name": {
+										"value": "item.terrariamod:leadpickaxe.name"
+									},
+									"minecraft:icon": {
+										"texture": "terrariamod:leadpickaxe"
+									}
+								},
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "item.terrariamod:leadpickaxe.name"
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:hand_equipped": true,
+									"minecraft:mining_speed": 2,
+									"minecraft:damage": 2,
+									"minecraft:enchantable": {
+										"value": 22,
+										"slot": "pickaxe"
+									},
+									"minecraft:digger": {
+										"use_efficiency": true,
+										"destroy_speeds": [
+											{
+												"block": "terrariamod:copperore",
+												"speed": 1
+											},
+											{
+												"block": "terrariamod:tinore",
+												"speed": 1
+											},
+											{
+												"block": "terrariamod:ironore",
+												"speed": 1
+											},
+											{
+												"block": "terrariamod:leadore",
+												"speed": 1
+											},
+											{
+												"block": "terrariamod:silverore",
+												"speed": 1
+											},
+											{
+												"block": "terrariamod:tungstenore",
+												"speed": 1
+											},
+											{
+												"block": "terrariamod:goldore",
+												"speed": 1
+											},
+											{
+												"speed": 4,
+												"block": {
+													"tags": "query.any_tag('stone', 'metal', 'gravel', 'grass', 'snow', 'dirt', 'sand')"
+												}
+											}
+										]
+									},
+									"minecraft:display_name": {
+										"value": "item.terrariamod:leadpickaxe.name"
+									},
+									"minecraft:icon": {
+										"texture": "terrariamod:leadpickaxe"
+									}
+								},
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "terrariamod:leadpickaxe"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

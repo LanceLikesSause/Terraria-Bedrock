@@ -1,0 +1,27 @@
+//bridge-file-version: #8
+{
+	"format_version": "1.16.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "terrariamod:hellforge",
+			"register_to_creative_menu": true
+		},
+		"components": {
+			"minecraft:destroy_time": 5,
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "hellforge",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:crafting_table": {
+				"grid_size": 3,
+				"crafting_tags": [
+					"hellforge"
+				]
+			},
+			"minecraft:entity_collision": false,
+			"minecraft:block_light_emission": 1
+		}
+	}
+}

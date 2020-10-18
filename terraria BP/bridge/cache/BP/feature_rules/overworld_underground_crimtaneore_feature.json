@@ -1,0 +1,58 @@
+{
+	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\feature_rules\\overworld_underground_crimtaneore_feature.json",
+	"file_type": "feature_rule",
+	"format_version": 1,
+	"file_uuid": "71cfa950_b568_4885_94c7_ee265bdd1705",
+	"file_version": 5,
+	"cache_content": {
+		"is_minified": true,
+		"children": {
+			"format_version": "1.13.0",
+			"minecraft:feature_rules": {
+				"description": {
+					"identifier": "overworld_underground_crimtaneore_feature",
+					"places_feature": "crimtaneore_feature"
+				},
+				"conditions": {
+					"placement_pass": "underground_pass",
+					"minecraft:biome_filter": [
+						{
+							"any_of": [
+								{
+									"test": "has_biome_tag",
+									"operator": "==",
+									"value": "crimson_plains"
+								}
+							]
+						}
+					]
+				},
+				"distribution": {
+					"iterations": 20,
+					"coordinate_eval_order": "zyx",
+					"x": {
+						"distribution": "uniform",
+						"extent": [
+							0,
+							16
+						]
+					},
+					"y": {
+						"distribution": "uniform",
+						"extent": [
+							0,
+							128
+						]
+					},
+					"z": {
+						"distribution": "uniform",
+						"extent": [
+							0,
+							16
+						]
+					}
+				}
+			}
+		}
+	}
+}

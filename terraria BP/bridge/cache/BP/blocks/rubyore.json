@@ -1,0 +1,108 @@
+{
+	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP/blocks/rubyore.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "f4548b25_61c4_40d4_b5e6_195c0cc824aa",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.13.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.13.0",
+					"minecraft:block": {
+						"description": {
+							"identifier": "terrariamod:rubyore",
+							"register_to_creative_menu": true
+						},
+						"components": {
+							"minecraft:destroy_time": {
+								"value": 1
+							},
+							"minecraft:loot": {
+								"table": "loot_tables/blocks/rubyore.json"
+							}
+						}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:rubyore",
+								"register_to_creative_menu": true
+							},
+							"components": {
+								"minecraft:destroy_time": {
+									"value": 1
+								},
+								"minecraft:loot": {
+									"table": "loot_tables/blocks/rubyore.json"
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:rubyore",
+							"register_to_creative_menu": true
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:rubyore",
+								"register_to_creative_menu": true
+							},
+							"components": {
+								"minecraft:destroy_time": {
+									"value": 1
+								},
+								"minecraft:loot": {
+									"table": "loot_tables/blocks/rubyore.json"
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"open": {
+									"minecraft:destroy_time": {
+										"value": 1
+									},
+									"minecraft:loot": {
+										"table": "loot_tables/blocks/rubyore.json"
+									}
+								},
+								"key": "minecraft:destroy_time",
+								"is_minified": true,
+								"children": {
+									"value": 1
+								}
+							},
+							{
+								"open": {
+									"minecraft:destroy_time": {
+										"value": 1
+									},
+									"minecraft:loot": {
+										"table": "loot_tables/blocks/rubyore.json"
+									}
+								},
+								"key": "minecraft:loot",
+								"is_minified": true,
+								"children": {
+									"table": "loot_tables/blocks/rubyore.json"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

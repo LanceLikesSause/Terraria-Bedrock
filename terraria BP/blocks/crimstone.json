@@ -1,0 +1,18 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.10.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "terrariamod:crimstone",
+			"is_experimental": false,
+			"register_to_creative_menu": true
+		},
+		"components": {
+			"minecraft:loot": "loot_tables/blocks/crimstone.json",
+			"minecraft:destroy_time": 1,
+			"minecraft:explosion_resistance": 5,
+			"minecraft:block_light_absorption": 0,
+			"minecraft:block_light_emission": 0
+		}
+	}
+}

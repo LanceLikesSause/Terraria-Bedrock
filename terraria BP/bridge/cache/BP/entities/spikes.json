@@ -1,0 +1,479 @@
+{
+	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\entities\\spikes.json",
+	"file_type": "entity",
+	"format_version": 1,
+	"file_uuid": "487bc27b_bddf_4d45_8377_34b817fda9af",
+	"file_version": 19,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.0",
+					"minecraft:entity": {
+						"description": {
+							"identifier": "terrariamod:spikes",
+							"is_spawnable": false,
+							"is_summonable": true,
+							"is_experimental": false
+						},
+						"components": {
+							"minecraft:type_family": {
+								"family": [
+									"mob",
+									"monster"
+								]
+							},
+							"minecraft:health": {
+								"value": 30,
+								"max": 30
+							},
+							"minecraft:loot": {
+								"table": "loot_tables/entities/shulker.json"
+							},
+							"minecraft:physics": {
+								"has_gravity": true,
+								"has_collision": true
+							},
+							"minecraft:collision_box": {
+								"width": 1,
+								"height": 1
+							},
+							"minecraft:attack": {
+								"damage": 7
+							},
+							"minecraft:behavior.nearest_attackable_target": {
+								"priority": 3,
+								"entity_types": {
+									"filters": {
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									"max_dist": 16
+								},
+								"must_see": true
+							},
+							"minecraft:behavior.hurt_by_target": {
+								"priority": 2
+							},
+							"minecraft:behavior.melee_attack": {
+								"priority": 1
+							},
+							"minecraft:nameable": {},
+							"minecraft:breathable": {
+								"total_supply": 15,
+								"suffocate_time": 0
+							},
+							"minecraft:navigation.walk": {},
+							"minecraft:movement.basic": {
+								"max_turn": 90
+							},
+							"minecraft:movement": {
+								"value": 0,
+								"max": 0
+							}
+						}
+					}
+				},
+				"key": "minecraft:entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:spikes",
+								"is_spawnable": false,
+								"is_summonable": true,
+								"is_experimental": false
+							},
+							"components": {
+								"minecraft:type_family": {
+									"family": [
+										"mob",
+										"monster"
+									]
+								},
+								"minecraft:health": {
+									"value": 30,
+									"max": 30
+								},
+								"minecraft:loot": {
+									"table": "loot_tables/entities/shulker.json"
+								},
+								"minecraft:physics": {
+									"has_gravity": true,
+									"has_collision": true
+								},
+								"minecraft:collision_box": {
+									"width": 1,
+									"height": 1
+								},
+								"minecraft:attack": {
+									"damage": 7
+								},
+								"minecraft:behavior.nearest_attackable_target": {
+									"priority": 3,
+									"entity_types": {
+										"filters": {
+											"test": "is_family",
+											"subject": "other",
+											"value": "player"
+										},
+										"max_dist": 16
+									},
+									"must_see": true
+								},
+								"minecraft:behavior.hurt_by_target": {
+									"priority": 2
+								},
+								"minecraft:behavior.melee_attack": {
+									"priority": 1
+								},
+								"minecraft:nameable": {},
+								"minecraft:breathable": {
+									"total_supply": 15,
+									"suffocate_time": 0
+								},
+								"minecraft:navigation.walk": {},
+								"minecraft:movement.basic": {
+									"max_turn": 90
+								},
+								"minecraft:movement": {
+									"value": 0,
+									"max": 0
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:spikes",
+							"is_spawnable": false,
+							"is_summonable": true,
+							"is_experimental": false
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:spikes",
+								"is_spawnable": false,
+								"is_summonable": true,
+								"is_experimental": false
+							},
+							"components": {
+								"minecraft:type_family": {
+									"family": [
+										"mob",
+										"monster"
+									]
+								},
+								"minecraft:health": {
+									"value": 30,
+									"max": 30
+								},
+								"minecraft:loot": {
+									"table": "loot_tables/entities/shulker.json"
+								},
+								"minecraft:physics": {
+									"has_gravity": true,
+									"has_collision": true
+								},
+								"minecraft:collision_box": {
+									"width": 1,
+									"height": 1
+								},
+								"minecraft:attack": {
+									"damage": 7
+								},
+								"minecraft:behavior.nearest_attackable_target": {
+									"priority": 3,
+									"entity_types": {
+										"filters": {
+											"test": "is_family",
+											"subject": "other",
+											"value": "player"
+										},
+										"max_dist": 16
+									},
+									"must_see": true
+								},
+								"minecraft:behavior.hurt_by_target": {
+									"priority": 2
+								},
+								"minecraft:behavior.melee_attack": {
+									"priority": 1
+								},
+								"minecraft:nameable": {},
+								"minecraft:breathable": {
+									"total_supply": 15,
+									"suffocate_time": 0
+								},
+								"minecraft:navigation.walk": {},
+								"minecraft:movement.basic": {
+									"max_turn": 90
+								},
+								"minecraft:movement": {
+									"value": 0,
+									"max": 0
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"key": "minecraft:type_family",
+								"is_minified": true,
+								"children": {
+									"family": [
+										"mob",
+										"monster"
+									]
+								}
+							},
+							{
+								"key": "minecraft:health",
+								"is_minified": true,
+								"children": {
+									"value": 30,
+									"max": 30
+								}
+							},
+							{
+								"key": "minecraft:loot",
+								"is_minified": true,
+								"children": {
+									"table": "loot_tables/entities/shulker.json"
+								}
+							},
+							{
+								"key": "minecraft:physics",
+								"is_minified": true,
+								"children": {
+									"has_gravity": true,
+									"has_collision": true
+								}
+							},
+							{
+								"key": "minecraft:collision_box",
+								"is_minified": true,
+								"children": {
+									"width": 1,
+									"height": 1
+								}
+							},
+							{
+								"key": "minecraft:attack",
+								"is_minified": true,
+								"children": {
+									"damage": 7
+								}
+							},
+							{
+								"key": "minecraft:behavior.nearest_attackable_target",
+								"children": [
+									{
+										"data": "3",
+										"key": "priority"
+									},
+									{
+										"open": {
+											"priority": 3,
+											"entity_types": {
+												"filters": {
+													"test": "is_family",
+													"subject": "other",
+													"value": "player"
+												},
+												"max_dist": 16
+											},
+											"must_see": true
+										},
+										"key": "entity_types",
+										"is_minified": true,
+										"children": {
+											"filters": {
+												"test": "is_family",
+												"subject": "other",
+												"value": "player"
+											},
+											"max_dist": 16
+										}
+									},
+									{
+										"data": "true",
+										"key": "must_see"
+									}
+								]
+							},
+							{
+								"key": "minecraft:behavior.hurt_by_target",
+								"is_minified": true,
+								"children": {
+									"priority": 2
+								}
+							},
+							{
+								"key": "minecraft:behavior.melee_attack",
+								"is_minified": true,
+								"children": {
+									"priority": 1
+								}
+							},
+							{
+								"key": "minecraft:nameable",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"key": "minecraft:breathable",
+								"is_minified": true,
+								"children": {
+									"total_supply": 15,
+									"suffocate_time": 0
+								}
+							},
+							{
+								"open": {
+									"minecraft:type_family": {
+										"family": [
+											"mob",
+											"monster"
+										]
+									},
+									"minecraft:health": {
+										"value": 30,
+										"max": 30
+									},
+									"minecraft:loot": {
+										"table": "loot_tables/entities/shulker.json"
+									},
+									"minecraft:physics": {
+										"has_gravity": true,
+										"has_collision": true
+									},
+									"minecraft:collision_box": {
+										"width": 1,
+										"height": 1
+									},
+									"minecraft:attack": {
+										"damage": 7
+									},
+									"minecraft:behavior.nearest_attackable_target": {
+										"priority": 3,
+										"entity_types": {
+											"filters": {
+												"test": "is_family",
+												"subject": "other",
+												"value": "player"
+											},
+											"max_dist": 16
+										},
+										"must_see": true
+									},
+									"minecraft:behavior.hurt_by_target": {
+										"priority": 2
+									},
+									"minecraft:behavior.melee_attack": {
+										"priority": 1
+									},
+									"minecraft:nameable": {},
+									"minecraft:breathable": {
+										"total_supply": 15,
+										"suffocate_time": 0
+									},
+									"minecraft:navigation.walk": {},
+									"minecraft:movement.basic": {
+										"max_turn": 90
+									},
+									"minecraft:movement": {
+										"value": 0,
+										"max": 0
+									}
+								},
+								"key": "minecraft:navigation.walk",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"open": {
+									"minecraft:type_family": {
+										"family": [
+											"mob",
+											"monster"
+										]
+									},
+									"minecraft:health": {
+										"value": 30,
+										"max": 30
+									},
+									"minecraft:loot": {
+										"table": "loot_tables/entities/shulker.json"
+									},
+									"minecraft:physics": {
+										"has_gravity": true,
+										"has_collision": true
+									},
+									"minecraft:collision_box": {
+										"width": 1,
+										"height": 1
+									},
+									"minecraft:attack": {
+										"damage": 7
+									},
+									"minecraft:behavior.nearest_attackable_target": {
+										"priority": 3,
+										"entity_types": {
+											"filters": {
+												"test": "is_family",
+												"subject": "other",
+												"value": "player"
+											},
+											"max_dist": 16
+										},
+										"must_see": true
+									},
+									"minecraft:behavior.hurt_by_target": {
+										"priority": 2
+									},
+									"minecraft:behavior.melee_attack": {
+										"priority": 1
+									},
+									"minecraft:nameable": {},
+									"minecraft:breathable": {
+										"total_supply": 15,
+										"suffocate_time": 0
+									},
+									"minecraft:navigation.walk": {},
+									"minecraft:movement.basic": {
+										"max_turn": 90
+									},
+									"minecraft:movement": {
+										"value": 0,
+										"max": 0
+									}
+								},
+								"key": "minecraft:movement.basic",
+								"is_minified": true,
+								"children": {
+									"max_turn": 90
+								}
+							},
+							{
+								"key": "minecraft:movement",
+								"is_minified": true,
+								"children": {
+									"value": 0,
+									"max": 0
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

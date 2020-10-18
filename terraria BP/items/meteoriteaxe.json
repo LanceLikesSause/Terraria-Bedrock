@@ -1,0 +1,40 @@
+//bridge-file-version: #25
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "terrariamod:meteoriteaxe",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:mining_speed": 1,
+			"minecraft:damage": 20,
+			"minecraft:enchantable": {
+				"value": 14,
+				"slot": "axe"
+			},
+			"minecraft:digger": {
+				"use_efficiency": true,
+				"destroy_speeds": [
+					{
+						"block": {
+							"tags": "q.any_tag('wood')"
+						},
+						"speed": 10
+					}
+				]
+			},
+			"minecraft:icon": {
+				"texture": "terrariamod:meteoriteaxe"
+			},
+			"tag:minecraft:is_axe": {},
+			"minecraft:display_name": {
+				"value": "item.terrariamod:meteoriteaxe.name"
+			},
+			"minecraft:render_offsets": "bow",
+			"minecraft:weapon": {}
+		}
+	}
+}

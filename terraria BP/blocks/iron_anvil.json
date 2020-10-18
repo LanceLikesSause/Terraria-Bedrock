@@ -1,0 +1,28 @@
+//bridge-file-version: #3
+{
+	"format_version": "1.16.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "terrariamod:iron_anvil",
+			"register_to_creative_menu": true
+		},
+		"components": {
+			"minecraft:destroy_time": 1,
+			"minecraft:loot": "loot_tables/workbench.json",
+			"minecraft:geometry": "geometry.iron_anvil",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "iron_anvil",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:crafting_table": {
+                "grid_size": 3,
+                "crafting_tags": [
+                    "iron_anvil"
+                ]
+            },
+			"minecraft:block_light_emission": 1.0
+		}
+	}
+}

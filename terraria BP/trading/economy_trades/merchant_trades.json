@@ -1,0 +1,191 @@
+//bridge-file-version: #7
+{
+	"tiers": [
+		{
+			"trades": [
+				{
+					"wants": [
+						{
+							"item": "terrariamod:silvercoin",
+							"quantity": {
+								"min": 5,
+								"max": 5
+							}
+						}
+					],
+					"gives": [
+						{
+							"item": "terrariamod:copperpickaxe"
+						}
+					]
+				},
+				{
+					"wants": [
+						{
+							"item": "terrariamod:silvercoin",
+							"quantity": {
+								"min": 4,
+								"max": 6
+							}
+						}
+					],
+					"gives": [
+						{
+							"item": "terrariamod:coppersword"
+						}
+					]
+				}
+			]
+		},
+		{
+			"trades": [
+				{
+					"wants": [
+						{
+							"item": "terrariamod:coppercoin",
+							"quantity": {
+								"min": 50,
+								"max": 50
+							}
+						}
+					],
+					"gives": [
+						{
+							"item": "minecraft:torch"
+						}
+					]
+				},
+				{
+					"wants": [
+						{
+							"item": "terrariamod:silvercoin",
+							"quantity": {
+								"min": 3,
+								"max": 3
+							}
+						}
+					],
+					"gives": [
+						{
+							"item": "terrariamod:lesserhealingpotion"
+						}
+					]
+				}
+			]
+		},
+		{
+			"trades": [
+				{
+					"wants": [
+						{
+							"item": "terrariamod:coppercoin",
+							"quantity": {
+								"min": 5,
+								"max": 5
+							}
+						}
+					],
+					"gives": [
+						{
+							"item": "terrariamod:woodenarrow"
+						}
+					]
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": {
+								"min": 16,
+								"max": 19
+							}
+						}
+					],
+					"gives": [
+						{
+							"item": "minecraft:diamond_chestplate",
+							"functions": [
+								{
+									"function": "enchant_with_levels",
+									"treasure": false,
+									"levels": {
+										"min": 5,
+										"max": 19
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"trades": [
+				{
+					"wants": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": {
+								"min": 5,
+								"max": 7
+							}
+						}
+					],
+					"gives": [
+						{
+							"item": "minecraft:chainmail_boots"
+						}
+					]
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": {
+								"min": 9,
+								"max": 11
+							}
+						}
+					],
+					"gives": [
+						{
+							"item": "minecraft:chainmail_leggings"
+						}
+					]
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": {
+								"min": 5,
+								"max": 7
+							}
+						}
+					],
+					"gives": [
+						{
+							"item": "minecraft:chainmail_helmet"
+						}
+					]
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": {
+								"min": 11,
+								"max": 15
+							}
+						}
+					],
+					"gives": [
+						{
+							"item": "minecraft:chainmail_chestplate"
+						}
+					]
+				}
+			]
+		}
+	]
+}

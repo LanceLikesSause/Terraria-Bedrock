@@ -1,0 +1,20 @@
+//bridge-file-version: #13
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "terrariamod:crimtanebow",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:icon": {
+				"texture": "terrariamod:crimtanebow"
+			},
+			"minecraft:display_name": {
+				"value": "item.terrariamod:crimtanebow.name"
+			}
+		}
+	}
+}

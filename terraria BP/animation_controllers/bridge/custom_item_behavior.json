@@ -1,0 +1,193 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.bridge_custom_item_behavior": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"holds_copperpickaxe": "query.get_equipped_item_name(0, 0) == 'copperpickaxe'"
+						},
+						{
+							"holds_silverpickaxe": "query.get_equipped_item_name(0, 0) == 'silverpickaxe'"
+						},
+						{
+							"holds_tungstenpickaxe": "query.get_equipped_item_name(0, 0) == 'tungstenpickaxe'"
+						},
+						{
+							"holds_platinumpickaxe": "query.get_equipped_item_name(0, 0) == 'platinumpickaxe'"
+						},
+						{
+							"holds_meteoritepickaxe": "query.get_equipped_item_name(0, 0) == 'meteoritepickaxe'"
+						},
+						{
+							"holds_slimestaff": "query.get_equipped_item_name(0, 0) == 'slimestaff'"
+						},
+						{
+							"holds_cactuspickaxe": "query.get_equipped_item_name(0, 0) == 'cactuspickaxe'"
+						},
+						{
+							"holds_cactussword": "query.get_equipped_item_name(0, 0) == 'cactussword'"
+						},
+						{
+							"holds_balloonpufferfish": "query.get_equipped_item_name(0, 0) == 'balloonpufferfish'"
+						},
+						{
+							"holds_bandofregeneration": "query.get_equipped_item_name(0, 0) == 'bandofregeneration'"
+						},
+						{
+							"holds_bone_terraria": "query.get_equipped_item_name(0, 0) == 'bone_terraria'"
+						}
+					],
+					"on_entry": [
+						"@s bridge:on_reset_player"
+					]
+				},
+				"holds_copperpickaxe": {
+					"transitions": [
+						{
+							"default": "query.get_equipped_item_name(0, 0) != 'copperpickaxe'"
+						}
+					],
+					"on_entry": [
+						"@s bridge:on_equipped_026a55cd_6e6e_4da7_9b50_631509bec544"
+					],
+					"on_exit": [
+						"@s bridge:on_unequipped_026a55cd_6e6e_4da7_9b50_631509bec544"
+					]
+				},
+				"holds_silverpickaxe": {
+					"transitions": [
+						{
+							"default": "query.get_equipped_item_name(0, 0) != 'silverpickaxe'"
+						}
+					],
+					"on_entry": [
+						"@s bridge:on_equipped_423e2028_27de_47cd_abd7_e88600eeede7"
+					],
+					"on_exit": [
+						"@s bridge:on_unequipped_423e2028_27de_47cd_abd7_e88600eeede7"
+					]
+				},
+				"holds_tungstenpickaxe": {
+					"transitions": [
+						{
+							"default": "query.get_equipped_item_name(0, 0) != 'tungstenpickaxe'"
+						}
+					],
+					"on_entry": [
+						"@s bridge:on_equipped_87d82831_22f5_4f27_8a3b_db845e124246"
+					],
+					"on_exit": [
+						"@s bridge:on_unequipped_87d82831_22f5_4f27_8a3b_db845e124246"
+					]
+				},
+				"holds_platinumpickaxe": {
+					"transitions": [
+						{
+							"default": "query.get_equipped_item_name(0, 0) != 'platinumpickaxe'"
+						}
+					],
+					"on_entry": [
+						"@s bridge:on_equipped_1ea0c21e_d66a_45c6_b359_e5df47fc8a84"
+					],
+					"on_exit": [
+						"@s bridge:on_unequipped_1ea0c21e_d66a_45c6_b359_e5df47fc8a84"
+					]
+				},
+				"holds_meteoritepickaxe": {
+					"transitions": [
+						{
+							"default": "query.get_equipped_item_name(0, 0) != 'meteoritepickaxe'"
+						}
+					],
+					"on_entry": [
+						"@s bridge:on_equipped_2daa104d_c689_4162_b649_b20726c53ff5"
+					],
+					"on_exit": [
+						"@s bridge:on_unequipped_2daa104d_c689_4162_b649_b20726c53ff5"
+					]
+				},
+				"holds_slimestaff": {
+					"transitions": [
+						{
+							"default": "query.get_equipped_item_name(0, 0) != 'slimestaff'"
+						}
+					],
+					"on_entry": [
+						"@s bridge:on_equipped_cfac9d6b_af3f_44c9_bc10_6fb2d36fcec0",
+						"/function slimestaff"
+					],
+					"on_exit": [
+						"@s bridge:on_unequipped_cfac9d6b_af3f_44c9_bc10_6fb2d36fcec0"
+					]
+				},
+				"holds_cactuspickaxe": {
+					"transitions": [
+						{
+							"default": "query.get_equipped_item_name(0, 0) != 'cactuspickaxe'"
+						}
+					],
+					"on_entry": [
+						"@s bridge:on_equipped_fb0396ef_5147_47a3_9844_c00574623e4d"
+					],
+					"on_exit": [
+						"@s bridge:on_unequipped_fb0396ef_5147_47a3_9844_c00574623e4d"
+					]
+				},
+				"holds_cactussword": {
+					"transitions": [
+						{
+							"default": "query.get_equipped_item_name(0, 0) != 'cactussword'"
+						}
+					],
+					"on_entry": [
+						"@s bridge:on_equipped_ab352f4e_1e72_48a0_9780_75ca1dd97de1"
+					],
+					"on_exit": [
+						"@s bridge:on_unequipped_ab352f4e_1e72_48a0_9780_75ca1dd97de1"
+					]
+				},
+				"holds_balloonpufferfish": {
+					"transitions": [
+						{
+							"default": "query.get_equipped_item_name(0, 0) != 'balloonpufferfish'"
+						}
+					],
+					"on_entry": [
+						"@s bridge:on_equipped_1873b55a_ab36_4901_925e_237a1119bd20"
+					],
+					"on_exit": [
+						"@s bridge:on_unequipped_1873b55a_ab36_4901_925e_237a1119bd20"
+					]
+				},
+				"holds_bandofregeneration": {
+					"transitions": [
+						{
+							"default": "query.get_equipped_item_name(0, 0) != 'bandofregeneration'"
+						}
+					],
+					"on_entry": [
+						"@s bridge:on_equipped_aab73ec7_efd9_446c_8e84_f026a381210c"
+					],
+					"on_exit": [
+						"@s bridge:on_unequipped_aab73ec7_efd9_446c_8e84_f026a381210c"
+					]
+				},
+				"holds_bone_terraria": {
+					"transitions": [
+						{
+							"default": "query.get_equipped_item_name(0, 0) != 'bone_terraria'"
+						}
+					],
+					"on_entry": [
+						"@s bridge:on_equipped_c3d09d3c_e951_4b24_bee7_d8623e2efd47"
+					],
+					"on_exit": [
+						"@s bridge:on_unequipped_c3d09d3c_e951_4b24_bee7_d8623e2efd47"
+					]
+				}
+			}
+		}
+	}
+}

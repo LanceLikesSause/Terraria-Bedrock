@@ -1,0 +1,71 @@
+{
+	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\terraria\\textures\\terrain_texture.json",
+	"file_type": "terrain_texture",
+	"format_version": 1,
+	"file_uuid": "48f1424f_7603_405b_9f1e_c81de07bd9b4",
+	"file_version": 2,
+	"cache_content": {
+		"children": [
+			{
+				"data": "vanilla",
+				"key": "resource_pack_name"
+			},
+			{
+				"data": "atlas.terrain",
+				"key": "texture_name"
+			},
+			{
+				"data": "8",
+				"key": "padding"
+			},
+			{
+				"data": "4",
+				"key": "num_mip_levels"
+			},
+			{
+				"open": {
+					"resource_pack_name": "vanilla",
+					"texture_name": "atlas.terrain",
+					"padding": 8,
+					"num_mip_levels": 4,
+					"texture_data": {
+						"pa_crimson_log": {
+							"textures": "textures/blocks/pa_crimson_log"
+						},
+						"pa_crimson_leaves": {
+							"textures": "textures/blocks/pa_crimson_leaves"
+						},
+						"pa_crimstone": {
+							"textures": "textures/blocks/pa_crimstone"
+						},
+						"pa_crimson_grass": {
+							"textures": "textures/blocks/pa_crimson_grass"
+						},
+						"pa_crimtaneore": {
+							"textures": "textures/blocks/pa_crimtaneore"
+						}
+					}
+				},
+				"key": "texture_data",
+				"is_minified": true,
+				"children": {
+					"pa_crimson_log": {
+						"textures": "textures/blocks/pa_crimson_log"
+					},
+					"pa_crimson_leaves": {
+						"textures": "textures/blocks/pa_crimson_leaves"
+					},
+					"pa_crimstone": {
+						"textures": "textures/blocks/pa_crimstone"
+					},
+					"pa_crimson_grass": {
+						"textures": "textures/blocks/pa_crimson_grass"
+					},
+					"pa_crimtaneore": {
+						"textures": "textures/blocks/pa_crimtaneore"
+					}
+				}
+			}
+		]
+	}
+}

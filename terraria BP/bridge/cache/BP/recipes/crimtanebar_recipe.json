@@ -1,0 +1,166 @@
+{
+	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\recipes\\crimtanebar_recipe.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "072ef42b_142f_404e_b0f2_d5ed7364ff13",
+	"file_version": 5,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:recipe_shapeless": {
+						"description": {
+							"identifier": "terrariamod:crimtanebar_recipe"
+						},
+						"tags": [
+							"tfurnace"
+						],
+						"ingredients": [
+							{
+								"item": "terrariamod:crimtaneore",
+								"count": 3
+							}
+						],
+						"result": [
+							{
+								"item": "terrariamod:crimtanebar"
+							}
+						]
+					}
+				},
+				"key": "minecraft:recipe_shapeless",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:crimtanebar_recipe"
+							},
+							"tags": [
+								"tfurnace"
+							],
+							"ingredients": [
+								{
+									"item": "terrariamod:crimtaneore",
+									"count": 3
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:crimtanebar"
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:crimtanebar_recipe"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:crimtanebar_recipe"
+							},
+							"tags": [
+								"tfurnace"
+							],
+							"ingredients": [
+								{
+									"item": "terrariamod:crimtaneore",
+									"count": 3
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:crimtanebar"
+								}
+							]
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"tfurnace"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:crimtanebar_recipe"
+							},
+							"tags": [
+								"tfurnace"
+							],
+							"ingredients": [
+								{
+									"item": "terrariamod:crimtaneore",
+									"count": 3
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:crimtanebar"
+								}
+							]
+						},
+						"key": "ingredients",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "terrariamod:crimtaneore",
+										"count": 3
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "terrariamod:crimtaneore",
+									"count": 3
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:crimtanebar_recipe"
+							},
+							"tags": [
+								"tfurnace"
+							],
+							"ingredients": [
+								{
+									"item": "terrariamod:crimtaneore",
+									"count": 3
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:crimtanebar"
+								}
+							]
+						},
+						"key": "result",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "terrariamod:crimtanebar"
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "terrariamod:crimtanebar"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

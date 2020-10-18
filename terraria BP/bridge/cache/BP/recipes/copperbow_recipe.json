@@ -1,0 +1,166 @@
+{
+	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\recipes\\copperbow_recipe.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "37259da8_6110_4e05_87fa_e2a514a87dc4",
+	"file_version": 8,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:recipe_shapeless": {
+						"description": {
+							"identifier": "terrariamod:copperbow_recipe"
+						},
+						"tags": [
+							"iron_anvil"
+						],
+						"ingredients": [
+							{
+								"item": "terrariamod:copperbar",
+								"count": 7
+							}
+						],
+						"result": [
+							{
+								"item": "terrariamod:copperbow"
+							}
+						]
+					}
+				},
+				"key": "minecraft:recipe_shapeless",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:copperbow_recipe"
+							},
+							"tags": [
+								"iron_anvil"
+							],
+							"ingredients": [
+								{
+									"item": "terrariamod:copperbar",
+									"count": 7
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:copperbow"
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:copperbow_recipe"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:copperbow_recipe"
+							},
+							"tags": [
+								"iron_anvil"
+							],
+							"ingredients": [
+								{
+									"item": "terrariamod:copperbar",
+									"count": 7
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:copperbow"
+								}
+							]
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"iron_anvil"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:copperbow_recipe"
+							},
+							"tags": [
+								"iron_anvil"
+							],
+							"ingredients": [
+								{
+									"item": "terrariamod:copperbar",
+									"count": 7
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:copperbow"
+								}
+							]
+						},
+						"key": "ingredients",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "terrariamod:copperbar",
+										"count": 7
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "terrariamod:copperbar",
+									"count": 7
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:copperbow_recipe"
+							},
+							"tags": [
+								"iron_anvil"
+							],
+							"ingredients": [
+								{
+									"item": "terrariamod:copperbar",
+									"count": 7
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:copperbow"
+								}
+							]
+						},
+						"key": "result",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "terrariamod:copperbow"
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "terrariamod:copperbow"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

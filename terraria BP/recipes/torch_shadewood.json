@@ -1,0 +1,29 @@
+//bridge-file-version: #2
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "terrariamod:torch_shadewood_recipe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"#",
+			"Y"
+		],
+		"key": {
+			"#": {
+				"item": "terrariamod:gel"
+			},
+			"Y": {
+				"item": "terrariamod:shadewood"
+			}
+		},
+		"result": [
+			{
+				"item": "minecraft:torch"
+			}
+		]
+	}
+}

@@ -1,0 +1,166 @@
+{
+	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\recipes\\copperbar_recipe.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "2700d821_2359_4085_9623_d8a9a5e60896",
+	"file_version": 5,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:recipe_shapeless": {
+						"description": {
+							"identifier": "terrariamod:copperbar_recipe"
+						},
+						"tags": [
+							"tfurnace"
+						],
+						"ingredients": [
+							{
+								"item": "terrariamod:copperore",
+								"count": 3
+							}
+						],
+						"result": [
+							{
+								"item": "terrariamod:copperbar"
+							}
+						]
+					}
+				},
+				"key": "minecraft:recipe_shapeless",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:copperbar_recipe"
+							},
+							"tags": [
+								"tfurnace"
+							],
+							"ingredients": [
+								{
+									"item": "terrariamod:copperore",
+									"count": 3
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:copperbar"
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:copperbar_recipe"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:copperbar_recipe"
+							},
+							"tags": [
+								"tfurnace"
+							],
+							"ingredients": [
+								{
+									"item": "terrariamod:copperore",
+									"count": 3
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:copperbar"
+								}
+							]
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"tfurnace"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:copperbar_recipe"
+							},
+							"tags": [
+								"tfurnace"
+							],
+							"ingredients": [
+								{
+									"item": "terrariamod:copperore",
+									"count": 3
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:copperbar"
+								}
+							]
+						},
+						"key": "ingredients",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "terrariamod:copperore",
+										"count": 3
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "terrariamod:copperore",
+									"count": 3
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:copperbar_recipe"
+							},
+							"tags": [
+								"tfurnace"
+							],
+							"ingredients": [
+								{
+									"item": "terrariamod:copperore",
+									"count": 3
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:copperbar"
+								}
+							]
+						},
+						"key": "result",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "terrariamod:copperbar"
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "terrariamod:copperbar"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

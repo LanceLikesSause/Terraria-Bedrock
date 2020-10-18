@@ -1,0 +1,273 @@
+{
+	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\terraria RP\\entity\\musketball_projectile_minishark.json",
+	"file_type": "client_entity",
+	"format_version": 1,
+	"file_uuid": "994156d8_675b_4abf_82c0_7b9aa4497c44",
+	"file_version": 7,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "terrariamod:musketball_projectile_minishark",
+							"materials": {
+								"default": "arrow"
+							},
+							"textures": {
+								"default": "textures/entity/pamobile/musketball_projectile_flintlockpistol"
+							},
+							"geometry": {
+								"default": "geometry.musketball_projectile_flintlockpistol"
+							},
+							"animations": {
+								"move": "animation.arrow.move"
+							},
+							"scripts": {
+								"pre_animation": [
+									"variable.shake = query.shake_time - query.frame_alpha;",
+									"variable.shake_power = variable.shake > 0.0 ? -Math.sin(variable.shake * 200.0) * variable.shake : 0.0;"
+								],
+								"animate": [
+									"move"
+								]
+							},
+							"render_controllers": [
+								"controller.render.arrow"
+							]
+						}
+					}
+				},
+				"key": "minecraft:client_entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:musketball_projectile_minishark",
+								"materials": {
+									"default": "arrow"
+								},
+								"textures": {
+									"default": "textures/entity/pamobile/musketball_projectile_flintlockpistol"
+								},
+								"geometry": {
+									"default": "geometry.musketball_projectile_flintlockpistol"
+								},
+								"animations": {
+									"move": "animation.arrow.move"
+								},
+								"scripts": {
+									"pre_animation": [
+										"variable.shake = query.shake_time - query.frame_alpha;",
+										"variable.shake_power = variable.shake > 0.0 ? -Math.sin(variable.shake * 200.0) * variable.shake : 0.0;"
+									],
+									"animate": [
+										"move"
+									]
+								},
+								"render_controllers": [
+									"controller.render.arrow"
+								]
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"open": {
+									"identifier": "terrariamod:musketball_projectile_minishark",
+									"materials": {
+										"default": "arrow"
+									},
+									"textures": {
+										"default": "textures/entity/pamobile/musketball_projectile_flintlockpistol"
+									},
+									"geometry": {
+										"default": "geometry.musketball_projectile_flintlockpistol"
+									},
+									"animations": {
+										"move": "animation.arrow.move"
+									},
+									"scripts": {
+										"pre_animation": [
+											"variable.shake = query.shake_time - query.frame_alpha;",
+											"variable.shake_power = variable.shake > 0.0 ? -Math.sin(variable.shake * 200.0) * variable.shake : 0.0;"
+										],
+										"animate": [
+											"move"
+										]
+									},
+									"render_controllers": [
+										"controller.render.arrow"
+									]
+								},
+								"data": "terrariamod:musketball_projectile_minishark",
+								"key": "identifier"
+							},
+							{
+								"key": "materials",
+								"is_minified": true,
+								"children": {
+									"default": "arrow"
+								}
+							},
+							{
+								"open": {
+									"identifier": "terrariamod:musketball_projectile_minishark",
+									"materials": {
+										"default": "arrow"
+									},
+									"textures": {
+										"default": "textures/entity/pamobile/musketball_projectile_flintlockpistol"
+									},
+									"geometry": {
+										"default": "geometry.musketball_projectile_flintlockpistol"
+									},
+									"animations": {
+										"move": "animation.arrow.move"
+									},
+									"scripts": {
+										"pre_animation": [
+											"variable.shake = query.shake_time - query.frame_alpha;",
+											"variable.shake_power = variable.shake > 0.0 ? -Math.sin(variable.shake * 200.0) * variable.shake : 0.0;"
+										],
+										"animate": [
+											"move"
+										]
+									},
+									"render_controllers": [
+										"controller.render.arrow"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": {
+									"default": "textures/entity/pamobile/musketball_projectile_flintlockpistol"
+								}
+							},
+							{
+								"open": {
+									"identifier": "terrariamod:musketball_projectile_minishark",
+									"materials": {
+										"default": "arrow"
+									},
+									"textures": {
+										"default": "textures/entity/pamobile/musketball_projectile_flintlockpistol"
+									},
+									"geometry": {
+										"default": "geometry.musketball_projectile_flintlockpistol"
+									},
+									"animations": {
+										"move": "animation.arrow.move"
+									},
+									"scripts": {
+										"pre_animation": [
+											"variable.shake = query.shake_time - query.frame_alpha;",
+											"variable.shake_power = variable.shake > 0.0 ? -Math.sin(variable.shake * 200.0) * variable.shake : 0.0;"
+										],
+										"animate": [
+											"move"
+										]
+									},
+									"render_controllers": [
+										"controller.render.arrow"
+									]
+								},
+								"key": "geometry",
+								"is_minified": true,
+								"children": {
+									"default": "geometry.musketball_projectile_flintlockpistol"
+								}
+							},
+							{
+								"open": {
+									"identifier": "terrariamod:musketball_projectile_minishark",
+									"materials": {
+										"default": "arrow"
+									},
+									"textures": {
+										"default": "textures/entity/pamobile/musketball_projectile_flintlockpistol"
+									},
+									"geometry": {
+										"default": "geometry.musketball_projectile_flintlockpistol"
+									},
+									"animations": {
+										"move": "animation.arrow.move"
+									},
+									"scripts": {
+										"pre_animation": [
+											"variable.shake = query.shake_time - query.frame_alpha;",
+											"variable.shake_power = variable.shake > 0.0 ? -Math.sin(variable.shake * 200.0) * variable.shake : 0.0;"
+										],
+										"animate": [
+											"move"
+										]
+									},
+									"render_controllers": [
+										"controller.render.arrow"
+									]
+								},
+								"key": "animations",
+								"is_minified": true,
+								"children": {
+									"move": "animation.arrow.move"
+								}
+							},
+							{
+								"key": "scripts",
+								"is_minified": true,
+								"children": {
+									"pre_animation": [
+										"variable.shake = query.shake_time - query.frame_alpha;",
+										"variable.shake_power = variable.shake > 0.0 ? -Math.sin(variable.shake * 200.0) * variable.shake : 0.0;"
+									],
+									"animate": [
+										"move"
+									]
+								}
+							},
+							{
+								"open": {
+									"identifier": "terrariamod:musketball_projectile_minishark",
+									"materials": {
+										"default": "arrow"
+									},
+									"textures": {
+										"default": "textures/entity/pamobile/musketball_projectile_flintlockpistol"
+									},
+									"geometry": {
+										"default": "geometry.musketball_projectile_flintlockpistol"
+									},
+									"animations": {
+										"move": "animation.arrow.move"
+									},
+									"scripts": {
+										"pre_animation": [
+											"variable.shake = query.shake_time - query.frame_alpha;",
+											"variable.shake_power = variable.shake > 0.0 ? -Math.sin(variable.shake * 200.0) * variable.shake : 0.0;"
+										],
+										"animate": [
+											"move"
+										]
+									},
+									"render_controllers": [
+										"controller.render.arrow"
+									]
+								},
+								"key": "render_controllers",
+								"is_minified": true,
+								"children": [
+									"controller.render.arrow"
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

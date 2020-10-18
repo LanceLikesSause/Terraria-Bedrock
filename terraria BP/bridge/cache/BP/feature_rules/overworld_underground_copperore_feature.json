@@ -1,0 +1,354 @@
+{
+	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\feature_rules\\overworld_underground_copperore_feature.json",
+	"file_type": "feature_rule",
+	"format_version": 1,
+	"file_uuid": "e69a43cf_06d1_4afc_b189_4a3f484c1051",
+	"file_version": 7,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.13.0",
+					"minecraft:feature_rules": {
+						"description": {
+							"identifier": "overworld_underground_copperore_feature",
+							"places_feature": "copperore_feature"
+						},
+						"conditions": {
+							"placement_pass": "underground_pass",
+							"minecraft:biome_filter": [
+								{
+									"any_of": [
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "overworld"
+										},
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "overworld_generation"
+										}
+									]
+								}
+							]
+						},
+						"distribution": {
+							"iterations": 20,
+							"coordinate_eval_order": "zyx",
+							"x": {
+								"distribution": "uniform",
+								"extent": [
+									0,
+									16
+								]
+							},
+							"y": {
+								"distribution": "uniform",
+								"extent": [
+									0,
+									128
+								]
+							},
+							"z": {
+								"distribution": "uniform",
+								"extent": [
+									0,
+									16
+								]
+							}
+						}
+					}
+				},
+				"data": "1.13.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.13.0",
+					"minecraft:feature_rules": {
+						"description": {
+							"identifier": "overworld_underground_copperore_feature",
+							"places_feature": "copperore_feature"
+						},
+						"conditions": {
+							"placement_pass": "underground_pass",
+							"minecraft:biome_filter": [
+								{
+									"any_of": [
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "overworld"
+										},
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "overworld_generation"
+										}
+									]
+								}
+							]
+						},
+						"distribution": {
+							"iterations": 20,
+							"coordinate_eval_order": "zyx",
+							"x": {
+								"distribution": "uniform",
+								"extent": [
+									0,
+									16
+								]
+							},
+							"y": {
+								"distribution": "uniform",
+								"extent": [
+									0,
+									128
+								]
+							},
+							"z": {
+								"distribution": "uniform",
+								"extent": [
+									0,
+									16
+								]
+							}
+						}
+					}
+				},
+				"key": "minecraft:feature_rules",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "overworld_underground_copperore_feature",
+								"places_feature": "copperore_feature"
+							},
+							"conditions": {
+								"placement_pass": "underground_pass",
+								"minecraft:biome_filter": [
+									{
+										"any_of": [
+											{
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "overworld"
+											},
+											{
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "overworld_generation"
+											}
+										]
+									}
+								]
+							},
+							"distribution": {
+								"iterations": 20,
+								"coordinate_eval_order": "zyx",
+								"x": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								},
+								"y": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										128
+									]
+								},
+								"z": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "overworld_underground_copperore_feature",
+							"places_feature": "copperore_feature"
+						}
+					},
+					{
+						"key": "conditions",
+						"is_minified": true,
+						"children": {
+							"placement_pass": "underground_pass",
+							"minecraft:biome_filter": [
+								{
+									"any_of": [
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "overworld"
+										},
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "overworld_generation"
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "overworld_underground_copperore_feature",
+								"places_feature": "copperore_feature"
+							},
+							"conditions": {
+								"placement_pass": "underground_pass",
+								"minecraft:biome_filter": [
+									{
+										"any_of": [
+											{
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "overworld"
+											},
+											{
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "overworld_generation"
+											}
+										]
+									}
+								]
+							},
+							"distribution": {
+								"iterations": 20,
+								"coordinate_eval_order": "zyx",
+								"x": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								},
+								"y": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										128
+									]
+								},
+								"z": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								}
+							}
+						},
+						"key": "distribution",
+						"children": [
+							{
+								"data": "20",
+								"key": "iterations"
+							},
+							{
+								"data": "zyx",
+								"key": "coordinate_eval_order"
+							},
+							{
+								"key": "x",
+								"children": [
+									{
+										"data": "uniform",
+										"key": "distribution"
+									},
+									{
+										"open": {
+											"distribution": "uniform",
+											"extent": [
+												0,
+												16
+											]
+										},
+										"key": "extent",
+										"is_minified": true,
+										"children": [
+											0,
+											16
+										]
+									}
+								]
+							},
+							{
+								"open": {
+									"iterations": 20,
+									"coordinate_eval_order": "zyx",
+									"x": {
+										"distribution": "uniform",
+										"extent": [
+											0,
+											16
+										]
+									},
+									"y": {
+										"distribution": "uniform",
+										"extent": [
+											0,
+											128
+										]
+									},
+									"z": {
+										"distribution": "uniform",
+										"extent": [
+											0,
+											16
+										]
+									}
+								},
+								"key": "y",
+								"children": [
+									{
+										"data": "uniform",
+										"key": "distribution"
+									},
+									{
+										"open": {
+											"distribution": "uniform",
+											"extent": [
+												0,
+												128
+											]
+										},
+										"key": "extent",
+										"is_minified": true,
+										"children": [
+											0,
+											128
+										]
+									}
+								]
+							},
+							{
+								"key": "z",
+								"is_minified": true,
+								"children": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

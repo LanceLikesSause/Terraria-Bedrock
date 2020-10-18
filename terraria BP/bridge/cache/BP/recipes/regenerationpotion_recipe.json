@@ -1,0 +1,207 @@
+{
+	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\recipes\\regenerationpotion_recipe.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "aaa267b7_9b9e_462e_93be_a242bc7e161f",
+	"file_version": 7,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:recipe_shapeless": {
+						"description": {
+							"identifier": "terrariamod:regenerationpotion_recipe"
+						},
+						"tags": [
+							"bottle"
+						],
+						"ingredients": [
+							{
+								"item": "terrariamod:mushroom",
+								"count": 1
+							},
+							{
+								"item": "minecraft:yellow_flower",
+								"count": 1
+							}
+						],
+						"result": [
+							{
+								"item": "terrariamod:regenerationpotion"
+							}
+						]
+					}
+				},
+				"key": "minecraft:recipe_shapeless",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:regenerationpotion_recipe"
+							},
+							"tags": [
+								"bottle"
+							],
+							"ingredients": [
+								{
+									"item": "terrariamod:mushroom",
+									"count": 1
+								},
+								{
+									"item": "minecraft:yellow_flower",
+									"count": 1
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:regenerationpotion"
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:regenerationpotion_recipe"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:regenerationpotion_recipe"
+							},
+							"tags": [
+								"bottle"
+							],
+							"ingredients": [
+								{
+									"item": "terrariamod:mushroom",
+									"count": 1
+								},
+								{
+									"item": "minecraft:yellow_flower",
+									"count": 1
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:regenerationpotion"
+								}
+							]
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"bottle"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:regenerationpotion_recipe"
+							},
+							"tags": [
+								"bottle"
+							],
+							"ingredients": [
+								{
+									"item": "terrariamod:mushroom",
+									"count": 1
+								},
+								{
+									"item": "minecraft:yellow_flower",
+									"count": 1
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:regenerationpotion"
+								}
+							]
+						},
+						"key": "ingredients",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "terrariamod:mushroom",
+										"count": 1
+									},
+									{
+										"item": "minecraft:yellow_flower",
+										"count": 1
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "terrariamod:mushroom",
+									"count": 1
+								}
+							},
+							{
+								"open": [
+									{
+										"item": "terrariamod:mushroom",
+										"count": 1
+									},
+									{
+										"item": "minecraft:yellow_flower",
+										"count": 1
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:yellow_flower",
+									"count": 1
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:regenerationpotion_recipe"
+							},
+							"tags": [
+								"bottle"
+							],
+							"ingredients": [
+								{
+									"item": "terrariamod:mushroom",
+									"count": 1
+								},
+								{
+									"item": "minecraft:yellow_flower",
+									"count": 1
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:regenerationpotion"
+								}
+							]
+						},
+						"key": "result",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "terrariamod:regenerationpotion"
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "terrariamod:regenerationpotion"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

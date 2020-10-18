@@ -1,0 +1,28 @@
+//bridge-file-version: #7
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "terrariamod:bluephaseblade_shadewood_recipe"
+		},
+		"tags": [
+			"iron_anvil"
+		],
+		"pattern": [
+			"X",
+			"X",
+			"#"
+		],
+		"key": {
+			"#": {
+				"item": "terrariamod:sapphire"
+			},
+			"X": {
+				"item": "terrariamod:meteoritebar"
+			}
+		},
+		"result": {
+			"item": "terrariamod:bluephaseblade"
+		}
+	}
+}

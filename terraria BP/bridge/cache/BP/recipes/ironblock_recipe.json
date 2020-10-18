@@ -1,0 +1,188 @@
+{
+	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\recipes\\ironblock_recipe.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "94779dda_1a93_429e_9e94_9c82de928573",
+	"file_version": 3,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:recipe_shapeless": {
+						"description": {
+							"identifier": "terrariamod:ironblock_recipe"
+						},
+						"tags": [
+							"tfurnace"
+						],
+						"ingredients": [
+							{
+								"item": "terrariamod:ironbar",
+								"count": 4
+							}
+						],
+						"result": [
+							{
+								"item": "terrariamod:ironblock"
+							}
+						]
+					}
+				},
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:recipe_shapeless": {
+						"description": {
+							"identifier": "terrariamod:ironblock_recipe"
+						},
+						"tags": [
+							"tfurnace"
+						],
+						"ingredients": [
+							{
+								"item": "terrariamod:ironbar",
+								"count": 4
+							}
+						],
+						"result": [
+							{
+								"item": "terrariamod:ironblock"
+							}
+						]
+					}
+				},
+				"key": "minecraft:recipe_shapeless",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:ironblock_recipe"
+							},
+							"tags": [
+								"tfurnace"
+							],
+							"ingredients": [
+								{
+									"item": "terrariamod:ironbar",
+									"count": 4
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:ironblock"
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:ironblock_recipe"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:ironblock_recipe"
+							},
+							"tags": [
+								"tfurnace"
+							],
+							"ingredients": [
+								{
+									"item": "terrariamod:ironbar",
+									"count": 4
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:ironblock"
+								}
+							]
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"tfurnace"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:ironblock_recipe"
+							},
+							"tags": [
+								"tfurnace"
+							],
+							"ingredients": [
+								{
+									"item": "terrariamod:ironbar",
+									"count": 4
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:ironblock"
+								}
+							]
+						},
+						"key": "ingredients",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "terrariamod:ironbar",
+										"count": 4
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "terrariamod:ironbar",
+									"count": 4
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:ironblock_recipe"
+							},
+							"tags": [
+								"tfurnace"
+							],
+							"ingredients": [
+								{
+									"item": "terrariamod:ironbar",
+									"count": 4
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:ironblock"
+								}
+							]
+						},
+						"key": "result",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "terrariamod:ironblock"
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "terrariamod:ironblock"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

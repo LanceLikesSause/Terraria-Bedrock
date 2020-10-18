@@ -1,0 +1,188 @@
+{
+	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\recipes\\ironbow_recipe.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "cb095c7a_bfdb_4f57_aac4_47ead6fb9973",
+	"file_version": 6,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:recipe_shapeless": {
+						"description": {
+							"identifier": "terrariamod:ironbow_recipe"
+						},
+						"tags": [
+							"iron_anvil"
+						],
+						"ingredients": [
+							{
+								"item": "terrariamod:ironbar",
+								"count": 7
+							}
+						],
+						"result": [
+							{
+								"item": "terrariamod:ironbow"
+							}
+						]
+					}
+				},
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:recipe_shapeless": {
+						"description": {
+							"identifier": "terrariamod:ironbow_recipe"
+						},
+						"tags": [
+							"iron_anvil"
+						],
+						"ingredients": [
+							{
+								"item": "terrariamod:ironbar",
+								"count": 7
+							}
+						],
+						"result": [
+							{
+								"item": "terrariamod:ironbow"
+							}
+						]
+					}
+				},
+				"key": "minecraft:recipe_shapeless",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:ironbow_recipe"
+							},
+							"tags": [
+								"iron_anvil"
+							],
+							"ingredients": [
+								{
+									"item": "terrariamod:ironbar",
+									"count": 7
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:ironbow"
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:ironbow_recipe"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:ironbow_recipe"
+							},
+							"tags": [
+								"iron_anvil"
+							],
+							"ingredients": [
+								{
+									"item": "terrariamod:ironbar",
+									"count": 7
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:ironbow"
+								}
+							]
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"iron_anvil"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:ironbow_recipe"
+							},
+							"tags": [
+								"iron_anvil"
+							],
+							"ingredients": [
+								{
+									"item": "terrariamod:ironbar",
+									"count": 7
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:ironbow"
+								}
+							]
+						},
+						"key": "ingredients",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "terrariamod:ironbar",
+										"count": 7
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "terrariamod:ironbar",
+									"count": 7
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:ironbow_recipe"
+							},
+							"tags": [
+								"iron_anvil"
+							],
+							"ingredients": [
+								{
+									"item": "terrariamod:ironbar",
+									"count": 7
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:ironbow"
+								}
+							]
+						},
+						"key": "result",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "terrariamod:ironbow"
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "terrariamod:ironbow"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,188 @@
+{
+	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\recipes\\tungstenbow_recipe.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "20274caf_4092_4f4f_9d18_243998443fd8",
+	"file_version": 6,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:recipe_shapeless": {
+						"description": {
+							"identifier": "terrariamod:tungstenbow_recipe"
+						},
+						"tags": [
+							"iron_anvil"
+						],
+						"ingredients": [
+							{
+								"item": "terrariamod:tungstenbar",
+								"count": 7
+							}
+						],
+						"result": [
+							{
+								"item": "terrariamod:tungstenbow"
+							}
+						]
+					}
+				},
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:recipe_shapeless": {
+						"description": {
+							"identifier": "terrariamod:tungstenbow_recipe"
+						},
+						"tags": [
+							"iron_anvil"
+						],
+						"ingredients": [
+							{
+								"item": "terrariamod:tungstenbar",
+								"count": 7
+							}
+						],
+						"result": [
+							{
+								"item": "terrariamod:tungstenbow"
+							}
+						]
+					}
+				},
+				"key": "minecraft:recipe_shapeless",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:tungstenbow_recipe"
+							},
+							"tags": [
+								"iron_anvil"
+							],
+							"ingredients": [
+								{
+									"item": "terrariamod:tungstenbar",
+									"count": 7
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:tungstenbow"
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:tungstenbow_recipe"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:tungstenbow_recipe"
+							},
+							"tags": [
+								"iron_anvil"
+							],
+							"ingredients": [
+								{
+									"item": "terrariamod:tungstenbar",
+									"count": 7
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:tungstenbow"
+								}
+							]
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"iron_anvil"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:tungstenbow_recipe"
+							},
+							"tags": [
+								"iron_anvil"
+							],
+							"ingredients": [
+								{
+									"item": "terrariamod:tungstenbar",
+									"count": 7
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:tungstenbow"
+								}
+							]
+						},
+						"key": "ingredients",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "terrariamod:tungstenbar",
+										"count": 7
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "terrariamod:tungstenbar",
+									"count": 7
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:tungstenbow_recipe"
+							},
+							"tags": [
+								"iron_anvil"
+							],
+							"ingredients": [
+								{
+									"item": "terrariamod:tungstenbar",
+									"count": 7
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:tungstenbow"
+								}
+							]
+						},
+						"key": "result",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "terrariamod:tungstenbow"
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "terrariamod:tungstenbow"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

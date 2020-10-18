@@ -1,0 +1,19 @@
+//bridge-file-version: #5
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "terrariamod:goldcrown",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:icon": {
+				"texture": "terrariamod:goldcrown"
+			},
+			"minecraft:display_name": {
+				"value": "item.terrariamod:goldcrown.name"
+			}
+		}
+	}
+}

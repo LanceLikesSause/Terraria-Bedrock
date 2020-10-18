@@ -1,0 +1,21 @@
+//bridge-file-version: #9
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "terrariamod:nurse_summoner",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:entity_placer": {
+				"entity": "terrariamod:nurse"
+			},
+			"minecraft:display_name": {
+				"value": "item.terrariamod:nurse_summoner.name"
+			},
+			"minecraft:icon": {
+				"texture": "terrariamod:nurse_summoner"
+			}
+		}
+	}
+}

@@ -1,0 +1,126 @@
+{
+	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\terraria\\textures\\item_texture.json",
+	"file_type": "item_texture",
+	"format_version": 1,
+	"file_uuid": "1094383e_54f2_48b9_a105_00d8243ae808",
+	"file_version": 8,
+	"cache_content": {
+		"children": [
+			{
+				"data": "JourneyCraft",
+				"key": "resource_pack_name"
+			},
+			{
+				"data": "atlas.items",
+				"key": "texture_name"
+			},
+			{
+				"open": {
+					"resource_pack_name": "JourneyCraft",
+					"texture_name": "atlas.items",
+					"texture_data": {
+						"terrariamod:vertebra": {
+							"textures": "textures/items/pamobile/vertebra"
+						},
+						"terrariamod:bloodyspine": {
+							"textures": "textures/items/pamobile/bloodyspine"
+						},
+						"terrariamod:lens": {
+							"textures": "textures/items/pamobile/lens"
+						},
+						"terrariamod:suspiciouslookingeye": {
+							"textures": "textures/items/pamobile/suspiciouslookingeye"
+						}
+					}
+				},
+				"key": "texture_data",
+				"children": [
+					{
+						"open": {
+							"terrariamod:vertebra": {
+								"textures": "textures/items/pamobile/vertebra"
+							},
+							"terrariamod:bloodyspine": {
+								"textures": "textures/items/pamobile/bloodyspine"
+							},
+							"terrariamod:lens": {
+								"textures": "textures/items/pamobile/lens"
+							},
+							"terrariamod:suspiciouslookingeye": {
+								"textures": "textures/items/pamobile/suspiciouslookingeye"
+							}
+						},
+						"key": "terrariamod:vertebra",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/items/pamobile/vertebra"
+						}
+					},
+					{
+						"open": {
+							"terrariamod:vertebra": {
+								"textures": "textures/items/pamobile/vertebra"
+							},
+							"terrariamod:bloodyspine": {
+								"textures": "textures/items/pamobile/bloodyspine"
+							},
+							"terrariamod:lens": {
+								"textures": "textures/items/pamobile/lens"
+							},
+							"terrariamod:suspiciouslookingeye": {
+								"textures": "textures/items/pamobile/suspiciouslookingeye"
+							}
+						},
+						"key": "terrariamod:bloodyspine",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/items/pamobile/bloodyspine"
+						}
+					},
+					{
+						"open": {
+							"terrariamod:vertebra": {
+								"textures": "textures/items/pamobile/vertebra"
+							},
+							"terrariamod:bloodyspine": {
+								"textures": "textures/items/pamobile/bloodyspine"
+							},
+							"terrariamod:lens": {
+								"textures": "textures/items/pamobile/lens"
+							},
+							"terrariamod:suspiciouslookingeye": {
+								"textures": "textures/items/pamobile/suspiciouslookingeye"
+							}
+						},
+						"key": "terrariamod:lens",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/items/pamobile/lens"
+						}
+					},
+					{
+						"open": {
+							"terrariamod:vertebra": {
+								"textures": "textures/items/pamobile/vertebra"
+							},
+							"terrariamod:bloodyspine": {
+								"textures": "textures/items/pamobile/bloodyspine"
+							},
+							"terrariamod:lens": {
+								"textures": "textures/items/pamobile/lens"
+							},
+							"terrariamod:suspiciouslookingeye": {
+								"textures": "textures/items/pamobile/suspiciouslookingeye"
+							}
+						},
+						"key": "terrariamod:suspiciouslookingeye",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/items/pamobile/suspiciouslookingeye"
+						}
+					}
+				]
+			}
+		]
+	}
+}

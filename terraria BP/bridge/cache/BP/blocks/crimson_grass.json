@@ -1,0 +1,412 @@
+{
+	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\blocks\\crimson_grass.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "4a1a5ab8_e8b9_4fb4_b7cf_d430a3cfa7c1",
+	"file_version": 49,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:block": {
+						"description": {
+							"identifier": "terrariamod:crimson_grass",
+							"register_to_creative_menu": true
+						},
+						"components": {
+							"minecraft:destroy_time": 5,
+							"minecraft:loot": "loot_tables/blocks/stone.json",
+							"minecraft:block_light_emission": 0.7,
+							"tag:thalasso:crystal": {},
+							"minecraft:material_instances": {
+								"*": {
+									"render_method": "opaque",
+									"texture": "terrariamod:crimson_grass"
+								}
+							},
+							"minecraft:ticking": {
+								"looping": false,
+								"range": [
+									6000,
+									6000
+								],
+								"on_tick": {
+									"target": "self",
+									"event": "thalasso:crack"
+								}
+							}
+						},
+						"events": {
+							"thalasso:crack": {
+								"run_command": {
+									"command": [
+										"function crimson_grass"
+									]
+								}
+							}
+						}
+					}
+				},
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:block": {
+						"description": {
+							"identifier": "terrariamod:crimson_grass",
+							"register_to_creative_menu": true
+						},
+						"components": {
+							"minecraft:destroy_time": 5,
+							"minecraft:loot": "loot_tables/blocks/stone.json",
+							"minecraft:block_light_emission": 0.7,
+							"tag:thalasso:crystal": {},
+							"minecraft:material_instances": {
+								"*": {
+									"render_method": "opaque",
+									"texture": "terrariamod:crimson_grass"
+								}
+							},
+							"minecraft:ticking": {
+								"looping": false,
+								"range": [
+									6000,
+									6000
+								],
+								"on_tick": {
+									"target": "self",
+									"event": "thalasso:crack"
+								}
+							}
+						},
+						"events": {
+							"thalasso:crack": {
+								"run_command": {
+									"command": [
+										"function crimson_grass"
+									]
+								}
+							}
+						}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:crimson_grass",
+								"register_to_creative_menu": true
+							},
+							"components": {
+								"minecraft:destroy_time": 5,
+								"minecraft:loot": "loot_tables/blocks/stone.json",
+								"minecraft:block_light_emission": 0.7,
+								"tag:thalasso:crystal": {},
+								"minecraft:material_instances": {
+									"*": {
+										"render_method": "opaque",
+										"texture": "terrariamod:crimson_grass"
+									}
+								},
+								"minecraft:ticking": {
+									"looping": false,
+									"range": [
+										6000,
+										6000
+									],
+									"on_tick": {
+										"target": "self",
+										"event": "thalasso:crack"
+									}
+								}
+							},
+							"events": {
+								"thalasso:crack": {
+									"run_command": {
+										"command": [
+											"function crimson_grass"
+										]
+									}
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:crimson_grass",
+							"register_to_creative_menu": true
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:crimson_grass",
+								"register_to_creative_menu": true
+							},
+							"components": {
+								"minecraft:destroy_time": 5,
+								"minecraft:loot": "loot_tables/blocks/stone.json",
+								"minecraft:block_light_emission": 0.7,
+								"tag:thalasso:crystal": {},
+								"minecraft:material_instances": {
+									"*": {
+										"render_method": "opaque",
+										"texture": "terrariamod:crimson_grass"
+									}
+								},
+								"minecraft:ticking": {
+									"looping": false,
+									"range": [
+										6000,
+										6000
+									],
+									"on_tick": {
+										"target": "self",
+										"event": "thalasso:crack"
+									}
+								}
+							},
+							"events": {
+								"thalasso:crack": {
+									"run_command": {
+										"command": [
+											"function crimson_grass"
+										]
+									}
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "5",
+								"key": "minecraft:destroy_time"
+							},
+							{
+								"data": "loot_tables/blocks/stone.json",
+								"key": "minecraft:loot"
+							},
+							{
+								"data": "0.7",
+								"key": "minecraft:block_light_emission"
+							},
+							{
+								"key": "tag:thalasso:crystal",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"open": {
+									"minecraft:destroy_time": 5,
+									"minecraft:loot": "loot_tables/blocks/stone.json",
+									"minecraft:block_light_emission": 0.7,
+									"tag:thalasso:crystal": {},
+									"minecraft:material_instances": {
+										"*": {
+											"render_method": "opaque",
+											"texture": "terrariamod:crimson_grass"
+										}
+									},
+									"minecraft:ticking": {
+										"looping": false,
+										"range": [
+											6000,
+											6000
+										],
+										"on_tick": {
+											"target": "self",
+											"event": "thalasso:crack"
+										}
+									}
+								},
+								"key": "minecraft:material_instances",
+								"children": [
+									{
+										"open": {
+											"*": {
+												"render_method": "opaque",
+												"texture": "terrariamod:crimson_grass"
+											}
+										},
+										"key": "*",
+										"is_minified": true,
+										"children": {
+											"render_method": "opaque",
+											"texture": "terrariamod:crimson_grass"
+										}
+									}
+								]
+							},
+							{
+								"open": {
+									"minecraft:destroy_time": 5,
+									"minecraft:loot": "loot_tables/blocks/stone.json",
+									"minecraft:block_light_emission": 0.7,
+									"tag:thalasso:crystal": {},
+									"minecraft:material_instances": {
+										"*": {
+											"render_method": "opaque",
+											"texture": "terrariamod:crimson_grass"
+										}
+									},
+									"minecraft:ticking": {
+										"looping": false,
+										"range": [
+											6000,
+											6000
+										],
+										"on_tick": {
+											"target": "self",
+											"event": "thalasso:crack"
+										}
+									}
+								},
+								"key": "minecraft:ticking",
+								"children": [
+									{
+										"open": {
+											"looping": false,
+											"range": [
+												6000,
+												6000
+											],
+											"on_tick": {
+												"target": "self",
+												"event": "thalasso:crack"
+											}
+										},
+										"data": "false",
+										"key": "looping"
+									},
+									{
+										"open": {
+											"looping": false,
+											"range": [
+												6000,
+												6000
+											],
+											"on_tick": {
+												"target": "self",
+												"event": "thalasso:crack"
+											}
+										},
+										"key": "range",
+										"is_minified": true,
+										"children": [
+											6000,
+											6000
+										]
+									},
+									{
+										"open": {
+											"looping": false,
+											"range": [
+												6000,
+												6000
+											],
+											"on_tick": {
+												"target": "self",
+												"event": "thalasso:crack"
+											}
+										},
+										"key": "on_tick",
+										"is_minified": true,
+										"children": {
+											"target": "self",
+											"event": "thalasso:crack"
+										}
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:crimson_grass",
+								"register_to_creative_menu": true
+							},
+							"components": {
+								"minecraft:destroy_time": 5,
+								"minecraft:loot": "loot_tables/blocks/stone.json",
+								"minecraft:block_light_emission": 0.7,
+								"tag:thalasso:crystal": {},
+								"minecraft:material_instances": {
+									"*": {
+										"render_method": "opaque",
+										"texture": "terrariamod:crimson_grass"
+									}
+								},
+								"minecraft:ticking": {
+									"looping": false,
+									"range": [
+										6000,
+										6000
+									],
+									"on_tick": {
+										"target": "self",
+										"event": "thalasso:crack"
+									}
+								}
+							},
+							"events": {
+								"thalasso:crack": {
+									"run_command": {
+										"command": [
+											"function crimson_grass"
+										]
+									}
+								}
+							}
+						},
+						"key": "events",
+						"children": [
+							{
+								"open": {
+									"thalasso:crack": {
+										"run_command": {
+											"command": [
+												"function crimson_grass"
+											]
+										}
+									}
+								},
+								"key": "thalasso:crack",
+								"children": [
+									{
+										"open": {
+											"run_command": {
+												"command": [
+													"function crimson_grass"
+												]
+											}
+										},
+										"key": "run_command",
+										"children": [
+											{
+												"open": {
+													"command": [
+														"function crimson_grass"
+													]
+												},
+												"key": "command",
+												"is_minified": true,
+												"children": [
+													"function crimson_grass"
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

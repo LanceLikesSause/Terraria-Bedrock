@@ -1,0 +1,40 @@
+//bridge-file-version: #5
+{
+	"format_version": 2,
+	"header": {
+		"name": "Terraria Mod",
+		"description": "by LanceLikesSause",
+		"uuid": "3c80896b-344a-42b9-bf21-a1e083daedfe",
+		"version": [
+			0,
+			8,
+			0
+		],
+		"min_engine_version": [
+			1,
+			13,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "50a7ec80-73cd-4287-bc8a-fb5a00f74279",
+			"version": [
+				0,
+				8,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"version": [
+				0,
+				8,
+				0
+			],
+			"uuid": "fb73eae4-1425-483c-b81e-bd78d3869ee1"
+		}
+	]
+}

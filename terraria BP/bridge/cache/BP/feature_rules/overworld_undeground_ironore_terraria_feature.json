@@ -1,0 +1,236 @@
+{
+	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP/feature_rules/overworld_undeground_ironore_terraria_feature.json",
+	"file_type": "feature_rule",
+	"format_version": 1,
+	"file_uuid": "539ba828_c17d_4dd3_9edf_a691c3376e0c",
+	"file_version": 1,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.13.0",
+					"minecraft:feature_rules": {
+						"description": {
+							"identifier": "overworld_underground_ironore_terraria_feature",
+							"places_feature": "ironore_terraria_feature"
+						},
+						"conditions": {
+							"placement_pass": "underground_pass",
+							"minecraft:biome_filter": [
+								{
+									"any_of": [
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "overworld"
+										},
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "overworld_generation"
+										}
+									]
+								}
+							]
+						},
+						"distribution": {
+							"iterations": 20,
+							"coordinate_eval_order": "zyx",
+							"x": {
+								"distribution": "uniform",
+								"extent": [
+									0,
+									16
+								]
+							},
+							"y": {
+								"distribution": "uniform",
+								"extent": [
+									0,
+									64
+								]
+							},
+							"z": {
+								"distribution": "uniform",
+								"extent": [
+									0,
+									16
+								]
+							}
+						}
+					}
+				},
+				"data": "1.13.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.13.0",
+					"minecraft:feature_rules": {
+						"description": {
+							"identifier": "overworld_underground_ironore_terraria_feature",
+							"places_feature": "ironore_terraria_feature"
+						},
+						"conditions": {
+							"placement_pass": "underground_pass",
+							"minecraft:biome_filter": [
+								{
+									"any_of": [
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "overworld"
+										},
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "overworld_generation"
+										}
+									]
+								}
+							]
+						},
+						"distribution": {
+							"iterations": 20,
+							"coordinate_eval_order": "zyx",
+							"x": {
+								"distribution": "uniform",
+								"extent": [
+									0,
+									16
+								]
+							},
+							"y": {
+								"distribution": "uniform",
+								"extent": [
+									0,
+									64
+								]
+							},
+							"z": {
+								"distribution": "uniform",
+								"extent": [
+									0,
+									16
+								]
+							}
+						}
+					}
+				},
+				"key": "minecraft:feature_rules",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "overworld_underground_ironore_terraria_feature",
+								"places_feature": "ironore_terraria_feature"
+							},
+							"conditions": {
+								"placement_pass": "underground_pass",
+								"minecraft:biome_filter": [
+									{
+										"any_of": [
+											{
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "overworld"
+											},
+											{
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "overworld_generation"
+											}
+										]
+									}
+								]
+							},
+							"distribution": {
+								"iterations": 20,
+								"coordinate_eval_order": "zyx",
+								"x": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								},
+								"y": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										64
+									]
+								},
+								"z": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "overworld_underground_ironore_terraria_feature",
+							"places_feature": "ironore_terraria_feature"
+						}
+					},
+					{
+						"key": "conditions",
+						"is_minified": true,
+						"children": {
+							"placement_pass": "underground_pass",
+							"minecraft:biome_filter": [
+								{
+									"any_of": [
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "overworld"
+										},
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "overworld_generation"
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"key": "distribution",
+						"is_minified": true,
+						"children": {
+							"iterations": 20,
+							"coordinate_eval_order": "zyx",
+							"x": {
+								"distribution": "uniform",
+								"extent": [
+									0,
+									16
+								]
+							},
+							"y": {
+								"distribution": "uniform",
+								"extent": [
+									0,
+									64
+								]
+							},
+							"z": {
+								"distribution": "uniform",
+								"extent": [
+									0,
+									16
+								]
+							}
+						}
+					}
+				]
+			}
+		]
+	}
+}

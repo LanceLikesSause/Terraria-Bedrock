@@ -1,0 +1,232 @@
+{
+	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\recipes\\coppersword_shadewood_recipe.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "a7dd471c_193c_454c_9270_2ad1358b764f",
+	"file_version": 2,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.12",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": 1.12,
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "terrariamod:coppersword_shadewood_recipe"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"pattern": [
+							"X",
+							"X",
+							"#"
+						],
+						"key": {
+							"#": {
+								"item": "terrariamod:shadewood"
+							},
+							"X": {
+								"item": "terrariamod:copperbar"
+							}
+						},
+						"result": {
+							"item": "terrariamod:coppersword"
+						}
+					}
+				},
+				"key": "minecraft:recipe_shaped",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:coppersword_shadewood_recipe"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"X",
+								"X",
+								"#"
+							],
+							"key": {
+								"#": {
+									"item": "terrariamod:shadewood"
+								},
+								"X": {
+									"item": "terrariamod:copperbar"
+								}
+							},
+							"result": {
+								"item": "terrariamod:coppersword"
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:coppersword_shadewood_recipe"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:coppersword_shadewood_recipe"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"X",
+								"X",
+								"#"
+							],
+							"key": {
+								"#": {
+									"item": "terrariamod:shadewood"
+								},
+								"X": {
+									"item": "terrariamod:copperbar"
+								}
+							},
+							"result": {
+								"item": "terrariamod:coppersword"
+							}
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"crafting_table"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:coppersword_shadewood_recipe"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"X",
+								"X",
+								"#"
+							],
+							"key": {
+								"#": {
+									"item": "terrariamod:shadewood"
+								},
+								"X": {
+									"item": "terrariamod:copperbar"
+								}
+							},
+							"result": {
+								"item": "terrariamod:coppersword"
+							}
+						},
+						"key": "pattern",
+						"is_minified": true,
+						"children": [
+							"X",
+							"X",
+							"#"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:coppersword_shadewood_recipe"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"X",
+								"X",
+								"#"
+							],
+							"key": {
+								"#": {
+									"item": "terrariamod:shadewood"
+								},
+								"X": {
+									"item": "terrariamod:copperbar"
+								}
+							},
+							"result": {
+								"item": "terrariamod:coppersword"
+							}
+						},
+						"key": "key",
+						"children": [
+							{
+								"open": {
+									"#": {
+										"item": "terrariamod:shadewood"
+									},
+									"X": {
+										"item": "terrariamod:copperbar"
+									}
+								},
+								"key": "#",
+								"is_minified": true,
+								"children": {
+									"item": "terrariamod:shadewood"
+								}
+							},
+							{
+								"open": {
+									"#": {
+										"item": "terrariamod:shadewood"
+									},
+									"X": {
+										"item": "terrariamod:copperbar"
+									}
+								},
+								"key": "X",
+								"is_minified": true,
+								"children": {
+									"item": "terrariamod:copperbar"
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:coppersword_shadewood_recipe"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"X",
+								"X",
+								"#"
+							],
+							"key": {
+								"#": {
+									"item": "terrariamod:shadewood"
+								},
+								"X": {
+									"item": "terrariamod:copperbar"
+								}
+							},
+							"result": {
+								"item": "terrariamod:coppersword"
+							}
+						},
+						"key": "result",
+						"is_minified": true,
+						"children": {
+							"item": "terrariamod:coppersword"
+						}
+					}
+				]
+			}
+		]
+	}
+}

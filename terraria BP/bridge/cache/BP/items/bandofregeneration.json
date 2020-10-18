@@ -1,0 +1,299 @@
+{
+	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\items\\bandofregeneration.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "4b20fc23_590f_4593_8b09_03f035be0c6d",
+	"file_version": 33,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "terrariamod:bandofregeneration",
+							"category": "equipment"
+						},
+						"components": {
+							"minecraft:stacked_by_data": true,
+							"minecraft:max_stack_size": 1,
+							"minecraft:use_duration": 1,
+							"minecraft:hand_equipped": true,
+							"minecraft:food": {
+								"on_consume": {
+									"event": "minecraft:use",
+									"target": "self"
+								},
+								"can_always_eat": true
+							},
+							"minecraft:icon": {
+								"texture": "terrariamod:bandofregeneration"
+							},
+							"minecraft:display_name": {
+								"value": "item.terrariamod:bandofregeneration.name"
+							}
+						},
+						"events": {
+							"minecraft:use": {
+								"add_mob_effect": {
+									"effect": "regeneration",
+									"target": "holder",
+									"duration": 1500,
+									"amplifier": 0
+								}
+							}
+						}
+					}
+				},
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "terrariamod:bandofregeneration",
+							"category": "equipment"
+						},
+						"components": {
+							"minecraft:stacked_by_data": true,
+							"minecraft:max_stack_size": 1,
+							"minecraft:use_duration": 1,
+							"minecraft:hand_equipped": true,
+							"minecraft:food": {
+								"on_consume": {
+									"event": "minecraft:use",
+									"target": "self"
+								},
+								"can_always_eat": true
+							},
+							"minecraft:icon": {
+								"texture": "terrariamod:bandofregeneration"
+							},
+							"minecraft:display_name": {
+								"value": "item.terrariamod:bandofregeneration.name"
+							}
+						},
+						"events": {
+							"minecraft:use": {
+								"add_mob_effect": {
+									"effect": "regeneration",
+									"target": "holder",
+									"duration": 1500,
+									"amplifier": 0
+								}
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:bandofregeneration",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:stacked_by_data": true,
+								"minecraft:max_stack_size": 1,
+								"minecraft:use_duration": 1,
+								"minecraft:hand_equipped": true,
+								"minecraft:food": {
+									"on_consume": {
+										"event": "minecraft:use",
+										"target": "self"
+									},
+									"can_always_eat": true
+								},
+								"minecraft:icon": {
+									"texture": "terrariamod:bandofregeneration"
+								},
+								"minecraft:display_name": {
+									"value": "item.terrariamod:bandofregeneration.name"
+								}
+							},
+							"events": {
+								"minecraft:use": {
+									"add_mob_effect": {
+										"effect": "regeneration",
+										"target": "holder",
+										"duration": 1500,
+										"amplifier": 0
+									}
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:bandofregeneration",
+							"category": "equipment"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:bandofregeneration",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:stacked_by_data": true,
+								"minecraft:max_stack_size": 1,
+								"minecraft:use_duration": 1,
+								"minecraft:hand_equipped": true,
+								"minecraft:food": {
+									"on_consume": {
+										"event": "minecraft:use",
+										"target": "self"
+									},
+									"can_always_eat": true
+								},
+								"minecraft:icon": {
+									"texture": "terrariamod:bandofregeneration"
+								},
+								"minecraft:display_name": {
+									"value": "item.terrariamod:bandofregeneration.name"
+								}
+							},
+							"events": {
+								"minecraft:use": {
+									"add_mob_effect": {
+										"effect": "regeneration",
+										"target": "holder",
+										"duration": 1500,
+										"amplifier": 0
+									}
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "true",
+								"key": "minecraft:stacked_by_data"
+							},
+							{
+								"data": "1",
+								"key": "minecraft:max_stack_size"
+							},
+							{
+								"data": "1",
+								"key": "minecraft:use_duration"
+							},
+							{
+								"data": "true",
+								"key": "minecraft:hand_equipped"
+							},
+							{
+								"key": "minecraft:food",
+								"children": [
+									{
+										"open": {
+											"on_consume": {
+												"event": "minecraft:use",
+												"target": "self"
+											},
+											"can_always_eat": true
+										},
+										"key": "on_consume",
+										"is_minified": true,
+										"children": {
+											"event": "minecraft:use",
+											"target": "self"
+										}
+									},
+									{
+										"data": "true",
+										"key": "can_always_eat"
+									}
+								]
+							},
+							{
+								"open": {
+									"minecraft:stacked_by_data": true,
+									"minecraft:max_stack_size": 1,
+									"minecraft:use_duration": 1,
+									"minecraft:hand_equipped": true,
+									"minecraft:food": {
+										"on_consume": {
+											"event": "minecraft:use",
+											"target": "self"
+										},
+										"can_always_eat": true
+									},
+									"minecraft:icon": {
+										"texture": "terrariamod:bandofregeneration"
+									},
+									"minecraft:display_name": {
+										"value": "item.terrariamod:bandofregeneration.name"
+									}
+								},
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "terrariamod:bandofregeneration"
+								}
+							},
+							{
+								"open": {
+									"minecraft:stacked_by_data": true,
+									"minecraft:max_stack_size": 1,
+									"minecraft:use_duration": 1,
+									"minecraft:hand_equipped": true,
+									"minecraft:food": {
+										"on_consume": {
+											"event": "minecraft:use",
+											"target": "self"
+										},
+										"can_always_eat": true
+									},
+									"minecraft:icon": {
+										"texture": "terrariamod:bandofregeneration"
+									},
+									"minecraft:display_name": {
+										"value": "item.terrariamod:bandofregeneration.name"
+									}
+								},
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "item.terrariamod:bandofregeneration.name"
+								}
+							}
+						]
+					},
+					{
+						"key": "events",
+						"children": [
+							{
+								"key": "minecraft:use",
+								"children": [
+									{
+										"open": {
+											"add_mob_effect": {
+												"effect": "regeneration",
+												"target": "holder",
+												"duration": 1500,
+												"amplifier": 0
+											}
+										},
+										"key": "add_mob_effect",
+										"is_minified": true,
+										"children": {
+											"effect": "regeneration",
+											"target": "holder",
+											"duration": 1500,
+											"amplifier": 0
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

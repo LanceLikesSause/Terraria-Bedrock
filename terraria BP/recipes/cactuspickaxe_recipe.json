@@ -1,0 +1,25 @@
+//bridge-file-version: #8
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "terrariamod:cactuspickaxe_recipe"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"XXX",
+			" X ",
+			" X"
+		],
+		"key": {
+			"X": {
+				"item": "minecraft:cactus"
+			}
+		},
+		"result": {
+			"item": "terrariamod:cactuspickaxe"
+		}
+	}
+}

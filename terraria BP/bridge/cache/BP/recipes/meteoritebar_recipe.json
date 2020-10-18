@@ -1,0 +1,166 @@
+{
+	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\recipes\\meteoritebar_recipe.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "f264c385_9c96_44de_a11f_f9ac8ef9031b",
+	"file_version": 4,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:recipe_shapeless": {
+						"description": {
+							"identifier": "terrariamod:meteoritebar_recipe"
+						},
+						"tags": [
+							"tfurnace"
+						],
+						"ingredients": [
+							{
+								"item": "terrariamod:meteorite",
+								"count": 3
+							}
+						],
+						"result": [
+							{
+								"item": "terrariamod:meteoritebar"
+							}
+						]
+					}
+				},
+				"key": "minecraft:recipe_shapeless",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:meteoritebar_recipe"
+							},
+							"tags": [
+								"tfurnace"
+							],
+							"ingredients": [
+								{
+									"item": "terrariamod:meteorite",
+									"count": 3
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:meteoritebar"
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:meteoritebar_recipe"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:meteoritebar_recipe"
+							},
+							"tags": [
+								"tfurnace"
+							],
+							"ingredients": [
+								{
+									"item": "terrariamod:meteorite",
+									"count": 3
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:meteoritebar"
+								}
+							]
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"tfurnace"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:meteoritebar_recipe"
+							},
+							"tags": [
+								"tfurnace"
+							],
+							"ingredients": [
+								{
+									"item": "terrariamod:meteorite",
+									"count": 3
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:meteoritebar"
+								}
+							]
+						},
+						"key": "ingredients",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "terrariamod:meteorite",
+										"count": 3
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "terrariamod:meteorite",
+									"count": 3
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:meteoritebar_recipe"
+							},
+							"tags": [
+								"tfurnace"
+							],
+							"ingredients": [
+								{
+									"item": "terrariamod:meteorite",
+									"count": 3
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:meteoritebar"
+								}
+							]
+						},
+						"key": "result",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "terrariamod:meteoritebar"
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "terrariamod:meteoritebar"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

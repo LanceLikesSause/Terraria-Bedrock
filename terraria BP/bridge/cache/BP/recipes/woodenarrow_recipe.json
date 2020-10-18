@@ -1,0 +1,198 @@
+{
+	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\recipes\\woodenarrow_recipe.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "d21a9abc_07ac_4c4a_9b0a_4dc3be6ced91",
+	"file_version": 2,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:recipe_shapeless": {
+						"description": {
+							"identifier": "terrariamod:woodenarrow_recipe"
+						},
+						"tags": [
+							"workbench"
+						],
+						"ingredients": [
+							{
+								"item": "minecraft:planks"
+							},
+							{
+								"item": "minecraft:cobblestone"
+							}
+						],
+						"result": [
+							{
+								"item": "terrariamod:woodenarrow",
+								"count": 25
+							}
+						]
+					}
+				},
+				"key": "minecraft:recipe_shapeless",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:woodenarrow_recipe"
+							},
+							"tags": [
+								"workbench"
+							],
+							"ingredients": [
+								{
+									"item": "minecraft:planks"
+								},
+								{
+									"item": "minecraft:cobblestone"
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:woodenarrow",
+									"count": 25
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:woodenarrow_recipe"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:woodenarrow_recipe"
+							},
+							"tags": [
+								"workbench"
+							],
+							"ingredients": [
+								{
+									"item": "minecraft:planks"
+								},
+								{
+									"item": "minecraft:cobblestone"
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:woodenarrow",
+									"count": 25
+								}
+							]
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"workbench"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:woodenarrow_recipe"
+							},
+							"tags": [
+								"workbench"
+							],
+							"ingredients": [
+								{
+									"item": "minecraft:planks"
+								},
+								{
+									"item": "minecraft:cobblestone"
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:woodenarrow",
+									"count": 25
+								}
+							]
+						},
+						"key": "ingredients",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "minecraft:planks"
+									},
+									{
+										"item": "minecraft:cobblestone"
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:planks"
+								}
+							},
+							{
+								"open": [
+									{
+										"item": "minecraft:planks"
+									},
+									{
+										"item": "minecraft:cobblestone"
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:cobblestone"
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:woodenarrow_recipe"
+							},
+							"tags": [
+								"workbench"
+							],
+							"ingredients": [
+								{
+									"item": "minecraft:planks"
+								},
+								{
+									"item": "minecraft:cobblestone"
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:woodenarrow",
+									"count": 25
+								}
+							]
+						},
+						"key": "result",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "terrariamod:woodenarrow",
+										"count": 25
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "terrariamod:woodenarrow",
+									"count": 25
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

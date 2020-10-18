@@ -1,0 +1,23 @@
+//bridge-file-version: #6
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "terrariamod:woodenbow_recipe"
+		},
+		"tags": [
+			"workbench"
+		],
+		"ingredients": [
+			{
+				"item": "minecraft:planks",
+				"count": 7
+			}
+		],
+		"result": [
+			{
+				"item": "terrariamod:woodenbow"
+			}
+		]
+	}
+}

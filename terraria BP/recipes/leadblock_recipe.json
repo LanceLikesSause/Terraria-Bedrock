@@ -1,0 +1,23 @@
+//bridge-file-version: #3
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "terrariamod:leadblock_recipe"
+		},
+		"tags": [
+			"tfurnace"
+		],
+		"ingredients": [
+			{
+				"item": "terrariamod:leadbar",
+				"count": 4
+			}
+		],
+		"result": [
+			{
+				"item": "terrariamod:leadblock"
+			}
+		]
+	}
+}

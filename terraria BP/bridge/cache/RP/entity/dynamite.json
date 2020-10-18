@@ -1,0 +1,200 @@
+{
+	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\terraria RP\\entity\\dynamite.json",
+	"file_type": "client_entity",
+	"format_version": 1,
+	"file_uuid": "5c716fab_28d8_4c21_9ea0_65c95d708757",
+	"file_version": 7,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "terrariamod:dynamite",
+							"materials": {
+								"default": "snowball"
+							},
+							"textures": {
+								"default": "textures/items/weapons/dynamite"
+							},
+							"geometry": {
+								"default": "geometry.item_sprite"
+							},
+							"render_controllers": [
+								"controller.render.item_sprite"
+							],
+							"animations": {
+								"flying": "animation.actor.billboard"
+							},
+							"scripts": {
+								"animate": [
+									"flying"
+								]
+							}
+						}
+					}
+				},
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "terrariamod:dynamite",
+							"materials": {
+								"default": "snowball"
+							},
+							"textures": {
+								"default": "textures/items/weapons/dynamite"
+							},
+							"geometry": {
+								"default": "geometry.item_sprite"
+							},
+							"render_controllers": [
+								"controller.render.item_sprite"
+							],
+							"animations": {
+								"flying": "animation.actor.billboard"
+							},
+							"scripts": {
+								"animate": [
+									"flying"
+								]
+							}
+						}
+					}
+				},
+				"key": "minecraft:client_entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:dynamite",
+								"materials": {
+									"default": "snowball"
+								},
+								"textures": {
+									"default": "textures/items/weapons/dynamite"
+								},
+								"geometry": {
+									"default": "geometry.item_sprite"
+								},
+								"render_controllers": [
+									"controller.render.item_sprite"
+								],
+								"animations": {
+									"flying": "animation.actor.billboard"
+								},
+								"scripts": {
+									"animate": [
+										"flying"
+									]
+								}
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"open": {
+									"identifier": "terrariamod:dynamite",
+									"materials": {
+										"default": "snowball"
+									},
+									"textures": {
+										"default": "textures/items/weapons/dynamite"
+									},
+									"geometry": {
+										"default": "geometry.item_sprite"
+									},
+									"render_controllers": [
+										"controller.render.item_sprite"
+									],
+									"animations": {
+										"flying": "animation.actor.billboard"
+									},
+									"scripts": {
+										"animate": [
+											"flying"
+										]
+									}
+								},
+								"data": "terrariamod:dynamite",
+								"key": "identifier"
+							},
+							{
+								"key": "materials",
+								"is_minified": true,
+								"children": {
+									"default": "snowball"
+								}
+							},
+							{
+								"open": {
+									"identifier": "terrariamod:dynamite",
+									"materials": {
+										"default": "snowball"
+									},
+									"textures": {
+										"default": "textures/items/weapons/dynamite"
+									},
+									"geometry": {
+										"default": "geometry.item_sprite"
+									},
+									"render_controllers": [
+										"controller.render.item_sprite"
+									],
+									"animations": {
+										"flying": "animation.actor.billboard"
+									},
+									"scripts": {
+										"animate": [
+											"flying"
+										]
+									}
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": {
+									"default": "textures/items/weapons/dynamite"
+								}
+							},
+							{
+								"key": "geometry",
+								"is_minified": true,
+								"children": {
+									"default": "geometry.item_sprite"
+								}
+							},
+							{
+								"key": "render_controllers",
+								"is_minified": true,
+								"children": [
+									"controller.render.item_sprite"
+								]
+							},
+							{
+								"key": "animations",
+								"is_minified": true,
+								"children": {
+									"flying": "animation.actor.billboard"
+								}
+							},
+							{
+								"key": "scripts",
+								"is_minified": true,
+								"children": {
+									"animate": [
+										"flying"
+									]
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

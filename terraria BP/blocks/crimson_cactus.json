@@ -1,0 +1,13 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.13.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "terrariamod:crimson_cactus",
+			"register_to_creative_menu": true
+		},
+		"components": {
+			"minecraft:destroy_time": 0.3
+		}
+	}
+}

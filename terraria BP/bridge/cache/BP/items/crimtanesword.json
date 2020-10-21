@@ -3,7 +3,7 @@
 	"file_type": "item",
 	"format_version": 1,
 	"file_uuid": "6e634ef8_6969_43f4_97dd_a9f91c6e0dc2",
-	"file_version": 7,
+	"file_version": 8,
 	"cache_content": {
 		"children": [
 			{
@@ -24,6 +24,9 @@
 							},
 							"minecraft:display_name": {
 								"value": "item.terrariamod:crimtanesword.name"
+							},
+							"minecraft:creative_category": {
+								"parent": "itemGroup.name.sword"
 							}
 						}
 					}
@@ -49,6 +52,9 @@
 							},
 							"minecraft:display_name": {
 								"value": "item.terrariamod:crimtanesword.name"
+							},
+							"minecraft:creative_category": {
+								"parent": "itemGroup.name.sword"
 							}
 						}
 					}
@@ -71,6 +77,9 @@
 								},
 								"minecraft:display_name": {
 									"value": "item.terrariamod:crimtanesword.name"
+								},
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.sword"
 								}
 							}
 						},
@@ -97,6 +106,9 @@
 								},
 								"minecraft:display_name": {
 									"value": "item.terrariamod:crimtanesword.name"
+								},
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.sword"
 								}
 							}
 						},
@@ -130,6 +142,9 @@
 									},
 									"minecraft:display_name": {
 										"value": "item.terrariamod:crimtanesword.name"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.sword"
 									}
 								},
 								"key": "minecraft:icon",
@@ -149,12 +164,22 @@
 									},
 									"minecraft:display_name": {
 										"value": "item.terrariamod:crimtanesword.name"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.sword"
 									}
 								},
 								"key": "minecraft:display_name",
 								"is_minified": true,
 								"children": {
 									"value": "item.terrariamod:crimtanesword.name"
+								}
+							},
+							{
+								"key": "minecraft:creative_category",
+								"is_minified": true,
+								"children": {
+									"parent": "itemGroup.name.sword"
 								}
 							}
 						]

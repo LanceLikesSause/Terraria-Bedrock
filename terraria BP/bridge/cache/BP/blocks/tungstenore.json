@@ -3,24 +3,23 @@
 	"file_type": "block",
 	"format_version": 1,
 	"file_uuid": "3775194f_2862_4b6d_ade3_a3b0616e3ceb",
-	"file_version": 2,
+	"file_version": 3,
 	"cache_content": {
 		"children": [
 			{
-				"key": "format_version",
-				"is_minified": true,
-				"children": {}
+				"data": "1.16.100",
+				"key": "format_version"
 			},
 			{
 				"open": {
-					"format_version": {},
+					"format_version": "1.16.100",
 					"minecraft:block": {
 						"description": {
 							"identifier": "terrariamod:tungstenore",
 							"register_to_creative_menu": true
 						},
 						"components": {
-							"minecraft:destroy_time": 1,
+							"minecraft:destroy_time": 3,
 							"minecraft:loot": "loot_tables/blocks/tungstenore.json",
 							"minecraft:explosion_resistance": 0.5
 						}
@@ -43,7 +42,7 @@
 								"register_to_creative_menu": true
 							},
 							"components": {
-								"minecraft:destroy_time": 1,
+								"minecraft:destroy_time": 3,
 								"minecraft:loot": "loot_tables/blocks/tungstenore.json",
 								"minecraft:explosion_resistance": 0.5
 							}
@@ -51,7 +50,7 @@
 						"key": "components",
 						"is_minified": true,
 						"children": {
-							"minecraft:destroy_time": 1,
+							"minecraft:destroy_time": 3,
 							"minecraft:loot": "loot_tables/blocks/tungstenore.json",
 							"minecraft:explosion_resistance": 0.5
 						}

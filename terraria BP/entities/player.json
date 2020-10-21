@@ -16,8 +16,6 @@
 			"is_experimental": false
 		},
 		"component_groups": {
-			"bridge:default_player": {},
-			"bridge:equipped_cfac9d6b_af3f_44c9_bc10_6fb2d36fcec0": {},
 			"minecraft:add_bad_omen": {
 				"minecraft:spell_effects": {
 					"add_effects": [
@@ -56,69 +54,6 @@
 			},
 			"minecraft:hellstone_group": {
 				"minecraft:home": {}
-			}
-		},
-		"events": {
-			"bridge:on_reset_player": {
-				"add": {
-					"component_groups": [
-						"bridge:default_player"
-					]
-				}
-			},
-			"bridge:on_equipped_cfac9d6b_af3f_44c9_bc10_6fb2d36fcec0": {
-				"add": {
-					"component_groups": [
-						"bridge:equipped_cfac9d6b_af3f_44c9_bc10_6fb2d36fcec0"
-					]
-				}
-			},
-			"bridge:on_unequipped_cfac9d6b_af3f_44c9_bc10_6fb2d36fcec0": {
-				"remove": {
-					"component_groups": [
-						"bridge:equipped_cfac9d6b_af3f_44c9_bc10_6fb2d36fcec0"
-					]
-				}
-			},
-			"minecraft:gain_bad_omen": {
-				"add": {
-					"component_groups": [
-						"minecraft:add_bad_omen"
-					]
-				}
-			},
-			"minecraft:clear_add_bad_omen": {
-				"remove": {
-					"component_groups": [
-						"minecraft:add_bad_omen"
-					]
-				},
-				"add": {
-					"component_groups": [
-						"minecraft:clear_bad_omen_spell_effect"
-					]
-				}
-			},
-			"minecraft:trigger_raid": {
-				"add": {
-					"component_groups": [
-						"minecraft:raid_trigger"
-					]
-				}
-			},
-			"minecraft:remove_raid_trigger": {
-				"remove": {
-					"component_groups": [
-						"minecraft:raid_trigger"
-					]
-				}
-			},
-			"minecraft:hellstone_event": {
-				"add": {
-					"component_groups": [
-						"minecraft:hellstone_group"
-					]
-				}
 			}
 		},
 		"components": {
@@ -229,6 +164,48 @@
 						"subject": "self"
 					},
 					"event": "minecraft:hellstone_event"
+				}
+			}
+		},
+		"events": {
+			"minecraft:gain_bad_omen": {
+				"add": {
+					"component_groups": [
+						"minecraft:add_bad_omen"
+					]
+				}
+			},
+			"minecraft:clear_add_bad_omen": {
+				"remove": {
+					"component_groups": [
+						"minecraft:add_bad_omen"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"minecraft:clear_bad_omen_spell_effect"
+					]
+				}
+			},
+			"minecraft:trigger_raid": {
+				"add": {
+					"component_groups": [
+						"minecraft:raid_trigger"
+					]
+				}
+			},
+			"minecraft:remove_raid_trigger": {
+				"remove": {
+					"component_groups": [
+						"minecraft:raid_trigger"
+					]
+				}
+			},
+			"minecraft:hellstone_event": {
+				"add": {
+					"component_groups": [
+						"minecraft:hellstone_group"
+					]
 				}
 			}
 		}

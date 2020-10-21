@@ -3,7 +3,7 @@
 	"file_type": "item",
 	"format_version": 1,
 	"file_uuid": "be811bc3_ab21_4aa9_be5c_2db1e9bc14ac",
-	"file_version": 7,
+	"file_version": 8,
 	"cache_content": {
 		"children": [
 			{
@@ -24,6 +24,9 @@
 							},
 							"minecraft:icon": {
 								"texture": "terrariamod:leadsword"
+							},
+							"minecraft:creative_category": {
+								"parent": "itemGroup.name.sword"
 							}
 						}
 					}
@@ -49,6 +52,9 @@
 							},
 							"minecraft:icon": {
 								"texture": "terrariamod:leadsword"
+							},
+							"minecraft:creative_category": {
+								"parent": "itemGroup.name.sword"
 							}
 						}
 					}
@@ -71,6 +77,9 @@
 								},
 								"minecraft:icon": {
 									"texture": "terrariamod:leadsword"
+								},
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.sword"
 								}
 							}
 						},
@@ -97,6 +106,9 @@
 								},
 								"minecraft:icon": {
 									"texture": "terrariamod:leadsword"
+								},
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.sword"
 								}
 							}
 						},
@@ -130,6 +142,9 @@
 									},
 									"minecraft:icon": {
 										"texture": "terrariamod:leadsword"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.sword"
 									}
 								},
 								"key": "minecraft:display_name",
@@ -149,12 +164,22 @@
 									},
 									"minecraft:icon": {
 										"texture": "terrariamod:leadsword"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.sword"
 									}
 								},
 								"key": "minecraft:icon",
 								"is_minified": true,
 								"children": {
 									"texture": "terrariamod:leadsword"
+								}
+							},
+							{
+								"key": "minecraft:creative_category",
+								"is_minified": true,
+								"children": {
+									"parent": "itemGroup.name.sword"
 								}
 							}
 						]

@@ -3,7 +3,7 @@
 	"file_type": "block",
 	"format_version": 1,
 	"file_uuid": "d27976df_a090_4987_96f6_656d30ccae0d",
-	"file_version": 7,
+	"file_version": 8,
 	"cache_content": {
 		"children": [
 			{
@@ -20,7 +20,7 @@
 							"is_experimental": false
 						},
 						"components": {
-							"minecraft:destroy_time": 0.1,
+							"minecraft:destroy_time": 3,
 							"minecraft:loot": "loot_tables/blocks/silverore.json",
 							"minecraft:explosion_resistance": 0.5
 						}
@@ -45,7 +45,7 @@
 								"is_experimental": false
 							},
 							"components": {
-								"minecraft:destroy_time": 0.1,
+								"minecraft:destroy_time": 3,
 								"minecraft:loot": "loot_tables/blocks/silverore.json",
 								"minecraft:explosion_resistance": 0.5
 							}
@@ -53,7 +53,7 @@
 						"key": "components",
 						"is_minified": true,
 						"children": {
-							"minecraft:destroy_time": 0.1,
+							"minecraft:destroy_time": 3,
 							"minecraft:loot": "loot_tables/blocks/silverore.json",
 							"minecraft:explosion_resistance": 0.5
 						}

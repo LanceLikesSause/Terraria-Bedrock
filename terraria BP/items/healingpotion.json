@@ -1,4 +1,4 @@
-//bridge-file-version: #27
+//bridge-file-version: #39
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
@@ -12,7 +12,7 @@
 			"minecraft:use_duration": 1,
 			"minecraft:hand_equipped": true,
 			"minecraft:potion": {
-				"type": "regular"
+				"type": "splash"
 			},
 			"minecraft:food": {
 				"on_consume": {
@@ -27,7 +27,10 @@
 			"minecraft:icon": {
 				"texture": "terrariamod:healingpotion"
 			},
-			"minecraft:use_animation": "drink"
+			"minecraft:use_animation": "drink",
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.tpotions"
+			}
 		},
 		"events": {
 			"minecraft:use": {

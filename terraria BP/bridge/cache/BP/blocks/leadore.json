@@ -3,7 +3,7 @@
 	"file_type": "block",
 	"format_version": 1,
 	"file_uuid": "f02633a2_c1b3_424a_9f09_7fd8d8ecdfc1",
-	"file_version": 2,
+	"file_version": 3,
 	"cache_content": {
 		"children": [
 			{
@@ -19,7 +19,7 @@
 							"register_to_creative_menu": true
 						},
 						"components": {
-							"minecraft:destroy_time": 1,
+							"minecraft:destroy_time": 3,
 							"minecraft:loot": "loot_tables/blocks/leadore.json"
 						}
 					}
@@ -33,7 +33,7 @@
 								"register_to_creative_menu": true
 							},
 							"components": {
-								"minecraft:destroy_time": 1,
+								"minecraft:destroy_time": 3,
 								"minecraft:loot": "loot_tables/blocks/leadore.json"
 							}
 						},
@@ -51,14 +51,14 @@
 								"register_to_creative_menu": true
 							},
 							"components": {
-								"minecraft:destroy_time": 1,
+								"minecraft:destroy_time": 3,
 								"minecraft:loot": "loot_tables/blocks/leadore.json"
 							}
 						},
 						"key": "components",
 						"is_minified": true,
 						"children": {
-							"minecraft:destroy_time": 1,
+							"minecraft:destroy_time": 3,
 							"minecraft:loot": "loot_tables/blocks/leadore.json"
 						}
 					}

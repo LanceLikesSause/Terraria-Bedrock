@@ -3,7 +3,7 @@
 	"file_type": "item",
 	"format_version": 1,
 	"file_uuid": "24220a7f_fefc_4e9e_8118_bac11ed6d9da",
-	"file_version": 14,
+	"file_version": 16,
 	"cache_content": {
 		"children": [
 			{
@@ -28,8 +28,14 @@
 							},
 							"minecraft:display_name": {
 								"value": "item.terrariamod:coppersword.name"
+							},
+							"minecraft:creative_category": {
+								"parent": "itemGroup.name.sword"
 							}
 						}
+					},
+					"minecraft:creative_category": {
+						"parent": "itemGroup.name.tpotions"
 					}
 				},
 				"key": "minecraft:item",
@@ -50,6 +56,9 @@
 								},
 								"minecraft:display_name": {
 									"value": "item.terrariamod:coppersword.name"
+								},
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.sword"
 								}
 							}
 						},
@@ -76,6 +85,9 @@
 								},
 								"minecraft:display_name": {
 									"value": "item.terrariamod:coppersword.name"
+								},
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.sword"
 								}
 							}
 						},
@@ -109,6 +121,9 @@
 									},
 									"minecraft:display_name": {
 										"value": "item.terrariamod:coppersword.name"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.sword"
 									}
 								},
 								"key": "minecraft:icon",
@@ -128,6 +143,9 @@
 									},
 									"minecraft:display_name": {
 										"value": "item.terrariamod:coppersword.name"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.sword"
 									}
 								},
 								"key": "minecraft:display_name",
@@ -135,10 +153,39 @@
 								"children": {
 									"value": "item.terrariamod:coppersword.name"
 								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:hand_equipped": true,
+									"minecraft:damage": 8,
+									"minecraft:weapon": {},
+									"minecraft:icon": {
+										"texture": "terrariamod:coppersword"
+									},
+									"minecraft:display_name": {
+										"value": "item.terrariamod:coppersword.name"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.sword"
+									}
+								},
+								"key": "minecraft:creative_category",
+								"is_minified": true,
+								"children": {
+									"parent": "itemGroup.name.sword"
+								}
 							}
 						]
 					}
 				]
+			},
+			{
+				"key": "minecraft:creative_category",
+				"is_minified": true,
+				"children": {
+					"parent": "itemGroup.name.tpotions"
+				}
 			}
 		]
 	}

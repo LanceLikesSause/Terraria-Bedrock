@@ -538,30 +538,7 @@
 				"animation_controllers": {
 					"controller.animation.bridge_custom_item_behavior": {
 						"states": {
-							"default": {
-								"transitions": [
-									{
-										"holds_slimestaff": "query.get_equipped_item_name(0, 0) == 'slimestaff'"
-									}
-								],
-								"on_entry": [
-									"@s bridge:on_reset_player"
-								]
-							},
-							"holds_slimestaff": {
-								"transitions": [
-									{
-										"default": "query.get_equipped_item_name(0, 0) != 'slimestaff'"
-									}
-								],
-								"on_entry": [
-									"@s bridge:on_equipped_cfac9d6b_af3f_44c9_bc10_6fb2d36fcec0",
-									"/function slimestaff"
-								],
-								"on_exit": [
-									"@s bridge:on_unequipped_cfac9d6b_af3f_44c9_bc10_6fb2d36fcec0"
-								]
-							}
+							"default": {}
 						}
 					}
 				}
@@ -2071,9 +2048,6 @@
 	"BP/features/copperore_feature.json/overworld_underground_copperore_feature.json": {
 		"data": {}
 	},
-	"BP/features/copperore_feature.json": {
-		"data": {}
-	},
 	"BP/feature_rules/overworld_underground_copperore_feature.json": {
 		"data": {}
 	},
@@ -2087,9 +2061,6 @@
 		"data": {}
 	},
 	"BP/feature_rules/overworld_underground_tinore_feature.json": {
-		"data": {}
-	},
-	"BP/features/tinore_feature.json": {
 		"data": {}
 	},
 	"BP/blocks/leadore.json": {
@@ -2293,16 +2264,10 @@
 	"RP/entity/bloodcrawler.json": {
 		"data": {}
 	},
-	"BP/blocks/ironore_terraria.json": {
-		"data": {}
-	},
 	"BP/features/ironore_terraria_feature.json": {
 		"data": {}
 	},
 	"BP/feature_rules/overworld_undeground_ironore_terraria_feature.json": {
-		"data": {}
-	},
-	"BP/blocks/goldore_terraria.json": {
 		"data": {}
 	},
 	"BP/features/goldore_terraria_feature.json": {
@@ -3622,37 +3587,6 @@
 						}
 					}
 				}
-			},
-			"item_component@cfac9d6b_af3f_44c9_bc10_6fb2d36fcec0": {
-				"minecraft:entity": {
-					"component_groups": {
-						"bridge:default_player": {},
-						"bridge:equipped_cfac9d6b_af3f_44c9_bc10_6fb2d36fcec0": {}
-					},
-					"events": {
-						"bridge:on_reset_player": {
-							"add": {
-								"component_groups": [
-									"bridge:default_player"
-								]
-							}
-						},
-						"bridge:on_equipped_cfac9d6b_af3f_44c9_bc10_6fb2d36fcec0": {
-							"add": {
-								"component_groups": [
-									"bridge:equipped_cfac9d6b_af3f_44c9_bc10_6fb2d36fcec0"
-								]
-							}
-						},
-						"bridge:on_unequipped_cfac9d6b_af3f_44c9_bc10_6fb2d36fcec0": {
-							"remove": {
-								"component_groups": [
-									"bridge:equipped_cfac9d6b_af3f_44c9_bc10_6fb2d36fcec0"
-								]
-							}
-						}
-					}
-				}
 			}
 		}
 	},
@@ -3791,9 +3725,6 @@
 	"RP/entity/oldman.json": {
 		"data": {}
 	},
-	"BP/blocks/h.json": {
-		"data": {}
-	},
 	"RP/entity/player.json": {
 		"data": {}
 	},
@@ -3819,9 +3750,6 @@
 		"data": {}
 	},
 	"BP/items/aquascepter.json": {
-		"data": {}
-	},
-	"BP/feature_rules/copperore_featurerule.json": {
 		"data": {}
 	},
 	"BP/items/boomstick.json": {
@@ -3873,12 +3801,6 @@
 		"data": {}
 	},
 	"BP/items/woodenbow.json": {
-		"data": {}
-	},
-	"BP/entities/test_slime.json": {
-		"data": {}
-	},
-	"RP/entity/test_slime.json": {
 		"data": {}
 	},
 	"BP/blocks/mushroom.json": {
@@ -4025,9 +3947,6 @@
 	"BP/items/meteorite_helmet.json": {
 		"data": {}
 	},
-	"BP/biomes/cold_biome.biome.json": {
-		"data": {}
-	},
 	"BP/blocks/crimson_alter.json": {
 		"data": {}
 	},
@@ -4041,6 +3960,81 @@
 		"data": {}
 	},
 	"BP/blocks/hellforge.json": {
+		"data": {}
+	},
+	"BP/feature_rules/copperore_featurerule_underground.json": {
+		"data": {}
+	},
+	"BP/features/copperore_feature_underground.json": {
+		"data": {}
+	},
+	"BP/feature_rules/copperore_featurerule_surface.json": {
+		"data": {}
+	},
+	"BP/features/copperore_feature_surface.json": {
+		"data": {}
+	},
+	"BP/feature_rules/tinore_featurerule_surface.json": {
+		"data": {}
+	},
+	"BP/feature_rules/tinore_featurerule_underground.json": {
+		"data": {}
+	},
+	"BP/features/tinore_feature_surface.json": {
+		"data": {}
+	},
+	"BP/features/tinore_feature_underground.json": {
+		"data": {}
+	},
+	"BP/feature_rules/ironore_featurerule.json": {
+		"data": {}
+	},
+	"BP/features/ironore_feature.json": {
+		"data": {}
+	},
+	"BP/feature_rules/leadore_featurerule.json": {
+		"data": {}
+	},
+	"BP/feature_rules/silverore_featurerule.json": {
+		"data": {}
+	},
+	"BP/feature_rules/tungstenore_featurerule.json": {
+		"data": {}
+	},
+	"BP/feature_rules/goldore_featurerule.json": {
+		"data": {}
+	},
+	"BP/features/goldore_feature.json": {
+		"data": {}
+	},
+	"BP/feature_rules/platinumore_featurerule.json": {
+		"data": {}
+	},
+	"BP/biomes/example.json": {
+		"data": {}
+	},
+	"BP/recipes/workbench_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/tfurnace_recipe.json": {
+		"data": {}
+	},
+	"BP/blocks/ironore.json": {
+		"data": {}
+	},
+	"BP/blocks/goldore.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/ironore.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/goldore.json": {
+		"data": {}
+	},
+	"RP/entity/testing_slime.json": {
+		"data": {}
+	},
+	"BP/entities/testing_slime.json": {
 		"data": {}
 	}
 }

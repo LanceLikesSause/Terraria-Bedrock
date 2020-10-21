@@ -3,7 +3,7 @@
 	"file_type": "block",
 	"format_version": 1,
 	"file_uuid": "f524109d_f0ae_4a0a_a491_0bc2e2264e55",
-	"file_version": 3,
+	"file_version": 4,
 	"cache_content": {
 		"children": [
 			{
@@ -20,8 +20,7 @@
 						},
 						"components": {
 							"minecraft:loot": "loot_tables/blocks/platinumore.json",
-							"minecraft:destroy_time": 1,
-							"minecraft:explosion_resistance": 0.5
+							"minecraft:destroy_time": 3
 						}
 					}
 				},
@@ -35,8 +34,7 @@
 							},
 							"components": {
 								"minecraft:loot": "loot_tables/blocks/platinumore.json",
-								"minecraft:destroy_time": 1,
-								"minecraft:explosion_resistance": 0.5
+								"minecraft:destroy_time": 3
 							}
 						},
 						"key": "description",
@@ -54,16 +52,14 @@
 							},
 							"components": {
 								"minecraft:loot": "loot_tables/blocks/platinumore.json",
-								"minecraft:destroy_time": 1,
-								"minecraft:explosion_resistance": 0.5
+								"minecraft:destroy_time": 3
 							}
 						},
 						"key": "components",
 						"is_minified": true,
 						"children": {
 							"minecraft:loot": "loot_tables/blocks/platinumore.json",
-							"minecraft:destroy_time": 1,
-							"minecraft:explosion_resistance": 0.5
+							"minecraft:destroy_time": 3
 						}
 					}
 				]

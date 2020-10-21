@@ -167,9 +167,6 @@
 				"textures/blocks/planks_big_oak"
 			]
 		},
-		"stone_terraria": {
-			"textures": "textures/blocks/stone_terraria"
-		},
 		"log_terraria_side": {
 			"textures": [
 				"textures/blocks/log_terraria_oak_side",

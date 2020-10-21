@@ -69,9 +69,9 @@
 		}
 	},
 	"biome": {
-		"BP/biomes/cold_biome.biome.json": {
+		"BP/biomes/example.json": {
 			"tags": [
-				"cold_biome"
+				"bee_habitat"
 			]
 		}
 	},
@@ -206,25 +206,9 @@
 			"recipe_tags": [],
 			"custom_components": []
 		},
-		"BP/blocks/goldore_terraria.json": {
-			"identifiers": [
-				"terrariamod:goldore"
-			],
-			"events": [],
-			"recipe_tags": [],
-			"custom_components": []
-		},
 		"BP/blocks/greenbrick.json": {
 			"identifiers": [
 				"terrariamod:greenbrick"
-			],
-			"events": [],
-			"recipe_tags": [],
-			"custom_components": []
-		},
-		"BP/blocks/h.json": {
-			"identifiers": [
-				"terrariamod:h"
 			],
 			"events": [],
 			"recipe_tags": [],
@@ -241,14 +225,6 @@
 		"BP/blocks/ironblock.json": {
 			"identifiers": [
 				"terrariamod:ironblock"
-			],
-			"events": [],
-			"recipe_tags": [],
-			"custom_components": []
-		},
-		"BP/blocks/ironore_terraria.json": {
-			"identifiers": [
-				"terrariamod:ironore"
 			],
 			"events": [],
 			"recipe_tags": [],
@@ -502,6 +478,22 @@
 			"recipe_tags": [
 				"hellforge"
 			],
+			"custom_components": []
+		},
+		"BP/blocks/ironore.json": {
+			"identifiers": [
+				"terrariamod:ironore"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_components": []
+		},
+		"BP/blocks/goldore.json": {
+			"identifiers": [
+				"terrariamod:goldore"
+			],
+			"events": [],
+			"recipe_tags": [],
 			"custom_components": []
 		}
 	},
@@ -860,8 +852,7 @@
 			],
 			"animation_references": [],
 			"families": [
-				"slimes_terraria",
-				"monster",
+				"fox",
 				"mob"
 			],
 			"custom_commands": [],
@@ -1182,25 +1173,6 @@
 			"custom_commands": [],
 			"custom_components": []
 		},
-		"BP/entities/test_slime.json": {
-			"events": [
-				"minecraft:entity_spawned",
-				"minecraft:become_calm",
-				"minecraft:become_aggressive"
-			],
-			"bridge_core_tags": [],
-			"identifiers": [
-				"terrariamod:test_slime"
-			],
-			"animation_references": [],
-			"families": [
-				"slime",
-				"monster",
-				"mob"
-			],
-			"custom_commands": [],
-			"custom_components": []
-		},
 		"BP/entities/throwingknife_projectile.json": {
 			"events": [],
 			"bridge_core_tags": [],
@@ -1426,19 +1398,125 @@
 			"families": [],
 			"custom_commands": [],
 			"custom_components": []
+		},
+		"BP/entities/testing_slime.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:testing_slime"
+			],
+			"animation_references": [],
+			"families": [
+				"zombie",
+				"undead",
+				"monster",
+				"mob"
+			],
+			"custom_commands": [],
+			"custom_components": []
 		}
 	},
 	"feature_rule": {
-		"BP/feature_rules/copperore_featurerule.json": {
+		"BP/feature_rules/copperore_featurerule_underground.json": {
 			"identifiers": [
-				"minecraft:copperore_featurerule"
+				"minecraft:tungstenore_featurerule"
+			]
+		},
+		"BP/feature_rules/copperore_featurerule_surface.json": {
+			"identifiers": [
+				"minecraft:tungstenore_featurerule"
+			]
+		},
+		"BP/feature_rules/tinore_featurerule_surface.json": {
+			"identifiers": [
+				"minecraft:tungstenore_featurerule"
+			]
+		},
+		"BP/feature_rules/tinore_featurerule_underground.json": {
+			"identifiers": [
+				"minecraft:tungstenore_featurerule"
+			]
+		},
+		"BP/feature_rules/ironore_featurerule.json": {
+			"identifiers": [
+				"minecraft:ironore_featurerule"
+			]
+		},
+		"BP/feature_rules/leadore_featurerule.json": {
+			"identifiers": [
+				"minecraft:leadore_featurerule"
+			]
+		},
+		"BP/feature_rules/silverore_featurerule.json": {
+			"identifiers": [
+				"minecraft:silverore_featurerule"
+			]
+		},
+		"BP/feature_rules/tungstenore_featurerule.json": {
+			"identifiers": [
+				"minecraft:tungstenore_featurerule"
+			]
+		},
+		"BP/feature_rules/goldore_featurerule.json": {
+			"identifiers": [
+				"minecraft:goldore_featurerule"
+			]
+		},
+		"BP/feature_rules/platinumore_featurerule.json": {
+			"identifiers": [
+				"minecraft:platinumore_featurerule"
 			]
 		}
 	},
 	"feature": {
-		"BP/features/copperore_feature.json": {
+		"BP/features/copperore_feature_underground.json": {
 			"identifiers": [
-				"minecraft:copperore_feature"
+				"minecraft:platinumore_feature"
+			]
+		},
+		"BP/features/copperore_feature_surface.json": {
+			"identifiers": [
+				"minecraft:platinumore_feature"
+			]
+		},
+		"BP/features/tinore_feature_surface.json": {
+			"identifiers": [
+				"minecraft:platinumore_feature"
+			]
+		},
+		"BP/features/tinore_feature_underground.json": {
+			"identifiers": [
+				"minecraft:platinumore_feature"
+			]
+		},
+		"BP/features/ironore_feature.json": {
+			"identifiers": [
+				"minecraft:platinumore_feature"
+			]
+		},
+		"BP/features/leadore_feature.json": {
+			"identifiers": [
+				"minecraft:platinumore_feature"
+			]
+		},
+		"BP/features/silverore_feature.json": {
+			"identifiers": [
+				"minecraft:platinumore_feature"
+			]
+		},
+		"BP/features/tungstenore_feature.json": {
+			"identifiers": [
+				"minecraft:platinumore_feature"
+			]
+		},
+		"BP/features/goldore_feature.json": {
+			"identifiers": [
+				"minecraft:platinumore_feature"
+			]
+		},
+		"BP/features/platinumore_feature.json": {
+			"identifiers": [
+				"minecraft:platinumore_feature"
 			]
 		}
 	},
@@ -2907,6 +2985,16 @@
 		"BP/recipes/crimtanepickaxe_recipe.json": {
 			"tags": [
 				"iron_anvil"
+			]
+		},
+		"BP/recipes/workbench_recipe.json": {
+			"tags": [
+				"workbench"
+			]
+		},
+		"BP/recipes/tfurnace_recipe.json": {
+			"tags": [
+				"workbench"
 			]
 		}
 	},
@@ -4653,29 +4741,6 @@
 				"default"
 			]
 		},
-		"RP/entity/test_slime.json": {
-			"identifiers": [
-				"terrariamod:test_slime"
-			],
-			"particle_references": [],
-			"animation_references": [],
-			"sound_references": [],
-			"texture_references": [
-				"default"
-			],
-			"material_references": [
-				"default",
-				"outer"
-			],
-			"geometry_references": [
-				"default",
-				"armor"
-			],
-			"geometry_identifiers": [
-				"default",
-				"armor"
-			]
-		},
 		"RP/entity/throwingknife_projectile.json": {
 			"identifiers": [
 				"terrariamod:throwingknife_projectile"
@@ -5274,6 +5339,45 @@
 		"RP/entity/zombie_terraria.json": {
 			"identifiers": [
 				"terrariamod:zombie_terraria"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"humanoid_big_head",
+				"look_at_target_default",
+				"look_at_target_gliding",
+				"look_at_target_swimming",
+				"move",
+				"riding.arms",
+				"riding.legs",
+				"holding",
+				"brandish_spear",
+				"charging",
+				"attack.rotations",
+				"sneaking",
+				"bob",
+				"damage_nearby_mobs",
+				"bow_and_arrow",
+				"use_item_progress",
+				"zombie_attack_bare_hand",
+				"swimming"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/testing_slime.json": {
+			"identifiers": [
+				"terrariamod:testing_slime"
 			],
 			"particle_references": [],
 			"animation_references": [

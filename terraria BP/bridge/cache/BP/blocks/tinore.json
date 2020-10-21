@@ -3,7 +3,7 @@
 	"file_type": "block",
 	"format_version": 1,
 	"file_uuid": "f104e55b_7964_49f5_a3e7_0da838f32a6b",
-	"file_version": 3,
+	"file_version": 4,
 	"cache_content": {
 		"children": [
 			{
@@ -19,7 +19,7 @@
 							"register_to_creative_menu": true
 						},
 						"components": {
-							"minecraft:destroy_time": 1,
+							"minecraft:destroy_time": 3,
 							"minecraft:loot": "loot_tables/blocks/tinore.json",
 							"minecraft:explosion_resistance": 0.5
 						}
@@ -34,7 +34,7 @@
 								"register_to_creative_menu": true
 							},
 							"components": {
-								"minecraft:destroy_time": 1,
+								"minecraft:destroy_time": 3,
 								"minecraft:loot": "loot_tables/blocks/tinore.json",
 								"minecraft:explosion_resistance": 0.5
 							}
@@ -53,7 +53,7 @@
 								"register_to_creative_menu": true
 							},
 							"components": {
-								"minecraft:destroy_time": 1,
+								"minecraft:destroy_time": 3,
 								"minecraft:loot": "loot_tables/blocks/tinore.json",
 								"minecraft:explosion_resistance": 0.5
 							}
@@ -61,7 +61,7 @@
 						"key": "components",
 						"is_minified": true,
 						"children": {
-							"minecraft:destroy_time": 1,
+							"minecraft:destroy_time": 3,
 							"minecraft:loot": "loot_tables/blocks/tinore.json",
 							"minecraft:explosion_resistance": 0.5
 						}

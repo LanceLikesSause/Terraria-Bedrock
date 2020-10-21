@@ -3,7 +3,7 @@
 	"file_type": "item",
 	"format_version": 1,
 	"file_uuid": "b3a37b22_d8e4_482e_ad56_991e12851a90",
-	"file_version": 27,
+	"file_version": 39,
 	"cache_content": {
 		"children": [
 			{
@@ -20,7 +20,7 @@
 							"minecraft:use_duration": 1,
 							"minecraft:hand_equipped": true,
 							"minecraft:potion": {
-								"type": "regular"
+								"type": "splash"
 							},
 							"minecraft:food": {
 								"on_consume": {
@@ -35,7 +35,10 @@
 							"minecraft:icon": {
 								"texture": "terrariamod:healingpotion"
 							},
-							"minecraft:use_animation": "drink"
+							"minecraft:use_animation": "drink",
+							"minecraft:creative_category": {
+								"parent": "itemGroup.name.tpotions"
+							}
 						},
 						"events": {
 							"minecraft:use": {
@@ -66,7 +69,7 @@
 							"minecraft:use_duration": 1,
 							"minecraft:hand_equipped": true,
 							"minecraft:potion": {
-								"type": "regular"
+								"type": "splash"
 							},
 							"minecraft:food": {
 								"on_consume": {
@@ -81,7 +84,10 @@
 							"minecraft:icon": {
 								"texture": "terrariamod:healingpotion"
 							},
-							"minecraft:use_animation": "drink"
+							"minecraft:use_animation": "drink",
+							"minecraft:creative_category": {
+								"parent": "itemGroup.name.tpotions"
+							}
 						},
 						"events": {
 							"minecraft:use": {
@@ -109,7 +115,7 @@
 								"minecraft:use_duration": 1,
 								"minecraft:hand_equipped": true,
 								"minecraft:potion": {
-									"type": "regular"
+									"type": "splash"
 								},
 								"minecraft:food": {
 									"on_consume": {
@@ -124,7 +130,10 @@
 								"minecraft:icon": {
 									"texture": "terrariamod:healingpotion"
 								},
-								"minecraft:use_animation": "drink"
+								"minecraft:use_animation": "drink",
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.tpotions"
+								}
 							},
 							"events": {
 								"minecraft:use": {
@@ -156,7 +165,7 @@
 								"minecraft:use_duration": 1,
 								"minecraft:hand_equipped": true,
 								"minecraft:potion": {
-									"type": "regular"
+									"type": "splash"
 								},
 								"minecraft:food": {
 									"on_consume": {
@@ -171,7 +180,10 @@
 								"minecraft:icon": {
 									"texture": "terrariamod:healingpotion"
 								},
-								"minecraft:use_animation": "drink"
+								"minecraft:use_animation": "drink",
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.tpotions"
+								}
 							},
 							"events": {
 								"minecraft:use": {
@@ -206,44 +218,34 @@
 								"key": "minecraft:potion",
 								"is_minified": true,
 								"children": {
-									"type": "regular"
+									"type": "splash"
 								}
 							},
 							{
 								"key": "minecraft:food",
-								"is_minified": true,
-								"children": {
-									"on_consume": {
-										"event": "minecraft:use",
-										"target": "self"
-									},
-									"can_always_eat": true
-								}
-							},
-							{
-								"open": {
-									"minecraft:stacked_by_data": true,
-									"minecraft:max_stack_size": 64,
-									"minecraft:use_duration": 1,
-									"minecraft:hand_equipped": true,
-									"minecraft:potion": {
-										"type": "regular"
-									},
-									"minecraft:food": {
-										"on_consume": {
+								"children": [
+									{
+										"open": {
+											"on_consume": {
+												"event": "minecraft:use",
+												"target": "self"
+											},
+											"can_always_eat": true
+										},
+										"key": "on_consume",
+										"is_minified": true,
+										"children": {
 											"event": "minecraft:use",
 											"target": "self"
-										},
-										"can_always_eat": true
+										}
 									},
-									"minecraft:display_name": {
-										"value": "item.terrariamod:healingpotion.name"
-									},
-									"minecraft:icon": {
-										"texture": "terrariamod:healingpotion"
-									},
-									"minecraft:use_animation": "drink"
-								},
+									{
+										"data": "true",
+										"key": "can_always_eat"
+									}
+								]
+							},
+							{
 								"key": "minecraft:display_name",
 								"is_minified": true,
 								"children": {
@@ -251,29 +253,6 @@
 								}
 							},
 							{
-								"open": {
-									"minecraft:stacked_by_data": true,
-									"minecraft:max_stack_size": 64,
-									"minecraft:use_duration": 1,
-									"minecraft:hand_equipped": true,
-									"minecraft:potion": {
-										"type": "regular"
-									},
-									"minecraft:food": {
-										"on_consume": {
-											"event": "minecraft:use",
-											"target": "self"
-										},
-										"can_always_eat": true
-									},
-									"minecraft:display_name": {
-										"value": "item.terrariamod:healingpotion.name"
-									},
-									"minecraft:icon": {
-										"texture": "terrariamod:healingpotion"
-									},
-									"minecraft:use_animation": "drink"
-								},
 								"key": "minecraft:icon",
 								"is_minified": true,
 								"children": {
@@ -283,10 +262,85 @@
 							{
 								"data": "drink",
 								"key": "minecraft:use_animation"
+							},
+							{
+								"open": {
+									"minecraft:stacked_by_data": true,
+									"minecraft:max_stack_size": 64,
+									"minecraft:use_duration": 1,
+									"minecraft:hand_equipped": true,
+									"minecraft:potion": {
+										"type": "splash"
+									},
+									"minecraft:food": {
+										"on_consume": {
+											"event": "minecraft:use",
+											"target": "self"
+										},
+										"can_always_eat": true
+									},
+									"minecraft:display_name": {
+										"value": "item.terrariamod:healingpotion.name"
+									},
+									"minecraft:icon": {
+										"texture": "terrariamod:healingpotion"
+									},
+									"minecraft:use_animation": "drink",
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.tpotions"
+									}
+								},
+								"key": "minecraft:creative_category",
+								"is_minified": true,
+								"children": {
+									"parent": "itemGroup.name.tpotions"
+								}
 							}
 						]
 					},
 					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:healingpotion",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:stacked_by_data": true,
+								"minecraft:max_stack_size": 64,
+								"minecraft:use_duration": 1,
+								"minecraft:hand_equipped": true,
+								"minecraft:potion": {
+									"type": "splash"
+								},
+								"minecraft:food": {
+									"on_consume": {
+										"event": "minecraft:use",
+										"target": "self"
+									},
+									"can_always_eat": true
+								},
+								"minecraft:display_name": {
+									"value": "item.terrariamod:healingpotion.name"
+								},
+								"minecraft:icon": {
+									"texture": "terrariamod:healingpotion"
+								},
+								"minecraft:use_animation": "drink",
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.tpotions"
+								}
+							},
+							"events": {
+								"minecraft:use": {
+									"add_mob_effect": {
+										"effect": "regeneration",
+										"target": "holder",
+										"duration": 4,
+										"amplifier": 50
+									}
+								}
+							}
+						},
 						"key": "events",
 						"children": [
 							{

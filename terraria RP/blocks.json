@@ -203,30 +203,6 @@
 		"textures": "planks",
 		"sound": "wood"
 	},
-	"minecraft:cobblestone": {
-		"textures": "cobblestone",
-		"sound": "stone"
-	},
-	"minecraft:mossy_cobblestone": {
-		"textures": "mossy_cobblestone",
-		"sound": "stone"
-	},
-	"minecraft:stone": {
-		"textures": "stone_terraria",
-		"sound": "stone"
-	},
-	"minecraft:sand": {
-		"textures": "sand",
-		"sound": "sand"
-	},
-	"minecraft:sandstone": {
-		"textures": "sandstone",
-		"sound": "stone"
-	},
-	"minecraft:dirt": {
-		"textures": "dirt",
-		"sound": "gravel"
-	},
 	"minecraft:grass": {
 		"carried_textures": {
 			"down": "grass_carried_bottom",

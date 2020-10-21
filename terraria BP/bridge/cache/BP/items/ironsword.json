@@ -3,7 +3,7 @@
 	"file_type": "item",
 	"format_version": 1,
 	"file_uuid": "54c45ebd_5416_4441_8660_380c5db46788",
-	"file_version": 6,
+	"file_version": 7,
 	"cache_content": {
 		"children": [
 			{
@@ -24,6 +24,9 @@
 							},
 							"minecraft:icon": {
 								"texture": "terrariamod:ironsword"
+							},
+							"minecraft:creative_category": {
+								"parent": "itemGroup.name.sword"
 							}
 						}
 					}
@@ -49,6 +52,9 @@
 							},
 							"minecraft:icon": {
 								"texture": "terrariamod:ironsword"
+							},
+							"minecraft:creative_category": {
+								"parent": "itemGroup.name.sword"
 							}
 						}
 					}
@@ -71,6 +77,9 @@
 								},
 								"minecraft:icon": {
 									"texture": "terrariamod:ironsword"
+								},
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.sword"
 								}
 							}
 						},
@@ -97,6 +106,9 @@
 								},
 								"minecraft:icon": {
 									"texture": "terrariamod:ironsword"
+								},
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.sword"
 								}
 							}
 						},
@@ -130,6 +142,9 @@
 									},
 									"minecraft:icon": {
 										"texture": "terrariamod:ironsword"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.sword"
 									}
 								},
 								"key": "minecraft:display_name",
@@ -149,12 +164,22 @@
 									},
 									"minecraft:icon": {
 										"texture": "terrariamod:ironsword"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.sword"
 									}
 								},
 								"key": "minecraft:icon",
 								"is_minified": true,
 								"children": {
 									"texture": "terrariamod:ironsword"
+								}
+							},
+							{
+								"key": "minecraft:creative_category",
+								"is_minified": true,
+								"children": {
+									"parent": "itemGroup.name.sword"
 								}
 							}
 						]

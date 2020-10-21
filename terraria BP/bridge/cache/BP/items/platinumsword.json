@@ -3,7 +3,7 @@
 	"file_type": "item",
 	"format_version": 1,
 	"file_uuid": "0df8cc86_2cdc_48b0_9670_f831e8e677e1",
-	"file_version": 12,
+	"file_version": 13,
 	"cache_content": {
 		"children": [
 			{
@@ -24,6 +24,9 @@
 							},
 							"minecraft:display_name": {
 								"value": "item.terrariamod:platinumsword.name"
+							},
+							"minecraft:creative_category": {
+								"parent": "itemGroup.name.sword"
 							}
 						}
 					}
@@ -49,6 +52,9 @@
 							},
 							"minecraft:display_name": {
 								"value": "item.terrariamod:platinumsword.name"
+							},
+							"minecraft:creative_category": {
+								"parent": "itemGroup.name.sword"
 							}
 						}
 					}
@@ -71,6 +77,9 @@
 								},
 								"minecraft:display_name": {
 									"value": "item.terrariamod:platinumsword.name"
+								},
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.sword"
 								}
 							}
 						},
@@ -97,6 +106,9 @@
 								},
 								"minecraft:display_name": {
 									"value": "item.terrariamod:platinumsword.name"
+								},
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.sword"
 								}
 							}
 						},
@@ -130,6 +142,9 @@
 									},
 									"minecraft:display_name": {
 										"value": "item.terrariamod:platinumsword.name"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.sword"
 									}
 								},
 								"key": "minecraft:icon",
@@ -149,12 +164,22 @@
 									},
 									"minecraft:display_name": {
 										"value": "item.terrariamod:platinumsword.name"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.sword"
 									}
 								},
 								"key": "minecraft:display_name",
 								"is_minified": true,
 								"children": {
 									"value": "item.terrariamod:platinumsword.name"
+								}
+							},
+							{
+								"key": "minecraft:creative_category",
+								"is_minified": true,
+								"children": {
+									"parent": "itemGroup.name.sword"
 								}
 							}
 						]

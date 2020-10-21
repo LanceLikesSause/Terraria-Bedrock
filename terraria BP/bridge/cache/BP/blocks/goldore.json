@@ -1,0 +1,110 @@
+{
+	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\blocks\\goldore.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "b533bdef_6033_4317_970f_cfb8a0e11afe",
+	"file_version": 4,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:block": {
+						"description": {
+							"identifier": "terrariamod:goldore",
+							"register_to_creative_menu": true
+						},
+						"components": {
+							"minecraft:destroy_time": 3,
+							"minecraft:loot": {
+								"table": "loot_tables/blocks/goldore.json"
+							}
+						}
+					}
+				},
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:block": {
+						"description": {
+							"identifier": "terrariamod:goldore",
+							"register_to_creative_menu": true
+						},
+						"components": {
+							"minecraft:destroy_time": 3,
+							"minecraft:loot": {
+								"table": "loot_tables/blocks/goldore.json"
+							}
+						}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:goldore",
+								"register_to_creative_menu": true
+							},
+							"components": {
+								"minecraft:destroy_time": 3,
+								"minecraft:loot": {
+									"table": "loot_tables/blocks/goldore.json"
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:goldore",
+							"register_to_creative_menu": true
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:goldore",
+								"register_to_creative_menu": true
+							},
+							"components": {
+								"minecraft:destroy_time": 3,
+								"minecraft:loot": {
+									"table": "loot_tables/blocks/goldore.json"
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"open": {
+									"minecraft:destroy_time": 3,
+									"minecraft:loot": {
+										"table": "loot_tables/blocks/goldore.json"
+									}
+								},
+								"data": "3",
+								"key": "minecraft:destroy_time"
+							},
+							{
+								"open": {
+									"minecraft:destroy_time": 3,
+									"minecraft:loot": {
+										"table": "loot_tables/blocks/goldore.json"
+									}
+								},
+								"key": "minecraft:loot",
+								"is_minified": true,
+								"children": {
+									"table": "loot_tables/blocks/goldore.json"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

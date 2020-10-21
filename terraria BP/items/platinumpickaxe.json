@@ -1,4 +1,4 @@
-//bridge-file-version: #67
+//bridge-file-version: #68
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
@@ -20,31 +20,35 @@
 				"destroy_speeds": [
 					{
 						"block": "terrariamod:copperore",
-						"speed": 1
+						"speed": 8
 					},
 					{
 						"block": "terrariamod:tinore",
-						"speed": 1
+						"speed": 8
 					},
 					{
 						"block": "terrariamod:ironore",
-						"speed": 1
+						"speed": 8
 					},
 					{
 						"block": "terrariamod:leadore",
-						"speed": 1
+						"speed": 8
 					},
 					{
 						"block": "terrariamod:silverore",
-						"speed": 1
+						"speed": 8
 					},
 					{
 						"block": "terrariamod:tungstenore",
-						"speed": 1
+						"speed": 8
 					},
 					{
 						"block": "terrariamod:goldore",
-						"speed": 1
+						"speed": 8
+					},
+					{
+						"block": "terrariamod:platinumore",
+						"speed": 8
 					},
 					{
 						"speed": 8,

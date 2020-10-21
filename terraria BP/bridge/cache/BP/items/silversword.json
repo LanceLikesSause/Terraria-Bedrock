@@ -3,7 +3,7 @@
 	"file_type": "item",
 	"format_version": 1,
 	"file_uuid": "3eedb5d8_7918_418b_86d1_538931894059",
-	"file_version": 8,
+	"file_version": 9,
 	"cache_content": {
 		"children": [
 			{
@@ -24,6 +24,9 @@
 							},
 							"minecraft:display_name": {
 								"value": "item.terrariamod:silversword.name"
+							},
+							"minecraft:creative_category": {
+								"parent": "itemGroup.name.sword"
 							}
 						}
 					}
@@ -49,6 +52,9 @@
 							},
 							"minecraft:display_name": {
 								"value": "item.terrariamod:silversword.name"
+							},
+							"minecraft:creative_category": {
+								"parent": "itemGroup.name.sword"
 							}
 						}
 					}
@@ -71,6 +77,9 @@
 								},
 								"minecraft:display_name": {
 									"value": "item.terrariamod:silversword.name"
+								},
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.sword"
 								}
 							}
 						},
@@ -97,6 +106,9 @@
 								},
 								"minecraft:display_name": {
 									"value": "item.terrariamod:silversword.name"
+								},
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.sword"
 								}
 							}
 						},
@@ -130,6 +142,9 @@
 									},
 									"minecraft:display_name": {
 										"value": "item.terrariamod:silversword.name"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.sword"
 									}
 								},
 								"key": "minecraft:icon",
@@ -149,12 +164,22 @@
 									},
 									"minecraft:display_name": {
 										"value": "item.terrariamod:silversword.name"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.sword"
 									}
 								},
 								"key": "minecraft:display_name",
 								"is_minified": true,
 								"children": {
 									"value": "item.terrariamod:silversword.name"
+								}
+							},
+							{
+								"key": "minecraft:creative_category",
+								"is_minified": true,
+								"children": {
+									"parent": "itemGroup.name.sword"
 								}
 							}
 						]

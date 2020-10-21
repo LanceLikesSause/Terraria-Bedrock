@@ -3,7 +3,7 @@
 	"file_type": "item",
 	"format_version": 1,
 	"file_uuid": "ebd19993_0fb8_4db1_b89e_ec4587d0e589",
-	"file_version": 55,
+	"file_version": 56,
 	"cache_content": {
 		"children": [
 			{
@@ -28,31 +28,35 @@
 								"destroy_speeds": [
 									{
 										"block": "terrariamod:copperore",
-										"speed": 1
+										"speed": 2
 									},
 									{
 										"block": "terrariamod:tinore",
-										"speed": 1
+										"speed": 2
 									},
 									{
 										"block": "terrariamod:ironore",
-										"speed": 1
+										"speed": 2
 									},
 									{
 										"block": "terrariamod:leadore",
-										"speed": 1
+										"speed": 2
 									},
 									{
 										"block": "terrariamod:silverore",
-										"speed": 1
+										"speed": 2
 									},
 									{
 										"block": "terrariamod:tungstenore",
-										"speed": 1
+										"speed": 2
 									},
 									{
 										"block": "terrariamod:goldore",
-										"speed": 1
+										"speed": 2
+									},
+									{
+										"block": "terrariamod:platinumore",
+										"speed": 2
 									},
 									{
 										"speed": 2,
@@ -96,31 +100,35 @@
 								"destroy_speeds": [
 									{
 										"block": "terrariamod:copperore",
-										"speed": 1
+										"speed": 2
 									},
 									{
 										"block": "terrariamod:tinore",
-										"speed": 1
+										"speed": 2
 									},
 									{
 										"block": "terrariamod:ironore",
-										"speed": 1
+										"speed": 2
 									},
 									{
 										"block": "terrariamod:leadore",
-										"speed": 1
+										"speed": 2
 									},
 									{
 										"block": "terrariamod:silverore",
-										"speed": 1
+										"speed": 2
 									},
 									{
 										"block": "terrariamod:tungstenore",
-										"speed": 1
+										"speed": 2
 									},
 									{
 										"block": "terrariamod:goldore",
-										"speed": 1
+										"speed": 2
+									},
+									{
+										"block": "terrariamod:platinumore",
+										"speed": 2
 									},
 									{
 										"speed": 2,
@@ -161,31 +169,35 @@
 									"destroy_speeds": [
 										{
 											"block": "terrariamod:copperore",
-											"speed": 1
+											"speed": 2
 										},
 										{
 											"block": "terrariamod:tinore",
-											"speed": 1
+											"speed": 2
 										},
 										{
 											"block": "terrariamod:ironore",
-											"speed": 1
+											"speed": 2
 										},
 										{
 											"block": "terrariamod:leadore",
-											"speed": 1
+											"speed": 2
 										},
 										{
 											"block": "terrariamod:silverore",
-											"speed": 1
+											"speed": 2
 										},
 										{
 											"block": "terrariamod:tungstenore",
-											"speed": 1
+											"speed": 2
 										},
 										{
 											"block": "terrariamod:goldore",
-											"speed": 1
+											"speed": 2
+										},
+										{
+											"block": "terrariamod:platinumore",
+											"speed": 2
 										},
 										{
 											"speed": 2,
@@ -230,31 +242,35 @@
 									"destroy_speeds": [
 										{
 											"block": "terrariamod:copperore",
-											"speed": 1
+											"speed": 2
 										},
 										{
 											"block": "terrariamod:tinore",
-											"speed": 1
+											"speed": 2
 										},
 										{
 											"block": "terrariamod:ironore",
-											"speed": 1
+											"speed": 2
 										},
 										{
 											"block": "terrariamod:leadore",
-											"speed": 1
+											"speed": 2
 										},
 										{
 											"block": "terrariamod:silverore",
-											"speed": 1
+											"speed": 2
 										},
 										{
 											"block": "terrariamod:tungstenore",
-											"speed": 1
+											"speed": 2
 										},
 										{
 											"block": "terrariamod:goldore",
-											"speed": 1
+											"speed": 2
+										},
+										{
+											"block": "terrariamod:platinumore",
+											"speed": 2
 										},
 										{
 											"speed": 2,
@@ -297,31 +313,35 @@
 										"destroy_speeds": [
 											{
 												"block": "terrariamod:copperore",
-												"speed": 1
+												"speed": 2
 											},
 											{
 												"block": "terrariamod:tinore",
-												"speed": 1
+												"speed": 2
 											},
 											{
 												"block": "terrariamod:ironore",
-												"speed": 1
+												"speed": 2
 											},
 											{
 												"block": "terrariamod:leadore",
-												"speed": 1
+												"speed": 2
 											},
 											{
 												"block": "terrariamod:silverore",
-												"speed": 1
+												"speed": 2
 											},
 											{
 												"block": "terrariamod:tungstenore",
-												"speed": 1
+												"speed": 2
 											},
 											{
 												"block": "terrariamod:goldore",
-												"speed": 1
+												"speed": 2
+											},
+											{
+												"block": "terrariamod:platinumore",
+												"speed": 2
 											},
 											{
 												"speed": 2,
@@ -354,6 +374,65 @@
 								}
 							},
 							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:hand_equipped": true,
+									"minecraft:mining_speed": 2,
+									"minecraft:damage": 2,
+									"minecraft:enchantable": {
+										"value": 22,
+										"slot": "pickaxe"
+									},
+									"minecraft:digger": {
+										"use_efficiency": true,
+										"destroy_speeds": [
+											{
+												"block": "terrariamod:copperore",
+												"speed": 2
+											},
+											{
+												"block": "terrariamod:tinore",
+												"speed": 2
+											},
+											{
+												"block": "terrariamod:ironore",
+												"speed": 2
+											},
+											{
+												"block": "terrariamod:leadore",
+												"speed": 2
+											},
+											{
+												"block": "terrariamod:silverore",
+												"speed": 2
+											},
+											{
+												"block": "terrariamod:tungstenore",
+												"speed": 2
+											},
+											{
+												"block": "terrariamod:goldore",
+												"speed": 2
+											},
+											{
+												"block": "terrariamod:platinumore",
+												"speed": 2
+											},
+											{
+												"speed": 2,
+												"block": {
+													"tags": "query.any_tag('stone', 'metal', 'gravel', 'grass', 'snow', 'dirt', 'sand')"
+												}
+											}
+										]
+									},
+									"minecraft:icon": {
+										"texture": "terrariamod:cactuspickaxe"
+									},
+									"minecraft:display_name": {
+										"value": "item.terrariamod:cactuspickaxe.name"
+									}
+								},
 								"key": "minecraft:digger",
 								"children": [
 									{
@@ -362,31 +441,35 @@
 											"destroy_speeds": [
 												{
 													"block": "terrariamod:copperore",
-													"speed": 1
+													"speed": 2
 												},
 												{
 													"block": "terrariamod:tinore",
-													"speed": 1
+													"speed": 2
 												},
 												{
 													"block": "terrariamod:ironore",
-													"speed": 1
+													"speed": 2
 												},
 												{
 													"block": "terrariamod:leadore",
-													"speed": 1
+													"speed": 2
 												},
 												{
 													"block": "terrariamod:silverore",
-													"speed": 1
+													"speed": 2
 												},
 												{
 													"block": "terrariamod:tungstenore",
-													"speed": 1
+													"speed": 2
 												},
 												{
 													"block": "terrariamod:goldore",
-													"speed": 1
+													"speed": 2
+												},
+												{
+													"block": "terrariamod:platinumore",
+													"speed": 2
 												},
 												{
 													"speed": 2,
@@ -405,31 +488,35 @@
 											"destroy_speeds": [
 												{
 													"block": "terrariamod:copperore",
-													"speed": 1
+													"speed": 2
 												},
 												{
 													"block": "terrariamod:tinore",
-													"speed": 1
+													"speed": 2
 												},
 												{
 													"block": "terrariamod:ironore",
-													"speed": 1
+													"speed": 2
 												},
 												{
 													"block": "terrariamod:leadore",
-													"speed": 1
+													"speed": 2
 												},
 												{
 													"block": "terrariamod:silverore",
-													"speed": 1
+													"speed": 2
 												},
 												{
 													"block": "terrariamod:tungstenore",
-													"speed": 1
+													"speed": 2
 												},
 												{
 													"block": "terrariamod:goldore",
-													"speed": 1
+													"speed": 2
+												},
+												{
+													"block": "terrariamod:platinumore",
+													"speed": 2
 												},
 												{
 													"speed": 2,
@@ -442,83 +529,414 @@
 										"key": "destroy_speeds",
 										"children": [
 											{
+												"open": [
+													{
+														"block": "terrariamod:copperore",
+														"speed": 2
+													},
+													{
+														"block": "terrariamod:tinore",
+														"speed": 2
+													},
+													{
+														"block": "terrariamod:ironore",
+														"speed": 2
+													},
+													{
+														"block": "terrariamod:leadore",
+														"speed": 2
+													},
+													{
+														"block": "terrariamod:silverore",
+														"speed": 2
+													},
+													{
+														"block": "terrariamod:tungstenore",
+														"speed": 2
+													},
+													{
+														"block": "terrariamod:goldore",
+														"speed": 2
+													},
+													{
+														"block": "terrariamod:platinumore",
+														"speed": 2
+													},
+													{
+														"speed": 2,
+														"block": {
+															"tags": "query.any_tag('stone', 'metal', 'gravel', 'grass', 'snow', 'dirt', 'sand')"
+														}
+													}
+												],
 												"is_minified": true,
 												"children": {
 													"block": "terrariamod:copperore",
-													"speed": 1
-												}
-											},
-											{
-												"is_minified": true,
-												"children": {
-													"block": "terrariamod:tinore",
-													"speed": 1
-												}
-											},
-											{
-												"is_minified": true,
-												"children": {
-													"block": "terrariamod:ironore",
-													"speed": 1
-												}
-											},
-											{
-												"is_minified": true,
-												"children": {
-													"block": "terrariamod:leadore",
-													"speed": 1
-												}
-											},
-											{
-												"is_minified": true,
-												"children": {
-													"block": "terrariamod:silverore",
-													"speed": 1
-												}
-											},
-											{
-												"is_minified": true,
-												"children": {
-													"block": "terrariamod:tungstenore",
-													"speed": 1
-												}
-											},
-											{
-												"is_minified": true,
-												"children": {
-													"block": "terrariamod:goldore",
-													"speed": 1
+													"speed": 2
 												}
 											},
 											{
 												"open": [
 													{
 														"block": "terrariamod:copperore",
-														"speed": 1
+														"speed": 2
 													},
 													{
 														"block": "terrariamod:tinore",
-														"speed": 1
+														"speed": 2
 													},
 													{
 														"block": "terrariamod:ironore",
-														"speed": 1
+														"speed": 2
 													},
 													{
 														"block": "terrariamod:leadore",
-														"speed": 1
+														"speed": 2
 													},
 													{
 														"block": "terrariamod:silverore",
-														"speed": 1
+														"speed": 2
 													},
 													{
 														"block": "terrariamod:tungstenore",
-														"speed": 1
+														"speed": 2
 													},
 													{
 														"block": "terrariamod:goldore",
-														"speed": 1
+														"speed": 2
+													},
+													{
+														"block": "terrariamod:platinumore",
+														"speed": 2
+													},
+													{
+														"speed": 2,
+														"block": {
+															"tags": "query.any_tag('stone', 'metal', 'gravel', 'grass', 'snow', 'dirt', 'sand')"
+														}
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"block": "terrariamod:tinore",
+													"speed": 2
+												}
+											},
+											{
+												"open": [
+													{
+														"block": "terrariamod:copperore",
+														"speed": 2
+													},
+													{
+														"block": "terrariamod:tinore",
+														"speed": 2
+													},
+													{
+														"block": "terrariamod:ironore",
+														"speed": 2
+													},
+													{
+														"block": "terrariamod:leadore",
+														"speed": 2
+													},
+													{
+														"block": "terrariamod:silverore",
+														"speed": 2
+													},
+													{
+														"block": "terrariamod:tungstenore",
+														"speed": 2
+													},
+													{
+														"block": "terrariamod:goldore",
+														"speed": 2
+													},
+													{
+														"block": "terrariamod:platinumore",
+														"speed": 2
+													},
+													{
+														"speed": 2,
+														"block": {
+															"tags": "query.any_tag('stone', 'metal', 'gravel', 'grass', 'snow', 'dirt', 'sand')"
+														}
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"block": "terrariamod:ironore",
+													"speed": 2
+												}
+											},
+											{
+												"open": [
+													{
+														"block": "terrariamod:copperore",
+														"speed": 2
+													},
+													{
+														"block": "terrariamod:tinore",
+														"speed": 2
+													},
+													{
+														"block": "terrariamod:ironore",
+														"speed": 2
+													},
+													{
+														"block": "terrariamod:leadore",
+														"speed": 2
+													},
+													{
+														"block": "terrariamod:silverore",
+														"speed": 2
+													},
+													{
+														"block": "terrariamod:tungstenore",
+														"speed": 2
+													},
+													{
+														"block": "terrariamod:goldore",
+														"speed": 2
+													},
+													{
+														"block": "terrariamod:platinumore",
+														"speed": 2
+													},
+													{
+														"speed": 2,
+														"block": {
+															"tags": "query.any_tag('stone', 'metal', 'gravel', 'grass', 'snow', 'dirt', 'sand')"
+														}
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"block": "terrariamod:leadore",
+													"speed": 2
+												}
+											},
+											{
+												"open": [
+													{
+														"block": "terrariamod:copperore",
+														"speed": 2
+													},
+													{
+														"block": "terrariamod:tinore",
+														"speed": 2
+													},
+													{
+														"block": "terrariamod:ironore",
+														"speed": 2
+													},
+													{
+														"block": "terrariamod:leadore",
+														"speed": 2
+													},
+													{
+														"block": "terrariamod:silverore",
+														"speed": 2
+													},
+													{
+														"block": "terrariamod:tungstenore",
+														"speed": 2
+													},
+													{
+														"block": "terrariamod:goldore",
+														"speed": 2
+													},
+													{
+														"block": "terrariamod:platinumore",
+														"speed": 2
+													},
+													{
+														"speed": 2,
+														"block": {
+															"tags": "query.any_tag('stone', 'metal', 'gravel', 'grass', 'snow', 'dirt', 'sand')"
+														}
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"block": "terrariamod:silverore",
+													"speed": 2
+												}
+											},
+											{
+												"open": [
+													{
+														"block": "terrariamod:copperore",
+														"speed": 2
+													},
+													{
+														"block": "terrariamod:tinore",
+														"speed": 2
+													},
+													{
+														"block": "terrariamod:ironore",
+														"speed": 2
+													},
+													{
+														"block": "terrariamod:leadore",
+														"speed": 2
+													},
+													{
+														"block": "terrariamod:silverore",
+														"speed": 2
+													},
+													{
+														"block": "terrariamod:tungstenore",
+														"speed": 2
+													},
+													{
+														"block": "terrariamod:goldore",
+														"speed": 2
+													},
+													{
+														"block": "terrariamod:platinumore",
+														"speed": 2
+													},
+													{
+														"speed": 2,
+														"block": {
+															"tags": "query.any_tag('stone', 'metal', 'gravel', 'grass', 'snow', 'dirt', 'sand')"
+														}
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"block": "terrariamod:tungstenore",
+													"speed": 2
+												}
+											},
+											{
+												"open": [
+													{
+														"block": "terrariamod:copperore",
+														"speed": 2
+													},
+													{
+														"block": "terrariamod:tinore",
+														"speed": 2
+													},
+													{
+														"block": "terrariamod:ironore",
+														"speed": 2
+													},
+													{
+														"block": "terrariamod:leadore",
+														"speed": 2
+													},
+													{
+														"block": "terrariamod:silverore",
+														"speed": 2
+													},
+													{
+														"block": "terrariamod:tungstenore",
+														"speed": 2
+													},
+													{
+														"block": "terrariamod:goldore",
+														"speed": 2
+													},
+													{
+														"block": "terrariamod:platinumore",
+														"speed": 2
+													},
+													{
+														"speed": 2,
+														"block": {
+															"tags": "query.any_tag('stone', 'metal', 'gravel', 'grass', 'snow', 'dirt', 'sand')"
+														}
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"block": "terrariamod:goldore",
+													"speed": 2
+												}
+											},
+											{
+												"open": [
+													{
+														"block": "terrariamod:copperore",
+														"speed": 2
+													},
+													{
+														"block": "terrariamod:tinore",
+														"speed": 2
+													},
+													{
+														"block": "terrariamod:ironore",
+														"speed": 2
+													},
+													{
+														"block": "terrariamod:leadore",
+														"speed": 2
+													},
+													{
+														"block": "terrariamod:silverore",
+														"speed": 2
+													},
+													{
+														"block": "terrariamod:tungstenore",
+														"speed": 2
+													},
+													{
+														"block": "terrariamod:goldore",
+														"speed": 2
+													},
+													{
+														"block": "terrariamod:platinumore",
+														"speed": 2
+													},
+													{
+														"speed": 2,
+														"block": {
+															"tags": "query.any_tag('stone', 'metal', 'gravel', 'grass', 'snow', 'dirt', 'sand')"
+														}
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"block": "terrariamod:platinumore",
+													"speed": 2
+												}
+											},
+											{
+												"open": [
+													{
+														"block": "terrariamod:copperore",
+														"speed": 2
+													},
+													{
+														"block": "terrariamod:tinore",
+														"speed": 2
+													},
+													{
+														"block": "terrariamod:ironore",
+														"speed": 2
+													},
+													{
+														"block": "terrariamod:leadore",
+														"speed": 2
+													},
+													{
+														"block": "terrariamod:silverore",
+														"speed": 2
+													},
+													{
+														"block": "terrariamod:tungstenore",
+														"speed": 2
+													},
+													{
+														"block": "terrariamod:goldore",
+														"speed": 2
+													},
+													{
+														"block": "terrariamod:platinumore",
+														"speed": 2
 													},
 													{
 														"speed": 2,
@@ -554,31 +972,35 @@
 										"destroy_speeds": [
 											{
 												"block": "terrariamod:copperore",
-												"speed": 1
+												"speed": 2
 											},
 											{
 												"block": "terrariamod:tinore",
-												"speed": 1
+												"speed": 2
 											},
 											{
 												"block": "terrariamod:ironore",
-												"speed": 1
+												"speed": 2
 											},
 											{
 												"block": "terrariamod:leadore",
-												"speed": 1
+												"speed": 2
 											},
 											{
 												"block": "terrariamod:silverore",
-												"speed": 1
+												"speed": 2
 											},
 											{
 												"block": "terrariamod:tungstenore",
-												"speed": 1
+												"speed": 2
 											},
 											{
 												"block": "terrariamod:goldore",
-												"speed": 1
+												"speed": 2
+											},
+											{
+												"block": "terrariamod:platinumore",
+												"speed": 2
 											},
 											{
 												"speed": 2,
@@ -616,31 +1038,35 @@
 										"destroy_speeds": [
 											{
 												"block": "terrariamod:copperore",
-												"speed": 1
+												"speed": 2
 											},
 											{
 												"block": "terrariamod:tinore",
-												"speed": 1
+												"speed": 2
 											},
 											{
 												"block": "terrariamod:ironore",
-												"speed": 1
+												"speed": 2
 											},
 											{
 												"block": "terrariamod:leadore",
-												"speed": 1
+												"speed": 2
 											},
 											{
 												"block": "terrariamod:silverore",
-												"speed": 1
+												"speed": 2
 											},
 											{
 												"block": "terrariamod:tungstenore",
-												"speed": 1
+												"speed": 2
 											},
 											{
 												"block": "terrariamod:goldore",
-												"speed": 1
+												"speed": 2
+											},
+											{
+												"block": "terrariamod:platinumore",
+												"speed": 2
 											},
 											{
 												"speed": 2,

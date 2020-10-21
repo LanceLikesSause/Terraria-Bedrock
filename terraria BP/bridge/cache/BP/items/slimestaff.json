@@ -3,7 +3,7 @@
 	"file_type": "item",
 	"format_version": 1,
 	"file_uuid": "cfac9d6b_af3f_44c9_bc10_6fb2d36fcec0",
-	"file_version": 4,
+	"file_version": 6,
 	"cache_content": {
 		"children": [
 			{
@@ -16,17 +16,27 @@
 						},
 						"components": {
 							"minecraft:max_stack_size": 1,
-							"bridge:weapon_damage": 8,
-							"bridge:item_equipped_sensor": {
-								"execute_commands": [
-									"/function slimestaff"
-								]
-							},
 							"minecraft:icon": {
 								"texture": "terrariamod:slimestaff"
 							},
 							"minecraft:display_name": {
 								"value": "item.terrariamod:slimestaff.name"
+							},
+							"minecraft:on_use": {
+								"on_use": {
+									"event": "terrariamod:use",
+									"target": "self"
+								}
+							}
+						},
+						"events": {
+							"terrariamod:use": {
+								"swing": {},
+								"run_command": {
+									"command": [
+										"function slimestaff"
+									]
+								}
 							}
 						}
 					}
@@ -44,17 +54,27 @@
 						},
 						"components": {
 							"minecraft:max_stack_size": 1,
-							"bridge:weapon_damage": 8,
-							"bridge:item_equipped_sensor": {
-								"execute_commands": [
-									"/function slimestaff"
-								]
-							},
 							"minecraft:icon": {
 								"texture": "terrariamod:slimestaff"
 							},
 							"minecraft:display_name": {
 								"value": "item.terrariamod:slimestaff.name"
+							},
+							"minecraft:on_use": {
+								"on_use": {
+									"event": "terrariamod:use",
+									"target": "self"
+								}
+							}
+						},
+						"events": {
+							"terrariamod:use": {
+								"swing": {},
+								"run_command": {
+									"command": [
+										"function slimestaff"
+									]
+								}
 							}
 						}
 					}
@@ -69,17 +89,27 @@
 							},
 							"components": {
 								"minecraft:max_stack_size": 1,
-								"bridge:weapon_damage": 8,
-								"bridge:item_equipped_sensor": {
-									"execute_commands": [
-										"/function slimestaff"
-									]
-								},
 								"minecraft:icon": {
 									"texture": "terrariamod:slimestaff"
 								},
 								"minecraft:display_name": {
 									"value": "item.terrariamod:slimestaff.name"
+								},
+								"minecraft:on_use": {
+									"on_use": {
+										"event": "terrariamod:use",
+										"target": "self"
+									}
+								}
+							},
+							"events": {
+								"terrariamod:use": {
+									"swing": {},
+									"run_command": {
+										"command": [
+											"function slimestaff"
+										]
+									}
 								}
 							}
 						},
@@ -98,17 +128,27 @@
 							},
 							"components": {
 								"minecraft:max_stack_size": 1,
-								"bridge:weapon_damage": 8,
-								"bridge:item_equipped_sensor": {
-									"execute_commands": [
-										"/function slimestaff"
-									]
-								},
 								"minecraft:icon": {
 									"texture": "terrariamod:slimestaff"
 								},
 								"minecraft:display_name": {
 									"value": "item.terrariamod:slimestaff.name"
+								},
+								"minecraft:on_use": {
+									"on_use": {
+										"event": "terrariamod:use",
+										"target": "self"
+									}
+								}
+							},
+							"events": {
+								"terrariamod:use": {
+									"swing": {},
+									"run_command": {
+										"command": [
+											"function slimestaff"
+										]
+									}
 								}
 							}
 						},
@@ -119,55 +159,19 @@
 								"key": "minecraft:max_stack_size"
 							},
 							{
-								"data": "8",
-								"key": "bridge:weapon_damage"
-							},
-							{
 								"open": {
 									"minecraft:max_stack_size": 1,
-									"bridge:weapon_damage": 8,
-									"bridge:item_equipped_sensor": {
-										"execute_commands": [
-											"/function slimestaff"
-										]
-									},
 									"minecraft:icon": {
 										"texture": "terrariamod:slimestaff"
 									},
 									"minecraft:display_name": {
 										"value": "item.terrariamod:slimestaff.name"
-									}
-								},
-								"key": "bridge:item_equipped_sensor",
-								"children": [
-									{
-										"open": {
-											"execute_commands": [
-												"/function slimestaff"
-											]
-										},
-										"key": "execute_commands",
-										"is_minified": true,
-										"children": [
-											"/function slimestaff"
-										]
-									}
-								]
-							},
-							{
-								"open": {
-									"minecraft:max_stack_size": 1,
-									"bridge:weapon_damage": 8,
-									"bridge:item_equipped_sensor": {
-										"execute_commands": [
-											"/function slimestaff"
-										]
 									},
-									"minecraft:icon": {
-										"texture": "terrariamod:slimestaff"
-									},
-									"minecraft:display_name": {
-										"value": "item.terrariamod:slimestaff.name"
+									"minecraft:on_use": {
+										"on_use": {
+											"event": "terrariamod:use",
+											"target": "self"
+										}
 									}
 								},
 								"key": "minecraft:icon",
@@ -179,17 +183,17 @@
 							{
 								"open": {
 									"minecraft:max_stack_size": 1,
-									"bridge:weapon_damage": 8,
-									"bridge:item_equipped_sensor": {
-										"execute_commands": [
-											"/function slimestaff"
-										]
-									},
 									"minecraft:icon": {
 										"texture": "terrariamod:slimestaff"
 									},
 									"minecraft:display_name": {
 										"value": "item.terrariamod:slimestaff.name"
+									},
+									"minecraft:on_use": {
+										"on_use": {
+											"event": "terrariamod:use",
+											"target": "self"
+										}
 									}
 								},
 								"key": "minecraft:display_name",
@@ -197,6 +201,121 @@
 								"children": {
 									"value": "item.terrariamod:slimestaff.name"
 								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:icon": {
+										"texture": "terrariamod:slimestaff"
+									},
+									"minecraft:display_name": {
+										"value": "item.terrariamod:slimestaff.name"
+									},
+									"minecraft:on_use": {
+										"on_use": {
+											"event": "terrariamod:use",
+											"target": "self"
+										}
+									}
+								},
+								"key": "minecraft:on_use",
+								"children": [
+									{
+										"open": {
+											"on_use": {
+												"event": "terrariamod:use",
+												"target": "self"
+											}
+										},
+										"key": "on_use",
+										"is_minified": true,
+										"children": {
+											"event": "terrariamod:use",
+											"target": "self"
+										}
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:slimestaff",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:icon": {
+									"texture": "terrariamod:slimestaff"
+								},
+								"minecraft:display_name": {
+									"value": "item.terrariamod:slimestaff.name"
+								},
+								"minecraft:on_use": {
+									"on_use": {
+										"event": "terrariamod:use",
+										"target": "self"
+									}
+								}
+							},
+							"events": {
+								"terrariamod:use": {
+									"swing": {},
+									"run_command": {
+										"command": [
+											"function slimestaff"
+										]
+									}
+								}
+							}
+						},
+						"key": "events",
+						"children": [
+							{
+								"open": {
+									"terrariamod:use": {
+										"swing": {},
+										"run_command": {
+											"command": [
+												"function slimestaff"
+											]
+										}
+									}
+								},
+								"key": "terrariamod:use",
+								"children": [
+									{
+										"key": "swing",
+										"is_minified": true,
+										"children": {}
+									},
+									{
+										"open": {
+											"swing": {},
+											"run_command": {
+												"command": [
+													"function slimestaff"
+												]
+											}
+										},
+										"key": "run_command",
+										"children": [
+											{
+												"open": {
+													"command": [
+														"function slimestaff"
+													]
+												},
+												"key": "command",
+												"is_minified": true,
+												"children": [
+													"function slimestaff"
+												]
+											}
+										]
+									}
+								]
 							}
 						]
 					}

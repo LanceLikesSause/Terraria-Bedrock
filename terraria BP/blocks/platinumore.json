@@ -1,4 +1,4 @@
-//bridge-file-version: #3
+//bridge-file-version: #4
 {
 	"format_version": "1.13.0",
 	"minecraft:block": {
@@ -8,8 +8,7 @@
 		},
 		"components": {
 			"minecraft:loot": "loot_tables/blocks/platinumore.json",
-			"minecraft:destroy_time": 1,
-			"minecraft:explosion_resistance": 0.5
+			"minecraft:destroy_time": 3
 		}
 	}
 }

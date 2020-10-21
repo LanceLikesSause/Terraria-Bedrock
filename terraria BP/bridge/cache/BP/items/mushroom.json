@@ -3,7 +3,7 @@
 	"file_type": "item",
 	"format_version": 1,
 	"file_uuid": "1520ceae_c19f_46f9_bc50_fe352ee8dc5b",
-	"file_version": 17,
+	"file_version": 18,
 	"cache_content": {
 		"children": [
 			{
@@ -33,6 +33,9 @@
 								"texture": "terrariamod:mushroom"
 							},
 							"minecraft:use_animation": "eat",
+							"minecraft:creative_category": {
+								"parent": "itemGroup.name.tpotions"
+							},
 							"minecraft:block_placer": {
 								"block": "terrariamod:mushroom"
 							}
@@ -79,6 +82,9 @@
 								"texture": "terrariamod:mushroom"
 							},
 							"minecraft:use_animation": "eat",
+							"minecraft:creative_category": {
+								"parent": "itemGroup.name.tpotions"
+							},
 							"minecraft:block_placer": {
 								"block": "terrariamod:mushroom"
 							}
@@ -122,6 +128,9 @@
 									"texture": "terrariamod:mushroom"
 								},
 								"minecraft:use_animation": "eat",
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.tpotions"
+								},
 								"minecraft:block_placer": {
 									"block": "terrariamod:mushroom"
 								}
@@ -169,6 +178,9 @@
 									"texture": "terrariamod:mushroom"
 								},
 								"minecraft:use_animation": "eat",
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.tpotions"
+								},
 								"minecraft:block_placer": {
 									"block": "terrariamod:mushroom"
 								}
@@ -232,6 +244,13 @@
 								"key": "minecraft:use_animation"
 							},
 							{
+								"key": "minecraft:creative_category",
+								"is_minified": true,
+								"children": {
+									"parent": "itemGroup.name.tpotions"
+								}
+							},
+							{
 								"open": {
 									"minecraft:stacked_by_data": true,
 									"minecraft:max_stack_size": 64,
@@ -251,6 +270,9 @@
 										"texture": "terrariamod:mushroom"
 									},
 									"minecraft:use_animation": "eat",
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.tpotions"
+									},
 									"minecraft:block_placer": {
 										"block": "terrariamod:mushroom"
 									}

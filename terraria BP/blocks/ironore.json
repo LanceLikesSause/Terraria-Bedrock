@@ -1,0 +1,14 @@
+//bridge-file-version: #4
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "terrariamod:ironore",
+			"register_to_creative_menu": true
+		},
+		"components": {
+			"minecraft:destroy_time": 3,
+			"minecraft:loot": "loot_tables/blocks/ironore.json"
+		}
+	}
+}

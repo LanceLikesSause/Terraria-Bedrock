@@ -3,7 +3,7 @@
 	"file_type": "item",
 	"format_version": 1,
 	"file_uuid": "8ff9e642_d9df_413e_851c_912904db5dd9",
-	"file_version": 21,
+	"file_version": 22,
 	"cache_content": {
 		"children": [
 			{
@@ -28,6 +28,9 @@
 							},
 							"minecraft:display_name": {
 								"value": "item.terrariamod:cactussword.name"
+							},
+							"minecraft:creative_category": {
+								"parent": "itemGroup.name.sword"
 							}
 						}
 					}
@@ -50,6 +53,9 @@
 								},
 								"minecraft:display_name": {
 									"value": "item.terrariamod:cactussword.name"
+								},
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.sword"
 								}
 							}
 						},
@@ -76,6 +82,9 @@
 								},
 								"minecraft:display_name": {
 									"value": "item.terrariamod:cactussword.name"
+								},
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.sword"
 								}
 							}
 						},
@@ -109,6 +118,9 @@
 									},
 									"minecraft:display_name": {
 										"value": "item.terrariamod:cactussword.name"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.sword"
 									}
 								},
 								"key": "minecraft:icon",
@@ -128,12 +140,22 @@
 									},
 									"minecraft:display_name": {
 										"value": "item.terrariamod:cactussword.name"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.sword"
 									}
 								},
 								"key": "minecraft:display_name",
 								"is_minified": true,
 								"children": {
 									"value": "item.terrariamod:cactussword.name"
+								}
+							},
+							{
+								"key": "minecraft:creative_category",
+								"is_minified": true,
+								"children": {
+									"parent": "itemGroup.name.sword"
 								}
 							}
 						]

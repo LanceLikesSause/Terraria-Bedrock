@@ -1,0 +1,31 @@
+//bridge-file-version: #4
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "terrariamod:tfurnace_recipe"
+		},
+		"tags": [
+			"workbench"
+		],
+		"ingredients": [
+			{
+				"item": "minecraft:stone",
+				"count": 4
+			},
+			{
+				"item": "minecraft:planks",
+				"count": 4
+			},
+			{
+				"item": "minecraft:torch",
+				"count": 1
+			}
+		],
+		"result": [
+			{
+				"item": "terrariamod:tfurnace"
+			}
+		]
+	}
+}

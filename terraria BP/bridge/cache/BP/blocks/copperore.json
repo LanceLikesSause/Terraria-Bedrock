@@ -3,7 +3,7 @@
 	"file_type": "block",
 	"format_version": 1,
 	"file_uuid": "28fe76d2_9307_4a75_a8a9_5d75f0f3307b",
-	"file_version": 8,
+	"file_version": 11,
 	"cache_content": {
 		"children": [
 			{
@@ -15,7 +15,7 @@
 							"is_experimental": false
 						},
 						"components": {
-							"minecraft:destroy_time": 10,
+							"minecraft:destroy_time": 3,
 							"minecraft:loot": "loot_tables/blocks/copperore.json",
 							"minecraft:explosion_resistance": 0.5
 						}
@@ -33,7 +33,7 @@
 							"is_experimental": false
 						},
 						"components": {
-							"minecraft:destroy_time": 10,
+							"minecraft:destroy_time": 3,
 							"minecraft:loot": "loot_tables/blocks/copperore.json",
 							"minecraft:explosion_resistance": 0.5
 						}
@@ -48,7 +48,7 @@
 								"is_experimental": false
 							},
 							"components": {
-								"minecraft:destroy_time": 10,
+								"minecraft:destroy_time": 3,
 								"minecraft:loot": "loot_tables/blocks/copperore.json",
 								"minecraft:explosion_resistance": 0.5
 							}
@@ -67,7 +67,7 @@
 								"is_experimental": false
 							},
 							"components": {
-								"minecraft:destroy_time": 10,
+								"minecraft:destroy_time": 3,
 								"minecraft:loot": "loot_tables/blocks/copperore.json",
 								"minecraft:explosion_resistance": 0.5
 							}
@@ -75,7 +75,7 @@
 						"key": "components",
 						"is_minified": true,
 						"children": {
-							"minecraft:destroy_time": 10,
+							"minecraft:destroy_time": 3,
 							"minecraft:loot": "loot_tables/blocks/copperore.json",
 							"minecraft:explosion_resistance": 0.5
 						}

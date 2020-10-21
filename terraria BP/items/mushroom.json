@@ -1,4 +1,4 @@
-//bridge-file-version: #17
+//bridge-file-version: #18
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
@@ -25,6 +25,9 @@
 				"texture": "terrariamod:mushroom"
 			},
 			"minecraft:use_animation": "eat",
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.tpotions"
+			},
 			"minecraft:block_placer": {
 				"block": "terrariamod:mushroom"
 			}

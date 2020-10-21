@@ -1,0 +1,256 @@
+{
+	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\recipes\\tfurnace_recipe.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "f2223325_31d0_418a_af03_f5c1ee89c3e0",
+	"file_version": 4,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:recipe_shapeless": {
+						"description": {
+							"identifier": "terrariamod:tfurnace_recipe"
+						},
+						"tags": [
+							"workbench"
+						],
+						"ingredients": [
+							{
+								"item": "minecraft:stone",
+								"count": 4
+							},
+							{
+								"item": "minecraft:planks",
+								"count": 4
+							},
+							{
+								"item": "minecraft:torch",
+								"count": 1
+							}
+						],
+						"result": [
+							{
+								"item": "terrariamod:tfurnace"
+							}
+						]
+					}
+				},
+				"key": "minecraft:recipe_shapeless",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:tfurnace_recipe"
+							},
+							"tags": [
+								"workbench"
+							],
+							"ingredients": [
+								{
+									"item": "minecraft:stone",
+									"count": 4
+								},
+								{
+									"item": "minecraft:planks",
+									"count": 4
+								},
+								{
+									"item": "minecraft:torch",
+									"count": 1
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:tfurnace"
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:tfurnace_recipe"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:tfurnace_recipe"
+							},
+							"tags": [
+								"workbench"
+							],
+							"ingredients": [
+								{
+									"item": "minecraft:stone",
+									"count": 4
+								},
+								{
+									"item": "minecraft:planks",
+									"count": 4
+								},
+								{
+									"item": "minecraft:torch",
+									"count": 1
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:tfurnace"
+								}
+							]
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"workbench"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:tfurnace_recipe"
+							},
+							"tags": [
+								"workbench"
+							],
+							"ingredients": [
+								{
+									"item": "minecraft:stone",
+									"count": 4
+								},
+								{
+									"item": "minecraft:planks",
+									"count": 4
+								},
+								{
+									"item": "minecraft:torch",
+									"count": 1
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:tfurnace"
+								}
+							]
+						},
+						"key": "ingredients",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "minecraft:stone",
+										"count": 4
+									},
+									{
+										"item": "minecraft:planks",
+										"count": 4
+									},
+									{
+										"item": "minecraft:torch",
+										"count": 1
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:stone",
+									"count": 4
+								}
+							},
+							{
+								"open": [
+									{
+										"item": "minecraft:stone",
+										"count": 4
+									},
+									{
+										"item": "minecraft:planks",
+										"count": 4
+									},
+									{
+										"item": "minecraft:torch",
+										"count": 1
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:planks",
+									"count": 4
+								}
+							},
+							{
+								"open": [
+									{
+										"item": "minecraft:stone",
+										"count": 4
+									},
+									{
+										"item": "minecraft:planks",
+										"count": 4
+									},
+									{
+										"item": "minecraft:torch",
+										"count": 1
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:torch",
+									"count": 1
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:tfurnace_recipe"
+							},
+							"tags": [
+								"workbench"
+							],
+							"ingredients": [
+								{
+									"item": "minecraft:stone",
+									"count": 4
+								},
+								{
+									"item": "minecraft:planks",
+									"count": 4
+								},
+								{
+									"item": "minecraft:torch",
+									"count": 1
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:tfurnace"
+								}
+							]
+						},
+						"key": "result",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "terrariamod:tfurnace"
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "terrariamod:tfurnace"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

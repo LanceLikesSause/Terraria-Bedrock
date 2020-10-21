@@ -21,9 +21,6 @@
 							"holds_meteoritepickaxe": "query.get_equipped_item_name(0, 0) == 'meteoritepickaxe'"
 						},
 						{
-							"holds_slimestaff": "query.get_equipped_item_name(0, 0) == 'slimestaff'"
-						},
-						{
 							"holds_cactuspickaxe": "query.get_equipped_item_name(0, 0) == 'cactuspickaxe'"
 						},
 						{
@@ -106,20 +103,6 @@
 					],
 					"on_exit": [
 						"@s bridge:on_unequipped_2daa104d_c689_4162_b649_b20726c53ff5"
-					]
-				},
-				"holds_slimestaff": {
-					"transitions": [
-						{
-							"default": "query.get_equipped_item_name(0, 0) != 'slimestaff'"
-						}
-					],
-					"on_entry": [
-						"@s bridge:on_equipped_cfac9d6b_af3f_44c9_bc10_6fb2d36fcec0",
-						"/function slimestaff"
-					],
-					"on_exit": [
-						"@s bridge:on_unequipped_cfac9d6b_af3f_44c9_bc10_6fb2d36fcec0"
 					]
 				},
 				"holds_cactuspickaxe": {

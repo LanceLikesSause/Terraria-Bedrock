@@ -1,9 +1,9 @@
 {
-	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria/features/leadore_feature.json",
+	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\features\\leadore_feature.json",
 	"file_type": "feature",
 	"format_version": 1,
-	"file_uuid": "98402317_42e9_4e8d_af44_47ad2c2d8cae",
-	"file_version": 0,
+	"file_uuid": "e45d708a_b0c6_4b2e_a3cc_46dd6e3ae63b",
+	"file_version": 10,
 	"cache_content": {
 		"children": [
 			{
@@ -15,9 +15,9 @@
 					"format_version": "1.13.0",
 					"minecraft:ore_feature": {
 						"description": {
-							"identifier": "leadore_feature"
+							"identifier": "minecraft:leadore_feature"
 						},
-						"count": 9,
+						"count": 30,
 						"places_block": "terrariamod:leadore",
 						"may_replace": [
 							{
@@ -61,6 +61,12 @@
 								"states": {
 									"stone_type": "stone"
 								}
+							},
+							{
+								"name": "minecraft:grass"
+							},
+							{
+								"name": "minecraft:dirt"
 							}
 						]
 					}
@@ -70,9 +76,9 @@
 					{
 						"open": {
 							"description": {
-								"identifier": "leadore_feature"
+								"identifier": "minecraft:leadore_feature"
 							},
-							"count": 9,
+							"count": 30,
 							"places_block": "terrariamod:leadore",
 							"may_replace": [
 								{
@@ -116,25 +122,27 @@
 									"states": {
 										"stone_type": "stone"
 									}
+								},
+								{
+									"name": "minecraft:grass"
+								},
+								{
+									"name": "minecraft:dirt"
 								}
 							]
 						},
 						"key": "description",
 						"is_minified": true,
 						"children": {
-							"identifier": "leadore_feature"
+							"identifier": "minecraft:leadore_feature"
 						}
-					},
-					{
-						"data": "9",
-						"key": "count"
 					},
 					{
 						"open": {
 							"description": {
-								"identifier": "leadore_feature"
+								"identifier": "minecraft:leadore_feature"
 							},
-							"count": 9,
+							"count": 30,
 							"places_block": "terrariamod:leadore",
 							"may_replace": [
 								{
@@ -178,6 +186,73 @@
 									"states": {
 										"stone_type": "stone"
 									}
+								},
+								{
+									"name": "minecraft:grass"
+								},
+								{
+									"name": "minecraft:dirt"
+								}
+							]
+						},
+						"data": "30",
+						"key": "count"
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "minecraft:leadore_feature"
+							},
+							"count": 30,
+							"places_block": "terrariamod:leadore",
+							"may_replace": [
+								{
+									"name": "minecraft:stone",
+									"states": {
+										"stone_type": "andesite"
+									}
+								},
+								{
+									"name": "minecraft:stone",
+									"states": {
+										"stone_type": "andesite_smooth"
+									}
+								},
+								{
+									"name": "minecraft:stone",
+									"states": {
+										"stone_type": "diorite"
+									}
+								},
+								{
+									"name": "minecraft:stone",
+									"states": {
+										"stone_type": "diorite_smooth"
+									}
+								},
+								{
+									"name": "minecraft:stone",
+									"states": {
+										"stone_type": "granite"
+									}
+								},
+								{
+									"name": "minecraft:stone",
+									"states": {
+										"stone_type": "granite_smooth"
+									}
+								},
+								{
+									"name": "minecraft:stone",
+									"states": {
+										"stone_type": "stone"
+									}
+								},
+								{
+									"name": "minecraft:grass"
+								},
+								{
+									"name": "minecraft:dirt"
 								}
 							]
 						},
@@ -185,49 +260,338 @@
 						"key": "places_block"
 					},
 					{
+						"open": {
+							"description": {
+								"identifier": "minecraft:leadore_feature"
+							},
+							"count": 30,
+							"places_block": "terrariamod:leadore",
+							"may_replace": [
+								{
+									"name": "minecraft:stone",
+									"states": {
+										"stone_type": "andesite"
+									}
+								},
+								{
+									"name": "minecraft:stone",
+									"states": {
+										"stone_type": "andesite_smooth"
+									}
+								},
+								{
+									"name": "minecraft:stone",
+									"states": {
+										"stone_type": "diorite"
+									}
+								},
+								{
+									"name": "minecraft:stone",
+									"states": {
+										"stone_type": "diorite_smooth"
+									}
+								},
+								{
+									"name": "minecraft:stone",
+									"states": {
+										"stone_type": "granite"
+									}
+								},
+								{
+									"name": "minecraft:stone",
+									"states": {
+										"stone_type": "granite_smooth"
+									}
+								},
+								{
+									"name": "minecraft:stone",
+									"states": {
+										"stone_type": "stone"
+									}
+								},
+								{
+									"name": "minecraft:grass"
+								},
+								{
+									"name": "minecraft:dirt"
+								}
+							]
+						},
 						"key": "may_replace",
-						"is_minified": true,
-						"array": [
+						"children": [
 							{
-								"name": "minecraft:stone",
-								"states": {
-									"stone_type": "andesite"
+								"open": [
+									{
+										"name": "minecraft:stone",
+										"states": {
+											"stone_type": "andesite"
+										}
+									},
+									{
+										"name": "minecraft:stone",
+										"states": {
+											"stone_type": "andesite_smooth"
+										}
+									},
+									{
+										"name": "minecraft:stone",
+										"states": {
+											"stone_type": "diorite"
+										}
+									},
+									{
+										"name": "minecraft:stone",
+										"states": {
+											"stone_type": "diorite_smooth"
+										}
+									},
+									{
+										"name": "minecraft:stone",
+										"states": {
+											"stone_type": "granite"
+										}
+									},
+									{
+										"name": "minecraft:stone",
+										"states": {
+											"stone_type": "granite_smooth"
+										}
+									},
+									{
+										"name": "minecraft:stone",
+										"states": {
+											"stone_type": "stone"
+										}
+									},
+									{
+										"name": "minecraft:grass"
+									},
+									{
+										"name": "minecraft:dirt"
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"name": "minecraft:stone",
+									"states": {
+										"stone_type": "andesite"
+									}
 								}
 							},
 							{
-								"name": "minecraft:stone",
-								"states": {
-									"stone_type": "andesite_smooth"
+								"open": [
+									{
+										"name": "minecraft:stone",
+										"states": {
+											"stone_type": "andesite"
+										}
+									},
+									{
+										"name": "minecraft:stone",
+										"states": {
+											"stone_type": "andesite_smooth"
+										}
+									},
+									{
+										"name": "minecraft:stone",
+										"states": {
+											"stone_type": "diorite"
+										}
+									},
+									{
+										"name": "minecraft:stone",
+										"states": {
+											"stone_type": "diorite_smooth"
+										}
+									},
+									{
+										"name": "minecraft:stone",
+										"states": {
+											"stone_type": "granite"
+										}
+									},
+									{
+										"name": "minecraft:stone",
+										"states": {
+											"stone_type": "granite_smooth"
+										}
+									},
+									{
+										"name": "minecraft:stone",
+										"states": {
+											"stone_type": "stone"
+										}
+									},
+									{
+										"name": "minecraft:grass"
+									},
+									{
+										"name": "minecraft:dirt"
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"name": "minecraft:stone",
+									"states": {
+										"stone_type": "andesite_smooth"
+									}
 								}
 							},
 							{
-								"name": "minecraft:stone",
-								"states": {
-									"stone_type": "diorite"
+								"is_minified": true,
+								"children": {
+									"name": "minecraft:stone",
+									"states": {
+										"stone_type": "diorite"
+									}
 								}
 							},
 							{
-								"name": "minecraft:stone",
-								"states": {
-									"stone_type": "diorite_smooth"
+								"is_minified": true,
+								"children": {
+									"name": "minecraft:stone",
+									"states": {
+										"stone_type": "diorite_smooth"
+									}
 								}
 							},
 							{
-								"name": "minecraft:stone",
-								"states": {
-									"stone_type": "granite"
+								"is_minified": true,
+								"children": {
+									"name": "minecraft:stone",
+									"states": {
+										"stone_type": "granite"
+									}
 								}
 							},
 							{
-								"name": "minecraft:stone",
-								"states": {
-									"stone_type": "granite_smooth"
+								"is_minified": true,
+								"children": {
+									"name": "minecraft:stone",
+									"states": {
+										"stone_type": "granite_smooth"
+									}
 								}
 							},
 							{
-								"name": "minecraft:stone",
-								"states": {
-									"stone_type": "stone"
+								"is_minified": true,
+								"children": {
+									"name": "minecraft:stone",
+									"states": {
+										"stone_type": "stone"
+									}
+								}
+							},
+							{
+								"open": [
+									{
+										"name": "minecraft:stone",
+										"states": {
+											"stone_type": "andesite"
+										}
+									},
+									{
+										"name": "minecraft:stone",
+										"states": {
+											"stone_type": "andesite_smooth"
+										}
+									},
+									{
+										"name": "minecraft:stone",
+										"states": {
+											"stone_type": "diorite"
+										}
+									},
+									{
+										"name": "minecraft:stone",
+										"states": {
+											"stone_type": "diorite_smooth"
+										}
+									},
+									{
+										"name": "minecraft:stone",
+										"states": {
+											"stone_type": "granite"
+										}
+									},
+									{
+										"name": "minecraft:stone",
+										"states": {
+											"stone_type": "granite_smooth"
+										}
+									},
+									{
+										"name": "minecraft:stone",
+										"states": {
+											"stone_type": "stone"
+										}
+									},
+									{
+										"name": "minecraft:grass"
+									},
+									{
+										"name": "minecraft:dirt"
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"name": "minecraft:grass"
+								}
+							},
+							{
+								"open": [
+									{
+										"name": "minecraft:stone",
+										"states": {
+											"stone_type": "andesite"
+										}
+									},
+									{
+										"name": "minecraft:stone",
+										"states": {
+											"stone_type": "andesite_smooth"
+										}
+									},
+									{
+										"name": "minecraft:stone",
+										"states": {
+											"stone_type": "diorite"
+										}
+									},
+									{
+										"name": "minecraft:stone",
+										"states": {
+											"stone_type": "diorite_smooth"
+										}
+									},
+									{
+										"name": "minecraft:stone",
+										"states": {
+											"stone_type": "granite"
+										}
+									},
+									{
+										"name": "minecraft:stone",
+										"states": {
+											"stone_type": "granite_smooth"
+										}
+									},
+									{
+										"name": "minecraft:stone",
+										"states": {
+											"stone_type": "stone"
+										}
+									},
+									{
+										"name": "minecraft:grass"
+									},
+									{
+										"name": "minecraft:dirt"
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"name": "minecraft:dirt"
 								}
 							}
 						]

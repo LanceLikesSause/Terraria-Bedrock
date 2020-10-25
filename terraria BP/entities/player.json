@@ -73,6 +73,10 @@
 				"width": 0.6,
 				"height": 1.8
 			},
+			"minecraft:player.exhaustion": {
+				"value": 0,
+				"max": 0
+			},
 			"minecraft:can_climb": {},
 			"minecraft:movement": {
 				"value": 0.1

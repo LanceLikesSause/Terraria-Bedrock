@@ -16,6 +16,9 @@
 			},
 			"minecraft:display_name": {
 				"value": "item.terrariamod:muramasa.name"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.sword"
 			}
 		}
 	}

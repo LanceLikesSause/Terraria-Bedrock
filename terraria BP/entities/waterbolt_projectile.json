@@ -1,48 +1,58 @@
-//bridge-file-version: #26
+//bridge-file-version: #20
 {
-	"format_version": "1.8.0",
+	"format_version": "1.13.0",
 	"minecraft:entity": {
 		"description": {
 			"identifier": "terrariamod:waterbolt_projectile",
 			"is_spawnable": false,
 			"is_summonable": true,
-			"is_experimental": false,
-			"runtime_identifier": "minecraft:snowball"
+			"is_experimental": false
 		},
+		"component_groups": {},
 		"components": {
-			"minecraft:type_family": {
-				"family": [
-					"inanimate"
-				]
-			},
 			"minecraft:collision_box": {
-				"width": 0.3,
-				"height": 0.3
+				"width": 0.25,
+				"height": 0.25
+			},
+			"minecraft:hurt_on_condition": {
+				"damage_conditions": [
+					{
+						"filters": {
+							"test": "in_lava",
+							"subject": "self",
+							"operator": "==",
+							"value": true
+						},
+						"cause": "lava",
+						"damage_per_tick": 4
+					}
+				]
 			},
 			"minecraft:projectile": {
 				"on_hit": {
 					"impact_damage": {
 						"damage": [
-							5,
-							5
+							19,
+							19
 						],
 						"knockback": true,
 						"semi_random_diff_damage": false,
-						"destroy_on_hit": true
-					},
-					"arrow_effect": {}
+						"destroy_on_hit": false
+					}
 				},
-				"power": 0.9,
+				"hit_sound": "bow.hit",
+				"power": 1.4,
 				"gravity": 0.03,
-				"angleoffset": 0,
-				"should_bounce": true
-			},
-			"minecraft:physics": {},
-			"minecraft:scale": {
-				"value": 0.5
+				"anchor": 0.1,
+				"should_bounce": true,
+				"offset": [
+					0,
+					-0.1,
+					0
+				],
+				"catch_fire": false
 			}
 		},
-		"component_groups": {},
 		"events": {}
 	}
 }

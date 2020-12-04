@@ -1,0 +1,17 @@
+//bridge-file-version: #14
+{
+	"format_version": "1.13.0",
+	"minecraft:single_block_feature": {
+		"description": {
+			"identifier": "minecraft:purityforest_tree_feature"
+		},
+		"places_block": "terrariamod:purity_tree",
+		"enforce_survivability_rules": true,
+		"enforce_placement_rules": true,
+		"may_replace": [
+			{
+				"name": "minecraft:air"
+			}
+		]
+	}
+}

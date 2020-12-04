@@ -1,0 +1,30 @@
+//bridge-file-version: #4
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "terrariamod:demonitepickaxe_recipe"
+		},
+		"tags": [
+			"iron_anvil"
+		],
+		"pattern": [
+			"XXX",
+			" # ",
+			" # "
+		],
+		"key": {
+			"#": {
+				"item": "terrariamod:shadowscale",
+				"count": 3
+			},
+			"X": {
+				"item": "terrariamod:demoniteblock",
+				"count": 1
+			}
+		},
+		"result": {
+			"item": "terrariamod:demonitepickaxe"
+		}
+	}
+}

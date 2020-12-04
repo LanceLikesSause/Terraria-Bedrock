@@ -1,25 +1,31 @@
-//bridge-file-version: #2
+//bridge-file-version: #7
 {
 	"format_version": "1.8.0",
 	"minecraft:spawn_rules": {
 		"description": {
 			"identifier": "terrariamod:bloodcrawler",
-			"population_control": "monster"
+			"population_control": "animal"
 		},
 		"conditions": [
 			{
 				"minecraft:spawns_on_surface": {},
+				"minecraft:spawns_underground": {},
+				"minecraft:brightness_filter": {
+					"min": 0,
+					"max": 15,
+					"adjust_for_weather": false
+				},
+				"minecraft:weight": {
+					"default": 600
+				},
+				"minecraft:herd": {
+					"min_size": 1,
+					"max_size": 3
+				},
 				"minecraft:biome_filter": {
 					"test": "has_biome_tag",
 					"operator": "==",
 					"value": "thecrimson"
-				},
-				"minecraft:weight": {
-					"default": 20
-				},
-				"minecraft:herd": {
-					"min_size": 3,
-					"max_size": 30
 				}
 			}
 		]

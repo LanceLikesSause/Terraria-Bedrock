@@ -19,42 +19,10 @@
 				"use_efficiency": true,
 				"destroy_speeds": [
 					{
-						"block": "terrariamod:copperore",
-						"speed": 6
-					},
-					{
-						"block": "terrariamod:tinore",
-						"speed": 6
-					},
-					{
-						"block": "terrariamod:ironore",
-						"speed": 6
-					},
-					{
-						"block": "terrariamod:leadore",
-						"speed": 6
-					},
-					{
-						"block": "terrariamod:silverore",
-						"speed": 6
-					},
-					{
-						"block": "terrariamod:tungstenore",
-						"speed": 6
-					},
-					{
-						"block": "terrariamod:goldore",
-						"speed": 6
-					},
-					{
-						"block": "terrariamod:platinumore",
-						"speed": 6
-					},
-					{
-						"speed": 6,
 						"block": {
-							"tags": "query.any_tag('stone', 'metal', 'gravel', 'grass', 'snow', 'dirt', 'sand')"
-						}
+							"tags": "query.any_tag('terrariamod:stone', 'terrariamod:dirt')"
+						},
+						"speed": 6
 					}
 				]
 			},
@@ -63,6 +31,9 @@
 			},
 			"minecraft:display_name": {
 				"value": "item.terrariamod:tungstenpickaxe.name"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.pickaxe"
 			}
 		}
 	}

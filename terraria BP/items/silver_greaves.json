@@ -19,6 +19,9 @@
 			},
 			"minecraft:icon": {
 				"texture": "terrariamod:silver_greaves"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.leggings"
 			}
 		}
 	}

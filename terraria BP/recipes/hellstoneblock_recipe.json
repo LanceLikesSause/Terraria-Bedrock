@@ -1,0 +1,23 @@
+//bridge-file-version: #3
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "terrariamod:hellstoneblock_recipe"
+		},
+		"tags": [
+			"tfurnace"
+		],
+		"ingredients": [
+			{
+				"item": "terrariamod:hellstonebar",
+				"count": 4
+			}
+		],
+		"result": [
+			{
+				"item": "terrariamod:hellstoneblock"
+			}
+		]
+	}
+}

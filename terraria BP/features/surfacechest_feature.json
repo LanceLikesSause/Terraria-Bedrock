@@ -1,0 +1,15 @@
+//bridge-file-version: #5
+{
+	"format_version": "1.16.100",
+	"minecraft:structure_template_feature": {
+		"description": {
+			"identifier": "minecraft:surfacechest_feature"
+		},
+		"structure_name": "mystructure:surfacechest_room1",
+		"adjustment_radius": 1,
+		"facing_direction": "north",
+		"constraints": {
+			"grounded": {}
+		}
+	}
+}

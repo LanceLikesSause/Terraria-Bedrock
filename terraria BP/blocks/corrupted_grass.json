@@ -1,18 +1,44 @@
-//bridge-file-version: #1
+//bridge-file-version: #52
 {
 	"format_version": "1.16.100",
 	"minecraft:block": {
 		"description": {
-			"register_to_creative_menu": true,
-			"is_experimental": false,
-			"identifier": "terrariamod:corrupted_grass"
+			"identifier": "terrariamod:corrupted_grass",
+			"register_to_creative_menu": true
 		},
 		"components": {
-			"minecraft:destroy_time": 1,
-			"minecraft:explosion_resistance": 7,
+			"tag:minecraft:liquid": {},
+			"minecraft:destroy_time": 5,
+			"minecraft:loot": "loot_tables/blocks/corrupted_grass.json",
 			"minecraft:block_light_emission": 0,
-			"minecraft:block_light_absorption": 0,
-			"minecraft:loot": "loot_tables/blocks/crimson_grass.json"
+			"tag:thalasso:crystal": {},
+			"minecraft:material_instances": {
+				"*": {
+					"render_method": "opaque",
+					"texture": "terrariamod:crimson_grass"
+				}
+			},
+			"minecraft:ticking": {
+				"looping": false,
+				"range": [
+					1,
+					1
+				],
+				"on_tick": {
+					"target": "self",
+					"event": "thalasso:crack"
+				}
+			},
+			"tag:terrariamod:dirt": {}
+		},
+		"events": {
+			"thalasso:crack": {
+				"run_command": {
+					"command": [
+						"function crimson_grass"
+					]
+				}
+			}
 		}
 	}
 }

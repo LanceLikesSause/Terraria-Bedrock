@@ -1,18 +1,22 @@
-//bridge-file-version: #50
+//bridge-file-version: #2
 {
 	"minecraft:entity": {
 		"description": {
 			"animations": {
-				"bridge_custom_item_behavior": "controller.animation.bridge_custom_item_behavior"
+				"mana": "controller.animation.mana",
+				"starting_items": "controller.animation.starting_items",
+				"bridge_execute_commands": "controller.animation.bridge_player.execute_commands"
 			},
 			"scripts": {
 				"animate": [
-					"bridge_custom_item_behavior"
+					"mana",
+					"starting_items",
+					"bridge_execute_commands"
 				]
 			},
 			"identifier": "minecraft:player",
 			"is_spawnable": false,
-			"is_summonable": false,
+			"is_summonable": true,
 			"is_experimental": false
 		},
 		"component_groups": {
@@ -54,6 +58,16 @@
 			},
 			"minecraft:hellstone_group": {
 				"minecraft:home": {}
+			},
+			"bridge:execute_command_id_1": {
+				"minecraft:skin_id": {
+					"value": 1
+				}
+			},
+			"bridge:execute_no_command": {
+				"minecraft:skin_id": {
+					"value": 0
+				}
 			}
 		},
 		"components": {
@@ -64,6 +78,16 @@
 				"family": [
 					"player"
 				]
+			},
+			"minecraft:timer": {
+				"looping": true,
+				"time": [
+					0.3,
+					0.3
+				],
+				"time_down_event": {
+					"event": "minecraft:mana"
+				}
 			},
 			"minecraft:is_hidden_when_invisible": {},
 			"minecraft:loot": {
@@ -205,10 +229,36 @@
 					]
 				}
 			},
+			"minecraft:mana": {
+				"run_command": {
+					"command": [
+						"execute @s[scores={mana=..18}] ~~~ scoreboard players add @s mana 1"
+					]
+				}
+			},
 			"minecraft:hellstone_event": {
 				"add": {
 					"component_groups": [
 						"minecraft:hellstone_group"
+					]
+				}
+			},
+			"minecraft:entity_spawned": {
+				"add": {
+					"component_groups": [
+						"bridge:execute_command_id_1"
+					]
+				}
+			},
+			"bridge:remove_command_id_1": {
+				"add": {
+					"component_groups": [
+						"bridge:execute_no_command"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"bridge:execute_command_id_1"
 					]
 				}
 			}

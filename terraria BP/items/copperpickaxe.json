@@ -1,4 +1,4 @@
-//bridge-file-version: #60
+//bridge-file-version: #63
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
@@ -19,40 +19,8 @@
 				"use_efficiency": true,
 				"destroy_speeds": [
 					{
-						"block": "terrariamod:copperore",
-						"speed": 2
-					},
-					{
-						"block": "terrariamod:tinore",
-						"speed": 2
-					},
-					{
-						"block": "terrariamod:ironore",
-						"speed": 2
-					},
-					{
-						"block": "terrariamod:leadore",
-						"speed": 2
-					},
-					{
-						"block": "terrariamod:silverore",
-						"speed": 2
-					},
-					{
-						"block": "terrariamod:tungstenore",
-						"speed": 2
-					},
-					{
-						"block": "terrariamod:goldore",
-						"speed": 2
-					},
-					{
-						"block": "terrariamod:platinumore",
-						"speed": 2
-					},
-					{
 						"block": {
-							"tags": "query.any_tag('stone', 'metal', 'gravel', 'grass', 'snow', 'dirt', 'sand')"
+							"tags": "query.any_tag('terrariamod:stone', 'terrariamod:dirt')"
 						},
 						"speed": 2
 					}
@@ -63,7 +31,11 @@
 			},
 			"minecraft:display_name": {
 				"value": "item.terrariamod:copperpickaxe.name"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.pickaxe"
 			}
-		}
+		},
+		"events": {}
 	}
 }

@@ -1,4 +1,4 @@
-//bridge-file-version: #10
+//bridge-file-version: #11
 {
 	"format_version": "1.16.100",
 	"minecraft:block": {
@@ -20,7 +20,9 @@
 					"texture": "ash",
 					"render_method": "opaque"
 				}
-			}
-		}
+			},
+			"tag:terrariamod:stone": {}
+		},
+		"events": {}
 	}
 }

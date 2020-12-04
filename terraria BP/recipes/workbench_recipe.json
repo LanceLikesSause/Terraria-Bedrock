@@ -10,7 +10,7 @@
 		],
 		"ingredients": [
 			{
-				"item": "minecraft:planks",
+				"item": "terrariamod:purity_wood",
 				"count": 3
 			}
 		],

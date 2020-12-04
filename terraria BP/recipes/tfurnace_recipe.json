@@ -10,11 +10,11 @@
 		],
 		"ingredients": [
 			{
-				"item": "minecraft:stone",
+				"item": "terrariamod:purity_stone",
 				"count": 4
 			},
 			{
-				"item": "minecraft:planks",
+				"item": "terrariamod:purity_wood",
 				"count": 4
 			},
 			{

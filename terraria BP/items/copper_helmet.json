@@ -19,6 +19,9 @@
 			},
 			"minecraft:icon": {
 				"texture": "terrariamod:copper_helmet"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.helmet"
 			}
 		}
 	}

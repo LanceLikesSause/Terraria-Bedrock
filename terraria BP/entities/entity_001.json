@@ -1,0 +1,128 @@
+//bridge-file-version: #17
+{
+	"format_version": "1.16.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "terrariamod:entity_001",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"component_groups": {},
+		"components": {
+			"minecraft:behavior.trade_interest": {
+				"priority": 5,
+				"within_radius": 6,
+				"interest_time": 45,
+				"remove_item_time": 1,
+				"carried_item_switch_time": 2,
+				"cooldown": 2
+			},
+			"minecraft:type_family": {
+				"family": [
+					"villager",
+					"mob"
+				]
+			},
+			"minecraft:mark_variant": {
+				"value": 0
+			},
+			"minecraft:breathable": {
+				"total_supply": 15,
+				"suffocate_time": 0
+			},
+			"minecraft:health": {
+				"value": 250,
+				"max": 250
+			},
+			"minecraft:hurt_on_condition": {
+				"damage_conditions": [
+					{
+						"filters": {
+							"test": "in_lava",
+							"subject": "self",
+							"operator": "==",
+							"value": true
+						},
+						"cause": "lava",
+						"damage_per_tick": 4
+					}
+				]
+			},
+			"minecraft:hide": {},
+			"minecraft:collision_box": {
+				"width": 0.6,
+				"height": 1.9
+			},
+			"minecraft:nameable": {},
+			"minecraft:movement": {
+				"value": 0.5
+			},
+			"minecraft:navigation.walk": {
+				"can_path_over_water": true,
+				"can_pass_doors": true,
+				"can_open_doors": true,
+				"avoid_water": true
+			},
+			"minecraft:follow_range": {
+				"value": 128
+			},
+			"minecraft:annotation.open_door": {},
+			"minecraft:movement.basic": {},
+			"minecraft:jump.static": {},
+			"minecraft:can_climb": {},
+			"minecraft:inventory": {
+				"inventory_size": 8,
+				"private": true
+			},
+			"minecraft:dweller": {
+				"dwelling_type": "village",
+				"dweller_role": "inhabitant",
+				"update_interval_base": 60,
+				"update_interval_variant": 40,
+				"can_find_poi": true,
+				"can_migrate": true,
+				"first_founding_reward": 5
+			},
+			"minecraft:persistent": {},
+			"minecraft:behavior.float": {
+				"priority": 0
+			},
+			"minecraft:behavior.hide": {
+				"priority": 0,
+				"speed_multiplier": 0.8,
+				"poi_type": "bed",
+				"duration": 30
+			},
+			"minecraft:behavior.panic": {
+				"priority": 1,
+				"speed_multiplier": 0.6
+			},
+			"minecraft:behavior.look_at_player": {
+				"priority": 8,
+				"look_distance": 8,
+				"probability": 0.02
+			},
+			"minecraft:behavior.move_towards_restriction": {
+				"priority": 10,
+				"speed_multiplier": 0.6
+			},
+			"minecraft:behavior.random_stroll": {
+				"priority": 10,
+				"speed_multiplier": 0.6
+			},
+			"minecraft:physics": {},
+			"minecraft:pushable": {
+				"is_pushable": true,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:behavior.ranged_attack": {
+				"priority": 0,
+				"attack_interval_min": 1,
+				"attack_interval_max": 3,
+				"attack_radius": 15
+			}
+		},
+		"events": {}
+	}
+}

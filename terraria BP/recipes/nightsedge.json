@@ -1,0 +1,35 @@
+//bridge-file-version: #3
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "terrariamod:nightsedge_recipe"
+		},
+		"tags": [
+			"iron_anvil"
+		],
+		"ingredients": [
+			{
+				"item": "terrariamod:crimtanesword",
+				"count": 1
+			},
+			{
+				"item": "terrariamod:muramasa",
+				"count": 1
+			},
+			{
+				"item": "terrariamod:hellstonesword",
+				"count": 1
+			},
+			{
+				"item": "terrariamod:bladeofgrass",
+				"count": 1
+			}
+		],
+		"result": [
+			{
+				"item": "terrariamod:nightsedge"
+			}
+		]
+	}
+}

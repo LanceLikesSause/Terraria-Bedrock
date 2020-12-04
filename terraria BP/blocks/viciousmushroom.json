@@ -1,6 +1,6 @@
-//bridge-file-version: #3
+//bridge-file-version: #4
 {
-	"format_version": "1.13.0",
+	"format_version": "1.16.100",
 	"minecraft:block": {
 		"description": {
 			"identifier": "terrariamod:viciousmushroom",
@@ -8,7 +8,9 @@
 		},
 		"components": {
 			"minecraft:destroy_time": 0.1,
-			"minecraft:loot": "loot_tables/blocks/viciousmushroom.json"
-		}
+			"minecraft:loot": "loot_tables/blocks/viciousmushroom.json",
+			"tag:terrariamod:plant": {}
+		},
+		"events": {}
 	}
 }

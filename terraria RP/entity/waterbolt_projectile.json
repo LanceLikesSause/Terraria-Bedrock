@@ -1,33 +1,29 @@
-//bridge-file-version: #9
+//bridge-file-version: #2
 {
 	"format_version": "1.10.0",
 	"minecraft:client_entity": {
 		"description": {
 			"identifier": "terrariamod:waterbolt_projectile",
 			"materials": {
-				"default": "arrow"
+				"default": "snowball"
 			},
 			"textures": {
-				"default": "textures/entity/pamobile/waterbolt_projectile"
+				"default": "textures/items/projectiles/waterbolt_projectile"
 			},
 			"geometry": {
-				"default": "geometry.waterbolt_projectile"
-			},
-			"animations": {
-				"move": "animation.arrow.move"
-			},
-			"scripts": {
-				"pre_animation": [
-					"variable.shake = query.shake_time - query.frame_alpha;",
-					"variable.shake_power = variable.shake > 0.0 ? -Math.sin(variable.shake * 200.0) * variable.shake : 0.0;"
-				],
-				"animate": [
-					"move"
-				]
+				"default": "geometry.item_sprite"
 			},
 			"render_controllers": [
-				"controller.render.arrow"
-			]
+				"controller.render.item_sprite"
+			],
+			"animations": {
+				"flying": "animation.actor.billboard"
+			},
+			"scripts": {
+				"animate": [
+					"flying"
+				]
+			}
 		}
 	}
 }

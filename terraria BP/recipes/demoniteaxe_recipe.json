@@ -1,0 +1,28 @@
+//bridge-file-version: #8
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "terrariamod:demoniteaxe_recipe"
+		},
+		"tags": [
+			"iron_anvil"
+		],
+		"pattern": [
+			"XX",
+			"X#",
+			" #"
+		],
+		"key": {
+			"#": {
+				"item": "terrariamod:purity_wood"
+			},
+			"X": {
+				"item": "terrariamod:demoniteblock"
+			}
+		},
+		"result": {
+			"item": "terrariamod:demoniteaxe"
+		}
+	}
+}

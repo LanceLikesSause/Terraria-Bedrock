@@ -1,0 +1,27 @@
+//bridge-file-version: #2
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "terrariamod:ironhelmet_recipe"
+		},
+		"tags": [
+			"iron_anvil"
+		],
+		"ingredients": [
+			{
+				"item": "terrariamod:ironblock",
+				"count": 2
+			},
+			{
+				"item": "terrariamod:ironbar",
+				"count": 3
+			}
+		],
+		"result": [
+			{
+				"item": "terrariamod:iron_helmet"
+			}
+		]
+	}
+}

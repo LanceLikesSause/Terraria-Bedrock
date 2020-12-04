@@ -19,6 +19,9 @@
 			},
 			"minecraft:display_name": {
 				"value": "item.terrariamod:copper_greaves.name"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.leggings"
 			}
 		}
 	}

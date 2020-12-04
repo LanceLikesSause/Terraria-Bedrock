@@ -1,0 +1,28 @@
+//bridge-file-version: #8
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "terrariamod:ironaxe_recipe"
+		},
+		"tags": [
+			"iron_anvil"
+		],
+		"pattern": [
+			"XX",
+			"X#",
+			" #"
+		],
+		"key": {
+			"#": {
+				"item": "terrariamod:purity_wood"
+			},
+			"X": {
+				"item": "terrariamod:ironblock"
+			}
+		},
+		"result": {
+			"item": "terrariamod:ironaxe"
+		}
+	}
+}

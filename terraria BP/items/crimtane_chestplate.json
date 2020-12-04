@@ -19,6 +19,9 @@
 			"minecraft:display_name": {
 				"value": "item.terrariamod:crimtane_chestplate.name"
 			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.chestplate"
+			},
 			"minecraft:max_stack_size": 1
 		},
 		"events": {}

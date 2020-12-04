@@ -1,14 +1,23 @@
-//bridge-file-version: #0
+//bridge-file-version: #1
 {
-	"format_version": "1.13.0",
+	"format_version": "1.16.100",
 	"minecraft:block": {
 		"description": {
 			"identifier": "terrariamod:surfacechest",
 			"register_to_creative_menu": true
 		},
 		"components": {
+			"minecraft:geometry": "geometry.chest",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "chest",
+					"render_method": "alpha_test"
+				}
+			},
 			"minecraft:destroy_time": 1,
-			"minecraft:loot": "loot_tables/blocks/surfacechest.json"
-		}
+			"minecraft:loot": "loot_tables/blocks/surfacechest.json",
+			"tag:terrariamod:wood": {}
+		},
+		"events": {}
 	}
 }

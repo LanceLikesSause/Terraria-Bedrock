@@ -1,0 +1,23 @@
+//bridge-file-version: #2
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "terrariamod:copperchestplate_recipe"
+		},
+		"tags": [
+			"iron_anvil"
+		],
+		"ingredients": [
+			{
+				"item": "terrariamod:copperblock",
+				"count": 5
+			}
+		],
+		"result": [
+			{
+				"item": "terrariamod:copper_chestplate"
+			}
+		]
+	}
+}

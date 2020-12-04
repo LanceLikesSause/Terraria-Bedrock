@@ -20,7 +20,7 @@
 				"destroy_speeds": [
 					{
 						"block": {
-							"tags": "q.any_tag('wood')"
+							"tags": "query.any_tag('terrariamod:wood')"
 						},
 						"speed": 5
 					}
@@ -34,6 +34,9 @@
 				"value": "item.terrariamod:silveraxe.name"
 			},
 			"minecraft:render_offsets": "bow",
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.axe"
+			},
 			"minecraft:weapon": {}
 		}
 	}

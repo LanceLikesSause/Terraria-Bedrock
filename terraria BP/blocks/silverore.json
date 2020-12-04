@@ -1,6 +1,6 @@
-//bridge-file-version: #8
+//bridge-file-version: #9
 {
-	"format_version": "1.13.0",
+	"format_version": "1.16.100",
 	"minecraft:block": {
 		"description": {
 			"identifier": "terrariamod:silverore",
@@ -10,7 +10,9 @@
 		"components": {
 			"minecraft:destroy_time": 3,
 			"minecraft:loot": "loot_tables/blocks/silverore.json",
-			"minecraft:explosion_resistance": 0.5
-		}
+			"minecraft:explosion_resistance": 0.5,
+			"tag:terrariamod:stone": {}
+		},
+		"events": {}
 	}
 }

@@ -1,5 +1,5 @@
-#bridge-file-version: #22
+#bridge-file-version: #32
 # My Comment
-tellraw @s {"rawtext":[{"text":"Depth Meter: you are here:"}]}
-tp @s ~~~
+function save_y
+tellraw @s {"rawtext":[{"text":"Y-Value: "},{"score":{"name":"*","objective":"y"}}]}
  

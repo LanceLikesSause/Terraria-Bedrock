@@ -1,0 +1,37 @@
+//bridge-file-version: #6
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "terrariamod:hellbat",
+			"materials": {
+				"default": "bat"
+			},
+			"textures": {
+				"default": "textures/entity/pamobile/hellbat"
+			},
+			"geometry": {
+				"default": "geometry.cavebat"
+			},
+			"scripts": {
+				"scale": 0.35
+			},
+			"animations": {
+				"resting": "animation.bat.resting",
+				"flying": "animation.cavebat.fly"
+			},
+			"animation_controllers": [
+				{
+					"move": "controller.animation.bat.move"
+				}
+			],
+			"render_controllers": [
+				"controller.render.bat"
+			],
+			"spawn_egg": {
+				"texture": "spawn_egg",
+				"texture_index": 18
+			}
+		}
+	}
+}

@@ -1,6 +1,18 @@
 {
 	"format_version": "1.14.0",
 	"sound_definitions": {
+		"eyeofcthulhu.music": {
+			"category": "music",
+			"sounds": [
+				"sounds/mobs/eyeofcthulhu/bossone"
+			]
+		},
+		"eyeofcthulhu.swoop": {
+			"category": "hostile",
+			"sounds": [
+				"sounds/mobs/eyeofcthulhu/roar"
+			]
+		},
 		"sporemob.death": {
 			"category": "hostile",
 			"sounds": [
@@ -35,6 +47,26 @@
 			"category": "music",
 			"sounds": [
 				"sounds/music/track/boss1"
+			]
+		},
+		"demon.hurt": {
+			"category": "hostile",
+			"sounds": [
+				"sounds/mobs/demon/hurt1"
+			]
+		},
+		"demon.ambient": {
+			"category": "hostile",
+			"sounds": [
+				"sounds/mobs/demon/ambient1",
+				"sounds/mobs/demon/ambient2",
+				"sounds/mobs/demon/ambient3"
+			]
+		},
+		"demon.death": {
+			"category": "hostile",
+			"sounds": [
+				"sounds/mobs/demon/death1"
 			]
 		},
 		"zombie_terraria.hurt": {

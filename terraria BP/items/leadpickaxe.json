@@ -19,42 +19,10 @@
 				"use_efficiency": true,
 				"destroy_speeds": [
 					{
-						"block": "terrariamod:copperore",
-						"speed": 4
-					},
-					{
-						"block": "terrariamod:tinore",
-						"speed": 4
-					},
-					{
-						"block": "terrariamod:ironore",
-						"speed": 4
-					},
-					{
-						"block": "terrariamod:leadore",
-						"speed": 4
-					},
-					{
-						"block": "terrariamod:silverore",
-						"speed": 4
-					},
-					{
-						"block": "terrariamod:tungstenore",
-						"speed": 4
-					},
-					{
-						"block": "terrariamod:goldore",
-						"speed": 4
-					},
-					{
-						"block": "terrariamod:platinumore",
-						"speed": 4
-					},
-					{
-						"speed": 4,
 						"block": {
-							"tags": "query.any_tag('stone', 'metal', 'gravel', 'grass', 'snow', 'dirt', 'sand')"
-						}
+							"tags": "query.any_tag('terrariamod:stone', 'terrariamod:dirt')"
+						},
+						"speed": 4
 					}
 				]
 			},
@@ -63,6 +31,9 @@
 			},
 			"minecraft:icon": {
 				"texture": "terrariamod:leadpickaxe"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.pickaxe"
 			}
 		}
 	}

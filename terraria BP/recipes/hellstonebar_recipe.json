@@ -12,6 +12,10 @@
 			{
 				"item": "terrariamod:hellstone",
 				"count": 3
+			},
+			{
+				"item": "minecraft:obsidian",
+				"count": 1
 			}
 		],
 		"result": [

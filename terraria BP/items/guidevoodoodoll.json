@@ -1,0 +1,21 @@
+//bridge-file-version: #8
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "terrariamod:guidevoodoodoll",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:entity_placer": {
+				"entity": "terrariamod:eyeofcthulhu_stageone"
+			},
+			"minecraft:display_name": {
+				"value": "item.terrariamod:guidevoodoodoll.name"
+			},
+			"minecraft:icon": {
+				"texture": "terrariamod:guidevoodoodoll"
+			}
+		}
+	}
+}

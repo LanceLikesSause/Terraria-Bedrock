@@ -10,10 +10,10 @@
 		],
 		"ingredients": [
 			{
-				"item": "minecraft:planks"
+				"item": "terrariamod:purity_wood"
 			},
 			{
-				"item": "minecraft:cobblestone"
+				"item": "terrariamod:purity_stone"
 			}
 		],
 		"result": [

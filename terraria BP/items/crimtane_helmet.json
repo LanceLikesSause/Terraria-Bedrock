@@ -19,6 +19,9 @@
 			},
 			"minecraft:icon": {
 				"texture": "terrariamod:crimtane_helmet"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.helmet"
 			}
 		}
 	}

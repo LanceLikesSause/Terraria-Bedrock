@@ -1,0 +1,31 @@
+//bridge-file-version: #2
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "terrariamod:demonitehelmet_recipe"
+		},
+		"tags": [
+			"iron_anvil"
+		],
+		"ingredients": [
+			{
+				"item": "terrariamod:demonitebar",
+				"count": 3
+			},
+			{
+				"item": "terrariamod:demoniteblock",
+				"count": 3
+			},
+			{
+				"item": "terrariamod:shadowscale",
+				"count": 3
+			}
+		],
+		"result": [
+			{
+				"item": "terrariamod:demonite_helmet"
+			}
+		]
+	}
+}

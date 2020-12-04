@@ -1,0 +1,27 @@
+//bridge-file-version: #2
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "terrariamod:goldhelmet_recipe"
+		},
+		"tags": [
+			"iron_anvil"
+		],
+		"ingredients": [
+			{
+				"item": "terrariamod:goldblock",
+				"count": 2
+			},
+			{
+				"item": "terrariamod:goldbar",
+				"count": 3
+			}
+		],
+		"result": [
+			{
+				"item": "terrariamod:gold_helmet"
+			}
+		]
+	}
+}

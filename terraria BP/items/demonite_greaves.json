@@ -1,0 +1,28 @@
+//bridge-file-version: #9
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "terrariamod:demonite_greaves",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:armor": {
+				"protection": 6
+			},
+			"minecraft:wearable": {
+				"slot": "slot.armor.legs"
+			},
+			"minecraft:icon": {
+				"texture": "terrariamod:demonite_greaves"
+			},
+			"minecraft:display_name": {
+				"value": "item.terrariamod:demonite_greaves.name"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.leggings"
+			}
+		}
+	}
+}

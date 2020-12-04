@@ -1,0 +1,47 @@
+//bridge-file-version: #7
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "terrariamod:brainofcthulhu_stageone",
+			"materials": {
+				"default": "phantom",
+				"invisible": "phantom_invisible"
+			},
+			"textures": {
+				"default": "textures/entity/pamobile/brainofcthulhu_stageone"
+			},
+			"geometry": {
+				"default": "geometry.brainofcthulhu_stageone"
+			},
+			"scripts": {
+				"pre_animation": [
+					"variable.wingRotZ = 16.0 * Math.sin((variable.RuntimeID * 3 + query.life_time * 20.0) * 7.448454);",
+					"variable.tailRotX = -5.0 * Math.sin((variable.RuntimeID * 3 + query.life_time * 20.0) * 14.896908) - 5.0;"
+				]
+			},
+			"animations": {
+				"phantom_base_pose": "animation.phantom.base_pose",
+				"move": "animation.brainofcthulhu.fly"
+			},
+			"animation_controllers": [
+				{
+					"phantom_base_pose": "controller.animation.phantom.base_pose"
+				},
+				{
+					"move": "animation.brainofcthulhu.fly"
+				}
+			],
+			"particle_effects": {
+				"wing_dust": "minecraft:phantom_trail_particle"
+			},
+			"render_controllers": [
+				"controller.render.phantom"
+			],
+			"spawn_egg": {
+				"base_color": "#B0307B",
+				"overlay_color": "#A10237"
+			}
+		}
+	}
+}

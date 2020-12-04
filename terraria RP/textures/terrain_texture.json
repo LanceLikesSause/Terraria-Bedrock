@@ -1,9 +1,67 @@
+//bridge-file-version: #0
 {
 	"resource_pack_name": "vanilla",
 	"texture_name": "atlas.terrain",
 	"padding": 8,
 	"num_mip_levels": 4,
 	"texture_data": {
+		"crimson_tree": {
+			"textures": "textures/blocks/crimson_tree"
+		},
+		"corrupted_wood": {
+			"textures": "textures/blocks/corrupted_wood"
+		},
+		"corrupted_tree": {
+			"textures": "textures/blocks/corrupted_tree"
+		},
+		"purity_tree": {
+			"textures": "textures/blocks/purity_tree"
+		},
+		"purity_wood": {
+			"textures": "textures/blocks/purity_wood"
+		},
+		"chest": {
+			"textures": "textures/blocks/chest"
+		},
+		"purity_grass_top": {
+			"textures": "textures/blocks/purity_grass_top"
+		},
+		"purity_grass_side": {
+			"textures": "textures/blocks/purity_grass_side"
+		},
+		"purity_dirt": {
+			"textures": "textures/blocks/purity_dirt"
+		},
+		"purity_stone": {
+			"textures": "textures/blocks/purity_stone"
+		},
+		"purity_snow": {
+			"textures": "textures/blocks/purity_snow"
+		},
+		"purity_sand": {
+			"textures": "textures/blocks/purity_sand"
+		},
+		"purity_silt": {
+			"textures": "textures/blocks/purity_silt"
+		},
+		"demoniteblock": {
+			"textures": "textures/blocks/demoniteblock"
+		},
+		"demoniteore": {
+			"textures": "textures/blocks/demoniteore"
+		},
+		"corrupted_leaves": {
+			"textures": "textures/blocks/corrupted_leaves"
+		},
+		"corrupted_log": {
+			"textures": "textures/blocks/corrupted_log"
+		},
+		"hellstoneblock": {
+			"textures": "textures/blocks/hellstoneblock"
+		},
+		"crimtaneblock": {
+			"textures": "textures/blocks/crimtaneblock"
+		},
 		"mushroom": {
 			"textures": "textures/blocks/mushroom"
 		},
@@ -127,6 +185,9 @@
 		"obsidian_terraria": {
 			"textures": "textures/blocks/obsidian_terraria"
 		},
+		"junglespores": {
+			"textures": "textures/blocks/junglespores"
+		},
 		"crystalheart": {
 			"textures": "textures/blocks/crystalheart"
 		},
@@ -210,23 +271,28 @@
 		"corrupted_grass_side": {
 			"textures": "textures/blocks/corrupted_grass_side"
 		},
-		"ebonstone" : {
-          "textures" : "textures/blocks/ebonstone"
+		"ebonstone": {
+			"textures": "textures/blocks/ebonstone"
 		},
-		"workbench" : {
-          "textures" : "textures/blocks/wooden_workbench"
+		"workbench": {
+			"textures": "textures/blocks/wooden_workbench"
 		},
-		"demon_alter" : {
-          "textures" : "textures/blocks/demon_alter"
+		"demon_alter": {
+			"textures": "textures/blocks/demon_alter"
 		},
-		"crimson_alter" : {
-          "textures" : "textures/blocks/crimson_alter"
+		"crimson_alter": {
+			"textures": "textures/blocks/crimson_alter"
 		},
-		"tfurnace" : {
-          "textures" : "textures/blocks/tfurnace"
+		"tfurnace": {
+			"textures": "textures/blocks/tfurnace"
 		},
-		"iron_anvil" : {
-          "textures" : "textures/blocks/iron_anvil"
+		"iron_anvil": {
+			"textures": "textures/blocks/iron_anvil"
+		},
+		"crimson_wood": {
+			"textures": [
+				"textures/blocks/crimson_wood"
+			]
 		}
 	}
 }

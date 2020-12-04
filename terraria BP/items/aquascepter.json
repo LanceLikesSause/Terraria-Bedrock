@@ -1,18 +1,41 @@
-//bridge-file-version: #17
+//bridge-file-version: #20
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
 		"description": {
-			"identifier": "terrariamod:aquascepter"
+			"identifier": "terrariamod:aquascepter",
+			"category": "equipment"
 		},
 		"components": {
 			"minecraft:max_stack_size": 1,
 			"minecraft:hand_equipped": true,
+			"minecraft:on_use": {
+				"on_use": {
+					"event": "minecraft:mana_fire",
+					"condition": "query.scoreboard('mana') > 0"
+				}
+			},
 			"minecraft:icon": {
 				"texture": "terrariamod:aquascepter"
 			},
 			"minecraft:display_name": {
 				"value": "item.terrariamod:aquascepter.name"
+			},
+			"minecraft:creative_category": {
+				"parent": "equipment"
+			}
+		},
+		"events": {
+			"minecraft:mana_fire": {
+				"run_command": {
+					"command": [
+						"scoreboard players remove @s mana 6"
+					]
+				},
+				"shoot": {
+					"projectile": "terrariamod:aquascepter_projectile",
+					"launch_power": 1
+				}
 			}
 		}
 	}

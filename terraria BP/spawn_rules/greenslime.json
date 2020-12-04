@@ -9,14 +9,13 @@
 		"conditions": [
 			{
 				"minecraft:spawns_on_surface": {},
-				"minecraft:spawns_on_block_filter": "minecraft:grass",
 				"minecraft:brightness_filter": {
 					"min": 7,
 					"max": 15,
 					"adjust_for_weather": false
 				},
 				"minecraft:weight": {
-					"default": 1000
+					"default": 3000
 				},
 				"minecraft:herd": {
 					"min_size": 1,
@@ -25,7 +24,7 @@
 				"minecraft:biome_filter": {
 					"test": "has_biome_tag",
 					"operator": "==",
-					"value": "animal"
+					"value": "purity"
 				}
 			}
 		]

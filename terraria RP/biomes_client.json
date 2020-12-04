@@ -292,6 +292,14 @@
 			"fog_color": "#8E0000",
 			"fog_distance": 10
 		},
+		"thecorruption": {
+			"water_surface_color": "#AA00AA",
+			"water_fog_color": "#AA00AA",
+			"water_fog_distance": 10,
+			"water_surface_transparency": 1,
+			"fog_color": "#AA00AA",
+			"fog_distance": 10
+		},
 		"deep_frozen_ocean": {
 			"water_surface_color": "#2570B5",
 			"water_fog_color": "#1a4879",

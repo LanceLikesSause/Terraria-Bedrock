@@ -19,6 +19,9 @@
 			},
 			"minecraft:icon": {
 				"texture": "terrariamod:lead_helmet"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.helmet"
 			}
 		}
 	}

@@ -1,4 +1,4 @@
-//bridge-file-version: #19
+//bridge-file-version: #20
 {
 	"format_version": "1.16.100",
 	"minecraft:block": {
@@ -26,7 +26,9 @@
 				]
 			},
 			"minecraft:block_light_emission": 0,
-			"minecraft:loot": "loot_tables/blocks/mushroom.json"
-		}
+			"minecraft:loot": "loot_tables/blocks/mushroom.json",
+			"tag:terrariamod:plant": {}
+		},
+		"events": {}
 	}
 }

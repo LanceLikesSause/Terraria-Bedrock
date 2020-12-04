@@ -1,0 +1,23 @@
+//bridge-file-version: #2
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "terrariamod:silvergreaves_recipe"
+		},
+		"tags": [
+			"iron_anvil"
+		],
+		"ingredients": [
+			{
+				"item": "terrariamod:silverblock",
+				"count": 4
+			}
+		],
+		"result": [
+			{
+				"item": "terrariamod:silver_greaves"
+			}
+		]
+	}
+}

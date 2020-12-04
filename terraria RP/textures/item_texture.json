@@ -1,7 +1,65 @@
+//bridge-file-version: #3
 {
 	"resource_pack_name": "TerrariaModLLS",
 	"texture_name": "atlas.items",
 	"texture_data": {
+		"terrariamod:crimson_wood": {
+			"textures": "textures/items/crimson_wood"
+		},
+		"terrariamod:corrupted_wood": {
+			"textures": "textures/items/corrupted_wood"
+		},
+		"terrariamod:purity_wood": {
+			"textures": "textures/items/purity_wood"
+		},
+		"terrariamod:cellphone": {
+			"textures": "textures/items/cellphone"
+		},
+		"terrariamod:guidevoodoodoll": {
+			"textures": "textures/items/pamobile/guidevoodoodoll"
+		},
+		"terrariamod:demonite_helmet": {
+			"textures": "textures/items/armor/demonite_helmet"
+		},
+		"terrariamod:demonite_chestplate": {
+			"textures": "textures/items/armor/demonite_chestplate"
+		},
+		"terrariamod:demonite_greaves": {
+			"textures": "textures/items/armor/demonite_greaves"
+		},
+		"terrariamod:demonitebow": {
+			"textures": "textures/items/guns/demonitebow"
+		},
+		"terrariamod:demoniteaxe": {
+			"textures": "textures/items/axes/demoniteaxe"
+		},
+		"terrariamod:demonitepickaxe": {
+			"textures": "textures/items/pickaxes/demonitepickaxe"
+		},
+		"terrariamod:shadowscale": {
+			"textures": "textures/items/pamobile/shadowscale"
+		},
+		"terrariamod:demonitesword": {
+			"textures": "textures/items/swords/demonitesword"
+		},
+		"terrariamod:demonitebar": {
+			"textures": "textures/items/ingots/demonitebar"
+		},
+		"terrariamod:nightsedge": {
+			"textures": "textures/items/swords/nightsedge"
+		},
+		"terrariamod:bladeofgrass": {
+			"textures": "textures/items/swords/bladeofgrass"
+		},
+		"terrariamod:bezoar": {
+			"textures": "textures/items/pamobile/bezoar"
+		},
+		"terrariamod:stinger": {
+			"textures": "textures/items/pamobile/stinger"
+		},
+		"terrariamod:bottle": {
+			"textures": "textures/items/pamobile/bottle"
+		},
 		"terrariamod:copperaxe": {
 			"textures": "textures/items/axes/copperaxe"
 		},
@@ -475,6 +533,21 @@
 		},
 		"terrariamod:meteorite_greaves": {
 			"textures": "textures/items/armor/meteorite_greaves"
+		},
+		"terrariamod:wormfood": {
+			"textures": [
+				"textures/items/pamobile/wormfood"
+			]
+		},
+		"terrariamod:rottenchunk": {
+			"textures": [
+				"textures/items/pamobile/rottenchunk"
+			]
+		},
+		"terrariamod:vilemushroom": {
+			"textures": [
+				"textures/items/pamobile/vilemushroom"
+			]
 		}
 	}
 }

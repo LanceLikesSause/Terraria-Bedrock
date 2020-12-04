@@ -8,11 +8,30 @@
 		"components": {
 			"minecraft:max_stack_size": 1,
 			"minecraft:hand_equipped": true,
+			"minecraft:on_use": {
+				"on_use": {
+					"event": "minecraft:mana_fire",
+					"condition": "query.scoreboard('mana') > 0"
+				}
+			},
 			"minecraft:icon": {
 				"texture": "terrariamod:waterbolt"
 			},
 			"minecraft:display_name": {
 				"value": "item.terrariamod:waterbolt.name"
+			}
+		},
+		"events": {
+			"minecraft:mana_fire": {
+				"run_command": {
+					"command": [
+						"scoreboard players remove @s mana 5"
+					]
+				},
+				"shoot": {
+					"projectile": "terrariamod:waterbolt_projectile",
+					"launch_power": 1
+				}
 			}
 		}
 	}

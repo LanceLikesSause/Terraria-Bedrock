@@ -1,0 +1,35 @@
+//bridge-file-version: #3
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "terrariamod:bezoar",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:use_duration": 1,
+			"minecraft:max_stack_size": 64,
+			"minecraft:icon": {
+				"texture": "terrariamod:bezoar"
+			},
+			"minecraft:display_name": {
+				"value": "item.terrariamod:bezoar.name"
+			},
+			"minecraft:food": {
+				"can_always_eat": true,
+				"on_consume": {
+					"event": "terrariamod:clear_effects"
+				}
+			},
+			"minecraft:use_animation": "eat"
+		},
+		"events": {
+			"terrariamod:clear_effects": {
+				"remove_mob_effect": {
+					"target": "holder",
+					"effect": "poison"
+				}
+			}
+		}
+	}
+}

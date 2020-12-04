@@ -1,4 +1,87 @@
+//bridge-file-version: #1
 {
+	"terrariamod:corrupted_wood": {
+		"sound": "wood",
+		"textures": "corrupted_wood"
+	},
+	"terrariamod:crimson_tree": {
+		"sound": "wood"
+	},
+	"terrariamod:purity_tree": {
+		"sound": "wood"
+	},
+	"terrariamod:purity_wood": {
+		"sound": "wood",
+		"textures": "purity_wood"
+	},
+	"terrariamod:surfacechest": {
+		"sound": "wood",
+		"textures": "surfacechest"
+	},
+	"terrariamod:undergroundchest": {
+		"sound": "wood",
+		"textures": "undergroundchest"
+	},
+	"terrariamod:cavernchest": {
+		"sound": "wood",
+		"textures": "cavernchest"
+	},
+	"terrariamod:dungeonchest_locked": {
+		"sound": "wood",
+		"textures": "dungeonchest_locked"
+	},
+	"terrariamod:dungeonchest_unlocked": {
+		"sound": "wood",
+		"textures": "dungeonchest_unlocked"
+	},
+	"terrariamod:purity_grass": {
+		"sound": "grass",
+		"textures": {
+			"down": "purity_dirt",
+			"side": "purity_grass_side",
+			"up": "purity_grass_top"
+		}
+	},
+	"terrariamod:purity_dirt": {
+		"sound": "sand",
+		"textures": "purity_dirt"
+	},
+	"terrariamod:purity_stone": {
+		"sound": "stone",
+		"textures": "purity_stone"
+	},
+	"terrariamod:purity_snow": {
+		"sound": "snow",
+		"textures": "purity_snow"
+	},
+	"terrariamod:purity_sand": {
+		"sound": "sand",
+		"textures": "purity_sand"
+	},
+	"terrariamod:purity_silt": {
+		"sound": "sand",
+		"textures": "purity_silt"
+	},
+	"terrariamod:demoniteblock": {
+		"sound": "stone",
+		"textures": "demoniteblock"
+	},
+	"terrariamod:demoniteore": {
+		"sound": "stone",
+		"textures": "demoniteore"
+	},
+	"terrariamod:junglespores": {
+		"sound": "stone",
+		"textures": "junglespores"
+	},
+	"terrariamod:hellstoneblock": {
+		"sound": "stone",
+		"textures": "hellstoneblock"
+	},
+	"terrariamod:crimtaneblock": {
+		"sound": "stone",
+		"textures": "crimtaneblock"
+	},
 	"terrariamod:mushroom": {
 		"sound": "grass",
 		"textures": "mushroom"
@@ -23,14 +106,6 @@
 			"side": "mushroom_grass_side"
 		}
 	},
-	"terrariamod:dungeonchest_locked": {
-		"sound": "wood",
-		"textures": "dungeonchest"
-	},
-	"terrariamod:dungeonchest_unlocked": {
-		"sound": "wood",
-		"textures": "dungeonchest"
-	},
 	"terrariamod:dungeon_shelves": {
 		"sound": "wood",
 		"textures": "dungeon_shelves"
@@ -38,14 +113,6 @@
 	"terrariamod:meteoriteblock": {
 		"sound": "stone",
 		"textures": "meteoriteblock"
-	},
-	"terrariamod:undergroundchest": {
-		"sound": "wood",
-		"textures": "undergroundchest"
-	},
-	"terrariamod:cavernchest": {
-		"sound": "wood",
-		"textures": "cavernchest"
 	},
 	"terrariamod:platinumblock": {
 		"sound": "stone",
@@ -94,22 +161,6 @@
 	"terrariamod:hellstone": {
 		"textures": "hellstone",
 		"sound": "stone"
-	},
-	"terrariamod:crimson_log": {
-		"textures": "crimson_log",
-		"sound": "wood"
-	},
-	"terrariamod:crimson_grass": {
-		"sound": "grass",
-		"textures": {
-			"up": "crimson_grass_up",
-			"down": "crimson_grass_down",
-			"side": "crimson_grass_side"
-		}
-	},
-	"terrariamod:crimson_leaves": {
-		"textures": "crimson_leaves",
-		"sound": "grass"
 	},
 	"terrariamod:crimsand": {
 		"textures": "crimsand",
@@ -171,10 +222,6 @@
 		"textures": "crystalheart",
 		"sound": "stone"
 	},
-	"terrariamod:surfacechest": {
-		"textures": "surfacechest",
-		"sound": "wood"
-	},
 	"terrariamod:viciousmushroom": {
 		"textures": "viciousmushroom",
 		"sound": "grass"
@@ -199,53 +246,14 @@
 		"textures": "greenbrick",
 		"sound": "stone"
 	},
-	"minecraft:planks": {
-		"textures": "planks",
-		"sound": "wood"
-	},
-	"minecraft:grass": {
-		"carried_textures": {
-			"down": "grass_carried_bottom",
-			"side": "grass_carried",
-			"up": "grass_carried_top"
-		},
-		"isotropic": {
-			"down": true,
-			"up": true
-		},
-		"sound": "grass",
-		"textures": {
-			"down": "grass_bottom",
-			"side": "grass_side",
-			"up": "grass_top"
-		}
-	},
-	"minecraft:log": {
-		"sound": "wood",
-		"textures": {
-			"down": "log_terraria_down",
-			"side": "log_terraria_side",
-			"up": "log_terraria_down"
-		}
-	},
-   "terrariamod:corrupted_grass": {
-		"sound": "grass",
-		"textures": {
-			"up": "corrupted_grass_up",
-			"down": "crimson_grass_down",
-			"side": "corrupted_grass_side"
-		}
-	},
 	"terrariamod:ebonstone": {
 		"textures": "ebonstone",
 		"sound": "stone"
 	},
 	"terrariamod:workbench": {
-		"textures": "workbench",
 		"sound": "wood"
 	},
 	"terrariamod:bottle_station": {
-		"textures": "bottle_station",
 		"sound": "glass"
 	},
 	"terrariamod:hellforge": {
@@ -253,31 +261,35 @@
 		"sound": "stone"
 	},
 	"terrariamod:demon_alter": {
-		"textures": "demon_alter",
 		"sound": "stone"
 	},
 	"terrariamod:crimson_alter": {
-		"textures": "crimson_alter",
 		"sound": "stone"
 	},
 	"terrariamod:tfurnace": {
-		"textures": "tfurnace",
 		"sound": "stone"
 	},
 	"terrariamod:iron_anvil": {
-		"textures": "iron_anvil",
 		"sound": "stone"
 	},
-	"terrariamod:tree_top": {
-		"textures": "tree_top",
-		"sound": "wood"
+	"terrariamod:crimson_grass": {
+		"sound": "grass",
+		"textures": {
+			"up": "crimson_grass_up",
+			"down": "crimson_grass_down",
+			"side": "crimson_grass_side"
+		}
 	},
-	"terrariamod:tree_bottom": {
-		"textures": "tree_bottom",
-		"sound": "wood"
+	"terrariamod:corrupted_grass": {
+		"sound": "grass",
+		"textures": {
+			"up": "corrupted_grass_up",
+			"down": "crimson_grass_down",
+			"side": "corrupted_grass_side"
+		}
 	},
-	"terrariamod:h": {
-		"textures": "terrariamod_h",
-		"sound": "stone"
+	"terrariamod:crimson_wood": {
+		"sound": "wood",
+		"textures": "crimson_wood"
 	}
 }

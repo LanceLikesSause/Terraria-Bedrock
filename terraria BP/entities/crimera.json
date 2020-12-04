@@ -59,8 +59,8 @@
 				"breathes_water": false
 			},
 			"minecraft:collision_box": {
-				"width": 0.9,
-				"height": 0.5
+				"width": 1,
+				"height": 1
 			},
 			"minecraft:movement": {
 				"value": 1.8

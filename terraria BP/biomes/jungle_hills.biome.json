@@ -1,0 +1,42 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:biome": {
+    "description": {
+      "identifier": "jungle_hills"
+    },
+		"components": {
+			"minecraft:climate": {
+				"downfall": 0,
+				"snow_accumulation": [
+					0,
+					0.125
+				],
+				"temperature": 2
+			},
+			"minecraft:overworld_height": {
+				"noise_type": "extreme"
+			},
+			"minecraft:surface_parameters": {
+				"sea_floor_depth": 7,
+				"sea_floor_material": "terrariamod:purity_silt",
+				"foundation_material": "terrariamod:purity_stone",
+				"mid_material": "terrariamod:purity_dirt",
+				"top_material": "terrariamod:purity_grass",
+				"sea_material": "minecraft:water"
+			},
+			"minecraft:overworld_generation_rules": {
+				"hills_transformation": "desert_hills",
+				"mutate_transformation": "desert_mutated",
+				"generate_for_climates": [
+					[
+						"warm",
+						3
+					]
+				]
+			},
+			"purity": {},
+			"monster": {},
+			"overworld": {}
+		}
+	}
+}

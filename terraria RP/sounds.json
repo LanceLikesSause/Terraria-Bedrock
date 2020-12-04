@@ -1,3 +1,4 @@
+//bridge-file-version: #0
 {
 	"entity_sounds": {
 		"entities": {
@@ -245,6 +246,78 @@
 					}
 				}
 			},
+			"terrariamod:kingslime": {
+				"volume": 1,
+				"pitch": [
+					0.9,
+					1
+				],
+				"events": {
+					"hurt": {
+						"sound": "slime.hurt",
+						"volume": 1,
+						"pitch": 1.1
+					},
+					"ambient": {
+						"sound": "slime.ambient",
+						"volume": 1,
+						"pitch": 1.1
+					},
+					"death": {
+						"sound": "slime.death",
+						"volume": 1,
+						"pitch": 0.9
+					}
+				}
+			},
+			"terrariamod:demon": {
+				"volume": 1,
+				"pitch": [
+					0.9,
+					1
+				],
+				"events": {
+					"hurt": {
+						"sound": "demon.hurt",
+						"volume": 1,
+						"pitch": 1.1
+					},
+					"ambient": {
+						"sound": "demon.ambient",
+						"volume": 1,
+						"pitch": 1.1
+					},
+					"death": {
+						"sound": "demon.death",
+						"volume": 1,
+						"pitch": 0.9
+					}
+				}
+			},
+			"terrariamod:voodoodemon": {
+				"volume": 1,
+				"pitch": [
+					0.9,
+					1
+				],
+				"events": {
+					"hurt": {
+						"sound": "demon.hurt",
+						"volume": 1,
+						"pitch": 1.1
+					},
+					"ambient": {
+						"sound": "demon.ambient",
+						"volume": 1,
+						"pitch": 1.1
+					},
+					"death": {
+						"sound": "demon.death",
+						"volume": 1,
+						"pitch": 0.9
+					}
+				}
+			},
 			"terrariamod:greenslime": {
 				"volume": 1,
 				"pitch": [
@@ -437,7 +510,30 @@
 					}
 				}
 			},
-			"terrariamod:eyeofcthulhu": {
+			"terrariamod:eyeofcthulhu_stageone": {
+				"volume": 1,
+				"pitch": [
+					0.9,
+					1,
+					0.9,
+					1,
+					0.9,
+					1
+				],
+				"events": {
+					"hurt": {
+						"sound": "demoneye.hurt",
+						"volume": 1,
+						"pitch": 1.1
+					},
+					"death": {
+						"sound": "demoneye.death",
+						"volume": 1,
+						"pitch": 0.9
+					}
+				}
+			},
+			"terrariamod:eyeofcthulhu_stagetwo": {
 				"volume": 1,
 				"pitch": [
 					0.9,
@@ -453,6 +549,13 @@
 						"sound": "demoneye.death",
 						"volume": 1,
 						"pitch": 0.9
+					},
+					"swoop": {
+						"pitch": [
+							0.95,
+							1.05
+						],
+						"sound": "eyeofcthulhu.swoop"
 					}
 				}
 			},
@@ -520,6 +623,25 @@
 					"purr": "mob.ash.purr",
 					"purreow": "mob.ash.purreow",
 					"eat": "mob.ash.eat"
+				}
+			},
+			"terrariamod:brainofcthulhu_stageone": {
+				"volume": 0.9,
+				"pitch": [
+					0.6,
+					0.9
+				],
+				"events": {
+					"hurt": {
+						"sound": "demoneye.hurt",
+						"volume": 1,
+						"pitch": 1.1
+					},
+					"death": {
+						"sound": "demoneye.death",
+						"volume": 1,
+						"pitch": 0.9
+					}
 				}
 			}
 		}

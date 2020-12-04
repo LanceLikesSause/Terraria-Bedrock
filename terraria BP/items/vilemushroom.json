@@ -1,0 +1,20 @@
+//bridge-file-version: #3
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "terrariamod:vilemushroom",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:max_stack_size": 64,
+			"minecraft:icon": {
+				"texture": "terrariamod:vilemushroom"
+			},
+			"minecraft:display_name": {
+				"value": "item.terrariamod:vilemushroom.name"
+			}
+		},
+		"events": {}
+	}
+}

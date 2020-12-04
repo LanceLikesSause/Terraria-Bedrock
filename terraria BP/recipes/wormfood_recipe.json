@@ -1,0 +1,26 @@
+//bridge-file-version: #13
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "terrariamod:wormfood_recipe"
+		},
+		"tags": [
+			"alter"
+		],
+		"pattern": [
+			"X#"
+		],
+		"key": {
+			"#": {
+				"item": "terrariamod:vilemushroom"
+			},
+			"X": {
+				"item": "terrariamod:rottenchunk"
+			}
+		},
+		"result": {
+			"item": "terrariamod:wormfood"
+		}
+	}
+}

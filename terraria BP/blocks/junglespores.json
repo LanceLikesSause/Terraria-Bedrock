@@ -1,0 +1,70 @@
+//bridge-file-version: #8
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "terrariamod:junglespores",
+			"properties": {
+				"terrariamod:should_glow_property": [
+					false,
+					true
+				]
+			},
+			"register_to_creative_menu": true
+		},
+		"components": {
+			"minecraft:destroy_time": 0.1,
+			"minecraft:geometry": "geometry.cross",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "junglespores",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:entity_collision": false,
+			"minecraft:ticking": {
+				"looping": true,
+				"range": [
+					4,
+					4
+				],
+				"on_tick": {
+					"event": "terrariamod:glow"
+				}
+			},
+			"tag:terrariamod:plant": {}
+		},
+		"permutations": [
+			{
+				"condition": "query.block_property('terrariamod:should_glow_property') == true",
+				"components": {
+					"minecraft:block_light_emission": 0.1
+				}
+			},
+			{
+				"condition": "query.block_property('terrariamod:should_glow_property') == false",
+				"components": {
+					"minecraft:block_light_emission": 0
+				}
+			}
+		],
+		"events": {
+			"terrariamod:glow": {
+				"randomize": [
+					{
+						"weight": 1,
+						"set_block_property": {
+							"terrariamod:should_glow_property": false
+						}
+					},
+					{
+						"weight": 1,
+						"set_block_property": {
+							"terrariamod:should_glow_property": true
+						}
+					}
+				]
+			}
+		}
+	}
+}

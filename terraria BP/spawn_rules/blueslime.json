@@ -16,7 +16,7 @@
 					"adjust_for_weather": false
 				},
 				"minecraft:weight": {
-					"default": 600
+					"default": 1000
 				},
 				"minecraft:herd": {
 					"min_size": 1,
@@ -25,7 +25,7 @@
 				"minecraft:biome_filter": {
 					"test": "has_biome_tag",
 					"operator": "==",
-					"value": "animal"
+					"value": "purity"
 				}
 			}
 		]

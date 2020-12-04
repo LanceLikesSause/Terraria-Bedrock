@@ -20,9 +20,9 @@
 				"destroy_speeds": [
 					{
 						"block": {
-							"tags": "q.any_tag('wood')"
+							"tags": "query.any_tag('terrariamod:wood')"
 						},
-						"speed": 1
+						"speed": 2
 					}
 				]
 			},
@@ -33,6 +33,9 @@
 			"minecraft:render_offsets": "bow",
 			"minecraft:display_name": {
 				"value": "item.terrariamod:copperaxe.name"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.axe"
 			},
 			"minecraft:weapon": {}
 		}

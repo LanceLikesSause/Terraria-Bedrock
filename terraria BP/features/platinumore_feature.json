@@ -9,52 +9,13 @@
 		"places_block": "terrariamod:platinumore",
 		"may_replace": [
 			{
-				"name": "minecraft:stone",
-				"states": {
-					"stone_type": "andesite"
-				}
+				"name": "terrariamod:purity_stone"
 			},
 			{
-				"name": "minecraft:stone",
-				"states": {
-					"stone_type": "andesite_smooth"
-				}
+				"name": "terrariamod:purity_grass"
 			},
 			{
-				"name": "minecraft:stone",
-				"states": {
-					"stone_type": "diorite"
-				}
-			},
-			{
-				"name": "minecraft:stone",
-				"states": {
-					"stone_type": "diorite_smooth"
-				}
-			},
-			{
-				"name": "minecraft:stone",
-				"states": {
-					"stone_type": "granite"
-				}
-			},
-			{
-				"name": "minecraft:stone",
-				"states": {
-					"stone_type": "granite_smooth"
-				}
-			},
-			{
-				"name": "minecraft:stone",
-				"states": {
-					"stone_type": "stone"
-				}
-			},
-			{
-				"name": "minecraft:grass"
-			},
-			{
-				"name": "minecraft:dirt"
+				"name": "terrariamod:purity_dirt"
 			}
 		]
 	}

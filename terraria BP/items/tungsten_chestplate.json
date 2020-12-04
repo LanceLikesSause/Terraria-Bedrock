@@ -19,6 +19,9 @@
 			},
 			"minecraft:display_name": {
 				"value": "item.terrariamod:tungsten_chestplate.name"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.chestplate"
 			}
 		}
 	}

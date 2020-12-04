@@ -1,25 +1,23 @@
-//bridge-file-version: #8
+//bridge-file-version: #3
 {
-	"format_version": 1.12,
-	"minecraft:recipe_shaped": {
+	"format_version": "1.16.100",
+	"minecraft:recipe_shapeless": {
 		"description": {
 			"identifier": "terrariamod:hellstonesword_recipe"
 		},
 		"tags": [
 			"iron_anvil"
 		],
-		"pattern": [
-			"X",
-			"X",
-			"X"
-		],
-		"key": {
-			"X": {
-				"item": "terrariamod:hellstonebar"
+		"ingredients": [
+			{
+				"item": "terrariamod:hellstoneblock",
+				"count": 5
 			}
-		},
-		"result": {
-			"item": "terrariamod:hellstonesword"
-		}
+		],
+		"result": [
+			{
+				"item": "terrariamod:hellstonesword"
+			}
+		]
 	}
 }

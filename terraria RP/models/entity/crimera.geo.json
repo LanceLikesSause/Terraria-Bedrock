@@ -7,13 +7,13 @@
 				"texture_width": 64,
 				"texture_height": 64,
 				"visible_bounds_width": 7,
-				"visible_bounds_height": 2,
-				"visible_bounds_offset": [0, 0, 0]
+				"visible_bounds_height": 3,
+				"visible_bounds_offset": [0, 0.5, 0]
 			},
 			"bones": [
 				{
 					"name": "unknown_bone",
-					"pivot": [0, 0, 0],
+					"pivot": [3, 8.18182, 4.18182],
 					"cubes": [
 						{
 							"origin": [-4, 0, 6],

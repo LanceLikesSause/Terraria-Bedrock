@@ -1,0 +1,32 @@
+//bridge-file-version: #23
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.mana": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"shoot": "query.is_alive"
+						}
+					],
+					"on_entry": [
+						"variable.startTime = query.time_stamp;"
+					]
+				},
+				"shoot": {
+					"transitions": [
+						{
+							"default": "(query.time_stamp - variable.startTime) > 9999999999999999999999999999999999999"
+						}
+					],
+					"on_entry": [
+						"variable.startTime = query.time_stamp;",
+						"/function mana"
+					]
+				}
+			}
+		}
+	}
+}

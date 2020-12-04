@@ -28,7 +28,7 @@
 				"minecraft:biome_filter": {
 					"test": "has_biome_tag",
 					"operator": "==",
-					"value": "monster"
+					"value": "purity"
 				},
 				"minecraft:density_limit": {
 					"surface": 2

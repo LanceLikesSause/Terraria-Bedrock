@@ -1,0 +1,37 @@
+//bridge-file-version: #10
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "terrariamod:cellphone",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:display_name": {
+				"value": "item.terrariamod:cellphone.name"
+			},
+			"minecraft:icon": {
+				"texture": "terrariamod:cellphone"
+			},
+			"minecraft:creative_category": {
+				"parent": "equipment"
+			},
+			"minecraft:on_use": {
+				"on_use": {
+					"event": "terrariamod:use_cell_phone_event",
+					"condition": "query.moon_phase",
+					"target": "self"
+				}
+			}
+		},
+		"events": {
+			"terrariamod:use_cell_phone_event": {
+				"run_command": {
+					"command": [
+						"function cellphone"
+					]
+				}
+			}
+		}
+	}
+}

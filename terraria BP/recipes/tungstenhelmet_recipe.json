@@ -1,0 +1,27 @@
+//bridge-file-version: #2
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "terrariamod:tungstenhelmet_recipe"
+		},
+		"tags": [
+			"iron_anvil"
+		],
+		"ingredients": [
+			{
+				"item": "terrariamod:tungstenblock",
+				"count": 2
+			},
+			{
+				"item": "terrariamod:tungstenbar",
+				"count": 3
+			}
+		],
+		"result": [
+			{
+				"item": "terrariamod:tungsten_helmet"
+			}
+		]
+	}
+}

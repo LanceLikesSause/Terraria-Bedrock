@@ -1,0 +1,28 @@
+//bridge-file-version: #6
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "terrariamod:demonite_helmet",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:armor": {
+				"protection": 6
+			},
+			"minecraft:wearable": {
+				"slot": "slot.armor.head"
+			},
+			"minecraft:display_name": {
+				"value": "item.terrariamod:demonite_helmet.name"
+			},
+			"minecraft:icon": {
+				"texture": "terrariamod:demonite_helmet"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.helmet"
+			}
+		}
+	}
+}

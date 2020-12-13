@@ -1,0 +1,166 @@
+{
+	"file_path": "C:\\Users\\LANCE.LEGAUX\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\recipes\\redbrick_recipe.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "5f1b44e9_4762_419a_a386_5ce81c2fae13",
+	"file_version": 8,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:recipe_shapeless": {
+						"description": {
+							"identifier": "terrariamod:redbrick_recipe"
+						},
+						"tags": [
+							"tfurnace"
+						],
+						"ingredients": [
+							{
+								"item": "terrariamod:purity_clay",
+								"count": 2
+							}
+						],
+						"result": [
+							{
+								"item": "terrariamod:redbrick"
+							}
+						]
+					}
+				},
+				"key": "minecraft:recipe_shapeless",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:redbrick_recipe"
+							},
+							"tags": [
+								"tfurnace"
+							],
+							"ingredients": [
+								{
+									"item": "terrariamod:purity_clay",
+									"count": 2
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:redbrick"
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:redbrick_recipe"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:redbrick_recipe"
+							},
+							"tags": [
+								"tfurnace"
+							],
+							"ingredients": [
+								{
+									"item": "terrariamod:purity_clay",
+									"count": 2
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:redbrick"
+								}
+							]
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"tfurnace"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:redbrick_recipe"
+							},
+							"tags": [
+								"tfurnace"
+							],
+							"ingredients": [
+								{
+									"item": "terrariamod:purity_clay",
+									"count": 2
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:redbrick"
+								}
+							]
+						},
+						"key": "ingredients",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "terrariamod:purity_clay",
+										"count": 2
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "terrariamod:purity_clay",
+									"count": 2
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:redbrick_recipe"
+							},
+							"tags": [
+								"tfurnace"
+							],
+							"ingredients": [
+								{
+									"item": "terrariamod:purity_clay",
+									"count": 2
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:redbrick"
+								}
+							]
+						},
+						"key": "result",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "terrariamod:redbrick"
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "terrariamod:redbrick"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

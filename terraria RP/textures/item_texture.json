@@ -1,8 +1,17 @@
-//bridge-file-version: #3
+//bridge-file-version: #6
 {
 	"resource_pack_name": "TerrariaModLLS",
 	"texture_name": "atlas.items",
 	"texture_data": {
+		"terrariamod:jungle_wood": {
+			"textures": "textures/items/jungle_wood"
+		},
+		"terrariamod:acorn": {
+			"textures": "textures/items/pamobile/acorn"
+		},
+		"terrariamod:victoriousmushroom": {
+			"textures": "textures/items/pamobile/victoriousmushroom"
+		},
 		"terrariamod:crimson_wood": {
 			"textures": "textures/items/crimson_wood"
 		},
@@ -263,9 +272,6 @@
 		},
 		"terrariamod:dynamite": {
 			"textures": "textures/items/weapons/dynamite"
-		},
-		"minecraft:mushroom_brown": {
-			"textures": "textures/items/pamobile/mushroom_brown"
 		},
 		"terrariamod:shuriken": {
 			"textures": "textures/items/weapons/shuriken"
@@ -547,6 +553,11 @@
 		"terrariamod:vilemushroom": {
 			"textures": [
 				"textures/items/pamobile/vilemushroom"
+			]
+		},
+		"terrariamod:purity_torch": {
+			"textures": [
+				"textures/items/purity_torch"
 			]
 		}
 	}

@@ -103,6 +103,46 @@
 						}
 					}
 				}
+			},
+			"e8bea6bc_135d_434a_8de5_fde88c619d7b": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"c39528a8_eb17_4dcd_89af_b18f4e22796d": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"f4706812_3398_422b_8739_e3905a592c8e": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"774a9ef2_675a_476c_bfbf_1601b554f35c": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
 			}
 		}
 	},
@@ -449,6 +489,195 @@
 		"data": {}
 	},
 	"BP/animation_controllers/starting_items.json": {
+		"data": {}
+	},
+	"BP/blocks/victoriousmushroom.json": {
+		"data": {}
+	},
+	"BP/items/mushroom.json": {
+		"data": {}
+	},
+	"BP/items/victoriousmushroom.json": {
+		"data": {}
+	},
+	"BP/feature_rules/purity_mushroom_featurerule.json": {
+		"data": {}
+	},
+	"BP/features/purity_mushroom_feature.json": {
+		"data": {}
+	},
+	"BP/recipes/bloodyspine_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/poisonedknife_recipe.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/viciousmushroom.json": {
+		"data": {}
+	},
+	"BP/blocks/purity_torch.json": {
+		"data": {}
+	},
+	"BP/items/purity_torch.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/purity_torch.json": {
+		"data": {}
+	},
+	"BP/recipes/torch_shadewood.json": {
+		"data": {}
+	},
+	"BP/recipes/torch_puritywood.json": {
+		"data": {}
+	},
+	"BP/blocks/crimsonheart.json": {
+		"data": {}
+	},
+	"BP/feature_rules/crimsonalter_featurerule.json": {
+		"data": {}
+	},
+	"BP/features/crimsonalter_feature.json": {
+		"data": {}
+	},
+	"BP/manifest.json": {
+		"data": {}
+	},
+	"BP/feature_rules/victoriousmushroom_featurerule.json": {
+		"data": {}
+	},
+	"BP/features/victoriousmushroom_feature.json": {
+		"data": {}
+	},
+	"RP/ui/how_to_play_screen.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/surfacechest.json": {
+		"data": {}
+	},
+	"BP/recipes/tfurnace_recipe.json": {
+		"data": {}
+	},
+	"BP/biomes/forest.biome.json": {
+		"data": {}
+	},
+	"BP/blocks/jungle_grass.json": {
+		"data": {}
+	},
+	"BP/biomes/desert.biome.json": {
+		"data": {}
+	},
+	"BP/biomes/desert_mutated.biome.json": {
+		"data": {}
+	},
+	"BP/biomes/desert_hills.biome.json": {
+		"data": {}
+	},
+	"BP/spawn_rules/greenslime.json": {
+		"data": {}
+	},
+	"BP/spawn_rules/bloodcrawler.json": {
+		"data": {}
+	},
+	"BP/spawn_rules/blueslime.json": {
+		"data": {}
+	},
+	"BP/spawn_rules/blueslime_cave.json": {
+		"data": {}
+	},
+	"BP/spawn_rules/crimera.json": {
+		"data": {}
+	},
+	"BP/spawn_rules/eaterofsouls.json": {
+		"data": {}
+	},
+	"BP/spawn_rules/facemonster.json": {
+		"data": {}
+	},
+	"BP/spawn_rules/giantworm.json": {
+		"data": {}
+	},
+	"BP/recipes/graybrick_recipe.json": {
+		"data": {}
+	},
+	"BP/blocks/graybrick.json": {
+		"data": {}
+	},
+	"BP/blocks/purity_clay.json": {
+		"data": {}
+	},
+	"BP/feature_rules/purityclay_featurerule.json": {
+		"data": {}
+	},
+	"BP/features/purityclay_feature.json": {
+		"data": {}
+	},
+	"BP/blocks/redbrick.json": {
+		"data": {}
+	},
+	"BP/recipes/redbrick_recipe.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/purity_clay.json": {
+		"data": {}
+	},
+	"BP/entities/eaterofsouls.json": {
+		"data": {}
+	},
+	"BP/items/acorn.json": {
+		"data": {}
+	},
+	"BP/blocks/sapling.json": {
+		"data": {}
+	},
+	"BP/blocks/purity_sapling.json": {
+		"data": {}
+	},
+	"BP/biomes/flower_forest.biome.json": {
+		"data": {}
+	},
+	"BP/biomes/forest_hills.biome.json": {
+		"data": {}
+	},
+	"BP/spawn_rules/zombie_terraria.json": {
+		"data": {}
+	},
+	"BP/spawn_rules/demoneye.json": {
+		"data": {}
+	},
+	"BP/spawn_rules/demon.json": {
+		"data": {}
+	},
+	"BP/spawn_rules/voodoodemon.json": {
+		"data": {}
+	},
+	"BP/spawn_rules/lavaslime.json": {
+		"data": {}
+	},
+	"BP/spawn_rules/fireimp.json": {
+		"data": {}
+	},
+	"BP/biomes/basalt_deltas.biome.json": {
+		"data": {}
+	},
+	"BP/biomes/crimson_forest.biome.json": {
+		"data": {}
+	},
+	"BP/biomes/hell.biome.json": {
+		"data": {}
+	},
+	"BP/biomes/soulsand_valley.biome.json": {
+		"data": {}
+	},
+	"BP/biomes/warped_forest.biome.json": {
+		"data": {}
+	},
+	"BP/spawn_rules/hellbat.json": {
+		"data": {}
+	},
+	"BP/feature_rules/hellstone_featurerule.json": {
+		"data": {}
+	},
+	"BP/features/hellstone_feature.json": {
 		"data": {}
 	}
 }

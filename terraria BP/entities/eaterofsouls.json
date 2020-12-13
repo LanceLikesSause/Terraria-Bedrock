@@ -1,4 +1,4 @@
-//bridge-file-version: #7
+//bridge-file-version: #8
 {
 	"format_version": "1.13.0",
 	"minecraft:entity": {
@@ -59,7 +59,7 @@
 				"breathes_water": false
 			},
 			"minecraft:collision_box": {
-				"width": 1,
+				"width": 3,
 				"height": 1
 			},
 			"minecraft:movement": {

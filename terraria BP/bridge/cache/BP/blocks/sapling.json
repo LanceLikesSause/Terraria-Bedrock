@@ -1,0 +1,303 @@
+{
+	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP/blocks/sapling.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "5a0fd008_e397_4f26_8c8e_87a8f4f3c0c9",
+	"file_version": 2,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:block": {
+						"description": {
+							"identifier": "terrariamod:sapling"
+						},
+						"components": {
+							"minecraft:geometry": "geometry.sapling",
+							"minecraft:material_instances": {
+								"*": {
+									"texture": "sapling",
+									"render_method": "opaque"
+								}
+							},
+							"minecraft:ticking": {
+								"range": [
+									2,
+									3
+								],
+								"on_tick": {
+									"event": "terrariamod:grow"
+								}
+							}
+						},
+						"events": {
+							"terrariamod:grow": {
+								"run_command": {
+									"command": [
+										"structure load mystructure:tree ~~~"
+									]
+								}
+							}
+						}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:sapling"
+							},
+							"components": {
+								"minecraft:geometry": "geometry.sapling",
+								"minecraft:material_instances": {
+									"*": {
+										"texture": "sapling",
+										"render_method": "opaque"
+									}
+								},
+								"minecraft:ticking": {
+									"range": [
+										2,
+										3
+									],
+									"on_tick": {
+										"event": "terrariamod:grow"
+									}
+								}
+							},
+							"events": {
+								"terrariamod:grow": {
+									"run_command": {
+										"command": [
+											"structure load mystructure:tree ~~~"
+										]
+									}
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:sapling"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:sapling"
+							},
+							"components": {
+								"minecraft:geometry": "geometry.sapling",
+								"minecraft:material_instances": {
+									"*": {
+										"texture": "sapling",
+										"render_method": "opaque"
+									}
+								},
+								"minecraft:ticking": {
+									"range": [
+										2,
+										3
+									],
+									"on_tick": {
+										"event": "terrariamod:grow"
+									}
+								}
+							},
+							"events": {
+								"terrariamod:grow": {
+									"run_command": {
+										"command": [
+											"structure load mystructure:tree ~~~"
+										]
+									}
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "geometry.sapling",
+								"key": "minecraft:geometry"
+							},
+							{
+								"open": {
+									"minecraft:geometry": "geometry.sapling",
+									"minecraft:material_instances": {
+										"*": {
+											"texture": "sapling",
+											"render_method": "opaque"
+										}
+									},
+									"minecraft:ticking": {
+										"range": [
+											2,
+											3
+										],
+										"on_tick": {
+											"event": "terrariamod:grow"
+										}
+									}
+								},
+								"key": "minecraft:material_instances",
+								"children": [
+									{
+										"open": {
+											"*": {
+												"texture": "sapling",
+												"render_method": "opaque"
+											}
+										},
+										"key": "*",
+										"is_minified": true,
+										"children": {
+											"texture": "sapling",
+											"render_method": "opaque"
+										}
+									}
+								]
+							},
+							{
+								"open": {
+									"minecraft:geometry": "geometry.sapling",
+									"minecraft:material_instances": {
+										"*": {
+											"texture": "sapling",
+											"render_method": "opaque"
+										}
+									},
+									"minecraft:ticking": {
+										"range": [
+											2,
+											3
+										],
+										"on_tick": {
+											"event": "terrariamod:grow"
+										}
+									}
+								},
+								"key": "minecraft:ticking",
+								"children": [
+									{
+										"open": {
+											"range": [
+												2,
+												3
+											],
+											"on_tick": {
+												"event": "terrariamod:grow"
+											}
+										},
+										"key": "range",
+										"is_minified": true,
+										"children": [
+											2,
+											3
+										]
+									},
+									{
+										"open": {
+											"range": [
+												2,
+												3
+											],
+											"on_tick": {
+												"event": "terrariamod:grow"
+											}
+										},
+										"key": "on_tick",
+										"is_minified": true,
+										"children": {
+											"event": "terrariamod:grow"
+										}
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:sapling"
+							},
+							"components": {
+								"minecraft:geometry": "geometry.sapling",
+								"minecraft:material_instances": {
+									"*": {
+										"texture": "sapling",
+										"render_method": "opaque"
+									}
+								},
+								"minecraft:ticking": {
+									"range": [
+										2,
+										3
+									],
+									"on_tick": {
+										"event": "terrariamod:grow"
+									}
+								}
+							},
+							"events": {
+								"terrariamod:grow": {
+									"run_command": {
+										"command": [
+											"structure load mystructure:tree ~~~"
+										]
+									}
+								}
+							}
+						},
+						"key": "events",
+						"children": [
+							{
+								"open": {
+									"terrariamod:grow": {
+										"run_command": {
+											"command": [
+												"structure load mystructure:tree ~~~"
+											]
+										}
+									}
+								},
+								"key": "terrariamod:grow",
+								"children": [
+									{
+										"open": {
+											"run_command": {
+												"command": [
+													"structure load mystructure:tree ~~~"
+												]
+											}
+										},
+										"key": "run_command",
+										"children": [
+											{
+												"open": {
+													"command": [
+														"structure load mystructure:tree ~~~"
+													]
+												},
+												"key": "command",
+												"is_minified": true,
+												"children": [
+													"structure load mystructure:tree ~~~"
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

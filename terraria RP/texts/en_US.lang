@@ -1,5 +1,26 @@
-##bridge-file-version: #311
-##
+##bridge-file-version: #362
+##how to play
+howtoplay.category.dakon=Terraria Mod Tutorial
+howtoplay.template=Credits
+howtoplay.tempone=Getting Started
+howtoplay.tempone.title=Getting Started
+tempone.header.title0=Chooping Trees
+dakon.tempone.text0=This a guide for the Terraria Mod for Minecraft bedrock. You will start of with nothing but your own hands and the clothes on your back. First you must collect basic resources, do this by chooping trees in the area with your hands, they will give you 8 wood.
+tempone.header.title1=Slimes and Torches
+dakon.tempone.text1=You will also need to kill slimes while it's still day, they will drop gel which can be used to craft torches. You can craft these by placing 1 gel and 1 wood in your personal 2x2 inventory.
+tempone.header.title2=Building a base
+dakon.tempone.text2=Before the sun sets you will need to build a shelter to protect your self for the §4creatures§f of the night. You may want to make room for any NPCs you want to get later. Getting NPCs will be explained later on. 
+tempone.header.title3=Upgrading Gear
+dakon.tempone.text3=Gather ores like copper, and lead so you can make them into better gear. You can create a workbench, by putting 3 wood into your personal crafting space. Workbenches can be used to craft wooden bows, arrows, cactus swords, pickaxes, upgrading and downgrading coin stacks, and NPCs. Use 4 stone, 4 wood, and a torch to craft a furnace, this block will allow you to craft bars like copper or lead bar from your ores. Use 5 lead or iron bars in a workbench to create a iron or lead anvil. The anvil can craft pickaxes, swords, armors, axes, bows, throwing items, and guns from your bars.
+tempone.header.title4=Random Chest
+dakon.tempone.text4=Some items can be obtained from surface chest that are found on the surface or a few blocks underground such as shurikens. Golden chests in wooden cabins can be found much deeper underground. They can contain much better items like hermes boots that give the player a speed effect.
+
+item.terrariamod:acorn.name=Acorn
+tile.terrariamod:tree_bottom.name=Tree Stem
+tile.terrariamod:tree_log.name=Tree Log
+tile.terrariamod:tree_top.name=Tree Leaves
+tile.terrariamod:purity_sapling.name=Sapling
+item.terrariamod:purity_torch.name=Torch
 tile.terrariamod:purity_grass.name=Grass
 tile.terrariamod:purity_tree.name=Tree
 item.terrariamod:purity_wood.name=Wood
@@ -7,23 +28,33 @@ tile.terrariamod:purity_dirt.name=Dirt
 tile.terrariamod:purity_stone.name=Stone
 tile.terrariamod:purity_snow.name=Snow
 tile.terrariamod:purity_sand.name=Sand
+tile.terrariamod:purity_clay.name=Clay
+tile.terrariamod:graybrick.name=Gray Brick
+tile.terrariamod:redbrick.name=Red Brick
 
+tile.terrariamod:tree_bottom_crimson.name=Tree Stem
+tile.terrariamod:tree_log_crimson.name=Tree Log
+tile.terrariamod:tree_top_crimson.name=Tree Leaves
 tile.terrariamod:crimson_grass.name=Crimson Grass
 tile.terrariamod:crimson_tree.name=Crimson Tree
 tile.terrariamod:crimson_wood.name=Shadewood
 item.terrariamod:crimson_wood.name=Shadewood
 tile.terrariamod:crimson_cactus.name=Crimson Cactus
-tile.terrariamod:viciousmushroom.name=Vicious Mushroom
+item.terrariamod:victoriousmushroom.name=Vicious Mushroom
 tile.terrariamod:crimsand.name=Crimsand
 tile.terrariamod:crimstone.name=Crimstone
 tile.terrariamod:crimtaneore.name=Crimtane Ore
 
+tile.terrariamod:tree_bottom_corruption.name=Tree Stem Corruption
+tile.terrariamod:tree_log_corruption.name=Tree Log Corruption
+tile.terrariamod:tree_top_corruption.name=Tree Leaves Corruption
 tile.terrariamod:corrupted_grass.name=Corrupted Grass
 tile.terrariamod:corrupted_tree.name=Corrupted Tree
 item.terrariamod:corrupted_wood.name=Ebonwood
 tile.terrariamod:corrupted_wood.name=Ebonwood 
 tile.terrariamod:ebonestone.name=Ebonestone
 
+item.terrariamod:jungle_wood.name=Jungle Wood
 
 item.terrariamod:copperaxe.name=Copper Axe
 item.terrariamod:tinaxe.name=Tin Axe

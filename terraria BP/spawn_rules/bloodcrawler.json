@@ -1,4 +1,4 @@
-//bridge-file-version: #7
+//bridge-file-version: #8
 {
 	"format_version": "1.8.0",
 	"minecraft:spawn_rules": {
@@ -25,7 +25,7 @@
 				"minecraft:biome_filter": {
 					"test": "has_biome_tag",
 					"operator": "==",
-					"value": "thecrimson"
+					"value": "crimson"
 				}
 			}
 		]

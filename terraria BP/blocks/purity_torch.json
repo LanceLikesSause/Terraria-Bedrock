@@ -1,0 +1,25 @@
+//bridge-file-version: #7
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "terrariamod:purity_torch"
+		},
+		"components": {
+			"minecraft:block_light_emission": 0.8,
+			"minecraft:block_light_absorption": 0,
+			"minecraft:loot": "loot_tables/blocks/purity_torch.json",
+			"minecraft:geometry": "geometry.purity_torch",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "purity_torch",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:entity_collision": false,
+			"tag:terrariamod:plant": {},
+			"minecraft:destroy_time": 0.1
+		},
+		"events": {}
+	}
+}

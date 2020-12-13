@@ -1,4 +1,4 @@
-//bridge-file-version: #4
+//bridge-file-version: #5
 {
 	"format_version": "1.16.100",
 	"minecraft:recipe_shapeless": {
@@ -18,7 +18,7 @@
 				"count": 4
 			},
 			{
-				"item": "minecraft:torch",
+				"item": "terrariamod:purity_torch",
 				"count": 1
 			}
 		],

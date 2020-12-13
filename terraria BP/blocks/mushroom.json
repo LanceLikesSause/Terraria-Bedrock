@@ -1,4 +1,4 @@
-//bridge-file-version: #20
+//bridge-file-version: #21
 {
 	"format_version": "1.16.100",
 	"minecraft:block": {
@@ -6,28 +6,19 @@
 			"identifier": "terrariamod:mushroom"
 		},
 		"components": {
+			"minecraft:destroy_time": 0.1,
+			"minecraft:loot": "loot_tables/blocks/mushroom.json",
+			"minecraft:geometry": "geometry.cross",
 			"minecraft:material_instances": {
 				"*": {
 					"texture": "mushroom",
 					"render_method": "alpha_test"
 				}
 			},
-			"minecraft:geometry": "geometry.cross",
-			"minecraft:entity_collision": {
-				"origin": [
-					0,
-					0,
-					0
-				],
-				"size": [
-					0,
-					0,
-					0
-				]
-			},
+			"minecraft:entity_collision": false,
 			"minecraft:block_light_emission": 0,
-			"minecraft:loot": "loot_tables/blocks/mushroom.json",
-			"tag:terrariamod:plant": {}
+			"tag:terrariamod:plant": {},
+			"minecraft:block_light_absorption": 0
 		},
 		"events": {}
 	}

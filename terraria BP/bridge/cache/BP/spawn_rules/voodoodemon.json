@@ -1,0 +1,220 @@
+{
+	"file_path": "C:\\Users\\LANCE.LEGAUX\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\spawn_rules\\voodoodemon.json",
+	"file_type": "spawn_rule",
+	"format_version": 1,
+	"file_uuid": "871b34ab_80ca_487a_87ba_5548744276e8",
+	"file_version": 8,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.8.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.8.0",
+					"minecraft:spawn_rules": {
+						"description": {
+							"identifier": "terrariamod:voodoodemon",
+							"population_control": "monster"
+						},
+						"conditions": [
+							{
+								"minecraft:difficulty_filter": {
+									"min": "easy",
+									"max": "hard"
+								},
+								"minecraft:weight": {
+									"default": 1000
+								},
+								"minecraft:herd": {
+									"min_size": 1,
+									"max_size": 1
+								},
+								"minecraft:biome_filter": {
+									"test": "has_biome_tag",
+									"operator": "==",
+									"value": "underworld"
+								},
+								"minecraft:density_limit": {
+									"surface": 2
+								},
+								"minecraft:spawns_underground": {}
+							}
+						]
+					}
+				},
+				"key": "minecraft:spawn_rules",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:voodoodemon",
+								"population_control": "monster"
+							},
+							"conditions": [
+								{
+									"minecraft:difficulty_filter": {
+										"min": "easy",
+										"max": "hard"
+									},
+									"minecraft:weight": {
+										"default": 1000
+									},
+									"minecraft:herd": {
+										"min_size": 1,
+										"max_size": 1
+									},
+									"minecraft:biome_filter": {
+										"test": "has_biome_tag",
+										"operator": "==",
+										"value": "underworld"
+									},
+									"minecraft:density_limit": {
+										"surface": 2
+									},
+									"minecraft:spawns_underground": {}
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:voodoodemon",
+							"population_control": "monster"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:voodoodemon",
+								"population_control": "monster"
+							},
+							"conditions": [
+								{
+									"minecraft:difficulty_filter": {
+										"min": "easy",
+										"max": "hard"
+									},
+									"minecraft:weight": {
+										"default": 1000
+									},
+									"minecraft:herd": {
+										"min_size": 1,
+										"max_size": 1
+									},
+									"minecraft:biome_filter": {
+										"test": "has_biome_tag",
+										"operator": "==",
+										"value": "underworld"
+									},
+									"minecraft:density_limit": {
+										"surface": 2
+									},
+									"minecraft:spawns_underground": {}
+								}
+							]
+						},
+						"key": "conditions",
+						"children": [
+							{
+								"open": [
+									{
+										"minecraft:difficulty_filter": {
+											"min": "easy",
+											"max": "hard"
+										},
+										"minecraft:weight": {
+											"default": 1000
+										},
+										"minecraft:herd": {
+											"min_size": 1,
+											"max_size": 1
+										},
+										"minecraft:biome_filter": {
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "underworld"
+										},
+										"minecraft:density_limit": {
+											"surface": 2
+										},
+										"minecraft:spawns_underground": {}
+									}
+								],
+								"children": [
+									{
+										"key": "minecraft:difficulty_filter",
+										"is_minified": true,
+										"children": {
+											"min": "easy",
+											"max": "hard"
+										}
+									},
+									{
+										"key": "minecraft:weight",
+										"is_minified": true,
+										"children": {
+											"default": 1000
+										}
+									},
+									{
+										"key": "minecraft:herd",
+										"is_minified": true,
+										"children": {
+											"min_size": 1,
+											"max_size": 1
+										}
+									},
+									{
+										"open": {
+											"minecraft:difficulty_filter": {
+												"min": "easy",
+												"max": "hard"
+											},
+											"minecraft:weight": {
+												"default": 1000
+											},
+											"minecraft:herd": {
+												"min_size": 1,
+												"max_size": 1
+											},
+											"minecraft:biome_filter": {
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "underworld"
+											},
+											"minecraft:density_limit": {
+												"surface": 2
+											},
+											"minecraft:spawns_underground": {}
+										},
+										"key": "minecraft:biome_filter",
+										"is_minified": true,
+										"children": {
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "underworld"
+										}
+									},
+									{
+										"key": "minecraft:density_limit",
+										"is_minified": true,
+										"children": {
+											"surface": 2
+										}
+									},
+									{
+										"key": "minecraft:spawns_underground",
+										"is_minified": true,
+										"children": {}
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

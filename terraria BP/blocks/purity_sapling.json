@@ -1,0 +1,38 @@
+//bridge-file-version: #4
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "terrariamod:purity_sapling"
+		},
+		"components": {
+			"minecraft:geometry": "geometry.purity_sapling",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "purity_tree",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:ticking": {
+				"range": [
+					5,
+					5
+				],
+				"on_tick": {
+					"event": "terrariamod:grow"
+				}
+			},
+			"minecraft:block_light_emission": 0,
+			"minecraft:block_light_absorption": 0
+		},
+		"events": {
+			"terrariamod:grow": {
+				"run_command": {
+					"command": [
+						"structure load mystructure:tree ~~~"
+					]
+				}
+			}
+		}
+	}
+}

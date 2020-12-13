@@ -1,0 +1,280 @@
+{
+	"file_path": "C:\\Users\\LANCE.LEGAUX\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\biomes\\forest.biome.json",
+	"file_type": "biome",
+	"format_version": 1,
+	"file_uuid": "5dc22d53_28b3_4c39_992e_084f28c0b8a4",
+	"file_version": 7,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.13.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.13.0",
+					"minecraft:biome": {
+						"description": {
+							"identifier": "forest"
+						},
+						"components": {
+							"minecraft:climate": {
+								"downfall": 0,
+								"snow_accumulation": [
+									0,
+									0.125
+								],
+								"temperature": 2
+							},
+							"minecraft:overworld_height": {
+								"noise_type": "extreme"
+							},
+							"minecraft:surface_parameters": {
+								"sea_floor_depth": 7,
+								"sea_floor_material": "terrariamod:purity_silt",
+								"foundation_material": "terrariamod:purity_stone",
+								"mid_material": "terrariamod:purity_dirt",
+								"top_material": "terrariamod:jungle_grass",
+								"sea_material": "minecraft:water"
+							},
+							"minecraft:overworld_generation_rules": {
+								"hills_transformation": "forest_hills",
+								"mutate_transformation": "flower_forest",
+								"generate_for_climates": [
+									[
+										"warm",
+										3
+									]
+								]
+							},
+							"purity": {},
+							"purity_jungle": {},
+							"overworld": {}
+						}
+					}
+				},
+				"key": "minecraft:biome",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "forest"
+							},
+							"components": {
+								"minecraft:climate": {
+									"downfall": 0,
+									"snow_accumulation": [
+										0,
+										0.125
+									],
+									"temperature": 2
+								},
+								"minecraft:overworld_height": {
+									"noise_type": "extreme"
+								},
+								"minecraft:surface_parameters": {
+									"sea_floor_depth": 7,
+									"sea_floor_material": "terrariamod:purity_silt",
+									"foundation_material": "terrariamod:purity_stone",
+									"mid_material": "terrariamod:purity_dirt",
+									"top_material": "terrariamod:jungle_grass",
+									"sea_material": "minecraft:water"
+								},
+								"minecraft:overworld_generation_rules": {
+									"hills_transformation": "forest_hills",
+									"mutate_transformation": "flower_forest",
+									"generate_for_climates": [
+										[
+											"warm",
+											3
+										]
+									]
+								},
+								"purity": {},
+								"purity_jungle": {},
+								"overworld": {}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "forest"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "forest"
+							},
+							"components": {
+								"minecraft:climate": {
+									"downfall": 0,
+									"snow_accumulation": [
+										0,
+										0.125
+									],
+									"temperature": 2
+								},
+								"minecraft:overworld_height": {
+									"noise_type": "extreme"
+								},
+								"minecraft:surface_parameters": {
+									"sea_floor_depth": 7,
+									"sea_floor_material": "terrariamod:purity_silt",
+									"foundation_material": "terrariamod:purity_stone",
+									"mid_material": "terrariamod:purity_dirt",
+									"top_material": "terrariamod:jungle_grass",
+									"sea_material": "minecraft:water"
+								},
+								"minecraft:overworld_generation_rules": {
+									"hills_transformation": "forest_hills",
+									"mutate_transformation": "flower_forest",
+									"generate_for_climates": [
+										[
+											"warm",
+											3
+										]
+									]
+								},
+								"purity": {},
+								"purity_jungle": {},
+								"overworld": {}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"key": "minecraft:climate",
+								"is_minified": true,
+								"children": {
+									"downfall": 0,
+									"snow_accumulation": [
+										0,
+										0.125
+									],
+									"temperature": 2
+								}
+							},
+							{
+								"key": "minecraft:overworld_height",
+								"is_minified": true,
+								"children": {
+									"noise_type": "extreme"
+								}
+							},
+							{
+								"key": "minecraft:surface_parameters",
+								"is_minified": true,
+								"children": {
+									"sea_floor_depth": 7,
+									"sea_floor_material": "terrariamod:purity_silt",
+									"foundation_material": "terrariamod:purity_stone",
+									"mid_material": "terrariamod:purity_dirt",
+									"top_material": "terrariamod:jungle_grass",
+									"sea_material": "minecraft:water"
+								}
+							},
+							{
+								"open": {
+									"minecraft:climate": {
+										"downfall": 0,
+										"snow_accumulation": [
+											0,
+											0.125
+										],
+										"temperature": 2
+									},
+									"minecraft:overworld_height": {
+										"noise_type": "extreme"
+									},
+									"minecraft:surface_parameters": {
+										"sea_floor_depth": 7,
+										"sea_floor_material": "terrariamod:purity_silt",
+										"foundation_material": "terrariamod:purity_stone",
+										"mid_material": "terrariamod:purity_dirt",
+										"top_material": "terrariamod:jungle_grass",
+										"sea_material": "minecraft:water"
+									},
+									"minecraft:overworld_generation_rules": {
+										"hills_transformation": "forest_hills",
+										"mutate_transformation": "flower_forest",
+										"generate_for_climates": [
+											[
+												"warm",
+												3
+											]
+										]
+									},
+									"purity": {},
+									"purity_jungle": {},
+									"overworld": {}
+								},
+								"key": "minecraft:overworld_generation_rules",
+								"is_minified": true,
+								"children": {
+									"hills_transformation": "forest_hills",
+									"mutate_transformation": "flower_forest",
+									"generate_for_climates": [
+										[
+											"warm",
+											3
+										]
+									]
+								}
+							},
+							{
+								"key": "purity",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"open": {
+									"minecraft:climate": {
+										"downfall": 0,
+										"snow_accumulation": [
+											0,
+											0.125
+										],
+										"temperature": 2
+									},
+									"minecraft:overworld_height": {
+										"noise_type": "extreme"
+									},
+									"minecraft:surface_parameters": {
+										"sea_floor_depth": 7,
+										"sea_floor_material": "terrariamod:purity_silt",
+										"foundation_material": "terrariamod:purity_stone",
+										"mid_material": "terrariamod:purity_dirt",
+										"top_material": "terrariamod:jungle_grass",
+										"sea_material": "minecraft:water"
+									},
+									"minecraft:overworld_generation_rules": {
+										"hills_transformation": "forest_hills",
+										"mutate_transformation": "flower_forest",
+										"generate_for_climates": [
+											[
+												"warm",
+												3
+											]
+										]
+									},
+									"purity": {},
+									"purity_jungle": {},
+									"overworld": {}
+								},
+								"key": "purity_jungle",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"key": "overworld",
+								"is_minified": true,
+								"children": {}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

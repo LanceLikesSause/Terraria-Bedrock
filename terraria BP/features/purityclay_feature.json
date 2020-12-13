@@ -1,0 +1,22 @@
+//bridge-file-version: #7
+{
+	"format_version": "1.13.0",
+	"minecraft:ore_feature": {
+		"description": {
+			"identifier": "minecraft:purityclay_feature"
+		},
+		"count": 15,
+		"places_block": "terrariamod:purity_clay",
+		"may_replace": [
+			{
+				"name": "terrariamod:purity_stone"
+			},
+			{
+				"name": "terrariamod:purity_grass"
+			},
+			{
+				"name": "terrariamod:purity_dirt"
+			}
+		]
+	}
+}

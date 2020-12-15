@@ -1,0 +1,166 @@
+{
+	"file_path": "C:\\Users\\LANCE.LEGAUX\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\recipes\\graybrick_recipe.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "503977d6_0168_427e_babb_6ccb5491ffd2",
+	"file_version": 7,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:recipe_shapeless": {
+						"description": {
+							"identifier": "terrariamod:graybrick_recipe"
+						},
+						"tags": [
+							"tfurnace"
+						],
+						"ingredients": [
+							{
+								"item": "terrariamod:purity_stone",
+								"count": 2
+							}
+						],
+						"result": [
+							{
+								"item": "terrariamod:graybrick"
+							}
+						]
+					}
+				},
+				"key": "minecraft:recipe_shapeless",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:graybrick_recipe"
+							},
+							"tags": [
+								"tfurnace"
+							],
+							"ingredients": [
+								{
+									"item": "terrariamod:purity_stone",
+									"count": 2
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:graybrick"
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:graybrick_recipe"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:graybrick_recipe"
+							},
+							"tags": [
+								"tfurnace"
+							],
+							"ingredients": [
+								{
+									"item": "terrariamod:purity_stone",
+									"count": 2
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:graybrick"
+								}
+							]
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"tfurnace"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:graybrick_recipe"
+							},
+							"tags": [
+								"tfurnace"
+							],
+							"ingredients": [
+								{
+									"item": "terrariamod:purity_stone",
+									"count": 2
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:graybrick"
+								}
+							]
+						},
+						"key": "ingredients",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "terrariamod:purity_stone",
+										"count": 2
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "terrariamod:purity_stone",
+									"count": 2
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:graybrick_recipe"
+							},
+							"tags": [
+								"tfurnace"
+							],
+							"ingredients": [
+								{
+									"item": "terrariamod:purity_stone",
+									"count": 2
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:graybrick"
+								}
+							]
+						},
+						"key": "result",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "terrariamod:graybrick"
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "terrariamod:graybrick"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

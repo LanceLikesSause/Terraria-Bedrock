@@ -1,0 +1,23 @@
+//bridge-file-version: #5
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "terrariamod:jungle_wood",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:max_stack_size": 64,
+			"minecraft:block_placer": {
+				"block": "terrariamod:jungle_wood"
+			},
+			"minecraft:icon": {
+				"texture": "terrariamod:jungle_wood"
+			},
+			"minecraft:display_name": {
+				"value": "item.terrariamod:jungle_wood.name"
+			}
+		},
+		"events": {}
+	}
+}

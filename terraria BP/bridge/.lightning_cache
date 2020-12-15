@@ -36,27 +36,9 @@
 			],
 			"custom_commands": []
 		},
-		"BP/animation_controllers/brainofcthulhu_to_stage_2.json": {
-			"ids": [
-				"controller.animation.brainofcthulhu.to_stage_2"
-			],
-			"custom_commands": []
-		},
 		"BP/animation_controllers/eyeofcthulhu_to_stage_2.json": {
 			"ids": [
-				"controller.animation.starting_items"
-			],
-			"custom_commands": []
-		},
-		"BP/animation_controllers/mana.json": {
-			"ids": [
-				"controller.animation.starting_items"
-			],
-			"custom_commands": []
-		},
-		"BP/animation_controllers/starting_items.json": {
-			"ids": [
-				"controller.animation.starting_items"
+				"controller.animation.eyeofcthulhu.to_stage_2"
 			],
 			"custom_commands": []
 		}
@@ -74,7 +56,7 @@
 		},
 		"BP/biomes/basalt_deltas.biome.json": {
 			"tags": [
-				"purity"
+				"underworld"
 			]
 		},
 		"BP/biomes/beach.biome.json": {
@@ -129,7 +111,7 @@
 		},
 		"BP/biomes/crimson_forest.biome.json": {
 			"tags": [
-				"purity"
+				"underworld"
 			]
 		},
 		"BP/biomes/deep_cold_ocean.biome.json": {
@@ -157,19 +139,16 @@
 				"purity"
 			]
 		},
-		"BP/biomes/desert.biome.json": {
-			"tags": [
-				"purity"
-			]
-		},
 		"BP/biomes/desert_hills.biome.json": {
 			"tags": [
-				"purity"
+				"purity",
+				"purity_forest"
 			]
 		},
 		"BP/biomes/desert_mutated.biome.json": {
 			"tags": [
-				"purity"
+				"purity",
+				"purity_forest"
 			]
 		},
 		"BP/biomes/extreme_hills.biome.json": {
@@ -199,17 +178,20 @@
 		},
 		"BP/biomes/flower_forest.biome.json": {
 			"tags": [
-				"purity"
+				"purity",
+				"purity_jungle"
 			]
 		},
 		"BP/biomes/forest.biome.json": {
 			"tags": [
-				"purity"
+				"purity",
+				"purity_jungle"
 			]
 		},
 		"BP/biomes/forest_hills.biome.json": {
 			"tags": [
-				"purity"
+				"purity",
+				"purity_jungle"
 			]
 		},
 		"BP/biomes/frozen_ocean.biome.json": {
@@ -224,7 +206,7 @@
 		},
 		"BP/biomes/hell.biome.json": {
 			"tags": [
-				"purity"
+				"underworld"
 			]
 		},
 		"BP/biomes/ice_mountains.biome.json": {
@@ -332,11 +314,6 @@
 				"purity"
 			]
 		},
-		"BP/biomes/plains.biome.json": {
-			"tags": [
-				"purity"
-			]
-		},
 		"BP/biomes/redwood_taiga_hills_mutated.biome.json": {
 			"tags": [
 				"purity"
@@ -384,7 +361,7 @@
 		},
 		"BP/biomes/soulsand_valley.biome.json": {
 			"tags": [
-				"purity"
+				"underworld"
 			]
 		},
 		"BP/biomes/stone_beach.biome.json": {
@@ -434,606 +411,130 @@
 		},
 		"BP/biomes/warped_forest.biome.json": {
 			"tags": [
-				"purity"
+				"underworld"
+			]
+		},
+		"BP/biomes/desert.biome.json": {
+			"tags": [
+				"purity",
+				"purity_forest"
 			]
 		}
 	},
 	"block": {
-		"BP/blocks/ash.json": {
+		"BP/blocks/crimsonheart.json": {
+<<<<<<< HEAD
+<<<<<<< HEAD
 			"identifiers": [
-				"terrariamod:ash"
-			],
-			"events": [],
-			"recipe_tags": [],
-			"custom_commands": [],
-			"custom_components": []
-		},
-		"BP/blocks/bottle_station.json": {
-			"identifiers": [
-				"terrariamod:bottle_station"
-			],
-			"events": [],
-			"recipe_tags": [
-				"bottle"
-			],
-			"custom_commands": [],
-			"custom_components": []
-		},
-		"BP/blocks/cavernchest.json": {
-			"identifiers": [
-				"terrariamod:cavernchest"
-			],
-			"events": [],
-			"recipe_tags": [],
-			"custom_commands": [],
-			"custom_components": []
-		},
-		"BP/blocks/copperblock.json": {
-			"identifiers": [
-				"terrariamod:copperblock"
-			],
-			"events": [],
-			"recipe_tags": [],
-			"custom_commands": [],
-			"custom_components": []
-		},
-		"BP/blocks/copperore.json": {
-			"identifiers": [
-				"terrariamod:copperore"
-			],
-			"events": [],
-			"recipe_tags": [],
-			"custom_commands": [],
-			"custom_components": []
-		},
-		"BP/blocks/corrupted_grass.json": {
-			"identifiers": [
-				"terrariamod:corrupted_grass"
+				"terrariamod:crimsonheart"
 			],
 			"events": [
-				"thalasso:crack"
+				"terrariamod:interact"
 			],
 			"recipe_tags": [],
 			"custom_commands": [],
 			"custom_components": []
 		},
-		"BP/blocks/crimsand.json": {
+		"BP/blocks/jungle_grass.json": {
 			"identifiers": [
-				"terrariamod:crimsand"
+				"terrariamod:jungle_grass"
 			],
 			"events": [],
 			"recipe_tags": [],
 			"custom_commands": [],
 			"custom_components": []
 		},
-		"BP/blocks/crimson_alter.json": {
+		"BP/blocks/graybrick.json": {
 			"identifiers": [
-				"terrariamod:crimson_alter"
-			],
-			"events": [],
-			"recipe_tags": [
-				"alter"
-			],
-			"custom_commands": [],
-			"custom_components": []
-		},
-		"BP/blocks/crimson_cactus.json": {
-			"identifiers": [
-				"terrariamod:crimson_cactus"
+				"terrariamod:graybrick"
 			],
 			"events": [],
 			"recipe_tags": [],
 			"custom_commands": [],
 			"custom_components": []
 		},
-		"BP/blocks/crimson_grass.json": {
+		"BP/blocks/purity_clay.json": {
 			"identifiers": [
-				"terrariamod:crimson_grass"
+				"terrariamod:purity_clay"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/redbrick.json": {
+			"identifiers": [
+				"terrariamod:redbrick"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/sapling.json": {
+			"identifiers": [
+				"terrariamod:sapling"
 			],
 			"events": [
-				"thalasso:crack"
+				"terrariamod:grow"
 			],
-			"recipe_tags": [],
-			"custom_commands": [],
-			"custom_components": []
-		},
-		"BP/blocks/crimstone.json": {
+=======
 			"identifiers": [
-				"terrariamod:crimstone"
-			],
-			"events": [],
-			"recipe_tags": [],
-			"custom_commands": [],
-			"custom_components": []
-		},
-		"BP/blocks/crimtaneblock.json": {
-			"identifiers": [
-				"terrariamod:crimtaneblock"
-			],
-			"events": [],
-			"recipe_tags": [],
-			"custom_commands": [],
-			"custom_components": []
-		},
-		"BP/blocks/crimtaneore.json": {
-			"identifiers": [
-				"terrariamod:crimtaneore"
-			],
-			"events": [],
-			"recipe_tags": [],
-			"custom_commands": [],
-			"custom_components": []
-		},
-		"BP/blocks/crystalheart.json": {
-			"identifiers": [
-				"terrariamod:crystalheart"
-			],
-			"events": [],
-			"recipe_tags": [],
-			"custom_commands": [],
-			"custom_components": []
-		},
-		"BP/blocks/demon_alter.json": {
-			"identifiers": [
-				"terrariamod:demon_alter"
-			],
-			"events": [],
-			"recipe_tags": [
-				"alter"
-			],
-			"custom_commands": [],
-			"custom_components": []
-		},
-		"BP/blocks/demoniteblock.json": {
-			"identifiers": [
-				"terrariamod:demoniteblock"
-			],
-			"events": [],
-			"recipe_tags": [],
-			"custom_commands": [],
-			"custom_components": []
-		},
-		"BP/blocks/demoniteore.json": {
-			"identifiers": [
-				"terrariamod:demoniteore"
-			],
-			"events": [],
-			"recipe_tags": [],
-			"custom_commands": [],
-			"custom_components": []
-		},
-		"BP/blocks/dungeon_shelves.json": {
-			"identifiers": [
-				"terrariamod:dungeon_shelves"
-			],
-			"events": [],
-			"recipe_tags": [],
-			"custom_commands": [],
-			"custom_components": []
-		},
-		"BP/blocks/dungeonchest_locked.json": {
-			"identifiers": [
-				"terrariamod:dungeonchest_locked"
-			],
-			"events": [],
-			"recipe_tags": [],
-			"custom_commands": [],
-			"custom_components": []
-		},
-		"BP/blocks/dungeonchest_unlocked.json": {
-			"identifiers": [
-				"terrariamod:dungeonchest_unlocked"
-			],
-			"events": [],
-			"recipe_tags": [],
-			"custom_commands": [],
-			"custom_components": []
-		},
-		"BP/blocks/ebonstone.json": {
-			"identifiers": [
-				"terrariamod:ebonstone"
-			],
-			"events": [],
-			"recipe_tags": [],
-			"custom_commands": [],
-			"custom_components": []
-		},
-		"BP/blocks/furnace.json": {
-			"identifiers": [
-				"terrariamod:tfurnace"
-			],
-			"events": [],
-			"recipe_tags": [
-				"tfurnace"
-			],
-			"custom_commands": [],
-			"custom_components": []
-		},
-		"BP/blocks/goldblock.json": {
-			"identifiers": [
-				"terrariamod:goldblock"
-			],
-			"events": [],
-			"recipe_tags": [],
-			"custom_commands": [],
-			"custom_components": []
-		},
-		"BP/blocks/goldore.json": {
-			"identifiers": [
-				"terrariamod:goldore"
-			],
-			"events": [],
-			"recipe_tags": [],
-			"custom_commands": [],
-			"custom_components": []
-		},
-		"BP/blocks/greenbrick.json": {
-			"identifiers": [
-				"terrariamod:greenbrick"
-			],
-			"events": [],
-			"recipe_tags": [],
-			"custom_commands": [],
-			"custom_components": []
-		},
-		"BP/blocks/hellforge.json": {
-			"identifiers": [
-				"terrariamod:hellforge"
-			],
-			"events": [],
-			"recipe_tags": [
-				"hellforge"
-			],
-			"custom_commands": [],
-			"custom_components": []
-		},
-		"BP/blocks/hellstone.json": {
-			"identifiers": [
-				"terrariamod:hellstone"
-			],
-			"events": [],
-			"recipe_tags": [],
-			"custom_commands": [],
-			"custom_components": []
-		},
-		"BP/blocks/hellstoneblock.json": {
-			"identifiers": [
-				"terrariamod:hellstoneblock"
-			],
-			"events": [],
-			"recipe_tags": [],
-			"custom_commands": [],
-			"custom_components": []
-		},
-		"BP/blocks/iron_anvil.json": {
-			"identifiers": [
-				"terrariamod:iron_anvil"
-			],
-			"events": [],
-			"recipe_tags": [
-				"iron_anvil"
-			],
-			"custom_commands": [],
-			"custom_components": []
-		},
-		"BP/blocks/ironblock.json": {
-			"identifiers": [
-				"terrariamod:ironblock"
-			],
-			"events": [],
-			"recipe_tags": [],
-			"custom_commands": [],
-			"custom_components": []
-		},
-		"BP/blocks/ironore.json": {
-			"identifiers": [
-				"terrariamod:ironore"
-			],
-			"events": [],
-			"recipe_tags": [],
-			"custom_commands": [],
-			"custom_components": []
-		},
-		"BP/blocks/junglespores.json": {
-			"identifiers": [
-				"terrariamod:junglespores"
+				"terrariamod:crimsonheart"
 			],
 			"events": [
-				"terrariamod:glow"
+=======
+			"identifiers": [
+				"terrariamod:crimsonheart"
+			],
+			"events": [
+>>>>>>> 3cda6904d58bccc48ad15b8831eb5ffd3a97e6e1
+				"terrariamod:interact"
 			],
 			"recipe_tags": [],
 			"custom_commands": [],
 			"custom_components": []
 		},
-		"BP/blocks/leadblock.json": {
+		"BP/blocks/jungle_grass.json": {
 			"identifiers": [
-				"terrariamod:leadblock"
+				"terrariamod:jungle_grass"
 			],
 			"events": [],
 			"recipe_tags": [],
 			"custom_commands": [],
 			"custom_components": []
 		},
-		"BP/blocks/leadore.json": {
+		"BP/blocks/graybrick.json": {
 			"identifiers": [
-				"terrariamod:leadore"
+				"terrariamod:graybrick"
 			],
 			"events": [],
 			"recipe_tags": [],
 			"custom_commands": [],
 			"custom_components": []
 		},
-		"BP/blocks/meteorite.json": {
+		"BP/blocks/purity_clay.json": {
 			"identifiers": [
-				"terrariamod:meteorite"
+				"terrariamod:purity_clay"
+<<<<<<< HEAD
 			],
 			"events": [],
+>>>>>>> 3cda6904d58bccc48ad15b8831eb5ffd3a97e6e1
 			"recipe_tags": [],
 			"custom_commands": [],
 			"custom_components": []
 		},
-		"BP/blocks/meteoriteblock.json": {
+<<<<<<< HEAD
+		"BP/blocks/purity_sapling.json": {
 			"identifiers": [
-				"terrariamod:meteoriteblock"
+				"terrariamod:purity_sapling"
 			],
-			"events": [],
+			"events": [
+				"terrariamod:grow"
+			],
 			"recipe_tags": [],
-			"custom_commands": [],
-			"custom_components": []
-		},
-		"BP/blocks/mushroom.json": {
-			"identifiers": [
-				"terrariamod:mushroom"
-			],
-			"events": [],
-			"recipe_tags": [],
-			"custom_commands": [],
-			"custom_components": []
-		},
-		"BP/blocks/mushroom_grass.json": {
-			"identifiers": [
-				"terrariamod:mushroom_grass"
-			],
-			"events": [],
-			"recipe_tags": [],
-			"custom_commands": [],
-			"custom_components": []
-		},
-		"BP/blocks/pinkbrick.json": {
-			"identifiers": [
-				"terrariamod:pinkbrick"
-			],
-			"events": [],
-			"recipe_tags": [],
-			"custom_commands": [],
-			"custom_components": []
-		},
-		"BP/blocks/pinkbrick_slab.json": {
-			"identifiers": [
-				"terrariamod:pinkbrick_slab"
-			],
-			"events": [],
-			"recipe_tags": [],
-			"custom_commands": [],
-			"custom_components": []
-		},
-		"BP/blocks/pinkbrick_wall.json": {
-			"identifiers": [
-				"terrariamod:pinkbrick_wall"
-			],
-			"events": [],
-			"recipe_tags": [],
-			"custom_commands": [],
-			"custom_components": []
-		},
-		"BP/blocks/platinumblock.json": {
-			"identifiers": [
-				"terrariamod:platinumblock"
-			],
-			"events": [],
-			"recipe_tags": [],
-			"custom_commands": [],
-			"custom_components": []
-		},
-		"BP/blocks/platinumore.json": {
-			"identifiers": [
-				"terrariamod:platinumore"
-			],
-			"events": [],
-			"recipe_tags": [],
-			"custom_commands": [],
-			"custom_components": []
-		},
-		"BP/blocks/purity_dirt.json": {
-			"identifiers": [
-				"terrariamod:purity_dirt"
-			],
-			"events": [],
-			"recipe_tags": [],
-			"custom_commands": [],
-			"custom_components": []
-		},
-		"BP/blocks/purity_grass.json": {
-			"identifiers": [
-				"terrariamod:purity_grass"
-			],
-			"events": [],
-			"recipe_tags": [],
-			"custom_commands": [],
-			"custom_components": []
-		},
-		"BP/blocks/purity_sand.json": {
-			"identifiers": [
-				"terrariamod:purity_sand"
-			],
-			"events": [],
-			"recipe_tags": [],
-			"custom_commands": [],
-			"custom_components": []
-		},
-		"BP/blocks/purity_silt.json": {
-			"identifiers": [
-				"terrariamod:purity_silt"
-			],
-			"events": [],
-			"recipe_tags": [],
-			"custom_commands": [],
-			"custom_components": []
-		},
-		"BP/blocks/purity_snow.json": {
-			"identifiers": [
-				"terrariamod:purity_snow"
-			],
-			"events": [],
-			"recipe_tags": [],
-			"custom_commands": [],
-			"custom_components": []
-		},
-		"BP/blocks/purity_stone.json": {
-			"identifiers": [
-				"terrariamod:purity_stone"
-			],
-			"events": [],
-			"recipe_tags": [],
-			"custom_commands": [],
-			"custom_components": []
-		},
-		"BP/blocks/purity_tree.json": {
-			"identifiers": [
-				"terrariamod:purity_tree"
-			],
-			"events": [],
-			"recipe_tags": [],
-			"custom_commands": [],
-			"custom_components": []
-		},
-		"BP/blocks/rubyore.json": {
-			"identifiers": [
-				"terrariamod:rubyore"
-			],
-			"events": [],
-			"recipe_tags": [],
-			"custom_commands": [],
-			"custom_components": []
-		},
-		"BP/blocks/sapphireore.json": {
-			"identifiers": [
-				"terrariamod:sapphireore"
-			],
-			"events": [],
-			"recipe_tags": [],
-			"custom_commands": [],
-			"custom_components": []
-		},
-		"BP/blocks/shadewood.json": {
-			"identifiers": [
-				"terrariamod:shadewood"
-			],
-			"events": [],
-			"recipe_tags": [],
-			"custom_commands": [],
-			"custom_components": []
-		},
-		"BP/blocks/silverblock.json": {
-			"identifiers": [
-				"terrariamod:silverblock"
-			],
-			"events": [],
-			"recipe_tags": [],
-			"custom_commands": [],
-			"custom_components": []
-		},
-		"BP/blocks/silverore.json": {
-			"identifiers": [
-				"terrariamod:silverore"
-			],
-			"events": [],
-			"recipe_tags": [],
-			"custom_commands": [],
-			"custom_components": []
-		},
-		"BP/blocks/surfacechest.json": {
-			"identifiers": [
-				"terrariamod:surfacechest"
-			],
-			"events": [],
-			"recipe_tags": [],
-			"custom_commands": [],
-			"custom_components": []
-		},
-		"BP/blocks/tinblock.json": {
-			"identifiers": [
-				"terrariamod:tinblock"
-			],
-			"events": [],
-			"recipe_tags": [],
-			"custom_commands": [],
-			"custom_components": []
-		},
-		"BP/blocks/tinore.json": {
-			"identifiers": [
-				"terrariamod:tinore"
-			],
-			"events": [],
-			"recipe_tags": [],
-			"custom_commands": [],
-			"custom_components": []
-		},
-		"BP/blocks/tungstenblock.json": {
-			"identifiers": [
-				"terrariamod:tungstenblock"
-			],
-			"events": [],
-			"recipe_tags": [],
-			"custom_commands": [],
-			"custom_components": []
-		},
-		"BP/blocks/tungstenore.json": {
-			"identifiers": [
-				"terrariamod:tungstenore"
-			],
-			"events": [],
-			"recipe_tags": [],
-			"custom_commands": [],
-			"custom_components": []
-		},
-		"BP/blocks/undergroundchest.json": {
-			"identifiers": [
-				"terrariamod:undergroundchest"
-			],
-			"events": [],
-			"recipe_tags": [],
-			"custom_commands": [],
-			"custom_components": []
-		},
-		"BP/blocks/viciousmushroom.json": {
-			"identifiers": [
-				"terrariamod:viciousmushroom"
-			],
-			"events": [],
-			"recipe_tags": [],
-			"custom_commands": [],
-			"custom_components": []
-		},
-		"BP/blocks/workbench.json": {
-			"identifiers": [
-				"terrariamod:workbench"
-			],
-			"events": [],
-			"recipe_tags": [
-				"workbench"
-			],
-			"custom_commands": [],
-			"custom_components": []
-		},
-		"BP/blocks/crimson_wood.json": {
-			"identifiers": [
-				"terrariamod:crimson_wood"
-			],
-			"events": [],
-			"recipe_tags": [],
-			"custom_commands": [],
-			"custom_components": []
+			"custom_components": [],
+			"custom_commands": []
 		}
 	},
 	"entity": {
@@ -1048,6 +549,88 @@
 				"minecraft:pet_slept_with_owner",
 				"terrariamod:ash_gifted_owner"
 			],
+=======
+		"BP/blocks/redbrick.json": {
+			"identifiers": [
+				"terrariamod:redbrick"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/sapling.json": {
+			"identifiers": [
+				"terrariamod:sapling"
+			],
+			"events": [
+				"terrariamod:grow"
+			],
+=======
+			],
+			"events": [],
+>>>>>>> 3cda6904d58bccc48ad15b8831eb5ffd3a97e6e1
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+<<<<<<< HEAD
+		"BP/blocks/purity_sapling.json": {
+			"identifiers": [
+				"terrariamod:purity_sapling"
+=======
+		"BP/blocks/redbrick.json": {
+			"identifiers": [
+				"terrariamod:redbrick"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/sapling.json": {
+			"identifiers": [
+				"terrariamod:sapling"
+>>>>>>> 3cda6904d58bccc48ad15b8831eb5ffd3a97e6e1
+			],
+			"events": [
+				"terrariamod:grow"
+			],
+			"recipe_tags": [],
+<<<<<<< HEAD
+=======
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/purity_sapling.json": {
+			"identifiers": [
+				"terrariamod:purity_sapling"
+			],
+			"events": [
+				"terrariamod:grow"
+			],
+			"recipe_tags": [],
+>>>>>>> 3cda6904d58bccc48ad15b8831eb5ffd3a97e6e1
+			"custom_components": [],
+			"custom_commands": []
+		}
+	},
+	"entity": {
+		"BP/entities/ash.json": {
+			"events": [
+				"minecraft:entity_spawned",
+				"minecraft:spawn_from_village",
+				"minecraft:spawn_midnight_ash",
+				"minecraft:entity_born",
+				"minecraft:ageable_grow_up",
+				"minecraft:on_tame",
+				"minecraft:pet_slept_with_owner",
+				"terrariamod:ash_gifted_owner"
+			],
+<<<<<<< HEAD
+>>>>>>> 3cda6904d58bccc48ad15b8831eb5ffd3a97e6e1
+=======
+>>>>>>> 3cda6904d58bccc48ad15b8831eb5ffd3a97e6e1
 			"bridge_core_tags": [],
 			"identifiers": [
 				"terrariamod:ash"
@@ -1088,70 +671,6 @@
 			"custom_commands": [],
 			"custom_components": []
 		},
-		"BP/entities/brainofcthulhu_stageone.json": {
-			"events": [],
-			"bridge_core_tags": [],
-			"identifiers": [
-				"terrariamod:brainofcthulhu_stageone"
-			],
-			"animation_references": [
-				"to_stage_2"
-			],
-			"families": [
-				"phantom",
-				"undead",
-				"monster",
-				"mob"
-			],
-			"custom_commands": [],
-			"custom_components": []
-		},
-		"BP/entities/brainofcthulhu_stagetwo.json": {
-			"events": [],
-			"bridge_core_tags": [],
-			"identifiers": [
-				"terrariamod:brainofcthulhu_stagetwo"
-			],
-			"animation_references": [],
-			"families": [
-				"phantom",
-				"undead",
-				"monster",
-				"mob"
-			],
-			"custom_commands": [],
-			"custom_components": []
-		},
-		"BP/entities/creepers.json": {
-			"events": [],
-			"bridge_core_tags": [],
-			"identifiers": [
-				"terrariamod:creepers"
-			],
-			"animation_references": [],
-			"families": [
-				"phantom",
-				"undead",
-				"monster",
-				"mob"
-			],
-			"custom_commands": [],
-			"custom_components": []
-		},
-		"BP/entities/devourer.json": {
-			"events": [],
-			"bridge_core_tags": [],
-			"identifiers": [
-				"terrariamod:devourer"
-			],
-			"animation_references": [],
-			"families": [
-				"devourer",
-				"inanimate"
-			],
-			"custom_commands": [],
-			"custom_components": []
-		},
 		"BP/entities/dungeonslime.json": {
 			"events": [],
 			"bridge_core_tags": [],
@@ -1162,20 +681,6 @@
 			"families": [
 				"slimes_terraria",
 				"mob"
-			],
-			"custom_commands": [],
-			"custom_components": []
-		},
-		"BP/entities/eaterofworlds.json": {
-			"events": [],
-			"bridge_core_tags": [],
-			"identifiers": [
-				"terrariamod:eaterofworlds"
-			],
-			"animation_references": [],
-			"families": [
-				"eaterofworlds",
-				"inanimate"
 			],
 			"custom_commands": [],
 			"custom_components": []
@@ -1232,30 +737,6 @@
 			"families": [
 				"slimes_terraria",
 				"mob"
-			],
-			"custom_commands": [],
-			"custom_components": []
-		},
-		"BP/entities/player.json": {
-			"events": [
-				"minecraft:gain_bad_omen",
-				"minecraft:clear_add_bad_omen",
-				"minecraft:trigger_raid",
-				"minecraft:remove_raid_trigger",
-				"minecraft:mana",
-				"minecraft:hellstone_event",
-				"minecraft:entity_spawned"
-			],
-			"bridge_core_tags": [],
-			"identifiers": [
-				"minecraft:player"
-			],
-			"animation_references": [
-				"mana",
-				"starting_items"
-			],
-			"families": [
-				"player"
 			],
 			"custom_commands": [],
 			"custom_components": []
@@ -1321,24 +802,91 @@
 			],
 			"custom_commands": [],
 			"custom_components": []
+		},
+		"BP/entities/eaterofsouls.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:eaterofsouls"
+			],
+			"animation_references": [],
+			"families": [
+				"phantom",
+				"undead",
+				"monster",
+				"mob"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/player.json": {
+			"events": [
+				"minecraft:gain_bad_omen",
+				"minecraft:clear_add_bad_omen",
+				"minecraft:trigger_raid",
+				"minecraft:remove_raid_trigger",
+				"minecraft:mana",
+				"minecraft:hellstone_event",
+				"minecraft:entity_spawned",
+				"bridge:remove_command_id_1"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"minecraft:player"
+			],
+			"animation_references": [
+				"mana",
+				"starting_items",
+				"bridge_execute_commands"
+			],
+			"families": [
+				"player"
+			],
+			"custom_components": [],
+			"custom_commands": []
 		}
 	},
 	"feature_rule": {
-		"BP/feature_rules/purity_cave_featurerule.json": {
+		"BP/feature_rules/crimsonalter_featurerule.json": {
 			"identifiers": [
-				"minecraft:purity_cave_featurerule"
+				"minecraft:crimsonalter_featurerule"
 			]
 		},
-		"BP/feature_rules/purityforest_tree_featurerule.json": {
+		"BP/feature_rules/victoriousmushroom_featurerule.json": {
 			"identifiers": [
-				"minecraft:purityforest_tree_featurerule"
+				"minecraft:victoriousmushroom_featurerule"
+			]
+		},
+		"BP/feature_rules/purityclay_featurerule.json": {
+			"identifiers": [
+				"minecraft:purityclay_featurerule"
+			]
+		},
+		"BP/feature_rules/hellstone_featurerule.json": {
+			"identifiers": [
+				"minecraft:hellstone_featurerule"
 			]
 		}
 	},
 	"feature": {
-		"BP/features/purityforest_tree_feature.json": {
+		"BP/features/crimsonalter_feature.json": {
 			"identifiers": [
-				"minecraft:purityforest_tree_feature"
+				"minecraft:crimsonalter_feature"
+			]
+		},
+		"BP/features/victoriousmushroom_feature.json": {
+			"identifiers": [
+				"minecraft:victoriousmushroom_feature"
+			]
+		},
+		"BP/features/purityclay_feature.json": {
+			"identifiers": [
+				"minecraft:purityclay_feature"
+			]
+		},
+		"BP/features/hellstone_feature.json": {
+			"identifiers": [
+				"minecraft:hellstone_feature"
 			]
 		}
 	},
@@ -1376,84 +924,22 @@
 		"BP/functions/slimestaff.mcfunction": {
 			"custom_commands": []
 		},
-		"03d0948c_531d_4a4f_8ea9_6bbeef734d92": {},
-		"2d2a8338_05bc_435a_ae3f_b72f76d72a4e": {},
-		"84e53b96_eabd_46c1_8340_16c44214b52a": {},
-		"cf79b142_07e7_4d11_a472_27f9e5a51e9d": {},
-		"07f0b8a6_03b1_4857_9fbf_816df924298d": {},
 		"BP/functions/starting_items.mcfunction": {
 			"custom_commands": []
 		},
-		"21484c3a_2b24_4d9e_81be_3561bb2ef3c5": {}
-	},
-	"item": {
-		"BP/items/ale.json": {
-			"identifiers": [
-				"terrariamod:ale"
-			],
-			"custom_commands": []
-		},
-		"BP/items/aquascepter.json": {
-			"identifiers": [
-				"terrariamod:aquascepter"
-			],
-			"custom_commands": []
-		},
-		"BP/items/cellphone.json": {
-			"identifiers": [
-				"terrariamod:cellphone"
-			],
-			"custom_commands": []
-		},
-		"BP/items/copperpickaxe.json": {
-			"identifiers": [
-				"terrariamod:copperpickaxe"
-			],
-			"custom_commands": []
-		},
-		"BP/items/purity_wood.json": {
-			"identifiers": [
-				"terrariamod:purity_wood"
-			],
-			"custom_commands": []
-		},
-		"BP/items/rottenchunk.json": {
-			"identifiers": [
-				"terrariamod:rottenchunk"
-			],
-			"custom_commands": []
-		},
-		"BP/items/suspiciouslookingeye.json": {
-			"identifiers": [
-				"terrariamod:suspiciouslookingeye"
-			],
-			"custom_commands": []
-		},
-		"BP/items/vilemushroom.json": {
-			"identifiers": [
-				"terrariamod:vilemushroom"
-			],
-			"custom_commands": []
-		},
-		"BP/items/wormfood.json": {
-			"identifiers": [
-				"terrariamod:wormfood"
-			],
-			"custom_commands": []
-		},
-		"BP/items/crimson_wood.json": {
-			"identifiers": [
-				"terrariamod:crimson_wood"
-			],
-			"custom_commands": []
-		}
-	},
-	"recipe": {
-		"BP/recipes/wormfood_recipe.json": {
-			"tags": [
-				"alter"
-			]
-		}
+		"9ad1f2c5_60aa_4a40_b379_ed6dd8f7e433": {},
+		"774a9ef2_675a_476c_bfbf_1601b554f35c": {},
+		"5a0fd008_e397_4f26_8c8e_87a8f4f3c0c9": {},
+<<<<<<< HEAD
+<<<<<<< HEAD
+		"23223da5_b842_432b_b5d2_333aa68582bd": {},
+		"459d0146_301b_4e4d_ae85_885b62afd892": {}
+=======
+		"23223da5_b842_432b_b5d2_333aa68582bd": {}
+>>>>>>> 3cda6904d58bccc48ad15b8831eb5ffd3a97e6e1
+=======
+		"23223da5_b842_432b_b5d2_333aa68582bd": {}
+>>>>>>> 3cda6904d58bccc48ad15b8831eb5ffd3a97e6e1
 	},
 	"rp_animation_controller": {
 		"RP/animation_controllers/devourer.animation.controller.json": {
@@ -2054,87 +1540,6 @@
 				"default"
 			]
 		},
-		"RP/entity/brainofcthulhu_stageone.json": {
-			"identifiers": [
-				"terrariamod:brainofcthulhu_stageone"
-			],
-			"particle_references": [
-				"wing_dust"
-			],
-			"animation_references": [
-				"phantom_base_pose",
-				"move"
-			],
-			"sound_references": [],
-			"texture_references": [
-				"default"
-			],
-			"material_references": [
-				"default",
-				"invisible"
-			],
-			"geometry_references": [
-				"default"
-			],
-			"geometry_identifiers": [
-				"default"
-			]
-		},
-		"RP/entity/brainofcthulhu_stagetwo.json": {
-			"identifiers": [
-				"terrariamod:brainofcthulhu_stagetwo"
-			],
-			"particle_references": [
-				"wing_dust"
-			],
-			"animation_references": [
-				"phantom_base_pose",
-				"move"
-			],
-			"sound_references": [],
-			"texture_references": [
-				"default"
-			],
-			"material_references": [
-				"default",
-				"invisible"
-			],
-			"geometry_references": [
-				"default"
-			],
-			"geometry_identifiers": [
-				"default"
-			]
-		},
-		"RP/entity/eaterofworlds.json": {
-			"identifiers": [
-				"terrariamod:eaterofworlds"
-			],
-			"particle_references": [
-				"bounce_effect"
-			],
-			"animation_references": [
-				"walk",
-				"attack",
-				"pounce",
-				"humanoid_big_head",
-				"look_at_target",
-				"ctrl"
-			],
-			"sound_references": [],
-			"texture_references": [
-				"default"
-			],
-			"material_references": [
-				"default"
-			],
-			"geometry_references": [
-				"default"
-			],
-			"geometry_identifiers": [
-				"default"
-			]
-		},
 		"RP/entity/rabbit.json": {
 			"identifiers": [
 				"terrariamod:rabbit"
@@ -2352,6 +1757,11 @@
 				"geometry.poisonedknife_projectile"
 			]
 		},
+		"RP/models/entity/purity_torch.geo.json": {
+			"identifiers": [
+				"geometry.purity_torch"
+			]
+		},
 		"RP/models/entity/purity_tree.geo.json": {
 			"identifiers": [
 				"geometry.purity_tree"
@@ -2467,5 +1877,41 @@
 			]
 		}
 	},
-	"animation": {}
+	"recipe": {
+		"BP/recipes/tfurnace_recipe.json": {
+			"tags": [
+				"workbench"
+			]
+		},
+		"BP/recipes/graybrick_recipe.json": {
+			"tags": [
+				"tfurnace"
+			]
+		},
+		"BP/recipes/redbrick_recipe.json": {
+			"tags": [
+				"tfurnace"
+			]
+		}
+	},
+	"item": {
+		"BP/items/acorn.json": {
+			"identifiers": [
+				"terrariamod:acorn"
+			],
+			"custom_commands": []
+<<<<<<< HEAD
+<<<<<<< HEAD
+		},
+		"BP/items/suspiciouslookingeye.json": {
+			"identifiers": [
+				"terrariamod:suspiciouslookingeye"
+			],
+			"custom_commands": []
+=======
+>>>>>>> 3cda6904d58bccc48ad15b8831eb5ffd3a97e6e1
+=======
+>>>>>>> 3cda6904d58bccc48ad15b8831eb5ffd3a97e6e1
+		}
+	}
 }

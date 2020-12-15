@@ -1,5 +1,14 @@
-//bridge-file-version: #1
+//bridge-file-version: #11
 {
+	"terrariamod:jungle_wood": {
+		"sound": "wood",
+		"textures": "jungle_wood"
+	},
+	
+	"terrariamod:crimsonheart": {
+		"sound": "wood",
+		"textures": "crimsonheart"
+	},
 	"terrariamod:corrupted_wood": {
 		"sound": "wood",
 		"textures": "corrupted_wood"
@@ -7,8 +16,36 @@
 	"terrariamod:crimson_tree": {
 		"sound": "wood"
 	},
-	"terrariamod:purity_tree": {
+	"terrariamod:tree_top": {
+		"sound": "grass"
+	},
+	"terrariamod:tree_log": {
 		"sound": "wood"
+	},
+	"terrariamod:tree_bottom": {
+		"sound": "wood"
+	},
+	"terrariamod:tree_top_crimson": {
+		"sound": "grass"
+	},
+	"terrariamod:tree_log_crimson": {
+		"sound": "wood"
+	},
+	"terrariamod:tree_bottom_crimson": {
+		"sound": "wood"
+	},
+	"terrariamod:tree_top_corruption": {
+		"sound": "grass"
+	},
+	"terrariamod:tree_log_corruption": {
+		"sound": "wood"
+	},
+	"terrariamod:tree_bottom_corruption": {
+		"sound": "wood"
+	},
+	"terrariamod:purity_torch": {
+		"sound": "wood",
+		"textures": "purity_torch"
 	},
 	"terrariamod:purity_wood": {
 		"sound": "wood",
@@ -222,8 +259,8 @@
 		"textures": "crystalheart",
 		"sound": "stone"
 	},
-	"terrariamod:viciousmushroom": {
-		"textures": "viciousmushroom",
+	"terrariamod:victoriousmushroom": {
+		"textures": "victoriousmushroom",
 		"sound": "grass"
 	},
 	"terrariamod:ash": {
@@ -280,6 +317,14 @@
 			"side": "crimson_grass_side"
 		}
 	},
+	"terrariamod:jungle_grass": {
+		"sound": "grass",
+		"textures": {
+			"up": "jungle_grass_top",
+			"down": "purity_dirt",
+			"side": "jungle_grass_side"
+		}
+	},
 	"terrariamod:corrupted_grass": {
 		"sound": "grass",
 		"textures": {
@@ -291,5 +336,17 @@
 	"terrariamod:crimson_wood": {
 		"sound": "wood",
 		"textures": "crimson_wood"
+	},
+	"terrariamod:graybrick": {
+		"textures": "graybrick",
+		"sound": "stone"
+	},
+	"terrariamod:purity_clay": {
+		"sound": "gravel",
+		"textures": "purity_clay"
+	},
+	"terrariamod:redbrick": {
+		"sound": "stone",
+		"textures": "redbrick"
 	}
 }

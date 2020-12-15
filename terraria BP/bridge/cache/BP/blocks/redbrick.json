@@ -1,0 +1,63 @@
+{
+	"file_path": "C:\\Users\\LANCE.LEGAUX\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\blocks\\redbrick.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "5ec1360d_c548_4557_8072_651577da8c12",
+	"file_version": 3,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:block": {
+						"description": {
+							"identifier": "terrariamod:redbrick"
+						},
+						"components": {
+							"minecraft:destroy_time": 1,
+							"tag:terrariamod:stone": {}
+						},
+						"events": {}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:redbrick"
+							},
+							"components": {
+								"minecraft:destroy_time": 1,
+								"tag:terrariamod:stone": {}
+							},
+							"events": {}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:redbrick"
+						}
+					},
+					{
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:destroy_time": 1,
+							"tag:terrariamod:stone": {}
+						}
+					},
+					{
+						"key": "events",
+						"is_minified": true,
+						"children": {}
+					}
+				]
+			}
+		]
+	}
+}

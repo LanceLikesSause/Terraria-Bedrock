@@ -1,9 +1,10 @@
+//bridge-file-version: #1
 {
-  "format_version": "1.13.0",
-  "minecraft:biome": {
-    "description": {
-      "identifier": "forest_hills"
-    },
+	"format_version": "1.13.0",
+	"minecraft:biome": {
+		"description": {
+			"identifier": "forest_hills"
+		},
 		"components": {
 			"minecraft:climate": {
 				"downfall": 0,
@@ -25,8 +26,8 @@
 				"sea_material": "minecraft:water"
 			},
 			"minecraft:overworld_generation_rules": {
-				"hills_transformation": "desert_hills",
-				"mutate_transformation": "desert_mutated",
+				"hills_transformation": "forest_hills",
+				"mutate_transformation": "flower_forest",
 				"generate_for_climates": [
 					[
 						"warm",
@@ -35,7 +36,7 @@
 				]
 			},
 			"purity": {},
-			"monster": {},
+			"purity_jungle": {},
 			"overworld": {}
 		}
 	}

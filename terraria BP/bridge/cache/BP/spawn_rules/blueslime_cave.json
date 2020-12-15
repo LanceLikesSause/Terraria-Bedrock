@@ -1,0 +1,176 @@
+{
+	"file_path": "C:\\Users\\LANCE.LEGAUX\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\spawn_rules\\blueslime_cave.json",
+	"file_type": "spawn_rule",
+	"format_version": 1,
+	"file_uuid": "60427683_2a9a_42a8_941e_f9943e583306",
+	"file_version": 12,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.8.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.8.0",
+					"minecraft:spawn_rules": {
+						"description": {
+							"identifier": "terrariamod:blueslime_cave",
+							"population_control": "monster"
+						},
+						"conditions": [
+							{
+								"minecraft:spawns_underground": {},
+								"minecraft:brightness_filter": {
+									"min": 0,
+									"max": 7,
+									"adjust_for_weather": false
+								},
+								"minecraft:weight": {
+									"default": 600
+								},
+								"minecraft:herd": {
+									"min_size": 1,
+									"max_size": 3
+								},
+								"minecraft:biome_filter": {
+									"test": "has_biome_tag",
+									"operator": "==",
+									"value": "purity_forest"
+								}
+							}
+						]
+					}
+				},
+				"key": "minecraft:spawn_rules",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:blueslime_cave",
+							"population_control": "monster"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:blueslime_cave",
+								"population_control": "monster"
+							},
+							"conditions": [
+								{
+									"minecraft:spawns_underground": {},
+									"minecraft:brightness_filter": {
+										"min": 0,
+										"max": 7,
+										"adjust_for_weather": false
+									},
+									"minecraft:weight": {
+										"default": 600
+									},
+									"minecraft:herd": {
+										"min_size": 1,
+										"max_size": 3
+									},
+									"minecraft:biome_filter": {
+										"test": "has_biome_tag",
+										"operator": "==",
+										"value": "purity_forest"
+									}
+								}
+							]
+						},
+						"key": "conditions",
+						"children": [
+							{
+								"open": [
+									{
+										"minecraft:spawns_underground": {},
+										"minecraft:brightness_filter": {
+											"min": 0,
+											"max": 7,
+											"adjust_for_weather": false
+										},
+										"minecraft:weight": {
+											"default": 600
+										},
+										"minecraft:herd": {
+											"min_size": 1,
+											"max_size": 3
+										},
+										"minecraft:biome_filter": {
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "purity_forest"
+										}
+									}
+								],
+								"children": [
+									{
+										"key": "minecraft:spawns_underground",
+										"is_minified": true,
+										"children": {}
+									},
+									{
+										"key": "minecraft:brightness_filter",
+										"is_minified": true,
+										"children": {
+											"min": 0,
+											"max": 7,
+											"adjust_for_weather": false
+										}
+									},
+									{
+										"key": "minecraft:weight",
+										"is_minified": true,
+										"children": {
+											"default": 600
+										}
+									},
+									{
+										"key": "minecraft:herd",
+										"is_minified": true,
+										"children": {
+											"min_size": 1,
+											"max_size": 3
+										}
+									},
+									{
+										"open": {
+											"minecraft:spawns_underground": {},
+											"minecraft:brightness_filter": {
+												"min": 0,
+												"max": 7,
+												"adjust_for_weather": false
+											},
+											"minecraft:weight": {
+												"default": 600
+											},
+											"minecraft:herd": {
+												"min_size": 1,
+												"max_size": 3
+											},
+											"minecraft:biome_filter": {
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "purity_forest"
+											}
+										},
+										"key": "minecraft:biome_filter",
+										"is_minified": true,
+										"children": {
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "purity_forest"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

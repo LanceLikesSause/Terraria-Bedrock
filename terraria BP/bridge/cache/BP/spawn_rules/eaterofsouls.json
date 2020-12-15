@@ -1,0 +1,177 @@
+{
+	"file_path": "C:\\Users\\LANCE.LEGAUX\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\spawn_rules\\eaterofsouls.json",
+	"file_type": "spawn_rule",
+	"format_version": 1,
+	"file_uuid": "42223711_6653_4eee_b89b_bb47b42ccf71",
+	"file_version": 3,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.8.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.8.0",
+					"minecraft:spawn_rules": {
+						"description": {
+							"identifier": "terrariamod:eaterofsouls",
+							"population_control": "monster"
+						},
+						"conditions": [
+							{
+								"minecraft:spawns_on_surface": {},
+								"minecraft:biome_filter": {
+									"test": "has_biome_tag",
+									"operator": "==",
+									"value": "corruption"
+								},
+								"minecraft:weight": {
+									"default": 100
+								},
+								"minecraft:herd": {
+									"min_size": 1,
+									"max_size": 1
+								}
+							}
+						]
+					}
+				},
+				"key": "minecraft:spawn_rules",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:eaterofsouls",
+							"population_control": "monster"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:eaterofsouls",
+								"population_control": "monster"
+							},
+							"conditions": [
+								{
+									"minecraft:spawns_on_surface": {},
+									"minecraft:biome_filter": {
+										"test": "has_biome_tag",
+										"operator": "==",
+										"value": "corruption"
+									},
+									"minecraft:weight": {
+										"default": 100
+									},
+									"minecraft:herd": {
+										"min_size": 1,
+										"max_size": 1
+									}
+								}
+							]
+						},
+						"key": "conditions",
+						"children": [
+							{
+								"open": [
+									{
+										"minecraft:spawns_on_surface": {},
+										"minecraft:biome_filter": {
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "corruption"
+										},
+										"minecraft:weight": {
+											"default": 100
+										},
+										"minecraft:herd": {
+											"min_size": 1,
+											"max_size": 1
+										}
+									}
+								],
+								"children": [
+									{
+										"key": "minecraft:spawns_on_surface",
+										"is_minified": true,
+										"children": {}
+									},
+									{
+										"open": {
+											"minecraft:spawns_on_surface": {},
+											"minecraft:biome_filter": {
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "corruption"
+											},
+											"minecraft:weight": {
+												"default": 100
+											},
+											"minecraft:herd": {
+												"min_size": 1,
+												"max_size": 1
+											}
+										},
+										"key": "minecraft:biome_filter",
+										"is_minified": true,
+										"children": {
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "corruption"
+										}
+									},
+									{
+										"open": {
+											"minecraft:spawns_on_surface": {},
+											"minecraft:biome_filter": {
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "corruption"
+											},
+											"minecraft:weight": {
+												"default": 100
+											},
+											"minecraft:herd": {
+												"min_size": 1,
+												"max_size": 1
+											}
+										},
+										"key": "minecraft:weight",
+										"is_minified": true,
+										"children": {
+											"default": 100
+										}
+									},
+									{
+										"open": {
+											"minecraft:spawns_on_surface": {},
+											"minecraft:biome_filter": {
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "corruption"
+											},
+											"minecraft:weight": {
+												"default": 100
+											},
+											"minecraft:herd": {
+												"min_size": 1,
+												"max_size": 1
+											}
+										},
+										"key": "minecraft:herd",
+										"is_minified": true,
+										"children": {
+											"min_size": 1,
+											"max_size": 1
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

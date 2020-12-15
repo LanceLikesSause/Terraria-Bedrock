@@ -1,10 +1,11 @@
-//bridge-file-version: #50
+//bridge-file-version: #51
 {
 	"format_version": "1.16.100",
 	"minecraft:block": {
 		"description": {
 			"identifier": "terrariamod:crimson_grass",
-			"register_to_creative_menu": true
+			"register_to_creative_menu": true,
+			"is_experimental": false
 		},
 		"components": {
 			"minecraft:destroy_time": 5,

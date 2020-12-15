@@ -1,0 +1,25 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "terrariamod:tree_top_jungle"
+		},
+		"components": {
+			"minecraft:destroy_time": 2,
+			"minecraft:block_light_emission": 0,
+			"minecraft:block_light_absorption": 0,
+			"minecraft:explosion_resistance": 0,
+			"minecraft:loot": "loot_tables/blocks/jungle_tree_top.json",
+			"minecraft:geometry": "geometry.treetop_jungle",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "jungle_tree",
+					"render_method": "alpha_test"
+				}
+			},
+			"tag:terrariamod:wood": {}
+		},
+		"events": {}
+	}
+}

@@ -1,0 +1,98 @@
+{
+	"file_path": "C:\\Users\\LANCE.LEGAUX\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\blocks\\purity_clay.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "86e1e225_76fe_4b67_b5bf_377f8763f253",
+	"file_version": 17,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:block": {
+						"description": {
+							"identifier": "terrariamod:purity_clay",
+							"is_experimental": false
+						},
+						"components": {
+							"minecraft:destroy_time": 1,
+							"minecraft:loot": "loot_tables/blocks/purity_clay.json",
+							"minecraft:explosion_resistance": 0.5,
+							"tag:terrariamod:dirt": {}
+						},
+						"events": {}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:purity_clay",
+								"is_experimental": false
+							},
+							"components": {
+								"minecraft:destroy_time": 1,
+								"minecraft:loot": "loot_tables/blocks/purity_clay.json",
+								"minecraft:explosion_resistance": 0.5,
+								"tag:terrariamod:dirt": {}
+							},
+							"events": {}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:purity_clay",
+							"is_experimental": false
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:purity_clay",
+								"is_experimental": false
+							},
+							"components": {
+								"minecraft:destroy_time": 1,
+								"minecraft:loot": "loot_tables/blocks/purity_clay.json",
+								"minecraft:explosion_resistance": 0.5,
+								"tag:terrariamod:dirt": {}
+							},
+							"events": {}
+						},
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:destroy_time": 1,
+							"minecraft:loot": "loot_tables/blocks/purity_clay.json",
+							"minecraft:explosion_resistance": 0.5,
+							"tag:terrariamod:dirt": {}
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:purity_clay",
+								"is_experimental": false
+							},
+							"components": {
+								"minecraft:destroy_time": 1,
+								"minecraft:loot": "loot_tables/blocks/purity_clay.json",
+								"minecraft:explosion_resistance": 0.5,
+								"tag:terrariamod:dirt": {}
+							},
+							"events": {}
+						},
+						"key": "events",
+						"is_minified": true,
+						"children": {}
+					}
+				]
+			}
+		]
+	}
+}

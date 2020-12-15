@@ -423,9 +423,6 @@
 	},
 	"block": {
 		"BP/blocks/crimsonheart.json": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 			"identifiers": [
 				"terrariamod:crimsonheart"
 			],
@@ -479,79 +476,10 @@
 			"events": [
 				"terrariamod:grow"
 			],
-=======
-			"identifiers": [
-				"terrariamod:crimsonheart"
-			],
-			"events": [
-=======
-			"identifiers": [
-				"terrariamod:crimsonheart"
-			],
-			"events": [
->>>>>>> 3cda6904d58bccc48ad15b8831eb5ffd3a97e6e1
-				"terrariamod:interact"
-			],
 			"recipe_tags": [],
 			"custom_commands": [],
 			"custom_components": []
 		},
-		"BP/blocks/jungle_grass.json": {
-			"identifiers": [
-				"terrariamod:jungle_grass"
-			],
-			"events": [],
-			"recipe_tags": [],
-			"custom_commands": [],
-			"custom_components": []
-		},
-		"BP/blocks/graybrick.json": {
-			"identifiers": [
-				"terrariamod:graybrick"
-			],
-=======
-			"identifiers": [
-				"terrariamod:crimsonheart"
-			],
-			"events": [
-				"terrariamod:interact"
-			],
-			"recipe_tags": [],
-			"custom_commands": [],
-			"custom_components": []
-		},
-		"BP/blocks/jungle_grass.json": {
-			"identifiers": [
-				"terrariamod:jungle_grass"
-			],
-			"events": [],
-			"recipe_tags": [],
-			"custom_commands": [],
-			"custom_components": []
-		},
-		"BP/blocks/graybrick.json": {
-			"identifiers": [
-				"terrariamod:graybrick"
-			],
->>>>>>> 3cda6904d58bccc48ad15b8831eb5ffd3a97e6e1
-			"events": [],
-			"recipe_tags": [],
-			"custom_commands": [],
-			"custom_components": []
-		},
-		"BP/blocks/purity_clay.json": {
-			"identifiers": [
-				"terrariamod:purity_clay"
-<<<<<<< HEAD
-<<<<<<< HEAD
-			],
-			"events": [],
->>>>>>> 3cda6904d58bccc48ad15b8831eb5ffd3a97e6e1
-			"recipe_tags": [],
-			"custom_commands": [],
-			"custom_components": []
-		},
-<<<<<<< HEAD
 		"BP/blocks/purity_sapling.json": {
 			"identifiers": [
 				"terrariamod:purity_sapling"
@@ -576,125 +504,6 @@
 				"minecraft:pet_slept_with_owner",
 				"terrariamod:ash_gifted_owner"
 			],
-=======
-		"BP/blocks/redbrick.json": {
-			"identifiers": [
-				"terrariamod:redbrick"
-			],
-			"events": [],
-			"recipe_tags": [],
-			"custom_commands": [],
-			"custom_components": []
-		},
-		"BP/blocks/sapling.json": {
-			"identifiers": [
-				"terrariamod:sapling"
-			],
-			"events": [
-				"terrariamod:grow"
-			],
-=======
-			],
-			"events": [],
->>>>>>> 3cda6904d58bccc48ad15b8831eb5ffd3a97e6e1
-			"recipe_tags": [],
-			"custom_commands": [],
-			"custom_components": []
-		},
-<<<<<<< HEAD
-		"BP/blocks/purity_sapling.json": {
-			"identifiers": [
-				"terrariamod:purity_sapling"
-=======
-		"BP/blocks/redbrick.json": {
-			"identifiers": [
-				"terrariamod:redbrick"
-			],
-			"events": [],
-			"recipe_tags": [],
-			"custom_commands": [],
-			"custom_components": []
-		},
-		"BP/blocks/sapling.json": {
-			"identifiers": [
-				"terrariamod:sapling"
->>>>>>> 3cda6904d58bccc48ad15b8831eb5ffd3a97e6e1
-			],
-			"events": [
-				"terrariamod:grow"
-			],
-			"recipe_tags": [],
-<<<<<<< HEAD
-=======
-			"custom_commands": [],
-			"custom_components": []
-		},
-		"BP/blocks/purity_sapling.json": {
-			"identifiers": [
-				"terrariamod:purity_sapling"
-=======
-			],
-			"events": [],
-			"recipe_tags": [],
-			"custom_commands": [],
-			"custom_components": []
-		},
-		"BP/blocks/redbrick.json": {
-			"identifiers": [
-				"terrariamod:redbrick"
-			],
-			"events": [],
-			"recipe_tags": [],
-			"custom_commands": [],
-			"custom_components": []
-		},
-		"BP/blocks/sapling.json": {
-			"identifiers": [
-				"terrariamod:sapling"
->>>>>>> 3cda6904d58bccc48ad15b8831eb5ffd3a97e6e1
-			],
-			"events": [
-				"terrariamod:grow"
-			],
-			"recipe_tags": [],
-<<<<<<< HEAD
->>>>>>> 3cda6904d58bccc48ad15b8831eb5ffd3a97e6e1
-=======
-			"custom_commands": [],
-			"custom_components": []
-		},
-		"BP/blocks/purity_sapling.json": {
-			"identifiers": [
-				"terrariamod:purity_sapling"
-			],
-			"events": [
-				"terrariamod:grow"
-			],
-			"recipe_tags": [],
->>>>>>> 3cda6904d58bccc48ad15b8831eb5ffd3a97e6e1
-			"custom_components": [],
-			"custom_commands": []
-		}
-	},
-	"entity": {
-		"BP/entities/ash.json": {
-			"events": [
-				"minecraft:entity_spawned",
-				"minecraft:spawn_from_village",
-				"minecraft:spawn_midnight_ash",
-				"minecraft:entity_born",
-				"minecraft:ageable_grow_up",
-				"minecraft:on_tame",
-				"minecraft:pet_slept_with_owner",
-				"terrariamod:ash_gifted_owner"
-			],
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 3cda6904d58bccc48ad15b8831eb5ffd3a97e6e1
-=======
->>>>>>> 3cda6904d58bccc48ad15b8831eb5ffd3a97e6e1
-=======
->>>>>>> 3cda6904d58bccc48ad15b8831eb5ffd3a97e6e1
 			"bridge_core_tags": [],
 			"identifiers": [
 				"terrariamod:ash"
@@ -994,20 +803,8 @@
 		"9ad1f2c5_60aa_4a40_b379_ed6dd8f7e433": {},
 		"774a9ef2_675a_476c_bfbf_1601b554f35c": {},
 		"5a0fd008_e397_4f26_8c8e_87a8f4f3c0c9": {},
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 		"23223da5_b842_432b_b5d2_333aa68582bd": {},
 		"459d0146_301b_4e4d_ae85_885b62afd892": {}
-=======
-		"23223da5_b842_432b_b5d2_333aa68582bd": {}
->>>>>>> 3cda6904d58bccc48ad15b8831eb5ffd3a97e6e1
-=======
-		"23223da5_b842_432b_b5d2_333aa68582bd": {}
->>>>>>> 3cda6904d58bccc48ad15b8831eb5ffd3a97e6e1
-=======
-		"23223da5_b842_432b_b5d2_333aa68582bd": {}
->>>>>>> 3cda6904d58bccc48ad15b8831eb5ffd3a97e6e1
 	},
 	"rp_animation_controller": {
 		"RP/animation_controllers/devourer.animation.controller.json": {
@@ -1968,21 +1765,12 @@
 				"terrariamod:acorn"
 			],
 			"custom_commands": []
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 		},
 		"BP/items/suspiciouslookingeye.json": {
 			"identifiers": [
 				"terrariamod:suspiciouslookingeye"
 			],
 			"custom_commands": []
-=======
->>>>>>> 3cda6904d58bccc48ad15b8831eb5ffd3a97e6e1
-=======
->>>>>>> 3cda6904d58bccc48ad15b8831eb5ffd3a97e6e1
-=======
->>>>>>> 3cda6904d58bccc48ad15b8831eb5ffd3a97e6e1
 		}
 	}
 }

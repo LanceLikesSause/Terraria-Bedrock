@@ -3,28 +3,8 @@
 	"format_version": "1.13.0",
 	"minecraft:feature_rules": {
 		"description": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD:terraria BP/feature_rules/purity_mushroom_featurerule.json
 			"identifier": "minecraft:purity_mushroom_featurerule",
 			"places_feature": "minecraft:purity_mushroom_feature"
-=======
-			"identifier": "minecraft:tree_featurerule",
-			"places_feature": "minecraft:tree_feature"
->>>>>>> 3cda6904d58bccc48ad15b8831eb5ffd3a97e6e1:terraria BP/feature_rules/tree_featurerule.json
-=======
-			"identifier": "minecraft:purity_mushroom_featurerule",
-			"places_feature": "minecraft:purity_mushroom_feature"
->>>>>>> 3cda6904d58bccc48ad15b8831eb5ffd3a97e6e1
-=======
-			"identifier": "minecraft:purity_mushroom_featurerule",
-			"places_feature": "minecraft:purity_mushroom_feature"
->>>>>>> 3cda6904d58bccc48ad15b8831eb5ffd3a97e6e1
-=======
-			"identifier": "minecraft:purity_mushroom_featurerule",
-			"places_feature": "minecraft:purity_mushroom_feature"
->>>>>>> 3cda6904d58bccc48ad15b8831eb5ffd3a97e6e1
 		},
 		"conditions": {
 			"placement_pass": "surface_pass",

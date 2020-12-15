@@ -3,36 +3,8 @@
 	"format_version": "1.13.0",
 	"minecraft:feature_rules": {
 		"description": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 			"identifier": "minecraft:tree_featurerule",
 			"places_feature": "minecraft:tree_feature"
-=======
-<<<<<<< HEAD:terraria BP/feature_rules/purity_mushroom_featurerule.json
-			"identifier": "minecraft:purity_mushroom_featurerule",
-			"places_feature": "minecraft:purity_mushroom_feature"
-=======
-<<<<<<< HEAD:terraria BP/feature_rules/crimsonalter_featurerule.json
-			"identifier": "minecraft:crimsonalter_featurerule",
-			"places_feature": "minecraft:crimsonalter_feature"
->>>>>>> 3cda6904d58bccc48ad15b8831eb5ffd3a97e6e1
-=======
-<<<<<<< HEAD:terraria BP/feature_rules/demonalter_featurerule.json
-			"identifier": "minecraft:demonalter_featurerule",
-			"places_feature": "minecraft:demonalter_feature"
->>>>>>> 3cda6904d58bccc48ad15b8831eb5ffd3a97e6e1
-=======
-			"identifier": "minecraft:tree_featurerule",
-			"places_feature": "minecraft:tree_feature"
->>>>>>> 3cda6904d58bccc48ad15b8831eb5ffd3a97e6e1:terraria BP/feature_rules/tree_featurerule.json
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 3cda6904d58bccc48ad15b8831eb5ffd3a97e6e1
-=======
->>>>>>> 3cda6904d58bccc48ad15b8831eb5ffd3a97e6e1
-=======
->>>>>>> 3cda6904d58bccc48ad15b8831eb5ffd3a97e6e1
 		},
 		"conditions": {
 			"placement_pass": "surface_pass",
@@ -45,36 +17,12 @@
 				{
 					"test": "has_biome_tag",
 					"operator": "==",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 					"value": "purity_forest"
-=======
-					"value": "purity"
->>>>>>> 3cda6904d58bccc48ad15b8831eb5ffd3a97e6e1
-=======
-					"value": "crimson"
->>>>>>> 3cda6904d58bccc48ad15b8831eb5ffd3a97e6e1
-=======
-					"value": "corruption"
->>>>>>> 3cda6904d58bccc48ad15b8831eb5ffd3a97e6e1
 				}
 			]
 		},
 		"distribution": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 			"iterations": 1,
-=======
-			"iterations": 6,
->>>>>>> 3cda6904d58bccc48ad15b8831eb5ffd3a97e6e1
-=======
-			"iterations": 1,
->>>>>>> 3cda6904d58bccc48ad15b8831eb5ffd3a97e6e1
-=======
-			"iterations": 1,
->>>>>>> 3cda6904d58bccc48ad15b8831eb5ffd3a97e6e1
 			"x": 0,
 			"y": "query.heightmap(variable.worldx, variable.worldz)",
 			"z": 0,

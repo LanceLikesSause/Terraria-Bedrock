@@ -425,6 +425,7 @@
 		"BP/blocks/crimsonheart.json": {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 			"identifiers": [
 				"terrariamod:crimsonheart"
 			],
@@ -508,6 +509,31 @@
 			"identifiers": [
 				"terrariamod:graybrick"
 			],
+=======
+			"identifiers": [
+				"terrariamod:crimsonheart"
+			],
+			"events": [
+				"terrariamod:interact"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/jungle_grass.json": {
+			"identifiers": [
+				"terrariamod:jungle_grass"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/graybrick.json": {
+			"identifiers": [
+				"terrariamod:graybrick"
+			],
+>>>>>>> 3cda6904d58bccc48ad15b8831eb5ffd3a97e6e1
 			"events": [],
 			"recipe_tags": [],
 			"custom_commands": [],
@@ -516,6 +542,7 @@
 		"BP/blocks/purity_clay.json": {
 			"identifiers": [
 				"terrariamod:purity_clay"
+<<<<<<< HEAD
 <<<<<<< HEAD
 			],
 			"events": [],
@@ -605,6 +632,40 @@
 		"BP/blocks/purity_sapling.json": {
 			"identifiers": [
 				"terrariamod:purity_sapling"
+=======
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/redbrick.json": {
+			"identifiers": [
+				"terrariamod:redbrick"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/sapling.json": {
+			"identifiers": [
+				"terrariamod:sapling"
+>>>>>>> 3cda6904d58bccc48ad15b8831eb5ffd3a97e6e1
+			],
+			"events": [
+				"terrariamod:grow"
+			],
+			"recipe_tags": [],
+<<<<<<< HEAD
+>>>>>>> 3cda6904d58bccc48ad15b8831eb5ffd3a97e6e1
+=======
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/purity_sapling.json": {
+			"identifiers": [
+				"terrariamod:purity_sapling"
 			],
 			"events": [
 				"terrariamod:grow"
@@ -628,6 +689,9 @@
 				"terrariamod:ash_gifted_owner"
 			],
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 3cda6904d58bccc48ad15b8831eb5ffd3a97e6e1
+=======
 >>>>>>> 3cda6904d58bccc48ad15b8831eb5ffd3a97e6e1
 =======
 >>>>>>> 3cda6904d58bccc48ad15b8831eb5ffd3a97e6e1
@@ -932,8 +996,12 @@
 		"5a0fd008_e397_4f26_8c8e_87a8f4f3c0c9": {},
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		"23223da5_b842_432b_b5d2_333aa68582bd": {},
 		"459d0146_301b_4e4d_ae85_885b62afd892": {}
+=======
+		"23223da5_b842_432b_b5d2_333aa68582bd": {}
+>>>>>>> 3cda6904d58bccc48ad15b8831eb5ffd3a97e6e1
 =======
 		"23223da5_b842_432b_b5d2_333aa68582bd": {}
 >>>>>>> 3cda6904d58bccc48ad15b8831eb5ffd3a97e6e1
@@ -1902,12 +1970,15 @@
 			"custom_commands": []
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		},
 		"BP/items/suspiciouslookingeye.json": {
 			"identifiers": [
 				"terrariamod:suspiciouslookingeye"
 			],
 			"custom_commands": []
+=======
+>>>>>>> 3cda6904d58bccc48ad15b8831eb5ffd3a97e6e1
 =======
 >>>>>>> 3cda6904d58bccc48ad15b8831eb5ffd3a97e6e1
 =======

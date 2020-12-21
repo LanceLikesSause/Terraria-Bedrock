@@ -1,7 +1,9 @@
-#bridge-file-version: #37
+#bridge-file-version: #38
  
 # My Comment
+execute @a[tag=!notnewplayer] ~~~ give @s terrariamod:copperaxe
+execute @a[tag=!notnewplayer] ~~~ give @s terrariamod:copperpickaxe
+execute @a[tag=!notnewplayer] ~~~ give @s terrariamod:coppersword
+tag @s add notnewplayer
 gamerule keepinventory true
-give @a terrariamod:copperpickaxe
-effect @s jump_boost 100 2 true
- 
+say Welcome to Terraria Bedrock! Please go to pause > settings > How to Play, to see a guide.

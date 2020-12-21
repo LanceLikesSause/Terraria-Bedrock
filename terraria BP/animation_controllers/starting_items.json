@@ -1,4 +1,4 @@
-//bridge-file-version: #1
+//bridge-file-version: #18
 {
 	"format_version": "1.10.0",
 	"animation_controllers": {
@@ -7,15 +7,21 @@
 				"default": {
 					"transitions": [
 						{
-							"spawn_next_stage": "query.is_alive"
+							"command": "query.life_time>1"
 						}
 					]
 				},
-				"spawn_next_stage": {
-					"on_entry": [
+				"command": {
+					"on_exit": [
 						"/function starting_items"
+					],
+					"transitions": [
+						{
+							"finished_command": "query.life_time>10"
+						}
 					]
-				}
+				},
+				"finished_command": {}
 			}
 		}
 	}

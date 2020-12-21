@@ -1,0 +1,299 @@
+{
+	"file_path": "C:\\Users\\LANCE.LEGAUX\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\feature_rules\\surfacechest_featurerule.json",
+	"file_type": "feature_rule",
+	"format_version": 1,
+	"file_uuid": "c13d698a_d702_4ab1_b128_2dc7af1c1eac",
+	"file_version": 20,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.13.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.13.0",
+					"minecraft:feature_rules": {
+						"description": {
+							"identifier": "minecraft:surfacechest_featurerule",
+							"places_feature": "minecraft:surfacechest_feature"
+						},
+						"conditions": {
+							"minecraft:biome_filter": [
+								{
+									"any_of": [
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "purity"
+										},
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "overworld"
+										}
+									]
+								}
+							],
+							"placement_pass": "final_pass"
+						},
+						"distribution": {
+							"iterations": 1,
+							"coordinate_eval_order": "zyx",
+							"x": {
+								"distribution": "uniform",
+								"extent": [
+									0,
+									16
+								]
+							},
+							"y": {
+								"distribution": "uniform",
+								"extent": [
+									60,
+									128
+								]
+							},
+							"z": {
+								"distribution": "uniform",
+								"extent": [
+									0,
+									16
+								]
+							},
+							"scatter_chance": {
+								"numerator": 1,
+								"denominator": 12
+							}
+						}
+					}
+				},
+				"key": "minecraft:feature_rules",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "minecraft:surfacechest_featurerule",
+							"places_feature": "minecraft:surfacechest_feature"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "minecraft:surfacechest_featurerule",
+								"places_feature": "minecraft:surfacechest_feature"
+							},
+							"conditions": {
+								"minecraft:biome_filter": [
+									{
+										"any_of": [
+											{
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "purity"
+											},
+											{
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "overworld"
+											}
+										]
+									}
+								],
+								"placement_pass": "final_pass"
+							},
+							"distribution": {
+								"iterations": 1,
+								"coordinate_eval_order": "zyx",
+								"x": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								},
+								"y": {
+									"distribution": "uniform",
+									"extent": [
+										60,
+										128
+									]
+								},
+								"z": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								},
+								"scatter_chance": {
+									"numerator": 1,
+									"denominator": 12
+								}
+							}
+						},
+						"key": "conditions",
+						"is_minified": true,
+						"children": {
+							"minecraft:biome_filter": [
+								{
+									"any_of": [
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "purity"
+										},
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "overworld"
+										}
+									]
+								}
+							],
+							"placement_pass": "final_pass"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "minecraft:surfacechest_featurerule",
+								"places_feature": "minecraft:surfacechest_feature"
+							},
+							"conditions": {
+								"minecraft:biome_filter": [
+									{
+										"any_of": [
+											{
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "purity"
+											},
+											{
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "overworld"
+											}
+										]
+									}
+								],
+								"placement_pass": "final_pass"
+							},
+							"distribution": {
+								"iterations": 1,
+								"coordinate_eval_order": "zyx",
+								"x": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								},
+								"y": {
+									"distribution": "uniform",
+									"extent": [
+										60,
+										128
+									]
+								},
+								"z": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								},
+								"scatter_chance": {
+									"numerator": 1,
+									"denominator": 12
+								}
+							}
+						},
+						"key": "distribution",
+						"children": [
+							{
+								"data": "1",
+								"key": "iterations"
+							},
+							{
+								"data": "zyx",
+								"key": "coordinate_eval_order"
+							},
+							{
+								"key": "x",
+								"is_minified": true,
+								"children": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								}
+							},
+							{
+								"key": "y",
+								"is_minified": true,
+								"children": {
+									"distribution": "uniform",
+									"extent": [
+										60,
+										128
+									]
+								}
+							},
+							{
+								"key": "z",
+								"is_minified": true,
+								"children": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								}
+							},
+							{
+								"open": {
+									"iterations": 1,
+									"coordinate_eval_order": "zyx",
+									"x": {
+										"distribution": "uniform",
+										"extent": [
+											0,
+											16
+										]
+									},
+									"y": {
+										"distribution": "uniform",
+										"extent": [
+											60,
+											128
+										]
+									},
+									"z": {
+										"distribution": "uniform",
+										"extent": [
+											0,
+											16
+										]
+									},
+									"scatter_chance": {
+										"numerator": 1,
+										"denominator": 12
+									}
+								},
+								"key": "scatter_chance",
+								"is_minified": true,
+								"children": {
+									"numerator": 1,
+									"denominator": 12
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

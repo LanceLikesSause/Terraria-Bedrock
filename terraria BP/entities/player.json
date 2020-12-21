@@ -1,4 +1,4 @@
-//bridge-file-version: #0
+//bridge-file-version: #2
 {
 	"minecraft:entity": {
 		"description": {
@@ -11,6 +11,7 @@
 				"animate": [
 					"mana",
 					"starting_items",
+					"bridge_execute_commands",
 					"bridge_execute_commands"
 				]
 			},
@@ -246,6 +247,7 @@
 			"minecraft:entity_spawned": {
 				"add": {
 					"component_groups": [
+						"bridge:execute_command_id_1",
 						"bridge:execute_command_id_1"
 					]
 				}
@@ -253,11 +255,13 @@
 			"bridge:remove_command_id_1": {
 				"add": {
 					"component_groups": [
+						"bridge:execute_no_command",
 						"bridge:execute_no_command"
 					]
 				},
 				"remove": {
 					"component_groups": [
+						"bridge:execute_command_id_1",
 						"bridge:execute_command_id_1"
 					]
 				}

@@ -19,9 +19,9 @@
 			"minecraft:surface_parameters": {
 				"sea_floor_depth": 7,
 				"sea_floor_material": "terrariamod:purity_silt",
-				"foundation_material": "terrariamod:purity_stone",
+				"foundation_material": "terrariamod:ebonstone",
 				"mid_material": "terrariamod:purity_dirt",
-				"top_material": "terrariamod:purity_grass",
+				"top_material": "terrariamod:corrupted_grass",
 				"sea_material": "minecraft:water"
 			},
 			"minecraft:overworld_generation_rules": {
@@ -34,8 +34,7 @@
 					]
 				]
 			},
-			"purity": {},
-			"purity_forest": {},
+			"corruption": {},
 			"overworld": {}
 		}
 	}

@@ -41,6 +41,12 @@
 				"controller.animation.eyeofcthulhu.to_stage_2"
 			],
 			"custom_commands": []
+		},
+		"BP/animation_controllers/starting_items.json": {
+			"ids": [
+				"controller.animation.starting_items"
+			],
+			"custom_commands": []
 		}
 	},
 	"biome": {
@@ -158,12 +164,14 @@
 		},
 		"BP/biomes/extreme_hills_edge.biome.json": {
 			"tags": [
-				"purity"
+				"purity",
+				"purity_forest"
 			]
 		},
 		"BP/biomes/extreme_hills_mutated.biome.json": {
 			"tags": [
-				"purity"
+				"purity",
+				"purity_forest"
 			]
 		},
 		"BP/biomes/extreme_hills_plus_trees.biome.json": {
@@ -418,6 +426,17 @@
 			"tags": [
 				"purity",
 				"purity_forest"
+			]
+		},
+		"BP/biomes/plains.biome.json": {
+			"tags": [
+				"purity",
+				"purity_forest"
+			]
+		},
+		"BP/biomes/extreme_hills.biome.json.json": {
+			"tags": [
+				"corruption"
 			]
 		}
 	},
@@ -739,6 +758,16 @@
 			"identifiers": [
 				"minecraft:hellstone_featurerule"
 			]
+		},
+		"BP/feature_rules/surfacechest_featurerule.json": {
+			"identifiers": [
+				"minecraft:surfacechest_featurerule"
+			]
+		},
+		"BP/feature_rules/purity_cave_featurerule.json": {
+			"identifiers": [
+				"minecraft:purity_cave_featurerule"
+			]
 		}
 	},
 	"feature": {
@@ -760,6 +789,16 @@
 		"BP/features/hellstone_feature.json": {
 			"identifiers": [
 				"minecraft:hellstone_feature"
+			]
+		},
+		"BP/features/purity_cave_feature.json": {
+			"identifiers": [
+				"minecraft:purity_cave_feature"
+			]
+		},
+		"BP/features/surfacechest_feature.json": {
+			"identifiers": [
+				"minecraft:surfacechest_feature"
 			]
 		}
 	},
@@ -804,7 +843,9 @@
 		"774a9ef2_675a_476c_bfbf_1601b554f35c": {},
 		"5a0fd008_e397_4f26_8c8e_87a8f4f3c0c9": {},
 		"23223da5_b842_432b_b5d2_333aa68582bd": {},
-		"459d0146_301b_4e4d_ae85_885b62afd892": {}
+		"459d0146_301b_4e4d_ae85_885b62afd892": {},
+		"5e6ef3d3_0fc8_4b2b_b5a4_bf7943141477": {},
+		"a0a5afff_4917_4b9b_b7ad_9ec23961314c": {}
 	},
 	"rp_animation_controller": {
 		"RP/animation_controllers/devourer.animation.controller.json": {
@@ -1756,6 +1797,11 @@
 		"BP/recipes/redbrick_recipe.json": {
 			"tags": [
 				"tfurnace"
+			]
+		},
+		"BP/recipes/torch_puritywood.json": {
+			"tags": [
+				"crafting_table"
 			]
 		}
 	},

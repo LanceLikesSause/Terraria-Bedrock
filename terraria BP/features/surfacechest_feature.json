@@ -1,15 +1,22 @@
-//bridge-file-version: #5
+//bridge-file-version: #13
 {
-	"format_version": "1.16.100",
-	"minecraft:structure_template_feature": {
+	"format_version": "1.13.0",
+	"minecraft:single_block_feature": {
 		"description": {
 			"identifier": "minecraft:surfacechest_feature"
 		},
-		"structure_name": "mystructure:surfacechest_room1",
-		"adjustment_radius": 1,
-		"facing_direction": "north",
-		"constraints": {
-			"grounded": {}
+		"places_block": "terrariamod:surfacechest",
+		"may_replace": [
+			{
+				"name": "minecraft:air"
+			}
+		],
+		"enforce_survivability_rules": false,
+		"enforce_placement_rules": false,
+		"may_attach_to": {
+			"all": [
+				"terrariamod:purity_stone"
+			]
 		}
 	}
 }

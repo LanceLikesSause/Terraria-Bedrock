@@ -1,1 +1,5 @@
-fasfa
+//bridge-file-version: #4
+All Biomes = Purity Forest
+Forest Biomes = Purity Jungle
+Normal Ocean, and Cold Ocean = Corruption / Crimson 
+

@@ -1,9 +1,10 @@
+//bridge-file-version: #1
 {
-  "format_version": "1.13.0",
-  "minecraft:biome": {
-    "description": {
-      "identifier": "extreme_hills_plus_trees_mutated"
-    },
+	"format_version": "1.13.0",
+	"minecraft:biome": {
+		"description": {
+			"identifier": "extreme_hills_plus_trees_mutated"
+		},
 		"components": {
 			"minecraft:climate": {
 				"downfall": 0,

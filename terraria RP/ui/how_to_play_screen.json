@@ -91,7 +91,7 @@
 							"testtwo_section@how_to_play.testtwo_section": {}
 						},
 						{
-							"testtwo_section@how_to_play.testthree_section": {}
+							"testthree_section@how_to_play.testthree_section": {}
 						},
 						{
 							"section_contents_footer@how_to_play_common.section_contents_footer": {}
@@ -116,51 +116,18 @@
 		"controls": [
 			{
 				"header_0@how_to_play_common.header": {
-					"$text": "template.header.title0"
+					"$text": "terrariamod.credits.title0"
 				}
-			},
-			{
-				"padding_0@how_to_play_common.padding": {}
 			},
 			{
 				"paragraph_0@how_to_play_common.paragraph": {
-					"$text": "dakon.template.text0"
+					"$text": "terrariamod.credits.text0"
 				}
 			},
 			{
-				"padding_1@how_to_play_common.padding": {}
-			},
-			{
-				"image_0@how_to_play_common.image": {
-					"texture": "textures/test"
+				"paragraph_0@how_to_play_common.paragraph": {
+					"$text": "terrariamod.credits.text1"
 				}
-			},
-			{
-				"padding_2@how_to_play_common.padding": {}
-			},
-			{
-				"header_1@how_to_play_common.header": {
-					"$text": "template.header.title1"
-				}
-			},
-			{
-				"padding_3@how_to_play_common.padding": {}
-			},
-			{
-				"paragraph_1@how_to_play_common.paragraph": {
-					"$text": "dakon.template.text1"
-				}
-			},
-			{
-				"padding_4@how_to_play_common.padding": {}
-			},
-			{
-				"image_1@how_to_play_common.image": {
-					"texture": "textures/testa"
-				}
-			},
-			{
-				"padding_5@how_to_play_common.padding": {}
 			}
 		]
 	},
@@ -179,7 +146,7 @@
 		"controls": [
 			{
 				"header_0@how_to_play_common.header": {
-					"$text": "tempone.header.title0"
+					"$text": "terrariamod.header.title0"
 				}
 			},
 			{
@@ -189,32 +156,32 @@
 			},
 			{
 				"paragraph_0@how_to_play_common.paragraph": {
-					"$text": "dakon.tempone.text0"
+					"$text": "terrariamod.tempone.text0"
 				}
 			},
 			{
 				"header_1@how_to_play_common.header": {
-					"$text": "tempone.header.title1"
+					"$text": "terrariamod.header.title1"
 				}
 			},
 			{
 				"paragraph_1@how_to_play_common.paragraph": {
-					"$text": "dakon.tempone.text1"
+					"$text": "terrariamod.tempone.text1"
 				}
 			},
 			{
 				"header_0@how_to_play_common.header": {
-					"$text": "tempone.header.title2"
+					"$text": "terrariamod.header.title2"
 				}
 			},
 			{
 				"paragraph_0@how_to_play_common.paragraph": {
-					"$text": "dakon.tempone.text2"
+					"$text": "terrariamod.tempone.text2"
 				}
 			},
 			{
 				"header_0@how_to_play_common.header": {
-					"$text": "tempone.header.title3"
+					"$text": "terrariamod.header.title3"
 				}
 			},
 			{
@@ -234,17 +201,17 @@
 			},
 			{
 				"paragraph_0@how_to_play_common.paragraph": {
-					"$text": "dakon.tempone.text3"
+					"$text": "terrariamod.tempone.text3"
 				}
 			},
 			{
 				"header_0@how_to_play_common.header": {
-					"$text": "tempone.header.title4"
+					"$text": "terrariamod.header.title4"
 				}
 			},
 			{
 				"paragraph_0@how_to_play_common.paragraph": {
-					"$text": "dakon.tempone.text4"
+					"$text": "terrariamod.tempone.text4"
 				}
 			}
 		]
@@ -252,11 +219,11 @@
 	"testtwo_button@how_to_play_common.section_toggle_button": {
 		"$section_topic": "temptwo"
 	},
-	"testhree_section@how_to_play_common.main_sections": {
+	"testthree_section@how_to_play_common.main_sections": {
 		"bindings": [
 			{
 				"binding_type": "view",
-				"source_control_name": "tempone_button_toggle",
+				"source_control_name": "temptwo_button_toggle",
 				"source_property_name": "#toggle_state",
 				"target_property_name": "#visible"
 			}
@@ -264,12 +231,17 @@
 		"controls": [
 			{
 				"header_0@how_to_play_common.header": {
-					"$text": "temptwo.header.title0"
+					"$text": "terrariamod.temptwo.title0"
+				}
+			},
+			{
+				"image_0@how_to_play_common.image": {
+					"texture": "textures/ui/terrariaui/test"
 				}
 			},
 			{
 				"paragraph_0@how_to_play_common.paragraph": {
-					"$text": "dakon.temptwo.text0"
+					"$text": "terrariamod.temptwo.text0"
 				}
 			}
 		]

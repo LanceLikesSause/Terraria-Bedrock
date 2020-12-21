@@ -689,5 +689,35 @@
 	},
 	"BP/features/hellstone_feature.json": {
 		"data": {}
+	},
+	"BP/features/purity_cave_feature.json": {
+		"data": {}
+	},
+	"BP/biomes/plains.biome.json": {
+		"data": {}
+	},
+	"BP/biomes/extreme_hills.biome.json.json": {
+		"data": {}
+	},
+	"BP/biomes/extreme_hills_edge.biome.json": {
+		"data": {}
+	},
+	"BP/biomes/extreme_hills_mutated.biome.json": {
+		"data": {}
+	},
+	"BP/biomes/extreme_hills_plus_trees.biome.json": {
+		"data": {}
+	},
+	"BP/biomes/extreme_hills_plus_trees_mutated.biome.json": {
+		"data": {}
+	},
+	"BP/spawn_rules/devourer.json": {
+		"data": {}
+	},
+	"BP/features/surfacechest_feature.json": {
+		"data": {}
+	},
+	"BP/feature_rules/surfacechest_featurerule.json": {
+		"data": {}
 	}
 }

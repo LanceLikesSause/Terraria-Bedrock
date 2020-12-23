@@ -1,5 +1,5 @@
-##bridge-file-version: #362
-##how to play
+##bridge-file-version: #391
+#####how to play
 terrariamod.category.dakon=Terraria Mod Tutorial
 howtoplay.category.dakon=Terraria Guide
 howtoplay.template.title=Credits
@@ -16,16 +16,31 @@ terrariamod.tempone.text1=You will also need to kill slimes while it's still day
 terrariamod.header.title2=Building a base
 terrariamod.tempone.text2=Before the sun sets you will need to build a shelter to protect your self for the §4creatures§f of the night. You may want to make room for any NPCs you want to get later. Getting NPCs will be explained later on. 
 terrariamod.header.title3=Upgrading Gear
-terrariamod.tempone.text3=Gather ores like copper, and lead so you can make them into better gear. You can create a workbench, by putting 3 wood into your personal crafting space. Workbenches can be used to craft wooden bows, arrows, cactus swords, pickaxes, upgrading and downgrading coin stacks, and NPCs. Use 4 stone, 4 wood, and a torch to craft a furnace, this block will allow you to craft bars like copper or lead bar from your ores. Use 5 lead or iron bars in a workbench to create a iron or lead anvil. The anvil can craft pickaxes, swords, armors, axes, bows, throwing items, and guns from your bars.
+terrariamod.tempone.text3=Gather ores like copper, and lead so you can make them into better gear. You can create a workbench, by putting 3 wood into your personal crafting space. Workbenches can be used to craft wooden bows, arrows, cactus swords, pickaxes, upgrading and downgrading coin stacks, and NPCs. Use 4 stone, 4 wood, and a torch to craft a furnace, this block will allow you to craft bars like copper or lead bar from your ores by putting 3 ores into the furnace's grid. Use these bars in the furnace to create a material block by putting 4 bars in the grid. Use 5 lead or iron bars in a workbench to create a iron or lead anvil. The anvil can craft pickaxes, swords, armors, axes, bows, throwing items, and guns from your bars. §eNote: All item recipes are in the recipe book.
 terrariamod.header.title4=Random Chest
 terrariamod.tempone.text4=Some items can be obtained from surface chest that are found on the surface or a few blocks underground such as shurikens. Golden chests in wooden cabins can be found much deeper underground. They can contain much better items like hermes boots that give the player a speed effect.
 howtoplay.temptwo.title=Evil Biomes
 howtoplay.temptwo=Evil Biomes
 terrariamod.temptwo.title0=Crimson Biome
-terrariamod.temptwo.text0=The Crimson Biome is a evil biome filled with dangous eni
+terrariamod.temptwo.text0=The Crimson Biome is a evil biome filled with dangeous enemies. You will have to go to this biome in order to summon the Eye of Cthulhu and Brain of Cthulhu. If you defeat the enemies here (blood crawler, face monster, etc) you can obtain verterba. Interact with the crimson alters and craft the bloody spine using the vertebra and vicouis mushrooms which summon the Brain of Cthulhu. You can also craft the suspicious looking eye with the alter using lens from demon eyes.
+terrariamod.temptwo.title1=Corruption Biome
+terrariamod.temptwo.text1=The Corruption Biome like the Crimson Biomes is filled with powerful enemies compared to purity ones. You will need to go there in order to summon the Eater of Worlds and Eye of Cthulhu. If you kill the enemies here they will drop rotten chucks. Interact with the demon alters in this biomes to craft worm food using the rotten chunks and vile mushrooms which summons the Eater of Worlds. You can also craft the Suspicious Looking Eye just like with the crimson alter.
+howtoplay.tempthree=Health
+howtoplay.tempthree.title=Health
+terrariamod.tempfour.title0=Life Crystals
+terrariamod.tempfour.text0=Crystal Hearts are found from layers 0 to 32 when broken they will drop a Life Crystals. Use one in your hand and it will give you 20 more hp. You will keep the extra hp even if you die. 
+terrariamod.tempfour.title1=Bottle Station
+terrariamod.tempfour.text1=A bottle stand can be used to create potions and healing items. To create one put 3 sand into a furnace which will return a bottle. Put that bottle into a furnace to get a bottle station. Open the recipe bottle in the bottle stand to see the items it can craft.
+howtoplay.tempfour=Underworld
+howtoplay.tempfour.title=Underworld
+terrariamod.tempfive.title0=Getting to the Underworld
+terrariamod.tempfive.text0=In order to go to the underworld dimenson you must craft a Underworld Transporter. To craft it place 8 platinum bars into a workbench. Place the block and then interact with it, then the block will create the portal. §kWalk though it and accept your demise.
+terrariamod.tempfive.title1=Exploring the Underworld.
+terrariamod.tempfive.text1=The underworld contains very dangeous enemies such as demons, vodoo demons, lava slimes, etc. There is a very valuable ore there called §eHellstone§f. You can craft the hellstone into powerful gear, using the same recipes as the other ores.
 
 
 
+tile.terrariamod:underworld_transporter.name=Underworld Transporter
 
 item.terrariamod:acorn.name=Acorn
 tile.terrariamod:tree_bottom.name=Tree Stem
@@ -144,11 +159,7 @@ item.terrariamod:goldcoin_pile.name=Pile of Gold Coins
 item.terrariamod:platinumcoin.name=Platinum Coin
 item.terrariamod:platinumcoin_pile.name=Pile of Platinum Coins
 
-item.terrariamod:lifecrystal.name=Life Crystal Level 1 §9+20 hp
-item.terrariamod:lifecrystal_2.name=Life Crystal Level 2 §9+40 hp
-item.terrariamod:lifecrystal_3.name=Life Crystal Level 3 §9+60 hp
-item.terrariamod:lifecrystal_4.name=Life Crystal Level 4 §9+80 hp
-item.terrariamod:lifecrystal_5.name=Life Crystal Level 5 §9+100 hp
+item.terrariamod:lifecrystal.name=Life Crystal §9+20 hp
 
 item.terrariamod:merchant_summoner.name=Merchant Summoner
 item.terrariamod:nurse_summoner.name=Nurse Summoner
@@ -437,3 +448,5 @@ item.terrariamod:mushroom.name=Mushroom §9Heals 15 HP
 item.terrariamod:glowing_mushroom.name=Glowing Mushroom 
 item.terrariamod:ale.name=Ale §9Beer...
 
+
+item.terrariamod:hi=Hi

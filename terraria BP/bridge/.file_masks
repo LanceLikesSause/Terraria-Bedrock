@@ -153,6 +153,86 @@
 						}
 					}
 				}
+			},
+			"a5b4ab3d_12d6_4cdc_a2b6_78e430a9de81": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"44d89716_a2fa_49a6_a35b_ab5c81cd3964": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"040b87d4_3796_462c_8f0b_cf34413a909a": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"e33fae86_64be_412c_ab4f_29b7be436c81": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"a921a862_69be_4f7e_b951_1158e78279e7": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"0baf2fda_b3fe_4899_a058_4ab578d60c28": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"a95cb159_0208_4ac7_a533_bc6da04322e7": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"6fcdd3db_f254_454c_901f_86164707958a": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
 			}
 		}
 	},
@@ -718,6 +798,57 @@
 		"data": {}
 	},
 	"BP/feature_rules/surfacechest_featurerule.json": {
+		"data": {}
+	},
+	"BP/items/aglet.json": {
+		"data": {}
+	},
+	"BP/items/hermesboots.json": {
+		"data": {}
+	},
+	"BP/items/balloonpufferfish.json": {
+		"data": {}
+	},
+	"BP/items/lavacharm.json": {
+		"data": {}
+	},
+	"BP/items/bandofregeneration.json": {
+		"data": {}
+	},
+	"BP/items/umbrella.json": {
+		"data": {}
+	},
+	"BP/items/hellstonesword.json": {
+		"data": {}
+	},
+	"BP/recipes/hi_recipe.json": {
+		"data": {}
+	},
+	"RP/items/hi.json": {
+		"data": {}
+	},
+	"BP/entities/eyeofcthulhu_stageone.json": {
+		"data": {}
+	},
+	"BP/blocks/underworld_transporter.json": {
+		"data": {}
+	},
+	"BP/recipes/underworld_transporter.json": {
+		"data": {}
+	},
+	"BP/biomes/beach.biome.json": {
+		"data": {}
+	},
+	"BP/feature_rules/puritysand_featurerule.json": {
+		"data": {}
+	},
+	"BP/features/puritysand_feature.json": {
+		"data": {}
+	},
+	"BP/recipes/bottle_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/bottlestation_recipe.json": {
 		"data": {}
 	}
 }

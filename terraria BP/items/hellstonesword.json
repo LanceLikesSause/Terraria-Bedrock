@@ -1,4 +1,4 @@
-//bridge-file-version: #45
+//bridge-file-version: #65
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
@@ -11,12 +11,7 @@
 			"minecraft:hand_equipped": true,
 			"minecraft:foil": true,
 			"minecraft:damage": 36,
-			"minecraft:weapon": {
-				"on_hurt_entity": {
-					"event": "terrariamod:burn",
-					"target": "target"
-				}
-			},
+			"minecraft:weapon": {},
 			"minecraft:display_name": {
 				"value": "item.terrariamod:hellstonesword.name"
 			},
@@ -27,36 +22,6 @@
 				"parent": "itemGroup.name.sword"
 			}
 		},
-		"events": {
-			"terrariamod:burn": {
-				"run_command": {
-					"command": [
-						"function depthmeter"
-					]
-				},
-				"teleport": {
-					"target": "holder",
-					"max_range": [
-						3,
-						3,
-						3
-					]
-				},
-				"shoot": {
-					"projectile": "minecraft:fireball",
-					"launch_power": 0
-				},
-				"damage": {
-					"type": "magic",
-					"amount": 4
-				},
-				"add_mob_effect": {
-					"effect": "poison",
-					"target": "holder",
-					"duration": 3,
-					"amplifier": 2
-				}
-			}
-		}
+		"events": {}
 	}
 }

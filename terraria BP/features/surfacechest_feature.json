@@ -1,4 +1,4 @@
-//bridge-file-version: #13
+//bridge-file-version: #14
 {
 	"format_version": "1.13.0",
 	"minecraft:single_block_feature": {
@@ -12,11 +12,6 @@
 			}
 		],
 		"enforce_survivability_rules": false,
-		"enforce_placement_rules": false,
-		"may_attach_to": {
-			"all": [
-				"terrariamod:purity_stone"
-			]
-		}
+		"enforce_placement_rules": false
 	}
 }

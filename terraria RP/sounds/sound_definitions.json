@@ -1,6 +1,12 @@
 {
 	"format_version": "1.14.0",
 	"sound_definitions": {
+		"lifecrystal.effect": {
+			"category": "music",
+			"sounds": [
+				"sounds/effects/health_crystal"
+			]
+		},
 		"eyeofcthulhu.music": {
 			"category": "music",
 			"sounds": [

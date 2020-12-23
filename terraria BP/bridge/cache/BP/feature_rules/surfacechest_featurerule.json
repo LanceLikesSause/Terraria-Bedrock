@@ -2,8 +2,8 @@
 	"file_path": "C:\\Users\\LANCE.LEGAUX\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\feature_rules\\surfacechest_featurerule.json",
 	"file_type": "feature_rule",
 	"format_version": 1,
-	"file_uuid": "c13d698a_d702_4ab1_b128_2dc7af1c1eac",
-	"file_version": 20,
+	"file_uuid": "8c5a7fc3_8307_4882_9efc_b161b22cc0b9",
+	"file_version": 24,
 	"cache_content": {
 		"children": [
 			{
@@ -47,13 +47,7 @@
 									16
 								]
 							},
-							"y": {
-								"distribution": "uniform",
-								"extent": [
-									60,
-									128
-								]
-							},
+							"y": "query.heightmap(variable.worldx, variable.worldz)",
 							"z": {
 								"distribution": "uniform",
 								"extent": [
@@ -113,13 +107,7 @@
 										16
 									]
 								},
-								"y": {
-									"distribution": "uniform",
-									"extent": [
-										60,
-										128
-									]
-								},
+								"y": "query.heightmap(variable.worldx, variable.worldz)",
 								"z": {
 									"distribution": "uniform",
 									"extent": [
@@ -190,13 +178,7 @@
 										16
 									]
 								},
-								"y": {
-									"distribution": "uniform",
-									"extent": [
-										60,
-										128
-									]
-								},
+								"y": "query.heightmap(variable.worldx, variable.worldz)",
 								"z": {
 									"distribution": "uniform",
 									"extent": [
@@ -232,15 +214,8 @@
 								}
 							},
 							{
-								"key": "y",
-								"is_minified": true,
-								"children": {
-									"distribution": "uniform",
-									"extent": [
-										60,
-										128
-									]
-								}
+								"data": "query.heightmap(variable.worldx, variable.worldz)",
+								"key": "y"
 							},
 							{
 								"key": "z",
@@ -264,13 +239,7 @@
 											16
 										]
 									},
-									"y": {
-										"distribution": "uniform",
-										"extent": [
-											60,
-											128
-										]
-									},
+									"y": "query.heightmap(variable.worldx, variable.worldz)",
 									"z": {
 										"distribution": "uniform",
 										"extent": [

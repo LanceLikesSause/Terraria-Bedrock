@@ -6,6 +6,7 @@
 			"identifier": "basalt_deltas"
 		},
 		"components": {
+
 			"minecraft:climate": {
 				"downfall": 0,
 				"snow_accumulation": [
@@ -15,10 +16,10 @@
 				"temperature": 2
 			},
 			"minecraft:overworld_height": {
-				"noise_type": "extreme"
+				"noise_type": "default"
 			},
 			"minecraft:surface_parameters": {
-				"sea_floor_depth": 7,
+				"sea_floor_depth": 14,
 				"sea_floor_material": "terrariamod:ash",
 				"foundation_material": "terrariamod:ash",
 				"mid_material": "terrariamod:ash",
@@ -30,7 +31,7 @@
 				"target_humidity": 0,
 				"target_altitude": 0,
 				"target_weirdness": 0,
-				"weight": 0.175
+				"weight": 0.1145
 			},
 			"underworld": {},
 			"nether": {}

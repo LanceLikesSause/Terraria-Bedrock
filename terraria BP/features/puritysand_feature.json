@@ -1,0 +1,16 @@
+//bridge-file-version: #11
+{
+	"format_version": "1.13.0",
+	"minecraft:ore_feature": {
+		"description": {
+			"identifier": "minecraft:puritysand_feature"
+		},
+		"count": 15,
+		"places_block": "terrariamod:purity_sand",
+		"may_replace": [
+			{
+				"name": "terrariamod:purity_dirt"
+			}
+		]
+	}
+}

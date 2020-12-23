@@ -1,0 +1,1368 @@
+{
+	"file_path": "C:\\Users\\LANCE.LEGAUX\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\terraria RP\\ui\\how_to_play_screen.json",
+	"file_type": "unknown",
+	"format_version": 1,
+	"file_uuid": "5542a61e_a252_4787_be98_e6bedad6249e",
+	"file_version": 40,
+	"cache_content": {
+		"children": [
+			{
+				"data": "how_to_play",
+				"key": "namespace"
+			},
+			{
+				"key": "how_to_play_screen@how_to_play_common.screen_base",
+				"is_minified": true,
+				"children": {
+					"$selector_stack_panel": "how_to_play.selector_stack_panel",
+					"$section_content_panels": "how_to_play.section_content_panels",
+					"$header_safezone_control": "common_store.store_top_bar_filler",
+					"$header_bar_control": "common_store.store_top_bar",
+					"$is_full_screen_layout": true
+				}
+			},
+			{
+				"open": {
+					"namespace": "how_to_play",
+					"how_to_play_screen@how_to_play_common.screen_base": {
+						"$selector_stack_panel": "how_to_play.selector_stack_panel",
+						"$section_content_panels": "how_to_play.section_content_panels",
+						"$header_safezone_control": "common_store.store_top_bar_filler",
+						"$header_bar_control": "common_store.store_top_bar",
+						"$is_full_screen_layout": true
+					},
+					"selector_stack_panel": {
+						"type": "stack_panel",
+						"anchor_from": "top_left",
+						"anchor_to": "top_left",
+						"orientation": "vertical",
+						"$default_selector_toggle_index": 2,
+						"controls": [
+							{
+								"how_to_play_selector_pane": {
+									"type": "stack_panel",
+									"controls": [
+										{
+											"padding_0": {
+												"type": "panel",
+												"size": [
+													0,
+													6
+												]
+											}
+										},
+										{
+											"dakon_category@how_to_play_common.topic_category": {
+												"$category": "dakon"
+											}
+										},
+										{
+											"test_button@how_to_play.test_button": {
+												"$toggle_group_forced_index": 0
+											}
+										},
+										{
+											"testone_button@how_to_play.testone_button": {
+												"$toggle_group_forced_index": 1
+											}
+										},
+										{
+											"testone_button@how_to_play.testtwo_button": {
+												"$toggle_group_forced_index": 2
+											}
+										},
+										{
+											"testone_button@how_to_play.testthree_button": {
+												"$toggle_group_forced_index": 3
+											}
+										},
+										{
+											"testone_button@how_to_play.testfour_button": {
+												"$toggle_group_forced_index": 4
+											}
+										},
+										{
+											"padding_1@how_to_play_common.padding": {
+												"size": [
+													0,
+													10
+												]
+											}
+										}
+									]
+								}
+							}
+						]
+					},
+					"section_content_panels": {
+						"type": "stack_panel",
+						"anchor_from": "top_left",
+						"anchor_to": "top_left",
+						"size": [
+							"100% - 5px",
+							"100%c + 5px"
+						],
+						"offset": [
+							2,
+							0
+						],
+						"controls": [
+							{
+								"general_tips_sections": {
+									"type": "stack_panel",
+									"controls": [
+										{
+											"section_contents_header@how_to_play_common.section_contents_header": {}
+										},
+										{
+											"test_section@how_to_play.test_section": {}
+										},
+										{
+											"testone_section@how_to_play.testone_section": {}
+										},
+										{
+											"testtwo_section@how_to_play.testtwo_section": {}
+										},
+										{
+											"testthree_section@how_to_play.testthree_section": {}
+										},
+										{
+											"testfour_section@how_to_play.testfour_section": {}
+										},
+										{
+											"testfour_section@how_to_play.testfive_section": {}
+										},
+										{
+											"section_contents_footer@how_to_play_common.section_contents_footer": {}
+										}
+									]
+								}
+							}
+						]
+					},
+					"test_button@how_to_play_common.section_toggle_button": {
+						"$section_topic": "template"
+					},
+					"testone_section@how_to_play_common.main_sections": {
+						"bindings": [
+							{
+								"binding_type": "view",
+								"source_control_name": "template_button_toggle",
+								"source_property_name": "#toggle_state",
+								"target_property_name": "#visible"
+							}
+						],
+						"controls": [
+							{
+								"header_0@how_to_play_common.header": {
+									"$text": "terrariamod.credits.title0"
+								}
+							},
+							{
+								"paragraph_0@how_to_play_common.paragraph": {
+									"$text": "terrariamod.credits.text0"
+								}
+							},
+							{
+								"paragraph_0@how_to_play_common.paragraph": {
+									"$text": "terrariamod.credits.text1"
+								}
+							}
+						]
+					},
+					"testone_button@how_to_play_common.section_toggle_button": {
+						"$section_topic": "tempone"
+					},
+					"testtwo_section@how_to_play_common.main_sections": {
+						"bindings": [
+							{
+								"binding_type": "view",
+								"source_control_name": "tempone_button_toggle",
+								"source_property_name": "#toggle_state",
+								"target_property_name": "#visible"
+							}
+						],
+						"controls": [
+							{
+								"header_0@how_to_play_common.header": {
+									"$text": "terrariamod.header.title0"
+								}
+							},
+							{
+								"image_0@how_to_play_common.image": {
+									"texture": "textures/ui/terrariaui/test"
+								}
+							},
+							{
+								"paragraph_0@how_to_play_common.paragraph": {
+									"$text": "terrariamod.tempone.text0"
+								}
+							},
+							{
+								"header_1@how_to_play_common.header": {
+									"$text": "terrariamod.header.title1"
+								}
+							},
+							{
+								"paragraph_1@how_to_play_common.paragraph": {
+									"$text": "terrariamod.tempone.text1"
+								}
+							},
+							{
+								"header_0@how_to_play_common.header": {
+									"$text": "terrariamod.header.title2"
+								}
+							},
+							{
+								"paragraph_0@how_to_play_common.paragraph": {
+									"$text": "terrariamod.tempone.text2"
+								}
+							},
+							{
+								"header_0@how_to_play_common.header": {
+									"$text": "terrariamod.header.title3"
+								}
+							},
+							{
+								"image_0@how_to_play_common.image": {
+									"texture": "textures/ui/terrariaui/test1"
+								}
+							},
+							{
+								"image_0@how_to_play_common.image": {
+									"texture": "textures/ui/terrariaui/test2"
+								}
+							},
+							{
+								"image_0@how_to_play_common.image": {
+									"texture": "textures/ui/terrariaui/test3"
+								}
+							},
+							{
+								"image_0@how_to_play_common.image": {
+									"texture": "textures/ui/terrariaui/test4"
+								}
+							},
+							{
+								"image_0@how_to_play_common.image": {
+									"texture": "textures/ui/terrariaui/test5"
+								}
+							},
+							{
+								"paragraph_0@how_to_play_common.paragraph": {
+									"$text": "terrariamod.tempone.text3"
+								}
+							},
+							{
+								"header_0@how_to_play_common.header": {
+									"$text": "terrariamod.header.title4"
+								}
+							},
+							{
+								"paragraph_0@how_to_play_common.paragraph": {
+									"$text": "terrariamod.tempone.text4"
+								}
+							}
+						]
+					},
+					"testtwo_button@how_to_play_common.section_toggle_button": {
+						"$section_topic": "temptwo"
+					},
+					"testthree_section@how_to_play_common.main_sections": {
+						"bindings": [
+							{
+								"binding_type": "view",
+								"source_control_name": "temptwo_button_toggle",
+								"source_property_name": "#toggle_state",
+								"target_property_name": "#visible"
+							}
+						],
+						"controls": [
+							{
+								"header_0@how_to_play_common.header": {
+									"$text": "terrariamod.temptwo.title0"
+								}
+							},
+							{
+								"image_0@how_to_play_common.image": {
+									"texture": "textures/ui/terrariaui/test6"
+								}
+							},
+							{
+								"paragraph_0@how_to_play_common.paragraph": {
+									"$text": "terrariamod.temptwo.text0"
+								}
+							},
+							{
+								"header_0@how_to_play_common.header": {
+									"$text": "terrariamod.temptwo.title1"
+								}
+							},
+							{
+								"image_0@how_to_play_common.image": {
+									"texture": "textures/ui/terrariaui/test7"
+								}
+							},
+							{
+								"paragraph_0@how_to_play_common.paragraph": {
+									"$text": "terrariamod.temptwo.text1"
+								}
+							}
+						]
+					},
+					"testthree_button@how_to_play_common.section_toggle_button": {
+						"$section_topic": "tempthree"
+					},
+					"testfour_section@how_to_play_common.main_sections": {
+						"bindings": [
+							{
+								"binding_type": "view",
+								"source_control_name": "tempthree_button_toggle",
+								"source_property_name": "#toggle_state",
+								"target_property_name": "#visible"
+							}
+						],
+						"controls": [
+							{
+								"header_0@how_to_play_common.header": {
+									"$text": "terrariamod.tempfour.title0"
+								}
+							},
+							{
+								"paragraph_0@how_to_play_common.paragraph": {
+									"$text": "terrariamod.tempfour.text0"
+								}
+							},
+							{
+								"header_0@how_to_play_common.header": {
+									"$text": "terrariamod.tempfour.title1"
+								}
+							},
+							{
+								"paragraph_0@how_to_play_common.paragraph": {
+									"$text": "terrariamod.tempfour.text1"
+								}
+							}
+						]
+					},
+					"testfour_button@how_to_play_common.section_toggle_button": {
+						"$section_topic": "tempfour"
+					},
+					"testfive_section@how_to_play_common.main_sections": {
+						"bindings": [
+							{
+								"binding_type": "view",
+								"source_control_name": "tempfour_button_toggle",
+								"source_property_name": "#toggle_state",
+								"target_property_name": "#visible"
+							}
+						],
+						"controls": [
+							{
+								"header_0@how_to_play_common.header": {
+									"$text": "terrariamod.tempfive.title0"
+								}
+							},
+							{
+								"paragraph_0@how_to_play_common.paragraph": {
+									"$text": "terrariamod.tempfive.text0"
+								}
+							},
+							{
+								"header_0@how_to_play_common.header": {
+									"$text": "terrariamod.tempfive.title1"
+								}
+							},
+							{
+								"paragraph_0@how_to_play_common.paragraph": {
+									"$text": "terrariamod.tempfive.text1"
+								}
+							}
+						]
+					},
+					"testfive_button@how_to_play_common.section_toggle_button": {
+						"$section_topic": "tempfive"
+					}
+				},
+				"key": "selector_stack_panel",
+				"children": [
+					{
+						"data": "stack_panel",
+						"key": "type"
+					},
+					{
+						"data": "top_left",
+						"key": "anchor_from"
+					},
+					{
+						"data": "top_left",
+						"key": "anchor_to"
+					},
+					{
+						"data": "vertical",
+						"key": "orientation"
+					},
+					{
+						"data": "2",
+						"key": "$default_selector_toggle_index"
+					},
+					{
+						"open": {
+							"type": "stack_panel",
+							"anchor_from": "top_left",
+							"anchor_to": "top_left",
+							"orientation": "vertical",
+							"$default_selector_toggle_index": 2,
+							"controls": [
+								{
+									"how_to_play_selector_pane": {
+										"type": "stack_panel",
+										"controls": [
+											{
+												"padding_0": {
+													"type": "panel",
+													"size": [
+														0,
+														6
+													]
+												}
+											},
+											{
+												"dakon_category@how_to_play_common.topic_category": {
+													"$category": "dakon"
+												}
+											},
+											{
+												"test_button@how_to_play.test_button": {
+													"$toggle_group_forced_index": 0
+												}
+											},
+											{
+												"testone_button@how_to_play.testone_button": {
+													"$toggle_group_forced_index": 1
+												}
+											},
+											{
+												"testone_button@how_to_play.testtwo_button": {
+													"$toggle_group_forced_index": 2
+												}
+											},
+											{
+												"testone_button@how_to_play.testthree_button": {
+													"$toggle_group_forced_index": 3
+												}
+											},
+											{
+												"testone_button@how_to_play.testfour_button": {
+													"$toggle_group_forced_index": 4
+												}
+											},
+											{
+												"padding_1@how_to_play_common.padding": {
+													"size": [
+														0,
+														10
+													]
+												}
+											}
+										]
+									}
+								}
+							]
+						},
+						"key": "controls",
+						"children": [
+							{
+								"open": [
+									{
+										"how_to_play_selector_pane": {
+											"type": "stack_panel",
+											"controls": [
+												{
+													"padding_0": {
+														"type": "panel",
+														"size": [
+															0,
+															6
+														]
+													}
+												},
+												{
+													"dakon_category@how_to_play_common.topic_category": {
+														"$category": "dakon"
+													}
+												},
+												{
+													"test_button@how_to_play.test_button": {
+														"$toggle_group_forced_index": 0
+													}
+												},
+												{
+													"testone_button@how_to_play.testone_button": {
+														"$toggle_group_forced_index": 1
+													}
+												},
+												{
+													"testone_button@how_to_play.testtwo_button": {
+														"$toggle_group_forced_index": 2
+													}
+												},
+												{
+													"testone_button@how_to_play.testthree_button": {
+														"$toggle_group_forced_index": 3
+													}
+												},
+												{
+													"testone_button@how_to_play.testfour_button": {
+														"$toggle_group_forced_index": 4
+													}
+												},
+												{
+													"padding_1@how_to_play_common.padding": {
+														"size": [
+															0,
+															10
+														]
+													}
+												}
+											]
+										}
+									}
+								],
+								"children": [
+									{
+										"open": {
+											"how_to_play_selector_pane": {
+												"type": "stack_panel",
+												"controls": [
+													{
+														"padding_0": {
+															"type": "panel",
+															"size": [
+																0,
+																6
+															]
+														}
+													},
+													{
+														"dakon_category@how_to_play_common.topic_category": {
+															"$category": "dakon"
+														}
+													},
+													{
+														"test_button@how_to_play.test_button": {
+															"$toggle_group_forced_index": 0
+														}
+													},
+													{
+														"testone_button@how_to_play.testone_button": {
+															"$toggle_group_forced_index": 1
+														}
+													},
+													{
+														"testone_button@how_to_play.testtwo_button": {
+															"$toggle_group_forced_index": 2
+														}
+													},
+													{
+														"testone_button@how_to_play.testthree_button": {
+															"$toggle_group_forced_index": 3
+														}
+													},
+													{
+														"testone_button@how_to_play.testfour_button": {
+															"$toggle_group_forced_index": 4
+														}
+													},
+													{
+														"padding_1@how_to_play_common.padding": {
+															"size": [
+																0,
+																10
+															]
+														}
+													}
+												]
+											}
+										},
+										"key": "how_to_play_selector_pane",
+										"children": [
+											{
+												"data": "stack_panel",
+												"key": "type"
+											},
+											{
+												"open": {
+													"type": "stack_panel",
+													"controls": [
+														{
+															"padding_0": {
+																"type": "panel",
+																"size": [
+																	0,
+																	6
+																]
+															}
+														},
+														{
+															"dakon_category@how_to_play_common.topic_category": {
+																"$category": "dakon"
+															}
+														},
+														{
+															"test_button@how_to_play.test_button": {
+																"$toggle_group_forced_index": 0
+															}
+														},
+														{
+															"testone_button@how_to_play.testone_button": {
+																"$toggle_group_forced_index": 1
+															}
+														},
+														{
+															"testone_button@how_to_play.testtwo_button": {
+																"$toggle_group_forced_index": 2
+															}
+														},
+														{
+															"testone_button@how_to_play.testthree_button": {
+																"$toggle_group_forced_index": 3
+															}
+														},
+														{
+															"testone_button@how_to_play.testfour_button": {
+																"$toggle_group_forced_index": 4
+															}
+														},
+														{
+															"padding_1@how_to_play_common.padding": {
+																"size": [
+																	0,
+																	10
+																]
+															}
+														}
+													]
+												},
+												"key": "controls",
+												"children": [
+													{
+														"is_minified": true,
+														"children": {
+															"padding_0": {
+																"type": "panel",
+																"size": [
+																	0,
+																	6
+																]
+															}
+														}
+													},
+													{
+														"is_minified": true,
+														"children": {
+															"dakon_category@how_to_play_common.topic_category": {
+																"$category": "dakon"
+															}
+														}
+													},
+													{
+														"is_minified": true,
+														"children": {
+															"test_button@how_to_play.test_button": {
+																"$toggle_group_forced_index": 0
+															}
+														}
+													},
+													{
+														"is_minified": true,
+														"children": {
+															"testone_button@how_to_play.testone_button": {
+																"$toggle_group_forced_index": 1
+															}
+														}
+													},
+													{
+														"is_minified": true,
+														"children": {
+															"testone_button@how_to_play.testtwo_button": {
+																"$toggle_group_forced_index": 2
+															}
+														}
+													},
+													{
+														"open": [
+															{
+																"padding_0": {
+																	"type": "panel",
+																	"size": [
+																		0,
+																		6
+																	]
+																}
+															},
+															{
+																"dakon_category@how_to_play_common.topic_category": {
+																	"$category": "dakon"
+																}
+															},
+															{
+																"test_button@how_to_play.test_button": {
+																	"$toggle_group_forced_index": 0
+																}
+															},
+															{
+																"testone_button@how_to_play.testone_button": {
+																	"$toggle_group_forced_index": 1
+																}
+															},
+															{
+																"testone_button@how_to_play.testtwo_button": {
+																	"$toggle_group_forced_index": 2
+																}
+															},
+															{
+																"testone_button@how_to_play.testthree_button": {
+																	"$toggle_group_forced_index": 3
+																}
+															},
+															{
+																"testone_button@how_to_play.testfour_button": {
+																	"$toggle_group_forced_index": 4
+																}
+															},
+															{
+																"padding_1@how_to_play_common.padding": {
+																	"size": [
+																		0,
+																		10
+																	]
+																}
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"testone_button@how_to_play.testthree_button": {
+																"$toggle_group_forced_index": 3
+															}
+														}
+													},
+													{
+														"open": [
+															{
+																"padding_0": {
+																	"type": "panel",
+																	"size": [
+																		0,
+																		6
+																	]
+																}
+															},
+															{
+																"dakon_category@how_to_play_common.topic_category": {
+																	"$category": "dakon"
+																}
+															},
+															{
+																"test_button@how_to_play.test_button": {
+																	"$toggle_group_forced_index": 0
+																}
+															},
+															{
+																"testone_button@how_to_play.testone_button": {
+																	"$toggle_group_forced_index": 1
+																}
+															},
+															{
+																"testone_button@how_to_play.testtwo_button": {
+																	"$toggle_group_forced_index": 2
+																}
+															},
+															{
+																"testone_button@how_to_play.testthree_button": {
+																	"$toggle_group_forced_index": 3
+																}
+															},
+															{
+																"testone_button@how_to_play.testfour_button": {
+																	"$toggle_group_forced_index": 4
+																}
+															},
+															{
+																"padding_1@how_to_play_common.padding": {
+																	"size": [
+																		0,
+																		10
+																	]
+																}
+															}
+														],
+														"children": [
+															{
+																"open": {
+																	"testone_button@how_to_play.testfour_button": {
+																		"$toggle_group_forced_index": 4
+																	}
+																},
+																"key": "testone_button@how_to_play.testfour_button",
+																"is_minified": true,
+																"children": {
+																	"$toggle_group_forced_index": 4
+																}
+															}
+														]
+													},
+													{
+														"open": [
+															{
+																"padding_0": {
+																	"type": "panel",
+																	"size": [
+																		0,
+																		6
+																	]
+																}
+															},
+															{
+																"dakon_category@how_to_play_common.topic_category": {
+																	"$category": "dakon"
+																}
+															},
+															{
+																"test_button@how_to_play.test_button": {
+																	"$toggle_group_forced_index": 0
+																}
+															},
+															{
+																"testone_button@how_to_play.testone_button": {
+																	"$toggle_group_forced_index": 1
+																}
+															},
+															{
+																"testone_button@how_to_play.testtwo_button": {
+																	"$toggle_group_forced_index": 2
+																}
+															},
+															{
+																"testone_button@how_to_play.testthree_button": {
+																	"$toggle_group_forced_index": 3
+																}
+															},
+															{
+																"testone_button@how_to_play.testfour_button": {
+																	"$toggle_group_forced_index": 4
+																}
+															},
+															{
+																"padding_1@how_to_play_common.padding": {
+																	"size": [
+																		0,
+																		10
+																	]
+																}
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"padding_1@how_to_play_common.padding": {
+																"size": [
+																	0,
+																	10
+																]
+															}
+														}
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"key": "section_content_panels",
+				"children": [
+					{
+						"data": "stack_panel",
+						"key": "type"
+					},
+					{
+						"data": "top_left",
+						"key": "anchor_from"
+					},
+					{
+						"data": "top_left",
+						"key": "anchor_to"
+					},
+					{
+						"key": "size",
+						"is_minified": true,
+						"children": [
+							"100% - 5px",
+							"100%c + 5px"
+						]
+					},
+					{
+						"key": "offset",
+						"is_minified": true,
+						"children": [
+							2,
+							0
+						]
+					},
+					{
+						"key": "controls",
+						"children": [
+							{
+								"open": [
+									{
+										"general_tips_sections": {
+											"type": "stack_panel",
+											"controls": [
+												{
+													"section_contents_header@how_to_play_common.section_contents_header": {}
+												},
+												{
+													"test_section@how_to_play.test_section": {}
+												},
+												{
+													"testone_section@how_to_play.testone_section": {}
+												},
+												{
+													"testtwo_section@how_to_play.testtwo_section": {}
+												},
+												{
+													"testthree_section@how_to_play.testthree_section": {}
+												},
+												{
+													"testfour_section@how_to_play.testfour_section": {}
+												},
+												{
+													"testfour_section@how_to_play.testfive_section": {}
+												},
+												{
+													"section_contents_footer@how_to_play_common.section_contents_footer": {}
+												}
+											]
+										}
+									}
+								],
+								"children": [
+									{
+										"open": {
+											"general_tips_sections": {
+												"type": "stack_panel",
+												"controls": [
+													{
+														"section_contents_header@how_to_play_common.section_contents_header": {}
+													},
+													{
+														"test_section@how_to_play.test_section": {}
+													},
+													{
+														"testone_section@how_to_play.testone_section": {}
+													},
+													{
+														"testtwo_section@how_to_play.testtwo_section": {}
+													},
+													{
+														"testthree_section@how_to_play.testthree_section": {}
+													},
+													{
+														"testfour_section@how_to_play.testfour_section": {}
+													},
+													{
+														"testfour_section@how_to_play.testfive_section": {}
+													},
+													{
+														"section_contents_footer@how_to_play_common.section_contents_footer": {}
+													}
+												]
+											}
+										},
+										"key": "general_tips_sections",
+										"children": [
+											{
+												"data": "stack_panel",
+												"key": "type"
+											},
+											{
+												"key": "controls",
+												"children": [
+													{
+														"is_minified": true,
+														"children": {
+															"section_contents_header@how_to_play_common.section_contents_header": {}
+														}
+													},
+													{
+														"is_minified": true,
+														"children": {
+															"test_section@how_to_play.test_section": {}
+														}
+													},
+													{
+														"is_minified": true,
+														"children": {
+															"testone_section@how_to_play.testone_section": {}
+														}
+													},
+													{
+														"is_minified": true,
+														"children": {
+															"testtwo_section@how_to_play.testtwo_section": {}
+														}
+													},
+													{
+														"is_minified": true,
+														"children": {
+															"testthree_section@how_to_play.testthree_section": {}
+														}
+													},
+													{
+														"is_minified": true,
+														"children": {
+															"testfour_section@how_to_play.testfour_section": {}
+														}
+													},
+													{
+														"open": [
+															{
+																"section_contents_header@how_to_play_common.section_contents_header": {}
+															},
+															{
+																"test_section@how_to_play.test_section": {}
+															},
+															{
+																"testone_section@how_to_play.testone_section": {}
+															},
+															{
+																"testtwo_section@how_to_play.testtwo_section": {}
+															},
+															{
+																"testthree_section@how_to_play.testthree_section": {}
+															},
+															{
+																"testfour_section@how_to_play.testfour_section": {}
+															},
+															{
+																"testfour_section@how_to_play.testfive_section": {}
+															},
+															{
+																"section_contents_footer@how_to_play_common.section_contents_footer": {}
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"testfour_section@how_to_play.testfive_section": {}
+														}
+													},
+													{
+														"is_minified": true,
+														"children": {
+															"section_contents_footer@how_to_play_common.section_contents_footer": {}
+														}
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"key": "test_button@how_to_play_common.section_toggle_button",
+				"is_minified": true,
+				"children": {
+					"$section_topic": "template"
+				}
+			},
+			{
+				"key": "testone_section@how_to_play_common.main_sections",
+				"is_minified": true,
+				"children": {
+					"bindings": [
+						{
+							"binding_type": "view",
+							"source_control_name": "template_button_toggle",
+							"source_property_name": "#toggle_state",
+							"target_property_name": "#visible"
+						}
+					],
+					"controls": [
+						{
+							"header_0@how_to_play_common.header": {
+								"$text": "terrariamod.credits.title0"
+							}
+						},
+						{
+							"paragraph_0@how_to_play_common.paragraph": {
+								"$text": "terrariamod.credits.text0"
+							}
+						},
+						{
+							"paragraph_0@how_to_play_common.paragraph": {
+								"$text": "terrariamod.credits.text1"
+							}
+						}
+					]
+				}
+			},
+			{
+				"key": "testone_button@how_to_play_common.section_toggle_button",
+				"is_minified": true,
+				"children": {
+					"$section_topic": "tempone"
+				}
+			},
+			{
+				"key": "testtwo_section@how_to_play_common.main_sections",
+				"is_minified": true,
+				"children": {
+					"bindings": [
+						{
+							"binding_type": "view",
+							"source_control_name": "tempone_button_toggle",
+							"source_property_name": "#toggle_state",
+							"target_property_name": "#visible"
+						}
+					],
+					"controls": [
+						{
+							"header_0@how_to_play_common.header": {
+								"$text": "terrariamod.header.title0"
+							}
+						},
+						{
+							"image_0@how_to_play_common.image": {
+								"texture": "textures/ui/terrariaui/test"
+							}
+						},
+						{
+							"paragraph_0@how_to_play_common.paragraph": {
+								"$text": "terrariamod.tempone.text0"
+							}
+						},
+						{
+							"header_1@how_to_play_common.header": {
+								"$text": "terrariamod.header.title1"
+							}
+						},
+						{
+							"paragraph_1@how_to_play_common.paragraph": {
+								"$text": "terrariamod.tempone.text1"
+							}
+						},
+						{
+							"header_0@how_to_play_common.header": {
+								"$text": "terrariamod.header.title2"
+							}
+						},
+						{
+							"paragraph_0@how_to_play_common.paragraph": {
+								"$text": "terrariamod.tempone.text2"
+							}
+						},
+						{
+							"header_0@how_to_play_common.header": {
+								"$text": "terrariamod.header.title3"
+							}
+						},
+						{
+							"image_0@how_to_play_common.image": {
+								"texture": "textures/ui/terrariaui/test1"
+							}
+						},
+						{
+							"image_0@how_to_play_common.image": {
+								"texture": "textures/ui/terrariaui/test2"
+							}
+						},
+						{
+							"image_0@how_to_play_common.image": {
+								"texture": "textures/ui/terrariaui/test3"
+							}
+						},
+						{
+							"image_0@how_to_play_common.image": {
+								"texture": "textures/ui/terrariaui/test4"
+							}
+						},
+						{
+							"image_0@how_to_play_common.image": {
+								"texture": "textures/ui/terrariaui/test5"
+							}
+						},
+						{
+							"paragraph_0@how_to_play_common.paragraph": {
+								"$text": "terrariamod.tempone.text3"
+							}
+						},
+						{
+							"header_0@how_to_play_common.header": {
+								"$text": "terrariamod.header.title4"
+							}
+						},
+						{
+							"paragraph_0@how_to_play_common.paragraph": {
+								"$text": "terrariamod.tempone.text4"
+							}
+						}
+					]
+				}
+			},
+			{
+				"key": "testtwo_button@how_to_play_common.section_toggle_button",
+				"is_minified": true,
+				"children": {
+					"$section_topic": "temptwo"
+				}
+			},
+			{
+				"key": "testthree_section@how_to_play_common.main_sections",
+				"is_minified": true,
+				"children": {
+					"bindings": [
+						{
+							"binding_type": "view",
+							"source_control_name": "temptwo_button_toggle",
+							"source_property_name": "#toggle_state",
+							"target_property_name": "#visible"
+						}
+					],
+					"controls": [
+						{
+							"header_0@how_to_play_common.header": {
+								"$text": "terrariamod.temptwo.title0"
+							}
+						},
+						{
+							"image_0@how_to_play_common.image": {
+								"texture": "textures/ui/terrariaui/test6"
+							}
+						},
+						{
+							"paragraph_0@how_to_play_common.paragraph": {
+								"$text": "terrariamod.temptwo.text0"
+							}
+						},
+						{
+							"header_0@how_to_play_common.header": {
+								"$text": "terrariamod.temptwo.title1"
+							}
+						},
+						{
+							"image_0@how_to_play_common.image": {
+								"texture": "textures/ui/terrariaui/test7"
+							}
+						},
+						{
+							"paragraph_0@how_to_play_common.paragraph": {
+								"$text": "terrariamod.temptwo.text1"
+							}
+						}
+					]
+				}
+			},
+			{
+				"key": "testthree_button@how_to_play_common.section_toggle_button",
+				"is_minified": true,
+				"children": {
+					"$section_topic": "tempthree"
+				}
+			},
+			{
+				"key": "testfour_section@how_to_play_common.main_sections",
+				"is_minified": true,
+				"children": {
+					"bindings": [
+						{
+							"binding_type": "view",
+							"source_control_name": "tempthree_button_toggle",
+							"source_property_name": "#toggle_state",
+							"target_property_name": "#visible"
+						}
+					],
+					"controls": [
+						{
+							"header_0@how_to_play_common.header": {
+								"$text": "terrariamod.tempfour.title0"
+							}
+						},
+						{
+							"paragraph_0@how_to_play_common.paragraph": {
+								"$text": "terrariamod.tempfour.text0"
+							}
+						},
+						{
+							"header_0@how_to_play_common.header": {
+								"$text": "terrariamod.tempfour.title1"
+							}
+						},
+						{
+							"paragraph_0@how_to_play_common.paragraph": {
+								"$text": "terrariamod.tempfour.text1"
+							}
+						}
+					]
+				}
+			},
+			{
+				"key": "testfour_button@how_to_play_common.section_toggle_button",
+				"is_minified": true,
+				"children": {
+					"$section_topic": "tempfour"
+				}
+			},
+			{
+				"key": "testfive_section@how_to_play_common.main_sections",
+				"is_minified": true,
+				"children": {
+					"bindings": [
+						{
+							"binding_type": "view",
+							"source_control_name": "tempfour_button_toggle",
+							"source_property_name": "#toggle_state",
+							"target_property_name": "#visible"
+						}
+					],
+					"controls": [
+						{
+							"header_0@how_to_play_common.header": {
+								"$text": "terrariamod.tempfive.title0"
+							}
+						},
+						{
+							"paragraph_0@how_to_play_common.paragraph": {
+								"$text": "terrariamod.tempfive.text0"
+							}
+						},
+						{
+							"header_0@how_to_play_common.header": {
+								"$text": "terrariamod.tempfive.title1"
+							}
+						},
+						{
+							"paragraph_0@how_to_play_common.paragraph": {
+								"$text": "terrariamod.tempfive.text1"
+							}
+						}
+					]
+				}
+			},
+			{
+				"key": "testfive_button@how_to_play_common.section_toggle_button",
+				"is_minified": true,
+				"children": {
+					"$section_topic": "tempfive"
+				}
+			}
+		]
+	}
+}

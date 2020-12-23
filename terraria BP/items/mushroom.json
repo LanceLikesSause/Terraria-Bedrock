@@ -1,4 +1,4 @@
-//bridge-file-version: #20
+//bridge-file-version: #21
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
@@ -30,6 +30,9 @@
 			},
 			"minecraft:block_placer": {
 				"block": "terrariamod:mushroom"
+			},
+			"minecraft:potion": {
+				"type": "regular"
 			}
 		},
 		"events": {

@@ -6,6 +6,7 @@
 			"identifier": "forest_hills"
 		},
 		"components": {
+
 			"minecraft:climate": {
 				"downfall": 0,
 				"snow_accumulation": [
@@ -15,11 +16,11 @@
 				"temperature": 2
 			},
 			"minecraft:overworld_height": {
-				"noise_type": "extreme"
+				"noise_type": "default"
 			},
 			"minecraft:surface_parameters": {
-				"sea_floor_depth": 7,
-				"sea_floor_material": "terrariamod:purity_silt",
+				"sea_floor_depth": 14,
+				"sea_floor_material": "terrariamod:purity_sand",
 				"foundation_material": "terrariamod:purity_stone",
 				"mid_material": "terrariamod:purity_dirt",
 				"top_material": "terrariamod:jungle_grass",
@@ -38,6 +39,7 @@
 			"purity": {},
 			"purity_jungle": {},
 			"overworld": {}
+
 		}
 	}
 }

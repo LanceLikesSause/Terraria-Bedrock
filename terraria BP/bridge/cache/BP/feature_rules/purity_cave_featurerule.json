@@ -2,8 +2,8 @@
 	"file_path": "C:\\Users\\LANCE.LEGAUX\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\feature_rules\\purity_cave_featurerule.json",
 	"file_type": "feature_rule",
 	"format_version": 1,
-	"file_uuid": "4c9821f6_8575_4c77_b312_d0ee2b6775ba",
-	"file_version": 20,
+	"file_uuid": "ae1ba441_6532_41e2_b97b_17f7c09d7e65",
+	"file_version": 21,
 	"cache_content": {
 		"children": [
 			{
@@ -35,7 +35,7 @@
 									]
 								}
 							],
-							"placement_pass": "first_pass"
+							"placement_pass": "after_underground_pass"
 						},
 						"distribution": {
 							"iterations": 17,
@@ -101,7 +101,7 @@
 										]
 									}
 								],
-								"placement_pass": "first_pass"
+								"placement_pass": "after_underground_pass"
 							},
 							"distribution": {
 								"iterations": 17,
@@ -152,64 +152,10 @@
 									]
 								}
 							],
-							"placement_pass": "first_pass"
+							"placement_pass": "after_underground_pass"
 						}
 					},
 					{
-						"open": {
-							"description": {
-								"identifier": "minecraft:purity_cave_featurerule",
-								"places_feature": "minecraft:purity_cave_feature"
-							},
-							"conditions": {
-								"minecraft:biome_filter": [
-									{
-										"any_of": [
-											{
-												"test": "has_biome_tag",
-												"operator": "==",
-												"value": "overworld"
-											},
-											{
-												"test": "has_biome_tag",
-												"operator": "==",
-												"value": "purity"
-											}
-										]
-									}
-								],
-								"placement_pass": "first_pass"
-							},
-							"distribution": {
-								"iterations": 17,
-								"coordinate_eval_order": "zyx",
-								"x": {
-									"distribution": "uniform",
-									"extent": [
-										0,
-										16
-									]
-								},
-								"y": {
-									"distribution": "uniform",
-									"extent": [
-										0,
-										128
-									]
-								},
-								"z": {
-									"distribution": "uniform",
-									"extent": [
-										0,
-										16
-									]
-								},
-								"scatter_chance": {
-									"numerator": 1,
-									"denominator": 2
-								}
-							}
-						},
 						"key": "distribution",
 						"is_minified": true,
 						"children": {

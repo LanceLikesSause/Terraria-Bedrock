@@ -5,6 +5,7 @@
       "identifier": "cold_ocean"
     },
 		"components": {
+
 			"minecraft:climate": {
 				"downfall": 0,
 				"snow_accumulation": [
@@ -14,14 +15,14 @@
 				"temperature": 2
 			},
 			"minecraft:overworld_height": {
-				"noise_type": "extreme"
+				"noise_type": "default"
 			},
 			"minecraft:surface_parameters": {
-				"sea_floor_depth": 7,
-				"sea_floor_material": "terrariamod:purity_silt",
-				"foundation_material": "terrariamod:ebonstone",
+				"sea_floor_depth": 14,
+				"sea_floor_material": "terrariamod:purity_sand",
+				"foundation_material": "terrariamod:purity_stone",
 				"mid_material": "terrariamod:purity_dirt",
-				"top_material": "terrariamod:corrupted_grass",
+				"top_material": "terrariamod:purity_grass",
 				"sea_material": "minecraft:water"
 			},
 			"minecraft:overworld_generation_rules": {
@@ -34,8 +35,10 @@
 					]
 				]
 			},
-			"corruption": {},
+			"purity": {},
+			"purity_forest": {},
 			"overworld": {}
+
 		}
 	}
 }

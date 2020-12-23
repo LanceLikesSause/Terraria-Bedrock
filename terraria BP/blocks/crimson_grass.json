@@ -1,4 +1,4 @@
-//bridge-file-version: #51
+//bridge-file-version: #67
 {
 	"format_version": "1.16.100",
 	"minecraft:block": {
@@ -11,33 +11,28 @@
 			"minecraft:destroy_time": 5,
 			"minecraft:loot": "loot_tables/blocks/stone.json",
 			"minecraft:block_light_emission": 0,
-			"tag:thalasso:crystal": {},
-			"minecraft:material_instances": {
-				"*": {
-					"render_method": "opaque",
-					"texture": "terrariamod:crimson_grass"
-				}
-			},
-			"minecraft:ticking": {
-				"looping": false,
-				"range": [
-					1,
-					1
-				],
+			"tag:terrariamod:dirt": {},
+			"minecraft:random_ticking": {
 				"on_tick": {
-					"target": "self",
-					"event": "thalasso:crack"
+					"event": "terrariamod:crimson_spread"
 				}
-			},
-			"tag:terrariamod:dirt": {}
+			}
 		},
 		"events": {
-			"thalasso:crack": {
-				"run_command": {
-					"command": [
-						"function crimson_grass"
-					]
-				}
+			"terrariamod:crimson_spread": {
+				"randomize": [
+					{
+						"weight": 1,
+						"run_command": {
+							"command": [
+								"function crimson_grass"
+							]
+						}
+					},
+					{
+						"weight": 1200
+					}
+				]
 			}
 		}
 	}

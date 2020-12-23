@@ -1,4 +1,4 @@
-//bridge-file-version: #20
+//bridge-file-version: #24
 {
 	"format_version": "1.13.0",
 	"minecraft:feature_rules": {
@@ -35,13 +35,7 @@
 					16
 				]
 			},
-			"y": {
-				"distribution": "uniform",
-				"extent": [
-					60,
-					128
-				]
-			},
+			"y": "query.heightmap(variable.worldx, variable.worldz)",
 			"z": {
 				"distribution": "uniform",
 				"extent": [

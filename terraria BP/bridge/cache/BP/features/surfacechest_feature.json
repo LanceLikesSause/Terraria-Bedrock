@@ -2,32 +2,11 @@
 	"file_path": "C:\\Users\\LANCE.LEGAUX\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\features\\surfacechest_feature.json",
 	"file_type": "feature",
 	"format_version": 1,
-	"file_uuid": "6c940bb3_34d8_4634_9146_9732b62014d2",
-	"file_version": 13,
+	"file_uuid": "c9d04375_e79d_461f_8cbd_ecc4887f5cfc",
+	"file_version": 14,
 	"cache_content": {
 		"children": [
 			{
-				"open": {
-					"format_version": "1.13.0",
-					"minecraft:single_block_feature": {
-						"description": {
-							"identifier": "minecraft:surfacechest_feature"
-						},
-						"places_block": "terrariamod:surfacechest",
-						"may_replace": [
-							{
-								"name": "minecraft:air"
-							}
-						],
-						"enforce_survivability_rules": false,
-						"enforce_placement_rules": false,
-						"may_attach_to": {
-							"all": [
-								"terrariamod:purity_stone"
-							]
-						}
-					}
-				},
 				"data": "1.13.0",
 				"key": "format_version"
 			},
@@ -45,12 +24,7 @@
 							}
 						],
 						"enforce_survivability_rules": false,
-						"enforce_placement_rules": false,
-						"may_attach_to": {
-							"all": [
-								"terrariamod:purity_stone"
-							]
-						}
+						"enforce_placement_rules": false
 					}
 				},
 				"key": "minecraft:single_block_feature",
@@ -67,12 +41,7 @@
 								}
 							],
 							"enforce_survivability_rules": false,
-							"enforce_placement_rules": false,
-							"may_attach_to": {
-								"all": [
-									"terrariamod:purity_stone"
-								]
-							}
+							"enforce_placement_rules": false
 						},
 						"key": "description",
 						"is_minified": true,
@@ -96,12 +65,7 @@
 								}
 							],
 							"enforce_survivability_rules": false,
-							"enforce_placement_rules": false,
-							"may_attach_to": {
-								"all": [
-									"terrariamod:purity_stone"
-								]
-							}
+							"enforce_placement_rules": false
 						},
 						"key": "may_replace",
 						"children": [
@@ -123,10 +87,6 @@
 						"key": "enforce_survivability_rules"
 					},
 					{
-						"data": "false",
-						"key": "enforce_placement_rules"
-					},
-					{
 						"open": {
 							"description": {
 								"identifier": "minecraft:surfacechest_feature"
@@ -138,28 +98,10 @@
 								}
 							],
 							"enforce_survivability_rules": false,
-							"enforce_placement_rules": false,
-							"may_attach_to": {
-								"all": [
-									"terrariamod:purity_stone"
-								]
-							}
+							"enforce_placement_rules": false
 						},
-						"key": "may_attach_to",
-						"children": [
-							{
-								"open": {
-									"all": [
-										"terrariamod:purity_stone"
-									]
-								},
-								"key": "all",
-								"is_minified": true,
-								"children": [
-									"terrariamod:purity_stone"
-								]
-							}
-						]
+						"data": "false",
+						"key": "enforce_placement_rules"
 					}
 				]
 			}

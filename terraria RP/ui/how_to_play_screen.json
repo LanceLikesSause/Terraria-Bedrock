@@ -1,4 +1,4 @@
-//bridge-file-version: #18
+//bridge-file-version: #40
 {
 	"namespace": "how_to_play",
 	"how_to_play_screen@how_to_play_common.screen_base": {
@@ -49,6 +49,16 @@
 							}
 						},
 						{
+							"testone_button@how_to_play.testthree_button": {
+								"$toggle_group_forced_index": 3
+							}
+						},
+						{
+							"testone_button@how_to_play.testfour_button": {
+								"$toggle_group_forced_index": 4
+							}
+						},
+						{
 							"padding_1@how_to_play_common.padding": {
 								"size": [
 									0,
@@ -92,6 +102,12 @@
 						},
 						{
 							"testthree_section@how_to_play.testthree_section": {}
+						},
+						{
+							"testfour_section@how_to_play.testfour_section": {}
+						},
+						{
+							"testfour_section@how_to_play.testfive_section": {}
 						},
 						{
 							"section_contents_footer@how_to_play_common.section_contents_footer": {}
@@ -200,6 +216,16 @@
 				}
 			},
 			{
+				"image_0@how_to_play_common.image": {
+					"texture": "textures/ui/terrariaui/test4"
+				}
+			},
+			{
+				"image_0@how_to_play_common.image": {
+					"texture": "textures/ui/terrariaui/test5"
+				}
+			},
+			{
 				"paragraph_0@how_to_play_common.paragraph": {
 					"$text": "terrariamod.tempone.text3"
 				}
@@ -236,17 +262,102 @@
 			},
 			{
 				"image_0@how_to_play_common.image": {
-					"texture": "textures/ui/terrariaui/test"
+					"texture": "textures/ui/terrariaui/test6"
 				}
 			},
 			{
 				"paragraph_0@how_to_play_common.paragraph": {
 					"$text": "terrariamod.temptwo.text0"
 				}
+			},
+			{
+				"header_0@how_to_play_common.header": {
+					"$text": "terrariamod.temptwo.title1"
+				}
+			},
+			{
+				"image_0@how_to_play_common.image": {
+					"texture": "textures/ui/terrariaui/test7"
+				}
+			},
+			{
+				"paragraph_0@how_to_play_common.paragraph": {
+					"$text": "terrariamod.temptwo.text1"
+				}
 			}
 		]
 	},
 	"testthree_button@how_to_play_common.section_toggle_button": {
 		"$section_topic": "tempthree"
+	},
+	"testfour_section@how_to_play_common.main_sections": {
+		"bindings": [
+			{
+				"binding_type": "view",
+				"source_control_name": "tempthree_button_toggle",
+				"source_property_name": "#toggle_state",
+				"target_property_name": "#visible"
+			}
+		],
+		"controls": [
+			{
+				"header_0@how_to_play_common.header": {
+					"$text": "terrariamod.tempfour.title0"
+				}
+			},
+			{
+				"paragraph_0@how_to_play_common.paragraph": {
+					"$text": "terrariamod.tempfour.text0"
+				}
+			},
+			{
+				"header_0@how_to_play_common.header": {
+					"$text": "terrariamod.tempfour.title1"
+				}
+			},
+			{
+				"paragraph_0@how_to_play_common.paragraph": {
+					"$text": "terrariamod.tempfour.text1"
+				}
+			}
+		]
+	},
+	"testfour_button@how_to_play_common.section_toggle_button": {
+		"$section_topic": "tempfour"
+	},
+	"testfive_section@how_to_play_common.main_sections": {
+		"bindings": [
+			{
+				"binding_type": "view",
+				"source_control_name": "tempfour_button_toggle",
+				"source_property_name": "#toggle_state",
+				"target_property_name": "#visible"
+			}
+		],
+		"controls": [
+			{
+				"header_0@how_to_play_common.header": {
+					"$text": "terrariamod.tempfive.title0"
+				}
+			},
+			{
+				"paragraph_0@how_to_play_common.paragraph": {
+					"$text": "terrariamod.tempfive.text0"
+				}
+			},
+			{
+				"header_0@how_to_play_common.header": {
+					"$text": "terrariamod.tempfive.title1"
+				}
+			},
+			{
+				"paragraph_0@how_to_play_common.paragraph": {
+					"$text": "terrariamod.tempfive.text1"
+				}
+			}
+		]
+	},
+	"testfive_button@how_to_play_common.section_toggle_button": {
+		"$section_topic": "tempfive"
 	}
 }

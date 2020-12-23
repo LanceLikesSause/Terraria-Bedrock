@@ -67,7 +67,8 @@
 		},
 		"BP/biomes/beach.biome.json": {
 			"tags": [
-				"purity"
+				"purity",
+				"purity_forest"
 			]
 		},
 		"BP/biomes/birch_forest.biome.json": {
@@ -509,6 +510,39 @@
 			"recipe_tags": [],
 			"custom_components": [],
 			"custom_commands": []
+		},
+		"BP/blocks/underworld_transporter.json": {
+			"identifiers": [
+				"terrariamod:underworld_transporter"
+			],
+			"events": [
+				"terrariamod:summon_portal"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/crimson_grass.json": {
+			"identifiers": [
+				"terrariamod:crimson_grass"
+			],
+			"events": [
+				"terrariamod:crimson_spread"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/corrupted_grass.json": {
+			"identifiers": [
+				"terrariamod:corrupted_grass"
+			],
+			"events": [
+				"terrariamod:corruption_spread"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
 		}
 	},
 	"entity": {
@@ -736,6 +770,28 @@
 			],
 			"custom_components": [],
 			"custom_commands": []
+		},
+		"BP/entities/eyeofcthulhu_stageone.json": {
+			"events": [
+				"minecraft:entity_spawned",
+				"bridge:remove_command_id_1"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:eyeofcthulhu_stageone"
+			],
+			"animation_references": [
+				"to_stage_2",
+				"bridge_execute_commands"
+			],
+			"families": [
+				"phantom",
+				"undead",
+				"monster",
+				"mob"
+			],
+			"custom_commands": [],
+			"custom_components": []
 		}
 	},
 	"feature_rule": {
@@ -751,7 +807,7 @@
 		},
 		"BP/feature_rules/purityclay_featurerule.json": {
 			"identifiers": [
-				"minecraft:purityclay_featurerule"
+				"minecraft:puritysand_featurerule"
 			]
 		},
 		"BP/feature_rules/hellstone_featurerule.json": {
@@ -768,6 +824,11 @@
 			"identifiers": [
 				"minecraft:purity_cave_featurerule"
 			]
+		},
+		"BP/feature_rules/puritysand_featurerule.json": {
+			"identifiers": [
+				"minecraft:puritysand_featurerule"
+			]
 		}
 	},
 	"feature": {
@@ -783,7 +844,7 @@
 		},
 		"BP/features/purityclay_feature.json": {
 			"identifiers": [
-				"minecraft:purityclay_feature"
+				"minecraft:puritysand_feature"
 			]
 		},
 		"BP/features/hellstone_feature.json": {
@@ -799,6 +860,11 @@
 		"BP/features/surfacechest_feature.json": {
 			"identifiers": [
 				"minecraft:surfacechest_feature"
+			]
+		},
+		"BP/features/puritysand_feature.json": {
+			"identifiers": [
+				"minecraft:puritysand_feature"
 			]
 		}
 	},
@@ -845,7 +911,17 @@
 		"23223da5_b842_432b_b5d2_333aa68582bd": {},
 		"459d0146_301b_4e4d_ae85_885b62afd892": {},
 		"5e6ef3d3_0fc8_4b2b_b5a4_bf7943141477": {},
-		"a0a5afff_4917_4b9b_b7ad_9ec23961314c": {}
+		"a0a5afff_4917_4b9b_b7ad_9ec23961314c": {},
+		"a5b4ab3d_12d6_4cdc_a2b6_78e430a9de81": {},
+		"44d89716_a2fa_49a6_a35b_ab5c81cd3964": {},
+		"040b87d4_3796_462c_8f0b_cf34413a909a": {},
+		"a95cb159_0208_4ac7_a533_bc6da04322e7": {},
+		"143bdfae_2625_4a39_8062_ef5f169eab69": {},
+		"546f0d6d_cc67_4b82_b634_78420c49d66a": {},
+		"f420f7b8_fe2f_4242_88ad_a9526e54a7d3": {},
+		"BP/functions/corrupted_grass.mcfunction": {
+			"custom_commands": []
+		}
 	},
 	"rp_animation_controller": {
 		"RP/animation_controllers/devourer.animation.controller.json": {
@@ -1803,6 +1879,26 @@
 			"tags": [
 				"crafting_table"
 			]
+		},
+		"BP/recipes/hi_recipe.json": {
+			"tags": [
+				"brewing_stand"
+			]
+		},
+		"BP/recipes/underworld_transporter.json": {
+			"tags": [
+				"workbench"
+			]
+		},
+		"BP/recipes/bottle_recipe.json": {
+			"tags": [
+				"tfurnace"
+			]
+		},
+		"BP/recipes/bottlestation_recipe.json": {
+			"tags": [
+				"workbench"
+			]
 		}
 	},
 	"item": {
@@ -1815,6 +1911,54 @@
 		"BP/items/suspiciouslookingeye.json": {
 			"identifiers": [
 				"terrariamod:suspiciouslookingeye"
+			],
+			"custom_commands": []
+		},
+		"BP/items/aglet.json": {
+			"identifiers": [
+				"terrariamod:aglet"
+			],
+			"custom_commands": []
+		},
+		"BP/items/hermesboots.json": {
+			"identifiers": [
+				"terrariamod:hermesboots"
+			],
+			"custom_commands": []
+		},
+		"BP/items/balloonpufferfish.json": {
+			"identifiers": [
+				"terrariamod:balloonpufferfish"
+			],
+			"custom_commands": []
+		},
+		"BP/items/lavacharm.json": {
+			"identifiers": [
+				"terrariamod:lavacharm"
+			],
+			"custom_commands": []
+		},
+		"BP/items/bandofregeneration.json": {
+			"identifiers": [
+				"terrariamod:bandofregeneration"
+			],
+			"custom_commands": []
+		},
+		"BP/items/umbrella.json": {
+			"identifiers": [
+				"terrariamod:umbrella"
+			],
+			"custom_commands": []
+		},
+		"BP/items/hellstonesword.json": {
+			"identifiers": [
+				"terrariamod:hellstonesword"
+			],
+			"custom_commands": []
+		},
+		"BP/items/mushroom.json": {
+			"identifiers": [
+				"terrariamod:mushroom"
 			],
 			"custom_commands": []
 		}

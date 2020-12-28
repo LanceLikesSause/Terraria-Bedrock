@@ -24,6 +24,15 @@
 	"terrariamod:tree_bottom": {
 		"sound": "wood"
 	},
+	"terrariamod:tree_top_jungle": {
+		"sound": "grass"
+	},
+	"terrariamod:tree_log_jungle": {
+		"sound": "wood"
+	},
+	"terrariamod:tree_bottom_jungle": {
+		"sound": "wood"
+	},
 	"terrariamod:tree_top_crimson": {
 		"sound": "grass"
 	},

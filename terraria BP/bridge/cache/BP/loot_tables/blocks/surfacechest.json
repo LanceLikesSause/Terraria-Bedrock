@@ -1,0 +1,1468 @@
+{
+	"file_path": "C:\\Users\\LANCE.LEGAUX\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\loot_tables\\blocks\\surfacechest.json",
+	"file_type": "loot_table",
+	"format_version": 1,
+	"file_uuid": "edd529a0_2ae4_4b93_9fa6_8514efd866a0",
+	"file_version": 20,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"pools": [
+						{
+							"rolls": 1,
+							"entries": [
+								{
+									"type": "item",
+									"weight": 1,
+									"name": "terrariamod:copperbar",
+									"functions": [
+										{
+											"function": "set_count",
+											"count": {
+												"min": 3,
+												"max": 10
+											}
+										}
+									]
+								},
+								{
+									"type": "item",
+									"weight": 1,
+									"name": "terrariamod:tinbar",
+									"functions": [
+										{
+											"function": "set_count",
+											"count": {
+												"min": 3,
+												"max": 10
+											}
+										}
+									]
+								},
+								{
+									"type": "item",
+									"weight": 1,
+									"name": "terrariamod:ironbar",
+									"functions": [
+										{
+											"function": "set_count",
+											"count": {
+												"min": 3,
+												"max": 10
+											}
+										}
+									]
+								},
+								{
+									"type": "item",
+									"weight": 1,
+									"name": "terrariamod:leadbar",
+									"functions": [
+										{
+											"function": "set_count",
+											"count": {
+												"min": 3,
+												"max": 10
+											}
+										}
+									]
+								},
+								{
+									"type": "item",
+									"weight": 1,
+									"name": "terrariamod:woodenarrow",
+									"functions": [
+										{
+											"function": "set_count",
+											"count": {
+												"min": 25,
+												"max": 50
+											}
+										}
+									]
+								},
+								{
+									"type": "item",
+									"weight": 1,
+									"name": "terrariamod:lesserhealingpotion",
+									"functions": [
+										{
+											"function": "set_count",
+											"count": {
+												"min": 3,
+												"max": 5
+											}
+										}
+									]
+								},
+								{
+									"type": "item",
+									"weight": 1,
+									"name": "terrariamod:silvercoin",
+									"functions": [
+										{
+											"function": "set_count",
+											"count": {
+												"min": 10,
+												"max": 29
+											}
+										}
+									]
+								},
+								{
+									"type": "item",
+									"weight": 1,
+									"name": "terrariamod:grenade",
+									"functions": [
+										{
+											"function": "set_count",
+											"count": {
+												"min": 3,
+												"max": 5
+											}
+										}
+									]
+								},
+								{
+									"type": "item",
+									"weight": 1,
+									"name": "terrariamod:purity_torch",
+									"functions": [
+										{
+											"function": "set_count",
+											"count": {
+												"min": 10,
+												"max": 20
+											}
+										}
+									]
+								},
+								{
+									"type": "item",
+									"weight": 1,
+									"name": "terrariamod:aglet",
+									"functions": [
+										{
+											"conditions": [
+												{
+													"condition": "random_chance",
+													"chance": 0.3
+												}
+											]
+										},
+										{
+											"function": "set_count",
+											"count": {
+												"min": 1,
+												"max": 1
+											}
+										}
+									]
+								},
+								{
+									"type": "item",
+									"weight": 1,
+									"name": "terrariamod:woodenboomerang",
+									"functions": [
+										{
+											"conditions": [
+												{
+													"condition": "random_chance",
+													"chance": 0.3
+												}
+											]
+										},
+										{
+											"function": "set_count",
+											"count": {
+												"min": 1,
+												"max": 1
+											}
+										}
+									]
+								},
+								{
+									"type": "item",
+									"weight": 1,
+									"name": "terrariamod:throwingknife",
+									"functions": [
+										{
+											"conditions": [
+												{
+													"condition": "random_chance",
+													"chance": 0.3
+												}
+											]
+										},
+										{
+											"function": "set_count",
+											"count": {
+												"min": 150,
+												"max": 299
+											}
+										}
+									]
+								},
+								{
+									"type": "item",
+									"weight": 1,
+									"name": "terrariamod:umbrella",
+									"functions": [
+										{
+											"function": "set_count",
+											"count": {
+												"min": 1,
+												"max": 1
+											}
+										},
+										{
+											"conditions": [
+												{
+													"condition": "random_chance",
+													"chance": 0.3
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "item",
+									"weight": 1,
+									"name": "terrariamod:shuriken",
+									"functions": [
+										{
+											"function": "set_count",
+											"count": {
+												"min": 25,
+												"max": 50
+											}
+										},
+										{
+											"conditions": [
+												{
+													"condition": "random_chance",
+													"chance": 0.3
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				"key": "pools",
+				"children": [
+					{
+						"open": [
+							{
+								"rolls": 1,
+								"entries": [
+									{
+										"type": "item",
+										"weight": 1,
+										"name": "terrariamod:copperbar",
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 3,
+													"max": 10
+												}
+											}
+										]
+									},
+									{
+										"type": "item",
+										"weight": 1,
+										"name": "terrariamod:tinbar",
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 3,
+													"max": 10
+												}
+											}
+										]
+									},
+									{
+										"type": "item",
+										"weight": 1,
+										"name": "terrariamod:ironbar",
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 3,
+													"max": 10
+												}
+											}
+										]
+									},
+									{
+										"type": "item",
+										"weight": 1,
+										"name": "terrariamod:leadbar",
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 3,
+													"max": 10
+												}
+											}
+										]
+									},
+									{
+										"type": "item",
+										"weight": 1,
+										"name": "terrariamod:woodenarrow",
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 25,
+													"max": 50
+												}
+											}
+										]
+									},
+									{
+										"type": "item",
+										"weight": 1,
+										"name": "terrariamod:lesserhealingpotion",
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 3,
+													"max": 5
+												}
+											}
+										]
+									},
+									{
+										"type": "item",
+										"weight": 1,
+										"name": "terrariamod:silvercoin",
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 10,
+													"max": 29
+												}
+											}
+										]
+									},
+									{
+										"type": "item",
+										"weight": 1,
+										"name": "terrariamod:grenade",
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 3,
+													"max": 5
+												}
+											}
+										]
+									},
+									{
+										"type": "item",
+										"weight": 1,
+										"name": "terrariamod:purity_torch",
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 10,
+													"max": 20
+												}
+											}
+										]
+									},
+									{
+										"type": "item",
+										"weight": 1,
+										"name": "terrariamod:aglet",
+										"functions": [
+											{
+												"conditions": [
+													{
+														"condition": "random_chance",
+														"chance": 0.3
+													}
+												]
+											},
+											{
+												"function": "set_count",
+												"count": {
+													"min": 1,
+													"max": 1
+												}
+											}
+										]
+									},
+									{
+										"type": "item",
+										"weight": 1,
+										"name": "terrariamod:woodenboomerang",
+										"functions": [
+											{
+												"conditions": [
+													{
+														"condition": "random_chance",
+														"chance": 0.3
+													}
+												]
+											},
+											{
+												"function": "set_count",
+												"count": {
+													"min": 1,
+													"max": 1
+												}
+											}
+										]
+									},
+									{
+										"type": "item",
+										"weight": 1,
+										"name": "terrariamod:throwingknife",
+										"functions": [
+											{
+												"conditions": [
+													{
+														"condition": "random_chance",
+														"chance": 0.3
+													}
+												]
+											},
+											{
+												"function": "set_count",
+												"count": {
+													"min": 150,
+													"max": 299
+												}
+											}
+										]
+									},
+									{
+										"type": "item",
+										"weight": 1,
+										"name": "terrariamod:umbrella",
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 1,
+													"max": 1
+												}
+											},
+											{
+												"conditions": [
+													{
+														"condition": "random_chance",
+														"chance": 0.3
+													}
+												]
+											}
+										]
+									},
+									{
+										"type": "item",
+										"weight": 1,
+										"name": "terrariamod:shuriken",
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 25,
+													"max": 50
+												}
+											},
+											{
+												"conditions": [
+													{
+														"condition": "random_chance",
+														"chance": 0.3
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						],
+						"children": [
+							{
+								"data": "1",
+								"key": "rolls"
+							},
+							{
+								"open": {
+									"rolls": 1,
+									"entries": [
+										{
+											"type": "item",
+											"weight": 1,
+											"name": "terrariamod:copperbar",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 3,
+														"max": 10
+													}
+												}
+											]
+										},
+										{
+											"type": "item",
+											"weight": 1,
+											"name": "terrariamod:tinbar",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 3,
+														"max": 10
+													}
+												}
+											]
+										},
+										{
+											"type": "item",
+											"weight": 1,
+											"name": "terrariamod:ironbar",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 3,
+														"max": 10
+													}
+												}
+											]
+										},
+										{
+											"type": "item",
+											"weight": 1,
+											"name": "terrariamod:leadbar",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 3,
+														"max": 10
+													}
+												}
+											]
+										},
+										{
+											"type": "item",
+											"weight": 1,
+											"name": "terrariamod:woodenarrow",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 25,
+														"max": 50
+													}
+												}
+											]
+										},
+										{
+											"type": "item",
+											"weight": 1,
+											"name": "terrariamod:lesserhealingpotion",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 3,
+														"max": 5
+													}
+												}
+											]
+										},
+										{
+											"type": "item",
+											"weight": 1,
+											"name": "terrariamod:silvercoin",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 10,
+														"max": 29
+													}
+												}
+											]
+										},
+										{
+											"type": "item",
+											"weight": 1,
+											"name": "terrariamod:grenade",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 3,
+														"max": 5
+													}
+												}
+											]
+										},
+										{
+											"type": "item",
+											"weight": 1,
+											"name": "terrariamod:purity_torch",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 10,
+														"max": 20
+													}
+												}
+											]
+										},
+										{
+											"type": "item",
+											"weight": 1,
+											"name": "terrariamod:aglet",
+											"functions": [
+												{
+													"conditions": [
+														{
+															"condition": "random_chance",
+															"chance": 0.3
+														}
+													]
+												},
+												{
+													"function": "set_count",
+													"count": {
+														"min": 1,
+														"max": 1
+													}
+												}
+											]
+										},
+										{
+											"type": "item",
+											"weight": 1,
+											"name": "terrariamod:woodenboomerang",
+											"functions": [
+												{
+													"conditions": [
+														{
+															"condition": "random_chance",
+															"chance": 0.3
+														}
+													]
+												},
+												{
+													"function": "set_count",
+													"count": {
+														"min": 1,
+														"max": 1
+													}
+												}
+											]
+										},
+										{
+											"type": "item",
+											"weight": 1,
+											"name": "terrariamod:throwingknife",
+											"functions": [
+												{
+													"conditions": [
+														{
+															"condition": "random_chance",
+															"chance": 0.3
+														}
+													]
+												},
+												{
+													"function": "set_count",
+													"count": {
+														"min": 150,
+														"max": 299
+													}
+												}
+											]
+										},
+										{
+											"type": "item",
+											"weight": 1,
+											"name": "terrariamod:umbrella",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 1,
+														"max": 1
+													}
+												},
+												{
+													"conditions": [
+														{
+															"condition": "random_chance",
+															"chance": 0.3
+														}
+													]
+												}
+											]
+										},
+										{
+											"type": "item",
+											"weight": 1,
+											"name": "terrariamod:shuriken",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 25,
+														"max": 50
+													}
+												},
+												{
+													"conditions": [
+														{
+															"condition": "random_chance",
+															"chance": 0.3
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								"key": "entries",
+								"children": [
+									{
+										"is_minified": true,
+										"children": {
+											"type": "item",
+											"weight": 1,
+											"name": "terrariamod:copperbar",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 3,
+														"max": 10
+													}
+												}
+											]
+										}
+									},
+									{
+										"is_minified": true,
+										"children": {
+											"type": "item",
+											"weight": 1,
+											"name": "terrariamod:tinbar",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 3,
+														"max": 10
+													}
+												}
+											]
+										}
+									},
+									{
+										"is_minified": true,
+										"children": {
+											"type": "item",
+											"weight": 1,
+											"name": "terrariamod:ironbar",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 3,
+														"max": 10
+													}
+												}
+											]
+										}
+									},
+									{
+										"is_minified": true,
+										"children": {
+											"type": "item",
+											"weight": 1,
+											"name": "terrariamod:leadbar",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 3,
+														"max": 10
+													}
+												}
+											]
+										}
+									},
+									{
+										"is_minified": true,
+										"children": {
+											"type": "item",
+											"weight": 1,
+											"name": "terrariamod:woodenarrow",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 25,
+														"max": 50
+													}
+												}
+											]
+										}
+									},
+									{
+										"is_minified": true,
+										"children": {
+											"type": "item",
+											"weight": 1,
+											"name": "terrariamod:lesserhealingpotion",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 3,
+														"max": 5
+													}
+												}
+											]
+										}
+									},
+									{
+										"is_minified": true,
+										"children": {
+											"type": "item",
+											"weight": 1,
+											"name": "terrariamod:silvercoin",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 10,
+														"max": 29
+													}
+												}
+											]
+										}
+									},
+									{
+										"is_minified": true,
+										"children": {
+											"type": "item",
+											"weight": 1,
+											"name": "terrariamod:grenade",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 3,
+														"max": 5
+													}
+												}
+											]
+										}
+									},
+									{
+										"children": [
+											{
+												"data": "item",
+												"key": "type"
+											},
+											{
+												"data": "1",
+												"key": "weight"
+											},
+											{
+												"open": {
+													"type": "item",
+													"weight": 1,
+													"name": "terrariamod:purity_torch",
+													"functions": [
+														{
+															"function": "set_count",
+															"count": {
+																"min": 10,
+																"max": 20
+															}
+														}
+													]
+												},
+												"data": "terrariamod:purity_torch",
+												"key": "name"
+											},
+											{
+												"open": {
+													"type": "item",
+													"weight": 1,
+													"name": "terrariamod:purity_torch",
+													"functions": [
+														{
+															"function": "set_count",
+															"count": {
+																"min": 10,
+																"max": 20
+															}
+														}
+													]
+												},
+												"key": "functions",
+												"is_minified": true,
+												"children": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 10,
+															"max": 20
+														}
+													}
+												]
+											}
+										]
+									},
+									{
+										"is_minified": true,
+										"children": {
+											"type": "item",
+											"weight": 1,
+											"name": "terrariamod:aglet",
+											"functions": [
+												{
+													"conditions": [
+														{
+															"condition": "random_chance",
+															"chance": 0.3
+														}
+													]
+												},
+												{
+													"function": "set_count",
+													"count": {
+														"min": 1,
+														"max": 1
+													}
+												}
+											]
+										}
+									},
+									{
+										"is_minified": true,
+										"children": {
+											"type": "item",
+											"weight": 1,
+											"name": "terrariamod:woodenboomerang",
+											"functions": [
+												{
+													"conditions": [
+														{
+															"condition": "random_chance",
+															"chance": 0.3
+														}
+													]
+												},
+												{
+													"function": "set_count",
+													"count": {
+														"min": 1,
+														"max": 1
+													}
+												}
+											]
+										}
+									},
+									{
+										"children": [
+											{
+												"data": "item",
+												"key": "type"
+											},
+											{
+												"data": "1",
+												"key": "weight"
+											},
+											{
+												"data": "terrariamod:throwingknife",
+												"key": "name"
+											},
+											{
+												"key": "functions",
+												"children": [
+													{
+														"children": [
+															{
+																"open": {
+																	"conditions": [
+																		{
+																			"condition": "random_chance",
+																			"chance": 0.3
+																		}
+																	]
+																},
+																"key": "conditions",
+																"children": [
+																	{
+																		"open": [
+																			{
+																				"condition": "random_chance",
+																				"chance": 0.3
+																			}
+																		],
+																		"is_minified": true,
+																		"children": {
+																			"condition": "random_chance",
+																			"chance": 0.3
+																		}
+																	}
+																]
+															}
+														]
+													},
+													{
+														"open": [
+															{
+																"conditions": [
+																	{
+																		"condition": "random_chance",
+																		"chance": 0.3
+																	}
+																]
+															},
+															{
+																"function": "set_count",
+																"count": {
+																	"min": 150,
+																	"max": 299
+																}
+															}
+														],
+														"children": [
+															{
+																"data": "set_count",
+																"key": "function"
+															},
+															{
+																"open": {
+																	"function": "set_count",
+																	"count": {
+																		"min": 150,
+																		"max": 299
+																	}
+																},
+																"key": "count",
+																"is_minified": true,
+																"children": {
+																	"min": 150,
+																	"max": 299
+																}
+															}
+														]
+													}
+												]
+											}
+										]
+									},
+									{
+										"is_minified": true,
+										"children": {
+											"type": "item",
+											"weight": 1,
+											"name": "terrariamod:umbrella",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 1,
+														"max": 1
+													}
+												},
+												{
+													"conditions": [
+														{
+															"condition": "random_chance",
+															"chance": 0.3
+														}
+													]
+												}
+											]
+										}
+									},
+									{
+										"open": [
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:copperbar",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 3,
+															"max": 10
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:tinbar",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 3,
+															"max": 10
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:ironbar",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 3,
+															"max": 10
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:leadbar",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 3,
+															"max": 10
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:woodenarrow",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 25,
+															"max": 50
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:lesserhealingpotion",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 3,
+															"max": 5
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:silvercoin",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 10,
+															"max": 29
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:grenade",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 3,
+															"max": 5
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:purity_torch",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 10,
+															"max": 20
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:aglet",
+												"functions": [
+													{
+														"conditions": [
+															{
+																"condition": "random_chance",
+																"chance": 0.3
+															}
+														]
+													},
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 1
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:woodenboomerang",
+												"functions": [
+													{
+														"conditions": [
+															{
+																"condition": "random_chance",
+																"chance": 0.3
+															}
+														]
+													},
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 1
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:throwingknife",
+												"functions": [
+													{
+														"conditions": [
+															{
+																"condition": "random_chance",
+																"chance": 0.3
+															}
+														]
+													},
+													{
+														"function": "set_count",
+														"count": {
+															"min": 150,
+															"max": 299
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:umbrella",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 1
+														}
+													},
+													{
+														"conditions": [
+															{
+																"condition": "random_chance",
+																"chance": 0.3
+															}
+														]
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:shuriken",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 25,
+															"max": 50
+														}
+													},
+													{
+														"conditions": [
+															{
+																"condition": "random_chance",
+																"chance": 0.3
+															}
+														]
+													}
+												]
+											}
+										],
+										"children": [
+											{
+												"data": "item",
+												"key": "type"
+											},
+											{
+												"data": "1",
+												"key": "weight"
+											},
+											{
+												"data": "terrariamod:shuriken",
+												"key": "name"
+											},
+											{
+												"open": {
+													"type": "item",
+													"weight": 1,
+													"name": "terrariamod:shuriken",
+													"functions": [
+														{
+															"function": "set_count",
+															"count": {
+																"min": 25,
+																"max": 50
+															}
+														},
+														{
+															"conditions": [
+																{
+																	"condition": "random_chance",
+																	"chance": 0.3
+																}
+															]
+														}
+													]
+												},
+												"key": "functions",
+												"children": [
+													{
+														"open": [
+															{
+																"function": "set_count",
+																"count": {
+																	"min": 25,
+																	"max": 50
+																}
+															},
+															{
+																"conditions": [
+																	{
+																		"condition": "random_chance",
+																		"chance": 0.3
+																	}
+																]
+															}
+														],
+														"children": [
+															{
+																"data": "set_count",
+																"key": "function"
+															},
+															{
+																"open": {
+																	"function": "set_count",
+																	"count": {
+																		"min": 25,
+																		"max": 50
+																	}
+																},
+																"key": "count",
+																"is_minified": true,
+																"children": {
+																	"min": 25,
+																	"max": 50
+																}
+															}
+														]
+													},
+													{
+														"children": [
+															{
+																"open": {
+																	"conditions": [
+																		{
+																			"condition": "random_chance",
+																			"chance": 0.3
+																		}
+																	]
+																},
+																"key": "conditions",
+																"children": [
+																	{
+																		"open": [
+																			{
+																				"condition": "random_chance",
+																				"chance": 0.3
+																			}
+																		],
+																		"is_minified": true,
+																		"children": {
+																			"condition": "random_chance",
+																			"chance": 0.3
+																		}
+																	}
+																]
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

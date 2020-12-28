@@ -1,0 +1,535 @@
+//bridge-file-version: #108
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.health": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"zero_half_heart": "query.health<=10"
+						},
+						{
+							"one_heart": "query.health<=20"
+						},
+						{
+							"one_half_heart": "query.health<=30"
+						},
+						{
+							"two_heart": "query.health<=40"
+						},
+						{
+							"two_half_heart": "query.health<=50"
+						},
+						{
+							"three_heart": "query.health<=60"
+						},
+						{
+							"three_half_heart": "query.health<=70"
+						},
+						{
+							"four_heart": "query.health<=80"
+						},
+						{
+							"four_half_heart": "query.health<=90"
+						},
+						{
+							"five_heart": "query.health<=100"
+						},
+						{
+							"five_half_heart": "query.health<=110"
+						},
+						{
+							"six_heart": "query.health<=120"
+						},
+						{
+							"six_half_heart": "query.health<=130"
+						},
+						{
+							"seven_heart": "query.health<=140"
+						},
+						{
+							"seven_half_heart": "query.health<=150"
+						},
+						{
+							"eight_heart": "query.health<=160"
+						},
+						{
+							"eight_half_heart": "query.health<=170"
+						},
+						{
+							"nine_heart": "query.health<=180"
+						},
+						{
+							"nine_half_heart": "query.health<=190"
+						},
+						{
+							"ten_heart": "query.health<=200"
+						},
+						{
+							"ten_half_heart": "query.health<=210"
+						},
+						{
+							"eleven_heart": "query.health<=220"
+						},
+						{
+							"eleven_half_heart": "query.health<=230"
+						},
+						{
+							"twelve_heart": "query.health<=240"
+						},
+						{
+							"twelve_half_heart": "query.health<=250"
+						},
+						{
+							"thirteen_heart": "query.health<=260"
+						},
+						{
+							"thirteen_half_heart": "query.health<=270"
+						},
+						{
+							"fourteen_heart": "query.health<=280"
+						},
+						{
+							"fourteen_half_heart": "query.health<=290"
+						},
+						{
+							"fifteen_heart": "query.health<=300"
+						},
+						{
+							"fifteen_half_heart": "query.health<=310"
+						},
+						{
+							"sixteen_heart": "query.health<=320"
+						},
+						{
+							"sixteen_half_heart": "query.health<=330"
+						},
+						{
+							"seventeen_heart": "query.health<=340"
+						},
+						{
+							"seventeen_half_heart": "query.health<=350"
+						},
+						{
+							"eighteen_heart": "query.health<=360"
+						},
+						{
+							"eighteen_half_heart": "query.health<=370"
+						},
+						{
+							"nineteen_heart": "query.health<=380"
+						},
+						{
+							"nineteen_half_heart": "query.health<=390"
+						},
+						{
+							"twenty_heart": "query.health<=400"
+						}
+					]
+				},
+				"one_heart": {
+					"on_entry": [
+						"/titleraw @s actionbar {\"rawtext\":[{\"text\":\"\\ue103\"}]}"
+					],
+					"transitions": [
+						{
+							"default": "query.all_animations_finished"
+						}
+					]
+				},
+				"two_heart": {
+					"on_entry": [
+						"/titleraw @s actionbar {\"rawtext\":[{\"text\":\"\\ue103\\ue103\"}]}"
+					],
+					"transitions": [
+						{
+							"default": "query.all_animations_finished"
+						}
+					]
+				},
+				"three_heart": {
+					"on_entry": [
+						"/titleraw @s actionbar {\"rawtext\":[{\"text\":\"\\ue103\\ue103\\ue103\"}]}"
+					],
+					"transitions": [
+						{
+							"default": "query.all_animations_finished"
+						}
+					]
+				},
+				"four_heart": {
+					"on_entry": [
+						"/titleraw @s actionbar {\"rawtext\":[{\"text\":\"\\ue103\\ue103\\ue103\\ue103\"}]}"
+					],
+					"transitions": [
+						{
+							"default": "query.all_animations_finished"
+						}
+					]
+				},
+				"five_heart": {
+					"on_entry": [
+						"/titleraw @s actionbar {\"rawtext\":[{\"text\":\"\\ue103\\ue103\\ue103\\ue103\\ue103\"}]}"
+					],
+					"transitions": [
+						{
+							"default": "query.all_animations_finished"
+						}
+					]
+				},
+				"one_half_heart": {
+					"on_entry": [
+						"/titleraw @s actionbar {\"rawtext\":[{\"text\":\"\\ue103\\ue104\"}]}"
+					],
+					"transitions": [
+						{
+							"default": "query.all_animations_finished"
+						}
+					]
+				},
+				"two_half_heart": {
+					"on_entry": [
+						"/titleraw @s actionbar {\"rawtext\":[{\"text\":\"\\ue103\\ue103\\ue104\"}]}"
+					],
+					"transitions": [
+						{
+							"default": "query.all_animations_finished"
+						}
+					]
+				},
+				"three_half_heart": {
+					"on_entry": [
+						"/titleraw @s actionbar {\"rawtext\":[{\"text\":\"\\ue103\\ue103\\ue103\\ue104\"}]}"
+					],
+					"transitions": [
+						{
+							"default": "query.all_animations_finished"
+						}
+					]
+				},
+				"four_half_heart": {
+					"on_entry": [
+						"/titleraw @s actionbar {\"rawtext\":[{\"text\":\"\\ue103\\ue103\\ue103\\ue103\\ue104\"}]}"
+					],
+					"transitions": [
+						{
+							"default": "query.all_animations_finished"
+						}
+					]
+				},
+				"zero_half_heart": {
+					"on_entry": [
+						"/titleraw @s actionbar {\"rawtext\":[{\"text\":\"\\ue104\"}]}"
+					],
+					"transitions": [
+						{
+							"default": "query.all_animations_finished"
+						}
+					]
+				},
+				"five_half_heart": {
+					"on_entry": [
+						"/titleraw @s actionbar {\"rawtext\":[{\"text\":\"\\ue103\\ue103\\ue103\\ue103\\ue103\\ue104\"}]}"
+					],
+					"transitions": [
+						{
+							"default": "query.all_animations_finished"
+						}
+					]
+				},
+				"six_heart": {
+					"on_entry": [
+						"/titleraw @s actionbar {\"rawtext\":[{\"text\":\"\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\"}]}"
+					],
+					"transitions": [
+						{
+							"default": "query.all_animations_finished"
+						}
+					]
+				},
+				"six_half_heart": {
+					"on_entry": [
+						"/titleraw @s actionbar {\"rawtext\":[{\"text\":\"\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue104\"}]}"
+					],
+					"transitions": [
+						{
+							"default": "query.all_animations_finished"
+						}
+					]
+				},
+				"seven_heart": {
+					"on_entry": [
+						"/titleraw @s actionbar {\"rawtext\":[{\"text\":\"\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\"}]}"
+					],
+					"transitions": [
+						{
+							"default": "query.all_animations_finished"
+						}
+					]
+				},
+				"seven_half_heart": {
+					"on_entry": [
+						"/titleraw @s actionbar {\"rawtext\":[{\"text\":\"\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue104\"}]}"
+					],
+					"transitions": [
+						{
+							"default": "query.all_animations_finished"
+						}
+					]
+				},
+				"eight_heart": {
+					"on_entry": [
+						"/titleraw @s actionbar {\"rawtext\":[{\"text\":\"\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\"}]}"
+					],
+					"transitions": [
+						{
+							"default": "query.all_animations_finished"
+						}
+					]
+				},
+				"eight_half_heart": {
+					"on_entry": [
+						"/titleraw @s actionbar {\"rawtext\":[{\"text\":\"\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue104\"}]}"
+					],
+					"transitions": [
+						{
+							"default": "query.all_animations_finished"
+						}
+					]
+				},
+				"nine_heart": {
+					"on_entry": [
+						"/titleraw @s actionbar {\"rawtext\":[{\"text\":\"\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\"}]}"
+					],
+					"transitions": [
+						{
+							"default": "query.all_animations_finished"
+						}
+					]
+				},
+				"nine_half_heart": {
+					"on_entry": [
+						"/titleraw @s actionbar {\"rawtext\":[{\"text\":\"\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue104\"}]}"
+					],
+					"transitions": [
+						{
+							"default": "query.all_animations_finished"
+						}
+					]
+				},
+				"ten_heart": {
+					"on_entry": [
+						"/titleraw @s actionbar {\"rawtext\":[{\"text\":\"\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\"}]}"
+					],
+					"transitions": [
+						{
+							"default": "query.all_animations_finished"
+						}
+					]
+				},
+				"ten_half_heart": {
+					"on_entry": [
+						"/titleraw @s actionbar {\"rawtext\":[{\"text\":\"\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue104\"}]}"
+					],
+					"transitions": [
+						{
+							"default": "query.all_animations_finished"
+						}
+					]
+				},
+				"eleven_heart": {
+					"on_entry": [
+						"/titleraw @s actionbar {\"rawtext\":[{\"text\":\"\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\"}]}"
+					],
+					"transitions": [
+						{
+							"default": "query.all_animations_finished"
+						}
+					]
+				},
+				"eleven_half_heart": {
+					"on_entry": [
+						"/titleraw @s actionbar {\"rawtext\":[{\"text\":\"\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue104\"}]}"
+					],
+					"transitions": [
+						{
+							"default": "query.all_animations_finished"
+						}
+					]
+				},
+				"twelve_heart": {
+					"on_entry": [
+						"/titleraw @s actionbar {\"rawtext\":[{\"text\":\"\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\"}]}"
+					],
+					"transitions": [
+						{
+							"default": "query.all_animations_finished"
+						}
+					]
+				},
+				"twelve_half_heart": {
+					"on_entry": [
+						"/titleraw @s actionbar {\"rawtext\":[{\"text\":\"\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue104\"}]}"
+					],
+					"transitions": [
+						{
+							"default": "query.all_animations_finished"
+						}
+					]
+				},
+				"thirteen_heart": {
+					"on_entry": [
+						"/titleraw @s actionbar {\"rawtext\":[{\"text\":\"\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\"}]}"
+					],
+					"transitions": [
+						{
+							"default": "query.all_animations_finished"
+						}
+					]
+				},
+				"thirteen_half_heart": {
+					"on_entry": [
+						"/titleraw @s actionbar {\"rawtext\":[{\"text\":\"\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue104\"}]}"
+					],
+					"transitions": [
+						{
+							"default": "query.all_animations_finished"
+						}
+					]
+				},
+				"fourteen_heart": {
+					"on_entry": [
+						"/titleraw @s actionbar {\"rawtext\":[{\"text\":\"\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\"}]}"
+					],
+					"transitions": [
+						{
+							"default": "query.all_animations_finished"
+						}
+					]
+				},
+				"fourteen_half_heart": {
+					"on_entry": [
+						"/titleraw @s actionbar {\"rawtext\":[{\"text\":\"\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue104\"}]}"
+					],
+					"transitions": [
+						{
+							"default": "query.all_animations_finished"
+						}
+					]
+				},
+				"fifteen_heart": {
+					"on_entry": [
+						"/titleraw @s actionbar {\"rawtext\":[{\"text\":\"\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\"}]}"
+					],
+					"transitions": [
+						{
+							"default": "query.all_animations_finished"
+						}
+					]
+				},
+				"fifteen_half_heart": {
+					"on_entry": [
+						"/titleraw @s actionbar {\"rawtext\":[{\"text\":\"\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue104\"}]}"
+					],
+					"transitions": [
+						{
+							"default": "query.all_animations_finished"
+						}
+					]
+				},
+				"sixteen_heart": {
+					"on_entry": [
+						"/titleraw @s actionbar {\"rawtext\":[{\"text\":\"\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\"}]}"
+					],
+					"transitions": [
+						{
+							"default": "query.all_animations_finished"
+						}
+					]
+				},
+				"sixteen_half_heart": {
+					"on_entry": [
+						"/titleraw @s actionbar {\"rawtext\":[{\"text\":\"\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue104\"}]}"
+					],
+					"transitions": [
+						{
+							"default": "query.all_animations_finished"
+						}
+					]
+				},
+				"seventeen_heart": {
+					"on_entry": [
+						"/titleraw @s actionbar {\"rawtext\":[{\"text\":\"\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\"}]}"
+					],
+					"transitions": [
+						{
+							"default": "query.all_animations_finished"
+						}
+					]
+				},
+				"seventeen_half_heart": {
+					"on_entry": [
+						"/titleraw @s actionbar {\"rawtext\":[{\"text\":\"\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue104\"}]}"
+					],
+					"transitions": [
+						{
+							"default": "query.all_animations_finished"
+						}
+					]
+				},
+				"eighteen_heart": {
+					"on_entry": [
+						"/titleraw @s actionbar {\"rawtext\":[{\"text\":\"\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\"}]}"
+					],
+					"transitions": [
+						{
+							"default": "query.all_animations_finished"
+						}
+					]
+				},
+				"eighteen_half_heart": {
+					"on_entry": [
+						"/titleraw @s actionbar {\"rawtext\":[{\"text\":\"\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue104\"}]}"
+					],
+					"transitions": [
+						{
+							"default": "query.all_animations_finished"
+						}
+					]
+				},
+				"nineteen_heart": {
+					"on_entry": [
+						"/titleraw @s actionbar {\"rawtext\":[{\"text\":\"\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\"}]}"
+					],
+					"transitions": [
+						{
+							"default": "query.all_animations_finished"
+						}
+					]
+				},
+				"nineteen_half_heart": {
+					"on_entry": [
+						"/titleraw @s actionbar {\"rawtext\":[{\"text\":\"\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue104\"}]}"
+					],
+					"transitions": [
+						{
+							"default": "query.all_animations_finished"
+						}
+					]
+				},
+				"twenty_heart": {
+					"on_entry": [
+						"/titleraw @s actionbar {\"rawtext\":[{\"text\":\"\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\"}]}"
+					],
+					"transitions": [
+						{
+							"default": "query.all_animations_finished"
+						}
+					]
+				}
+			}
+		}
+	}
+}

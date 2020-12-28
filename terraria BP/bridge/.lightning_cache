@@ -47,6 +47,18 @@
 				"controller.animation.starting_items"
 			],
 			"custom_commands": []
+		},
+		"BP/animation_controllers/mana.json": {
+			"ids": [
+				"controller.animation.mana"
+			],
+			"custom_commands": []
+		},
+		"BP/animation_controllers/health.json": {
+			"ids": [
+				"controller.animation.health"
+			],
+			"custom_commands": []
 		}
 	},
 	"biome": {
@@ -270,12 +282,14 @@
 		},
 		"BP/biomes/mega_taiga.biome.json": {
 			"tags": [
-				"purity"
+				"purity",
+				"purity_forest"
 			]
 		},
 		"BP/biomes/mega_taiga_hills.biome.json": {
 			"tags": [
-				"purity"
+				"purity",
+				"purity_forest"
 			]
 		},
 		"BP/biomes/mesa.biome.json": {
@@ -350,7 +364,8 @@
 		},
 		"BP/biomes/savanna.biome.json": {
 			"tags": [
-				"purity"
+				"purity",
+				"purity_forest"
 			]
 		},
 		"BP/biomes/savanna_mutated.biome.json": {
@@ -543,6 +558,24 @@
 			"recipe_tags": [],
 			"custom_components": [],
 			"custom_commands": []
+		},
+		"BP/blocks/purity_torch.json": {
+			"identifiers": [
+				"terrariamod:purity_torch"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/mushroom.json": {
+			"identifiers": [
+				"terrariamod:mushroom"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
 		}
 	},
 	"entity": {
@@ -763,7 +796,8 @@
 			"animation_references": [
 				"mana",
 				"starting_items",
-				"bridge_execute_commands"
+				"bridge_execute_commands",
+				"health"
 			],
 			"families": [
 				"player"
@@ -774,7 +808,8 @@
 		"BP/entities/eyeofcthulhu_stageone.json": {
 			"events": [
 				"minecraft:entity_spawned",
-				"bridge:remove_command_id_1"
+				"bridge:remove_command_id_1",
+				"terrariamod:despawn_entity"
 			],
 			"bridge_core_tags": [],
 			"identifiers": [
@@ -788,6 +823,76 @@
 				"phantom",
 				"undead",
 				"monster",
+				"mob"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/eyeofcthulhu_stagetwo.json": {
+			"events": [
+				"terrariamod:despawn_entity"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:eyeofcthulhu_stagetwo"
+			],
+			"animation_references": [],
+			"families": [
+				"phantom",
+				"undead",
+				"monster",
+				"mob"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/brainofcthulhu_stageone.json": {
+			"events": [
+				"terrariamod:despawn_entity"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:brainofcthulhu_stageone"
+			],
+			"animation_references": [
+				"to_stage_2"
+			],
+			"families": [
+				"phantom",
+				"undead",
+				"monster",
+				"mob"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/brainofcthulhu_stagetwo.json": {
+			"events": [
+				"terrariamod:despawn_entity"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:brainofcthulhu_stagetwo"
+			],
+			"animation_references": [],
+			"families": [
+				"phantom",
+				"undead",
+				"monster",
+				"mob"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/demolitionist.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:demolitionist"
+			],
+			"animation_references": [],
+			"families": [
+				"villager",
 				"mob"
 			],
 			"custom_commands": [],
@@ -921,7 +1026,31 @@
 		"f420f7b8_fe2f_4242_88ad_a9526e54a7d3": {},
 		"BP/functions/corrupted_grass.mcfunction": {
 			"custom_commands": []
-		}
+		},
+		"BP/functions/health.mcfunction": {
+			"custom_commands": [],
+			"tags": [
+				"notbegintwo"
+			]
+		},
+		"76832516_a81d_4869_9fdf_478c3245aad9": {},
+		"c1dcd4c1_5dd6_4b65_8539_8239611e7b3c": {},
+		"9bc4d2e2_0aa1_4df8_a53f_4417261e1799": {},
+		"BP/functions/life_crystal_add.mcfunction": {
+			"custom_commands": [],
+			"scoreboards": [
+				"lcrystals",
+				"flc"
+			]
+		},
+		"327c78ab_233b_4075_90c1_3d77b6b35c23": {},
+		"fa9e29e7_6de5_473f_8e2a_2355a53d0a2c": {},
+		"a310fdf1_58a9_4719_a27c_a60fef1154bc": {},
+		"72fd1d3b_3454_47dc_a412_a0e1f21aad7d": {},
+		"2c3b8d09_aa64_470b_ad53_13df67104bbf": {},
+		"a0c4b39e_4696_4c69_b841_f0e178014926": {},
+		"20f1a76e_9b54_40ab_82c2_3f6d1e7dee16": {},
+		"03b01580_0946_4bbc_8aa5_8597e8d4cc21": {}
 	},
 	"rp_animation_controller": {
 		"RP/animation_controllers/devourer.animation.controller.json": {
@@ -1959,6 +2088,54 @@
 		"BP/items/mushroom.json": {
 			"identifiers": [
 				"terrariamod:mushroom"
+			],
+			"custom_commands": []
+		},
+		"BP/items/lifecrystal.json": {
+			"identifiers": [
+				"terrariamod:lifecrystal"
+			],
+			"custom_commands": []
+		},
+		"BP/items/waterbolt.json": {
+			"identifiers": [
+				"terrariamod:waterbolt"
+			],
+			"custom_commands": []
+		},
+		"BP/items/bloodyspine.json": {
+			"identifiers": [
+				"terrariamod:bloodyspine"
+			],
+			"custom_commands": []
+		},
+		"BP/items/spacegun.json": {
+			"identifiers": [
+				"terrariamod:spacegun"
+			],
+			"custom_commands": []
+		},
+		"BP/items/aquascepter.json": {
+			"identifiers": [
+				"terrariamod:aquascepter"
+			],
+			"custom_commands": []
+		},
+		"BP/items/woodenboomerang.json": {
+			"identifiers": [
+				"terrariamod:woodenboomerang"
+			],
+			"custom_commands": []
+		},
+		"BP/items/enchantedboomerang.json": {
+			"identifiers": [
+				"terrariamod:enchantedboomerang"
+			],
+			"custom_commands": []
+		},
+		"BP/items/flamarang.json": {
+			"identifiers": [
+				"terrariamod:flamarang"
 			],
 			"custom_commands": []
 		}

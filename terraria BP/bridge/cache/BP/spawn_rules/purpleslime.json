@@ -1,0 +1,235 @@
+{
+	"file_path": "C:\\Users\\LANCE.LEGAUX\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\spawn_rules\\purpleslime.json",
+	"file_type": "spawn_rule",
+	"format_version": 1,
+	"file_uuid": "58b5d806_6ed1_4d04_abef_b747837f4bcc",
+	"file_version": 4,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.8.0",
+					"minecraft:spawn_rules": {
+						"description": {
+							"identifier": "terrariamod:purpleslime",
+							"population_control": "animal"
+						},
+						"conditions": [
+							{
+								"minecraft:brightness_filter": {
+									"min": 0,
+									"max": 15,
+									"adjust_for_weather": false
+								},
+								"minecraft:weight": {
+									"default": 900000
+								},
+								"minecraft:herd": {
+									"min_size": 1,
+									"max_size": 3
+								},
+								"minecraft:biome_filter": {
+									"test": "has_biome_tag",
+									"operator": "==",
+									"value": "purity_forest"
+								},
+								"minecraft:spawns_underground": {}
+							}
+						]
+					}
+				},
+				"data": "1.8.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.8.0",
+					"minecraft:spawn_rules": {
+						"description": {
+							"identifier": "terrariamod:purpleslime",
+							"population_control": "animal"
+						},
+						"conditions": [
+							{
+								"minecraft:brightness_filter": {
+									"min": 0,
+									"max": 15,
+									"adjust_for_weather": false
+								},
+								"minecraft:weight": {
+									"default": 900000
+								},
+								"minecraft:herd": {
+									"min_size": 1,
+									"max_size": 3
+								},
+								"minecraft:biome_filter": {
+									"test": "has_biome_tag",
+									"operator": "==",
+									"value": "purity_forest"
+								},
+								"minecraft:spawns_underground": {}
+							}
+						]
+					}
+				},
+				"key": "minecraft:spawn_rules",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:purpleslime",
+								"population_control": "animal"
+							},
+							"conditions": [
+								{
+									"minecraft:brightness_filter": {
+										"min": 0,
+										"max": 15,
+										"adjust_for_weather": false
+									},
+									"minecraft:weight": {
+										"default": 900000
+									},
+									"minecraft:herd": {
+										"min_size": 1,
+										"max_size": 3
+									},
+									"minecraft:biome_filter": {
+										"test": "has_biome_tag",
+										"operator": "==",
+										"value": "purity_forest"
+									},
+									"minecraft:spawns_underground": {}
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:purpleslime",
+							"population_control": "animal"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:purpleslime",
+								"population_control": "animal"
+							},
+							"conditions": [
+								{
+									"minecraft:brightness_filter": {
+										"min": 0,
+										"max": 15,
+										"adjust_for_weather": false
+									},
+									"minecraft:weight": {
+										"default": 900000
+									},
+									"minecraft:herd": {
+										"min_size": 1,
+										"max_size": 3
+									},
+									"minecraft:biome_filter": {
+										"test": "has_biome_tag",
+										"operator": "==",
+										"value": "purity_forest"
+									},
+									"minecraft:spawns_underground": {}
+								}
+							]
+						},
+						"key": "conditions",
+						"children": [
+							{
+								"open": [
+									{
+										"minecraft:brightness_filter": {
+											"min": 0,
+											"max": 15,
+											"adjust_for_weather": false
+										},
+										"minecraft:weight": {
+											"default": 900000
+										},
+										"minecraft:herd": {
+											"min_size": 1,
+											"max_size": 3
+										},
+										"minecraft:biome_filter": {
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "purity_forest"
+										},
+										"minecraft:spawns_underground": {}
+									}
+								],
+								"children": [
+									{
+										"open": {
+											"minecraft:brightness_filter": {
+												"min": 0,
+												"max": 15,
+												"adjust_for_weather": false
+											},
+											"minecraft:weight": {
+												"default": 900000
+											},
+											"minecraft:herd": {
+												"min_size": 1,
+												"max_size": 3
+											},
+											"minecraft:biome_filter": {
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "purity_forest"
+											},
+											"minecraft:spawns_underground": {}
+										},
+										"key": "minecraft:brightness_filter",
+										"is_minified": true,
+										"children": {
+											"min": 0,
+											"max": 15,
+											"adjust_for_weather": false
+										}
+									},
+									{
+										"key": "minecraft:weight",
+										"is_minified": true,
+										"children": {
+											"default": 900000
+										}
+									},
+									{
+										"key": "minecraft:herd",
+										"is_minified": true,
+										"children": {
+											"min_size": 1,
+											"max_size": 3
+										}
+									},
+									{
+										"key": "minecraft:biome_filter",
+										"is_minified": true,
+										"children": {
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "purity_forest"
+										}
+									},
+									{
+										"key": "minecraft:spawns_underground",
+										"is_minified": true,
+										"children": {}
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -233,6 +233,86 @@
 						}
 					}
 				}
+			},
+			"327c78ab_233b_4075_90c1_3d77b6b35c23": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"fa9e29e7_6de5_473f_8e2a_2355a53d0a2c": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"2f8f30c2_1b4a_474d_8491_2d6aa67ac18e": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"2c3b8d09_aa64_470b_ad53_13df67104bbf": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"a0c4b39e_4696_4c69_b841_f0e178014926": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"20f1a76e_9b54_40ab_82c2_3f6d1e7dee16": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"03b01580_0946_4bbc_8aa5_8597e8d4cc21": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"913ca5ec_8c45_43c6_bd72_e330e434a946": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
 			}
 		}
 	},
@@ -849,6 +929,69 @@
 		"data": {}
 	},
 	"BP/recipes/bottlestation_recipe.json": {
+		"data": {}
+	},
+	"BP/animation_controllers/health.json": {
+		"data": {}
+	},
+	"BP/items/lifecrystal.json": {
+		"data": {}
+	},
+	"BP/items/waterbolt.json": {
+		"data": {}
+	},
+	"BP/entities/eyeofcthulhu_stagetwo.json": {
+		"data": {}
+	},
+	"BP/biomes/mega_taiga.biome.json": {
+		"data": {}
+	},
+	"BP/biomes/mega_taiga_hills.biome.json": {
+		"data": {}
+	},
+	"BP/biomes/savanna.biome.json": {
+		"data": {}
+	},
+	"BP/items/bloodyspine.json": {
+		"data": {}
+	},
+	"BP/items/spacegun.json": {
+		"data": {}
+	},
+	"BP/items/woodenboomerang.json": {
+		"data": {}
+	},
+	"BP/items/enchantedboomerang.json": {
+		"data": {}
+	},
+	"BP/items/flamarang.json": {
+		"data": {}
+	},
+	"BP/entities/demolitionist.json": {
+		"data": {}
+	},
+	"BP/spawn_rules/redslime.json": {
+		"data": {}
+	},
+	"BP/spawn_rules/yellowslime.json": {
+		"data": {}
+	},
+	"BP/spawn_rules/pinkslime.json": {
+		"data": {}
+	},
+	"BP/spawn_rules/blackslime.json": {
+		"data": {}
+	},
+	"BP/spawn_rules/cavebat.json": {
+		"data": {}
+	},
+	"BP/spawn_rules/purpleslime.json": {
+		"data": {}
+	},
+	"BP/spawn_rules/skeleton_terraria.json": {
+		"data": {}
+	},
+	"BP/spawn_rules/undeadminer.json": {
 		"data": {}
 	}
 }

@@ -1,0 +1,201 @@
+{
+	"file_path": "C:\\Users\\LANCE.LEGAUX\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\items\\flamarang.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "913ca5ec_8c45_43c6_bd72_e330e434a946",
+	"file_version": 39,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "terrariamod:flamarang",
+							"category": "equipment"
+						},
+						"components": {
+							"minecraft:explodable": true,
+							"minecraft:max_stack_size": 64,
+							"minecraft:display_name": {
+								"value": "item.terrariamod:flamarang.name"
+							},
+							"minecraft:icon": {
+								"texture": "terrariamod:flamarang"
+							},
+							"minecraft:on_use": {
+								"on_use": {
+									"event": "terrariamod:throw"
+								}
+							}
+						},
+						"events": {
+							"terrariamod:throw": {
+								"shoot": {
+									"projectile": "terrariamod:flamarang_projectile",
+									"launch_power": 1
+								}
+							}
+						}
+					}
+				},
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "terrariamod:flamarang",
+							"category": "equipment"
+						},
+						"components": {
+							"minecraft:explodable": true,
+							"minecraft:max_stack_size": 64,
+							"minecraft:display_name": {
+								"value": "item.terrariamod:flamarang.name"
+							},
+							"minecraft:icon": {
+								"texture": "terrariamod:flamarang"
+							},
+							"minecraft:on_use": {
+								"on_use": {
+									"event": "terrariamod:throw"
+								}
+							}
+						},
+						"events": {
+							"terrariamod:throw": {
+								"shoot": {
+									"projectile": "terrariamod:flamarang_projectile",
+									"launch_power": 1
+								}
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:flamarang",
+							"category": "equipment"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:flamarang",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:explodable": true,
+								"minecraft:max_stack_size": 64,
+								"minecraft:display_name": {
+									"value": "item.terrariamod:flamarang.name"
+								},
+								"minecraft:icon": {
+									"texture": "terrariamod:flamarang"
+								},
+								"minecraft:on_use": {
+									"on_use": {
+										"event": "terrariamod:throw"
+									}
+								}
+							},
+							"events": {
+								"terrariamod:throw": {
+									"shoot": {
+										"projectile": "terrariamod:flamarang_projectile",
+										"launch_power": 1
+									}
+								}
+							}
+						},
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:explodable": true,
+							"minecraft:max_stack_size": 64,
+							"minecraft:display_name": {
+								"value": "item.terrariamod:flamarang.name"
+							},
+							"minecraft:icon": {
+								"texture": "terrariamod:flamarang"
+							},
+							"minecraft:on_use": {
+								"on_use": {
+									"event": "terrariamod:throw"
+								}
+							}
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:flamarang",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:explodable": true,
+								"minecraft:max_stack_size": 64,
+								"minecraft:display_name": {
+									"value": "item.terrariamod:flamarang.name"
+								},
+								"minecraft:icon": {
+									"texture": "terrariamod:flamarang"
+								},
+								"minecraft:on_use": {
+									"on_use": {
+										"event": "terrariamod:throw"
+									}
+								}
+							},
+							"events": {
+								"terrariamod:throw": {
+									"shoot": {
+										"projectile": "terrariamod:flamarang_projectile",
+										"launch_power": 1
+									}
+								}
+							}
+						},
+						"key": "events",
+						"children": [
+							{
+								"open": {
+									"terrariamod:throw": {
+										"shoot": {
+											"projectile": "terrariamod:flamarang_projectile",
+											"launch_power": 1
+										}
+									}
+								},
+								"key": "terrariamod:throw",
+								"children": [
+									{
+										"open": {
+											"shoot": {
+												"projectile": "terrariamod:flamarang_projectile",
+												"launch_power": 1
+											}
+										},
+										"key": "shoot",
+										"is_minified": true,
+										"children": {
+											"projectile": "terrariamod:flamarang_projectile",
+											"launch_power": 1
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,4 +1,4 @@
-//bridge-file-version: #13
+//bridge-file-version: #14
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
@@ -8,7 +8,7 @@
 		},
 		"components": {
 			"minecraft:entity_placer": {
-				"entity": "terrariamod:brainofcthulhu"
+				"entity": "terrariamod:brainofcthulhu_stageone"
 			},
 			"minecraft:icon": {
 				"texture": "terrariamod:bloodyspine"
@@ -16,6 +16,7 @@
 			"minecraft:display_name": {
 				"value": "item.terrariamod:bloodyspine.name"
 			}
-		}
+		},
+		"events": {}
 	}
 }

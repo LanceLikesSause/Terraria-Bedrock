@@ -1,4 +1,4 @@
-//bridge-file-version: #17
+//bridge-file-version: #19
 {
 	"format_version": "1.16.0",
 	"minecraft:entity": {
@@ -74,15 +74,6 @@
 			"minecraft:inventory": {
 				"inventory_size": 8,
 				"private": true
-			},
-			"minecraft:dweller": {
-				"dwelling_type": "village",
-				"dweller_role": "inhabitant",
-				"update_interval_base": 60,
-				"update_interval_variant": 40,
-				"can_find_poi": true,
-				"can_migrate": true,
-				"first_founding_reward": 5
 			},
 			"minecraft:persistent": {},
 			"minecraft:behavior.float": {
@@ -193,7 +184,8 @@
 				"table": "trading/economy_trades/demolitionist_trades.json",
 				"new_screen": true,
 				"show_trade_screen": true,
-				"convert_trades_economy": true
+				"convert_trades_economy": true,
+				"persist_trades": true
 			},
 			"minecraft:behavior.nearest_attackable_target": {
 				"priority": 2,

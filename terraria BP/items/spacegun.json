@@ -1,4 +1,4 @@
-//bridge-file-version: #15
+//bridge-file-version: #16
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
@@ -26,7 +26,8 @@
 			"minecraft:mana_fire": {
 				"run_command": {
 					"command": [
-						"scoreboard players remove @s mana 6"
+						"scoreboard players remove @s mana 6",
+						"function mana"
 					]
 				},
 				"shoot": {

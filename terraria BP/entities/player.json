@@ -1,18 +1,20 @@
-//bridge-file-version: #8
+//bridge-file-version: #10
 {
 	"minecraft:entity": {
 		"description": {
 			"animations": {
 				"mana": "controller.animation.mana",
 				"starting_items": "controller.animation.starting_items",
-				"bridge_execute_commands": "controller.animation.bridge_player.execute_commands"
+				"bridge_execute_commands": "controller.animation.bridge_player.execute_commands",
+				"health": "controller.animation.health"
 			},
 			"scripts": {
 				"animate": [
 					"mana",
 					"starting_items",
 					"bridge_execute_commands",
-					"bridge_execute_commands"
+					"bridge_execute_commands",
+					"health"
 				]
 			},
 			"identifier": "minecraft:player",

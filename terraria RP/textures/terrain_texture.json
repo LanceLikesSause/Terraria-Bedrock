@@ -140,15 +140,6 @@
 		"hellstone": {
 			"textures": "textures/blocks/hellstone"
 		},
-		"crimson_log": {
-			"textures": "textures/blocks/crimson_log"
-		},
-		"shadewood": {
-			"textures": "textures/blocks/shadewood"
-		},
-		"crimson_leaves": {
-			"textures": "textures/blocks/crimson_leaves"
-		},
 		"crimstone": {
 			"textures": "textures/blocks/crimstone"
 		},

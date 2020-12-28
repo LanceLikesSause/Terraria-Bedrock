@@ -3,7 +3,7 @@
 	"file_type": "feature",
 	"format_version": 1,
 	"file_uuid": "c9d04375_e79d_461f_8cbd_ecc4887f5cfc",
-	"file_version": 14,
+	"file_version": 15,
 	"cache_content": {
 		"children": [
 			{
@@ -23,8 +23,8 @@
 								"name": "minecraft:air"
 							}
 						],
-						"enforce_survivability_rules": false,
-						"enforce_placement_rules": false
+						"enforce_survivability_rules": true,
+						"enforce_placement_rules": true
 					}
 				},
 				"key": "minecraft:single_block_feature",
@@ -40,8 +40,8 @@
 									"name": "minecraft:air"
 								}
 							],
-							"enforce_survivability_rules": false,
-							"enforce_placement_rules": false
+							"enforce_survivability_rules": true,
+							"enforce_placement_rules": true
 						},
 						"key": "description",
 						"is_minified": true,
@@ -54,19 +54,6 @@
 						"key": "places_block"
 					},
 					{
-						"open": {
-							"description": {
-								"identifier": "minecraft:surfacechest_feature"
-							},
-							"places_block": "terrariamod:surfacechest",
-							"may_replace": [
-								{
-									"name": "minecraft:air"
-								}
-							],
-							"enforce_survivability_rules": false,
-							"enforce_placement_rules": false
-						},
 						"key": "may_replace",
 						"children": [
 							{
@@ -83,7 +70,20 @@
 						]
 					},
 					{
-						"data": "false",
+						"open": {
+							"description": {
+								"identifier": "minecraft:surfacechest_feature"
+							},
+							"places_block": "terrariamod:surfacechest",
+							"may_replace": [
+								{
+									"name": "minecraft:air"
+								}
+							],
+							"enforce_survivability_rules": true,
+							"enforce_placement_rules": true
+						},
+						"data": "true",
 						"key": "enforce_survivability_rules"
 					},
 					{
@@ -97,10 +97,10 @@
 									"name": "minecraft:air"
 								}
 							],
-							"enforce_survivability_rules": false,
-							"enforce_placement_rules": false
+							"enforce_survivability_rules": true,
+							"enforce_placement_rules": true
 						},
-						"data": "false",
+						"data": "true",
 						"key": "enforce_placement_rules"
 					}
 				]

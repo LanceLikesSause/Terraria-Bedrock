@@ -1,21 +1,20 @@
-//bridge-file-version: #7
+//bridge-file-version: #10
 {
 	"format_version": "1.8.0",
 	"minecraft:spawn_rules": {
 		"description": {
 			"identifier": "terrariamod:redslime",
-			"population_control": "monster"
+			"population_control": "animal"
 		},
 		"conditions": [
 			{
-				"minecraft:spawns_underground": {},
 				"minecraft:brightness_filter": {
 					"min": 0,
-					"max": 7,
+					"max": 15,
 					"adjust_for_weather": false
 				},
 				"minecraft:weight": {
-					"default": 1000
+					"default": 900000
 				},
 				"minecraft:herd": {
 					"min_size": 1,
@@ -24,8 +23,9 @@
 				"minecraft:biome_filter": {
 					"test": "has_biome_tag",
 					"operator": "==",
-					"value": "purity"
-				}
+					"value": "purity_forest"
+				},
+				"minecraft:spawns_underground": {}
 			}
 		]
 	}

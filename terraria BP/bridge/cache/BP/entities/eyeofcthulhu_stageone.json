@@ -1,0 +1,1566 @@
+{
+	"file_path": "C:\\Users\\LANCE.LEGAUX\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\entities\\eyeofcthulhu_stageone.json",
+	"file_type": "entity",
+	"format_version": 1,
+	"file_uuid": "496ffe1d_9ebf_42d0_a0fc_3ea8541e2a38",
+	"file_version": 54,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.0",
+					"minecraft:entity": {
+						"description": {
+							"identifier": "terrariamod:eyeofcthulhu_stageone",
+							"is_spawnable": true,
+							"is_summonable": true,
+							"is_experimental": false,
+							"animations": {
+								"to_stage_2": "controller.animation.eyeofcthulhu.to_stage_2",
+								"bridge_execute_commands": "controller.animation.bridge_eyeofcthulhu_stageone.execute_commands"
+							},
+							"scripts": {
+								"animate": [
+									"to_stage_2",
+									"bridge_execute_commands",
+									"bridge_execute_commands",
+									"bridge_execute_commands"
+								]
+							}
+						},
+						"components": {
+							"minecraft:experience_reward": {
+								"on_death": "query.last_hit_by_player ? 5 : 0"
+							},
+							"minecraft:type_family": {
+								"family": [
+									"phantom",
+									"undead",
+									"monster",
+									"mob"
+								]
+							},
+							"minecraft:nameable": {},
+							"minecraft:health": {
+								"value": 2800,
+								"max": 2800
+							},
+							"minecraft:hurt_on_condition": {
+								"damage_conditions": [
+									{
+										"filters": {
+											"test": "in_lava",
+											"subject": "self",
+											"operator": "==",
+											"value": true
+										},
+										"cause": "lava",
+										"damage_per_tick": 4
+									}
+								]
+							},
+							"minecraft:physics": {
+								"has_gravity": false
+							},
+							"minecraft:pushable": {
+								"is_pushable": true,
+								"is_pushable_by_piston": true
+							},
+							"minecraft:attack": {
+								"damage": 15
+							},
+							"minecraft:breathable": {
+								"total_supply": 15,
+								"suffocate_time": 0,
+								"breathes_air": true,
+								"breathes_water": false
+							},
+							"minecraft:collision_box": {
+								"width": 3,
+								"height": 3
+							},
+							"minecraft:movement": {
+								"value": 3
+							},
+							"minecraft:movement.glide": {
+								"start_speed": 0.1,
+								"speed_when_turning": 0.2
+							},
+							"minecraft:burns_in_daylight": {},
+							"minecraft:follow_range": {
+								"value": 64,
+								"max": 64
+							},
+							"minecraft:behavior.avoid_mob_type": {
+								"priority": 0,
+								"max_dist": 16,
+								"ignore_visibility": true,
+								"entity_types": [
+									{
+										"filters": {
+											"any_of": [
+												{
+													"test": "is_family",
+													"subject": "other",
+													"value": "ocelot"
+												},
+												{
+													"test": "is_family",
+													"subject": "other",
+													"value": "cat"
+												}
+											]
+										},
+										"max_dist": 16,
+										"walk_speed_multiplier": 1,
+										"sprint_speed_multiplier": 1
+									}
+								]
+							},
+							"minecraft:behavior.nearest_attackable_target": {
+								"priority": 1,
+								"reselect_targets": true,
+								"scan_interval": 10,
+								"within_radius": 64,
+								"must_see_forget_duration": 0.5,
+								"target_search_height": 80,
+								"entity_types": [
+									{
+										"filters": {
+											"test": "is_family",
+											"subject": "other",
+											"value": "player"
+										},
+										"max_dist": 64
+									},
+									{
+										"filters": {
+											"test": "is_family",
+											"subject": "other",
+											"value": "villager"
+										}
+									}
+								]
+							},
+							"minecraft:behavior.swoop_attack": {
+								"priority": 2,
+								"damage_reach": 0.9,
+								"speed_multiplier": 2,
+								"delay_range": [
+									1,
+									2
+								]
+							},
+							"minecraft:behavior.circle_around_anchor": {
+								"priority": 3,
+								"radius_change": 1,
+								"radius_adjustment_chance": 0.004,
+								"height_adjustment_chance": 0.002857,
+								"goal_radius": 1,
+								"angle_change": 15,
+								"radius_range": [
+									5,
+									15
+								],
+								"height_offset_range": [
+									-4,
+									5
+								],
+								"height_above_target_range": [
+									8,
+									12
+								]
+							},
+							"minecraft:boss": {
+								"name": "The Eye of Cthulhu §9Stage One",
+								"hud_range": 56
+							},
+							"minecraft:spawn_entity": {
+								"entities": [
+									{
+										"min_wait_time": 15,
+										"max_wait_time": 16,
+										"spawn_entity": "terrariamod:servantofcthulhu"
+									}
+								]
+							},
+							"minecraft:environment_sensor": {
+								"triggers": {
+									"filters": {
+										"test": "is_daytime",
+										"value": true
+									},
+									"event": "terrariamod:despawn_entity"
+								}
+							}
+						},
+						"events": {
+							"minecraft:entity_spawned": {
+								"add": {
+									"component_groups": [
+										"bridge:execute_command_id_1"
+									]
+								}
+							},
+							"bridge:remove_command_id_1": {
+								"add": {
+									"component_groups": [
+										"bridge:execute_no_command"
+									]
+								},
+								"remove": {
+									"component_groups": [
+										"bridge:execute_command_id_1"
+									]
+								}
+							},
+							"terrariamod:despawn_entity": {
+								"add": {
+									"component_groups": [
+										"terrariamod:despawn"
+									]
+								}
+							}
+						},
+						"component_groups": {
+							"bridge:execute_command_id_1": {
+								"minecraft:skin_id": {
+									"value": 1
+								}
+							},
+							"bridge:execute_no_command": {
+								"minecraft:skin_id": {
+									"value": 0
+								}
+							},
+							"terrariamod:despawn": {
+								"minecraft:instant_despawn": {
+									"remove_child_entities": true
+								}
+							}
+						}
+					}
+				},
+				"key": "minecraft:entity",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:eyeofcthulhu_stageone",
+							"is_spawnable": true,
+							"is_summonable": true,
+							"is_experimental": false,
+							"animations": {
+								"to_stage_2": "controller.animation.eyeofcthulhu.to_stage_2",
+								"bridge_execute_commands": "controller.animation.bridge_eyeofcthulhu_stageone.execute_commands"
+							},
+							"scripts": {
+								"animate": [
+									"to_stage_2",
+									"bridge_execute_commands",
+									"bridge_execute_commands",
+									"bridge_execute_commands"
+								]
+							}
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:eyeofcthulhu_stageone",
+								"is_spawnable": true,
+								"is_summonable": true,
+								"is_experimental": false,
+								"animations": {
+									"to_stage_2": "controller.animation.eyeofcthulhu.to_stage_2",
+									"bridge_execute_commands": "controller.animation.bridge_eyeofcthulhu_stageone.execute_commands"
+								},
+								"scripts": {
+									"animate": [
+										"to_stage_2",
+										"bridge_execute_commands",
+										"bridge_execute_commands",
+										"bridge_execute_commands"
+									]
+								}
+							},
+							"components": {
+								"minecraft:experience_reward": {
+									"on_death": "query.last_hit_by_player ? 5 : 0"
+								},
+								"minecraft:type_family": {
+									"family": [
+										"phantom",
+										"undead",
+										"monster",
+										"mob"
+									]
+								},
+								"minecraft:nameable": {},
+								"minecraft:health": {
+									"value": 2800,
+									"max": 2800
+								},
+								"minecraft:hurt_on_condition": {
+									"damage_conditions": [
+										{
+											"filters": {
+												"test": "in_lava",
+												"subject": "self",
+												"operator": "==",
+												"value": true
+											},
+											"cause": "lava",
+											"damage_per_tick": 4
+										}
+									]
+								},
+								"minecraft:physics": {
+									"has_gravity": false
+								},
+								"minecraft:pushable": {
+									"is_pushable": true,
+									"is_pushable_by_piston": true
+								},
+								"minecraft:attack": {
+									"damage": 15
+								},
+								"minecraft:breathable": {
+									"total_supply": 15,
+									"suffocate_time": 0,
+									"breathes_air": true,
+									"breathes_water": false
+								},
+								"minecraft:collision_box": {
+									"width": 3,
+									"height": 3
+								},
+								"minecraft:movement": {
+									"value": 3
+								},
+								"minecraft:movement.glide": {
+									"start_speed": 0.1,
+									"speed_when_turning": 0.2
+								},
+								"minecraft:burns_in_daylight": {},
+								"minecraft:follow_range": {
+									"value": 64,
+									"max": 64
+								},
+								"minecraft:behavior.avoid_mob_type": {
+									"priority": 0,
+									"max_dist": 16,
+									"ignore_visibility": true,
+									"entity_types": [
+										{
+											"filters": {
+												"any_of": [
+													{
+														"test": "is_family",
+														"subject": "other",
+														"value": "ocelot"
+													},
+													{
+														"test": "is_family",
+														"subject": "other",
+														"value": "cat"
+													}
+												]
+											},
+											"max_dist": 16,
+											"walk_speed_multiplier": 1,
+											"sprint_speed_multiplier": 1
+										}
+									]
+								},
+								"minecraft:behavior.nearest_attackable_target": {
+									"priority": 1,
+									"reselect_targets": true,
+									"scan_interval": 10,
+									"within_radius": 64,
+									"must_see_forget_duration": 0.5,
+									"target_search_height": 80,
+									"entity_types": [
+										{
+											"filters": {
+												"test": "is_family",
+												"subject": "other",
+												"value": "player"
+											},
+											"max_dist": 64
+										},
+										{
+											"filters": {
+												"test": "is_family",
+												"subject": "other",
+												"value": "villager"
+											}
+										}
+									]
+								},
+								"minecraft:behavior.swoop_attack": {
+									"priority": 2,
+									"damage_reach": 0.9,
+									"speed_multiplier": 2,
+									"delay_range": [
+										1,
+										2
+									]
+								},
+								"minecraft:behavior.circle_around_anchor": {
+									"priority": 3,
+									"radius_change": 1,
+									"radius_adjustment_chance": 0.004,
+									"height_adjustment_chance": 0.002857,
+									"goal_radius": 1,
+									"angle_change": 15,
+									"radius_range": [
+										5,
+										15
+									],
+									"height_offset_range": [
+										-4,
+										5
+									],
+									"height_above_target_range": [
+										8,
+										12
+									]
+								},
+								"minecraft:boss": {
+									"name": "The Eye of Cthulhu §9Stage One",
+									"hud_range": 56
+								},
+								"minecraft:spawn_entity": {
+									"entities": [
+										{
+											"min_wait_time": 15,
+											"max_wait_time": 16,
+											"spawn_entity": "terrariamod:servantofcthulhu"
+										}
+									]
+								},
+								"minecraft:environment_sensor": {
+									"triggers": {
+										"filters": {
+											"test": "is_daytime",
+											"value": true
+										},
+										"event": "terrariamod:despawn_entity"
+									}
+								}
+							},
+							"events": {
+								"minecraft:entity_spawned": {
+									"add": {
+										"component_groups": [
+											"bridge:execute_command_id_1"
+										]
+									}
+								},
+								"bridge:remove_command_id_1": {
+									"add": {
+										"component_groups": [
+											"bridge:execute_no_command"
+										]
+									},
+									"remove": {
+										"component_groups": [
+											"bridge:execute_command_id_1"
+										]
+									}
+								},
+								"terrariamod:despawn_entity": {
+									"add": {
+										"component_groups": [
+											"terrariamod:despawn"
+										]
+									}
+								}
+							},
+							"component_groups": {
+								"bridge:execute_command_id_1": {
+									"minecraft:skin_id": {
+										"value": 1
+									}
+								},
+								"bridge:execute_no_command": {
+									"minecraft:skin_id": {
+										"value": 0
+									}
+								},
+								"terrariamod:despawn": {
+									"minecraft:instant_despawn": {
+										"remove_child_entities": true
+									}
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"key": "minecraft:experience_reward",
+								"is_minified": true,
+								"children": {
+									"on_death": "query.last_hit_by_player ? 5 : 0"
+								}
+							},
+							{
+								"key": "minecraft:type_family",
+								"is_minified": true,
+								"children": {
+									"family": [
+										"phantom",
+										"undead",
+										"monster",
+										"mob"
+									]
+								}
+							},
+							{
+								"key": "minecraft:nameable",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"key": "minecraft:health",
+								"is_minified": true,
+								"children": {
+									"value": 2800,
+									"max": 2800
+								}
+							},
+							{
+								"key": "minecraft:hurt_on_condition",
+								"is_minified": true,
+								"children": {
+									"damage_conditions": [
+										{
+											"filters": {
+												"test": "in_lava",
+												"subject": "self",
+												"operator": "==",
+												"value": true
+											},
+											"cause": "lava",
+											"damage_per_tick": 4
+										}
+									]
+								}
+							},
+							{
+								"key": "minecraft:physics",
+								"is_minified": true,
+								"children": {
+									"has_gravity": false
+								}
+							},
+							{
+								"key": "minecraft:pushable",
+								"is_minified": true,
+								"children": {
+									"is_pushable": true,
+									"is_pushable_by_piston": true
+								}
+							},
+							{
+								"key": "minecraft:attack",
+								"is_minified": true,
+								"children": {
+									"damage": 15
+								}
+							},
+							{
+								"key": "minecraft:breathable",
+								"is_minified": true,
+								"children": {
+									"total_supply": 15,
+									"suffocate_time": 0,
+									"breathes_air": true,
+									"breathes_water": false
+								}
+							},
+							{
+								"key": "minecraft:collision_box",
+								"is_minified": true,
+								"children": {
+									"width": 3,
+									"height": 3
+								}
+							},
+							{
+								"key": "minecraft:movement",
+								"is_minified": true,
+								"children": {
+									"value": 3
+								}
+							},
+							{
+								"key": "minecraft:movement.glide",
+								"is_minified": true,
+								"children": {
+									"start_speed": 0.1,
+									"speed_when_turning": 0.2
+								}
+							},
+							{
+								"key": "minecraft:burns_in_daylight",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"key": "minecraft:follow_range",
+								"is_minified": true,
+								"children": {
+									"value": 64,
+									"max": 64
+								}
+							},
+							{
+								"key": "minecraft:behavior.avoid_mob_type",
+								"is_minified": true,
+								"children": {
+									"priority": 0,
+									"max_dist": 16,
+									"ignore_visibility": true,
+									"entity_types": [
+										{
+											"filters": {
+												"any_of": [
+													{
+														"test": "is_family",
+														"subject": "other",
+														"value": "ocelot"
+													},
+													{
+														"test": "is_family",
+														"subject": "other",
+														"value": "cat"
+													}
+												]
+											},
+											"max_dist": 16,
+											"walk_speed_multiplier": 1,
+											"sprint_speed_multiplier": 1
+										}
+									]
+								}
+							},
+							{
+								"key": "minecraft:behavior.nearest_attackable_target",
+								"is_minified": true,
+								"children": {
+									"priority": 1,
+									"reselect_targets": true,
+									"scan_interval": 10,
+									"within_radius": 64,
+									"must_see_forget_duration": 0.5,
+									"target_search_height": 80,
+									"entity_types": [
+										{
+											"filters": {
+												"test": "is_family",
+												"subject": "other",
+												"value": "player"
+											},
+											"max_dist": 64
+										},
+										{
+											"filters": {
+												"test": "is_family",
+												"subject": "other",
+												"value": "villager"
+											}
+										}
+									]
+								}
+							},
+							{
+								"key": "minecraft:behavior.swoop_attack",
+								"is_minified": true,
+								"children": {
+									"priority": 2,
+									"damage_reach": 0.9,
+									"speed_multiplier": 2,
+									"delay_range": [
+										1,
+										2
+									]
+								}
+							},
+							{
+								"key": "minecraft:behavior.circle_around_anchor",
+								"is_minified": true,
+								"children": {
+									"priority": 3,
+									"radius_change": 1,
+									"radius_adjustment_chance": 0.004,
+									"height_adjustment_chance": 0.002857,
+									"goal_radius": 1,
+									"angle_change": 15,
+									"radius_range": [
+										5,
+										15
+									],
+									"height_offset_range": [
+										-4,
+										5
+									],
+									"height_above_target_range": [
+										8,
+										12
+									]
+								}
+							},
+							{
+								"key": "minecraft:boss",
+								"is_minified": true,
+								"children": {
+									"name": "The Eye of Cthulhu §9Stage One",
+									"hud_range": 56
+								}
+							},
+							{
+								"key": "minecraft:spawn_entity",
+								"is_minified": true,
+								"children": {
+									"entities": [
+										{
+											"min_wait_time": 15,
+											"max_wait_time": 16,
+											"spawn_entity": "terrariamod:servantofcthulhu"
+										}
+									]
+								}
+							},
+							{
+								"open": {
+									"minecraft:experience_reward": {
+										"on_death": "query.last_hit_by_player ? 5 : 0"
+									},
+									"minecraft:type_family": {
+										"family": [
+											"phantom",
+											"undead",
+											"monster",
+											"mob"
+										]
+									},
+									"minecraft:nameable": {},
+									"minecraft:health": {
+										"value": 2800,
+										"max": 2800
+									},
+									"minecraft:hurt_on_condition": {
+										"damage_conditions": [
+											{
+												"filters": {
+													"test": "in_lava",
+													"subject": "self",
+													"operator": "==",
+													"value": true
+												},
+												"cause": "lava",
+												"damage_per_tick": 4
+											}
+										]
+									},
+									"minecraft:physics": {
+										"has_gravity": false
+									},
+									"minecraft:pushable": {
+										"is_pushable": true,
+										"is_pushable_by_piston": true
+									},
+									"minecraft:attack": {
+										"damage": 15
+									},
+									"minecraft:breathable": {
+										"total_supply": 15,
+										"suffocate_time": 0,
+										"breathes_air": true,
+										"breathes_water": false
+									},
+									"minecraft:collision_box": {
+										"width": 3,
+										"height": 3
+									},
+									"minecraft:movement": {
+										"value": 3
+									},
+									"minecraft:movement.glide": {
+										"start_speed": 0.1,
+										"speed_when_turning": 0.2
+									},
+									"minecraft:burns_in_daylight": {},
+									"minecraft:follow_range": {
+										"value": 64,
+										"max": 64
+									},
+									"minecraft:behavior.avoid_mob_type": {
+										"priority": 0,
+										"max_dist": 16,
+										"ignore_visibility": true,
+										"entity_types": [
+											{
+												"filters": {
+													"any_of": [
+														{
+															"test": "is_family",
+															"subject": "other",
+															"value": "ocelot"
+														},
+														{
+															"test": "is_family",
+															"subject": "other",
+															"value": "cat"
+														}
+													]
+												},
+												"max_dist": 16,
+												"walk_speed_multiplier": 1,
+												"sprint_speed_multiplier": 1
+											}
+										]
+									},
+									"minecraft:behavior.nearest_attackable_target": {
+										"priority": 1,
+										"reselect_targets": true,
+										"scan_interval": 10,
+										"within_radius": 64,
+										"must_see_forget_duration": 0.5,
+										"target_search_height": 80,
+										"entity_types": [
+											{
+												"filters": {
+													"test": "is_family",
+													"subject": "other",
+													"value": "player"
+												},
+												"max_dist": 64
+											},
+											{
+												"filters": {
+													"test": "is_family",
+													"subject": "other",
+													"value": "villager"
+												}
+											}
+										]
+									},
+									"minecraft:behavior.swoop_attack": {
+										"priority": 2,
+										"damage_reach": 0.9,
+										"speed_multiplier": 2,
+										"delay_range": [
+											1,
+											2
+										]
+									},
+									"minecraft:behavior.circle_around_anchor": {
+										"priority": 3,
+										"radius_change": 1,
+										"radius_adjustment_chance": 0.004,
+										"height_adjustment_chance": 0.002857,
+										"goal_radius": 1,
+										"angle_change": 15,
+										"radius_range": [
+											5,
+											15
+										],
+										"height_offset_range": [
+											-4,
+											5
+										],
+										"height_above_target_range": [
+											8,
+											12
+										]
+									},
+									"minecraft:boss": {
+										"name": "The Eye of Cthulhu §9Stage One",
+										"hud_range": 56
+									},
+									"minecraft:spawn_entity": {
+										"entities": [
+											{
+												"min_wait_time": 15,
+												"max_wait_time": 16,
+												"spawn_entity": "terrariamod:servantofcthulhu"
+											}
+										]
+									},
+									"minecraft:environment_sensor": {
+										"triggers": {
+											"filters": {
+												"test": "is_daytime",
+												"value": true
+											},
+											"event": "terrariamod:despawn_entity"
+										}
+									}
+								},
+								"key": "minecraft:environment_sensor",
+								"children": [
+									{
+										"open": {
+											"triggers": {
+												"filters": {
+													"test": "is_daytime",
+													"value": true
+												},
+												"event": "terrariamod:despawn_entity"
+											}
+										},
+										"key": "triggers",
+										"children": [
+											{
+												"open": {
+													"filters": {
+														"test": "is_daytime",
+														"value": true
+													},
+													"event": "terrariamod:despawn_entity"
+												},
+												"key": "filters",
+												"is_minified": true,
+												"children": {
+													"test": "is_daytime",
+													"value": true
+												}
+											},
+											{
+												"open": {
+													"filters": {
+														"test": "is_daytime",
+														"value": true
+													},
+													"event": "terrariamod:despawn_entity"
+												},
+												"data": "terrariamod:despawn_entity",
+												"key": "event"
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:eyeofcthulhu_stageone",
+								"is_spawnable": true,
+								"is_summonable": true,
+								"is_experimental": false,
+								"animations": {
+									"to_stage_2": "controller.animation.eyeofcthulhu.to_stage_2",
+									"bridge_execute_commands": "controller.animation.bridge_eyeofcthulhu_stageone.execute_commands"
+								},
+								"scripts": {
+									"animate": [
+										"to_stage_2",
+										"bridge_execute_commands",
+										"bridge_execute_commands",
+										"bridge_execute_commands"
+									]
+								}
+							},
+							"components": {
+								"minecraft:experience_reward": {
+									"on_death": "query.last_hit_by_player ? 5 : 0"
+								},
+								"minecraft:type_family": {
+									"family": [
+										"phantom",
+										"undead",
+										"monster",
+										"mob"
+									]
+								},
+								"minecraft:nameable": {},
+								"minecraft:health": {
+									"value": 2800,
+									"max": 2800
+								},
+								"minecraft:hurt_on_condition": {
+									"damage_conditions": [
+										{
+											"filters": {
+												"test": "in_lava",
+												"subject": "self",
+												"operator": "==",
+												"value": true
+											},
+											"cause": "lava",
+											"damage_per_tick": 4
+										}
+									]
+								},
+								"minecraft:physics": {
+									"has_gravity": false
+								},
+								"minecraft:pushable": {
+									"is_pushable": true,
+									"is_pushable_by_piston": true
+								},
+								"minecraft:attack": {
+									"damage": 15
+								},
+								"minecraft:breathable": {
+									"total_supply": 15,
+									"suffocate_time": 0,
+									"breathes_air": true,
+									"breathes_water": false
+								},
+								"minecraft:collision_box": {
+									"width": 3,
+									"height": 3
+								},
+								"minecraft:movement": {
+									"value": 3
+								},
+								"minecraft:movement.glide": {
+									"start_speed": 0.1,
+									"speed_when_turning": 0.2
+								},
+								"minecraft:burns_in_daylight": {},
+								"minecraft:follow_range": {
+									"value": 64,
+									"max": 64
+								},
+								"minecraft:behavior.avoid_mob_type": {
+									"priority": 0,
+									"max_dist": 16,
+									"ignore_visibility": true,
+									"entity_types": [
+										{
+											"filters": {
+												"any_of": [
+													{
+														"test": "is_family",
+														"subject": "other",
+														"value": "ocelot"
+													},
+													{
+														"test": "is_family",
+														"subject": "other",
+														"value": "cat"
+													}
+												]
+											},
+											"max_dist": 16,
+											"walk_speed_multiplier": 1,
+											"sprint_speed_multiplier": 1
+										}
+									]
+								},
+								"minecraft:behavior.nearest_attackable_target": {
+									"priority": 1,
+									"reselect_targets": true,
+									"scan_interval": 10,
+									"within_radius": 64,
+									"must_see_forget_duration": 0.5,
+									"target_search_height": 80,
+									"entity_types": [
+										{
+											"filters": {
+												"test": "is_family",
+												"subject": "other",
+												"value": "player"
+											},
+											"max_dist": 64
+										},
+										{
+											"filters": {
+												"test": "is_family",
+												"subject": "other",
+												"value": "villager"
+											}
+										}
+									]
+								},
+								"minecraft:behavior.swoop_attack": {
+									"priority": 2,
+									"damage_reach": 0.9,
+									"speed_multiplier": 2,
+									"delay_range": [
+										1,
+										2
+									]
+								},
+								"minecraft:behavior.circle_around_anchor": {
+									"priority": 3,
+									"radius_change": 1,
+									"radius_adjustment_chance": 0.004,
+									"height_adjustment_chance": 0.002857,
+									"goal_radius": 1,
+									"angle_change": 15,
+									"radius_range": [
+										5,
+										15
+									],
+									"height_offset_range": [
+										-4,
+										5
+									],
+									"height_above_target_range": [
+										8,
+										12
+									]
+								},
+								"minecraft:boss": {
+									"name": "The Eye of Cthulhu §9Stage One",
+									"hud_range": 56
+								},
+								"minecraft:spawn_entity": {
+									"entities": [
+										{
+											"min_wait_time": 15,
+											"max_wait_time": 16,
+											"spawn_entity": "terrariamod:servantofcthulhu"
+										}
+									]
+								},
+								"minecraft:environment_sensor": {
+									"triggers": {
+										"filters": {
+											"test": "is_daytime",
+											"value": true
+										},
+										"event": "terrariamod:despawn_entity"
+									}
+								}
+							},
+							"events": {
+								"minecraft:entity_spawned": {
+									"add": {
+										"component_groups": [
+											"bridge:execute_command_id_1"
+										]
+									}
+								},
+								"bridge:remove_command_id_1": {
+									"add": {
+										"component_groups": [
+											"bridge:execute_no_command"
+										]
+									},
+									"remove": {
+										"component_groups": [
+											"bridge:execute_command_id_1"
+										]
+									}
+								},
+								"terrariamod:despawn_entity": {
+									"add": {
+										"component_groups": [
+											"terrariamod:despawn"
+										]
+									}
+								}
+							},
+							"component_groups": {
+								"bridge:execute_command_id_1": {
+									"minecraft:skin_id": {
+										"value": 1
+									}
+								},
+								"bridge:execute_no_command": {
+									"minecraft:skin_id": {
+										"value": 0
+									}
+								},
+								"terrariamod:despawn": {
+									"minecraft:instant_despawn": {
+										"remove_child_entities": true
+									}
+								}
+							}
+						},
+						"key": "events",
+						"children": [
+							{
+								"key": "minecraft:entity_spawned",
+								"is_minified": true,
+								"children": {
+									"add": {
+										"component_groups": [
+											"bridge:execute_command_id_1"
+										]
+									}
+								}
+							},
+							{
+								"key": "bridge:remove_command_id_1",
+								"is_minified": true,
+								"children": {
+									"add": {
+										"component_groups": [
+											"bridge:execute_no_command"
+										]
+									},
+									"remove": {
+										"component_groups": [
+											"bridge:execute_command_id_1"
+										]
+									}
+								}
+							},
+							{
+								"open": {
+									"minecraft:entity_spawned": {
+										"add": {
+											"component_groups": [
+												"bridge:execute_command_id_1"
+											]
+										}
+									},
+									"bridge:remove_command_id_1": {
+										"add": {
+											"component_groups": [
+												"bridge:execute_no_command"
+											]
+										},
+										"remove": {
+											"component_groups": [
+												"bridge:execute_command_id_1"
+											]
+										}
+									},
+									"terrariamod:despawn_entity": {
+										"add": {
+											"component_groups": [
+												"terrariamod:despawn"
+											]
+										}
+									}
+								},
+								"key": "terrariamod:despawn_entity",
+								"children": [
+									{
+										"open": {
+											"add": {
+												"component_groups": [
+													"terrariamod:despawn"
+												]
+											}
+										},
+										"key": "add",
+										"children": [
+											{
+												"open": {
+													"component_groups": [
+														"terrariamod:despawn"
+													]
+												},
+												"key": "component_groups",
+												"is_minified": true,
+												"children": [
+													"terrariamod:despawn"
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:eyeofcthulhu_stageone",
+								"is_spawnable": true,
+								"is_summonable": true,
+								"is_experimental": false,
+								"animations": {
+									"to_stage_2": "controller.animation.eyeofcthulhu.to_stage_2",
+									"bridge_execute_commands": "controller.animation.bridge_eyeofcthulhu_stageone.execute_commands"
+								},
+								"scripts": {
+									"animate": [
+										"to_stage_2",
+										"bridge_execute_commands",
+										"bridge_execute_commands",
+										"bridge_execute_commands"
+									]
+								}
+							},
+							"components": {
+								"minecraft:experience_reward": {
+									"on_death": "query.last_hit_by_player ? 5 : 0"
+								},
+								"minecraft:type_family": {
+									"family": [
+										"phantom",
+										"undead",
+										"monster",
+										"mob"
+									]
+								},
+								"minecraft:nameable": {},
+								"minecraft:health": {
+									"value": 2800,
+									"max": 2800
+								},
+								"minecraft:hurt_on_condition": {
+									"damage_conditions": [
+										{
+											"filters": {
+												"test": "in_lava",
+												"subject": "self",
+												"operator": "==",
+												"value": true
+											},
+											"cause": "lava",
+											"damage_per_tick": 4
+										}
+									]
+								},
+								"minecraft:physics": {
+									"has_gravity": false
+								},
+								"minecraft:pushable": {
+									"is_pushable": true,
+									"is_pushable_by_piston": true
+								},
+								"minecraft:attack": {
+									"damage": 15
+								},
+								"minecraft:breathable": {
+									"total_supply": 15,
+									"suffocate_time": 0,
+									"breathes_air": true,
+									"breathes_water": false
+								},
+								"minecraft:collision_box": {
+									"width": 3,
+									"height": 3
+								},
+								"minecraft:movement": {
+									"value": 3
+								},
+								"minecraft:movement.glide": {
+									"start_speed": 0.1,
+									"speed_when_turning": 0.2
+								},
+								"minecraft:burns_in_daylight": {},
+								"minecraft:follow_range": {
+									"value": 64,
+									"max": 64
+								},
+								"minecraft:behavior.avoid_mob_type": {
+									"priority": 0,
+									"max_dist": 16,
+									"ignore_visibility": true,
+									"entity_types": [
+										{
+											"filters": {
+												"any_of": [
+													{
+														"test": "is_family",
+														"subject": "other",
+														"value": "ocelot"
+													},
+													{
+														"test": "is_family",
+														"subject": "other",
+														"value": "cat"
+													}
+												]
+											},
+											"max_dist": 16,
+											"walk_speed_multiplier": 1,
+											"sprint_speed_multiplier": 1
+										}
+									]
+								},
+								"minecraft:behavior.nearest_attackable_target": {
+									"priority": 1,
+									"reselect_targets": true,
+									"scan_interval": 10,
+									"within_radius": 64,
+									"must_see_forget_duration": 0.5,
+									"target_search_height": 80,
+									"entity_types": [
+										{
+											"filters": {
+												"test": "is_family",
+												"subject": "other",
+												"value": "player"
+											},
+											"max_dist": 64
+										},
+										{
+											"filters": {
+												"test": "is_family",
+												"subject": "other",
+												"value": "villager"
+											}
+										}
+									]
+								},
+								"minecraft:behavior.swoop_attack": {
+									"priority": 2,
+									"damage_reach": 0.9,
+									"speed_multiplier": 2,
+									"delay_range": [
+										1,
+										2
+									]
+								},
+								"minecraft:behavior.circle_around_anchor": {
+									"priority": 3,
+									"radius_change": 1,
+									"radius_adjustment_chance": 0.004,
+									"height_adjustment_chance": 0.002857,
+									"goal_radius": 1,
+									"angle_change": 15,
+									"radius_range": [
+										5,
+										15
+									],
+									"height_offset_range": [
+										-4,
+										5
+									],
+									"height_above_target_range": [
+										8,
+										12
+									]
+								},
+								"minecraft:boss": {
+									"name": "The Eye of Cthulhu §9Stage One",
+									"hud_range": 56
+								},
+								"minecraft:spawn_entity": {
+									"entities": [
+										{
+											"min_wait_time": 15,
+											"max_wait_time": 16,
+											"spawn_entity": "terrariamod:servantofcthulhu"
+										}
+									]
+								},
+								"minecraft:environment_sensor": {
+									"triggers": {
+										"filters": {
+											"test": "is_daytime",
+											"value": true
+										},
+										"event": "terrariamod:despawn_entity"
+									}
+								}
+							},
+							"events": {
+								"minecraft:entity_spawned": {
+									"add": {
+										"component_groups": [
+											"bridge:execute_command_id_1"
+										]
+									}
+								},
+								"bridge:remove_command_id_1": {
+									"add": {
+										"component_groups": [
+											"bridge:execute_no_command"
+										]
+									},
+									"remove": {
+										"component_groups": [
+											"bridge:execute_command_id_1"
+										]
+									}
+								},
+								"terrariamod:despawn_entity": {
+									"add": {
+										"component_groups": [
+											"terrariamod:despawn"
+										]
+									}
+								}
+							},
+							"component_groups": {
+								"bridge:execute_command_id_1": {
+									"minecraft:skin_id": {
+										"value": 1
+									}
+								},
+								"bridge:execute_no_command": {
+									"minecraft:skin_id": {
+										"value": 0
+									}
+								},
+								"terrariamod:despawn": {
+									"minecraft:instant_despawn": {
+										"remove_child_entities": true
+									}
+								}
+							}
+						},
+						"key": "component_groups",
+						"children": [
+							{
+								"key": "bridge:execute_command_id_1",
+								"is_minified": true,
+								"children": {
+									"minecraft:skin_id": {
+										"value": 1
+									}
+								}
+							},
+							{
+								"key": "bridge:execute_no_command",
+								"is_minified": true,
+								"children": {
+									"minecraft:skin_id": {
+										"value": 0
+									}
+								}
+							},
+							{
+								"open": {
+									"bridge:execute_command_id_1": {
+										"minecraft:skin_id": {
+											"value": 1
+										}
+									},
+									"bridge:execute_no_command": {
+										"minecraft:skin_id": {
+											"value": 0
+										}
+									},
+									"terrariamod:despawn": {
+										"minecraft:instant_despawn": {
+											"remove_child_entities": true
+										}
+									}
+								},
+								"key": "terrariamod:despawn",
+								"children": [
+									{
+										"open": {
+											"minecraft:instant_despawn": {
+												"remove_child_entities": true
+											}
+										},
+										"key": "minecraft:instant_despawn",
+										"is_minified": true,
+										"children": {
+											"remove_child_entities": true
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

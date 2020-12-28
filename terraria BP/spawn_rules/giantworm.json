@@ -1,35 +1,31 @@
-//bridge-file-version: #4
+//bridge-file-version: #5
 {
 	"format_version": "1.8.0",
 	"minecraft:spawn_rules": {
 		"description": {
 			"identifier": "terrariamod:giantworm",
-			"population_control": "monster"
+			"population_control": "animal"
 		},
 		"conditions": [
 			{
-				"minecraft:spawns_underground": {},
 				"minecraft:brightness_filter": {
 					"min": 0,
-					"max": 4,
-					"adjust_for_weather": true
-				},
-				"minecraft:height_filter": {
-					"min": 0,
-					"max": 63
+					"max": 15,
+					"adjust_for_weather": false
 				},
 				"minecraft:weight": {
-					"default": 999
+					"default": 900000
+				},
+				"minecraft:herd": {
+					"min_size": 1,
+					"max_size": 3
 				},
 				"minecraft:biome_filter": {
 					"test": "has_biome_tag",
 					"operator": "==",
-					"value": "purity"
+					"value": "purity_forest"
 				},
-				"minecraft:herd": {
-					"min_size": 2,
-					"max_size": 2
-				}
+				"minecraft:spawns_underground": {}
 			}
 		]
 	}

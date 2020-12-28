@@ -1,17 +1,16 @@
-//bridge-file-version: #4
+//bridge-file-version: #6
 {
 	"format_version": "1.8.0",
 	"minecraft:spawn_rules": {
 		"description": {
 			"identifier": "terrariamod:blackslime",
-			"population_control": "monster"
+			"population_control": "animal"
 		},
 		"conditions": [
 			{
-				"minecraft:spawns_underground": {},
 				"minecraft:brightness_filter": {
 					"min": 0,
-					"max": 7,
+					"max": 15,
 					"adjust_for_weather": false
 				},
 				"minecraft:weight": {
@@ -24,8 +23,9 @@
 				"minecraft:biome_filter": {
 					"test": "has_biome_tag",
 					"operator": "==",
-					"value": "purity"
-				}
+					"value": "purity_forest"
+				},
+				"minecraft:spawns_underground": {}
 			}
 		]
 	}

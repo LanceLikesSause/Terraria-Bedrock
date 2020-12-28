@@ -1,0 +1,238 @@
+{
+	"file_path": "C:\\Users\\LANCE.LEGAUX\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\blocks\\mushroom.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "809fb071_0507_4de5_92d8_b916e8d2fa8a",
+	"file_version": 22,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:block": {
+						"description": {
+							"identifier": "terrariamod:mushroom"
+						},
+						"components": {
+							"minecraft:destroy_time": 0.1,
+							"minecraft:loot": "loot_tables/blocks/mushroom.json",
+							"minecraft:geometry": "geometry.cross",
+							"minecraft:material_instances": {
+								"*": {
+									"texture": "mushroom",
+									"render_method": "alpha_test"
+								}
+							},
+							"minecraft:entity_collision": false,
+							"minecraft:block_light_emission": 0,
+							"tag:terrariamod:plant": {},
+							"minecraft:block_light_absorption": 0,
+							"minecraft:placement_filter": {
+								"conditions": [
+									{
+										"block_filter": [
+											"terrariamod:purity_grass"
+										],
+										"allowed_faces": [
+											"up"
+										]
+									}
+								]
+							}
+						},
+						"events": {}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:mushroom"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:mushroom"
+							},
+							"components": {
+								"minecraft:destroy_time": 0.1,
+								"minecraft:loot": "loot_tables/blocks/mushroom.json",
+								"minecraft:geometry": "geometry.cross",
+								"minecraft:material_instances": {
+									"*": {
+										"texture": "mushroom",
+										"render_method": "alpha_test"
+									}
+								},
+								"minecraft:entity_collision": false,
+								"minecraft:block_light_emission": 0,
+								"tag:terrariamod:plant": {},
+								"minecraft:block_light_absorption": 0,
+								"minecraft:placement_filter": {
+									"conditions": [
+										{
+											"block_filter": [
+												"terrariamod:purity_grass"
+											],
+											"allowed_faces": [
+												"up"
+											]
+										}
+									]
+								}
+							},
+							"events": {}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "0.1",
+								"key": "minecraft:destroy_time"
+							},
+							{
+								"data": "loot_tables/blocks/mushroom.json",
+								"key": "minecraft:loot"
+							},
+							{
+								"data": "geometry.cross",
+								"key": "minecraft:geometry"
+							},
+							{
+								"key": "minecraft:material_instances",
+								"is_minified": true,
+								"children": {
+									"*": {
+										"texture": "mushroom",
+										"render_method": "alpha_test"
+									}
+								}
+							},
+							{
+								"data": "false",
+								"key": "minecraft:entity_collision"
+							},
+							{
+								"data": "0",
+								"key": "minecraft:block_light_emission"
+							},
+							{
+								"key": "tag:terrariamod:plant",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"data": "0",
+								"key": "minecraft:block_light_absorption"
+							},
+							{
+								"open": {
+									"minecraft:destroy_time": 0.1,
+									"minecraft:loot": "loot_tables/blocks/mushroom.json",
+									"minecraft:geometry": "geometry.cross",
+									"minecraft:material_instances": {
+										"*": {
+											"texture": "mushroom",
+											"render_method": "alpha_test"
+										}
+									},
+									"minecraft:entity_collision": false,
+									"minecraft:block_light_emission": 0,
+									"tag:terrariamod:plant": {},
+									"minecraft:block_light_absorption": 0,
+									"minecraft:placement_filter": {
+										"conditions": [
+											{
+												"block_filter": [
+													"terrariamod:purity_grass"
+												],
+												"allowed_faces": [
+													"up"
+												]
+											}
+										]
+									}
+								},
+								"key": "minecraft:placement_filter",
+								"children": [
+									{
+										"open": {
+											"conditions": [
+												{
+													"block_filter": [
+														"terrariamod:purity_grass"
+													],
+													"allowed_faces": [
+														"up"
+													]
+												}
+											]
+										},
+										"key": "conditions",
+										"children": [
+											{
+												"open": [
+													{
+														"block_filter": [
+															"terrariamod:purity_grass"
+														],
+														"allowed_faces": [
+															"up"
+														]
+													}
+												],
+												"children": [
+													{
+														"open": {
+															"block_filter": [
+																"terrariamod:purity_grass"
+															],
+															"allowed_faces": [
+																"up"
+															]
+														},
+														"key": "block_filter",
+														"is_minified": true,
+														"children": [
+															"terrariamod:purity_grass"
+														]
+													},
+													{
+														"open": {
+															"block_filter": [
+																"terrariamod:purity_grass"
+															],
+															"allowed_faces": [
+																"up"
+															]
+														},
+														"key": "allowed_faces",
+														"is_minified": true,
+														"children": [
+															"up"
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"key": "events",
+						"is_minified": true,
+						"children": {}
+					}
+				]
+			}
+		]
+	}
+}

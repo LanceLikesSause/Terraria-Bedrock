@@ -1,4 +1,4 @@
-//bridge-file-version: #65
+//bridge-file-version: #67
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
@@ -29,7 +29,8 @@
 				"run_command": {
 					"command": [
 						"function life_crystal_add",
-						"playsound lifecrystal.effect @a ~~~"
+						"playsound lifecrystal.effect @a ~~~",
+						"effect @s instant_health 9 99"
 					]
 				}
 			}

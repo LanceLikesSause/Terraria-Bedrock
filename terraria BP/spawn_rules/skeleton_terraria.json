@@ -1,43 +1,31 @@
-//bridge-file-version: #9
+//bridge-file-version: #10
 {
 	"format_version": "1.8.0",
 	"minecraft:spawn_rules": {
 		"description": {
 			"identifier": "terrariamod:skeleton_terraria",
-			"population_control": "monster"
+			"population_control": "animal"
 		},
 		"conditions": [
 			{
-				"minecraft:spawns_underground": {},
 				"minecraft:brightness_filter": {
 					"min": 0,
-					"max": 7,
-					"adjust_for_weather": true
-				},
-				"minecraft:difficulty_filter": {
-					"min": "easy",
-					"max": "hard"
+					"max": 15,
+					"adjust_for_weather": false
 				},
 				"minecraft:weight": {
-					"default": 1000
+					"default": 900000
 				},
 				"minecraft:herd": {
 					"min_size": 1,
-					"max_size": 2
+					"max_size": 3
 				},
 				"minecraft:biome_filter": {
-					"any_of": [
-						{
-							"all_of": [
-								{
-									"test": "has_biome_tag",
-									"operator": "==",
-									"value": "purity"
-								}
-							]
-						}
-					]
-				}
+					"test": "has_biome_tag",
+					"operator": "==",
+					"value": "purity_forest"
+				},
+				"minecraft:spawns_underground": {}
 			}
 		]
 	}

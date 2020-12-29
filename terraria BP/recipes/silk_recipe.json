@@ -1,0 +1,23 @@
+//bridge-file-version: #6
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "terrariamod:silk_recipe"
+		},
+		"tags": [
+			"loom"
+		],
+		"ingredients": [
+			{
+				"item": "terrariamod:purity_cobweb",
+				"count": 7
+			}
+		],
+		"result": [
+			{
+				"item": "terrariamod:silk"
+			}
+		]
+	}
+}

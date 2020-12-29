@@ -59,6 +59,12 @@
 				"controller.animation.health"
 			],
 			"custom_commands": []
+		},
+		"BP/animation_controllers/bridge/commands_purity_bed.json": {
+			"ids": [
+				"controller.animation.bridge_purity_bed.execute_commands"
+			],
+			"custom_commands": []
 		}
 	},
 	"biome": {
@@ -570,10 +576,64 @@
 		},
 		"BP/blocks/mushroom.json": {
 			"identifiers": [
-				"terrariamod:mushroom"
+				"terrariamod:purity_cobweb"
 			],
 			"events": [],
 			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/meteorite.json": {
+			"identifiers": [
+				"terrariamod:meteorite"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/purity_cobweb.json": {
+			"identifiers": [
+				"terrariamod:purity_cobweb"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/sawmill.json": {
+			"identifiers": [
+				"terrariamod:sawmill"
+			],
+			"events": [
+				"terrariamod:go_to_frame_one",
+				"terrariamod:go_to_frame_two"
+			],
+			"recipe_tags": [
+				"sawmill"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/iron_anvil.json": {
+			"identifiers": [
+				"terrariamod:iron_anvil"
+			],
+			"events": [],
+			"recipe_tags": [
+				"iron_anvil"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/purity_loom.json": {
+			"identifiers": [
+				"terrariamod:purity_loom"
+			],
+			"events": [],
+			"recipe_tags": [
+				"loom"
+			],
 			"custom_commands": [],
 			"custom_components": []
 		}
@@ -897,6 +957,20 @@
 			],
 			"custom_commands": [],
 			"custom_components": []
+		},
+		"BP/entities/purity_bed.json": {
+			"events": [
+				"terrariamod:set_spawn",
+				"terrariamod:remove_spawn"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:purity_bed"
+			],
+			"animation_references": [],
+			"families": [],
+			"custom_commands": [],
+			"custom_components": []
 		}
 	},
 	"feature_rule": {
@@ -986,9 +1060,6 @@
 		"BP/functions/hellstone_gear.mcfunction": {
 			"custom_commands": []
 		},
-		"BP/functions/magicmirror.mcfunction": {
-			"custom_commands": []
-		},
 		"BP/functions/mana.mcfunction": {
 			"custom_commands": [],
 			"tags": [
@@ -1050,7 +1121,14 @@
 		"2c3b8d09_aa64_470b_ad53_13df67104bbf": {},
 		"a0c4b39e_4696_4c69_b841_f0e178014926": {},
 		"20f1a76e_9b54_40ab_82c2_3f6d1e7dee16": {},
-		"03b01580_0946_4bbc_8aa5_8597e8d4cc21": {}
+		"03b01580_0946_4bbc_8aa5_8597e8d4cc21": {},
+		"ba96a40c_2ef5_4ec4_9962_bb3130c05cc0": {},
+		"generic": {},
+		"b0eac555_0ad3_4df0_bba7_ab0c50f54966": {},
+		"6bbabec0_d1bd_478b_8955_854f19718548": {},
+		"b9276445_0f39_4ba7_b64a_57f6c7955807": {},
+		"ad578558_df52_4117_825e_174a6e89e3ad": {},
+		"1e10946d_7be7_4da5_b1cb_6a292c8f2167": {}
 	},
 	"rp_animation_controller": {
 		"RP/animation_controllers/devourer.animation.controller.json": {
@@ -1680,6 +1758,46 @@
 			"geometry_identifiers": [
 				"default"
 			]
+		},
+		"RP/entity/purity_bed.json": {
+			"identifiers": [
+				"terrariamod:purity_bed"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"facing",
+				"move",
+				"look_at_target"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"undyed",
+				"white",
+				"orange",
+				"magenta",
+				"light_blue",
+				"yellow",
+				"lime",
+				"pink",
+				"gray",
+				"silver",
+				"cyan",
+				"purple",
+				"blue",
+				"brown",
+				"green",
+				"red",
+				"black"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
 		}
 	},
 	"entity_model": {
@@ -2028,6 +2146,31 @@
 			"tags": [
 				"workbench"
 			]
+		},
+		"BP/recipes/sawmill_iron_recipe.json": {
+			"tags": [
+				"sawmill"
+			]
+		},
+		"BP/recipes/sawmill_lead_recipe.json": {
+			"tags": [
+				"workbench"
+			]
+		},
+		"BP/recipes/loom_recipe.json": {
+			"tags": [
+				"sawmill"
+			]
+		},
+		"BP/recipes/silk_recipe.json": {
+			"tags": [
+				"loom"
+			]
+		},
+		"BP/recipes/bed_recipe.json": {
+			"tags": [
+				"sawmill"
+			]
 		}
 	},
 	"item": {
@@ -2136,6 +2279,24 @@
 		"BP/items/flamarang.json": {
 			"identifiers": [
 				"terrariamod:flamarang"
+			],
+			"custom_commands": []
+		},
+		"BP/items/magicmirror.json": {
+			"identifiers": [
+				"terrariamod:magicmirror"
+			],
+			"custom_commands": []
+		},
+		"BP/items/purity_bed.json": {
+			"identifiers": [
+				"terrariamod:purity_bed"
+			],
+			"custom_commands": []
+		},
+		"BP/items/silk.json": {
+			"identifiers": [
+				"terrariamod:silk"
 			],
 			"custom_commands": []
 		}

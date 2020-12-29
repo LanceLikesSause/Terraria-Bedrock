@@ -1,6 +1,24 @@
 //bridge-file-version: #12
 {
+	"terrariamod:purity_loom": {
+		"sound": "wood"
+	},
+	"terrariamod:sawmill": {
+		"sound": "wood"
+	},
+	"terrariamod:sawmill": {
+		"sound": "wood"
+	},
+	"terrariamod:purity_chain": {
+		"sound": "stone"
+	},
+	"terrariamod:purity_cobweb": {
+		"sound": "wood"
+	},
 	"terrariamod:jungle_wood": {
+		"sound": "wood",
+		"textures": "jungle_wood"
+	},	"terrariamod:jungle_wood": {
 		"sound": "wood",
 		"textures": "jungle_wood"
 	},

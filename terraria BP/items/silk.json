@@ -1,0 +1,23 @@
+//bridge-file-version: #2
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "terrariamod:silk",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "terrariamod:silk"
+			},
+			"minecraft:display_name": {
+				"value": "item.terrariamod:silk.name"
+			},
+			"minecraft:max_stack_size": 64,
+			"minecraft:creative_category": {
+				"parent": "nature"
+			}
+		},
+		"events": {}
+	}
+}

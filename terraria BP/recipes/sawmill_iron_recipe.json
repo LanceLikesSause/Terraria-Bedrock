@@ -1,0 +1,32 @@
+//bridge-file-version: #6
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "terrariamod:sawmill_iron_recipe"
+		},
+		"tags": [
+			"workbench"
+		],
+		"ingredients": [
+			{
+				"item": "terrariamod:ironbar",
+				"count": 2
+			},
+			{
+				"item": "terrariamod:purity_wood",
+				"count": 4
+			},
+			{
+				"item": "terrariamod:purity_chain",
+				"count": 1
+			}
+		],
+		"result": [
+			{
+				"item": "terrariamod:sawmill",
+				"count": 1
+			}
+		]
+	}
+}

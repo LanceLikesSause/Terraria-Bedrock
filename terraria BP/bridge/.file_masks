@@ -313,6 +313,36 @@
 						}
 					}
 				}
+			},
+			"b0eac555_0ad3_4df0_bba7_ab0c50f54966": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"274d4f12_d8b5_4028_afe3_cc7cd7a5bde4": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"95b5fce7_40f8_4b45_85f6_2efc21794914": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
 			}
 		}
 	},
@@ -992,6 +1022,66 @@
 		"data": {}
 	},
 	"BP/spawn_rules/undeadminer.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/meteorite.json": {
+		"data": {}
+	},
+	"BP/entities/purity_bed.json": {
+		"data": {}
+	},
+	"RP/entity/purity_bed.json": {
+		"data": {}
+	},
+	"BP/items/magicmirror.json": {
+		"data": {}
+	},
+	"BP/loot_tables/entities/purity_bed.json": {
+		"data": {}
+	},
+	"BP/items/purity_bed.json": {
+		"data": {}
+	},
+	"BP/blocks/purity_cobweb.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/purity_cobweb.json": {
+		"data": {}
+	},
+	"BP/blocks/sawmill.json": {
+		"data": {}
+	},
+	"BP/recipes/sawmill_iron_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/sawmill_lead_recipe.json": {
+		"data": {}
+	},
+	"BP/blocks/purity_loom.json": {
+		"data": {}
+	},
+	"BP/recipes/loom_recipe.json": {
+		"data": {}
+	},
+	"BP/items/silk.json": {
+		"data": {}
+	},
+	"BP/recipes/silk_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/bed_recipe.json": {
+		"data": {}
+	},
+	"BP/animation_controllers/bridge/commands_purity_bed.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/sawmill.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/purity_loom.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/purity_chain.json": {
 		"data": {}
 	}
 }

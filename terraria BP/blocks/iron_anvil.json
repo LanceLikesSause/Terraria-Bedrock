@@ -1,4 +1,4 @@
-//bridge-file-version: #6
+//bridge-file-version: #7
 {
 	"format_version": "1.16.100",
 	"minecraft:block": {
@@ -19,7 +19,8 @@
 				"grid_size": 3,
 				"crafting_tags": [
 					"iron_anvil"
-				]
+				],
+				"custom_description": "Iron Anvil"
 			},
 			"minecraft:block_light_emission": 1,
 			"minecraft:loot": "loot_tables/blocks/iron_anvil.json",

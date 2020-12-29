@@ -1,0 +1,166 @@
+{
+	"file_path": "C:\\Users\\LANCE.LEGAUX\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\recipes\\silk_recipe.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "2ab4728e_a23e_43db_9dfa_0e8ada79acb1",
+	"file_version": 6,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:recipe_shapeless": {
+						"description": {
+							"identifier": "terrariamod:silk_recipe"
+						},
+						"tags": [
+							"loom"
+						],
+						"ingredients": [
+							{
+								"item": "terrariamod:purity_cobweb",
+								"count": 7
+							}
+						],
+						"result": [
+							{
+								"item": "terrariamod:silk"
+							}
+						]
+					}
+				},
+				"key": "minecraft:recipe_shapeless",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:silk_recipe"
+							},
+							"tags": [
+								"loom"
+							],
+							"ingredients": [
+								{
+									"item": "terrariamod:purity_cobweb",
+									"count": 7
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:silk"
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:silk_recipe"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:silk_recipe"
+							},
+							"tags": [
+								"loom"
+							],
+							"ingredients": [
+								{
+									"item": "terrariamod:purity_cobweb",
+									"count": 7
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:silk"
+								}
+							]
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"loom"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:silk_recipe"
+							},
+							"tags": [
+								"loom"
+							],
+							"ingredients": [
+								{
+									"item": "terrariamod:purity_cobweb",
+									"count": 7
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:silk"
+								}
+							]
+						},
+						"key": "ingredients",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "terrariamod:purity_cobweb",
+										"count": 7
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "terrariamod:purity_cobweb",
+									"count": 7
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:silk_recipe"
+							},
+							"tags": [
+								"loom"
+							],
+							"ingredients": [
+								{
+									"item": "terrariamod:purity_cobweb",
+									"count": 7
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:silk"
+								}
+							]
+						},
+						"key": "result",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "terrariamod:silk"
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "terrariamod:silk"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

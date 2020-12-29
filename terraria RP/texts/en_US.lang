@@ -1,5 +1,5 @@
-##bridge-file-version: #391
-#####how to play
+##bridge-file-version: #393
+######how to play
 terrariamod.category.dakon=Terraria Mod Tutorial
 howtoplay.category.dakon=Terraria Guide
 howtoplay.template.title=Credits
@@ -48,6 +48,10 @@ tile.terrariamod:tree_log.name=Tree Log
 tile.terrariamod:tree_top.name=Tree Leaves
 tile.terrariamod:purity_sapling.name=Sapling
 item.terrariamod:purity_torch.name=Torch
+entity.terrariamod:purity_bed.name=Bed
+item.terrariamod:purity_bed.name=Bed
+tile.terrariamod:purity_cobweb.name=Cobweb
+tile.terrariamod:purity_chain.name=Chains
 tile.terrariamod:purity_grass.name=Grass
 tile.terrariamod:purity_tree.name=Tree
 item.terrariamod:purity_wood.name=Wood
@@ -58,6 +62,7 @@ tile.terrariamod:purity_sand.name=Sand
 tile.terrariamod:purity_clay.name=Clay
 tile.terrariamod:graybrick.name=Gray Brick
 tile.terrariamod:redbrick.name=Red Brick
+item.terrariamod:silk.name=Silk
 
 tile.terrariamod:tree_bottom_crimson.name=Tree Stem
 tile.terrariamod:tree_log_crimson.name=Tree Log
@@ -141,7 +146,11 @@ tile.terrariamod:workbench.name=Workbench
 tile.terrariamod:iron_anvil.name=Iron Anvil
 tile.terrariamod:tfurnace.name=Furnace
 tile.terrariamod:tfurnace=Furnace
+tile.terrariamod:purity_loom.name=Loom
+tile.terrariamod:purity_loom=Loom
 tile.terrariamod:workbench=Workbench
+tile.terrariamod:sawmill.name=Sawmill
+title.terrariamod:sawmill=Sawmill
 tile.terrariamod:bottle_station.name=Bottle Station
 tile.terrariamod:bottle_station=Bottle Station
 tile.terrariamod:iron_anvil=Iron Furnace

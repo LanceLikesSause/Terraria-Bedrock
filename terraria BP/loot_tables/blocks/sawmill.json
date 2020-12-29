@@ -7,19 +7,12 @@
 				{
 					"type": "item",
 					"weight": 1,
-					"name": "terrariamod:meteorite",
+					"name": "terrariamod:sawmill",
 					"functions": [
 						{
 							"function": "set_count",
 							"count": {
-								"min": 0,
-								"max": 2
-							}
-						},
-						{
-							"function": "looting_enchant",
-							"count": {
-								"min": 0,
+								"min": 1,
 								"max": 1
 							}
 						}

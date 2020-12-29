@@ -2,6 +2,12 @@
 	"resource_pack_name": "TerrariaModLLS",
 	"texture_name": "atlas.items",
 	"texture_data": {
+		"terrariamod:silk": {
+			"textures": "textures/items/silk"
+		},
+		"terrariamod:purity_bed": {
+			"textures": "textures/items/purity_bed"
+		},
 		"terrariamod:jungle_wood": {
 			"textures": "textures/items/jungle_wood"
 		},

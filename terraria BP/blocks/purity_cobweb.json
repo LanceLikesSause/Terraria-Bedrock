@@ -1,0 +1,25 @@
+//bridge-file-version: #37
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "terrariamod:purity_cobweb"
+		},
+		"components": {
+			"minecraft:destroy_time": 0.1,
+			"minecraft:loot": "loot_tables/blocks/purity_cobweb.json",
+			"minecraft:geometry": "geometry.cross",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "purity_cobweb",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:block_light_emission": 0,
+			"tag:terrariamod:plant": {},
+			"minecraft:block_light_absorption": 0,
+			"minecraft:friction": 0.1
+		},
+		"events": {}
+	}
+}

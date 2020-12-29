@@ -1,4 +1,4 @@
-//bridge-file-version: #3
+//bridge-file-version: #4
 {
 	"format_version": "1.16.100",
 	"minecraft:block": {
@@ -7,9 +7,9 @@
 			"register_to_creative_menu": true
 		},
 		"components": {
-			"minecraft:loot": "loot_tables/meteorite.json",
 			"minecraft:destroy_time": 1,
-			"tag:terrariamod:stone": {}
+			"tag:terrariamod:stone": {},
+			"minecraft:loot": "loot_tables/blocks/meteorite.json"
 		},
 		"events": {}
 	}

@@ -5,6 +5,21 @@
 	"padding": 8,
 	"num_mip_levels": 4,
 	"texture_data": {
+		"purity_loom": {
+			"textures": "textures/blocks/purity_loom"
+		},
+		"sawmill_two": {
+			"textures": "textures/blocks/sawmill_two"
+		},
+		"sawmill_one": {
+			"textures": "textures/blocks/sawmill_one"
+		},
+		"purity_chain": {
+			"textures": "textures/blocks/purity_chain"
+		},
+		"purity_cobweb": {
+			"textures": "textures/blocks/purity_cobweb"
+		},
 		"jungle_wood": {
 			"textures": "textures/blocks/jungle_wood"
 		},

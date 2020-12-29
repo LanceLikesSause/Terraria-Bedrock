@@ -1,0 +1,87 @@
+//bridge-file-version: #42
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "terrariamod:sawmill",
+			"register_to_creative_menu": true,
+			"properties": {
+				"terrariamod:frame_property": [
+					2,
+					1
+				]
+			}
+		},
+		"components": {
+			"minecraft:destroy_time": 1,
+			"minecraft:crafting_table": {
+				"grid_size": 3,
+				"crafting_tags": [
+					"sawmill"
+				],
+				"custom_description": "Sawmill"
+			},
+			"minecraft:block_light_emission": 1,
+			"minecraft:loot": "loot_tables/blocks/sawmill.json",
+			"tag:terrariamod:wood": {}
+		},
+		"events": {
+			"terrariamod:go_to_frame_one": {
+				"set_block_property": {
+					"terrariamod:frame_property": 1
+				}
+			},
+			"terrariamod:go_to_frame_two": {
+				"set_block_property": {
+					"terrariamod:frame_property": 2
+				}
+			}
+		},
+		"permutations": [
+			{
+				"condition": "query.block_property('terrariamod:frame_property') == 2",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "sawmill_two",
+							"render_method": "alpha_test"
+						}
+					},
+					"minecraft:geometry": "geometry.sawmill_two",
+					"minecraft:ticking": {
+						"looping": true,
+						"range": [
+							0.1,
+							0.1
+						],
+						"on_tick": {
+							"event": "terrariamod:go_to_frame_one"
+						}
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('terrariamod:frame_property') == 1",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "sawmill_one",
+							"render_method": "alpha_test"
+						}
+					},
+					"minecraft:geometry": "geometry.sawmill_one",
+					"minecraft:ticking": {
+						"looping": true,
+						"range": [
+							0.1,
+							0.1
+						],
+						"on_tick": {
+							"event": "terrariamod:go_to_frame_two"
+						}
+					}
+				}
+			}
+		]
+	}
+}

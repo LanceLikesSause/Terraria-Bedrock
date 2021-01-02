@@ -1,4 +1,4 @@
-//bridge-file-version: #40
+//bridge-file-version: #44
 {
 	"namespace": "how_to_play",
 	"how_to_play_screen@how_to_play_common.screen_base": {
@@ -59,6 +59,11 @@
 							}
 						},
 						{
+							"testfive_button@how_to_play.testfive_button": {
+								"$toggle_group_forced_index": 5
+							}
+						},
+						{
 							"padding_1@how_to_play_common.padding": {
 								"size": [
 									0,
@@ -92,9 +97,6 @@
 							"section_contents_header@how_to_play_common.section_contents_header": {}
 						},
 						{
-							"test_section@how_to_play.test_section": {}
-						},
-						{
 							"testone_section@how_to_play.testone_section": {}
 						},
 						{
@@ -108,6 +110,9 @@
 						},
 						{
 							"testfive_section@how_to_play.testfive_section": {}
+						},
+						{
+							"testsix_section@how_to_play.testsix_section": {}
 						},
 						{
 							"section_contents_footer@how_to_play_common.section_contents_footer": {}
@@ -359,5 +364,55 @@
 	},
 	"testfive_button@how_to_play_common.section_toggle_button": {
 		"$section_topic": "tempfive"
+	},
+	"testsix_section@how_to_play_common.main_sections": {
+		"bindings": [
+			{
+				"binding_type": "view",
+				"source_control_name": "tempfive_button_toggle",
+				"source_property_name": "#toggle_state",
+				"target_property_name": "#visible"
+			}
+		],
+		"controls": [
+			{
+				"header_34@how_to_play_common.header": {
+					"$text": "terrariamod.tempsix.title0"
+				}
+			},
+			{
+				"paragraph_35@how_to_play_common.paragraph": {
+					"$text": "terrariamod.tempsix.text0"
+				}
+			},
+			{
+				"image_24@how_to_play_common.image": {
+					"texture": "textures/ui/terrariaui/test8"
+				}
+			},
+			{
+				"header_36@how_to_play_common.header": {
+					"$text": "terrariamod.tempsix.title1"
+				}
+			},
+			{
+				"paragraph_37@how_to_play_common.paragraph": {
+					"$text": "terrariamod.tempsix.text1"
+				}
+			},
+			{
+				"header_38@how_to_play_common.header": {
+					"$text": "terrariamod.tempsix.title2"
+				}
+			},
+			{
+				"paragraph_39@how_to_play_common.paragraph": {
+					"$text": "terrariamod.tempsix.text2"
+				}
+			}
+		]
+	},
+	"testsix_button@how_to_play_common.section_toggle_button": {
+		"$section_topic": "tempsix"
 	}
 }

@@ -1128,7 +1128,14 @@
 		"6bbabec0_d1bd_478b_8955_854f19718548": {},
 		"b9276445_0f39_4ba7_b64a_57f6c7955807": {},
 		"ad578558_df52_4117_825e_174a6e89e3ad": {},
-		"1e10946d_7be7_4da5_b1cb_6a292c8f2167": {}
+		"1e10946d_7be7_4da5_b1cb_6a292c8f2167": {},
+		"a62aa2f5_b720_42b5_8635_55c204112358": {},
+		"508f77f2_9272_4991_9de5_540aa27b230e": {},
+		"57ce6c2a_2faa_4b3e_b25a_4f156a36a7dd": {},
+		"537cc931_787b_45c5_ba17_dcce10f23994": {},
+		"081d4a5d_fd20_4ef6_bf42_64899948ad6a": {},
+		"ce0c2558_57c9_4822_84c0_f1ba9a254cca": {},
+		"318e026d_6985_43b7_988a_1f46e7afcd9c": {}
 	},
 	"rp_animation_controller": {
 		"RP/animation_controllers/devourer.animation.controller.json": {
@@ -2297,6 +2304,522 @@
 		"BP/items/silk.json": {
 			"identifiers": [
 				"terrariamod:silk"
+			],
+			"custom_commands": []
+		},
+		"BP/items/ale.json": {
+			"identifiers": [
+				"terrariamod:ale"
+			],
+			"custom_commands": []
+		},
+		"BP/items/armsdealer_summoner.json": {
+			"identifiers": [
+				"terrariamod:armsdealer_summoner"
+			],
+			"custom_commands": []
+		},
+		"BP/items/bezoar.json": {
+			"identifiers": [
+				"terrariamod:bezoar"
+			],
+			"custom_commands": []
+		},
+		"BP/items/bomb.json": {
+			"identifiers": [
+				"terrariamod:bomb"
+			],
+			"custom_commands": []
+		},
+		"BP/items/bone_terraria.json": {
+			"identifiers": [
+				"terrariamod:bone_terraria"
+			],
+			"custom_commands": []
+		},
+		"BP/items/boomstick.json": {
+			"identifiers": [
+				"terrariamod:boomstick"
+			],
+			"custom_commands": []
+		},
+		"BP/items/bottle.json": {
+			"identifiers": [
+				"terrariamod:bottle"
+			],
+			"custom_commands": []
+		},
+		"BP/items/cartonofmilk.json": {
+			"identifiers": [
+				"terrariamod:cartonofmilk"
+			],
+			"custom_commands": []
+		},
+		"BP/items/copperbar.json": {
+			"identifiers": [
+				"terrariamod:copperbar"
+			],
+			"custom_commands": []
+		},
+		"BP/items/copperbow.json": {
+			"identifiers": [
+				"terrariamod:copperbow"
+			],
+			"custom_commands": []
+		},
+		"BP/items/coppercoin.json": {
+			"identifiers": [
+				"terrariamod:coppercoin"
+			],
+			"custom_commands": []
+		},
+		"BP/items/coppercoin_pile.json": {
+			"identifiers": [
+				"terrariamod:coppercoin_pile"
+			],
+			"custom_commands": []
+		},
+		"BP/items/corrupted_wood.json": {
+			"identifiers": [
+				"terrariamod:corrupted_wood"
+			],
+			"custom_commands": []
+		},
+		"BP/items/creamsoda.json": {
+			"identifiers": [
+				"terrariamod:creamsoda"
+			],
+			"custom_commands": []
+		},
+		"BP/items/crimson_wood.json": {
+			"identifiers": [
+				"terrariamod:crimson_wood"
+			],
+			"custom_commands": []
+		},
+		"BP/items/crimtanebar.json": {
+			"identifiers": [
+				"terrariamod:crimtanebar"
+			],
+			"custom_commands": []
+		},
+		"BP/items/crimtanebow.json": {
+			"identifiers": [
+				"terrariamod:crimtanebow"
+			],
+			"custom_commands": []
+		},
+		"BP/items/demolitionist_summoner.json": {
+			"identifiers": [
+				"terrariamod:demolitionist_summoner"
+			],
+			"custom_commands": []
+		},
+		"BP/items/demonitebar.json": {
+			"identifiers": [
+				"terrariamod:demonitebar"
+			],
+			"custom_commands": []
+		},
+		"BP/items/depthmeter.json": {
+			"identifiers": [
+				"terrariamod:depthmeter"
+			],
+			"custom_commands": []
+		},
+		"BP/items/dynamite.json": {
+			"identifiers": [
+				"terrariamod:dynamite"
+			],
+			"custom_commands": []
+		},
+		"BP/items/fallenstars.json": {
+			"identifiers": [
+				"terrariamod:fallenstars"
+			],
+			"custom_commands": []
+		},
+		"BP/items/flintlockpistol.json": {
+			"identifiers": [
+				"terrariamod:flintlockpistol"
+			],
+			"custom_commands": []
+		},
+		"BP/items/gel.json": {
+			"identifiers": [
+				"terrariamod:gel"
+			],
+			"custom_commands": []
+		},
+		"BP/items/glowing_mushroom.json": {
+			"identifiers": [
+				"terrariamod:glowing_mushroom"
+			],
+			"custom_commands": []
+		},
+		"BP/items/goldbar.json": {
+			"identifiers": [
+				"terrariamod:goldbar"
+			],
+			"custom_commands": []
+		},
+		"BP/items/goldbow.json": {
+			"identifiers": [
+				"terrariamod:goldbow"
+			],
+			"custom_commands": []
+		},
+		"BP/items/goldcoin.json": {
+			"identifiers": [
+				"terrariamod:goldcoin"
+			],
+			"custom_commands": []
+		},
+		"BP/items/goldcoin_pile.json": {
+			"identifiers": [
+				"terrariamod:goldcoin_pile"
+			],
+			"custom_commands": []
+		},
+		"BP/items/goldcrown.json": {
+			"identifiers": [
+				"terrariamod:goldcrown"
+			],
+			"custom_commands": []
+		},
+		"BP/items/goldenkey_dungeon.json": {
+			"identifiers": [
+				"terrariamod:goldenkey_dungeon"
+			],
+			"custom_commands": []
+		},
+		"BP/items/grenade.json": {
+			"identifiers": [
+				"terrariamod:grenade"
+			],
+			"custom_commands": []
+		},
+		"BP/items/guidevoodoodoll.json": {
+			"identifiers": [
+				"terrariamod:guidevoodoodoll"
+			],
+			"custom_commands": []
+		},
+		"BP/items/handgun.json": {
+			"identifiers": [
+				"terrariamod:handgun"
+			],
+			"custom_commands": []
+		},
+		"BP/items/healingpotion.json": {
+			"identifiers": [
+				"terrariamod:healingpotion"
+			],
+			"custom_commands": []
+		},
+		"BP/items/hellstonebar.json": {
+			"identifiers": [
+				"terrariamod:hellstonebar"
+			],
+			"custom_commands": []
+		},
+		"BP/items/ironbar.json": {
+			"identifiers": [
+				"terrariamod:ironbar"
+			],
+			"custom_commands": []
+		},
+		"BP/items/ironbow.json": {
+			"identifiers": [
+				"terrariamod:ironbow"
+			],
+			"custom_commands": []
+		},
+		"BP/items/jungle_wood.json": {
+			"identifiers": [
+				"terrariamod:jungle_wood"
+			],
+			"custom_commands": []
+		},
+		"BP/items/leadbar.json": {
+			"identifiers": [
+				"terrariamod:leadbar"
+			],
+			"custom_commands": []
+		},
+		"BP/items/leadbow.json": {
+			"identifiers": [
+				"terrariamod:leadbow"
+			],
+			"custom_commands": []
+		},
+		"BP/items/leadpickaxe.json": {
+			"identifiers": [
+				"terrariamod:leadpickaxe"
+			],
+			"custom_commands": []
+		},
+		"BP/items/lens.json": {
+			"identifiers": [
+				"terrariamod:lens"
+			],
+			"custom_commands": []
+		},
+		"BP/items/lesserhealingpotion.json": {
+			"identifiers": [
+				"terrariamod:lesserhealingpotion"
+			],
+			"custom_commands": []
+		},
+		"BP/items/merchant_summoner.json": {
+			"identifiers": [
+				"terrariamod:merchant_summoner"
+			],
+			"custom_commands": []
+		},
+		"BP/items/meteoritebar.json": {
+			"identifiers": [
+				"terrariamod:meteoritebar"
+			],
+			"custom_commands": []
+		},
+		"BP/items/minishark.json": {
+			"identifiers": [
+				"terrariamod:minishark"
+			],
+			"custom_commands": []
+		},
+		"BP/items/musketball.json": {
+			"identifiers": [
+				"terrariamod:musketball"
+			],
+			"custom_commands": []
+		},
+		"BP/items/nurse_summoner.json": {
+			"identifiers": [
+				"terrariamod:nurse_summoner"
+			],
+			"custom_commands": []
+		},
+		"BP/items/phoenixblaster.json": {
+			"identifiers": [
+				"terrariamod:phoenixblaster"
+			],
+			"custom_commands": []
+		},
+		"BP/items/platinumbar.json": {
+			"identifiers": [
+				"terrariamod:platinumbar"
+			],
+			"custom_commands": []
+		},
+		"BP/items/platinumbow.json": {
+			"identifiers": [
+				"terrariamod:platinumbow"
+			],
+			"custom_commands": []
+		},
+		"BP/items/platinumcoin.json": {
+			"identifiers": [
+				"terrariamod:platinumcoin"
+			],
+			"custom_commands": []
+		},
+		"BP/items/platinumcoin_pile.json": {
+			"identifiers": [
+				"terrariamod:platinumcoin_pile"
+			],
+			"custom_commands": []
+		},
+		"BP/items/poisonedknife.json": {
+			"identifiers": [
+				"terrariamod:poisonedknife"
+			],
+			"custom_commands": []
+		},
+		"BP/items/purity_torch.json": {
+			"identifiers": [
+				"terrariamod:purity_torch"
+			],
+			"custom_commands": []
+		},
+		"BP/items/purity_wood.json": {
+			"identifiers": [
+				"terrariamod:purity_wood"
+			],
+			"custom_commands": []
+		},
+		"BP/items/regenerationpotion.json": {
+			"identifiers": [
+				"terrariamod:regenerationpotion"
+			],
+			"custom_commands": []
+		},
+		"BP/items/rocketboots.json": {
+			"identifiers": [
+				"terrariamod:rocketboots"
+			],
+			"custom_commands": []
+		},
+		"BP/items/rottenchunk.json": {
+			"identifiers": [
+				"terrariamod:rottenchunk"
+			],
+			"custom_commands": []
+		},
+		"BP/items/ruby.json": {
+			"identifiers": [
+				"terrariamod:ruby"
+			],
+			"custom_commands": []
+		},
+		"BP/items/sapphire.json": {
+			"identifiers": [
+				"terrariamod:sapphire"
+			],
+			"custom_commands": []
+		},
+		"BP/items/shadowscale.json": {
+			"identifiers": [
+				"terrariamod:shadowscale"
+			],
+			"custom_commands": []
+		},
+		"BP/items/shuriken.json": {
+			"identifiers": [
+				"terrariamod:shuriken"
+			],
+			"custom_commands": []
+		},
+		"BP/items/silverbar.json": {
+			"identifiers": [
+				"terrariamod:silverbar"
+			],
+			"custom_commands": []
+		},
+		"BP/items/silverbow.json": {
+			"identifiers": [
+				"terrariamod:silverbow"
+			],
+			"custom_commands": []
+		},
+		"BP/items/silvercoin.json": {
+			"identifiers": [
+				"terrariamod:silvercoin"
+			],
+			"custom_commands": []
+		},
+		"BP/items/silvercoin_pile.json": {
+			"identifiers": [
+				"terrariamod:silvercoin_pile"
+			],
+			"custom_commands": []
+		},
+		"BP/items/slimecrown.json": {
+			"identifiers": [
+				"terrariamod:slimecrown"
+			],
+			"custom_commands": []
+		},
+		"BP/items/slimegun.json": {
+			"identifiers": [
+				"terrariamod:slimegun"
+			],
+			"custom_commands": []
+		},
+		"BP/items/slimestaff.json": {
+			"identifiers": [
+				"terrariamod:slimestaff"
+			],
+			"custom_commands": []
+		},
+		"BP/items/stinger.json": {
+			"identifiers": [
+				"terrariamod:stinger"
+			],
+			"custom_commands": []
+		},
+		"BP/items/throwingknife.json": {
+			"identifiers": [
+				"terrariamod:throwingknife"
+			],
+			"custom_commands": []
+		},
+		"BP/items/tinbar.json": {
+			"identifiers": [
+				"terrariamod:tinbar"
+			],
+			"custom_commands": []
+		},
+		"BP/items/tinbow.json": {
+			"identifiers": [
+				"terrariamod:tinbow"
+			],
+			"custom_commands": []
+		},
+		"BP/items/tissuesample.json": {
+			"identifiers": [
+				"terrariamod:tissuesample"
+			],
+			"custom_commands": []
+		},
+		"BP/items/tungstenbar.json": {
+			"identifiers": [
+				"terrariamod:tungstenbar"
+			],
+			"custom_commands": []
+		},
+		"BP/items/tungstenbow.json": {
+			"identifiers": [
+				"terrariamod:tungstenbow"
+			],
+			"custom_commands": []
+		},
+		"BP/items/vertebra.json": {
+			"identifiers": [
+				"terrariamod:vertebra"
+			],
+			"custom_commands": []
+		},
+		"BP/items/victoriousmushroom.json": {
+			"identifiers": [
+				"terrariamod:victoriousmushroom"
+			],
+			"custom_commands": []
+		},
+		"BP/items/vilemushroom.json": {
+			"identifiers": [
+				"terrariamod:vilemushroom"
+			],
+			"custom_commands": []
+		},
+		"BP/items/woodenarrow.json": {
+			"identifiers": [
+				"terrariamod:woodenarrow"
+			],
+			"custom_commands": []
+		},
+		"BP/items/woodenbow.json": {
+			"identifiers": [
+				"terrariamod:woodenbow"
+			],
+			"custom_commands": []
+		},
+		"BP/items/wormfood.json": {
+			"identifiers": [
+				"terrariamod:wormfood"
+			],
+			"custom_commands": []
+		},
+		"BP/items/zombiearm.json": {
+			"identifiers": [
+				"terrariamod:zombiearm"
+			],
+			"custom_commands": []
+		},
+		"BP/items/hellstonebow.json": {
+			"identifiers": [
+				"terrariamod:hellstonebow"
 			],
 			"custom_commands": []
 		}

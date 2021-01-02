@@ -1,0 +1,127 @@
+{
+	"file_path": "C:\\Users\\LANCE.LEGAUX\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\items\\goldcoin_pile.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "e25a27ec_14db_48b8_962c_56506a166035",
+	"file_version": 6,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "terrariamod:goldcoin_pile",
+							"category": "items"
+						},
+						"components": {
+							"minecraft:max_stack_size": 64,
+							"minecraft:display_name": {
+								"value": "item.terrariamod:goldcoin_pile.name"
+							},
+							"minecraft:icon": {
+								"texture": "terrariamod:goldcoin_pile"
+							},
+							"minecraft:creative_category": {
+								"parent": "items"
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:goldcoin_pile",
+								"category": "items"
+							},
+							"components": {
+								"minecraft:max_stack_size": 64,
+								"minecraft:display_name": {
+									"value": "item.terrariamod:goldcoin_pile.name"
+								},
+								"minecraft:icon": {
+									"texture": "terrariamod:goldcoin_pile"
+								},
+								"minecraft:creative_category": {
+									"parent": "items"
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:goldcoin_pile",
+							"category": "items"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:goldcoin_pile",
+								"category": "items"
+							},
+							"components": {
+								"minecraft:max_stack_size": 64,
+								"minecraft:display_name": {
+									"value": "item.terrariamod:goldcoin_pile.name"
+								},
+								"minecraft:icon": {
+									"texture": "terrariamod:goldcoin_pile"
+								},
+								"minecraft:creative_category": {
+									"parent": "items"
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "64",
+								"key": "minecraft:max_stack_size"
+							},
+							{
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "item.terrariamod:goldcoin_pile.name"
+								}
+							},
+							{
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "terrariamod:goldcoin_pile"
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 64,
+									"minecraft:display_name": {
+										"value": "item.terrariamod:goldcoin_pile.name"
+									},
+									"minecraft:icon": {
+										"texture": "terrariamod:goldcoin_pile"
+									},
+									"minecraft:creative_category": {
+										"parent": "items"
+									}
+								},
+								"key": "minecraft:creative_category",
+								"is_minified": true,
+								"children": {
+									"parent": "items"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

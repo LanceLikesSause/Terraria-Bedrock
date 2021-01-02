@@ -1,4 +1,4 @@
-//bridge-file-version: #16
+//bridge-file-version: #17
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
@@ -20,6 +20,9 @@
 			},
 			"minecraft:display_name": {
 				"value": "item.terrariamod:spacegun.name"
+			},
+			"minecraft:creative_category": {
+				"parent": "equipment"
 			}
 		},
 		"events": {

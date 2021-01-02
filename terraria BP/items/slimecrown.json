@@ -1,4 +1,4 @@
-//bridge-file-version: #6
+//bridge-file-version: #7
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
@@ -15,7 +15,11 @@
 			},
 			"minecraft:icon": {
 				"texture": "terrariamod:slimecrown"
+			},
+			"minecraft:creative_category": {
+				"parent": "nature"
 			}
-		}
+		},
+		"events": {}
 	}
 }

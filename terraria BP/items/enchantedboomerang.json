@@ -1,4 +1,4 @@
-//bridge-file-version: #40
+//bridge-file-version: #41
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
@@ -19,6 +19,9 @@
 				"on_use": {
 					"event": "terrariamod:throw"
 				}
+			},
+			"minecraft:creative_category": {
+				"parent": "equipment"
 			}
 		},
 		"events": {

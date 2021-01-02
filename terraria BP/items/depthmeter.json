@@ -1,4 +1,4 @@
-//bridge-file-version: #49
+//bridge-file-version: #50
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
@@ -23,6 +23,9 @@
 					"event": "minecraft:use",
 					"target": "self"
 				}
+			},
+			"minecraft:creative_category": {
+				"parent": "equipment"
 			}
 		},
 		"events": {

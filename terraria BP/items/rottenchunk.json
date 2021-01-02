@@ -1,4 +1,4 @@
-//bridge-file-version: #4
+//bridge-file-version: #5
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
@@ -13,6 +13,9 @@
 			},
 			"minecraft:icon": {
 				"texture": "terrariamod:rottenchunk"
+			},
+			"minecraft:creative_category": {
+				"parent": "nature"
 			}
 		},
 		"events": {}

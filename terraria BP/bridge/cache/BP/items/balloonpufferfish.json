@@ -1,0 +1,229 @@
+{
+	"file_path": "C:\\Users\\LANCE.LEGAUX\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\items\\balloonpufferfish.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "6b34b4b6_969a_4d06_9f2e_62e876d5bcc0",
+	"file_version": 39,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "terrariamod:balloonpufferfish",
+							"category": "equipment"
+						},
+						"components": {
+							"minecraft:stacked_by_data": true,
+							"minecraft:max_stack_size": 1,
+							"minecraft:use_duration": 1,
+							"minecraft:hand_equipped": true,
+							"minecraft:icon": {
+								"texture": "terrariamod:balloonpufferfish"
+							},
+							"minecraft:display_name": {
+								"value": "item.terrariamod:balloonpufferfish.name"
+							},
+							"minecraft:on_use": {
+								"on_use": {
+									"event": "minecraft:use",
+									"target": "self"
+								}
+							},
+							"minecraft:creative_category": {
+								"parent": "equipment"
+							}
+						},
+						"events": {
+							"minecraft:use": {
+								"add_mob_effect": {
+									"effect": "jump_boost",
+									"target": "holder",
+									"duration": 1500,
+									"amplifier": 7
+								}
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:balloonpufferfish",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:stacked_by_data": true,
+								"minecraft:max_stack_size": 1,
+								"minecraft:use_duration": 1,
+								"minecraft:hand_equipped": true,
+								"minecraft:icon": {
+									"texture": "terrariamod:balloonpufferfish"
+								},
+								"minecraft:display_name": {
+									"value": "item.terrariamod:balloonpufferfish.name"
+								},
+								"minecraft:on_use": {
+									"on_use": {
+										"event": "minecraft:use",
+										"target": "self"
+									}
+								},
+								"minecraft:creative_category": {
+									"parent": "equipment"
+								}
+							},
+							"events": {
+								"minecraft:use": {
+									"add_mob_effect": {
+										"effect": "jump_boost",
+										"target": "holder",
+										"duration": 1500,
+										"amplifier": 7
+									}
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:balloonpufferfish",
+							"category": "equipment"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:balloonpufferfish",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:stacked_by_data": true,
+								"minecraft:max_stack_size": 1,
+								"minecraft:use_duration": 1,
+								"minecraft:hand_equipped": true,
+								"minecraft:icon": {
+									"texture": "terrariamod:balloonpufferfish"
+								},
+								"minecraft:display_name": {
+									"value": "item.terrariamod:balloonpufferfish.name"
+								},
+								"minecraft:on_use": {
+									"on_use": {
+										"event": "minecraft:use",
+										"target": "self"
+									}
+								},
+								"minecraft:creative_category": {
+									"parent": "equipment"
+								}
+							},
+							"events": {
+								"minecraft:use": {
+									"add_mob_effect": {
+										"effect": "jump_boost",
+										"target": "holder",
+										"duration": 1500,
+										"amplifier": 7
+									}
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "true",
+								"key": "minecraft:stacked_by_data"
+							},
+							{
+								"data": "1",
+								"key": "minecraft:max_stack_size"
+							},
+							{
+								"data": "1",
+								"key": "minecraft:use_duration"
+							},
+							{
+								"data": "true",
+								"key": "minecraft:hand_equipped"
+							},
+							{
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "terrariamod:balloonpufferfish"
+								}
+							},
+							{
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "item.terrariamod:balloonpufferfish.name"
+								}
+							},
+							{
+								"key": "minecraft:on_use",
+								"is_minified": true,
+								"children": {
+									"on_use": {
+										"event": "minecraft:use",
+										"target": "self"
+									}
+								}
+							},
+							{
+								"open": {
+									"minecraft:stacked_by_data": true,
+									"minecraft:max_stack_size": 1,
+									"minecraft:use_duration": 1,
+									"minecraft:hand_equipped": true,
+									"minecraft:icon": {
+										"texture": "terrariamod:balloonpufferfish"
+									},
+									"minecraft:display_name": {
+										"value": "item.terrariamod:balloonpufferfish.name"
+									},
+									"minecraft:on_use": {
+										"on_use": {
+											"event": "minecraft:use",
+											"target": "self"
+										}
+									},
+									"minecraft:creative_category": {
+										"parent": "equipment"
+									}
+								},
+								"key": "minecraft:creative_category",
+								"is_minified": true,
+								"children": {
+									"parent": "equipment"
+								}
+							}
+						]
+					},
+					{
+						"key": "events",
+						"is_minified": true,
+						"children": {
+							"minecraft:use": {
+								"add_mob_effect": {
+									"effect": "jump_boost",
+									"target": "holder",
+									"duration": 1500,
+									"amplifier": 7
+								}
+							}
+						}
+					}
+				]
+			}
+		]
+	}
+}

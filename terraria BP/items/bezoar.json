@@ -1,10 +1,10 @@
-//bridge-file-version: #3
+//bridge-file-version: #4
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
 		"description": {
 			"identifier": "terrariamod:bezoar",
-			"category": "nature"
+			"category": "equipment"
 		},
 		"components": {
 			"minecraft:use_duration": 1,
@@ -21,7 +21,10 @@
 					"event": "terrariamod:clear_effects"
 				}
 			},
-			"minecraft:use_animation": "eat"
+			"minecraft:use_animation": "eat",
+			"minecraft:creative_category": {
+				"parent": "equipment"
+			}
 		},
 		"events": {
 			"terrariamod:clear_effects": {

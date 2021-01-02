@@ -1,4 +1,4 @@
-//bridge-file-version: #62
+//bridge-file-version: #63
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
@@ -35,6 +35,7 @@
 			"minecraft:creative_category": {
 				"parent": "itemGroup.name.pickaxe"
 			}
-		}
+		},
+		"events": {}
 	}
 }

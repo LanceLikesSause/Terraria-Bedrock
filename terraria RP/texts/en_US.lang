@@ -37,8 +37,14 @@ terrariamod.tempfive.title0=Getting to the Underworld
 terrariamod.tempfive.text0=In order to go to the underworld dimenson you must craft a Underworld Transporter. To craft it place 8 platinum bars into a workbench. Place the block and then interact with it, then the block will create the portal. §kWalk though it and accept your demise.
 terrariamod.tempfive.title1=Exploring the Underworld.
 terrariamod.tempfive.text1=The underworld contains very dangeous enemies such as demons, vodoo demons, lava slimes, etc. There is a very valuable ore there called §eHellstone§f. You can craft the hellstone into powerful gear, using the same recipes as the other ores.
-
-
+howtoplay.tempfive=Sawmill
+howtoplay.tempfive.title=Sawmill
+terrariamod.tempsix.title0=Crafting the sawmill
+terrariamod.tempsix.text0=To craft a sawmill you must place 4 wood of any type, 1 chain, and 2 iron or lead bars in a workbench in any order.
+terrariamod.tempsix.title1=Creating the bed
+terrariamod.tempsix.text1=With the sawmill you can create a bed. To do this you will need wood, and silk. To create silk you will need to craft the loom with the sawmill. To craft the loom place 4 wood into the sawmill. Finally in the loom place 7 cobwebs in the loom to get the silk. Cobwebs can be gotten from [need to have them generate naturally].
+terrariamod.tempsix.title2=Using the bed
+terrariamod.tempsix.text2=To use the bed you must interact with the ground. Interact with the bed to set you're spawn point, and break it to remove you're spawn point. Using the magic mirror will teleport you to you're bed.
 
 tile.terrariamod:underworld_transporter.name=Underworld Transporter
 

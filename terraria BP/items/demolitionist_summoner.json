@@ -1,4 +1,4 @@
-//bridge-file-version: #12
+//bridge-file-version: #13
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
@@ -15,7 +15,11 @@
 			},
 			"minecraft:display_name": {
 				"value": "item.terrariamod:demolitionist_summoner.name"
+			},
+			"minecraft:creative_category": {
+				"parent": "nature"
 			}
-		}
+		},
+		"events": {}
 	}
 }

@@ -1,4 +1,4 @@
-//bridge-file-version: #5
+//bridge-file-version: #6
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
@@ -24,7 +24,10 @@
 			"minecraft:display_name": {
 				"value": "item.terrariamod:cartonofmilk.name"
 			},
-			"minecraft:use_animation": "drink"
+			"minecraft:use_animation": "drink",
+			"minecraft:creative_category": {
+				"parent": "equipment"
+			}
 		},
 		"events": {
 			"minecraft:use": {

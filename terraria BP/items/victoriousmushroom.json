@@ -1,10 +1,10 @@
-//bridge-file-version: #19
+//bridge-file-version: #21
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
 		"description": {
 			"identifier": "terrariamod:victoriousmushroom",
-			"category": "equipment"
+			"category": "nature"
 		},
 		"components": {
 			"minecraft:stacked_by_data": true,
@@ -26,7 +26,7 @@
 			},
 			"minecraft:use_animation": "eat",
 			"minecraft:creative_category": {
-				"parent": "itemGroup.name.tpotions"
+				"parent": "nature"
 			},
 			"minecraft:block_placer": {
 				"block": "terrariamod:victoriousmushroom"

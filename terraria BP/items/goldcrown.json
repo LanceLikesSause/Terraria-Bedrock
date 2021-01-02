@@ -1,4 +1,4 @@
-//bridge-file-version: #5
+//bridge-file-version: #6
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
@@ -13,7 +13,11 @@
 			},
 			"minecraft:display_name": {
 				"value": "item.terrariamod:goldcrown.name"
+			},
+			"minecraft:creative_category": {
+				"parent": "nature"
 			}
-		}
+		},
+		"events": {}
 	}
 }

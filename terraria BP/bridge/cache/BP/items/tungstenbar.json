@@ -1,0 +1,127 @@
+{
+	"file_path": "C:\\Users\\LANCE.LEGAUX\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\items\\tungstenbar.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "fe7c1e2c_be72_4f65_8ba0_c8c52f96403b",
+	"file_version": 4,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "terrariamod:tungstenbar",
+							"category": "items"
+						},
+						"components": {
+							"minecraft:max_stack_size": 64,
+							"minecraft:display_name": {
+								"value": "item.terrariamod:tungstenbar.name"
+							},
+							"minecraft:icon": {
+								"texture": "terrariamod:tungstenbar"
+							},
+							"minecraft:creative_category": {
+								"parent": "items"
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:tungstenbar",
+								"category": "items"
+							},
+							"components": {
+								"minecraft:max_stack_size": 64,
+								"minecraft:display_name": {
+									"value": "item.terrariamod:tungstenbar.name"
+								},
+								"minecraft:icon": {
+									"texture": "terrariamod:tungstenbar"
+								},
+								"minecraft:creative_category": {
+									"parent": "items"
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:tungstenbar",
+							"category": "items"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:tungstenbar",
+								"category": "items"
+							},
+							"components": {
+								"minecraft:max_stack_size": 64,
+								"minecraft:display_name": {
+									"value": "item.terrariamod:tungstenbar.name"
+								},
+								"minecraft:icon": {
+									"texture": "terrariamod:tungstenbar"
+								},
+								"minecraft:creative_category": {
+									"parent": "items"
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "64",
+								"key": "minecraft:max_stack_size"
+							},
+							{
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "item.terrariamod:tungstenbar.name"
+								}
+							},
+							{
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "terrariamod:tungstenbar"
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 64,
+									"minecraft:display_name": {
+										"value": "item.terrariamod:tungstenbar.name"
+									},
+									"minecraft:icon": {
+										"texture": "terrariamod:tungstenbar"
+									},
+									"minecraft:creative_category": {
+										"parent": "items"
+									}
+								},
+								"key": "minecraft:creative_category",
+								"is_minified": true,
+								"children": {
+									"parent": "items"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

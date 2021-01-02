@@ -1,4 +1,4 @@
-//bridge-file-version: #39
+//bridge-file-version: #40
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
@@ -29,7 +29,7 @@
 			},
 			"minecraft:use_animation": "drink",
 			"minecraft:creative_category": {
-				"parent": "itemGroup.name.tpotions"
+				"parent": "equipment"
 			}
 		},
 		"events": {

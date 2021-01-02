@@ -1,0 +1,138 @@
+{
+	"file_path": "C:\\Users\\LANCE.LEGAUX\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\items\\slimecrown.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "c2a4478f_acdd_4eb2_830c_2717b76188ee",
+	"file_version": 7,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "terrariamod:slimecrown",
+							"category": "nature"
+						},
+						"components": {
+							"minecraft:entity_placer": {
+								"entity": "terrariamod:kingslime"
+							},
+							"minecraft:display_name": {
+								"value": "item.terrariamod:slimecrown.name"
+							},
+							"minecraft:icon": {
+								"texture": "terrariamod:slimecrown"
+							},
+							"minecraft:creative_category": {
+								"parent": "nature"
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:slimecrown",
+								"category": "nature"
+							},
+							"components": {
+								"minecraft:entity_placer": {
+									"entity": "terrariamod:kingslime"
+								},
+								"minecraft:display_name": {
+									"value": "item.terrariamod:slimecrown.name"
+								},
+								"minecraft:icon": {
+									"texture": "terrariamod:slimecrown"
+								},
+								"minecraft:creative_category": {
+									"parent": "nature"
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:slimecrown",
+							"category": "nature"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:slimecrown",
+								"category": "nature"
+							},
+							"components": {
+								"minecraft:entity_placer": {
+									"entity": "terrariamod:kingslime"
+								},
+								"minecraft:display_name": {
+									"value": "item.terrariamod:slimecrown.name"
+								},
+								"minecraft:icon": {
+									"texture": "terrariamod:slimecrown"
+								},
+								"minecraft:creative_category": {
+									"parent": "nature"
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"key": "minecraft:entity_placer",
+								"is_minified": true,
+								"children": {
+									"entity": "terrariamod:kingslime"
+								}
+							},
+							{
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "item.terrariamod:slimecrown.name"
+								}
+							},
+							{
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "terrariamod:slimecrown"
+								}
+							},
+							{
+								"open": {
+									"minecraft:entity_placer": {
+										"entity": "terrariamod:kingslime"
+									},
+									"minecraft:display_name": {
+										"value": "item.terrariamod:slimecrown.name"
+									},
+									"minecraft:icon": {
+										"texture": "terrariamod:slimecrown"
+									},
+									"minecraft:creative_category": {
+										"parent": "nature"
+									}
+								},
+								"key": "minecraft:creative_category",
+								"is_minified": true,
+								"children": {
+									"parent": "nature"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

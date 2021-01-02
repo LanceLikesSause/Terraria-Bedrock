@@ -1,4 +1,4 @@
-//bridge-file-version: #7
+//bridge-file-version: #8
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
@@ -44,7 +44,11 @@
 				"projectile_entity": "minecraft:arrow",
 				"minimum_critical_power": 0
 			},
-			"minecraft:use_animation": "bow"
-		}
+			"minecraft:use_animation": "bow",
+			"minecraft:creative_category": {
+				"parent": "equipment"
+			}
+		},
+		"events": {}
 	}
 }

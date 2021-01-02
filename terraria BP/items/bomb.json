@@ -1,4 +1,4 @@
-//bridge-file-version: #41
+//bridge-file-version: #42
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
@@ -20,7 +20,11 @@
 			},
 			"minecraft:display_name": {
 				"value": "item.terrariamod:bomb.name"
+			},
+			"minecraft:creative_category": {
+				"parent": "equipment"
 			}
-		}
+		},
+		"events": {}
 	}
 }

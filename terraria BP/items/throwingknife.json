@@ -1,4 +1,4 @@
-//bridge-file-version: #37
+//bridge-file-version: #38
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
@@ -20,7 +20,11 @@
 			},
 			"minecraft:icon": {
 				"texture": "terrariamod:throwingknife"
+			},
+			"minecraft:creative_category": {
+				"parent": "equipment"
 			}
-		}
+		},
+		"events": {}
 	}
 }

@@ -1,4 +1,4 @@
-//bridge-file-version: #15
+//bridge-file-version: #16
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
@@ -14,7 +14,11 @@
 			},
 			"minecraft:icon": {
 				"texture": "terrariamod:ironbow"
+			},
+			"minecraft:creative_category": {
+				"parent": "equipment"
 			}
-		}
+		},
+		"events": {}
 	}
 }

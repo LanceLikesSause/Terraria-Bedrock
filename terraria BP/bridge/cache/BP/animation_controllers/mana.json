@@ -1,0 +1,307 @@
+{
+	"file_path": "C:\\Users\\LANCE.LEGAUX\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\animation_controllers\\mana.json",
+	"file_type": "animation_controller",
+	"format_version": 1,
+	"file_uuid": "172e1446_0965_40fb_a349_2190a468c2cd",
+	"file_version": 42,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"animation_controllers": {
+						"controller.animation.mana": {
+							"initial_state": "default",
+							"states": {
+								"default": {
+									"transitions": [
+										{
+											"command": "query.life_time>1"
+										}
+									]
+								},
+								"command": {
+									"on_exit": [
+										"/function mana",
+										"/scoreboard objectives add nursestat dummy nursestat",
+										"/scoreboard objectives add merchantstat dummy merchantstat",
+										"/scoreboard objectives add demostat dummy demostat",
+										"/scoreboard objectives add coins dummy coins",
+										"/scoreboard objectives add explosives dummy explosives",
+										"/scoreboard objectives add ammo dummy ammo",
+										"/scoreboard objectives add armsstat dummy armsstat"
+									],
+									"transitions": [
+										{
+											"finished_command": "query.life_time>10"
+										}
+									]
+								},
+								"finished_command": {}
+							}
+						}
+					}
+				},
+				"key": "animation_controllers",
+				"children": [
+					{
+						"open": {
+							"controller.animation.mana": {
+								"initial_state": "default",
+								"states": {
+									"default": {
+										"transitions": [
+											{
+												"command": "query.life_time>1"
+											}
+										]
+									},
+									"command": {
+										"on_exit": [
+											"/function mana",
+											"/scoreboard objectives add nursestat dummy nursestat",
+											"/scoreboard objectives add merchantstat dummy merchantstat",
+											"/scoreboard objectives add demostat dummy demostat",
+											"/scoreboard objectives add coins dummy coins",
+											"/scoreboard objectives add explosives dummy explosives",
+											"/scoreboard objectives add ammo dummy ammo",
+											"/scoreboard objectives add armsstat dummy armsstat"
+										],
+										"transitions": [
+											{
+												"finished_command": "query.life_time>10"
+											}
+										]
+									},
+									"finished_command": {}
+								}
+							}
+						},
+						"key": "controller.animation.mana",
+						"children": [
+							{
+								"data": "default",
+								"key": "initial_state"
+							},
+							{
+								"open": {
+									"initial_state": "default",
+									"states": {
+										"default": {
+											"transitions": [
+												{
+													"command": "query.life_time>1"
+												}
+											]
+										},
+										"command": {
+											"on_exit": [
+												"/function mana",
+												"/scoreboard objectives add nursestat dummy nursestat",
+												"/scoreboard objectives add merchantstat dummy merchantstat",
+												"/scoreboard objectives add demostat dummy demostat",
+												"/scoreboard objectives add coins dummy coins",
+												"/scoreboard objectives add explosives dummy explosives",
+												"/scoreboard objectives add ammo dummy ammo",
+												"/scoreboard objectives add armsstat dummy armsstat"
+											],
+											"transitions": [
+												{
+													"finished_command": "query.life_time>10"
+												}
+											]
+										},
+										"finished_command": {}
+									}
+								},
+								"key": "states",
+								"children": [
+									{
+										"open": {
+											"default": {
+												"transitions": [
+													{
+														"command": "query.life_time>1"
+													}
+												]
+											},
+											"command": {
+												"on_exit": [
+													"/function mana",
+													"/scoreboard objectives add nursestat dummy nursestat",
+													"/scoreboard objectives add merchantstat dummy merchantstat",
+													"/scoreboard objectives add demostat dummy demostat",
+													"/scoreboard objectives add coins dummy coins",
+													"/scoreboard objectives add explosives dummy explosives",
+													"/scoreboard objectives add ammo dummy ammo",
+													"/scoreboard objectives add armsstat dummy armsstat"
+												],
+												"transitions": [
+													{
+														"finished_command": "query.life_time>10"
+													}
+												]
+											},
+											"finished_command": {}
+										},
+										"key": "default",
+										"children": [
+											{
+												"open": {
+													"transitions": [
+														{
+															"command": "query.life_time>1"
+														}
+													]
+												},
+												"key": "transitions",
+												"children": [
+													{
+														"open": [
+															{
+																"command": "query.life_time>1"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"command": "query.life_time>1"
+														}
+													}
+												]
+											}
+										]
+									},
+									{
+										"open": {
+											"default": {
+												"transitions": [
+													{
+														"command": "query.life_time>1"
+													}
+												]
+											},
+											"command": {
+												"on_exit": [
+													"/function mana",
+													"/scoreboard objectives add nursestat dummy nursestat",
+													"/scoreboard objectives add merchantstat dummy merchantstat",
+													"/scoreboard objectives add demostat dummy demostat",
+													"/scoreboard objectives add coins dummy coins",
+													"/scoreboard objectives add explosives dummy explosives",
+													"/scoreboard objectives add ammo dummy ammo",
+													"/scoreboard objectives add armsstat dummy armsstat"
+												],
+												"transitions": [
+													{
+														"finished_command": "query.life_time>10"
+													}
+												]
+											},
+											"finished_command": {}
+										},
+										"key": "command",
+										"children": [
+											{
+												"open": {
+													"on_exit": [
+														"/function mana",
+														"/scoreboard objectives add nursestat dummy nursestat",
+														"/scoreboard objectives add merchantstat dummy merchantstat",
+														"/scoreboard objectives add demostat dummy demostat",
+														"/scoreboard objectives add coins dummy coins",
+														"/scoreboard objectives add explosives dummy explosives",
+														"/scoreboard objectives add ammo dummy ammo",
+														"/scoreboard objectives add armsstat dummy armsstat"
+													],
+													"transitions": [
+														{
+															"finished_command": "query.life_time>10"
+														}
+													]
+												},
+												"key": "on_exit",
+												"is_minified": true,
+												"children": [
+													"/function mana",
+													"/scoreboard objectives add nursestat dummy nursestat",
+													"/scoreboard objectives add merchantstat dummy merchantstat",
+													"/scoreboard objectives add demostat dummy demostat",
+													"/scoreboard objectives add coins dummy coins",
+													"/scoreboard objectives add explosives dummy explosives",
+													"/scoreboard objectives add ammo dummy ammo",
+													"/scoreboard objectives add armsstat dummy armsstat"
+												]
+											},
+											{
+												"open": {
+													"on_exit": [
+														"/function mana",
+														"/scoreboard objectives add nursestat dummy nursestat",
+														"/scoreboard objectives add merchantstat dummy merchantstat",
+														"/scoreboard objectives add demostat dummy demostat",
+														"/scoreboard objectives add coins dummy coins",
+														"/scoreboard objectives add explosives dummy explosives",
+														"/scoreboard objectives add ammo dummy ammo",
+														"/scoreboard objectives add armsstat dummy armsstat"
+													],
+													"transitions": [
+														{
+															"finished_command": "query.life_time>10"
+														}
+													]
+												},
+												"key": "transitions",
+												"is_minified": true,
+												"children": [
+													{
+														"finished_command": "query.life_time>10"
+													}
+												]
+											}
+										]
+									},
+									{
+										"open": {
+											"default": {
+												"transitions": [
+													{
+														"command": "query.life_time>1"
+													}
+												]
+											},
+											"command": {
+												"on_exit": [
+													"/function mana",
+													"/scoreboard objectives add nursestat dummy nursestat",
+													"/scoreboard objectives add merchantstat dummy merchantstat",
+													"/scoreboard objectives add demostat dummy demostat",
+													"/scoreboard objectives add coins dummy coins",
+													"/scoreboard objectives add explosives dummy explosives",
+													"/scoreboard objectives add ammo dummy ammo",
+													"/scoreboard objectives add armsstat dummy armsstat"
+												],
+												"transitions": [
+													{
+														"finished_command": "query.life_time>10"
+													}
+												]
+											},
+											"finished_command": {}
+										},
+										"key": "finished_command",
+										"is_minified": true,
+										"children": {}
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

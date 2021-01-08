@@ -38,7 +38,7 @@
 		},
 		"BP/animation_controllers/eyeofcthulhu_to_stage_2.json": {
 			"ids": [
-				"controller.animation.eyeofcthulhu.to_stage_2"
+				"controller.animation.merchant_death"
 			],
 			"custom_commands": []
 		},
@@ -63,6 +63,30 @@
 		"BP/animation_controllers/bridge/commands_purity_bed.json": {
 			"ids": [
 				"controller.animation.bridge_purity_bed.execute_commands"
+			],
+			"custom_commands": []
+		},
+		"BP/animation_controllers/nurse_death.json": {
+			"ids": [
+				"controller.animation.merchant_death"
+			],
+			"custom_commands": []
+		},
+		"BP/animation_controllers/greenslime_death.json": {
+			"ids": [
+				"controller.animation.merchant_death"
+			],
+			"custom_commands": []
+		},
+		"BP/animation_controllers/merchant_death.json": {
+			"ids": [
+				"controller.animation.demolitionist_death"
+			],
+			"custom_commands": []
+		},
+		"BP/animation_controllers/demolitionist_death.json": {
+			"ids": [
+				"controller.animation.demolitionist_death"
 			],
 			"custom_commands": []
 		}
@@ -468,7 +492,8 @@
 				"terrariamod:crimsonheart"
 			],
 			"events": [
-				"terrariamod:interact"
+				"terrariamod:interact",
+				"terrariamod:trigger_event"
 			],
 			"recipe_tags": [],
 			"custom_commands": [],
@@ -636,6 +661,30 @@
 			],
 			"custom_commands": [],
 			"custom_components": []
+		},
+		"BP/blocks/wooden_chair.json": {
+			"identifiers": [
+				"terrariamod:wooden_chair"
+			],
+			"events": [
+				"terrariamod:summon",
+				"terrariamod:placement",
+				"terrariamod:destroy"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/surfacechest.json": {
+			"identifiers": [
+				"terrariamod:surfacechest"
+			],
+			"events": [
+				"terrariamod:destroy"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
 		}
 	},
 	"entity": {
@@ -710,7 +759,9 @@
 			"identifiers": [
 				"terrariamod:greenslime"
 			],
-			"animation_references": [],
+			"animation_references": [
+				"greenslime_death"
+			],
 			"families": [
 				"slimes_terraria",
 				"mob"
@@ -950,7 +1001,9 @@
 			"identifiers": [
 				"terrariamod:demolitionist"
 			],
-			"animation_references": [],
+			"animation_references": [
+				"demolitionist_death"
+			],
 			"families": [
 				"villager",
 				"mob"
@@ -971,12 +1024,62 @@
 			"families": [],
 			"custom_commands": [],
 			"custom_components": []
+		},
+		"BP/entities/nurse.json": {
+			"events": [
+				"terrariamod:death"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:nurse"
+			],
+			"animation_references": [
+				"nurse_death"
+			],
+			"families": [
+				"villager",
+				"mob"
+			],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/entities/merchant.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:merchant"
+			],
+			"animation_references": [
+				"merchant_death"
+			],
+			"families": [
+				"villager",
+				"mob"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/armsdealer.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:armsdealer"
+			],
+			"animation_references": [
+				"armsdealer_death"
+			],
+			"families": [
+				"villager",
+				"mob"
+			],
+			"custom_commands": [],
+			"custom_components": []
 		}
 	},
 	"feature_rule": {
 		"BP/feature_rules/crimsonalter_featurerule.json": {
 			"identifiers": [
-				"minecraft:crimsonalter_featurerule"
+				"minecraft:crimsonheart_featurerule"
 			]
 		},
 		"BP/feature_rules/victoriousmushroom_featurerule.json": {
@@ -1008,12 +1111,17 @@
 			"identifiers": [
 				"minecraft:puritysand_featurerule"
 			]
+		},
+		"BP/feature_rules/crimsonheart_featurerule.json": {
+			"identifiers": [
+				"minecraft:crimsonheart_featurerule"
+			]
 		}
 	},
 	"feature": {
 		"BP/features/crimsonalter_feature.json": {
 			"identifiers": [
-				"minecraft:crimsonalter_feature"
+				"minecraft:crimsonheart_feature"
 			]
 		},
 		"BP/features/victoriousmushroom_feature.json": {
@@ -1044,6 +1152,11 @@
 		"BP/features/puritysand_feature.json": {
 			"identifiers": [
 				"minecraft:puritysand_feature"
+			]
+		},
+		"BP/features/crimsonheart_feature.json": {
+			"identifiers": [
+				"minecraft:crimsonheart_feature"
 			]
 		}
 	},
@@ -1135,7 +1248,18 @@
 		"537cc931_787b_45c5_ba17_dcce10f23994": {},
 		"081d4a5d_fd20_4ef6_bf42_64899948ad6a": {},
 		"ce0c2558_57c9_4822_84c0_f1ba9a254cca": {},
-		"318e026d_6985_43b7_988a_1f46e7afcd9c": {}
+		"318e026d_6985_43b7_988a_1f46e7afcd9c": {},
+		"5061bcc8_0e9b_4d83_b09e_dd96b36cfb77": {},
+		"4a229b17_de19_4290_b67f_20186cd996cf": {},
+		"172e1446_0965_40fb_a349_2190a468c2cd": {},
+		"7e639747_6948_4410_a247_c5b38197bdc4": {},
+		"cba73e95_6075_420e_95e4_b7377f493d41": {},
+		"cf05d613_a6d1_4e05_a6ba_908d8237bca7": {},
+		"822f5535_5ac5_4684_ba91_b20875a049f0": {},
+		"380f8a00_a019_46e7_a01e_45277b9903cc": {},
+		"809c8973_70b6_4fa5_bdf6_cf2e314c0c5b": {},
+		"12c879eb_d63a_4c25_8bc1_d924d8d6228d": {},
+		"b5174e52_ef1e_439c_8c8f_2d1305df6c3d": {}
 	},
 	"rp_animation_controller": {
 		"RP/animation_controllers/devourer.animation.controller.json": {
@@ -1673,6 +1797,19 @@
 			]
 		},
 		"RP/attachables/tungsten_helmet.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/hellstonesword.json": {
 			"texture_references": [
 				"default",
 				"enchanted"

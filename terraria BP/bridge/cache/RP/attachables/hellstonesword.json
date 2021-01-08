@@ -1,0 +1,233 @@
+{
+	"file_path": "C:\\Users\\LANCE.LEGAUX\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\terraria RP\\attachables\\hellstonesword.json",
+	"file_type": "attachable",
+	"format_version": 1,
+	"file_uuid": "83a47272_b76c_4c43_ae62_4be3febd475d",
+	"file_version": 3,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"minecraft:attachable": {
+						"description": {
+							"identifier": "terrariamod:hellstonesword",
+							"materials": {
+								"default": "armor",
+								"enchanted": "armor_enchanted"
+							},
+							"textures": {
+								"default": "textures/models/armor/copper_chestplate_layer_1",
+								"enchanted": "textures/misc/enchanted_item_glint"
+							},
+							"geometry": {
+								"default": "geometry.player.armor.chestplate"
+							},
+							"scripts": {
+								"parent_setup": "variable.chestplate_layer_visible = 0.0;"
+							},
+							"render_controllers": [
+								"controller.render.armor"
+							]
+						}
+					}
+				},
+				"key": "minecraft:attachable",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:hellstonesword",
+								"materials": {
+									"default": "armor",
+									"enchanted": "armor_enchanted"
+								},
+								"textures": {
+									"default": "textures/models/armor/copper_chestplate_layer_1",
+									"enchanted": "textures/misc/enchanted_item_glint"
+								},
+								"geometry": {
+									"default": "geometry.player.armor.chestplate"
+								},
+								"scripts": {
+									"parent_setup": "variable.chestplate_layer_visible = 0.0;"
+								},
+								"render_controllers": [
+									"controller.render.armor"
+								]
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"open": {
+									"identifier": "terrariamod:hellstonesword",
+									"materials": {
+										"default": "armor",
+										"enchanted": "armor_enchanted"
+									},
+									"textures": {
+										"default": "textures/models/armor/copper_chestplate_layer_1",
+										"enchanted": "textures/misc/enchanted_item_glint"
+									},
+									"geometry": {
+										"default": "geometry.player.armor.chestplate"
+									},
+									"scripts": {
+										"parent_setup": "variable.chestplate_layer_visible = 0.0;"
+									},
+									"render_controllers": [
+										"controller.render.armor"
+									]
+								},
+								"data": "terrariamod:hellstonesword",
+								"key": "identifier"
+							},
+							{
+								"open": {
+									"identifier": "terrariamod:hellstonesword",
+									"materials": {
+										"default": "armor",
+										"enchanted": "armor_enchanted"
+									},
+									"textures": {
+										"default": "textures/models/armor/copper_chestplate_layer_1",
+										"enchanted": "textures/misc/enchanted_item_glint"
+									},
+									"geometry": {
+										"default": "geometry.player.armor.chestplate"
+									},
+									"scripts": {
+										"parent_setup": "variable.chestplate_layer_visible = 0.0;"
+									},
+									"render_controllers": [
+										"controller.render.armor"
+									]
+								},
+								"key": "materials",
+								"is_minified": true,
+								"children": {
+									"default": "armor",
+									"enchanted": "armor_enchanted"
+								}
+							},
+							{
+								"open": {
+									"identifier": "terrariamod:hellstonesword",
+									"materials": {
+										"default": "armor",
+										"enchanted": "armor_enchanted"
+									},
+									"textures": {
+										"default": "textures/models/armor/copper_chestplate_layer_1",
+										"enchanted": "textures/misc/enchanted_item_glint"
+									},
+									"geometry": {
+										"default": "geometry.player.armor.chestplate"
+									},
+									"scripts": {
+										"parent_setup": "variable.chestplate_layer_visible = 0.0;"
+									},
+									"render_controllers": [
+										"controller.render.armor"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": {
+									"default": "textures/models/armor/copper_chestplate_layer_1",
+									"enchanted": "textures/misc/enchanted_item_glint"
+								}
+							},
+							{
+								"open": {
+									"identifier": "terrariamod:hellstonesword",
+									"materials": {
+										"default": "armor",
+										"enchanted": "armor_enchanted"
+									},
+									"textures": {
+										"default": "textures/models/armor/copper_chestplate_layer_1",
+										"enchanted": "textures/misc/enchanted_item_glint"
+									},
+									"geometry": {
+										"default": "geometry.player.armor.chestplate"
+									},
+									"scripts": {
+										"parent_setup": "variable.chestplate_layer_visible = 0.0;"
+									},
+									"render_controllers": [
+										"controller.render.armor"
+									]
+								},
+								"key": "geometry",
+								"is_minified": true,
+								"children": {
+									"default": "geometry.player.armor.chestplate"
+								}
+							},
+							{
+								"open": {
+									"identifier": "terrariamod:hellstonesword",
+									"materials": {
+										"default": "armor",
+										"enchanted": "armor_enchanted"
+									},
+									"textures": {
+										"default": "textures/models/armor/copper_chestplate_layer_1",
+										"enchanted": "textures/misc/enchanted_item_glint"
+									},
+									"geometry": {
+										"default": "geometry.player.armor.chestplate"
+									},
+									"scripts": {
+										"parent_setup": "variable.chestplate_layer_visible = 0.0;"
+									},
+									"render_controllers": [
+										"controller.render.armor"
+									]
+								},
+								"key": "scripts",
+								"is_minified": true,
+								"children": {
+									"parent_setup": "variable.chestplate_layer_visible = 0.0;"
+								}
+							},
+							{
+								"open": {
+									"identifier": "terrariamod:hellstonesword",
+									"materials": {
+										"default": "armor",
+										"enchanted": "armor_enchanted"
+									},
+									"textures": {
+										"default": "textures/models/armor/copper_chestplate_layer_1",
+										"enchanted": "textures/misc/enchanted_item_glint"
+									},
+									"geometry": {
+										"default": "geometry.player.armor.chestplate"
+									},
+									"scripts": {
+										"parent_setup": "variable.chestplate_layer_visible = 0.0;"
+									},
+									"render_controllers": [
+										"controller.render.armor"
+									]
+								},
+								"key": "render_controllers",
+								"is_minified": true,
+								"children": [
+									"controller.render.armor"
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

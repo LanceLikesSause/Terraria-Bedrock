@@ -1,4 +1,4 @@
-//bridge-file-version: #19
+//bridge-file-version: #20
 {
 	"format_version": "1.16.0",
 	"minecraft:entity": {
@@ -6,7 +6,15 @@
 			"identifier": "terrariamod:demolitionist",
 			"is_spawnable": true,
 			"is_summonable": true,
-			"is_experimental": false
+			"is_experimental": false,
+			"scripts": {
+				"animate": [
+					"demolitionist_death"
+				]
+			},
+			"animations": {
+				"demolitionist_death": "controller.animation.demolitionist_death"
+			}
 		},
 		"component_groups": {},
 		"components": {

@@ -1,4 +1,4 @@
-//bridge-file-version: #65
+//bridge-file-version: #72
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
@@ -20,6 +20,9 @@
 			},
 			"minecraft:creative_category": {
 				"parent": "itemGroup.name.sword"
+			},
+			"minecraft:wearable": {
+				"slot": "slot.weapon.mainhand"
 			}
 		},
 		"events": {}

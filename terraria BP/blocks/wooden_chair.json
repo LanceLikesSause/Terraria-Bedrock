@@ -1,0 +1,66 @@
+//bridge-file-version: #81
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "terrariamod:wooden_chair"
+		},
+		"components": {
+			"minecraft:destroy_time": 1,
+			"tag:terrariamod:wood": {},
+			"minecraft:display_name": "Wooden Chair",
+			"minecraft:ticking": {
+				"looping": true,
+				"range": [
+					1,
+					1
+				],
+				"on_tick": {
+					"event": "terrariamod:summon"
+				}
+			},
+			"minecraft:on_player_destroyed": {
+				"event": "terrariamod:destroy",
+				"target": "self"
+			},
+			"minecraft:on_placed": {
+				"event": "terrariamod:placement",
+				"target": "self"
+			}
+		},
+		"events": {
+			"terrariamod:summon": {
+				"run_command": {
+					"command": [
+						"execute @a[scores={lcrystals=1..}] ~ ~ ~ scoreboard players add @a nursestat 1",
+						"execute @a[scores={nursestat=360}] ~ ~ ~ summon terrariamod:nurse",
+						"execute @a[scores={nursestat=360}] ~ ~ ~ say The Nurse has arrived",
+						"execute @a[scores={coins=30..}] ~ ~ ~ scoreboard players add @a merchantstat 1",
+						"execute @a[scores={merchantstat=360}] ~ ~ ~ summon terrariamod:merchant",
+						"execute @a[scores={merchantstat=360}] ~ ~ ~ say The Merchant has arrived",
+						"execute @a[scores={explosives=30..}] ~ ~ ~ scoreboard players add @a demostat 1",
+						"execute @a[scores={demostat=360}] ~ ~ ~ summon terrariamod:demolitionist",
+						"execute @a[scores={demostat=360}] ~ ~ ~ say The Demolitionist has arrived",
+						"execute @a[scores={ammo=1..}] ~ ~ ~ scoreboard players add @a armsstat 1",
+						"execute @a[scores={armsstat=360}] ~ ~ ~ summon terrariamod:armsdealer",
+						"execute @a[scores={armsstat=360}] ~ ~ ~ say The Arms Dealer has arrived"
+					]
+				}
+			},
+			"terrariamod:placement": {
+				"run_command": {
+					"command": [
+						"tickingarea add ~~~ ~~~ chair"
+					]
+				}
+			},
+			"terrariamod:destroy": {
+				"run_command": {
+					"command": [
+						"tickingarea remove ~~~"
+					]
+				}
+			}
+		}
+	}
+}

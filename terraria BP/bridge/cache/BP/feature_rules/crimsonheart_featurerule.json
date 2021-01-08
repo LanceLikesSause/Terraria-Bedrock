@@ -1,0 +1,129 @@
+{
+	"file_path": "C:\\Users\\LANCE.LEGAUX\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\feature_rules\\crimsonheart_featurerule.json",
+	"file_type": "feature_rule",
+	"format_version": 1,
+	"file_uuid": "4d356200_a638_4a85_9cfd_7007e5a81ff4",
+	"file_version": 8,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.13.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.13.0",
+					"minecraft:feature_rules": {
+						"description": {
+							"identifier": "minecraft:crimsonheart_featurerule",
+							"places_feature": "minecraft:crimsonheart_feature"
+						},
+						"conditions": {
+							"placement_pass": "surface_pass",
+							"minecraft:biome_filter": [
+								{
+									"test": "has_biome_tag",
+									"operator": "==",
+									"value": "overworld"
+								},
+								{
+									"test": "has_biome_tag",
+									"operator": "==",
+									"value": "crimson"
+								}
+							]
+						},
+						"distribution": {
+							"iterations": 1,
+							"x": 0,
+							"y": "query.heightmap(variable.worldx, variable.worldz)",
+							"z": 0,
+							"scatter_chance": {
+								"numerator": 1,
+								"denominator": 2
+							},
+							"coordinate_eval_order": "xyz"
+						}
+					}
+				},
+				"key": "minecraft:feature_rules",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "minecraft:crimsonheart_featurerule",
+								"places_feature": "minecraft:crimsonheart_feature"
+							},
+							"conditions": {
+								"placement_pass": "surface_pass",
+								"minecraft:biome_filter": [
+									{
+										"test": "has_biome_tag",
+										"operator": "==",
+										"value": "overworld"
+									},
+									{
+										"test": "has_biome_tag",
+										"operator": "==",
+										"value": "crimson"
+									}
+								]
+							},
+							"distribution": {
+								"iterations": 1,
+								"x": 0,
+								"y": "query.heightmap(variable.worldx, variable.worldz)",
+								"z": 0,
+								"scatter_chance": {
+									"numerator": 1,
+									"denominator": 2
+								},
+								"coordinate_eval_order": "xyz"
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "minecraft:crimsonheart_featurerule",
+							"places_feature": "minecraft:crimsonheart_feature"
+						}
+					},
+					{
+						"key": "conditions",
+						"is_minified": true,
+						"children": {
+							"placement_pass": "surface_pass",
+							"minecraft:biome_filter": [
+								{
+									"test": "has_biome_tag",
+									"operator": "==",
+									"value": "overworld"
+								},
+								{
+									"test": "has_biome_tag",
+									"operator": "==",
+									"value": "crimson"
+								}
+							]
+						}
+					},
+					{
+						"key": "distribution",
+						"is_minified": true,
+						"children": {
+							"iterations": 1,
+							"x": 0,
+							"y": "query.heightmap(variable.worldx, variable.worldz)",
+							"z": 0,
+							"scatter_chance": {
+								"numerator": 1,
+								"denominator": 2
+							},
+							"coordinate_eval_order": "xyz"
+						}
+					}
+				]
+			}
+		]
+	}
+}

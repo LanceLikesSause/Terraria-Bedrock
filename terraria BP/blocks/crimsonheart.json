@@ -1,4 +1,4 @@
-//bridge-file-version: #42
+//bridge-file-version: #43
 {
 	"format_version": "1.16.100",
 	"minecraft:block": {
@@ -20,7 +20,7 @@
 			"minecraft:loot": "loot_tables/blocks/crimsonheart.json",
 			"tag:terrariamod:stone": {},
 			"minecraft:on_player_destroyed": {
-				"event": "terrariamod:interact",
+				"event": "terrariamod:trigger_event",
 				"target": "self"
 			}
 		},
@@ -54,6 +54,16 @@
 						}
 					}
 				]
+			},
+			"terrariamod:trigger_event": {
+				"trigger": {
+					"event": "terrariamod:interact"
+				},
+				"run_command": {
+					"command": [
+						"scoreboard players add @a ammo 1"
+					]
+				}
 			}
 		}
 	}

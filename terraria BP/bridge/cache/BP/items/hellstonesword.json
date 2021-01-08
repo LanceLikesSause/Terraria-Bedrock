@@ -1,0 +1,180 @@
+{
+	"file_path": "C:\\Users\\LANCE.LEGAUX\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\items\\hellstonesword.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "39251159_6cbf_4618_b17e_ce97a069502c",
+	"file_version": 72,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "terrariamod:hellstonesword",
+							"category": "equipment"
+						},
+						"components": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:hand_equipped": true,
+							"minecraft:foil": true,
+							"minecraft:damage": 36,
+							"minecraft:weapon": {},
+							"minecraft:display_name": {
+								"value": "item.terrariamod:hellstonesword.name"
+							},
+							"minecraft:icon": {
+								"texture": "terrariamod:hellstonesword"
+							},
+							"minecraft:creative_category": {
+								"parent": "itemGroup.name.sword"
+							},
+							"minecraft:wearable": {
+								"slot": "slot.weapon.mainhand"
+							}
+						},
+						"events": {}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:hellstonesword",
+							"category": "equipment"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:hellstonesword",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:hand_equipped": true,
+								"minecraft:foil": true,
+								"minecraft:damage": 36,
+								"minecraft:weapon": {},
+								"minecraft:display_name": {
+									"value": "item.terrariamod:hellstonesword.name"
+								},
+								"minecraft:icon": {
+									"texture": "terrariamod:hellstonesword"
+								},
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.sword"
+								},
+								"minecraft:wearable": {
+									"slot": "slot.weapon.mainhand"
+								}
+							},
+							"events": {}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "1",
+								"key": "minecraft:max_stack_size"
+							},
+							{
+								"data": "true",
+								"key": "minecraft:hand_equipped"
+							},
+							{
+								"data": "true",
+								"key": "minecraft:foil"
+							},
+							{
+								"data": "36",
+								"key": "minecraft:damage"
+							},
+							{
+								"key": "minecraft:weapon",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "item.terrariamod:hellstonesword.name"
+								}
+							},
+							{
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "terrariamod:hellstonesword"
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:hand_equipped": true,
+									"minecraft:foil": true,
+									"minecraft:damage": 36,
+									"minecraft:weapon": {},
+									"minecraft:display_name": {
+										"value": "item.terrariamod:hellstonesword.name"
+									},
+									"minecraft:icon": {
+										"texture": "terrariamod:hellstonesword"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.sword"
+									},
+									"minecraft:wearable": {
+										"slot": "slot.weapon.mainhand"
+									}
+								},
+								"key": "minecraft:creative_category",
+								"is_minified": true,
+								"children": {
+									"parent": "itemGroup.name.sword"
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:hand_equipped": true,
+									"minecraft:foil": true,
+									"minecraft:damage": 36,
+									"minecraft:weapon": {},
+									"minecraft:display_name": {
+										"value": "item.terrariamod:hellstonesword.name"
+									},
+									"minecraft:icon": {
+										"texture": "terrariamod:hellstonesword"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.sword"
+									},
+									"minecraft:wearable": {
+										"slot": "slot.weapon.mainhand"
+									}
+								},
+								"key": "minecraft:wearable",
+								"is_minified": true,
+								"children": {
+									"slot": "slot.weapon.mainhand"
+								}
+							}
+						]
+					},
+					{
+						"key": "events",
+						"is_minified": true,
+						"children": {}
+					}
+				]
+			}
+		]
+	}
+}

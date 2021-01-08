@@ -1,0 +1,1565 @@
+{
+	"file_path": "C:\\Users\\LANCE.LEGAUX\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\entities\\nurse.json",
+	"file_type": "entity",
+	"format_version": 1,
+	"file_uuid": "7e639747_6948_4410_a247_c5b38197bdc4",
+	"file_version": 21,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.0",
+					"minecraft:entity": {
+						"description": {
+							"identifier": "terrariamod:nurse",
+							"is_spawnable": true,
+							"is_summonable": true,
+							"is_experimental": false,
+							"animations": {
+								"nurse_death": "controller.animation.nurse_death"
+							},
+							"scripts": {
+								"animate": [
+									"nurse_death"
+								]
+							}
+						},
+						"component_groups": {},
+						"components": {
+							"minecraft:behavior.trade_interest": {
+								"priority": 5,
+								"within_radius": 6,
+								"interest_time": 45,
+								"remove_item_time": 1,
+								"carried_item_switch_time": 2,
+								"cooldown": 2
+							},
+							"minecraft:type_family": {
+								"family": [
+									"villager",
+									"mob"
+								]
+							},
+							"minecraft:mark_variant": {
+								"value": 0
+							},
+							"minecraft:breathable": {
+								"total_supply": 15,
+								"suffocate_time": 0
+							},
+							"minecraft:health": {
+								"value": 250,
+								"max": 250
+							},
+							"minecraft:hurt_on_condition": {
+								"damage_conditions": [
+									{
+										"filters": {
+											"test": "in_lava",
+											"subject": "self",
+											"operator": "==",
+											"value": true
+										},
+										"cause": "lava",
+										"damage_per_tick": 4
+									}
+								]
+							},
+							"minecraft:hide": {},
+							"minecraft:collision_box": {
+								"width": 0.6,
+								"height": 1.9
+							},
+							"minecraft:nameable": {},
+							"minecraft:movement": {
+								"value": 0.5
+							},
+							"minecraft:navigation.walk": {
+								"can_path_over_water": true,
+								"can_pass_doors": true,
+								"can_open_doors": true,
+								"avoid_water": true
+							},
+							"minecraft:follow_range": {
+								"value": 128
+							},
+							"minecraft:annotation.open_door": {},
+							"minecraft:movement.basic": {},
+							"minecraft:jump.static": {},
+							"minecraft:can_climb": {},
+							"minecraft:inventory": {
+								"inventory_size": 8,
+								"private": true
+							},
+							"minecraft:dweller": {
+								"dwelling_type": "village",
+								"dweller_role": "inhabitant",
+								"update_interval_base": 60,
+								"update_interval_variant": 40,
+								"can_find_poi": true,
+								"can_migrate": true,
+								"first_founding_reward": 5
+							},
+							"minecraft:persistent": {},
+							"minecraft:behavior.float": {
+								"priority": 0
+							},
+							"minecraft:behavior.hide": {
+								"priority": 0,
+								"speed_multiplier": 0.8,
+								"poi_type": "bed",
+								"duration": 30
+							},
+							"minecraft:behavior.panic": {
+								"priority": 1,
+								"speed_multiplier": 0.6
+							},
+							"minecraft:behavior.trade_with_player": {
+								"priority": 2
+							},
+							"minecraft:behavior.avoid_mob_type": {
+								"priority": 4,
+								"entity_types": [
+									{
+										"filters": {
+											"any_of": [
+												{
+													"test": "is_family",
+													"subject": "other",
+													"value": "zombie"
+												},
+												{
+													"test": "is_family",
+													"subject": "other",
+													"value": "zombie_villager"
+												},
+												{
+													"test": "is_family",
+													"subject": "other",
+													"value": "zombie_pigman"
+												},
+												{
+													"test": "is_family",
+													"subject": "other",
+													"value": "illager"
+												},
+												{
+													"test": "is_family",
+													"subject": "other",
+													"value": "vex"
+												}
+											]
+										},
+										"max_dist": 8,
+										"walk_speed_multiplier": 0.6,
+										"sprint_speed_multiplier": 0.6
+									}
+								]
+							},
+							"minecraft:behavior.pickup_items": {
+								"priority": 4,
+								"max_dist": 3,
+								"goal_radius": 2,
+								"speed_multiplier": 0.5,
+								"can_pickup_to_hand_or_equipment": false
+							},
+							"minecraft:behavior.move_indoors": {
+								"priority": 6,
+								"speed_multiplier": 0.8,
+								"timeout_cooldown": 8
+							},
+							"minecraft:behavior.look_at_trading_player": {
+								"priority": 7
+							},
+							"minecraft:behavior.look_at_player": {
+								"priority": 8,
+								"look_distance": 8,
+								"probability": 0.02
+							},
+							"minecraft:behavior.share_items": {
+								"priority": 9,
+								"max_dist": 3,
+								"goal_radius": 2,
+								"speed_multiplier": 0.5,
+								"entity_types": [
+									{
+										"filters": {
+											"test": "is_family",
+											"subject": "other",
+											"value": "villager"
+										}
+									}
+								]
+							},
+							"minecraft:behavior.move_towards_restriction": {
+								"priority": 10,
+								"speed_multiplier": 0.6
+							},
+							"minecraft:behavior.random_stroll": {
+								"priority": 10,
+								"speed_multiplier": 0.6
+							},
+							"minecraft:physics": {},
+							"minecraft:pushable": {
+								"is_pushable": true,
+								"is_pushable_by_piston": true
+							},
+							"minecraft:economy_trade_table": {
+								"display_name": "Nurse",
+								"table": "trading/economy_trades/nurse_trades.json",
+								"new_screen": true,
+								"show_trade_screen": true,
+								"convert_trades_economy": true,
+								"persist_trades": true
+							},
+							"minecraft:behavior.nearest_attackable_target": {
+								"priority": 2,
+								"must_see": true,
+								"reselect_targets": true,
+								"entity_types": [
+									{
+										"filters": {
+											"test": "is_family",
+											"subject": "other",
+											"value": "slimes_terraria"
+										},
+										"max_dist": 8
+									}
+								]
+							},
+							"minecraft:behavior.ranged_attack": {
+								"priority": 0,
+								"attack_interval_min": 1,
+								"attack_interval_max": 3,
+								"attack_radius": 15
+							},
+							"minecraft:shooter": {
+								"def": "minecraft:splash_potion",
+								"aux_val": 24
+							}
+						},
+						"events": {
+							"terrariamod:death": {
+								"execute": {
+									"commands": [
+										"say nurse has died",
+										"execute @a[scores={lcrystals=1..}] ~ ~ ~ scoreboard players set @a nursestat 1"
+									]
+								}
+							}
+						}
+					}
+				},
+				"key": "minecraft:entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:nurse",
+								"is_spawnable": true,
+								"is_summonable": true,
+								"is_experimental": false,
+								"animations": {
+									"nurse_death": "controller.animation.nurse_death"
+								},
+								"scripts": {
+									"animate": [
+										"nurse_death"
+									]
+								}
+							},
+							"component_groups": {},
+							"components": {
+								"minecraft:behavior.trade_interest": {
+									"priority": 5,
+									"within_radius": 6,
+									"interest_time": 45,
+									"remove_item_time": 1,
+									"carried_item_switch_time": 2,
+									"cooldown": 2
+								},
+								"minecraft:type_family": {
+									"family": [
+										"villager",
+										"mob"
+									]
+								},
+								"minecraft:mark_variant": {
+									"value": 0
+								},
+								"minecraft:breathable": {
+									"total_supply": 15,
+									"suffocate_time": 0
+								},
+								"minecraft:health": {
+									"value": 250,
+									"max": 250
+								},
+								"minecraft:hurt_on_condition": {
+									"damage_conditions": [
+										{
+											"filters": {
+												"test": "in_lava",
+												"subject": "self",
+												"operator": "==",
+												"value": true
+											},
+											"cause": "lava",
+											"damage_per_tick": 4
+										}
+									]
+								},
+								"minecraft:hide": {},
+								"minecraft:collision_box": {
+									"width": 0.6,
+									"height": 1.9
+								},
+								"minecraft:nameable": {},
+								"minecraft:movement": {
+									"value": 0.5
+								},
+								"minecraft:navigation.walk": {
+									"can_path_over_water": true,
+									"can_pass_doors": true,
+									"can_open_doors": true,
+									"avoid_water": true
+								},
+								"minecraft:follow_range": {
+									"value": 128
+								},
+								"minecraft:annotation.open_door": {},
+								"minecraft:movement.basic": {},
+								"minecraft:jump.static": {},
+								"minecraft:can_climb": {},
+								"minecraft:inventory": {
+									"inventory_size": 8,
+									"private": true
+								},
+								"minecraft:dweller": {
+									"dwelling_type": "village",
+									"dweller_role": "inhabitant",
+									"update_interval_base": 60,
+									"update_interval_variant": 40,
+									"can_find_poi": true,
+									"can_migrate": true,
+									"first_founding_reward": 5
+								},
+								"minecraft:persistent": {},
+								"minecraft:behavior.float": {
+									"priority": 0
+								},
+								"minecraft:behavior.hide": {
+									"priority": 0,
+									"speed_multiplier": 0.8,
+									"poi_type": "bed",
+									"duration": 30
+								},
+								"minecraft:behavior.panic": {
+									"priority": 1,
+									"speed_multiplier": 0.6
+								},
+								"minecraft:behavior.trade_with_player": {
+									"priority": 2
+								},
+								"minecraft:behavior.avoid_mob_type": {
+									"priority": 4,
+									"entity_types": [
+										{
+											"filters": {
+												"any_of": [
+													{
+														"test": "is_family",
+														"subject": "other",
+														"value": "zombie"
+													},
+													{
+														"test": "is_family",
+														"subject": "other",
+														"value": "zombie_villager"
+													},
+													{
+														"test": "is_family",
+														"subject": "other",
+														"value": "zombie_pigman"
+													},
+													{
+														"test": "is_family",
+														"subject": "other",
+														"value": "illager"
+													},
+													{
+														"test": "is_family",
+														"subject": "other",
+														"value": "vex"
+													}
+												]
+											},
+											"max_dist": 8,
+											"walk_speed_multiplier": 0.6,
+											"sprint_speed_multiplier": 0.6
+										}
+									]
+								},
+								"minecraft:behavior.pickup_items": {
+									"priority": 4,
+									"max_dist": 3,
+									"goal_radius": 2,
+									"speed_multiplier": 0.5,
+									"can_pickup_to_hand_or_equipment": false
+								},
+								"minecraft:behavior.move_indoors": {
+									"priority": 6,
+									"speed_multiplier": 0.8,
+									"timeout_cooldown": 8
+								},
+								"minecraft:behavior.look_at_trading_player": {
+									"priority": 7
+								},
+								"minecraft:behavior.look_at_player": {
+									"priority": 8,
+									"look_distance": 8,
+									"probability": 0.02
+								},
+								"minecraft:behavior.share_items": {
+									"priority": 9,
+									"max_dist": 3,
+									"goal_radius": 2,
+									"speed_multiplier": 0.5,
+									"entity_types": [
+										{
+											"filters": {
+												"test": "is_family",
+												"subject": "other",
+												"value": "villager"
+											}
+										}
+									]
+								},
+								"minecraft:behavior.move_towards_restriction": {
+									"priority": 10,
+									"speed_multiplier": 0.6
+								},
+								"minecraft:behavior.random_stroll": {
+									"priority": 10,
+									"speed_multiplier": 0.6
+								},
+								"minecraft:physics": {},
+								"minecraft:pushable": {
+									"is_pushable": true,
+									"is_pushable_by_piston": true
+								},
+								"minecraft:economy_trade_table": {
+									"display_name": "Nurse",
+									"table": "trading/economy_trades/nurse_trades.json",
+									"new_screen": true,
+									"show_trade_screen": true,
+									"convert_trades_economy": true,
+									"persist_trades": true
+								},
+								"minecraft:behavior.nearest_attackable_target": {
+									"priority": 2,
+									"must_see": true,
+									"reselect_targets": true,
+									"entity_types": [
+										{
+											"filters": {
+												"test": "is_family",
+												"subject": "other",
+												"value": "slimes_terraria"
+											},
+											"max_dist": 8
+										}
+									]
+								},
+								"minecraft:behavior.ranged_attack": {
+									"priority": 0,
+									"attack_interval_min": 1,
+									"attack_interval_max": 3,
+									"attack_radius": 15
+								},
+								"minecraft:shooter": {
+									"def": "minecraft:splash_potion",
+									"aux_val": 24
+								}
+							},
+							"events": {
+								"terrariamod:death": {
+									"execute": {
+										"commands": [
+											"say nurse has died",
+											"execute @a[scores={lcrystals=1..}] ~ ~ ~ scoreboard players set @a nursestat 1"
+										]
+									}
+								}
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"data": "terrariamod:nurse",
+								"key": "identifier"
+							},
+							{
+								"data": "true",
+								"key": "is_spawnable"
+							},
+							{
+								"data": "true",
+								"key": "is_summonable"
+							},
+							{
+								"data": "false",
+								"key": "is_experimental"
+							},
+							{
+								"open": {
+									"identifier": "terrariamod:nurse",
+									"is_spawnable": true,
+									"is_summonable": true,
+									"is_experimental": false,
+									"animations": {
+										"nurse_death": "controller.animation.nurse_death"
+									},
+									"scripts": {
+										"animate": [
+											"nurse_death"
+										]
+									}
+								},
+								"key": "animations",
+								"is_minified": true,
+								"children": {
+									"nurse_death": "controller.animation.nurse_death"
+								}
+							},
+							{
+								"open": {
+									"identifier": "terrariamod:nurse",
+									"is_spawnable": true,
+									"is_summonable": true,
+									"is_experimental": false,
+									"animations": {
+										"nurse_death": "controller.animation.nurse_death"
+									},
+									"scripts": {
+										"animate": [
+											"nurse_death"
+										]
+									}
+								},
+								"key": "scripts",
+								"children": [
+									{
+										"open": {
+											"animate": [
+												"nurse_death"
+											]
+										},
+										"key": "animate",
+										"is_minified": true,
+										"children": [
+											"nurse_death"
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:nurse",
+								"is_spawnable": true,
+								"is_summonable": true,
+								"is_experimental": false,
+								"animations": {
+									"nurse_death": "controller.animation.nurse_death"
+								},
+								"scripts": {
+									"animate": [
+										"nurse_death"
+									]
+								}
+							},
+							"component_groups": {},
+							"components": {
+								"minecraft:behavior.trade_interest": {
+									"priority": 5,
+									"within_radius": 6,
+									"interest_time": 45,
+									"remove_item_time": 1,
+									"carried_item_switch_time": 2,
+									"cooldown": 2
+								},
+								"minecraft:type_family": {
+									"family": [
+										"villager",
+										"mob"
+									]
+								},
+								"minecraft:mark_variant": {
+									"value": 0
+								},
+								"minecraft:breathable": {
+									"total_supply": 15,
+									"suffocate_time": 0
+								},
+								"minecraft:health": {
+									"value": 250,
+									"max": 250
+								},
+								"minecraft:hurt_on_condition": {
+									"damage_conditions": [
+										{
+											"filters": {
+												"test": "in_lava",
+												"subject": "self",
+												"operator": "==",
+												"value": true
+											},
+											"cause": "lava",
+											"damage_per_tick": 4
+										}
+									]
+								},
+								"minecraft:hide": {},
+								"minecraft:collision_box": {
+									"width": 0.6,
+									"height": 1.9
+								},
+								"minecraft:nameable": {},
+								"minecraft:movement": {
+									"value": 0.5
+								},
+								"minecraft:navigation.walk": {
+									"can_path_over_water": true,
+									"can_pass_doors": true,
+									"can_open_doors": true,
+									"avoid_water": true
+								},
+								"minecraft:follow_range": {
+									"value": 128
+								},
+								"minecraft:annotation.open_door": {},
+								"minecraft:movement.basic": {},
+								"minecraft:jump.static": {},
+								"minecraft:can_climb": {},
+								"minecraft:inventory": {
+									"inventory_size": 8,
+									"private": true
+								},
+								"minecraft:dweller": {
+									"dwelling_type": "village",
+									"dweller_role": "inhabitant",
+									"update_interval_base": 60,
+									"update_interval_variant": 40,
+									"can_find_poi": true,
+									"can_migrate": true,
+									"first_founding_reward": 5
+								},
+								"minecraft:persistent": {},
+								"minecraft:behavior.float": {
+									"priority": 0
+								},
+								"minecraft:behavior.hide": {
+									"priority": 0,
+									"speed_multiplier": 0.8,
+									"poi_type": "bed",
+									"duration": 30
+								},
+								"minecraft:behavior.panic": {
+									"priority": 1,
+									"speed_multiplier": 0.6
+								},
+								"minecraft:behavior.trade_with_player": {
+									"priority": 2
+								},
+								"minecraft:behavior.avoid_mob_type": {
+									"priority": 4,
+									"entity_types": [
+										{
+											"filters": {
+												"any_of": [
+													{
+														"test": "is_family",
+														"subject": "other",
+														"value": "zombie"
+													},
+													{
+														"test": "is_family",
+														"subject": "other",
+														"value": "zombie_villager"
+													},
+													{
+														"test": "is_family",
+														"subject": "other",
+														"value": "zombie_pigman"
+													},
+													{
+														"test": "is_family",
+														"subject": "other",
+														"value": "illager"
+													},
+													{
+														"test": "is_family",
+														"subject": "other",
+														"value": "vex"
+													}
+												]
+											},
+											"max_dist": 8,
+											"walk_speed_multiplier": 0.6,
+											"sprint_speed_multiplier": 0.6
+										}
+									]
+								},
+								"minecraft:behavior.pickup_items": {
+									"priority": 4,
+									"max_dist": 3,
+									"goal_radius": 2,
+									"speed_multiplier": 0.5,
+									"can_pickup_to_hand_or_equipment": false
+								},
+								"minecraft:behavior.move_indoors": {
+									"priority": 6,
+									"speed_multiplier": 0.8,
+									"timeout_cooldown": 8
+								},
+								"minecraft:behavior.look_at_trading_player": {
+									"priority": 7
+								},
+								"minecraft:behavior.look_at_player": {
+									"priority": 8,
+									"look_distance": 8,
+									"probability": 0.02
+								},
+								"minecraft:behavior.share_items": {
+									"priority": 9,
+									"max_dist": 3,
+									"goal_radius": 2,
+									"speed_multiplier": 0.5,
+									"entity_types": [
+										{
+											"filters": {
+												"test": "is_family",
+												"subject": "other",
+												"value": "villager"
+											}
+										}
+									]
+								},
+								"minecraft:behavior.move_towards_restriction": {
+									"priority": 10,
+									"speed_multiplier": 0.6
+								},
+								"minecraft:behavior.random_stroll": {
+									"priority": 10,
+									"speed_multiplier": 0.6
+								},
+								"minecraft:physics": {},
+								"minecraft:pushable": {
+									"is_pushable": true,
+									"is_pushable_by_piston": true
+								},
+								"minecraft:economy_trade_table": {
+									"display_name": "Nurse",
+									"table": "trading/economy_trades/nurse_trades.json",
+									"new_screen": true,
+									"show_trade_screen": true,
+									"convert_trades_economy": true,
+									"persist_trades": true
+								},
+								"minecraft:behavior.nearest_attackable_target": {
+									"priority": 2,
+									"must_see": true,
+									"reselect_targets": true,
+									"entity_types": [
+										{
+											"filters": {
+												"test": "is_family",
+												"subject": "other",
+												"value": "slimes_terraria"
+											},
+											"max_dist": 8
+										}
+									]
+								},
+								"minecraft:behavior.ranged_attack": {
+									"priority": 0,
+									"attack_interval_min": 1,
+									"attack_interval_max": 3,
+									"attack_radius": 15
+								},
+								"minecraft:shooter": {
+									"def": "minecraft:splash_potion",
+									"aux_val": 24
+								}
+							},
+							"events": {
+								"terrariamod:death": {
+									"execute": {
+										"commands": [
+											"say nurse has died",
+											"execute @a[scores={lcrystals=1..}] ~ ~ ~ scoreboard players set @a nursestat 1"
+										]
+									}
+								}
+							}
+						},
+						"key": "component_groups",
+						"is_minified": true,
+						"children": {}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:nurse",
+								"is_spawnable": true,
+								"is_summonable": true,
+								"is_experimental": false,
+								"animations": {
+									"nurse_death": "controller.animation.nurse_death"
+								},
+								"scripts": {
+									"animate": [
+										"nurse_death"
+									]
+								}
+							},
+							"component_groups": {},
+							"components": {
+								"minecraft:behavior.trade_interest": {
+									"priority": 5,
+									"within_radius": 6,
+									"interest_time": 45,
+									"remove_item_time": 1,
+									"carried_item_switch_time": 2,
+									"cooldown": 2
+								},
+								"minecraft:type_family": {
+									"family": [
+										"villager",
+										"mob"
+									]
+								},
+								"minecraft:mark_variant": {
+									"value": 0
+								},
+								"minecraft:breathable": {
+									"total_supply": 15,
+									"suffocate_time": 0
+								},
+								"minecraft:health": {
+									"value": 250,
+									"max": 250
+								},
+								"minecraft:hurt_on_condition": {
+									"damage_conditions": [
+										{
+											"filters": {
+												"test": "in_lava",
+												"subject": "self",
+												"operator": "==",
+												"value": true
+											},
+											"cause": "lava",
+											"damage_per_tick": 4
+										}
+									]
+								},
+								"minecraft:hide": {},
+								"minecraft:collision_box": {
+									"width": 0.6,
+									"height": 1.9
+								},
+								"minecraft:nameable": {},
+								"minecraft:movement": {
+									"value": 0.5
+								},
+								"minecraft:navigation.walk": {
+									"can_path_over_water": true,
+									"can_pass_doors": true,
+									"can_open_doors": true,
+									"avoid_water": true
+								},
+								"minecraft:follow_range": {
+									"value": 128
+								},
+								"minecraft:annotation.open_door": {},
+								"minecraft:movement.basic": {},
+								"minecraft:jump.static": {},
+								"minecraft:can_climb": {},
+								"minecraft:inventory": {
+									"inventory_size": 8,
+									"private": true
+								},
+								"minecraft:dweller": {
+									"dwelling_type": "village",
+									"dweller_role": "inhabitant",
+									"update_interval_base": 60,
+									"update_interval_variant": 40,
+									"can_find_poi": true,
+									"can_migrate": true,
+									"first_founding_reward": 5
+								},
+								"minecraft:persistent": {},
+								"minecraft:behavior.float": {
+									"priority": 0
+								},
+								"minecraft:behavior.hide": {
+									"priority": 0,
+									"speed_multiplier": 0.8,
+									"poi_type": "bed",
+									"duration": 30
+								},
+								"minecraft:behavior.panic": {
+									"priority": 1,
+									"speed_multiplier": 0.6
+								},
+								"minecraft:behavior.trade_with_player": {
+									"priority": 2
+								},
+								"minecraft:behavior.avoid_mob_type": {
+									"priority": 4,
+									"entity_types": [
+										{
+											"filters": {
+												"any_of": [
+													{
+														"test": "is_family",
+														"subject": "other",
+														"value": "zombie"
+													},
+													{
+														"test": "is_family",
+														"subject": "other",
+														"value": "zombie_villager"
+													},
+													{
+														"test": "is_family",
+														"subject": "other",
+														"value": "zombie_pigman"
+													},
+													{
+														"test": "is_family",
+														"subject": "other",
+														"value": "illager"
+													},
+													{
+														"test": "is_family",
+														"subject": "other",
+														"value": "vex"
+													}
+												]
+											},
+											"max_dist": 8,
+											"walk_speed_multiplier": 0.6,
+											"sprint_speed_multiplier": 0.6
+										}
+									]
+								},
+								"minecraft:behavior.pickup_items": {
+									"priority": 4,
+									"max_dist": 3,
+									"goal_radius": 2,
+									"speed_multiplier": 0.5,
+									"can_pickup_to_hand_or_equipment": false
+								},
+								"minecraft:behavior.move_indoors": {
+									"priority": 6,
+									"speed_multiplier": 0.8,
+									"timeout_cooldown": 8
+								},
+								"minecraft:behavior.look_at_trading_player": {
+									"priority": 7
+								},
+								"minecraft:behavior.look_at_player": {
+									"priority": 8,
+									"look_distance": 8,
+									"probability": 0.02
+								},
+								"minecraft:behavior.share_items": {
+									"priority": 9,
+									"max_dist": 3,
+									"goal_radius": 2,
+									"speed_multiplier": 0.5,
+									"entity_types": [
+										{
+											"filters": {
+												"test": "is_family",
+												"subject": "other",
+												"value": "villager"
+											}
+										}
+									]
+								},
+								"minecraft:behavior.move_towards_restriction": {
+									"priority": 10,
+									"speed_multiplier": 0.6
+								},
+								"minecraft:behavior.random_stroll": {
+									"priority": 10,
+									"speed_multiplier": 0.6
+								},
+								"minecraft:physics": {},
+								"minecraft:pushable": {
+									"is_pushable": true,
+									"is_pushable_by_piston": true
+								},
+								"minecraft:economy_trade_table": {
+									"display_name": "Nurse",
+									"table": "trading/economy_trades/nurse_trades.json",
+									"new_screen": true,
+									"show_trade_screen": true,
+									"convert_trades_economy": true,
+									"persist_trades": true
+								},
+								"minecraft:behavior.nearest_attackable_target": {
+									"priority": 2,
+									"must_see": true,
+									"reselect_targets": true,
+									"entity_types": [
+										{
+											"filters": {
+												"test": "is_family",
+												"subject": "other",
+												"value": "slimes_terraria"
+											},
+											"max_dist": 8
+										}
+									]
+								},
+								"minecraft:behavior.ranged_attack": {
+									"priority": 0,
+									"attack_interval_min": 1,
+									"attack_interval_max": 3,
+									"attack_radius": 15
+								},
+								"minecraft:shooter": {
+									"def": "minecraft:splash_potion",
+									"aux_val": 24
+								}
+							},
+							"events": {
+								"terrariamod:death": {
+									"execute": {
+										"commands": [
+											"say nurse has died",
+											"execute @a[scores={lcrystals=1..}] ~ ~ ~ scoreboard players set @a nursestat 1"
+										]
+									}
+								}
+							}
+						},
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:behavior.trade_interest": {
+								"priority": 5,
+								"within_radius": 6,
+								"interest_time": 45,
+								"remove_item_time": 1,
+								"carried_item_switch_time": 2,
+								"cooldown": 2
+							},
+							"minecraft:type_family": {
+								"family": [
+									"villager",
+									"mob"
+								]
+							},
+							"minecraft:mark_variant": {
+								"value": 0
+							},
+							"minecraft:breathable": {
+								"total_supply": 15,
+								"suffocate_time": 0
+							},
+							"minecraft:health": {
+								"value": 250,
+								"max": 250
+							},
+							"minecraft:hurt_on_condition": {
+								"damage_conditions": [
+									{
+										"filters": {
+											"test": "in_lava",
+											"subject": "self",
+											"operator": "==",
+											"value": true
+										},
+										"cause": "lava",
+										"damage_per_tick": 4
+									}
+								]
+							},
+							"minecraft:hide": {},
+							"minecraft:collision_box": {
+								"width": 0.6,
+								"height": 1.9
+							},
+							"minecraft:nameable": {},
+							"minecraft:movement": {
+								"value": 0.5
+							},
+							"minecraft:navigation.walk": {
+								"can_path_over_water": true,
+								"can_pass_doors": true,
+								"can_open_doors": true,
+								"avoid_water": true
+							},
+							"minecraft:follow_range": {
+								"value": 128
+							},
+							"minecraft:annotation.open_door": {},
+							"minecraft:movement.basic": {},
+							"minecraft:jump.static": {},
+							"minecraft:can_climb": {},
+							"minecraft:inventory": {
+								"inventory_size": 8,
+								"private": true
+							},
+							"minecraft:dweller": {
+								"dwelling_type": "village",
+								"dweller_role": "inhabitant",
+								"update_interval_base": 60,
+								"update_interval_variant": 40,
+								"can_find_poi": true,
+								"can_migrate": true,
+								"first_founding_reward": 5
+							},
+							"minecraft:persistent": {},
+							"minecraft:behavior.float": {
+								"priority": 0
+							},
+							"minecraft:behavior.hide": {
+								"priority": 0,
+								"speed_multiplier": 0.8,
+								"poi_type": "bed",
+								"duration": 30
+							},
+							"minecraft:behavior.panic": {
+								"priority": 1,
+								"speed_multiplier": 0.6
+							},
+							"minecraft:behavior.trade_with_player": {
+								"priority": 2
+							},
+							"minecraft:behavior.avoid_mob_type": {
+								"priority": 4,
+								"entity_types": [
+									{
+										"filters": {
+											"any_of": [
+												{
+													"test": "is_family",
+													"subject": "other",
+													"value": "zombie"
+												},
+												{
+													"test": "is_family",
+													"subject": "other",
+													"value": "zombie_villager"
+												},
+												{
+													"test": "is_family",
+													"subject": "other",
+													"value": "zombie_pigman"
+												},
+												{
+													"test": "is_family",
+													"subject": "other",
+													"value": "illager"
+												},
+												{
+													"test": "is_family",
+													"subject": "other",
+													"value": "vex"
+												}
+											]
+										},
+										"max_dist": 8,
+										"walk_speed_multiplier": 0.6,
+										"sprint_speed_multiplier": 0.6
+									}
+								]
+							},
+							"minecraft:behavior.pickup_items": {
+								"priority": 4,
+								"max_dist": 3,
+								"goal_radius": 2,
+								"speed_multiplier": 0.5,
+								"can_pickup_to_hand_or_equipment": false
+							},
+							"minecraft:behavior.move_indoors": {
+								"priority": 6,
+								"speed_multiplier": 0.8,
+								"timeout_cooldown": 8
+							},
+							"minecraft:behavior.look_at_trading_player": {
+								"priority": 7
+							},
+							"minecraft:behavior.look_at_player": {
+								"priority": 8,
+								"look_distance": 8,
+								"probability": 0.02
+							},
+							"minecraft:behavior.share_items": {
+								"priority": 9,
+								"max_dist": 3,
+								"goal_radius": 2,
+								"speed_multiplier": 0.5,
+								"entity_types": [
+									{
+										"filters": {
+											"test": "is_family",
+											"subject": "other",
+											"value": "villager"
+										}
+									}
+								]
+							},
+							"minecraft:behavior.move_towards_restriction": {
+								"priority": 10,
+								"speed_multiplier": 0.6
+							},
+							"minecraft:behavior.random_stroll": {
+								"priority": 10,
+								"speed_multiplier": 0.6
+							},
+							"minecraft:physics": {},
+							"minecraft:pushable": {
+								"is_pushable": true,
+								"is_pushable_by_piston": true
+							},
+							"minecraft:economy_trade_table": {
+								"display_name": "Nurse",
+								"table": "trading/economy_trades/nurse_trades.json",
+								"new_screen": true,
+								"show_trade_screen": true,
+								"convert_trades_economy": true,
+								"persist_trades": true
+							},
+							"minecraft:behavior.nearest_attackable_target": {
+								"priority": 2,
+								"must_see": true,
+								"reselect_targets": true,
+								"entity_types": [
+									{
+										"filters": {
+											"test": "is_family",
+											"subject": "other",
+											"value": "slimes_terraria"
+										},
+										"max_dist": 8
+									}
+								]
+							},
+							"minecraft:behavior.ranged_attack": {
+								"priority": 0,
+								"attack_interval_min": 1,
+								"attack_interval_max": 3,
+								"attack_radius": 15
+							},
+							"minecraft:shooter": {
+								"def": "minecraft:splash_potion",
+								"aux_val": 24
+							}
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:nurse",
+								"is_spawnable": true,
+								"is_summonable": true,
+								"is_experimental": false,
+								"animations": {
+									"nurse_death": "controller.animation.nurse_death"
+								},
+								"scripts": {
+									"animate": [
+										"nurse_death"
+									]
+								}
+							},
+							"component_groups": {},
+							"components": {
+								"minecraft:behavior.trade_interest": {
+									"priority": 5,
+									"within_radius": 6,
+									"interest_time": 45,
+									"remove_item_time": 1,
+									"carried_item_switch_time": 2,
+									"cooldown": 2
+								},
+								"minecraft:type_family": {
+									"family": [
+										"villager",
+										"mob"
+									]
+								},
+								"minecraft:mark_variant": {
+									"value": 0
+								},
+								"minecraft:breathable": {
+									"total_supply": 15,
+									"suffocate_time": 0
+								},
+								"minecraft:health": {
+									"value": 250,
+									"max": 250
+								},
+								"minecraft:hurt_on_condition": {
+									"damage_conditions": [
+										{
+											"filters": {
+												"test": "in_lava",
+												"subject": "self",
+												"operator": "==",
+												"value": true
+											},
+											"cause": "lava",
+											"damage_per_tick": 4
+										}
+									]
+								},
+								"minecraft:hide": {},
+								"minecraft:collision_box": {
+									"width": 0.6,
+									"height": 1.9
+								},
+								"minecraft:nameable": {},
+								"minecraft:movement": {
+									"value": 0.5
+								},
+								"minecraft:navigation.walk": {
+									"can_path_over_water": true,
+									"can_pass_doors": true,
+									"can_open_doors": true,
+									"avoid_water": true
+								},
+								"minecraft:follow_range": {
+									"value": 128
+								},
+								"minecraft:annotation.open_door": {},
+								"minecraft:movement.basic": {},
+								"minecraft:jump.static": {},
+								"minecraft:can_climb": {},
+								"minecraft:inventory": {
+									"inventory_size": 8,
+									"private": true
+								},
+								"minecraft:dweller": {
+									"dwelling_type": "village",
+									"dweller_role": "inhabitant",
+									"update_interval_base": 60,
+									"update_interval_variant": 40,
+									"can_find_poi": true,
+									"can_migrate": true,
+									"first_founding_reward": 5
+								},
+								"minecraft:persistent": {},
+								"minecraft:behavior.float": {
+									"priority": 0
+								},
+								"minecraft:behavior.hide": {
+									"priority": 0,
+									"speed_multiplier": 0.8,
+									"poi_type": "bed",
+									"duration": 30
+								},
+								"minecraft:behavior.panic": {
+									"priority": 1,
+									"speed_multiplier": 0.6
+								},
+								"minecraft:behavior.trade_with_player": {
+									"priority": 2
+								},
+								"minecraft:behavior.avoid_mob_type": {
+									"priority": 4,
+									"entity_types": [
+										{
+											"filters": {
+												"any_of": [
+													{
+														"test": "is_family",
+														"subject": "other",
+														"value": "zombie"
+													},
+													{
+														"test": "is_family",
+														"subject": "other",
+														"value": "zombie_villager"
+													},
+													{
+														"test": "is_family",
+														"subject": "other",
+														"value": "zombie_pigman"
+													},
+													{
+														"test": "is_family",
+														"subject": "other",
+														"value": "illager"
+													},
+													{
+														"test": "is_family",
+														"subject": "other",
+														"value": "vex"
+													}
+												]
+											},
+											"max_dist": 8,
+											"walk_speed_multiplier": 0.6,
+											"sprint_speed_multiplier": 0.6
+										}
+									]
+								},
+								"minecraft:behavior.pickup_items": {
+									"priority": 4,
+									"max_dist": 3,
+									"goal_radius": 2,
+									"speed_multiplier": 0.5,
+									"can_pickup_to_hand_or_equipment": false
+								},
+								"minecraft:behavior.move_indoors": {
+									"priority": 6,
+									"speed_multiplier": 0.8,
+									"timeout_cooldown": 8
+								},
+								"minecraft:behavior.look_at_trading_player": {
+									"priority": 7
+								},
+								"minecraft:behavior.look_at_player": {
+									"priority": 8,
+									"look_distance": 8,
+									"probability": 0.02
+								},
+								"minecraft:behavior.share_items": {
+									"priority": 9,
+									"max_dist": 3,
+									"goal_radius": 2,
+									"speed_multiplier": 0.5,
+									"entity_types": [
+										{
+											"filters": {
+												"test": "is_family",
+												"subject": "other",
+												"value": "villager"
+											}
+										}
+									]
+								},
+								"minecraft:behavior.move_towards_restriction": {
+									"priority": 10,
+									"speed_multiplier": 0.6
+								},
+								"minecraft:behavior.random_stroll": {
+									"priority": 10,
+									"speed_multiplier": 0.6
+								},
+								"minecraft:physics": {},
+								"minecraft:pushable": {
+									"is_pushable": true,
+									"is_pushable_by_piston": true
+								},
+								"minecraft:economy_trade_table": {
+									"display_name": "Nurse",
+									"table": "trading/economy_trades/nurse_trades.json",
+									"new_screen": true,
+									"show_trade_screen": true,
+									"convert_trades_economy": true,
+									"persist_trades": true
+								},
+								"minecraft:behavior.nearest_attackable_target": {
+									"priority": 2,
+									"must_see": true,
+									"reselect_targets": true,
+									"entity_types": [
+										{
+											"filters": {
+												"test": "is_family",
+												"subject": "other",
+												"value": "slimes_terraria"
+											},
+											"max_dist": 8
+										}
+									]
+								},
+								"minecraft:behavior.ranged_attack": {
+									"priority": 0,
+									"attack_interval_min": 1,
+									"attack_interval_max": 3,
+									"attack_radius": 15
+								},
+								"minecraft:shooter": {
+									"def": "minecraft:splash_potion",
+									"aux_val": 24
+								}
+							},
+							"events": {
+								"terrariamod:death": {
+									"execute": {
+										"commands": [
+											"say nurse has died",
+											"execute @a[scores={lcrystals=1..}] ~ ~ ~ scoreboard players set @a nursestat 1"
+										]
+									}
+								}
+							}
+						},
+						"key": "events",
+						"children": [
+							{
+								"open": {
+									"terrariamod:death": {
+										"execute": {
+											"commands": [
+												"say nurse has died",
+												"execute @a[scores={lcrystals=1..}] ~ ~ ~ scoreboard players set @a nursestat 1"
+											]
+										}
+									}
+								},
+								"key": "terrariamod:death",
+								"children": [
+									{
+										"open": {
+											"execute": {
+												"commands": [
+													"say nurse has died",
+													"execute @a[scores={lcrystals=1..}] ~ ~ ~ scoreboard players set @a nursestat 1"
+												]
+											}
+										},
+										"key": "execute",
+										"children": [
+											{
+												"open": {
+													"commands": [
+														"say nurse has died",
+														"execute @a[scores={lcrystals=1..}] ~ ~ ~ scoreboard players set @a nursestat 1"
+													]
+												},
+												"key": "commands",
+												"is_minified": true,
+												"children": [
+													"say nurse has died",
+													"execute @a[scores={lcrystals=1..}] ~ ~ ~ scoreboard players set @a nursestat 1"
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

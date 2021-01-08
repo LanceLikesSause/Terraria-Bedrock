@@ -1,4 +1,4 @@
-//bridge-file-version: #17
+//bridge-file-version: #18
 {
 	"format_version": "1.16.0",
 	"minecraft:entity": {
@@ -6,7 +6,15 @@
 			"identifier": "terrariamod:armsdealer",
 			"is_spawnable": true,
 			"is_summonable": true,
-			"is_experimental": false
+			"is_experimental": false,
+			"animations": {
+				"armsdealer_death": "controller.animation.armsdealer_death"
+			},
+			"scripts": {
+				"animate": [
+					"armsdealer_death"
+				]
+			}
 		},
 		"component_groups": {},
 		"components": {

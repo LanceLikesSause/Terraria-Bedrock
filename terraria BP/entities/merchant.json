@@ -1,4 +1,4 @@
-//bridge-file-version: #14
+//bridge-file-version: #15
 {
 	"format_version": "1.16.0",
 	"minecraft:entity": {
@@ -6,7 +6,15 @@
 			"identifier": "terrariamod:merchant",
 			"is_spawnable": true,
 			"is_summonable": true,
-			"is_experimental": false
+			"is_experimental": false,
+			"animations": {
+				"merchant_death": "controller.animation.merchant_death"
+			},
+			"scripts": {
+				"animate": [
+					"merchant_death"
+				]
+			}
 		},
 		"component_groups": {},
 		"components": {

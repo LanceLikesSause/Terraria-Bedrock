@@ -1,4 +1,4 @@
-//bridge-file-version: #29
+//bridge-file-version: #42
 {
 	"format_version": "1.10.0",
 	"animation_controllers": {
@@ -14,7 +14,14 @@
 				},
 				"command": {
 					"on_exit": [
-						"/function mana"
+						"/function mana",
+						"/scoreboard objectives add nursestat dummy nursestat",
+						"/scoreboard objectives add merchantstat dummy merchantstat",
+						"/scoreboard objectives add demostat dummy demostat",
+						"/scoreboard objectives add coins dummy coins",
+						"/scoreboard objectives add explosives dummy explosives",
+						"/scoreboard objectives add ammo dummy ammo",
+						"/scoreboard objectives add armsstat dummy armsstat"
 					],
 					"transitions": [
 						{

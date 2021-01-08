@@ -1383,6 +1383,26 @@
 						}
 					}
 				}
+			},
+			"4038cbdd_12ba_4856_af82_715c71785957": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"39251159_6cbf_4618_b17e_ce97a069502c": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
 			}
 		}
 	},
@@ -2356,6 +2376,39 @@
 		"data": {}
 	},
 	"BP/items/hellstonebow.json": {
+		"data": {}
+	},
+	"BP/blocks/wooden_chair.json": {
+		"data": {}
+	},
+	"RP/attachables/hellstonesword.json": {
+		"data": {}
+	},
+	"BP/entities/nurse.json": {
+		"data": {}
+	},
+	"BP/animation_controllers/nurse_death.json": {
+		"data": {}
+	},
+	"BP/animation_controllers/greenslime_death.json": {
+		"data": {}
+	},
+	"BP/entities/merchant.json": {
+		"data": {}
+	},
+	"BP/animation_controllers/merchant_death.json": {
+		"data": {}
+	},
+	"BP/animation_controllers/demolitionist_death.json": {
+		"data": {}
+	},
+	"BP/feature_rules/crimsonheart_featurerule.json": {
+		"data": {}
+	},
+	"BP/features/crimsonheart_feature.json": {
+		"data": {}
+	},
+	"BP/entities/armsdealer.json": {
 		"data": {}
 	}
 }

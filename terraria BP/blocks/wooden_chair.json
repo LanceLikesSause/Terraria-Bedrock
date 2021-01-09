@@ -1,4 +1,4 @@
-//bridge-file-version: #81
+//bridge-file-version: #87
 {
 	"format_version": "1.16.100",
 	"minecraft:block": {
@@ -8,7 +8,6 @@
 		"components": {
 			"minecraft:destroy_time": 1,
 			"tag:terrariamod:wood": {},
-			"minecraft:display_name": "Wooden Chair",
 			"minecraft:ticking": {
 				"looping": true,
 				"range": [
@@ -26,6 +25,13 @@
 			"minecraft:on_placed": {
 				"event": "terrariamod:placement",
 				"target": "self"
+			},
+			"minecraft:geometry": "geometry.wooden_chair",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "wooden_chair",
+					"render_method": "alpha_test"
+				}
 			}
 		},
 		"events": {

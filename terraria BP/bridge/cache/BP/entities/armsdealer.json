@@ -3,7 +3,7 @@
 	"file_type": "entity",
 	"format_version": 1,
 	"file_uuid": "f03b9fcc_0a0d_4d85_bbd6_31c5d1273804",
-	"file_version": 18,
+	"file_version": 20,
 	"cache_content": {
 		"children": [
 			{
@@ -238,6 +238,15 @@
 							},
 							"minecraft:shooter": {
 								"def": "terrariamod:musketball_projectile_flintlockpistol"
+							},
+							"minecraft:behavior.move_to_block": {
+								"priority": 5,
+								"speed_multiplier": 1,
+								"tick_interval": 1,
+								"target_blocks": [
+									"terrariamod:wooden_chair"
+								],
+								"search_range": 60
 							}
 						},
 						"events": {}
@@ -471,6 +480,15 @@
 								},
 								"minecraft:shooter": {
 									"def": "terrariamod:musketball_projectile_flintlockpistol"
+								},
+								"minecraft:behavior.move_to_block": {
+									"priority": 5,
+									"speed_multiplier": 1,
+									"tick_interval": 1,
+									"target_blocks": [
+										"terrariamod:wooden_chair"
+									],
+									"search_range": 60
 								}
 							},
 							"events": {}
@@ -773,6 +791,15 @@
 								},
 								"minecraft:shooter": {
 									"def": "terrariamod:musketball_projectile_flintlockpistol"
+								},
+								"minecraft:behavior.move_to_block": {
+									"priority": 5,
+									"speed_multiplier": 1,
+									"tick_interval": 1,
+									"target_blocks": [
+										"terrariamod:wooden_chair"
+									],
+									"search_range": 60
 								}
 							},
 							"events": {}
@@ -1007,6 +1034,15 @@
 								},
 								"minecraft:shooter": {
 									"def": "terrariamod:musketball_projectile_flintlockpistol"
+								},
+								"minecraft:behavior.move_to_block": {
+									"priority": 5,
+									"speed_multiplier": 1,
+									"tick_interval": 1,
+									"target_blocks": [
+										"terrariamod:wooden_chair"
+									],
+									"search_range": 60
 								}
 							},
 							"events": {}
@@ -1222,6 +1258,15 @@
 							},
 							"minecraft:shooter": {
 								"def": "terrariamod:musketball_projectile_flintlockpistol"
+							},
+							"minecraft:behavior.move_to_block": {
+								"priority": 5,
+								"speed_multiplier": 1,
+								"tick_interval": 1,
+								"target_blocks": [
+									"terrariamod:wooden_chair"
+								],
+								"search_range": 60
 							}
 						}
 					},

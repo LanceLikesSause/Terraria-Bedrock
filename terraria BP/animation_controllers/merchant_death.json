@@ -1,4 +1,4 @@
-//bridge-file-version: #4
+//bridge-file-version: #5
 {
 	"format_version": "1.10.0",
 	"animation_controllers": {
@@ -7,7 +7,7 @@
 				"default": {
 					"transitions": [
 						{
-							"spawn_next_stage": "!query.is_alive && query.last_hit_by_player"
+							"spawn_next_stage": "!query.is_alive"
 						}
 					]
 				},

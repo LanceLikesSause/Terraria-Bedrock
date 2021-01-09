@@ -3,7 +3,7 @@
 	"file_type": "block",
 	"format_version": 1,
 	"file_uuid": "5061bcc8_0e9b_4d83_b09e_dd96b36cfb77",
-	"file_version": 81,
+	"file_version": 87,
 	"cache_content": {
 		"children": [
 			{
@@ -16,7 +16,6 @@
 						"components": {
 							"minecraft:destroy_time": 1,
 							"tag:terrariamod:wood": {},
-							"minecraft:display_name": "Wooden Chair",
 							"minecraft:ticking": {
 								"looping": true,
 								"range": [
@@ -34,6 +33,13 @@
 							"minecraft:on_placed": {
 								"event": "terrariamod:placement",
 								"target": "self"
+							},
+							"minecraft:geometry": "geometry.wooden_chair",
+							"minecraft:material_instances": {
+								"*": {
+									"texture": "wooden_chair",
+									"render_method": "alpha_test"
+								}
 							}
 						},
 						"events": {
@@ -85,7 +91,6 @@
 						"components": {
 							"minecraft:destroy_time": 1,
 							"tag:terrariamod:wood": {},
-							"minecraft:display_name": "Wooden Chair",
 							"minecraft:ticking": {
 								"looping": true,
 								"range": [
@@ -103,6 +108,13 @@
 							"minecraft:on_placed": {
 								"event": "terrariamod:placement",
 								"target": "self"
+							},
+							"minecraft:geometry": "geometry.wooden_chair",
+							"minecraft:material_instances": {
+								"*": {
+									"texture": "wooden_chair",
+									"render_method": "alpha_test"
+								}
 							}
 						},
 						"events": {
@@ -151,7 +163,6 @@
 							"components": {
 								"minecraft:destroy_time": 1,
 								"tag:terrariamod:wood": {},
-								"minecraft:display_name": "Wooden Chair",
 								"minecraft:ticking": {
 									"looping": true,
 									"range": [
@@ -169,6 +180,13 @@
 								"minecraft:on_placed": {
 									"event": "terrariamod:placement",
 									"target": "self"
+								},
+								"minecraft:geometry": "geometry.wooden_chair",
+								"minecraft:material_instances": {
+									"*": {
+										"texture": "wooden_chair",
+										"render_method": "alpha_test"
+									}
 								}
 							},
 							"events": {
@@ -220,7 +238,6 @@
 							"components": {
 								"minecraft:destroy_time": 1,
 								"tag:terrariamod:wood": {},
-								"minecraft:display_name": "Wooden Chair",
 								"minecraft:ticking": {
 									"looping": true,
 									"range": [
@@ -238,6 +255,13 @@
 								"minecraft:on_placed": {
 									"event": "terrariamod:placement",
 									"target": "self"
+								},
+								"minecraft:geometry": "geometry.wooden_chair",
+								"minecraft:material_instances": {
+									"*": {
+										"texture": "wooden_chair",
+										"render_method": "alpha_test"
+									}
 								}
 							},
 							"events": {
@@ -287,14 +311,9 @@
 								"children": {}
 							},
 							{
-								"data": "Wooden Chair",
-								"key": "minecraft:display_name"
-							},
-							{
 								"open": {
 									"minecraft:destroy_time": 1,
 									"tag:terrariamod:wood": {},
-									"minecraft:display_name": "Wooden Chair",
 									"minecraft:ticking": {
 										"looping": true,
 										"range": [
@@ -312,21 +331,18 @@
 									"minecraft:on_placed": {
 										"event": "terrariamod:placement",
 										"target": "self"
+									},
+									"minecraft:geometry": "geometry.wooden_chair",
+									"minecraft:material_instances": {
+										"*": {
+											"texture": "wooden_chair",
+											"render_method": "alpha_test"
+										}
 									}
 								},
 								"key": "minecraft:ticking",
 								"children": [
 									{
-										"open": {
-											"looping": true,
-											"range": [
-												1,
-												1
-											],
-											"on_tick": {
-												"event": "terrariamod:summon"
-											}
-										},
 										"data": "true",
 										"key": "looping"
 									},
@@ -368,29 +384,6 @@
 								]
 							},
 							{
-								"open": {
-									"minecraft:destroy_time": 1,
-									"tag:terrariamod:wood": {},
-									"minecraft:display_name": "Wooden Chair",
-									"minecraft:ticking": {
-										"looping": true,
-										"range": [
-											1,
-											1
-										],
-										"on_tick": {
-											"event": "terrariamod:summon"
-										}
-									},
-									"minecraft:on_player_destroyed": {
-										"event": "terrariamod:destroy",
-										"target": "self"
-									},
-									"minecraft:on_placed": {
-										"event": "terrariamod:placement",
-										"target": "self"
-									}
-								},
 								"key": "minecraft:on_player_destroyed",
 								"is_minified": true,
 								"children": {
@@ -399,35 +392,35 @@
 								}
 							},
 							{
-								"open": {
-									"minecraft:destroy_time": 1,
-									"tag:terrariamod:wood": {},
-									"minecraft:display_name": "Wooden Chair",
-									"minecraft:ticking": {
-										"looping": true,
-										"range": [
-											1,
-											1
-										],
-										"on_tick": {
-											"event": "terrariamod:summon"
-										}
-									},
-									"minecraft:on_player_destroyed": {
-										"event": "terrariamod:destroy",
-										"target": "self"
-									},
-									"minecraft:on_placed": {
-										"event": "terrariamod:placement",
-										"target": "self"
-									}
-								},
 								"key": "minecraft:on_placed",
 								"is_minified": true,
 								"children": {
 									"event": "terrariamod:placement",
 									"target": "self"
 								}
+							},
+							{
+								"data": "geometry.wooden_chair",
+								"key": "minecraft:geometry"
+							},
+							{
+								"key": "minecraft:material_instances",
+								"children": [
+									{
+										"open": {
+											"*": {
+												"texture": "wooden_chair",
+												"render_method": "alpha_test"
+											}
+										},
+										"key": "*",
+										"is_minified": true,
+										"children": {
+											"texture": "wooden_chair",
+											"render_method": "alpha_test"
+										}
+									}
+								]
 							}
 						]
 					},
@@ -439,7 +432,6 @@
 							"components": {
 								"minecraft:destroy_time": 1,
 								"tag:terrariamod:wood": {},
-								"minecraft:display_name": "Wooden Chair",
 								"minecraft:ticking": {
 									"looping": true,
 									"range": [
@@ -457,6 +449,13 @@
 								"minecraft:on_placed": {
 									"event": "terrariamod:placement",
 									"target": "self"
+								},
+								"minecraft:geometry": "geometry.wooden_chair",
+								"minecraft:material_instances": {
+									"*": {
+										"texture": "wooden_chair",
+										"render_method": "alpha_test"
+									}
 								}
 							},
 							"events": {
@@ -593,40 +592,6 @@
 								]
 							},
 							{
-								"open": {
-									"terrariamod:summon": {
-										"run_command": {
-											"command": [
-												"execute @a[scores={lcrystals=1..}] ~ ~ ~ scoreboard players add @a nursestat 1",
-												"execute @a[scores={nursestat=360}] ~ ~ ~ summon terrariamod:nurse",
-												"execute @a[scores={nursestat=360}] ~ ~ ~ say The Nurse has arrived",
-												"execute @a[scores={coins=30..}] ~ ~ ~ scoreboard players add @a merchantstat 1",
-												"execute @a[scores={merchantstat=360}] ~ ~ ~ summon terrariamod:merchant",
-												"execute @a[scores={merchantstat=360}] ~ ~ ~ say The Merchant has arrived",
-												"execute @a[scores={explosives=30..}] ~ ~ ~ scoreboard players add @a demostat 1",
-												"execute @a[scores={demostat=360}] ~ ~ ~ summon terrariamod:demolitionist",
-												"execute @a[scores={demostat=360}] ~ ~ ~ say The Demolitionist has arrived",
-												"execute @a[scores={ammo=1..}] ~ ~ ~ scoreboard players add @a armsstat 1",
-												"execute @a[scores={armsstat=360}] ~ ~ ~ summon terrariamod:armsdealer",
-												"execute @a[scores={armsstat=360}] ~ ~ ~ say The Arms Dealer has arrived"
-											]
-										}
-									},
-									"terrariamod:placement": {
-										"run_command": {
-											"command": [
-												"tickingarea add ~~~ ~~~ chair"
-											]
-										}
-									},
-									"terrariamod:destroy": {
-										"run_command": {
-											"command": [
-												"tickingarea remove ~~~"
-											]
-										}
-									}
-								},
 								"key": "terrariamod:placement",
 								"children": [
 									{
@@ -656,40 +621,6 @@
 								]
 							},
 							{
-								"open": {
-									"terrariamod:summon": {
-										"run_command": {
-											"command": [
-												"execute @a[scores={lcrystals=1..}] ~ ~ ~ scoreboard players add @a nursestat 1",
-												"execute @a[scores={nursestat=360}] ~ ~ ~ summon terrariamod:nurse",
-												"execute @a[scores={nursestat=360}] ~ ~ ~ say The Nurse has arrived",
-												"execute @a[scores={coins=30..}] ~ ~ ~ scoreboard players add @a merchantstat 1",
-												"execute @a[scores={merchantstat=360}] ~ ~ ~ summon terrariamod:merchant",
-												"execute @a[scores={merchantstat=360}] ~ ~ ~ say The Merchant has arrived",
-												"execute @a[scores={explosives=30..}] ~ ~ ~ scoreboard players add @a demostat 1",
-												"execute @a[scores={demostat=360}] ~ ~ ~ summon terrariamod:demolitionist",
-												"execute @a[scores={demostat=360}] ~ ~ ~ say The Demolitionist has arrived",
-												"execute @a[scores={ammo=1..}] ~ ~ ~ scoreboard players add @a armsstat 1",
-												"execute @a[scores={armsstat=360}] ~ ~ ~ summon terrariamod:armsdealer",
-												"execute @a[scores={armsstat=360}] ~ ~ ~ say The Arms Dealer has arrived"
-											]
-										}
-									},
-									"terrariamod:placement": {
-										"run_command": {
-											"command": [
-												"tickingarea add ~~~ ~~~ chair"
-											]
-										}
-									},
-									"terrariamod:destroy": {
-										"run_command": {
-											"command": [
-												"tickingarea remove ~~~"
-											]
-										}
-									}
-								},
 								"key": "terrariamod:destroy",
 								"children": [
 									{

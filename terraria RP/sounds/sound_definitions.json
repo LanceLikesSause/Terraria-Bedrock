@@ -1,6 +1,36 @@
 {
 	"format_version": "1.14.0",
 	"sound_definitions": {
+		"bow.effect": {
+			"category": "music",
+			"sounds": [
+				"sounds/effects/bow"
+			]
+		},
+		"minishark.effect": {
+			"category": "music",
+			"sounds": [
+				"sounds/effects/minishark"
+			]
+		},
+		"handgun.effect": {
+			"category": "music",
+			"sounds": [
+				"sounds/effects/handgun"
+			]
+		},
+		"phoenixblaster.effect": {
+			"category": "music",
+			"sounds": [
+				"sounds/effects/phoenixblaster"
+			]
+		},
+		"boomstick.effect": {
+			"category": "music",
+			"sounds": [
+				"sounds/effects/boomstick"
+			]
+		},
 		"lifecrystal.effect": {
 			"category": "music",
 			"sounds": [

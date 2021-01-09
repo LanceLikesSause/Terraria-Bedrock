@@ -2,6 +2,27 @@
 	"resource_pack_name": "TerrariaModLLS",
 	"texture_name": "atlas.items",
 	"texture_data": {
+		"terrariamod:purity_cobweb": {
+			"textures": "textures/items/block_placers/purity_cobweb"
+		},
+		"terrariamod:purity_chain": {
+			"textures": "textures/items/block_placers/purity_chain"
+		},
+		"terrariamod:purity_loom": {
+			"textures": "textures/items/block_placers/purity_loom"
+		},
+		"terrariamod:sawmill": {
+			"textures": "textures/items/block_placers/sawmill"
+		},
+		"terrariamod:iron_anvil": {
+			"textures": "textures/items/block_placers/iron_anvil"
+		},
+		"terrariamod:tfurnace": {
+			"textures": "textures/items/block_placers/tfurnace"
+		},
+		"terrariamod:workbench": {
+			"textures": "textures/items/block_placers/workbench"
+		},
 		"terrariamod:silk": {
 			"textures": "textures/items/silk"
 		},

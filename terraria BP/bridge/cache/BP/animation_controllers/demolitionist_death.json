@@ -3,7 +3,7 @@
 	"file_type": "animation_controller",
 	"format_version": 1,
 	"file_uuid": "12c879eb_d63a_4c25_8bc1_d924d8d6228d",
-	"file_version": 6,
+	"file_version": 7,
 	"cache_content": {
 		"children": [
 			{
@@ -19,7 +19,7 @@
 								"default": {
 									"transitions": [
 										{
-											"spawn_next_stage": "!query.is_alive && query.last_hit_by_player"
+											"spawn_next_stage": "!query.is_alive"
 										}
 									]
 								},
@@ -42,7 +42,7 @@
 									"default": {
 										"transitions": [
 											{
-												"spawn_next_stage": "!query.is_alive && query.last_hit_by_player"
+												"spawn_next_stage": "!query.is_alive"
 											}
 										]
 									},
@@ -63,7 +63,7 @@
 										"default": {
 											"transitions": [
 												{
-													"spawn_next_stage": "!query.is_alive && query.last_hit_by_player"
+													"spawn_next_stage": "!query.is_alive"
 												}
 											]
 										},
@@ -82,7 +82,7 @@
 											"default": {
 												"transitions": [
 													{
-														"spawn_next_stage": "!query.is_alive && query.last_hit_by_player"
+														"spawn_next_stage": "!query.is_alive"
 													}
 												]
 											},
@@ -99,7 +99,7 @@
 												"open": {
 													"transitions": [
 														{
-															"spawn_next_stage": "!query.is_alive && query.last_hit_by_player"
+															"spawn_next_stage": "!query.is_alive"
 														}
 													]
 												},
@@ -108,12 +108,12 @@
 													{
 														"open": [
 															{
-																"spawn_next_stage": "!query.is_alive && query.last_hit_by_player"
+																"spawn_next_stage": "!query.is_alive"
 															}
 														],
 														"is_minified": true,
 														"children": {
-															"spawn_next_stage": "!query.is_alive && query.last_hit_by_player"
+															"spawn_next_stage": "!query.is_alive"
 														}
 													}
 												]
@@ -125,7 +125,7 @@
 											"default": {
 												"transitions": [
 													{
-														"spawn_next_stage": "!query.is_alive && query.last_hit_by_player"
+														"spawn_next_stage": "!query.is_alive"
 													}
 												]
 											},

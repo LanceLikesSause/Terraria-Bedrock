@@ -68,7 +68,7 @@
 		},
 		"BP/animation_controllers/nurse_death.json": {
 			"ids": [
-				"controller.animation.merchant_death"
+				"controller.animation.nurse_death"
 			],
 			"custom_commands": []
 		},
@@ -80,13 +80,19 @@
 		},
 		"BP/animation_controllers/merchant_death.json": {
 			"ids": [
-				"controller.animation.demolitionist_death"
+				"controller.animation.merchant_death"
 			],
 			"custom_commands": []
 		},
 		"BP/animation_controllers/demolitionist_death.json": {
 			"ids": [
 				"controller.animation.demolitionist_death"
+			],
+			"custom_commands": []
+		},
+		"BP/animation_controllers/armsdealer_death.json": {
+			"ids": [
+				"controller.animation.nurse_death"
 			],
 			"custom_commands": []
 		}
@@ -1026,9 +1032,7 @@
 			"custom_components": []
 		},
 		"BP/entities/nurse.json": {
-			"events": [
-				"terrariamod:death"
-			],
+			"events": [],
 			"bridge_core_tags": [],
 			"identifiers": [
 				"terrariamod:nurse"
@@ -1259,7 +1263,25 @@
 		"380f8a00_a019_46e7_a01e_45277b9903cc": {},
 		"809c8973_70b6_4fa5_bdf6_cf2e314c0c5b": {},
 		"12c879eb_d63a_4c25_8bc1_d924d8d6228d": {},
-		"b5174e52_ef1e_439c_8c8f_2d1305df6c3d": {}
+		"b5174e52_ef1e_439c_8c8f_2d1305df6c3d": {},
+		"1b7bdd31_bbc2_47fc_a0d4_4421dc408315": {},
+		"4038cbdd_12ba_4856_af82_715c71785957": {},
+		"5a053453_74fb_4456_92d2_3f716d6ccc81": {},
+		"e4acb574_3e85_4e8c_b4c5_c77349879210": {},
+		"a895de75_a8e1_4904_8605_5fee4e600d7d": {},
+		"022333ad_19c9_40ce_89b2_5c04da8d3019": {},
+		"fc716138_e26e_4a02_a8a1_19d176a8c232": {},
+		"bde46462_bf6d_44f0_98cd_baeb99125862": {},
+		"7d916590_f1b0_4814_b40c_55bcf08f44c0": {},
+		"367c1ec3_e7fd_46b0_9032_b38ff8861829": {},
+		"f6242e21_7b0b_4c9a_b2f9_4cf3285d9646": {},
+		"57d54547_2770_410a_8aae_831ef50f228c": {},
+		"6256221a_9a10_4ec2_ab3b_118640004f07": {},
+		"523df5b2_3ad8_492a_8414_304ae3fc2022": {},
+		"afa0697d_5e4d_433c_b88b_77aec1d974b7": {},
+		"78b7a3e2_a711_42e6_86b9_4152fb98bf48": {},
+		"bc73c8c2_8033_4a19_aaf6_b734c58660e2": {},
+		"31220d8d_eef4_4d12_8b40_e6ca81f20fdb": {}
 	},
 	"rp_animation_controller": {
 		"RP/animation_controllers/devourer.animation.controller.json": {
@@ -1942,6 +1964,204 @@
 			"geometry_identifiers": [
 				"default"
 			]
+		},
+		"RP/entity/woodenarrow_projectile_copper.json": {
+			"identifiers": [
+				"terrariamod:woodenarrow_projectile_copper"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"move"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/woodenarrow_projectile_tin.json": {
+			"identifiers": [
+				"terrariamod:woodenarrow_projectile_tin"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"move"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/woodenarrow_projectile_iron.json": {
+			"identifiers": [
+				"terrariamod:woodenarrow_projectile_iron"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"move"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/woodenarrow_projectile_lead.json": {
+			"identifiers": [
+				"terrariamod:woodenarrow_projectile_lead"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"move"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/woodenarrow_projectile_silver.json": {
+			"identifiers": [
+				"terrariamod:woodenarrow_projectile_silver"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"move"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/woodenarrow_projectile_tungsten.json": {
+			"identifiers": [
+				"terrariamod:woodenarrow_projectile_tungsten"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"move"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/woodenarrow_projectile_gold.json": {
+			"identifiers": [
+				"terrariamod:woodenarrow_projectile_gold"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"move"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/woodenarrow_projectile_platinum.json": {
+			"identifiers": [
+				"terrariamod:woodenarrow_projectile_platinum"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"move"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/woodenarrow_projectile_crimtane.json": {
+			"identifiers": [
+				"terrariamod:woodenarrow_projectile_crimtane"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"move"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
 		}
 	},
 	"entity_model": {
@@ -2315,6 +2535,11 @@
 			"tags": [
 				"sawmill"
 			]
+		},
+		"BP/recipes/woodenchair_recipe.json": {
+			"tags": [
+				"sawmill"
+			]
 		}
 	},
 	"item": {
@@ -2540,12 +2765,6 @@
 			],
 			"custom_commands": []
 		},
-		"BP/items/crimtanebow.json": {
-			"identifiers": [
-				"terrariamod:crimtanebow"
-			],
-			"custom_commands": []
-		},
 		"BP/items/demolitionist_summoner.json": {
 			"identifiers": [
 				"terrariamod:demolitionist_summoner"
@@ -2597,12 +2816,6 @@
 		"BP/items/goldbar.json": {
 			"identifiers": [
 				"terrariamod:goldbar"
-			],
-			"custom_commands": []
-		},
-		"BP/items/goldbow.json": {
-			"identifiers": [
-				"terrariamod:goldbow"
 			],
 			"custom_commands": []
 		},
@@ -2666,12 +2879,6 @@
 			],
 			"custom_commands": []
 		},
-		"BP/items/ironbow.json": {
-			"identifiers": [
-				"terrariamod:ironbow"
-			],
-			"custom_commands": []
-		},
 		"BP/items/jungle_wood.json": {
 			"identifiers": [
 				"terrariamod:jungle_wood"
@@ -2681,12 +2888,6 @@
 		"BP/items/leadbar.json": {
 			"identifiers": [
 				"terrariamod:leadbar"
-			],
-			"custom_commands": []
-		},
-		"BP/items/leadbow.json": {
-			"identifiers": [
-				"terrariamod:leadbow"
 			],
 			"custom_commands": []
 		},
@@ -2747,12 +2948,6 @@
 		"BP/items/platinumbar.json": {
 			"identifiers": [
 				"terrariamod:platinumbar"
-			],
-			"custom_commands": []
-		},
-		"BP/items/platinumbow.json": {
-			"identifiers": [
-				"terrariamod:platinumbow"
 			],
 			"custom_commands": []
 		},
@@ -2834,12 +3029,6 @@
 			],
 			"custom_commands": []
 		},
-		"BP/items/silverbow.json": {
-			"identifiers": [
-				"terrariamod:silverbow"
-			],
-			"custom_commands": []
-		},
 		"BP/items/silvercoin.json": {
 			"identifiers": [
 				"terrariamod:silvercoin"
@@ -2888,12 +3077,6 @@
 			],
 			"custom_commands": []
 		},
-		"BP/items/tinbow.json": {
-			"identifiers": [
-				"terrariamod:tinbow"
-			],
-			"custom_commands": []
-		},
 		"BP/items/tissuesample.json": {
 			"identifiers": [
 				"terrariamod:tissuesample"
@@ -2903,12 +3086,6 @@
 		"BP/items/tungstenbar.json": {
 			"identifiers": [
 				"terrariamod:tungstenbar"
-			],
-			"custom_commands": []
-		},
-		"BP/items/tungstenbow.json": {
-			"identifiers": [
-				"terrariamod:tungstenbow"
 			],
 			"custom_commands": []
 		},
@@ -2936,12 +3113,6 @@
 			],
 			"custom_commands": []
 		},
-		"BP/items/woodenbow.json": {
-			"identifiers": [
-				"terrariamod:woodenbow"
-			],
-			"custom_commands": []
-		},
 		"BP/items/wormfood.json": {
 			"identifiers": [
 				"terrariamod:wormfood"
@@ -2957,6 +3128,114 @@
 		"BP/items/hellstonebow.json": {
 			"identifiers": [
 				"terrariamod:hellstonebow"
+			],
+			"custom_commands": []
+		},
+		"BP/items/template_bow.json": {
+			"identifiers": [
+				"terrariamod:demonitebow"
+			],
+			"custom_commands": []
+		},
+		"BP/items/tinbow.json": {
+			"identifiers": [
+				"terrariamod:tinbow"
+			],
+			"custom_commands": []
+		},
+		"BP/items/ironbow.json": {
+			"identifiers": [
+				"terrariamod:ironbow"
+			],
+			"custom_commands": []
+		},
+		"BP/items/leadbow.json": {
+			"identifiers": [
+				"terrariamod:leadbow"
+			],
+			"custom_commands": []
+		},
+		"BP/items/silverbow.json": {
+			"identifiers": [
+				"terrariamod:silverbow"
+			],
+			"custom_commands": []
+		},
+		"BP/items/tungstenbow.json": {
+			"identifiers": [
+				"terrariamod:tungstenbow"
+			],
+			"custom_commands": []
+		},
+		"BP/items/goldbow.json": {
+			"identifiers": [
+				"terrariamod:goldbow"
+			],
+			"custom_commands": []
+		},
+		"BP/items/platinumbow.json": {
+			"identifiers": [
+				"terrariamod:platinumbow"
+			],
+			"custom_commands": []
+		},
+		"BP/items/woodenbow.json": {
+			"identifiers": [
+				"terrariamod:woodenbow"
+			],
+			"custom_commands": []
+		},
+		"BP/items/crimtanebow.json": {
+			"identifiers": [
+				"terrariamod:crimtanebow"
+			],
+			"custom_commands": []
+		},
+		"BP/items/demonitebow.json": {
+			"identifiers": [
+				"terrariamod:demonitebow"
+			],
+			"custom_commands": []
+		},
+		"BP/items/workbench.json": {
+			"identifiers": [
+				"terrariamod:purity_chain"
+			],
+			"custom_commands": []
+		},
+		"BP/items/tfurnace.json": {
+			"identifiers": [
+				"terrariamod:purity_chain"
+			],
+			"custom_commands": []
+		},
+		"BP/items/iron_anvil.json": {
+			"identifiers": [
+				"terrariamod:purity_chain"
+			],
+			"custom_commands": []
+		},
+		"BP/items/purity_loom.json": {
+			"identifiers": [
+				"terrariamod:purity_chain"
+			],
+			"custom_commands": []
+		},
+		"BP/items/sawmill.json": {
+			"identifiers": [
+				"terrariamod:purity_chain"
+			],
+			"custom_commands": []
+		},
+		"BP/items/purity_cobweb.json": {
+			"identifiers": [
+				"terrariamod:purity_chain"
+			],
+			"custom_commands": []
+		},
+		"BP/items/purity_chain.json": {
+			"identifiers": [
+				"terrariamod:purity_chain"
 			],
 			"custom_commands": []
 		}

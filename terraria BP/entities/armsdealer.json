@@ -1,4 +1,4 @@
-//bridge-file-version: #18
+//bridge-file-version: #20
 {
 	"format_version": "1.16.0",
 	"minecraft:entity": {
@@ -226,6 +226,15 @@
 			},
 			"minecraft:shooter": {
 				"def": "terrariamod:musketball_projectile_flintlockpistol"
+			},
+			"minecraft:behavior.move_to_block": {
+				"priority": 5,
+				"speed_multiplier": 1,
+				"tick_interval": 1,
+				"target_blocks": [
+					"terrariamod:wooden_chair"
+				],
+				"search_range": 60
 			}
 		},
 		"events": {}

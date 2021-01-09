@@ -1403,6 +1403,256 @@
 						}
 					}
 				}
+			},
+			"a1ec1fcc_ee8c_47e6_8772_287da8a6752a": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"5a053453_74fb_4456_92d2_3f716d6ccc81": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"e4acb574_3e85_4e8c_b4c5_c77349879210": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"a895de75_a8e1_4904_8605_5fee4e600d7d": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"022333ad_19c9_40ce_89b2_5c04da8d3019": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"fc716138_e26e_4a02_a8a1_19d176a8c232": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"bde46462_bf6d_44f0_98cd_baeb99125862": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"7d916590_f1b0_4814_b40c_55bcf08f44c0": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"367c1ec3_e7fd_46b0_9032_b38ff8861829": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"f6242e21_7b0b_4c9a_b2f9_4cf3285d9646": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"57d54547_2770_410a_8aae_831ef50f228c": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"6256221a_9a10_4ec2_ab3b_118640004f07": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"85188189_7d30_49ff_9615_8d73b0b9edef": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"83be91b1_1b76_4240_8b2d_dffa57fba138": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"9be1d74d_ad75_41a1_93ea_f27b2aa71158": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"a76c622e_f453_4e31_9ca8_38875cd34fda": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"292b4558_6ac5_4c2c_878a_ba4a72671a3d": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"79de4fc3_2efb_4eaf_8938_e674f69713e6": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"86c99bf4_16f5_49db_94d8_14c8302f854d": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"523df5b2_3ad8_492a_8414_304ae3fc2022": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"bf838aa6_0fff_41cf_b04e_93d77b41c084": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"afa0697d_5e4d_433c_b88b_77aec1d974b7": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"78b7a3e2_a711_42e6_86b9_4152fb98bf48": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"bc73c8c2_8033_4a19_aaf6_b734c58660e2": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"31220d8d_eef4_4d12_8b40_e6ca81f20fdb": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
 			}
 		}
 	},
@@ -2186,9 +2436,6 @@
 	"BP/items/crimtanebar.json": {
 		"data": {}
 	},
-	"BP/items/crimtanebow.json": {
-		"data": {}
-	},
 	"BP/items/demolitionist_summoner.json": {
 		"data": {}
 	},
@@ -2214,9 +2461,6 @@
 		"data": {}
 	},
 	"BP/items/goldbar.json": {
-		"data": {}
-	},
-	"BP/items/goldbow.json": {
 		"data": {}
 	},
 	"BP/items/goldcoin.json": {
@@ -2249,16 +2493,10 @@
 	"BP/items/ironbar.json": {
 		"data": {}
 	},
-	"BP/items/ironbow.json": {
-		"data": {}
-	},
 	"BP/items/jungle_wood.json": {
 		"data": {}
 	},
 	"BP/items/leadbar.json": {
-		"data": {}
-	},
-	"BP/items/leadbow.json": {
 		"data": {}
 	},
 	"BP/items/leadpickaxe.json": {
@@ -2291,9 +2529,6 @@
 	"BP/items/platinumbar.json": {
 		"data": {}
 	},
-	"BP/items/platinumbow.json": {
-		"data": {}
-	},
 	"BP/items/platinumcoin.json": {
 		"data": {}
 	},
@@ -2324,9 +2559,6 @@
 	"BP/items/silverbar.json": {
 		"data": {}
 	},
-	"BP/items/silverbow.json": {
-		"data": {}
-	},
 	"BP/items/silvercoin.json": {
 		"data": {}
 	},
@@ -2351,25 +2583,16 @@
 	"BP/items/tinbar.json": {
 		"data": {}
 	},
-	"BP/items/tinbow.json": {
-		"data": {}
-	},
 	"BP/items/tissuesample.json": {
 		"data": {}
 	},
 	"BP/items/tungstenbar.json": {
 		"data": {}
 	},
-	"BP/items/tungstenbow.json": {
-		"data": {}
-	},
 	"BP/items/vertebra.json": {
 		"data": {}
 	},
 	"BP/items/woodenarrow.json": {
-		"data": {}
-	},
-	"BP/items/woodenbow.json": {
 		"data": {}
 	},
 	"BP/items/zombiearm.json": {
@@ -2409,6 +2632,93 @@
 		"data": {}
 	},
 	"BP/entities/armsdealer.json": {
+		"data": {}
+	},
+	"BP/recipes/woodenchair_recipe.json": {
+		"data": {}
+	},
+	"BP/animation_controllers/armsdealer_death.json": {
+		"data": {}
+	},
+	"BP/items/template_bow.json": {
+		"data": {}
+	},
+	"BP/items/tinbow.json": {
+		"data": {}
+	},
+	"RP/entity/woodenarrow_projectile_copper.json": {
+		"data": {}
+	},
+	"RP/entity/woodenarrow_projectile_tin.json": {
+		"data": {}
+	},
+	"RP/entity/woodenarrow_projectile_iron.json": {
+		"data": {}
+	},
+	"RP/entity/woodenarrow_projectile_lead.json": {
+		"data": {}
+	},
+	"RP/entity/woodenarrow_projectile_silver.json": {
+		"data": {}
+	},
+	"RP/entity/woodenarrow_projectile_tungsten.json": {
+		"data": {}
+	},
+	"RP/entity/woodenarrow_projectile_gold.json": {
+		"data": {}
+	},
+	"RP/entity/woodenarrow_projectile_platinum.json": {
+		"data": {}
+	},
+	"BP/items/ironbow.json": {
+		"data": {}
+	},
+	"BP/items/leadbow.json": {
+		"data": {}
+	},
+	"BP/items/silverbow.json": {
+		"data": {}
+	},
+	"BP/items/tungstenbow.json": {
+		"data": {}
+	},
+	"BP/items/goldbow.json": {
+		"data": {}
+	},
+	"BP/items/platinumbow.json": {
+		"data": {}
+	},
+	"BP/items/woodenbow.json": {
+		"data": {}
+	},
+	"BP/items/crimtanebow.json": {
+		"data": {}
+	},
+	"BP/items/demonitebow.json": {
+		"data": {}
+	},
+	"RP/entity/woodenarrow_projectile_crimtane.json": {
+		"data": {}
+	},
+	"BP/items/workbench.json": {
+		"data": {}
+	},
+	"BP/items/tfurnace.json": {
+		"data": {}
+	},
+	"BP/items/iron_anvil.json": {
+		"data": {}
+	},
+	"BP/items/purity_loom.json": {
+		"data": {}
+	},
+	"BP/items/sawmill.json": {
+		"data": {}
+	},
+	"BP/items/purity_cobweb.json": {
+		"data": {}
+	},
+	"BP/items/purity_chain.json": {
 		"data": {}
 	}
 }

@@ -1,0 +1,23 @@
+//bridge-file-version: #8
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.armsdealer_death": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"spawn_next_stage": "!query.is_alive"
+						}
+					]
+				},
+				"spawn_next_stage": {
+					"on_entry": [
+						"/scoreboard players set @a armsstat 0",
+						"/say The Arms Dealer has died"
+					]
+				}
+			}
+		}
+	}
+}

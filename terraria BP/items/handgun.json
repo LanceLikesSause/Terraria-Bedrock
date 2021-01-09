@@ -1,4 +1,4 @@
-//bridge-file-version: #23
+//bridge-file-version: #27
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
@@ -17,8 +17,31 @@
 			},
 			"minecraft:creative_category": {
 				"parent": "equipment"
+			},
+			"minecraft:on_use": {
+				"on_use": {
+					"condition": "query.get_equipped_item_name('off_hand')=='musketball'",
+					"event": "terrariamod:shoot"
+				}
+			},
+			"minecraft:cooldown": {
+				"category": "handgun",
+				"duration": 0.3
 			}
 		},
-		"events": {}
+		"events": {
+			"terrariamod:shoot": {
+				"shoot": {
+					"projectile": "terrariamod:musketball_projectile_handgun",
+					"launch_power": 1
+				},
+				"run_command": {
+					"command": [
+						"clear @s terrariamod:musketball 0 1",
+						"playsound phoenixblaster.effect @s ~~~"
+					]
+				}
+			}
+		}
 	}
 }

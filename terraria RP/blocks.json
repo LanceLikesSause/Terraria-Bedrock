@@ -1,9 +1,6 @@
-//bridge-file-version: #12
+//bridge-file-version: #13
 {
 	"terrariamod:purity_loom": {
-		"sound": "wood"
-	},
-	"terrariamod:sawmill": {
 		"sound": "wood"
 	},
 	"terrariamod:sawmill": {
@@ -16,9 +13,6 @@
 		"sound": "wood"
 	},
 	"terrariamod:jungle_wood": {
-		"sound": "wood",
-		"textures": "jungle_wood"
-	},	"terrariamod:jungle_wood": {
 		"sound": "wood",
 		"textures": "jungle_wood"
 	},
@@ -378,5 +372,8 @@
 	"terrariamod:underworld_transporter": {
 		"sound": "stone",
 		"textures": "underworld_transporter"
+	},
+	"terrariamod:wooden_chair": {
+		"sound": "wood"
 	}
 }

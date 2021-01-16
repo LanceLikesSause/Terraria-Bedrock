@@ -1,0 +1,29 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.purity_campfire",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 1.5,
+				"visible_bounds_offset": [0, 0.25, 0]
+			},
+			"bones": [
+				{
+					"name": "unknown_bone",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-1.63192, 3.04076, -5.60609], "size": [3, 3, 9], "pivot": [0, 0, 0], "rotation": [32.5, 70, 0], "uv": [8, 8]},
+						{"origin": [-4.69047, 3.11251, -5.71871], "size": [3, 3, 9], "pivot": [0, 0, 0], "rotation": [32.5, 115, 0], "uv": [8, 8]},
+						{"origin": [-1.61698, 0, -6.15619], "size": [3, 3, 12], "pivot": [0, 0, 0], "rotation": [0, -7.5, 0], "uv": [8, 8]},
+						{"origin": [-5.49056, 0, -6.39287], "size": [3, 3, 12], "pivot": [0, 0, 0], "rotation": [0, 10, 0], "uv": [8, 8]},
+						{"origin": [0.50312, 2.35829, -6.95877], "size": [3, 3, 9], "pivot": [0, 0, 0], "rotation": [25, -110, 0], "uv": [8, 8]},
+						{"origin": [-0.72774, 1.78947, -5.73892], "size": [3, 3, 9], "pivot": [0, 0, 0], "rotation": [25, -27.5, 0], "uv": [8, 8]}
+					]
+				}
+			]
+		}
+	]
+}

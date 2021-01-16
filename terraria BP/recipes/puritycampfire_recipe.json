@@ -1,0 +1,27 @@
+//bridge-file-version: #7
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "terrariamod:puritycampfire_recipe"
+		},
+		"tags": [
+			"workbench"
+		],
+		"ingredients": [
+			{
+				"item": "terrariamod:purity_wood",
+				"count": 4
+			},
+			{
+				"item": "terrariamod:purity_torch",
+				"count": 5
+			}
+		],
+		"result": [
+			{
+				"item": "terrariamod:purity_campfire"
+			}
+		]
+	}
+}

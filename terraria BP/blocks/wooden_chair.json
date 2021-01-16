@@ -1,13 +1,55 @@
-//bridge-file-version: #87
+//bridge-file-version: #44
 {
 	"format_version": "1.16.100",
 	"minecraft:block": {
 		"description": {
-			"identifier": "terrariamod:wooden_chair"
+			"identifier": "terrariamod:wooden_chair",
+			"properties": {
+				"terrariamod:facing": [
+					0,
+					1,
+					2,
+					3
+				]
+			}
 		},
 		"components": {
+			"minecraft:block_light_absorption": 0,
+			"minecraft:block_light_emission": 0,
 			"minecraft:destroy_time": 1,
+			"minecraft:geometry": "geometry.wooden_chair",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "wooden_chair",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:loot": "loot_tables/blocks/wooden_chair.json",
 			"tag:terrariamod:wood": {},
+			"minecraft:entity_collision": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					8,
+					16
+				]
+			},
+			"minecraft:pick_collision": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					8,
+					16
+				]
+			},
 			"minecraft:ticking": {
 				"looping": true,
 				"range": [
@@ -18,22 +60,61 @@
 					"event": "terrariamod:summon"
 				}
 			},
-			"minecraft:on_player_destroyed": {
-				"event": "terrariamod:destroy",
-				"target": "self"
+			"minecraft:on_interact": {
+				"target": "self",
+				"event": "terrariamod:rotate"
 			},
-			"minecraft:on_placed": {
-				"event": "terrariamod:placement",
-				"target": "self"
+			"minecraft:on_step_off": {
+				"target": "self",
+				"event": "terrariamod:stand"
 			},
-			"minecraft:geometry": "geometry.wooden_chair",
-			"minecraft:material_instances": {
-				"*": {
-					"texture": "wooden_chair",
-					"render_method": "alpha_test"
-				}
+			"minecraft:on_step_on": {
+				"target": "self",
+				"event": "terrariamod:sit"
 			}
 		},
+		"permutations": [
+			{
+				"condition": "query.block_property('terrariamod:facing') == 0",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						180,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('terrariamod:facing') == 1",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						0,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('terrariamod:facing') == 2",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						270,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('terrariamod:facing') == 3",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						90,
+						0
+					]
+				}
+			}
+		],
 		"events": {
 			"terrariamod:summon": {
 				"run_command": {
@@ -53,17 +134,22 @@
 					]
 				}
 			},
-			"terrariamod:placement": {
+			"terrariamod:rotate": {
+				"set_block_property": {
+					"terrariamod:facing": "query.cardinal_facing_2d-2"
+				}
+			},
+			"terrariamod:sit": {
 				"run_command": {
 					"command": [
-						"tickingarea add ~~~ ~~~ chair"
+						"playanimation @e[r=1] animation.player.riding.legs animation.player.riding.legs 999 animation.player.riding.legs"
 					]
 				}
 			},
-			"terrariamod:destroy": {
+			"terrariamod:stand": {
 				"run_command": {
 					"command": [
-						"tickingarea remove ~~~"
+						"playanimation @e[r=1] animation.player.riding.legs"
 					]
 				}
 			}

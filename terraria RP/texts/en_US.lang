@@ -14,7 +14,7 @@ terrariamod.tempone.text0=This a guide for the Terraria Mod for Minecraft bedroc
 terrariamod.header.title1=Slimes and Torches
 terrariamod.tempone.text1=You will also need to kill slimes while it's still day, they will drop gel which can be used to craft torches. You can craft these by placing 1 gel and 1 wood in your personal 2x2 inventory.
 terrariamod.header.title2=Building a base
-terrariamod.tempone.text2=Before the sun sets you will need to build a shelter to protect your self for the §4creatures§f of the night. You may want to make room for any NPCs you want to get later. Getting NPCs will be explained later on. 
+terrariamod.tempone.text2=Before the sun sets you will need to build a shelter to protect your self for the §4creatures§f of the night. You may want to make room for any NPCs you want to get later. Getting NPCs is explained in the Housing section of this Tutorial. 
 terrariamod.header.title3=Upgrading Gear
 terrariamod.tempone.text3=Gather ores like copper, and lead so you can make them into better gear. You can create a workbench, by putting 3 wood into your personal crafting space. Workbenches can be used to craft wooden bows, arrows, cactus swords, pickaxes, upgrading and downgrading coin stacks, and NPCs. Use 4 stone, 4 wood, and a torch to craft a furnace, this block will allow you to craft bars like copper or lead bar from your ores by putting 3 ores into the furnace's grid. Use these bars in the furnace to create a material block by putting 4 bars in the grid. Use 5 lead or iron bars in a workbench to create a iron or lead anvil. The anvil can craft pickaxes, swords, armors, axes, bows, throwing items, and guns from your bars. §eNote: All item recipes are in the recipe book.
 terrariamod.header.title4=Random Chest
@@ -45,6 +45,14 @@ terrariamod.tempsix.title1=Creating the bed
 terrariamod.tempsix.text1=With the sawmill you can create a bed. To do this you will need wood, and silk. To create silk you will need to craft the loom with the sawmill. To craft the loom place 4 wood into the sawmill. Finally in the loom place 7 cobwebs in the loom to get the silk. Cobwebs can be gotten from caves.
 terrariamod.tempsix.title2=Using the bed
 terrariamod.tempsix.text2=To use the bed you must interact with the ground. Interact with the bed to set you're spawn point, and break it to remove you're spawn point. Using the magic mirror will teleport you to your bed.
+howtoplay.tempsix.title=Housing
+howtoplay.tempsix=Housing
+terrariamod.tempseven.title0=Making a house for NPCs
+terrariamod.tempseven.text0=It is recommended that you make a house to spawn your NPCs in so they aren't indanger however this isn't required. You will need to craft a wooden chair or any other type of chair.
+terrariamod.tempseven.title1=How NPCs spawn in
+terrariamod.tempseven.text1=The chair will spawn in the NPCs using a system. The system works like this, if the player has more then 100 hp (used at least on heart crystal) then the Nurse will spawn after some time, if the player gotten enough coins then Merchant will spawn in after some time, if the player has destroyed enough surface , underground, and cavern chest the Demolitionist will spawn after some time, if the player has destroyed a crimson heart or the corruption version then the Arms Dealer will spawn after some time.
+terrariamod.tempseven.title2=Furniture
+terrariamod.tempseven.text2=You can decorate your house with blocks like torches, tables, candles, etc. You can craft these blocks in the workbench, they have all their recipes in the recipe book.
 
 tile.terrariamod:underworld_transporter.name=Underworld Transporter
 
@@ -92,7 +100,7 @@ item.terrariamod:corrupted_wood.name=Ebonwood
 tile.terrariamod:corrupted_wood.name=Ebonwood 
 tile.terrariamod:ebonestone.name=Ebonestone
 
-item.terrariamod:jungle_wood.name=Jungle Wood
+item.terrariamod:jungle_wood.name=Rich Mahogany Wood
 
 item.terrariamod:copperaxe.name=Copper Axe
 item.terrariamod:tinaxe.name=Tin Axe
@@ -144,12 +152,22 @@ item.terrariamod:meteorite_chestplate.name=Meteorite Chestplate
 item.terrariamod:meteorite_helmet.name=Meteorite Helmet
 item.terrariamod:meteorite_greaves.name=Meteorite Greaves
 
+entity.unknown.name=Chest
+entity.terrariamod:chest_dummy.name=Chest
+tile.terrariamod:purity_chest.name=Chest
+tile.terrariamod:purity_candle.name=Candle
+tile.terrariamod:twooden_door.name=Wooden Door
+tile.terrariamod:wooden_table.name=Wooden Table
+tile.terrariamod:wooden_chair.name=Wooden Chair
+tile.terrariamod:purity_campire.name=Campfire
 tile.terrariamod:crimson_alter.name=Crimson Alter
 tile.terrariamod:demon_alter.name=Demon Alter
 tile.terrariamod:demon_alter=Demon Alter
 tile.terrariamod:crimson_alter=Crimson Alter
 tile.terrariamod:workbench.name=Workbench
+tile.terrariamod:purity_campfire.name=Campfire
 tile.terrariamod:iron_anvil.name=Iron Anvil
+tile.terrariamod:hellforge.name=Hellforge
 tile.terrariamod:tfurnace.name=Furnace
 tile.terrariamod:tfurnace=Furnace
 tile.terrariamod:purity_loom.name=Loom
@@ -389,6 +407,13 @@ item.terrariamod:demonitepickaxe.name=Nightmare Pickaxe
 item.terrariamod:hellstonepickaxe.name=Hellstone Pickaxe
 
 
+item.terrariamod:beekeeper.name=Bee Keeper
+item.terrariamod:iceblade.name=Ice Blade
+item.terrariamod:enchantedsword.name=Enchanted Sword
+item.terrariamod:woodensword.name=Wooden Sword
+item.terrariamod:richmahoganysword.name=Rich Mahogany Sword
+item.terrariamod:shadewoodsword.name=Shadewood Sword
+item.terrariamod:ebonwoodsword.name=Ebonwood Sword
 item.terrariamod:muramasa.name=Muramasa 
 item.terrariamod:zombiearm.name=Zombie Arm
 item.terrariamod:bonesword.name=Bone Sword
@@ -403,10 +428,11 @@ item.terrariamod:goldsword.name=Gold Sword
 item.terrariamod:platinumsword.name=Platinum Sword
 item.terrariamod:bluephaseblade.name=Blue Phaseblade
 item.terrariamod:crimtanesword.name=Blood Butcherer
-item.terrariamod:demonitesword.name=Light's Blade
+item.terrariamod:demonitesword.name=Light's Bane
 item.terrariamod:hellstonesword.name=Fiery Greatsword
 item.terrariamod:bladeofgrass.name=Blade Of Grass
 item.terrariamod:nightsedge.name=Night's Edge
+item.terrariamod:starfury.name=Star Fury
 
 item.terrariamod:slimestaff.name=Slime Staff §9Summons Slime Minions
 

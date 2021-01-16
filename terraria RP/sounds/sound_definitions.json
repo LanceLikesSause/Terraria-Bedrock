@@ -1,32 +1,44 @@
 {
 	"format_version": "1.14.0",
 	"sound_definitions": {
+		"twooden_door_open.effect": {
+			"category": "neutral",
+			"sounds": [
+				"sounds/effects/twooden_door_open"
+			]
+		},
+		"twooden_door_close.effect": {
+			"category": "neutral",
+			"sounds": [
+				"sounds/effects/twooden_door_close"
+			]
+		},
 		"bow.effect": {
-			"category": "music",
+			"category": "neutral",
 			"sounds": [
 				"sounds/effects/bow"
 			]
 		},
 		"minishark.effect": {
-			"category": "music",
+			"category": "neutral",
 			"sounds": [
 				"sounds/effects/minishark"
 			]
 		},
 		"handgun.effect": {
-			"category": "music",
+			"category": "neutral",
 			"sounds": [
 				"sounds/effects/handgun"
 			]
 		},
 		"phoenixblaster.effect": {
-			"category": "music",
+			"category": "neutral",
 			"sounds": [
 				"sounds/effects/phoenixblaster"
 			]
 		},
 		"boomstick.effect": {
-			"category": "music",
+			"category": "neutral",
 			"sounds": [
 				"sounds/effects/boomstick"
 			]

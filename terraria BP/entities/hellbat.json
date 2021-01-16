@@ -1,4 +1,4 @@
-//bridge-file-version: #6
+//bridge-file-version: #7
 {
 	"format_version": "1.16.0",
 	"minecraft:entity": {
@@ -12,10 +12,7 @@
 		"components": {
 			"minecraft:type_family": {
 				"family": [
-					"phantom",
-					"undead",
-					"monster",
-					"mob"
+					"terraria_players_enemy"
 				]
 			},
 			"minecraft:loot": {

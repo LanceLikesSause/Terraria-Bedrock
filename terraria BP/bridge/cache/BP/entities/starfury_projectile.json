@@ -1,0 +1,217 @@
+{
+	"file_path": "C:\\Users\\LANCE.LEGAUX\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\entities\\starfury_projectile.json",
+	"file_type": "entity",
+	"format_version": 1,
+	"file_uuid": "c32a268b_0005_40f3_92ff_cd56764afffe",
+	"file_version": 28,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.13.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.13.0",
+					"minecraft:entity": {
+						"description": {
+							"identifier": "terrariamod:starfury_projectile",
+							"is_spawnable": false,
+							"is_summonable": true,
+							"is_experimental": false
+						},
+						"component_groups": {},
+						"components": {
+							"minecraft:projectile": {
+								"on_hit": {
+									"impact_damage": {
+										"damage": [
+											19,
+											19
+										],
+										"knockback": true,
+										"semi_random_diff_damage": false,
+										"destroy_on_hit": false
+									}
+								},
+								"hit_sound": "bow.hit",
+								"power": 1.4,
+								"gravity": 0.03,
+								"anchor": 0.1,
+								"should_bounce": true,
+								"offset": [
+									0,
+									-0.1,
+									0
+								],
+								"catch_fire": false
+							}
+						},
+						"events": {}
+					}
+				},
+				"key": "minecraft:entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:starfury_projectile",
+								"is_spawnable": false,
+								"is_summonable": true,
+								"is_experimental": false
+							},
+							"component_groups": {},
+							"components": {
+								"minecraft:projectile": {
+									"on_hit": {
+										"impact_damage": {
+											"damage": [
+												19,
+												19
+											],
+											"knockback": true,
+											"semi_random_diff_damage": false,
+											"destroy_on_hit": false
+										}
+									},
+									"hit_sound": "bow.hit",
+									"power": 1.4,
+									"gravity": 0.03,
+									"anchor": 0.1,
+									"should_bounce": true,
+									"offset": [
+										0,
+										-0.1,
+										0
+									],
+									"catch_fire": false
+								}
+							},
+							"events": {}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:starfury_projectile",
+							"is_spawnable": false,
+							"is_summonable": true,
+							"is_experimental": false
+						}
+					},
+					{
+						"key": "component_groups",
+						"is_minified": true,
+						"children": {}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:starfury_projectile",
+								"is_spawnable": false,
+								"is_summonable": true,
+								"is_experimental": false
+							},
+							"component_groups": {},
+							"components": {
+								"minecraft:projectile": {
+									"on_hit": {
+										"impact_damage": {
+											"damage": [
+												19,
+												19
+											],
+											"knockback": true,
+											"semi_random_diff_damage": false,
+											"destroy_on_hit": false
+										}
+									},
+									"hit_sound": "bow.hit",
+									"power": 1.4,
+									"gravity": 0.03,
+									"anchor": 0.1,
+									"should_bounce": true,
+									"offset": [
+										0,
+										-0.1,
+										0
+									],
+									"catch_fire": false
+								}
+							},
+							"events": {}
+						},
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:projectile": {
+								"on_hit": {
+									"impact_damage": {
+										"damage": [
+											19,
+											19
+										],
+										"knockback": true,
+										"semi_random_diff_damage": false,
+										"destroy_on_hit": false
+									}
+								},
+								"hit_sound": "bow.hit",
+								"power": 1.4,
+								"gravity": 0.03,
+								"anchor": 0.1,
+								"should_bounce": true,
+								"offset": [
+									0,
+									-0.1,
+									0
+								],
+								"catch_fire": false
+							}
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:starfury_projectile",
+								"is_spawnable": false,
+								"is_summonable": true,
+								"is_experimental": false
+							},
+							"component_groups": {},
+							"components": {
+								"minecraft:projectile": {
+									"on_hit": {
+										"impact_damage": {
+											"damage": [
+												19,
+												19
+											],
+											"knockback": true,
+											"semi_random_diff_damage": false,
+											"destroy_on_hit": false
+										}
+									},
+									"hit_sound": "bow.hit",
+									"power": 1.4,
+									"gravity": 0.03,
+									"anchor": 0.1,
+									"should_bounce": true,
+									"offset": [
+										0,
+										-0.1,
+										0
+									],
+									"catch_fire": false
+								}
+							},
+							"events": {}
+						},
+						"key": "events",
+						"is_minified": true,
+						"children": {}
+					}
+				]
+			}
+		]
+	}
+}

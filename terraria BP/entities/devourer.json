@@ -1,4 +1,4 @@
-//bridge-file-version: #13
+//bridge-file-version: #14
 {
 	"format_version": "1.16.0",
 	"minecraft:entity": {
@@ -12,8 +12,7 @@
 		"components": {
 			"minecraft:type_family": {
 				"family": [
-					"devourer",
-					"inanimate"
+					"devourer"
 				]
 			},
 			"minecraft:collision_box": {

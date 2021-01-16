@@ -1,4 +1,4 @@
-//bridge-file-version: #12
+//bridge-file-version: #13
 {
 	"format_version": "1.16.0",
 	"minecraft:entity": {
@@ -41,10 +41,7 @@
 			},
 			"minecraft:type_family": {
 				"family": [
-					"phantom",
-					"undead",
-					"monster",
-					"mob"
+					"terraria_players_enemy"
 				]
 			},
 			"minecraft:nameable": {},

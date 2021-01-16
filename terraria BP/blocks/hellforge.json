@@ -1,4 +1,4 @@
-//bridge-file-version: #9
+//bridge-file-version: #10
 {
 	"format_version": "1.16.100",
 	"minecraft:block": {
@@ -7,7 +7,9 @@
 			"register_to_creative_menu": true
 		},
 		"components": {
-			"minecraft:destroy_time": 5,
+			"minecraft:destroy_time": 1,
+			"minecraft:loot": "loot_tables/blocks/hellforge.json",
+			"minecraft:geometry": "geometry.furnace",
 			"minecraft:material_instances": {
 				"*": {
 					"texture": "hellforge",
@@ -17,12 +19,13 @@
 			"minecraft:crafting_table": {
 				"grid_size": 3,
 				"crafting_tags": [
-					"hellforge"
-				]
+					"hellforge",
+					"tfurnace"
+				],
+				"custom_description": "Hellforge"
 			},
-			"minecraft:entity_collision": false,
 			"minecraft:block_light_emission": 1,
-			"tag:terrariamod:stone": {}
+			"tag:terrariamod:wood": {}
 		},
 		"events": {}
 	}

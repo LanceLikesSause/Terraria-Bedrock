@@ -1,4 +1,4 @@
-//bridge-file-version: #20
+//bridge-file-version: #21
 {
 	"format_version": "1.16.0",
 	"minecraft:entity": {
@@ -12,10 +12,7 @@
 			"minecraft:nameable": {},
 			"minecraft:type_family": {
 				"family": [
-					"zombie",
-					"undead",
-					"monster",
-					"mob"
+					"terraria_players_enemy"
 				]
 			},
 			"minecraft:equip_item": {},

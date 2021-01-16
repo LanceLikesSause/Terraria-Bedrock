@@ -1,4 +1,4 @@
-//bridge-file-version: #72
+//bridge-file-version: #86
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
@@ -11,7 +11,17 @@
 			"minecraft:hand_equipped": true,
 			"minecraft:foil": true,
 			"minecraft:damage": 36,
-			"minecraft:weapon": {},
+			"minecraft:weapon": {
+				"on_hurt_entity": {
+					"event": "terrariamod:hellstone"
+				},
+				"on_not_hurt_entity": {
+					"event": "terrariamod:hellstone"
+				},
+				"on_hit_block": {
+					"event": "terrariamod:hellstone"
+				}
+			},
 			"minecraft:display_name": {
 				"value": "item.terrariamod:hellstonesword.name"
 			},
@@ -25,6 +35,15 @@
 				"slot": "slot.weapon.mainhand"
 			}
 		},
-		"events": {}
+		"events": {
+			"terrariamod:hellstone": {
+				"run_command": {
+					"command": [
+						"execute @e[r=5,type=!player] ~~~ setblock ~~~ fire 0 replace",
+						"particle terrariamod:rocketboots_effect ~~~"
+					]
+				}
+			}
+		}
 	}
 }

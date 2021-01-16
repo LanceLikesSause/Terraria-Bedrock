@@ -1,4 +1,4 @@
-//bridge-file-version: #31
+//bridge-file-version: #38
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
@@ -31,7 +31,7 @@
 		"events": {
 			"terrariamod:shoot": {
 				"shoot": {
-					"projectile": "terrariamod:woodenarrow_projectile_copper",
+					"projectile": "terrariamod:woodenarrow_projectile_crimtane",
 					"launch_power": 1
 				},
 				"run_command": {

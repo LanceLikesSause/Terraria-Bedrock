@@ -1,4 +1,4 @@
-//bridge-file-version: #3
+//bridge-file-version: #4
 {
 	"format_version": "1.13.0",
 	"minecraft:entity": {
@@ -15,10 +15,7 @@
 			"minecraft:nameable": {},
 			"minecraft:type_family": {
 				"family": [
-					"terrariamod:facemonster",
-					"pa_facemonster",
-					"mob",
-					"monster"
+					"terraria_players_enemy"
 				]
 			},
 			"minecraft:breathable": {

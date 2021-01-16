@@ -92,7 +92,13 @@
 		},
 		"BP/animation_controllers/armsdealer_death.json": {
 			"ids": [
-				"controller.animation.nurse_death"
+				"controller.animation.iceblade_effects"
+			],
+			"custom_commands": []
+		},
+		"BP/animation_controllers/iceblade_effects.json": {
+			"ids": [
+				"controller.animation.iceblade_effects"
 			],
 			"custom_commands": []
 		}
@@ -600,7 +606,9 @@
 			"identifiers": [
 				"terrariamod:purity_torch"
 			],
-			"events": [],
+			"events": [
+				"terrariamod:flame"
+			],
 			"recipe_tags": [],
 			"custom_commands": [],
 			"custom_components": []
@@ -674,8 +682,9 @@
 			],
 			"events": [
 				"terrariamod:summon",
-				"terrariamod:placement",
-				"terrariamod:destroy"
+				"terrariamod:rotate",
+				"terrariamod:sit",
+				"terrariamod:stand"
 			],
 			"recipe_tags": [],
 			"custom_commands": [],
@@ -683,40 +692,130 @@
 		},
 		"BP/blocks/surfacechest.json": {
 			"identifiers": [
-				"terrariamod:surfacechest"
+				"terrariamod:purity_chest"
 			],
 			"events": [
-				"terrariamod:destroy"
+				"terrariamod:create_dummy",
+				"terrariamod:destroy_dummy"
 			],
 			"recipe_tags": [],
 			"custom_components": [],
 			"custom_commands": []
-		}
-	},
-	"entity": {
-		"BP/entities/ash.json": {
-			"events": [
-				"minecraft:entity_spawned",
-				"minecraft:spawn_from_village",
-				"minecraft:spawn_midnight_ash",
-				"minecraft:entity_born",
-				"minecraft:ageable_grow_up",
-				"minecraft:on_tame",
-				"minecraft:pet_slept_with_owner",
-				"terrariamod:ash_gifted_owner"
-			],
-			"bridge_core_tags": [],
+		},
+		"BP/blocks/wooden_table.json": {
 			"identifiers": [
-				"terrariamod:ash"
+				"terrariamod:twooden_door"
 			],
-			"animation_references": [],
-			"families": [
-				"ash",
-				"mob"
+			"events": [
+				"terrariamod:open_door",
+				"terrariamod:close_door"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/purity_chest.json": {
+			"identifiers": [
+				"terrariamod:purity_chest"
+			],
+			"events": [
+				"terrariamod:create_dummy",
+				"terrariamod:destroy_dummy"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/twooden_door.json": {
+			"identifiers": [
+				"terrariamod:twooden_door"
+			],
+			"events": [
+				"terrariamod:open_door",
+				"terrariamod:close_door"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/purity_candle.json": {
+			"identifiers": [
+				"terrariamod:purity_candle"
+			],
+			"events": [
+				"terrariamod:flame"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/purity_chain.json": {
+			"identifiers": [
+				"terrariamod:purity_chain"
+			],
+			"events": [
+				"terrariamod:emit_flame"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/tree_bottom.json": {
+			"identifiers": [
+				"terrariamod:tree_bottom"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/hellforge.json": {
+			"identifiers": [
+				"terrariamod:hellforge"
+			],
+			"events": [],
+			"recipe_tags": [
+				"hellforge",
+				"tfurnace"
 			],
 			"custom_commands": [],
 			"custom_components": []
 		},
+		"BP/blocks/ash.json": {
+			"identifiers": [
+				"terrariamod:ash"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/hellstone.json": {
+			"identifiers": [
+				"terrariamod:hellstone"
+			],
+			"events": [
+				"terrariamod:destroy",
+				"terrariamod:walk"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/purity_campfire.json": {
+			"identifiers": [
+				"terrariamod:purity_campfire"
+			],
+			"events": [
+				"terrariamod:particle",
+				"terrariamod:regen"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		}
+	},
+	"entity": {
 		"BP/entities/blackslime.json": {
 			"events": [],
 			"bridge_core_tags": [],
@@ -726,7 +825,7 @@
 			"animation_references": [],
 			"families": [
 				"slimes_terraria",
-				"mob"
+				"terraria_players_enemy"
 			],
 			"custom_commands": [],
 			"custom_components": []
@@ -740,7 +839,7 @@
 			"animation_references": [],
 			"families": [
 				"slimes_terraria",
-				"mob"
+				"terraria_players_enemy"
 			],
 			"custom_commands": [],
 			"custom_components": []
@@ -754,7 +853,7 @@
 			"animation_references": [],
 			"families": [
 				"slimes_terraria",
-				"mob"
+				"terraria_players_enemy"
 			],
 			"custom_commands": [],
 			"custom_components": []
@@ -770,7 +869,7 @@
 			],
 			"families": [
 				"slimes_terraria",
-				"mob"
+				"terraria_players_enemy"
 			],
 			"custom_commands": [],
 			"custom_components": []
@@ -784,7 +883,7 @@
 			"animation_references": [],
 			"families": [
 				"slimes_terraria",
-				"mob"
+				"terraria_players_enemy"
 			],
 			"custom_commands": [],
 			"custom_components": []
@@ -798,7 +897,7 @@
 			"animation_references": [],
 			"families": [
 				"slimes_terraria",
-				"mob"
+				"terraria_players_enemy"
 			],
 			"custom_commands": [],
 			"custom_components": []
@@ -812,7 +911,7 @@
 			"animation_references": [],
 			"families": [
 				"slimes_terraria",
-				"mob"
+				"terraria_players_enemy"
 			],
 			"custom_commands": [],
 			"custom_components": []
@@ -826,7 +925,7 @@
 			"animation_references": [],
 			"families": [
 				"slimes_terraria",
-				"mob"
+				"terraria_players_enemy"
 			],
 			"custom_commands": [],
 			"custom_components": []
@@ -860,7 +959,7 @@
 			"animation_references": [],
 			"families": [
 				"slimes_terraria",
-				"mob"
+				"terraria_players_enemy"
 			],
 			"custom_commands": [],
 			"custom_components": []
@@ -874,7 +973,7 @@
 			"animation_references": [],
 			"families": [
 				"slimes_terraria",
-				"mob"
+				"terraria_players_enemy"
 			],
 			"custom_commands": [],
 			"custom_components": []
@@ -887,10 +986,7 @@
 			],
 			"animation_references": [],
 			"families": [
-				"phantom",
-				"undead",
-				"monster",
-				"mob"
+				"terraria_players_enemy"
 			],
 			"custom_commands": [],
 			"custom_components": []
@@ -937,10 +1033,7 @@
 				"bridge_execute_commands"
 			],
 			"families": [
-				"phantom",
-				"undead",
-				"monster",
-				"mob"
+				"terraria_players_enemy"
 			],
 			"custom_commands": [],
 			"custom_components": []
@@ -955,48 +1048,44 @@
 			],
 			"animation_references": [],
 			"families": [
-				"phantom",
-				"undead",
-				"monster",
-				"mob"
+				"terraria_players_enemy"
 			],
 			"custom_commands": [],
 			"custom_components": []
 		},
 		"BP/entities/brainofcthulhu_stageone.json": {
 			"events": [
-				"terrariamod:despawn_entity"
+				"terrariamod:despawn_entity",
+				"bridge:remove_command_id_1"
 			],
 			"bridge_core_tags": [],
 			"identifiers": [
 				"terrariamod:brainofcthulhu_stageone"
 			],
 			"animation_references": [
-				"to_stage_2"
+				"to_stage_2",
+				"bridge_execute_commands"
 			],
 			"families": [
-				"phantom",
-				"undead",
-				"monster",
-				"mob"
+				"terraria_players_enemy"
 			],
 			"custom_commands": [],
 			"custom_components": []
 		},
 		"BP/entities/brainofcthulhu_stagetwo.json": {
 			"events": [
-				"terrariamod:despawn_entity"
+				"terrariamod:despawn_entity",
+				"bridge:remove_command_id_1"
 			],
 			"bridge_core_tags": [],
 			"identifiers": [
 				"terrariamod:brainofcthulhu_stagetwo"
 			],
-			"animation_references": [],
+			"animation_references": [
+				"bridge_execute_commands"
+			],
 			"families": [
-				"phantom",
-				"undead",
-				"monster",
-				"mob"
+				"terraria_players_enemy"
 			],
 			"custom_commands": [],
 			"custom_components": []
@@ -1078,6 +1167,393 @@
 			],
 			"custom_commands": [],
 			"custom_components": []
+		},
+		"BP/entities/chest_dummy.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:chest_dummy"
+			],
+			"animation_references": [],
+			"families": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/iceblade_projectile.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:iceblade_projectile"
+			],
+			"animation_references": [
+				"particles"
+			],
+			"families": [
+				"inanimate"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/starfury_projectile.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:starfury_projectile"
+			],
+			"animation_references": [],
+			"families": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/enchantedsword_projectile.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:enchantedsword_projectile"
+			],
+			"animation_references": [],
+			"families": [
+				"inanimate"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/beekeeper_bee.json": {
+			"events": [
+				"terrariamod:despawn"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:beekeeper_bee"
+			],
+			"animation_references": [],
+			"families": [
+				"phantom",
+				"undead",
+				"monster",
+				"mob"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/angrybones.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:angrybones"
+			],
+			"animation_references": [],
+			"families": [
+				"terraria_players_enemy"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/bloodcrawler.json": {
+			"events": [
+				"minecraft:entity_spawned",
+				"minecraft:become_hostile",
+				"minecraft:become_neutral",
+				"minecraft:become_angry",
+				"minecraft:become_calm"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:bloodcrawler"
+			],
+			"animation_references": [],
+			"families": [
+				"terraria_players_enemy"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/cavebat.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:cavebat"
+			],
+			"animation_references": [],
+			"families": [
+				"terraria_players_enemy"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/creepers.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:creepers"
+			],
+			"animation_references": [],
+			"families": [
+				"terraria_players_enemy"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/crimera.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:crimera"
+			],
+			"animation_references": [],
+			"families": [
+				"terraria_players_enemy"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/cursedskull.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:cursedskull"
+			],
+			"animation_references": [],
+			"families": [
+				"terraria_players_enemy"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/darkcaster.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:darkcaster"
+			],
+			"animation_references": [],
+			"families": [
+				"terraria_players_enemy"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/demon.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:demon"
+			],
+			"animation_references": [],
+			"families": [
+				"terraria_players_enemy"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/demoneye.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:demoneye"
+			],
+			"animation_references": [],
+			"families": [
+				"terraria_players_enemy"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/devourer.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:devourer"
+			],
+			"animation_references": [],
+			"families": [
+				"devourer"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/eaterofworlds.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:eaterofworlds"
+			],
+			"animation_references": [],
+			"families": [
+				"eaterofworlds",
+				"terraria_players_enemy"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/facemonster.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:facemonster"
+			],
+			"animation_references": [],
+			"families": [
+				"terraria_players_enemy"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/fireimp.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:fireimp"
+			],
+			"animation_references": [],
+			"families": [
+				"terraria_players_enemy"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/giantworm.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:giantworm"
+			],
+			"animation_references": [],
+			"families": [
+				"terraria_players_enemy"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/hellbat.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:hellbat"
+			],
+			"animation_references": [],
+			"families": [
+				"terraria_players_enemy"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/hornet.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:hornet"
+			],
+			"animation_references": [],
+			"families": [
+				"terraria_players_enemy"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/servantofcthulhu.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:servantofcthulhu"
+			],
+			"animation_references": [],
+			"families": [
+				"terraria_players_enemy"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/skeleton_terraria.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:skeleton_terraria"
+			],
+			"animation_references": [],
+			"families": [
+				"terraria_players_enemy"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/skeletron_head.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:skeletron_head"
+			],
+			"animation_references": [],
+			"families": [
+				"terraria_players_enemy"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/sporeskeleton.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:sporeskeleton"
+			],
+			"animation_references": [],
+			"families": [
+				"terraria_players_enemy"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/sporezombie.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:sporezombie"
+			],
+			"animation_references": [],
+			"families": [
+				"terraria_players_enemy"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/undeadminer.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:undeadminer"
+			],
+			"animation_references": [],
+			"families": [
+				"terraria_players_enemy"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/voodoodemon.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:voodoodemon"
+			],
+			"animation_references": [],
+			"families": [
+				"terraria_players_enemy"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/zombie_terraria.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:zombie_terraria"
+			],
+			"animation_references": [],
+			"families": [
+				"terraria_players_enemy"
+			],
+			"custom_commands": [],
+			"custom_components": []
 		}
 	},
 	"feature_rule": {
@@ -1098,7 +1574,7 @@
 		},
 		"BP/feature_rules/hellstone_featurerule.json": {
 			"identifiers": [
-				"minecraft:hellstone_featurerule"
+				"minecraft:hellforge_featurerule"
 			]
 		},
 		"BP/feature_rules/surfacechest_featurerule.json": {
@@ -1119,6 +1595,11 @@
 		"BP/feature_rules/crimsonheart_featurerule.json": {
 			"identifiers": [
 				"minecraft:crimsonheart_featurerule"
+			]
+		},
+		"BP/feature_rules/hellforge_featurerule.json": {
+			"identifiers": [
+				"minecraft:hellforge_featurerule"
 			]
 		}
 	},
@@ -1161,6 +1642,11 @@
 		"BP/features/crimsonheart_feature.json": {
 			"identifiers": [
 				"minecraft:crimsonheart_feature"
+			]
+		},
+		"BP/features/hellforge_feature.json": {
+			"identifiers": [
+				"minecraft:hellforge_feature"
 			]
 		}
 	},
@@ -1281,7 +1767,27 @@
 		"afa0697d_5e4d_433c_b88b_77aec1d974b7": {},
 		"78b7a3e2_a711_42e6_86b9_4152fb98bf48": {},
 		"bc73c8c2_8033_4a19_aaf6_b734c58660e2": {},
-		"31220d8d_eef4_4d12_8b40_e6ca81f20fdb": {}
+		"31220d8d_eef4_4d12_8b40_e6ca81f20fdb": {},
+		"fffe2bc7_3f3f_4127_9fff_1ec5de8b2a7e": {},
+		"13fcf39d_ba2e_4533_b65d_571186e76396": {},
+		"34c0845d_14ed_4530_80cc_f1fcc5dcf4ae": {},
+		"3c16fe34_3a6d_4838_8d42_ee0bc7b4aaff": {},
+		"7373da3e_c939_4d70_9402_1b109c18e3bf": {},
+		"0f0988b0_914e_4937_a2f0_b1ca05832f35": {},
+		"7e877518_b62f_4d33_bfa0_f8170a14d541": {},
+		"9efa11dd_a692_4d3e_a1c7_0f4037a2f091": {},
+		"2b4f1595_4e40_4af7_822a_0d0f1304ee02": {},
+		"fb488069_00b6_4633_848c_2399116993a6": {},
+		"16231c94_b20c_4c85_97f2_43c61c9772e5": {},
+		"7716aa32_56af_4709_b4ab_27f19f59fd45": {},
+		"0797762e_4bb6_4b14_b4c3_14943297aa3d": {},
+		"d702f90e_3487_47b5_bf30_93267f3f3f84": {},
+		"cc802231_ac54_4f8f_8a3b_096156ac1adc": {},
+		"b59674df_9c2b_4b8b_9be7_e88452436132": {},
+		"08b27efd_d5e7_4211_a5a7_2d5c4b815762": {},
+		"d85ad2bc_2b0a_4fd7_accc_a6be9fc49ae5": {},
+		"e0d20eec_4462_47f5_863f_76c4939bfcf6": {},
+		"1761924a_3444_49cf_8f50_f9f4e661e648": {}
 	},
 	"rp_animation_controller": {
 		"RP/animation_controllers/devourer.animation.controller.json": {
@@ -2162,6 +2668,133 @@
 			"geometry_identifiers": [
 				"default"
 			]
+		},
+		"RP/entity/iceblade_projectile.json": {
+			"identifiers": [
+				"terrariamod:iceblade_projectile"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"move"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/starfury_projectile.json": {
+			"identifiers": [
+				"terrariamod:starfury_projectile"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"flying"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/enchantedsword_projectile.json": {
+			"identifiers": [
+				"terrariamod:enchantedsword_projectile"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"move"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/beekeeper_bee.json": {
+			"identifiers": [
+				"terrariamod:beekeeper_bee"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"humanoid_big_head",
+				"look_at_target_default",
+				"look_at_target_gliding",
+				"look_at_target_swimming",
+				"move",
+				"riding.arms",
+				"riding.legs",
+				"holding",
+				"brandish_spear",
+				"charging",
+				"attack.rotations",
+				"sneaking",
+				"bob",
+				"damage_nearby_mobs",
+				"bow_and_arrow",
+				"use_item_progress",
+				"zombie_attack_bare_hand",
+				"swimming"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/woodenarrow_projectile_hellstone.json": {
+			"identifiers": [
+				"terrariamod:woodenarrow_projectile_hellstone"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"move"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
 		}
 	},
 	"entity_model": {
@@ -2539,6 +3172,31 @@
 		"BP/recipes/woodenchair_recipe.json": {
 			"tags": [
 				"sawmill"
+			]
+		},
+		"BP/recipes/puritychest_recipe.json": {
+			"tags": [
+				"workbench"
+			]
+		},
+		"BP/recipes/woodentable_recipe.json": {
+			"tags": [
+				"workbench"
+			]
+		},
+		"BP/recipes/twoodendoor_recipe.json": {
+			"tags": [
+				"workbench"
+			]
+		},
+		"BP/recipes/puritycandle_recipe.json": {
+			"tags": [
+				"workbench"
+			]
+		},
+		"BP/recipes/puritycampfire_recipe.json": {
+			"tags": [
+				"workbench"
 			]
 		}
 	},
@@ -3131,12 +3789,6 @@
 			],
 			"custom_commands": []
 		},
-		"BP/items/template_bow.json": {
-			"identifiers": [
-				"terrariamod:demonitebow"
-			],
-			"custom_commands": []
-		},
 		"BP/items/tinbow.json": {
 			"identifiers": [
 				"terrariamod:tinbow"
@@ -3199,7 +3851,7 @@
 		},
 		"BP/items/workbench.json": {
 			"identifiers": [
-				"terrariamod:purity_chain"
+				"terrariamod:purity_campfire"
 			],
 			"custom_commands": []
 		},
@@ -3238,6 +3890,115 @@
 				"terrariamod:purity_chain"
 			],
 			"custom_commands": []
+		},
+		"BP/items/wooden_chair.json": {
+			"identifiers": [
+				"terrariamod:wooden_chair"
+			],
+			"custom_commands": []
+		},
+		"BP/items/wooden_table.json": {
+			"identifiers": [
+				"terrariamod:wooden_table"
+			],
+			"custom_commands": []
+		},
+		"BP/items/purity_chest.json": {
+			"identifiers": [
+				"terrariamod:twooden_door"
+			],
+			"custom_commands": []
+		},
+		"BP/items/twooden_door.json": {
+			"identifiers": [
+				"terrariamod:twooden_door"
+			],
+			"custom_commands": []
+		},
+		"BP/items/purity_candle.json": {
+			"identifiers": [
+				"terrariamod:purity_candle"
+			],
+			"custom_commands": []
+		},
+		"BP/items/woodensword.json": {
+			"identifiers": [
+				"terrariamod:beekeeper"
+			],
+			"custom_commands": []
+		},
+		"BP/items/coppersword.json": {
+			"identifiers": [
+				"terrariamod:coppersword"
+			],
+			"custom_commands": []
+		},
+		"BP/items/ebonwoodsword.json": {
+			"identifiers": [
+				"terrariamod:iceblade"
+			],
+			"custom_commands": []
+		},
+		"BP/items/shadewoodsword.json": {
+			"identifiers": [
+				"terrariamod:iceblade"
+			],
+			"custom_commands": []
+		},
+		"BP/items/richmahoganysword.json": {
+			"identifiers": [
+				"terrariamod:iceblade"
+			],
+			"custom_commands": []
+		},
+		"BP/items/iceblade.json": {
+			"identifiers": [
+				"terrariamod:iceblade"
+			],
+			"custom_commands": []
+		},
+		"BP/items/starfury.json": {
+			"identifiers": [
+				"terrariamod:starfury"
+			],
+			"custom_commands": []
+		},
+		"BP/items/enchantedsword.json": {
+			"identifiers": [
+				"terrariamod:beekeeper"
+			],
+			"custom_commands": []
+		},
+		"BP/items/beekeeper.json": {
+			"identifiers": [
+				"terrariamod:beekeeper"
+			],
+			"custom_commands": []
+		},
+		"BP/items/hellforge.json": {
+			"identifiers": [
+				"terrariamod:hellforge"
+			],
+			"custom_commands": []
+		},
+		"BP/items/underworld_transporter.json": {
+			"identifiers": [
+				"terrariamod:underworld_transporter"
+			],
+			"custom_commands": []
+		},
+		"BP/items/purity_campfire.json": {
+			"identifiers": [
+				"terrariamod:purity_campfire"
+			],
+			"custom_commands": []
+		}
+	},
+	"particle": {
+		"RP/particles/iceblade_effect.json": {
+			"ids": [
+				"terrariamod:iceblade_effect"
+			]
 		}
 	}
 }

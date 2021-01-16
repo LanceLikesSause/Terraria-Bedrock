@@ -1,4 +1,4 @@
-//bridge-file-version: #21
+//bridge-file-version: #22
 {
 	"format_version": "1.16.0",
 	"minecraft:entity": {
@@ -157,6 +157,11 @@
 			},
 			"minecraft:movement": {
 				"value": 0.2
+			},
+			"minecraft:type_family": {
+				"family": [
+					"terraria_players_enemy"
+				]
 			}
 		},
 		"events": {}

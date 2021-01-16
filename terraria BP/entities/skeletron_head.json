@@ -1,4 +1,4 @@
-//bridge-file-version: #15
+//bridge-file-version: #16
 {
 	"format_version": "1.16.0",
 	"minecraft:entity": {
@@ -130,6 +130,11 @@
 			"minecraft:collision_box": {
 				"width": 3,
 				"height": 3
+			},
+			"minecraft:type_family": {
+				"family": [
+					"terraria_players_enemy"
+				]
 			}
 		},
 		"events": {}

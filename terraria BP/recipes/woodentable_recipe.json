@@ -1,0 +1,23 @@
+//bridge-file-version: #4
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "terrariamod:woodentable_recipe"
+		},
+		"tags": [
+			"workbench"
+		],
+		"ingredients": [
+			{
+				"item": "terrariamod:purity_wood",
+				"count": 8
+			}
+		],
+		"result": [
+			{
+				"item": "terrariamod:wooden_table"
+			}
+		]
+	}
+}

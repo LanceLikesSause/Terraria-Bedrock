@@ -1,0 +1,38 @@
+//bridge-file-version: #21
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "terrariamod:beekeeper",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:damage": 26,
+			"minecraft:weapon": {},
+			"minecraft:icon": {
+				"texture": "terrariamod:beekeeper"
+			},
+			"minecraft:display_name": {
+				"value": "item.terrariamod:beekeeper.name"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.sword"
+			},
+			"minecraft:on_use": {
+				"on_use": {
+					"event": "terrariamod:summon_bee"
+				}
+			}
+		},
+		"events": {
+			"terrariamod:summon_bee": {
+				"shoot": {
+					"projectile": "terrariamod:beekeeper_bee",
+					"launch_power": 1
+				}
+			}
+		}
+	}
+}

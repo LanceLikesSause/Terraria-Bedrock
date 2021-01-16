@@ -1,4 +1,4 @@
-//bridge-file-version: #24
+//bridge-file-version: #25
 {
 	"format_version": "1.16.0",
 	"minecraft:entity": {
@@ -25,7 +25,7 @@
 			"minecraft:jump.static": {},
 			"minecraft:health": {
 				"value": 70,
-				"max":70
+				"max": 70
 			},
 			"minecraft:hurt_on_condition": {
 				"damage_conditions": [
@@ -177,6 +177,11 @@
 				"target_teleport_chance": 0.05,
 				"min_random_teleport_time": 3,
 				"max_random_teleport_time": 6
+			},
+			"minecraft:type_family": {
+				"family": [
+					"terraria_players_enemy"
+				]
 			}
 		},
 		"events": {}

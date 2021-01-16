@@ -1414,16 +1414,6 @@
 					}
 				}
 			},
-			"5a053453_74fb_4456_92d2_3f716d6ccc81": {
-				"format_version": "1.10.0",
-				"animation_controllers": {
-					"controller.animation.bridge_custom_item_behavior": {
-						"states": {
-							"default": {}
-						}
-					}
-				}
-			},
 			"e4acb574_3e85_4e8c_b4c5_c77349879210": {
 				"format_version": "1.10.0",
 				"animation_controllers": {
@@ -1653,6 +1643,206 @@
 						}
 					}
 				}
+			},
+			"13fcf39d_ba2e_4533_b65d_571186e76396": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"64ae828b_2f04_40a0_bcd1_32e3b185f539": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"4aa582c7_191b_4549_bf70_1193e494ce03": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"8d68ec66_a810_4f60_8067_9269e4fe3af9": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"e5079a91_6bbe_4683_a383_b5d261880a19": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"0797762e_4bb6_4b14_b4c3_14943297aa3d": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"fc6a5c78_9043_4ebe_941d_4fcc34cbadf4": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"e700af36_7975_4c0b_99e0_49ef85404f23": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"6e8f55ef_b35d_47ca_9bb7_c670cc46390c": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"640788ad_f36b_4b2a_9725_619dfce16132": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"d46f5eb3_bcb8_4a45_aedd_b940ec2c29c1": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"bcfa2c33_926a_4e50_871d_c7d60c98440f": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"08b27efd_d5e7_4211_a5a7_2d5c4b815762": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"a1385f78_a8e0_4929_a20d_ac65d69761d4": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"520e9778_4fe9_4d32_a94e_5d878952c1a0": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"23cb681b_ba3c_4e79_a96e_fb0e639f3c05": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"f94e5ac5_3b08_4e67_89ec_9e90559db22b": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"494d2c96_d7fd_4b31_a6ac_ec67aff7f97d": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"d85ad2bc_2b0a_4fd7_accc_a6be9fc49ae5": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"ad68afbd_cf69_4e50_bacd_944cf76e6bfe": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
 			}
 		}
 	},
@@ -1696,9 +1886,6 @@
 		"data": {}
 	},
 	"BP/items/suspiciouslookingeye.json": {
-		"data": {}
-	},
-	"BP/entities/ash.json": {
 		"data": {}
 	},
 	"BP/entities/blackslime.json": {
@@ -1867,9 +2054,6 @@
 		"data": {}
 	},
 	"BP/blocks/greenbrick.json": {
-		"data": {}
-	},
-	"BP/blocks/hellforge.json": {
 		"data": {}
 	},
 	"BP/blocks/hellstone.json": {
@@ -2640,9 +2824,6 @@
 	"BP/animation_controllers/armsdealer_death.json": {
 		"data": {}
 	},
-	"BP/items/template_bow.json": {
-		"data": {}
-	},
 	"BP/items/tinbow.json": {
 		"data": {}
 	},
@@ -2719,6 +2900,222 @@
 		"data": {}
 	},
 	"BP/items/purity_chain.json": {
+		"data": {}
+	},
+	"BP/items/wooden_chair.json": {
+		"data": {}
+	},
+	"BP/blocks/wooden_table.json": {
+		"data": {}
+	},
+	"BP/items/wooden_table.json": {
+		"data": {}
+	},
+	"BP/entities/chest_dummy.json": {
+		"data": {}
+	},
+	"BP/blocks/purity_chest.json": {
+		"data": {}
+	},
+	"BP/recipes/puritychest_recipe.json": {
+		"data": {}
+	},
+	"BP/items/purity_chest.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/purity_chest.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/wooden_table.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/purity_chair.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/wooden_chair.json": {
+		"data": {}
+	},
+	"BP/recipes/woodentable_recipe.json": {
+		"data": {}
+	},
+	"BP/blocks/twooden_door.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/twooden_door.json": {
+		"data": {}
+	},
+	"BP/items/twooden_door.json": {
+		"data": {}
+	},
+	"BP/recipes/twoodendoor_recipe.json": {
+		"data": {}
+	},
+	"BP/blocks/purity_candle.json": {
+		"data": {}
+	},
+	"BP/blocks/purity_chain.json": {
+		"data": {}
+	},
+	"BP/items/purity_candle.json": {
+		"data": {}
+	},
+	"BP/recipes/puritycandle_recipe.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/purity_candle.json": {
+		"data": {}
+	},
+	"BP/blocks/tree_bottom.json": {
+		"data": {}
+	},
+	"BP/items/coppersword.json": {
+		"data": {}
+	},
+	"BP/items/woodensword.json": {
+		"data": {}
+	},
+	"BP/items/ebonwoodsword.json": {
+		"data": {}
+	},
+	"BP/items/shadewoodsword.json": {
+		"data": {}
+	},
+	"BP/items/richmahoganysword.json": {
+		"data": {}
+	},
+	"BP/items/iceblade.json": {
+		"data": {}
+	},
+	"BP/entities/iceblade_projectile.json": {
+		"data": {}
+	},
+	"RP/entity/iceblade_projectile.json": {
+		"data": {}
+	},
+	"BP/animation_controllers/iceblade_effects.json": {
+		"data": {}
+	},
+	"RP/particles/iceblade_effect.json": {
+		"data": {}
+	},
+	"BP/items/starfury.json": {
+		"data": {}
+	},
+	"BP/entities/starfury_projectile.json": {
+		"data": {}
+	},
+	"RP/entity/starfury_projectile.json": {
+		"data": {}
+	},
+	"BP/items/enchantedsword.json": {
+		"data": {}
+	},
+	"BP/entities/enchantedsword_projectile.json": {
+		"data": {}
+	},
+	"RP/entity/enchantedsword_projectile.json": {
+		"data": {}
+	},
+	"BP/items/beekeeper.json": {
+		"data": {}
+	},
+	"BP/entities/beekeeper_bee.json": {
+		"data": {}
+	},
+	"RP/entity/beekeeper_bee.json": {
+		"data": {}
+	},
+	"BP/entities/angrybones.json": {
+		"data": {}
+	},
+	"BP/entities/bloodcrawler.json": {
+		"data": {}
+	},
+	"BP/entities/cavebat.json": {
+		"data": {}
+	},
+	"BP/entities/crimera.json": {
+		"data": {}
+	},
+	"BP/entities/cursedskull.json": {
+		"data": {}
+	},
+	"BP/entities/darkcaster.json": {
+		"data": {}
+	},
+	"BP/entities/demon.json": {
+		"data": {}
+	},
+	"BP/entities/demoneye.json": {
+		"data": {}
+	},
+	"BP/entities/facemonster.json": {
+		"data": {}
+	},
+	"BP/entities/fireimp.json": {
+		"data": {}
+	},
+	"BP/entities/giantworm.json": {
+		"data": {}
+	},
+	"BP/entities/hellbat.json": {
+		"data": {}
+	},
+	"BP/entities/hornet.json": {
+		"data": {}
+	},
+	"BP/entities/servantofcthulhu.json": {
+		"data": {}
+	},
+	"BP/entities/skeleton_terraria.json": {
+		"data": {}
+	},
+	"BP/entities/skeletron_head.json": {
+		"data": {}
+	},
+	"BP/entities/sporeskeleton.json": {
+		"data": {}
+	},
+	"BP/entities/sporezombie.json": {
+		"data": {}
+	},
+	"BP/entities/undeadminer.json": {
+		"data": {}
+	},
+	"BP/entities/voodoodemon.json": {
+		"data": {}
+	},
+	"BP/entities/zombie_terraria.json": {
+		"data": {}
+	},
+	"BP/features/hellforge_feature.json": {
+		"data": {}
+	},
+	"BP/feature_rules/hellforge_featurerule.json": {
+		"data": {}
+	},
+	"BP/blocks/hellforge.json": {
+		"data": {}
+	},
+	"BP/items/hellforge.json": {
+		"data": {}
+	},
+	"BP/items/underworld_transporter.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/ash.json": {
+		"data": {}
+	},
+	"RP/entity/woodenarrow_projectile_hellstone.json": {
+		"data": {}
+	},
+	"BP/blocks/purity_campfire.json": {
+		"data": {}
+	},
+	"BP/items/purity_campfire.json": {
+		"data": {}
+	},
+	"BP/recipes/puritycampfire_recipe.json": {
 		"data": {}
 	}
 }

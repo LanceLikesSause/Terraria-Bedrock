@@ -2,6 +2,54 @@
 	"resource_pack_name": "TerrariaModLLS",
 	"texture_name": "atlas.items",
 	"texture_data": {
+		"terrariamod:purity_campfire": {
+			"textures": "textures/items/block_placers/purity_campfire"
+		},
+		"terrariamod:underworld_transporter": {
+			"textures": "textures/items/block_placers/underworld_transporter"
+		},
+		"terrariamod:hellforge": {
+			"textures": "textures/items/block_placers/hellforge"
+		},
+		"terrariamod:beekeeper": {
+			"textures": "textures/items/swords/beekeeper"
+		},
+		"terrariamod:enchantedsword": {
+			"textures": "textures/items/swords/enchantedsword"
+		},
+		"terrariamod:starfury": {
+			"textures": "textures/items/swords/starfury"
+		},
+		"terrariamod:iceblade": {
+			"textures": "textures/items/swords/iceblade"
+		},
+		"terrariamod:richmahoganysword": {
+			"textures": "textures/items/swords/richmahoganysword"
+		},
+		"terrariamod:shadewoodsword": {
+			"textures": "textures/items/swords/shadewoodsword"
+		},
+		"terrariamod:ebonwoodsword": {
+			"textures": "textures/items/swords/ebonwoodsword"
+		},
+		"terrariamod:woodensword": {
+			"textures": "textures/items/swords/woodensword"
+		},
+		"terrariamod:purity_candle": {
+			"textures": "textures/items/block_placers/purity_candle"
+		},
+		"terrariamod:twooden_door": {
+			"textures": "textures/items/block_placers/twooden_door"
+		},
+		"terrariamod:purity_chest": {
+			"textures": "textures/items/block_placers/purity_chest"
+		},
+		"terrariamod:wooden_table": {
+			"textures": "textures/items/block_placers/wooden_table"
+		},
+		"terrariamod:wooden_chair": {
+			"textures": "textures/items/block_placers/wooden_chair"
+		},
 		"terrariamod:purity_cobweb": {
 			"textures": "textures/items/block_placers/purity_cobweb"
 		},

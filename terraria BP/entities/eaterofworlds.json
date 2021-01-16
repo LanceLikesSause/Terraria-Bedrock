@@ -1,4 +1,4 @@
-//bridge-file-version: #14
+//bridge-file-version: #15
 {
 	"format_version": "1.16.0",
 	"minecraft:entity": {
@@ -13,7 +13,7 @@
 			"minecraft:type_family": {
 				"family": [
 					"eaterofworlds",
-					"inanimate"
+					"terraria_players_enemy"
 				]
 			},
 			"minecraft:collision_box": {

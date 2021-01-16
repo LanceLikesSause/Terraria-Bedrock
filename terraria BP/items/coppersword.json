@@ -1,4 +1,4 @@
-//bridge-file-version: #16
+//bridge-file-version: #17
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
@@ -20,9 +20,7 @@
 			"minecraft:creative_category": {
 				"parent": "itemGroup.name.sword"
 			}
-		}
-	},
-	"minecraft:creative_category": {
-		"parent": "itemGroup.name.tpotions"
+		},
+		"events": {}
 	}
 }

@@ -1,0 +1,165 @@
+//bridge-file-version: #15
+{
+	"format_version": "1.16.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "terrariamod:beekeeper_bee",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"component_groups": {
+			"terrariamod:despawn_group": {
+				"minecraft:instant_despawn": {
+					"remove_child_entities": true
+				}
+			}
+		},
+		"components": {
+			"minecraft:type_family": {
+				"family": [
+					"phantom",
+					"undead",
+					"monster",
+					"mob"
+				]
+			},
+			"minecraft:loot": {
+				"table": "loot_tables/entities/hornet.json"
+			},
+			"minecraft:nameable": {},
+			"minecraft:health": {
+				"value": 20,
+				"max": 20
+			},
+			"minecraft:hurt_on_condition": {
+				"damage_conditions": [
+					{
+						"filters": {
+							"test": "in_lava",
+							"subject": "self",
+							"operator": "==",
+							"value": true
+						},
+						"cause": "lava",
+						"damage_per_tick": 4
+					}
+				]
+			},
+			"minecraft:physics": {
+				"has_gravity": false
+			},
+			"minecraft:pushable": {
+				"is_pushable": true,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:attack": {
+				"damage": 20
+			},
+			"minecraft:mob_effect": {
+				"effect_range": 0.2,
+				"mob_effect": "poison",
+				"effect_time": 10,
+				"entity_filter": {
+					"any_of": [
+						{
+							"test": "is_family",
+							"subject": "other",
+							"value": "terraria_players_enemy"
+						}
+					]
+				}
+			},
+			"minecraft:breathable": {
+				"total_supply": 15,
+				"suffocate_time": 0,
+				"breathes_air": true,
+				"breathes_water": false
+			},
+			"minecraft:collision_box": {
+				"width": 1,
+				"height": 1
+			},
+			"minecraft:movement": {
+				"value": 1.8
+			},
+			"minecraft:movement.glide": {
+				"start_speed": 0.1,
+				"speed_when_turning": 0.2
+			},
+			"minecraft:follow_range": {
+				"value": 64,
+				"max": 64
+			},
+			"minecraft:scale": {
+				"value": 0.5
+			},
+			"minecraft:behavior.nearest_attackable_target": {
+				"priority": 1,
+				"reselect_targets": true,
+				"scan_interval": 20,
+				"within_radius": 64,
+				"must_see_forget_duration": 0.5,
+				"target_search_height": 80,
+				"entity_types": [
+					{
+						"max_dist": 64,
+						"filters": {
+							"test": "is_family",
+							"subject": "other",
+							"value": "terraria_players_enemy"
+						}
+					}
+				]
+			},
+			"minecraft:behavior.swoop_attack": {
+				"priority": 2,
+				"damage_reach": 0.2,
+				"speed_multiplier": 1,
+				"delay_range": [
+					2,
+					3
+				]
+			},
+			"minecraft:behavior.circle_around_anchor": {
+				"priority": 3,
+				"radius_change": 1,
+				"radius_adjustment_chance": 0.004,
+				"height_adjustment_chance": 0.002857,
+				"goal_radius": 1,
+				"angle_change": 15,
+				"radius_range": [
+					5,
+					15
+				],
+				"height_offset_range": [
+					-4,
+					5
+				],
+				"height_above_target_range": [
+					2,
+					4
+				]
+			},
+			"minecraft:timer": {
+				"looping": false,
+				"time": [
+					9,
+					9
+				],
+				"time_down_event": {
+					"event": "terrariamod:despawn"
+				}
+			}
+		},
+		"events": {
+			"terrariamod:despawn": {
+				"add": {
+					"component_groups": [
+						"terrariamod:despawn_group"
+					]
+				}
+			}
+		}
+	}
+}

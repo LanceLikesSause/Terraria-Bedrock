@@ -1,0 +1,27 @@
+//bridge-file-version: #5
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "terrariamod:puritychest_recipe"
+		},
+		"tags": [
+			"workbench"
+		],
+		"ingredients": [
+			{
+				"item": "terrariamod:purity_wood",
+				"count": 3
+			},
+			{
+				"item": "terrariamod:ironbar",
+				"count": 3
+			}
+		],
+		"result": [
+			{
+				"item": "terrariamod:purity_chest"
+			}
+		]
+	}
+}

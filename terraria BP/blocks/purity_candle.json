@@ -1,0 +1,74 @@
+//bridge-file-version: #31
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "terrariamod:purity_candle"
+		},
+		"components": {
+			"minecraft:block_light_emission": 0.8,
+			"minecraft:block_light_absorption": 0,
+			"minecraft:loot": "loot_tables/blocks/purity_candle.json",
+			"minecraft:geometry": "geometry.purity_candle",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "purity_candle",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:entity_collision": false,
+			"tag:terrariamod:plant": {},
+			"minecraft:destroy_time": 0.1,
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"block_filter": [
+							"terrariamod:purity_stone",
+							"terrariamod:purity_dirt",
+							"terrariamod:purity_grass",
+							"terrariamod:crimson_grass",
+							"terrariamod:corrupted_grass",
+							"terrariamod:wooden_table",
+							"terrariamod:workbench"
+						],
+						"allowed_faces": [
+							"up"
+						]
+					}
+				]
+			},
+			"minecraft:ticking": {
+				"looping": true,
+				"range": [
+					1,
+					1
+				],
+				"on_tick": {
+					"event": "terrariamod:flame",
+					"target": "self"
+				}
+			},
+			"minecraft:pick_collision": {
+				"origin": [
+					-1,
+					0,
+					-1
+				],
+				"size": [
+					2,
+					8,
+					2
+				]
+			}
+		},
+		"events": {
+			"terrariamod:flame": {
+				"run_command": {
+					"command": [
+						"particle minecraft:basic_flame_particle ~ ~0.01 ~"
+					]
+				}
+			}
+		}
+	}
+}

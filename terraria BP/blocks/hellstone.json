@@ -1,4 +1,4 @@
-//bridge-file-version: #7
+//bridge-file-version: #13
 {
 	"format_version": "1.16.100",
 	"minecraft:block": {
@@ -6,15 +6,44 @@
 			"identifier": "terrariamod:hellstone"
 		},
 		"components": {
-			"minecraft:loot": "loot_tables/blocks/hellstone.json",
 			"minecraft:destroy_time": 1,
 			"minecraft:flammable": {
 				"flame_odds": 0,
 				"burn_odds": 0
 			},
 			"minecraft:block_light_emission": 1,
-			"tag:terrariamod:stone": {}
+			"tag:terrariamod:stone": {},
+			"minecraft:on_player_destroyed": {
+				"event": "terrariamod:destroy"
+			},
+			"minecraft:on_step_on": {
+				"event": "terrariamod:walk"
+			}
 		},
-		"events": {}
+		"events": {
+			"terrariamod:destroy": {
+				"set_block": {
+					"block_type": "minecraft:flowing_lava"
+				},
+				"run_command": {
+					"command": [
+						"give @p[r=3] terrariamod:hellstone"
+					]
+				}
+			},
+			"terrariamod:walk": {
+				"damage": {
+					"amount": 50,
+					"target": "self",
+					"type": "fire"
+				},
+				"add_mob_effect": {
+					"effect": "slowness",
+					"target": "self",
+					"duration": 3,
+					"amplifier": 3
+				}
+			}
+		}
 	}
 }

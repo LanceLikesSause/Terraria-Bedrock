@@ -1,0 +1,23 @@
+//bridge-file-version: #94
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "terrariamod:wooden_table"
+		},
+		"components": {
+			"minecraft:destroy_time": 1,
+			"tag:terrariamod:wood": {},
+			"tag:terrariamod:table": {},
+			"minecraft:geometry": "geometry.wooden_table",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "purity_wood",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:loot": "loot_tables/blocks/wooden_table.json"
+		},
+		"events": {}
+	}
+}

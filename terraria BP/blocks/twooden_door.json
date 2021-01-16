@@ -1,0 +1,127 @@
+//bridge-file-version: #163
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "terrariamod:twooden_door",
+			"properties": {
+				"terrariamod:is_opened": [
+					true,
+					false
+				]
+			}
+		},
+		"components": {
+			"minecraft:destroy_time": 1,
+			"tag:terrariamod:wood": {},
+			"minecraft:geometry": "geometry.twooden_door",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "twooden_door",
+					"render_method": "blend"
+				}
+			},
+			"minecraft:loot": "loot_tables/blocks/twooden_door.json",
+			"minecraft:block_light_absorption": 0,
+			"minecraft:block_light_emission": 0
+		},
+		"permutations": [
+			{
+				"condition": "query.block_property('terrariamod:is_opened') == false",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						0,
+						0
+					],
+					"minecraft:on_interact": {
+						"event": "terrariamod:open_door"
+					},
+					"minecraft:entity_collision": {
+						"origin": [
+							8,
+							0,
+							-8
+						],
+						"size": [
+							3,
+							16,
+							16
+						]
+					},
+					"minecraft:pick_collision": {
+						"origin": [
+							8,
+							0,
+							-8
+						],
+						"size": [
+							3,
+							16,
+							16
+						]
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('terrariamod:is_opened') == true",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						270,
+						0
+					],
+					"minecraft:on_interact": {
+						"event": "terrariamod:close_door"
+					},
+					"minecraft:entity_collision": {
+						"origin": [
+							8,
+							0,
+							-8
+						],
+						"size": [
+							1,
+							16,
+							16
+						]
+					},
+					"minecraft:pick_collision": {
+						"origin": [
+							8,
+							0,
+							-8
+						],
+						"size": [
+							1,
+							16,
+							16
+						]
+					}
+				}
+			}
+		],
+		"events": {
+			"terrariamod:open_door": {
+				"set_block_property": {
+					"terrariamod:is_opened": true
+				},
+				"run_command": {
+					"command": [
+						"playsound twooden_door_open.effect @p ~~~"
+					]
+				}
+			},
+			"terrariamod:close_door": {
+				"set_block_property": {
+					"terrariamod:is_opened": false
+				},
+				"run_command": {
+					"command": [
+						"playsound twooden_door_close.effect @p ~~~"
+					]
+				}
+			}
+		}
+	}
+}

@@ -1,5 +1,20 @@
-//bridge-file-version: #13
+//bridge-file-version: #14
 {
+	"terrariamod:purity_campire": {
+		"sound": "wood"
+	},
+	"terrariamod:twooden_door": {
+		"sound": "wood"
+	},
+	"terrariamod:purity_chest": {
+		"sound": "wood"
+	},
+	"terrariamod:wooden_table": {
+		"sound": "wood"
+	},
+	"terrariamod:wooden_chair": {
+		"sound": "wood"
+	},
 	"terrariamod:purity_loom": {
 		"sound": "wood"
 	},
@@ -373,7 +388,7 @@
 		"sound": "stone",
 		"textures": "underworld_transporter"
 	},
-	"terrariamod:wooden_chair": {
+	"terrariamod:purity_candle": {
 		"sound": "wood"
 	}
 }

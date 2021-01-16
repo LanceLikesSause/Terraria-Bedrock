@@ -1,4 +1,4 @@
-//bridge-file-version: #8
+//bridge-file-version: #9
 {
 	"format_version": "1.13.0",
 	"minecraft:entity": {
@@ -9,15 +9,9 @@
 			"is_experimental": false
 		},
 		"components": {
-			"minecraft:experience_reward": {
-				"on_death": "query.last_hit_by_player ? 5 : 0"
-			},
 			"minecraft:type_family": {
 				"family": [
-					"phantom",
-					"undead",
-					"monster",
-					"mob"
+					"terraria_players_enemy"
 				]
 			},
 			"minecraft:loot": {

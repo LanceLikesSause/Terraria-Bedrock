@@ -1,0 +1,38 @@
+//bridge-file-version: #23
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "terrariamod:enchantedsword",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:damage": 23,
+			"minecraft:weapon": {},
+			"minecraft:icon": {
+				"texture": "terrariamod:enchantedsword"
+			},
+			"minecraft:display_name": {
+				"value": "item.terrariamod:enchantedsword.name"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.sword"
+			},
+			"minecraft:on_use": {
+				"on_use": {
+					"event": "terrariamod:projectile"
+				}
+			}
+		},
+		"events": {
+			"terrariamod:projectile": {
+				"shoot": {
+					"projectile": "terrariamod:enchantedsword_projectile",
+					"launch_power": 1
+				}
+			}
+		}
+	}
+}

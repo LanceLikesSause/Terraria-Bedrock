@@ -1,4 +1,4 @@
-//bridge-file-version: #25
+//bridge-file-version: #40
 {
 	"format_version": "1.16.0",
 	"minecraft:entity": {
@@ -109,56 +109,14 @@
 			"minecraft:behavior.trade_with_player": {
 				"priority": 2
 			},
-			"minecraft:behavior.avoid_mob_type": {
-				"priority": 4,
-				"entity_types": [
-					{
-						"filters": {
-							"any_of": [
-								{
-									"test": "is_family",
-									"subject": "other",
-									"value": "zombie"
-								},
-								{
-									"test": "is_family",
-									"subject": "other",
-									"value": "zombie_villager"
-								},
-								{
-									"test": "is_family",
-									"subject": "other",
-									"value": "zombie_pigman"
-								},
-								{
-									"test": "is_family",
-									"subject": "other",
-									"value": "illager"
-								},
-								{
-									"test": "is_family",
-									"subject": "other",
-									"value": "vex"
-								}
-							]
-						},
-						"max_dist": 8,
-						"walk_speed_multiplier": 0.6,
-						"sprint_speed_multiplier": 0.6
-					}
-				]
-			},
-			"minecraft:behavior.pickup_items": {
-				"priority": 4,
-				"max_dist": 3,
-				"goal_radius": 2,
-				"speed_multiplier": 0.5,
-				"can_pickup_to_hand_or_equipment": false
-			},
 			"minecraft:behavior.move_indoors": {
 				"priority": 6,
 				"speed_multiplier": 0.8,
 				"timeout_cooldown": 8
+			},
+			"minecraft:behavior.random_stroll": {
+				"priority": 10,
+				"speed_multiplier": 0.6
 			},
 			"minecraft:behavior.look_at_trading_player": {
 				"priority": 7
@@ -167,29 +125,6 @@
 				"priority": 8,
 				"look_distance": 8,
 				"probability": 0.02
-			},
-			"minecraft:behavior.share_items": {
-				"priority": 9,
-				"max_dist": 3,
-				"goal_radius": 2,
-				"speed_multiplier": 0.5,
-				"entity_types": [
-					{
-						"filters": {
-							"test": "is_family",
-							"subject": "other",
-							"value": "villager"
-						}
-					}
-				]
-			},
-			"minecraft:behavior.move_towards_restriction": {
-				"priority": 10,
-				"speed_multiplier": 0.6
-			},
-			"minecraft:behavior.random_stroll": {
-				"priority": 10,
-				"speed_multiplier": 0.6
 			},
 			"minecraft:physics": {},
 			"minecraft:pushable": {
@@ -230,13 +165,23 @@
 				"aux_val": 24
 			},
 			"minecraft:behavior.move_to_block": {
-				"priority": 5,
 				"speed_multiplier": 1,
-				"tick_interval": 1,
-				"target_blocks": [
-					"terrariamod:wooden_chair"
+				"priority": 0,
+				"tick_interval": 0.1,
+				"start_chance": 0.3,
+				"search_range": 60,
+				"search_height": 60,
+				"goal_radius": 0,
+				"stay_duration": 12,
+				"target_selection_method": "nearest",
+				"target_offset": [
+					0,
+					0,
+					0
 				],
-				"search_range": 60
+				"target_blocks": [
+					"terrariamod:item.wooden_chair"
+				]
 			}
 		},
 		"events": {}

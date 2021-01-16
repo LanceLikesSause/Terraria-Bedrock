@@ -1,10 +1,21 @@
-//bridge-file-version: #11
+//bridge-file-version: #13
 {
 	"resource_pack_name": "vanilla",
 	"texture_name": "atlas.terrain",
 	"padding": 8,
 	"num_mip_levels": 4,
 	"texture_data": {
+		"purity_campire": {
+			"textures": "textures/blocks/purity_campire"
+		},
+		"wooden_chair": {
+			"textures": [
+				"textures/blocks/wooden_chair"
+			]
+		},
+		"twooden_door": {
+			"textures": "textures/blocks/twooden_door"
+		},
 		"purity_loom": {
 			"textures": "textures/blocks/purity_loom"
 		},
@@ -295,9 +306,9 @@
 				"textures/blocks/underworld_transporter"
 			]
 		},
-		"wooden_chair": {
+		"purity_candle": {
 			"textures": [
-				"textures/blocks/wooden_chair"
+				"textures/blocks/purity_candle"
 			]
 		}
 	}

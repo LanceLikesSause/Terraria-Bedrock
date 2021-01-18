@@ -1,4 +1,4 @@
-//bridge-file-version: #0
+//bridge-file-version: #1
 {
 	"format_version": "1.16.0",
 	"minecraft:entity": {
@@ -6,7 +6,15 @@
 			"identifier": "terrariamod:blueslime",
 			"is_spawnable": true,
 			"is_summonable": true,
-			"is_experimental": false
+			"is_experimental": false,
+			"animations": {
+				"greenslime_death": "controller.animation.greenslime_death"
+			},
+			"scripts": {
+				"animate": [
+					"greenslime_death"
+				]
+			}
 		},
 		"components": {
 			"minecraft:type_family": {

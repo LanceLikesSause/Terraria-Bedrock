@@ -1,5 +1,5 @@
-##bridge-file-version: #393
-######how to play
+##bridge-file-version: #395
+#######how to play
 terrariamod.category.dakon=Terraria Mod Tutorial
 howtoplay.category.dakon=Terraria Guide
 howtoplay.template.title=Credits
@@ -48,11 +48,14 @@ terrariamod.tempsix.text2=To use the bed you must interact with the ground. Inte
 howtoplay.tempsix.title=Housing
 howtoplay.tempsix=Housing
 terrariamod.tempseven.title0=Making a house for NPCs
-terrariamod.tempseven.text0=It is recommended that you make a house to spawn your NPCs in so they aren't indanger however this isn't required. You will need to craft a wooden chair or any other type of chair.
+terrariamod.tempseven.text0=It is recommended that you make a house to spawn your NPCs in so they aren't indanger however this isn't required. You will need to craft a wooden chair or any other type of chair. 
 terrariamod.tempseven.title1=How NPCs spawn in
-terrariamod.tempseven.text1=The chair will spawn in the NPCs using a system. The system works like this, if the player has more then 100 hp (used at least on heart crystal) then the Nurse will spawn after some time, if the player gotten enough coins then Merchant will spawn in after some time, if the player has destroyed enough surface , underground, and cavern chest the Demolitionist will spawn after some time, if the player has destroyed a crimson heart or the corruption version then the Arms Dealer will spawn after some time.
+terrariamod.tempseven.text1=The chair will spawn in the NPCs using a system. The system works like this, if the player has more then 100 hp (used at least on heart crystal) then the Nurse will spawn after some time, if the player gotten enough coins then Merchant will spawn in after some time, if the player has destroyed enough surface , underground, and cavern chest the Demolitionist will spawn after some time, if the player has destroyed a crimson heart or the corruption version then the Arms Dealer will spawn after some time. You can right-click / interact with the chair to see the score that control when the npcs spawn in. It will display the coins, explosives, and health scores when a score is more then 30 then the merchant, nurse, demolitionist, and arms dealer stats will increase, when these stats reaches 360 they will spawn in.
 terrariamod.tempseven.title2=Furniture
 terrariamod.tempseven.text2=You can decorate your house with blocks like torches, tables, candles, etc. You can craft these blocks in the workbench, they have all their recipes in the recipe book.
+
+
+
 
 tile.terrariamod:underworld_transporter.name=Underworld Transporter
 
@@ -76,7 +79,9 @@ tile.terrariamod:purity_sand.name=Sand
 tile.terrariamod:purity_clay.name=Clay
 tile.terrariamod:graybrick.name=Gray Brick
 tile.terrariamod:redbrick.name=Red Brick
+item.terrariamod:daybloom.name=Daybloom
 item.terrariamod:silk.name=Silk
+item.terrariamod:mushroom.name=Mushroom §9Heals 15 HP
 
 tile.terrariamod:tree_bottom_crimson.name=Tree Stem
 tile.terrariamod:tree_log_crimson.name=Tree Log
@@ -159,11 +164,13 @@ tile.terrariamod:purity_candle.name=Candle
 tile.terrariamod:twooden_door.name=Wooden Door
 tile.terrariamod:wooden_table.name=Wooden Table
 tile.terrariamod:wooden_chair.name=Wooden Chair
+tile.terrariamod:bottle_station.name=Bottle Station
 tile.terrariamod:purity_campire.name=Campfire
 tile.terrariamod:crimson_alter.name=Crimson Alter
 tile.terrariamod:demon_alter.name=Demon Alter
 tile.terrariamod:demon_alter=Demon Alter
 tile.terrariamod:crimson_alter=Crimson Alter
+tile.terrariamod:workbench.name=Workbench
 tile.terrariamod:workbench.name=Workbench
 tile.terrariamod:purity_campfire.name=Campfire
 tile.terrariamod:iron_anvil.name=Iron Anvil
@@ -233,8 +240,6 @@ entity.terrariamod:woodenarrow_projectile_tin.name=Silver Bow
 entity.terrariamod:woodenarrow_projectile_tungsten.name=Tungsten Bow
 entity.terrariamod:woodenarrow_projectile_gold.name=Gold Bow
 entity.terrariamod:woodenarrow_projectile_platinum.name=Platinum Bow
-
-
 
 item.spawn_egg.entity.terrariamod:brainofcthulhu_stagetwo.name=Spawn Brain of Cthulhu §9Stage Two
 entity.terrariamod:brainofcthulhu_stagetwo.name=Brain of Cthulhu §9Stage Two
@@ -439,6 +444,8 @@ item.terrariamod:slimestaff.name=Slime Staff §9Summons Slime Minions
 item.terrariamod:aquascepter.name=Aquascepter §9+16 Magic Damage
 item.terrariamod:phoenixblaster.name=Phoenix Blaster §9+24 Projectile Damage
 item.terrariamod:handgun.name=Handgun §9+17 Projectile Damage
+item.terrariamod:undertaker.name=The Undertaker §9+15 Projectile Damage
+tem.terrariamod:musket.name=Musket §9+31 Projectile Damage
 item.terrariamod:waterbolt.name=Water Bolt §9+19 Magic Damage
 item.terrariamod:boomstick.name=Boomstick §9+21 Projectile Damage
 item.terrariamod:minishark.name=Minishark §9+13 Projectile Damage
@@ -485,7 +492,6 @@ item.terrariamod:cartonofmilk.name=Carton Of Milk
 item.terrariamod:lesserhealingpotion.name=Lesser Healing Potion §9Heals 50 HP
 item.terrariamod:healingpotion.name=Healing Potion §9Heals 100 HP
 item.terrariamod:regenerationpotion.name=Regeneration Potion §9Regeneration Effect
-item.terrariamod:mushroom.name=Mushroom §9Heals 15 HP
 item.terrariamod:glowing_mushroom.name=Glowing Mushroom 
 item.terrariamod:ale.name=Ale §9Beer...
 

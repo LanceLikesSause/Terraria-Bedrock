@@ -1,0 +1,23 @@
+//bridge-file-version: #4
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "terrariamod:ironanvil_recipe_lead"
+		},
+		"tags": [
+			"workbench"
+		],
+		"ingredients": [
+			{
+				"item": "terrariamod:leadbar",
+				"count": 5
+			}
+		],
+		"result": [
+			{
+				"item": "terrariamod:iron_anvil"
+			}
+		]
+	}
+}

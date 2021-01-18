@@ -1,0 +1,235 @@
+{
+	"file_path": "C:\\Users\\LANCE.LEGAUX\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\loot_tables\\blocks\\shadoworb.json",
+	"file_type": "loot_table",
+	"format_version": 1,
+	"file_uuid": "57570bfc_9cd6_481d_9b3b_32f143969024",
+	"file_version": 2,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"pools": [
+						{
+							"rolls": 1,
+							"entries": [
+								{
+									"type": "item",
+									"weight": 1,
+									"name": "terrariamod:musket",
+									"functions": [
+										{
+											"function": "set_count",
+											"count": {
+												"min": 1,
+												"max": 1
+											}
+										}
+									]
+								},
+								{
+									"type": "item",
+									"weight": 1,
+									"name": "terrariamod:musketball",
+									"functions": [
+										{
+											"function": "set_count",
+											"count": {
+												"min": 100,
+												"max": 100
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				"key": "pools",
+				"children": [
+					{
+						"open": [
+							{
+								"rolls": 1,
+								"entries": [
+									{
+										"type": "item",
+										"weight": 1,
+										"name": "terrariamod:musket",
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 1,
+													"max": 1
+												}
+											}
+										]
+									},
+									{
+										"type": "item",
+										"weight": 1,
+										"name": "terrariamod:musketball",
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 100,
+													"max": 100
+												}
+											}
+										]
+									}
+								]
+							}
+						],
+						"children": [
+							{
+								"data": "1",
+								"key": "rolls"
+							},
+							{
+								"open": {
+									"rolls": 1,
+									"entries": [
+										{
+											"type": "item",
+											"weight": 1,
+											"name": "terrariamod:musket",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 1,
+														"max": 1
+													}
+												}
+											]
+										},
+										{
+											"type": "item",
+											"weight": 1,
+											"name": "terrariamod:musketball",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 100,
+														"max": 100
+													}
+												}
+											]
+										}
+									]
+								},
+								"key": "entries",
+								"children": [
+									{
+										"open": [
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:musket",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 1
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:musketball",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 100,
+															"max": 100
+														}
+													}
+												]
+											}
+										],
+										"children": [
+											{
+												"data": "item",
+												"key": "type"
+											},
+											{
+												"data": "1",
+												"key": "weight"
+											},
+											{
+												"data": "terrariamod:musket",
+												"key": "name"
+											},
+											{
+												"open": {
+													"type": "item",
+													"weight": 1,
+													"name": "terrariamod:musket",
+													"functions": [
+														{
+															"function": "set_count",
+															"count": {
+																"min": 1,
+																"max": 1
+															}
+														}
+													]
+												},
+												"key": "functions",
+												"children": [
+													{
+														"open": [
+															{
+																"function": "set_count",
+																"count": {
+																	"min": 1,
+																	"max": 1
+																}
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"function": "set_count",
+															"count": {
+																"min": 1,
+																"max": 1
+															}
+														}
+													}
+												]
+											}
+										]
+									},
+									{
+										"is_minified": true,
+										"children": {
+											"type": "item",
+											"weight": 1,
+											"name": "terrariamod:musketball",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 100,
+														"max": 100
+													}
+												}
+											]
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

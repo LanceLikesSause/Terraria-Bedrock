@@ -50,7 +50,7 @@
 		},
 		"BP/animation_controllers/mana.json": {
 			"ids": [
-				"controller.animation.mana"
+				"controller.animation.relocater"
 			],
 			"custom_commands": []
 		},
@@ -91,12 +91,6 @@
 			"custom_commands": []
 		},
 		"BP/animation_controllers/armsdealer_death.json": {
-			"ids": [
-				"controller.animation.iceblade_effects"
-			],
-			"custom_commands": []
-		},
-		"BP/animation_controllers/iceblade_effects.json": {
 			"ids": [
 				"controller.animation.iceblade_effects"
 			],
@@ -231,7 +225,8 @@
 		},
 		"BP/biomes/extreme_hills_plus_trees.biome.json": {
 			"tags": [
-				"purity"
+				"purity",
+				"purity_forest"
 			]
 		},
 		"BP/biomes/extreme_hills_plus_trees_mutated.biome.json": {
@@ -501,7 +496,7 @@
 	"block": {
 		"BP/blocks/crimsonheart.json": {
 			"identifiers": [
-				"terrariamod:crimsonheart"
+				"terrariamod:shadoworb"
 			],
 			"events": [
 				"terrariamod:interact",
@@ -615,7 +610,7 @@
 		},
 		"BP/blocks/mushroom.json": {
 			"identifiers": [
-				"terrariamod:purity_cobweb"
+				"terrariamod:daybloom"
 			],
 			"events": [],
 			"recipe_tags": [],
@@ -764,7 +759,9 @@
 			"identifiers": [
 				"terrariamod:tree_bottom"
 			],
-			"events": [],
+			"events": [
+				"terrariamod:destroy_tree"
+			],
 			"recipe_tags": [],
 			"custom_commands": [],
 			"custom_components": []
@@ -813,6 +810,107 @@
 			"recipe_tags": [],
 			"custom_commands": [],
 			"custom_components": []
+		},
+		"BP/blocks/purity_grass.json": {
+			"identifiers": [
+				"terrariamod:purity_grass"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/purity_stone.json": {
+			"identifiers": [
+				"terrariamod:purity_stone"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/purity_dirt.json": {
+			"identifiers": [
+				"terrariamod:purity_dirt"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/furnace.json": {
+			"identifiers": [
+				"terrariamod:tfurnace"
+			],
+			"events": [],
+			"recipe_tags": [
+				"tfurnace"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/tree_bottom_corruption.json": {
+			"identifiers": [
+				"terrariamod:tree_bottom_corruption"
+			],
+			"events": [
+				"terrariamod:destroy_tree"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/tree_bottom_crimson.json": {
+			"identifiers": [
+				"terrariamod:tree_bottom_crimson"
+			],
+			"events": [
+				"terrariamod:destroy_tree"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/tree_bottom_jungle.json": {
+			"identifiers": [
+				"terrariamod:tree_bottom_jungle"
+			],
+			"events": [
+				"terrariamod:destroy_tree"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/daybloom.json": {
+			"identifiers": [
+				"terrariamod:daybloom"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/crystalheart.json": {
+			"identifiers": [
+				"terrariamod:crystalheart"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/shadoworb.json": {
+			"identifiers": [
+				"terrariamod:shadoworb"
+			],
+			"events": [
+				"terrariamod:interact",
+				"terrariamod:trigger_event"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
 		}
 	},
 	"entity": {
@@ -836,7 +934,9 @@
 			"identifiers": [
 				"terrariamod:blueslime"
 			],
-			"animation_references": [],
+			"animation_references": [
+				"greenslime_death"
+			],
 			"families": [
 				"slimes_terraria",
 				"terraria_players_enemy"
@@ -1554,6 +1654,32 @@
 			],
 			"custom_commands": [],
 			"custom_components": []
+		},
+		"BP/entities/musketball_projectile_musket.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:musketball_projectile_musket"
+			],
+			"animation_references": [],
+			"families": [
+				"inanimate"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/musketball_projectile_undertaker.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:musketball_projectile_undertaker"
+			],
+			"animation_references": [],
+			"families": [
+				"inanimate"
+			],
+			"custom_commands": [],
+			"custom_components": []
 		}
 	},
 	"feature_rule": {
@@ -1601,6 +1727,26 @@
 			"identifiers": [
 				"minecraft:hellforge_featurerule"
 			]
+		},
+		"BP/feature_rules/daybloom_featurerule.json": {
+			"identifiers": [
+				"minecraft:crystalheart_featurerule"
+			]
+		},
+		"BP/feature_rules/rubyore_featurerule.json": {
+			"identifiers": [
+				"minecraft:rubyore_featurerule"
+			]
+		},
+		"BP/feature_rules/sapphireore_featurerule.json": {
+			"identifiers": [
+				"minecraft:sapphireore_featurerule"
+			]
+		},
+		"BP/feature_rules/crystalheart_featurerule.json": {
+			"identifiers": [
+				"minecraft:crystalheart_featurerule"
+			]
 		}
 	},
 	"feature": {
@@ -1647,6 +1793,16 @@
 		"BP/features/hellforge_feature.json": {
 			"identifiers": [
 				"minecraft:hellforge_feature"
+			]
+		},
+		"BP/features/daybloom_feature.json": {
+			"identifiers": [
+				"minecraft:crystalheart_feature"
+			]
+		},
+		"BP/features/crystalheart_feature.json": {
+			"identifiers": [
+				"minecraft:crystalheart_feature"
 			]
 		}
 	},
@@ -1787,7 +1943,22 @@
 		"08b27efd_d5e7_4211_a5a7_2d5c4b815762": {},
 		"d85ad2bc_2b0a_4fd7_accc_a6be9fc49ae5": {},
 		"e0d20eec_4462_47f5_863f_76c4939bfcf6": {},
-		"1761924a_3444_49cf_8f50_f9f4e661e648": {}
+		"1761924a_3444_49cf_8f50_f9f4e661e648": {},
+		"98346326_22d5_4918_9042_dd979eef45db": {},
+		"3f276c45_8fae_47c6_ac56_554ebcd86e53": {},
+		"ffaaba5c_8eca_488c_8810_128c30b8e973": {},
+		"1ca65936_6165_4e81_aa7a_d7c9d25ecea7": {},
+		"befc3dda_bd80_4363_934c_edd01a4d02b0": {},
+		"477a00ea_82ab_4490_892f_9e152a6911d8": {},
+		"8fb85e40_e200_40bc_bcaf_2c105aa1440a": {},
+		"2cf53cb5_e3c7_4959_9846_8bde9f2a28e5": {},
+		"c22a62e0_befd_4671_a887_6f71026f9c2e": {},
+		"ce07f589_376d_4922_b548_f3e5f5191143": {},
+		"4551c5b4_84fd_4525_b9af_0a62afebeb7f": {},
+		"2d62204d_1aa1_4560_9b51_aed611dff2c8": {},
+		"84126f63_839f_4af9_8af6_a18ff8cd0e8b": {},
+		"45feaa39_0977_44c5_b5f2_a9b3bbf88e95": {},
+		"005bf0ed_b92c_4fc3_ad87_aa568d47b06e": {}
 	},
 	"rp_animation_controller": {
 		"RP/animation_controllers/devourer.animation.controller.json": {
@@ -2795,6 +2966,50 @@
 			"geometry_identifiers": [
 				"default"
 			]
+		},
+		"RP/entity/musketball_projectile_musket.json": {
+			"identifiers": [
+				"terrariamod:musketball_projectile_musket"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"move"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/musketball_projectile_undertaker.json": {
+			"identifiers": [
+				"terrariamod:musketball_projectile_undertaker"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"move"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
 		}
 	},
 	"entity_model": {
@@ -3198,6 +3413,31 @@
 			"tags": [
 				"workbench"
 			]
+		},
+		"BP/recipes/ironanvil_recipe_iron.json": {
+			"tags": [
+				"workbench"
+			]
+		},
+		"BP/recipes/ironanvil_recipe_lead.json": {
+			"tags": [
+				"workbench"
+			]
+		},
+		"BP/recipes/healingpotion.json": {
+			"tags": [
+				"bottle"
+			]
+		},
+		"BP/recipes/lesserhealingpotion_recipe.json": {
+			"tags": [
+				"bottle"
+			]
+		},
+		"BP/recipes/regenerationpotion_recipe.json": {
+			"tags": [
+				"bottle"
+			]
 		}
 	},
 	"item": {
@@ -3257,7 +3497,7 @@
 		},
 		"BP/items/mushroom.json": {
 			"identifiers": [
-				"terrariamod:mushroom"
+				"terrariamod:daybloom"
 			],
 			"custom_commands": []
 		},
@@ -3359,7 +3599,7 @@
 		},
 		"BP/items/boomstick.json": {
 			"identifiers": [
-				"terrariamod:boomstick"
+				"terrariamod:musket"
 			],
 			"custom_commands": []
 		},
@@ -3515,7 +3755,7 @@
 		},
 		"BP/items/handgun.json": {
 			"identifiers": [
-				"terrariamod:handgun"
+				"terrariamod:undertaker"
 			],
 			"custom_commands": []
 		},
@@ -3851,7 +4091,7 @@
 		},
 		"BP/items/workbench.json": {
 			"identifiers": [
-				"terrariamod:purity_campfire"
+				"terrariamod:bottle_station"
 			],
 			"custom_commands": []
 		},
@@ -3990,6 +4230,30 @@
 		"BP/items/purity_campfire.json": {
 			"identifiers": [
 				"terrariamod:purity_campfire"
+			],
+			"custom_commands": []
+		},
+		"BP/items/bottle_station.json": {
+			"identifiers": [
+				"terrariamod:bottle_station"
+			],
+			"custom_commands": []
+		},
+		"BP/items/daybloom.json": {
+			"identifiers": [
+				"terrariamod:daybloom"
+			],
+			"custom_commands": []
+		},
+		"BP/items/undertaker.json": {
+			"identifiers": [
+				"terrariamod:undertaker"
+			],
+			"custom_commands": []
+		},
+		"BP/items/musket.json": {
+			"identifiers": [
+				"terrariamod:musket"
 			],
 			"custom_commands": []
 		}

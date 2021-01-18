@@ -1,1075 +1,269 @@
 {
 	"file_path": "C:\\Users\\LANCE.LEGAUX\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\entities\\player.json",
 	"file_type": "entity",
-	"format_version": 1,
-	"file_uuid": "b59674df_9c2b_4b8b_9be7_e88452436132",
-	"file_version": 2,
 	"cache_content": {
-		"children": [
-			{
-				"data": "1.16.0",
-				"key": "format_version"
-			},
-			{
-				"open": {
-					"format_version": "1.16.0",
-					"minecraft:entity": {
-						"description": {
-							"animations": {
-								"mana": "controller.animation.mana",
-								"starting_items": "controller.animation.starting_items",
-								"bridge_execute_commands": "controller.animation.bridge_player.execute_commands",
-								"health": "controller.animation.health"
-							},
-							"scripts": {
-								"animate": [
-									"mana",
-									"starting_items",
-									"bridge_execute_commands",
-									"bridge_execute_commands",
-									"health"
-								]
-							},
-							"identifier": "minecraft:player",
-							"is_spawnable": false,
-							"is_summonable": true,
-							"is_experimental": false
-						},
-						"component_groups": {
-							"minecraft:add_bad_omen": {
-								"minecraft:spell_effects": {
-									"add_effects": [
-										{
-											"effect": "bad_omen",
-											"duration": 6000,
-											"display_on_screen_animation": true
-										}
-									]
-								},
-								"minecraft:timer": {
-									"time": [
-										0,
-										0
-									],
-									"looping": false,
-									"time_down_event": {
-										"event": "minecraft:clear_add_bad_omen",
-										"target": "self"
-									}
-								}
-							},
-							"minecraft:clear_bad_omen_spell_effect": {
-								"minecraft:spell_effects": {}
-							},
-							"minecraft:raid_trigger": {
-								"minecraft:raid_trigger": {
-									"triggered_event": {
-										"event": "minecraft:remove_raid_trigger",
-										"target": "self"
-									}
-								},
-								"minecraft:spell_effects": {
-									"remove_effects": "bad_omen"
-								}
-							},
-							"minecraft:hellstone_group": {
-								"minecraft:home": {}
-							},
-							"bridge:execute_command_id_1": {
-								"minecraft:skin_id": {
-									"value": 1
-								}
-							},
-							"bridge:execute_no_command": {
-								"minecraft:skin_id": {
-									"value": 0
-								}
-							}
-						},
-						"components": {
-							"minecraft:experience_reward": {
-								"on_death": "Math.Min(query.player_level * 7, 100)"
-							},
-							"minecraft:type_family": {
-								"family": [
-									"player"
-								]
-							},
-							"minecraft:timer": {
-								"looping": true,
-								"time": [
-									0.3,
-									0.3
-								],
-								"time_down_event": {
-									"event": "minecraft:mana"
-								}
-							},
-							"minecraft:is_hidden_when_invisible": {},
-							"minecraft:loot": {
-								"table": "loot_tables/empty.json"
-							},
-							"minecraft:collision_box": {
-								"width": 0.6,
-								"height": 1.8
-							},
-							"minecraft:player.exhaustion": {
-								"value": 0,
-								"max": 0
-							},
-							"minecraft:can_climb": {},
-							"minecraft:movement": {
-								"value": 34.6
-							},
-							"minecraft:hurt_on_condition": {
-								"damage_conditions": [
-									{
-										"filters": {
-											"test": "in_lava",
-											"subject": "self",
-											"operator": "==",
-											"value": true
-										},
-										"cause": "lava",
-										"damage_per_tick": 80
-									}
-								]
-							},
-							"minecraft:attack": {
-								"damage": 1
-							},
-							"minecraft:player.level": {
-								"value": 0,
-								"max": 0
-							},
-							"minecraft:player.experience": {
-								"value": 0,
-								"max": 0
-							},
-							"minecraft:breathable": {
-								"total_supply": 15,
-								"suffocate_time": -1,
-								"inhale_time": 3.75,
-								"generates_bubbles": false
-							},
-							"minecraft:nameable": {
-								"always_show": true,
-								"allow_name_tag_renaming": false
-							},
-							"minecraft:physics": {},
-							"minecraft:pushable": {
-								"is_pushable": false,
-								"is_pushable_by_piston": true
-							},
-							"minecraft:insomnia": {
-								"days_until_insomnia": 3
-							},
-							"minecraft:rideable": {
-								"seat_count": 2,
-								"family_types": [
-									"parrot_tame"
-								],
-								"pull_in_entities": true,
-								"seats": [
-									{
-										"position": [
-											0.4,
-											-0.2,
-											-0.1
-										],
-										"min_rider_count": 0,
-										"max_rider_count": 0,
-										"lock_rider_rotation": 0
-									},
-									{
-										"position": [
-											-0.4,
-											-0.2,
-											-0.1
-										],
-										"min_rider_count": 1,
-										"max_rider_count": 2,
-										"lock_rider_rotation": 0
-									}
-								]
-							},
-							"minecraft:conditional_bandwidth_optimization": {},
-							"minecraft:scaffolding_climber": {},
-							"minecraft:health": {
-								"value": 100,
-								"max": 100
-							}
-						},
-						"events": {
-							"minecraft:gain_bad_omen": {
-								"add": {
-									"component_groups": [
-										"minecraft:add_bad_omen"
-									]
-								}
-							},
-							"minecraft:clear_add_bad_omen": {
-								"remove": {
-									"component_groups": [
-										"minecraft:add_bad_omen"
-									]
-								},
-								"add": {
-									"component_groups": [
-										"minecraft:clear_bad_omen_spell_effect"
-									]
-								}
-							},
-							"minecraft:trigger_raid": {
-								"add": {
-									"component_groups": [
-										"minecraft:raid_trigger"
-									]
-								}
-							},
-							"minecraft:remove_raid_trigger": {
-								"remove": {
-									"component_groups": [
-										"minecraft:raid_trigger"
-									]
-								}
-							},
-							"minecraft:mana": {
-								"run_command": {
-									"command": [
-										"execute @s[scores={mana=..18}] ~~~ scoreboard players add @s mana 1"
-									]
-								}
-							},
-							"minecraft:hellstone_event": {
-								"add": {
-									"component_groups": [
-										"minecraft:hellstone_group"
-									]
-								}
-							},
-							"minecraft:entity_spawned": {
-								"add": {
-									"component_groups": [
-										"bridge:execute_command_id_1",
-										"bridge:execute_command_id_1"
-									]
-								}
-							},
-							"bridge:remove_command_id_1": {
-								"add": {
-									"component_groups": [
-										"bridge:execute_no_command",
-										"bridge:execute_no_command"
-									]
-								},
-								"remove": {
-									"component_groups": [
-										"bridge:execute_command_id_1",
-										"bridge:execute_command_id_1"
-									]
-								}
-							}
-						}
-					}
+		"format_version": "1.16.0",
+		"minecraft:entity": {
+			"description": {
+				"animations": {
+					"mana": "controller.animation.mana",
+					"starting_items": "controller.animation.starting_items",
+					"bridge_execute_commands": "controller.animation.bridge_player.execute_commands",
+					"health": "controller.animation.health"
 				},
-				"key": "minecraft:entity",
-				"children": [
-					{
-						"key": "description",
-						"is_minified": true,
-						"children": {
-							"animations": {
-								"mana": "controller.animation.mana",
-								"starting_items": "controller.animation.starting_items",
-								"bridge_execute_commands": "controller.animation.bridge_player.execute_commands",
-								"health": "controller.animation.health"
-							},
-							"scripts": {
-								"animate": [
-									"mana",
-									"starting_items",
-									"bridge_execute_commands",
-									"bridge_execute_commands",
-									"health"
-								]
-							},
-							"identifier": "minecraft:player",
-							"is_spawnable": false,
-							"is_summonable": true,
-							"is_experimental": false
-						}
-					},
-					{
-						"key": "component_groups",
-						"is_minified": true,
-						"children": {
-							"minecraft:add_bad_omen": {
-								"minecraft:spell_effects": {
-									"add_effects": [
-										{
-											"effect": "bad_omen",
-											"duration": 6000,
-											"display_on_screen_animation": true
-										}
-									]
-								},
-								"minecraft:timer": {
-									"time": [
-										0,
-										0
-									],
-									"looping": false,
-									"time_down_event": {
-										"event": "minecraft:clear_add_bad_omen",
-										"target": "self"
-									}
-								}
-							},
-							"minecraft:clear_bad_omen_spell_effect": {
-								"minecraft:spell_effects": {}
-							},
-							"minecraft:raid_trigger": {
-								"minecraft:raid_trigger": {
-									"triggered_event": {
-										"event": "minecraft:remove_raid_trigger",
-										"target": "self"
-									}
-								},
-								"minecraft:spell_effects": {
-									"remove_effects": "bad_omen"
-								}
-							},
-							"minecraft:hellstone_group": {
-								"minecraft:home": {}
-							},
-							"bridge:execute_command_id_1": {
-								"minecraft:skin_id": {
-									"value": 1
-								}
-							},
-							"bridge:execute_no_command": {
-								"minecraft:skin_id": {
-									"value": 0
-								}
-							}
-						}
-					},
-					{
-						"open": {
-							"description": {
-								"animations": {
-									"mana": "controller.animation.mana",
-									"starting_items": "controller.animation.starting_items",
-									"bridge_execute_commands": "controller.animation.bridge_player.execute_commands",
-									"health": "controller.animation.health"
-								},
-								"scripts": {
-									"animate": [
-										"mana",
-										"starting_items",
-										"bridge_execute_commands",
-										"bridge_execute_commands",
-										"health"
-									]
-								},
-								"identifier": "minecraft:player",
-								"is_spawnable": false,
-								"is_summonable": true,
-								"is_experimental": false
-							},
-							"component_groups": {
-								"minecraft:add_bad_omen": {
-									"minecraft:spell_effects": {
-										"add_effects": [
-											{
-												"effect": "bad_omen",
-												"duration": 6000,
-												"display_on_screen_animation": true
-											}
-										]
-									},
-									"minecraft:timer": {
-										"time": [
-											0,
-											0
-										],
-										"looping": false,
-										"time_down_event": {
-											"event": "minecraft:clear_add_bad_omen",
-											"target": "self"
-										}
-									}
-								},
-								"minecraft:clear_bad_omen_spell_effect": {
-									"minecraft:spell_effects": {}
-								},
-								"minecraft:raid_trigger": {
-									"minecraft:raid_trigger": {
-										"triggered_event": {
-											"event": "minecraft:remove_raid_trigger",
-											"target": "self"
-										}
-									},
-									"minecraft:spell_effects": {
-										"remove_effects": "bad_omen"
-									}
-								},
-								"minecraft:hellstone_group": {
-									"minecraft:home": {}
-								},
-								"bridge:execute_command_id_1": {
-									"minecraft:skin_id": {
-										"value": 1
-									}
-								},
-								"bridge:execute_no_command": {
-									"minecraft:skin_id": {
-										"value": 0
-									}
-								}
-							},
-							"components": {
-								"minecraft:experience_reward": {
-									"on_death": "Math.Min(query.player_level * 7, 100)"
-								},
-								"minecraft:type_family": {
-									"family": [
-										"player"
-									]
-								},
-								"minecraft:timer": {
-									"looping": true,
-									"time": [
-										0.3,
-										0.3
-									],
-									"time_down_event": {
-										"event": "minecraft:mana"
-									}
-								},
-								"minecraft:is_hidden_when_invisible": {},
-								"minecraft:loot": {
-									"table": "loot_tables/empty.json"
-								},
-								"minecraft:collision_box": {
-									"width": 0.6,
-									"height": 1.8
-								},
-								"minecraft:player.exhaustion": {
-									"value": 0,
-									"max": 0
-								},
-								"minecraft:can_climb": {},
-								"minecraft:movement": {
-									"value": 34.6
-								},
-								"minecraft:hurt_on_condition": {
-									"damage_conditions": [
-										{
-											"filters": {
-												"test": "in_lava",
-												"subject": "self",
-												"operator": "==",
-												"value": true
-											},
-											"cause": "lava",
-											"damage_per_tick": 80
-										}
-									]
-								},
-								"minecraft:attack": {
-									"damage": 1
-								},
-								"minecraft:player.level": {
-									"value": 0,
-									"max": 0
-								},
-								"minecraft:player.experience": {
-									"value": 0,
-									"max": 0
-								},
-								"minecraft:breathable": {
-									"total_supply": 15,
-									"suffocate_time": -1,
-									"inhale_time": 3.75,
-									"generates_bubbles": false
-								},
-								"minecraft:nameable": {
-									"always_show": true,
-									"allow_name_tag_renaming": false
-								},
-								"minecraft:physics": {},
-								"minecraft:pushable": {
-									"is_pushable": false,
-									"is_pushable_by_piston": true
-								},
-								"minecraft:insomnia": {
-									"days_until_insomnia": 3
-								},
-								"minecraft:rideable": {
-									"seat_count": 2,
-									"family_types": [
-										"parrot_tame"
-									],
-									"pull_in_entities": true,
-									"seats": [
-										{
-											"position": [
-												0.4,
-												-0.2,
-												-0.1
-											],
-											"min_rider_count": 0,
-											"max_rider_count": 0,
-											"lock_rider_rotation": 0
-										},
-										{
-											"position": [
-												-0.4,
-												-0.2,
-												-0.1
-											],
-											"min_rider_count": 1,
-											"max_rider_count": 2,
-											"lock_rider_rotation": 0
-										}
-									]
-								},
-								"minecraft:conditional_bandwidth_optimization": {},
-								"minecraft:scaffolding_climber": {},
-								"minecraft:health": {
-									"value": 100,
-									"max": 100
-								}
-							},
-							"events": {
-								"minecraft:gain_bad_omen": {
-									"add": {
-										"component_groups": [
-											"minecraft:add_bad_omen"
-										]
-									}
-								},
-								"minecraft:clear_add_bad_omen": {
-									"remove": {
-										"component_groups": [
-											"minecraft:add_bad_omen"
-										]
-									},
-									"add": {
-										"component_groups": [
-											"minecraft:clear_bad_omen_spell_effect"
-										]
-									}
-								},
-								"minecraft:trigger_raid": {
-									"add": {
-										"component_groups": [
-											"minecraft:raid_trigger"
-										]
-									}
-								},
-								"minecraft:remove_raid_trigger": {
-									"remove": {
-										"component_groups": [
-											"minecraft:raid_trigger"
-										]
-									}
-								},
-								"minecraft:mana": {
-									"run_command": {
-										"command": [
-											"execute @s[scores={mana=..18}] ~~~ scoreboard players add @s mana 1"
-										]
-									}
-								},
-								"minecraft:hellstone_event": {
-									"add": {
-										"component_groups": [
-											"minecraft:hellstone_group"
-										]
-									}
-								},
-								"minecraft:entity_spawned": {
-									"add": {
-										"component_groups": [
-											"bridge:execute_command_id_1",
-											"bridge:execute_command_id_1"
-										]
-									}
-								},
-								"bridge:remove_command_id_1": {
-									"add": {
-										"component_groups": [
-											"bridge:execute_no_command",
-											"bridge:execute_no_command"
-										]
-									},
-									"remove": {
-										"component_groups": [
-											"bridge:execute_command_id_1",
-											"bridge:execute_command_id_1"
-										]
-									}
-								}
-							}
-						},
-						"key": "components",
-						"children": [
+				"scripts": {
+					"animate": [
+						"mana",
+						"starting_items",
+						"bridge_execute_commands",
+						"bridge_execute_commands",
+						"health"
+					]
+				},
+				"identifier": "minecraft:player",
+				"is_spawnable": false,
+				"is_summonable": true,
+				"is_experimental": false
+			},
+			"component_groups": {
+				"minecraft:add_bad_omen": {
+					"minecraft:spell_effects": {
+						"add_effects": [
 							{
-								"key": "minecraft:experience_reward",
-								"is_minified": true,
-								"children": {
-									"on_death": "Math.Min(query.player_level * 7, 100)"
-								}
-							},
-							{
-								"key": "minecraft:type_family",
-								"is_minified": true,
-								"children": {
-									"family": [
-										"player"
-									]
-								}
-							},
-							{
-								"key": "minecraft:timer",
-								"is_minified": true,
-								"children": {
-									"looping": true,
-									"time": [
-										0.3,
-										0.3
-									],
-									"time_down_event": {
-										"event": "minecraft:mana"
-									}
-								}
-							},
-							{
-								"key": "minecraft:is_hidden_when_invisible",
-								"is_minified": true,
-								"children": {}
-							},
-							{
-								"key": "minecraft:loot",
-								"is_minified": true,
-								"children": {
-									"table": "loot_tables/empty.json"
-								}
-							},
-							{
-								"key": "minecraft:collision_box",
-								"is_minified": true,
-								"children": {
-									"width": 0.6,
-									"height": 1.8
-								}
-							},
-							{
-								"key": "minecraft:player.exhaustion",
-								"is_minified": true,
-								"children": {
-									"value": 0,
-									"max": 0
-								}
-							},
-							{
-								"key": "minecraft:can_climb",
-								"is_minified": true,
-								"children": {}
-							},
-							{
-								"key": "minecraft:movement",
-								"is_minified": true,
-								"children": {
-									"value": 34.6
-								}
-							},
-							{
-								"open": {
-									"minecraft:experience_reward": {
-										"on_death": "Math.Min(query.player_level * 7, 100)"
-									},
-									"minecraft:type_family": {
-										"family": [
-											"player"
-										]
-									},
-									"minecraft:timer": {
-										"looping": true,
-										"time": [
-											0.3,
-											0.3
-										],
-										"time_down_event": {
-											"event": "minecraft:mana"
-										}
-									},
-									"minecraft:is_hidden_when_invisible": {},
-									"minecraft:loot": {
-										"table": "loot_tables/empty.json"
-									},
-									"minecraft:collision_box": {
-										"width": 0.6,
-										"height": 1.8
-									},
-									"minecraft:player.exhaustion": {
-										"value": 0,
-										"max": 0
-									},
-									"minecraft:can_climb": {},
-									"minecraft:movement": {
-										"value": 34.6
-									},
-									"minecraft:hurt_on_condition": {
-										"damage_conditions": [
-											{
-												"filters": {
-													"test": "in_lava",
-													"subject": "self",
-													"operator": "==",
-													"value": true
-												},
-												"cause": "lava",
-												"damage_per_tick": 80
-											}
-										]
-									},
-									"minecraft:attack": {
-										"damage": 1
-									},
-									"minecraft:player.level": {
-										"value": 0,
-										"max": 0
-									},
-									"minecraft:player.experience": {
-										"value": 0,
-										"max": 0
-									},
-									"minecraft:breathable": {
-										"total_supply": 15,
-										"suffocate_time": -1,
-										"inhale_time": 3.75,
-										"generates_bubbles": false
-									},
-									"minecraft:nameable": {
-										"always_show": true,
-										"allow_name_tag_renaming": false
-									},
-									"minecraft:physics": {},
-									"minecraft:pushable": {
-										"is_pushable": false,
-										"is_pushable_by_piston": true
-									},
-									"minecraft:insomnia": {
-										"days_until_insomnia": 3
-									},
-									"minecraft:rideable": {
-										"seat_count": 2,
-										"family_types": [
-											"parrot_tame"
-										],
-										"pull_in_entities": true,
-										"seats": [
-											{
-												"position": [
-													0.4,
-													-0.2,
-													-0.1
-												],
-												"min_rider_count": 0,
-												"max_rider_count": 0,
-												"lock_rider_rotation": 0
-											},
-											{
-												"position": [
-													-0.4,
-													-0.2,
-													-0.1
-												],
-												"min_rider_count": 1,
-												"max_rider_count": 2,
-												"lock_rider_rotation": 0
-											}
-										]
-									},
-									"minecraft:conditional_bandwidth_optimization": {},
-									"minecraft:scaffolding_climber": {},
-									"minecraft:health": {
-										"value": 100,
-										"max": 100
-									}
-								},
-								"key": "minecraft:hurt_on_condition",
-								"children": [
-									{
-										"open": {
-											"damage_conditions": [
-												{
-													"filters": {
-														"test": "in_lava",
-														"subject": "self",
-														"operator": "==",
-														"value": true
-													},
-													"cause": "lava",
-													"damage_per_tick": 80
-												}
-											]
-										},
-										"key": "damage_conditions",
-										"children": [
-											{
-												"open": [
-													{
-														"filters": {
-															"test": "in_lava",
-															"subject": "self",
-															"operator": "==",
-															"value": true
-														},
-														"cause": "lava",
-														"damage_per_tick": 80
-													}
-												],
-												"children": [
-													{
-														"open": {
-															"filters": {
-																"test": "in_lava",
-																"subject": "self",
-																"operator": "==",
-																"value": true
-															},
-															"cause": "lava",
-															"damage_per_tick": 80
-														},
-														"key": "filters",
-														"is_minified": true,
-														"children": {
-															"test": "in_lava",
-															"subject": "self",
-															"operator": "==",
-															"value": true
-														}
-													},
-													{
-														"data": "lava",
-														"key": "cause"
-													},
-													{
-														"open": {
-															"filters": {
-																"test": "in_lava",
-																"subject": "self",
-																"operator": "==",
-																"value": true
-															},
-															"cause": "lava",
-															"damage_per_tick": 80
-														},
-														"data": "80",
-														"key": "damage_per_tick"
-													}
-												]
-											}
-										]
-									}
-								]
-							},
-							{
-								"key": "minecraft:attack",
-								"is_minified": true,
-								"children": {
-									"damage": 1
-								}
-							},
-							{
-								"key": "minecraft:player.level",
-								"is_minified": true,
-								"children": {
-									"value": 0,
-									"max": 0
-								}
-							},
-							{
-								"key": "minecraft:player.experience",
-								"is_minified": true,
-								"children": {
-									"value": 0,
-									"max": 0
-								}
-							},
-							{
-								"key": "minecraft:breathable",
-								"is_minified": true,
-								"children": {
-									"total_supply": 15,
-									"suffocate_time": -1,
-									"inhale_time": 3.75,
-									"generates_bubbles": false
-								}
-							},
-							{
-								"key": "minecraft:nameable",
-								"is_minified": true,
-								"children": {
-									"always_show": true,
-									"allow_name_tag_renaming": false
-								}
-							},
-							{
-								"key": "minecraft:physics",
-								"is_minified": true,
-								"children": {}
-							},
-							{
-								"key": "minecraft:pushable",
-								"is_minified": true,
-								"children": {
-									"is_pushable": false,
-									"is_pushable_by_piston": true
-								}
-							},
-							{
-								"key": "minecraft:insomnia",
-								"is_minified": true,
-								"children": {
-									"days_until_insomnia": 3
-								}
-							},
-							{
-								"key": "minecraft:rideable",
-								"is_minified": true,
-								"children": {
-									"seat_count": 2,
-									"family_types": [
-										"parrot_tame"
-									],
-									"pull_in_entities": true,
-									"seats": [
-										{
-											"position": [
-												0.4,
-												-0.2,
-												-0.1
-											],
-											"min_rider_count": 0,
-											"max_rider_count": 0,
-											"lock_rider_rotation": 0
-										},
-										{
-											"position": [
-												-0.4,
-												-0.2,
-												-0.1
-											],
-											"min_rider_count": 1,
-											"max_rider_count": 2,
-											"lock_rider_rotation": 0
-										}
-									]
-								}
-							},
-							{
-								"key": "minecraft:conditional_bandwidth_optimization",
-								"is_minified": true,
-								"children": {}
-							},
-							{
-								"key": "minecraft:scaffolding_climber",
-								"is_minified": true,
-								"children": {}
-							},
-							{
-								"key": "minecraft:health",
-								"is_minified": true,
-								"children": {
-									"value": 100,
-									"max": 100
-								}
+								"effect": "bad_omen",
+								"duration": 6000,
+								"display_on_screen_animation": true
 							}
 						]
 					},
-					{
-						"key": "events",
-						"is_minified": true,
-						"children": {
-							"minecraft:gain_bad_omen": {
-								"add": {
-									"component_groups": [
-										"minecraft:add_bad_omen"
-									]
-								}
-							},
-							"minecraft:clear_add_bad_omen": {
-								"remove": {
-									"component_groups": [
-										"minecraft:add_bad_omen"
-									]
-								},
-								"add": {
-									"component_groups": [
-										"minecraft:clear_bad_omen_spell_effect"
-									]
-								}
-							},
-							"minecraft:trigger_raid": {
-								"add": {
-									"component_groups": [
-										"minecraft:raid_trigger"
-									]
-								}
-							},
-							"minecraft:remove_raid_trigger": {
-								"remove": {
-									"component_groups": [
-										"minecraft:raid_trigger"
-									]
-								}
-							},
-							"minecraft:mana": {
-								"run_command": {
-									"command": [
-										"execute @s[scores={mana=..18}] ~~~ scoreboard players add @s mana 1"
-									]
-								}
-							},
-							"minecraft:hellstone_event": {
-								"add": {
-									"component_groups": [
-										"minecraft:hellstone_group"
-									]
-								}
-							},
-							"minecraft:entity_spawned": {
-								"add": {
-									"component_groups": [
-										"bridge:execute_command_id_1",
-										"bridge:execute_command_id_1"
-									]
-								}
-							},
-							"bridge:remove_command_id_1": {
-								"add": {
-									"component_groups": [
-										"bridge:execute_no_command",
-										"bridge:execute_no_command"
-									]
-								},
-								"remove": {
-									"component_groups": [
-										"bridge:execute_command_id_1",
-										"bridge:execute_command_id_1"
-									]
-								}
-							}
+					"minecraft:timer": {
+						"time": [
+							0,
+							0
+						],
+						"looping": false,
+						"time_down_event": {
+							"event": "minecraft:clear_add_bad_omen",
+							"target": "self"
 						}
 					}
-				]
+				},
+				"minecraft:clear_bad_omen_spell_effect": {
+					"minecraft:spell_effects": {}
+				},
+				"minecraft:raid_trigger": {
+					"minecraft:raid_trigger": {
+						"triggered_event": {
+							"event": "minecraft:remove_raid_trigger",
+							"target": "self"
+						}
+					},
+					"minecraft:spell_effects": {
+						"remove_effects": "bad_omen"
+					}
+				},
+				"minecraft:hellstone_group": {
+					"minecraft:home": {}
+				},
+				"bridge:execute_command_id_1": {
+					"minecraft:skin_id": {
+						"value": 1
+					}
+				},
+				"bridge:execute_no_command": {
+					"minecraft:skin_id": {
+						"value": 0
+					}
+				}
+			},
+			"components": {
+				"minecraft:experience_reward": {
+					"on_death": "Math.Min(query.player_level * 7, 100)"
+				},
+				"minecraft:type_family": {
+					"family": [
+						"player"
+					]
+				},
+				"minecraft:timer": {
+					"looping": true,
+					"time": [
+						0.3,
+						0.3
+					],
+					"time_down_event": {
+						"event": "minecraft:mana"
+					}
+				},
+				"minecraft:is_hidden_when_invisible": {},
+				"minecraft:loot": {
+					"table": "loot_tables/empty.json"
+				},
+				"minecraft:collision_box": {
+					"width": 0.6,
+					"height": 1.8
+				},
+				"minecraft:player.exhaustion": {
+					"value": 0,
+					"max": 0
+				},
+				"minecraft:can_climb": {},
+				"minecraft:movement": {
+					"value": 34.6
+				},
+				"minecraft:hurt_on_condition": {
+					"damage_conditions": [
+						{
+							"filters": {
+								"test": "in_lava",
+								"subject": "self",
+								"operator": "==",
+								"value": true
+							},
+							"cause": "lava",
+							"damage_per_tick": 80
+						}
+					]
+				},
+				"minecraft:attack": {
+					"damage": 1
+				},
+				"minecraft:player.level": {
+					"value": 0,
+					"max": 0
+				},
+				"minecraft:player.experience": {
+					"value": 0,
+					"max": 0
+				},
+				"minecraft:breathable": {
+					"total_supply": 15,
+					"suffocate_time": -1,
+					"inhale_time": 3.75,
+					"generates_bubbles": false
+				},
+				"minecraft:nameable": {
+					"always_show": true,
+					"allow_name_tag_renaming": false
+				},
+				"minecraft:physics": {},
+				"minecraft:pushable": {
+					"is_pushable": false,
+					"is_pushable_by_piston": true
+				},
+				"minecraft:insomnia": {
+					"days_until_insomnia": 3
+				},
+				"minecraft:rideable": {
+					"seat_count": 2,
+					"family_types": [
+						"parrot_tame"
+					],
+					"pull_in_entities": true,
+					"seats": [
+						{
+							"position": [
+								0.4,
+								-0.2,
+								-0.1
+							],
+							"min_rider_count": 0,
+							"max_rider_count": 0,
+							"lock_rider_rotation": 0
+						},
+						{
+							"position": [
+								-0.4,
+								-0.2,
+								-0.1
+							],
+							"min_rider_count": 1,
+							"max_rider_count": 2,
+							"lock_rider_rotation": 0
+						}
+					]
+				},
+				"minecraft:conditional_bandwidth_optimization": {},
+				"minecraft:scaffolding_climber": {},
+				"minecraft:health": {
+					"value": 100,
+					"max": 100
+				}
+			},
+			"events": {
+				"minecraft:gain_bad_omen": {
+					"add": {
+						"component_groups": [
+							"minecraft:add_bad_omen"
+						]
+					}
+				},
+				"minecraft:clear_add_bad_omen": {
+					"remove": {
+						"component_groups": [
+							"minecraft:add_bad_omen"
+						]
+					},
+					"add": {
+						"component_groups": [
+							"minecraft:clear_bad_omen_spell_effect"
+						]
+					}
+				},
+				"minecraft:trigger_raid": {
+					"add": {
+						"component_groups": [
+							"minecraft:raid_trigger"
+						]
+					}
+				},
+				"minecraft:remove_raid_trigger": {
+					"remove": {
+						"component_groups": [
+							"minecraft:raid_trigger"
+						]
+					}
+				},
+				"minecraft:mana": {
+					"run_command": {
+						"command": [
+							"execute @s[scores={mana=..18}] ~~~ scoreboard players add @s mana 1"
+						]
+					}
+				},
+				"minecraft:hellstone_event": {
+					"add": {
+						"component_groups": [
+							"minecraft:hellstone_group"
+						]
+					}
+				},
+				"minecraft:entity_spawned": {
+					"add": {
+						"component_groups": [
+							"bridge:execute_command_id_1",
+							"bridge:execute_command_id_1"
+						]
+					}
+				},
+				"bridge:remove_command_id_1": {
+					"add": {
+						"component_groups": [
+							"bridge:execute_no_command",
+							"bridge:execute_no_command"
+						]
+					},
+					"remove": {
+						"component_groups": [
+							"bridge:execute_command_id_1",
+							"bridge:execute_command_id_1"
+						]
+					}
+				}
 			}
-		]
-	}
+		}
+	},
+	"format_version": 0,
+	"file_version": 0,
+	"file_uuid": "84126f63_839f_4af9_8af6_a18ff8cd0e8b"
 }

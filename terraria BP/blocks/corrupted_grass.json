@@ -1,4 +1,4 @@
-//bridge-file-version: #61
+//bridge-file-version: #62
 {
 	"format_version": "1.16.100",
 	"minecraft:block": {
@@ -7,15 +7,14 @@
 			"register_to_creative_menu": true
 		},
 		"components": {
-			"minecraft:destroy_time": 5,
-			"minecraft:loot": "loot_tables/blocks/stone.json",
-			"minecraft:block_light_emission": 0,
+			"minecraft:destroy_time": 1,
 			"tag:terrariamod:dirt": {},
 			"minecraft:random_ticking": {
 				"on_tick": {
 					"event": "terrariamod:corruption_spread"
 				}
-			}
+			},
+			"minecraft:map_color": "#6D2DE7"
 		},
 		"events": {
 			"terrariamod:corruption_spread": {

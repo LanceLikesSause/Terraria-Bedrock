@@ -3,7 +3,7 @@
 	"minecraft:geometry": [
 		{
 			"description": {
-				"identifier": "geometry.furnace",
+				"identifier": "geometry.hellforge",
 				"texture_width": 88,
 				"texture_height": 44,
 				"visible_bounds_width": 3,

@@ -1,4 +1,4 @@
-//bridge-file-version: #3
+//bridge-file-version: #4
 {
 	"format_version": "1.8.0",
 	"minecraft:spawn_rules": {
@@ -15,9 +15,10 @@
 					"value": "crimson"
 				},
 				"minecraft:weight": {
-					"default": 10
+					"default": 1
 				},
 				"minecraft:herd": {
+					"1": {},
 					"min_size": 1,
 					"max_size": 1
 				}

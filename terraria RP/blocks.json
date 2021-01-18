@@ -1,5 +1,8 @@
 //bridge-file-version: #14
 {
+	"terrariamod:shadoworb": {
+		"sound": "wood"
+	},
 	"terrariamod:purity_campire": {
 		"sound": "wood"
 	},
@@ -32,8 +35,7 @@
 		"textures": "jungle_wood"
 	},
 	"terrariamod:crimsonheart": {
-		"sound": "wood",
-		"textures": "crimsonheart"
+		"sound": "wood"
 	},
 	"terrariamod:corrupted_wood": {
 		"sound": "wood",
@@ -155,8 +157,10 @@
 		"textures": "crimtaneblock"
 	},
 	"terrariamod:mushroom": {
-		"sound": "grass",
-		"textures": "mushroom"
+		"sound": "grass"
+	},
+	"terrariamod:daybloom": {
+		"sound": "grass"
 	},
 	"terrariamod:mushroom_hat": {
 		"sound": "wood",

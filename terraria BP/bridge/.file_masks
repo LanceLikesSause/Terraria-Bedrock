@@ -1843,6 +1843,56 @@
 						}
 					}
 				}
+			},
+			"9457d90b_560d_43e5_853a_72fb78440f4e": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"bb011428_5ea3_47e8_9e42_b5d2083bf63e": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"0e73d7b7_4930_443d_87f7_1610b5892564": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"45feaa39_0977_44c5_b5f2_a9b3bbf88e95": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"005bf0ed_b92c_4fc3_ad87_aa568d47b06e": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
 			}
 		}
 	},
@@ -2992,9 +3042,6 @@
 	"RP/entity/iceblade_projectile.json": {
 		"data": {}
 	},
-	"BP/animation_controllers/iceblade_effects.json": {
-		"data": {}
-	},
 	"RP/particles/iceblade_effect.json": {
 		"data": {}
 	},
@@ -3116,6 +3163,96 @@
 		"data": {}
 	},
 	"BP/recipes/puritycampfire_recipe.json": {
+		"data": {}
+	},
+	"RP/splashes.json": {
+		"data": {}
+	},
+	"RP/manifest.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/hellforge.json": {
+		"data": {}
+	},
+	"BP/blocks/tree_bottom_corruption.json": {
+		"data": {}
+	},
+	"BP/blocks/tree_bottom_crimson.json": {
+		"data": {}
+	},
+	"BP/blocks/tree_bottom_jungle.json": {
+		"data": {}
+	},
+	"BP/recipes/ironanvil_recipe_iron.json": {
+		"data": {}
+	},
+	"BP/recipes/ironanvil_recipe_lead.json": {
+		"data": {}
+	},
+	"BP/items/bottle_station.json": {
+		"data": {}
+	},
+	"BP/recipes/healingpotion.json": {
+		"data": {}
+	},
+	"BP/recipes/lesserhealingpotion_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/regenerationpotion_recipe.json": {
+		"data": {}
+	},
+	"BP/blocks/daybloom.json": {
+		"data": {}
+	},
+	"BP/items/daybloom.json": {
+		"data": {}
+	},
+	"BP/feature_rules/daybloom_featurerule.json": {
+		"data": {}
+	},
+	"BP/features/daybloom_feature.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/daybloom.json": {
+		"data": {}
+	},
+	"BP/feature_rules/rubyore_featurerule.json": {
+		"data": {}
+	},
+	"BP/feature_rules/sapphireore_featurerule.json": {
+		"data": {}
+	},
+	"BP/feature_rules/crystalheart_featurerule.json": {
+		"data": {}
+	},
+	"BP/features/crystalheart_feature.json": {
+		"data": {}
+	},
+	"BP/blocks/shadoworb.json": {
+		"data": {}
+	},
+	"BP/items/undertaker.json": {
+		"data": {}
+	},
+	"BP/items/musket.json": {
+		"data": {}
+	},
+	"BP/entities/musketball_projectile_musket.json": {
+		"data": {}
+	},
+	"RP/entity/musketball_projectile_musket.json": {
+		"data": {}
+	},
+	"BP/entities/musketball_projectile_undertaker.json": {
+		"data": {}
+	},
+	"RP/entity/musketball_projectile_undertaker.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/crimsonheart.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/shadoworb.json": {
 		"data": {}
 	}
 }

@@ -1,4 +1,4 @@
-//bridge-file-version: #3
+//bridge-file-version: #6
 {
 	"format_version": "1.16.100",
 	"minecraft:block": {
@@ -18,8 +18,19 @@
 					"render_method": "alpha_test"
 				}
 			},
-			"tag:terrariamod:wood": {}
+			"tag:terrariamod:wood": {},
+			"minecraft:on_player_destroyed": {
+				"event": "terrariamod:destroy_tree"
+			}
 		},
-		"events": {}
+		"events": {
+			"terrariamod:destroy_tree": {
+				"run_command": {
+					"command": [
+						"fill ~ ~ ~ ~ ~7 ~ air 0 destroy"
+					]
+				}
+			}
+		}
 	}
 }

@@ -2,6 +2,18 @@
 	"resource_pack_name": "TerrariaModLLS",
 	"texture_name": "atlas.items",
 	"texture_data": {
+		"terrariamod:musket": {
+			"textures": "textures/items/guns/musket"
+		},
+		"terrariamod:undertaker": {
+			"textures": "textures/items/guns/undertaker"
+		},
+		"terrariamod:daybloom": {
+			"textures": "textures/items/block_placers/daybloom"
+		},
+		"terrariamod:bottle_station": {
+			"textures": "textures/items/block_placers/bottle_station"
+		},
 		"terrariamod:purity_campfire": {
 			"textures": "textures/items/block_placers/purity_campfire"
 		},

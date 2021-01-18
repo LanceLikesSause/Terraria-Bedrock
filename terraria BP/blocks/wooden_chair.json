@@ -1,4 +1,4 @@
-//bridge-file-version: #44
+//bridge-file-version: #61
 {
 	"format_version": "1.16.100",
 	"minecraft:block": {
@@ -137,6 +137,27 @@
 			"terrariamod:rotate": {
 				"set_block_property": {
 					"terrariamod:facing": "query.cardinal_facing_2d-2"
+				},
+				"run_command": {
+					"command": [
+						"tellraw @a {\"rawtext\":[{\"text\":\"§eChair NPC Scores:\"}]}",
+						"tellraw @a {\"rawtext\":[{\"text\":\"Health Score:\"}]}",
+						"tellraw @a {\"rawtext\":[{\"score\":{\"objective\":\"lcrystals\",\"name\":\"@p\"}}]}",
+						"tellraw @a {\"rawtext\":[{\"text\":\"Nurse's Score:\"}]}",
+						"tellraw @a {\"rawtext\":[{\"score\":{\"objective\":\"nursestat\",\"name\":\"@p\"}}]}",
+						"tellraw @a {\"rawtext\":[{\"text\":\"Coins Score:\"}]}",
+						"tellraw @a {\"rawtext\":[{\"score\":{\"objective\":\"coins\",\"name\":\"@p\"}}]}",
+						"tellraw @a {\"rawtext\":[{\"text\":\"Merchant's Score:\"}]}",
+						"tellraw @a {\"rawtext\":[{\"score\":{\"objective\":\"merchantstat\",\"name\":\"@p\"}}]}",
+						"tellraw @a {\"rawtext\":[{\"text\":\"Explosives Score:\"}]}",
+						"tellraw @a {\"rawtext\":[{\"score\":{\"objective\":\"explosives\",\"name\":\"@p\"}}]}",
+						"tellraw @a {\"rawtext\":[{\"text\":\"Demolonitionist's Score:\"}]}",
+						"tellraw @a {\"rawtext\":[{\"score\":{\"objective\":\"demostat\",\"name\":\"@p\"}}]}",
+						"tellraw @a {\"rawtext\":[{\"text\":\"Ammo Score:\"}]}",
+						"tellraw @a {\"rawtext\":[{\"score\":{\"objective\":\"ammo\",\"name\":\"@p\"}}]}",
+						"tellraw @a {\"rawtext\":[{\"text\":\"Arms Dealer's Score:\"}]}",
+						"tellraw @a {\"rawtext\":[{\"score\":{\"objective\":\"armsstat\",\"name\":\"@p\"}}]}"
+					]
 				}
 			},
 			"terrariamod:sit": {

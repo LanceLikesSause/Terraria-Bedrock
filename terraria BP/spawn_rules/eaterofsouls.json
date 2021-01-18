@@ -1,4 +1,4 @@
-//bridge-file-version: #3
+//bridge-file-version: #4
 {
 	"format_version": "1.8.0",
 	"minecraft:spawn_rules": {
@@ -15,7 +15,7 @@
 					"value": "corruption"
 				},
 				"minecraft:weight": {
-					"default": 100
+					"default": 1
 				},
 				"minecraft:herd": {
 					"min_size": 1,

@@ -1,4 +1,4 @@
-//bridge-file-version: #67
+//bridge-file-version: #68
 {
 	"format_version": "1.16.100",
 	"minecraft:block": {
@@ -8,15 +8,14 @@
 			"is_experimental": false
 		},
 		"components": {
-			"minecraft:destroy_time": 5,
-			"minecraft:loot": "loot_tables/blocks/stone.json",
-			"minecraft:block_light_emission": 0,
+			"minecraft:destroy_time": 1,
 			"tag:terrariamod:dirt": {},
 			"minecraft:random_ticking": {
 				"on_tick": {
 					"event": "terrariamod:crimson_spread"
 				}
-			}
+			},
+			"minecraft:map_color": "#C31B1B"
 		},
 		"events": {
 			"terrariamod:crimson_spread": {

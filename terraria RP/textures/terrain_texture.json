@@ -5,6 +5,9 @@
 	"padding": 8,
 	"num_mip_levels": 4,
 	"texture_data": {
+		"shadoworb": {
+			"textures": "textures/blocks/shadoworb"
+		},
 		"purity_campire": {
 			"textures": "textures/blocks/purity_campire"
 		},
@@ -96,6 +99,9 @@
 		},
 		"mushroom": {
 			"textures": "textures/blocks/mushroom"
+		},
+		"daybloom": {
+			"textures": "textures/blocks/daybloom"
 		},
 		"bottle_station": {
 			"textures": "textures/blocks/bottle_station"

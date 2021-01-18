@@ -1,21 +1,16 @@
-//bridge-file-version: #12
+//bridge-file-version: #18
 {
 	"format_version": "1.13.0",
-	"minecraft:ore_feature": {
+	"minecraft:single_block_feature": {
 		"description": {
 			"identifier": "minecraft:crystalheart_feature"
 		},
-		"count": 3,
 		"places_block": "terrariamod:crystalheart",
+		"enforce_survivability_rules": true,
+		"enforce_placement_rules": true,
 		"may_replace": [
 			{
-				"name": "terrariamod:purity_stone"
-			},
-			{
-				"name": "terrariamod:purity_grass"
-			},
-			{
-				"name": "terrariamod:purity_dirt"
+				"name": "minecraft:air"
 			}
 		]
 	}

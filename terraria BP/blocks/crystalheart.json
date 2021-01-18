@@ -1,4 +1,4 @@
-//bridge-file-version: #9
+//bridge-file-version: #11
 {
 	"format_version": "1.16.100",
 	"minecraft:block": {
@@ -11,7 +11,16 @@
 			"minecraft:destroy_time": 1,
 			"minecraft:loot": "loot_tables/blocks/crystalheart.json",
 			"minecraft:explosion_resistance": 0.5,
-			"tag:terrariamod:stone": {}
+			"tag:terrariamod:stone": {},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "crystalheart",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:geometry": "geometry.cross",
+			"minecraft:block_light_absorption": 0,
+			"minecraft:block_light_emission": 0.5
 		},
 		"events": {}
 	}

@@ -1,4 +1,4 @@
-//bridge-file-version: #10
+//bridge-file-version: #11
 {
 	"format_version": "1.16.100",
 	"minecraft:block": {
@@ -9,7 +9,7 @@
 		"components": {
 			"minecraft:destroy_time": 1,
 			"minecraft:loot": "loot_tables/blocks/hellforge.json",
-			"minecraft:geometry": "geometry.furnace",
+			"minecraft:geometry": "geometry.hellforge",
 			"minecraft:material_instances": {
 				"*": {
 					"texture": "hellforge",

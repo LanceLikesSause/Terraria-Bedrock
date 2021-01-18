@@ -1,12 +1,11 @@
-//bridge-file-version: #0
+//bridge-file-version: #1
 {
 	"format_version": "1.13.0",
 	"minecraft:biome": {
 		"description": {
-			"identifier": "extreme_hills_plus_trees_mutated"
+			"identifier": "extreme_hills_plus_trees"
 		},
 		"components": {
-
 			"minecraft:climate": {
 				"downfall": 0,
 				"snow_accumulation": [
@@ -39,7 +38,6 @@
 			"purity": {},
 			"purity_forest": {},
 			"overworld": {}
-
 		}
 	}
 }

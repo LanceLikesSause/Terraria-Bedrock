@@ -1,0 +1,820 @@
+{
+	"file_path": "C:\\Users\\LANCE.LEGAUX\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\terraria BP\\blocks\\wooden_chair.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "4551c5b4_84fd_4525_b9af_0a62afebeb7f",
+	"file_version": 61,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:block": {
+						"description": {
+							"identifier": "terrariamod:wooden_chair",
+							"properties": {
+								"terrariamod:facing": [
+									0,
+									1,
+									2,
+									3
+								]
+							}
+						},
+						"components": {
+							"minecraft:block_light_absorption": 0,
+							"minecraft:block_light_emission": 0,
+							"minecraft:destroy_time": 1,
+							"minecraft:geometry": "geometry.wooden_chair",
+							"minecraft:material_instances": {
+								"*": {
+									"texture": "wooden_chair",
+									"render_method": "alpha_test"
+								}
+							},
+							"minecraft:loot": "loot_tables/blocks/wooden_chair.json",
+							"tag:terrariamod:wood": {},
+							"minecraft:entity_collision": {
+								"origin": [
+									-8,
+									0,
+									-8
+								],
+								"size": [
+									16,
+									8,
+									16
+								]
+							},
+							"minecraft:pick_collision": {
+								"origin": [
+									-8,
+									0,
+									-8
+								],
+								"size": [
+									16,
+									8,
+									16
+								]
+							},
+							"minecraft:ticking": {
+								"looping": true,
+								"range": [
+									1,
+									1
+								],
+								"on_tick": {
+									"event": "terrariamod:summon"
+								}
+							},
+							"minecraft:on_interact": {
+								"target": "self",
+								"event": "terrariamod:rotate"
+							},
+							"minecraft:on_step_off": {
+								"target": "self",
+								"event": "terrariamod:stand"
+							},
+							"minecraft:on_step_on": {
+								"target": "self",
+								"event": "terrariamod:sit"
+							}
+						},
+						"permutations": [
+							{
+								"condition": "query.block_property('terrariamod:facing') == 0",
+								"components": {
+									"minecraft:rotation": [
+										0,
+										180,
+										0
+									]
+								}
+							},
+							{
+								"condition": "query.block_property('terrariamod:facing') == 1",
+								"components": {
+									"minecraft:rotation": [
+										0,
+										0,
+										0
+									]
+								}
+							},
+							{
+								"condition": "query.block_property('terrariamod:facing') == 2",
+								"components": {
+									"minecraft:rotation": [
+										0,
+										270,
+										0
+									]
+								}
+							},
+							{
+								"condition": "query.block_property('terrariamod:facing') == 3",
+								"components": {
+									"minecraft:rotation": [
+										0,
+										90,
+										0
+									]
+								}
+							}
+						],
+						"events": {
+							"terrariamod:summon": {
+								"run_command": {
+									"command": [
+										"execute @a[scores={lcrystals=1..}] ~ ~ ~ scoreboard players add @a nursestat 1",
+										"execute @a[scores={nursestat=360}] ~ ~ ~ summon terrariamod:nurse",
+										"execute @a[scores={nursestat=360}] ~ ~ ~ say The Nurse has arrived",
+										"execute @a[scores={coins=30..}] ~ ~ ~ scoreboard players add @a merchantstat 1",
+										"execute @a[scores={merchantstat=360}] ~ ~ ~ summon terrariamod:merchant",
+										"execute @a[scores={merchantstat=360}] ~ ~ ~ say The Merchant has arrived",
+										"execute @a[scores={explosives=30..}] ~ ~ ~ scoreboard players add @a demostat 1",
+										"execute @a[scores={demostat=360}] ~ ~ ~ summon terrariamod:demolitionist",
+										"execute @a[scores={demostat=360}] ~ ~ ~ say The Demolitionist has arrived",
+										"execute @a[scores={ammo=1..}] ~ ~ ~ scoreboard players add @a armsstat 1",
+										"execute @a[scores={armsstat=360}] ~ ~ ~ summon terrariamod:armsdealer",
+										"execute @a[scores={armsstat=360}] ~ ~ ~ say The Arms Dealer has arrived"
+									]
+								}
+							},
+							"terrariamod:rotate": {
+								"set_block_property": {
+									"terrariamod:facing": "query.cardinal_facing_2d-2"
+								},
+								"run_command": {
+									"command": [
+										"tellraw @a {\"rawtext\":[{\"text\":\"§eChair NPC Scores:\"}]}",
+										"tellraw @a {\"rawtext\":[{\"text\":\"Health Score:\"}]}",
+										"tellraw @a {\"rawtext\":[{\"score\":{\"objective\":\"lcrystals\",\"name\":\"@p\"}}]}",
+										"tellraw @a {\"rawtext\":[{\"text\":\"Nurse's Score:\"}]}",
+										"tellraw @a {\"rawtext\":[{\"score\":{\"objective\":\"nursestat\",\"name\":\"@p\"}}]}",
+										"tellraw @a {\"rawtext\":[{\"text\":\"Coins Score:\"}]}",
+										"tellraw @a {\"rawtext\":[{\"score\":{\"objective\":\"coins\",\"name\":\"@p\"}}]}",
+										"tellraw @a {\"rawtext\":[{\"text\":\"Merchant's Score:\"}]}",
+										"tellraw @a {\"rawtext\":[{\"score\":{\"objective\":\"merchantstat\",\"name\":\"@p\"}}]}",
+										"tellraw @a {\"rawtext\":[{\"text\":\"Explosives Score:\"}]}",
+										"tellraw @a {\"rawtext\":[{\"score\":{\"objective\":\"explosives\",\"name\":\"@p\"}}]}",
+										"tellraw @a {\"rawtext\":[{\"text\":\"Demolonitionist's Score:\"}]}",
+										"tellraw @a {\"rawtext\":[{\"score\":{\"objective\":\"demostat\",\"name\":\"@p\"}}]}",
+										"tellraw @a {\"rawtext\":[{\"text\":\"Ammo Score:\"}]}",
+										"tellraw @a {\"rawtext\":[{\"score\":{\"objective\":\"ammo\",\"name\":\"@p\"}}]}",
+										"tellraw @a {\"rawtext\":[{\"text\":\"Arms Dealer's Score:\"}]}",
+										"tellraw @a {\"rawtext\":[{\"score\":{\"objective\":\"armsstat\",\"name\":\"@p\"}}]}"
+									]
+								}
+							},
+							"terrariamod:sit": {
+								"run_command": {
+									"command": [
+										"playanimation @e[r=1] animation.player.riding.legs animation.player.riding.legs 999 animation.player.riding.legs"
+									]
+								}
+							},
+							"terrariamod:stand": {
+								"run_command": {
+									"command": [
+										"playanimation @e[r=1] animation.player.riding.legs"
+									]
+								}
+							}
+						}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:wooden_chair",
+							"properties": {
+								"terrariamod:facing": [
+									0,
+									1,
+									2,
+									3
+								]
+							}
+						}
+					},
+					{
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:block_light_absorption": 0,
+							"minecraft:block_light_emission": 0,
+							"minecraft:destroy_time": 1,
+							"minecraft:geometry": "geometry.wooden_chair",
+							"minecraft:material_instances": {
+								"*": {
+									"texture": "wooden_chair",
+									"render_method": "alpha_test"
+								}
+							},
+							"minecraft:loot": "loot_tables/blocks/wooden_chair.json",
+							"tag:terrariamod:wood": {},
+							"minecraft:entity_collision": {
+								"origin": [
+									-8,
+									0,
+									-8
+								],
+								"size": [
+									16,
+									8,
+									16
+								]
+							},
+							"minecraft:pick_collision": {
+								"origin": [
+									-8,
+									0,
+									-8
+								],
+								"size": [
+									16,
+									8,
+									16
+								]
+							},
+							"minecraft:ticking": {
+								"looping": true,
+								"range": [
+									1,
+									1
+								],
+								"on_tick": {
+									"event": "terrariamod:summon"
+								}
+							},
+							"minecraft:on_interact": {
+								"target": "self",
+								"event": "terrariamod:rotate"
+							},
+							"minecraft:on_step_off": {
+								"target": "self",
+								"event": "terrariamod:stand"
+							},
+							"minecraft:on_step_on": {
+								"target": "self",
+								"event": "terrariamod:sit"
+							}
+						}
+					},
+					{
+						"key": "permutations",
+						"is_minified": true,
+						"children": [
+							{
+								"condition": "query.block_property('terrariamod:facing') == 0",
+								"components": {
+									"minecraft:rotation": [
+										0,
+										180,
+										0
+									]
+								}
+							},
+							{
+								"condition": "query.block_property('terrariamod:facing') == 1",
+								"components": {
+									"minecraft:rotation": [
+										0,
+										0,
+										0
+									]
+								}
+							},
+							{
+								"condition": "query.block_property('terrariamod:facing') == 2",
+								"components": {
+									"minecraft:rotation": [
+										0,
+										270,
+										0
+									]
+								}
+							},
+							{
+								"condition": "query.block_property('terrariamod:facing') == 3",
+								"components": {
+									"minecraft:rotation": [
+										0,
+										90,
+										0
+									]
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:wooden_chair",
+								"properties": {
+									"terrariamod:facing": [
+										0,
+										1,
+										2,
+										3
+									]
+								}
+							},
+							"components": {
+								"minecraft:block_light_absorption": 0,
+								"minecraft:block_light_emission": 0,
+								"minecraft:destroy_time": 1,
+								"minecraft:geometry": "geometry.wooden_chair",
+								"minecraft:material_instances": {
+									"*": {
+										"texture": "wooden_chair",
+										"render_method": "alpha_test"
+									}
+								},
+								"minecraft:loot": "loot_tables/blocks/wooden_chair.json",
+								"tag:terrariamod:wood": {},
+								"minecraft:entity_collision": {
+									"origin": [
+										-8,
+										0,
+										-8
+									],
+									"size": [
+										16,
+										8,
+										16
+									]
+								},
+								"minecraft:pick_collision": {
+									"origin": [
+										-8,
+										0,
+										-8
+									],
+									"size": [
+										16,
+										8,
+										16
+									]
+								},
+								"minecraft:ticking": {
+									"looping": true,
+									"range": [
+										1,
+										1
+									],
+									"on_tick": {
+										"event": "terrariamod:summon"
+									}
+								},
+								"minecraft:on_interact": {
+									"target": "self",
+									"event": "terrariamod:rotate"
+								},
+								"minecraft:on_step_off": {
+									"target": "self",
+									"event": "terrariamod:stand"
+								},
+								"minecraft:on_step_on": {
+									"target": "self",
+									"event": "terrariamod:sit"
+								}
+							},
+							"permutations": [
+								{
+									"condition": "query.block_property('terrariamod:facing') == 0",
+									"components": {
+										"minecraft:rotation": [
+											0,
+											180,
+											0
+										]
+									}
+								},
+								{
+									"condition": "query.block_property('terrariamod:facing') == 1",
+									"components": {
+										"minecraft:rotation": [
+											0,
+											0,
+											0
+										]
+									}
+								},
+								{
+									"condition": "query.block_property('terrariamod:facing') == 2",
+									"components": {
+										"minecraft:rotation": [
+											0,
+											270,
+											0
+										]
+									}
+								},
+								{
+									"condition": "query.block_property('terrariamod:facing') == 3",
+									"components": {
+										"minecraft:rotation": [
+											0,
+											90,
+											0
+										]
+									}
+								}
+							],
+							"events": {
+								"terrariamod:summon": {
+									"run_command": {
+										"command": [
+											"execute @a[scores={lcrystals=1..}] ~ ~ ~ scoreboard players add @a nursestat 1",
+											"execute @a[scores={nursestat=360}] ~ ~ ~ summon terrariamod:nurse",
+											"execute @a[scores={nursestat=360}] ~ ~ ~ say The Nurse has arrived",
+											"execute @a[scores={coins=30..}] ~ ~ ~ scoreboard players add @a merchantstat 1",
+											"execute @a[scores={merchantstat=360}] ~ ~ ~ summon terrariamod:merchant",
+											"execute @a[scores={merchantstat=360}] ~ ~ ~ say The Merchant has arrived",
+											"execute @a[scores={explosives=30..}] ~ ~ ~ scoreboard players add @a demostat 1",
+											"execute @a[scores={demostat=360}] ~ ~ ~ summon terrariamod:demolitionist",
+											"execute @a[scores={demostat=360}] ~ ~ ~ say The Demolitionist has arrived",
+											"execute @a[scores={ammo=1..}] ~ ~ ~ scoreboard players add @a armsstat 1",
+											"execute @a[scores={armsstat=360}] ~ ~ ~ summon terrariamod:armsdealer",
+											"execute @a[scores={armsstat=360}] ~ ~ ~ say The Arms Dealer has arrived"
+										]
+									}
+								},
+								"terrariamod:rotate": {
+									"set_block_property": {
+										"terrariamod:facing": "query.cardinal_facing_2d-2"
+									},
+									"run_command": {
+										"command": [
+											"tellraw @a {\"rawtext\":[{\"text\":\"§eChair NPC Scores:\"}]}",
+											"tellraw @a {\"rawtext\":[{\"text\":\"Health Score:\"}]}",
+											"tellraw @a {\"rawtext\":[{\"score\":{\"objective\":\"lcrystals\",\"name\":\"@p\"}}]}",
+											"tellraw @a {\"rawtext\":[{\"text\":\"Nurse's Score:\"}]}",
+											"tellraw @a {\"rawtext\":[{\"score\":{\"objective\":\"nursestat\",\"name\":\"@p\"}}]}",
+											"tellraw @a {\"rawtext\":[{\"text\":\"Coins Score:\"}]}",
+											"tellraw @a {\"rawtext\":[{\"score\":{\"objective\":\"coins\",\"name\":\"@p\"}}]}",
+											"tellraw @a {\"rawtext\":[{\"text\":\"Merchant's Score:\"}]}",
+											"tellraw @a {\"rawtext\":[{\"score\":{\"objective\":\"merchantstat\",\"name\":\"@p\"}}]}",
+											"tellraw @a {\"rawtext\":[{\"text\":\"Explosives Score:\"}]}",
+											"tellraw @a {\"rawtext\":[{\"score\":{\"objective\":\"explosives\",\"name\":\"@p\"}}]}",
+											"tellraw @a {\"rawtext\":[{\"text\":\"Demolonitionist's Score:\"}]}",
+											"tellraw @a {\"rawtext\":[{\"score\":{\"objective\":\"demostat\",\"name\":\"@p\"}}]}",
+											"tellraw @a {\"rawtext\":[{\"text\":\"Ammo Score:\"}]}",
+											"tellraw @a {\"rawtext\":[{\"score\":{\"objective\":\"ammo\",\"name\":\"@p\"}}]}",
+											"tellraw @a {\"rawtext\":[{\"text\":\"Arms Dealer's Score:\"}]}",
+											"tellraw @a {\"rawtext\":[{\"score\":{\"objective\":\"armsstat\",\"name\":\"@p\"}}]}"
+										]
+									}
+								},
+								"terrariamod:sit": {
+									"run_command": {
+										"command": [
+											"playanimation @e[r=1] animation.player.riding.legs animation.player.riding.legs 999 animation.player.riding.legs"
+										]
+									}
+								},
+								"terrariamod:stand": {
+									"run_command": {
+										"command": [
+											"playanimation @e[r=1] animation.player.riding.legs"
+										]
+									}
+								}
+							}
+						},
+						"key": "events",
+						"children": [
+							{
+								"open": {
+									"terrariamod:summon": {
+										"run_command": {
+											"command": [
+												"execute @a[scores={lcrystals=1..}] ~ ~ ~ scoreboard players add @a nursestat 1",
+												"execute @a[scores={nursestat=360}] ~ ~ ~ summon terrariamod:nurse",
+												"execute @a[scores={nursestat=360}] ~ ~ ~ say The Nurse has arrived",
+												"execute @a[scores={coins=30..}] ~ ~ ~ scoreboard players add @a merchantstat 1",
+												"execute @a[scores={merchantstat=360}] ~ ~ ~ summon terrariamod:merchant",
+												"execute @a[scores={merchantstat=360}] ~ ~ ~ say The Merchant has arrived",
+												"execute @a[scores={explosives=30..}] ~ ~ ~ scoreboard players add @a demostat 1",
+												"execute @a[scores={demostat=360}] ~ ~ ~ summon terrariamod:demolitionist",
+												"execute @a[scores={demostat=360}] ~ ~ ~ say The Demolitionist has arrived",
+												"execute @a[scores={ammo=1..}] ~ ~ ~ scoreboard players add @a armsstat 1",
+												"execute @a[scores={armsstat=360}] ~ ~ ~ summon terrariamod:armsdealer",
+												"execute @a[scores={armsstat=360}] ~ ~ ~ say The Arms Dealer has arrived"
+											]
+										}
+									},
+									"terrariamod:rotate": {
+										"set_block_property": {
+											"terrariamod:facing": "query.cardinal_facing_2d-2"
+										},
+										"run_command": {
+											"command": [
+												"tellraw @a {\"rawtext\":[{\"text\":\"§eChair NPC Scores:\"}]}",
+												"tellraw @a {\"rawtext\":[{\"text\":\"Health Score:\"}]}",
+												"tellraw @a {\"rawtext\":[{\"score\":{\"objective\":\"lcrystals\",\"name\":\"@p\"}}]}",
+												"tellraw @a {\"rawtext\":[{\"text\":\"Nurse's Score:\"}]}",
+												"tellraw @a {\"rawtext\":[{\"score\":{\"objective\":\"nursestat\",\"name\":\"@p\"}}]}",
+												"tellraw @a {\"rawtext\":[{\"text\":\"Coins Score:\"}]}",
+												"tellraw @a {\"rawtext\":[{\"score\":{\"objective\":\"coins\",\"name\":\"@p\"}}]}",
+												"tellraw @a {\"rawtext\":[{\"text\":\"Merchant's Score:\"}]}",
+												"tellraw @a {\"rawtext\":[{\"score\":{\"objective\":\"merchantstat\",\"name\":\"@p\"}}]}",
+												"tellraw @a {\"rawtext\":[{\"text\":\"Explosives Score:\"}]}",
+												"tellraw @a {\"rawtext\":[{\"score\":{\"objective\":\"explosives\",\"name\":\"@p\"}}]}",
+												"tellraw @a {\"rawtext\":[{\"text\":\"Demolonitionist's Score:\"}]}",
+												"tellraw @a {\"rawtext\":[{\"score\":{\"objective\":\"demostat\",\"name\":\"@p\"}}]}",
+												"tellraw @a {\"rawtext\":[{\"text\":\"Ammo Score:\"}]}",
+												"tellraw @a {\"rawtext\":[{\"score\":{\"objective\":\"ammo\",\"name\":\"@p\"}}]}",
+												"tellraw @a {\"rawtext\":[{\"text\":\"Arms Dealer's Score:\"}]}",
+												"tellraw @a {\"rawtext\":[{\"score\":{\"objective\":\"armsstat\",\"name\":\"@p\"}}]}"
+											]
+										}
+									},
+									"terrariamod:sit": {
+										"run_command": {
+											"command": [
+												"playanimation @e[r=1] animation.player.riding.legs animation.player.riding.legs 999 animation.player.riding.legs"
+											]
+										}
+									},
+									"terrariamod:stand": {
+										"run_command": {
+											"command": [
+												"playanimation @e[r=1] animation.player.riding.legs"
+											]
+										}
+									}
+								},
+								"key": "terrariamod:summon",
+								"children": [
+									{
+										"open": {
+											"run_command": {
+												"command": [
+													"execute @a[scores={lcrystals=1..}] ~ ~ ~ scoreboard players add @a nursestat 1",
+													"execute @a[scores={nursestat=360}] ~ ~ ~ summon terrariamod:nurse",
+													"execute @a[scores={nursestat=360}] ~ ~ ~ say The Nurse has arrived",
+													"execute @a[scores={coins=30..}] ~ ~ ~ scoreboard players add @a merchantstat 1",
+													"execute @a[scores={merchantstat=360}] ~ ~ ~ summon terrariamod:merchant",
+													"execute @a[scores={merchantstat=360}] ~ ~ ~ say The Merchant has arrived",
+													"execute @a[scores={explosives=30..}] ~ ~ ~ scoreboard players add @a demostat 1",
+													"execute @a[scores={demostat=360}] ~ ~ ~ summon terrariamod:demolitionist",
+													"execute @a[scores={demostat=360}] ~ ~ ~ say The Demolitionist has arrived",
+													"execute @a[scores={ammo=1..}] ~ ~ ~ scoreboard players add @a armsstat 1",
+													"execute @a[scores={armsstat=360}] ~ ~ ~ summon terrariamod:armsdealer",
+													"execute @a[scores={armsstat=360}] ~ ~ ~ say The Arms Dealer has arrived"
+												]
+											}
+										},
+										"key": "run_command",
+										"children": [
+											{
+												"open": {
+													"command": [
+														"execute @a[scores={lcrystals=1..}] ~ ~ ~ scoreboard players add @a nursestat 1",
+														"execute @a[scores={nursestat=360}] ~ ~ ~ summon terrariamod:nurse",
+														"execute @a[scores={nursestat=360}] ~ ~ ~ say The Nurse has arrived",
+														"execute @a[scores={coins=30..}] ~ ~ ~ scoreboard players add @a merchantstat 1",
+														"execute @a[scores={merchantstat=360}] ~ ~ ~ summon terrariamod:merchant",
+														"execute @a[scores={merchantstat=360}] ~ ~ ~ say The Merchant has arrived",
+														"execute @a[scores={explosives=30..}] ~ ~ ~ scoreboard players add @a demostat 1",
+														"execute @a[scores={demostat=360}] ~ ~ ~ summon terrariamod:demolitionist",
+														"execute @a[scores={demostat=360}] ~ ~ ~ say The Demolitionist has arrived",
+														"execute @a[scores={ammo=1..}] ~ ~ ~ scoreboard players add @a armsstat 1",
+														"execute @a[scores={armsstat=360}] ~ ~ ~ summon terrariamod:armsdealer",
+														"execute @a[scores={armsstat=360}] ~ ~ ~ say The Arms Dealer has arrived"
+													]
+												},
+												"key": "command",
+												"is_minified": true,
+												"children": [
+													"execute @a[scores={lcrystals=1..}] ~ ~ ~ scoreboard players add @a nursestat 1",
+													"execute @a[scores={nursestat=360}] ~ ~ ~ summon terrariamod:nurse",
+													"execute @a[scores={nursestat=360}] ~ ~ ~ say The Nurse has arrived",
+													"execute @a[scores={coins=30..}] ~ ~ ~ scoreboard players add @a merchantstat 1",
+													"execute @a[scores={merchantstat=360}] ~ ~ ~ summon terrariamod:merchant",
+													"execute @a[scores={merchantstat=360}] ~ ~ ~ say The Merchant has arrived",
+													"execute @a[scores={explosives=30..}] ~ ~ ~ scoreboard players add @a demostat 1",
+													"execute @a[scores={demostat=360}] ~ ~ ~ summon terrariamod:demolitionist",
+													"execute @a[scores={demostat=360}] ~ ~ ~ say The Demolitionist has arrived",
+													"execute @a[scores={ammo=1..}] ~ ~ ~ scoreboard players add @a armsstat 1",
+													"execute @a[scores={armsstat=360}] ~ ~ ~ summon terrariamod:armsdealer",
+													"execute @a[scores={armsstat=360}] ~ ~ ~ say The Arms Dealer has arrived"
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": {
+									"terrariamod:summon": {
+										"run_command": {
+											"command": [
+												"execute @a[scores={lcrystals=1..}] ~ ~ ~ scoreboard players add @a nursestat 1",
+												"execute @a[scores={nursestat=360}] ~ ~ ~ summon terrariamod:nurse",
+												"execute @a[scores={nursestat=360}] ~ ~ ~ say The Nurse has arrived",
+												"execute @a[scores={coins=30..}] ~ ~ ~ scoreboard players add @a merchantstat 1",
+												"execute @a[scores={merchantstat=360}] ~ ~ ~ summon terrariamod:merchant",
+												"execute @a[scores={merchantstat=360}] ~ ~ ~ say The Merchant has arrived",
+												"execute @a[scores={explosives=30..}] ~ ~ ~ scoreboard players add @a demostat 1",
+												"execute @a[scores={demostat=360}] ~ ~ ~ summon terrariamod:demolitionist",
+												"execute @a[scores={demostat=360}] ~ ~ ~ say The Demolitionist has arrived",
+												"execute @a[scores={ammo=1..}] ~ ~ ~ scoreboard players add @a armsstat 1",
+												"execute @a[scores={armsstat=360}] ~ ~ ~ summon terrariamod:armsdealer",
+												"execute @a[scores={armsstat=360}] ~ ~ ~ say The Arms Dealer has arrived"
+											]
+										}
+									},
+									"terrariamod:rotate": {
+										"set_block_property": {
+											"terrariamod:facing": "query.cardinal_facing_2d-2"
+										},
+										"run_command": {
+											"command": [
+												"tellraw @a {\"rawtext\":[{\"text\":\"§eChair NPC Scores:\"}]}",
+												"tellraw @a {\"rawtext\":[{\"text\":\"Health Score:\"}]}",
+												"tellraw @a {\"rawtext\":[{\"score\":{\"objective\":\"lcrystals\",\"name\":\"@p\"}}]}",
+												"tellraw @a {\"rawtext\":[{\"text\":\"Nurse's Score:\"}]}",
+												"tellraw @a {\"rawtext\":[{\"score\":{\"objective\":\"nursestat\",\"name\":\"@p\"}}]}",
+												"tellraw @a {\"rawtext\":[{\"text\":\"Coins Score:\"}]}",
+												"tellraw @a {\"rawtext\":[{\"score\":{\"objective\":\"coins\",\"name\":\"@p\"}}]}",
+												"tellraw @a {\"rawtext\":[{\"text\":\"Merchant's Score:\"}]}",
+												"tellraw @a {\"rawtext\":[{\"score\":{\"objective\":\"merchantstat\",\"name\":\"@p\"}}]}",
+												"tellraw @a {\"rawtext\":[{\"text\":\"Explosives Score:\"}]}",
+												"tellraw @a {\"rawtext\":[{\"score\":{\"objective\":\"explosives\",\"name\":\"@p\"}}]}",
+												"tellraw @a {\"rawtext\":[{\"text\":\"Demolonitionist's Score:\"}]}",
+												"tellraw @a {\"rawtext\":[{\"score\":{\"objective\":\"demostat\",\"name\":\"@p\"}}]}",
+												"tellraw @a {\"rawtext\":[{\"text\":\"Ammo Score:\"}]}",
+												"tellraw @a {\"rawtext\":[{\"score\":{\"objective\":\"ammo\",\"name\":\"@p\"}}]}",
+												"tellraw @a {\"rawtext\":[{\"text\":\"Arms Dealer's Score:\"}]}",
+												"tellraw @a {\"rawtext\":[{\"score\":{\"objective\":\"armsstat\",\"name\":\"@p\"}}]}"
+											]
+										}
+									},
+									"terrariamod:sit": {
+										"run_command": {
+											"command": [
+												"playanimation @e[r=1] animation.player.riding.legs animation.player.riding.legs 999 animation.player.riding.legs"
+											]
+										}
+									},
+									"terrariamod:stand": {
+										"run_command": {
+											"command": [
+												"playanimation @e[r=1] animation.player.riding.legs"
+											]
+										}
+									}
+								},
+								"key": "terrariamod:rotate",
+								"children": [
+									{
+										"open": {
+											"set_block_property": {
+												"terrariamod:facing": "query.cardinal_facing_2d-2"
+											},
+											"run_command": {
+												"command": [
+													"tellraw @a {\"rawtext\":[{\"text\":\"§eChair NPC Scores:\"}]}",
+													"tellraw @a {\"rawtext\":[{\"text\":\"Health Score:\"}]}",
+													"tellraw @a {\"rawtext\":[{\"score\":{\"objective\":\"lcrystals\",\"name\":\"@p\"}}]}",
+													"tellraw @a {\"rawtext\":[{\"text\":\"Nurse's Score:\"}]}",
+													"tellraw @a {\"rawtext\":[{\"score\":{\"objective\":\"nursestat\",\"name\":\"@p\"}}]}",
+													"tellraw @a {\"rawtext\":[{\"text\":\"Coins Score:\"}]}",
+													"tellraw @a {\"rawtext\":[{\"score\":{\"objective\":\"coins\",\"name\":\"@p\"}}]}",
+													"tellraw @a {\"rawtext\":[{\"text\":\"Merchant's Score:\"}]}",
+													"tellraw @a {\"rawtext\":[{\"score\":{\"objective\":\"merchantstat\",\"name\":\"@p\"}}]}",
+													"tellraw @a {\"rawtext\":[{\"text\":\"Explosives Score:\"}]}",
+													"tellraw @a {\"rawtext\":[{\"score\":{\"objective\":\"explosives\",\"name\":\"@p\"}}]}",
+													"tellraw @a {\"rawtext\":[{\"text\":\"Demolonitionist's Score:\"}]}",
+													"tellraw @a {\"rawtext\":[{\"score\":{\"objective\":\"demostat\",\"name\":\"@p\"}}]}",
+													"tellraw @a {\"rawtext\":[{\"text\":\"Ammo Score:\"}]}",
+													"tellraw @a {\"rawtext\":[{\"score\":{\"objective\":\"ammo\",\"name\":\"@p\"}}]}",
+													"tellraw @a {\"rawtext\":[{\"text\":\"Arms Dealer's Score:\"}]}",
+													"tellraw @a {\"rawtext\":[{\"score\":{\"objective\":\"armsstat\",\"name\":\"@p\"}}]}"
+												]
+											}
+										},
+										"key": "set_block_property",
+										"is_minified": true,
+										"children": {
+											"terrariamod:facing": "query.cardinal_facing_2d-2"
+										}
+									},
+									{
+										"open": {
+											"set_block_property": {
+												"terrariamod:facing": "query.cardinal_facing_2d-2"
+											},
+											"run_command": {
+												"command": [
+													"tellraw @a {\"rawtext\":[{\"text\":\"§eChair NPC Scores:\"}]}",
+													"tellraw @a {\"rawtext\":[{\"text\":\"Health Score:\"}]}",
+													"tellraw @a {\"rawtext\":[{\"score\":{\"objective\":\"lcrystals\",\"name\":\"@p\"}}]}",
+													"tellraw @a {\"rawtext\":[{\"text\":\"Nurse's Score:\"}]}",
+													"tellraw @a {\"rawtext\":[{\"score\":{\"objective\":\"nursestat\",\"name\":\"@p\"}}]}",
+													"tellraw @a {\"rawtext\":[{\"text\":\"Coins Score:\"}]}",
+													"tellraw @a {\"rawtext\":[{\"score\":{\"objective\":\"coins\",\"name\":\"@p\"}}]}",
+													"tellraw @a {\"rawtext\":[{\"text\":\"Merchant's Score:\"}]}",
+													"tellraw @a {\"rawtext\":[{\"score\":{\"objective\":\"merchantstat\",\"name\":\"@p\"}}]}",
+													"tellraw @a {\"rawtext\":[{\"text\":\"Explosives Score:\"}]}",
+													"tellraw @a {\"rawtext\":[{\"score\":{\"objective\":\"explosives\",\"name\":\"@p\"}}]}",
+													"tellraw @a {\"rawtext\":[{\"text\":\"Demolonitionist's Score:\"}]}",
+													"tellraw @a {\"rawtext\":[{\"score\":{\"objective\":\"demostat\",\"name\":\"@p\"}}]}",
+													"tellraw @a {\"rawtext\":[{\"text\":\"Ammo Score:\"}]}",
+													"tellraw @a {\"rawtext\":[{\"score\":{\"objective\":\"ammo\",\"name\":\"@p\"}}]}",
+													"tellraw @a {\"rawtext\":[{\"text\":\"Arms Dealer's Score:\"}]}",
+													"tellraw @a {\"rawtext\":[{\"score\":{\"objective\":\"armsstat\",\"name\":\"@p\"}}]}"
+												]
+											}
+										},
+										"key": "run_command",
+										"children": [
+											{
+												"open": {
+													"command": [
+														"tellraw @a {\"rawtext\":[{\"text\":\"§eChair NPC Scores:\"}]}",
+														"tellraw @a {\"rawtext\":[{\"text\":\"Health Score:\"}]}",
+														"tellraw @a {\"rawtext\":[{\"score\":{\"objective\":\"lcrystals\",\"name\":\"@p\"}}]}",
+														"tellraw @a {\"rawtext\":[{\"text\":\"Nurse's Score:\"}]}",
+														"tellraw @a {\"rawtext\":[{\"score\":{\"objective\":\"nursestat\",\"name\":\"@p\"}}]}",
+														"tellraw @a {\"rawtext\":[{\"text\":\"Coins Score:\"}]}",
+														"tellraw @a {\"rawtext\":[{\"score\":{\"objective\":\"coins\",\"name\":\"@p\"}}]}",
+														"tellraw @a {\"rawtext\":[{\"text\":\"Merchant's Score:\"}]}",
+														"tellraw @a {\"rawtext\":[{\"score\":{\"objective\":\"merchantstat\",\"name\":\"@p\"}}]}",
+														"tellraw @a {\"rawtext\":[{\"text\":\"Explosives Score:\"}]}",
+														"tellraw @a {\"rawtext\":[{\"score\":{\"objective\":\"explosives\",\"name\":\"@p\"}}]}",
+														"tellraw @a {\"rawtext\":[{\"text\":\"Demolonitionist's Score:\"}]}",
+														"tellraw @a {\"rawtext\":[{\"score\":{\"objective\":\"demostat\",\"name\":\"@p\"}}]}",
+														"tellraw @a {\"rawtext\":[{\"text\":\"Ammo Score:\"}]}",
+														"tellraw @a {\"rawtext\":[{\"score\":{\"objective\":\"ammo\",\"name\":\"@p\"}}]}",
+														"tellraw @a {\"rawtext\":[{\"text\":\"Arms Dealer's Score:\"}]}",
+														"tellraw @a {\"rawtext\":[{\"score\":{\"objective\":\"armsstat\",\"name\":\"@p\"}}]}"
+													]
+												},
+												"key": "command",
+												"is_minified": true,
+												"children": [
+													"tellraw @a {\"rawtext\":[{\"text\":\"§eChair NPC Scores:\"}]}",
+													"tellraw @a {\"rawtext\":[{\"text\":\"Health Score:\"}]}",
+													"tellraw @a {\"rawtext\":[{\"score\":{\"objective\":\"lcrystals\",\"name\":\"@p\"}}]}",
+													"tellraw @a {\"rawtext\":[{\"text\":\"Nurse's Score:\"}]}",
+													"tellraw @a {\"rawtext\":[{\"score\":{\"objective\":\"nursestat\",\"name\":\"@p\"}}]}",
+													"tellraw @a {\"rawtext\":[{\"text\":\"Coins Score:\"}]}",
+													"tellraw @a {\"rawtext\":[{\"score\":{\"objective\":\"coins\",\"name\":\"@p\"}}]}",
+													"tellraw @a {\"rawtext\":[{\"text\":\"Merchant's Score:\"}]}",
+													"tellraw @a {\"rawtext\":[{\"score\":{\"objective\":\"merchantstat\",\"name\":\"@p\"}}]}",
+													"tellraw @a {\"rawtext\":[{\"text\":\"Explosives Score:\"}]}",
+													"tellraw @a {\"rawtext\":[{\"score\":{\"objective\":\"explosives\",\"name\":\"@p\"}}]}",
+													"tellraw @a {\"rawtext\":[{\"text\":\"Demolonitionist's Score:\"}]}",
+													"tellraw @a {\"rawtext\":[{\"score\":{\"objective\":\"demostat\",\"name\":\"@p\"}}]}",
+													"tellraw @a {\"rawtext\":[{\"text\":\"Ammo Score:\"}]}",
+													"tellraw @a {\"rawtext\":[{\"score\":{\"objective\":\"ammo\",\"name\":\"@p\"}}]}",
+													"tellraw @a {\"rawtext\":[{\"text\":\"Arms Dealer's Score:\"}]}",
+													"tellraw @a {\"rawtext\":[{\"score\":{\"objective\":\"armsstat\",\"name\":\"@p\"}}]}"
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"key": "terrariamod:sit",
+								"is_minified": true,
+								"children": {
+									"run_command": {
+										"command": [
+											"playanimation @e[r=1] animation.player.riding.legs animation.player.riding.legs 999 animation.player.riding.legs"
+										]
+									}
+								}
+							},
+							{
+								"key": "terrariamod:stand",
+								"is_minified": true,
+								"children": {
+									"run_command": {
+										"command": [
+											"playanimation @e[r=1] animation.player.riding.legs"
+										]
+									}
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

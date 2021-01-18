@@ -1,4 +1,4 @@
-//bridge-file-version: #15
+//bridge-file-version: #16
 {
 	"format_version": "1.16.0",
 	"minecraft:entity": {
@@ -59,7 +59,7 @@
 				"damage": 22
 			},
 			"minecraft:loot": {
-				"table": "loot_tables/entities/zombie_terraria.json"
+				"table": "loot_tables/entities/eaterofworlds.json"
 			},
 			"minecraft:despawn": {
 				"despawn_from_distance": {

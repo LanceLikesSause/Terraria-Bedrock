@@ -3254,5 +3254,8 @@
 	},
 	"BP/loot_tables/blocks/shadoworb.json": {
 		"data": {}
+	},
+	"BP/loot_tables/entities/eaterofworlds.json": {
+		"data": {}
 	}
 }

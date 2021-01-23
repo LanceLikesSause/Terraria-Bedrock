@@ -1,0 +1,24 @@
+//bridge-file-version: #16
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.skeletron_head_death": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"spawn_next_stage": "!query.is_alive"
+						}
+					]
+				},
+				"spawn_next_stage": {
+					"on_entry": [
+						"/kill @e[type=terrariamod:skeletron_arm]",
+						"/kill @e[type=terrariamod:skeletron_head]",
+						"/summon terrariamod:skeletron_head_stagetwo"
+					]
+				}
+			}
+		}
+	}
+}

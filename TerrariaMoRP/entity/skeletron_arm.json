@@ -1,0 +1,37 @@
+//bridge-file-version: #10
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "terrariamod:skeletron_arm",
+			"materials": {
+				"default": "phantom",
+				"invisible": "phantom_invisible"
+			},
+			"textures": {
+				"default": "textures/entity/pamobile/skeletron"
+			},
+			"geometry": {
+				"default": "geometry.skeletron_arm"
+			},
+			"particle_effects": {
+				"wing_dust": "minecraft:phantom_trail_particle"
+			},
+			"animations": {
+				"move": "animation.skeletron_arm"
+			},
+			"animation_controllers": [
+				{
+					"move": "controller.animation.humanoid.move"
+				}
+			],
+			"render_controllers": [
+				"controller.render.phantom"
+			],
+			"spawn_egg": {
+				"base_color": "#444D56",
+				"overlay_color": "#4A7151"
+			}
+		}
+	}
+}

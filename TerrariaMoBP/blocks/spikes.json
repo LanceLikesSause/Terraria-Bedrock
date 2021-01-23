@@ -1,0 +1,124 @@
+//bridge-file-version: #26
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "terrariamod:spikes",
+			"properties": {
+				"terrariamod:facing": [
+					0,
+					1,
+					2,
+					3
+				]
+			}
+		},
+		"components": {
+			"minecraft:destroy_time": 1,
+			"minecraft:flammable": {
+				"flame_odds": 0,
+				"burn_odds": 0
+			},
+			"tag:terrariamod:stone": {},
+			"minecraft:on_step_on": {
+				"event": "terrariamod:walk"
+			},
+			"minecraft:geometry": "geometry.spikes",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "purity_stone",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:pick_collision": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					4,
+					16
+				]
+			},
+			"minecraft:entity_collision": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					4,
+					16
+				]
+			},
+			"minecraft:block_light_emission": 0,
+			"minecraft:block_light_absorption": 0,
+			"minecraft:on_player_placing": {
+				"event": "terrariamod:rotate"
+			}
+		},
+		"permutations": [
+			{
+				"condition": "query.block_property('terrariamod:facing') == 0",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						180,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('terrariamod:facing') == 1",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						0,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('terrariamod:facing') == 2",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						270,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('terrariamod:facing') == 3",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						90,
+						0
+					]
+				}
+			}
+		],
+		"events": {
+			"terrariamod:walk": {
+				"damage": {
+					"amount": 60,
+					"type": "contact"
+				},
+				"add_mob_effect": {
+					"effect": "slowness",
+					"duration": 3,
+					"amplifier": 2
+				}
+			},
+			"terrariamod:rotate": {
+				"set_block_property": {
+					"terrariamod:facing": "query.cardinal_facing_2d-2"
+				}
+			}
+		}
+	}
+}

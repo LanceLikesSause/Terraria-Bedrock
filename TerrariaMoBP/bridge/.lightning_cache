@@ -1,0 +1,4520 @@
+{
+	"animation_controller": {
+		"BP/animation_controllers/bridge/bomb.json": {
+			"ids": [
+				"controller.animation.pa_arc_inframun"
+			],
+			"custom_commands": []
+		},
+		"BP/animation_controllers/bridge/commands_dungeon_spawner.json": {
+			"ids": [
+				"controller.animation.bridge_dungeon_spawner.execute_commands"
+			],
+			"custom_commands": []
+		},
+		"BP/animation_controllers/bridge/commands_oldman.json": {
+			"ids": [
+				"controller.animation.bridge_oldman.execute_commands"
+			],
+			"custom_commands": []
+		},
+		"BP/animation_controllers/bridge/commands_pinkslime.json": {
+			"ids": [
+				"controller.animation.bridge_pinkslime.execute_commands"
+			],
+			"custom_commands": []
+		},
+		"BP/animation_controllers/bridge/commands_player.json": {
+			"ids": [
+				"controller.animation.bridge_player.execute_commands"
+			],
+			"custom_commands": []
+		},
+		"BP/animation_controllers/bridge/custom_item_behavior.json": {
+			"ids": [
+				"controller.animation.bridge_custom_item_behavior"
+			],
+			"custom_commands": []
+		},
+		"BP/animation_controllers/eyeofcthulhu_to_stage_2.json": {
+			"ids": [
+				"controller.animation.merchant_death"
+			],
+			"custom_commands": []
+		},
+		"BP/animation_controllers/starting_items.json": {
+			"ids": [
+				"controller.animation.starting_items"
+			],
+			"custom_commands": []
+		},
+		"BP/animation_controllers/mana.json": {
+			"ids": [
+				"controller.animation.relocater"
+			],
+			"custom_commands": []
+		},
+		"BP/animation_controllers/health.json": {
+			"ids": [
+				"controller.animation.health"
+			],
+			"custom_commands": []
+		},
+		"BP/animation_controllers/bridge/commands_purity_bed.json": {
+			"ids": [
+				"controller.animation.bridge_purity_bed.execute_commands"
+			],
+			"custom_commands": []
+		},
+		"BP/animation_controllers/nurse_death.json": {
+			"ids": [
+				"controller.animation.nurse_death"
+			],
+			"custom_commands": []
+		},
+		"BP/animation_controllers/greenslime_death.json": {
+			"ids": [
+				"controller.animation.merchant_death"
+			],
+			"custom_commands": []
+		},
+		"BP/animation_controllers/merchant_death.json": {
+			"ids": [
+				"controller.animation.skeletron_head_death"
+			],
+			"custom_commands": []
+		},
+		"BP/animation_controllers/demolitionist_death.json": {
+			"ids": [
+				"controller.animation.demolitionist_death"
+			],
+			"custom_commands": []
+		},
+		"BP/animation_controllers/armsdealer_death.json": {
+			"ids": [
+				"controller.animation.armsdealer_death"
+			],
+			"custom_commands": []
+		},
+		"BP/animation_controllers/skeletron_head_death.json": {
+			"ids": [
+				"controller.animation.skeletron_head_death"
+			],
+			"custom_commands": []
+		},
+		"BP/animation_controllers/skeletron_arm_death.json": {
+			"ids": [
+				"controller.animation.skeletron_head_death"
+			],
+			"custom_commands": []
+		},
+		"BP/animation_controllers/skeletron_head_stagetwo_death.json": {
+			"ids": [
+				"controller.animation.skeletron_head_death"
+			],
+			"custom_commands": []
+		}
+	},
+	"biome": {
+		"BP/biomes/bamboo_jungle.biome.json": {
+			"tags": [
+				"purity"
+			]
+		},
+		"BP/biomes/bamboo_jungle_hills.biome.json": {
+			"tags": [
+				"purity"
+			]
+		},
+		"BP/biomes/basalt_deltas.biome.json": {
+			"tags": [
+				"underworld"
+			]
+		},
+		"BP/biomes/beach.biome.json": {
+			"tags": [
+				"purity",
+				"purity_forest"
+			]
+		},
+		"BP/biomes/birch_forest.biome.json": {
+			"tags": [
+				"purity"
+			]
+		},
+		"BP/biomes/birch_forest_hills.biome.json": {
+			"tags": [
+				"purity"
+			]
+		},
+		"BP/biomes/birch_forest_hills_mutated.biome.json": {
+			"tags": [
+				"purity"
+			]
+		},
+		"BP/biomes/birch_forest_mutated.biome.json": {
+			"tags": [
+				"purity"
+			]
+		},
+		"BP/biomes/cold_beach.biome.json": {
+			"tags": [
+				"purity"
+			]
+		},
+		"BP/biomes/cold_ocean.biome.json": {
+			"tags": [
+				"purity"
+			]
+		},
+		"BP/biomes/cold_taiga.biome.json": {
+			"tags": [
+				"purity"
+			]
+		},
+		"BP/biomes/cold_taiga_hills.biome.json": {
+			"tags": [
+				"purity"
+			]
+		},
+		"BP/biomes/cold_taiga_mutated.biome.json": {
+			"tags": [
+				"purity"
+			]
+		},
+		"BP/biomes/crimson_forest.biome.json": {
+			"tags": [
+				"underworld"
+			]
+		},
+		"BP/biomes/deep_cold_ocean.biome.json": {
+			"tags": [
+				"purity"
+			]
+		},
+		"BP/biomes/deep_frozen_ocean.biome.json": {
+			"tags": [
+				"purity"
+			]
+		},
+		"BP/biomes/deep_lukewarm_ocean.biome.json": {
+			"tags": [
+				"purity"
+			]
+		},
+		"BP/biomes/deep_ocean.biome.json": {
+			"tags": [
+				"purity"
+			]
+		},
+		"BP/biomes/deep_warm_ocean.biome.json": {
+			"tags": [
+				"purity"
+			]
+		},
+		"BP/biomes/desert_hills.biome.json": {
+			"tags": [
+				"purity",
+				"purity_forest"
+			]
+		},
+		"BP/biomes/desert_mutated.biome.json": {
+			"tags": [
+				"purity",
+				"purity_forest"
+			]
+		},
+		"BP/biomes/extreme_hills.biome.json": {
+			"tags": [
+				"purity"
+			]
+		},
+		"BP/biomes/extreme_hills_edge.biome.json": {
+			"tags": [
+				"purity",
+				"purity_forest"
+			]
+		},
+		"BP/biomes/extreme_hills_mutated.biome.json": {
+			"tags": [
+				"purity",
+				"purity_forest"
+			]
+		},
+		"BP/biomes/extreme_hills_plus_trees.biome.json": {
+			"tags": [
+				"purity",
+				"purity_forest"
+			]
+		},
+		"BP/biomes/extreme_hills_plus_trees_mutated.biome.json": {
+			"tags": [
+				"purity"
+			]
+		},
+		"BP/biomes/flower_forest.biome.json": {
+			"tags": [
+				"purity",
+				"purity_jungle"
+			]
+		},
+		"BP/biomes/forest.biome.json": {
+			"tags": [
+				"purity",
+				"purity_jungle"
+			]
+		},
+		"BP/biomes/forest_hills.biome.json": {
+			"tags": [
+				"purity",
+				"purity_jungle"
+			]
+		},
+		"BP/biomes/frozen_ocean.biome.json": {
+			"tags": [
+				"purity"
+			]
+		},
+		"BP/biomes/frozen_river.biome.json": {
+			"tags": [
+				"purity"
+			]
+		},
+		"BP/biomes/hell.biome.json": {
+			"tags": [
+				"underworld"
+			]
+		},
+		"BP/biomes/ice_mountains.biome.json": {
+			"tags": [
+				"purity"
+			]
+		},
+		"BP/biomes/ice_plains.biome.json": {
+			"tags": [
+				"purity"
+			]
+		},
+		"BP/biomes/ice_plains_spikes.biome.json": {
+			"tags": [
+				"purity"
+			]
+		},
+		"BP/biomes/jungle.biome.json": {
+			"tags": [
+				"purity"
+			]
+		},
+		"BP/biomes/jungle_edge.biome.json": {
+			"tags": [
+				"purity"
+			]
+		},
+		"BP/biomes/jungle_edge_mutated.biome.json": {
+			"tags": [
+				"purity"
+			]
+		},
+		"BP/biomes/jungle_hills.biome.json": {
+			"tags": [
+				"purity"
+			]
+		},
+		"BP/biomes/jungle_mutated.biome.json": {
+			"tags": [
+				"purity"
+			]
+		},
+		"BP/biomes/legacy_frozen_ocean.biome.json": {
+			"tags": [
+				"purity"
+			]
+		},
+		"BP/biomes/lukewarm_ocean.biome.json": {
+			"tags": [
+				"purity"
+			]
+		},
+		"BP/biomes/mega_taiga.biome.json": {
+			"tags": [
+				"purity",
+				"purity_forest"
+			]
+		},
+		"BP/biomes/mega_taiga_hills.biome.json": {
+			"tags": [
+				"purity",
+				"purity_forest"
+			]
+		},
+		"BP/biomes/mesa.biome.json": {
+			"tags": [
+				"purity"
+			]
+		},
+		"BP/biomes/mesa_bryce.biome.json": {
+			"tags": [
+				"purity"
+			]
+		},
+		"BP/biomes/mesa_plateau.biome.json": {
+			"tags": [
+				"purity"
+			]
+		},
+		"BP/biomes/mesa_plateau_mutated.biome.json": {
+			"tags": [
+				"purity"
+			]
+		},
+		"BP/biomes/mesa_plateau_stone.biome.json": {
+			"tags": [
+				"purity"
+			]
+		},
+		"BP/biomes/mesa_plateau_stone_mutated.biome.json": {
+			"tags": [
+				"purity"
+			]
+		},
+		"BP/biomes/mushroom_island.biome.json": {
+			"tags": [
+				"purity"
+			]
+		},
+		"BP/biomes/mushroom_island_shore.biome.json": {
+			"tags": [
+				"purity"
+			]
+		},
+		"BP/biomes/ocean.biome.json": {
+			"tags": [
+				"purity"
+			]
+		},
+		"BP/biomes/redwood_taiga_hills_mutated.biome.json": {
+			"tags": [
+				"purity"
+			]
+		},
+		"BP/biomes/redwood_taiga_mutated.biome.json": {
+			"tags": [
+				"purity"
+			]
+		},
+		"BP/biomes/river.biome.json": {
+			"tags": [
+				"purity"
+			]
+		},
+		"BP/biomes/roofed_forest.biome.json": {
+			"tags": [
+				"purity"
+			]
+		},
+		"BP/biomes/roofed_forest_mutated.biome.json": {
+			"tags": [
+				"purity"
+			]
+		},
+		"BP/biomes/savanna.biome.json": {
+			"tags": [
+				"purity",
+				"purity_forest"
+			]
+		},
+		"BP/biomes/savanna_mutated.biome.json": {
+			"tags": [
+				"purity"
+			]
+		},
+		"BP/biomes/savanna_plateau.biome.json": {
+			"tags": [
+				"purity"
+			]
+		},
+		"BP/biomes/savanna_plateau_mutated.biome.json": {
+			"tags": [
+				"purity"
+			]
+		},
+		"BP/biomes/soulsand_valley.biome.json": {
+			"tags": [
+				"underworld"
+			]
+		},
+		"BP/biomes/stone_beach.biome.json": {
+			"tags": [
+				"purity"
+			]
+		},
+		"BP/biomes/sunflower_plains.biome.json": {
+			"tags": [
+				"purity"
+			]
+		},
+		"BP/biomes/swampland.biome.json": {
+			"tags": [
+				"purity"
+			]
+		},
+		"BP/biomes/swampland_mutated.biome.json": {
+			"tags": [
+				"purity"
+			]
+		},
+		"BP/biomes/taiga.biome.json": {
+			"tags": [
+				"purity"
+			]
+		},
+		"BP/biomes/taiga_hills.biome.json": {
+			"tags": [
+				"purity"
+			]
+		},
+		"BP/biomes/taiga_mutated.biome.json": {
+			"tags": [
+				"purity"
+			]
+		},
+		"BP/biomes/the_end.biome.json": {
+			"tags": [
+				"purity"
+			]
+		},
+		"BP/biomes/warm_ocean.biome.json": {
+			"tags": [
+				"purity"
+			]
+		},
+		"BP/biomes/warped_forest.biome.json": {
+			"tags": [
+				"underworld"
+			]
+		},
+		"BP/biomes/desert.biome.json": {
+			"tags": [
+				"purity",
+				"purity_forest"
+			]
+		},
+		"BP/biomes/plains.biome.json": {
+			"tags": [
+				"purity",
+				"purity_forest"
+			]
+		},
+		"BP/biomes/extreme_hills.biome.json.json": {
+			"tags": [
+				"corruption"
+			]
+		}
+	},
+	"block": {
+		"BP/blocks/crimsonheart.json": {
+			"identifiers": [
+				"terrariamod:shadoworb"
+			],
+			"events": [
+				"terrariamod:interact",
+				"terrariamod:trigger_event"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/jungle_grass.json": {
+			"identifiers": [
+				"terrariamod:jungle_grass"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/graybrick.json": {
+			"identifiers": [
+				"terrariamod:graybrick"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/purity_clay.json": {
+			"identifiers": [
+				"terrariamod:purity_clay"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/redbrick.json": {
+			"identifiers": [
+				"terrariamod:redbrick"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/sapling.json": {
+			"identifiers": [
+				"terrariamod:sapling"
+			],
+			"events": [
+				"terrariamod:grow"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/purity_sapling.json": {
+			"identifiers": [
+				"terrariamod:purity_sapling"
+			],
+			"events": [
+				"terrariamod:grow"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/underworld_transporter.json": {
+			"identifiers": [
+				"terrariamod:underworld_transporter"
+			],
+			"events": [
+				"terrariamod:summon_portal"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/crimson_grass.json": {
+			"identifiers": [
+				"terrariamod:crimson_grass"
+			],
+			"events": [
+				"terrariamod:crimson_spread"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/corrupted_grass.json": {
+			"identifiers": [
+				"terrariamod:corrupted_grass"
+			],
+			"events": [
+				"terrariamod:corruption_spread"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/purity_torch.json": {
+			"identifiers": [
+				"terrariamod:purity_torch"
+			],
+			"events": [
+				"terrariamod:flame"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/mushroom.json": {
+			"identifiers": [
+				"terrariamod:daybloom"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/meteorite.json": {
+			"identifiers": [
+				"terrariamod:meteorite"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/purity_cobweb.json": {
+			"identifiers": [
+				"terrariamod:purity_cobweb"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/sawmill.json": {
+			"identifiers": [
+				"terrariamod:sawmill"
+			],
+			"events": [
+				"terrariamod:go_to_frame_one",
+				"terrariamod:go_to_frame_two"
+			],
+			"recipe_tags": [
+				"sawmill"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/iron_anvil.json": {
+			"identifiers": [
+				"terrariamod:iron_anvil"
+			],
+			"events": [],
+			"recipe_tags": [
+				"iron_anvil"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/purity_loom.json": {
+			"identifiers": [
+				"terrariamod:purity_loom"
+			],
+			"events": [],
+			"recipe_tags": [
+				"loom"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/wooden_chair.json": {
+			"identifiers": [
+				"terrariamod:wooden_chair"
+			],
+			"events": [
+				"terrariamod:summon",
+				"terrariamod:rotate",
+				"terrariamod:sit",
+				"terrariamod:stand"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/surfacechest.json": {
+			"identifiers": [
+				"terrariamod:purity_chest"
+			],
+			"events": [
+				"terrariamod:create_dummy",
+				"terrariamod:destroy_dummy"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/wooden_table.json": {
+			"identifiers": [
+				"terrariamod:twooden_door"
+			],
+			"events": [
+				"terrariamod:open_door",
+				"terrariamod:close_door"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/purity_chest.json": {
+			"identifiers": [
+				"terrariamod:purity_chest"
+			],
+			"events": [
+				"terrariamod:create_dummy",
+				"terrariamod:destroy_dummy"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/twooden_door.json": {
+			"identifiers": [
+				"terrariamod:twooden_door"
+			],
+			"events": [
+				"terrariamod:open_door",
+				"terrariamod:close_door"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/purity_candle.json": {
+			"identifiers": [
+				"terrariamod:purity_candle"
+			],
+			"events": [
+				"terrariamod:flame"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/purity_chain.json": {
+			"identifiers": [
+				"terrariamod:purity_chain"
+			],
+			"events": [
+				"terrariamod:emit_flame"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/tree_bottom.json": {
+			"identifiers": [
+				"terrariamod:tree_bottom"
+			],
+			"events": [
+				"terrariamod:destroy_tree"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/hellforge.json": {
+			"identifiers": [
+				"terrariamod:hellforge"
+			],
+			"events": [],
+			"recipe_tags": [
+				"hellforge",
+				"tfurnace"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/ash.json": {
+			"identifiers": [
+				"terrariamod:ash"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/hellstone.json": {
+			"identifiers": [
+				"terrariamod:spikes"
+			],
+			"events": [
+				"terrariamod:walk",
+				"terrariamod:rotate"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/purity_campfire.json": {
+			"identifiers": [
+				"terrariamod:purity_campfire"
+			],
+			"events": [
+				"terrariamod:particle",
+				"terrariamod:regen"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/purity_grass.json": {
+			"identifiers": [
+				"terrariamod:purity_grass"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/purity_stone.json": {
+			"identifiers": [
+				"terrariamod:purity_stone"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/purity_dirt.json": {
+			"identifiers": [
+				"terrariamod:purity_dirt"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/furnace.json": {
+			"identifiers": [
+				"terrariamod:tfurnace"
+			],
+			"events": [],
+			"recipe_tags": [
+				"tfurnace"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/tree_bottom_corruption.json": {
+			"identifiers": [
+				"terrariamod:tree_bottom_corruption"
+			],
+			"events": [
+				"terrariamod:destroy_tree"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/tree_bottom_crimson.json": {
+			"identifiers": [
+				"terrariamod:tree_bottom_crimson"
+			],
+			"events": [
+				"terrariamod:destroy_tree"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/tree_bottom_jungle.json": {
+			"identifiers": [
+				"terrariamod:tree_bottom_jungle"
+			],
+			"events": [
+				"terrariamod:destroy_tree"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/daybloom.json": {
+			"identifiers": [
+				"terrariamod:daybloom"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/crystalheart.json": {
+			"identifiers": [
+				"terrariamod:crystalheart"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/shadoworb.json": {
+			"identifiers": [
+				"terrariamod:shadoworb"
+			],
+			"events": [
+				"terrariamod:interact",
+				"terrariamod:trigger_event"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/dungeon_spawner.json": {
+			"identifiers": [
+				"terrariamod:dungeon_spawner"
+			],
+			"events": [
+				"terrariamod:spawn"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/spikes.json": {
+			"identifiers": [
+				"terrariamod:spikes"
+			],
+			"events": [
+				"terrariamod:walk",
+				"terrariamod:rotate"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		}
+	},
+	"entity": {
+		"BP/entities/blackslime.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:blackslime"
+			],
+			"animation_references": [],
+			"families": [
+				"slimes_terraria",
+				"terraria_players_enemy"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/blueslime.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:blueslime"
+			],
+			"animation_references": [
+				"greenslime_death"
+			],
+			"families": [
+				"slimes_terraria",
+				"terraria_players_enemy"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/dungeonslime.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:dungeonslime"
+			],
+			"animation_references": [],
+			"families": [
+				"slimes_terraria",
+				"terraria_players_enemy"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/greenslime.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:greenslime"
+			],
+			"animation_references": [
+				"greenslime_death"
+			],
+			"families": [
+				"slimes_terraria",
+				"terraria_players_enemy"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/kingslime.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:kingslime"
+			],
+			"animation_references": [],
+			"families": [
+				"slimes_terraria",
+				"terraria_players_enemy"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/lavaslime.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:lavaslime"
+			],
+			"animation_references": [],
+			"families": [
+				"slimes_terraria",
+				"terraria_players_enemy"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/pinkslime.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:pinkslime"
+			],
+			"animation_references": [],
+			"families": [
+				"slimes_terraria",
+				"terraria_players_enemy"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/purpleslime.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:purpleslime"
+			],
+			"animation_references": [],
+			"families": [
+				"slimes_terraria",
+				"terraria_players_enemy"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/rabbit.json": {
+			"events": [
+				"in_desert",
+				"in_snow",
+				"minecraft:entity_spawned",
+				"minecraft:entity_born",
+				"grow_up"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:rabbit"
+			],
+			"animation_references": [],
+			"families": [
+				"rabbit",
+				"mob"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/redslime.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:redslime"
+			],
+			"animation_references": [],
+			"families": [
+				"slimes_terraria",
+				"terraria_players_enemy"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/yellowslime.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:yellowslime"
+			],
+			"animation_references": [],
+			"families": [
+				"slimes_terraria",
+				"terraria_players_enemy"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/eaterofsouls.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:eaterofsouls"
+			],
+			"animation_references": [],
+			"families": [
+				"terraria_players_enemy"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/player.json": {
+			"events": [
+				"minecraft:gain_bad_omen",
+				"minecraft:clear_add_bad_omen",
+				"minecraft:trigger_raid",
+				"minecraft:remove_raid_trigger",
+				"minecraft:mana",
+				"minecraft:hellstone_event",
+				"minecraft:entity_spawned",
+				"bridge:remove_command_id_1"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"minecraft:player"
+			],
+			"animation_references": [
+				"mana",
+				"starting_items",
+				"bridge_execute_commands",
+				"health"
+			],
+			"families": [
+				"player"
+			],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/entities/eyeofcthulhu_stageone.json": {
+			"events": [
+				"minecraft:entity_spawned",
+				"bridge:remove_command_id_1",
+				"terrariamod:despawn_entity"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:eyeofcthulhu_stageone"
+			],
+			"animation_references": [
+				"to_stage_2",
+				"bridge_execute_commands"
+			],
+			"families": [
+				"terraria_players_enemy"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/eyeofcthulhu_stagetwo.json": {
+			"events": [
+				"terrariamod:despawn_entity"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:eyeofcthulhu_stagetwo"
+			],
+			"animation_references": [],
+			"families": [
+				"terraria_players_enemy"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/brainofcthulhu_stageone.json": {
+			"events": [
+				"terrariamod:despawn_entity",
+				"bridge:remove_command_id_1"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:brainofcthulhu_stageone"
+			],
+			"animation_references": [
+				"to_stage_2",
+				"bridge_execute_commands"
+			],
+			"families": [
+				"terraria_players_enemy"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/brainofcthulhu_stagetwo.json": {
+			"events": [
+				"terrariamod:despawn_entity",
+				"bridge:remove_command_id_1"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:brainofcthulhu_stagetwo"
+			],
+			"animation_references": [
+				"bridge_execute_commands"
+			],
+			"families": [
+				"terraria_players_enemy"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/demolitionist.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:demolitionist"
+			],
+			"animation_references": [
+				"demolitionist_death"
+			],
+			"families": [
+				"villager",
+				"mob"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/purity_bed.json": {
+			"events": [
+				"terrariamod:set_spawn",
+				"terrariamod:remove_spawn"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:purity_bed"
+			],
+			"animation_references": [],
+			"families": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/nurse.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:nurse"
+			],
+			"animation_references": [
+				"nurse_death"
+			],
+			"families": [
+				"villager",
+				"mob"
+			],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/entities/merchant.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:merchant"
+			],
+			"animation_references": [
+				"merchant_death"
+			],
+			"families": [
+				"villager",
+				"mob"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/armsdealer.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:armsdealer"
+			],
+			"animation_references": [
+				"armsdealer_death"
+			],
+			"families": [
+				"villager",
+				"mob"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/chest_dummy.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:chest_dummy"
+			],
+			"animation_references": [],
+			"families": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/iceblade_projectile.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:iceblade_projectile"
+			],
+			"animation_references": [
+				"particles"
+			],
+			"families": [
+				"inanimate"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/starfury_projectile.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:starfury_projectile"
+			],
+			"animation_references": [],
+			"families": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/enchantedsword_projectile.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:enchantedsword_projectile"
+			],
+			"animation_references": [],
+			"families": [
+				"inanimate"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/beekeeper_bee.json": {
+			"events": [
+				"terrariamod:despawn"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:beekeeper_bee"
+			],
+			"animation_references": [],
+			"families": [
+				"phantom",
+				"undead",
+				"monster",
+				"mob"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/angrybones.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:angrybones"
+			],
+			"animation_references": [],
+			"families": [
+				"terraria_players_enemy"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/bloodcrawler.json": {
+			"events": [
+				"minecraft:entity_spawned",
+				"minecraft:become_hostile",
+				"minecraft:become_neutral",
+				"minecraft:become_angry",
+				"minecraft:become_calm"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:bloodcrawler"
+			],
+			"animation_references": [],
+			"families": [
+				"terraria_players_enemy"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/cavebat.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:cavebat"
+			],
+			"animation_references": [],
+			"families": [
+				"terraria_players_enemy"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/creepers.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:creepers"
+			],
+			"animation_references": [],
+			"families": [
+				"terraria_players_enemy"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/crimera.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:crimera"
+			],
+			"animation_references": [],
+			"families": [
+				"terraria_players_enemy"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/cursedskull.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:cursedskull"
+			],
+			"animation_references": [],
+			"families": [
+				"terraria_players_enemy"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/darkcaster.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:darkcaster"
+			],
+			"animation_references": [],
+			"families": [
+				"terraria_players_enemy"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/demon.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:demon"
+			],
+			"animation_references": [],
+			"families": [
+				"terraria_players_enemy"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/demoneye.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:demoneye"
+			],
+			"animation_references": [],
+			"families": [
+				"terraria_players_enemy"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/devourer.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:devourer"
+			],
+			"animation_references": [],
+			"families": [
+				"devourer"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/eaterofworlds.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:eaterofworlds"
+			],
+			"animation_references": [],
+			"families": [
+				"eaterofworlds",
+				"terraria_players_enemy"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/facemonster.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:facemonster"
+			],
+			"animation_references": [],
+			"families": [
+				"terraria_players_enemy"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/fireimp.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:fireimp"
+			],
+			"animation_references": [],
+			"families": [
+				"terraria_players_enemy"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/giantworm.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:giantworm"
+			],
+			"animation_references": [],
+			"families": [
+				"terraria_players_enemy"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/hellbat.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:hellbat"
+			],
+			"animation_references": [],
+			"families": [
+				"terraria_players_enemy"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/hornet.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:hornet"
+			],
+			"animation_references": [],
+			"families": [
+				"terraria_players_enemy"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/servantofcthulhu.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:servantofcthulhu"
+			],
+			"animation_references": [],
+			"families": [
+				"terraria_players_enemy"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/skeleton_terraria.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:skeleton_terraria"
+			],
+			"animation_references": [],
+			"families": [
+				"terraria_players_enemy"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/skeletron_head.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:skeletron_head"
+			],
+			"animation_references": [
+				"skeletron_head_death"
+			],
+			"families": [
+				"terraria_players_enemy"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/sporeskeleton.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:sporeskeleton"
+			],
+			"animation_references": [],
+			"families": [
+				"terraria_players_enemy"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/sporezombie.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:sporezombie"
+			],
+			"animation_references": [],
+			"families": [
+				"terraria_players_enemy"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/undeadminer.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:undeadminer"
+			],
+			"animation_references": [],
+			"families": [
+				"terraria_players_enemy"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/voodoodemon.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:voodoodemon"
+			],
+			"animation_references": [],
+			"families": [
+				"terraria_players_enemy"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/zombie_terraria.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:zombie_terraria"
+			],
+			"animation_references": [],
+			"families": [
+				"terraria_players_enemy"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/musketball_projectile_musket.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:musketball_projectile_musket"
+			],
+			"animation_references": [],
+			"families": [
+				"inanimate"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/musketball_projectile_undertaker.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:musketball_projectile_undertaker"
+			],
+			"animation_references": [],
+			"families": [
+				"inanimate"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/skeletron_head_stagetwo.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:skeletron_head_stagetwo"
+			],
+			"animation_references": [
+				"skeletron_head_stagetwo_death"
+			],
+			"families": [
+				"terraria_players_enemy"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/skeletron_arm.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:skeletron_arm"
+			],
+			"animation_references": [
+				"skeletron_arm_death"
+			],
+			"families": [
+				"terraria_players_enemy"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/bookofskulls_projectile.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:bookofskulls_projectile"
+			],
+			"animation_references": [],
+			"families": [
+				"inanimate"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		}
+	},
+	"feature_rule": {
+		"BP/feature_rules/crimsonalter_featurerule.json": {
+			"identifiers": [
+				"minecraft:crimsonheart_featurerule"
+			]
+		},
+		"BP/feature_rules/victoriousmushroom_featurerule.json": {
+			"identifiers": [
+				"minecraft:victoriousmushroom_featurerule"
+			]
+		},
+		"BP/feature_rules/purityclay_featurerule.json": {
+			"identifiers": [
+				"minecraft:puritysand_featurerule"
+			]
+		},
+		"BP/feature_rules/hellstone_featurerule.json": {
+			"identifiers": [
+				"minecraft:hellforge_featurerule"
+			]
+		},
+		"BP/feature_rules/surfacechest_featurerule.json": {
+			"identifiers": [
+				"minecraft:dungeon_featurerule"
+			]
+		},
+		"BP/feature_rules/purity_cave_featurerule.json": {
+			"identifiers": [
+				"minecraft:purity_cave_featurerule"
+			]
+		},
+		"BP/feature_rules/puritysand_featurerule.json": {
+			"identifiers": [
+				"minecraft:puritysand_featurerule"
+			]
+		},
+		"BP/feature_rules/crimsonheart_featurerule.json": {
+			"identifiers": [
+				"minecraft:crimsonheart_featurerule"
+			]
+		},
+		"BP/feature_rules/hellforge_featurerule.json": {
+			"identifiers": [
+				"minecraft:hellforge_featurerule"
+			]
+		},
+		"BP/feature_rules/daybloom_featurerule.json": {
+			"identifiers": [
+				"minecraft:crystalheart_featurerule"
+			]
+		},
+		"BP/feature_rules/rubyore_featurerule.json": {
+			"identifiers": [
+				"minecraft:rubyore_featurerule"
+			]
+		},
+		"BP/feature_rules/sapphireore_featurerule.json": {
+			"identifiers": [
+				"minecraft:sapphireore_featurerule"
+			]
+		},
+		"BP/feature_rules/crystalheart_featurerule.json": {
+			"identifiers": [
+				"minecraft:crystalheart_featurerule"
+			]
+		},
+		"BP/feature_rules/dungeon_featurerule.json": {
+			"identifiers": [
+				"minecraft:dungeon_featurerule"
+			]
+		},
+		"BP/feature_rules/cavernchest_featurerule.json": {
+			"identifiers": [
+				"minecraft:cavernchest_featurerule"
+			]
+		}
+	},
+	"feature": {
+		"BP/features/crimsonalter_feature.json": {
+			"identifiers": [
+				"minecraft:crimsonheart_feature"
+			]
+		},
+		"BP/features/victoriousmushroom_feature.json": {
+			"identifiers": [
+				"minecraft:victoriousmushroom_feature"
+			]
+		},
+		"BP/features/purityclay_feature.json": {
+			"identifiers": [
+				"minecraft:puritysand_feature"
+			]
+		},
+		"BP/features/hellstone_feature.json": {
+			"identifiers": [
+				"minecraft:hellstone_feature"
+			]
+		},
+		"BP/features/purity_cave_feature.json": {
+			"identifiers": [
+				"minecraft:purity_cave_feature"
+			]
+		},
+		"BP/features/surfacechest_feature.json": {
+			"identifiers": [
+				"minecraft:dungeon_feature"
+			]
+		},
+		"BP/features/puritysand_feature.json": {
+			"identifiers": [
+				"minecraft:puritysand_feature"
+			]
+		},
+		"BP/features/crimsonheart_feature.json": {
+			"identifiers": [
+				"minecraft:crimsonheart_feature"
+			]
+		},
+		"BP/features/hellforge_feature.json": {
+			"identifiers": [
+				"minecraft:hellforge_feature"
+			]
+		},
+		"BP/features/daybloom_feature.json": {
+			"identifiers": [
+				"minecraft:crystalheart_feature"
+			]
+		},
+		"BP/features/crystalheart_feature.json": {
+			"identifiers": [
+				"minecraft:crystalheart_feature"
+			]
+		},
+		"BP/features/dungeon_feature.json": {
+			"identifiers": [
+				"minecraft:dungeon_feature"
+			]
+		}
+	},
+	"function": {
+		"BP/functions/cellphone.mcfunction": {
+			"custom_commands": []
+		},
+		"BP/functions/crimson_grass.mcfunction": {
+			"custom_commands": []
+		},
+		"BP/functions/depthmeter.mcfunction": {
+			"custom_commands": []
+		},
+		"BP/functions/hellstone_gear.mcfunction": {
+			"custom_commands": []
+		},
+		"BP/functions/mana.mcfunction": {
+			"custom_commands": [],
+			"tags": [
+				"notbegin"
+			]
+		},
+		"BP/functions/oldman_skeletron.mcfunction": {
+			"custom_commands": []
+		},
+		"BP/functions/oldman_talk.mcfunction": {
+			"custom_commands": []
+		},
+		"BP/functions/rocketboots.mcfunction": {
+			"custom_commands": []
+		},
+		"BP/functions/slimestaff.mcfunction": {
+			"custom_commands": []
+		},
+		"BP/functions/starting_items.mcfunction": {
+			"custom_commands": []
+		},
+		"9ad1f2c5_60aa_4a40_b379_ed6dd8f7e433": {},
+		"774a9ef2_675a_476c_bfbf_1601b554f35c": {},
+		"5a0fd008_e397_4f26_8c8e_87a8f4f3c0c9": {},
+		"23223da5_b842_432b_b5d2_333aa68582bd": {},
+		"459d0146_301b_4e4d_ae85_885b62afd892": {},
+		"5e6ef3d3_0fc8_4b2b_b5a4_bf7943141477": {},
+		"a0a5afff_4917_4b9b_b7ad_9ec23961314c": {},
+		"a5b4ab3d_12d6_4cdc_a2b6_78e430a9de81": {},
+		"44d89716_a2fa_49a6_a35b_ab5c81cd3964": {},
+		"040b87d4_3796_462c_8f0b_cf34413a909a": {},
+		"a95cb159_0208_4ac7_a533_bc6da04322e7": {},
+		"143bdfae_2625_4a39_8062_ef5f169eab69": {},
+		"546f0d6d_cc67_4b82_b634_78420c49d66a": {},
+		"f420f7b8_fe2f_4242_88ad_a9526e54a7d3": {},
+		"BP/functions/corrupted_grass.mcfunction": {
+			"custom_commands": []
+		},
+		"BP/functions/health.mcfunction": {
+			"custom_commands": [],
+			"tags": [
+				"notbegintwo"
+			]
+		},
+		"76832516_a81d_4869_9fdf_478c3245aad9": {},
+		"c1dcd4c1_5dd6_4b65_8539_8239611e7b3c": {},
+		"9bc4d2e2_0aa1_4df8_a53f_4417261e1799": {},
+		"BP/functions/life_crystal_add.mcfunction": {
+			"custom_commands": [],
+			"scoreboards": [
+				"lcrystals",
+				"flc"
+			]
+		},
+		"327c78ab_233b_4075_90c1_3d77b6b35c23": {},
+		"fa9e29e7_6de5_473f_8e2a_2355a53d0a2c": {},
+		"a310fdf1_58a9_4719_a27c_a60fef1154bc": {},
+		"72fd1d3b_3454_47dc_a412_a0e1f21aad7d": {},
+		"2c3b8d09_aa64_470b_ad53_13df67104bbf": {},
+		"a0c4b39e_4696_4c69_b841_f0e178014926": {},
+		"20f1a76e_9b54_40ab_82c2_3f6d1e7dee16": {},
+		"03b01580_0946_4bbc_8aa5_8597e8d4cc21": {},
+		"ba96a40c_2ef5_4ec4_9962_bb3130c05cc0": {},
+		"generic": {},
+		"b0eac555_0ad3_4df0_bba7_ab0c50f54966": {},
+		"6bbabec0_d1bd_478b_8955_854f19718548": {},
+		"b9276445_0f39_4ba7_b64a_57f6c7955807": {},
+		"ad578558_df52_4117_825e_174a6e89e3ad": {},
+		"1e10946d_7be7_4da5_b1cb_6a292c8f2167": {},
+		"a62aa2f5_b720_42b5_8635_55c204112358": {},
+		"508f77f2_9272_4991_9de5_540aa27b230e": {},
+		"57ce6c2a_2faa_4b3e_b25a_4f156a36a7dd": {},
+		"537cc931_787b_45c5_ba17_dcce10f23994": {},
+		"081d4a5d_fd20_4ef6_bf42_64899948ad6a": {},
+		"ce0c2558_57c9_4822_84c0_f1ba9a254cca": {},
+		"318e026d_6985_43b7_988a_1f46e7afcd9c": {},
+		"5061bcc8_0e9b_4d83_b09e_dd96b36cfb77": {},
+		"4a229b17_de19_4290_b67f_20186cd996cf": {},
+		"172e1446_0965_40fb_a349_2190a468c2cd": {},
+		"7e639747_6948_4410_a247_c5b38197bdc4": {},
+		"cba73e95_6075_420e_95e4_b7377f493d41": {},
+		"cf05d613_a6d1_4e05_a6ba_908d8237bca7": {},
+		"822f5535_5ac5_4684_ba91_b20875a049f0": {},
+		"380f8a00_a019_46e7_a01e_45277b9903cc": {},
+		"809c8973_70b6_4fa5_bdf6_cf2e314c0c5b": {},
+		"12c879eb_d63a_4c25_8bc1_d924d8d6228d": {},
+		"b5174e52_ef1e_439c_8c8f_2d1305df6c3d": {},
+		"1b7bdd31_bbc2_47fc_a0d4_4421dc408315": {},
+		"4038cbdd_12ba_4856_af82_715c71785957": {},
+		"5a053453_74fb_4456_92d2_3f716d6ccc81": {},
+		"e4acb574_3e85_4e8c_b4c5_c77349879210": {},
+		"a895de75_a8e1_4904_8605_5fee4e600d7d": {},
+		"022333ad_19c9_40ce_89b2_5c04da8d3019": {},
+		"fc716138_e26e_4a02_a8a1_19d176a8c232": {},
+		"bde46462_bf6d_44f0_98cd_baeb99125862": {},
+		"7d916590_f1b0_4814_b40c_55bcf08f44c0": {},
+		"367c1ec3_e7fd_46b0_9032_b38ff8861829": {},
+		"f6242e21_7b0b_4c9a_b2f9_4cf3285d9646": {},
+		"57d54547_2770_410a_8aae_831ef50f228c": {},
+		"6256221a_9a10_4ec2_ab3b_118640004f07": {},
+		"523df5b2_3ad8_492a_8414_304ae3fc2022": {},
+		"afa0697d_5e4d_433c_b88b_77aec1d974b7": {},
+		"78b7a3e2_a711_42e6_86b9_4152fb98bf48": {},
+		"bc73c8c2_8033_4a19_aaf6_b734c58660e2": {},
+		"31220d8d_eef4_4d12_8b40_e6ca81f20fdb": {},
+		"fffe2bc7_3f3f_4127_9fff_1ec5de8b2a7e": {},
+		"13fcf39d_ba2e_4533_b65d_571186e76396": {},
+		"34c0845d_14ed_4530_80cc_f1fcc5dcf4ae": {},
+		"3c16fe34_3a6d_4838_8d42_ee0bc7b4aaff": {},
+		"7373da3e_c939_4d70_9402_1b109c18e3bf": {},
+		"0f0988b0_914e_4937_a2f0_b1ca05832f35": {},
+		"7e877518_b62f_4d33_bfa0_f8170a14d541": {},
+		"9efa11dd_a692_4d3e_a1c7_0f4037a2f091": {},
+		"2b4f1595_4e40_4af7_822a_0d0f1304ee02": {},
+		"fb488069_00b6_4633_848c_2399116993a6": {},
+		"16231c94_b20c_4c85_97f2_43c61c9772e5": {},
+		"7716aa32_56af_4709_b4ab_27f19f59fd45": {},
+		"0797762e_4bb6_4b14_b4c3_14943297aa3d": {},
+		"d702f90e_3487_47b5_bf30_93267f3f3f84": {},
+		"cc802231_ac54_4f8f_8a3b_096156ac1adc": {},
+		"b59674df_9c2b_4b8b_9be7_e88452436132": {},
+		"08b27efd_d5e7_4211_a5a7_2d5c4b815762": {},
+		"d85ad2bc_2b0a_4fd7_accc_a6be9fc49ae5": {},
+		"e0d20eec_4462_47f5_863f_76c4939bfcf6": {},
+		"1761924a_3444_49cf_8f50_f9f4e661e648": {},
+		"98346326_22d5_4918_9042_dd979eef45db": {},
+		"3f276c45_8fae_47c6_ac56_554ebcd86e53": {},
+		"ffaaba5c_8eca_488c_8810_128c30b8e973": {},
+		"1ca65936_6165_4e81_aa7a_d7c9d25ecea7": {},
+		"befc3dda_bd80_4363_934c_edd01a4d02b0": {},
+		"477a00ea_82ab_4490_892f_9e152a6911d8": {},
+		"8fb85e40_e200_40bc_bcaf_2c105aa1440a": {},
+		"2cf53cb5_e3c7_4959_9846_8bde9f2a28e5": {},
+		"c22a62e0_befd_4671_a887_6f71026f9c2e": {},
+		"ce07f589_376d_4922_b548_f3e5f5191143": {},
+		"4551c5b4_84fd_4525_b9af_0a62afebeb7f": {},
+		"2d62204d_1aa1_4560_9b51_aed611dff2c8": {},
+		"84126f63_839f_4af9_8af6_a18ff8cd0e8b": {},
+		"45feaa39_0977_44c5_b5f2_a9b3bbf88e95": {},
+		"005bf0ed_b92c_4fc3_ad87_aa568d47b06e": {},
+		"8dda6010_201a_4294_8f32_75d1e5dd2754": {},
+		"c9dd2005_5c5a_4e4c_9589_e4656ea81701": {},
+		"17b39c13_16a3_41e7_899f_ba361b3e953d": {},
+		"2056d49b_e5dd_4ce4_be84_8bf709c46253": {},
+		"cd696f52_8d57_4c43_b8c8_95cb571a4a98": {},
+		"309e77c3_e558_4c75_bc94_6f30b7add8ab": {},
+		"aa80c69f_029d_426a_88cb_ca4c6c1d2fc4": {},
+		"c29cdef5_3b5f_4b0e_8d7c_b9ac8c50a565": {}
+	},
+	"rp_animation_controller": {
+		"RP/animation_controllers/devourer.animation.controller.json": {
+			"ids": [
+				"controller.animation.skeletron_head_stagetwo"
+			]
+		},
+		"RP/animation_controllers/greenslime.animation.controller.json": {
+			"ids": [
+				"controller.animation.greenslime.attack"
+			]
+		},
+		"RP/animation_controllers/kingslime.animation.controller.json": {
+			"ids": [
+				"controller.animation.kingslime.attack"
+			]
+		},
+		"RP/animation_controllers/skeletron_head_stagetwo.animation.controller.json": {
+			"ids": [
+				"controller.animation.skeletron_head_stagetwo"
+			]
+		}
+	},
+	"rp_animation": {
+		"RP/animations/brainofcthulhu.animation.json": {
+			"ids": [
+				"animation.brainofcthulhu.fly"
+			]
+		},
+		"RP/animations/cavebat.animation.fly.json": {
+			"ids": [
+				"animation.cavebat.fly"
+			]
+		},
+		"RP/animations/cavebat.animation.json": {
+			"ids": [
+				"animation.cavebat.flyy"
+			]
+		},
+		"RP/animations/demon.animation.json": {
+			"ids": [
+				"animation.demon.fly"
+			]
+		},
+		"RP/animations/devourer.animation.json": {
+			"ids": [
+				"animation.devourer.attack",
+				"animation.devourer.walk"
+			]
+		},
+		"RP/animations/eaterofsouls.animation.json": {
+			"ids": [
+				"animation.eaterofsouls.fly"
+			]
+		},
+		"RP/animations/eyeofcthulhu_stageone.animation.json": {
+			"ids": [
+				"animation.eyeofcthulhu_stageone.fly"
+			]
+		},
+		"RP/animations/greenslime.animation.json": {
+			"ids": [
+				"animation.greenslime.walk",
+				"animation.greenslime.attack",
+				"animation.greenslime.pounce"
+			]
+		},
+		"RP/animations/hornet.animation.json": {
+			"ids": [
+				"animation.hornet.fly"
+			]
+		},
+		"RP/animations/kingslime.animation.json": {
+			"ids": [
+				"animation.kingslime.walk",
+				"animation.kingslime.attack",
+				"animation.kingslime.pounce"
+			]
+		},
+		"RP/animations/skeletron.animation.json": {
+			"ids": [
+				"animation.skeletron"
+			]
+		},
+		"RP/animations/arrow_fire.animation.json": {
+			"ids": [
+				"animation.arrow_fire.move"
+			]
+		}
+	},
+	"attachable": {
+		"RP/attachables/copper_chestplate.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/copper_greaves.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/copper_helmet.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/crimtane_chestplate.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/crimtane_greaves.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/crimtane_helmet.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/demonite_chestplate.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/demonite_greaves.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/demonite_helmet.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/gold_chestplate.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/gold_greaves.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/gold_helmet.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/hellstone_chestplate.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/hellstone_greaves.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/hellstone_helmet.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/iron_chestplate.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/iron_greaves.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/iron_helmet.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/lead_chestplate.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/lead_greaves.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/lead_helmet.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/meteorite_chestplate.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/meteorite_greaves.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/meteorite_helmet.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/platinum_chestplate.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/platinum_greaves.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/platinum_helmet.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/silver_chestplate.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/silver_greaves.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/silver_helmet.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/tin_chestplate.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/tin_greaves.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/tin_helmet.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/tungsten_chestplate.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/tungsten_greaves.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/tungsten_helmet.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/hellstonesword.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		}
+	},
+	"client_entity": {
+		"RP/entity/ash.json": {
+			"identifiers": [
+				"terrariamod:ash"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"sneak",
+				"walk",
+				"sprint",
+				"sit",
+				"look_at_target",
+				"baby_transform",
+				"lie_down"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"white",
+				"black",
+				"red",
+				"siamese",
+				"british",
+				"calico",
+				"persian",
+				"ragdoll",
+				"tabby",
+				"jellie",
+				"all_black",
+				"white_tame",
+				"black_tame",
+				"red_tame",
+				"siamese_tame",
+				"british_tame",
+				"calico_tame",
+				"persian_tame",
+				"ragdoll_tame",
+				"tabby_tame",
+				"all_black_tame",
+				"jellie_tame"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/rabbit.json": {
+			"identifiers": [
+				"terrariamod:rabbit"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"move",
+				"baby_transform",
+				"look_at_target"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"brown",
+				"white",
+				"black",
+				"white_splotched",
+				"gold",
+				"salt",
+				"toast"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/purity_bed.json": {
+			"identifiers": [
+				"terrariamod:purity_bed"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"facing",
+				"move",
+				"look_at_target"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"undyed",
+				"white",
+				"orange",
+				"magenta",
+				"light_blue",
+				"yellow",
+				"lime",
+				"pink",
+				"gray",
+				"silver",
+				"cyan",
+				"purple",
+				"blue",
+				"brown",
+				"green",
+				"red",
+				"black"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/woodenarrow_projectile_copper.json": {
+			"identifiers": [
+				"terrariamod:woodenarrow_projectile_copper"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"move"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/woodenarrow_projectile_tin.json": {
+			"identifiers": [
+				"terrariamod:woodenarrow_projectile_tin"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"move"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/woodenarrow_projectile_iron.json": {
+			"identifiers": [
+				"terrariamod:woodenarrow_projectile_iron"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"move"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/woodenarrow_projectile_lead.json": {
+			"identifiers": [
+				"terrariamod:woodenarrow_projectile_lead"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"move"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/woodenarrow_projectile_silver.json": {
+			"identifiers": [
+				"terrariamod:woodenarrow_projectile_silver"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"move"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/woodenarrow_projectile_tungsten.json": {
+			"identifiers": [
+				"terrariamod:woodenarrow_projectile_tungsten"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"move"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/woodenarrow_projectile_gold.json": {
+			"identifiers": [
+				"terrariamod:woodenarrow_projectile_gold"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"move"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/woodenarrow_projectile_platinum.json": {
+			"identifiers": [
+				"terrariamod:woodenarrow_projectile_platinum"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"move"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/woodenarrow_projectile_crimtane.json": {
+			"identifiers": [
+				"terrariamod:woodenarrow_projectile_crimtane"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"move"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/iceblade_projectile.json": {
+			"identifiers": [
+				"terrariamod:iceblade_projectile"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"move"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/starfury_projectile.json": {
+			"identifiers": [
+				"terrariamod:starfury_projectile"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"flying"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/enchantedsword_projectile.json": {
+			"identifiers": [
+				"terrariamod:enchantedsword_projectile"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"move"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/beekeeper_bee.json": {
+			"identifiers": [
+				"terrariamod:beekeeper_bee"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"humanoid_big_head",
+				"look_at_target_default",
+				"look_at_target_gliding",
+				"look_at_target_swimming",
+				"move",
+				"riding.arms",
+				"riding.legs",
+				"holding",
+				"brandish_spear",
+				"charging",
+				"attack.rotations",
+				"sneaking",
+				"bob",
+				"damage_nearby_mobs",
+				"bow_and_arrow",
+				"use_item_progress",
+				"zombie_attack_bare_hand",
+				"swimming"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/woodenarrow_projectile_hellstone.json": {
+			"identifiers": [
+				"terrariamod:woodenarrow_projectile_hellstone"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"move"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/musketball_projectile_musket.json": {
+			"identifiers": [
+				"terrariamod:musketball_projectile_musket"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"move"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/musketball_projectile_undertaker.json": {
+			"identifiers": [
+				"terrariamod:musketball_projectile_undertaker"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"move"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/skeletron_head.json": {
+			"identifiers": [
+				"terrariamod:skeletron_head"
+			],
+			"particle_references": [
+				"wing_dust"
+			],
+			"animation_references": [
+				"move",
+				"swoop"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default",
+				"invisible"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/skeletron_head_stagetwo.json": {
+			"identifiers": [
+				"terrariamod:skeletron_head_stagetwo"
+			],
+			"particle_references": [
+				"wing_dust"
+			],
+			"animation_references": [
+				"move",
+				"swoop"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default",
+				"invisible"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/skeletron_arm.json": {
+			"identifiers": [
+				"terrariamod:skeletron_arm"
+			],
+			"particle_references": [
+				"wing_dust"
+			],
+			"animation_references": [
+				"move"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default",
+				"invisible"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/bookofskulls_projectile.json": {
+			"identifiers": [
+				"terrariamod:bookofskulls_projectile"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"move"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/woodenarrow_projectile.json": {
+			"identifiers": [
+				"terrariamod:woodenarrow_projectile"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"move"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		}
+	},
+	"entity_model": {
+		"RP/models/entity/ash.json": {
+			"identifiers": [
+				"geometry.ash"
+			]
+		},
+		"RP/models/entity/bloodcrawler.json": {
+			"identifiers": [
+				"geometry.bloodcrawler"
+			]
+		},
+		"RP/models/entity/bomb.geo.json": {
+			"identifiers": [
+				"geometry.bomb"
+			]
+		},
+		"RP/models/entity/brainofcthulhu.geo.json": {
+			"identifiers": [
+				"geometry.brainofcthulhu"
+			]
+		},
+		"RP/models/entity/brainofcthulhu_stageone.geo.json": {
+			"identifiers": [
+				"geometry.brainofcthulhu_stageone"
+			]
+		},
+		"RP/models/entity/brainofcthulhu_stagetwo.geo.json": {
+			"identifiers": [
+				"geometry.brainofcthulhu_stagetwo"
+			]
+		},
+		"RP/models/entity/cavebat.geo.json": {
+			"identifiers": [
+				"geometry.cavebat"
+			]
+		},
+		"RP/models/entity/chest.geo.json": {
+			"identifiers": [
+				"geometry.chest"
+			]
+		},
+		"RP/models/entity/corrupted_tree.geo.json": {
+			"identifiers": [
+				"geometry.corrupted_tree"
+			]
+		},
+		"RP/models/entity/creepers.geo.json": {
+			"identifiers": [
+				"geometry.creepers"
+			]
+		},
+		"RP/models/entity/crimera.geo.json": {
+			"identifiers": [
+				"geometry.crimera"
+			]
+		},
+		"RP/models/entity/crimson_tree.geo.json": {
+			"identifiers": [
+				"geometry.crimson_tree"
+			]
+		},
+		"RP/models/entity/cross.geo.json": {
+			"identifiers": [
+				"geometry.cross"
+			]
+		},
+		"RP/models/entity/cursedskull.geo.json": {
+			"identifiers": [
+				"geometry.cursedskull"
+			]
+		},
+		"RP/models/entity/demon.geo.json": {
+			"identifiers": [
+				"geometry.demon"
+			]
+		},
+		"RP/models/entity/demoneye.geo.json": {
+			"identifiers": [
+				"geometry.demoneye"
+			]
+		},
+		"RP/models/entity/devourer.geo.json": {
+			"identifiers": [
+				"geometry.devourer"
+			]
+		},
+		"RP/models/entity/dungeonslime.geo.json": {
+			"identifiers": [
+				"geometry.dungeonslime"
+			]
+		},
+		"RP/models/entity/dynamite.geo.json": {
+			"identifiers": [
+				"geometry.dynamite"
+			]
+		},
+		"RP/models/entity/eaterofsouls.geo.json": {
+			"identifiers": [
+				"geometry.eaterofsouls"
+			]
+		},
+		"RP/models/entity/enchantedboomerang_projectile.geo.json": {
+			"identifiers": [
+				"geometry.enchantedboomerang_projectile"
+			]
+		},
+		"RP/models/entity/entity_001.geo.json": {
+			"identifiers": [
+				"geometry.entity_001"
+			]
+		},
+		"RP/models/entity/eyeofcthulhu_stageone.geo.json": {
+			"identifiers": [
+				"geometry.eyeofcthulhu_stageone"
+			]
+		},
+		"RP/models/entity/eyeofcthulhu_stagetwo.geo.json": {
+			"identifiers": [
+				"geometry.eyeofcthulhu_stagetwo"
+			]
+		},
+		"RP/models/entity/facemonster.geo.json": {
+			"identifiers": [
+				"geometry.facemonster"
+			]
+		},
+		"RP/models/entity/fireimp.geo.json": {
+			"identifiers": [
+				"geometry.fireimp"
+			]
+		},
+		"RP/models/entity/flamarang_projectile.geo.json": {
+			"identifiers": [
+				"geometry.flamarang_projectile"
+			]
+		},
+		"RP/models/entity/furnace.geo.json": {
+			"identifiers": [
+				"geometry.furnace"
+			]
+		},
+		"RP/models/entity/giantworm.geo.json": {
+			"identifiers": [
+				"geometry.giantworm"
+			]
+		},
+		"RP/models/entity/greenslime.geo.json": {
+			"identifiers": [
+				"geometry.greenslime"
+			]
+		},
+		"RP/models/entity/grenade.geo.json": {
+			"identifiers": [
+				"geometry.grenade"
+			]
+		},
+		"RP/models/entity/hornet.geo.json": {
+			"identifiers": [
+				"geometry.hornet"
+			]
+		},
+		"RP/models/entity/iron_anvil.geo.json": {
+			"identifiers": [
+				"geometry.iron_anvil"
+			]
+		},
+		"RP/models/entity/kingslime.geo.json": {
+			"identifiers": [
+				"geometry.kingslime"
+			]
+		},
+		"RP/models/entity/mushroom.geo.json": {
+			"identifiers": [
+				"geometry.mushroom"
+			]
+		},
+		"RP/models/entity/musketball_projectile_flintlockpistol.geo.json": {
+			"identifiers": [
+				"geometry.musketball_projectile_flintlockpistol"
+			]
+		},
+		"RP/models/entity/poisonedknife_projectile.geo.json": {
+			"identifiers": [
+				"geometry.poisonedknife_projectile"
+			]
+		},
+		"RP/models/entity/purity_torch.geo.json": {
+			"identifiers": [
+				"geometry.purity_torch"
+			]
+		},
+		"RP/models/entity/purity_tree.geo.json": {
+			"identifiers": [
+				"geometry.purity_tree"
+			]
+		},
+		"RP/models/entity/skeletron.geo.json": {
+			"identifiers": [
+				"geometry.skeletron"
+			]
+		},
+		"RP/models/entity/skeletron_hand.geo.json": {
+			"identifiers": [
+				"geometry.skeletron_hand"
+			]
+		},
+		"RP/models/entity/slimegun_water.geo.json": {
+			"identifiers": [
+				"geometry.slimegun_water"
+			]
+		},
+		"RP/models/entity/spacegun_projectile.geo.json": {
+			"identifiers": [
+				"geometry.spacegun_projectile"
+			]
+		},
+		"RP/models/entity/spikes.geo.json": {
+			"identifiers": [
+				"geometry.spikes"
+			]
+		},
+		"RP/models/entity/throwingknife_projectile.geo.json": {
+			"identifiers": [
+				"geometry.throwingknife_projectile"
+			]
+		},
+		"RP/models/entity/treebottom.geo.json": {
+			"identifiers": [
+				"geometry.treebottom"
+			]
+		},
+		"RP/models/entity/treetop.geo.json": {
+			"identifiers": [
+				"geometry.treetop"
+			]
+		},
+		"RP/models/entity/voodoodemon.geo.json": {
+			"identifiers": [
+				"geometry.voodoodemon"
+			]
+		},
+		"RP/models/entity/wallofflesh.geo.json": {
+			"identifiers": [
+				"geometry.wallofflesh"
+			]
+		},
+		"RP/models/entity/waterbolt_projectile.geo.json": {
+			"identifiers": [
+				"geometry.waterbolt_projectile"
+			]
+		},
+		"RP/models/entity/woodenarrow_projectile.geo.json": {
+			"identifiers": [
+				"geometry.woodenarrow_projectile"
+			]
+		},
+		"RP/models/entity/woodenboomerang_projectile.geo.json": {
+			"identifiers": [
+				"geometry.woodenboomerang_projectile"
+			]
+		},
+		"RP/models/entity/workbench.geo.json": {
+			"identifiers": [
+				"geometry.workbench"
+			]
+		}
+	},
+	"sound_definition": {
+		"RP/sounds/sound_definitions.json": {
+			"ids": [
+				"eyeofcthulhu.music",
+				"eyeofcthulhu.swoop",
+				"sporemob.death",
+				"effect.magicmirror",
+				"trackone.main",
+				"player_terraria.hurt",
+				"woodenarrow_projectile.main",
+				"bossone.main",
+				"demon.hurt",
+				"demon.ambient",
+				"demon.death",
+				"zombie_terraria.hurt",
+				"zombie_terraria.ambient",
+				"zombie_terraria.death",
+				"skeleton_terraria.hurt",
+				"skeleton_terraria.ambient",
+				"skeleton_terraria.death",
+				"skeletron.death",
+				"skeletron.hurt",
+				"skeletron.ambient",
+				"slime.ambient",
+				"slime.hurt",
+				"slime.death",
+				"demoneye.hurt",
+				"demoneye.death",
+				"mob.ash.eat",
+				"mob.ash.hiss",
+				"mob.ash.hit",
+				"mob.ash.meow",
+				"mob.ash.beg",
+				"mob.ash.straymeow",
+				"mob.ash.purr",
+				"mob.ash.purreow"
+			]
+		}
+	},
+	"recipe": {
+		"BP/recipes/tfurnace_recipe.json": {
+			"tags": [
+				"workbench"
+			]
+		},
+		"BP/recipes/graybrick_recipe.json": {
+			"tags": [
+				"tfurnace"
+			]
+		},
+		"BP/recipes/redbrick_recipe.json": {
+			"tags": [
+				"tfurnace"
+			]
+		},
+		"BP/recipes/torch_puritywood.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/hi_recipe.json": {
+			"tags": [
+				"brewing_stand"
+			]
+		},
+		"BP/recipes/underworld_transporter.json": {
+			"tags": [
+				"workbench"
+			]
+		},
+		"BP/recipes/bottle_recipe.json": {
+			"tags": [
+				"tfurnace"
+			]
+		},
+		"BP/recipes/bottlestation_recipe.json": {
+			"tags": [
+				"workbench"
+			]
+		},
+		"BP/recipes/sawmill_iron_recipe.json": {
+			"tags": [
+				"sawmill"
+			]
+		},
+		"BP/recipes/sawmill_lead_recipe.json": {
+			"tags": [
+				"workbench"
+			]
+		},
+		"BP/recipes/loom_recipe.json": {
+			"tags": [
+				"sawmill"
+			]
+		},
+		"BP/recipes/silk_recipe.json": {
+			"tags": [
+				"loom"
+			]
+		},
+		"BP/recipes/bed_recipe.json": {
+			"tags": [
+				"sawmill"
+			]
+		},
+		"BP/recipes/woodenchair_recipe.json": {
+			"tags": [
+				"sawmill"
+			]
+		},
+		"BP/recipes/puritychest_recipe.json": {
+			"tags": [
+				"workbench"
+			]
+		},
+		"BP/recipes/woodentable_recipe.json": {
+			"tags": [
+				"workbench"
+			]
+		},
+		"BP/recipes/twoodendoor_recipe.json": {
+			"tags": [
+				"workbench"
+			]
+		},
+		"BP/recipes/puritycandle_recipe.json": {
+			"tags": [
+				"workbench"
+			]
+		},
+		"BP/recipes/puritycampfire_recipe.json": {
+			"tags": [
+				"workbench"
+			]
+		},
+		"BP/recipes/ironanvil_recipe_iron.json": {
+			"tags": [
+				"workbench"
+			]
+		},
+		"BP/recipes/ironanvil_recipe_lead.json": {
+			"tags": [
+				"workbench"
+			]
+		},
+		"BP/recipes/healingpotion.json": {
+			"tags": [
+				"bottle"
+			]
+		},
+		"BP/recipes/lesserhealingpotion_recipe.json": {
+			"tags": [
+				"bottle"
+			]
+		},
+		"BP/recipes/regenerationpotion_recipe.json": {
+			"tags": [
+				"bottle"
+			]
+		}
+	},
+	"item": {
+		"BP/items/acorn.json": {
+			"identifiers": [
+				"terrariamod:acorn"
+			],
+			"custom_commands": []
+		},
+		"BP/items/suspiciouslookingeye.json": {
+			"identifiers": [
+				"terrariamod:suspiciouslookingeye"
+			],
+			"custom_commands": []
+		},
+		"BP/items/aglet.json": {
+			"identifiers": [
+				"terrariamod:aglet"
+			],
+			"custom_commands": []
+		},
+		"BP/items/hermesboots.json": {
+			"identifiers": [
+				"terrariamod:hermesboots"
+			],
+			"custom_commands": []
+		},
+		"BP/items/balloonpufferfish.json": {
+			"identifiers": [
+				"terrariamod:balloonpufferfish"
+			],
+			"custom_commands": []
+		},
+		"BP/items/lavacharm.json": {
+			"identifiers": [
+				"terrariamod:lavacharm"
+			],
+			"custom_commands": []
+		},
+		"BP/items/bandofregeneration.json": {
+			"identifiers": [
+				"terrariamod:bandofregeneration"
+			],
+			"custom_commands": []
+		},
+		"BP/items/umbrella.json": {
+			"identifiers": [
+				"terrariamod:umbrella"
+			],
+			"custom_commands": []
+		},
+		"BP/items/hellstonesword.json": {
+			"identifiers": [
+				"terrariamod:hellstonesword"
+			],
+			"custom_commands": []
+		},
+		"BP/items/mushroom.json": {
+			"identifiers": [
+				"terrariamod:daybloom"
+			],
+			"custom_commands": []
+		},
+		"BP/items/lifecrystal.json": {
+			"identifiers": [
+				"terrariamod:lifecrystal"
+			],
+			"custom_commands": []
+		},
+		"BP/items/waterbolt.json": {
+			"identifiers": [
+				"terrariamod:waterbolt"
+			],
+			"custom_commands": []
+		},
+		"BP/items/bloodyspine.json": {
+			"identifiers": [
+				"terrariamod:bloodyspine"
+			],
+			"custom_commands": []
+		},
+		"BP/items/spacegun.json": {
+			"identifiers": [
+				"terrariamod:spacegun"
+			],
+			"custom_commands": []
+		},
+		"BP/items/aquascepter.json": {
+			"identifiers": [
+				"terrariamod:bookofskulls"
+			],
+			"custom_commands": []
+		},
+		"BP/items/woodenboomerang.json": {
+			"identifiers": [
+				"terrariamod:woodenboomerang"
+			],
+			"custom_commands": []
+		},
+		"BP/items/enchantedboomerang.json": {
+			"identifiers": [
+				"terrariamod:enchantedboomerang"
+			],
+			"custom_commands": []
+		},
+		"BP/items/flamarang.json": {
+			"identifiers": [
+				"terrariamod:flamarang"
+			],
+			"custom_commands": []
+		},
+		"BP/items/magicmirror.json": {
+			"identifiers": [
+				"terrariamod:magicmirror"
+			],
+			"custom_commands": []
+		},
+		"BP/items/purity_bed.json": {
+			"identifiers": [
+				"terrariamod:purity_bed"
+			],
+			"custom_commands": []
+		},
+		"BP/items/silk.json": {
+			"identifiers": [
+				"terrariamod:silk"
+			],
+			"custom_commands": []
+		},
+		"BP/items/ale.json": {
+			"identifiers": [
+				"terrariamod:ale"
+			],
+			"custom_commands": []
+		},
+		"BP/items/armsdealer_summoner.json": {
+			"identifiers": [
+				"terrariamod:armsdealer_summoner"
+			],
+			"custom_commands": []
+		},
+		"BP/items/bezoar.json": {
+			"identifiers": [
+				"terrariamod:bezoar"
+			],
+			"custom_commands": []
+		},
+		"BP/items/bomb.json": {
+			"identifiers": [
+				"terrariamod:bomb"
+			],
+			"custom_commands": []
+		},
+		"BP/items/bone_terraria.json": {
+			"identifiers": [
+				"terrariamod:bone_terraria"
+			],
+			"custom_commands": []
+		},
+		"BP/items/boomstick.json": {
+			"identifiers": [
+				"terrariamod:musket"
+			],
+			"custom_commands": []
+		},
+		"BP/items/bottle.json": {
+			"identifiers": [
+				"terrariamod:bottle"
+			],
+			"custom_commands": []
+		},
+		"BP/items/cartonofmilk.json": {
+			"identifiers": [
+				"terrariamod:cartonofmilk"
+			],
+			"custom_commands": []
+		},
+		"BP/items/copperbar.json": {
+			"identifiers": [
+				"terrariamod:copperbar"
+			],
+			"custom_commands": []
+		},
+		"BP/items/copperbow.json": {
+			"identifiers": [
+				"terrariamod:copperbow"
+			],
+			"custom_commands": []
+		},
+		"BP/items/coppercoin.json": {
+			"identifiers": [
+				"terrariamod:coppercoin"
+			],
+			"custom_commands": []
+		},
+		"BP/items/coppercoin_pile.json": {
+			"identifiers": [
+				"terrariamod:coppercoin_pile"
+			],
+			"custom_commands": []
+		},
+		"BP/items/corrupted_wood.json": {
+			"identifiers": [
+				"terrariamod:corrupted_wood"
+			],
+			"custom_commands": []
+		},
+		"BP/items/creamsoda.json": {
+			"identifiers": [
+				"terrariamod:creamsoda"
+			],
+			"custom_commands": []
+		},
+		"BP/items/crimson_wood.json": {
+			"identifiers": [
+				"terrariamod:crimson_wood"
+			],
+			"custom_commands": []
+		},
+		"BP/items/crimtanebar.json": {
+			"identifiers": [
+				"terrariamod:crimtanebar"
+			],
+			"custom_commands": []
+		},
+		"BP/items/demolitionist_summoner.json": {
+			"identifiers": [
+				"terrariamod:demolitionist_summoner"
+			],
+			"custom_commands": []
+		},
+		"BP/items/demonitebar.json": {
+			"identifiers": [
+				"terrariamod:demonitebar"
+			],
+			"custom_commands": []
+		},
+		"BP/items/depthmeter.json": {
+			"identifiers": [
+				"terrariamod:depthmeter"
+			],
+			"custom_commands": []
+		},
+		"BP/items/dynamite.json": {
+			"identifiers": [
+				"terrariamod:dynamite"
+			],
+			"custom_commands": []
+		},
+		"BP/items/fallenstars.json": {
+			"identifiers": [
+				"terrariamod:fallenstars"
+			],
+			"custom_commands": []
+		},
+		"BP/items/flintlockpistol.json": {
+			"identifiers": [
+				"terrariamod:flintlockpistol"
+			],
+			"custom_commands": []
+		},
+		"BP/items/gel.json": {
+			"identifiers": [
+				"terrariamod:gel"
+			],
+			"custom_commands": []
+		},
+		"BP/items/glowing_mushroom.json": {
+			"identifiers": [
+				"terrariamod:glowing_mushroom"
+			],
+			"custom_commands": []
+		},
+		"BP/items/goldbar.json": {
+			"identifiers": [
+				"terrariamod:goldbar"
+			],
+			"custom_commands": []
+		},
+		"BP/items/goldcoin.json": {
+			"identifiers": [
+				"terrariamod:goldcoin"
+			],
+			"custom_commands": []
+		},
+		"BP/items/goldcoin_pile.json": {
+			"identifiers": [
+				"terrariamod:goldcoin_pile"
+			],
+			"custom_commands": []
+		},
+		"BP/items/goldcrown.json": {
+			"identifiers": [
+				"terrariamod:goldcrown"
+			],
+			"custom_commands": []
+		},
+		"BP/items/goldenkey_dungeon.json": {
+			"identifiers": [
+				"terrariamod:goldenkey_dungeon"
+			],
+			"custom_commands": []
+		},
+		"BP/items/grenade.json": {
+			"identifiers": [
+				"terrariamod:grenade"
+			],
+			"custom_commands": []
+		},
+		"BP/items/guidevoodoodoll.json": {
+			"identifiers": [
+				"terrariamod:guidevoodoodoll"
+			],
+			"custom_commands": []
+		},
+		"BP/items/handgun.json": {
+			"identifiers": [
+				"terrariamod:undertaker"
+			],
+			"custom_commands": []
+		},
+		"BP/items/healingpotion.json": {
+			"identifiers": [
+				"terrariamod:healingpotion"
+			],
+			"custom_commands": []
+		},
+		"BP/items/hellstonebar.json": {
+			"identifiers": [
+				"terrariamod:hellstonebar"
+			],
+			"custom_commands": []
+		},
+		"BP/items/ironbar.json": {
+			"identifiers": [
+				"terrariamod:ironbar"
+			],
+			"custom_commands": []
+		},
+		"BP/items/jungle_wood.json": {
+			"identifiers": [
+				"terrariamod:jungle_wood"
+			],
+			"custom_commands": []
+		},
+		"BP/items/leadbar.json": {
+			"identifiers": [
+				"terrariamod:leadbar"
+			],
+			"custom_commands": []
+		},
+		"BP/items/leadpickaxe.json": {
+			"identifiers": [
+				"terrariamod:leadpickaxe"
+			],
+			"custom_commands": []
+		},
+		"BP/items/lens.json": {
+			"identifiers": [
+				"terrariamod:lens"
+			],
+			"custom_commands": []
+		},
+		"BP/items/lesserhealingpotion.json": {
+			"identifiers": [
+				"terrariamod:lesserhealingpotion"
+			],
+			"custom_commands": []
+		},
+		"BP/items/merchant_summoner.json": {
+			"identifiers": [
+				"terrariamod:merchant_summoner"
+			],
+			"custom_commands": []
+		},
+		"BP/items/meteoritebar.json": {
+			"identifiers": [
+				"terrariamod:meteoritebar"
+			],
+			"custom_commands": []
+		},
+		"BP/items/minishark.json": {
+			"identifiers": [
+				"terrariamod:minishark"
+			],
+			"custom_commands": []
+		},
+		"BP/items/musketball.json": {
+			"identifiers": [
+				"terrariamod:musketball"
+			],
+			"custom_commands": []
+		},
+		"BP/items/nurse_summoner.json": {
+			"identifiers": [
+				"terrariamod:nurse_summoner"
+			],
+			"custom_commands": []
+		},
+		"BP/items/phoenixblaster.json": {
+			"identifiers": [
+				"terrariamod:phoenixblaster"
+			],
+			"custom_commands": []
+		},
+		"BP/items/platinumbar.json": {
+			"identifiers": [
+				"terrariamod:platinumbar"
+			],
+			"custom_commands": []
+		},
+		"BP/items/platinumcoin.json": {
+			"identifiers": [
+				"terrariamod:platinumcoin"
+			],
+			"custom_commands": []
+		},
+		"BP/items/platinumcoin_pile.json": {
+			"identifiers": [
+				"terrariamod:platinumcoin_pile"
+			],
+			"custom_commands": []
+		},
+		"BP/items/poisonedknife.json": {
+			"identifiers": [
+				"terrariamod:poisonedknife"
+			],
+			"custom_commands": []
+		},
+		"BP/items/purity_torch.json": {
+			"identifiers": [
+				"terrariamod:purity_torch"
+			],
+			"custom_commands": []
+		},
+		"BP/items/purity_wood.json": {
+			"identifiers": [
+				"terrariamod:purity_wood"
+			],
+			"custom_commands": []
+		},
+		"BP/items/regenerationpotion.json": {
+			"identifiers": [
+				"terrariamod:regenerationpotion"
+			],
+			"custom_commands": []
+		},
+		"BP/items/rocketboots.json": {
+			"identifiers": [
+				"terrariamod:rocketboots"
+			],
+			"custom_commands": []
+		},
+		"BP/items/rottenchunk.json": {
+			"identifiers": [
+				"terrariamod:rottenchunk"
+			],
+			"custom_commands": []
+		},
+		"BP/items/ruby.json": {
+			"identifiers": [
+				"terrariamod:ruby"
+			],
+			"custom_commands": []
+		},
+		"BP/items/sapphire.json": {
+			"identifiers": [
+				"terrariamod:sapphire"
+			],
+			"custom_commands": []
+		},
+		"BP/items/shadowscale.json": {
+			"identifiers": [
+				"terrariamod:shadowscale"
+			],
+			"custom_commands": []
+		},
+		"BP/items/shuriken.json": {
+			"identifiers": [
+				"terrariamod:shuriken"
+			],
+			"custom_commands": []
+		},
+		"BP/items/silverbar.json": {
+			"identifiers": [
+				"terrariamod:silverbar"
+			],
+			"custom_commands": []
+		},
+		"BP/items/silvercoin.json": {
+			"identifiers": [
+				"terrariamod:silvercoin"
+			],
+			"custom_commands": []
+		},
+		"BP/items/silvercoin_pile.json": {
+			"identifiers": [
+				"terrariamod:silvercoin_pile"
+			],
+			"custom_commands": []
+		},
+		"BP/items/slimecrown.json": {
+			"identifiers": [
+				"terrariamod:slimecrown"
+			],
+			"custom_commands": []
+		},
+		"BP/items/slimegun.json": {
+			"identifiers": [
+				"terrariamod:slimegun"
+			],
+			"custom_commands": []
+		},
+		"BP/items/slimestaff.json": {
+			"identifiers": [
+				"terrariamod:slimestaff"
+			],
+			"custom_commands": []
+		},
+		"BP/items/stinger.json": {
+			"identifiers": [
+				"terrariamod:stinger"
+			],
+			"custom_commands": []
+		},
+		"BP/items/throwingknife.json": {
+			"identifiers": [
+				"terrariamod:throwingknife"
+			],
+			"custom_commands": []
+		},
+		"BP/items/tinbar.json": {
+			"identifiers": [
+				"terrariamod:tinbar"
+			],
+			"custom_commands": []
+		},
+		"BP/items/tissuesample.json": {
+			"identifiers": [
+				"terrariamod:tissuesample"
+			],
+			"custom_commands": []
+		},
+		"BP/items/tungstenbar.json": {
+			"identifiers": [
+				"terrariamod:tungstenbar"
+			],
+			"custom_commands": []
+		},
+		"BP/items/vertebra.json": {
+			"identifiers": [
+				"terrariamod:vertebra"
+			],
+			"custom_commands": []
+		},
+		"BP/items/victoriousmushroom.json": {
+			"identifiers": [
+				"terrariamod:victoriousmushroom"
+			],
+			"custom_commands": []
+		},
+		"BP/items/vilemushroom.json": {
+			"identifiers": [
+				"terrariamod:vilemushroom"
+			],
+			"custom_commands": []
+		},
+		"BP/items/woodenarrow.json": {
+			"identifiers": [
+				"terrariamod:woodenarrow"
+			],
+			"custom_commands": []
+		},
+		"BP/items/wormfood.json": {
+			"identifiers": [
+				"terrariamod:wormfood"
+			],
+			"custom_commands": []
+		},
+		"BP/items/zombiearm.json": {
+			"identifiers": [
+				"terrariamod:zombiearm"
+			],
+			"custom_commands": []
+		},
+		"BP/items/hellstonebow.json": {
+			"identifiers": [
+				"terrariamod:hellstonebow"
+			],
+			"custom_commands": []
+		},
+		"BP/items/tinbow.json": {
+			"identifiers": [
+				"terrariamod:tinbow"
+			],
+			"custom_commands": []
+		},
+		"BP/items/ironbow.json": {
+			"identifiers": [
+				"terrariamod:ironbow"
+			],
+			"custom_commands": []
+		},
+		"BP/items/leadbow.json": {
+			"identifiers": [
+				"terrariamod:leadbow"
+			],
+			"custom_commands": []
+		},
+		"BP/items/silverbow.json": {
+			"identifiers": [
+				"terrariamod:silverbow"
+			],
+			"custom_commands": []
+		},
+		"BP/items/tungstenbow.json": {
+			"identifiers": [
+				"terrariamod:tungstenbow"
+			],
+			"custom_commands": []
+		},
+		"BP/items/goldbow.json": {
+			"identifiers": [
+				"terrariamod:goldbow"
+			],
+			"custom_commands": []
+		},
+		"BP/items/platinumbow.json": {
+			"identifiers": [
+				"terrariamod:platinumbow"
+			],
+			"custom_commands": []
+		},
+		"BP/items/woodenbow.json": {
+			"identifiers": [
+				"terrariamod:woodenbow"
+			],
+			"custom_commands": []
+		},
+		"BP/items/crimtanebow.json": {
+			"identifiers": [
+				"terrariamod:crimtanebow"
+			],
+			"custom_commands": []
+		},
+		"BP/items/demonitebow.json": {
+			"identifiers": [
+				"terrariamod:demonitebow"
+			],
+			"custom_commands": []
+		},
+		"BP/items/workbench.json": {
+			"identifiers": [
+				"terrariamod:bottle_station"
+			],
+			"custom_commands": []
+		},
+		"BP/items/tfurnace.json": {
+			"identifiers": [
+				"terrariamod:purity_chain"
+			],
+			"custom_commands": []
+		},
+		"BP/items/iron_anvil.json": {
+			"identifiers": [
+				"terrariamod:purity_chain"
+			],
+			"custom_commands": []
+		},
+		"BP/items/purity_loom.json": {
+			"identifiers": [
+				"terrariamod:purity_chain"
+			],
+			"custom_commands": []
+		},
+		"BP/items/sawmill.json": {
+			"identifiers": [
+				"terrariamod:purity_chain"
+			],
+			"custom_commands": []
+		},
+		"BP/items/purity_cobweb.json": {
+			"identifiers": [
+				"terrariamod:purity_chain"
+			],
+			"custom_commands": []
+		},
+		"BP/items/purity_chain.json": {
+			"identifiers": [
+				"terrariamod:purity_chain"
+			],
+			"custom_commands": []
+		},
+		"BP/items/wooden_chair.json": {
+			"identifiers": [
+				"terrariamod:wooden_chair"
+			],
+			"custom_commands": []
+		},
+		"BP/items/wooden_table.json": {
+			"identifiers": [
+				"terrariamod:wooden_table"
+			],
+			"custom_commands": []
+		},
+		"BP/items/purity_chest.json": {
+			"identifiers": [
+				"terrariamod:twooden_door"
+			],
+			"custom_commands": []
+		},
+		"BP/items/twooden_door.json": {
+			"identifiers": [
+				"terrariamod:twooden_door"
+			],
+			"custom_commands": []
+		},
+		"BP/items/purity_candle.json": {
+			"identifiers": [
+				"terrariamod:purity_candle"
+			],
+			"custom_commands": []
+		},
+		"BP/items/woodensword.json": {
+			"identifiers": [
+				"terrariamod:beekeeper"
+			],
+			"custom_commands": []
+		},
+		"BP/items/coppersword.json": {
+			"identifiers": [
+				"terrariamod:coppersword"
+			],
+			"custom_commands": []
+		},
+		"BP/items/ebonwoodsword.json": {
+			"identifiers": [
+				"terrariamod:iceblade"
+			],
+			"custom_commands": []
+		},
+		"BP/items/shadewoodsword.json": {
+			"identifiers": [
+				"terrariamod:iceblade"
+			],
+			"custom_commands": []
+		},
+		"BP/items/richmahoganysword.json": {
+			"identifiers": [
+				"terrariamod:iceblade"
+			],
+			"custom_commands": []
+		},
+		"BP/items/iceblade.json": {
+			"identifiers": [
+				"terrariamod:iceblade"
+			],
+			"custom_commands": []
+		},
+		"BP/items/starfury.json": {
+			"identifiers": [
+				"terrariamod:starfury"
+			],
+			"custom_commands": []
+		},
+		"BP/items/enchantedsword.json": {
+			"identifiers": [
+				"terrariamod:beekeeper"
+			],
+			"custom_commands": []
+		},
+		"BP/items/beekeeper.json": {
+			"identifiers": [
+				"terrariamod:beekeeper"
+			],
+			"custom_commands": []
+		},
+		"BP/items/hellforge.json": {
+			"identifiers": [
+				"terrariamod:hellforge"
+			],
+			"custom_commands": []
+		},
+		"BP/items/underworld_transporter.json": {
+			"identifiers": [
+				"terrariamod:underworld_transporter"
+			],
+			"custom_commands": []
+		},
+		"BP/items/purity_campfire.json": {
+			"identifiers": [
+				"terrariamod:purity_campfire"
+			],
+			"custom_commands": []
+		},
+		"BP/items/bottle_station.json": {
+			"identifiers": [
+				"terrariamod:bottle_station"
+			],
+			"custom_commands": []
+		},
+		"BP/items/daybloom.json": {
+			"identifiers": [
+				"terrariamod:daybloom"
+			],
+			"custom_commands": []
+		},
+		"BP/items/undertaker.json": {
+			"identifiers": [
+				"terrariamod:undertaker"
+			],
+			"custom_commands": []
+		},
+		"BP/items/musket.json": {
+			"identifiers": [
+				"terrariamod:musket"
+			],
+			"custom_commands": []
+		},
+		"BP/items/debugsword.json": {
+			"identifiers": [
+				"terrariamod:debugsword"
+			],
+			"custom_commands": []
+		},
+		"BP/items/bookofskulls.json": {
+			"identifiers": [
+				"terrariamod:bookofskulls"
+			],
+			"custom_commands": []
+		}
+	},
+	"particle": {
+		"RP/particles/iceblade_effect.json": {
+			"ids": [
+				"terrariamod:iceblade_effect"
+			]
+		}
+	}
+}

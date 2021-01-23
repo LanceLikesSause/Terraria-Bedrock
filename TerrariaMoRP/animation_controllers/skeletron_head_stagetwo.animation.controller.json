@@ -1,0 +1,63 @@
+//bridge-file-version: #22
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.skeletron_head_stagetwo": {
+			"initial_state": "default_state",
+			"states": {
+				"default_state": {
+					"animations": [
+						"move"
+					],
+					"transitions": [
+						{
+							"normal_one": "query.all_animations_finished"
+						}
+					],
+					"blend_transition": 0.1
+				},
+				"normal_one": {
+					"animations": [
+						"move"
+					],
+					"transitions": [
+						{
+							"normal_two": "query.all_animations_finished"
+						}
+					],
+					"blend_transition": 0.1
+				},
+				"normal_two": {
+					"animations": [
+						"move"
+					],
+					"transitions": [
+						{
+							"normal_three": "query.all_animations_finished"
+						}
+					]
+				},
+				"normal_three": {
+					"animations": [
+						"move"
+					],
+					"transitions": [
+						{
+							"spin": "query.all_animations_finished"
+						}
+					]
+				},
+				"spin": {
+					"animations": [
+						"swoop"
+					],
+					"transitions": [
+						{
+							"default_state": "query.all_animations_finished"
+						}
+					]
+				}
+			}
+		}
+	}
+}

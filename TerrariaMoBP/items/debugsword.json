@@ -1,0 +1,26 @@
+//bridge-file-version: #7
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "terrariamod:debugsword",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:damage": 999,
+			"minecraft:weapon": {},
+			"minecraft:icon": {
+				"texture": "terrariamod:bonesword"
+			},
+			"minecraft:display_name": {
+				"value": "Debug Sword"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.sword"
+			}
+		},
+		"events": {}
+	}
+}

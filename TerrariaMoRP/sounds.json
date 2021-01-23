@@ -1,0 +1,698 @@
+//bridge-file-version: #0
+{
+	"entity_sounds": {
+		"entities": {
+			"player": {
+				"events": {
+					"attack.nodamage": "game.player.attack.nodamage",
+					"attack.strong": "game.player.attack.strong",
+					"death": "game.player.die",
+					"death.in.water": "game.player.die",
+					"elderguardian.curse": {
+						"pitch": 1,
+						"sound": "mob.elderguardian.curse",
+						"volume": 1
+					},
+					"hurt": "player_terraria.hurt",
+					"hurt.in.water": "game.player.hurt",
+					"throw": {
+						"pitch": [
+							0.33,
+							0.5
+						],
+						"sound": "random.bow",
+						"volume": 0.5
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"terrariamod:woodenarrow_projectile": {
+				"pitch": [
+					0.8,
+					1
+				],
+				"sound": "woodenarrow_projectile.main",
+				"volume": 0.5
+			},
+			"terrariamod:bossone": {
+				"pitch": [
+					0.8,
+					1
+				],
+				"volume": 3,
+				"sound": "bossone.main"
+			},
+			"terrariamod:trackone": {
+				"pitch": [
+					0.8,
+					1
+				],
+				"volume": 3,
+				"sound": "trackone.main"
+			},
+			"terrariamod:sporeskeleton": {
+				"volume": 1,
+				"pitch": [
+					0.9,
+					1
+				],
+				"events": {
+					"hurt": {
+						"sound": "skeleton_terraria.hurt",
+						"volume": 1,
+						"pitch": 1.1
+					},
+					"ambient": {
+						"sound": "skeleton_terraria.ambient",
+						"volume": 1,
+						"pitch": 1.1
+					},
+					"death": {
+						"sound": "sporemob.death",
+						"volume": 1,
+						"pitch": 0.9
+					}
+				}
+			},
+			"terrariamod:undeadminer": {
+				"volume": 1,
+				"pitch": [
+					0.9,
+					1
+				],
+				"events": {
+					"hurt": {
+						"sound": "skeleton_terraria.hurt",
+						"volume": 1,
+						"pitch": 1.1
+					},
+					"ambient": {
+						"sound": "skeleton_terraria.ambient",
+						"volume": 1,
+						"pitch": 1.1
+					},
+					"death": {
+						"sound": "skeleton_terraria.death",
+						"volume": 1,
+						"pitch": 0.9
+					}
+				}
+			},
+			"terrariamod:darkcaster": {
+				"volume": 1,
+				"pitch": [
+					0.9,
+					1
+				],
+				"events": {
+					"hurt": {
+						"sound": "skeleton_terraria.hurt",
+						"volume": 1,
+						"pitch": 1.1
+					},
+					"ambient": {
+						"sound": "skeleton_terraria.ambient",
+						"volume": 1,
+						"pitch": 1.1
+					},
+					"death": {
+						"sound": "skeleton_terraria.death",
+						"volume": 1,
+						"pitch": 0.9
+					}
+				}
+			},
+			"terrariamod:angrybones": {
+				"volume": 1,
+				"pitch": [
+					0.9,
+					1
+				],
+				"events": {
+					"hurt": {
+						"sound": "skeleton_terraria.hurt",
+						"volume": 1,
+						"pitch": 1.1
+					},
+					"ambient": {
+						"sound": "skeleton_terraria.ambient",
+						"volume": 1,
+						"pitch": 1.1
+					},
+					"death": {
+						"sound": "skeleton_terraria.death",
+						"volume": 1,
+						"pitch": 0.9
+					}
+				}
+			},
+			"terrariamod:skeleton_terraria": {
+				"volume": 1,
+				"pitch": [
+					0.9,
+					1
+				],
+				"events": {
+					"hurt": {
+						"sound": "skeleton_terraria.hurt",
+						"volume": 1,
+						"pitch": 1.1
+					},
+					"ambient": {
+						"sound": "skeleton_terraria.ambient",
+						"volume": 1,
+						"pitch": 1.1
+					},
+					"death": {
+						"sound": "skeleton_terraria.death",
+						"volume": 1,
+						"pitch": 0.9
+					}
+				}
+			},
+			"terrariamod:sporezombie": {
+				"volume": 1,
+				"pitch": [
+					0.9,
+					1
+				],
+				"events": {
+					"hurt": {
+						"sound": "zombie_terraria.hurt",
+						"volume": 1,
+						"pitch": 1.1
+					},
+					"ambient": {
+						"sound": "zombie_terraria.ambient",
+						"volume": 1,
+						"pitch": 1.1
+					},
+					"death": {
+						"sound": "sporemob.death",
+						"volume": 1,
+						"pitch": 0.9
+					}
+				}
+			},
+			"terrariamod:zombie_terraria": {
+				"volume": 1,
+				"pitch": [
+					0.9,
+					1
+				],
+				"events": {
+					"hurt": {
+						"sound": "zombie_terraria.hurt",
+						"volume": 1,
+						"pitch": 1.1
+					},
+					"ambient": {
+						"sound": "zombie_terraria.ambient",
+						"volume": 1,
+						"pitch": 1.1
+					},
+					"death": {
+						"sound": "zombie_terraria.death",
+						"volume": 1,
+						"pitch": 0.9
+					}
+				}
+			},
+			"terrariamod:dungeonslime": {
+				"volume": 1,
+				"pitch": [
+					0.9,
+					1
+				],
+				"events": {
+					"hurt": {
+						"sound": "slime.hurt",
+						"volume": 1,
+						"pitch": 1.1
+					},
+					"ambient": {
+						"sound": "slime.ambient",
+						"volume": 1,
+						"pitch": 1.1
+					},
+					"death": {
+						"sound": "slime.death",
+						"volume": 1,
+						"pitch": 0.9
+					}
+				}
+			},
+			"terrariamod:kingslime": {
+				"volume": 1,
+				"pitch": [
+					0.9,
+					1
+				],
+				"events": {
+					"hurt": {
+						"sound": "slime.hurt",
+						"volume": 1,
+						"pitch": 1.1
+					},
+					"ambient": {
+						"sound": "slime.ambient",
+						"volume": 1,
+						"pitch": 1.1
+					},
+					"death": {
+						"sound": "slime.death",
+						"volume": 1,
+						"pitch": 0.9
+					}
+				}
+			},
+			"terrariamod:demon": {
+				"volume": 1,
+				"pitch": [
+					0.9,
+					1
+				],
+				"events": {
+					"hurt": {
+						"sound": "demon.hurt",
+						"volume": 1,
+						"pitch": 1.1
+					},
+					"ambient": {
+						"sound": "demon.ambient",
+						"volume": 1,
+						"pitch": 1.1
+					},
+					"death": {
+						"sound": "demon.death",
+						"volume": 1,
+						"pitch": 0.9
+					}
+				}
+			},
+			"terrariamod:voodoodemon": {
+				"volume": 1,
+				"pitch": [
+					0.9,
+					1
+				],
+				"events": {
+					"hurt": {
+						"sound": "demon.hurt",
+						"volume": 1,
+						"pitch": 1.1
+					},
+					"ambient": {
+						"sound": "demon.ambient",
+						"volume": 1,
+						"pitch": 1.1
+					},
+					"death": {
+						"sound": "demon.death",
+						"volume": 1,
+						"pitch": 0.9
+					}
+				}
+			},
+			"terrariamod:greenslime": {
+				"volume": 1,
+				"pitch": [
+					0.9,
+					1
+				],
+				"events": {
+					"hurt": {
+						"sound": "slime.hurt",
+						"volume": 1,
+						"pitch": 1.1
+					},
+					"ambient": {
+						"sound": "slime.ambient",
+						"volume": 1,
+						"pitch": 1.1
+					},
+					"death": {
+						"sound": "slime.death",
+						"volume": 1,
+						"pitch": 0.9
+					}
+				}
+			},
+			"terrariamod:blueslime": {
+				"volume": 1,
+				"pitch": [
+					0.9,
+					1
+				],
+				"events": {
+					"hurt": {
+						"sound": "slime.hurt",
+						"volume": 1,
+						"pitch": 1.1
+					},
+					"ambient": {
+						"sound": "slime.ambient",
+						"volume": 1,
+						"pitch": 1.1
+					},
+					"death": {
+						"sound": "slime.death",
+						"volume": 1,
+						"pitch": 0.9
+					}
+				}
+			},
+			"terrariamod:redslime": {
+				"volume": 1,
+				"pitch": [
+					0.9,
+					1
+				],
+				"events": {
+					"hurt": {
+						"sound": "slime.hurt",
+						"volume": 1,
+						"pitch": 1.1
+					},
+					"ambient": {
+						"sound": "slime.ambient",
+						"volume": 1,
+						"pitch": 1.1
+					},
+					"death": {
+						"sound": "slime.death",
+						"volume": 1,
+						"pitch": 0.9
+					}
+				}
+			},
+			"terrariamod:purpleslime": {
+				"volume": 1,
+				"pitch": [
+					0.9,
+					1
+				],
+				"events": {
+					"hurt": {
+						"sound": "slime.hurt",
+						"volume": 1,
+						"pitch": 1.1
+					},
+					"ambient": {
+						"sound": "slime.ambient",
+						"volume": 1,
+						"pitch": 1.1
+					},
+					"death": {
+						"sound": "slime.death",
+						"volume": 1,
+						"pitch": 0.9
+					}
+				}
+			},
+			"terrariamod:yellowslime": {
+				"volume": 1,
+				"pitch": [
+					0.9,
+					1
+				],
+				"events": {
+					"hurt": {
+						"sound": "slime.hurt",
+						"volume": 1,
+						"pitch": 1.1
+					},
+					"ambient": {
+						"sound": "slime.ambient",
+						"volume": 1,
+						"pitch": 1.1
+					},
+					"death": {
+						"sound": "slime.death",
+						"volume": 1,
+						"pitch": 0.9
+					}
+				}
+			},
+			"terrariamod:blackslime": {
+				"volume": 1,
+				"pitch": [
+					0.9,
+					1
+				],
+				"events": {
+					"hurt": {
+						"sound": "slime.hurt",
+						"volume": 1,
+						"pitch": 1.1
+					},
+					"ambient": {
+						"sound": "slime.ambient",
+						"volume": 1,
+						"pitch": 1.1
+					},
+					"death": {
+						"sound": "slime.death",
+						"volume": 1,
+						"pitch": 0.9
+					}
+				}
+			},
+			"terrariamod:pinkslime": {
+				"volume": 1,
+				"pitch": [
+					0.9,
+					1
+				],
+				"events": {
+					"hurt": {
+						"sound": "slime.hurt",
+						"volume": 1,
+						"pitch": 1.1
+					},
+					"ambient": {
+						"sound": "slime.ambient",
+						"volume": 1,
+						"pitch": 1.1
+					},
+					"death": {
+						"sound": "slime.death",
+						"volume": 1,
+						"pitch": 0.9
+					}
+				}
+			},
+			"terrariamod:minionslime": {
+				"volume": 1,
+				"pitch": [
+					0.9,
+					1
+				],
+				"events": {
+					"hurt": {
+						"sound": "slime.hurt",
+						"volume": 1,
+						"pitch": 1.1
+					},
+					"ambient": {
+						"sound": "slime.ambient",
+						"volume": 1,
+						"pitch": 1.1
+					},
+					"death": {
+						"sound": "slime.death",
+						"volume": 1,
+						"pitch": 0.9
+					}
+				}
+			},
+			"terrariamod:eyeofcthulhu_stageone": {
+				"volume": 1,
+				"pitch": [
+					0.9,
+					1,
+					0.9,
+					1,
+					0.9,
+					1
+				],
+				"events": {
+					"hurt": {
+						"sound": "demoneye.hurt",
+						"volume": 1,
+						"pitch": 1.1
+					},
+					"death": {
+						"sound": "demoneye.death",
+						"volume": 1,
+						"pitch": 0.9
+					}
+				}
+			},
+			"terrariamod:eyeofcthulhu_stagetwo": {
+				"volume": 1,
+				"pitch": [
+					0.9,
+					1
+				],
+				"events": {
+					"hurt": {
+						"sound": "demoneye.hurt",
+						"volume": 1,
+						"pitch": 1.1
+					},
+					"death": {
+						"sound": "demoneye.death",
+						"volume": 1,
+						"pitch": 0.9
+					},
+					"swoop": {
+						"pitch": [
+							0.95,
+							1.05
+						],
+						"volume": 1,
+						"sound": "eyeofcthulhu.swoop"
+					}
+				}
+			},
+			"terrariamod:demoneye": {
+				"volume": 1,
+				"pitch": [
+					0.9,
+					1
+				],
+				"events": {
+					"hurt": {
+						"sound": "demoneye.hurt",
+						"volume": 1,
+						"pitch": 1.1
+					},
+					"death": {
+						"sound": "demoneye.death",
+						"volume": 1,
+						"pitch": 0.9
+					}
+				}
+			},
+			"terrariamod:skeletron_head": {
+				"volume": 1,
+				"pitch": [
+					0.9,
+					1
+				],
+				"events": {
+					"hurt": {
+						"sound": "skeletron.hurt",
+						"volume": 2,
+						"pitch": 1.1
+					},
+					"ambient": {
+						"sound": "skeletron.ambient",
+						"volume": 1,
+						"pitch": 1.1
+					},
+					"death": {
+						"sound": "skeletron.death",
+						"volume": 2,
+						"pitch": 0.9
+					}
+				}
+			},
+			"terrariamod:skeletron_head_stagetwo": {
+				"volume": 1,
+				"pitch": [
+					0.9,
+					1
+				],
+				"events": {
+					"hurt": {
+						"sound": "skeletron.hurt",
+						"volume": 2,
+						"pitch": 1.1
+					},
+					"ambient": {
+						"sound": "skeletron.ambient",
+						"volume": 1,
+						"pitch": 1.1
+					},
+					"death": {
+						"sound": "skeletron.death",
+						"volume": 2,
+						"pitch": 0.9
+					}
+				}
+			},
+			"terrariamod:skeletron_arm": {
+				"volume": 1,
+				"pitch": [
+					0.9,
+					1
+				],
+				"events": {
+					"hurt": {
+						"sound": "skeletron.hurt",
+						"volume": 2,
+						"pitch": 1.1
+					},
+					"ambient": {
+						"sound": "skeletron.ambient",
+						"volume": 1,
+						"pitch": 1.1
+					},
+					"death": {
+						"sound": "skeletron.death",
+						"volume": 2,
+						"pitch": 0.9
+					}
+				}
+			},
+			"terrariamod:ash": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"ambient.tame": "mob.ash.meow",
+					"ambient": "mob.ash.straymeow",
+					"hurt": {
+						"sound": "mob.ash.hit",
+						"volume": 0.45
+					},
+					"death": {
+						"sound": "mob.ash.hit",
+						"volume": 0.5,
+						"pitch": 0.9
+					},
+					"purr": "mob.ash.purr",
+					"purreow": "mob.ash.purreow",
+					"eat": "mob.ash.eat"
+				}
+			},
+			"terrariamod:brainofcthulhu_stageone": {
+				"volume": 0.9,
+				"pitch": [
+					0.6,
+					0.9
+				],
+				"events": {
+					"hurt": {
+						"sound": "demoneye.hurt",
+						"volume": 1,
+						"pitch": 1.1
+					},
+					"death": {
+						"sound": "demoneye.death",
+						"volume": 1,
+						"pitch": 0.9
+					}
+				}
+			}
+		}
+	}
+}

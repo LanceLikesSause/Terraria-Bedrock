@@ -1,0 +1,25 @@
+//bridge-file-version: #24
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.skeletron_arm_death": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"spawn_next_stage": "!query.is_alive && query.last_hit_by_player"
+						}
+					]
+				},
+				"spawn_next_stage": {
+					"on_entry": [
+						"/scoreboard objectives add skeletron dummy skeletron",
+						"/scoreboard players add @p skeletron 1",
+						"/execute @p[scores={skeletron=2}] ~~~ kill @e[type=terrariamod:skeletron_head]",
+						"/execute @p[scores={skeletron=2}] ~~~ kill @e[type=terrariamod:skeletron_arm]"
+					]
+				}
+			}
+		}
+	}
+}

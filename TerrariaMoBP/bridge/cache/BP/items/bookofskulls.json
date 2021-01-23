@@ -1,0 +1,254 @@
+{
+	"file_path": "C:\\Users\\LANCE.LEGAUX\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\TerrariaMo(1)\\items\\bookofskulls.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "c29cdef5_3b5f_4b0e_8d7c_b9ac8c50a565",
+	"file_version": 26,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "terrariamod:bookofskulls",
+							"category": "equipment"
+						},
+						"components": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:hand_equipped": true,
+							"minecraft:on_use": {
+								"on_use": {
+									"event": "minecraft:mana_fire",
+									"condition": "query.scoreboard('mana') > 0"
+								}
+							},
+							"minecraft:icon": {
+								"texture": "terrariamod:bookofskulls"
+							},
+							"minecraft:display_name": {
+								"value": "item.terrariamod:bookofskulls.name"
+							},
+							"minecraft:creative_category": {
+								"parent": "equipment"
+							}
+						},
+						"events": {
+							"minecraft:mana_fire": {
+								"shoot": {
+									"projectile": "terrariamod:bookofskulls_projectile",
+									"launch_power": 1
+								},
+								"run_command": {
+									"command": [
+										"scoreboard players remove @s mana 18",
+										"function mana",
+										"playsound bookofskulls.effect @s"
+									]
+								}
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:bookofskulls",
+							"category": "equipment"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:bookofskulls",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:hand_equipped": true,
+								"minecraft:on_use": {
+									"on_use": {
+										"event": "minecraft:mana_fire",
+										"condition": "query.scoreboard('mana') > 0"
+									}
+								},
+								"minecraft:icon": {
+									"texture": "terrariamod:bookofskulls"
+								},
+								"minecraft:display_name": {
+									"value": "item.terrariamod:bookofskulls.name"
+								},
+								"minecraft:creative_category": {
+									"parent": "equipment"
+								}
+							},
+							"events": {
+								"minecraft:mana_fire": {
+									"shoot": {
+										"projectile": "terrariamod:bookofskulls_projectile",
+										"launch_power": 1
+									},
+									"run_command": {
+										"command": [
+											"scoreboard players remove @s mana 18",
+											"function mana",
+											"playsound bookofskulls.effect @s"
+										]
+									}
+								}
+							}
+						},
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:hand_equipped": true,
+							"minecraft:on_use": {
+								"on_use": {
+									"event": "minecraft:mana_fire",
+									"condition": "query.scoreboard('mana') > 0"
+								}
+							},
+							"minecraft:icon": {
+								"texture": "terrariamod:bookofskulls"
+							},
+							"minecraft:display_name": {
+								"value": "item.terrariamod:bookofskulls.name"
+							},
+							"minecraft:creative_category": {
+								"parent": "equipment"
+							}
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:bookofskulls",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:hand_equipped": true,
+								"minecraft:on_use": {
+									"on_use": {
+										"event": "minecraft:mana_fire",
+										"condition": "query.scoreboard('mana') > 0"
+									}
+								},
+								"minecraft:icon": {
+									"texture": "terrariamod:bookofskulls"
+								},
+								"minecraft:display_name": {
+									"value": "item.terrariamod:bookofskulls.name"
+								},
+								"minecraft:creative_category": {
+									"parent": "equipment"
+								}
+							},
+							"events": {
+								"minecraft:mana_fire": {
+									"shoot": {
+										"projectile": "terrariamod:bookofskulls_projectile",
+										"launch_power": 1
+									},
+									"run_command": {
+										"command": [
+											"scoreboard players remove @s mana 18",
+											"function mana",
+											"playsound bookofskulls.effect @s"
+										]
+									}
+								}
+							}
+						},
+						"key": "events",
+						"children": [
+							{
+								"open": {
+									"minecraft:mana_fire": {
+										"shoot": {
+											"projectile": "terrariamod:bookofskulls_projectile",
+											"launch_power": 1
+										},
+										"run_command": {
+											"command": [
+												"scoreboard players remove @s mana 18",
+												"function mana",
+												"playsound bookofskulls.effect @s"
+											]
+										}
+									}
+								},
+								"key": "minecraft:mana_fire",
+								"children": [
+									{
+										"open": {
+											"shoot": {
+												"projectile": "terrariamod:bookofskulls_projectile",
+												"launch_power": 1
+											},
+											"run_command": {
+												"command": [
+													"scoreboard players remove @s mana 18",
+													"function mana",
+													"playsound bookofskulls.effect @s"
+												]
+											}
+										},
+										"key": "shoot",
+										"is_minified": true,
+										"children": {
+											"projectile": "terrariamod:bookofskulls_projectile",
+											"launch_power": 1
+										}
+									},
+									{
+										"open": {
+											"shoot": {
+												"projectile": "terrariamod:bookofskulls_projectile",
+												"launch_power": 1
+											},
+											"run_command": {
+												"command": [
+													"scoreboard players remove @s mana 18",
+													"function mana",
+													"playsound bookofskulls.effect @s"
+												]
+											}
+										},
+										"key": "run_command",
+										"children": [
+											{
+												"open": {
+													"command": [
+														"scoreboard players remove @s mana 18",
+														"function mana",
+														"playsound bookofskulls.effect @s"
+													]
+												},
+												"key": "command",
+												"is_minified": true,
+												"children": [
+													"scoreboard players remove @s mana 18",
+													"function mana",
+													"playsound bookofskulls.effect @s"
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

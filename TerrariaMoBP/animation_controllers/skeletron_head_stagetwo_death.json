@@ -1,0 +1,22 @@
+//bridge-file-version: #29
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.skeletron_head_stagetwo_death": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"spawn_next_stage": "!query.is_alive && query.last_hit_by_player"
+						}
+					]
+				},
+				"spawn_next_stage": {
+					"on_entry": [
+						"/scoreboard players set @p skeletron 0"
+					]
+				}
+			}
+		}
+	}
+}

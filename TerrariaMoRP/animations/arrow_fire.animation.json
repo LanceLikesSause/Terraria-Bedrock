@@ -1,0 +1,14 @@
+{
+"format_version" : "1.8.0",
+"animations" : {
+    "animation.arrow_fire.move" : {
+        "loop" : true,
+        "bones" : {
+            "body" : {
+                "rotation" : [ "-query.target_x_rotation", "-query.body_y_rotation", 0.0 ],
+                "scale" : [ 0.7, 0.7, 0.9 ]
+            }
+        }
+    }
+}
+}

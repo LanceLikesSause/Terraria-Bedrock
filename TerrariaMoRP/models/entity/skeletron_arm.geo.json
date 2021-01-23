@@ -1,0 +1,50 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.skeletron_arm",
+				"texture_width": 256,
+				"texture_height": 400,
+				"visible_bounds_width": 8,
+				"visible_bounds_height": 5,
+				"visible_bounds_offset": [0, 0, 0]
+			},
+			"bones": [
+				{
+					"name": "hand_left",
+					"pivot": [-3.78571, 0.5, -52.78571],
+					"cubes": [
+						{"origin": [-7, 0, -65], "size": [2, 1, 17], "uv": [0, 169]},
+						{"origin": [-4, 0, -65], "size": [2, 1, 17], "uv": [0, 169]},
+						{"origin": [-1, 0, -65], "size": [2, 1, 17], "uv": [0, 169]},
+						{"origin": [2, 0, -65], "size": [2, 1, 17], "uv": [0, 169]},
+						{"origin": [-11, 0, -55], "size": [2, 1, 7], "uv": [0, 198]},
+						{"origin": [-7, 0, -48], "size": [11, 1, 7], "uv": [0, 217]},
+						{"origin": [-11, 0, -48], "size": [4, 1, 1], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "arm_lower_left",
+					"pivot": [0.5, 0.5, -28.5],
+					"cubes": [
+						{"origin": [-3, 0, -39], "size": [3, 1, 21], "uv": [0, 246]},
+						{"origin": [1, 0, -39], "size": [3, 1, 21], "uv": [0, 246]},
+						{"origin": [0, 0, -39], "size": [1, 1, 1], "uv": [0, 274]},
+						{"origin": [0, 0, -19], "size": [1, 1, 1], "uv": [0, 274]}
+					]
+				},
+				{
+					"name": "arm_upper_left",
+					"pivot": [0.5, 0.5, -4.5],
+					"cubes": [
+						{"origin": [-3, 0, -15], "size": [3, 1, 21], "uv": [0, 246]},
+						{"origin": [1, 0, -15], "size": [3, 1, 21], "uv": [0, 246]},
+						{"origin": [0, 0, -15], "size": [1, 1, 1], "uv": [0, 274]},
+						{"origin": [0, 0, 5], "size": [1, 1, 1], "uv": [0, 274]}
+					]
+				}
+			]
+		}
+	]
+}

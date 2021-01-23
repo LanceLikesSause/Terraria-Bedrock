@@ -1,0 +1,41 @@
+//bridge-file-version: #12
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "terrariamod:skeletron_head",
+			"materials": {
+				"default": "phantom",
+				"invisible": "phantom_invisible"
+			},
+			"textures": {
+				"default": "textures/entity/pamobile/skeletron"
+			},
+			"particle_effects": {
+				"wing_dust": "minecraft:phantom_trail_particle"
+			},
+			"geometry": {
+				"default": "geometry.skeletron_head"
+			},
+			"animations": {
+				"move": "animation.skeletron",
+				"swoop": "animation.skeletron.spin"
+			},
+			"animation_controllers": [
+				{
+					"move": "controller.animation.skeletron_head_stagetwo"
+				},
+				{
+					"swoop": "controller.animation.skeletron_head_stagetwo"
+				}
+			],
+			"render_controllers": [
+				"controller.render.phantom"
+			],
+			"spawn_egg": {
+				"base_color": "#444D56",
+				"overlay_color": "#4A7151"
+			}
+		}
+	}
+}

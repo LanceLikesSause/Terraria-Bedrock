@@ -1,10 +1,10 @@
-//bridge-file-version: #15
+//bridge-file-version: #16
 {
 	"format_version": "1.8.0",
 	"minecraft:spawn_rules": {
 		"description": {
 			"identifier": "terrariamod:yellowslime",
-			"population_control": "animal"
+			"population_control": "monster"
 		},
 		"conditions": [
 			{

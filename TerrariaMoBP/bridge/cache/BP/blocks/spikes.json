@@ -1,0 +1,722 @@
+{
+	"file_path": "C:\\Users\\LANCE.LEGAUX\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\TerrariaMoBP\\blocks\\spikes.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "df082465_61c4_4952_adb8_b9caa2a8fb70",
+	"file_version": 30,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:block": {
+						"description": {
+							"identifier": "terrariamod:spikes",
+							"properties": {
+								"terrariamod:facing": [
+									0,
+									1,
+									2,
+									3
+								]
+							}
+						},
+						"components": {
+							"minecraft:destroy_time": 1,
+							"minecraft:flammable": {
+								"flame_odds": 0,
+								"burn_odds": 0
+							},
+							"tag:terrariamod:stone": {},
+							"minecraft:geometry": "geometry.spikes",
+							"minecraft:material_instances": {
+								"*": {
+									"texture": "purity_stone",
+									"render_method": "alpha_test"
+								}
+							},
+							"minecraft:pick_collision": {
+								"origin": [
+									-8,
+									0,
+									-8
+								],
+								"size": [
+									16,
+									4,
+									16
+								]
+							},
+							"minecraft:entity_collision": {
+								"origin": [
+									-8,
+									0,
+									-8
+								],
+								"size": [
+									16,
+									4,
+									16
+								]
+							},
+							"minecraft:block_light_emission": 0,
+							"minecraft:block_light_absorption": 0,
+							"minecraft:on_player_placing": {
+								"event": "terrariamod:rotate"
+							},
+							"minecraft:on_step_on": {
+								"event": "terrariamod:walk",
+								"target": "player"
+							}
+						},
+						"events": {
+							"terrariamod:walk": {
+								"run_command": {
+									"command": [
+										"effect @p instant_damage 1 2"
+									]
+								}
+							},
+							"terrariamod:rotate": {
+								"set_block_property": {
+									"terrariamod:facing": "query.cardinal_facing_2d-2"
+								}
+							}
+						},
+						"permutations": [
+							{
+								"condition": "query.block_property('terrariamod:facing') == 0",
+								"components": {
+									"minecraft:rotation": [
+										0,
+										180,
+										0
+									]
+								}
+							},
+							{
+								"condition": "query.block_property('terrariamod:facing') == 1",
+								"components": {
+									"minecraft:rotation": [
+										0,
+										0,
+										0
+									]
+								}
+							},
+							{
+								"condition": "query.block_property('terrariamod:facing') == 2",
+								"components": {
+									"minecraft:rotation": [
+										0,
+										270,
+										0
+									]
+								}
+							},
+							{
+								"condition": "query.block_property('terrariamod:facing') == 3",
+								"components": {
+									"minecraft:rotation": [
+										0,
+										90,
+										0
+									]
+								}
+							}
+						]
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:spikes",
+							"properties": {
+								"terrariamod:facing": [
+									0,
+									1,
+									2,
+									3
+								]
+							}
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:spikes",
+								"properties": {
+									"terrariamod:facing": [
+										0,
+										1,
+										2,
+										3
+									]
+								}
+							},
+							"components": {
+								"minecraft:destroy_time": 1,
+								"minecraft:flammable": {
+									"flame_odds": 0,
+									"burn_odds": 0
+								},
+								"tag:terrariamod:stone": {},
+								"minecraft:geometry": "geometry.spikes",
+								"minecraft:material_instances": {
+									"*": {
+										"texture": "purity_stone",
+										"render_method": "alpha_test"
+									}
+								},
+								"minecraft:pick_collision": {
+									"origin": [
+										-8,
+										0,
+										-8
+									],
+									"size": [
+										16,
+										4,
+										16
+									]
+								},
+								"minecraft:entity_collision": {
+									"origin": [
+										-8,
+										0,
+										-8
+									],
+									"size": [
+										16,
+										4,
+										16
+									]
+								},
+								"minecraft:block_light_emission": 0,
+								"minecraft:block_light_absorption": 0,
+								"minecraft:on_player_placing": {
+									"event": "terrariamod:rotate"
+								},
+								"minecraft:on_step_on": {
+									"event": "terrariamod:walk",
+									"target": "player"
+								}
+							},
+							"events": {
+								"terrariamod:walk": {
+									"run_command": {
+										"command": [
+											"effect @p instant_damage 1 2"
+										]
+									}
+								},
+								"terrariamod:rotate": {
+									"set_block_property": {
+										"terrariamod:facing": "query.cardinal_facing_2d-2"
+									}
+								}
+							},
+							"permutations": [
+								{
+									"condition": "query.block_property('terrariamod:facing') == 0",
+									"components": {
+										"minecraft:rotation": [
+											0,
+											180,
+											0
+										]
+									}
+								},
+								{
+									"condition": "query.block_property('terrariamod:facing') == 1",
+									"components": {
+										"minecraft:rotation": [
+											0,
+											0,
+											0
+										]
+									}
+								},
+								{
+									"condition": "query.block_property('terrariamod:facing') == 2",
+									"components": {
+										"minecraft:rotation": [
+											0,
+											270,
+											0
+										]
+									}
+								},
+								{
+									"condition": "query.block_property('terrariamod:facing') == 3",
+									"components": {
+										"minecraft:rotation": [
+											0,
+											90,
+											0
+										]
+									}
+								}
+							]
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "1",
+								"key": "minecraft:destroy_time"
+							},
+							{
+								"key": "minecraft:flammable",
+								"is_minified": true,
+								"children": {
+									"flame_odds": 0,
+									"burn_odds": 0
+								}
+							},
+							{
+								"key": "tag:terrariamod:stone",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"data": "geometry.spikes",
+								"key": "minecraft:geometry"
+							},
+							{
+								"key": "minecraft:material_instances",
+								"is_minified": true,
+								"children": {
+									"*": {
+										"texture": "purity_stone",
+										"render_method": "alpha_test"
+									}
+								}
+							},
+							{
+								"key": "minecraft:pick_collision",
+								"is_minified": true,
+								"children": {
+									"origin": [
+										-8,
+										0,
+										-8
+									],
+									"size": [
+										16,
+										4,
+										16
+									]
+								}
+							},
+							{
+								"key": "minecraft:entity_collision",
+								"is_minified": true,
+								"children": {
+									"origin": [
+										-8,
+										0,
+										-8
+									],
+									"size": [
+										16,
+										4,
+										16
+									]
+								}
+							},
+							{
+								"data": "0",
+								"key": "minecraft:block_light_emission"
+							},
+							{
+								"data": "0",
+								"key": "minecraft:block_light_absorption"
+							},
+							{
+								"key": "minecraft:on_player_placing",
+								"is_minified": true,
+								"children": {
+									"event": "terrariamod:rotate"
+								}
+							},
+							{
+								"open": {
+									"minecraft:destroy_time": 1,
+									"minecraft:flammable": {
+										"flame_odds": 0,
+										"burn_odds": 0
+									},
+									"tag:terrariamod:stone": {},
+									"minecraft:geometry": "geometry.spikes",
+									"minecraft:material_instances": {
+										"*": {
+											"texture": "purity_stone",
+											"render_method": "alpha_test"
+										}
+									},
+									"minecraft:pick_collision": {
+										"origin": [
+											-8,
+											0,
+											-8
+										],
+										"size": [
+											16,
+											4,
+											16
+										]
+									},
+									"minecraft:entity_collision": {
+										"origin": [
+											-8,
+											0,
+											-8
+										],
+										"size": [
+											16,
+											4,
+											16
+										]
+									},
+									"minecraft:block_light_emission": 0,
+									"minecraft:block_light_absorption": 0,
+									"minecraft:on_player_placing": {
+										"event": "terrariamod:rotate"
+									},
+									"minecraft:on_step_on": {
+										"event": "terrariamod:walk",
+										"target": "player"
+									}
+								},
+								"key": "minecraft:on_step_on",
+								"is_minified": true,
+								"children": {
+									"event": "terrariamod:walk",
+									"target": "player"
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:spikes",
+								"properties": {
+									"terrariamod:facing": [
+										0,
+										1,
+										2,
+										3
+									]
+								}
+							},
+							"components": {
+								"minecraft:destroy_time": 1,
+								"minecraft:flammable": {
+									"flame_odds": 0,
+									"burn_odds": 0
+								},
+								"tag:terrariamod:stone": {},
+								"minecraft:geometry": "geometry.spikes",
+								"minecraft:material_instances": {
+									"*": {
+										"texture": "purity_stone",
+										"render_method": "alpha_test"
+									}
+								},
+								"minecraft:pick_collision": {
+									"origin": [
+										-8,
+										0,
+										-8
+									],
+									"size": [
+										16,
+										4,
+										16
+									]
+								},
+								"minecraft:entity_collision": {
+									"origin": [
+										-8,
+										0,
+										-8
+									],
+									"size": [
+										16,
+										4,
+										16
+									]
+								},
+								"minecraft:block_light_emission": 0,
+								"minecraft:block_light_absorption": 0,
+								"minecraft:on_player_placing": {
+									"event": "terrariamod:rotate"
+								},
+								"minecraft:on_step_on": {
+									"event": "terrariamod:walk",
+									"target": "player"
+								}
+							},
+							"events": {
+								"terrariamod:walk": {
+									"run_command": {
+										"command": [
+											"effect @p instant_damage 1 2"
+										]
+									}
+								},
+								"terrariamod:rotate": {
+									"set_block_property": {
+										"terrariamod:facing": "query.cardinal_facing_2d-2"
+									}
+								}
+							},
+							"permutations": [
+								{
+									"condition": "query.block_property('terrariamod:facing') == 0",
+									"components": {
+										"minecraft:rotation": [
+											0,
+											180,
+											0
+										]
+									}
+								},
+								{
+									"condition": "query.block_property('terrariamod:facing') == 1",
+									"components": {
+										"minecraft:rotation": [
+											0,
+											0,
+											0
+										]
+									}
+								},
+								{
+									"condition": "query.block_property('terrariamod:facing') == 2",
+									"components": {
+										"minecraft:rotation": [
+											0,
+											270,
+											0
+										]
+									}
+								},
+								{
+									"condition": "query.block_property('terrariamod:facing') == 3",
+									"components": {
+										"minecraft:rotation": [
+											0,
+											90,
+											0
+										]
+									}
+								}
+							]
+						},
+						"key": "events",
+						"children": [
+							{
+								"open": {
+									"terrariamod:walk": {
+										"run_command": {
+											"command": [
+												"effect @p instant_damage 1 2"
+											]
+										}
+									},
+									"terrariamod:rotate": {
+										"set_block_property": {
+											"terrariamod:facing": "query.cardinal_facing_2d-2"
+										}
+									}
+								},
+								"key": "terrariamod:walk",
+								"is_minified": true,
+								"children": {
+									"run_command": {
+										"command": [
+											"effect @p instant_damage 1 2"
+										]
+									}
+								}
+							},
+							{
+								"open": {
+									"terrariamod:walk": {
+										"run_command": {
+											"command": [
+												"effect @p instant_damage 1 2"
+											]
+										}
+									},
+									"terrariamod:rotate": {
+										"set_block_property": {
+											"terrariamod:facing": "query.cardinal_facing_2d-2"
+										}
+									}
+								},
+								"key": "terrariamod:rotate",
+								"is_minified": true,
+								"children": {
+									"set_block_property": {
+										"terrariamod:facing": "query.cardinal_facing_2d-2"
+									}
+								}
+							}
+						]
+					},
+					{
+						"key": "permutations",
+						"children": [
+							{
+								"open": [
+									{
+										"condition": "query.block_property('terrariamod:facing') == 0",
+										"components": {
+											"minecraft:rotation": [
+												0,
+												180,
+												0
+											]
+										}
+									},
+									{
+										"condition": "query.block_property('terrariamod:facing') == 1",
+										"components": {
+											"minecraft:rotation": [
+												0,
+												0,
+												0
+											]
+										}
+									},
+									{
+										"condition": "query.block_property('terrariamod:facing') == 2",
+										"components": {
+											"minecraft:rotation": [
+												0,
+												270,
+												0
+											]
+										}
+									},
+									{
+										"condition": "query.block_property('terrariamod:facing') == 3",
+										"components": {
+											"minecraft:rotation": [
+												0,
+												90,
+												0
+											]
+										}
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"condition": "query.block_property('terrariamod:facing') == 0",
+									"components": {
+										"minecraft:rotation": [
+											0,
+											180,
+											0
+										]
+									}
+								}
+							},
+							{
+								"open": [
+									{
+										"condition": "query.block_property('terrariamod:facing') == 0",
+										"components": {
+											"minecraft:rotation": [
+												0,
+												180,
+												0
+											]
+										}
+									},
+									{
+										"condition": "query.block_property('terrariamod:facing') == 1",
+										"components": {
+											"minecraft:rotation": [
+												0,
+												0,
+												0
+											]
+										}
+									},
+									{
+										"condition": "query.block_property('terrariamod:facing') == 2",
+										"components": {
+											"minecraft:rotation": [
+												0,
+												270,
+												0
+											]
+										}
+									},
+									{
+										"condition": "query.block_property('terrariamod:facing') == 3",
+										"components": {
+											"minecraft:rotation": [
+												0,
+												90,
+												0
+											]
+										}
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"condition": "query.block_property('terrariamod:facing') == 1",
+									"components": {
+										"minecraft:rotation": [
+											0,
+											0,
+											0
+										]
+									}
+								}
+							},
+							{
+								"is_minified": true,
+								"children": {
+									"condition": "query.block_property('terrariamod:facing') == 2",
+									"components": {
+										"minecraft:rotation": [
+											0,
+											270,
+											0
+										]
+									}
+								}
+							},
+							{
+								"is_minified": true,
+								"children": {
+									"condition": "query.block_property('terrariamod:facing') == 3",
+									"components": {
+										"minecraft:rotation": [
+											0,
+											90,
+											0
+										]
+									}
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,4 +1,4 @@
-//bridge-file-version: #26
+//bridge-file-version: #30
 {
 	"format_version": "1.16.100",
 	"minecraft:block": {
@@ -20,9 +20,6 @@
 				"burn_odds": 0
 			},
 			"tag:terrariamod:stone": {},
-			"minecraft:on_step_on": {
-				"event": "terrariamod:walk"
-			},
 			"minecraft:geometry": "geometry.spikes",
 			"minecraft:material_instances": {
 				"*": {
@@ -58,6 +55,24 @@
 			"minecraft:block_light_absorption": 0,
 			"minecraft:on_player_placing": {
 				"event": "terrariamod:rotate"
+			},
+			"minecraft:on_step_on": {
+				"event": "terrariamod:walk",
+				"target": "player"
+			}
+		},
+		"events": {
+			"terrariamod:walk": {
+				"run_command": {
+					"command": [
+						"effect @p instant_damage 1 2"
+					]
+				}
+			},
+			"terrariamod:rotate": {
+				"set_block_property": {
+					"terrariamod:facing": "query.cardinal_facing_2d-2"
+				}
 			}
 		},
 		"permutations": [
@@ -101,24 +116,6 @@
 					]
 				}
 			}
-		],
-		"events": {
-			"terrariamod:walk": {
-				"damage": {
-					"amount": 60,
-					"type": "contact"
-				},
-				"add_mob_effect": {
-					"effect": "slowness",
-					"duration": 3,
-					"amplifier": 2
-				}
-			},
-			"terrariamod:rotate": {
-				"set_block_property": {
-					"terrariamod:facing": "query.cardinal_facing_2d-2"
-				}
-			}
-		}
+		]
 	}
 }

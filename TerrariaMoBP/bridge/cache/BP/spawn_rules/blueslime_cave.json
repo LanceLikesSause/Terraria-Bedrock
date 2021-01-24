@@ -1,0 +1,160 @@
+{
+	"file_path": "C:\\Users\\LANCE.LEGAUX\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\TerrariaMoBP\\spawn_rules\\blueslime_cave.json",
+	"file_type": "spawn_rule",
+	"format_version": 1,
+	"file_uuid": "505bbd05_90e1_4910_aebf_1f823c6b101d",
+	"file_version": 13,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.8.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.8.0",
+					"minecraft:spawn_rules": {
+						"description": {
+							"identifier": "terrariamod:blueslime_cave",
+							"population_control": "monster"
+						},
+						"conditions": [
+							{
+								"minecraft:spawns_underground": {},
+								"minecraft:height_filter": {
+									"min": 0,
+									"max": 63
+								},
+								"minecraft:weight": {
+									"default": 99999999
+								},
+								"minecraft:herd": {
+									"min_size": 1,
+									"max_size": 20
+								},
+								"minecraft:biome_filter": {
+									"test": "has_biome_tag",
+									"operator": "==",
+									"value": "purity"
+								}
+							}
+						]
+					}
+				},
+				"key": "minecraft:spawn_rules",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:blueslime_cave",
+								"population_control": "monster"
+							},
+							"conditions": [
+								{
+									"minecraft:spawns_underground": {},
+									"minecraft:height_filter": {
+										"min": 0,
+										"max": 63
+									},
+									"minecraft:weight": {
+										"default": 99999999
+									},
+									"minecraft:herd": {
+										"min_size": 1,
+										"max_size": 20
+									},
+									"minecraft:biome_filter": {
+										"test": "has_biome_tag",
+										"operator": "==",
+										"value": "purity"
+									}
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:blueslime_cave",
+							"population_control": "monster"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:blueslime_cave",
+								"population_control": "monster"
+							},
+							"conditions": [
+								{
+									"minecraft:spawns_underground": {},
+									"minecraft:height_filter": {
+										"min": 0,
+										"max": 63
+									},
+									"minecraft:weight": {
+										"default": 99999999
+									},
+									"minecraft:herd": {
+										"min_size": 1,
+										"max_size": 20
+									},
+									"minecraft:biome_filter": {
+										"test": "has_biome_tag",
+										"operator": "==",
+										"value": "purity"
+									}
+								}
+							]
+						},
+						"key": "conditions",
+						"children": [
+							{
+								"open": [
+									{
+										"minecraft:spawns_underground": {},
+										"minecraft:height_filter": {
+											"min": 0,
+											"max": 63
+										},
+										"minecraft:weight": {
+											"default": 99999999
+										},
+										"minecraft:herd": {
+											"min_size": 1,
+											"max_size": 20
+										},
+										"minecraft:biome_filter": {
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "purity"
+										}
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"minecraft:spawns_underground": {},
+									"minecraft:height_filter": {
+										"min": 0,
+										"max": 63
+									},
+									"minecraft:weight": {
+										"default": 99999999
+									},
+									"minecraft:herd": {
+										"min_size": 1,
+										"max_size": 20
+									},
+									"minecraft:biome_filter": {
+										"test": "has_biome_tag",
+										"operator": "==",
+										"value": "purity"
+									}
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

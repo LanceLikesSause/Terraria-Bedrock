@@ -2067,7 +2067,8 @@
 		"cd696f52_8d57_4c43_b8c8_95cb571a4a98": {},
 		"309e77c3_e558_4c75_bc94_6f30b7add8ab": {},
 		"aa80c69f_029d_426a_88cb_ca4c6c1d2fc4": {},
-		"c29cdef5_3b5f_4b0e_8d7c_b9ac8c50a565": {}
+		"c29cdef5_3b5f_4b0e_8d7c_b9ac8c50a565": {},
+		"df082465_61c4_4952_adb8_b9caa2a8fb70": {}
 	},
 	"rp_animation_controller": {
 		"RP/animation_controllers/devourer.animation.controller.json": {

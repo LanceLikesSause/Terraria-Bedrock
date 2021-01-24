@@ -1,18 +1,14 @@
-//bridge-file-version: #6
+//bridge-file-version: #12
 {
 	"format_version": "1.8.0",
 	"minecraft:spawn_rules": {
 		"description": {
-			"identifier": "terrariamod:giantworm",
+			"identifier": "terrariamod:angrybones",
 			"population_control": "monster"
 		},
 		"conditions": [
 			{
 				"minecraft:spawns_underground": {},
-				"minecraft:height_filter": {
-					"min": 0,
-					"max": 63
-				},
 				"minecraft:weight": {
 					"default": 99999999
 				},
@@ -24,7 +20,10 @@
 					"test": "has_biome_tag",
 					"operator": "==",
 					"value": "purity"
-				}
+				},
+				"minecraft:spawns_on_block_filter": [
+					"terrariamod:pinkbricks_slab"
+				]
 			}
 		]
 	}

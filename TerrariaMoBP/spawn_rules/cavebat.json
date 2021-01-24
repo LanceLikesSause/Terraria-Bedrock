@@ -1,31 +1,30 @@
-//bridge-file-version: #7
+//bridge-file-version: #9
 {
 	"format_version": "1.8.0",
 	"minecraft:spawn_rules": {
 		"description": {
 			"identifier": "terrariamod:cavebat",
-			"population_control": "animal"
+			"population_control": "monster"
 		},
 		"conditions": [
 			{
-				"minecraft:brightness_filter": {
+				"minecraft:spawns_underground": {},
+				"minecraft:height_filter": {
 					"min": 0,
-					"max": 15,
-					"adjust_for_weather": false
+					"max": 63
 				},
 				"minecraft:weight": {
-					"default": 900000
+					"default": 99999999
 				},
 				"minecraft:herd": {
 					"min_size": 1,
-					"max_size": 3
+					"max_size": 20
 				},
 				"minecraft:biome_filter": {
 					"test": "has_biome_tag",
 					"operator": "==",
-					"value": "purity_forest"
-				},
-				"minecraft:spawns_underground": {}
+					"value": "purity"
+				}
 			}
 		]
 	}

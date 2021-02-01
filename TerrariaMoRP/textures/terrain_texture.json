@@ -1,4 +1,4 @@
-//bridge-file-version: #13
+//bridge-file-version: #23
 {
 	"resource_pack_name": "vanilla",
 	"texture_name": "atlas.terrain",
@@ -312,6 +312,50 @@
 		"purity_candle": {
 			"textures": [
 				"textures/blocks/purity_candle"
+			]
+		},
+		"honey": {
+			"textures": [
+				"textures/blocks/honey"
+			]
+		},
+		"hive_wall": {
+			"textures": [
+				{
+					"variations": [
+						{
+							"weight": 1,
+							"path": "textures/blocks/hive_wall_one"
+						},
+						{
+							"weight": 1,
+							"path": "textures/blocks/hive_wall_two"
+						},
+						{
+							"weight": 1,
+							"path": "textures/blocks/hive_wall_three"
+						},
+						{
+							"weight": 1,
+							"path": "textures/blocks/hive_wall_four"
+						}
+					]
+				}
+			]
+		},
+		"hive_block": {
+			"textures": [
+				"textures/blocks/hive_block"
+			]
+		},
+		"larva": {
+			"textures": [
+				"textures/blocks/larva"
+			]
+		},
+		"enchantedsword_block": {
+			"textures": [
+				"textures/blocks/enchantedsword_block"
 			]
 		}
 	}

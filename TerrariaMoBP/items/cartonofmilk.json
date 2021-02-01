@@ -1,4 +1,4 @@
-//bridge-file-version: #6
+//bridge-file-version: #7
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
@@ -27,6 +27,10 @@
 			"minecraft:use_animation": "drink",
 			"minecraft:creative_category": {
 				"parent": "equipment"
+			},
+			"minecraft:cooldown": {
+				"category": "healing_terrariamod",
+				"duration": 60
 			}
 		},
 		"events": {

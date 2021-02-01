@@ -1,5 +1,5 @@
-##bridge-file-version: #395
-#######how to play
+##bridge-file-version: #417
+########how to play
 terrariamod.category.dakon=Terraria Mod Tutorial
 howtoplay.category.dakon=Terraria Guide
 howtoplay.template.title=Credits
@@ -58,6 +58,17 @@ terrariamod.tempseven.text2=You can decorate your house with blocks like torches
 
 
 tile.terrariamod:underworld_transporter.name=Underworld Transporter
+
+tile.terrariamod:larva.name=Larva
+item.terrariamod:beewax.name=Bee Wax
+item.terrariamod:abeemination.name=Abeemination
+tile.terrariamod:hive_block.name=Hive Block
+tile.terrariamod:hive_wall.name=Hive Wall
+tile.terrariamod:honey.name=Honey
+item.terrariamod:bottle_honey.name=Honey Bottle
+item.terrariamod:empty_bucket.name=Empty Bucket
+item.terrariamod:honey_bucket.name=Honey Bucket
+
 
 item.terrariamod:acorn.name=Acorn
 tile.terrariamod:tree_bottom.name=Tree Stem
@@ -241,6 +252,14 @@ entity.terrariamod:woodenarrow_projectile_tungsten.name=Tungsten Bow
 entity.terrariamod:woodenarrow_projectile_gold.name=Gold Bow
 entity.terrariamod:woodenarrow_projectile_platinum.name=Platinum Bow
 
+item.spawn_egg.entity.terrariamod:nectar_minion.name=Spawn Baby Hornet
+entity.terrariamod:nectar_minion.name=Baby Hornet
+item.spawn_egg.entity.terrariamod:queenbee_bee.name=Spawn Agressive Bee
+entity.terrariamod:queenbee_bee.name=Agressive Bee
+item.spawn_egg.entity.terrariamod:beekeeper_bee.name=Spawn Friendly Bee
+entity.terrariamod:beekeeper_bee.name=Friendly Bee
+item.spawn_egg.entity.terrariamod:queenbee.name=Spawn Queen Bee
+entity.terrariamod:queenbee.name=Queen Bee
 item.spawn_egg.entity.terrariamod:brainofcthulhu_stagetwo.name=Spawn Brain of Cthulhu §9Stage Two
 entity.terrariamod:brainofcthulhu_stagetwo.name=Brain of Cthulhu §9Stage Two
 item.spawn_egg.entity.terrariamod:brainofcthulhu_stageone.name=Spawn Brain of Cthulhu
@@ -441,6 +460,7 @@ item.terrariamod:nightsedge.name=Night's Edge
 item.terrariamod:starfury.name=Star Fury
 
 item.terrariamod:slimestaff.name=Slime Staff §9Summons Slime Minions
+item.terrariamod:nectar.name=Nectar §9Summons Baby Hornet
 
 item.terrariamod:bookofskulls.name=Book of Skulls §9+29 Magic Damage
 item.terrariamod:aquascepter.name=Aquascepter §9+16 Magic Damage
@@ -473,6 +493,9 @@ item.terrariamod:woodenboomerang.name=Wooden Boomerang §9+8 Projectile Damage
 item.terrariamod:enchantedboomerang.name=Enchanted Boomerang §9+13 Projectile Damage
 item.terrariamod:flamarang.name=Flamarang §9+32 Projectile Damage
 item.terrariamod:bone_terraria.name=Bone §9+20 Projectile Damage
+item.terrariamod:thebeesknees.name=The Bee's Knees §9+26 Projectile Damage
+item.terrariamod:beegun.name=Bee Gun §9+9 Projectile Damage
+item.terrariamod:beenade.name=Beenade §9+12 Explosive Damage
 
 
 item.terrariamod:grenade.name=Grenade §9+3 Explosive
@@ -499,3 +522,4 @@ item.terrariamod:ale.name=Ale §9Beer...
 
 
 item.terrariamod:hi=Hi
+item.terrariamod:hi.name=Hi

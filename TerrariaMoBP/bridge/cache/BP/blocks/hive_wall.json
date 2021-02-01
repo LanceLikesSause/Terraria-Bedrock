@@ -1,0 +1,69 @@
+{
+	"file_path": "C:\\Users\\LANCE.LEGAUX\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\TerrariaMoBP\\blocks\\hive_wall.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "6f4c0351_5361_4b15_bb73_20eda580f7bf",
+	"file_version": 4,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.200",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.200",
+					"minecraft:block": {
+						"description": {
+							"identifier": "terrariamod:hive_wall"
+						},
+						"components": {
+							"minecraft:destroy_time": 1,
+							"tag:terrariamod:wood": {},
+							"minecraft:display_name": "terrariamod:hive_wall"
+						}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:hive_wall"
+							},
+							"components": {
+								"minecraft:destroy_time": 1,
+								"tag:terrariamod:wood": {},
+								"minecraft:display_name": "terrariamod:hive_wall"
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:hive_wall"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:hive_wall"
+							},
+							"components": {
+								"minecraft:destroy_time": 1,
+								"tag:terrariamod:wood": {},
+								"minecraft:display_name": "terrariamod:hive_wall"
+							}
+						},
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:destroy_time": 1,
+							"tag:terrariamod:wood": {},
+							"minecraft:display_name": "terrariamod:hive_wall"
+						}
+					}
+				]
+			}
+		]
+	}
+}

@@ -932,7 +932,7 @@
 		},
 		"BP/blocks/dungeon_spawner.json": {
 			"identifiers": [
-				"terrariamod:dungeon_spawner"
+				"terrariamod:beehive_spawner"
 			],
 			"events": [
 				"terrariamod:spawn"
@@ -948,6 +948,60 @@
 			"events": [
 				"terrariamod:walk",
 				"terrariamod:rotate"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/honey.json": {
+			"identifiers": [
+				"terrariamod:honey"
+			],
+			"events": [
+				"terrariamod:interaction",
+				"terrariamod:regen"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/hive_wall.json": {
+			"identifiers": [
+				"terrariamod:hive_wall"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/larva.json": {
+			"identifiers": [
+				"terrariamod:larva"
+			],
+			"events": [
+				"terrariamod:break"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/beehive_spawner.json": {
+			"identifiers": [
+				"terrariamod:beehive_spawner"
+			],
+			"events": [
+				"terrariamod:spawn"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/enchantedsword_block.json": {
+			"identifiers": [
+				"terrariamod:enchantedsword_block"
+			],
+			"events": [
+				"terrariamod:loz"
 			],
 			"recipe_tags": [],
 			"custom_commands": [],
@@ -1161,8 +1215,6 @@
 		},
 		"BP/entities/eyeofcthulhu_stageone.json": {
 			"events": [
-				"minecraft:entity_spawned",
-				"bridge:remove_command_id_1",
 				"terrariamod:despawn_entity"
 			],
 			"bridge_core_tags": [],
@@ -1365,7 +1417,7 @@
 			],
 			"bridge_core_tags": [],
 			"identifiers": [
-				"terrariamod:beekeeper_bee"
+				"terrariamod:nectar_minion"
 			],
 			"animation_references": [],
 			"families": [
@@ -1514,7 +1566,9 @@
 			"custom_components": []
 		},
 		"BP/entities/eaterofworlds.json": {
-			"events": [],
+			"events": [
+				"terrariamod:despawn_entity"
+			],
 			"bridge_core_tags": [],
 			"identifiers": [
 				"terrariamod:eaterofworlds"
@@ -1766,6 +1820,96 @@
 			],
 			"custom_commands": [],
 			"custom_components": []
+		},
+		"BP/entities/queenbee.json": {
+			"events": [
+				"terrariamod:switch_attack"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:queenbee"
+			],
+			"animation_references": [],
+			"families": [
+				"terraria_players_enemy"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/queenbee_bee.json": {
+			"events": [
+				"terrariamod:despawn"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:queenbee_bee"
+			],
+			"animation_references": [],
+			"families": [
+				"phantom",
+				"undead",
+				"monster",
+				"mob"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/queenbee_projectile.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:queenbee_projectile"
+			],
+			"animation_references": [],
+			"families": [
+				"inanimate"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/thebeesknees_projectile.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:thebeesknees_projectile"
+			],
+			"animation_references": [],
+			"families": [
+				"inanimate"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/beenade.json": {
+			"events": [
+				"terrariamod:summon_bees"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:beenade"
+			],
+			"animation_references": [],
+			"families": [
+				"inanimate"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/nectar_minion.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:nectar_minion"
+			],
+			"animation_references": [],
+			"families": [
+				"phantom",
+				"undead",
+				"monster",
+				"mob"
+			],
+			"custom_commands": [],
+			"custom_components": []
 		}
 	},
 	"feature_rule": {
@@ -1836,12 +1980,27 @@
 		},
 		"BP/feature_rules/dungeon_featurerule.json": {
 			"identifiers": [
-				"minecraft:dungeon_featurerule"
+				"minecraft:beehive_featurerule"
 			]
 		},
 		"BP/feature_rules/cavernchest_featurerule.json": {
 			"identifiers": [
 				"minecraft:cavernchest_featurerule"
+			]
+		},
+		"BP/feature_rules/beehive_featurerule.json": {
+			"identifiers": [
+				"minecraft:beehive_featurerule"
+			]
+		},
+		"BP/feature_rules/junglespores_featurerule.json": {
+			"identifiers": [
+				"minecraft:junglespores_featurerule"
+			]
+		},
+		"BP/feature_rules/enchantedsword_featurerule.json": {
+			"identifiers": [
+				"minecraft:enchantedsword_featurerule"
 			]
 		}
 	},
@@ -1903,7 +2062,17 @@
 		},
 		"BP/features/dungeon_feature.json": {
 			"identifiers": [
-				"minecraft:dungeon_feature"
+				"minecraft:enchantedsword_feature"
+			]
+		},
+		"BP/features/beehive_feature.json": {
+			"identifiers": [
+				"minecraft:beehive_feature"
+			]
+		},
+		"BP/features/enchantedsword_feature.json": {
+			"identifiers": [
+				"minecraft:enchantedsword_feature"
 			]
 		}
 	},
@@ -2068,7 +2237,30 @@
 		"309e77c3_e558_4c75_bc94_6f30b7add8ab": {},
 		"aa80c69f_029d_426a_88cb_ca4c6c1d2fc4": {},
 		"c29cdef5_3b5f_4b0e_8d7c_b9ac8c50a565": {},
-		"df082465_61c4_4952_adb8_b9caa2a8fb70": {}
+		"df082465_61c4_4952_adb8_b9caa2a8fb70": {},
+		"0ef0f0b1_1c93_4d0d_b1c2_158d6720ace0": {},
+		"752af542_3bc9_40e6_a640_aa9cb2537797": {},
+		"9f37598a_a064_4d6b_bdd4_a4f6854c156a": {},
+		"cc0e1524_20cd_4cd5_acee_e590c304fe76": {},
+		"c7cfb9f6_c207_4f8e_809c_c375cb5c41e2": {},
+		"ff8657e9_f5ac_4f46_9170_5e855b703421": {},
+		"091226f5_f9e7_4b7d_bc31_374af02bd1d4": {},
+		"2007f9f0_f4b9_4ce9_b69f_f81a982fc163": {},
+		"9bce8b5e_6812_42bb_b8a5_989e0822efd1": {},
+		"234e8d34_cf27_4904_be0c_ce80e615904d": {},
+		"d6641bd2_80d0_40e4_8196_e8daa6ad4d9c": {},
+		"45fa148c_703e_4421_9061_54dcb9315198": {},
+		"c9df2920_da2b_4022_901c_3bd32615131a": {},
+		"72739511_66e3_47a7_89d5_1817893d8725": {},
+		"f24e4a0a_bc27_440d_9242_152a82bbaf55": {},
+		"72c4d24a_40db_4bd3_a5f1_b2102fb5120f": {},
+		"9727535c_48ac_4e48_9ea2_d97ab88dd0e3": {},
+		"32a2a5ac_90e1_47eb_ba76_3254e794e891": {},
+		"74f2a2c0_a804_47b2_9820_19639978b4eb": {},
+		"81f58682_6b0c_4cff_95a3_2fc37cf47ed4": {},
+		"b1d6b522_8cc6_467a_b068_0a68b60cf364": {},
+		"2f9256c6_18af_4fc5_8a47_a9e0f6d731b7": {},
+		"6f74d271_adcc_4645_9b48_4be806072337": {}
 	},
 	"rp_animation_controller": {
 		"RP/animation_controllers/devourer.animation.controller.json": {
@@ -2088,7 +2280,12 @@
 		},
 		"RP/animation_controllers/skeletron_head_stagetwo.animation.controller.json": {
 			"ids": [
-				"controller.animation.skeletron_head_stagetwo"
+				"controller.animation.queenbee"
+			]
+		},
+		"RP/animation_controllers/queenbee.animation.controller.json": {
+			"ids": [
+				"controller.animation.queenbee"
 			]
 		}
 	},
@@ -3028,7 +3225,7 @@
 		},
 		"RP/entity/beekeeper_bee.json": {
 			"identifiers": [
-				"terrariamod:beekeeper_bee"
+				"terrariamod:queenbee_bee"
 			],
 			"particle_references": [],
 			"animation_references": [
@@ -3232,7 +3429,303 @@
 		},
 		"RP/entity/woodenarrow_projectile.json": {
 			"identifiers": [
-				"terrariamod:woodenarrow_projectile"
+				"terrariamod:beenade"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"move"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/queenbee.json": {
+			"identifiers": [
+				"terrariamod:queenbee"
+			],
+			"particle_references": [
+				"wing_dust"
+			],
+			"animation_references": [
+				"move",
+				"swoop"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default",
+				"invisible"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/queenbee_bee.json": {
+			"identifiers": [
+				"terrariamod:queenbee_bee"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"humanoid_big_head",
+				"look_at_target_default",
+				"look_at_target_gliding",
+				"look_at_target_swimming",
+				"move",
+				"riding.arms",
+				"riding.legs",
+				"holding",
+				"brandish_spear",
+				"charging",
+				"attack.rotations",
+				"sneaking",
+				"bob",
+				"damage_nearby_mobs",
+				"bow_and_arrow",
+				"use_item_progress",
+				"zombie_attack_bare_hand",
+				"swimming"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/queenbee_projectile.json": {
+			"identifiers": [
+				"terrariamod:queenbee_projectile"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"move"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/thebeesknees_projectile.json": {
+			"identifiers": [
+				"terrariamod:thebeesknees_projectile"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"move"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/beenade.json": {
+			"identifiers": [
+				"terrariamod:beenade"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"move"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/nectar_minion.json": {
+			"identifiers": [
+				"terrariamod:nectar_minion"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"humanoid_big_head",
+				"look_at_target_default",
+				"look_at_target_gliding",
+				"look_at_target_swimming",
+				"move",
+				"riding.arms",
+				"riding.legs",
+				"holding",
+				"brandish_spear",
+				"charging",
+				"attack.rotations",
+				"sneaking",
+				"bob",
+				"damage_nearby_mobs",
+				"bow_and_arrow",
+				"use_item_progress",
+				"zombie_attack_bare_hand",
+				"swimming"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/eyeofcthulhu_stageone.json": {
+			"identifiers": [
+				"terrariamod:eyeofcthulhu_stageone"
+			],
+			"particle_references": [
+				"wing_dust"
+			],
+			"animation_references": [
+				"phantom_base_pose",
+				"move"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default",
+				"invisible"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/eyeofcthulhu_stagetwo.json": {
+			"identifiers": [
+				"terrariamod:eyeofcthulhu_stagetwo"
+			],
+			"particle_references": [
+				"wing_dust"
+			],
+			"animation_references": [
+				"phantom_base_pose",
+				"move"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default",
+				"invisible"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/brainofcthulhu_stageone.json": {
+			"identifiers": [
+				"terrariamod:brainofcthulhu_stageone"
+			],
+			"particle_references": [
+				"wing_dust"
+			],
+			"animation_references": [
+				"phantom_base_pose",
+				"move"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default",
+				"invisible"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/brainofcthulhu_stagetwo.json": {
+			"identifiers": [
+				"terrariamod:brainofcthulhu_stagetwo"
+			],
+			"particle_references": [
+				"wing_dust"
+			],
+			"animation_references": [
+				"phantom_base_pose",
+				"move"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default",
+				"invisible"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/demoneye.json": {
+			"identifiers": [
+				"terrariamod:demoneye"
 			],
 			"particle_references": [],
 			"animation_references": [
@@ -3523,6 +4016,15 @@
 	"sound_definition": {
 		"RP/sounds/sound_definitions.json": {
 			"ids": [
+				"bookofskulls.effect",
+				"twooden_door_open.effect",
+				"twooden_door_close.effect",
+				"bow.effect",
+				"minishark.effect",
+				"handgun.effect",
+				"phoenixblaster.effect",
+				"boomstick.effect",
+				"lifecrystal.effect",
 				"eyeofcthulhu.music",
 				"eyeofcthulhu.swoop",
 				"sporemob.death",
@@ -3555,7 +4057,8 @@
 				"mob.ash.beg",
 				"mob.ash.straymeow",
 				"mob.ash.purr",
-				"mob.ash.purreow"
+				"mob.ash.purreow",
+				"get_enchanted_sword.effect"
 			]
 		}
 	},
@@ -3679,6 +4182,11 @@
 			"tags": [
 				"bottle"
 			]
+		},
+		"BP/recipes/abeemination_recipe.json": {
+			"tags": [
+				"workbench"
+			]
 		}
 	},
 	"item": {
@@ -3738,7 +4246,7 @@
 		},
 		"BP/items/mushroom.json": {
 			"identifiers": [
-				"terrariamod:daybloom"
+				"terrariamod:mushroom"
 			],
 			"custom_commands": []
 		},
@@ -3846,7 +4354,7 @@
 		},
 		"BP/items/bottle.json": {
 			"identifiers": [
-				"terrariamod:bottle"
+				"terrariamod:bottle_honey"
 			],
 			"custom_commands": []
 		},
@@ -4062,7 +4570,7 @@
 		},
 		"BP/items/minishark.json": {
 			"identifiers": [
-				"terrariamod:minishark"
+				"terrariamod:beegun"
 			],
 			"custom_commands": []
 		},
@@ -4432,12 +4940,6 @@
 			],
 			"custom_commands": []
 		},
-		"BP/items/iceblade.json": {
-			"identifiers": [
-				"terrariamod:iceblade"
-			],
-			"custom_commands": []
-		},
 		"BP/items/starfury.json": {
 			"identifiers": [
 				"terrariamod:starfury"
@@ -4507,6 +5009,66 @@
 		"BP/items/bookofskulls.json": {
 			"identifiers": [
 				"terrariamod:bookofskulls"
+			],
+			"custom_commands": []
+		},
+		"BP/items/hi.json": {
+			"identifiers": [
+				"terrariamod:hi"
+			],
+			"custom_commands": []
+		},
+		"BP/items/empty_bucket.json": {
+			"identifiers": [
+				"terrariamod:empty_bucket"
+			],
+			"custom_commands": []
+		},
+		"BP/items/honey_bucket.json": {
+			"identifiers": [
+				"terrariamod:empty_bucket"
+			],
+			"custom_commands": []
+		},
+		"BP/items/bottle_honey.json": {
+			"identifiers": [
+				"terrariamod:bottle_honey"
+			],
+			"custom_commands": []
+		},
+		"BP/items/thebeesknees.json": {
+			"identifiers": [
+				"terrariamod:thebeesknees"
+			],
+			"custom_commands": []
+		},
+		"BP/items/beegun.json": {
+			"identifiers": [
+				"terrariamod:beegun"
+			],
+			"custom_commands": []
+		},
+		"BP/items/beenade.json": {
+			"identifiers": [
+				"terrariamod:beenade"
+			],
+			"custom_commands": []
+		},
+		"BP/items/nectar.json": {
+			"identifiers": [
+				"terrariamod:nectar"
+			],
+			"custom_commands": []
+		},
+		"BP/items/beewax.json": {
+			"identifiers": [
+				"terrariamod:beewax"
+			],
+			"custom_commands": []
+		},
+		"BP/items/abeemination.json": {
+			"identifiers": [
+				"terrariamod:abeemination"
 			],
 			"custom_commands": []
 		}

@@ -1,0 +1,90 @@
+{
+	"file_path": "C:\\Users\\LANCE.LEGAUX\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\TerrariaMoBP\\features\\enchantedsword_feature.json",
+	"file_type": "feature",
+	"format_version": 1,
+	"file_uuid": "ec6c1550_4c9d_473c_afa2_c950bbd8b8ea",
+	"file_version": 17,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.13.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.13.0",
+					"minecraft:single_block_feature": {
+						"description": {
+							"identifier": "minecraft:enchantedsword_feature"
+						},
+						"places_block": "terrariamod:enchantedsword_block",
+						"may_replace": [
+							{
+								"name": "minecraft:air"
+							}
+						],
+						"enforce_survivability_rules": true,
+						"enforce_placement_rules": true
+					}
+				},
+				"key": "minecraft:single_block_feature",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "minecraft:enchantedsword_feature"
+							},
+							"places_block": "terrariamod:enchantedsword_block",
+							"may_replace": [
+								{
+									"name": "minecraft:air"
+								}
+							],
+							"enforce_survivability_rules": true,
+							"enforce_placement_rules": true
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "minecraft:enchantedsword_feature"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "minecraft:enchantedsword_feature"
+							},
+							"places_block": "terrariamod:enchantedsword_block",
+							"may_replace": [
+								{
+									"name": "minecraft:air"
+								}
+							],
+							"enforce_survivability_rules": true,
+							"enforce_placement_rules": true
+						},
+						"data": "terrariamod:enchantedsword_block",
+						"key": "places_block"
+					},
+					{
+						"key": "may_replace",
+						"is_minified": true,
+						"children": [
+							{
+								"name": "minecraft:air"
+							}
+						]
+					},
+					{
+						"data": "true",
+						"key": "enforce_survivability_rules"
+					},
+					{
+						"data": "true",
+						"key": "enforce_placement_rules"
+					}
+				]
+			}
+		]
+	}
+}

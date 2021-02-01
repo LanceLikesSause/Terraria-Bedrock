@@ -1,3 +1,4 @@
+//bridge-file-version: #8
 {
 	"resource_pack_name": "TerrariaModLLS",
 	"texture_name": "atlas.items",
@@ -649,8 +650,50 @@
 				"textures/items/purity_torch"
 			]
 		},
-		"terrariamod_hi": {
-			"textures": "textures/items/hi"
+		"terrariamod:empty_bucket": {
+			"textures": [
+				"textures/items/empty_bucket"
+			]
+		},
+		"terrariamod:honey_bucket": {
+			"textures": [
+				"textures/items/honey_bucket"
+			]
+		},
+		"terrariamod:bottle_honey": {
+			"textures": [
+				"textures/items/potions/bottle_honey"
+			]
+		},
+		"terrariamod:thebeesknees": {
+			"textures": [
+				"textures/items/guns/thebeesknees"
+			]
+		},
+		"terrariamod:beegun": {
+			"textures": [
+				"textures/items/guns/bee_gun"
+			]
+		},
+		"terrariamod:beenade": {
+			"textures": [
+				"textures/items/guns/beenade"
+			]
+		},
+		"terrariamod:nectar": {
+			"textures": [
+				"textures/items/weapons/nectar"
+			]
+		},
+		"terrariamod:beewax": {
+			"textures": [
+				"textures/items/pamobile/beewax"
+			]
+		},
+		"terrariamod:abeemination": {
+			"textures": [
+				"textures/items/pamobile/abeemination"
+			]
 		}
 	}
 }

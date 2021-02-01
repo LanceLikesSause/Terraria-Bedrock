@@ -1,0 +1,33 @@
+//bridge-file-version: #10
+{
+	"format_version": "1.13.0",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "terrariamod:abeemination_recipe"
+		},
+		"tags": [
+			"workbench"
+		],
+		"ingredients": [
+			{
+				"item": "terrariamod:honey_bucket",
+				"count": 3
+			},
+			{
+				"item": "terrariamod:hive_block",
+				"count": 3
+			},
+			{
+				"item": "terrariamod:stinger"
+			},
+			{
+				"item": "terrariamod:bottle_honey"
+			}
+		],
+		"result": [
+			{
+				"item": "terrariamod:abeemination"
+			}
+		]
+	}
+}

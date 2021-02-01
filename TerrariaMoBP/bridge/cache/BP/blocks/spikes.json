@@ -2,8 +2,8 @@
 	"file_path": "C:\\Users\\LANCE.LEGAUX\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\TerrariaMoBP\\blocks\\spikes.json",
 	"file_type": "block",
 	"format_version": 1,
-	"file_uuid": "df082465_61c4_4952_adb8_b9caa2a8fb70",
-	"file_version": 30,
+	"file_uuid": "f24e4a0a_bc27_440d_9242_152a82bbaf55",
+	"file_version": 31,
 	"cache_content": {
 		"children": [
 			{
@@ -77,7 +77,7 @@
 							"terrariamod:walk": {
 								"run_command": {
 									"command": [
-										"effect @p instant_damage 1 2"
+										"effect @p[r=1] instant_damage 1 2"
 									]
 								}
 							},
@@ -213,7 +213,7 @@
 								"terrariamod:walk": {
 									"run_command": {
 										"command": [
-											"effect @p instant_damage 1 2"
+											"effect @p[r=1] instant_damage 1 2"
 										]
 									}
 								},
@@ -469,7 +469,7 @@
 								"terrariamod:walk": {
 									"run_command": {
 										"command": [
-											"effect @p instant_damage 1 2"
+											"effect @p[r=1] instant_damage 1 2"
 										]
 									}
 								},
@@ -529,7 +529,7 @@
 									"terrariamod:walk": {
 										"run_command": {
 											"command": [
-												"effect @p instant_damage 1 2"
+												"effect @p[r=1] instant_damage 1 2"
 											]
 										}
 									},
@@ -540,30 +540,34 @@
 									}
 								},
 								"key": "terrariamod:walk",
-								"is_minified": true,
-								"children": {
-									"run_command": {
-										"command": [
-											"effect @p instant_damage 1 2"
+								"children": [
+									{
+										"open": {
+											"run_command": {
+												"command": [
+													"effect @p[r=1] instant_damage 1 2"
+												]
+											}
+										},
+										"key": "run_command",
+										"children": [
+											{
+												"open": {
+													"command": [
+														"effect @p[r=1] instant_damage 1 2"
+													]
+												},
+												"key": "command",
+												"is_minified": true,
+												"children": [
+													"effect @p[r=1] instant_damage 1 2"
+												]
+											}
 										]
 									}
-								}
+								]
 							},
 							{
-								"open": {
-									"terrariamod:walk": {
-										"run_command": {
-											"command": [
-												"effect @p instant_damage 1 2"
-											]
-										}
-									},
-									"terrariamod:rotate": {
-										"set_block_property": {
-											"terrariamod:facing": "query.cardinal_facing_2d-2"
-										}
-									}
-								},
 								"key": "terrariamod:rotate",
 								"is_minified": true,
 								"children": {
@@ -576,141 +580,46 @@
 					},
 					{
 						"key": "permutations",
+						"is_minified": true,
 						"children": [
 							{
-								"open": [
-									{
-										"condition": "query.block_property('terrariamod:facing') == 0",
-										"components": {
-											"minecraft:rotation": [
-												0,
-												180,
-												0
-											]
-										}
-									},
-									{
-										"condition": "query.block_property('terrariamod:facing') == 1",
-										"components": {
-											"minecraft:rotation": [
-												0,
-												0,
-												0
-											]
-										}
-									},
-									{
-										"condition": "query.block_property('terrariamod:facing') == 2",
-										"components": {
-											"minecraft:rotation": [
-												0,
-												270,
-												0
-											]
-										}
-									},
-									{
-										"condition": "query.block_property('terrariamod:facing') == 3",
-										"components": {
-											"minecraft:rotation": [
-												0,
-												90,
-												0
-											]
-										}
-									}
-								],
-								"is_minified": true,
-								"children": {
-									"condition": "query.block_property('terrariamod:facing') == 0",
-									"components": {
-										"minecraft:rotation": [
-											0,
-											180,
-											0
-										]
-									}
+								"condition": "query.block_property('terrariamod:facing') == 0",
+								"components": {
+									"minecraft:rotation": [
+										0,
+										180,
+										0
+									]
 								}
 							},
 							{
-								"open": [
-									{
-										"condition": "query.block_property('terrariamod:facing') == 0",
-										"components": {
-											"minecraft:rotation": [
-												0,
-												180,
-												0
-											]
-										}
-									},
-									{
-										"condition": "query.block_property('terrariamod:facing') == 1",
-										"components": {
-											"minecraft:rotation": [
-												0,
-												0,
-												0
-											]
-										}
-									},
-									{
-										"condition": "query.block_property('terrariamod:facing') == 2",
-										"components": {
-											"minecraft:rotation": [
-												0,
-												270,
-												0
-											]
-										}
-									},
-									{
-										"condition": "query.block_property('terrariamod:facing') == 3",
-										"components": {
-											"minecraft:rotation": [
-												0,
-												90,
-												0
-											]
-										}
-									}
-								],
-								"is_minified": true,
-								"children": {
-									"condition": "query.block_property('terrariamod:facing') == 1",
-									"components": {
-										"minecraft:rotation": [
-											0,
-											0,
-											0
-										]
-									}
+								"condition": "query.block_property('terrariamod:facing') == 1",
+								"components": {
+									"minecraft:rotation": [
+										0,
+										0,
+										0
+									]
 								}
 							},
 							{
-								"is_minified": true,
-								"children": {
-									"condition": "query.block_property('terrariamod:facing') == 2",
-									"components": {
-										"minecraft:rotation": [
-											0,
-											270,
-											0
-										]
-									}
+								"condition": "query.block_property('terrariamod:facing') == 2",
+								"components": {
+									"minecraft:rotation": [
+										0,
+										270,
+										0
+									]
 								}
 							},
 							{
-								"is_minified": true,
-								"children": {
-									"condition": "query.block_property('terrariamod:facing') == 3",
-									"components": {
-										"minecraft:rotation": [
-											0,
-											90,
-											0
-										]
-									}
+								"condition": "query.block_property('terrariamod:facing') == 3",
+								"components": {
+									"minecraft:rotation": [
+										0,
+										90,
+										0
+									]
 								}
 							}
 						]

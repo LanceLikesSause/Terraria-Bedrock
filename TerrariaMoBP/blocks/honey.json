@@ -1,0 +1,68 @@
+//bridge-file-version: #63
+{
+	"format_version": "1.16.200",
+	"minecraft:block": {
+		"description": {
+			"identifier": "terrariamod:honey"
+		},
+		"components": {
+			"minecraft:destroy_time": 99999,
+			"minecraft:breathability": "solid",
+			"minecraft:on_step_on": {
+				"event": "terrariamod:regen"
+			},
+			"minecraft:entity_collision": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					8,
+					16
+				]
+			},
+			"minecraft:on_interact": {
+				"event": "terrariamod:interaction"
+			}
+		},
+		"events": {
+			"terrariamod:interaction": {
+				"sequence": [
+					{
+						"condition": "query.get_equipped_item_name=='empty_bucket'",
+						"run_command": {
+							"command": [
+								"gamerule sendcommandfeedback false",
+								"setblock ~~~ air",
+								"give @p terrariamod:honey_bucket",
+								"clear @p terrariamod:empty_bucket 0 1",
+								"gamerule sendcommandfeedback true"
+							]
+						}
+					},
+					{
+						"condition": "query.get_equipped_item_name=='bottle'",
+						"run_command": {
+							"command": [
+								"gamerule sendcommandfeedback false",
+								"give @p terrariamod:bottle_honey",
+								"clear @p terrariamod:bottle 0 1",
+								"gamerule sendcommandfeedback true"
+							]
+						}
+					}
+				]
+			},
+			"terrariamod:regen": {
+				"add_mob_effect": {
+					"target": "self",
+					"effect": "regeneration",
+					"amplifier": 2,
+					"duration": 30
+				}
+			}
+		}
+	}
+}

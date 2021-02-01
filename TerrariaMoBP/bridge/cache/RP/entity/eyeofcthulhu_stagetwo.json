@@ -1,0 +1,205 @@
+{
+	"file_path": "C:\\Users\\LANCE.LEGAUX\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\TerrariaMoRP\\entity\\eyeofcthulhu_stagetwo.json",
+	"file_type": "client_entity",
+	"format_version": 1,
+	"file_uuid": "9dd6c95c_b4c7_4dd7_aa9c_26009c14173b",
+	"file_version": 5,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.8.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.8.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "terrariamod:eyeofcthulhu_stagetwo",
+							"materials": {
+								"default": "phantom",
+								"invisible": "phantom_invisible"
+							},
+							"textures": {
+								"default": "textures/entity/pamobile/eyeofcthulhu_stagetwo"
+							},
+							"geometry": {
+								"default": "geometry.eyeofcthulhu_stagetwo"
+							},
+							"animations": {
+								"phantom_base_pose": "animation.phantom.base_pose",
+								"move": "animation.eyeofcthulhu_stageone.fly"
+							},
+							"animation_controllers": [
+								{
+									"phantom_base_pose": "controller.animation.phantom.base_pose"
+								},
+								{
+									"move": "controller.animation.phantom.move"
+								}
+							],
+							"particle_effects": {
+								"wing_dust": "minecraft:phantom_trail_particle"
+							},
+							"render_controllers": [
+								"controller.render.phantom"
+							],
+							"spawn_egg": {
+								"base_color": "#FFFFFF",
+								"overlay_color": "#6A0000"
+							}
+						}
+					}
+				},
+				"key": "minecraft:client_entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:eyeofcthulhu_stagetwo",
+								"materials": {
+									"default": "phantom",
+									"invisible": "phantom_invisible"
+								},
+								"textures": {
+									"default": "textures/entity/pamobile/eyeofcthulhu_stagetwo"
+								},
+								"geometry": {
+									"default": "geometry.eyeofcthulhu_stagetwo"
+								},
+								"animations": {
+									"phantom_base_pose": "animation.phantom.base_pose",
+									"move": "animation.eyeofcthulhu_stageone.fly"
+								},
+								"animation_controllers": [
+									{
+										"phantom_base_pose": "controller.animation.phantom.base_pose"
+									},
+									{
+										"move": "controller.animation.phantom.move"
+									}
+								],
+								"particle_effects": {
+									"wing_dust": "minecraft:phantom_trail_particle"
+								},
+								"render_controllers": [
+									"controller.render.phantom"
+								],
+								"spawn_egg": {
+									"base_color": "#FFFFFF",
+									"overlay_color": "#6A0000"
+								}
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"data": "terrariamod:eyeofcthulhu_stagetwo",
+								"key": "identifier"
+							},
+							{
+								"open": {
+									"identifier": "terrariamod:eyeofcthulhu_stagetwo",
+									"materials": {
+										"default": "phantom",
+										"invisible": "phantom_invisible"
+									},
+									"textures": {
+										"default": "textures/entity/pamobile/eyeofcthulhu_stagetwo"
+									},
+									"geometry": {
+										"default": "geometry.eyeofcthulhu_stagetwo"
+									},
+									"animations": {
+										"phantom_base_pose": "animation.phantom.base_pose",
+										"move": "animation.eyeofcthulhu_stageone.fly"
+									},
+									"animation_controllers": [
+										{
+											"phantom_base_pose": "controller.animation.phantom.base_pose"
+										},
+										{
+											"move": "controller.animation.phantom.move"
+										}
+									],
+									"particle_effects": {
+										"wing_dust": "minecraft:phantom_trail_particle"
+									},
+									"render_controllers": [
+										"controller.render.phantom"
+									],
+									"spawn_egg": {
+										"base_color": "#FFFFFF",
+										"overlay_color": "#6A0000"
+									}
+								},
+								"key": "materials",
+								"is_minified": true,
+								"children": {
+									"default": "phantom",
+									"invisible": "phantom_invisible"
+								}
+							},
+							{
+								"key": "textures",
+								"is_minified": true,
+								"children": {
+									"default": "textures/entity/pamobile/eyeofcthulhu_stagetwo"
+								}
+							},
+							{
+								"key": "geometry",
+								"is_minified": true,
+								"children": {
+									"default": "geometry.eyeofcthulhu_stagetwo"
+								}
+							},
+							{
+								"key": "animations",
+								"is_minified": true,
+								"children": {
+									"phantom_base_pose": "animation.phantom.base_pose",
+									"move": "animation.eyeofcthulhu_stageone.fly"
+								}
+							},
+							{
+								"key": "animation_controllers",
+								"is_minified": true,
+								"children": [
+									{
+										"phantom_base_pose": "controller.animation.phantom.base_pose"
+									},
+									{
+										"move": "controller.animation.phantom.move"
+									}
+								]
+							},
+							{
+								"key": "particle_effects",
+								"is_minified": true,
+								"children": {
+									"wing_dust": "minecraft:phantom_trail_particle"
+								}
+							},
+							{
+								"key": "render_controllers",
+								"is_minified": true,
+								"children": [
+									"controller.render.phantom"
+								]
+							},
+							{
+								"key": "spawn_egg",
+								"is_minified": true,
+								"children": {
+									"base_color": "#FFFFFF",
+									"overlay_color": "#6A0000"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

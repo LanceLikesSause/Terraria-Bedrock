@@ -1,4 +1,4 @@
-//bridge-file-version: #16
+//bridge-file-version: #19
 {
 	"format_version": "1.16.0",
 	"minecraft:entity": {
@@ -8,7 +8,13 @@
 			"is_summonable": true,
 			"is_experimental": false
 		},
-		"component_groups": {},
+		"component_groups": {
+			"terrariamod:despawn": {
+				"minecraft:instant_despawn": {
+					"remove_child_entities": true
+				}
+			}
+		},
 		"components": {
 			"minecraft:type_family": {
 				"family": [
@@ -163,8 +169,26 @@
 			"minecraft:boss": {
 				"hud_range": 100,
 				"name": "The Eater of Worlds"
+			},
+			"minecraft:environment_sensor": {
+				"triggers": {
+					"filters": {
+						"test": "has_biome_tag",
+						"operator": "!=",
+						"value": "corruption"
+					},
+					"event": "terrariamod:despawn_entity"
+				}
 			}
 		},
-		"events": {}
+		"events": {
+			"terrariamod:despawn_entity": {
+				"add": {
+					"component_groups": [
+						"terrariamod:despawn"
+					]
+				}
+			}
+		}
 	}
 }

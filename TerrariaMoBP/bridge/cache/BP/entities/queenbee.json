@@ -1,0 +1,1612 @@
+{
+	"file_path": "C:\\Users\\LANCE.LEGAUX\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\TerrariaMoBP\\entities\\queenbee.json",
+	"file_type": "entity",
+	"format_version": 1,
+	"file_uuid": "0955c0f7_2302_4475_a2f9_90f38d3dcd60",
+	"file_version": 69,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.0",
+					"minecraft:entity": {
+						"description": {
+							"identifier": "terrariamod:queenbee",
+							"is_spawnable": true,
+							"is_summonable": true,
+							"is_experimental": false
+						},
+						"component_groups": {
+							"terrariamod:ram": {
+								"minecraft:behavior.swoop_attack": {
+									"priority": 2,
+									"damage_reach": 2.5,
+									"speed_multiplier": 30,
+									"delay_range": [
+										3,
+										3
+									]
+								}
+							},
+							"terrariamod:summon": {
+								"minecraft:spawn_entity": {
+									"entities": [
+										{
+											"min_wait_time": 5,
+											"max_wait_time": 10,
+											"spawn_entity": "terrariamod:queenbee_bee"
+										}
+									]
+								}
+							},
+							"terrariamod:posion": {
+								"minecraft:shooter": {
+									"def": "terrariamod:queenbee_projectile"
+								}
+							}
+						},
+						"components": {
+							"minecraft:type_family": {
+								"family": [
+									"terraria_players_enemy"
+								]
+							},
+							"minecraft:loot": {
+								"table": "loot_tables/entities/queenbee.json"
+							},
+							"minecraft:health": {
+								"value": 3400,
+								"max": 3400
+							},
+							"minecraft:hurt_on_condition": {
+								"damage_conditions": [
+									{
+										"filters": {
+											"test": "in_lava",
+											"subject": "self",
+											"operator": "==",
+											"value": true
+										},
+										"cause": "lava",
+										"damage_per_tick": 4
+									}
+								]
+							},
+							"minecraft:physics": {
+								"has_gravity": false,
+								"has_collision": false
+							},
+							"minecraft:attack": {
+								"damage": 30
+							},
+							"minecraft:breathable": {
+								"total_supply": 15,
+								"suffocate_time": 0,
+								"breathes_air": true,
+								"breathes_water": false
+							},
+							"minecraft:collision_box": {
+								"width": 1,
+								"height": 1
+							},
+							"minecraft:movement": {
+								"value": 16
+							},
+							"minecraft:movement.glide": {
+								"start_speed": 0.1,
+								"speed_when_turning": 0.2
+							},
+							"minecraft:follow_range": {
+								"value": 64,
+								"max": 64
+							},
+							"minecraft:behavior.nearest_attackable_target": {
+								"priority": 1,
+								"reselect_targets": true,
+								"scan_interval": 20,
+								"within_radius": 120,
+								"target_search_height": 80,
+								"entity_types": [
+									{
+										"filters": {
+											"test": "is_family",
+											"subject": "other",
+											"value": "player"
+										},
+										"max_dist": 64
+									},
+									{
+										"filters": {
+											"test": "is_family",
+											"subject": "other",
+											"value": "villager"
+										},
+										"max_dist": 64
+									}
+								],
+								"must_see": false,
+								"must_reach": false
+							},
+							"minecraft:behavior.circle_around_anchor": {
+								"priority": 3,
+								"radius_change": 1,
+								"radius_adjustment_chance": 0.004,
+								"height_adjustment_chance": 0.002857,
+								"goal_radius": 1,
+								"angle_change": 15,
+								"radius_range": [
+									5,
+									15
+								],
+								"height_offset_range": [
+									-4,
+									5
+								],
+								"height_above_target_range": [
+									3,
+									5
+								]
+							},
+							"minecraft:boss": {
+								"name": "The Queen Bee",
+								"hud_range": 56
+							},
+							"minecraft:scale": {
+								"value": 5
+							},
+							"minecraft:timer": {
+								"looping": true,
+								"time": [
+									3,
+									3
+								],
+								"time_down_event": {
+									"event": "terrariamod:switch_attack"
+								}
+							}
+						},
+						"events": {
+							"terrariamod:switch_attack": {
+								"randomize": [
+									{
+										"weight": 1,
+										"add": {
+											"component_groups": [
+												"terrariamod:ram"
+											]
+										}
+									},
+									{
+										"weight": 1,
+										"add": {
+											"component_groups": [
+												"terrariamod:summon"
+											]
+										}
+									},
+									{
+										"weight": 1,
+										"add": {
+											"component_groups": [
+												"terrariamod:posion"
+											]
+										}
+									}
+								]
+							}
+						}
+					}
+				},
+				"key": "minecraft:entity",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:queenbee",
+							"is_spawnable": true,
+							"is_summonable": true,
+							"is_experimental": false
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:queenbee",
+								"is_spawnable": true,
+								"is_summonable": true,
+								"is_experimental": false
+							},
+							"component_groups": {
+								"terrariamod:ram": {
+									"minecraft:behavior.swoop_attack": {
+										"priority": 2,
+										"damage_reach": 2.5,
+										"speed_multiplier": 30,
+										"delay_range": [
+											3,
+											3
+										]
+									}
+								},
+								"terrariamod:summon": {
+									"minecraft:spawn_entity": {
+										"entities": [
+											{
+												"min_wait_time": 5,
+												"max_wait_time": 10,
+												"spawn_entity": "terrariamod:queenbee_bee"
+											}
+										]
+									}
+								},
+								"terrariamod:posion": {
+									"minecraft:shooter": {
+										"def": "terrariamod:queenbee_projectile"
+									}
+								}
+							},
+							"components": {
+								"minecraft:type_family": {
+									"family": [
+										"terraria_players_enemy"
+									]
+								},
+								"minecraft:loot": {
+									"table": "loot_tables/entities/queenbee.json"
+								},
+								"minecraft:health": {
+									"value": 3400,
+									"max": 3400
+								},
+								"minecraft:hurt_on_condition": {
+									"damage_conditions": [
+										{
+											"filters": {
+												"test": "in_lava",
+												"subject": "self",
+												"operator": "==",
+												"value": true
+											},
+											"cause": "lava",
+											"damage_per_tick": 4
+										}
+									]
+								},
+								"minecraft:physics": {
+									"has_gravity": false,
+									"has_collision": false
+								},
+								"minecraft:attack": {
+									"damage": 30
+								},
+								"minecraft:breathable": {
+									"total_supply": 15,
+									"suffocate_time": 0,
+									"breathes_air": true,
+									"breathes_water": false
+								},
+								"minecraft:collision_box": {
+									"width": 1,
+									"height": 1
+								},
+								"minecraft:movement": {
+									"value": 16
+								},
+								"minecraft:movement.glide": {
+									"start_speed": 0.1,
+									"speed_when_turning": 0.2
+								},
+								"minecraft:follow_range": {
+									"value": 64,
+									"max": 64
+								},
+								"minecraft:behavior.nearest_attackable_target": {
+									"priority": 1,
+									"reselect_targets": true,
+									"scan_interval": 20,
+									"within_radius": 120,
+									"target_search_height": 80,
+									"entity_types": [
+										{
+											"filters": {
+												"test": "is_family",
+												"subject": "other",
+												"value": "player"
+											},
+											"max_dist": 64
+										},
+										{
+											"filters": {
+												"test": "is_family",
+												"subject": "other",
+												"value": "villager"
+											},
+											"max_dist": 64
+										}
+									],
+									"must_see": false,
+									"must_reach": false
+								},
+								"minecraft:behavior.circle_around_anchor": {
+									"priority": 3,
+									"radius_change": 1,
+									"radius_adjustment_chance": 0.004,
+									"height_adjustment_chance": 0.002857,
+									"goal_radius": 1,
+									"angle_change": 15,
+									"radius_range": [
+										5,
+										15
+									],
+									"height_offset_range": [
+										-4,
+										5
+									],
+									"height_above_target_range": [
+										3,
+										5
+									]
+								},
+								"minecraft:boss": {
+									"name": "The Queen Bee",
+									"hud_range": 56
+								},
+								"minecraft:scale": {
+									"value": 5
+								},
+								"minecraft:timer": {
+									"looping": true,
+									"time": [
+										3,
+										3
+									],
+									"time_down_event": {
+										"event": "terrariamod:switch_attack"
+									}
+								}
+							},
+							"events": {
+								"terrariamod:switch_attack": {
+									"randomize": [
+										{
+											"weight": 1,
+											"add": {
+												"component_groups": [
+													"terrariamod:ram"
+												]
+											}
+										},
+										{
+											"weight": 1,
+											"add": {
+												"component_groups": [
+													"terrariamod:summon"
+												]
+											}
+										},
+										{
+											"weight": 1,
+											"add": {
+												"component_groups": [
+													"terrariamod:posion"
+												]
+											}
+										}
+									]
+								}
+							}
+						},
+						"key": "component_groups",
+						"children": [
+							{
+								"open": {
+									"terrariamod:ram": {
+										"minecraft:behavior.swoop_attack": {
+											"priority": 2,
+											"damage_reach": 2.5,
+											"speed_multiplier": 30,
+											"delay_range": [
+												3,
+												3
+											]
+										}
+									},
+									"terrariamod:summon": {
+										"minecraft:spawn_entity": {
+											"entities": [
+												{
+													"min_wait_time": 5,
+													"max_wait_time": 10,
+													"spawn_entity": "terrariamod:queenbee_bee"
+												}
+											]
+										}
+									},
+									"terrariamod:posion": {
+										"minecraft:shooter": {
+											"def": "terrariamod:queenbee_projectile"
+										}
+									}
+								},
+								"key": "terrariamod:ram",
+								"children": [
+									{
+										"key": "minecraft:behavior.swoop_attack",
+										"children": [
+											{
+												"data": "2",
+												"key": "priority"
+											},
+											{
+												"data": "2.5",
+												"key": "damage_reach"
+											},
+											{
+												"data": "30",
+												"key": "speed_multiplier"
+											},
+											{
+												"open": {
+													"priority": 2,
+													"damage_reach": 2.5,
+													"speed_multiplier": 30,
+													"delay_range": [
+														3,
+														3
+													]
+												},
+												"key": "delay_range",
+												"is_minified": true,
+												"children": [
+													3,
+													3
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": {
+									"terrariamod:ram": {
+										"minecraft:behavior.swoop_attack": {
+											"priority": 2,
+											"damage_reach": 2.5,
+											"speed_multiplier": 30,
+											"delay_range": [
+												3,
+												3
+											]
+										}
+									},
+									"terrariamod:summon": {
+										"minecraft:spawn_entity": {
+											"entities": [
+												{
+													"min_wait_time": 5,
+													"max_wait_time": 10,
+													"spawn_entity": "terrariamod:queenbee_bee"
+												}
+											]
+										}
+									},
+									"terrariamod:posion": {
+										"minecraft:shooter": {
+											"def": "terrariamod:queenbee_projectile"
+										}
+									}
+								},
+								"key": "terrariamod:summon",
+								"is_minified": true,
+								"children": {
+									"minecraft:spawn_entity": {
+										"entities": [
+											{
+												"min_wait_time": 5,
+												"max_wait_time": 10,
+												"spawn_entity": "terrariamod:queenbee_bee"
+											}
+										]
+									}
+								}
+							},
+							{
+								"open": {
+									"terrariamod:ram": {
+										"minecraft:behavior.swoop_attack": {
+											"priority": 2,
+											"damage_reach": 2.5,
+											"speed_multiplier": 30,
+											"delay_range": [
+												3,
+												3
+											]
+										}
+									},
+									"terrariamod:summon": {
+										"minecraft:spawn_entity": {
+											"entities": [
+												{
+													"min_wait_time": 5,
+													"max_wait_time": 10,
+													"spawn_entity": "terrariamod:queenbee_bee"
+												}
+											]
+										}
+									},
+									"terrariamod:posion": {
+										"minecraft:shooter": {
+											"def": "terrariamod:queenbee_projectile"
+										}
+									}
+								},
+								"key": "terrariamod:posion",
+								"is_minified": true,
+								"children": {
+									"minecraft:shooter": {
+										"def": "terrariamod:queenbee_projectile"
+									}
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:queenbee",
+								"is_spawnable": true,
+								"is_summonable": true,
+								"is_experimental": false
+							},
+							"component_groups": {
+								"terrariamod:ram": {
+									"minecraft:behavior.swoop_attack": {
+										"priority": 2,
+										"damage_reach": 2.5,
+										"speed_multiplier": 30,
+										"delay_range": [
+											3,
+											3
+										]
+									}
+								},
+								"terrariamod:summon": {
+									"minecraft:spawn_entity": {
+										"entities": [
+											{
+												"min_wait_time": 5,
+												"max_wait_time": 10,
+												"spawn_entity": "terrariamod:queenbee_bee"
+											}
+										]
+									}
+								},
+								"terrariamod:posion": {
+									"minecraft:shooter": {
+										"def": "terrariamod:queenbee_projectile"
+									}
+								}
+							},
+							"components": {
+								"minecraft:type_family": {
+									"family": [
+										"terraria_players_enemy"
+									]
+								},
+								"minecraft:loot": {
+									"table": "loot_tables/entities/queenbee.json"
+								},
+								"minecraft:health": {
+									"value": 3400,
+									"max": 3400
+								},
+								"minecraft:hurt_on_condition": {
+									"damage_conditions": [
+										{
+											"filters": {
+												"test": "in_lava",
+												"subject": "self",
+												"operator": "==",
+												"value": true
+											},
+											"cause": "lava",
+											"damage_per_tick": 4
+										}
+									]
+								},
+								"minecraft:physics": {
+									"has_gravity": false,
+									"has_collision": false
+								},
+								"minecraft:attack": {
+									"damage": 30
+								},
+								"minecraft:breathable": {
+									"total_supply": 15,
+									"suffocate_time": 0,
+									"breathes_air": true,
+									"breathes_water": false
+								},
+								"minecraft:collision_box": {
+									"width": 1,
+									"height": 1
+								},
+								"minecraft:movement": {
+									"value": 16
+								},
+								"minecraft:movement.glide": {
+									"start_speed": 0.1,
+									"speed_when_turning": 0.2
+								},
+								"minecraft:follow_range": {
+									"value": 64,
+									"max": 64
+								},
+								"minecraft:behavior.nearest_attackable_target": {
+									"priority": 1,
+									"reselect_targets": true,
+									"scan_interval": 20,
+									"within_radius": 120,
+									"target_search_height": 80,
+									"entity_types": [
+										{
+											"filters": {
+												"test": "is_family",
+												"subject": "other",
+												"value": "player"
+											},
+											"max_dist": 64
+										},
+										{
+											"filters": {
+												"test": "is_family",
+												"subject": "other",
+												"value": "villager"
+											},
+											"max_dist": 64
+										}
+									],
+									"must_see": false,
+									"must_reach": false
+								},
+								"minecraft:behavior.circle_around_anchor": {
+									"priority": 3,
+									"radius_change": 1,
+									"radius_adjustment_chance": 0.004,
+									"height_adjustment_chance": 0.002857,
+									"goal_radius": 1,
+									"angle_change": 15,
+									"radius_range": [
+										5,
+										15
+									],
+									"height_offset_range": [
+										-4,
+										5
+									],
+									"height_above_target_range": [
+										3,
+										5
+									]
+								},
+								"minecraft:boss": {
+									"name": "The Queen Bee",
+									"hud_range": 56
+								},
+								"minecraft:scale": {
+									"value": 5
+								},
+								"minecraft:timer": {
+									"looping": true,
+									"time": [
+										3,
+										3
+									],
+									"time_down_event": {
+										"event": "terrariamod:switch_attack"
+									}
+								}
+							},
+							"events": {
+								"terrariamod:switch_attack": {
+									"randomize": [
+										{
+											"weight": 1,
+											"add": {
+												"component_groups": [
+													"terrariamod:ram"
+												]
+											}
+										},
+										{
+											"weight": 1,
+											"add": {
+												"component_groups": [
+													"terrariamod:summon"
+												]
+											}
+										},
+										{
+											"weight": 1,
+											"add": {
+												"component_groups": [
+													"terrariamod:posion"
+												]
+											}
+										}
+									]
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"key": "minecraft:type_family",
+								"is_minified": true,
+								"children": {
+									"family": [
+										"terraria_players_enemy"
+									]
+								}
+							},
+							{
+								"key": "minecraft:loot",
+								"is_minified": true,
+								"children": {
+									"table": "loot_tables/entities/queenbee.json"
+								}
+							},
+							{
+								"key": "minecraft:health",
+								"is_minified": true,
+								"children": {
+									"value": 3400,
+									"max": 3400
+								}
+							},
+							{
+								"key": "minecraft:hurt_on_condition",
+								"is_minified": true,
+								"children": {
+									"damage_conditions": [
+										{
+											"filters": {
+												"test": "in_lava",
+												"subject": "self",
+												"operator": "==",
+												"value": true
+											},
+											"cause": "lava",
+											"damage_per_tick": 4
+										}
+									]
+								}
+							},
+							{
+								"key": "minecraft:physics",
+								"is_minified": true,
+								"children": {
+									"has_gravity": false,
+									"has_collision": false
+								}
+							},
+							{
+								"key": "minecraft:attack",
+								"is_minified": true,
+								"children": {
+									"damage": 30
+								}
+							},
+							{
+								"key": "minecraft:breathable",
+								"is_minified": true,
+								"children": {
+									"total_supply": 15,
+									"suffocate_time": 0,
+									"breathes_air": true,
+									"breathes_water": false
+								}
+							},
+							{
+								"key": "minecraft:collision_box",
+								"is_minified": true,
+								"children": {
+									"width": 1,
+									"height": 1
+								}
+							},
+							{
+								"key": "minecraft:movement",
+								"is_minified": true,
+								"children": {
+									"value": 16
+								}
+							},
+							{
+								"key": "minecraft:movement.glide",
+								"is_minified": true,
+								"children": {
+									"start_speed": 0.1,
+									"speed_when_turning": 0.2
+								}
+							},
+							{
+								"key": "minecraft:follow_range",
+								"is_minified": true,
+								"children": {
+									"value": 64,
+									"max": 64
+								}
+							},
+							{
+								"key": "minecraft:behavior.nearest_attackable_target",
+								"is_minified": true,
+								"children": {
+									"priority": 1,
+									"reselect_targets": true,
+									"scan_interval": 20,
+									"within_radius": 120,
+									"target_search_height": 80,
+									"entity_types": [
+										{
+											"filters": {
+												"test": "is_family",
+												"subject": "other",
+												"value": "player"
+											},
+											"max_dist": 64
+										},
+										{
+											"filters": {
+												"test": "is_family",
+												"subject": "other",
+												"value": "villager"
+											},
+											"max_dist": 64
+										}
+									],
+									"must_see": false,
+									"must_reach": false
+								}
+							},
+							{
+								"open": {
+									"minecraft:type_family": {
+										"family": [
+											"terraria_players_enemy"
+										]
+									},
+									"minecraft:loot": {
+										"table": "loot_tables/entities/queenbee.json"
+									},
+									"minecraft:health": {
+										"value": 3400,
+										"max": 3400
+									},
+									"minecraft:hurt_on_condition": {
+										"damage_conditions": [
+											{
+												"filters": {
+													"test": "in_lava",
+													"subject": "self",
+													"operator": "==",
+													"value": true
+												},
+												"cause": "lava",
+												"damage_per_tick": 4
+											}
+										]
+									},
+									"minecraft:physics": {
+										"has_gravity": false,
+										"has_collision": false
+									},
+									"minecraft:attack": {
+										"damage": 30
+									},
+									"minecraft:breathable": {
+										"total_supply": 15,
+										"suffocate_time": 0,
+										"breathes_air": true,
+										"breathes_water": false
+									},
+									"minecraft:collision_box": {
+										"width": 1,
+										"height": 1
+									},
+									"minecraft:movement": {
+										"value": 16
+									},
+									"minecraft:movement.glide": {
+										"start_speed": 0.1,
+										"speed_when_turning": 0.2
+									},
+									"minecraft:follow_range": {
+										"value": 64,
+										"max": 64
+									},
+									"minecraft:behavior.nearest_attackable_target": {
+										"priority": 1,
+										"reselect_targets": true,
+										"scan_interval": 20,
+										"within_radius": 120,
+										"target_search_height": 80,
+										"entity_types": [
+											{
+												"filters": {
+													"test": "is_family",
+													"subject": "other",
+													"value": "player"
+												},
+												"max_dist": 64
+											},
+											{
+												"filters": {
+													"test": "is_family",
+													"subject": "other",
+													"value": "villager"
+												},
+												"max_dist": 64
+											}
+										],
+										"must_see": false,
+										"must_reach": false
+									},
+									"minecraft:behavior.circle_around_anchor": {
+										"priority": 3,
+										"radius_change": 1,
+										"radius_adjustment_chance": 0.004,
+										"height_adjustment_chance": 0.002857,
+										"goal_radius": 1,
+										"angle_change": 15,
+										"radius_range": [
+											5,
+											15
+										],
+										"height_offset_range": [
+											-4,
+											5
+										],
+										"height_above_target_range": [
+											3,
+											5
+										]
+									},
+									"minecraft:boss": {
+										"name": "The Queen Bee",
+										"hud_range": 56
+									},
+									"minecraft:scale": {
+										"value": 5
+									},
+									"minecraft:timer": {
+										"looping": true,
+										"time": [
+											3,
+											3
+										],
+										"time_down_event": {
+											"event": "terrariamod:switch_attack"
+										}
+									}
+								},
+								"key": "minecraft:behavior.circle_around_anchor",
+								"children": [
+									{
+										"data": "3",
+										"key": "priority"
+									},
+									{
+										"data": "1",
+										"key": "radius_change"
+									},
+									{
+										"data": "0.004",
+										"key": "radius_adjustment_chance"
+									},
+									{
+										"data": "0.002857",
+										"key": "height_adjustment_chance"
+									},
+									{
+										"data": "1",
+										"key": "goal_radius"
+									},
+									{
+										"data": "15",
+										"key": "angle_change"
+									},
+									{
+										"open": {
+											"priority": 3,
+											"radius_change": 1,
+											"radius_adjustment_chance": 0.004,
+											"height_adjustment_chance": 0.002857,
+											"goal_radius": 1,
+											"angle_change": 15,
+											"radius_range": [
+												5,
+												15
+											],
+											"height_offset_range": [
+												-4,
+												5
+											],
+											"height_above_target_range": [
+												3,
+												5
+											]
+										},
+										"key": "radius_range",
+										"is_minified": true,
+										"children": [
+											5,
+											15
+										]
+									},
+									{
+										"open": {
+											"priority": 3,
+											"radius_change": 1,
+											"radius_adjustment_chance": 0.004,
+											"height_adjustment_chance": 0.002857,
+											"goal_radius": 1,
+											"angle_change": 15,
+											"radius_range": [
+												5,
+												15
+											],
+											"height_offset_range": [
+												-4,
+												5
+											],
+											"height_above_target_range": [
+												3,
+												5
+											]
+										},
+										"key": "height_offset_range",
+										"is_minified": true,
+										"children": [
+											-4,
+											5
+										]
+									},
+									{
+										"open": {
+											"priority": 3,
+											"radius_change": 1,
+											"radius_adjustment_chance": 0.004,
+											"height_adjustment_chance": 0.002857,
+											"goal_radius": 1,
+											"angle_change": 15,
+											"radius_range": [
+												5,
+												15
+											],
+											"height_offset_range": [
+												-4,
+												5
+											],
+											"height_above_target_range": [
+												3,
+												5
+											]
+										},
+										"key": "height_above_target_range",
+										"is_minified": true,
+										"children": [
+											3,
+											5
+										]
+									}
+								]
+							},
+							{
+								"key": "minecraft:boss",
+								"is_minified": true,
+								"children": {
+									"name": "The Queen Bee",
+									"hud_range": 56
+								}
+							},
+							{
+								"key": "minecraft:scale",
+								"is_minified": true,
+								"children": {
+									"value": 5
+								}
+							},
+							{
+								"key": "minecraft:timer",
+								"children": [
+									{
+										"data": "true",
+										"key": "looping"
+									},
+									{
+										"open": {
+											"looping": true,
+											"time": [
+												3,
+												3
+											],
+											"time_down_event": {
+												"event": "terrariamod:switch_attack"
+											}
+										},
+										"key": "time",
+										"is_minified": true,
+										"children": [
+											3,
+											3
+										]
+									},
+									{
+										"open": {
+											"looping": true,
+											"time": [
+												3,
+												3
+											],
+											"time_down_event": {
+												"event": "terrariamod:switch_attack"
+											}
+										},
+										"key": "time_down_event",
+										"is_minified": true,
+										"children": {
+											"event": "terrariamod:switch_attack"
+										}
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:queenbee",
+								"is_spawnable": true,
+								"is_summonable": true,
+								"is_experimental": false
+							},
+							"component_groups": {
+								"terrariamod:ram": {
+									"minecraft:behavior.swoop_attack": {
+										"priority": 2,
+										"damage_reach": 2.5,
+										"speed_multiplier": 30,
+										"delay_range": [
+											3,
+											3
+										]
+									}
+								},
+								"terrariamod:summon": {
+									"minecraft:spawn_entity": {
+										"entities": [
+											{
+												"min_wait_time": 5,
+												"max_wait_time": 10,
+												"spawn_entity": "terrariamod:queenbee_bee"
+											}
+										]
+									}
+								},
+								"terrariamod:posion": {
+									"minecraft:shooter": {
+										"def": "terrariamod:queenbee_projectile"
+									}
+								}
+							},
+							"components": {
+								"minecraft:type_family": {
+									"family": [
+										"terraria_players_enemy"
+									]
+								},
+								"minecraft:loot": {
+									"table": "loot_tables/entities/queenbee.json"
+								},
+								"minecraft:health": {
+									"value": 3400,
+									"max": 3400
+								},
+								"minecraft:hurt_on_condition": {
+									"damage_conditions": [
+										{
+											"filters": {
+												"test": "in_lava",
+												"subject": "self",
+												"operator": "==",
+												"value": true
+											},
+											"cause": "lava",
+											"damage_per_tick": 4
+										}
+									]
+								},
+								"minecraft:physics": {
+									"has_gravity": false,
+									"has_collision": false
+								},
+								"minecraft:attack": {
+									"damage": 30
+								},
+								"minecraft:breathable": {
+									"total_supply": 15,
+									"suffocate_time": 0,
+									"breathes_air": true,
+									"breathes_water": false
+								},
+								"minecraft:collision_box": {
+									"width": 1,
+									"height": 1
+								},
+								"minecraft:movement": {
+									"value": 16
+								},
+								"minecraft:movement.glide": {
+									"start_speed": 0.1,
+									"speed_when_turning": 0.2
+								},
+								"minecraft:follow_range": {
+									"value": 64,
+									"max": 64
+								},
+								"minecraft:behavior.nearest_attackable_target": {
+									"priority": 1,
+									"reselect_targets": true,
+									"scan_interval": 20,
+									"within_radius": 120,
+									"target_search_height": 80,
+									"entity_types": [
+										{
+											"filters": {
+												"test": "is_family",
+												"subject": "other",
+												"value": "player"
+											},
+											"max_dist": 64
+										},
+										{
+											"filters": {
+												"test": "is_family",
+												"subject": "other",
+												"value": "villager"
+											},
+											"max_dist": 64
+										}
+									],
+									"must_see": false,
+									"must_reach": false
+								},
+								"minecraft:behavior.circle_around_anchor": {
+									"priority": 3,
+									"radius_change": 1,
+									"radius_adjustment_chance": 0.004,
+									"height_adjustment_chance": 0.002857,
+									"goal_radius": 1,
+									"angle_change": 15,
+									"radius_range": [
+										5,
+										15
+									],
+									"height_offset_range": [
+										-4,
+										5
+									],
+									"height_above_target_range": [
+										3,
+										5
+									]
+								},
+								"minecraft:boss": {
+									"name": "The Queen Bee",
+									"hud_range": 56
+								},
+								"minecraft:scale": {
+									"value": 5
+								},
+								"minecraft:timer": {
+									"looping": true,
+									"time": [
+										3,
+										3
+									],
+									"time_down_event": {
+										"event": "terrariamod:switch_attack"
+									}
+								}
+							},
+							"events": {
+								"terrariamod:switch_attack": {
+									"randomize": [
+										{
+											"weight": 1,
+											"add": {
+												"component_groups": [
+													"terrariamod:ram"
+												]
+											}
+										},
+										{
+											"weight": 1,
+											"add": {
+												"component_groups": [
+													"terrariamod:summon"
+												]
+											}
+										},
+										{
+											"weight": 1,
+											"add": {
+												"component_groups": [
+													"terrariamod:posion"
+												]
+											}
+										}
+									]
+								}
+							}
+						},
+						"key": "events",
+						"children": [
+							{
+								"open": {
+									"terrariamod:switch_attack": {
+										"randomize": [
+											{
+												"weight": 1,
+												"add": {
+													"component_groups": [
+														"terrariamod:ram"
+													]
+												}
+											},
+											{
+												"weight": 1,
+												"add": {
+													"component_groups": [
+														"terrariamod:summon"
+													]
+												}
+											},
+											{
+												"weight": 1,
+												"add": {
+													"component_groups": [
+														"terrariamod:posion"
+													]
+												}
+											}
+										]
+									}
+								},
+								"key": "terrariamod:switch_attack",
+								"children": [
+									{
+										"open": {
+											"randomize": [
+												{
+													"weight": 1,
+													"add": {
+														"component_groups": [
+															"terrariamod:ram"
+														]
+													}
+												},
+												{
+													"weight": 1,
+													"add": {
+														"component_groups": [
+															"terrariamod:summon"
+														]
+													}
+												},
+												{
+													"weight": 1,
+													"add": {
+														"component_groups": [
+															"terrariamod:posion"
+														]
+													}
+												}
+											]
+										},
+										"key": "randomize",
+										"children": [
+											{
+												"open": [
+													{
+														"weight": 1,
+														"add": {
+															"component_groups": [
+																"terrariamod:ram"
+															]
+														}
+													},
+													{
+														"weight": 1,
+														"add": {
+															"component_groups": [
+																"terrariamod:summon"
+															]
+														}
+													},
+													{
+														"weight": 1,
+														"add": {
+															"component_groups": [
+																"terrariamod:posion"
+															]
+														}
+													}
+												],
+												"children": [
+													{
+														"data": "1",
+														"key": "weight"
+													},
+													{
+														"open": {
+															"weight": 1,
+															"add": {
+																"component_groups": [
+																	"terrariamod:ram"
+																]
+															}
+														},
+														"key": "add",
+														"children": [
+															{
+																"open": {
+																	"component_groups": [
+																		"terrariamod:ram"
+																	]
+																},
+																"key": "component_groups",
+																"is_minified": true,
+																"children": [
+																	"terrariamod:ram"
+																]
+															}
+														]
+													}
+												]
+											},
+											{
+												"open": [
+													{
+														"weight": 1,
+														"add": {
+															"component_groups": [
+																"terrariamod:ram"
+															]
+														}
+													},
+													{
+														"weight": 1,
+														"add": {
+															"component_groups": [
+																"terrariamod:summon"
+															]
+														}
+													},
+													{
+														"weight": 1,
+														"add": {
+															"component_groups": [
+																"terrariamod:posion"
+															]
+														}
+													}
+												],
+												"children": [
+													{
+														"data": "1",
+														"key": "weight"
+													},
+													{
+														"open": {
+															"weight": 1,
+															"add": {
+																"component_groups": [
+																	"terrariamod:summon"
+																]
+															}
+														},
+														"key": "add",
+														"children": [
+															{
+																"open": {
+																	"component_groups": [
+																		"terrariamod:summon"
+																	]
+																},
+																"key": "component_groups",
+																"is_minified": true,
+																"children": [
+																	"terrariamod:summon"
+																]
+															}
+														]
+													}
+												]
+											},
+											{
+												"open": [
+													{
+														"weight": 1,
+														"add": {
+															"component_groups": [
+																"terrariamod:ram"
+															]
+														}
+													},
+													{
+														"weight": 1,
+														"add": {
+															"component_groups": [
+																"terrariamod:summon"
+															]
+														}
+													},
+													{
+														"weight": 1,
+														"add": {
+															"component_groups": [
+																"terrariamod:posion"
+															]
+														}
+													}
+												],
+												"children": [
+													{
+														"data": "1",
+														"key": "weight"
+													},
+													{
+														"open": {
+															"weight": 1,
+															"add": {
+																"component_groups": [
+																	"terrariamod:posion"
+																]
+															}
+														},
+														"key": "add",
+														"children": [
+															{
+																"open": {
+																	"component_groups": [
+																		"terrariamod:posion"
+																	]
+																},
+																"key": "component_groups",
+																"is_minified": true,
+																"children": [
+																	"terrariamod:posion"
+																]
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

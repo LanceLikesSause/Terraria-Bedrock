@@ -1,4 +1,4 @@
-//bridge-file-version: #15
+//bridge-file-version: #28
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
@@ -13,13 +13,27 @@
 			"minecraft:icon": {
 				"texture": "terrariamod:suspiciouslookingeye"
 			},
-			"minecraft:entity_placer": {
-				"entity": "terrariamod:eyeofcthulhu_stageone"
-			},
 			"minecraft:creative_category": {
 				"parent": "nature"
+			},
+			"minecraft:on_use": {
+				"on_use": {
+					"event": "terrariamod:summon",
+					"condition": "query.time_of_day<0.25 || query.time_of_day>0.75"
+				}
 			}
 		},
-		"events": {}
+		"events": {
+			"terrariamod:summon": {
+				"run_command": {
+					"command": [
+						"summon terrariamod:eyeofcthulhu_stageone",
+						"stopsound @a eyeofcthulhu.music",
+						"playsound eyeofcthulhu.music @a",
+						"tellraw @a {\"rawtext\":[{\"text\":\"§4The Eye of Cthulhu\"},{\"text\":\"§r has awoken!\"}]}"
+					]
+				}
+			}
+		}
 	}
 }

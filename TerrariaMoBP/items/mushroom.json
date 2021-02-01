@@ -1,4 +1,4 @@
-//bridge-file-version: #23
+//bridge-file-version: #24
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
@@ -30,6 +30,10 @@
 			},
 			"minecraft:creative_category": {
 				"parent": "nature"
+			},
+			"minecraft:cooldown": {
+				"category": "healing_terrariamod",
+				"duration": 60
 			}
 		},
 		"events": {

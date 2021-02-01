@@ -1,0 +1,15 @@
+//bridge-file-version: #4
+{
+	"format_version": "1.16.200",
+	"minecraft:block": {
+		"description": {
+			"identifier": "terrariamod:hive_wall"
+		},
+		"components": {
+			"minecraft:destroy_time": 1,
+			"tag:terrariamod:wood": {},
+			"minecraft:display_name": "terrariamod:hive_wall"
+		},
+		"events": {}
+	}
+}

@@ -1,4 +1,4 @@
-//bridge-file-version: #14
+//bridge-file-version: #21
 {
 	"terrariamod:shadoworb": {
 		"sound": "wood"
@@ -394,5 +394,23 @@
 	},
 	"terrariamod:purity_candle": {
 		"sound": "wood"
+	},
+	"terrariamod:honey": {
+		"liquid": true,
+		"textures": "honey"
+	},
+	"terrariamod:hive_wall": {
+		"sound": "wood",
+		"textures": "hive_wall"
+	},
+	"terrariamod:hive_block": {
+		"sound": "wood",
+		"textures": "hive_block"
+	},
+	"terrariamod:larva": {
+		"sound": "wood"
+	},
+	"terrariamod:enchantedsword_block": {
+		"sound": "stone"
 	}
 }

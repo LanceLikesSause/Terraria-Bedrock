@@ -1,4 +1,4 @@
-//bridge-file-version: #7
+//bridge-file-version: #10
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
@@ -7,9 +7,6 @@
 			"category": "nature"
 		},
 		"components": {
-			"minecraft:entity_placer": {
-				"entity": "terrariamod:kingslime"
-			},
 			"minecraft:display_name": {
 				"value": "item.terrariamod:slimecrown.name"
 			},
@@ -18,8 +15,24 @@
 			},
 			"minecraft:creative_category": {
 				"parent": "nature"
+			},
+			"minecraft:on_use": {
+				"on_use": {
+					"event": "terrariamod:summon"
+				}
 			}
 		},
-		"events": {}
+		"events": {
+			"terrariamod:summon": {
+				"run_command": {
+					"command": [
+						"summon terrariamod:kingslime",
+						"stopsound @a eyeofcthulhu.music",
+						"playsound eyeofcthulhu.music @a",
+						"tellraw @a {\"rawtext\":[{\"text\":\"§4The King Slime\"},{\"text\":\"§r has awoken!\"}]}"
+					]
+				}
+			}
+		}
 	}
 }

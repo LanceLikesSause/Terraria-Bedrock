@@ -1,4 +1,4 @@
-//bridge-file-version: #0
+//bridge-file-version: #2
 {
 	"entity_sounds": {
 		"entities": {
@@ -514,10 +514,6 @@
 				"volume": 1,
 				"pitch": [
 					0.9,
-					1,
-					0.9,
-					1,
-					0.9,
 					1
 				],
 				"events": {
@@ -679,6 +675,25 @@
 				"pitch": [
 					0.6,
 					0.9
+				],
+				"events": {
+					"hurt": {
+						"sound": "demoneye.hurt",
+						"volume": 1,
+						"pitch": 1.1
+					},
+					"death": {
+						"sound": "demoneye.death",
+						"volume": 1,
+						"pitch": 0.9
+					}
+				}
+			},
+			"terrariamod:queenbee": {
+				"volume": 1,
+				"pitch": [
+					0.9,
+					1
 				],
 				"events": {
 					"hurt": {

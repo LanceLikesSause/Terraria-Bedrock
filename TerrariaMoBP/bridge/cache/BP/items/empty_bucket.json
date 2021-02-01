@@ -1,0 +1,188 @@
+{
+	"file_path": "C:\\Users\\LANCE.LEGAUX\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\TerrariaMoBP\\items\\empty_bucket.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "091226f5_f9e7_4b7d_bc31_374af02bd1d4",
+	"file_version": 11,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "terrariamod:empty_bucket",
+							"category": "equipment"
+						},
+						"components": {
+							"minecraft:icon": {
+								"texture": "terrariamod:empty_bucket"
+							},
+							"minecraft:creative_category": {
+								"parent": "equipment"
+							},
+							"minecraft:display_name": {
+								"value": "item.terrariamod:empty_bucket.name"
+							}
+						},
+						"events": {}
+					}
+				},
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "terrariamod:empty_bucket",
+							"category": "equipment"
+						},
+						"components": {
+							"minecraft:icon": {
+								"texture": "terrariamod:empty_bucket"
+							},
+							"minecraft:creative_category": {
+								"parent": "equipment"
+							},
+							"minecraft:display_name": {
+								"value": "item.terrariamod:empty_bucket.name"
+							}
+						},
+						"events": {}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:empty_bucket",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:icon": {
+									"texture": "terrariamod:empty_bucket"
+								},
+								"minecraft:creative_category": {
+									"parent": "equipment"
+								},
+								"minecraft:display_name": {
+									"value": "item.terrariamod:empty_bucket.name"
+								}
+							},
+							"events": {}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:empty_bucket",
+							"category": "equipment"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:empty_bucket",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:icon": {
+									"texture": "terrariamod:empty_bucket"
+								},
+								"minecraft:creative_category": {
+									"parent": "equipment"
+								},
+								"minecraft:display_name": {
+									"value": "item.terrariamod:empty_bucket.name"
+								}
+							},
+							"events": {}
+						},
+						"key": "components",
+						"children": [
+							{
+								"open": {
+									"minecraft:icon": {
+										"texture": "terrariamod:empty_bucket"
+									},
+									"minecraft:creative_category": {
+										"parent": "equipment"
+									},
+									"minecraft:display_name": {
+										"value": "item.terrariamod:empty_bucket.name"
+									}
+								},
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "terrariamod:empty_bucket"
+								}
+							},
+							{
+								"open": {
+									"minecraft:icon": {
+										"texture": "terrariamod:empty_bucket"
+									},
+									"minecraft:creative_category": {
+										"parent": "equipment"
+									},
+									"minecraft:display_name": {
+										"value": "item.terrariamod:empty_bucket.name"
+									}
+								},
+								"key": "minecraft:creative_category",
+								"is_minified": true,
+								"children": {
+									"parent": "equipment"
+								}
+							},
+							{
+								"open": {
+									"minecraft:icon": {
+										"texture": "terrariamod:empty_bucket"
+									},
+									"minecraft:creative_category": {
+										"parent": "equipment"
+									},
+									"minecraft:display_name": {
+										"value": "item.terrariamod:empty_bucket.name"
+									}
+								},
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "item.terrariamod:empty_bucket.name"
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:empty_bucket",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:icon": {
+									"texture": "terrariamod:empty_bucket"
+								},
+								"minecraft:creative_category": {
+									"parent": "equipment"
+								},
+								"minecraft:display_name": {
+									"value": "item.terrariamod:empty_bucket.name"
+								}
+							},
+							"events": {}
+						},
+						"key": "events",
+						"is_minified": true,
+						"children": {}
+					}
+				]
+			}
+		]
+	}
+}

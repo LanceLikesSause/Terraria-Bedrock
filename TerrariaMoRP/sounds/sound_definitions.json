@@ -1,3 +1,4 @@
+//bridge-file-version: #0
 {
 	"format_version": "1.14.0",
 	"sound_definitions": {
@@ -329,6 +330,12 @@
 					"name": "sounds/mob/ash/purreow2",
 					"volume": 0.4
 				}
+			]
+		},
+		"get_enchanted_sword.effect": {
+			"category": "music",
+			"sounds": [
+				"sounds/effects/loz"
 			]
 		}
 	}

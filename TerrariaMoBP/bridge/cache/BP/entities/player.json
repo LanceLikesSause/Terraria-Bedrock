@@ -1,5 +1,5 @@
 {
-	"file_path": "C:\\Users\\LANCE.LEGAUX\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\TerrariaMo(1)\\entities\\player.json",
+	"file_path": "C:\\Users\\LANCE.LEGAUX\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\TerrariaMoBP\\entities\\player.json",
 	"file_type": "entity",
 	"cache_content": {
 		"format_version": "1.16.0",
@@ -265,5 +265,5 @@
 	},
 	"format_version": 0,
 	"file_version": 0,
-	"file_uuid": "0ef0f0b1_1c93_4d0d_b1c2_158d6720ace0"
+	"file_uuid": "9f37598a_a064_4d6b_bdd4_a4f6854c156a"
 }

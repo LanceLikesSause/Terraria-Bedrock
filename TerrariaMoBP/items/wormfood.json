@@ -1,4 +1,4 @@
-//bridge-file-version: #10
+//bridge-file-version: #15
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
@@ -7,9 +7,6 @@
 			"category": "nature"
 		},
 		"components": {
-			"minecraft:entity_placer": {
-				"entity": "terrariamod:eaterofworlds"
-			},
 			"minecraft:display_name": {
 				"value": "item.terrariamod:wormfood.name"
 			},
@@ -18,8 +15,25 @@
 			},
 			"minecraft:creative_category": {
 				"parent": "nature"
+			},
+			"minecraft:on_use": {
+				"on_use": {
+					"event": "terrariamod:summon",
+					"condition": "query.biome_has_any_tag('corruption')"
+				}
 			}
 		},
-		"events": {}
+		"events": {
+			"terrariamod:summon": {
+				"run_command": {
+					"command": [
+						"summon terrariamod:eaterofworlds",
+						"stopsound @a eyeofcthulhu.music",
+						"playsound eyeofcthulhu.music @a",
+						"tellraw @a {\"rawtext\":[{\"text\":\"§4The Eater of Worlds\"},{\"text\":\"§r has awoken!\"}]}"
+					]
+				}
+			}
+		}
 	}
 }

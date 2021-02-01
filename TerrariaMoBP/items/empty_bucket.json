@@ -1,0 +1,22 @@
+//bridge-file-version: #11
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "terrariamod:empty_bucket",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "terrariamod:empty_bucket"
+			},
+			"minecraft:creative_category": {
+				"parent": "equipment"
+			},
+			"minecraft:display_name": {
+				"value": "item.terrariamod:empty_bucket.name"
+			}
+		},
+		"events": {}
+	}
+}

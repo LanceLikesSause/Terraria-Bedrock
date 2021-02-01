@@ -1,4 +1,4 @@
-//bridge-file-version: #19
+//bridge-file-version: #20
 {
 	"format_version": "1.13.0",
 	"minecraft:feature_rules": {
@@ -13,7 +13,7 @@
 						{
 							"test": "has_biome_tag",
 							"operator": "==",
-							"value": "jungle"
+							"value": "purity_jungle"
 						}
 					]
 				}

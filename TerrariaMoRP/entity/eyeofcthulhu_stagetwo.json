@@ -1,23 +1,18 @@
-//bridge-file-version: #3
+//bridge-file-version: #5
 {
 	"format_version": "1.8.0",
 	"minecraft:client_entity": {
 		"description": {
 			"identifier": "terrariamod:eyeofcthulhu_stagetwo",
 			"materials": {
-				"default": "phantom"
+				"default": "phantom",
+				"invisible": "phantom_invisible"
 			},
 			"textures": {
 				"default": "textures/entity/pamobile/eyeofcthulhu_stagetwo"
 			},
 			"geometry": {
 				"default": "geometry.eyeofcthulhu_stagetwo"
-			},
-			"scripts": {
-				"pre_animation": [
-					"variable.wingRotZ = 16.0 * Math.sin((variable.RuntimeID * 3 + query.life_time * 20.0) * 7.448454);",
-					"variable.tailRotX = -5.0 * Math.sin((variable.RuntimeID * 3 + query.life_time * 20.0) * 14.896908) - 5.0;"
-				]
 			},
 			"animations": {
 				"phantom_base_pose": "animation.phantom.base_pose",

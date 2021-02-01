@@ -1,0 +1,37 @@
+//bridge-file-version: #12
+{
+	"format_version": "1.16.200",
+	"minecraft:block": {
+		"description": {
+			"identifier": "terrariamod:larva"
+		},
+		"components": {
+			"minecraft:destroy_time": 0,
+			"tag:terrariamod:wood": {},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "larva",
+					"render_method": "blend"
+				}
+			},
+			"minecraft:geometry": "geometry.larva",
+			"minecraft:block_light_emission": 0.5,
+			"minecraft:block_light_absorption": 0,
+			"minecraft:on_player_destroyed": {
+				"event": "terrariamod:break"
+			}
+		},
+		"events": {
+			"terrariamod:break": {
+				"run_command": {
+					"command": [
+						"summon terrariamod:queenbee",
+						"tellraw @a {\"rawtext\":[{\"text\":\"§4The Queen Bee\"},{\"text\":\"§r has awoken!\"}]}",
+						"stopsound @a eyeofcthulhu.music",
+						"playsound eyeofcthulhu.music @a"
+					]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,33 @@
+//bridge-file-version: #9
+{
+	"format_version": "1.16.200",
+	"minecraft:block": {
+		"description": {
+			"identifier": "terrariamod:enchantedsword_block"
+		},
+		"components": {
+			"minecraft:geometry": "geometry.enchantedsword_block",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "enchantedsword_block",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:loot": "loot_tables/blocks/enchantedsword_block.json",
+			"minecraft:block_light_emission": 0,
+			"minecraft:block_light_absorption": 0,
+			"minecraft:on_player_destroyed": {
+				"event": "terrariamod:loz"
+			}
+		},
+		"events": {
+			"terrariamod:loz": {
+				"run_command": {
+					"command": [
+						"playsound get_enchanted_sword.effect @p[r=20]"
+					]
+				}
+			}
+		}
+	}
+}

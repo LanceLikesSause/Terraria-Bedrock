@@ -1,0 +1,136 @@
+{
+	"file_path": "C:\\Users\\LANCE.LEGAUX\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\TerrariaMoBP\\items\\hellforge.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "9d0a20bc_5c3e_4a68_9dbf_4533ee47cbe7",
+	"file_version": 5,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "terrariamod:hellforge",
+							"category": "construction"
+						},
+						"components": {
+							"minecraft:icon": {
+								"texture": "terrariamod:hellforge"
+							},
+							"minecraft:display_name": {
+								"value": "tile.terrariamod:hellforge.name"
+							},
+							"minecraft:block_placer": {
+								"block": "terrariamod:hellforge",
+								"use_block_description": false
+							},
+							"minecraft:max_stack_size": 64,
+							"minecraft:creative_category": {
+								"parent": "construction"
+							}
+						},
+						"events": {}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:hellforge",
+							"category": "construction"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:hellforge",
+								"category": "construction"
+							},
+							"components": {
+								"minecraft:icon": {
+									"texture": "terrariamod:hellforge"
+								},
+								"minecraft:display_name": {
+									"value": "tile.terrariamod:hellforge.name"
+								},
+								"minecraft:block_placer": {
+									"block": "terrariamod:hellforge",
+									"use_block_description": false
+								},
+								"minecraft:max_stack_size": 64,
+								"minecraft:creative_category": {
+									"parent": "construction"
+								}
+							},
+							"events": {}
+						},
+						"key": "components",
+						"children": [
+							{
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "terrariamod:hellforge"
+								}
+							},
+							{
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "tile.terrariamod:hellforge.name"
+								}
+							},
+							{
+								"open": {
+									"minecraft:icon": {
+										"texture": "terrariamod:hellforge"
+									},
+									"minecraft:display_name": {
+										"value": "tile.terrariamod:hellforge.name"
+									},
+									"minecraft:block_placer": {
+										"block": "terrariamod:hellforge",
+										"use_block_description": false
+									},
+									"minecraft:max_stack_size": 64,
+									"minecraft:creative_category": {
+										"parent": "construction"
+									}
+								},
+								"key": "minecraft:block_placer",
+								"is_minified": true,
+								"children": {
+									"block": "terrariamod:hellforge",
+									"use_block_description": false
+								}
+							},
+							{
+								"data": "64",
+								"key": "minecraft:max_stack_size"
+							},
+							{
+								"key": "minecraft:creative_category",
+								"is_minified": true,
+								"children": {
+									"parent": "construction"
+								}
+							}
+						]
+					},
+					{
+						"key": "events",
+						"is_minified": true,
+						"children": {}
+					}
+				]
+			}
+		]
+	}
+}

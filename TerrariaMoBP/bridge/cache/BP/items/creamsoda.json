@@ -1,0 +1,270 @@
+{
+	"file_path": "C:\\Users\\LANCE.LEGAUX\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\TerrariaMoBP\\items\\creamsoda.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "bf148112_c8b5_4f5c_8830_cb5a0cebf083",
+	"file_version": 14,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "terrariamod:creamsoda",
+							"category": "equipment"
+						},
+						"components": {
+							"minecraft:stacked_by_data": true,
+							"minecraft:max_stack_size": 1,
+							"minecraft:use_duration": 1,
+							"minecraft:hand_equipped": true,
+							"minecraft:food": {
+								"on_consume": {
+									"event": "minecraft:use",
+									"target": "self"
+								},
+								"can_always_eat": true
+							},
+							"minecraft:icon": {
+								"texture": "terrariamod:creamsoda"
+							},
+							"minecraft:display_name": {
+								"value": "item.terrariamod:creamsoda.name"
+							},
+							"minecraft:use_animation": "drink",
+							"minecraft:creative_category": {
+								"parent": "equipment"
+							},
+							"minecraft:cooldown": {
+								"category": "healing_terrariamod",
+								"duration": 60
+							}
+						},
+						"events": {
+							"minecraft:use": {
+								"sequence": [
+									{
+										"add_mob_effect": {
+											"effect": "absorption",
+											"target": "holder",
+											"duration": 99,
+											"amplifier": 2
+										}
+									},
+									{
+										"add_mob_effect": {
+											"effect": "strength",
+											"target": "holder",
+											"duration": 99,
+											"amplifier": 1
+										}
+									},
+									{
+										"add_mob_effect": {
+											"effect": "speed",
+											"target": "holder",
+											"duration": 99,
+											"amplifier": 1
+										}
+									},
+									{
+										"add_mob_effect": {
+											"effect": "haste",
+											"target": "holder",
+											"duration": 99,
+											"amplifier": 1
+										}
+									},
+									{
+										"add_mob_effect": {
+											"effect": "regeneration",
+											"target": "holder",
+											"duration": 99,
+											"amplifier": 1
+										}
+									}
+								]
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:creamsoda",
+							"category": "equipment"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:creamsoda",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:stacked_by_data": true,
+								"minecraft:max_stack_size": 1,
+								"minecraft:use_duration": 1,
+								"minecraft:hand_equipped": true,
+								"minecraft:food": {
+									"on_consume": {
+										"event": "minecraft:use",
+										"target": "self"
+									},
+									"can_always_eat": true
+								},
+								"minecraft:icon": {
+									"texture": "terrariamod:creamsoda"
+								},
+								"minecraft:display_name": {
+									"value": "item.terrariamod:creamsoda.name"
+								},
+								"minecraft:use_animation": "drink",
+								"minecraft:creative_category": {
+									"parent": "equipment"
+								},
+								"minecraft:cooldown": {
+									"category": "healing_terrariamod",
+									"duration": 60
+								}
+							},
+							"events": {
+								"minecraft:use": {
+									"sequence": [
+										{
+											"add_mob_effect": {
+												"effect": "absorption",
+												"target": "holder",
+												"duration": 99,
+												"amplifier": 2
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "strength",
+												"target": "holder",
+												"duration": 99,
+												"amplifier": 1
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "speed",
+												"target": "holder",
+												"duration": 99,
+												"amplifier": 1
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "haste",
+												"target": "holder",
+												"duration": 99,
+												"amplifier": 1
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "regeneration",
+												"target": "holder",
+												"duration": 99,
+												"amplifier": 1
+											}
+										}
+									]
+								}
+							}
+						},
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:stacked_by_data": true,
+							"minecraft:max_stack_size": 1,
+							"minecraft:use_duration": 1,
+							"minecraft:hand_equipped": true,
+							"minecraft:food": {
+								"on_consume": {
+									"event": "minecraft:use",
+									"target": "self"
+								},
+								"can_always_eat": true
+							},
+							"minecraft:icon": {
+								"texture": "terrariamod:creamsoda"
+							},
+							"minecraft:display_name": {
+								"value": "item.terrariamod:creamsoda.name"
+							},
+							"minecraft:use_animation": "drink",
+							"minecraft:creative_category": {
+								"parent": "equipment"
+							},
+							"minecraft:cooldown": {
+								"category": "healing_terrariamod",
+								"duration": 60
+							}
+						}
+					},
+					{
+						"key": "events",
+						"is_minified": true,
+						"children": {
+							"minecraft:use": {
+								"sequence": [
+									{
+										"add_mob_effect": {
+											"effect": "absorption",
+											"target": "holder",
+											"duration": 99,
+											"amplifier": 2
+										}
+									},
+									{
+										"add_mob_effect": {
+											"effect": "strength",
+											"target": "holder",
+											"duration": 99,
+											"amplifier": 1
+										}
+									},
+									{
+										"add_mob_effect": {
+											"effect": "speed",
+											"target": "holder",
+											"duration": 99,
+											"amplifier": 1
+										}
+									},
+									{
+										"add_mob_effect": {
+											"effect": "haste",
+											"target": "holder",
+											"duration": 99,
+											"amplifier": 1
+										}
+									},
+									{
+										"add_mob_effect": {
+											"effect": "regeneration",
+											"target": "holder",
+											"duration": 99,
+											"amplifier": 1
+										}
+									}
+								]
+							}
+						}
+					}
+				]
+			}
+		]
+	}
+}

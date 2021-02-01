@@ -1,0 +1,25 @@
+//bridge-file-version: #22
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "terrariamod:honey_bucket",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "terrariamod:honey_bucket"
+			},
+			"minecraft:block_placer": {
+				"block": "terrariamod:honey"
+			},
+			"minecraft:creative_category": {
+				"parent": "equipment"
+			},
+			"minecraft:display_name": {
+				"value": "item.terrariamod:honey_bucket.name"
+			}
+		},
+		"events": {}
+	}
+}

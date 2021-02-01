@@ -1,4 +1,4 @@
-//bridge-file-version: #30
+//bridge-file-version: #31
 {
 	"format_version": "1.16.100",
 	"minecraft:block": {
@@ -65,7 +65,7 @@
 			"terrariamod:walk": {
 				"run_command": {
 					"command": [
-						"effect @p instant_damage 1 2"
+						"effect @p[r=1] instant_damage 1 2"
 					]
 				}
 			},

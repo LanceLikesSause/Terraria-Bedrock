@@ -1,0 +1,211 @@
+{
+	"file_path": "C:\\Users\\LANCE.LEGAUX\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\TerrariaMoRP\\entity\\demoneye.json",
+	"file_type": "client_entity",
+	"format_version": 1,
+	"file_uuid": "c5b41fab_846d_4f8e_84a7_aab6581f93e8",
+	"file_version": 10,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.8.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.8.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "terrariamod:demoneye",
+							"textures": {
+								"default": "textures/entity/pamobile/demoneye.png"
+							},
+							"spawn_egg": {
+								"base_color": "#FFFFFF",
+								"overlay_color": "#D21717"
+							},
+							"materials": {
+								"default": "entity_alphatest"
+							},
+							"geometry": {
+								"default": "geometry.demoneye"
+							},
+							"animations": {
+								"move": "animation.demoneye"
+							},
+							"animation_controllers": [
+								{
+									"move": "controller.animation.humanoid.move"
+								}
+							],
+							"render_controllers": [
+								"controller.render.zombie"
+							],
+							"enable_attachables": true
+						}
+					}
+				},
+				"key": "minecraft:client_entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:demoneye",
+								"textures": {
+									"default": "textures/entity/pamobile/demoneye.png"
+								},
+								"spawn_egg": {
+									"base_color": "#FFFFFF",
+									"overlay_color": "#D21717"
+								},
+								"materials": {
+									"default": "entity_alphatest"
+								},
+								"geometry": {
+									"default": "geometry.demoneye"
+								},
+								"animations": {
+									"move": "animation.demoneye"
+								},
+								"animation_controllers": [
+									{
+										"move": "controller.animation.humanoid.move"
+									}
+								],
+								"render_controllers": [
+									"controller.render.zombie"
+								],
+								"enable_attachables": true
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"data": "terrariamod:demoneye",
+								"key": "identifier"
+							},
+							{
+								"key": "textures",
+								"is_minified": true,
+								"children": {
+									"default": "textures/entity/pamobile/demoneye.png"
+								}
+							},
+							{
+								"key": "spawn_egg",
+								"is_minified": true,
+								"children": {
+									"base_color": "#FFFFFF",
+									"overlay_color": "#D21717"
+								}
+							},
+							{
+								"key": "materials",
+								"is_minified": true,
+								"children": {
+									"default": "entity_alphatest"
+								}
+							},
+							{
+								"key": "geometry",
+								"is_minified": true,
+								"children": {
+									"default": "geometry.demoneye"
+								}
+							},
+							{
+								"open": {
+									"identifier": "terrariamod:demoneye",
+									"textures": {
+										"default": "textures/entity/pamobile/demoneye.png"
+									},
+									"spawn_egg": {
+										"base_color": "#FFFFFF",
+										"overlay_color": "#D21717"
+									},
+									"materials": {
+										"default": "entity_alphatest"
+									},
+									"geometry": {
+										"default": "geometry.demoneye"
+									},
+									"animations": {
+										"move": "animation.demoneye"
+									},
+									"animation_controllers": [
+										{
+											"move": "controller.animation.humanoid.move"
+										}
+									],
+									"render_controllers": [
+										"controller.render.zombie"
+									],
+									"enable_attachables": true
+								},
+								"key": "animations",
+								"is_minified": true,
+								"children": {
+									"move": "animation.demoneye"
+								}
+							},
+							{
+								"open": {
+									"identifier": "terrariamod:demoneye",
+									"textures": {
+										"default": "textures/entity/pamobile/demoneye.png"
+									},
+									"spawn_egg": {
+										"base_color": "#FFFFFF",
+										"overlay_color": "#D21717"
+									},
+									"materials": {
+										"default": "entity_alphatest"
+									},
+									"geometry": {
+										"default": "geometry.demoneye"
+									},
+									"animations": {
+										"move": "animation.demoneye"
+									},
+									"animation_controllers": [
+										{
+											"move": "controller.animation.humanoid.move"
+										}
+									],
+									"render_controllers": [
+										"controller.render.zombie"
+									],
+									"enable_attachables": true
+								},
+								"key": "animation_controllers",
+								"children": [
+									{
+										"open": [
+											{
+												"move": "controller.animation.humanoid.move"
+											}
+										],
+										"is_minified": true,
+										"children": {
+											"move": "controller.animation.humanoid.move"
+										}
+									}
+								]
+							},
+							{
+								"key": "render_controllers",
+								"is_minified": true,
+								"children": [
+									"controller.render.zombie"
+								]
+							},
+							{
+								"data": "true",
+								"key": "enable_attachables"
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

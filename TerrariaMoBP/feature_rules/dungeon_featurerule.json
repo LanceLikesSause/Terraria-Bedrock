@@ -1,4 +1,4 @@
-//bridge-file-version: #37
+//bridge-file-version: #38
 {
 	"format_version": "1.13.0",
 	"minecraft:feature_rules": {
@@ -45,7 +45,7 @@
 			},
 			"scatter_chance": {
 				"numerator": 1,
-				"denominator": 70
+				"denominator": 180
 			}
 		}
 	}

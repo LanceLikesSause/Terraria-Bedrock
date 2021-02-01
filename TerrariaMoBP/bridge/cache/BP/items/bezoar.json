@@ -1,0 +1,147 @@
+{
+	"file_path": "C:\\Users\\LANCE.LEGAUX\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\TerrariaMoBP\\items\\bezoar.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "e4934819_a7fc_4936_a107_70e40db60e41",
+	"file_version": 5,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "terrariamod:bezoar",
+							"category": "equipment"
+						},
+						"components": {
+							"minecraft:use_duration": 1,
+							"minecraft:max_stack_size": 64,
+							"minecraft:icon": {
+								"texture": "terrariamod:bezoar"
+							},
+							"minecraft:display_name": {
+								"value": "item.terrariamod:bezoar.name"
+							},
+							"minecraft:food": {
+								"can_always_eat": true,
+								"on_consume": {
+									"event": "terrariamod:clear_effects"
+								}
+							},
+							"minecraft:use_animation": "eat",
+							"minecraft:creative_category": {
+								"parent": "equipment"
+							},
+							"minecraft:cooldown": {
+								"category": "healing_terrariamod",
+								"duration": 60
+							}
+						},
+						"events": {
+							"terrariamod:clear_effects": {
+								"remove_mob_effect": {
+									"target": "holder",
+									"effect": "poison"
+								}
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:bezoar",
+							"category": "equipment"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:bezoar",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:use_duration": 1,
+								"minecraft:max_stack_size": 64,
+								"minecraft:icon": {
+									"texture": "terrariamod:bezoar"
+								},
+								"minecraft:display_name": {
+									"value": "item.terrariamod:bezoar.name"
+								},
+								"minecraft:food": {
+									"can_always_eat": true,
+									"on_consume": {
+										"event": "terrariamod:clear_effects"
+									}
+								},
+								"minecraft:use_animation": "eat",
+								"minecraft:creative_category": {
+									"parent": "equipment"
+								},
+								"minecraft:cooldown": {
+									"category": "healing_terrariamod",
+									"duration": 60
+								}
+							},
+							"events": {
+								"terrariamod:clear_effects": {
+									"remove_mob_effect": {
+										"target": "holder",
+										"effect": "poison"
+									}
+								}
+							}
+						},
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:use_duration": 1,
+							"minecraft:max_stack_size": 64,
+							"minecraft:icon": {
+								"texture": "terrariamod:bezoar"
+							},
+							"minecraft:display_name": {
+								"value": "item.terrariamod:bezoar.name"
+							},
+							"minecraft:food": {
+								"can_always_eat": true,
+								"on_consume": {
+									"event": "terrariamod:clear_effects"
+								}
+							},
+							"minecraft:use_animation": "eat",
+							"minecraft:creative_category": {
+								"parent": "equipment"
+							},
+							"minecraft:cooldown": {
+								"category": "healing_terrariamod",
+								"duration": 60
+							}
+						}
+					},
+					{
+						"key": "events",
+						"is_minified": true,
+						"children": {
+							"terrariamod:clear_effects": {
+								"remove_mob_effect": {
+									"target": "holder",
+									"effect": "poison"
+								}
+							}
+						}
+					}
+				]
+			}
+		]
+	}
+}

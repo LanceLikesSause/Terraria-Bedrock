@@ -1,0 +1,46 @@
+//bridge-file-version: #6
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "terrariamod:thebeesknees",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:creative_category": {
+				"parent": "equipment"
+			},
+			"minecraft:max_stack_size": 1,
+			"minecraft:display_name": {
+				"value": "item.terrariamod:thebeesknees.name"
+			},
+			"minecraft:on_use": {
+				"on_use": {
+					"event": "terrariamod:shoot",
+					"condition": "query.get_equipped_item_name('off_hand')=='woodenarrow'"
+				}
+			},
+			"minecraft:cooldown": {
+				"category": "woodenbow",
+				"duration": 0.5
+			},
+			"minecraft:icon": {
+				"texture": "terrariamod:thebeesknees"
+			}
+		},
+		"events": {
+			"terrariamod:shoot": {
+				"shoot": {
+					"launch_power": 1,
+					"projectile": "terrariamod:thebeesknees_projectile"
+				},
+				"run_command": {
+					"command": [
+						"clear @s terrariamod:woodenarrow 0 1",
+						"playsound bow.effect @s ~~~"
+					]
+				}
+			}
+		}
+	}
+}

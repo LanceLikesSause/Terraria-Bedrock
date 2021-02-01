@@ -1,0 +1,246 @@
+{
+	"file_path": "C:\\Users\\LANCE.LEGAUX\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\TerrariaMoRP\\entity\\beenade.json",
+	"file_type": "client_entity",
+	"format_version": 1,
+	"file_uuid": "4fda29e4_294e_4fdd_a23e_4da0ff1f67bd",
+	"file_version": 5,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "terrariamod:beenade",
+							"materials": {
+								"default": "arrow"
+							},
+							"textures": {
+								"default": "textures/items/guns/beenade"
+							},
+							"geometry": {
+								"default": "geometry.item_sprite"
+							},
+							"animations": {
+								"move": "animation.arrow_fire.move"
+							},
+							"scripts": {
+								"pre_animation": [
+									"variable.shake = query.shake_time - query.frame_alpha;",
+									"variable.shake_power = variable.shake > 0.0 ? -Math.sin(variable.shake * 200.0) * variable.shake : 0.0;"
+								],
+								"animate": [
+									"move"
+								]
+							},
+							"render_controllers": [
+								"controller.render.arrow"
+							]
+						}
+					}
+				},
+				"key": "minecraft:client_entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:beenade",
+								"materials": {
+									"default": "arrow"
+								},
+								"textures": {
+									"default": "textures/items/guns/beenade"
+								},
+								"geometry": {
+									"default": "geometry.item_sprite"
+								},
+								"animations": {
+									"move": "animation.arrow_fire.move"
+								},
+								"scripts": {
+									"pre_animation": [
+										"variable.shake = query.shake_time - query.frame_alpha;",
+										"variable.shake_power = variable.shake > 0.0 ? -Math.sin(variable.shake * 200.0) * variable.shake : 0.0;"
+									],
+									"animate": [
+										"move"
+									]
+								},
+								"render_controllers": [
+									"controller.render.arrow"
+								]
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"open": {
+									"identifier": "terrariamod:beenade",
+									"materials": {
+										"default": "arrow"
+									},
+									"textures": {
+										"default": "textures/items/guns/beenade"
+									},
+									"geometry": {
+										"default": "geometry.item_sprite"
+									},
+									"animations": {
+										"move": "animation.arrow_fire.move"
+									},
+									"scripts": {
+										"pre_animation": [
+											"variable.shake = query.shake_time - query.frame_alpha;",
+											"variable.shake_power = variable.shake > 0.0 ? -Math.sin(variable.shake * 200.0) * variable.shake : 0.0;"
+										],
+										"animate": [
+											"move"
+										]
+									},
+									"render_controllers": [
+										"controller.render.arrow"
+									]
+								},
+								"data": "terrariamod:beenade",
+								"key": "identifier"
+							},
+							{
+								"open": {
+									"identifier": "terrariamod:beenade",
+									"materials": {
+										"default": "arrow"
+									},
+									"textures": {
+										"default": "textures/items/guns/beenade"
+									},
+									"geometry": {
+										"default": "geometry.item_sprite"
+									},
+									"animations": {
+										"move": "animation.arrow_fire.move"
+									},
+									"scripts": {
+										"pre_animation": [
+											"variable.shake = query.shake_time - query.frame_alpha;",
+											"variable.shake_power = variable.shake > 0.0 ? -Math.sin(variable.shake * 200.0) * variable.shake : 0.0;"
+										],
+										"animate": [
+											"move"
+										]
+									},
+									"render_controllers": [
+										"controller.render.arrow"
+									]
+								},
+								"key": "materials",
+								"is_minified": true,
+								"children": {
+									"default": "arrow"
+								}
+							},
+							{
+								"open": {
+									"identifier": "terrariamod:beenade",
+									"materials": {
+										"default": "arrow"
+									},
+									"textures": {
+										"default": "textures/items/guns/beenade"
+									},
+									"geometry": {
+										"default": "geometry.item_sprite"
+									},
+									"animations": {
+										"move": "animation.arrow_fire.move"
+									},
+									"scripts": {
+										"pre_animation": [
+											"variable.shake = query.shake_time - query.frame_alpha;",
+											"variable.shake_power = variable.shake > 0.0 ? -Math.sin(variable.shake * 200.0) * variable.shake : 0.0;"
+										],
+										"animate": [
+											"move"
+										]
+									},
+									"render_controllers": [
+										"controller.render.arrow"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": {
+									"default": "textures/items/guns/beenade"
+								}
+							},
+							{
+								"open": {
+									"identifier": "terrariamod:beenade",
+									"materials": {
+										"default": "arrow"
+									},
+									"textures": {
+										"default": "textures/items/guns/beenade"
+									},
+									"geometry": {
+										"default": "geometry.item_sprite"
+									},
+									"animations": {
+										"move": "animation.arrow_fire.move"
+									},
+									"scripts": {
+										"pre_animation": [
+											"variable.shake = query.shake_time - query.frame_alpha;",
+											"variable.shake_power = variable.shake > 0.0 ? -Math.sin(variable.shake * 200.0) * variable.shake : 0.0;"
+										],
+										"animate": [
+											"move"
+										]
+									},
+									"render_controllers": [
+										"controller.render.arrow"
+									]
+								},
+								"key": "geometry",
+								"is_minified": true,
+								"children": {
+									"default": "geometry.item_sprite"
+								}
+							},
+							{
+								"key": "animations",
+								"is_minified": true,
+								"children": {
+									"move": "animation.arrow_fire.move"
+								}
+							},
+							{
+								"key": "scripts",
+								"is_minified": true,
+								"children": {
+									"pre_animation": [
+										"variable.shake = query.shake_time - query.frame_alpha;",
+										"variable.shake_power = variable.shake > 0.0 ? -Math.sin(variable.shake * 200.0) * variable.shake : 0.0;"
+									],
+									"animate": [
+										"move"
+									]
+								}
+							},
+							{
+								"key": "render_controllers",
+								"is_minified": true,
+								"children": [
+									"controller.render.arrow"
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

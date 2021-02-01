@@ -1,0 +1,48 @@
+//bridge-file-version: #14
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "terrariamod:nectar",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "terrariamod:nectar"
+			},
+			"minecraft:display_name": {
+				"value": "item.terrariamod:nectar.name"
+			},
+			"minecraft:on_use": {
+				"on_use": {
+					"event": "terrariamod:use",
+					"target": "self"
+				}
+			},
+			"minecraft:creative_category": {
+				"parent": "equipment"
+			}
+		},
+		"events": {
+			"terrariamod:use": {
+				"swing": {},
+				"sequence": [
+					{
+						"run_command": {
+							"command": [
+								"kill @e[type=terrariamod:nectar_minion]"
+							]
+						}
+					},
+					{
+						"run_command": {
+							"command": [
+								"summon terrariamod:nectar_minion"
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

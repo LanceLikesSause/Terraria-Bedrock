@@ -30,7 +30,7 @@
 				"texture": "terrariamod:copperpickaxe"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:copperpickaxe.name"
+				"value": "Copper Pickaxe"
 			},
 			"minecraft:creative_category": {
 				"parent": "itemGroup.name.pickaxe"

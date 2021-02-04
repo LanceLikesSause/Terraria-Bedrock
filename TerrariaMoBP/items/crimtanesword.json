@@ -15,7 +15,7 @@
 				"texture": "terrariamod:crimtanesword"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:crimtanesword.name"
+				"value": "Crimtane Sword"
 			},
 			"minecraft:creative_category": {
 				"parent": "itemGroup.name.sword"

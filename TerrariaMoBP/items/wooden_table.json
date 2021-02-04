@@ -11,7 +11,7 @@
 				"texture": "terrariamod:wooden_table"
 			},
 			"minecraft:display_name": {
-				"value": "tile.terrariamod:wooden_table.name"
+				"value": "Wooden Table"
 			},
 			"minecraft:block_placer": {
 				"block": "terrariamod:wooden_table",

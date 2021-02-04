@@ -18,7 +18,7 @@
 				"texture": "terrariamod:gold_chestplate"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:gold_chestplate.name"
+				"value": "Gold Chainmail\n§9+8 Armor"
 			},
 			"minecraft:creative_category": {
 				"parent": "itemGroup.name.chestplate"

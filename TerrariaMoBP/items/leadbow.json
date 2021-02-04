@@ -15,7 +15,7 @@
 				"texture": "terrariamod:leadbow"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:leadbow.name"
+				"value": "Lead Bow\n§9+14 Projectile Damage"
 			},
 			"minecraft:on_use": {
 				"on_use": {

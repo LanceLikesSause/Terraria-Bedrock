@@ -15,7 +15,7 @@
 				"texture": "terrariamod:enchantedsword"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:enchantedsword.name"
+				"value": "Enchanted Sword\n§9Shoots an enchanted sword beam"
 			},
 			"minecraft:creative_category": {
 				"parent": "itemGroup.name.sword"

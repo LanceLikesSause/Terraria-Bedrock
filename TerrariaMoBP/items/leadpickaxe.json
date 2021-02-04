@@ -27,7 +27,7 @@
 				]
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:leadpickaxe.name"
+				"value": "Lead Pickaxe"
 			},
 			"minecraft:icon": {
 				"texture": "terrariamod:leadpickaxe"

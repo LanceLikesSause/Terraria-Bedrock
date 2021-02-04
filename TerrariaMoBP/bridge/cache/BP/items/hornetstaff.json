@@ -1,0 +1,517 @@
+{
+	"file_path": "C:\\Users\\LANCE.LEGAUX\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\TerrariaMoBP\\items\\hornetstaff.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "baf80114_c2db_4afc_9232_b32625f61d49",
+	"file_version": 17,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "terrariamod:hornetstaff",
+							"category": "equipment"
+						},
+						"components": {
+							"minecraft:display_name": {
+								"value": "item.terrariamod:hornetstaff.name"
+							},
+							"minecraft:on_use": {
+								"on_use": {
+									"event": "terrariamod:use",
+									"target": "self"
+								}
+							},
+							"minecraft:creative_category": {
+								"parent": "equipment"
+							},
+							"minecraft:icon": {
+								"texture": "terrariamod:hornetstaff"
+							}
+						},
+						"events": {
+							"terrariamod:use": {
+								"swing": {},
+								"sequence": [
+									{
+										"run_command": {
+											"command": [
+												"kill @e[type=terrariamod:hornetstaff_minion]"
+											]
+										}
+									},
+									{
+										"run_command": {
+											"command": [
+												"summon terrariamod:hornetstaff_minion"
+											]
+										}
+									}
+								]
+							}
+						}
+					}
+				},
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "terrariamod:hornetstaff",
+							"category": "equipment"
+						},
+						"components": {
+							"minecraft:display_name": {
+								"value": "item.terrariamod:hornetstaff.name"
+							},
+							"minecraft:on_use": {
+								"on_use": {
+									"event": "terrariamod:use",
+									"target": "self"
+								}
+							},
+							"minecraft:creative_category": {
+								"parent": "equipment"
+							},
+							"minecraft:icon": {
+								"texture": "terrariamod:hornetstaff"
+							}
+						},
+						"events": {
+							"terrariamod:use": {
+								"swing": {},
+								"sequence": [
+									{
+										"run_command": {
+											"command": [
+												"kill @e[type=terrariamod:hornetstaff_minion]"
+											]
+										}
+									},
+									{
+										"run_command": {
+											"command": [
+												"summon terrariamod:hornetstaff_minion"
+											]
+										}
+									}
+								]
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:hornetstaff",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:display_name": {
+									"value": "item.terrariamod:hornetstaff.name"
+								},
+								"minecraft:on_use": {
+									"on_use": {
+										"event": "terrariamod:use",
+										"target": "self"
+									}
+								},
+								"minecraft:creative_category": {
+									"parent": "equipment"
+								},
+								"minecraft:icon": {
+									"texture": "terrariamod:hornetstaff"
+								}
+							},
+							"events": {
+								"terrariamod:use": {
+									"swing": {},
+									"sequence": [
+										{
+											"run_command": {
+												"command": [
+													"kill @e[type=terrariamod:hornetstaff_minion]"
+												]
+											}
+										},
+										{
+											"run_command": {
+												"command": [
+													"summon terrariamod:hornetstaff_minion"
+												]
+											}
+										}
+									]
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:hornetstaff",
+							"category": "equipment"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:hornetstaff",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:display_name": {
+									"value": "item.terrariamod:hornetstaff.name"
+								},
+								"minecraft:on_use": {
+									"on_use": {
+										"event": "terrariamod:use",
+										"target": "self"
+									}
+								},
+								"minecraft:creative_category": {
+									"parent": "equipment"
+								},
+								"minecraft:icon": {
+									"texture": "terrariamod:hornetstaff"
+								}
+							},
+							"events": {
+								"terrariamod:use": {
+									"swing": {},
+									"sequence": [
+										{
+											"run_command": {
+												"command": [
+													"kill @e[type=terrariamod:hornetstaff_minion]"
+												]
+											}
+										},
+										{
+											"run_command": {
+												"command": [
+													"summon terrariamod:hornetstaff_minion"
+												]
+											}
+										}
+									]
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"open": {
+									"minecraft:display_name": {
+										"value": "item.terrariamod:hornetstaff.name"
+									},
+									"minecraft:on_use": {
+										"on_use": {
+											"event": "terrariamod:use",
+											"target": "self"
+										}
+									},
+									"minecraft:creative_category": {
+										"parent": "equipment"
+									},
+									"minecraft:icon": {
+										"texture": "terrariamod:hornetstaff"
+									}
+								},
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "item.terrariamod:hornetstaff.name"
+								}
+							},
+							{
+								"open": {
+									"minecraft:display_name": {
+										"value": "item.terrariamod:hornetstaff.name"
+									},
+									"minecraft:on_use": {
+										"on_use": {
+											"event": "terrariamod:use",
+											"target": "self"
+										}
+									},
+									"minecraft:creative_category": {
+										"parent": "equipment"
+									},
+									"minecraft:icon": {
+										"texture": "terrariamod:hornetstaff"
+									}
+								},
+								"key": "minecraft:on_use",
+								"children": [
+									{
+										"open": {
+											"on_use": {
+												"event": "terrariamod:use",
+												"target": "self"
+											}
+										},
+										"key": "on_use",
+										"is_minified": true,
+										"children": {
+											"event": "terrariamod:use",
+											"target": "self"
+										}
+									}
+								]
+							},
+							{
+								"key": "minecraft:creative_category",
+								"is_minified": true,
+								"children": {
+									"parent": "equipment"
+								}
+							},
+							{
+								"open": {
+									"minecraft:display_name": {
+										"value": "item.terrariamod:hornetstaff.name"
+									},
+									"minecraft:on_use": {
+										"on_use": {
+											"event": "terrariamod:use",
+											"target": "self"
+										}
+									},
+									"minecraft:creative_category": {
+										"parent": "equipment"
+									},
+									"minecraft:icon": {
+										"texture": "terrariamod:hornetstaff"
+									}
+								},
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "terrariamod:hornetstaff"
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:hornetstaff",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:display_name": {
+									"value": "item.terrariamod:hornetstaff.name"
+								},
+								"minecraft:on_use": {
+									"on_use": {
+										"event": "terrariamod:use",
+										"target": "self"
+									}
+								},
+								"minecraft:creative_category": {
+									"parent": "equipment"
+								},
+								"minecraft:icon": {
+									"texture": "terrariamod:hornetstaff"
+								}
+							},
+							"events": {
+								"terrariamod:use": {
+									"swing": {},
+									"sequence": [
+										{
+											"run_command": {
+												"command": [
+													"kill @e[type=terrariamod:hornetstaff_minion]"
+												]
+											}
+										},
+										{
+											"run_command": {
+												"command": [
+													"summon terrariamod:hornetstaff_minion"
+												]
+											}
+										}
+									]
+								}
+							}
+						},
+						"key": "events",
+						"children": [
+							{
+								"open": {
+									"terrariamod:use": {
+										"swing": {},
+										"sequence": [
+											{
+												"run_command": {
+													"command": [
+														"kill @e[type=terrariamod:hornetstaff_minion]"
+													]
+												}
+											},
+											{
+												"run_command": {
+													"command": [
+														"summon terrariamod:hornetstaff_minion"
+													]
+												}
+											}
+										]
+									}
+								},
+								"key": "terrariamod:use",
+								"children": [
+									{
+										"open": {
+											"swing": {},
+											"sequence": [
+												{
+													"run_command": {
+														"command": [
+															"kill @e[type=terrariamod:hornetstaff_minion]"
+														]
+													}
+												},
+												{
+													"run_command": {
+														"command": [
+															"summon terrariamod:hornetstaff_minion"
+														]
+													}
+												}
+											]
+										},
+										"key": "swing",
+										"is_minified": true,
+										"children": {}
+									},
+									{
+										"open": {
+											"swing": {},
+											"sequence": [
+												{
+													"run_command": {
+														"command": [
+															"kill @e[type=terrariamod:hornetstaff_minion]"
+														]
+													}
+												},
+												{
+													"run_command": {
+														"command": [
+															"summon terrariamod:hornetstaff_minion"
+														]
+													}
+												}
+											]
+										},
+										"key": "sequence",
+										"children": [
+											{
+												"open": [
+													{
+														"run_command": {
+															"command": [
+																"kill @e[type=terrariamod:hornetstaff_minion]"
+															]
+														}
+													},
+													{
+														"run_command": {
+															"command": [
+																"summon terrariamod:hornetstaff_minion"
+															]
+														}
+													}
+												],
+												"children": [
+													{
+														"open": {
+															"run_command": {
+																"command": [
+																	"kill @e[type=terrariamod:hornetstaff_minion]"
+																]
+															}
+														},
+														"key": "run_command",
+														"children": [
+															{
+																"open": {
+																	"command": [
+																		"kill @e[type=terrariamod:hornetstaff_minion]"
+																	]
+																},
+																"key": "command",
+																"is_minified": true,
+																"children": [
+																	"kill @e[type=terrariamod:hornetstaff_minion]"
+																]
+															}
+														]
+													}
+												]
+											},
+											{
+												"open": [
+													{
+														"run_command": {
+															"command": [
+																"kill @e[type=terrariamod:hornetstaff_minion]"
+															]
+														}
+													},
+													{
+														"run_command": {
+															"command": [
+																"summon terrariamod:hornetstaff_minion"
+															]
+														}
+													}
+												],
+												"children": [
+													{
+														"open": {
+															"run_command": {
+																"command": [
+																	"summon terrariamod:hornetstaff_minion"
+																]
+															}
+														},
+														"key": "run_command",
+														"children": [
+															{
+																"open": {
+																	"command": [
+																		"summon terrariamod:hornetstaff_minion"
+																	]
+																},
+																"key": "command",
+																"is_minified": true,
+																"children": [
+																	"summon terrariamod:hornetstaff_minion"
+																]
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

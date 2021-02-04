@@ -11,7 +11,7 @@
 				"texture": "terrariamod:purity_cobweb"
 			},
 			"minecraft:display_name": {
-				"value": "tile.terrariamod:purity_cobweb.name"
+				"value": "Cobweb"
 			},
 			"minecraft:block_placer": {
 				"block": "terrariamod:purity_cobweb",

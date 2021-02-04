@@ -798,7 +798,7 @@
 		},
 		"BP/blocks/ash.json": {
 			"identifiers": [
-				"terrariamod:ash"
+				"terrariamod:example_block"
 			],
 			"events": [],
 			"recipe_tags": [],
@@ -1003,6 +1003,15 @@
 			"events": [
 				"terrariamod:loz"
 			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/example_block.json": {
+			"identifiers": [
+				"terrariamod:example_block"
+			],
+			"events": [],
 			"recipe_tags": [],
 			"custom_commands": [],
 			"custom_components": []
@@ -1910,6 +1919,22 @@
 			],
 			"custom_commands": [],
 			"custom_components": []
+		},
+		"BP/entities/hornetstaff_minion.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:nectar_minion"
+			],
+			"animation_references": [],
+			"families": [
+				"phantom",
+				"undead",
+				"monster",
+				"mob"
+			],
+			"custom_commands": [],
+			"custom_components": []
 		}
 	},
 	"feature_rule": {
@@ -2260,7 +2285,8 @@
 		"81f58682_6b0c_4cff_95a3_2fc37cf47ed4": {},
 		"b1d6b522_8cc6_467a_b068_0a68b60cf364": {},
 		"2f9256c6_18af_4fc5_8a47_a9e0f6d731b7": {},
-		"6f74d271_adcc_4645_9b48_4be806072337": {}
+		"6f74d271_adcc_4645_9b48_4be806072337": {},
+		"baf80114_c2db_4afc_9232_b32625f61d49": {}
 	},
 	"rp_animation_controller": {
 		"RP/animation_controllers/devourer.animation.controller.json": {
@@ -3582,7 +3608,7 @@
 		},
 		"RP/entity/nectar_minion.json": {
 			"identifiers": [
-				"terrariamod:nectar_minion"
+				"terrariamod:hornetstaff_minion"
 			],
 			"particle_references": [],
 			"animation_references": [
@@ -3730,6 +3756,45 @@
 			"particle_references": [],
 			"animation_references": [
 				"move"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/hornetstaff_minion.json": {
+			"identifiers": [
+				"terrariamod:hornetstaff_minion"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"humanoid_big_head",
+				"look_at_target_default",
+				"look_at_target_gliding",
+				"look_at_target_swimming",
+				"move",
+				"riding.arms",
+				"riding.legs",
+				"holding",
+				"brandish_spear",
+				"charging",
+				"attack.rotations",
+				"sneaking",
+				"bob",
+				"damage_nearby_mobs",
+				"bow_and_arrow",
+				"use_item_progress",
+				"zombie_attack_bare_hand",
+				"swimming"
 			],
 			"sound_references": [],
 			"texture_references": [
@@ -4095,7 +4160,7 @@
 		},
 		"BP/recipes/bottle_recipe.json": {
 			"tags": [
-				"tfurnace"
+				"iron_anvil"
 			]
 		},
 		"BP/recipes/bottlestation_recipe.json": {
@@ -4186,6 +4251,16 @@
 		"BP/recipes/abeemination_recipe.json": {
 			"tags": [
 				"workbench"
+			]
+		},
+		"BP/recipes/beenade_recipe.json": {
+			"tags": [
+				"iron_anvil"
+			]
+		},
+		"BP/recipes/hornetstaff_recipe.json": {
+			"tags": [
+				"iron_anvil"
 			]
 		}
 	},
@@ -5056,7 +5131,7 @@
 		},
 		"BP/items/nectar.json": {
 			"identifiers": [
-				"terrariamod:nectar"
+				"terrariamod:hornetstaff"
 			],
 			"custom_commands": []
 		},
@@ -5069,6 +5144,30 @@
 		"BP/items/abeemination.json": {
 			"identifiers": [
 				"terrariamod:abeemination"
+			],
+			"custom_commands": []
+		},
+		"BP/items/hornetstaff.json": {
+			"identifiers": [
+				"terrariamod:hornetstaff"
+			],
+			"custom_commands": []
+		},
+		"BP/items/example.json": {
+			"identifiers": [
+				"terrariamod:example"
+			],
+			"custom_commands": []
+		},
+		"BP/items/delte.json": {
+			"identifiers": [
+				"terrariamod:delte"
+			],
+			"custom_commands": []
+		},
+		"BP/items/copperaxe.json": {
+			"identifiers": [
+				"terrariamod:copperaxe"
 			],
 			"custom_commands": []
 		}

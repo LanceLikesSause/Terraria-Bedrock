@@ -15,7 +15,7 @@
 				"texture": "terrariamod:demonitesword"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:demonitesword.name"
+				"value": "Light's Blade"
 			},
 			"minecraft:creative_category": {
 				"parent": "itemGroup.name.sword"

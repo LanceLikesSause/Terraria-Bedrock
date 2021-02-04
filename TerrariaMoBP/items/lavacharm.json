@@ -19,7 +19,7 @@
 				"texture": "terrariamod:lavacharm"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:lavacharm.name"
+				"value": "Lava Charm\n§9Provides 7 seconds of immunity to lava"
 			},
 			"minecraft:on_use": {
 				"on_use": {

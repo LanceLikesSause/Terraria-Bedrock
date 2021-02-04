@@ -11,7 +11,7 @@
 				"texture": "terrariamod:sawmill"
 			},
 			"minecraft:display_name": {
-				"value": "tile.terrariamod:sawmill.name"
+				"value": "Sawmill\n§9Used for advanced wood crafting"
 			},
 			"minecraft:block_placer": {
 				"block": "terrariamod:sawmill",

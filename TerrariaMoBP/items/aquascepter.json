@@ -19,7 +19,7 @@
 				"texture": "terrariamod:aquascepter"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:aquascepter.name"
+				"value": "Aquascepter\n§9Sprays out a shower of water"
 			},
 			"minecraft:creative_category": {
 				"parent": "equipment"

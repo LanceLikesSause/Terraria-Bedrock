@@ -11,7 +11,7 @@
 				"texture": "terrariamod:beewax"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:beewax.name"
+				"value": "Bee Wax"
 			},
 			"minecraft:max_stack_size": 64,
 			"minecraft:creative_category": {

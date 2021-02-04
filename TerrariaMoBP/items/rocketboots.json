@@ -22,7 +22,7 @@
 				"texture": "terrariamod:rocketboots"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:rocketboots.name"
+				"value": "Rocket Boots\n§9Allows flight"
 			},
 			"minecraft:creative_category": {
 				"parent": "equipment"

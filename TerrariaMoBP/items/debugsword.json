@@ -15,7 +15,7 @@
 				"texture": "terrariamod:bonesword"
 			},
 			"minecraft:display_name": {
-				"value": "Debug Sword"
+				"value": "Debug Sword\n§9No cheating!"
 			},
 			"minecraft:creative_category": {
 				"parent": "itemGroup.name.sword"

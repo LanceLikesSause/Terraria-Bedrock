@@ -18,7 +18,7 @@
 				"texture": "terrariamod:tin_chestplate"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:tin_chestplate.name"
+				"value": "Tin Chainmail\n§9+4 Armor"
 			},
 			"minecraft:creative_category": {
 				"parent": "itemGroup.name.chestplate"

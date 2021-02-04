@@ -18,7 +18,7 @@
 				"texture": "terrariamod:crimtane_greaves"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:crimtane_greaves.name"
+				"value": "Crimtane Greaves\n§9+6 Armor"
 			},
 			"minecraft:creative_category": {
 				"parent": "itemGroup.name.leggings"

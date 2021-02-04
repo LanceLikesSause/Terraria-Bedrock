@@ -15,7 +15,7 @@
 				"slot": "slot.armor.head"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:iron_helmet.name"
+				"value": "Iron Helmet\n§9+2 Armor"
 			},
 			"minecraft:icon": {
 				"texture": "terrariamod:iron_helmet"

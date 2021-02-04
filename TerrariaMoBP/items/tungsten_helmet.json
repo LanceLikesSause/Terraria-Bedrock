@@ -15,7 +15,7 @@
 				"slot": "slot.armor.head"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:tungsten_helmet.name"
+				"value": "Tungsten Helmet\n§9+4 Armor"
 			},
 			"minecraft:icon": {
 				"texture": "terrariamod:tungsten_helmet"

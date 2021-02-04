@@ -30,7 +30,7 @@
 				"texture": "terrariamod:cactuspickaxe"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:cactuspickaxe.name"
+				"value": "Cactus Pickaxe"
 			},
 			"minecraft:creative_category": {
 				"parent": "itemGroup.name.pickaxe"

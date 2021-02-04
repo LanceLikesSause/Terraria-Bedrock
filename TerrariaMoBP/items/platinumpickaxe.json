@@ -27,7 +27,7 @@
 				]
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:platinumpickaxe.name"
+				"value": "Platinum Pickaxe"
 			},
 			"minecraft:icon": {
 				"texture": "terrariamod:platinumpickaxe"

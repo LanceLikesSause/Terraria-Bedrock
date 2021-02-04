@@ -17,7 +17,7 @@
 				"parent": "equipment"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:honey_bucket.name"
+				"value": "Honey Bucket\n§9Contains a small amount of honey, Can be poured out"
 			}
 		},
 		"events": {}

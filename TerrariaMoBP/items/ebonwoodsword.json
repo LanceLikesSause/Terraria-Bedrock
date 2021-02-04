@@ -15,7 +15,7 @@
 				"texture": "terrariamod:ebonwoodsword"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:ebonwoodsword.name"
+				"value": "Ebonwood Sword"
 			},
 			"minecraft:creative_category": {
 				"parent": "itemGroup.name.sword"

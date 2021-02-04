@@ -11,7 +11,7 @@
 				"texture": "terrariamod:purity_campfire"
 			},
 			"minecraft:display_name": {
-				"value": "tile.terrariamod:purity_campfire.name"
+				"value": "Campfire\n§9Life regen is increased when near a campfire"
 			},
 			"minecraft:block_placer": {
 				"block": "terrariamod:purity_campfire",

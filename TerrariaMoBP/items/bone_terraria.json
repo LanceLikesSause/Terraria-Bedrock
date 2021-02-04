@@ -19,7 +19,7 @@
 				"texture": "terrariamod:bone_terraria"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:bone_terraria.name"
+				"value": "Bone\n§9+20 Projectile Damage"
 			},
 			"minecraft:creative_category": {
 				"parent": "equipment"

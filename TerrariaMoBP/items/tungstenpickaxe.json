@@ -30,7 +30,7 @@
 				"texture": "terrariamod:tungstenpickaxe"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:tungstenpickaxe.name"
+				"value": "Tungsten Pickaxe"
 			},
 			"minecraft:creative_category": {
 				"parent": "itemGroup.name.pickaxe"

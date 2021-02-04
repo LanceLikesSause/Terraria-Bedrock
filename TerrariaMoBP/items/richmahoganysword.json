@@ -15,7 +15,7 @@
 				"texture": "terrariamod:richmahoganysword"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:richmahoganysword.name"
+				"value": "Rich Mahogany Sword"
 			},
 			"minecraft:creative_category": {
 				"parent": "itemGroup.name.sword"

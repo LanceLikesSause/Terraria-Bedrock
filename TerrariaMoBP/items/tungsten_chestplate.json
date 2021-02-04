@@ -18,7 +18,7 @@
 				"texture": "terrariamod:tungsten_chestplate"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:tungsten_chestplate.name"
+				"value": "Tungsten Chainmail\n§9+8 Armor"
 			},
 			"minecraft:creative_category": {
 				"parent": "itemGroup.name.chestplate"

@@ -12,7 +12,7 @@
 				"texture": "terrariamod:ruby"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:ruby.name"
+				"value": "Ruby"
 			},
 			"minecraft:creative_category": {
 				"parent": "items"

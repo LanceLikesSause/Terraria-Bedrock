@@ -14,7 +14,7 @@
 				"texture": "terrariamod:bloodyspine"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:bloodyspine.name"
+				"value": "Bloody Spine\n§9Summons the Brain of Cthulhu\nOnly can be used in the crimson biome"
 			},
 			"minecraft:creative_category": {
 				"parent": "nature"

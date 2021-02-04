@@ -17,7 +17,7 @@
 				"texture": "terrariamod:meteorite_chestplate"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:meteorite_chestplate.name"
+				"value": "Meteorite Chainmail\n§9+6 Armor"
 			},
 			"minecraft:creative_category": {
 				"parent": "itemGroup.name.chestplate"

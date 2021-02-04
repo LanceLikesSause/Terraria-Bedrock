@@ -12,7 +12,7 @@
 				"texture": "terrariamod:goldbar"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:goldbar.name"
+				"value": "Gold Bar"
 			},
 			"minecraft:creative_category": {
 				"parent": "items"

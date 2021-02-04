@@ -12,7 +12,7 @@
 				"texture": "terrariamod:fallenstars"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:fallenstars.name"
+				"value": "Fallen Star\n§9Disappears after the sunrise"
 			},
 			"minecraft:creative_category": {
 				"parent": "items"

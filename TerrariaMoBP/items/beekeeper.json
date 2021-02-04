@@ -15,7 +15,7 @@
 				"texture": "terrariamod:beekeeper"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:beekeeper.name"
+				"value": "Bee Keeper\n§9Summons killer bees after striking your foe"
 			},
 			"minecraft:creative_category": {
 				"parent": "itemGroup.name.sword"

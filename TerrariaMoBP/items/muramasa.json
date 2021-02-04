@@ -15,7 +15,7 @@
 				"texture": "terrariamod:muramasa"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:muramasa.name"
+				"value": "Muramasa"
 			},
 			"minecraft:creative_category": {
 				"parent": "itemGroup.name.sword"

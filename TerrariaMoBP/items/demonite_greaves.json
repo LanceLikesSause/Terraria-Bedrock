@@ -18,7 +18,7 @@
 				"texture": "terrariamod:demonite_greaves"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:demonite_greaves.name"
+				"value": "Demonite Chestplate\n§9+6 Armor"
 			},
 			"minecraft:creative_category": {
 				"parent": "itemGroup.name.leggings"

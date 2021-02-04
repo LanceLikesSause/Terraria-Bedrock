@@ -11,7 +11,7 @@
 				"entity": "terrariamod:nurse"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:nurse_summoner.name"
+				"value": "Nurse Summoner"
 			},
 			"minecraft:icon": {
 				"texture": "terrariamod:nurse_summoner"

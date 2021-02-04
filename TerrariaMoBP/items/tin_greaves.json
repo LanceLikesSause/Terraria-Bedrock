@@ -15,7 +15,7 @@
 				"protection": 1
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:tin_greaves.name"
+				"value": "Tin Greaves\n§9+1 Armor"
 			},
 			"minecraft:icon": {
 				"texture": "terrariamod:tin_greaves"

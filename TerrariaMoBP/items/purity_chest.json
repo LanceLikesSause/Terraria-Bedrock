@@ -11,7 +11,7 @@
 				"texture": "terrariamod:purity_chest"
 			},
 			"minecraft:display_name": {
-				"value": "tile.terrariamod:purity_chest.name"
+				"value": "Chest"
 			},
 			"minecraft:block_placer": {
 				"block": "terrariamod:purity_chest",

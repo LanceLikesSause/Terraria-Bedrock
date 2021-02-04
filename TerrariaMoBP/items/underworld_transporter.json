@@ -11,7 +11,7 @@
 				"texture": "terrariamod:underworld_transporter"
 			},
 			"minecraft:display_name": {
-				"value": "tile.terrariamod:underworld_transporter.name"
+				"value": "Underworld Transporter\n§9Interacting with creates a portal to the underworld"
 			},
 			"minecraft:block_placer": {
 				"block": "terrariamod:underworld_transporter",

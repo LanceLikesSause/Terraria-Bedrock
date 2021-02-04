@@ -15,7 +15,7 @@
 				"texture": "terrariamod:umbrella"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:umbrella.name"
+				"value": "Umbrella\n§9You will fall slower while holding this"
 			},
 			"minecraft:on_use": {
 				"on_use": {

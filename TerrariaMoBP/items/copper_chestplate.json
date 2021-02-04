@@ -17,7 +17,7 @@
 				"texture": "terrariamod:copper_chestplate"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:copper_chestplate.name"
+				"value": "Copper Chainmail\n§9+4 Armor"
 			},
 			"minecraft:creative_category": {
 				"parent": "itemGroup.name.chestplate"

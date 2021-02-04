@@ -15,7 +15,7 @@
 				"slot": "slot.armor.head"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:hellstone_helmet.name"
+				"value": "Hellstone Chainmail\n§9+8 Armor"
 			},
 			"minecraft:icon": {
 				"texture": "terrariamod:hellstone_helmet"

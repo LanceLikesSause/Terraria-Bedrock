@@ -10,12 +10,11 @@
 			"minecraft:max_stack_size": 1,
 			"minecraft:hand_equipped": true,
 			"minecraft:damage": 42,
-			"minecraft:weapon": {},
 			"minecraft:icon": {
 				"texture": "terrariamod:nightsedge"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:nightsedge.name"
+				"value": "Night's Edge"
 			},
 			"minecraft:creative_category": {
 				"parent": "itemGroup.name.sword"

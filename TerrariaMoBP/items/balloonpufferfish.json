@@ -15,7 +15,7 @@
 				"texture": "terrariamod:balloonpufferfish"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:balloonpufferfish.name"
+				"value": "Ballon Pufferfish\n§9Increases jump height"
 			},
 			"minecraft:on_use": {
 				"on_use": {

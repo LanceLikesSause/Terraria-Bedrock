@@ -1,0 +1,48 @@
+//bridge-file-version: #17
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "terrariamod:hornetstaff",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:display_name": {
+				"value": "Hornet Staff\n§9Summons a hornet to fight for you"
+			},
+			"minecraft:on_use": {
+				"on_use": {
+					"event": "terrariamod:use",
+					"target": "self"
+				}
+			},
+			"minecraft:creative_category": {
+				"parent": "equipment"
+			},
+			"minecraft:icon": {
+				"texture": "terrariamod:hornetstaff"
+			}
+		},
+		"events": {
+			"terrariamod:use": {
+				"swing": {},
+				"sequence": [
+					{
+						"run_command": {
+							"command": [
+								"kill @e[type=terrariamod:hornetstaff_minion]"
+							]
+						}
+					},
+					{
+						"run_command": {
+							"command": [
+								"summon terrariamod:hornetstaff_minion"
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

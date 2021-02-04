@@ -31,7 +31,7 @@
 			},
 			"tag:minecraft:is_axe": {},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:platinumaxe.name"
+				"value": "Platinum Axe"
 			},
 			"minecraft:render_offsets": "bow",
 			"minecraft:creative_category": {

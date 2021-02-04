@@ -11,7 +11,7 @@
 				"texture": "terrariamod:purity_chain"
 			},
 			"minecraft:display_name": {
-				"value": "tile.terrariamod:purity_chain.name"
+				"value": "Chain\n§9Can be climbed on"
 			},
 			"minecraft:block_placer": {
 				"block": "terrariamod:purity_chain",

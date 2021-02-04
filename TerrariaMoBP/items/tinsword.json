@@ -12,7 +12,7 @@
 			"minecraft:damage": 9,
 			"minecraft:weapon": {},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:tinsword.name"
+				"value": "Tin Sword"
 			},
 			"minecraft:icon": {
 				"texture": "terrariamod:tinsword"

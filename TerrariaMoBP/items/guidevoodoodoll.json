@@ -11,7 +11,7 @@
 				"entity": "terrariamod:eyeofcthulhu_stageone"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:guidevoodoodoll.name"
+				"value": "Guide Voodoodoll\n§9'You are a terrible person.'"
 			},
 			"minecraft:icon": {
 				"texture": "terrariamod:guidevoodoodoll"

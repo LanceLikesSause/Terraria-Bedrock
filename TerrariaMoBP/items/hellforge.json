@@ -11,7 +11,7 @@
 				"texture": "terrariamod:hellforge"
 			},
 			"minecraft:display_name": {
-				"value": "tile.terrariamod:hellforge.name"
+				"value": "Hellforge"
 			},
 			"minecraft:block_placer": {
 				"block": "terrariamod:hellforge",

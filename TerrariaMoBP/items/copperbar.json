@@ -12,7 +12,7 @@
 				"texture": "terrariamod:copperbar"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:copperbar.name"
+				"value": "Copper Bar"
 			},
 			"minecraft:creative_category": {
 				"parent": "items"

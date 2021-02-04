@@ -14,7 +14,7 @@
 				"texture": "terrariamod:demolitionist_summoner"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:demolitionist_summoner.name"
+				"value": "Demolitionist Summoner"
 			},
 			"minecraft:creative_category": {
 				"parent": "nature"

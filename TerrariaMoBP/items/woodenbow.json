@@ -15,7 +15,7 @@
 				"texture": "terrariamod:woodenbow"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:woodenbow.name"
+				"value": "Wooden Bow\n§9+9 Projectile Damage"
 			},
 			"minecraft:on_use": {
 				"on_use": {

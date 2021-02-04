@@ -12,7 +12,7 @@
 			"minecraft:weapon": {},
 			"minecraft:damage": 10,
 			"minecraft:display_name": {
-				"value": "item.terrariamod:ironsword.name"
+				"value": "Iron Sword"
 			},
 			"minecraft:icon": {
 				"texture": "terrariamod:ironsword"

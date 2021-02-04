@@ -12,7 +12,7 @@
 				"texture": "terrariamod:leadbar"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:leadbar.name"
+				"value": "Lead Bar"
 			},
 			"minecraft:creative_category": {
 				"parent": "items"

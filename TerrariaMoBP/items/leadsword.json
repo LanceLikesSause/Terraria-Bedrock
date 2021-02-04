@@ -12,7 +12,7 @@
 			"minecraft:damage": 11,
 			"minecraft:weapon": {},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:leadsword.name"
+				"value": "Lead Sword"
 			},
 			"minecraft:icon": {
 				"texture": "terrariamod:leadsword"

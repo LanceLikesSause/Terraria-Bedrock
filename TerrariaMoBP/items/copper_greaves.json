@@ -18,7 +18,7 @@
 				"texture": "terrariamod:copper_greaves"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:copper_greaves.name"
+				"value": "Copper Greaves\n§9+1 Armor"
 			},
 			"minecraft:creative_category": {
 				"parent": "itemGroup.name.leggings"

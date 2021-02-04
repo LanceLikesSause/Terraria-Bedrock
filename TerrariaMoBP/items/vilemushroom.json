@@ -12,7 +12,7 @@
 				"texture": "terrariamod:vilemushroom"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:vilemushroom.name"
+				"value": "Vile Mushroom"
 			},
 			"minecraft:creative_category": {
 				"parent": "nature"

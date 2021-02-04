@@ -15,7 +15,7 @@
 				"texture": "terrariamod:cactussword"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:cactussword.name"
+				"value": "Cactus Sword"
 			},
 			"minecraft:creative_category": {
 				"parent": "itemGroup.name.sword"

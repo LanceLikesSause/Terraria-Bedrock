@@ -18,7 +18,7 @@
 				"texture": "terrariamod:platinum_chestplate"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:platinum_chestplate.name"
+				"value": "Platinum Chainmail\n§9+10 Armor"
 			},
 			"minecraft:creative_category": {
 				"parent": "itemGroup.name.chestplate"

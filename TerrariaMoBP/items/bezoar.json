@@ -13,7 +13,7 @@
 				"texture": "terrariamod:bezoar"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:bezoar.name"
+				"value": "Bezoar\n§9Immunity to Poison"
 			},
 			"minecraft:food": {
 				"can_always_eat": true,

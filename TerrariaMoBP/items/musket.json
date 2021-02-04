@@ -13,7 +13,7 @@
 				"texture": "terrariamod:musket"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:musket.name"
+				"value": "Musket\n§9+31 Projectile Damage"
 			},
 			"minecraft:creative_category": {
 				"parent": "equipment"

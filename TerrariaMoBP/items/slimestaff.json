@@ -12,7 +12,7 @@
 				"texture": "terrariamod:slimestaff"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:slimestaff.name"
+				"value": "Slime Staff\n§9Summons a baby slime to fight for you"
 			},
 			"minecraft:on_use": {
 				"on_use": {

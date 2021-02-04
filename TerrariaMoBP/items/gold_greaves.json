@@ -15,7 +15,7 @@
 				"protection": 4
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:gold_greaves.name"
+				"value": "Gold Greaves\n§9+4 Armor"
 			},
 			"minecraft:icon": {
 				"texture": "terrariamod:gold_greaves"

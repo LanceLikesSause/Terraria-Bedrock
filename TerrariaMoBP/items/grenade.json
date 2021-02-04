@@ -16,7 +16,7 @@
 			"minecraft:explodable": true,
 			"minecraft:max_stack_size": 64,
 			"minecraft:display_name": {
-				"value": "item.terrariamod:grenade.name"
+				"value": "Grenade\n§9+3 Explosive"
 			},
 			"minecraft:icon": {
 				"texture": "terrariamod:grenade"

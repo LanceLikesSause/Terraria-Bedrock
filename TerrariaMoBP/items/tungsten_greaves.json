@@ -15,7 +15,7 @@
 				"protection": 3
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:tungsten_greaves.name"
+				"value": "Tungsten Greaves\n§9+3 Armor"
 			},
 			"minecraft:icon": {
 				"texture": "terrariamod:tungsten_greaves"

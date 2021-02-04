@@ -22,7 +22,7 @@
 				"texture": "terrariamod:cartonofmilk"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:cartonofmilk.name"
+				"value": "Carton of Milk\n§9+2 Explosive\n§9Minor improvements to all stats 'For strong, healthy bones'"
 			},
 			"minecraft:use_animation": "drink",
 			"minecraft:creative_category": {

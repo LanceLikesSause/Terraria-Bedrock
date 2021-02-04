@@ -18,7 +18,7 @@
 				"texture": "terrariamod:lead_chestplate"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:lead_chestplate.name"
+				"value": "Lead Chainmail\n§9+6 Armor"
 			},
 			"minecraft:creative_category": {
 				"parent": "itemGroup.name.chestplate"

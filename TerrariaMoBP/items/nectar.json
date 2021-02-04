@@ -11,7 +11,7 @@
 				"texture": "terrariamod:nectar"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:nectar.name"
+				"value": "Nectar\n§9Summons a Baby Hornet"
 			},
 			"minecraft:on_use": {
 				"on_use": {

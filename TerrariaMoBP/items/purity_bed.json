@@ -11,7 +11,7 @@
 				"texture": "terrariamod:purity_bed"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:purity_bed.name"
+				"value": "Bed"
 			},
 			"minecraft:entity_placer": {
 				"entity": "terrariamod:purity_bed"

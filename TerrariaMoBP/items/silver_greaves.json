@@ -15,7 +15,7 @@
 				"protection": 1
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:silver_greaves.name"
+				"value": "Silver Greaves\n§9+1 Armor"
 			},
 			"minecraft:icon": {
 				"texture": "terrariamod:silver_greaves"

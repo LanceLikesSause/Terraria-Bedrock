@@ -15,7 +15,7 @@
 				"texture": "terrariamod:goldbow"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:goldbow.name"
+				"value": "Gold Bow\n§9+16 Projectile Damage"
 			},
 			"minecraft:on_use": {
 				"on_use": {

@@ -8,7 +8,7 @@
 		},
 		"components": {
 			"minecraft:display_name": {
-				"value": "item.terrariamod:cellphone.name"
+				"value": "Cell Phone\n§9Displays everything, Allows you to return home at will, Also doesn't really finished lol"
 			},
 			"minecraft:icon": {
 				"texture": "terrariamod:cellphone"

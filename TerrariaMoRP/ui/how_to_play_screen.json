@@ -1,4 +1,4 @@
-//bridge-file-version: #48
+//bridge-file-version: #51
 {
 	"namespace": "how_to_play",
 	"how_to_play_screen@how_to_play_common.screen_base": {
@@ -69,6 +69,11 @@
 							}
 						},
 						{
+							"testseven_button@how_to_play.testseven_button": {
+								"$toggle_group_forced_index": 7
+							}
+						},
+						{
 							"padding_1@how_to_play_common.padding": {
 								"size": [
 									0,
@@ -121,6 +126,9 @@
 						},
 						{
 							"testseven_section@how_to_play.testseven_section": {}
+						},
+						{
+							"testseight_section@how_to_play.testeight_section": {}
 						},
 						{
 							"section_contents_footer@how_to_play_common.section_contents_footer": {}
@@ -467,5 +475,50 @@
 	},
 	"testseven_button@how_to_play_common.section_toggle_button": {
 		"$section_topic": "tempseven"
+	},
+	"testeight_section@how_to_play_common.main_sections": {
+		"bindings": [
+			{
+				"binding_type": "view",
+				"source_control_name": "tempseven_button_toggle",
+				"source_property_name": "#toggle_state",
+				"target_property_name": "#visible"
+			}
+		],
+		"controls": [
+			{
+				"header_46@how_to_play_common.header": {
+					"$text": "terrariamod.tempeight.title0"
+				}
+			},
+			{
+				"paragraph_47@how_to_play_common.paragraph": {
+					"$text": "terrariamod.tempeight.text0"
+				}
+			},
+			{
+				"header_48@how_to_play_common.header": {
+					"$text": "terrariamod.tempeight.title1"
+				}
+			},
+			{
+				"paragraph_49@how_to_play_common.paragraph": {
+					"$text": "terrariamod.tempeight.text1"
+				}
+			},
+			{
+				"header_50@how_to_play_common.header": {
+					"$text": "terrariamod.tempeight.title2"
+				}
+			},
+			{
+				"paragraph_51@how_to_play_common.paragraph": {
+					"$text": "terrariamod.tempeight.text2"
+				}
+			}
+		]
+	},
+	"testeight_button@how_to_play_common.section_toggle_button": {
+		"$section_topic": "tempeight"
 	}
 }

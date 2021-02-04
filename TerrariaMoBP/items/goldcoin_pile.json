@@ -9,7 +9,7 @@
 		"components": {
 			"minecraft:max_stack_size": 64,
 			"minecraft:display_name": {
-				"value": "item.terrariamod:goldcoin_pile.name"
+				"value": "Pile of Golf Coins"
 			},
 			"minecraft:icon": {
 				"texture": "terrariamod:goldcoin_pile"

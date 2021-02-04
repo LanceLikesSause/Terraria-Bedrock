@@ -12,7 +12,7 @@
 				"texture": "terrariamod:crimtanebar"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:crimtanebar.name"
+				"value": "Crimtane Bar"
 			},
 			"minecraft:creative_category": {
 				"parent": "items"

@@ -15,7 +15,7 @@
 				"texture": "terrariamod:tinbow"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:tinbow.name"
+				"value": "Tin Bow\n§9+12 Projectile Damage"
 			},
 			"minecraft:on_use": {
 				"on_use": {

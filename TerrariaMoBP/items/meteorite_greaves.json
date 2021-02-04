@@ -18,7 +18,7 @@
 				"texture": "terrariamod:meteorite_greaves"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:meteorite_greaves.name"
+				"value": "Meteorite Greaves\n§9+5 Armor"
 			},
 			"minecraft:creative_category": {
 				"parent": "itemGroup.name.leggings"

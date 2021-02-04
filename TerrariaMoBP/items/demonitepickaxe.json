@@ -30,7 +30,7 @@
 				"texture": "terrariamod:demonitepickaxe"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:demonitepickaxe.name"
+				"value": "Demonite Pickaxe"
 			},
 			"minecraft:creative_category": {
 				"parent": "itemGroup.name.pickaxe"

@@ -11,7 +11,7 @@
 				"texture": "terrariamod:workbench"
 			},
 			"minecraft:display_name": {
-				"value": "tile.terrariamod:workbench.name"
+				"value": "Workbench\n§9Used for basic crafting"
 			},
 			"minecraft:block_placer": {
 				"block": "terrariamod:workbench",

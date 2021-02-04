@@ -11,7 +11,7 @@
 				"texture": "terrariamod:tfurnace"
 			},
 			"minecraft:display_name": {
-				"value": "tile.terrariamod:tfurnace.name"
+				"value": "Furnace\n§9Used for smelting ore"
 			},
 			"minecraft:block_placer": {
 				"block": "terrariamod:tfurnace",

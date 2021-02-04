@@ -11,7 +11,7 @@
 				"texture": "terrariamod:purity_loom"
 			},
 			"minecraft:display_name": {
-				"value": "tile.terrariamod:purity_loom.name"
+				"value": "Loom\n§9Used for crafting cloth"
 			},
 			"minecraft:block_placer": {
 				"block": "terrariamod:purity_loom",

@@ -12,7 +12,7 @@
 			"minecraft:use_duration": 1,
 			"minecraft:hand_equipped": true,
 			"minecraft:display_name": {
-				"value": "item.terrariamod:hermesboots.name"
+				"value": "Hermes Boots\n§9The wearer can run super fast"
 			},
 			"minecraft:icon": {
 				"texture": "terrariamod:hermesboots"

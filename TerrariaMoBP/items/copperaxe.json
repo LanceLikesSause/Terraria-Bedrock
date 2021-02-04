@@ -1,4 +1,4 @@
-//bridge-file-version: #13
+//bridge-file-version: #15
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
@@ -31,13 +31,14 @@
 			},
 			"tag:minecraft:is_axe": {},
 			"minecraft:render_offsets": "bow",
-			"minecraft:display_name": {
-				"value": "item.terrariamod:copperaxe.name"
-			},
 			"minecraft:creative_category": {
 				"parent": "itemGroup.name.axe"
 			},
-			"minecraft:weapon": {}
-		}
+			"minecraft:weapon": {},
+			"minecraft:display_name": {
+				"value": "Copper Axe"
+			}
+		},
+		"events": {}
 	}
 }

@@ -8,7 +8,7 @@
 		},
 		"components": {
 			"minecraft:display_name": {
-				"value": "item.terrariamod:slimecrown.name"
+				"value": "Slime Crown\n§9Summons King Slime"
 			},
 			"minecraft:icon": {
 				"texture": "terrariamod:slimecrown"

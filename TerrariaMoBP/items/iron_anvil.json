@@ -11,7 +11,7 @@
 				"texture": "terrariamod:iron_anvil"
 			},
 			"minecraft:display_name": {
-				"value": "tile.terrariamod:iron_anvil.name"
+				"value": "Iron Anvil\n§9Used to craft items from metal bars"
 			},
 			"minecraft:block_placer": {
 				"block": "terrariamod:iron_anvil",

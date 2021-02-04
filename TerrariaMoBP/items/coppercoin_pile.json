@@ -12,7 +12,7 @@
 				"texture": "terrariamod:coppercoin_pile"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:coppercoin_pile.name"
+				"value": "Pile of Copper Coins"
 			},
 			"minecraft:creative_category": {
 				"parent": "items"

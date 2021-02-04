@@ -9,7 +9,7 @@
 		"components": {
 			"minecraft:max_stack_size": 64,
 			"minecraft:display_name": {
-				"value": "item.terrariamod:silverbar.name"
+				"value": "Silver Bar"
 			},
 			"minecraft:icon": {
 				"texture": "terrariamod:silverbar"

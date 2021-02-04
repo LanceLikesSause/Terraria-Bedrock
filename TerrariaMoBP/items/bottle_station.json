@@ -11,7 +11,7 @@
 				"texture": "terrariamod:bottle_station"
 			},
 			"minecraft:display_name": {
-				"value": "tile.terrariamod:bottle_station.name"
+				"value": "Bottle(crafting station)"
 			},
 			"minecraft:block_placer": {
 				"block": "terrariamod:bottle_station",

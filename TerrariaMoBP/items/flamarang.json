@@ -10,7 +10,7 @@
 			"minecraft:explodable": true,
 			"minecraft:max_stack_size": 64,
 			"minecraft:display_name": {
-				"value": "item.terrariamod:flamarang.name"
+				"value": "Flamarang\n§9+32 Projectile Damage"
 			},
 			"minecraft:icon": {
 				"texture": "terrariamod:flamarang"

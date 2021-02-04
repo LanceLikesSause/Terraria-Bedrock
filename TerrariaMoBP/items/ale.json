@@ -22,7 +22,7 @@
 				"texture": "terrariamod:ale"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:ale.name"
+				"value": "Ale\n§9Minor improvements to melee stats & lowered defense Down the hatch!"
 			},
 			"minecraft:use_animation": "drink",
 			"minecraft:creative_category": {

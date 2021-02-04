@@ -12,7 +12,7 @@
 				"texture": "terrariamod:purity_torch"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:purity_torch.name"
+				"value": "Torch\n§9Provides light"
 			},
 			"minecraft:block_placer": {
 				"block": "terrariamod:purity_torch"

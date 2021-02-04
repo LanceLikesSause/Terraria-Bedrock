@@ -15,7 +15,7 @@
 				"texture": "terrariamod:bandofregeneration"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:bandofregeneration.name"
+				"value": "Band of Regeneration\n§9Slowly regenerates life"
 			},
 			"minecraft:on_use": {
 				"on_use": {

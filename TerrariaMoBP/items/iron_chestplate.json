@@ -18,7 +18,7 @@
 				"texture": "terrariamod:iron_chestplate"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:iron_chestplate.name"
+				"value": "Iron Chainmail\n§9+5 Armor"
 			},
 			"minecraft:creative_category": {
 				"parent": "itemGroup.name.chestplate"

@@ -15,7 +15,7 @@
 				"texture": "terrariamod:corrupted_wood"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:corrupted_wood.name"
+				"value": "Ebonwood"
 			},
 			"minecraft:creative_category": {
 				"parent": "construction"

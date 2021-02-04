@@ -1,4 +1,4 @@
-//bridge-file-version: #17
+//bridge-file-version: #19
 {
 	"id": 1588402018287,
 	"name": "QueenBee",
@@ -155,6 +155,12 @@
 								"min": 1,
 								"max": 1
 							}
+						},
+						{
+							"function": "set_lore",
+							"lore": [
+								"Summons a hornet to fight for you"
+							]
 						}
 					]
 				}

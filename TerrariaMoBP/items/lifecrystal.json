@@ -12,7 +12,7 @@
 			"minecraft:use_duration": 1,
 			"minecraft:hand_equipped": true,
 			"minecraft:display_name": {
-				"value": "item.terrariamod:lifecrystal.name"
+				"value": "Life Crystal\n§9Permanently increases maximum life by 20"
 			},
 			"minecraft:icon": {
 				"texture": "terrariamod:lifecrystal"

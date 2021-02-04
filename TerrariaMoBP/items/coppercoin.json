@@ -12,7 +12,7 @@
 				"texture": "terrariamod:coppercoin"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:coppercoin.name"
+				"value": "Copper Coin"
 			},
 			"minecraft:creative_category": {
 				"parent": "items"

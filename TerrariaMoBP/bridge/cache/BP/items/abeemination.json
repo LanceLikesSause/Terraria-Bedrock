@@ -3,7 +3,7 @@
 	"file_type": "item",
 	"format_version": 1,
 	"file_uuid": "81f58682_6b0c_4cff_95a3_2fc37cf47ed4",
-	"file_version": 26,
+	"file_version": 35,
 	"cache_content": {
 		"children": [
 			{
@@ -22,9 +22,6 @@
 							"minecraft:entity_placer": {
 								"entity": "terrariamod:brainofcthulhu_stageone"
 							},
-							"minecraft:display_name": {
-								"value": "item.terrariamod:abeemination.name"
-							},
 							"minecraft:creative_category": {
 								"parent": "nature"
 							},
@@ -36,6 +33,9 @@
 									"event": "terrariamod:summon",
 									"condition": "query.biome_has_any_tag('purity_jungle')"
 								}
+							},
+							"minecraft:display_name": {
+								"value": "Music Disc\\nSaltySean"
 							}
 						},
 						"events": {
@@ -64,9 +64,6 @@
 								"minecraft:entity_placer": {
 									"entity": "terrariamod:brainofcthulhu_stageone"
 								},
-								"minecraft:display_name": {
-									"value": "item.terrariamod:abeemination.name"
-								},
 								"minecraft:creative_category": {
 									"parent": "nature"
 								},
@@ -78,6 +75,9 @@
 										"event": "terrariamod:summon",
 										"condition": "query.biome_has_any_tag('purity_jungle')"
 									}
+								},
+								"minecraft:display_name": {
+									"value": "Music Disc\\nSaltySean"
 								}
 							},
 							"events": {
@@ -110,9 +110,6 @@
 								"minecraft:entity_placer": {
 									"entity": "terrariamod:brainofcthulhu_stageone"
 								},
-								"minecraft:display_name": {
-									"value": "item.terrariamod:abeemination.name"
-								},
 								"minecraft:creative_category": {
 									"parent": "nature"
 								},
@@ -124,6 +121,9 @@
 										"event": "terrariamod:summon",
 										"condition": "query.biome_has_any_tag('purity_jungle')"
 									}
+								},
+								"minecraft:display_name": {
+									"value": "Music Disc\\nSaltySean"
 								}
 							},
 							"events": {
@@ -146,33 +146,6 @@
 								"is_minified": true,
 								"children": {
 									"entity": "terrariamod:brainofcthulhu_stageone"
-								}
-							},
-							{
-								"open": {
-									"minecraft:entity_placer": {
-										"entity": "terrariamod:brainofcthulhu_stageone"
-									},
-									"minecraft:display_name": {
-										"value": "item.terrariamod:abeemination.name"
-									},
-									"minecraft:creative_category": {
-										"parent": "nature"
-									},
-									"minecraft:icon": {
-										"texture": "terrariamod:abeemination"
-									},
-									"minecraft:on_use": {
-										"on_use": {
-											"event": "terrariamod:summon",
-											"condition": "query.biome_has_any_tag('purity_jungle')"
-										}
-									}
-								},
-								"key": "minecraft:display_name",
-								"is_minified": true,
-								"children": {
-									"value": "item.terrariamod:abeemination.name"
 								}
 							},
 							{
@@ -207,6 +180,33 @@
 										}
 									}
 								]
+							},
+							{
+								"open": {
+									"minecraft:entity_placer": {
+										"entity": "terrariamod:brainofcthulhu_stageone"
+									},
+									"minecraft:creative_category": {
+										"parent": "nature"
+									},
+									"minecraft:icon": {
+										"texture": "terrariamod:abeemination"
+									},
+									"minecraft:on_use": {
+										"on_use": {
+											"event": "terrariamod:summon",
+											"condition": "query.biome_has_any_tag('purity_jungle')"
+										}
+									},
+									"minecraft:display_name": {
+										"value": "Music Disc\\nSaltySean"
+									}
+								},
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "Music Disc\\nSaltySean"
+								}
 							}
 						]
 					},
@@ -220,9 +220,6 @@
 								"minecraft:entity_placer": {
 									"entity": "terrariamod:brainofcthulhu_stageone"
 								},
-								"minecraft:display_name": {
-									"value": "item.terrariamod:abeemination.name"
-								},
 								"minecraft:creative_category": {
 									"parent": "nature"
 								},
@@ -234,6 +231,9 @@
 										"event": "terrariamod:summon",
 										"condition": "query.biome_has_any_tag('purity_jungle')"
 									}
+								},
+								"minecraft:display_name": {
+									"value": "Music Disc\\nSaltySean"
 								}
 							},
 							"events": {

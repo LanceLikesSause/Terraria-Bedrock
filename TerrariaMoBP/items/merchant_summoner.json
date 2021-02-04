@@ -11,7 +11,7 @@
 				"entity": "terrariamod:merchant"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:merchant_summoner.name"
+				"value": "Merchant Summoner"
 			},
 			"minecraft:icon": {
 				"texture": "terrariamod:merchant_summoner"

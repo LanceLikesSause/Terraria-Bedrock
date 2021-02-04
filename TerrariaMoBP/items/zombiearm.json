@@ -15,7 +15,7 @@
 				"texture": "terrariamod:zombiearm"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:zombiearm.name"
+				"value": "Zombie Arm"
 			},
 			"minecraft:creative_category": {
 				"parent": "equipment"

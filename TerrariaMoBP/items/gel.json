@@ -12,7 +12,7 @@
 				"texture": "terrariamod:gel"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:gel.name"
+				"value": "Gel\n§9Both tasty and flammable"
 			},
 			"minecraft:creative_category": {
 				"parent": "nature"

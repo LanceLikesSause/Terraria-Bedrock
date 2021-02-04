@@ -15,7 +15,7 @@
 				"slot": "slot.armor.head"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:lead_helmet.name"
+				"value": "Lead Helmet\n§9+3 Armor"
 			},
 			"minecraft:icon": {
 				"texture": "terrariamod:lead_helmet"

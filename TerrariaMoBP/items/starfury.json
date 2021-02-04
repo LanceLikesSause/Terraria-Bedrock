@@ -19,7 +19,7 @@
 				"texture": "terrariamod:starfury"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:starfury.name"
+				"value": "Starfury\n§9Causes stars to rain from the sky'Forged with the fury of heaven'"
 			},
 			"minecraft:creative_category": {
 				"parent": "itemGroup.name.sword"

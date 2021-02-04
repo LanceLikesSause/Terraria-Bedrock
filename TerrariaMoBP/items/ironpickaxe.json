@@ -27,7 +27,7 @@
 				]
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:ironpickaxe.name"
+				"value": "Iron Pickaxe"
 			},
 			"minecraft:icon": {
 				"texture": "terrariamod:ironpickaxe"

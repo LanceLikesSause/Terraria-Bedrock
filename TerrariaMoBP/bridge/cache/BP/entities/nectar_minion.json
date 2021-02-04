@@ -3,7 +3,7 @@
 	"file_type": "entity",
 	"format_version": 1,
 	"file_uuid": "23f10352_6be8_418b_a6b4_762185cbbe6d",
-	"file_version": 20,
+	"file_version": 21,
 	"cache_content": {
 		"children": [
 			{
@@ -55,9 +55,6 @@
 							"minecraft:pushable": {
 								"is_pushable": true,
 								"is_pushable_by_piston": true
-							},
-							"minecraft:attack": {
-								"damage": 22
 							},
 							"minecraft:mob_effect": {
 								"effect_range": 0.2,
@@ -113,15 +110,6 @@
 											"value": "terraria_players_enemy"
 										}
 									}
-								]
-							},
-							"minecraft:behavior.swoop_attack": {
-								"priority": 2,
-								"damage_reach": 0.2,
-								"speed_multiplier": 1,
-								"delay_range": [
-									2,
-									3
 								]
 							},
 							"minecraft:behavior.circle_around_anchor": {
@@ -194,9 +182,6 @@
 									"is_pushable": true,
 									"is_pushable_by_piston": true
 								},
-								"minecraft:attack": {
-									"damage": 22
-								},
 								"minecraft:mob_effect": {
 									"effect_range": 0.2,
 									"mob_effect": "poison",
@@ -251,15 +236,6 @@
 												"value": "terraria_players_enemy"
 											}
 										}
-									]
-								},
-								"minecraft:behavior.swoop_attack": {
-									"priority": 2,
-									"damage_reach": 0.2,
-									"speed_multiplier": 1,
-									"delay_range": [
-										2,
-										3
 									]
 								},
 								"minecraft:behavior.circle_around_anchor": {
@@ -338,9 +314,6 @@
 									"is_pushable": true,
 									"is_pushable_by_piston": true
 								},
-								"minecraft:attack": {
-									"damage": 22
-								},
 								"minecraft:mob_effect": {
 									"effect_range": 0.2,
 									"mob_effect": "poison",
@@ -395,15 +368,6 @@
 												"value": "terraria_players_enemy"
 											}
 										}
-									]
-								},
-								"minecraft:behavior.swoop_attack": {
-									"priority": 2,
-									"damage_reach": 0.2,
-									"speed_multiplier": 1,
-									"delay_range": [
-										2,
-										3
 									]
 								},
 								"minecraft:behavior.circle_around_anchor": {
@@ -477,9 +441,6 @@
 									"is_pushable": true,
 									"is_pushable_by_piston": true
 								},
-								"minecraft:attack": {
-									"damage": 22
-								},
 								"minecraft:mob_effect": {
 									"effect_range": 0.2,
 									"mob_effect": "poison",
@@ -534,15 +495,6 @@
 												"value": "terraria_players_enemy"
 											}
 										}
-									]
-								},
-								"minecraft:behavior.swoop_attack": {
-									"priority": 2,
-									"damage_reach": 0.2,
-									"speed_multiplier": 1,
-									"delay_range": [
-										2,
-										3
 									]
 								},
 								"minecraft:behavior.circle_around_anchor": {
@@ -605,9 +557,6 @@
 								"is_pushable": true,
 								"is_pushable_by_piston": true
 							},
-							"minecraft:attack": {
-								"damage": 22
-							},
 							"minecraft:mob_effect": {
 								"effect_range": 0.2,
 								"mob_effect": "poison",
@@ -662,15 +611,6 @@
 											"value": "terraria_players_enemy"
 										}
 									}
-								]
-							},
-							"minecraft:behavior.swoop_attack": {
-								"priority": 2,
-								"damage_reach": 0.2,
-								"speed_multiplier": 1,
-								"delay_range": [
-									2,
-									3
 								]
 							},
 							"minecraft:behavior.circle_around_anchor": {
@@ -739,9 +679,6 @@
 									"is_pushable": true,
 									"is_pushable_by_piston": true
 								},
-								"minecraft:attack": {
-									"damage": 22
-								},
 								"minecraft:mob_effect": {
 									"effect_range": 0.2,
 									"mob_effect": "poison",
@@ -796,15 +733,6 @@
 												"value": "terraria_players_enemy"
 											}
 										}
-									]
-								},
-								"minecraft:behavior.swoop_attack": {
-									"priority": 2,
-									"damage_reach": 0.2,
-									"speed_multiplier": 1,
-									"delay_range": [
-										2,
-										3
 									]
 								},
 								"minecraft:behavior.circle_around_anchor": {

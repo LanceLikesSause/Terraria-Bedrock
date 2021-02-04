@@ -19,7 +19,7 @@
 				"texture": "terrariamod:bookofskulls"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:bookofskulls.name"
+				"value": "Book of Skulls\n§9+29 Projectile Damage\n§9Shoots a skull"
 			},
 			"minecraft:creative_category": {
 				"parent": "equipment"

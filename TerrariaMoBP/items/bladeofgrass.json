@@ -15,7 +15,7 @@
 				"texture": "terrariamod:bladeofgrass"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:bladeofgrass.name"
+				"value": "Blade of Grass\n§9Has a chance to poison enemies"
 			},
 			"minecraft:creative_category": {
 				"parent": "itemGroup.name.sword"

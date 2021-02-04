@@ -15,7 +15,7 @@
 				"texture": "terrariamod:woodensword"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:woodensword.name"
+				"value": "Wooden Sword"
 			},
 			"minecraft:creative_category": {
 				"parent": "itemGroup.name.sword"

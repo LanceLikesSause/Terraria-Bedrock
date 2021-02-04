@@ -8,7 +8,7 @@
 		},
 		"components": {
 			"minecraft:display_name": {
-				"value": "item.terrariamod:wormfood.name"
+				"value": "Wormfood\n§9Summons the Eater of Worlds\n§9Needs to be in the corruption biome"
 			},
 			"minecraft:icon": {
 				"texture": "terrariamod:wormfood"

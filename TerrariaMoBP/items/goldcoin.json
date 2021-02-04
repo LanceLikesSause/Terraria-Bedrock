@@ -12,7 +12,7 @@
 				"texture": "terrariamod:goldcoin"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:goldcoin.name"
+				"value": "Gold Coin"
 			},
 			"minecraft:creative_category": {
 				"parent": "items"

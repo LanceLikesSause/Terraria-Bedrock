@@ -15,7 +15,7 @@
 				"texture": "terrariamod:goldsword"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:goldsword.name"
+				"value": "Gold Sword"
 			},
 			"minecraft:creative_category": {
 				"parent": "itemGroup.name.sword"

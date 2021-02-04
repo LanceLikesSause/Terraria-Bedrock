@@ -1,0 +1,27 @@
+//bridge-file-version: #6
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "terrariamod:beenade_recipe"
+		},
+		"tags": [
+			"iron_anvil"
+		],
+		"ingredients": [
+			{
+				"item": "terrariamod:grenade",
+				"count": 1
+			},
+			{
+				"item": "terrariamod:beewax",
+				"count": 1
+			}
+		],
+		"result": [
+			{
+				"item": "terrariamod:beenade"
+			}
+		]
+	}
+}

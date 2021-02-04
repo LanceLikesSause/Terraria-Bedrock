@@ -2223,6 +2223,46 @@
 						}
 					}
 				}
+			},
+			"baf80114_c2db_4afc_9232_b32625f61d49": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"23b1ee48_aa64_4ccc_a811_6277d742d6f1": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"986dca7c_047c_4d26_84eb_08deb55e67a1": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"08913d57_1809_4c38_8e45_0bd372e70715": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
 			}
 		}
 	},
@@ -3769,6 +3809,33 @@
 		"data": {}
 	},
 	"BP/features/enchantedsword_feature.json": {
+		"data": {}
+	},
+	"BP/recipes/beenade_recipe.json": {
+		"data": {}
+	},
+	"BP/items/hornetstaff.json": {
+		"data": {}
+	},
+	"BP/entities/hornetstaff_minion.json": {
+		"data": {}
+	},
+	"RP/entity/hornetstaff_minion.json": {
+		"data": {}
+	},
+	"BP/recipes/hornetstaff_recipe.json": {
+		"data": {}
+	},
+	"BP/items/example.json": {
+		"data": {}
+	},
+	"BP/blocks/example_block.json": {
+		"data": {}
+	},
+	"BP/items/delte.json": {
+		"data": {}
+	},
+	"BP/items/copperaxe.json": {
 		"data": {}
 	}
 }

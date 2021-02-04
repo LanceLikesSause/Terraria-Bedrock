@@ -15,7 +15,7 @@
 				"texture": "terrariamod:coppersword"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:coppersword.name"
+				"value": "Copper Sword"
 			},
 			"minecraft:creative_category": {
 				"parent": "itemGroup.name.sword"

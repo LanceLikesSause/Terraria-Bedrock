@@ -15,7 +15,7 @@
 				"texture": "terrariamod:crimson_wood"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:crimson_wood.name"
+				"value": "Shadewood"
 			},
 			"minecraft:creative_category": {
 				"parent": "construction"

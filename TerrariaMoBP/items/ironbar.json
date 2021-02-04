@@ -12,7 +12,7 @@
 				"texture": "terrariamod:ironbar"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:ironbar.name"
+				"value": "Iron Bar"
 			},
 			"minecraft:creative_category": {
 				"parent": "items"

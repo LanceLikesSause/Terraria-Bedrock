@@ -30,7 +30,7 @@
 				"texture": "terrariamod:goldpickaxe"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:goldpickaxe.name"
+				"value": "Gold Pickaxe"
 			},
 			"minecraft:creative_category": {
 				"parent": "itemGroup.name.pickaxe"

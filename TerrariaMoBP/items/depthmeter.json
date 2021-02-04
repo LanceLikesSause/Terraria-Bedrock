@@ -15,7 +15,7 @@
 				"texture": "terrariamod:depthmeter"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:depthmeter.name"
+				"value": "Depth Meter\n§9Displays depth"
 			},
 			"minecraft:use_animation": "eat",
 			"minecraft:on_use": {

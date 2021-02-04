@@ -27,7 +27,7 @@
 				]
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:tinpickaxe.name"
+				"value": "Tin Pickaxe"
 			},
 			"minecraft:icon": {
 				"texture": "terrariamod:tinpickaxe"

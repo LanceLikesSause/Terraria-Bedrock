@@ -15,7 +15,7 @@
 				"protection": 2
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:iron_greaves.name"
+				"value": "Iron Greaves\n§9+2 Armor"
 			},
 			"minecraft:icon": {
 				"texture": "terrariamod:iron_greaves"

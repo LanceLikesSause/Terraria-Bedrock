@@ -19,7 +19,7 @@
 				"texture": "terrariamod:spacegun"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:spacegun.name"
+				"value": "Space Gun\n§9+19 Magic Damage"
 			},
 			"minecraft:creative_category": {
 				"parent": "equipment"

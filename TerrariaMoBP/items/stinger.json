@@ -12,7 +12,7 @@
 				"texture": "terrariamod:stinger"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:stinger.name"
+				"value": "Stinger"
 			},
 			"minecraft:creative_category": {
 				"parent": "nature"

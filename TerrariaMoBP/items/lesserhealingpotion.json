@@ -19,7 +19,7 @@
 				"can_always_eat": true
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:lesserhealingpotion.name"
+				"value": "Lesser Healing Potion\n§9+50 Health"
 			},
 			"minecraft:icon": {
 				"texture": "terrariamod:lesserhealingpotion"

@@ -11,7 +11,7 @@
 				"texture": "terrariamod:silk"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:silk.name"
+				"value": "Silk"
 			},
 			"minecraft:max_stack_size": 64,
 			"minecraft:creative_category": {

@@ -16,7 +16,7 @@
 				"texture": "terrariamod:purity_wood"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:purity_wood.name"
+				"value": "Wood"
 			},
 			"minecraft:creative_category": {
 				"parent": "construction"

@@ -15,7 +15,7 @@
 				"texture": "terrariamod:platinumsword"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:platinumsword.name"
+				"value": "Platinum Sword"
 			},
 			"minecraft:creative_category": {
 				"parent": "itemGroup.name.sword"

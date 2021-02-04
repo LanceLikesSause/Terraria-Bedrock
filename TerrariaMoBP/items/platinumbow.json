@@ -15,7 +15,7 @@
 				"texture": "terrariamod:platinumbow"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:platinumbow.name"
+				"value": "Platinum Bow\n§9+18 Projectile Damage"
 			},
 			"minecraft:on_use": {
 				"on_use": {

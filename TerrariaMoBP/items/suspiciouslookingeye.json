@@ -8,7 +8,7 @@
 		},
 		"components": {
 			"minecraft:display_name": {
-				"value": "item.terrariamod:suspiciouslookingeye.name"
+				"value": "Suspicious Looking Eye\n§9Summons the Eye of Cthulhu\n§9Needs to be night"
 			},
 			"minecraft:icon": {
 				"texture": "terrariamod:suspiciouslookingeye"

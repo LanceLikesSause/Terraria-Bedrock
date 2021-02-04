@@ -13,7 +13,7 @@
 				"texture": "terrariamod:minishark"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:minishark.name"
+				"value": "Minishark\n§+13 Projectile Damage\n§9933% chance to not consume ammo'Half shark, half gun, completely awesome.'"
 			},
 			"minecraft:creative_category": {
 				"parent": "equipment"

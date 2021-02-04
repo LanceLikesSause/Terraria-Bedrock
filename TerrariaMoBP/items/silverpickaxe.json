@@ -27,7 +27,7 @@
 				]
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:silverpickaxe.name"
+				"value": "Silver Pickaxe"
 			},
 			"minecraft:icon": {
 				"texture": "terrariamod:silverpickaxe"

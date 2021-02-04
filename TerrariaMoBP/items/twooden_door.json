@@ -11,7 +11,7 @@
 				"texture": "terrariamod:twooden_door"
 			},
 			"minecraft:display_name": {
-				"value": "tile.terrariamod:twooden_door.name"
+				"value": "Wooden Door"
 			},
 			"minecraft:block_placer": {
 				"block": "terrariamod:twooden_door",

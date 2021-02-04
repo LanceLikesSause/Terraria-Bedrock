@@ -15,7 +15,7 @@
 				"texture": "terrariamod:shadewoodsword"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:shadewoodsword.name"
+				"value": "Shadewood Sword"
 			},
 			"minecraft:creative_category": {
 				"parent": "itemGroup.name.sword"

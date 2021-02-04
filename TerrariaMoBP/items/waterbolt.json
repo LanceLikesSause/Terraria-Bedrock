@@ -19,7 +19,7 @@
 				"texture": "terrariamod:waterbolt"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:waterbolt.name"
+				"value": "Waterbolt\n§9+19 Magic Damage\n§9Casts a slow moving bolt of water"
 			},
 			"minecraft:creative_category": {
 				"parent": "equipment"

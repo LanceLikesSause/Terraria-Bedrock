@@ -13,7 +13,7 @@
 				"texture": "terrariamod:glowing_mushroom"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:glowing_mushroom.name"
+				"value": "Glowing Mushroom"
 			},
 			"minecraft:creative_category": {
 				"parent": "nature"

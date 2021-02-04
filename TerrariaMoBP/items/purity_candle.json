@@ -11,7 +11,7 @@
 				"texture": "terrariamod:purity_candle"
 			},
 			"minecraft:display_name": {
-				"value": "tile.terrariamod:purity_candle.name"
+				"value": "Candle"
 			},
 			"minecraft:block_placer": {
 				"block": "terrariamod:purity_candle",

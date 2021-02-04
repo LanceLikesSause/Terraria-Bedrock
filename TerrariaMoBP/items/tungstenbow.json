@@ -15,7 +15,7 @@
 				"texture": "terrariamod:tungstenbow"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:tungstenbow.name"
+				"value": "Tungsten Bow\n§9+15 Projectile Damage"
 			},
 			"minecraft:on_use": {
 				"on_use": {

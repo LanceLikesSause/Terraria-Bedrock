@@ -15,7 +15,7 @@
 				"slot": "slot.armor.head"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:gold_helmet.name"
+				"value": "Gold Chainmail\n§9+4 Armor"
 			},
 			"minecraft:icon": {
 				"texture": "terrariamod:gold_helmet"

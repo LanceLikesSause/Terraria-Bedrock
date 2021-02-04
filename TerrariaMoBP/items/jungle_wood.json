@@ -15,7 +15,7 @@
 				"texture": "terrariamod:jungle_wood"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:jungle_wood.name"
+				"value": "Rich Mahogany"
 			},
 			"minecraft:creative_category": {
 				"parent": "construction"

@@ -13,7 +13,7 @@
 				"texture": "terrariamod:phoenixblaster"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:phoenixblaster.name"
+				"value": "Phoenix Blaster\n§9+24 Projectile Damage"
 			},
 			"minecraft:creative_category": {
 				"parent": "equipment"

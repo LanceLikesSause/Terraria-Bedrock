@@ -30,7 +30,7 @@
 				"texture": "terrariamod:crimtanepickaxe"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:crimtanepickaxe.name"
+				"value": "Crimtane Pickaxe"
 			},
 			"minecraft:creative_category": {
 				"parent": "itemGroup.name.pickaxe"

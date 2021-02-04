@@ -19,7 +19,7 @@
 				"texture": "terrariamod:dynamite"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:dynamite.name"
+				"value": "Dynamite\n§9+6 Explosive\n§9A large explosion that will destroy most tiles"
 			},
 			"minecraft:creative_category": {
 				"parent": "equipment"

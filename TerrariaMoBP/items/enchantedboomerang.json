@@ -13,7 +13,7 @@
 				"texture": "terrariamod:enchantedboomerang"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:enchantedboomerang.name"
+				"value": "Enchanted Boomerang\n§9+13 Projectile Damage"
 			},
 			"minecraft:on_use": {
 				"on_use": {

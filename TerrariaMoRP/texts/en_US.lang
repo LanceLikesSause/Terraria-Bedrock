@@ -1,4 +1,4 @@
-##bridge-file-version: #417
+##bridge-file-version: #419
 ########how to play
 terrariamod.category.dakon=Terraria Mod Tutorial
 howtoplay.category.dakon=Terraria Guide
@@ -53,6 +53,14 @@ terrariamod.tempseven.title1=How NPCs spawn in
 terrariamod.tempseven.text1=The chair will spawn in the NPCs using a system. The system works like this, if the player has more then 100 hp (used at least on heart crystal) then the Nurse will spawn after some time, if the player gotten enough coins then Merchant will spawn in after some time, if the player has destroyed enough surface , underground, and cavern chest the Demolitionist will spawn after some time, if the player has destroyed a crimson heart or the corruption version then the Arms Dealer will spawn after some time. You can right-click / interact with the chair to see the score that control when the npcs spawn in. It will display the coins, explosives, and health scores when a score is more then 30 then the merchant, nurse, demolitionist, and arms dealer stats will increase, when these stats reaches 360 they will spawn in.
 terrariamod.tempseven.title2=Furniture
 terrariamod.tempseven.text2=You can decorate your house with blocks like torches, tables, candles, etc. You can craft these blocks in the workbench, they have all their recipes in the recipe book.
+howtoplay.tempseven.title=Bee Hive
+howtoplay.tempseven=Bee Hive
+terrariamod.tempeight.title0=Finding the Bee Hive
+terrariamod.tempeight.text0=To Find the Bee Hive you must first find the Jungle Biome. This biome is pretty rare so you will probably need to search alot to find it. Once you get there the bee hive structure will spawn in half of all chucks on y level 34.
+terrariamod.tempeight.title1=Summoning the Queen Bee
+terrariamod.tempeight.text1=In order to summon the Queen Bee you need to find the Larva block. It's a yellow block with a bee inside which is found in the bee hive. If you mine it, it will break instantly and summon the Queen Bee.
+terrariamod.tempeight.title2=Getting items
+terrariamod.tempeight.text2=The Queen Bee will drop variety of items when killed. This includes bee wax which can be crafted into beenades, and the hornet staff these recipes can be found in the recipe book.
 
 
 
@@ -62,6 +70,7 @@ tile.terrariamod:underworld_transporter.name=Underworld Transporter
 tile.terrariamod:larva.name=Larva
 item.terrariamod:beewax.name=Bee Wax
 item.terrariamod:abeemination.name=Abeemination
+item.terrariamod:abeemination.desc=Abeemination Desciption
 tile.terrariamod:hive_block.name=Hive Block
 tile.terrariamod:hive_wall.name=Hive Wall
 tile.terrariamod:honey.name=Honey
@@ -119,6 +128,7 @@ tile.terrariamod:ebonestone.name=Ebonestone
 item.terrariamod:jungle_wood.name=Rich Mahogany Wood
 
 item.terrariamod:copperaxe.name=Copper Axe
+item.terrariamod:copperaxe.desc=Copper Axe
 item.terrariamod:tinaxe.name=Tin Axe
 item.terrariamod:leadaxe.name=Lead Axe
 item.terrariamod:ironaxe.name=Iron Axe
@@ -461,6 +471,7 @@ item.terrariamod:starfury.name=Star Fury
 
 item.terrariamod:slimestaff.name=Slime Staff §9Summons Slime Minions
 item.terrariamod:nectar.name=Nectar §9Summons Baby Hornet
+item.terrariamod:hornetstaff.name=Hornet Staff
 
 item.terrariamod:bookofskulls.name=Book of Skulls §9+29 Magic Damage
 item.terrariamod:aquascepter.name=Aquascepter §9+16 Magic Damage
@@ -523,3 +534,5 @@ item.terrariamod:ale.name=Ale §9Beer...
 
 item.terrariamod:hi=Hi
 item.terrariamod:hi.name=Hi
+
+item.terrariamod:delte.name=Delte

@@ -28,7 +28,7 @@
 			},
 			"minecraft:foil": true,
 			"minecraft:display_name": {
-				"value": "item.terrariamod:hellstonepickaxe.name"
+				"value": "Hellstone Pickaxe"
 			},
 			"minecraft:icon": {
 				"texture": "terrariamod:hellstonepickaxe"

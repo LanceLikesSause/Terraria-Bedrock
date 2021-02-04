@@ -17,7 +17,7 @@
 				"texture": "terrariamod:demonite_chestplate"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:demonite_chestplate.name"
+				"value": "Demonite Chestplate\n§9+7 Armor"
 			},
 			"minecraft:creative_category": {
 				"parent": "itemGroup.name.chestplate"

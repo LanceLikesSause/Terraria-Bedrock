@@ -23,7 +23,7 @@
 				}
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:hellstonesword.name"
+				"value": "Fiery Greatsword\n§9'It's made out of fire!'"
 			},
 			"minecraft:icon": {
 				"texture": "terrariamod:hellstonesword"

@@ -15,7 +15,7 @@
 				"slot": "slot.armor.head"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:demonite_helmet.name"
+				"value": "Demonite Helmet\n§9+6 Armor"
 			},
 			"minecraft:icon": {
 				"texture": "terrariamod:demonite_helmet"

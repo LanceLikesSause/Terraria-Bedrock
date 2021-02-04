@@ -15,7 +15,7 @@
 				"texture": "terrariamod:bluephaseblade"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:bluephaseblade.name"
+				"value": "Blue Phaseblade"
 			},
 			"minecraft:creative_category": {
 				"parent": "itemGroup.name.sword"

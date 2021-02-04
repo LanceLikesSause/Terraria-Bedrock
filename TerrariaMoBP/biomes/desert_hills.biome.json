@@ -1,4 +1,4 @@
-//bridge-file-version: #4
+//bridge-file-version: #7
 {
 	"format_version": "1.13.0",
 	"minecraft:biome": {
@@ -6,7 +6,6 @@
 			"identifier": "desert_hills"
 		},
 		"components": {
-
 			"minecraft:climate": {
 				"downfall": 0,
 				"snow_accumulation": [
@@ -39,7 +38,6 @@
 			"purity": {},
 			"purity_forest": {},
 			"overworld": {}
-
 		}
 	}
 }

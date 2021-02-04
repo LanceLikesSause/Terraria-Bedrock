@@ -3837,5 +3837,26 @@
 	},
 	"BP/items/copperaxe.json": {
 		"data": {}
+	},
+	"BP/biomes/cold_ocean.json": {
+		"data": {}
+	},
+	"BP/biomes/warm_ocean.biome.json": {
+		"data": {}
+	},
+	"BP/biomes/jungle.biome.json": {
+		"data": {}
+	},
+	"BP/biomes/jungle_edge.biome.json": {
+		"data": {}
+	},
+	"BP/biomes/jungle_edge_mutated.biome.json": {
+		"data": {}
+	},
+	"BP/biomes/jungle_hills.biome.json": {
+		"data": {}
+	},
+	"BP/biomes/jungle_mutated.biome.json": {
+		"data": {}
 	}
 }

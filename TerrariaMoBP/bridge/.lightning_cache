@@ -255,19 +255,19 @@
 		"BP/biomes/flower_forest.biome.json": {
 			"tags": [
 				"purity",
-				"purity_jungle"
+				"purity_forest"
 			]
 		},
 		"BP/biomes/forest.biome.json": {
 			"tags": [
 				"purity",
-				"purity_jungle"
+				"purity_forest"
 			]
 		},
 		"BP/biomes/forest_hills.biome.json": {
 			"tags": [
 				"purity",
-				"purity_jungle"
+				"purity_forest"
 			]
 		},
 		"BP/biomes/frozen_ocean.biome.json": {
@@ -302,27 +302,32 @@
 		},
 		"BP/biomes/jungle.biome.json": {
 			"tags": [
-				"purity"
+				"purity",
+				"purity_jungle"
 			]
 		},
 		"BP/biomes/jungle_edge.biome.json": {
 			"tags": [
-				"purity"
+				"purity",
+				"purity_jungle"
 			]
 		},
 		"BP/biomes/jungle_edge_mutated.biome.json": {
 			"tags": [
-				"purity"
+				"purity",
+				"purity_jungle"
 			]
 		},
 		"BP/biomes/jungle_hills.biome.json": {
 			"tags": [
-				"purity"
+				"purity",
+				"purity_jungle"
 			]
 		},
 		"BP/biomes/jungle_mutated.biome.json": {
 			"tags": [
-				"purity"
+				"purity",
+				"purity_jungle"
 			]
 		},
 		"BP/biomes/legacy_frozen_ocean.biome.json": {
@@ -485,7 +490,8 @@
 		},
 		"BP/biomes/warm_ocean.biome.json": {
 			"tags": [
-				"purity"
+				"purity",
+				"purity_forest"
 			]
 		},
 		"BP/biomes/warped_forest.biome.json": {
@@ -508,6 +514,12 @@
 		"BP/biomes/extreme_hills.biome.json.json": {
 			"tags": [
 				"corruption"
+			]
+		},
+		"BP/biomes/cold_ocean.json": {
+			"tags": [
+				"purity",
+				"purity_forest"
 			]
 		}
 	},

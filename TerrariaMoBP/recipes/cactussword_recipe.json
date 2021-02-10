@@ -1,4 +1,4 @@
-//bridge-file-version: #5
+//bridge-file-version: #6
 {
 	"format_version": 1.12,
 	"minecraft:recipe_shaped": {
@@ -15,7 +15,7 @@
 		],
 		"key": {
 			"X": {
-				"item": "minecraft:cactus"
+				"item": "terrariamod:cactus_block"
 			}
 		},
 		"result": {

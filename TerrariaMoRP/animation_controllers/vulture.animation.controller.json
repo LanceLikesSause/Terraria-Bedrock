@@ -1,0 +1,17 @@
+//bridge-file-version: #11
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.vulture": {
+			"initial_state": "default_state",
+			"states": {
+				"default_state": {
+					"animations": [
+						"flying"
+					],
+					"blend_transition": 0.9
+				}
+			}
+		}
+	}
+}

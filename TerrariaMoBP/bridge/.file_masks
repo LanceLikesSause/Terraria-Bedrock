@@ -2263,6 +2263,46 @@
 						}
 					}
 				}
+			},
+			"2a077a96_a78e_47f0_94db_21289e24d76d": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"2ef341f9_56f7_4dff_8e8a_b05b00b2f431": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"1c2ba56c_54b3_4cd6_a5a1_759bfa9e156f": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"bfe1955f_5ce3_45db_8865_7572f5e67a94": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
 			}
 		}
 	},
@@ -2624,9 +2664,6 @@
 		"data": {}
 	},
 	"BP/recipes/poisonedknife_recipe.json": {
-		"data": {}
-	},
-	"BP/loot_tables/blocks/viciousmushroom.json": {
 		"data": {}
 	},
 	"BP/blocks/purity_torch.json": {
@@ -3857,6 +3894,105 @@
 		"data": {}
 	},
 	"BP/biomes/jungle_mutated.biome.json": {
+		"data": {}
+	},
+	"BP/feature_rules/lava_featurerule.json": {
+		"data": {}
+	},
+	"BP/features/lava_feature.json": {
+		"data": {}
+	},
+	"BP/blocks/purity_cactus_bottom.json": {
+		"data": {}
+	},
+	"BP/blocks/purity_cactus_middle.json": {
+		"data": {}
+	},
+	"BP/blocks/purity_cactus_top.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/purity_cactus.json": {
+		"data": {}
+	},
+	"BP/blocks/cactus_block.json": {
+		"data": {}
+	},
+	"BP/feature_rules/purity_cactus_featurerule.json": {
+		"data": {}
+	},
+	"BP/features/purity_cactus_feature.json": {
+		"data": {}
+	},
+	"BP/blocks/purity_sandstone.json": {
+		"data": {}
+	},
+	"BP/recipes/woodensword_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/ebonwoodsword_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/richmahoganysword_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/shadewoodsword_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/cactuspickaxe_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/cactussword_recipe.json": {
+		"data": {}
+	},
+	"BP/features/tree_feature.json": {
+		"data": {}
+	},
+	"BP/features/tree_corruption_feature.json": {
+		"data": {}
+	},
+	"BP/features/tree_crimson_feature.json": {
+		"data": {}
+	},
+	"BP/features/tree_jungle_feature.json": {
+		"data": {}
+	},
+	"BP/entities/vulture.json": {
+		"data": {}
+	},
+	"RP/entity/vulture.json": {
+		"data": {}
+	},
+	"RP/animation_controllers/vulture.animation.controller.json": {
+		"data": {}
+	},
+	"BP/spawn_rules/vulture.json": {
+		"data": {}
+	},
+	"BP/blocks/purity_ice.json": {
+		"data": {}
+	},
+	"BP/features/shadoworb_feature.json": {
+		"data": {}
+	},
+	"BP/features/vilemushroom_feature.json": {
+		"data": {}
+	},
+	"BP/feature_rules/vilemushroom_featurerule.json": {
+		"data": {}
+	},
+	"BP/feature_rules/shadoworb_featurerule.json": {
+		"data": {}
+	},
+	"BP/features/demonalter_feature.json": {
+		"data": {}
+	},
+	"BP/blocks/vilemushroom.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/vilemushroom.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/victoriousmushroom.json": {
 		"data": {}
 	}
 }

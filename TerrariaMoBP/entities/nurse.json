@@ -1,4 +1,4 @@
-//bridge-file-version: #40
+//bridge-file-version: #55
 {
 	"format_version": "1.16.0",
 	"minecraft:entity": {
@@ -8,15 +8,33 @@
 			"is_summonable": true,
 			"is_experimental": false,
 			"animations": {
-				"nurse_death": "controller.animation.nurse_death"
+				"nurse_death": "controller.animation.nurse_death",
+				"bridge_execute_commands": "controller.animation.bridge_nurse.execute_commands"
 			},
 			"scripts": {
 				"animate": [
-					"nurse_death"
+					"nurse_death",
+					"bridge_execute_commands"
 				]
 			}
 		},
-		"component_groups": {},
+		"component_groups": {
+			"bridge:execute_command_id_1": {
+				"minecraft:skin_id": {
+					"value": 1
+				}
+			},
+			"bridge:execute_no_command": {
+				"minecraft:skin_id": {
+					"value": 0
+				}
+			},
+			"bridge:execute_command_id_2": {
+				"minecraft:skin_id": {
+					"value": 2
+				}
+			}
+		},
 		"components": {
 			"minecraft:behavior.trade_interest": {
 				"priority": 5,
@@ -131,14 +149,6 @@
 				"is_pushable": true,
 				"is_pushable_by_piston": true
 			},
-			"minecraft:economy_trade_table": {
-				"display_name": "Nurse",
-				"table": "trading/economy_trades/nurse_trades.json",
-				"new_screen": true,
-				"show_trade_screen": true,
-				"convert_trades_economy": true,
-				"persist_trades": true
-			},
 			"minecraft:behavior.nearest_attackable_target": {
 				"priority": 2,
 				"must_see": true,
@@ -182,8 +192,64 @@
 				"target_blocks": [
 					"terrariamod:item.wooden_chair"
 				]
+			},
+			"minecraft:interact": {
+				"interactions": [
+					{
+						"on_interact": {
+							"event": "terrariamod:heal_1"
+						},
+						"interact_text": "heall",
+						"cooldown": 2
+					},
+					{
+						"on_interact": {
+							"event": "terrariamod:heal_2"
+						},
+						"interact_text": "heal"
+					}
+				]
 			}
 		},
-		"events": {}
+		"events": {
+			"terrariamod:heal_1": {
+				"add": {
+					"component_groups": [
+						"bridge:execute_command_id_1"
+					]
+				}
+			},
+			"terrariamod:heal_2": {
+				"add": {
+					"component_groups": [
+						"bridge:execute_command_id_2"
+					]
+				}
+			},
+			"bridge:remove_command_id_1": {
+				"add": {
+					"component_groups": [
+						"bridge:execute_no_command"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"bridge:execute_command_id_1"
+					]
+				}
+			},
+			"bridge:remove_command_id_2": {
+				"add": {
+					"component_groups": [
+						"bridge:execute_no_command"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"bridge:execute_command_id_2"
+					]
+				}
+			}
+		}
 	}
 }

@@ -1,4 +1,4 @@
-//bridge-file-version: #21
+//bridge-file-version: #30
 {
 	"terrariamod:shadoworb": {
 		"sound": "wood"
@@ -412,5 +412,29 @@
 	},
 	"terrariamod:enchantedsword_block": {
 		"sound": "stone"
+	},
+	"terrariamod:purity_cactus_bottom": {
+		"sound": "wood"
+	},
+	"terrariamod:purity_cactus_middle": {
+		"sound": "wood"
+	},
+	"terrariamod:purity_cactus_top": {
+		"sound": "wood"
+	},
+	"terrariamod:cactus_block": {
+		"sound": "wood",
+		"textures": "cactus_block"
+	},
+	"terrariamod:purity_sandstone": {
+		"sound": "stone",
+		"textures": "sandstone"
+	},
+	"terrariamod:purity_ice": {
+		"textures": "purity_ice",
+		"sound": "glass"
+	},
+	"terrariamod:vilemushroom": {
+		"sound": "grass"
 	}
 }

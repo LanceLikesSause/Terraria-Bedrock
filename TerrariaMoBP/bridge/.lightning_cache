@@ -508,7 +508,7 @@
 		"BP/biomes/plains.biome.json": {
 			"tags": [
 				"purity",
-				"purity_forest"
+				"purity_snow"
 			]
 		},
 		"BP/biomes/extreme_hills.biome.json.json": {
@@ -1027,6 +1027,89 @@
 			"recipe_tags": [],
 			"custom_commands": [],
 			"custom_components": []
+		},
+		"BP/blocks/purity_cactus_bottom.json": {
+			"identifiers": [
+				"terrariamod:purity_cactus_bottom"
+			],
+			"events": [
+				"terrariamod:destroy_cactus"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/purity_cactus_middle.json": {
+			"identifiers": [
+				"terrariamod:purity_cactus_top"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/purity_cactus_top.json": {
+			"identifiers": [
+				"terrariamod:purity_cactus_top"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/cactus_block.json": {
+			"identifiers": [
+				"terrariamod:cactus_block"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/purity_sandstone.json": {
+			"identifiers": [
+				"terrariamod:purity_sandstone"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/purity_snow.json": {
+			"identifiers": [
+				"terrariamod:purity_ice"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/purity_ice.json": {
+			"identifiers": [
+				"terrariamod:purity_ice"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/vilemushroom.json": {
+			"identifiers": [
+				"terrariamod:vilemushroom"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/victoriousmushroom.json": {
+			"identifiers": [
+				"terrariamod:victoriousmushroom"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
 		}
 	},
 	"entity": {
@@ -1335,7 +1418,10 @@
 			"custom_components": []
 		},
 		"BP/entities/nurse.json": {
-			"events": [],
+			"events": [
+				"terrariamod:heal_1",
+				"terrariamod:heal_2"
+			],
 			"bridge_core_tags": [],
 			"identifiers": [
 				"terrariamod:nurse"
@@ -1947,6 +2033,19 @@
 			],
 			"custom_commands": [],
 			"custom_components": []
+		},
+		"BP/entities/vulture.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:vulture"
+			],
+			"animation_references": [],
+			"families": [
+				"terraria_players_enemy"
+			],
+			"custom_commands": [],
+			"custom_components": []
 		}
 	},
 	"feature_rule": {
@@ -1957,7 +2056,7 @@
 		},
 		"BP/feature_rules/victoriousmushroom_featurerule.json": {
 			"identifiers": [
-				"minecraft:victoriousmushroom_featurerule"
+				"minecraft:vilemushroom_featurerule"
 			]
 		},
 		"BP/feature_rules/purityclay_featurerule.json": {
@@ -2012,7 +2111,7 @@
 		},
 		"BP/feature_rules/crystalheart_featurerule.json": {
 			"identifiers": [
-				"minecraft:crystalheart_featurerule"
+				"minecraft:shadoworb_featurerule"
 			]
 		},
 		"BP/feature_rules/dungeon_featurerule.json": {
@@ -2039,6 +2138,26 @@
 			"identifiers": [
 				"minecraft:enchantedsword_featurerule"
 			]
+		},
+		"BP/feature_rules/lava_featurerule.json": {
+			"identifiers": [
+				"minecraft:lava_featurerule"
+			]
+		},
+		"BP/feature_rules/purity_cactus_featurerule.json": {
+			"identifiers": [
+				"minecraft:purity_cactus_featurerule"
+			]
+		},
+		"BP/feature_rules/vilemushroom_featurerule.json": {
+			"identifiers": [
+				"minecraft:vilemushroom_featurerule"
+			]
+		},
+		"BP/feature_rules/shadoworb_featurerule.json": {
+			"identifiers": [
+				"minecraft:shadoworb_featurerule"
+			]
 		}
 	},
 	"feature": {
@@ -2049,7 +2168,7 @@
 		},
 		"BP/features/victoriousmushroom_feature.json": {
 			"identifiers": [
-				"minecraft:victoriousmushroom_feature"
+				"minecraft:vilemushroom_feature"
 			]
 		},
 		"BP/features/purityclay_feature.json": {
@@ -2069,7 +2188,7 @@
 		},
 		"BP/features/surfacechest_feature.json": {
 			"identifiers": [
-				"minecraft:dungeon_feature"
+				"minecraft:surfacechest_feature"
 			]
 		},
 		"BP/features/puritysand_feature.json": {
@@ -2079,7 +2198,7 @@
 		},
 		"BP/features/crimsonheart_feature.json": {
 			"identifiers": [
-				"minecraft:crimsonheart_feature"
+				"minecraft:shadoworb_feature"
 			]
 		},
 		"BP/features/hellforge_feature.json": {
@@ -2089,7 +2208,7 @@
 		},
 		"BP/features/daybloom_feature.json": {
 			"identifiers": [
-				"minecraft:crystalheart_feature"
+				"minecraft:daybloom_feature"
 			]
 		},
 		"BP/features/crystalheart_feature.json": {
@@ -2110,6 +2229,56 @@
 		"BP/features/enchantedsword_feature.json": {
 			"identifiers": [
 				"minecraft:enchantedsword_feature"
+			]
+		},
+		"BP/features/lava_feature.json": {
+			"identifiers": [
+				"minecraft:lava_feature"
+			]
+		},
+		"BP/features/purity_cactus_feature.json": {
+			"identifiers": [
+				"minecraft:purity_cactus_feature"
+			]
+		},
+		"BP/features/tree_feature.json": {
+			"identifiers": [
+				"minecraft:tree_feature"
+			]
+		},
+		"BP/features/tree_corruption_feature.json": {
+			"identifiers": [
+				"minecraft:tree_corruption_feature"
+			]
+		},
+		"BP/features/tree_crimson_feature.json": {
+			"identifiers": [
+				"minecraft:tree_crimson_feature"
+			]
+		},
+		"BP/features/tree_jungle_feature.json": {
+			"identifiers": [
+				"minecraft:tree_jungle_feature"
+			]
+		},
+		"BP/features/purity_mushroom_feature.json": {
+			"identifiers": [
+				"minecraft:purity_mushroom_feature"
+			]
+		},
+		"BP/features/shadoworb_feature.json": {
+			"identifiers": [
+				"minecraft:shadoworb_feature"
+			]
+		},
+		"BP/features/vilemushroom_feature.json": {
+			"identifiers": [
+				"minecraft:vilemushroom_feature"
+			]
+		},
+		"BP/features/demonalter_feature.json": {
+			"identifiers": [
+				"minecraft:demonalter_feature"
 			]
 		}
 	},
@@ -2145,7 +2314,10 @@
 			"custom_commands": []
 		},
 		"BP/functions/starting_items.mcfunction": {
-			"custom_commands": []
+			"custom_commands": [],
+			"tags": [
+				"notnewplayer"
+			]
 		},
 		"9ad1f2c5_60aa_4a40_b379_ed6dd8f7e433": {},
 		"774a9ef2_675a_476c_bfbf_1601b554f35c": {},
@@ -2298,7 +2470,12 @@
 		"b1d6b522_8cc6_467a_b068_0a68b60cf364": {},
 		"2f9256c6_18af_4fc5_8a47_a9e0f6d731b7": {},
 		"6f74d271_adcc_4645_9b48_4be806072337": {},
-		"baf80114_c2db_4afc_9232_b32625f61d49": {}
+		"baf80114_c2db_4afc_9232_b32625f61d49": {},
+		"d3cf87f3_e7c6_4065_b820_259212e8ee2e": {},
+		"04b1aa7f_9a7c_4e5f_a095_20086b4d72b7": {},
+		"2a077a96_a78e_47f0_94db_21289e24d76d": {},
+		"2ef341f9_56f7_4dff_8e8a_b05b00b2f431": {},
+		"6e151dad_a1da_4749_a1b1_00b7e63d7425": {}
 	},
 	"rp_animation_controller": {
 		"RP/animation_controllers/devourer.animation.controller.json": {
@@ -2308,7 +2485,7 @@
 		},
 		"RP/animation_controllers/greenslime.animation.controller.json": {
 			"ids": [
-				"controller.animation.greenslime.attack"
+				"controller.animation.vulture"
 			]
 		},
 		"RP/animation_controllers/kingslime.animation.controller.json": {
@@ -2324,6 +2501,11 @@
 		"RP/animation_controllers/queenbee.animation.controller.json": {
 			"ids": [
 				"controller.animation.queenbee"
+			]
+		},
+		"RP/animation_controllers/vulture.animation.controller.json": {
+			"ids": [
+				"controller.animation.vulture"
 			]
 		}
 	},
@@ -3489,14 +3671,14 @@
 		},
 		"RP/entity/queenbee.json": {
 			"identifiers": [
-				"terrariamod:queenbee"
+				"terrariamod:vulture"
 			],
 			"particle_references": [
 				"wing_dust"
 			],
 			"animation_references": [
-				"move",
-				"swoop"
+				"idle",
+				"flying"
 			],
 			"sound_references": [],
 			"texture_references": [
@@ -3814,6 +3996,31 @@
 			],
 			"material_references": [
 				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/vulture.json": {
+			"identifiers": [
+				"terrariamod:vulture"
+			],
+			"particle_references": [
+				"wing_dust"
+			],
+			"animation_references": [
+				"flying"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default",
+				"invisible"
 			],
 			"geometry_references": [
 				"default"
@@ -4273,6 +4480,36 @@
 		"BP/recipes/hornetstaff_recipe.json": {
 			"tags": [
 				"iron_anvil"
+			]
+		},
+		"BP/recipes/woodensword_recipe.json": {
+			"tags": [
+				"workbench"
+			]
+		},
+		"BP/recipes/ebonwoodsword_recipe.json": {
+			"tags": [
+				"workbench"
+			]
+		},
+		"BP/recipes/richmahoganysword_recipe.json": {
+			"tags": [
+				"workbench"
+			]
+		},
+		"BP/recipes/shadewoodsword_recipe.json": {
+			"tags": [
+				"workbench"
+			]
+		},
+		"BP/recipes/cactuspickaxe_recipe.json": {
+			"tags": [
+				"workbench"
+			]
+		},
+		"BP/recipes/cactussword_recipe.json": {
+			"tags": [
+				"workbench"
 			]
 		}
 	},

@@ -1,0 +1,23 @@
+//bridge-file-version: #9
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "terrariamod:shadewoodsword_recipe"
+		},
+		"tags": [
+			"workbench"
+		],
+		"ingredients": [
+			{
+				"item": "terrariamod:crimson_wood",
+				"count": 3
+			}
+		],
+		"result": [
+			{
+				"item": "terrariamod:shadewoodsword"
+			}
+		]
+	}
+}

@@ -1,0 +1,22 @@
+//bridge-file-version: #10
+{
+	"format_version": "1.13.0",
+	"minecraft:ore_feature": {
+		"description": {
+			"identifier": "minecraft:lava_feature"
+		},
+		"count": 90,
+		"places_block": "minecraft:lava",
+		"may_replace": [
+			{
+				"name": "terrariamod:purity_stone"
+			},
+			{
+				"name": "terrariamod:purity_grass"
+			},
+			{
+				"name": "terrariamod:purity_dirt"
+			}
+		]
+	}
+}

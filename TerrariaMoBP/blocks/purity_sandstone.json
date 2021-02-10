@@ -1,0 +1,14 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.200",
+	"minecraft:block": {
+		"description": {
+			"identifier": "terrariamod:purity_sandstone"
+		},
+		"components": {
+			"minecraft:destroy_time": 3,
+			"tag:terrariamod:stone": {}
+		},
+		"events": {}
+	}
+}

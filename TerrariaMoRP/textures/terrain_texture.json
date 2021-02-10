@@ -1,4 +1,4 @@
-//bridge-file-version: #23
+//bridge-file-version: #31
 {
 	"resource_pack_name": "vanilla",
 	"texture_name": "atlas.terrain",
@@ -356,6 +356,31 @@
 		"enchantedsword_block": {
 			"textures": [
 				"textures/blocks/enchantedsword_block"
+			]
+		},
+		"purity_cactus": {
+			"textures": [
+				"textures/blocks/purity_cactus"
+			]
+		},
+		"cactus_block": {
+			"textures": [
+				"textures/blocks/cactus_block"
+			]
+		},
+		"sandstone": {
+			"textures": [
+				"textures/blocks/purity_sandstone"
+			]
+		},
+		"purity_ice": {
+			"textures": [
+				"textures/blocks/purity_ice"
+			]
+		},
+		"vile_mushroom": {
+			"textures": [
+				"textures/blocks/vilemushroom"
 			]
 		}
 	}

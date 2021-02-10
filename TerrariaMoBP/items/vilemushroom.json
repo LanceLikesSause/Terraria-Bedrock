@@ -1,4 +1,4 @@
-//bridge-file-version: #4
+//bridge-file-version: #6
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
@@ -16,6 +16,10 @@
 			},
 			"minecraft:creative_category": {
 				"parent": "nature"
+			},
+			"minecraft:block_placer": {
+				"block": "terrariamod:vilemushroom",
+				"use_block_description": false
 			}
 		},
 		"events": {}

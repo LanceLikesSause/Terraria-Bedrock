@@ -1,0 +1,38 @@
+//bridge-file-version: #36
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "terrariamod:vulture",
+			"materials": {
+				"default": "phantom",
+				"invisible": "phantom_invisible"
+			},
+			"textures": {
+				"default": "textures/entity/pamobile/vulture"
+			},
+			"geometry": {
+				"default": "geometry.vulture"
+			},
+			"particle_effects": {
+				"wing_dust": "minecraft:phantom_trail_particle"
+			},
+			"render_controllers": [
+				"controller.render.phantom"
+			],
+			"spawn_egg": {
+				"base_color": "#FFFFFF",
+				"overlay_color": "#6A0000"
+			},
+			"animations": {
+				"flying": "animation.vulture.flying"
+			},
+			"enable_attachables": true,
+			"animation_controllers": [
+				{
+					"flying": "controller.animation.humanoid.move"
+				}
+			]
+		}
+	}
+}

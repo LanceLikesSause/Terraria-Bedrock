@@ -1,0 +1,35 @@
+//bridge-file-version: #10
+{
+	"format_version": "1.16.200",
+	"minecraft:block": {
+		"description": {
+			"identifier": "terrariamod:purity_cactus_bottom"
+		},
+		"components": {
+			"minecraft:destroy_time": 1,
+			"tag:terrariamod:wood": {},
+			"minecraft:block_light_emission": 0,
+			"minecraft:block_light_absorption": 0,
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "purity_cactus",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:geometry": "geometry.purity_cactus_bottom",
+			"minecraft:loot": "loot_tables/blocks/purity_cactus.json",
+			"minecraft:on_player_destroyed": {
+				"event": "terrariamod:destroy_cactus"
+			}
+		},
+		"events": {
+			"terrariamod:destroy_cactus": {
+				"run_command": {
+					"command": [
+						"fill ~ ~ ~ ~ ~7 ~ air 0 destroy"
+					]
+				}
+			}
+		}
+	}
+}

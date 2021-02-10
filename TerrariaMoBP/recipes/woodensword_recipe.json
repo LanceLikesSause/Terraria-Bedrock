@@ -1,0 +1,23 @@
+//bridge-file-version: #8
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "terrariamod:woodensword_recipe"
+		},
+		"tags": [
+			"workbench"
+		],
+		"ingredients": [
+			{
+				"item": "terrariamod:purity_wood",
+				"count": 3
+			}
+		],
+		"result": [
+			{
+				"item": "terrariamod:woodensword"
+			}
+		]
+	}
+}

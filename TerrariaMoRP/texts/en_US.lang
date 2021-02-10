@@ -1,5 +1,5 @@
-##bridge-file-version: #419
-########how to play
+##bridge-file-version: #424
+#########how to play
 terrariamod.category.dakon=Terraria Mod Tutorial
 howtoplay.category.dakon=Terraria Guide
 howtoplay.template.title=Credits
@@ -66,6 +66,12 @@ terrariamod.tempeight.text2=The Queen Bee will drop variety of items when killed
 
 
 tile.terrariamod:underworld_transporter.name=Underworld Transporter
+
+tile.terrariamod:purity_cactus_bottom.name=Cactus Stem
+tile.terrariamod:purity_cactus_middle.name=Cactus Middle
+tile.terrariamod:purity_cactus_top.name=Cactus Top
+tile.terrariamod:cactus_block.name=Cactus Block
+tile.terrariamod:purity_sandstone.name=Sandstone
 
 tile.terrariamod:larva.name=Larva
 item.terrariamod:beewax.name=Bee Wax

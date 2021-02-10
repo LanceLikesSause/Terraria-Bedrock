@@ -1,14 +1,14 @@
-//bridge-file-version: #3
+//bridge-file-version: #1
 {
-	"format_version": "1.16.100",
+	"format_version": "1.16.200",
 	"minecraft:block": {
 		"description": {
-			"identifier": "terrariamod:purity_snow",
-			"register_to_creative_menu": true
+			"identifier": "terrariamod:purity_snow"
 		},
 		"components": {
 			"minecraft:destroy_time": 1,
-			"tag:terrariamod:dirt": {}
+			"tag:terrariamod:dirt": {},
+			"minecraft:map_color": "#CBD9E6"
 		},
 		"events": {}
 	}

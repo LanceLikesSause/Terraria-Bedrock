@@ -1,4 +1,4 @@
-//bridge-file-version: #5
+//bridge-file-version: #8
 {
 	"format_version": "1.16.100",
 	"minecraft:structure_template_feature": {
@@ -7,9 +7,9 @@
 		},
 		"structure_name": "mystructure:tree",
 		"adjustment_radius": 1,
-		"facing_direction": "north",
 		"constraints": {
 			"grounded": {}
-		}
+		},
+		"facing_direction": "random"
 	}
 }

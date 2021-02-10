@@ -1,0 +1,15 @@
+//bridge-file-version: #2
+{
+	"format_version": "1.16.200",
+	"minecraft:block": {
+		"description": {
+			"identifier": "terrariamod:purity_ice"
+		},
+		"components": {
+			"minecraft:destroy_time": 1,
+			"tag:terrariamod:dirt": {},
+			"minecraft:map_color": "#CBD9E6"
+		},
+		"events": {}
+	}
+}

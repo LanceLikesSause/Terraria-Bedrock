@@ -1,4 +1,4 @@
-//bridge-file-version: #8
+//bridge-file-version: #10
 {
 	"id": 1588402018287,
 	"name": "GreenSlime",
@@ -42,12 +42,18 @@
 			]
 		},
 		{
+			"conditions": [
+				{
+					"condition": "random_chance",
+					"chance": 0.01
+				}
+			],
 			"rolls": 1,
 			"entries": [
 				{
 					"type": "item",
 					"weight": 1,
-					"name": "terrariamod:mushroom",
+					"name": "terrariamod:slimestaff",
 					"functions": [
 						{
 							"function": "set_count",
@@ -64,7 +70,7 @@
 			"conditions": [
 				{
 					"condition": "random_chance",
-					"chance": 0.01
+					"chance": 0.001
 				}
 			],
 			"rolls": 1,
@@ -72,7 +78,7 @@
 				{
 					"type": "item",
 					"weight": 1,
-					"name": "terrariamod:slimestaff",
+					"name": "terrariamod:wormholepotion",
 					"functions": [
 						{
 							"function": "set_count",

@@ -15,7 +15,7 @@
 				"texture": "terrariamod:goldbow"
 			},
 			"minecraft:display_name": {
-				"value": "Gold Bow\n§9+16 Projectile Damage"
+				"value": "Gold Bow\n§9+16 Projectile Damage\n§9Place wooden arrows in the offhand to use"
 			},
 			"minecraft:on_use": {
 				"on_use": {

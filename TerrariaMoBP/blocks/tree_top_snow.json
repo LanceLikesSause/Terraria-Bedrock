@@ -1,0 +1,25 @@
+//bridge-file-version: #6
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "terrariamod:tree_top_snow"
+		},
+		"components": {
+			"minecraft:destroy_time": 2,
+			"minecraft:block_light_emission": 0,
+			"minecraft:block_light_absorption": 0,
+			"minecraft:explosion_resistance": 0,
+			"minecraft:loot": "loot_tables/blocks/snow_tree_top.json",
+			"minecraft:geometry": "geometry.treetop_snow",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "snow_tree_top",
+					"render_method": "alpha_test"
+				}
+			},
+			"tag:terrariamod:wood": {}
+		},
+		"events": {}
+	}
+}

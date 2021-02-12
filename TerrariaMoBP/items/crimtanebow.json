@@ -15,7 +15,7 @@
 				"texture": "terrariamod:crimtanebow"
 			},
 			"minecraft:display_name": {
-				"value": "Tendon Bow\n§9+24 Projectile Damage"
+				"value": "Tendon Bow\n§9+24 Projectile Damagen\n§9Place wooden arrows in the offhand to use"
 			},
 			"minecraft:on_use": {
 				"on_use": {

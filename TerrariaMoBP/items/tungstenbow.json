@@ -15,7 +15,7 @@
 				"texture": "terrariamod:tungstenbow"
 			},
 			"minecraft:display_name": {
-				"value": "Tungsten Bow\n§9+15 Projectile Damage"
+				"value": "Tungsten Bow\n§9+15 Projectile Damage\n§9Place wooden arrows in the offhand to use"
 			},
 			"minecraft:on_use": {
 				"on_use": {

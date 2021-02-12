@@ -1,4 +1,4 @@
-//bridge-file-version: #21
+//bridge-file-version: #24
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
@@ -10,7 +10,11 @@
 			"minecraft:max_stack_size": 1,
 			"minecraft:hand_equipped": true,
 			"minecraft:damage": 26,
-			"minecraft:weapon": {},
+			"minecraft:weapon": {
+				"on_hurt_entity": {
+					"event": "terrariamod:summon_bee"
+				}
+			},
 			"minecraft:icon": {
 				"texture": "terrariamod:beekeeper"
 			},
@@ -19,11 +23,6 @@
 			},
 			"minecraft:creative_category": {
 				"parent": "itemGroup.name.sword"
-			},
-			"minecraft:on_use": {
-				"on_use": {
-					"event": "terrariamod:summon_bee"
-				}
 			}
 		},
 		"events": {

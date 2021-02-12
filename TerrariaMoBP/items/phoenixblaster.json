@@ -13,7 +13,7 @@
 				"texture": "terrariamod:phoenixblaster"
 			},
 			"minecraft:display_name": {
-				"value": "Phoenix Blaster\n§9+24 Projectile Damage"
+				"value": "Phoenix Blaster\n§9+24 Projectile Damage\n§9Place musket balls in the offhand to use"
 			},
 			"minecraft:creative_category": {
 				"parent": "equipment"

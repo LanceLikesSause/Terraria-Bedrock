@@ -1,0 +1,18 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.woodenboomerang_projectile.general": {
+			"loop": true,
+			"animation_length": 0.44,
+			"bones": {
+				"all": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.2": [0, -180, 0],
+						"0.44": [0, -360, 0]
+					}
+				}
+			}
+		}
+	}
+}

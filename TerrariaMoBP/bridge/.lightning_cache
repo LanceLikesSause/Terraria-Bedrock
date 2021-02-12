@@ -24,12 +24,6 @@
 			],
 			"custom_commands": []
 		},
-		"BP/animation_controllers/bridge/commands_player.json": {
-			"ids": [
-				"controller.animation.bridge_player.execute_commands"
-			],
-			"custom_commands": []
-		},
 		"BP/animation_controllers/bridge/custom_item_behavior.json": {
 			"ids": [
 				"controller.animation.bridge_custom_item_behavior"
@@ -39,12 +33,6 @@
 		"BP/animation_controllers/eyeofcthulhu_to_stage_2.json": {
 			"ids": [
 				"controller.animation.merchant_death"
-			],
-			"custom_commands": []
-		},
-		"BP/animation_controllers/starting_items.json": {
-			"ids": [
-				"controller.animation.starting_items"
 			],
 			"custom_commands": []
 		},
@@ -111,6 +99,12 @@
 		"BP/animation_controllers/skeletron_head_stagetwo_death.json": {
 			"ids": [
 				"controller.animation.skeletron_head_death"
+			],
+			"custom_commands": []
+		},
+		"BP/animation_controllers/lifecrystal.json": {
+			"ids": [
+				"controller.animation.lifecrystal"
 			],
 			"custom_commands": []
 		}
@@ -194,7 +188,8 @@
 		},
 		"BP/biomes/deep_frozen_ocean.biome.json": {
 			"tags": [
-				"purity"
+				"purity",
+				"purity_snow"
 			]
 		},
 		"BP/biomes/deep_lukewarm_ocean.biome.json": {
@@ -272,7 +267,8 @@
 		},
 		"BP/biomes/frozen_ocean.biome.json": {
 			"tags": [
-				"purity"
+				"purity",
+				"purity_forest"
 			]
 		},
 		"BP/biomes/frozen_river.biome.json": {
@@ -354,17 +350,20 @@
 		},
 		"BP/biomes/mesa.biome.json": {
 			"tags": [
-				"purity"
+				"purity",
+				"purity_forest"
 			]
 		},
 		"BP/biomes/mesa_bryce.biome.json": {
 			"tags": [
-				"purity"
+				"purity",
+				"purity_forest"
 			]
 		},
 		"BP/biomes/mesa_plateau.biome.json": {
 			"tags": [
-				"purity"
+				"purity",
+				"purity_forest"
 			]
 		},
 		"BP/biomes/mesa_plateau_mutated.biome.json": {
@@ -374,7 +373,8 @@
 		},
 		"BP/biomes/mesa_plateau_stone.biome.json": {
 			"tags": [
-				"purity"
+				"purity",
+				"purity_forest"
 			]
 		},
 		"BP/biomes/mesa_plateau_stone_mutated.biome.json": {
@@ -460,7 +460,8 @@
 		},
 		"BP/biomes/swampland.biome.json": {
 			"tags": [
-				"purity"
+				"purity",
+				"purity_forest"
 			]
 		},
 		"BP/biomes/swampland_mutated.biome.json": {
@@ -508,7 +509,7 @@
 		"BP/biomes/plains.biome.json": {
 			"tags": [
 				"purity",
-				"purity_snow"
+				"purity_forest"
 			]
 		},
 		"BP/biomes/extreme_hills.biome.json.json": {
@@ -787,7 +788,7 @@
 		},
 		"BP/blocks/tree_bottom.json": {
 			"identifiers": [
-				"terrariamod:tree_bottom"
+				"terrariamod:tree_bottom_snow"
 			],
 			"events": [
 				"terrariamod:destroy_tree"
@@ -1110,6 +1111,66 @@
 			"recipe_tags": [],
 			"custom_commands": [],
 			"custom_components": []
+		},
+		"BP/blocks/tree_bottom_snow.json": {
+			"identifiers": [
+				"terrariamod:tree_bottom_snow"
+			],
+			"events": [
+				"terrariamod:destroy_tree"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/tree_log_snow.json": {
+			"identifiers": [
+				"terrariamod:tree_log_snow"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/tree_top_snow.json": {
+			"identifiers": [
+				"terrariamod:tree_top_snow"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/snow_wood.json": {
+			"identifiers": [
+				"terrariamod:snow_wood"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/forest_pot.json": {
+			"identifiers": [
+				"terrariamod:forest_pot"
+			],
+			"events": [
+				"terrariamod:destroy"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/purity_tall_grass.json": {
+			"identifiers": [
+				"terrariamod:purity_tall_grass"
+			],
+			"events": [
+				"terrariamod:variations_set_event"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
 		}
 	},
 	"entity": {
@@ -1161,7 +1222,7 @@
 			"events": [],
 			"bridge_core_tags": [],
 			"identifiers": [
-				"terrariamod:greenslime"
+				"terrariamod:iceslime"
 			],
 			"animation_references": [
 				"greenslime_death"
@@ -1307,9 +1368,8 @@
 			],
 			"animation_references": [
 				"mana",
-				"starting_items",
-				"bridge_execute_commands",
-				"health"
+				"health",
+				"lifecrystal"
 			],
 			"families": [
 				"player"
@@ -1524,7 +1584,7 @@
 			],
 			"bridge_core_tags": [],
 			"identifiers": [
-				"terrariamod:nectar_minion"
+				"terrariamod:beekeeper_bee"
 			],
 			"animation_references": [],
 			"families": [
@@ -1850,7 +1910,7 @@
 			"events": [],
 			"bridge_core_tags": [],
 			"identifiers": [
-				"terrariamod:zombie_terraria"
+				"terrariamod:frozenzombie"
 			],
 			"animation_references": [],
 			"families": [
@@ -2046,6 +2106,35 @@
 			],
 			"custom_commands": [],
 			"custom_components": []
+		},
+		"BP/entities/iceslime.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:iceslime"
+			],
+			"animation_references": [
+				"greenslime_death"
+			],
+			"families": [
+				"slimes_terraria",
+				"terraria_players_enemy"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/frozenzombie.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:frozenzombie"
+			],
+			"animation_references": [],
+			"families": [
+				"terraria_players_enemy"
+			],
+			"custom_commands": [],
+			"custom_components": []
 		}
 	},
 	"feature_rule": {
@@ -2071,7 +2160,7 @@
 		},
 		"BP/feature_rules/surfacechest_featurerule.json": {
 			"identifiers": [
-				"minecraft:dungeon_featurerule"
+				"minecraft:forest_pot_featurerule"
 			]
 		},
 		"BP/feature_rules/purity_cave_featurerule.json": {
@@ -2096,7 +2185,7 @@
 		},
 		"BP/feature_rules/daybloom_featurerule.json": {
 			"identifiers": [
-				"minecraft:crystalheart_featurerule"
+				"minecraft:purity_tall_grass_featurerule"
 			]
 		},
 		"BP/feature_rules/rubyore_featurerule.json": {
@@ -2158,6 +2247,21 @@
 			"identifiers": [
 				"minecraft:shadoworb_featurerule"
 			]
+		},
+		"BP/feature_rules/tree_snow_featurerule.json": {
+			"identifiers": [
+				"minecraft:tree_snow_featurerule"
+			]
+		},
+		"BP/feature_rules/forest_pot_featurerule.json": {
+			"identifiers": [
+				"minecraft:forest_pot_featurerule"
+			]
+		},
+		"BP/feature_rules/purity_tall_grass_featurerule.json": {
+			"identifiers": [
+				"minecraft:purity_tall_grass_featurerule"
+			]
 		}
 	},
 	"feature": {
@@ -2188,7 +2292,7 @@
 		},
 		"BP/features/surfacechest_feature.json": {
 			"identifiers": [
-				"minecraft:surfacechest_feature"
+				"minecraft:forest_pot_feature"
 			]
 		},
 		"BP/features/puritysand_feature.json": {
@@ -2208,7 +2312,7 @@
 		},
 		"BP/features/daybloom_feature.json": {
 			"identifiers": [
-				"minecraft:daybloom_feature"
+				"minecraft:purity_tall_grass_feature_singe_block"
 			]
 		},
 		"BP/features/crystalheart_feature.json": {
@@ -2243,7 +2347,7 @@
 		},
 		"BP/features/tree_feature.json": {
 			"identifiers": [
-				"minecraft:tree_feature"
+				"minecraft:tree_snow_feature"
 			]
 		},
 		"BP/features/tree_corruption_feature.json": {
@@ -2279,6 +2383,26 @@
 		"BP/features/demonalter_feature.json": {
 			"identifiers": [
 				"minecraft:demonalter_feature"
+			]
+		},
+		"BP/features/tree_snow_feature.json": {
+			"identifiers": [
+				"minecraft:tree_snow_feature"
+			]
+		},
+		"BP/features/forest_pot_feature.json": {
+			"identifiers": [
+				"minecraft:forest_pot_feature"
+			]
+		},
+		"BP/features/purity_tall_grass_feature_singe_block.json": {
+			"identifiers": [
+				"minecraft:purity_tall_grass_feature_singe_block"
+			]
+		},
+		"BP/features/purity_tall_grass_feature.json": {
+			"identifiers": [
+				"minecraft:purity_tall_grass_feature"
 			]
 		}
 	},
@@ -2475,7 +2599,26 @@
 		"04b1aa7f_9a7c_4e5f_a095_20086b4d72b7": {},
 		"2a077a96_a78e_47f0_94db_21289e24d76d": {},
 		"2ef341f9_56f7_4dff_8e8a_b05b00b2f431": {},
-		"6e151dad_a1da_4749_a1b1_00b7e63d7425": {}
+		"6e151dad_a1da_4749_a1b1_00b7e63d7425": {},
+		"da404058_bd8b_4472_aa25_bab3f5ccf614": {},
+		"6b11fb22_0939_486f_9b7b_97e05e86aa43": {},
+		"1e720157_fd05_4a03_a035_98e67145ca09": {},
+		"4e7675cd_3987_4e2a_aff9_44d4ddda7a22": {},
+		"b80693c1_ba21_44e1_b760_46dd3665e387": {},
+		"4fc3ef09_3f38_42df_882e_8860b76326ca": {},
+		"BP/functions/life_crystal_tick.mcfunction": {
+			"custom_commands": []
+		},
+		"9166bece_7ed1_47a2_ad7b_de0826557fe0": {},
+		"0a9dea6a_b380_448f_933d_9aef5fb0fc8d": {
+			"tags": [
+				"idk_what_is_tag_lol"
+			]
+		},
+		"515f0a45_5a86_48b5_96ea_eea46e29af7f": {},
+		"942274c7_b363_4732_8adc_a111322010d4": {},
+		"5238c880_759a_49aa_aa9e_8230960a9c90": {},
+		"3c117054_5f20_4133_b266_a3099827638f": {}
 	},
 	"rp_animation_controller": {
 		"RP/animation_controllers/devourer.animation.controller.json": {
@@ -4028,6 +4171,140 @@
 			"geometry_identifiers": [
 				"default"
 			]
+		},
+		"RP/entity/woodenboomerang_projectile.json": {
+			"identifiers": [
+				"terrariamod:woodenboomerang_projectile"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"flying"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/enchantedboomerang_projectile.json": {
+			"identifiers": [
+				"terrariamod:enchantedboomerang_projectile"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"flying"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/flamarang_projectile.json": {
+			"identifiers": [
+				"terrariamod:flamarang_projectile"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"flying"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/iceslime.json": {
+			"identifiers": [
+				"terrariamod:iceslime"
+			],
+			"particle_references": [
+				"bounce_effect"
+			],
+			"animation_references": [
+				"walk",
+				"attack",
+				"pounce",
+				"humanoid_big_head",
+				"look_at_target",
+				"ctrl"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/frozenzombie.json": {
+			"identifiers": [
+				"terrariamod:frozenzombie"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"humanoid_big_head",
+				"look_at_target_default",
+				"look_at_target_gliding",
+				"look_at_target_swimming",
+				"move",
+				"riding.arms",
+				"riding.legs",
+				"holding",
+				"brandish_spear",
+				"charging",
+				"attack.rotations",
+				"sneaking",
+				"bob",
+				"damage_nearby_mobs",
+				"bow_and_arrow",
+				"use_item_progress",
+				"zombie_attack_bare_hand",
+				"swimming"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
 		}
 	},
 	"entity_model": {
@@ -4362,11 +4639,6 @@
 				"tfurnace"
 			]
 		},
-		"BP/recipes/torch_puritywood.json": {
-			"tags": [
-				"crafting_table"
-			]
-		},
 		"BP/recipes/hi_recipe.json": {
 			"tags": [
 				"brewing_stand"
@@ -4511,6 +4783,56 @@
 			"tags": [
 				"workbench"
 			]
+		},
+		"BP/recipes/workbench_forest_recipe.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/workbench_jungle_recipe.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/workbench_crimson_recipe.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/workbench_corruption_recipe.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/workbench_snow_recipe.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/torch_forest_recipe.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/torch_crimson_recipe.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/torch_corruption_recipe.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/torch_jungle_recipe.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/torch_snow_recipe.json": {
+			"tags": [
+				"crafting_table"
+			]
 		}
 	},
 	"item": {
@@ -4636,7 +4958,7 @@
 		},
 		"BP/items/silk.json": {
 			"identifiers": [
-				"terrariamod:silk"
+				"terrariamod:purity_seeds"
 			],
 			"custom_commands": []
 		},
@@ -4948,7 +5270,7 @@
 		},
 		"BP/items/purity_wood.json": {
 			"identifiers": [
-				"terrariamod:purity_wood"
+				"terrariamod:snow_wood"
 			],
 			"custom_commands": []
 		},
@@ -5419,6 +5741,36 @@
 				"terrariamod:copperaxe"
 			],
 			"custom_commands": []
+		},
+		"BP/items/bladeofgrass.json": {
+			"identifiers": [
+				"terrariamod:bladeofgrass"
+			],
+			"custom_commands": []
+		},
+		"BP/items/snow_wood.json": {
+			"identifiers": [
+				"terrariamod:snow_wood"
+			],
+			"custom_commands": []
+		},
+		"BP/items/wormholepotion.json": {
+			"identifiers": [
+				"terrariamod:wormholepotion"
+			],
+			"custom_commands": []
+		},
+		"BP/items/purity_seeds.json": {
+			"identifiers": [
+				"terrariamod:purity_seeds"
+			],
+			"custom_commands": []
+		},
+		"BP/items/starting_items_package.json": {
+			"identifiers": [
+				"terrariamod:starting_items_package"
+			],
+			"custom_commands": []
 		}
 	},
 	"particle": {
@@ -5427,5 +5779,6 @@
 				"terrariamod:iceblade_effect"
 			]
 		}
-	}
+	},
+	"fog": {}
 }

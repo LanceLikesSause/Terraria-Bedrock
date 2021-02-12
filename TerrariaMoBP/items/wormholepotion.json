@@ -1,0 +1,40 @@
+//bridge-file-version: #20
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "terrariamod:wormholepotion",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "terrariamod:wormholepotion"
+			},
+			"minecraft:display_name": {
+				"value": "Wormhole Potion\n§9Teleports you to a nearby player"
+			},
+			"minecraft:creative_category": {
+				"parent": "equipment"
+			},
+			"minecraft:use_animation": "drink",
+			"minecraft:use_duration": 0.3,
+			"minecraft:food": {
+				"on_consume": {
+					"event": "terrariamod:tp_to_player"
+				},
+				"can_always_eat": true
+			}
+		},
+		"events": {
+			"terrariamod:tp_to_player": {
+				"run_command": {
+					"command": [
+						"tag @s add idk_what_is_tag_lol",
+						"tp @s @r[tag=!idk_what_is_tag_lol]",
+						"tag @s remove idk_what_is_tag_lol"
+					]
+				}
+			}
+		}
+	}
+}

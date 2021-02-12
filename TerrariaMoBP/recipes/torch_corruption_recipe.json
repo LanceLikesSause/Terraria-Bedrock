@@ -1,0 +1,31 @@
+//bridge-file-version: #7
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "terrariamod:torch_corruption_recipe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"#",
+			"Y"
+		],
+		"key": {
+			"#": {
+				"item": "terrariamod:gel"
+			},
+			"Y": {
+				"item": "terrariamod:corrupted_wood"
+			}
+		},
+		"result": [
+			{
+				"item": "terrariamod:purity_torch",
+				"count": 4
+			}
+		],
+		"group": "torch"
+	}
+}

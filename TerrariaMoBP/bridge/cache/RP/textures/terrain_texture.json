@@ -1,0 +1,3680 @@
+{
+	"file_path": "C:\\Users\\LANCE.LEGAUX\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\TerrariaMoRP\\textures\\terrain_texture.json",
+	"file_type": "terrain_texture",
+	"format_version": 1,
+	"file_uuid": "6ea658ac_5955_4ff4_8feb_4a388038cce6",
+	"file_version": 45,
+	"cache_content": {
+		"children": [
+			{
+				"data": "vanilla",
+				"key": "resource_pack_name"
+			},
+			{
+				"data": "atlas.terrain",
+				"key": "texture_name"
+			},
+			{
+				"data": "8",
+				"key": "padding"
+			},
+			{
+				"data": "4",
+				"key": "num_mip_levels"
+			},
+			{
+				"open": {
+					"resource_pack_name": "vanilla",
+					"texture_name": "atlas.terrain",
+					"padding": 8,
+					"num_mip_levels": 4,
+					"texture_data": {
+						"shadoworb": {
+							"textures": "textures/blocks/shadoworb"
+						},
+						"wooden_chair": {
+							"textures": [
+								"textures/blocks/wooden_chair"
+							]
+						},
+						"twooden_door": {
+							"textures": "textures/blocks/twooden_door"
+						},
+						"purity_loom": {
+							"textures": "textures/blocks/purity_loom"
+						},
+						"sawmill_two": {
+							"textures": "textures/blocks/sawmill_two"
+						},
+						"sawmill_one": {
+							"textures": "textures/blocks/sawmill_one"
+						},
+						"purity_chain": {
+							"textures": "textures/blocks/purity_chain"
+						},
+						"purity_cobweb": {
+							"textures": "textures/blocks/purity_cobweb"
+						},
+						"jungle_wood": {
+							"textures": "textures/blocks/jungle_wood"
+						},
+						"crimsonheart": {
+							"textures": "textures/blocks/crimsonheart"
+						},
+						"crimson_tree": {
+							"textures": "textures/blocks/crimson_tree"
+						},
+						"corrupted_wood": {
+							"textures": "textures/blocks/corrupted_wood"
+						},
+						"corrupted_tree": {
+							"textures": "textures/blocks/corrupted_tree"
+						},
+						"purity_tree": {
+							"textures": "textures/blocks/purity_tree"
+						},
+						"jungle_tree": {
+							"textures": "textures/blocks/jungle_tree"
+						},
+						"purity_torch": {
+							"textures": "textures/blocks/purity_torch"
+						},
+						"purity_wood": {
+							"textures": "textures/blocks/purity_wood"
+						},
+						"chest": {
+							"textures": "textures/blocks/chest"
+						},
+						"purity_grass_top": {
+							"textures": "textures/blocks/purity_grass_top"
+						},
+						"purity_grass_side": {
+							"textures": "textures/blocks/purity_grass_side"
+						},
+						"purity_dirt": {
+							"textures": "textures/blocks/purity_dirt"
+						},
+						"purity_stone": {
+							"textures": "textures/blocks/purity_stone"
+						},
+						"purity_snow": {
+							"textures": "textures/blocks/purity_snow"
+						},
+						"purity_sand": {
+							"textures": "textures/blocks/purity_sand"
+						},
+						"purity_silt": {
+							"textures": "textures/blocks/purity_silt"
+						},
+						"demoniteblock": {
+							"textures": "textures/blocks/demoniteblock"
+						},
+						"demoniteore": {
+							"textures": "textures/blocks/demoniteore"
+						},
+						"hellstoneblock": {
+							"textures": "textures/blocks/hellstoneblock"
+						},
+						"crimtaneblock": {
+							"textures": "textures/blocks/crimtaneblock"
+						},
+						"mushroom": {
+							"textures": "textures/blocks/mushroom"
+						},
+						"daybloom": {
+							"textures": "textures/blocks/daybloom"
+						},
+						"bottle_station": {
+							"textures": "textures/blocks/bottle_station"
+						},
+						"hellforge": {
+							"textures": "textures/blocks/hellforge"
+						},
+						"mushroom_hat": {
+							"textures": "textures/blocks/mushroom_hat"
+						},
+						"mushroom_stem_up": {
+							"textures": "textures/blocks/mushroom_stem_up"
+						},
+						"mushroom_stem_side": {
+							"textures": "textures/blocks/mushroom_stem_side"
+						},
+						"mushroom_grass_up": {
+							"textures": "textures/blocks/mushroom_grass_up"
+						},
+						"mushroom_grass_down": {
+							"textures": "textures/blocks/mushroom_grass_down"
+						},
+						"mushroom_grass_side": {
+							"textures": "textures/blocks/mushroom_grass_side"
+						},
+						"dungeonchest": {
+							"textures": "textures/blocks/dungeonchest"
+						},
+						"dungeon_shelves": {
+							"textures": "textures/blocks/dungeon_shelves"
+						},
+						"meteoriteblock": {
+							"textures": "textures/blocks/meteoriteblock"
+						},
+						"undergroundchest": {
+							"textures": "textures/blocks/undergroundchest"
+						},
+						"cavernchest": {
+							"textures": "textures/blocks/cavernchest"
+						},
+						"platinumblock": {
+							"textures": "textures/blocks/platinumblock"
+						},
+						"goldblock": {
+							"textures": "textures/blocks/goldblock"
+						},
+						"tungstenblock": {
+							"textures": "textures/blocks/tungstenblock"
+						},
+						"silverblock": {
+							"textures": "textures/blocks/silverblock"
+						},
+						"leadblock": {
+							"textures": "textures/blocks/leadblock"
+						},
+						"ironblock": {
+							"textures": "textures/blocks/ironblock"
+						},
+						"tinblock": {
+							"textures": "textures/blocks/tinblock"
+						},
+						"copperblock": {
+							"textures": "textures/blocks/copperblock"
+						},
+						"meteorite": {
+							"textures": "textures/blocks/meteorite"
+						},
+						"hellstone": {
+							"textures": "textures/blocks/hellstone"
+						},
+						"crimstone": {
+							"textures": "textures/blocks/crimstone"
+						},
+						"crimsand": {
+							"textures": "textures/blocks/crimsand"
+						},
+						"crimtaneore": {
+							"textures": "textures/blocks/crimtaneore"
+						},
+						"copperore": {
+							"textures": "textures/blocks/copperore"
+						},
+						"tinore": {
+							"textures": "textures/blocks/tinore"
+						},
+						"leadore": {
+							"textures": "textures/blocks/leadore"
+						},
+						"ironore_terraria": {
+							"textures": "textures/blocks/ironore_terraria"
+						},
+						"silverore": {
+							"textures": "textures/blocks/silverore"
+						},
+						"goldore_terraria": {
+							"textures": "textures/blocks/goldore_terraria"
+						},
+						"tungstenore": {
+							"textures": "textures/blocks/tungstenore"
+						},
+						"platinumore": {
+							"textures": "textures/blocks/platinumore"
+						},
+						"rubyore": {
+							"textures": "textures/blocks/rubyore"
+						},
+						"sapphireore": {
+							"textures": "textures/blocks/sapphireore"
+						},
+						"obsidian_terraria": {
+							"textures": "textures/blocks/obsidian_terraria"
+						},
+						"junglespores": {
+							"textures": "textures/blocks/junglespores"
+						},
+						"crystalheart": {
+							"textures": "textures/blocks/crystalheart"
+						},
+						"surfacechest": {
+							"textures": "textures/blocks/surfacechest"
+						},
+						"crimson_grass_up": {
+							"textures": "textures/blocks/crimson_grass_up"
+						},
+						"crimson_grass_down": {
+							"textures": "textures/blocks/crimson_grass_down"
+						},
+						"crimson_grass_side": {
+							"textures": "textures/blocks/crimson_grass_side"
+						},
+						"crimson_cactus": {
+							"textures": "textures/blocks/crimson_cactus"
+						},
+						"victoriousmushroom": {
+							"textures": "textures/blocks/victoriousmushroom"
+						},
+						"ash": {
+							"textures": "textures/blocks/ash"
+						},
+						"pinkbrick": {
+							"textures": "textures/blocks/pinkbrick"
+						},
+						"pinkbrick_wall": {
+							"textures": "textures/blocks/pinkbrick_wall"
+						},
+						"pinkbrick_slab": {
+							"textures": "textures/blocks/pinkbrick_slab"
+						},
+						"greenbrick": {
+							"textures": "textures/blocks/greenbrick"
+						},
+						"corrupted_grass_up": {
+							"textures": "textures/blocks/corrupted_grass_up"
+						},
+						"corrupted_grass_side": {
+							"textures": "textures/blocks/corrupted_grass_side"
+						},
+						"ebonstone": {
+							"textures": "textures/blocks/ebonstone"
+						},
+						"workbench": {
+							"textures": "textures/blocks/wooden_workbench"
+						},
+						"demon_alter": {
+							"textures": "textures/blocks/demon_alter"
+						},
+						"crimson_alter": {
+							"textures": "textures/blocks/crimson_alter"
+						},
+						"tfurnace": {
+							"textures": "textures/blocks/tfurnace"
+						},
+						"iron_anvil": {
+							"textures": "textures/blocks/iron_anvil"
+						},
+						"crimson_wood": {
+							"textures": [
+								"textures/blocks/crimson_wood"
+							]
+						},
+						"jungle_grass_top": {
+							"textures": [
+								"textures/blocks/jungle_grass_top"
+							]
+						},
+						"jungle_grass_side": {
+							"textures": [
+								"textures/blocks/jungle_grass_side"
+							]
+						},
+						"graybrick": {
+							"textures": [
+								"textures/blocks/graybrick"
+							]
+						},
+						"purity_clay": {
+							"textures": [
+								"textures/blocks/purity_clay"
+							]
+						},
+						"redbrick": {
+							"textures": [
+								"textures/blocks/redbrick"
+							]
+						},
+						"underworld_transporter": {
+							"textures": [
+								"textures/blocks/underworld_transporter"
+							]
+						},
+						"purity_candle": {
+							"textures": [
+								"textures/blocks/purity_candle"
+							]
+						},
+						"honey": {
+							"textures": [
+								"textures/blocks/honey"
+							]
+						},
+						"hive_wall": {
+							"textures": [
+								{
+									"variations": [
+										{
+											"weight": 1,
+											"path": "textures/blocks/hive_wall_one"
+										},
+										{
+											"weight": 1,
+											"path": "textures/blocks/hive_wall_two"
+										},
+										{
+											"weight": 1,
+											"path": "textures/blocks/hive_wall_three"
+										},
+										{
+											"weight": 1,
+											"path": "textures/blocks/hive_wall_four"
+										}
+									]
+								}
+							]
+						},
+						"hive_block": {
+							"textures": [
+								"textures/blocks/hive_block"
+							]
+						},
+						"larva": {
+							"textures": [
+								"textures/blocks/larva"
+							]
+						},
+						"enchantedsword_block": {
+							"textures": [
+								"textures/blocks/enchantedsword_block"
+							]
+						},
+						"purity_cactus": {
+							"textures": [
+								"textures/blocks/purity_cactus"
+							]
+						},
+						"cactus_block": {
+							"textures": [
+								"textures/blocks/cactus_block"
+							]
+						},
+						"sandstone": {
+							"textures": [
+								"textures/blocks/purity_sandstone"
+							]
+						},
+						"purity_ice": {
+							"textures": [
+								"textures/blocks/purity_ice"
+							]
+						},
+						"vile_mushroom": {
+							"textures": [
+								"textures/blocks/vilemushroom"
+							]
+						},
+						"snow_tree": {
+							"textures": [
+								"textures/blocks/snow_tree"
+							]
+						},
+						"snow_tree_top": {
+							"textures": [
+								"textures/blocks/treetop_snow_top"
+							]
+						},
+						"snow_wood": {
+							"textures": [
+								"textures/blocks/snow_wood"
+							]
+						},
+						"forest_pot": {
+							"textures": [
+								"textures/blocks/forest_pot"
+							]
+						},
+						"purity_tall_grass_one": {
+							"textures": [
+								"textures/blocks/purity_tall_grass_one"
+							]
+						},
+						"purity_tall_grass_two": {
+							"textures": [
+								"textures/blocks/purity_tall_grass_two"
+							]
+						},
+						"purity_tall_grass_three": {
+							"textures": [
+								"textures/blocks/purity_tall_grass_three"
+							]
+						},
+						"purity_tall_grass_four": {
+							"textures": [
+								"textures/blocks/purity_tall_grass_four"
+							]
+						},
+						"purity_tall_grass_five": {
+							"textures": [
+								"textures/blocks/purity_tall_grass_five"
+							]
+						}
+					}
+				},
+				"key": "texture_data",
+				"children": [
+					{
+						"key": "shadoworb",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/shadoworb"
+						}
+					},
+					{
+						"key": "wooden_chair",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/blocks/wooden_chair"
+							]
+						}
+					},
+					{
+						"key": "twooden_door",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/twooden_door"
+						}
+					},
+					{
+						"key": "purity_loom",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/purity_loom"
+						}
+					},
+					{
+						"key": "sawmill_two",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/sawmill_two"
+						}
+					},
+					{
+						"key": "sawmill_one",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/sawmill_one"
+						}
+					},
+					{
+						"key": "purity_chain",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/purity_chain"
+						}
+					},
+					{
+						"key": "purity_cobweb",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/purity_cobweb"
+						}
+					},
+					{
+						"key": "jungle_wood",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/jungle_wood"
+						}
+					},
+					{
+						"key": "crimsonheart",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/crimsonheart"
+						}
+					},
+					{
+						"key": "crimson_tree",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/crimson_tree"
+						}
+					},
+					{
+						"key": "corrupted_wood",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/corrupted_wood"
+						}
+					},
+					{
+						"key": "corrupted_tree",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/corrupted_tree"
+						}
+					},
+					{
+						"key": "purity_tree",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/purity_tree"
+						}
+					},
+					{
+						"key": "jungle_tree",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/jungle_tree"
+						}
+					},
+					{
+						"key": "purity_torch",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/purity_torch"
+						}
+					},
+					{
+						"key": "purity_wood",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/purity_wood"
+						}
+					},
+					{
+						"key": "chest",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/chest"
+						}
+					},
+					{
+						"key": "purity_grass_top",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/purity_grass_top"
+						}
+					},
+					{
+						"key": "purity_grass_side",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/purity_grass_side"
+						}
+					},
+					{
+						"key": "purity_dirt",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/purity_dirt"
+						}
+					},
+					{
+						"key": "purity_stone",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/purity_stone"
+						}
+					},
+					{
+						"key": "purity_snow",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/purity_snow"
+						}
+					},
+					{
+						"key": "purity_sand",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/purity_sand"
+						}
+					},
+					{
+						"key": "purity_silt",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/purity_silt"
+						}
+					},
+					{
+						"key": "demoniteblock",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/demoniteblock"
+						}
+					},
+					{
+						"key": "demoniteore",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/demoniteore"
+						}
+					},
+					{
+						"key": "hellstoneblock",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/hellstoneblock"
+						}
+					},
+					{
+						"key": "crimtaneblock",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/crimtaneblock"
+						}
+					},
+					{
+						"key": "mushroom",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/mushroom"
+						}
+					},
+					{
+						"key": "daybloom",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/daybloom"
+						}
+					},
+					{
+						"key": "bottle_station",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/bottle_station"
+						}
+					},
+					{
+						"key": "hellforge",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/hellforge"
+						}
+					},
+					{
+						"key": "mushroom_hat",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/mushroom_hat"
+						}
+					},
+					{
+						"key": "mushroom_stem_up",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/mushroom_stem_up"
+						}
+					},
+					{
+						"key": "mushroom_stem_side",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/mushroom_stem_side"
+						}
+					},
+					{
+						"key": "mushroom_grass_up",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/mushroom_grass_up"
+						}
+					},
+					{
+						"key": "mushroom_grass_down",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/mushroom_grass_down"
+						}
+					},
+					{
+						"key": "mushroom_grass_side",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/mushroom_grass_side"
+						}
+					},
+					{
+						"key": "dungeonchest",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/dungeonchest"
+						}
+					},
+					{
+						"key": "dungeon_shelves",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/dungeon_shelves"
+						}
+					},
+					{
+						"key": "meteoriteblock",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/meteoriteblock"
+						}
+					},
+					{
+						"key": "undergroundchest",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/undergroundchest"
+						}
+					},
+					{
+						"key": "cavernchest",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/cavernchest"
+						}
+					},
+					{
+						"key": "platinumblock",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/platinumblock"
+						}
+					},
+					{
+						"key": "goldblock",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/goldblock"
+						}
+					},
+					{
+						"key": "tungstenblock",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/tungstenblock"
+						}
+					},
+					{
+						"key": "silverblock",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/silverblock"
+						}
+					},
+					{
+						"key": "leadblock",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/leadblock"
+						}
+					},
+					{
+						"key": "ironblock",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/ironblock"
+						}
+					},
+					{
+						"key": "tinblock",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/tinblock"
+						}
+					},
+					{
+						"key": "copperblock",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/copperblock"
+						}
+					},
+					{
+						"key": "meteorite",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/meteorite"
+						}
+					},
+					{
+						"key": "hellstone",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/hellstone"
+						}
+					},
+					{
+						"key": "crimstone",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/crimstone"
+						}
+					},
+					{
+						"key": "crimsand",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/crimsand"
+						}
+					},
+					{
+						"key": "crimtaneore",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/crimtaneore"
+						}
+					},
+					{
+						"key": "copperore",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/copperore"
+						}
+					},
+					{
+						"key": "tinore",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/tinore"
+						}
+					},
+					{
+						"key": "leadore",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/leadore"
+						}
+					},
+					{
+						"key": "ironore_terraria",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/ironore_terraria"
+						}
+					},
+					{
+						"key": "silverore",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/silverore"
+						}
+					},
+					{
+						"key": "goldore_terraria",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/goldore_terraria"
+						}
+					},
+					{
+						"key": "tungstenore",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/tungstenore"
+						}
+					},
+					{
+						"key": "platinumore",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/platinumore"
+						}
+					},
+					{
+						"key": "rubyore",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/rubyore"
+						}
+					},
+					{
+						"key": "sapphireore",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/sapphireore"
+						}
+					},
+					{
+						"key": "obsidian_terraria",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/obsidian_terraria"
+						}
+					},
+					{
+						"key": "junglespores",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/junglespores"
+						}
+					},
+					{
+						"key": "crystalheart",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/crystalheart"
+						}
+					},
+					{
+						"key": "surfacechest",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/surfacechest"
+						}
+					},
+					{
+						"key": "crimson_grass_up",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/crimson_grass_up"
+						}
+					},
+					{
+						"key": "crimson_grass_down",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/crimson_grass_down"
+						}
+					},
+					{
+						"key": "crimson_grass_side",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/crimson_grass_side"
+						}
+					},
+					{
+						"key": "crimson_cactus",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/crimson_cactus"
+						}
+					},
+					{
+						"key": "victoriousmushroom",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/victoriousmushroom"
+						}
+					},
+					{
+						"key": "ash",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/ash"
+						}
+					},
+					{
+						"key": "pinkbrick",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/pinkbrick"
+						}
+					},
+					{
+						"key": "pinkbrick_wall",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/pinkbrick_wall"
+						}
+					},
+					{
+						"key": "pinkbrick_slab",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/pinkbrick_slab"
+						}
+					},
+					{
+						"key": "greenbrick",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/greenbrick"
+						}
+					},
+					{
+						"key": "corrupted_grass_up",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/corrupted_grass_up"
+						}
+					},
+					{
+						"key": "corrupted_grass_side",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/corrupted_grass_side"
+						}
+					},
+					{
+						"key": "ebonstone",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/ebonstone"
+						}
+					},
+					{
+						"key": "workbench",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/wooden_workbench"
+						}
+					},
+					{
+						"key": "demon_alter",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/demon_alter"
+						}
+					},
+					{
+						"key": "crimson_alter",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/crimson_alter"
+						}
+					},
+					{
+						"key": "tfurnace",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/tfurnace"
+						}
+					},
+					{
+						"key": "iron_anvil",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/iron_anvil"
+						}
+					},
+					{
+						"key": "crimson_wood",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/blocks/crimson_wood"
+							]
+						}
+					},
+					{
+						"key": "jungle_grass_top",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/blocks/jungle_grass_top"
+							]
+						}
+					},
+					{
+						"key": "jungle_grass_side",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/blocks/jungle_grass_side"
+							]
+						}
+					},
+					{
+						"key": "graybrick",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/blocks/graybrick"
+							]
+						}
+					},
+					{
+						"key": "purity_clay",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/blocks/purity_clay"
+							]
+						}
+					},
+					{
+						"key": "redbrick",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/blocks/redbrick"
+							]
+						}
+					},
+					{
+						"key": "underworld_transporter",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/blocks/underworld_transporter"
+							]
+						}
+					},
+					{
+						"key": "purity_candle",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/blocks/purity_candle"
+							]
+						}
+					},
+					{
+						"key": "honey",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/blocks/honey"
+							]
+						}
+					},
+					{
+						"key": "hive_wall",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										{
+											"variations": [
+												{
+													"weight": 1,
+													"path": "textures/blocks/hive_wall_one"
+												},
+												{
+													"weight": 1,
+													"path": "textures/blocks/hive_wall_two"
+												},
+												{
+													"weight": 1,
+													"path": "textures/blocks/hive_wall_three"
+												},
+												{
+													"weight": 1,
+													"path": "textures/blocks/hive_wall_four"
+												}
+											]
+										}
+									]
+								},
+								"key": "textures",
+								"children": [
+									{
+										"open": [
+											{
+												"variations": [
+													{
+														"weight": 1,
+														"path": "textures/blocks/hive_wall_one"
+													},
+													{
+														"weight": 1,
+														"path": "textures/blocks/hive_wall_two"
+													},
+													{
+														"weight": 1,
+														"path": "textures/blocks/hive_wall_three"
+													},
+													{
+														"weight": 1,
+														"path": "textures/blocks/hive_wall_four"
+													}
+												]
+											}
+										],
+										"children": [
+											{
+												"open": {
+													"variations": [
+														{
+															"weight": 1,
+															"path": "textures/blocks/hive_wall_one"
+														},
+														{
+															"weight": 1,
+															"path": "textures/blocks/hive_wall_two"
+														},
+														{
+															"weight": 1,
+															"path": "textures/blocks/hive_wall_three"
+														},
+														{
+															"weight": 1,
+															"path": "textures/blocks/hive_wall_four"
+														}
+													]
+												},
+												"key": "variations",
+												"children": [
+													{
+														"open": [
+															{
+																"weight": 1,
+																"path": "textures/blocks/hive_wall_one"
+															},
+															{
+																"weight": 1,
+																"path": "textures/blocks/hive_wall_two"
+															},
+															{
+																"weight": 1,
+																"path": "textures/blocks/hive_wall_three"
+															},
+															{
+																"weight": 1,
+																"path": "textures/blocks/hive_wall_four"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"weight": 1,
+															"path": "textures/blocks/hive_wall_one"
+														}
+													},
+													{
+														"open": [
+															{
+																"weight": 1,
+																"path": "textures/blocks/hive_wall_one"
+															},
+															{
+																"weight": 1,
+																"path": "textures/blocks/hive_wall_two"
+															},
+															{
+																"weight": 1,
+																"path": "textures/blocks/hive_wall_three"
+															},
+															{
+																"weight": 1,
+																"path": "textures/blocks/hive_wall_four"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"weight": 1,
+															"path": "textures/blocks/hive_wall_two"
+														}
+													},
+													{
+														"open": [
+															{
+																"weight": 1,
+																"path": "textures/blocks/hive_wall_one"
+															},
+															{
+																"weight": 1,
+																"path": "textures/blocks/hive_wall_two"
+															},
+															{
+																"weight": 1,
+																"path": "textures/blocks/hive_wall_three"
+															},
+															{
+																"weight": 1,
+																"path": "textures/blocks/hive_wall_four"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"weight": 1,
+															"path": "textures/blocks/hive_wall_three"
+														}
+													},
+													{
+														"open": [
+															{
+																"weight": 1,
+																"path": "textures/blocks/hive_wall_one"
+															},
+															{
+																"weight": 1,
+																"path": "textures/blocks/hive_wall_two"
+															},
+															{
+																"weight": 1,
+																"path": "textures/blocks/hive_wall_three"
+															},
+															{
+																"weight": 1,
+																"path": "textures/blocks/hive_wall_four"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"weight": 1,
+															"path": "textures/blocks/hive_wall_four"
+														}
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"key": "hive_block",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/blocks/hive_block"
+							]
+						}
+					},
+					{
+						"key": "larva",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/blocks/larva"
+							]
+						}
+					},
+					{
+						"key": "enchantedsword_block",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/blocks/enchantedsword_block"
+							]
+						}
+					},
+					{
+						"key": "purity_cactus",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/blocks/purity_cactus"
+							]
+						}
+					},
+					{
+						"key": "cactus_block",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/blocks/cactus_block"
+							]
+						}
+					},
+					{
+						"key": "sandstone",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/blocks/purity_sandstone"
+							]
+						}
+					},
+					{
+						"key": "purity_ice",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/blocks/purity_ice"
+							]
+						}
+					},
+					{
+						"key": "vile_mushroom",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/blocks/vilemushroom"
+							]
+						}
+					},
+					{
+						"key": "snow_tree",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/blocks/snow_tree"
+							]
+						}
+					},
+					{
+						"key": "snow_tree_top",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/blocks/treetop_snow_top"
+							]
+						}
+					},
+					{
+						"key": "snow_wood",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/blocks/snow_wood"
+							]
+						}
+					},
+					{
+						"key": "forest_pot",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/blocks/forest_pot"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/blocks/forest_pot"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"shadoworb": {
+								"textures": "textures/blocks/shadoworb"
+							},
+							"wooden_chair": {
+								"textures": [
+									"textures/blocks/wooden_chair"
+								]
+							},
+							"twooden_door": {
+								"textures": "textures/blocks/twooden_door"
+							},
+							"purity_loom": {
+								"textures": "textures/blocks/purity_loom"
+							},
+							"sawmill_two": {
+								"textures": "textures/blocks/sawmill_two"
+							},
+							"sawmill_one": {
+								"textures": "textures/blocks/sawmill_one"
+							},
+							"purity_chain": {
+								"textures": "textures/blocks/purity_chain"
+							},
+							"purity_cobweb": {
+								"textures": "textures/blocks/purity_cobweb"
+							},
+							"jungle_wood": {
+								"textures": "textures/blocks/jungle_wood"
+							},
+							"crimsonheart": {
+								"textures": "textures/blocks/crimsonheart"
+							},
+							"crimson_tree": {
+								"textures": "textures/blocks/crimson_tree"
+							},
+							"corrupted_wood": {
+								"textures": "textures/blocks/corrupted_wood"
+							},
+							"corrupted_tree": {
+								"textures": "textures/blocks/corrupted_tree"
+							},
+							"purity_tree": {
+								"textures": "textures/blocks/purity_tree"
+							},
+							"jungle_tree": {
+								"textures": "textures/blocks/jungle_tree"
+							},
+							"purity_torch": {
+								"textures": "textures/blocks/purity_torch"
+							},
+							"purity_wood": {
+								"textures": "textures/blocks/purity_wood"
+							},
+							"chest": {
+								"textures": "textures/blocks/chest"
+							},
+							"purity_grass_top": {
+								"textures": "textures/blocks/purity_grass_top"
+							},
+							"purity_grass_side": {
+								"textures": "textures/blocks/purity_grass_side"
+							},
+							"purity_dirt": {
+								"textures": "textures/blocks/purity_dirt"
+							},
+							"purity_stone": {
+								"textures": "textures/blocks/purity_stone"
+							},
+							"purity_snow": {
+								"textures": "textures/blocks/purity_snow"
+							},
+							"purity_sand": {
+								"textures": "textures/blocks/purity_sand"
+							},
+							"purity_silt": {
+								"textures": "textures/blocks/purity_silt"
+							},
+							"demoniteblock": {
+								"textures": "textures/blocks/demoniteblock"
+							},
+							"demoniteore": {
+								"textures": "textures/blocks/demoniteore"
+							},
+							"hellstoneblock": {
+								"textures": "textures/blocks/hellstoneblock"
+							},
+							"crimtaneblock": {
+								"textures": "textures/blocks/crimtaneblock"
+							},
+							"mushroom": {
+								"textures": "textures/blocks/mushroom"
+							},
+							"daybloom": {
+								"textures": "textures/blocks/daybloom"
+							},
+							"bottle_station": {
+								"textures": "textures/blocks/bottle_station"
+							},
+							"hellforge": {
+								"textures": "textures/blocks/hellforge"
+							},
+							"mushroom_hat": {
+								"textures": "textures/blocks/mushroom_hat"
+							},
+							"mushroom_stem_up": {
+								"textures": "textures/blocks/mushroom_stem_up"
+							},
+							"mushroom_stem_side": {
+								"textures": "textures/blocks/mushroom_stem_side"
+							},
+							"mushroom_grass_up": {
+								"textures": "textures/blocks/mushroom_grass_up"
+							},
+							"mushroom_grass_down": {
+								"textures": "textures/blocks/mushroom_grass_down"
+							},
+							"mushroom_grass_side": {
+								"textures": "textures/blocks/mushroom_grass_side"
+							},
+							"dungeonchest": {
+								"textures": "textures/blocks/dungeonchest"
+							},
+							"dungeon_shelves": {
+								"textures": "textures/blocks/dungeon_shelves"
+							},
+							"meteoriteblock": {
+								"textures": "textures/blocks/meteoriteblock"
+							},
+							"undergroundchest": {
+								"textures": "textures/blocks/undergroundchest"
+							},
+							"cavernchest": {
+								"textures": "textures/blocks/cavernchest"
+							},
+							"platinumblock": {
+								"textures": "textures/blocks/platinumblock"
+							},
+							"goldblock": {
+								"textures": "textures/blocks/goldblock"
+							},
+							"tungstenblock": {
+								"textures": "textures/blocks/tungstenblock"
+							},
+							"silverblock": {
+								"textures": "textures/blocks/silverblock"
+							},
+							"leadblock": {
+								"textures": "textures/blocks/leadblock"
+							},
+							"ironblock": {
+								"textures": "textures/blocks/ironblock"
+							},
+							"tinblock": {
+								"textures": "textures/blocks/tinblock"
+							},
+							"copperblock": {
+								"textures": "textures/blocks/copperblock"
+							},
+							"meteorite": {
+								"textures": "textures/blocks/meteorite"
+							},
+							"hellstone": {
+								"textures": "textures/blocks/hellstone"
+							},
+							"crimstone": {
+								"textures": "textures/blocks/crimstone"
+							},
+							"crimsand": {
+								"textures": "textures/blocks/crimsand"
+							},
+							"crimtaneore": {
+								"textures": "textures/blocks/crimtaneore"
+							},
+							"copperore": {
+								"textures": "textures/blocks/copperore"
+							},
+							"tinore": {
+								"textures": "textures/blocks/tinore"
+							},
+							"leadore": {
+								"textures": "textures/blocks/leadore"
+							},
+							"ironore_terraria": {
+								"textures": "textures/blocks/ironore_terraria"
+							},
+							"silverore": {
+								"textures": "textures/blocks/silverore"
+							},
+							"goldore_terraria": {
+								"textures": "textures/blocks/goldore_terraria"
+							},
+							"tungstenore": {
+								"textures": "textures/blocks/tungstenore"
+							},
+							"platinumore": {
+								"textures": "textures/blocks/platinumore"
+							},
+							"rubyore": {
+								"textures": "textures/blocks/rubyore"
+							},
+							"sapphireore": {
+								"textures": "textures/blocks/sapphireore"
+							},
+							"obsidian_terraria": {
+								"textures": "textures/blocks/obsidian_terraria"
+							},
+							"junglespores": {
+								"textures": "textures/blocks/junglespores"
+							},
+							"crystalheart": {
+								"textures": "textures/blocks/crystalheart"
+							},
+							"surfacechest": {
+								"textures": "textures/blocks/surfacechest"
+							},
+							"crimson_grass_up": {
+								"textures": "textures/blocks/crimson_grass_up"
+							},
+							"crimson_grass_down": {
+								"textures": "textures/blocks/crimson_grass_down"
+							},
+							"crimson_grass_side": {
+								"textures": "textures/blocks/crimson_grass_side"
+							},
+							"crimson_cactus": {
+								"textures": "textures/blocks/crimson_cactus"
+							},
+							"victoriousmushroom": {
+								"textures": "textures/blocks/victoriousmushroom"
+							},
+							"ash": {
+								"textures": "textures/blocks/ash"
+							},
+							"pinkbrick": {
+								"textures": "textures/blocks/pinkbrick"
+							},
+							"pinkbrick_wall": {
+								"textures": "textures/blocks/pinkbrick_wall"
+							},
+							"pinkbrick_slab": {
+								"textures": "textures/blocks/pinkbrick_slab"
+							},
+							"greenbrick": {
+								"textures": "textures/blocks/greenbrick"
+							},
+							"corrupted_grass_up": {
+								"textures": "textures/blocks/corrupted_grass_up"
+							},
+							"corrupted_grass_side": {
+								"textures": "textures/blocks/corrupted_grass_side"
+							},
+							"ebonstone": {
+								"textures": "textures/blocks/ebonstone"
+							},
+							"workbench": {
+								"textures": "textures/blocks/wooden_workbench"
+							},
+							"demon_alter": {
+								"textures": "textures/blocks/demon_alter"
+							},
+							"crimson_alter": {
+								"textures": "textures/blocks/crimson_alter"
+							},
+							"tfurnace": {
+								"textures": "textures/blocks/tfurnace"
+							},
+							"iron_anvil": {
+								"textures": "textures/blocks/iron_anvil"
+							},
+							"crimson_wood": {
+								"textures": [
+									"textures/blocks/crimson_wood"
+								]
+							},
+							"jungle_grass_top": {
+								"textures": [
+									"textures/blocks/jungle_grass_top"
+								]
+							},
+							"jungle_grass_side": {
+								"textures": [
+									"textures/blocks/jungle_grass_side"
+								]
+							},
+							"graybrick": {
+								"textures": [
+									"textures/blocks/graybrick"
+								]
+							},
+							"purity_clay": {
+								"textures": [
+									"textures/blocks/purity_clay"
+								]
+							},
+							"redbrick": {
+								"textures": [
+									"textures/blocks/redbrick"
+								]
+							},
+							"underworld_transporter": {
+								"textures": [
+									"textures/blocks/underworld_transporter"
+								]
+							},
+							"purity_candle": {
+								"textures": [
+									"textures/blocks/purity_candle"
+								]
+							},
+							"honey": {
+								"textures": [
+									"textures/blocks/honey"
+								]
+							},
+							"hive_wall": {
+								"textures": [
+									{
+										"variations": [
+											{
+												"weight": 1,
+												"path": "textures/blocks/hive_wall_one"
+											},
+											{
+												"weight": 1,
+												"path": "textures/blocks/hive_wall_two"
+											},
+											{
+												"weight": 1,
+												"path": "textures/blocks/hive_wall_three"
+											},
+											{
+												"weight": 1,
+												"path": "textures/blocks/hive_wall_four"
+											}
+										]
+									}
+								]
+							},
+							"hive_block": {
+								"textures": [
+									"textures/blocks/hive_block"
+								]
+							},
+							"larva": {
+								"textures": [
+									"textures/blocks/larva"
+								]
+							},
+							"enchantedsword_block": {
+								"textures": [
+									"textures/blocks/enchantedsword_block"
+								]
+							},
+							"purity_cactus": {
+								"textures": [
+									"textures/blocks/purity_cactus"
+								]
+							},
+							"cactus_block": {
+								"textures": [
+									"textures/blocks/cactus_block"
+								]
+							},
+							"sandstone": {
+								"textures": [
+									"textures/blocks/purity_sandstone"
+								]
+							},
+							"purity_ice": {
+								"textures": [
+									"textures/blocks/purity_ice"
+								]
+							},
+							"vile_mushroom": {
+								"textures": [
+									"textures/blocks/vilemushroom"
+								]
+							},
+							"snow_tree": {
+								"textures": [
+									"textures/blocks/snow_tree"
+								]
+							},
+							"snow_tree_top": {
+								"textures": [
+									"textures/blocks/treetop_snow_top"
+								]
+							},
+							"snow_wood": {
+								"textures": [
+									"textures/blocks/snow_wood"
+								]
+							},
+							"forest_pot": {
+								"textures": [
+									"textures/blocks/forest_pot"
+								]
+							},
+							"purity_tall_grass_one": {
+								"textures": [
+									"textures/blocks/purity_tall_grass_one"
+								]
+							},
+							"purity_tall_grass_two": {
+								"textures": [
+									"textures/blocks/purity_tall_grass_two"
+								]
+							},
+							"purity_tall_grass_three": {
+								"textures": [
+									"textures/blocks/purity_tall_grass_three"
+								]
+							},
+							"purity_tall_grass_four": {
+								"textures": [
+									"textures/blocks/purity_tall_grass_four"
+								]
+							},
+							"purity_tall_grass_five": {
+								"textures": [
+									"textures/blocks/purity_tall_grass_five"
+								]
+							}
+						},
+						"key": "purity_tall_grass_one",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/blocks/purity_tall_grass_one"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/blocks/purity_tall_grass_one"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"shadoworb": {
+								"textures": "textures/blocks/shadoworb"
+							},
+							"wooden_chair": {
+								"textures": [
+									"textures/blocks/wooden_chair"
+								]
+							},
+							"twooden_door": {
+								"textures": "textures/blocks/twooden_door"
+							},
+							"purity_loom": {
+								"textures": "textures/blocks/purity_loom"
+							},
+							"sawmill_two": {
+								"textures": "textures/blocks/sawmill_two"
+							},
+							"sawmill_one": {
+								"textures": "textures/blocks/sawmill_one"
+							},
+							"purity_chain": {
+								"textures": "textures/blocks/purity_chain"
+							},
+							"purity_cobweb": {
+								"textures": "textures/blocks/purity_cobweb"
+							},
+							"jungle_wood": {
+								"textures": "textures/blocks/jungle_wood"
+							},
+							"crimsonheart": {
+								"textures": "textures/blocks/crimsonheart"
+							},
+							"crimson_tree": {
+								"textures": "textures/blocks/crimson_tree"
+							},
+							"corrupted_wood": {
+								"textures": "textures/blocks/corrupted_wood"
+							},
+							"corrupted_tree": {
+								"textures": "textures/blocks/corrupted_tree"
+							},
+							"purity_tree": {
+								"textures": "textures/blocks/purity_tree"
+							},
+							"jungle_tree": {
+								"textures": "textures/blocks/jungle_tree"
+							},
+							"purity_torch": {
+								"textures": "textures/blocks/purity_torch"
+							},
+							"purity_wood": {
+								"textures": "textures/blocks/purity_wood"
+							},
+							"chest": {
+								"textures": "textures/blocks/chest"
+							},
+							"purity_grass_top": {
+								"textures": "textures/blocks/purity_grass_top"
+							},
+							"purity_grass_side": {
+								"textures": "textures/blocks/purity_grass_side"
+							},
+							"purity_dirt": {
+								"textures": "textures/blocks/purity_dirt"
+							},
+							"purity_stone": {
+								"textures": "textures/blocks/purity_stone"
+							},
+							"purity_snow": {
+								"textures": "textures/blocks/purity_snow"
+							},
+							"purity_sand": {
+								"textures": "textures/blocks/purity_sand"
+							},
+							"purity_silt": {
+								"textures": "textures/blocks/purity_silt"
+							},
+							"demoniteblock": {
+								"textures": "textures/blocks/demoniteblock"
+							},
+							"demoniteore": {
+								"textures": "textures/blocks/demoniteore"
+							},
+							"hellstoneblock": {
+								"textures": "textures/blocks/hellstoneblock"
+							},
+							"crimtaneblock": {
+								"textures": "textures/blocks/crimtaneblock"
+							},
+							"mushroom": {
+								"textures": "textures/blocks/mushroom"
+							},
+							"daybloom": {
+								"textures": "textures/blocks/daybloom"
+							},
+							"bottle_station": {
+								"textures": "textures/blocks/bottle_station"
+							},
+							"hellforge": {
+								"textures": "textures/blocks/hellforge"
+							},
+							"mushroom_hat": {
+								"textures": "textures/blocks/mushroom_hat"
+							},
+							"mushroom_stem_up": {
+								"textures": "textures/blocks/mushroom_stem_up"
+							},
+							"mushroom_stem_side": {
+								"textures": "textures/blocks/mushroom_stem_side"
+							},
+							"mushroom_grass_up": {
+								"textures": "textures/blocks/mushroom_grass_up"
+							},
+							"mushroom_grass_down": {
+								"textures": "textures/blocks/mushroom_grass_down"
+							},
+							"mushroom_grass_side": {
+								"textures": "textures/blocks/mushroom_grass_side"
+							},
+							"dungeonchest": {
+								"textures": "textures/blocks/dungeonchest"
+							},
+							"dungeon_shelves": {
+								"textures": "textures/blocks/dungeon_shelves"
+							},
+							"meteoriteblock": {
+								"textures": "textures/blocks/meteoriteblock"
+							},
+							"undergroundchest": {
+								"textures": "textures/blocks/undergroundchest"
+							},
+							"cavernchest": {
+								"textures": "textures/blocks/cavernchest"
+							},
+							"platinumblock": {
+								"textures": "textures/blocks/platinumblock"
+							},
+							"goldblock": {
+								"textures": "textures/blocks/goldblock"
+							},
+							"tungstenblock": {
+								"textures": "textures/blocks/tungstenblock"
+							},
+							"silverblock": {
+								"textures": "textures/blocks/silverblock"
+							},
+							"leadblock": {
+								"textures": "textures/blocks/leadblock"
+							},
+							"ironblock": {
+								"textures": "textures/blocks/ironblock"
+							},
+							"tinblock": {
+								"textures": "textures/blocks/tinblock"
+							},
+							"copperblock": {
+								"textures": "textures/blocks/copperblock"
+							},
+							"meteorite": {
+								"textures": "textures/blocks/meteorite"
+							},
+							"hellstone": {
+								"textures": "textures/blocks/hellstone"
+							},
+							"crimstone": {
+								"textures": "textures/blocks/crimstone"
+							},
+							"crimsand": {
+								"textures": "textures/blocks/crimsand"
+							},
+							"crimtaneore": {
+								"textures": "textures/blocks/crimtaneore"
+							},
+							"copperore": {
+								"textures": "textures/blocks/copperore"
+							},
+							"tinore": {
+								"textures": "textures/blocks/tinore"
+							},
+							"leadore": {
+								"textures": "textures/blocks/leadore"
+							},
+							"ironore_terraria": {
+								"textures": "textures/blocks/ironore_terraria"
+							},
+							"silverore": {
+								"textures": "textures/blocks/silverore"
+							},
+							"goldore_terraria": {
+								"textures": "textures/blocks/goldore_terraria"
+							},
+							"tungstenore": {
+								"textures": "textures/blocks/tungstenore"
+							},
+							"platinumore": {
+								"textures": "textures/blocks/platinumore"
+							},
+							"rubyore": {
+								"textures": "textures/blocks/rubyore"
+							},
+							"sapphireore": {
+								"textures": "textures/blocks/sapphireore"
+							},
+							"obsidian_terraria": {
+								"textures": "textures/blocks/obsidian_terraria"
+							},
+							"junglespores": {
+								"textures": "textures/blocks/junglespores"
+							},
+							"crystalheart": {
+								"textures": "textures/blocks/crystalheart"
+							},
+							"surfacechest": {
+								"textures": "textures/blocks/surfacechest"
+							},
+							"crimson_grass_up": {
+								"textures": "textures/blocks/crimson_grass_up"
+							},
+							"crimson_grass_down": {
+								"textures": "textures/blocks/crimson_grass_down"
+							},
+							"crimson_grass_side": {
+								"textures": "textures/blocks/crimson_grass_side"
+							},
+							"crimson_cactus": {
+								"textures": "textures/blocks/crimson_cactus"
+							},
+							"victoriousmushroom": {
+								"textures": "textures/blocks/victoriousmushroom"
+							},
+							"ash": {
+								"textures": "textures/blocks/ash"
+							},
+							"pinkbrick": {
+								"textures": "textures/blocks/pinkbrick"
+							},
+							"pinkbrick_wall": {
+								"textures": "textures/blocks/pinkbrick_wall"
+							},
+							"pinkbrick_slab": {
+								"textures": "textures/blocks/pinkbrick_slab"
+							},
+							"greenbrick": {
+								"textures": "textures/blocks/greenbrick"
+							},
+							"corrupted_grass_up": {
+								"textures": "textures/blocks/corrupted_grass_up"
+							},
+							"corrupted_grass_side": {
+								"textures": "textures/blocks/corrupted_grass_side"
+							},
+							"ebonstone": {
+								"textures": "textures/blocks/ebonstone"
+							},
+							"workbench": {
+								"textures": "textures/blocks/wooden_workbench"
+							},
+							"demon_alter": {
+								"textures": "textures/blocks/demon_alter"
+							},
+							"crimson_alter": {
+								"textures": "textures/blocks/crimson_alter"
+							},
+							"tfurnace": {
+								"textures": "textures/blocks/tfurnace"
+							},
+							"iron_anvil": {
+								"textures": "textures/blocks/iron_anvil"
+							},
+							"crimson_wood": {
+								"textures": [
+									"textures/blocks/crimson_wood"
+								]
+							},
+							"jungle_grass_top": {
+								"textures": [
+									"textures/blocks/jungle_grass_top"
+								]
+							},
+							"jungle_grass_side": {
+								"textures": [
+									"textures/blocks/jungle_grass_side"
+								]
+							},
+							"graybrick": {
+								"textures": [
+									"textures/blocks/graybrick"
+								]
+							},
+							"purity_clay": {
+								"textures": [
+									"textures/blocks/purity_clay"
+								]
+							},
+							"redbrick": {
+								"textures": [
+									"textures/blocks/redbrick"
+								]
+							},
+							"underworld_transporter": {
+								"textures": [
+									"textures/blocks/underworld_transporter"
+								]
+							},
+							"purity_candle": {
+								"textures": [
+									"textures/blocks/purity_candle"
+								]
+							},
+							"honey": {
+								"textures": [
+									"textures/blocks/honey"
+								]
+							},
+							"hive_wall": {
+								"textures": [
+									{
+										"variations": [
+											{
+												"weight": 1,
+												"path": "textures/blocks/hive_wall_one"
+											},
+											{
+												"weight": 1,
+												"path": "textures/blocks/hive_wall_two"
+											},
+											{
+												"weight": 1,
+												"path": "textures/blocks/hive_wall_three"
+											},
+											{
+												"weight": 1,
+												"path": "textures/blocks/hive_wall_four"
+											}
+										]
+									}
+								]
+							},
+							"hive_block": {
+								"textures": [
+									"textures/blocks/hive_block"
+								]
+							},
+							"larva": {
+								"textures": [
+									"textures/blocks/larva"
+								]
+							},
+							"enchantedsword_block": {
+								"textures": [
+									"textures/blocks/enchantedsword_block"
+								]
+							},
+							"purity_cactus": {
+								"textures": [
+									"textures/blocks/purity_cactus"
+								]
+							},
+							"cactus_block": {
+								"textures": [
+									"textures/blocks/cactus_block"
+								]
+							},
+							"sandstone": {
+								"textures": [
+									"textures/blocks/purity_sandstone"
+								]
+							},
+							"purity_ice": {
+								"textures": [
+									"textures/blocks/purity_ice"
+								]
+							},
+							"vile_mushroom": {
+								"textures": [
+									"textures/blocks/vilemushroom"
+								]
+							},
+							"snow_tree": {
+								"textures": [
+									"textures/blocks/snow_tree"
+								]
+							},
+							"snow_tree_top": {
+								"textures": [
+									"textures/blocks/treetop_snow_top"
+								]
+							},
+							"snow_wood": {
+								"textures": [
+									"textures/blocks/snow_wood"
+								]
+							},
+							"forest_pot": {
+								"textures": [
+									"textures/blocks/forest_pot"
+								]
+							},
+							"purity_tall_grass_one": {
+								"textures": [
+									"textures/blocks/purity_tall_grass_one"
+								]
+							},
+							"purity_tall_grass_two": {
+								"textures": [
+									"textures/blocks/purity_tall_grass_two"
+								]
+							},
+							"purity_tall_grass_three": {
+								"textures": [
+									"textures/blocks/purity_tall_grass_three"
+								]
+							},
+							"purity_tall_grass_four": {
+								"textures": [
+									"textures/blocks/purity_tall_grass_four"
+								]
+							},
+							"purity_tall_grass_five": {
+								"textures": [
+									"textures/blocks/purity_tall_grass_five"
+								]
+							}
+						},
+						"key": "purity_tall_grass_two",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/blocks/purity_tall_grass_two"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/blocks/purity_tall_grass_two"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"shadoworb": {
+								"textures": "textures/blocks/shadoworb"
+							},
+							"wooden_chair": {
+								"textures": [
+									"textures/blocks/wooden_chair"
+								]
+							},
+							"twooden_door": {
+								"textures": "textures/blocks/twooden_door"
+							},
+							"purity_loom": {
+								"textures": "textures/blocks/purity_loom"
+							},
+							"sawmill_two": {
+								"textures": "textures/blocks/sawmill_two"
+							},
+							"sawmill_one": {
+								"textures": "textures/blocks/sawmill_one"
+							},
+							"purity_chain": {
+								"textures": "textures/blocks/purity_chain"
+							},
+							"purity_cobweb": {
+								"textures": "textures/blocks/purity_cobweb"
+							},
+							"jungle_wood": {
+								"textures": "textures/blocks/jungle_wood"
+							},
+							"crimsonheart": {
+								"textures": "textures/blocks/crimsonheart"
+							},
+							"crimson_tree": {
+								"textures": "textures/blocks/crimson_tree"
+							},
+							"corrupted_wood": {
+								"textures": "textures/blocks/corrupted_wood"
+							},
+							"corrupted_tree": {
+								"textures": "textures/blocks/corrupted_tree"
+							},
+							"purity_tree": {
+								"textures": "textures/blocks/purity_tree"
+							},
+							"jungle_tree": {
+								"textures": "textures/blocks/jungle_tree"
+							},
+							"purity_torch": {
+								"textures": "textures/blocks/purity_torch"
+							},
+							"purity_wood": {
+								"textures": "textures/blocks/purity_wood"
+							},
+							"chest": {
+								"textures": "textures/blocks/chest"
+							},
+							"purity_grass_top": {
+								"textures": "textures/blocks/purity_grass_top"
+							},
+							"purity_grass_side": {
+								"textures": "textures/blocks/purity_grass_side"
+							},
+							"purity_dirt": {
+								"textures": "textures/blocks/purity_dirt"
+							},
+							"purity_stone": {
+								"textures": "textures/blocks/purity_stone"
+							},
+							"purity_snow": {
+								"textures": "textures/blocks/purity_snow"
+							},
+							"purity_sand": {
+								"textures": "textures/blocks/purity_sand"
+							},
+							"purity_silt": {
+								"textures": "textures/blocks/purity_silt"
+							},
+							"demoniteblock": {
+								"textures": "textures/blocks/demoniteblock"
+							},
+							"demoniteore": {
+								"textures": "textures/blocks/demoniteore"
+							},
+							"hellstoneblock": {
+								"textures": "textures/blocks/hellstoneblock"
+							},
+							"crimtaneblock": {
+								"textures": "textures/blocks/crimtaneblock"
+							},
+							"mushroom": {
+								"textures": "textures/blocks/mushroom"
+							},
+							"daybloom": {
+								"textures": "textures/blocks/daybloom"
+							},
+							"bottle_station": {
+								"textures": "textures/blocks/bottle_station"
+							},
+							"hellforge": {
+								"textures": "textures/blocks/hellforge"
+							},
+							"mushroom_hat": {
+								"textures": "textures/blocks/mushroom_hat"
+							},
+							"mushroom_stem_up": {
+								"textures": "textures/blocks/mushroom_stem_up"
+							},
+							"mushroom_stem_side": {
+								"textures": "textures/blocks/mushroom_stem_side"
+							},
+							"mushroom_grass_up": {
+								"textures": "textures/blocks/mushroom_grass_up"
+							},
+							"mushroom_grass_down": {
+								"textures": "textures/blocks/mushroom_grass_down"
+							},
+							"mushroom_grass_side": {
+								"textures": "textures/blocks/mushroom_grass_side"
+							},
+							"dungeonchest": {
+								"textures": "textures/blocks/dungeonchest"
+							},
+							"dungeon_shelves": {
+								"textures": "textures/blocks/dungeon_shelves"
+							},
+							"meteoriteblock": {
+								"textures": "textures/blocks/meteoriteblock"
+							},
+							"undergroundchest": {
+								"textures": "textures/blocks/undergroundchest"
+							},
+							"cavernchest": {
+								"textures": "textures/blocks/cavernchest"
+							},
+							"platinumblock": {
+								"textures": "textures/blocks/platinumblock"
+							},
+							"goldblock": {
+								"textures": "textures/blocks/goldblock"
+							},
+							"tungstenblock": {
+								"textures": "textures/blocks/tungstenblock"
+							},
+							"silverblock": {
+								"textures": "textures/blocks/silverblock"
+							},
+							"leadblock": {
+								"textures": "textures/blocks/leadblock"
+							},
+							"ironblock": {
+								"textures": "textures/blocks/ironblock"
+							},
+							"tinblock": {
+								"textures": "textures/blocks/tinblock"
+							},
+							"copperblock": {
+								"textures": "textures/blocks/copperblock"
+							},
+							"meteorite": {
+								"textures": "textures/blocks/meteorite"
+							},
+							"hellstone": {
+								"textures": "textures/blocks/hellstone"
+							},
+							"crimstone": {
+								"textures": "textures/blocks/crimstone"
+							},
+							"crimsand": {
+								"textures": "textures/blocks/crimsand"
+							},
+							"crimtaneore": {
+								"textures": "textures/blocks/crimtaneore"
+							},
+							"copperore": {
+								"textures": "textures/blocks/copperore"
+							},
+							"tinore": {
+								"textures": "textures/blocks/tinore"
+							},
+							"leadore": {
+								"textures": "textures/blocks/leadore"
+							},
+							"ironore_terraria": {
+								"textures": "textures/blocks/ironore_terraria"
+							},
+							"silverore": {
+								"textures": "textures/blocks/silverore"
+							},
+							"goldore_terraria": {
+								"textures": "textures/blocks/goldore_terraria"
+							},
+							"tungstenore": {
+								"textures": "textures/blocks/tungstenore"
+							},
+							"platinumore": {
+								"textures": "textures/blocks/platinumore"
+							},
+							"rubyore": {
+								"textures": "textures/blocks/rubyore"
+							},
+							"sapphireore": {
+								"textures": "textures/blocks/sapphireore"
+							},
+							"obsidian_terraria": {
+								"textures": "textures/blocks/obsidian_terraria"
+							},
+							"junglespores": {
+								"textures": "textures/blocks/junglespores"
+							},
+							"crystalheart": {
+								"textures": "textures/blocks/crystalheart"
+							},
+							"surfacechest": {
+								"textures": "textures/blocks/surfacechest"
+							},
+							"crimson_grass_up": {
+								"textures": "textures/blocks/crimson_grass_up"
+							},
+							"crimson_grass_down": {
+								"textures": "textures/blocks/crimson_grass_down"
+							},
+							"crimson_grass_side": {
+								"textures": "textures/blocks/crimson_grass_side"
+							},
+							"crimson_cactus": {
+								"textures": "textures/blocks/crimson_cactus"
+							},
+							"victoriousmushroom": {
+								"textures": "textures/blocks/victoriousmushroom"
+							},
+							"ash": {
+								"textures": "textures/blocks/ash"
+							},
+							"pinkbrick": {
+								"textures": "textures/blocks/pinkbrick"
+							},
+							"pinkbrick_wall": {
+								"textures": "textures/blocks/pinkbrick_wall"
+							},
+							"pinkbrick_slab": {
+								"textures": "textures/blocks/pinkbrick_slab"
+							},
+							"greenbrick": {
+								"textures": "textures/blocks/greenbrick"
+							},
+							"corrupted_grass_up": {
+								"textures": "textures/blocks/corrupted_grass_up"
+							},
+							"corrupted_grass_side": {
+								"textures": "textures/blocks/corrupted_grass_side"
+							},
+							"ebonstone": {
+								"textures": "textures/blocks/ebonstone"
+							},
+							"workbench": {
+								"textures": "textures/blocks/wooden_workbench"
+							},
+							"demon_alter": {
+								"textures": "textures/blocks/demon_alter"
+							},
+							"crimson_alter": {
+								"textures": "textures/blocks/crimson_alter"
+							},
+							"tfurnace": {
+								"textures": "textures/blocks/tfurnace"
+							},
+							"iron_anvil": {
+								"textures": "textures/blocks/iron_anvil"
+							},
+							"crimson_wood": {
+								"textures": [
+									"textures/blocks/crimson_wood"
+								]
+							},
+							"jungle_grass_top": {
+								"textures": [
+									"textures/blocks/jungle_grass_top"
+								]
+							},
+							"jungle_grass_side": {
+								"textures": [
+									"textures/blocks/jungle_grass_side"
+								]
+							},
+							"graybrick": {
+								"textures": [
+									"textures/blocks/graybrick"
+								]
+							},
+							"purity_clay": {
+								"textures": [
+									"textures/blocks/purity_clay"
+								]
+							},
+							"redbrick": {
+								"textures": [
+									"textures/blocks/redbrick"
+								]
+							},
+							"underworld_transporter": {
+								"textures": [
+									"textures/blocks/underworld_transporter"
+								]
+							},
+							"purity_candle": {
+								"textures": [
+									"textures/blocks/purity_candle"
+								]
+							},
+							"honey": {
+								"textures": [
+									"textures/blocks/honey"
+								]
+							},
+							"hive_wall": {
+								"textures": [
+									{
+										"variations": [
+											{
+												"weight": 1,
+												"path": "textures/blocks/hive_wall_one"
+											},
+											{
+												"weight": 1,
+												"path": "textures/blocks/hive_wall_two"
+											},
+											{
+												"weight": 1,
+												"path": "textures/blocks/hive_wall_three"
+											},
+											{
+												"weight": 1,
+												"path": "textures/blocks/hive_wall_four"
+											}
+										]
+									}
+								]
+							},
+							"hive_block": {
+								"textures": [
+									"textures/blocks/hive_block"
+								]
+							},
+							"larva": {
+								"textures": [
+									"textures/blocks/larva"
+								]
+							},
+							"enchantedsword_block": {
+								"textures": [
+									"textures/blocks/enchantedsword_block"
+								]
+							},
+							"purity_cactus": {
+								"textures": [
+									"textures/blocks/purity_cactus"
+								]
+							},
+							"cactus_block": {
+								"textures": [
+									"textures/blocks/cactus_block"
+								]
+							},
+							"sandstone": {
+								"textures": [
+									"textures/blocks/purity_sandstone"
+								]
+							},
+							"purity_ice": {
+								"textures": [
+									"textures/blocks/purity_ice"
+								]
+							},
+							"vile_mushroom": {
+								"textures": [
+									"textures/blocks/vilemushroom"
+								]
+							},
+							"snow_tree": {
+								"textures": [
+									"textures/blocks/snow_tree"
+								]
+							},
+							"snow_tree_top": {
+								"textures": [
+									"textures/blocks/treetop_snow_top"
+								]
+							},
+							"snow_wood": {
+								"textures": [
+									"textures/blocks/snow_wood"
+								]
+							},
+							"forest_pot": {
+								"textures": [
+									"textures/blocks/forest_pot"
+								]
+							},
+							"purity_tall_grass_one": {
+								"textures": [
+									"textures/blocks/purity_tall_grass_one"
+								]
+							},
+							"purity_tall_grass_two": {
+								"textures": [
+									"textures/blocks/purity_tall_grass_two"
+								]
+							},
+							"purity_tall_grass_three": {
+								"textures": [
+									"textures/blocks/purity_tall_grass_three"
+								]
+							},
+							"purity_tall_grass_four": {
+								"textures": [
+									"textures/blocks/purity_tall_grass_four"
+								]
+							},
+							"purity_tall_grass_five": {
+								"textures": [
+									"textures/blocks/purity_tall_grass_five"
+								]
+							}
+						},
+						"key": "purity_tall_grass_three",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/blocks/purity_tall_grass_three"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/blocks/purity_tall_grass_three"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"shadoworb": {
+								"textures": "textures/blocks/shadoworb"
+							},
+							"wooden_chair": {
+								"textures": [
+									"textures/blocks/wooden_chair"
+								]
+							},
+							"twooden_door": {
+								"textures": "textures/blocks/twooden_door"
+							},
+							"purity_loom": {
+								"textures": "textures/blocks/purity_loom"
+							},
+							"sawmill_two": {
+								"textures": "textures/blocks/sawmill_two"
+							},
+							"sawmill_one": {
+								"textures": "textures/blocks/sawmill_one"
+							},
+							"purity_chain": {
+								"textures": "textures/blocks/purity_chain"
+							},
+							"purity_cobweb": {
+								"textures": "textures/blocks/purity_cobweb"
+							},
+							"jungle_wood": {
+								"textures": "textures/blocks/jungle_wood"
+							},
+							"crimsonheart": {
+								"textures": "textures/blocks/crimsonheart"
+							},
+							"crimson_tree": {
+								"textures": "textures/blocks/crimson_tree"
+							},
+							"corrupted_wood": {
+								"textures": "textures/blocks/corrupted_wood"
+							},
+							"corrupted_tree": {
+								"textures": "textures/blocks/corrupted_tree"
+							},
+							"purity_tree": {
+								"textures": "textures/blocks/purity_tree"
+							},
+							"jungle_tree": {
+								"textures": "textures/blocks/jungle_tree"
+							},
+							"purity_torch": {
+								"textures": "textures/blocks/purity_torch"
+							},
+							"purity_wood": {
+								"textures": "textures/blocks/purity_wood"
+							},
+							"chest": {
+								"textures": "textures/blocks/chest"
+							},
+							"purity_grass_top": {
+								"textures": "textures/blocks/purity_grass_top"
+							},
+							"purity_grass_side": {
+								"textures": "textures/blocks/purity_grass_side"
+							},
+							"purity_dirt": {
+								"textures": "textures/blocks/purity_dirt"
+							},
+							"purity_stone": {
+								"textures": "textures/blocks/purity_stone"
+							},
+							"purity_snow": {
+								"textures": "textures/blocks/purity_snow"
+							},
+							"purity_sand": {
+								"textures": "textures/blocks/purity_sand"
+							},
+							"purity_silt": {
+								"textures": "textures/blocks/purity_silt"
+							},
+							"demoniteblock": {
+								"textures": "textures/blocks/demoniteblock"
+							},
+							"demoniteore": {
+								"textures": "textures/blocks/demoniteore"
+							},
+							"hellstoneblock": {
+								"textures": "textures/blocks/hellstoneblock"
+							},
+							"crimtaneblock": {
+								"textures": "textures/blocks/crimtaneblock"
+							},
+							"mushroom": {
+								"textures": "textures/blocks/mushroom"
+							},
+							"daybloom": {
+								"textures": "textures/blocks/daybloom"
+							},
+							"bottle_station": {
+								"textures": "textures/blocks/bottle_station"
+							},
+							"hellforge": {
+								"textures": "textures/blocks/hellforge"
+							},
+							"mushroom_hat": {
+								"textures": "textures/blocks/mushroom_hat"
+							},
+							"mushroom_stem_up": {
+								"textures": "textures/blocks/mushroom_stem_up"
+							},
+							"mushroom_stem_side": {
+								"textures": "textures/blocks/mushroom_stem_side"
+							},
+							"mushroom_grass_up": {
+								"textures": "textures/blocks/mushroom_grass_up"
+							},
+							"mushroom_grass_down": {
+								"textures": "textures/blocks/mushroom_grass_down"
+							},
+							"mushroom_grass_side": {
+								"textures": "textures/blocks/mushroom_grass_side"
+							},
+							"dungeonchest": {
+								"textures": "textures/blocks/dungeonchest"
+							},
+							"dungeon_shelves": {
+								"textures": "textures/blocks/dungeon_shelves"
+							},
+							"meteoriteblock": {
+								"textures": "textures/blocks/meteoriteblock"
+							},
+							"undergroundchest": {
+								"textures": "textures/blocks/undergroundchest"
+							},
+							"cavernchest": {
+								"textures": "textures/blocks/cavernchest"
+							},
+							"platinumblock": {
+								"textures": "textures/blocks/platinumblock"
+							},
+							"goldblock": {
+								"textures": "textures/blocks/goldblock"
+							},
+							"tungstenblock": {
+								"textures": "textures/blocks/tungstenblock"
+							},
+							"silverblock": {
+								"textures": "textures/blocks/silverblock"
+							},
+							"leadblock": {
+								"textures": "textures/blocks/leadblock"
+							},
+							"ironblock": {
+								"textures": "textures/blocks/ironblock"
+							},
+							"tinblock": {
+								"textures": "textures/blocks/tinblock"
+							},
+							"copperblock": {
+								"textures": "textures/blocks/copperblock"
+							},
+							"meteorite": {
+								"textures": "textures/blocks/meteorite"
+							},
+							"hellstone": {
+								"textures": "textures/blocks/hellstone"
+							},
+							"crimstone": {
+								"textures": "textures/blocks/crimstone"
+							},
+							"crimsand": {
+								"textures": "textures/blocks/crimsand"
+							},
+							"crimtaneore": {
+								"textures": "textures/blocks/crimtaneore"
+							},
+							"copperore": {
+								"textures": "textures/blocks/copperore"
+							},
+							"tinore": {
+								"textures": "textures/blocks/tinore"
+							},
+							"leadore": {
+								"textures": "textures/blocks/leadore"
+							},
+							"ironore_terraria": {
+								"textures": "textures/blocks/ironore_terraria"
+							},
+							"silverore": {
+								"textures": "textures/blocks/silverore"
+							},
+							"goldore_terraria": {
+								"textures": "textures/blocks/goldore_terraria"
+							},
+							"tungstenore": {
+								"textures": "textures/blocks/tungstenore"
+							},
+							"platinumore": {
+								"textures": "textures/blocks/platinumore"
+							},
+							"rubyore": {
+								"textures": "textures/blocks/rubyore"
+							},
+							"sapphireore": {
+								"textures": "textures/blocks/sapphireore"
+							},
+							"obsidian_terraria": {
+								"textures": "textures/blocks/obsidian_terraria"
+							},
+							"junglespores": {
+								"textures": "textures/blocks/junglespores"
+							},
+							"crystalheart": {
+								"textures": "textures/blocks/crystalheart"
+							},
+							"surfacechest": {
+								"textures": "textures/blocks/surfacechest"
+							},
+							"crimson_grass_up": {
+								"textures": "textures/blocks/crimson_grass_up"
+							},
+							"crimson_grass_down": {
+								"textures": "textures/blocks/crimson_grass_down"
+							},
+							"crimson_grass_side": {
+								"textures": "textures/blocks/crimson_grass_side"
+							},
+							"crimson_cactus": {
+								"textures": "textures/blocks/crimson_cactus"
+							},
+							"victoriousmushroom": {
+								"textures": "textures/blocks/victoriousmushroom"
+							},
+							"ash": {
+								"textures": "textures/blocks/ash"
+							},
+							"pinkbrick": {
+								"textures": "textures/blocks/pinkbrick"
+							},
+							"pinkbrick_wall": {
+								"textures": "textures/blocks/pinkbrick_wall"
+							},
+							"pinkbrick_slab": {
+								"textures": "textures/blocks/pinkbrick_slab"
+							},
+							"greenbrick": {
+								"textures": "textures/blocks/greenbrick"
+							},
+							"corrupted_grass_up": {
+								"textures": "textures/blocks/corrupted_grass_up"
+							},
+							"corrupted_grass_side": {
+								"textures": "textures/blocks/corrupted_grass_side"
+							},
+							"ebonstone": {
+								"textures": "textures/blocks/ebonstone"
+							},
+							"workbench": {
+								"textures": "textures/blocks/wooden_workbench"
+							},
+							"demon_alter": {
+								"textures": "textures/blocks/demon_alter"
+							},
+							"crimson_alter": {
+								"textures": "textures/blocks/crimson_alter"
+							},
+							"tfurnace": {
+								"textures": "textures/blocks/tfurnace"
+							},
+							"iron_anvil": {
+								"textures": "textures/blocks/iron_anvil"
+							},
+							"crimson_wood": {
+								"textures": [
+									"textures/blocks/crimson_wood"
+								]
+							},
+							"jungle_grass_top": {
+								"textures": [
+									"textures/blocks/jungle_grass_top"
+								]
+							},
+							"jungle_grass_side": {
+								"textures": [
+									"textures/blocks/jungle_grass_side"
+								]
+							},
+							"graybrick": {
+								"textures": [
+									"textures/blocks/graybrick"
+								]
+							},
+							"purity_clay": {
+								"textures": [
+									"textures/blocks/purity_clay"
+								]
+							},
+							"redbrick": {
+								"textures": [
+									"textures/blocks/redbrick"
+								]
+							},
+							"underworld_transporter": {
+								"textures": [
+									"textures/blocks/underworld_transporter"
+								]
+							},
+							"purity_candle": {
+								"textures": [
+									"textures/blocks/purity_candle"
+								]
+							},
+							"honey": {
+								"textures": [
+									"textures/blocks/honey"
+								]
+							},
+							"hive_wall": {
+								"textures": [
+									{
+										"variations": [
+											{
+												"weight": 1,
+												"path": "textures/blocks/hive_wall_one"
+											},
+											{
+												"weight": 1,
+												"path": "textures/blocks/hive_wall_two"
+											},
+											{
+												"weight": 1,
+												"path": "textures/blocks/hive_wall_three"
+											},
+											{
+												"weight": 1,
+												"path": "textures/blocks/hive_wall_four"
+											}
+										]
+									}
+								]
+							},
+							"hive_block": {
+								"textures": [
+									"textures/blocks/hive_block"
+								]
+							},
+							"larva": {
+								"textures": [
+									"textures/blocks/larva"
+								]
+							},
+							"enchantedsword_block": {
+								"textures": [
+									"textures/blocks/enchantedsword_block"
+								]
+							},
+							"purity_cactus": {
+								"textures": [
+									"textures/blocks/purity_cactus"
+								]
+							},
+							"cactus_block": {
+								"textures": [
+									"textures/blocks/cactus_block"
+								]
+							},
+							"sandstone": {
+								"textures": [
+									"textures/blocks/purity_sandstone"
+								]
+							},
+							"purity_ice": {
+								"textures": [
+									"textures/blocks/purity_ice"
+								]
+							},
+							"vile_mushroom": {
+								"textures": [
+									"textures/blocks/vilemushroom"
+								]
+							},
+							"snow_tree": {
+								"textures": [
+									"textures/blocks/snow_tree"
+								]
+							},
+							"snow_tree_top": {
+								"textures": [
+									"textures/blocks/treetop_snow_top"
+								]
+							},
+							"snow_wood": {
+								"textures": [
+									"textures/blocks/snow_wood"
+								]
+							},
+							"forest_pot": {
+								"textures": [
+									"textures/blocks/forest_pot"
+								]
+							},
+							"purity_tall_grass_one": {
+								"textures": [
+									"textures/blocks/purity_tall_grass_one"
+								]
+							},
+							"purity_tall_grass_two": {
+								"textures": [
+									"textures/blocks/purity_tall_grass_two"
+								]
+							},
+							"purity_tall_grass_three": {
+								"textures": [
+									"textures/blocks/purity_tall_grass_three"
+								]
+							},
+							"purity_tall_grass_four": {
+								"textures": [
+									"textures/blocks/purity_tall_grass_four"
+								]
+							},
+							"purity_tall_grass_five": {
+								"textures": [
+									"textures/blocks/purity_tall_grass_five"
+								]
+							}
+						},
+						"key": "purity_tall_grass_four",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/blocks/purity_tall_grass_four"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/blocks/purity_tall_grass_four"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"shadoworb": {
+								"textures": "textures/blocks/shadoworb"
+							},
+							"wooden_chair": {
+								"textures": [
+									"textures/blocks/wooden_chair"
+								]
+							},
+							"twooden_door": {
+								"textures": "textures/blocks/twooden_door"
+							},
+							"purity_loom": {
+								"textures": "textures/blocks/purity_loom"
+							},
+							"sawmill_two": {
+								"textures": "textures/blocks/sawmill_two"
+							},
+							"sawmill_one": {
+								"textures": "textures/blocks/sawmill_one"
+							},
+							"purity_chain": {
+								"textures": "textures/blocks/purity_chain"
+							},
+							"purity_cobweb": {
+								"textures": "textures/blocks/purity_cobweb"
+							},
+							"jungle_wood": {
+								"textures": "textures/blocks/jungle_wood"
+							},
+							"crimsonheart": {
+								"textures": "textures/blocks/crimsonheart"
+							},
+							"crimson_tree": {
+								"textures": "textures/blocks/crimson_tree"
+							},
+							"corrupted_wood": {
+								"textures": "textures/blocks/corrupted_wood"
+							},
+							"corrupted_tree": {
+								"textures": "textures/blocks/corrupted_tree"
+							},
+							"purity_tree": {
+								"textures": "textures/blocks/purity_tree"
+							},
+							"jungle_tree": {
+								"textures": "textures/blocks/jungle_tree"
+							},
+							"purity_torch": {
+								"textures": "textures/blocks/purity_torch"
+							},
+							"purity_wood": {
+								"textures": "textures/blocks/purity_wood"
+							},
+							"chest": {
+								"textures": "textures/blocks/chest"
+							},
+							"purity_grass_top": {
+								"textures": "textures/blocks/purity_grass_top"
+							},
+							"purity_grass_side": {
+								"textures": "textures/blocks/purity_grass_side"
+							},
+							"purity_dirt": {
+								"textures": "textures/blocks/purity_dirt"
+							},
+							"purity_stone": {
+								"textures": "textures/blocks/purity_stone"
+							},
+							"purity_snow": {
+								"textures": "textures/blocks/purity_snow"
+							},
+							"purity_sand": {
+								"textures": "textures/blocks/purity_sand"
+							},
+							"purity_silt": {
+								"textures": "textures/blocks/purity_silt"
+							},
+							"demoniteblock": {
+								"textures": "textures/blocks/demoniteblock"
+							},
+							"demoniteore": {
+								"textures": "textures/blocks/demoniteore"
+							},
+							"hellstoneblock": {
+								"textures": "textures/blocks/hellstoneblock"
+							},
+							"crimtaneblock": {
+								"textures": "textures/blocks/crimtaneblock"
+							},
+							"mushroom": {
+								"textures": "textures/blocks/mushroom"
+							},
+							"daybloom": {
+								"textures": "textures/blocks/daybloom"
+							},
+							"bottle_station": {
+								"textures": "textures/blocks/bottle_station"
+							},
+							"hellforge": {
+								"textures": "textures/blocks/hellforge"
+							},
+							"mushroom_hat": {
+								"textures": "textures/blocks/mushroom_hat"
+							},
+							"mushroom_stem_up": {
+								"textures": "textures/blocks/mushroom_stem_up"
+							},
+							"mushroom_stem_side": {
+								"textures": "textures/blocks/mushroom_stem_side"
+							},
+							"mushroom_grass_up": {
+								"textures": "textures/blocks/mushroom_grass_up"
+							},
+							"mushroom_grass_down": {
+								"textures": "textures/blocks/mushroom_grass_down"
+							},
+							"mushroom_grass_side": {
+								"textures": "textures/blocks/mushroom_grass_side"
+							},
+							"dungeonchest": {
+								"textures": "textures/blocks/dungeonchest"
+							},
+							"dungeon_shelves": {
+								"textures": "textures/blocks/dungeon_shelves"
+							},
+							"meteoriteblock": {
+								"textures": "textures/blocks/meteoriteblock"
+							},
+							"undergroundchest": {
+								"textures": "textures/blocks/undergroundchest"
+							},
+							"cavernchest": {
+								"textures": "textures/blocks/cavernchest"
+							},
+							"platinumblock": {
+								"textures": "textures/blocks/platinumblock"
+							},
+							"goldblock": {
+								"textures": "textures/blocks/goldblock"
+							},
+							"tungstenblock": {
+								"textures": "textures/blocks/tungstenblock"
+							},
+							"silverblock": {
+								"textures": "textures/blocks/silverblock"
+							},
+							"leadblock": {
+								"textures": "textures/blocks/leadblock"
+							},
+							"ironblock": {
+								"textures": "textures/blocks/ironblock"
+							},
+							"tinblock": {
+								"textures": "textures/blocks/tinblock"
+							},
+							"copperblock": {
+								"textures": "textures/blocks/copperblock"
+							},
+							"meteorite": {
+								"textures": "textures/blocks/meteorite"
+							},
+							"hellstone": {
+								"textures": "textures/blocks/hellstone"
+							},
+							"crimstone": {
+								"textures": "textures/blocks/crimstone"
+							},
+							"crimsand": {
+								"textures": "textures/blocks/crimsand"
+							},
+							"crimtaneore": {
+								"textures": "textures/blocks/crimtaneore"
+							},
+							"copperore": {
+								"textures": "textures/blocks/copperore"
+							},
+							"tinore": {
+								"textures": "textures/blocks/tinore"
+							},
+							"leadore": {
+								"textures": "textures/blocks/leadore"
+							},
+							"ironore_terraria": {
+								"textures": "textures/blocks/ironore_terraria"
+							},
+							"silverore": {
+								"textures": "textures/blocks/silverore"
+							},
+							"goldore_terraria": {
+								"textures": "textures/blocks/goldore_terraria"
+							},
+							"tungstenore": {
+								"textures": "textures/blocks/tungstenore"
+							},
+							"platinumore": {
+								"textures": "textures/blocks/platinumore"
+							},
+							"rubyore": {
+								"textures": "textures/blocks/rubyore"
+							},
+							"sapphireore": {
+								"textures": "textures/blocks/sapphireore"
+							},
+							"obsidian_terraria": {
+								"textures": "textures/blocks/obsidian_terraria"
+							},
+							"junglespores": {
+								"textures": "textures/blocks/junglespores"
+							},
+							"crystalheart": {
+								"textures": "textures/blocks/crystalheart"
+							},
+							"surfacechest": {
+								"textures": "textures/blocks/surfacechest"
+							},
+							"crimson_grass_up": {
+								"textures": "textures/blocks/crimson_grass_up"
+							},
+							"crimson_grass_down": {
+								"textures": "textures/blocks/crimson_grass_down"
+							},
+							"crimson_grass_side": {
+								"textures": "textures/blocks/crimson_grass_side"
+							},
+							"crimson_cactus": {
+								"textures": "textures/blocks/crimson_cactus"
+							},
+							"victoriousmushroom": {
+								"textures": "textures/blocks/victoriousmushroom"
+							},
+							"ash": {
+								"textures": "textures/blocks/ash"
+							},
+							"pinkbrick": {
+								"textures": "textures/blocks/pinkbrick"
+							},
+							"pinkbrick_wall": {
+								"textures": "textures/blocks/pinkbrick_wall"
+							},
+							"pinkbrick_slab": {
+								"textures": "textures/blocks/pinkbrick_slab"
+							},
+							"greenbrick": {
+								"textures": "textures/blocks/greenbrick"
+							},
+							"corrupted_grass_up": {
+								"textures": "textures/blocks/corrupted_grass_up"
+							},
+							"corrupted_grass_side": {
+								"textures": "textures/blocks/corrupted_grass_side"
+							},
+							"ebonstone": {
+								"textures": "textures/blocks/ebonstone"
+							},
+							"workbench": {
+								"textures": "textures/blocks/wooden_workbench"
+							},
+							"demon_alter": {
+								"textures": "textures/blocks/demon_alter"
+							},
+							"crimson_alter": {
+								"textures": "textures/blocks/crimson_alter"
+							},
+							"tfurnace": {
+								"textures": "textures/blocks/tfurnace"
+							},
+							"iron_anvil": {
+								"textures": "textures/blocks/iron_anvil"
+							},
+							"crimson_wood": {
+								"textures": [
+									"textures/blocks/crimson_wood"
+								]
+							},
+							"jungle_grass_top": {
+								"textures": [
+									"textures/blocks/jungle_grass_top"
+								]
+							},
+							"jungle_grass_side": {
+								"textures": [
+									"textures/blocks/jungle_grass_side"
+								]
+							},
+							"graybrick": {
+								"textures": [
+									"textures/blocks/graybrick"
+								]
+							},
+							"purity_clay": {
+								"textures": [
+									"textures/blocks/purity_clay"
+								]
+							},
+							"redbrick": {
+								"textures": [
+									"textures/blocks/redbrick"
+								]
+							},
+							"underworld_transporter": {
+								"textures": [
+									"textures/blocks/underworld_transporter"
+								]
+							},
+							"purity_candle": {
+								"textures": [
+									"textures/blocks/purity_candle"
+								]
+							},
+							"honey": {
+								"textures": [
+									"textures/blocks/honey"
+								]
+							},
+							"hive_wall": {
+								"textures": [
+									{
+										"variations": [
+											{
+												"weight": 1,
+												"path": "textures/blocks/hive_wall_one"
+											},
+											{
+												"weight": 1,
+												"path": "textures/blocks/hive_wall_two"
+											},
+											{
+												"weight": 1,
+												"path": "textures/blocks/hive_wall_three"
+											},
+											{
+												"weight": 1,
+												"path": "textures/blocks/hive_wall_four"
+											}
+										]
+									}
+								]
+							},
+							"hive_block": {
+								"textures": [
+									"textures/blocks/hive_block"
+								]
+							},
+							"larva": {
+								"textures": [
+									"textures/blocks/larva"
+								]
+							},
+							"enchantedsword_block": {
+								"textures": [
+									"textures/blocks/enchantedsword_block"
+								]
+							},
+							"purity_cactus": {
+								"textures": [
+									"textures/blocks/purity_cactus"
+								]
+							},
+							"cactus_block": {
+								"textures": [
+									"textures/blocks/cactus_block"
+								]
+							},
+							"sandstone": {
+								"textures": [
+									"textures/blocks/purity_sandstone"
+								]
+							},
+							"purity_ice": {
+								"textures": [
+									"textures/blocks/purity_ice"
+								]
+							},
+							"vile_mushroom": {
+								"textures": [
+									"textures/blocks/vilemushroom"
+								]
+							},
+							"snow_tree": {
+								"textures": [
+									"textures/blocks/snow_tree"
+								]
+							},
+							"snow_tree_top": {
+								"textures": [
+									"textures/blocks/treetop_snow_top"
+								]
+							},
+							"snow_wood": {
+								"textures": [
+									"textures/blocks/snow_wood"
+								]
+							},
+							"forest_pot": {
+								"textures": [
+									"textures/blocks/forest_pot"
+								]
+							},
+							"purity_tall_grass_one": {
+								"textures": [
+									"textures/blocks/purity_tall_grass_one"
+								]
+							},
+							"purity_tall_grass_two": {
+								"textures": [
+									"textures/blocks/purity_tall_grass_two"
+								]
+							},
+							"purity_tall_grass_three": {
+								"textures": [
+									"textures/blocks/purity_tall_grass_three"
+								]
+							},
+							"purity_tall_grass_four": {
+								"textures": [
+									"textures/blocks/purity_tall_grass_four"
+								]
+							},
+							"purity_tall_grass_five": {
+								"textures": [
+									"textures/blocks/purity_tall_grass_five"
+								]
+							}
+						},
+						"key": "purity_tall_grass_five",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/blocks/purity_tall_grass_five"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/blocks/purity_tall_grass_five"
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,34 @@
+//bridge-file-version: #31
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.lifecrystal": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"command": "!query.is_alive"
+						}
+					]
+				},
+				"command": {
+					"transitions": [
+						{
+							"finished_command": "query.all_animations_finished"
+						}
+					]
+				},
+				"finished_command": {
+					"transitions": [
+						{
+							"default": "query.all_animations_finished"
+						}
+					],
+					"on_exit": [
+						"/function life_crystal_tick"
+					]
+				}
+			}
+		}
+	}
+}

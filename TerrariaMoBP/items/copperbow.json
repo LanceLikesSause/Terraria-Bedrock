@@ -15,7 +15,7 @@
 				"texture": "terrariamod:copperbow"
 			},
 			"minecraft:display_name": {
-				"value": "Copper Bow\n§9+11 Projectile Damage"
+				"value": "Copper Bow\n§9+11 Projectile Damage\n§9Place wooden arrows in the offhand to use"
 			},
 			"minecraft:on_use": {
 				"on_use": {

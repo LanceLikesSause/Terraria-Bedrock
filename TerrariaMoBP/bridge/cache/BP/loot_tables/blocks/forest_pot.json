@@ -1,0 +1,1025 @@
+{
+	"file_path": "C:\\Users\\LANCE.LEGAUX\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\TerrariaMoBP\\loot_tables\\blocks\\forest_pot.json",
+	"file_type": "loot_table",
+	"format_version": 1,
+	"file_uuid": "cecdfe0e_8de3_4766_9f80_6e7d747c5856",
+	"file_version": 4,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"pools": [
+						{
+							"rolls": 1,
+							"entries": [
+								{
+									"type": "item",
+									"weight": 1,
+									"name": "terrariamod:wormholepotion",
+									"functions": [
+										{
+											"function": "set_count",
+											"count": {
+												"min": 1,
+												"max": 1
+											}
+										}
+									]
+								},
+								{
+									"type": "item",
+									"weight": 1,
+									"name": "terrariamod:purity_torch",
+									"functions": [
+										{
+											"function": "set_count",
+											"count": {
+												"min": 4,
+												"max": 12
+											}
+										}
+									]
+								},
+								{
+									"type": "item",
+									"weight": 1,
+									"name": "terrariamod:woodenarrow",
+									"functions": [
+										{
+											"function": "set_count",
+											"count": {
+												"min": 10,
+												"max": 20
+											}
+										}
+									]
+								},
+								{
+									"type": "item",
+									"weight": 1,
+									"name": "terrariamod:lesserhealingpotion",
+									"functions": [
+										{
+											"function": "set_count",
+											"count": {
+												"min": 0,
+												"max": 1
+											}
+										}
+									]
+								},
+								{
+									"type": "item",
+									"weight": 1,
+									"name": "terrariamod:healingpotion",
+									"functions": [
+										{
+											"function": "set_count",
+											"count": {
+												"min": 0,
+												"max": 1
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				"key": "pools",
+				"children": [
+					{
+						"open": [
+							{
+								"rolls": 1,
+								"entries": [
+									{
+										"type": "item",
+										"weight": 1,
+										"name": "terrariamod:wormholepotion",
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 1,
+													"max": 1
+												}
+											}
+										]
+									},
+									{
+										"type": "item",
+										"weight": 1,
+										"name": "terrariamod:purity_torch",
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 4,
+													"max": 12
+												}
+											}
+										]
+									},
+									{
+										"type": "item",
+										"weight": 1,
+										"name": "terrariamod:woodenarrow",
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 10,
+													"max": 20
+												}
+											}
+										]
+									},
+									{
+										"type": "item",
+										"weight": 1,
+										"name": "terrariamod:lesserhealingpotion",
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 0,
+													"max": 1
+												}
+											}
+										]
+									},
+									{
+										"type": "item",
+										"weight": 1,
+										"name": "terrariamod:healingpotion",
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 0,
+													"max": 1
+												}
+											}
+										]
+									}
+								]
+							}
+						],
+						"children": [
+							{
+								"data": "1",
+								"key": "rolls"
+							},
+							{
+								"open": {
+									"rolls": 1,
+									"entries": [
+										{
+											"type": "item",
+											"weight": 1,
+											"name": "terrariamod:wormholepotion",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 1,
+														"max": 1
+													}
+												}
+											]
+										},
+										{
+											"type": "item",
+											"weight": 1,
+											"name": "terrariamod:purity_torch",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 4,
+														"max": 12
+													}
+												}
+											]
+										},
+										{
+											"type": "item",
+											"weight": 1,
+											"name": "terrariamod:woodenarrow",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 10,
+														"max": 20
+													}
+												}
+											]
+										},
+										{
+											"type": "item",
+											"weight": 1,
+											"name": "terrariamod:lesserhealingpotion",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 0,
+														"max": 1
+													}
+												}
+											]
+										},
+										{
+											"type": "item",
+											"weight": 1,
+											"name": "terrariamod:healingpotion",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 0,
+														"max": 1
+													}
+												}
+											]
+										}
+									]
+								},
+								"key": "entries",
+								"children": [
+									{
+										"open": [
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:wormholepotion",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 1
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:purity_torch",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 4,
+															"max": 12
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:woodenarrow",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 10,
+															"max": 20
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:lesserhealingpotion",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 0,
+															"max": 1
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:healingpotion",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 0,
+															"max": 1
+														}
+													}
+												]
+											}
+										],
+										"children": [
+											{
+												"data": "item",
+												"key": "type"
+											},
+											{
+												"data": "1",
+												"key": "weight"
+											},
+											{
+												"open": {
+													"type": "item",
+													"weight": 1,
+													"name": "terrariamod:wormholepotion",
+													"functions": [
+														{
+															"function": "set_count",
+															"count": {
+																"min": 1,
+																"max": 1
+															}
+														}
+													]
+												},
+												"data": "terrariamod:wormholepotion",
+												"key": "name"
+											},
+											{
+												"open": {
+													"type": "item",
+													"weight": 1,
+													"name": "terrariamod:wormholepotion",
+													"functions": [
+														{
+															"function": "set_count",
+															"count": {
+																"min": 1,
+																"max": 1
+															}
+														}
+													]
+												},
+												"key": "functions",
+												"children": [
+													{
+														"open": [
+															{
+																"function": "set_count",
+																"count": {
+																	"min": 1,
+																	"max": 1
+																}
+															}
+														],
+														"children": [
+															{
+																"data": "set_count",
+																"key": "function"
+															},
+															{
+																"open": {
+																	"function": "set_count",
+																	"count": {
+																		"min": 1,
+																		"max": 1
+																	}
+																},
+																"key": "count",
+																"is_minified": true,
+																"children": {
+																	"min": 1,
+																	"max": 1
+																}
+															}
+														]
+													}
+												]
+											}
+										]
+									},
+									{
+										"open": [
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:wormholepotion",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 1
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:purity_torch",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 4,
+															"max": 12
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:woodenarrow",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 10,
+															"max": 20
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:lesserhealingpotion",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 0,
+															"max": 1
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:healingpotion",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 0,
+															"max": 1
+														}
+													}
+												]
+											}
+										],
+										"children": [
+											{
+												"data": "item",
+												"key": "type"
+											},
+											{
+												"data": "1",
+												"key": "weight"
+											},
+											{
+												"open": {
+													"type": "item",
+													"weight": 1,
+													"name": "terrariamod:purity_torch",
+													"functions": [
+														{
+															"function": "set_count",
+															"count": {
+																"min": 4,
+																"max": 12
+															}
+														}
+													]
+												},
+												"data": "terrariamod:purity_torch",
+												"key": "name"
+											},
+											{
+												"open": {
+													"type": "item",
+													"weight": 1,
+													"name": "terrariamod:purity_torch",
+													"functions": [
+														{
+															"function": "set_count",
+															"count": {
+																"min": 4,
+																"max": 12
+															}
+														}
+													]
+												},
+												"key": "functions",
+												"children": [
+													{
+														"open": [
+															{
+																"function": "set_count",
+																"count": {
+																	"min": 4,
+																	"max": 12
+																}
+															}
+														],
+														"children": [
+															{
+																"data": "set_count",
+																"key": "function"
+															},
+															{
+																"open": {
+																	"function": "set_count",
+																	"count": {
+																		"min": 4,
+																		"max": 12
+																	}
+																},
+																"key": "count",
+																"is_minified": true,
+																"children": {
+																	"min": 4,
+																	"max": 12
+																}
+															}
+														]
+													}
+												]
+											}
+										]
+									},
+									{
+										"open": [
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:wormholepotion",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 1
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:purity_torch",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 4,
+															"max": 12
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:woodenarrow",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 10,
+															"max": 20
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:lesserhealingpotion",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 0,
+															"max": 1
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:healingpotion",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 0,
+															"max": 1
+														}
+													}
+												]
+											}
+										],
+										"children": [
+											{
+												"data": "item",
+												"key": "type"
+											},
+											{
+												"data": "1",
+												"key": "weight"
+											},
+											{
+												"open": {
+													"type": "item",
+													"weight": 1,
+													"name": "terrariamod:woodenarrow",
+													"functions": [
+														{
+															"function": "set_count",
+															"count": {
+																"min": 10,
+																"max": 20
+															}
+														}
+													]
+												},
+												"data": "terrariamod:woodenarrow",
+												"key": "name"
+											},
+											{
+												"open": {
+													"type": "item",
+													"weight": 1,
+													"name": "terrariamod:woodenarrow",
+													"functions": [
+														{
+															"function": "set_count",
+															"count": {
+																"min": 10,
+																"max": 20
+															}
+														}
+													]
+												},
+												"key": "functions",
+												"children": [
+													{
+														"open": [
+															{
+																"function": "set_count",
+																"count": {
+																	"min": 10,
+																	"max": 20
+																}
+															}
+														],
+														"children": [
+															{
+																"data": "set_count",
+																"key": "function"
+															},
+															{
+																"open": {
+																	"function": "set_count",
+																	"count": {
+																		"min": 10,
+																		"max": 20
+																	}
+																},
+																"key": "count",
+																"is_minified": true,
+																"children": {
+																	"min": 10,
+																	"max": 20
+																}
+															}
+														]
+													}
+												]
+											}
+										]
+									},
+									{
+										"open": [
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:wormholepotion",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 1
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:purity_torch",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 4,
+															"max": 12
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:woodenarrow",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 10,
+															"max": 20
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:lesserhealingpotion",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 0,
+															"max": 1
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:healingpotion",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 0,
+															"max": 1
+														}
+													}
+												]
+											}
+										],
+										"children": [
+											{
+												"data": "item",
+												"key": "type"
+											},
+											{
+												"data": "1",
+												"key": "weight"
+											},
+											{
+												"open": {
+													"type": "item",
+													"weight": 1,
+													"name": "terrariamod:lesserhealingpotion",
+													"functions": [
+														{
+															"function": "set_count",
+															"count": {
+																"min": 0,
+																"max": 1
+															}
+														}
+													]
+												},
+												"data": "terrariamod:lesserhealingpotion",
+												"key": "name"
+											},
+											{
+												"open": {
+													"type": "item",
+													"weight": 1,
+													"name": "terrariamod:lesserhealingpotion",
+													"functions": [
+														{
+															"function": "set_count",
+															"count": {
+																"min": 0,
+																"max": 1
+															}
+														}
+													]
+												},
+												"key": "functions",
+												"children": [
+													{
+														"open": [
+															{
+																"function": "set_count",
+																"count": {
+																	"min": 0,
+																	"max": 1
+																}
+															}
+														],
+														"children": [
+															{
+																"data": "set_count",
+																"key": "function"
+															},
+															{
+																"open": {
+																	"function": "set_count",
+																	"count": {
+																		"min": 0,
+																		"max": 1
+																	}
+																},
+																"key": "count",
+																"is_minified": true,
+																"children": {
+																	"min": 0,
+																	"max": 1
+																}
+															}
+														]
+													}
+												]
+											}
+										]
+									},
+									{
+										"open": [
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:wormholepotion",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 1
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:purity_torch",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 4,
+															"max": 12
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:woodenarrow",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 10,
+															"max": 20
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:lesserhealingpotion",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 0,
+															"max": 1
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:healingpotion",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 0,
+															"max": 1
+														}
+													}
+												]
+											}
+										],
+										"children": [
+											{
+												"data": "item",
+												"key": "type"
+											},
+											{
+												"data": "1",
+												"key": "weight"
+											},
+											{
+												"open": {
+													"type": "item",
+													"weight": 1,
+													"name": "terrariamod:healingpotion",
+													"functions": [
+														{
+															"function": "set_count",
+															"count": {
+																"min": 0,
+																"max": 1
+															}
+														}
+													]
+												},
+												"data": "terrariamod:healingpotion",
+												"key": "name"
+											},
+											{
+												"open": {
+													"type": "item",
+													"weight": 1,
+													"name": "terrariamod:healingpotion",
+													"functions": [
+														{
+															"function": "set_count",
+															"count": {
+																"min": 0,
+																"max": 1
+															}
+														}
+													]
+												},
+												"key": "functions",
+												"children": [
+													{
+														"open": [
+															{
+																"function": "set_count",
+																"count": {
+																	"min": 0,
+																	"max": 1
+																}
+															}
+														],
+														"children": [
+															{
+																"data": "set_count",
+																"key": "function"
+															},
+															{
+																"open": {
+																	"function": "set_count",
+																	"count": {
+																		"min": 0,
+																		"max": 1
+																	}
+																},
+																"key": "count",
+																"is_minified": true,
+																"children": {
+																	"min": 0,
+																	"max": 1
+																}
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

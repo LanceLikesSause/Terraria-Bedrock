@@ -1,4 +1,4 @@
-//bridge-file-version: #15
+//bridge-file-version: #16
 {
 	"format_version": "1.16.0",
 	"minecraft:entity": {
@@ -23,9 +23,6 @@
 					"monster",
 					"mob"
 				]
-			},
-			"minecraft:loot": {
-				"table": "loot_tables/entities/hornet.json"
 			},
 			"minecraft:nameable": {},
 			"minecraft:health": {

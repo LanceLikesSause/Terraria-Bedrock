@@ -1,0 +1,37 @@
+//bridge-file-version: #6
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "terrariamod:starting_items_package",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "terrariamod:starting_items_package"
+			},
+			"minecraft:display_name": {
+				"value": "Package "
+			},
+			"minecraft:on_use": {
+				"on_use": {
+					"event": "terrariamod:give_starting_items"
+				}
+			},
+			"minecraft:creative_category": {
+				"parent": "equipment"
+			}
+		},
+		"events": {
+			"terrariamod:give_starting_items": {
+				"run_command": {
+					"command": [
+						"give @s terrariamod:coppersword",
+						"give @s terrariamod:copperpickaxe",
+						"give @s terrariamod:copperaxe"
+					]
+				}
+			}
+		}
+	}
+}

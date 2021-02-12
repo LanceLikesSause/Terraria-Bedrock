@@ -1,0 +1,23 @@
+//bridge-file-version: #19
+{
+	"format_version": "1.13.0",
+	"minecraft:single_block_feature": {
+		"description": {
+			"identifier": "minecraft:purity_tall_grass_feature_singe_block"
+		},
+		"places_block": "terrariamod:purity_tall_grass",
+		"enforce_survivability_rules": true,
+		"enforce_placement_rules": true,
+		"may_replace": [
+			{
+				"name": "minecraft:air"
+			}
+		],
+		"may_attach_to": {
+			"min_sides_must_attach": 1,
+			"bottom": [
+				"terrariamod:purity_grass"
+			]
+		}
+	}
+}

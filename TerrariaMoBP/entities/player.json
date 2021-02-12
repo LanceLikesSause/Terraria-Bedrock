@@ -1,21 +1,18 @@
-//bridge-file-version: #0
+//bridge-file-version: #4
 {
 	"format_version": "1.16.0",
 	"minecraft:entity": {
 		"description": {
 			"animations": {
 				"mana": "controller.animation.mana",
-				"starting_items": "controller.animation.starting_items",
-				"bridge_execute_commands": "controller.animation.bridge_player.execute_commands",
-				"health": "controller.animation.health"
+				"health": "controller.animation.health",
+				"lifecrystal": "controller.animation.lifecrystal"
 			},
 			"scripts": {
 				"animate": [
 					"mana",
-					"starting_items",
-					"bridge_execute_commands",
-					"bridge_execute_commands",
-					"health"
+					"health",
+					"lifecrystal"
 				]
 			},
 			"identifier": "minecraft:player",
@@ -186,6 +183,9 @@
 			"minecraft:health": {
 				"value": 100,
 				"max": 100
+			},
+			"minecraft:equipment": {
+				"table": "loot_tables/entities/player_starting_items.json"
 			}
 		},
 		"events": {

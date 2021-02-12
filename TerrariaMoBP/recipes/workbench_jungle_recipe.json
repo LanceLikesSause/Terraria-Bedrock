@@ -1,0 +1,24 @@
+//bridge-file-version: #6
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "terrariamod:workbench_jungle_recipe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "terrariamod:jungle_wood",
+				"count": 3
+			}
+		],
+		"result": [
+			{
+				"item": "terrariamod:workbench"
+			}
+		],
+		"group": "workbench"
+	}
+}

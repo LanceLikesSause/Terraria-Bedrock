@@ -1,0 +1,37 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.13.0",
+	"minecraft:biome": {
+		"description": {
+			"identifier": "basalt_deltas"
+		},
+		"components": {
+			"minecraft:climate": {
+				"downfall": 0,
+				"snow_accumulation": [
+					0,
+					0.125
+				],
+				"temperature": 2,
+				"red_spores": 0.25
+			},
+			"minecraft:nether_generation_rules": {
+				"target_temperature": 0.4,
+				"target_humidity": 0,
+				"target_altitude": 0,
+				"target_weirdness": 0,
+				"weight": 0
+			},
+			"minecraft:surface_parameters": {
+				"sea_floor_depth": 1,
+				"sea_floor_material": "terrariamod:ash",
+				"foundation_material": "terrariamod:ash",
+				"mid_material": "terrariamod:ash",
+				"top_material": "terrariamod:ash",
+				"sea_material": "minecraft:lava"
+			},
+			"nether": {},
+			"underworld": {}
+		}
+	}
+}

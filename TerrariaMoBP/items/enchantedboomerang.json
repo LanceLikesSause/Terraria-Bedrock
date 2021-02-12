@@ -1,4 +1,4 @@
-//bridge-file-version: #41
+//bridge-file-version: #42
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
@@ -22,6 +22,10 @@
 			},
 			"minecraft:creative_category": {
 				"parent": "equipment"
+			},
+			"minecraft:cooldown": {
+				"category": "terrariamod_enchantedboomerang",
+				"duration": 1.5
 			}
 		},
 		"events": {

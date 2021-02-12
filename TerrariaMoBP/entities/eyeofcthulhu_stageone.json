@@ -1,4 +1,4 @@
-//bridge-file-version: #57
+//bridge-file-version: #59
 {
 	"format_version": "1.16.0",
 	"minecraft:entity": {
@@ -165,8 +165,8 @@
 			"minecraft:spawn_entity": {
 				"entities": [
 					{
-						"min_wait_time": 15,
-						"max_wait_time": 16,
+						"min_wait_time": 36,
+						"max_wait_time": 46,
 						"spawn_entity": "terrariamod:servantofcthulhu"
 					}
 				]

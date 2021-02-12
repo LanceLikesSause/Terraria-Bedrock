@@ -1,0 +1,198 @@
+{
+	"file_path": "C:\\Users\\LANCE.LEGAUX\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\TerrariaMoBP\\loot_tables\\entities\\player_starting_items.json",
+	"file_type": "loot_table",
+	"format_version": 1,
+	"file_uuid": "a7b2b6d7_36d8_45a5_b59f_684ffb9b95b1",
+	"file_version": 18,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1588402018287",
+				"key": "id"
+			},
+			{
+				"open": {
+					"id": 1588402018287,
+					"name": "Player Starting Items",
+					"pools": [
+						{
+							"rolls": {
+								"min": 3,
+								"max": 3
+							},
+							"entries": [
+								{
+									"type": "item",
+									"weight": 1,
+									"functions": [
+										{
+											"function": "set_count",
+											"count": {
+												"min": 1,
+												"max": 3
+											}
+										}
+									],
+									"name": "terrariamod:starting_items_package"
+								}
+							]
+						}
+					]
+				},
+				"data": "Player Starting Items",
+				"key": "name"
+			},
+			{
+				"open": {
+					"id": 1588402018287,
+					"name": "Player Starting Items",
+					"pools": [
+						{
+							"rolls": {
+								"min": 3,
+								"max": 3
+							},
+							"entries": [
+								{
+									"type": "item",
+									"weight": 1,
+									"functions": [
+										{
+											"function": "set_count",
+											"count": {
+												"min": 1,
+												"max": 3
+											}
+										}
+									],
+									"name": "terrariamod:starting_items_package"
+								}
+							]
+						}
+					]
+				},
+				"key": "pools",
+				"children": [
+					{
+						"open": [
+							{
+								"rolls": {
+									"min": 3,
+									"max": 3
+								},
+								"entries": [
+									{
+										"type": "item",
+										"weight": 1,
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 1,
+													"max": 3
+												}
+											}
+										],
+										"name": "terrariamod:starting_items_package"
+									}
+								]
+							}
+						],
+						"children": [
+							{
+								"open": {
+									"rolls": {
+										"min": 3,
+										"max": 3
+									},
+									"entries": [
+										{
+											"type": "item",
+											"weight": 1,
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 1,
+														"max": 3
+													}
+												}
+											],
+											"name": "terrariamod:starting_items_package"
+										}
+									]
+								},
+								"key": "rolls",
+								"is_minified": true,
+								"children": {
+									"min": 3,
+									"max": 3
+								}
+							},
+							{
+								"open": {
+									"rolls": {
+										"min": 3,
+										"max": 3
+									},
+									"entries": [
+										{
+											"type": "item",
+											"weight": 1,
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 1,
+														"max": 3
+													}
+												}
+											],
+											"name": "terrariamod:starting_items_package"
+										}
+									]
+								},
+								"key": "entries",
+								"children": [
+									{
+										"open": [
+											{
+												"type": "item",
+												"weight": 1,
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 3
+														}
+													}
+												],
+												"name": "terrariamod:starting_items_package"
+											}
+										],
+										"is_minified": true,
+										"children": {
+											"type": "item",
+											"weight": 1,
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 1,
+														"max": 3
+													}
+												}
+											],
+											"name": "terrariamod:starting_items_package"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

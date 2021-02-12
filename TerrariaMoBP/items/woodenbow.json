@@ -15,7 +15,7 @@
 				"texture": "terrariamod:woodenbow"
 			},
 			"minecraft:display_name": {
-				"value": "Wooden Bow\n§9+9 Projectile Damage"
+				"value": "Wooden Bow\n§9+9 Projectile Damage\n§9Place wooden arrows in the offhand to use"
 			},
 			"minecraft:on_use": {
 				"on_use": {

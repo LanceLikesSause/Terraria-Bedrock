@@ -15,7 +15,7 @@
 				"texture": "terrariamod:ironbow"
 			},
 			"minecraft:display_name": {
-				"value": "Iron Bow\n§9+13 Projectile Damage"
+				"value": "Iron Bow\n§9+13 Projectile Damage\n§9Place wooden arrows in the offhand to use"
 			},
 			"minecraft:on_use": {
 				"on_use": {

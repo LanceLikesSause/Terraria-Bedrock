@@ -1,0 +1,146 @@
+{
+	"file_path": "C:\\Users\\LANCE.LEGAUX\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\TerrariaMoBP\\biomes\\deep_frozen_ocean.biome.json",
+	"file_type": "biome",
+	"format_version": 1,
+	"file_uuid": "dafc733e_0cc1_47c0_8bf1_6cf3577638e3",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.13.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.13.0",
+					"minecraft:biome": {
+						"description": {
+							"identifier": "deep_frozen_ocean"
+						},
+						"components": {
+							"minecraft:climate": {
+								"downfall": 0,
+								"snow_accumulation": [
+									0,
+									0.125
+								],
+								"temperature": 2
+							},
+							"minecraft:overworld_height": {
+								"noise_type": "lowlands"
+							},
+							"minecraft:overworld_generation_rules": {
+								"hills_transformation": "desert_hills",
+								"mutate_transformation": "desert_mutated",
+								"generate_for_climates": [
+									[
+										"warm",
+										3
+									]
+								]
+							},
+							"minecraft:frozen_ocean_surface": {
+								"top_material": "terrariamod:purity_grass",
+								"mid_material": "terrariamod:purity_dirt",
+								"foundation_material": "terrariamod:purity_stone",
+								"sea_floor_depth": 3,
+								"sea_floor_material": "terrariamod:purity_sandstone",
+								"sea_material": "minecraft:water"
+							},
+							"purity": {},
+							"purity_snow": {},
+							"overworld": {}
+						}
+					}
+				},
+				"key": "minecraft:biome",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "deep_frozen_ocean"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "deep_frozen_ocean"
+							},
+							"components": {
+								"minecraft:climate": {
+									"downfall": 0,
+									"snow_accumulation": [
+										0,
+										0.125
+									],
+									"temperature": 2
+								},
+								"minecraft:overworld_height": {
+									"noise_type": "lowlands"
+								},
+								"minecraft:overworld_generation_rules": {
+									"hills_transformation": "desert_hills",
+									"mutate_transformation": "desert_mutated",
+									"generate_for_climates": [
+										[
+											"warm",
+											3
+										]
+									]
+								},
+								"minecraft:frozen_ocean_surface": {
+									"top_material": "terrariamod:purity_grass",
+									"mid_material": "terrariamod:purity_dirt",
+									"foundation_material": "terrariamod:purity_stone",
+									"sea_floor_depth": 3,
+									"sea_floor_material": "terrariamod:purity_sandstone",
+									"sea_material": "minecraft:water"
+								},
+								"purity": {},
+								"purity_snow": {},
+								"overworld": {}
+							}
+						},
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:climate": {
+								"downfall": 0,
+								"snow_accumulation": [
+									0,
+									0.125
+								],
+								"temperature": 2
+							},
+							"minecraft:overworld_height": {
+								"noise_type": "lowlands"
+							},
+							"minecraft:overworld_generation_rules": {
+								"hills_transformation": "desert_hills",
+								"mutate_transformation": "desert_mutated",
+								"generate_for_climates": [
+									[
+										"warm",
+										3
+									]
+								]
+							},
+							"minecraft:frozen_ocean_surface": {
+								"top_material": "terrariamod:purity_grass",
+								"mid_material": "terrariamod:purity_dirt",
+								"foundation_material": "terrariamod:purity_stone",
+								"sea_floor_depth": 3,
+								"sea_floor_material": "terrariamod:purity_sandstone",
+								"sea_material": "minecraft:water"
+							},
+							"purity": {},
+							"purity_snow": {},
+							"overworld": {}
+						}
+					}
+				]
+			}
+		]
+	}
+}

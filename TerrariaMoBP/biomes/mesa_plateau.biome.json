@@ -1,37 +1,47 @@
+//bridge-file-version: #0
 {
-  "format_version": "1.13.0",
-  "minecraft:biome": {
-    "description": {
-      "identifier": "mesa_plateau"
-    },
-    "components": {
-      "minecraft:climate": {
-        "downfall": 0.0,
-        "snow_accumulation": [ 0.0, 0.125 ],
-        "temperature": 2.0
-      },
-      "minecraft:overworld_height": {
-        "noise_type": "lowlands"
-      },
-      "minecraft:surface_parameters": {
-        "sea_floor_depth": 7,
-        "sea_floor_material": "terrariamod:purity_sand",
-        "foundation_material": "terrariamod:purity_stone",
-        "mid_material": "terrariamod:purity_dirt",
-        "top_material": "terrariamod:purity_grass",
-        "sea_material": "minecraft:water"
-      },
-      "minecraft:overworld_generation_rules": {
-        "hills_transformation": "desert_hills",
-        "mutate_transformation": "desert_mutated",
-        "generate_for_climates": [
-          [ "warm", 3 ]
-        ]
-      },
-
-      "purity": {},
-      "purity_forest": {},
-      "overworld": {}
-    }
-  }
+	"format_version": "1.13.0",
+	"minecraft:biome": {
+		"description": {
+			"identifier": "mesa_plateau"
+		},
+		"components": {
+			"minecraft:climate": {
+				"downfall": 0,
+				"snow_accumulation": [
+					0,
+					0.125
+				],
+				"temperature": 2
+			},
+			"minecraft:overworld_height": {
+				"noise_type": "lowlands"
+			},
+			"minecraft:overworld_generation_rules": {
+				"hills_transformation": "desert_hills",
+				"mutate_transformation": "desert_mutated",
+				"generate_for_climates": [
+					[
+						"warm",
+						3
+					]
+				]
+			},
+			"minecraft:mesa_surface": {
+				"clay_material": "terrariamod:purity_grass",
+				"hard_clay_material": "terrariamod:purity_dirt",
+				"bryce_pillars": false,
+				"has_forest": false,
+				"sea_floor_depth": 3,
+				"sea_floor_material": "terrariamod:purity_sandstone",
+				"sea_material": "minecraft:water",
+				"top_material": "terrariamod:purity_grass",
+				"mid_material": "terrariamod:purity_dirt",
+				"foundation_material": "terrariamod:purity_stone"
+			},
+			"purity": {},
+			"purity_forest": {},
+			"overworld": {}
+		}
+	}
 }

@@ -1,4 +1,4 @@
-//bridge-file-version: #30
+//bridge-file-version: #40
 {
 	"terrariamod:shadoworb": {
 		"sound": "wood"
@@ -435,6 +435,26 @@
 		"sound": "glass"
 	},
 	"terrariamod:vilemushroom": {
+		"sound": "grass"
+	},
+	"terrariamod:tree_bottom_snow": {
+		"sound": "wood"
+	},
+	"terrariamod:tree_log_snow": {
+		"sound": "wood"
+	},
+	"terrariamod:tree_top_snow": {
+		"sound": "wood"
+	},
+	"terrariamod:snow_wood": {
+		"sound": "wood",
+		"textures": "snow_wood"
+	},
+	"terrariamod:forest_pot": {
+		"sound": "glass",
+		"textures": "forest_pot"
+	},
+	"terrariamod:purity_tall_grass": {
 		"sound": "grass"
 	}
 }

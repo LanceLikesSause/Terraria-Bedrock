@@ -1,4 +1,4 @@
-//bridge-file-version: #31
+//bridge-file-version: #45
 {
 	"resource_pack_name": "vanilla",
 	"texture_name": "atlas.terrain",
@@ -381,6 +381,51 @@
 		"vile_mushroom": {
 			"textures": [
 				"textures/blocks/vilemushroom"
+			]
+		},
+		"snow_tree": {
+			"textures": [
+				"textures/blocks/snow_tree"
+			]
+		},
+		"snow_tree_top": {
+			"textures": [
+				"textures/blocks/treetop_snow_top"
+			]
+		},
+		"snow_wood": {
+			"textures": [
+				"textures/blocks/snow_wood"
+			]
+		},
+		"forest_pot": {
+			"textures": [
+				"textures/blocks/forest_pot"
+			]
+		},
+		"purity_tall_grass_one": {
+			"textures": [
+				"textures/blocks/purity_tall_grass_one"
+			]
+		},
+		"purity_tall_grass_two": {
+			"textures": [
+				"textures/blocks/purity_tall_grass_two"
+			]
+		},
+		"purity_tall_grass_three": {
+			"textures": [
+				"textures/blocks/purity_tall_grass_three"
+			]
+		},
+		"purity_tall_grass_four": {
+			"textures": [
+				"textures/blocks/purity_tall_grass_four"
+			]
+		},
+		"purity_tall_grass_five": {
+			"textures": [
+				"textures/blocks/purity_tall_grass_five"
 			]
 		}
 	}

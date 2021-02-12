@@ -15,7 +15,7 @@
 				"texture": "terrariamod:hellstonebow"
 			},
 			"minecraft:display_name": {
-				"value": "Molten Fury\n§9+36 Projectile Damage"
+				"value": "Molten Fury\n§9+36 Projectile Damage\n§9Place wooden arrows in the offhand to use"
 			},
 			"minecraft:on_use": {
 				"on_use": {

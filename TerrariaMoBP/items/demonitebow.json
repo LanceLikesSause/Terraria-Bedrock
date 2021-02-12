@@ -15,7 +15,7 @@
 				"texture": "terrariamod:demonitebow"
 			},
 			"minecraft:display_name": {
-				"value": "Demon Bow\n§9+24 Projectile Damage"
+				"value": "Demon Bow\n§9+24 Projectile Damage\n§9Place wooden arrows in the offhand to use"
 			},
 			"minecraft:on_use": {
 				"on_use": {

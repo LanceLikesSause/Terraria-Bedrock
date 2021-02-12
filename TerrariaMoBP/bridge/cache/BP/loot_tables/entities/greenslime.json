@@ -1,0 +1,390 @@
+{
+	"file_path": "C:\\Users\\LANCE.LEGAUX\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\TerrariaMoBP\\loot_tables\\entities\\greenslime.json",
+	"file_type": "loot_table",
+	"format_version": 1,
+	"file_uuid": "b297a32d_a821_4d01_9d14_1d52e5caa144",
+	"file_version": 10,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1588402018287",
+				"key": "id"
+			},
+			{
+				"data": "GreenSlime",
+				"key": "name"
+			},
+			{
+				"open": {
+					"id": 1588402018287,
+					"name": "GreenSlime",
+					"pools": [
+						{
+							"rolls": 1,
+							"entries": [
+								{
+									"type": "item",
+									"weight": 1,
+									"name": "terrariamod:coppercoin",
+									"functions": [
+										{
+											"function": "set_count",
+											"count": {
+												"min": 3,
+												"max": 4
+											}
+										}
+									]
+								}
+							]
+						},
+						{
+							"rolls": 1,
+							"entries": [
+								{
+									"type": "item",
+									"weight": 1,
+									"name": "terrariamod:gel",
+									"functions": [
+										{
+											"function": "set_count",
+											"count": {
+												"min": 1,
+												"max": 2
+											}
+										}
+									]
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "random_chance",
+									"chance": 0.01
+								}
+							],
+							"rolls": 1,
+							"entries": [
+								{
+									"type": "item",
+									"weight": 1,
+									"name": "terrariamod:slimestaff",
+									"functions": [
+										{
+											"function": "set_count",
+											"count": {
+												"min": 1,
+												"max": 2
+											}
+										}
+									]
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "random_chance",
+									"chance": 0.001
+								}
+							],
+							"rolls": 1,
+							"entries": [
+								{
+									"type": "item",
+									"weight": 1,
+									"name": "terrariamod:wormholepotion",
+									"functions": [
+										{
+											"function": "set_count",
+											"count": {
+												"min": 1,
+												"max": 2
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				"key": "pools",
+				"children": [
+					{
+						"children": [
+							{
+								"data": "1",
+								"key": "rolls"
+							},
+							{
+								"open": {
+									"rolls": 1,
+									"entries": [
+										{
+											"type": "item",
+											"weight": 1,
+											"name": "terrariamod:coppercoin",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 3,
+														"max": 4
+													}
+												}
+											]
+										}
+									]
+								},
+								"key": "entries",
+								"children": [
+									{
+										"open": [
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:coppercoin",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 3,
+															"max": 4
+														}
+													}
+												]
+											}
+										],
+										"is_minified": true,
+										"children": {
+											"type": "item",
+											"weight": 1,
+											"name": "terrariamod:coppercoin",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 3,
+														"max": 4
+													}
+												}
+											]
+										}
+									}
+								]
+							}
+						]
+					},
+					{
+						"children": [
+							{
+								"data": "1",
+								"key": "rolls"
+							},
+							{
+								"open": {
+									"rolls": 1,
+									"entries": [
+										{
+											"type": "item",
+											"weight": 1,
+											"name": "terrariamod:gel",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 1,
+														"max": 2
+													}
+												}
+											]
+										}
+									]
+								},
+								"key": "entries",
+								"children": [
+									{
+										"open": [
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:gel",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 2
+														}
+													}
+												]
+											}
+										],
+										"is_minified": true,
+										"children": {
+											"type": "item",
+											"weight": 1,
+											"name": "terrariamod:gel",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 1,
+														"max": 2
+													}
+												}
+											]
+										}
+									}
+								]
+							}
+						]
+					},
+					{
+						"is_minified": true,
+						"children": {
+							"conditions": [
+								{
+									"condition": "random_chance",
+									"chance": 0.01
+								}
+							],
+							"rolls": 1,
+							"entries": [
+								{
+									"type": "item",
+									"weight": 1,
+									"name": "terrariamod:slimestaff",
+									"functions": [
+										{
+											"function": "set_count",
+											"count": {
+												"min": 1,
+												"max": 2
+											}
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"children": [
+							{
+								"open": {
+									"conditions": [
+										{
+											"condition": "random_chance",
+											"chance": 0.001
+										}
+									],
+									"rolls": 1,
+									"entries": [
+										{
+											"type": "item",
+											"weight": 1,
+											"name": "terrariamod:wormholepotion",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 1,
+														"max": 2
+													}
+												}
+											]
+										}
+									]
+								},
+								"key": "conditions",
+								"children": [
+									{
+										"open": [
+											{
+												"condition": "random_chance",
+												"chance": 0.001
+											}
+										],
+										"is_minified": true,
+										"children": {
+											"condition": "random_chance",
+											"chance": 0.001
+										}
+									}
+								]
+							},
+							{
+								"data": "1",
+								"key": "rolls"
+							},
+							{
+								"open": {
+									"conditions": [
+										{
+											"condition": "random_chance",
+											"chance": 0.001
+										}
+									],
+									"rolls": 1,
+									"entries": [
+										{
+											"type": "item",
+											"weight": 1,
+											"name": "terrariamod:wormholepotion",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 1,
+														"max": 2
+													}
+												}
+											]
+										}
+									]
+								},
+								"key": "entries",
+								"children": [
+									{
+										"open": [
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:wormholepotion",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 2
+														}
+													}
+												]
+											}
+										],
+										"is_minified": true,
+										"children": {
+											"type": "item",
+											"weight": 1,
+											"name": "terrariamod:wormholepotion",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 1,
+														"max": 2
+													}
+												}
+											]
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,4 +1,4 @@
-//bridge-file-version: #4
+//bridge-file-version: #6
 {
 	"format_version": "1.10.0",
 	"minecraft:client_entity": {
@@ -8,10 +8,10 @@
 				"default": "arrow"
 			},
 			"textures": {
-				"default": "textures/entity/pamobile/woodenarrow_projectile"
+				"default": "textures/entity/pamobile/hornet"
 			},
 			"geometry": {
-				"default": "geometry.arrow"
+				"default": "geometry.thebeesknees_projectile"
 			},
 			"animations": {
 				"move": "animation.arrow_fire.move"

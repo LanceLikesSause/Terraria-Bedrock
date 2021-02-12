@@ -2303,6 +2303,106 @@
 						}
 					}
 				}
+			},
+			"f021f36c_2c39_45dd_ab15_5c5308424e93": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"efd948f4_0baa_4cba_8fd0_b67e3fbd02da": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"cb75be20_37b1_435a_96c0_0f5be4512ffa": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"09c53ba3_dc48_49a7_8650_90013ba3c3fd": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"1e720157_fd05_4a03_a035_98e67145ca09": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"a5625ad7_434c_43e5_b644_f034acae93c9": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"6c5d4f57_e3c4_42e1_81f5_9f4e1506316d": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"0a9dea6a_b380_448f_933d_9aef5fb0fc8d": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"da1c3c58_7df3_4b62_bb6f_06c5f701fe39": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"3c117054_5f20_4133_b266_a3099827638f": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
 			}
 		}
 	},
@@ -2642,9 +2742,6 @@
 	"BP/animation_controllers/mana.json": {
 		"data": {}
 	},
-	"BP/animation_controllers/starting_items.json": {
-		"data": {}
-	},
 	"BP/blocks/victoriousmushroom.json": {
 		"data": {}
 	},
@@ -2673,12 +2770,6 @@
 		"data": {}
 	},
 	"BP/loot_tables/blocks/purity_torch.json": {
-		"data": {}
-	},
-	"BP/recipes/torch_shadewood.json": {
-		"data": {}
-	},
-	"BP/recipes/torch_puritywood.json": {
 		"data": {}
 	},
 	"BP/blocks/crimsonheart.json": {
@@ -3993,6 +4084,162 @@
 		"data": {}
 	},
 	"BP/loot_tables/blocks/victoriousmushroom.json": {
+		"data": {}
+	},
+	"RP/entity/woodenboomerang_projectile.json": {
+		"data": {}
+	},
+	"RP/entity/enchantedboomerang_projectile.json": {
+		"data": {}
+	},
+	"RP/entity/flamarang_projectile.json": {
+		"data": {}
+	},
+	"BP/items/bladeofgrass.json": {
+		"data": {}
+	},
+	"BP/blocks/tree_bottom_snow.json": {
+		"data": {}
+	},
+	"BP/blocks/tree_log_snow.json": {
+		"data": {}
+	},
+	"BP/blocks/tree_top_snow.json": {
+		"data": {}
+	},
+	"BP/feature_rules/tree_snow_featurerule.json": {
+		"data": {}
+	},
+	"BP/features/tree_snow_feature.json": {
+		"data": {}
+	},
+	"BP/entities/iceslime.json": {
+		"data": {}
+	},
+	"RP/entity/iceslime.json": {
+		"data": {}
+	},
+	"BP/spawn_rules/iceslime.json": {
+		"data": {}
+	},
+	"BP/entities/frozenzombie.json": {
+		"data": {}
+	},
+	"RP/entity/frozenzombie.json": {
+		"data": {}
+	},
+	"BP/spawn_rules/frozenzombie.json": {
+		"data": {}
+	},
+	"BP/items/snow_wood.json": {
+		"data": {}
+	},
+	"BP/blocks/snow_wood.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/snow_wood.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/snow_tree.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/snow_tree_top.json": {
+		"data": {}
+	},
+	"BP/recipes/workbench_forest_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/workbench_jungle_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/workbench_crimson_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/workbench_corruption_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/workbench_snow_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/torch_forest_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/torch_crimson_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/torch_corruption_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/torch_jungle_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/torch_snow_recipe.json": {
+		"data": {}
+	},
+	"BP/animation_controllers/lifecrystal.json": {
+		"data": {}
+	},
+	"BP/items/wormholepotion.json": {
+		"data": {}
+	},
+	"BP/loot_tables/entities/greenslime.json": {
+		"data": {}
+	},
+	"BP/blocks/forest_pot.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/forest_pot.json": {
+		"data": {}
+	},
+	"BP/features/forest_pot_feature.json": {
+		"data": {}
+	},
+	"BP/feature_rules/forest_pot_featurerule.json": {
+		"data": {}
+	},
+	"BP/blocks/purity_tall_grass.json": {
+		"data": {}
+	},
+	"BP/items/purity_seeds.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/purity_tall_grass.json": {
+		"data": {}
+	},
+	"BP/feature_rules/purity_tall_grass_featurerule.json": {
+		"data": {}
+	},
+	"BP/features/purity_tall_grass_feature_singe_block.json": {
+		"data": {}
+	},
+	"BP/features/purity_tall_grass_feature.json": {
+		"data": {}
+	},
+	"BP/biomes/swampland.biome.json": {
+		"data": {}
+	},
+	"BP/biomes/mesa.biome.json": {
+		"data": {}
+	},
+	"BP/biomes/mesa_bryce.biome.json": {
+		"data": {}
+	},
+	"BP/biomes/frozen_ocean.biome.json": {
+		"data": {}
+	},
+	"BP/biomes/deep_frozen_ocean.biome.json": {
+		"data": {}
+	},
+	"BP/biomes/mesa_plateau.biome.json": {
+		"data": {}
+	},
+	"BP/biomes/mesa_plateau_stone.biome.json": {
+		"data": {}
+	},
+	"BP/loot_tables/entities/player_starting_items.json": {
+		"data": {}
+	},
+	"BP/items/starting_items_package.json": {
 		"data": {}
 	}
 }

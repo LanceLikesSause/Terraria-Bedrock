@@ -1,4 +1,4 @@
-//bridge-file-version: #13
+//bridge-file-version: #15
 {
 	"format_version": "1.16.0",
 	"minecraft:entity": {
@@ -176,8 +176,8 @@
 			"minecraft:spawn_entity": {
 				"entities": [
 					{
-						"min_wait_time": 1,
-						"max_wait_time": 10,
+						"num_to_spawn": 10,
+						"single_use": true,
 						"spawn_entity": "terrariamod:creepers"
 					}
 				]

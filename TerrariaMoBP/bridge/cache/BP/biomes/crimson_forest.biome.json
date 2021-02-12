@@ -1,0 +1,208 @@
+{
+	"file_path": "C:\\Users\\LANCE.LEGAUX\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\TerrariaMoBP\\biomes\\crimson_forest.biome.json",
+	"file_type": "biome",
+	"format_version": 1,
+	"file_uuid": "2a1a4354_ee4c_4b22_a7d1_550a836368ec",
+	"file_version": 2,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.13.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.13.0",
+					"minecraft:biome": {
+						"description": {
+							"identifier": "crimson_forest"
+						},
+						"components": {
+							"minecraft:climate": {
+								"downfall": 0,
+								"snow_accumulation": [
+									0,
+									0.125
+								],
+								"temperature": 2,
+								"red_spores": 0.25
+							},
+							"minecraft:nether_generation_rules": {
+								"target_temperature": 0.4,
+								"target_humidity": 0,
+								"target_altitude": 0,
+								"target_weirdness": 0,
+								"weight": 0
+							},
+							"minecraft:surface_parameters": {
+								"sea_floor_depth": 1,
+								"sea_floor_material": "terrariamod:ash",
+								"foundation_material": "terrariamod:ash",
+								"mid_material": "terrariamod:ash",
+								"top_material": "terrariamod:ash",
+								"sea_material": "minecraft:lava"
+							},
+							"nether": {},
+							"underworld": {}
+						}
+					}
+				},
+				"key": "minecraft:biome",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "crimson_forest"
+							},
+							"components": {
+								"minecraft:climate": {
+									"downfall": 0,
+									"snow_accumulation": [
+										0,
+										0.125
+									],
+									"temperature": 2,
+									"red_spores": 0.25
+								},
+								"minecraft:nether_generation_rules": {
+									"target_temperature": 0.4,
+									"target_humidity": 0,
+									"target_altitude": 0,
+									"target_weirdness": 0,
+									"weight": 0
+								},
+								"minecraft:surface_parameters": {
+									"sea_floor_depth": 1,
+									"sea_floor_material": "terrariamod:ash",
+									"foundation_material": "terrariamod:ash",
+									"mid_material": "terrariamod:ash",
+									"top_material": "terrariamod:ash",
+									"sea_material": "minecraft:lava"
+								},
+								"nether": {},
+								"underworld": {}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "crimson_forest"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "crimson_forest"
+							},
+							"components": {
+								"minecraft:climate": {
+									"downfall": 0,
+									"snow_accumulation": [
+										0,
+										0.125
+									],
+									"temperature": 2,
+									"red_spores": 0.25
+								},
+								"minecraft:nether_generation_rules": {
+									"target_temperature": 0.4,
+									"target_humidity": 0,
+									"target_altitude": 0,
+									"target_weirdness": 0,
+									"weight": 0
+								},
+								"minecraft:surface_parameters": {
+									"sea_floor_depth": 1,
+									"sea_floor_material": "terrariamod:ash",
+									"foundation_material": "terrariamod:ash",
+									"mid_material": "terrariamod:ash",
+									"top_material": "terrariamod:ash",
+									"sea_material": "minecraft:lava"
+								},
+								"nether": {},
+								"underworld": {}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"key": "minecraft:climate",
+								"is_minified": true,
+								"children": {
+									"downfall": 0,
+									"snow_accumulation": [
+										0,
+										0.125
+									],
+									"temperature": 2,
+									"red_spores": 0.25
+								}
+							},
+							{
+								"key": "minecraft:nether_generation_rules",
+								"is_minified": true,
+								"children": {
+									"target_temperature": 0.4,
+									"target_humidity": 0,
+									"target_altitude": 0,
+									"target_weirdness": 0,
+									"weight": 0
+								}
+							},
+							{
+								"open": {
+									"minecraft:climate": {
+										"downfall": 0,
+										"snow_accumulation": [
+											0,
+											0.125
+										],
+										"temperature": 2,
+										"red_spores": 0.25
+									},
+									"minecraft:nether_generation_rules": {
+										"target_temperature": 0.4,
+										"target_humidity": 0,
+										"target_altitude": 0,
+										"target_weirdness": 0,
+										"weight": 0
+									},
+									"minecraft:surface_parameters": {
+										"sea_floor_depth": 1,
+										"sea_floor_material": "terrariamod:ash",
+										"foundation_material": "terrariamod:ash",
+										"mid_material": "terrariamod:ash",
+										"top_material": "terrariamod:ash",
+										"sea_material": "minecraft:lava"
+									},
+									"nether": {},
+									"underworld": {}
+								},
+								"key": "minecraft:surface_parameters",
+								"is_minified": true,
+								"children": {
+									"sea_floor_depth": 1,
+									"sea_floor_material": "terrariamod:ash",
+									"foundation_material": "terrariamod:ash",
+									"mid_material": "terrariamod:ash",
+									"top_material": "terrariamod:ash",
+									"sea_material": "minecraft:lava"
+								}
+							},
+							{
+								"key": "nether",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"key": "underworld",
+								"is_minified": true,
+								"children": {}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

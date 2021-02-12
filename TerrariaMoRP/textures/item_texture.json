@@ -1,3 +1,4 @@
+//bridge-file-version: #3
 {
 	"resource_pack_name": "TerrariaModLLS",
 	"texture_name": "atlas.items",
@@ -699,8 +700,25 @@
 				"textures/items/weapons/hornetstaff"
 			]
 		},
-		"terrariamod_delte": {
-			"textures": "textures/items/delte"
+		"terrariamod:snow_wood": {
+			"textures": [
+				"textures/items/snow_wood"
+			]
+		},
+		"terrariamod:wormholepotion": {
+			"textures": [
+				"textures/items/potions/wormholepotion"
+			]
+		},
+		"terrariamod:purity_seeds": {
+			"textures": [
+				"textures/items/purity_seeds"
+			]
+		},
+		"terrariamod:starting_items_package": {
+			"textures": [
+				"textures/items/starting_items_package"
+			]
 		}
 	}
 }

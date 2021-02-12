@@ -1,0 +1,35 @@
+//bridge-file-version: #6
+{
+	"format_version": "1.16.200",
+	"minecraft:block": {
+		"description": {
+			"identifier": "terrariamod:forest_pot"
+		},
+		"components": {
+			"minecraft:destroy_time": 0,
+			"tag:terrariamod:plant": {},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "forest_pot",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:geometry": "geometry.cross",
+			"minecraft:on_player_destroyed": {
+				"event": "terrariamod:destroy"
+			},
+			"minecraft:loot": "loot_tables/blocks/forest_pot.json",
+			"minecraft:block_light_emission": 0,
+			"minecraft:block_light_absorption": 0
+		},
+		"events": {
+			"terrariamod:destroy": {
+				"run_command": {
+					"command": [
+						"effect @p instant_health 1 1"
+					]
+				}
+			}
+		}
+	}
+}

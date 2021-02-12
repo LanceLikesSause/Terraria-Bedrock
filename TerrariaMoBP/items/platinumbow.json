@@ -15,7 +15,7 @@
 				"texture": "terrariamod:platinumbow"
 			},
 			"minecraft:display_name": {
-				"value": "Platinum Bow\n§9+18 Projectile Damage"
+				"value": "Platinum Bow\n§9+18 Projectile Damage\n§9Place wooden arrows in the offhand to use"
 			},
 			"minecraft:on_use": {
 				"on_use": {

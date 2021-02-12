@@ -15,7 +15,7 @@
 				"texture": "terrariamod:silverbow"
 			},
 			"minecraft:display_name": {
-				"value": "Silver Bow\n§9+14 Projectile Damage"
+				"value": "Silver Bow\n§9+14 Projectile Damage\n§9Place wooden arrows in the offhand to use"
 			},
 			"minecraft:on_use": {
 				"on_use": {

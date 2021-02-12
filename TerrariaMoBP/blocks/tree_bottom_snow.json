@@ -1,0 +1,36 @@
+//bridge-file-version: #10
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "terrariamod:tree_bottom_snow"
+		},
+		"components": {
+			"minecraft:destroy_time": 2,
+			"minecraft:block_light_emission": 0,
+			"minecraft:block_light_absorption": 0,
+			"minecraft:explosion_resistance": 0,
+			"minecraft:loot": "loot_tables/blocks/snow_tree.json",
+			"minecraft:geometry": "geometry.treebottom",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "snow_tree",
+					"render_method": "alpha_test"
+				}
+			},
+			"tag:terrariamod:wood": {},
+			"minecraft:on_player_destroyed": {
+				"event": "terrariamod:destroy_tree"
+			}
+		},
+		"events": {
+			"terrariamod:destroy_tree": {
+				"run_command": {
+					"command": [
+						"fill ~ ~ ~ ~ ~7 ~ air 0 destroy"
+					]
+				}
+			}
+		}
+	}
+}

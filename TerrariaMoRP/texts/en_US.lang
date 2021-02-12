@@ -1,5 +1,5 @@
-##bridge-file-version: #424
-#########how to play
+##bridge-file-version: #432
+###########how to play
 terrariamod.category.dakon=Terraria Mod Tutorial
 howtoplay.category.dakon=Terraria Guide
 howtoplay.template.title=Credits
@@ -67,12 +67,27 @@ terrariamod.tempeight.text2=The Queen Bee will drop variety of items when killed
 
 tile.terrariamod:underworld_transporter.name=Underworld Transporter
 
+
+##snow
+tile.terrariamod:tree_bottom_snow.name=Snow Tree Stem
+tile.terrariamod:tree_log_snow=Snow Tree Log
+tile.terrariamod:tree_top_snow=Snow Tree Top
+tile.terrariamod:purity_snow.name=Snow
+item.terrariamod:snow_wood.name=Boreal Wood
+
+
+
+
+##desert
 tile.terrariamod:purity_cactus_bottom.name=Cactus Stem
 tile.terrariamod:purity_cactus_middle.name=Cactus Middle
 tile.terrariamod:purity_cactus_top.name=Cactus Top
 tile.terrariamod:cactus_block.name=Cactus Block
 tile.terrariamod:purity_sandstone.name=Sandstone
+tile.terrariamod:purity_sand.name=Sand
 
+
+##jungle
 tile.terrariamod:larva.name=Larva
 item.terrariamod:beewax.name=Bee Wax
 item.terrariamod:abeemination.name=Abeemination
@@ -83,8 +98,12 @@ tile.terrariamod:honey.name=Honey
 item.terrariamod:bottle_honey.name=Honey Bottle
 item.terrariamod:empty_bucket.name=Empty Bucket
 item.terrariamod:honey_bucket.name=Honey Bucket
+tile.terrariamod:tree_bottom_jungle.name=Jungle Tree Stem
+tile.terrariamod:tree_log_jungle=Jungle Tree Log
+tile.terrariamod:tree_top_jungle=Jungle Tree Top
+item.terrariamod:jungle_wood.name=Rich Mahogany Wood
 
-
+##forest
 item.terrariamod:acorn.name=Acorn
 tile.terrariamod:tree_bottom.name=Tree Stem
 tile.terrariamod:tree_log.name=Tree Log
@@ -100,18 +119,18 @@ tile.terrariamod:purity_tree.name=Tree
 item.terrariamod:purity_wood.name=Wood
 tile.terrariamod:purity_dirt.name=Dirt
 tile.terrariamod:purity_stone.name=Stone
-tile.terrariamod:purity_snow.name=Snow
-tile.terrariamod:purity_sand.name=Sand
 tile.terrariamod:purity_clay.name=Clay
 tile.terrariamod:graybrick.name=Gray Brick
 tile.terrariamod:redbrick.name=Red Brick
 item.terrariamod:daybloom.name=Daybloom
 item.terrariamod:silk.name=Silk
 item.terrariamod:mushroom.name=Mushroom §9Heals 15 HP
+item.terrariamod:pruity_seeds.name=Seed
 
-tile.terrariamod:tree_bottom_crimson.name=Tree Stem
-tile.terrariamod:tree_log_crimson.name=Tree Log
-tile.terrariamod:tree_top_crimson.name=Tree Leaves
+##crimson
+tile.terrariamod:tree_bottom_crimson.name=Crimson Tree Stem
+tile.terrariamod:tree_log_crimson.name=Crimson Tree Log
+tile.terrariamod:tree_top_crimson.name=Crimson Tree Leaves
 tile.terrariamod:crimson_grass.name=Crimson Grass
 tile.terrariamod:crimson_tree.name=Crimson Tree
 tile.terrariamod:crimson_wood.name=Shadewood
@@ -122,6 +141,8 @@ tile.terrariamod:crimsand.name=Crimsand
 tile.terrariamod:crimstone.name=Crimstone
 tile.terrariamod:crimtaneore.name=Crimtane Ore
 
+
+##corruption
 tile.terrariamod:tree_bottom_corruption.name=Tree Stem Corruption
 tile.terrariamod:tree_log_corruption.name=Tree Log Corruption
 tile.terrariamod:tree_top_corruption.name=Tree Leaves Corruption
@@ -130,8 +151,6 @@ tile.terrariamod:corrupted_tree.name=Corrupted Tree
 item.terrariamod:corrupted_wood.name=Ebonwood
 tile.terrariamod:corrupted_wood.name=Ebonwood 
 tile.terrariamod:ebonestone.name=Ebonestone
-
-item.terrariamod:jungle_wood.name=Rich Mahogany Wood
 
 item.terrariamod:copperaxe.name=Copper Axe
 item.terrariamod:copperaxe.desc=Copper Axe
@@ -268,6 +287,10 @@ entity.terrariamod:woodenarrow_projectile_tungsten.name=Tungsten Bow
 entity.terrariamod:woodenarrow_projectile_gold.name=Gold Bow
 entity.terrariamod:woodenarrow_projectile_platinum.name=Platinum Bow
 
+item.spawn_egg.entity.terrariamod:frozenzombie.name=Spawn Frozen Zombie
+entity.terrariamod:frozenzombie.name=Frozen Zombie
+item.spawn_egg.entity.terrariamod:iceslime.name=Spawn Ice Slime
+entity.terrariamod:iceslime.name=Ice Slime
 item.spawn_egg.entity.terrariamod:nectar_minion.name=Spawn Baby Hornet
 entity.terrariamod:nectar_minion.name=Baby Hornet
 item.spawn_egg.entity.terrariamod:queenbee_bee.name=Spawn Agressive Bee

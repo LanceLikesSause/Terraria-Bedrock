@@ -3,7 +3,7 @@
 	"file_type": "animation_controller",
 	"format_version": 1,
 	"file_uuid": "86525fd3_cda2_4e75_8360_abd1db698a3a",
-	"file_version": 142,
+	"file_version": 153,
 	"cache_content": {
 		"children": [
 			{
@@ -27,19 +27,22 @@
 								"default": {
 									"transitions": [
 										{
-											"forest_night_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day<0.25 || query.time_of_day>0.75"
+											"forest_night_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day<0.25 || query.time_of_day>0.75 && query.position(1)>35"
 										},
 										{
-											"forest_day_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day>0.25 || query.time_of_day<0.75"
+											"forest_day_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day>0.25 || query.time_of_day<0.75 &&  query.position(1)>35"
 										},
 										{
-											"desert_music": "query.biome_has_any_tag('purity_desert')"
+											"desert_music": "query.biome_has_any_tag('purity_desert') &&  query.position(1)>35"
 										},
 										{
-											"jungle_music": "query.biome_has_any_tag('purity_jungle')"
+											"jungle_music": "query.biome_has_any_tag('purity_jungle') &&  query.position(1)>35"
 										},
 										{
-											"corruption_music": "query.biome_has_any_tag('corruption')"
+											"corruption_music": "query.biome_has_any_tag('corruption') &&  query.position(1)>35"
+										},
+										{
+											"underground_music": "query.position(1)<35"
 										}
 									],
 									"on_entry": [
@@ -52,7 +55,7 @@
 									],
 									"transitions": [
 										{
-											"default": "!query.biome_has_any_tag('purity_forest') && query.all_animations_finished"
+											"default": "!query.biome_has_any_tag('purity_forest') || query.position(1)<35 && query.all_animations_finished "
 										}
 									]
 								},
@@ -62,7 +65,7 @@
 									],
 									"transitions": [
 										{
-											"default": "!query.biome_has_any_tag('purity_forest') && query.all_animations_finished"
+											"default": "!query.biome_has_any_tag('purity_forest') || query.position(1)<35 && query.all_animations_finished "
 										}
 									]
 								},
@@ -72,7 +75,7 @@
 									],
 									"transitions": [
 										{
-											"default": "!query.biome_has_any_tag('corruption') && query.all_animations_finished"
+											"default": "!query.biome_has_any_tag('corruption') || query.position(1)<35 && query.all_animations_finished "
 										}
 									]
 								},
@@ -92,7 +95,17 @@
 									],
 									"transitions": [
 										{
-											"default": "!query.biome_has_any_tag('purity_desert') && query.all_animations_finished"
+											"default": "!query.biome_has_any_tag('purity_desert') || query.position(1)<35 && query.all_animations_finished "
+										}
+									]
+								},
+								"underground_music": {
+									"on_entry": [
+										"/music play underground 1 1 loop"
+									],
+									"transitions": [
+										{
+											"default": "query.position(1)>35 && query.all_animations_finished "
 										}
 									]
 								}
@@ -117,19 +130,22 @@
 									"default": {
 										"transitions": [
 											{
-												"forest_night_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day<0.25 || query.time_of_day>0.75"
+												"forest_night_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day<0.25 || query.time_of_day>0.75 && query.position(1)>35"
 											},
 											{
-												"forest_day_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day>0.25 || query.time_of_day<0.75"
+												"forest_day_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day>0.25 || query.time_of_day<0.75 &&  query.position(1)>35"
 											},
 											{
-												"desert_music": "query.biome_has_any_tag('purity_desert')"
+												"desert_music": "query.biome_has_any_tag('purity_desert') &&  query.position(1)>35"
 											},
 											{
-												"jungle_music": "query.biome_has_any_tag('purity_jungle')"
+												"jungle_music": "query.biome_has_any_tag('purity_jungle') &&  query.position(1)>35"
 											},
 											{
-												"corruption_music": "query.biome_has_any_tag('corruption')"
+												"corruption_music": "query.biome_has_any_tag('corruption') &&  query.position(1)>35"
+											},
+											{
+												"underground_music": "query.position(1)<35"
 											}
 										],
 										"on_entry": [
@@ -142,7 +158,7 @@
 										],
 										"transitions": [
 											{
-												"default": "!query.biome_has_any_tag('purity_forest') && query.all_animations_finished"
+												"default": "!query.biome_has_any_tag('purity_forest') || query.position(1)<35 && query.all_animations_finished "
 											}
 										]
 									},
@@ -152,7 +168,7 @@
 										],
 										"transitions": [
 											{
-												"default": "!query.biome_has_any_tag('purity_forest') && query.all_animations_finished"
+												"default": "!query.biome_has_any_tag('purity_forest') || query.position(1)<35 && query.all_animations_finished "
 											}
 										]
 									},
@@ -162,7 +178,7 @@
 										],
 										"transitions": [
 											{
-												"default": "!query.biome_has_any_tag('corruption') && query.all_animations_finished"
+												"default": "!query.biome_has_any_tag('corruption') || query.position(1)<35 && query.all_animations_finished "
 											}
 										]
 									},
@@ -182,7 +198,17 @@
 										],
 										"transitions": [
 											{
-												"default": "!query.biome_has_any_tag('purity_desert') && query.all_animations_finished"
+												"default": "!query.biome_has_any_tag('purity_desert') || query.position(1)<35 && query.all_animations_finished "
+											}
+										]
+									},
+									"underground_music": {
+										"on_entry": [
+											"/music play underground 1 1 loop"
+										],
+										"transitions": [
+											{
+												"default": "query.position(1)>35 && query.all_animations_finished "
 											}
 										]
 									}
@@ -205,19 +231,22 @@
 										"default": {
 											"transitions": [
 												{
-													"forest_night_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day<0.25 || query.time_of_day>0.75"
+													"forest_night_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day<0.25 || query.time_of_day>0.75 && query.position(1)>35"
 												},
 												{
-													"forest_day_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day>0.25 || query.time_of_day<0.75"
+													"forest_day_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day>0.25 || query.time_of_day<0.75 &&  query.position(1)>35"
 												},
 												{
-													"desert_music": "query.biome_has_any_tag('purity_desert')"
+													"desert_music": "query.biome_has_any_tag('purity_desert') &&  query.position(1)>35"
 												},
 												{
-													"jungle_music": "query.biome_has_any_tag('purity_jungle')"
+													"jungle_music": "query.biome_has_any_tag('purity_jungle') &&  query.position(1)>35"
 												},
 												{
-													"corruption_music": "query.biome_has_any_tag('corruption')"
+													"corruption_music": "query.biome_has_any_tag('corruption') &&  query.position(1)>35"
+												},
+												{
+													"underground_music": "query.position(1)<35"
 												}
 											],
 											"on_entry": [
@@ -230,7 +259,7 @@
 											],
 											"transitions": [
 												{
-													"default": "!query.biome_has_any_tag('purity_forest') && query.all_animations_finished"
+													"default": "!query.biome_has_any_tag('purity_forest') || query.position(1)<35 && query.all_animations_finished "
 												}
 											]
 										},
@@ -240,7 +269,7 @@
 											],
 											"transitions": [
 												{
-													"default": "!query.biome_has_any_tag('purity_forest') && query.all_animations_finished"
+													"default": "!query.biome_has_any_tag('purity_forest') || query.position(1)<35 && query.all_animations_finished "
 												}
 											]
 										},
@@ -250,7 +279,7 @@
 											],
 											"transitions": [
 												{
-													"default": "!query.biome_has_any_tag('corruption') && query.all_animations_finished"
+													"default": "!query.biome_has_any_tag('corruption') || query.position(1)<35 && query.all_animations_finished "
 												}
 											]
 										},
@@ -270,7 +299,17 @@
 											],
 											"transitions": [
 												{
-													"default": "!query.biome_has_any_tag('purity_desert') && query.all_animations_finished"
+													"default": "!query.biome_has_any_tag('purity_desert') || query.position(1)<35 && query.all_animations_finished "
+												}
+											]
+										},
+										"underground_music": {
+											"on_entry": [
+												"/music play underground 1 1 loop"
+											],
+											"transitions": [
+												{
+													"default": "query.position(1)>35 && query.all_animations_finished "
 												}
 											]
 										}
@@ -293,19 +332,22 @@
 										"default": {
 											"transitions": [
 												{
-													"forest_night_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day<0.25 || query.time_of_day>0.75"
+													"forest_night_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day<0.25 || query.time_of_day>0.75 && query.position(1)>35"
 												},
 												{
-													"forest_day_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day>0.25 || query.time_of_day<0.75"
+													"forest_day_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day>0.25 || query.time_of_day<0.75 &&  query.position(1)>35"
 												},
 												{
-													"desert_music": "query.biome_has_any_tag('purity_desert')"
+													"desert_music": "query.biome_has_any_tag('purity_desert') &&  query.position(1)>35"
 												},
 												{
-													"jungle_music": "query.biome_has_any_tag('purity_jungle')"
+													"jungle_music": "query.biome_has_any_tag('purity_jungle') &&  query.position(1)>35"
 												},
 												{
-													"corruption_music": "query.biome_has_any_tag('corruption')"
+													"corruption_music": "query.biome_has_any_tag('corruption') &&  query.position(1)>35"
+												},
+												{
+													"underground_music": "query.position(1)<35"
 												}
 											],
 											"on_entry": [
@@ -318,7 +360,7 @@
 											],
 											"transitions": [
 												{
-													"default": "!query.biome_has_any_tag('purity_forest') && query.all_animations_finished"
+													"default": "!query.biome_has_any_tag('purity_forest') || query.position(1)<35 && query.all_animations_finished "
 												}
 											]
 										},
@@ -328,7 +370,7 @@
 											],
 											"transitions": [
 												{
-													"default": "!query.biome_has_any_tag('purity_forest') && query.all_animations_finished"
+													"default": "!query.biome_has_any_tag('purity_forest') || query.position(1)<35 && query.all_animations_finished "
 												}
 											]
 										},
@@ -338,7 +380,7 @@
 											],
 											"transitions": [
 												{
-													"default": "!query.biome_has_any_tag('corruption') && query.all_animations_finished"
+													"default": "!query.biome_has_any_tag('corruption') || query.position(1)<35 && query.all_animations_finished "
 												}
 											]
 										},
@@ -358,7 +400,17 @@
 											],
 											"transitions": [
 												{
-													"default": "!query.biome_has_any_tag('purity_desert') && query.all_animations_finished"
+													"default": "!query.biome_has_any_tag('purity_desert') || query.position(1)<35 && query.all_animations_finished "
+												}
+											]
+										},
+										"underground_music": {
+											"on_entry": [
+												"/music play underground 1 1 loop"
+											],
+											"transitions": [
+												{
+													"default": "query.position(1)>35 && query.all_animations_finished "
 												}
 											]
 										}
@@ -378,19 +430,22 @@
 											"default": {
 												"transitions": [
 													{
-														"forest_night_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day<0.25 || query.time_of_day>0.75"
+														"forest_night_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day<0.25 || query.time_of_day>0.75 && query.position(1)>35"
 													},
 													{
-														"forest_day_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day>0.25 || query.time_of_day<0.75"
+														"forest_day_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day>0.25 || query.time_of_day<0.75 &&  query.position(1)>35"
 													},
 													{
-														"desert_music": "query.biome_has_any_tag('purity_desert')"
+														"desert_music": "query.biome_has_any_tag('purity_desert') &&  query.position(1)>35"
 													},
 													{
-														"jungle_music": "query.biome_has_any_tag('purity_jungle')"
+														"jungle_music": "query.biome_has_any_tag('purity_jungle') &&  query.position(1)>35"
 													},
 													{
-														"corruption_music": "query.biome_has_any_tag('corruption')"
+														"corruption_music": "query.biome_has_any_tag('corruption') &&  query.position(1)>35"
+													},
+													{
+														"underground_music": "query.position(1)<35"
 													}
 												],
 												"on_entry": [
@@ -403,7 +458,7 @@
 												],
 												"transitions": [
 													{
-														"default": "!query.biome_has_any_tag('purity_forest') && query.all_animations_finished"
+														"default": "!query.biome_has_any_tag('purity_forest') || query.position(1)<35 && query.all_animations_finished "
 													}
 												]
 											},
@@ -413,7 +468,7 @@
 												],
 												"transitions": [
 													{
-														"default": "!query.biome_has_any_tag('purity_forest') && query.all_animations_finished"
+														"default": "!query.biome_has_any_tag('purity_forest') || query.position(1)<35 && query.all_animations_finished "
 													}
 												]
 											},
@@ -423,7 +478,7 @@
 												],
 												"transitions": [
 													{
-														"default": "!query.biome_has_any_tag('corruption') && query.all_animations_finished"
+														"default": "!query.biome_has_any_tag('corruption') || query.position(1)<35 && query.all_animations_finished "
 													}
 												]
 											},
@@ -443,7 +498,17 @@
 												],
 												"transitions": [
 													{
-														"default": "!query.biome_has_any_tag('purity_desert') && query.all_animations_finished"
+														"default": "!query.biome_has_any_tag('purity_desert') || query.position(1)<35 && query.all_animations_finished "
+													}
+												]
+											},
+											"underground_music": {
+												"on_entry": [
+													"/music play underground 1 1 loop"
+												],
+												"transitions": [
+													{
+														"default": "query.position(1)>35 && query.all_animations_finished "
 													}
 												]
 											}
@@ -476,25 +541,122 @@
 										]
 									},
 									{
+										"open": {
+											"wait": {
+												"transitions": [
+													{
+														"default": "query.life_time>10"
+													}
+												]
+											},
+											"default": {
+												"transitions": [
+													{
+														"forest_night_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day<0.25 || query.time_of_day>0.75 && query.position(1)>35"
+													},
+													{
+														"forest_day_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day>0.25 || query.time_of_day<0.75 &&  query.position(1)>35"
+													},
+													{
+														"desert_music": "query.biome_has_any_tag('purity_desert') &&  query.position(1)>35"
+													},
+													{
+														"jungle_music": "query.biome_has_any_tag('purity_jungle') &&  query.position(1)>35"
+													},
+													{
+														"corruption_music": "query.biome_has_any_tag('corruption') &&  query.position(1)>35"
+													},
+													{
+														"underground_music": "query.position(1)<35"
+													}
+												],
+												"on_entry": [
+													"/stopsound @s"
+												]
+											},
+											"forest_day_music": {
+												"on_entry": [
+													"/music play dayone 1 1 loop"
+												],
+												"transitions": [
+													{
+														"default": "!query.biome_has_any_tag('purity_forest') || query.position(1)<35 && query.all_animations_finished "
+													}
+												]
+											},
+											"forest_night_music": {
+												"on_entry": [
+													"/music play night 1 1 loop"
+												],
+												"transitions": [
+													{
+														"default": "!query.biome_has_any_tag('purity_forest') || query.position(1)<35 && query.all_animations_finished "
+													}
+												]
+											},
+											"corruption_music": {
+												"on_entry": [
+													"/music play corruption 1 1 loop"
+												],
+												"transitions": [
+													{
+														"default": "!query.biome_has_any_tag('corruption') || query.position(1)<35 && query.all_animations_finished "
+													}
+												]
+											},
+											"jungle_music": {
+												"on_entry": [
+													"/music play jungle 1 1 loop"
+												],
+												"transitions": [
+													{
+														"default": "!query.biome_has_any_tag('purity_jungle') && query.all_animations_finished"
+													}
+												]
+											},
+											"desert_music": {
+												"on_entry": [
+													"/music play desert 1 1 loop"
+												],
+												"transitions": [
+													{
+														"default": "!query.biome_has_any_tag('purity_desert') || query.position(1)<35 && query.all_animations_finished "
+													}
+												]
+											},
+											"underground_music": {
+												"on_entry": [
+													"/music play underground 1 1 loop"
+												],
+												"transitions": [
+													{
+														"default": "query.position(1)>35 && query.all_animations_finished "
+													}
+												]
+											}
+										},
 										"key": "default",
 										"children": [
 											{
 												"open": {
 													"transitions": [
 														{
-															"forest_night_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day<0.25 || query.time_of_day>0.75"
+															"forest_night_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day<0.25 || query.time_of_day>0.75 && query.position(1)>35"
 														},
 														{
-															"forest_day_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day>0.25 || query.time_of_day<0.75"
+															"forest_day_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day>0.25 || query.time_of_day<0.75 &&  query.position(1)>35"
 														},
 														{
-															"desert_music": "query.biome_has_any_tag('purity_desert')"
+															"desert_music": "query.biome_has_any_tag('purity_desert') &&  query.position(1)>35"
 														},
 														{
-															"jungle_music": "query.biome_has_any_tag('purity_jungle')"
+															"jungle_music": "query.biome_has_any_tag('purity_jungle') &&  query.position(1)>35"
 														},
 														{
-															"corruption_music": "query.biome_has_any_tag('corruption')"
+															"corruption_music": "query.biome_has_any_tag('corruption') &&  query.position(1)>35"
+														},
+														{
+															"underground_music": "query.position(1)<35"
 														}
 													],
 													"on_entry": [
@@ -502,22 +664,162 @@
 													]
 												},
 												"key": "transitions",
-												"is_minified": true,
 												"children": [
 													{
-														"forest_night_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day<0.25 || query.time_of_day>0.75"
+														"open": [
+															{
+																"forest_night_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day<0.25 || query.time_of_day>0.75 && query.position(1)>35"
+															},
+															{
+																"forest_day_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day>0.25 || query.time_of_day<0.75 &&  query.position(1)>35"
+															},
+															{
+																"desert_music": "query.biome_has_any_tag('purity_desert') &&  query.position(1)>35"
+															},
+															{
+																"jungle_music": "query.biome_has_any_tag('purity_jungle') &&  query.position(1)>35"
+															},
+															{
+																"corruption_music": "query.biome_has_any_tag('corruption') &&  query.position(1)>35"
+															},
+															{
+																"underground_music": "query.position(1)<35"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"forest_night_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day<0.25 || query.time_of_day>0.75 && query.position(1)>35"
+														}
 													},
 													{
-														"forest_day_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day>0.25 || query.time_of_day<0.75"
+														"open": [
+															{
+																"forest_night_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day<0.25 || query.time_of_day>0.75 && query.position(1)>35"
+															},
+															{
+																"forest_day_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day>0.25 || query.time_of_day<0.75 &&  query.position(1)>35"
+															},
+															{
+																"desert_music": "query.biome_has_any_tag('purity_desert') &&  query.position(1)>35"
+															},
+															{
+																"jungle_music": "query.biome_has_any_tag('purity_jungle') &&  query.position(1)>35"
+															},
+															{
+																"corruption_music": "query.biome_has_any_tag('corruption') &&  query.position(1)>35"
+															},
+															{
+																"underground_music": "query.position(1)<35"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"forest_day_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day>0.25 || query.time_of_day<0.75 &&  query.position(1)>35"
+														}
 													},
 													{
-														"desert_music": "query.biome_has_any_tag('purity_desert')"
+														"open": [
+															{
+																"forest_night_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day<0.25 || query.time_of_day>0.75 && query.position(1)>35"
+															},
+															{
+																"forest_day_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day>0.25 || query.time_of_day<0.75 &&  query.position(1)>35"
+															},
+															{
+																"desert_music": "query.biome_has_any_tag('purity_desert') &&  query.position(1)>35"
+															},
+															{
+																"jungle_music": "query.biome_has_any_tag('purity_jungle') &&  query.position(1)>35"
+															},
+															{
+																"corruption_music": "query.biome_has_any_tag('corruption') &&  query.position(1)>35"
+															},
+															{
+																"underground_music": "query.position(1)<35"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"desert_music": "query.biome_has_any_tag('purity_desert') &&  query.position(1)>35"
+														}
 													},
 													{
-														"jungle_music": "query.biome_has_any_tag('purity_jungle')"
+														"open": [
+															{
+																"forest_night_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day<0.25 || query.time_of_day>0.75 && query.position(1)>35"
+															},
+															{
+																"forest_day_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day>0.25 || query.time_of_day<0.75 &&  query.position(1)>35"
+															},
+															{
+																"desert_music": "query.biome_has_any_tag('purity_desert') &&  query.position(1)>35"
+															},
+															{
+																"jungle_music": "query.biome_has_any_tag('purity_jungle') &&  query.position(1)>35"
+															},
+															{
+																"corruption_music": "query.biome_has_any_tag('corruption') &&  query.position(1)>35"
+															},
+															{
+																"underground_music": "query.position(1)<35"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"jungle_music": "query.biome_has_any_tag('purity_jungle') &&  query.position(1)>35"
+														}
 													},
 													{
-														"corruption_music": "query.biome_has_any_tag('corruption')"
+														"open": [
+															{
+																"forest_night_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day<0.25 || query.time_of_day>0.75 && query.position(1)>35"
+															},
+															{
+																"forest_day_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day>0.25 || query.time_of_day<0.75 &&  query.position(1)>35"
+															},
+															{
+																"desert_music": "query.biome_has_any_tag('purity_desert') &&  query.position(1)>35"
+															},
+															{
+																"jungle_music": "query.biome_has_any_tag('purity_jungle') &&  query.position(1)>35"
+															},
+															{
+																"corruption_music": "query.biome_has_any_tag('corruption') &&  query.position(1)>35"
+															},
+															{
+																"underground_music": "query.position(1)<35"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"corruption_music": "query.biome_has_any_tag('corruption') &&  query.position(1)>35"
+														}
+													},
+													{
+														"open": [
+															{
+																"forest_night_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day<0.25 || query.time_of_day>0.75 && query.position(1)>35"
+															},
+															{
+																"forest_day_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day>0.25 || query.time_of_day<0.75 &&  query.position(1)>35"
+															},
+															{
+																"desert_music": "query.biome_has_any_tag('purity_desert') &&  query.position(1)>35"
+															},
+															{
+																"jungle_music": "query.biome_has_any_tag('purity_jungle') &&  query.position(1)>35"
+															},
+															{
+																"corruption_music": "query.biome_has_any_tag('corruption') &&  query.position(1)>35"
+															},
+															{
+																"underground_music": "query.position(1)<35"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"underground_music": "query.position(1)<35"
+														}
 													}
 												]
 											},
@@ -525,19 +827,22 @@
 												"open": {
 													"transitions": [
 														{
-															"forest_night_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day<0.25 || query.time_of_day>0.75"
+															"forest_night_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day<0.25 || query.time_of_day>0.75 && query.position(1)>35"
 														},
 														{
-															"forest_day_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day>0.25 || query.time_of_day<0.75"
+															"forest_day_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day>0.25 || query.time_of_day<0.75 &&  query.position(1)>35"
 														},
 														{
-															"desert_music": "query.biome_has_any_tag('purity_desert')"
+															"desert_music": "query.biome_has_any_tag('purity_desert') &&  query.position(1)>35"
 														},
 														{
-															"jungle_music": "query.biome_has_any_tag('purity_jungle')"
+															"jungle_music": "query.biome_has_any_tag('purity_jungle') &&  query.position(1)>35"
 														},
 														{
-															"corruption_music": "query.biome_has_any_tag('corruption')"
+															"corruption_music": "query.biome_has_any_tag('corruption') &&  query.position(1)>35"
+														},
+														{
+															"underground_music": "query.position(1)<35"
 														}
 													],
 													"on_entry": [
@@ -564,19 +869,22 @@
 											"default": {
 												"transitions": [
 													{
-														"forest_night_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day<0.25 || query.time_of_day>0.75"
+														"forest_night_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day<0.25 || query.time_of_day>0.75 && query.position(1)>35"
 													},
 													{
-														"forest_day_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day>0.25 || query.time_of_day<0.75"
+														"forest_day_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day>0.25 || query.time_of_day<0.75 &&  query.position(1)>35"
 													},
 													{
-														"desert_music": "query.biome_has_any_tag('purity_desert')"
+														"desert_music": "query.biome_has_any_tag('purity_desert') &&  query.position(1)>35"
 													},
 													{
-														"jungle_music": "query.biome_has_any_tag('purity_jungle')"
+														"jungle_music": "query.biome_has_any_tag('purity_jungle') &&  query.position(1)>35"
 													},
 													{
-														"corruption_music": "query.biome_has_any_tag('corruption')"
+														"corruption_music": "query.biome_has_any_tag('corruption') &&  query.position(1)>35"
+													},
+													{
+														"underground_music": "query.position(1)<35"
 													}
 												],
 												"on_entry": [
@@ -589,7 +897,7 @@
 												],
 												"transitions": [
 													{
-														"default": "!query.biome_has_any_tag('purity_forest') && query.all_animations_finished"
+														"default": "!query.biome_has_any_tag('purity_forest') || query.position(1)<35 && query.all_animations_finished "
 													}
 												]
 											},
@@ -599,7 +907,7 @@
 												],
 												"transitions": [
 													{
-														"default": "!query.biome_has_any_tag('purity_forest') && query.all_animations_finished"
+														"default": "!query.biome_has_any_tag('purity_forest') || query.position(1)<35 && query.all_animations_finished "
 													}
 												]
 											},
@@ -609,7 +917,7 @@
 												],
 												"transitions": [
 													{
-														"default": "!query.biome_has_any_tag('corruption') && query.all_animations_finished"
+														"default": "!query.biome_has_any_tag('corruption') || query.position(1)<35 && query.all_animations_finished "
 													}
 												]
 											},
@@ -629,7 +937,17 @@
 												],
 												"transitions": [
 													{
-														"default": "!query.biome_has_any_tag('purity_desert') && query.all_animations_finished"
+														"default": "!query.biome_has_any_tag('purity_desert') || query.position(1)<35 && query.all_animations_finished "
+													}
+												]
+											},
+											"underground_music": {
+												"on_entry": [
+													"/music play underground 1 1 loop"
+												],
+												"transitions": [
+													{
+														"default": "query.position(1)>35 && query.all_animations_finished "
 													}
 												]
 											}
@@ -643,7 +961,7 @@
 													],
 													"transitions": [
 														{
-															"default": "!query.biome_has_any_tag('purity_forest') && query.all_animations_finished"
+															"default": "!query.biome_has_any_tag('purity_forest') || query.position(1)<35 && query.all_animations_finished "
 														}
 													]
 												},
@@ -654,11 +972,28 @@
 												]
 											},
 											{
+												"open": {
+													"on_entry": [
+														"/music play dayone 1 1 loop"
+													],
+													"transitions": [
+														{
+															"default": "!query.biome_has_any_tag('purity_forest') || query.position(1)<35 && query.all_animations_finished "
+														}
+													]
+												},
 												"key": "transitions",
-												"is_minified": true,
 												"children": [
 													{
-														"default": "!query.biome_has_any_tag('purity_forest') && query.all_animations_finished"
+														"open": [
+															{
+																"default": "!query.biome_has_any_tag('purity_forest') || query.position(1)<35 && query.all_animations_finished "
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"default": "!query.biome_has_any_tag('purity_forest') || query.position(1)<35 && query.all_animations_finished "
+														}
 													}
 												]
 											}
@@ -676,19 +1011,22 @@
 											"default": {
 												"transitions": [
 													{
-														"forest_night_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day<0.25 || query.time_of_day>0.75"
+														"forest_night_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day<0.25 || query.time_of_day>0.75 && query.position(1)>35"
 													},
 													{
-														"forest_day_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day>0.25 || query.time_of_day<0.75"
+														"forest_day_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day>0.25 || query.time_of_day<0.75 &&  query.position(1)>35"
 													},
 													{
-														"desert_music": "query.biome_has_any_tag('purity_desert')"
+														"desert_music": "query.biome_has_any_tag('purity_desert') &&  query.position(1)>35"
 													},
 													{
-														"jungle_music": "query.biome_has_any_tag('purity_jungle')"
+														"jungle_music": "query.biome_has_any_tag('purity_jungle') &&  query.position(1)>35"
 													},
 													{
-														"corruption_music": "query.biome_has_any_tag('corruption')"
+														"corruption_music": "query.biome_has_any_tag('corruption') &&  query.position(1)>35"
+													},
+													{
+														"underground_music": "query.position(1)<35"
 													}
 												],
 												"on_entry": [
@@ -701,7 +1039,7 @@
 												],
 												"transitions": [
 													{
-														"default": "!query.biome_has_any_tag('purity_forest') && query.all_animations_finished"
+														"default": "!query.biome_has_any_tag('purity_forest') || query.position(1)<35 && query.all_animations_finished "
 													}
 												]
 											},
@@ -711,7 +1049,7 @@
 												],
 												"transitions": [
 													{
-														"default": "!query.biome_has_any_tag('purity_forest') && query.all_animations_finished"
+														"default": "!query.biome_has_any_tag('purity_forest') || query.position(1)<35 && query.all_animations_finished "
 													}
 												]
 											},
@@ -721,7 +1059,7 @@
 												],
 												"transitions": [
 													{
-														"default": "!query.biome_has_any_tag('corruption') && query.all_animations_finished"
+														"default": "!query.biome_has_any_tag('corruption') || query.position(1)<35 && query.all_animations_finished "
 													}
 												]
 											},
@@ -741,7 +1079,17 @@
 												],
 												"transitions": [
 													{
-														"default": "!query.biome_has_any_tag('purity_desert') && query.all_animations_finished"
+														"default": "!query.biome_has_any_tag('purity_desert') || query.position(1)<35 && query.all_animations_finished "
+													}
+												]
+											},
+											"underground_music": {
+												"on_entry": [
+													"/music play underground 1 1 loop"
+												],
+												"transitions": [
+													{
+														"default": "query.position(1)>35 && query.all_animations_finished "
 													}
 												]
 											}
@@ -755,7 +1103,7 @@
 													],
 													"transitions": [
 														{
-															"default": "!query.biome_has_any_tag('purity_forest') && query.all_animations_finished"
+															"default": "!query.biome_has_any_tag('purity_forest') || query.position(1)<35 && query.all_animations_finished "
 														}
 													]
 												},
@@ -772,7 +1120,7 @@
 													],
 													"transitions": [
 														{
-															"default": "!query.biome_has_any_tag('purity_forest') && query.all_animations_finished"
+															"default": "!query.biome_has_any_tag('purity_forest') || query.position(1)<35 && query.all_animations_finished "
 														}
 													]
 												},
@@ -781,12 +1129,12 @@
 													{
 														"open": [
 															{
-																"default": "!query.biome_has_any_tag('purity_forest') && query.all_animations_finished"
+																"default": "!query.biome_has_any_tag('purity_forest') || query.position(1)<35 && query.all_animations_finished "
 															}
 														],
 														"is_minified": true,
 														"children": {
-															"default": "!query.biome_has_any_tag('purity_forest') && query.all_animations_finished"
+															"default": "!query.biome_has_any_tag('purity_forest') || query.position(1)<35 && query.all_animations_finished "
 														}
 													}
 												]
@@ -805,19 +1153,22 @@
 											"default": {
 												"transitions": [
 													{
-														"forest_night_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day<0.25 || query.time_of_day>0.75"
+														"forest_night_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day<0.25 || query.time_of_day>0.75 && query.position(1)>35"
 													},
 													{
-														"forest_day_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day>0.25 || query.time_of_day<0.75"
+														"forest_day_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day>0.25 || query.time_of_day<0.75 &&  query.position(1)>35"
 													},
 													{
-														"desert_music": "query.biome_has_any_tag('purity_desert')"
+														"desert_music": "query.biome_has_any_tag('purity_desert') &&  query.position(1)>35"
 													},
 													{
-														"jungle_music": "query.biome_has_any_tag('purity_jungle')"
+														"jungle_music": "query.biome_has_any_tag('purity_jungle') &&  query.position(1)>35"
 													},
 													{
-														"corruption_music": "query.biome_has_any_tag('corruption')"
+														"corruption_music": "query.biome_has_any_tag('corruption') &&  query.position(1)>35"
+													},
+													{
+														"underground_music": "query.position(1)<35"
 													}
 												],
 												"on_entry": [
@@ -830,7 +1181,7 @@
 												],
 												"transitions": [
 													{
-														"default": "!query.biome_has_any_tag('purity_forest') && query.all_animations_finished"
+														"default": "!query.biome_has_any_tag('purity_forest') || query.position(1)<35 && query.all_animations_finished "
 													}
 												]
 											},
@@ -840,7 +1191,7 @@
 												],
 												"transitions": [
 													{
-														"default": "!query.biome_has_any_tag('purity_forest') && query.all_animations_finished"
+														"default": "!query.biome_has_any_tag('purity_forest') || query.position(1)<35 && query.all_animations_finished "
 													}
 												]
 											},
@@ -850,7 +1201,7 @@
 												],
 												"transitions": [
 													{
-														"default": "!query.biome_has_any_tag('corruption') && query.all_animations_finished"
+														"default": "!query.biome_has_any_tag('corruption') || query.position(1)<35 && query.all_animations_finished "
 													}
 												]
 											},
@@ -870,7 +1221,17 @@
 												],
 												"transitions": [
 													{
-														"default": "!query.biome_has_any_tag('purity_desert') && query.all_animations_finished"
+														"default": "!query.biome_has_any_tag('purity_desert') || query.position(1)<35 && query.all_animations_finished "
+													}
+												]
+											},
+											"underground_music": {
+												"on_entry": [
+													"/music play underground 1 1 loop"
+												],
+												"transitions": [
+													{
+														"default": "query.position(1)>35 && query.all_animations_finished "
 													}
 												]
 											}
@@ -884,7 +1245,7 @@
 													],
 													"transitions": [
 														{
-															"default": "!query.biome_has_any_tag('corruption') && query.all_animations_finished"
+															"default": "!query.biome_has_any_tag('corruption') || query.position(1)<35 && query.all_animations_finished "
 														}
 													]
 												},
@@ -895,11 +1256,28 @@
 												]
 											},
 											{
+												"open": {
+													"on_entry": [
+														"/music play corruption 1 1 loop"
+													],
+													"transitions": [
+														{
+															"default": "!query.biome_has_any_tag('corruption') || query.position(1)<35 && query.all_animations_finished "
+														}
+													]
+												},
 												"key": "transitions",
-												"is_minified": true,
 												"children": [
 													{
-														"default": "!query.biome_has_any_tag('corruption') && query.all_animations_finished"
+														"open": [
+															{
+																"default": "!query.biome_has_any_tag('corruption') || query.position(1)<35 && query.all_animations_finished "
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"default": "!query.biome_has_any_tag('corruption') || query.position(1)<35 && query.all_animations_finished "
+														}
 													}
 												]
 											}
@@ -917,19 +1295,22 @@
 											"default": {
 												"transitions": [
 													{
-														"forest_night_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day<0.25 || query.time_of_day>0.75"
+														"forest_night_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day<0.25 || query.time_of_day>0.75 && query.position(1)>35"
 													},
 													{
-														"forest_day_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day>0.25 || query.time_of_day<0.75"
+														"forest_day_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day>0.25 || query.time_of_day<0.75 &&  query.position(1)>35"
 													},
 													{
-														"desert_music": "query.biome_has_any_tag('purity_desert')"
+														"desert_music": "query.biome_has_any_tag('purity_desert') &&  query.position(1)>35"
 													},
 													{
-														"jungle_music": "query.biome_has_any_tag('purity_jungle')"
+														"jungle_music": "query.biome_has_any_tag('purity_jungle') &&  query.position(1)>35"
 													},
 													{
-														"corruption_music": "query.biome_has_any_tag('corruption')"
+														"corruption_music": "query.biome_has_any_tag('corruption') &&  query.position(1)>35"
+													},
+													{
+														"underground_music": "query.position(1)<35"
 													}
 												],
 												"on_entry": [
@@ -942,7 +1323,7 @@
 												],
 												"transitions": [
 													{
-														"default": "!query.biome_has_any_tag('purity_forest') && query.all_animations_finished"
+														"default": "!query.biome_has_any_tag('purity_forest') || query.position(1)<35 && query.all_animations_finished "
 													}
 												]
 											},
@@ -952,7 +1333,7 @@
 												],
 												"transitions": [
 													{
-														"default": "!query.biome_has_any_tag('purity_forest') && query.all_animations_finished"
+														"default": "!query.biome_has_any_tag('purity_forest') || query.position(1)<35 && query.all_animations_finished "
 													}
 												]
 											},
@@ -962,7 +1343,7 @@
 												],
 												"transitions": [
 													{
-														"default": "!query.biome_has_any_tag('corruption') && query.all_animations_finished"
+														"default": "!query.biome_has_any_tag('corruption') || query.position(1)<35 && query.all_animations_finished "
 													}
 												]
 											},
@@ -982,7 +1363,17 @@
 												],
 												"transitions": [
 													{
-														"default": "!query.biome_has_any_tag('purity_desert') && query.all_animations_finished"
+														"default": "!query.biome_has_any_tag('purity_desert') || query.position(1)<35 && query.all_animations_finished "
+													}
+												]
+											},
+											"underground_music": {
+												"on_entry": [
+													"/music play underground 1 1 loop"
+												],
+												"transitions": [
+													{
+														"default": "query.position(1)>35 && query.all_animations_finished "
 													}
 												]
 											}
@@ -1029,19 +1420,22 @@
 											"default": {
 												"transitions": [
 													{
-														"forest_night_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day<0.25 || query.time_of_day>0.75"
+														"forest_night_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day<0.25 || query.time_of_day>0.75 && query.position(1)>35"
 													},
 													{
-														"forest_day_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day>0.25 || query.time_of_day<0.75"
+														"forest_day_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day>0.25 || query.time_of_day<0.75 &&  query.position(1)>35"
 													},
 													{
-														"desert_music": "query.biome_has_any_tag('purity_desert')"
+														"desert_music": "query.biome_has_any_tag('purity_desert') &&  query.position(1)>35"
 													},
 													{
-														"jungle_music": "query.biome_has_any_tag('purity_jungle')"
+														"jungle_music": "query.biome_has_any_tag('purity_jungle') &&  query.position(1)>35"
 													},
 													{
-														"corruption_music": "query.biome_has_any_tag('corruption')"
+														"corruption_music": "query.biome_has_any_tag('corruption') &&  query.position(1)>35"
+													},
+													{
+														"underground_music": "query.position(1)<35"
 													}
 												],
 												"on_entry": [
@@ -1054,7 +1448,7 @@
 												],
 												"transitions": [
 													{
-														"default": "!query.biome_has_any_tag('purity_forest') && query.all_animations_finished"
+														"default": "!query.biome_has_any_tag('purity_forest') || query.position(1)<35 && query.all_animations_finished "
 													}
 												]
 											},
@@ -1064,7 +1458,7 @@
 												],
 												"transitions": [
 													{
-														"default": "!query.biome_has_any_tag('purity_forest') && query.all_animations_finished"
+														"default": "!query.biome_has_any_tag('purity_forest') || query.position(1)<35 && query.all_animations_finished "
 													}
 												]
 											},
@@ -1074,7 +1468,7 @@
 												],
 												"transitions": [
 													{
-														"default": "!query.biome_has_any_tag('corruption') && query.all_animations_finished"
+														"default": "!query.biome_has_any_tag('corruption') || query.position(1)<35 && query.all_animations_finished "
 													}
 												]
 											},
@@ -1094,7 +1488,17 @@
 												],
 												"transitions": [
 													{
-														"default": "!query.biome_has_any_tag('purity_desert') && query.all_animations_finished"
+														"default": "!query.biome_has_any_tag('purity_desert') || query.position(1)<35 && query.all_animations_finished "
+													}
+												]
+											},
+											"underground_music": {
+												"on_entry": [
+													"/music play underground 1 1 loop"
+												],
+												"transitions": [
+													{
+														"default": "query.position(1)>35 && query.all_animations_finished "
 													}
 												]
 											}
@@ -1108,7 +1512,7 @@
 													],
 													"transitions": [
 														{
-															"default": "!query.biome_has_any_tag('purity_desert') && query.all_animations_finished"
+															"default": "!query.biome_has_any_tag('purity_desert') || query.position(1)<35 && query.all_animations_finished "
 														}
 													]
 												},
@@ -1119,11 +1523,170 @@
 												]
 											},
 											{
+												"open": {
+													"on_entry": [
+														"/music play desert 1 1 loop"
+													],
+													"transitions": [
+														{
+															"default": "!query.biome_has_any_tag('purity_desert') || query.position(1)<35 && query.all_animations_finished "
+														}
+													]
+												},
 												"key": "transitions",
-												"is_minified": true,
 												"children": [
 													{
-														"default": "!query.biome_has_any_tag('purity_desert') && query.all_animations_finished"
+														"open": [
+															{
+																"default": "!query.biome_has_any_tag('purity_desert') || query.position(1)<35 && query.all_animations_finished "
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"default": "!query.biome_has_any_tag('purity_desert') || query.position(1)<35 && query.all_animations_finished "
+														}
+													}
+												]
+											}
+										]
+									},
+									{
+										"open": {
+											"wait": {
+												"transitions": [
+													{
+														"default": "query.life_time>10"
+													}
+												]
+											},
+											"default": {
+												"transitions": [
+													{
+														"forest_night_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day<0.25 || query.time_of_day>0.75 && query.position(1)>35"
+													},
+													{
+														"forest_day_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day>0.25 || query.time_of_day<0.75 &&  query.position(1)>35"
+													},
+													{
+														"desert_music": "query.biome_has_any_tag('purity_desert') &&  query.position(1)>35"
+													},
+													{
+														"jungle_music": "query.biome_has_any_tag('purity_jungle') &&  query.position(1)>35"
+													},
+													{
+														"corruption_music": "query.biome_has_any_tag('corruption') &&  query.position(1)>35"
+													},
+													{
+														"underground_music": "query.position(1)<35"
+													}
+												],
+												"on_entry": [
+													"/stopsound @s"
+												]
+											},
+											"forest_day_music": {
+												"on_entry": [
+													"/music play dayone 1 1 loop"
+												],
+												"transitions": [
+													{
+														"default": "!query.biome_has_any_tag('purity_forest') || query.position(1)<35 && query.all_animations_finished "
+													}
+												]
+											},
+											"forest_night_music": {
+												"on_entry": [
+													"/music play night 1 1 loop"
+												],
+												"transitions": [
+													{
+														"default": "!query.biome_has_any_tag('purity_forest') || query.position(1)<35 && query.all_animations_finished "
+													}
+												]
+											},
+											"corruption_music": {
+												"on_entry": [
+													"/music play corruption 1 1 loop"
+												],
+												"transitions": [
+													{
+														"default": "!query.biome_has_any_tag('corruption') || query.position(1)<35 && query.all_animations_finished "
+													}
+												]
+											},
+											"jungle_music": {
+												"on_entry": [
+													"/music play jungle 1 1 loop"
+												],
+												"transitions": [
+													{
+														"default": "!query.biome_has_any_tag('purity_jungle') && query.all_animations_finished"
+													}
+												]
+											},
+											"desert_music": {
+												"on_entry": [
+													"/music play desert 1 1 loop"
+												],
+												"transitions": [
+													{
+														"default": "!query.biome_has_any_tag('purity_desert') || query.position(1)<35 && query.all_animations_finished "
+													}
+												]
+											},
+											"underground_music": {
+												"on_entry": [
+													"/music play underground 1 1 loop"
+												],
+												"transitions": [
+													{
+														"default": "query.position(1)>35 && query.all_animations_finished "
+													}
+												]
+											}
+										},
+										"key": "underground_music",
+										"children": [
+											{
+												"open": {
+													"on_entry": [
+														"/music play underground 1 1 loop"
+													],
+													"transitions": [
+														{
+															"default": "query.position(1)>35 && query.all_animations_finished "
+														}
+													]
+												},
+												"key": "on_entry",
+												"is_minified": true,
+												"children": [
+													"/music play underground 1 1 loop"
+												]
+											},
+											{
+												"open": {
+													"on_entry": [
+														"/music play underground 1 1 loop"
+													],
+													"transitions": [
+														{
+															"default": "query.position(1)>35 && query.all_animations_finished "
+														}
+													]
+												},
+												"key": "transitions",
+												"children": [
+													{
+														"open": [
+															{
+																"default": "query.position(1)>35 && query.all_animations_finished "
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"default": "query.position(1)>35 && query.all_animations_finished "
+														}
 													}
 												]
 											}

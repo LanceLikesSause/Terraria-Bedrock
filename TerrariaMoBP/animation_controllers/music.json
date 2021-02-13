@@ -1,4 +1,4 @@
-//bridge-file-version: #142
+//bridge-file-version: #153
 {
 	"format_version": "1.10.0",
 	"animation_controllers": {
@@ -15,19 +15,22 @@
 				"default": {
 					"transitions": [
 						{
-							"forest_night_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day<0.25 || query.time_of_day>0.75"
+							"forest_night_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day<0.25 || query.time_of_day>0.75 && query.position(1)>35"
 						},
 						{
-							"forest_day_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day>0.25 || query.time_of_day<0.75"
+							"forest_day_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day>0.25 || query.time_of_day<0.75 &&  query.position(1)>35"
 						},
 						{
-							"desert_music": "query.biome_has_any_tag('purity_desert')"
+							"desert_music": "query.biome_has_any_tag('purity_desert') &&  query.position(1)>35"
 						},
 						{
-							"jungle_music": "query.biome_has_any_tag('purity_jungle')"
+							"jungle_music": "query.biome_has_any_tag('purity_jungle') &&  query.position(1)>35"
 						},
 						{
-							"corruption_music": "query.biome_has_any_tag('corruption')"
+							"corruption_music": "query.biome_has_any_tag('corruption') &&  query.position(1)>35"
+						},
+						{
+							"underground_music": "query.position(1)<35"
 						}
 					],
 					"on_entry": [
@@ -40,7 +43,7 @@
 					],
 					"transitions": [
 						{
-							"default": "!query.biome_has_any_tag('purity_forest') && query.all_animations_finished"
+							"default": "!query.biome_has_any_tag('purity_forest') || query.position(1)<35 && query.all_animations_finished "
 						}
 					]
 				},
@@ -50,7 +53,7 @@
 					],
 					"transitions": [
 						{
-							"default": "!query.biome_has_any_tag('purity_forest') && query.all_animations_finished"
+							"default": "!query.biome_has_any_tag('purity_forest') || query.position(1)<35 && query.all_animations_finished "
 						}
 					]
 				},
@@ -60,7 +63,7 @@
 					],
 					"transitions": [
 						{
-							"default": "!query.biome_has_any_tag('corruption') && query.all_animations_finished"
+							"default": "!query.biome_has_any_tag('corruption') || query.position(1)<35 && query.all_animations_finished "
 						}
 					]
 				},
@@ -80,7 +83,17 @@
 					],
 					"transitions": [
 						{
-							"default": "!query.biome_has_any_tag('purity_desert') && query.all_animations_finished"
+							"default": "!query.biome_has_any_tag('purity_desert') || query.position(1)<35 && query.all_animations_finished "
+						}
+					]
+				},
+				"underground_music": {
+					"on_entry": [
+						"/music play underground 1 1 loop"
+					],
+					"transitions": [
+						{
+							"default": "query.position(1)>35 && query.all_animations_finished "
 						}
 					]
 				}

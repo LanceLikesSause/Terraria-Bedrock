@@ -1,11 +1,11 @@
-//bridge-file-version: #10
+//bridge-file-version: #11
 {
 	"format_version": "1.13.0",
 	"minecraft:ore_feature": {
 		"description": {
 			"identifier": "minecraft:lava_feature"
 		},
-		"count": 90,
+		"count": 30,
 		"places_block": "minecraft:lava",
 		"may_replace": [
 			{

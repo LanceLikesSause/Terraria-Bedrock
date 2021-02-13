@@ -2,6 +2,7 @@
 {
 	"format_version": "1.14.0",
 	"sound_definitions": {
+
 		"bookofskulls.effect": {
 			"category": "neutral",
 			"sounds": [
@@ -336,6 +337,36 @@
 			"category": "music",
 			"sounds": [
 				"sounds/effects/loz"
+			]
+		},
+		"dayone": {
+			"category": "music",
+			"sounds": [
+				"sounds/music/day1"
+			]
+		},
+		"night": {
+			"category": "music",
+			"sounds": [
+				"sounds/music/night"
+			]
+		},
+		"jungle": {
+			"category": "music",
+			"sounds": [
+				"sounds/music/jungle"
+			]
+		},
+		"desert": {
+			"category": "music",
+			"sounds": [
+				"sounds/music/desert"
+			]
+		},
+		"corruption": {
+			"category": "music",
+			"sounds": [
+				"sounds/music/corruption"
 			]
 		}
 	}

@@ -1,4 +1,4 @@
-//bridge-file-version: #36
+//bridge-file-version: #37
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
@@ -30,7 +30,8 @@
 						"summon terrariamod:queenbee",
 						"stopsound @a eyeofcthulhu.music",
 						"playsound eyeofcthulhu.music @a",
-						"tellraw @a {\"rawtext\":[{\"text\":\"§4The Queen Bee\"},{\"text\":\"§r has awoken!\"}]}"
+						"tellraw @a {\"rawtext\":[{\"text\":\"§4The Queen Bee\"},{\"text\":\"§r has awoken!\"}]}",
+						"clear @s terrariamod:abeemination 0 1"
 					]
 				}
 			}

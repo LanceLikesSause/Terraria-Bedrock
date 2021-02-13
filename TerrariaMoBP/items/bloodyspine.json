@@ -1,4 +1,4 @@
-//bridge-file-version: #19
+//bridge-file-version: #20
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
@@ -30,7 +30,8 @@
 						"summon terrariamod:brainofcthulhu_stageone",
 						"stopsound @a eyeofcthulhu.music",
 						"playsound eyeofcthulhu.music @a",
-						"tellraw @a {\"rawtext\":[{\"text\":\"§4The Brain of Cthluhu \"},{\"text\":\"§r has awoken!\"}]}"
+						"tellraw @a {\"rawtext\":[{\"text\":\"§4The Brain of Cthluhu \"},{\"text\":\"§r has awoken!\"}]}",
+						"clear @s terrariamod:bloodyspine 0 1"
 					]
 				}
 			}

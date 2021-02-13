@@ -1,4 +1,4 @@
-//bridge-file-version: #10
+//bridge-file-version: #14
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
@@ -29,7 +29,8 @@
 						"summon terrariamod:kingslime",
 						"stopsound @a eyeofcthulhu.music",
 						"playsound eyeofcthulhu.music @a",
-						"tellraw @a {\"rawtext\":[{\"text\":\"§4The King Slime\"},{\"text\":\"§r has awoken!\"}]}"
+						"tellraw @a {\"rawtext\":[{\"text\":\"§4The King Slime\"},{\"text\":\"§r has awoken!\"}]}",
+						"clear @s terrariamod:slimecrown 0 1"
 					]
 				}
 			}

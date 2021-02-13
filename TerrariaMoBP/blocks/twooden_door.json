@@ -1,4 +1,4 @@
-//bridge-file-version: #163
+//bridge-file-version: #168
 {
 	"format_version": "1.16.100",
 	"minecraft:block": {
@@ -18,12 +18,15 @@
 			"minecraft:material_instances": {
 				"*": {
 					"texture": "twooden_door",
-					"render_method": "blend"
+					"render_method": "opaque"
 				}
 			},
 			"minecraft:loot": "loot_tables/blocks/twooden_door.json",
 			"minecraft:block_light_absorption": 0,
-			"minecraft:block_light_emission": 0
+			"minecraft:block_light_emission": 0,
+			"minecraft:on_player_destroyed": {
+				"event": "terrariamod:destroy_door"
+			}
 		},
 		"permutations": [
 			{
@@ -108,7 +111,8 @@
 				},
 				"run_command": {
 					"command": [
-						"playsound twooden_door_open.effect @p ~~~"
+						"playsound twooden_door_open.effect @p ~~~",
+						"setblock ~ ~1 ~ barrier"
 					]
 				}
 			},
@@ -118,7 +122,15 @@
 				},
 				"run_command": {
 					"command": [
-						"playsound twooden_door_close.effect @p ~~~"
+						"playsound twooden_door_close.effect @p ~~~",
+						"setblock ~ ~1 ~ air"
+					]
+				}
+			},
+			"terrariamod:destroy_door": {
+				"run_command": {
+					"command": [
+						"setblock ~ ~1 ~ air"
 					]
 				}
 			}

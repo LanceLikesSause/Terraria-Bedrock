@@ -1,4 +1,4 @@
-//bridge-file-version: #8
+//bridge-file-version: #9
 {
 	"format_version": "1.13.0",
 	"minecraft:entity": {
@@ -148,9 +148,33 @@
 				],
 				"height_change_chance": 350,
 				"goal_radius": 1
+			},
+			"minecraft:environment_sensor": {
+				"triggers": {
+					"filters": {
+						"test": "has_biome_tag",
+						"operator": "!=",
+						"value": "crimson"
+					},
+					"event": "terrariamod:despawn_entity"
+				}
 			}
 		},
-		"component_groups": {},
-		"events": {}
+		"component_groups": {
+			"terrariamod:despawn": {
+				"minecraft:instant_despawn": {
+					"remove_child_entities": true
+				}
+			}
+		},
+		"events": {
+			"terrariamod:despawn_entity": {
+				"add": {
+					"component_groups": [
+						"terrariamod:despawn"
+					]
+				}
+			}
+		}
 	}
 }

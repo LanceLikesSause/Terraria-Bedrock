@@ -1,4 +1,4 @@
-//bridge-file-version: #22
+//bridge-file-version: #29
 {
 	"format_version": "1.13.0",
 	"minecraft:feature_rules": {
@@ -18,7 +18,7 @@
 					]
 				}
 			],
-			"placement_pass": "after_underground_pass"
+			"placement_pass": "before_underground_pass"
 		},
 		"distribution": {
 			"iterations": 17,
@@ -34,7 +34,7 @@
 				"distribution": "uniform",
 				"extent": [
 					0,
-					128
+					60
 				]
 			},
 			"z": {

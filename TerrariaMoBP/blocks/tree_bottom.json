@@ -1,4 +1,4 @@
-//bridge-file-version: #6
+//bridge-file-version: #7
 {
 	"format_version": "1.16.100",
 	"minecraft:block": {
@@ -21,6 +21,15 @@
 			"tag:terrariamod:wood": {},
 			"minecraft:on_player_destroyed": {
 				"event": "terrariamod:destroy_tree"
+			},
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"block_filter": [
+							"terrariamod:purity_grass"
+						]
+					}
+				]
 			}
 		},
 		"events": {

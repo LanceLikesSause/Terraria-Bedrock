@@ -1,4 +1,4 @@
-//bridge-file-version: #20
+//bridge-file-version: #21
 {
 	"pools": [
 		{
@@ -228,6 +228,28 @@
 							"count": {
 								"min": 25,
 								"max": 50
+							}
+						},
+						{
+							"conditions": [
+								{
+									"condition": "random_chance",
+									"chance": 0.3
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "terrariamod:recallpotion",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 6
 							}
 						},
 						{

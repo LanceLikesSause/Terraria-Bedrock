@@ -1,4 +1,4 @@
-//bridge-file-version: #26
+//bridge-file-version: #30
 {
 	"format_version": "1.16.0",
 	"minecraft:entity": {
@@ -143,9 +143,33 @@
 					"max_distance": 50,
 					"min_distance": 30
 				}
+			},
+			"minecraft:environment_sensor": {
+				"triggers": {
+					"filters": {
+						"test": "has_biome_tag",
+						"operator": "!=",
+						"value": "purity_desert"
+					},
+					"event": "terrariamod:despawn_entity"
+				}
 			}
 		},
-		"component_groups": {},
-		"events": {}
+		"component_groups": {
+			"terrariamod:desert_group": {
+				"minecraft:instant_despawn": {
+					"remove_child_entities": true
+				}
+			}
+		},
+		"events": {
+			"terrariamod:despawn_entity": {
+				"add": {
+					"component_groups": [
+						"terrariamod:desert_group"
+					]
+				}
+			}
+		}
 	}
 }

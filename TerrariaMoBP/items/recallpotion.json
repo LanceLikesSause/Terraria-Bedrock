@@ -1,0 +1,40 @@
+//bridge-file-version: #6
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "terrariamod:recallpotion",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:display_name": {
+				"value": "Recall Potion\n§9Teleports you home"
+			},
+			"minecraft:creative_category": {
+				"parent": "equipment"
+			},
+			"minecraft:use_animation": "drink",
+			"minecraft:use_duration": 0.3,
+			"minecraft:food": {
+				"on_consume": {
+					"event": "terrariamod:tp_to_player"
+				},
+				"can_always_eat": true
+			},
+			"minecraft:icon": {
+				"texture": "terrariamod:recallpotion"
+			}
+		},
+		"events": {
+			"terrariamod:tp_to_player": {
+				"run_command": {
+					"command": [
+						"playsound effect.magicmirror @s ~~~",
+						"tp @s @e[type=terrariamod:purity_bed] true",
+						"particle terrariamod:magicmirror_effect ~~~"
+					]
+				}
+			}
+		}
+	}
+}

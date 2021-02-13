@@ -1,4 +1,4 @@
-//bridge-file-version: #10
+//bridge-file-version: #11
 {
 	"format_version": "1.16.100",
 	"minecraft:block": {
@@ -21,6 +21,15 @@
 			"tag:terrariamod:wood": {},
 			"minecraft:on_player_destroyed": {
 				"event": "terrariamod:destroy_tree"
+			},
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"block_filter": [
+							"terrariamod:snow_grass"
+						]
+					}
+				]
 			}
 		},
 		"events": {

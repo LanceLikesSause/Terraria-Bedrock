@@ -1,7 +1,21 @@
-//bridge-file-version: #4
+//bridge-file-version: #5
 {
 	"pools": [
 		{
+			"4": {
+				"type": "item",
+				"weight": 1,
+				"name": "terrariamod:recallpotion",
+				"functions": [
+					{
+						"function": "set_count",
+						"count": {
+							"min": 0,
+							"max": 1
+						}
+					}
+				]
+			},
 			"rolls": 1,
 			"entries": [
 				{

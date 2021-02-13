@@ -1,4 +1,4 @@
-//bridge-file-version: #9
+//bridge-file-version: #11
 {
 	"format_version": "1.13.0",
 	"minecraft:feature_rules": {
@@ -7,7 +7,6 @@
 			"places_feature": "minecraft:purity_tall_grass_feature"
 		},
 		"conditions": {
-			"placement_pass": "surface_pass",
 			"minecraft:biome_filter": [
 				{
 					"test": "has_biome_tag",
@@ -19,7 +18,8 @@
 					"operator": "==",
 					"value": "purity"
 				}
-			]
+			],
+			"placement_pass": "surface_pass"
 		},
 		"distribution": {
 			"iterations": 6,

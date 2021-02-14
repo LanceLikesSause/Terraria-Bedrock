@@ -2483,6 +2483,76 @@
 						}
 					}
 				}
+			},
+			"874a7534_d9e0_4a11_9491_2af8fefdcfe3": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"ecad566d_be8b_4245_87bc_a6f050560c24": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"60628500_4132_466d_870b_1f10188dbe2b": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"75263694_9a36_42cb_955a_563b0040da99": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"719a5246_203a_4f18_93e0_dec1b505cc5d": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"0c17af89_579b_47da_82f9_f99daafd9903": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"ec737db8_63b9_4ccf_bea8_76e4ef80dc88": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
 			}
 		}
 	},
@@ -2945,13 +3015,7 @@
 	"BP/entities/eaterofsouls.json": {
 		"data": {}
 	},
-	"BP/items/acorn.json": {
-		"data": {}
-	},
 	"BP/blocks/sapling.json": {
-		"data": {}
-	},
-	"BP/blocks/purity_sapling.json": {
 		"data": {}
 	},
 	"BP/biomes/flower_forest.biome.json": {
@@ -4341,6 +4405,66 @@
 		"data": {}
 	},
 	"BP/animation_controllers/music.json": {
+		"data": {}
+	},
+	"BP/blocks/purity_forest_sapling.json": {
+		"data": {}
+	},
+	"BP/blocks/purity_desert_sapling.json": {
+		"data": {}
+	},
+	"BP/blocks/purity_snow_sapling.json": {
+		"data": {}
+	},
+	"BP/blocks/purity_jungle_sapling.json": {
+		"data": {}
+	},
+	"BP/blocks/corruption_sapling.json": {
+		"data": {}
+	},
+	"BP/blocks/crimson_sapling.json": {
+		"data": {}
+	},
+	"BP/items/purity_forest_acorn.json": {
+		"data": {}
+	},
+	"BP/items/purity_desert_acorn.json": {
+		"data": {}
+	},
+	"BP/items/purity_snow_acorn.json": {
+		"data": {}
+	},
+	"BP/items/purity_jungle_acorn.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/corruption_tree_top.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/crimson_tree_top.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/jungle_tree_top.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/purity_tree_top.json": {
+		"data": {}
+	},
+	"BP/items/corruption_acorn.json": {
+		"data": {}
+	},
+	"BP/items/crimson_acorn.json": {
+		"data": {}
+	},
+	"BP/blocks/tree_top_corruption.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/jungle_wood.json": {
+		"data": {}
+	},
+	"BP/spawn_rules/antlion.json": {
+		"data": {}
+	},
+	"BP/loot_tables/entities/antlion.json": {
 		"data": {}
 	}
 }

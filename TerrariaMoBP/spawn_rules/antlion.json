@@ -1,0 +1,28 @@
+//bridge-file-version: #11
+{
+	"format_version": "1.8.0",
+	"minecraft:spawn_rules": {
+		"description": {
+			"identifier": "terrariamod:antlion",
+			"population_control": "animal"
+		},
+		"conditions": [
+			{
+				"minecraft:spawns_on_surface": {},
+				"minecraft:spawns_underground": {},
+				"minecraft:weight": {
+					"default": 900000
+				},
+				"minecraft:herd": {
+					"min_size": 1,
+					"max_size": 3
+				},
+				"minecraft:biome_filter": {
+					"test": "has_biome_tag",
+					"operator": "==",
+					"value": "purity_desert"
+				}
+			}
+		]
+	}
+}

@@ -1,9 +1,9 @@
-//bridge-file-version: #53
+//bridge-file-version: #57
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
 		"description": {
-			"identifier": "terrariamod:acorn",
+			"identifier": "terrariamod:purity_desert_acorn",
 			"category": "nature"
 		},
 		"components": {
@@ -15,12 +15,12 @@
 				"texture": "terrariamod:acorn"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:acorn.name"
+				"value": "Acorn §9Desert"
 			},
 			"minecraft:use_animation": "eat",
 			"minecraft:block_placer": {
-				"block": "terrariamod:purity_sapling",
-				"use_block_description": false
+				"use_block_description": false,
+				"block": "terrariamod:purity_desert_sapling"
 			},
 			"minecraft:creative_category": {
 				"parent": "nature"

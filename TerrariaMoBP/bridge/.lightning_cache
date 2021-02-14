@@ -590,17 +590,6 @@
 			"custom_commands": [],
 			"custom_components": []
 		},
-		"BP/blocks/purity_sapling.json": {
-			"identifiers": [
-				"terrariamod:purity_sapling"
-			],
-			"events": [
-				"terrariamod:grow"
-			],
-			"recipe_tags": [],
-			"custom_components": [],
-			"custom_commands": []
-		},
 		"BP/blocks/underworld_transporter.json": {
 			"identifiers": [
 				"terrariamod:underworld_transporter"
@@ -1178,6 +1167,81 @@
 			"recipe_tags": [],
 			"custom_commands": [],
 			"custom_components": []
+		},
+		"BP/blocks/purity_forest_sapling.json": {
+			"identifiers": [
+				"terrariamod:corruption_sapling"
+			],
+			"events": [
+				"terrariamod:grow"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/purity_desert_sapling.json": {
+			"identifiers": [
+				"terrariamod:corruption_sapling"
+			],
+			"events": [
+				"terrariamod:grow"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/purity_snow_sapling.json": {
+			"identifiers": [
+				"terrariamod:corruption_sapling"
+			],
+			"events": [
+				"terrariamod:grow"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/purity_jungle_sapling.json": {
+			"identifiers": [
+				"terrariamod:corruption_sapling"
+			],
+			"events": [
+				"terrariamod:grow"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/corruption_sapling.json": {
+			"identifiers": [
+				"terrariamod:corruption_sapling"
+			],
+			"events": [
+				"terrariamod:grow"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/crimson_sapling.json": {
+			"identifiers": [
+				"terrariamod:corruption_sapling"
+			],
+			"events": [
+				"terrariamod:grow"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/tree_top_corruption.json": {
+			"identifiers": [
+				"terrariamod:tree_top_corruption"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
 		}
 	},
 	"entity": {
@@ -1378,7 +1442,8 @@
 			"animation_references": [
 				"mana",
 				"health",
-				"lifecrystal"
+				"lifecrystal",
+				"music"
 			],
 			"families": [
 				"player"
@@ -2684,7 +2749,15 @@
 		"401a384f_fdcb_4618_bfce_3d5966ec778c": {},
 		"e2fc332f_bbde_4358_b21c_0cfbe580d128": {},
 		"4c178cfc_2003_4827_8d31_96e50c9fa23c": {},
-		"eba6c0f6_5c8d_4d17_95d5_2fc0cff0c070": {}
+		"eba6c0f6_5c8d_4d17_95d5_2fc0cff0c070": {},
+		"8c684778_ec71_45f0_935b_0eff8cdd412c": {},
+		"437148ea_e046_4409_bd11_ba1c2d98e215": {},
+		"5d5d9d16_d9ea_4ad5_a82d_d198c6f44ed5": {},
+		"f3e163bc_a279_43ae_b71c_4e8d55c8f556": {},
+		"e4a74921_2d0b_40c3_ad66_a96d15dd8be2": {},
+		"3bb5c93a_22cf_4183_9ec3_388dfaa7cf00": {},
+		"d30b13cf_1d17_4b39_bdf3_206f7687383d": {},
+		"ec737db8_63b9_4ccf_bea8_76e4ef80dc88": {}
 	},
 	"rp_animation_controller": {
 		"RP/animation_controllers/devourer.animation.controller.json": {
@@ -4963,12 +5036,6 @@
 		}
 	},
 	"item": {
-		"BP/items/acorn.json": {
-			"identifiers": [
-				"terrariamod:acorn"
-			],
-			"custom_commands": []
-		},
 		"BP/items/suspiciouslookingeye.json": {
 			"identifiers": [
 				"terrariamod:suspiciouslookingeye"
@@ -5902,6 +5969,42 @@
 		"BP/items/recallpotion.json": {
 			"identifiers": [
 				"terrariamod:recallpotion"
+			],
+			"custom_commands": []
+		},
+		"BP/items/purity_forest_acorn.json": {
+			"identifiers": [
+				"terrariamod:crimson_acorn"
+			],
+			"custom_commands": []
+		},
+		"BP/items/purity_desert_acorn.json": {
+			"identifiers": [
+				"terrariamod:crimson_acorn"
+			],
+			"custom_commands": []
+		},
+		"BP/items/purity_snow_acorn.json": {
+			"identifiers": [
+				"terrariamod:crimson_acorn"
+			],
+			"custom_commands": []
+		},
+		"BP/items/purity_jungle_acorn.json": {
+			"identifiers": [
+				"terrariamod:crimson_acorn"
+			],
+			"custom_commands": []
+		},
+		"BP/items/corruption_acorn.json": {
+			"identifiers": [
+				"terrariamod:crimson_acorn"
+			],
+			"custom_commands": []
+		},
+		"BP/items/crimson_acorn.json": {
+			"identifiers": [
+				"terrariamod:crimson_acorn"
 			],
 			"custom_commands": []
 		}

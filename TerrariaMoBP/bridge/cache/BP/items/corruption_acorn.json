@@ -1,0 +1,211 @@
+{
+	"file_path": "C:\\Users\\LANCE.LEGAUX\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\TerrariaMoBP\\items\\corruption_acorn.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "0c17af89_579b_47da_82f9_f99daafd9903",
+	"file_version": 60,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "terrariamod:corruption_acorn",
+							"category": "nature"
+						},
+						"components": {
+							"minecraft:stacked_by_data": true,
+							"minecraft:max_stack_size": 64,
+							"minecraft:use_duration": 1,
+							"minecraft:hand_equipped": true,
+							"minecraft:icon": {
+								"texture": "terrariamod:acorn"
+							},
+							"minecraft:display_name": {
+								"value": "Acorn §9Corruption"
+							},
+							"minecraft:use_animation": "eat",
+							"minecraft:block_placer": {
+								"use_block_description": false,
+								"block": "terrariamod:corruption_sapling"
+							},
+							"minecraft:creative_category": {
+								"parent": "nature"
+							}
+						},
+						"events": {}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:corruption_acorn",
+								"category": "nature"
+							},
+							"components": {
+								"minecraft:stacked_by_data": true,
+								"minecraft:max_stack_size": 64,
+								"minecraft:use_duration": 1,
+								"minecraft:hand_equipped": true,
+								"minecraft:icon": {
+									"texture": "terrariamod:acorn"
+								},
+								"minecraft:display_name": {
+									"value": "Acorn §9Corruption"
+								},
+								"minecraft:use_animation": "eat",
+								"minecraft:block_placer": {
+									"use_block_description": false,
+									"block": "terrariamod:corruption_sapling"
+								},
+								"minecraft:creative_category": {
+									"parent": "nature"
+								}
+							},
+							"events": {}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:corruption_acorn",
+							"category": "nature"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:corruption_acorn",
+								"category": "nature"
+							},
+							"components": {
+								"minecraft:stacked_by_data": true,
+								"minecraft:max_stack_size": 64,
+								"minecraft:use_duration": 1,
+								"minecraft:hand_equipped": true,
+								"minecraft:icon": {
+									"texture": "terrariamod:acorn"
+								},
+								"minecraft:display_name": {
+									"value": "Acorn §9Corruption"
+								},
+								"minecraft:use_animation": "eat",
+								"minecraft:block_placer": {
+									"use_block_description": false,
+									"block": "terrariamod:corruption_sapling"
+								},
+								"minecraft:creative_category": {
+									"parent": "nature"
+								}
+							},
+							"events": {}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "true",
+								"key": "minecraft:stacked_by_data"
+							},
+							{
+								"data": "64",
+								"key": "minecraft:max_stack_size"
+							},
+							{
+								"data": "1",
+								"key": "minecraft:use_duration"
+							},
+							{
+								"data": "true",
+								"key": "minecraft:hand_equipped"
+							},
+							{
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "terrariamod:acorn"
+								}
+							},
+							{
+								"open": {
+									"minecraft:stacked_by_data": true,
+									"minecraft:max_stack_size": 64,
+									"minecraft:use_duration": 1,
+									"minecraft:hand_equipped": true,
+									"minecraft:icon": {
+										"texture": "terrariamod:acorn"
+									},
+									"minecraft:display_name": {
+										"value": "Acorn §9Corruption"
+									},
+									"minecraft:use_animation": "eat",
+									"minecraft:block_placer": {
+										"use_block_description": false,
+										"block": "terrariamod:corruption_sapling"
+									},
+									"minecraft:creative_category": {
+										"parent": "nature"
+									}
+								},
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "Acorn §9Corruption"
+								}
+							},
+							{
+								"data": "eat",
+								"key": "minecraft:use_animation"
+							},
+							{
+								"open": {
+									"minecraft:stacked_by_data": true,
+									"minecraft:max_stack_size": 64,
+									"minecraft:use_duration": 1,
+									"minecraft:hand_equipped": true,
+									"minecraft:icon": {
+										"texture": "terrariamod:acorn"
+									},
+									"minecraft:display_name": {
+										"value": "Acorn §9Corruption"
+									},
+									"minecraft:use_animation": "eat",
+									"minecraft:block_placer": {
+										"use_block_description": false,
+										"block": "terrariamod:corruption_sapling"
+									},
+									"minecraft:creative_category": {
+										"parent": "nature"
+									}
+								},
+								"key": "minecraft:block_placer",
+								"is_minified": true,
+								"children": {
+									"use_block_description": false,
+									"block": "terrariamod:corruption_sapling"
+								}
+							},
+							{
+								"key": "minecraft:creative_category",
+								"is_minified": true,
+								"children": {
+									"parent": "nature"
+								}
+							}
+						]
+					},
+					{
+						"key": "events",
+						"is_minified": true,
+						"children": {}
+					}
+				]
+			}
+		]
+	}
+}

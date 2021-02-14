@@ -1,4 +1,4 @@
-//bridge-file-version: #2
+//bridge-file-version: #6
 {
 	"pools": [
 		{
@@ -8,6 +8,31 @@
 					"type": "item",
 					"weight": 1,
 					"name": "terrariamod:cactus_block",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 1
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"conditions": [
+				{
+					"condition": "random_chance",
+					"chance": 0.5
+				}
+			],
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "terrariamod:purity_desert_acorn",
 					"functions": [
 						{
 							"function": "set_count",

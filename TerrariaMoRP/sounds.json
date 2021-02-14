@@ -222,6 +222,30 @@
 					}
 				}
 			},
+			"terrariamod:frozenzombie": {
+				"volume": 1,
+				"pitch": [
+					0.9,
+					1
+				],
+				"events": {
+					"hurt": {
+						"sound": "zombie_terraria.hurt",
+						"volume": 1,
+						"pitch": 1.1
+					},
+					"ambient": {
+						"sound": "zombie_terraria.ambient",
+						"volume": 1,
+						"pitch": 1.1
+					},
+					"death": {
+						"sound": "zombie_terraria.death",
+						"volume": 1,
+						"pitch": 0.9
+					}
+				}
+			},
 			"terrariamod:dungeonslime": {
 				"volume": 1,
 				"pitch": [
@@ -510,6 +534,30 @@
 					}
 				}
 			},
+			"terrariamod:iceslime": {
+				"volume": 1,
+				"pitch": [
+					0.9,
+					1
+				],
+				"events": {
+					"hurt": {
+						"sound": "slime.hurt",
+						"volume": 1,
+						"pitch": 1.1
+					},
+					"ambient": {
+						"sound": "slime.ambient",
+						"volume": 1,
+						"pitch": 1.1
+					},
+					"death": {
+						"sound": "slime.death",
+						"volume": 1,
+						"pitch": 0.9
+					}
+				}
+			},
 			"terrariamod:eyeofcthulhu_stageone": {
 				"volume": 1,
 				"pitch": [
@@ -707,7 +755,12 @@
 						"pitch": 0.9
 					}
 				}
-			}
+			},
+			 "pop" : {
+				"pitch" : [ 1, 1 ],
+				"sound" : "random.pop",
+				"volume" : 6
+			 }
 		}
 	}
 }

@@ -1,4 +1,4 @@
-//bridge-file-version: #2
+//bridge-file-version: #3
 {
 	"pools": [
 		{
@@ -7,7 +7,7 @@
 				{
 					"type": "item",
 					"weight": 1,
-					"name": "terrariamod:acorn",
+					"name": "terrariamod:purity_snow_acorn",
 					"functions": [
 						{
 							"function": "set_count",

@@ -1,4 +1,4 @@
-//bridge-file-version: #0
+//bridge-file-version: #1
 {
 	"pools": [
 		{
@@ -7,7 +7,7 @@
 				{
 					"type": "item",
 					"weight": 1,
-					"name": "terrariamod:acorn",
+					"name": "terrariamod:crimson_acorn",
 					"functions": [
 						{
 							"function": "set_count",

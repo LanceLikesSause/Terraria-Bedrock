@@ -1,4 +1,4 @@
-//bridge-file-version: #9
+//bridge-file-version: #10
 {
 	"format_version": "1.16.200",
 	"minecraft:entity": {
@@ -50,9 +50,6 @@
 			},
 			"minecraft:attack": {
 				"damage": 10
-			},
-			"minecraft:loot": {
-				"table": "loot_tables/entities/angrybones.json"
 			},
 			"minecraft:despawn": {
 				"despawn_from_distance": {}
@@ -168,6 +165,9 @@
 				"attack_interval_min": 1,
 				"attack_interval_max": 3,
 				"attack_radius": 15
+			},
+			"minecraft:loot": {
+				"table": "loot_tables/entities/antlion.json"
 			}
 		}
 	}

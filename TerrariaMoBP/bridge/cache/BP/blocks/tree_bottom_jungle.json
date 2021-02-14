@@ -3,7 +3,7 @@
 	"file_type": "block",
 	"format_version": 1,
 	"file_uuid": "4c178cfc_2003_4827_8d31_96e50c9fa23c",
-	"file_version": 5,
+	"file_version": 6,
 	"cache_content": {
 		"children": [
 			{
@@ -39,7 +39,7 @@
 							"terrariamod:destroy_tree": {
 								"run_command": {
 									"command": [
-										"fill ~ ~ ~ ~ ~7 ~ air 0 destroy"
+										"fill ~ ~ ~ ~ ~8 ~ air 0 destroy"
 									]
 								}
 							}
@@ -82,7 +82,7 @@
 								"terrariamod:destroy_tree": {
 									"run_command": {
 										"command": [
-											"fill ~ ~ ~ ~ ~7 ~ air 0 destroy"
+											"fill ~ ~ ~ ~ ~8 ~ air 0 destroy"
 										]
 									}
 								}
@@ -110,17 +110,79 @@
 						}
 					},
 					{
-						"key": "events",
-						"is_minified": true,
-						"children": {
-							"terrariamod:destroy_tree": {
-								"run_command": {
-									"command": [
-										"fill ~ ~ ~ ~ ~7 ~ air 0 destroy"
-									]
+						"open": {
+							"description": {
+								"identifier": "terrariamod:tree_bottom_jungle"
+							},
+							"components": {
+								"minecraft:destroy_time": 2,
+								"minecraft:block_light_emission": 0,
+								"minecraft:block_light_absorption": 0,
+								"minecraft:explosion_resistance": 0,
+								"minecraft:loot": "loot_tables/blocks/jungle_tree_mid.json",
+								"minecraft:geometry": "geometry.treebottom_jungle",
+								"minecraft:material_instances": {
+									"*": {
+										"texture": "jungle_tree",
+										"render_method": "alpha_test"
+									}
+								},
+								"tag:terrariamod:wood": {},
+								"minecraft:on_player_destroyed": {
+									"event": "terrariamod:destroy_tree"
+								}
+							},
+							"events": {
+								"terrariamod:destroy_tree": {
+									"run_command": {
+										"command": [
+											"fill ~ ~ ~ ~ ~8 ~ air 0 destroy"
+										]
+									}
 								}
 							}
-						}
+						},
+						"key": "events",
+						"children": [
+							{
+								"open": {
+									"terrariamod:destroy_tree": {
+										"run_command": {
+											"command": [
+												"fill ~ ~ ~ ~ ~8 ~ air 0 destroy"
+											]
+										}
+									}
+								},
+								"key": "terrariamod:destroy_tree",
+								"children": [
+									{
+										"open": {
+											"run_command": {
+												"command": [
+													"fill ~ ~ ~ ~ ~8 ~ air 0 destroy"
+												]
+											}
+										},
+										"key": "run_command",
+										"children": [
+											{
+												"open": {
+													"command": [
+														"fill ~ ~ ~ ~ ~8 ~ air 0 destroy"
+													]
+												},
+												"key": "command",
+												"is_minified": true,
+												"children": [
+													"fill ~ ~ ~ ~ ~8 ~ air 0 destroy"
+												]
+											}
+										]
+									}
+								]
+							}
+						]
 					}
 				]
 			}

@@ -1,0 +1,96 @@
+{
+	"file_path": "C:\\Users\\LANCE.LEGAUX\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\TerrariaMoBP\\blocks\\tree_top_corruption.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "886975c7_149f_48ec_a67e_fd06d8a0236a",
+	"file_version": 2,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:block": {
+						"description": {
+							"identifier": "terrariamod:tree_top_corruption"
+						},
+						"components": {
+							"minecraft:destroy_time": 2,
+							"minecraft:block_light_emission": 0,
+							"minecraft:block_light_absorption": 0,
+							"minecraft:explosion_resistance": 0,
+							"minecraft:geometry": "geometry.treetop_corruption",
+							"minecraft:material_instances": {
+								"*": {
+									"texture": "corrupted_tree",
+									"render_method": "alpha_test"
+								}
+							},
+							"tag:terrariamod:wood": {},
+							"minecraft:loot": "loot_tables/blocks/corruption_tree_top.json"
+						},
+						"events": {}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:tree_top_corruption"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:tree_top_corruption"
+							},
+							"components": {
+								"minecraft:destroy_time": 2,
+								"minecraft:block_light_emission": 0,
+								"minecraft:block_light_absorption": 0,
+								"minecraft:explosion_resistance": 0,
+								"minecraft:geometry": "geometry.treetop_corruption",
+								"minecraft:material_instances": {
+									"*": {
+										"texture": "corrupted_tree",
+										"render_method": "alpha_test"
+									}
+								},
+								"tag:terrariamod:wood": {},
+								"minecraft:loot": "loot_tables/blocks/corruption_tree_top.json"
+							},
+							"events": {}
+						},
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:destroy_time": 2,
+							"minecraft:block_light_emission": 0,
+							"minecraft:block_light_absorption": 0,
+							"minecraft:explosion_resistance": 0,
+							"minecraft:geometry": "geometry.treetop_corruption",
+							"minecraft:material_instances": {
+								"*": {
+									"texture": "corrupted_tree",
+									"render_method": "alpha_test"
+								}
+							},
+							"tag:terrariamod:wood": {},
+							"minecraft:loot": "loot_tables/blocks/corruption_tree_top.json"
+						}
+					},
+					{
+						"key": "events",
+						"is_minified": true,
+						"children": {}
+					}
+				]
+			}
+		]
+	}
+}

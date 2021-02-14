@@ -1,0 +1,40 @@
+//bridge-file-version: #44
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "terrariamod:purity_snow_sapling"
+		},
+		"components": {
+			"minecraft:geometry": "geometry.purity_sapling",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "purity_tree",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:block_light_emission": 0,
+			"minecraft:block_light_absorption": 0,
+			"minecraft:ticking": {
+				"looping": false,
+				"range": [
+					0,
+					0
+				],
+				"on_tick": {
+					"event": "terrariamod:grow"
+				}
+			}
+		},
+		"events": {
+			"terrariamod:grow": {
+				"condition": "query.biome_has_any_tag('purity_snow')",
+				"run_command": {
+					"command": [
+						"structure load tree_snow ~~~"
+					]
+				}
+			}
+		}
+	}
+}

@@ -1,4 +1,4 @@
-//bridge-file-version: #153
+//bridge-file-version: #159
 {
 	"format_version": "1.10.0",
 	"animation_controllers": {
@@ -31,10 +31,17 @@
 						},
 						{
 							"underground_music": "query.position(1)<35"
+						},
+						{
+							"snow_music": "query.biome_has_any_tag('purity_snow') &&  query.position(1)>35"
+						},
+						{
+							"crimson_music": "query.biome_has_any_tag('crimson') &&  query.position(1)>35"
 						}
 					],
 					"on_entry": [
-						"/stopsound @s"
+						"/stopsound @s",
+						"/music stop"
 					]
 				},
 				"forest_day_music": {
@@ -94,6 +101,26 @@
 					"transitions": [
 						{
 							"default": "query.position(1)>35 && query.all_animations_finished "
+						}
+					]
+				},
+				"snow_music": {
+					"on_entry": [
+						"/music play snow 1 1 loop"
+					],
+					"transitions": [
+						{
+							"default": "!query.biome_has_any_tag('purity_snow') || query.position(1)<35 && query.all_animations_finished "
+						}
+					]
+				},
+				"crimson_music": {
+					"on_entry": [
+						"/music play crimson 1 1 loop"
+					],
+					"transitions": [
+						{
+							"default": "!query.biome_has_any_tag('crimson') || query.position(1)<35 && query.all_animations_finished "
 						}
 					]
 				}

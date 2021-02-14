@@ -374,6 +374,18 @@
 			"sounds": [
 				"sounds/music/underground"
 			]
+		},
+		"snow": {
+			"category": "music",
+			"sounds": [
+				"sounds/music/snow"
+			]
+		},
+		"crimson": {
+			"category": "music",
+			"sounds": [
+				"sounds/music/crimson"
+			]
 		}
 	}
 }

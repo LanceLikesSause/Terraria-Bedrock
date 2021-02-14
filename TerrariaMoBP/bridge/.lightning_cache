@@ -2306,12 +2306,12 @@
 	"feature": {
 		"BP/features/crimsonalter_feature.json": {
 			"identifiers": [
-				"minecraft:crimsonheart_feature"
+				"minecraft:crimsonalter_feature"
 			]
 		},
 		"BP/features/victoriousmushroom_feature.json": {
 			"identifiers": [
-				"minecraft:vilemushroom_feature"
+				"minecraft:victoriousmushroom_feature"
 			]
 		},
 		"BP/features/purityclay_feature.json": {
@@ -2341,7 +2341,7 @@
 		},
 		"BP/features/crimsonheart_feature.json": {
 			"identifiers": [
-				"minecraft:shadoworb_feature"
+				"minecraft:crimsonheart_feature"
 			]
 		},
 		"BP/features/hellforge_feature.json": {
@@ -2678,7 +2678,13 @@
 		"f7cdabb2_2a1a_4d14_ada1_14cda10078c6": {},
 		"bead89e8_0502_4ee8_9f92_420d08b8cc8f": {},
 		"5108e76d_0c8c_4155_a093_1977fa58d336": {},
-		"86525fd3_cda2_4e75_8360_abd1db698a3a": {}
+		"86525fd3_cda2_4e75_8360_abd1db698a3a": {},
+		"27d2a91e_10d4_48de_bb6a_f9d37a88449c": {},
+		"3f21be0f_5f39_4930_9298_8e4243453ac4": {},
+		"401a384f_fdcb_4618_bfce_3d5966ec778c": {},
+		"e2fc332f_bbde_4358_b21c_0cfbe580d128": {},
+		"4c178cfc_2003_4827_8d31_96e50c9fa23c": {},
+		"eba6c0f6_5c8d_4d17_95d5_2fc0cff0c070": {}
 	},
 	"rp_animation_controller": {
 		"RP/animation_controllers/devourer.animation.controller.json": {

@@ -1,0 +1,60 @@
+{
+	"file_path": "C:\\Users\\LANCE.LEGAUX\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\TerrariaMoBP\\features\\crimsonheart_feature.json",
+	"file_type": "feature",
+	"format_version": 1,
+	"file_uuid": "46644d0f_e1db_4c87_b13c_21aa2fe656b0",
+	"file_version": 17,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.13.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.13.0",
+					"minecraft:single_block_feature": {
+						"description": {
+							"identifier": "minecraft:crimsonheart_feature"
+						},
+						"places_block": "terrariamod:crimsonheart",
+						"enforce_survivability_rules": true,
+						"enforce_placement_rules": true,
+						"may_replace": [
+							{
+								"name": "minecraft:air"
+							}
+						],
+						"may_attach_to": {
+							"min_sides_must_attach": 1,
+							"bottom": [
+								"terrariamod:crimson_grass"
+							]
+						}
+					}
+				},
+				"key": "minecraft:single_block_feature",
+				"is_minified": true,
+				"children": {
+					"description": {
+						"identifier": "minecraft:crimsonheart_feature"
+					},
+					"places_block": "terrariamod:crimsonheart",
+					"enforce_survivability_rules": true,
+					"enforce_placement_rules": true,
+					"may_replace": [
+						{
+							"name": "minecraft:air"
+						}
+					],
+					"may_attach_to": {
+						"min_sides_must_attach": 1,
+						"bottom": [
+							"terrariamod:crimson_grass"
+						]
+					}
+				}
+			}
+		]
+	}
+}

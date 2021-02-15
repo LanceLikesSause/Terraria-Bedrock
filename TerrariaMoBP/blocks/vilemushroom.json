@@ -1,4 +1,4 @@
-//bridge-file-version: #13
+//bridge-file-version: #14
 {
 	"format_version": "1.16.100",
 	"minecraft:block": {
@@ -19,7 +19,7 @@
 			"minecraft:block_light_emission": 0,
 			"tag:terrariamod:plant": {},
 			"minecraft:display_name": "item.terrariamod:vilemushroom.name",
-			"minecraft:loot": "loot_tables/blocks/vilemushroom.json"
+			"minecraft:loot": "loot_tables/blocks/vilemushroom_item.json"
 		},
 		"events": {}
 	}

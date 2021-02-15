@@ -1,4 +1,4 @@
-//bridge-file-version: #42
+//bridge-file-version: #43
 {
 	"format_version": "1.16.100",
 	"minecraft:block": {
@@ -22,7 +22,7 @@
 				"custom_description": "Sawmill"
 			},
 			"minecraft:block_light_emission": 1,
-			"minecraft:loot": "loot_tables/blocks/sawmill.json",
+			"minecraft:loot": "loot_tables/blocks/sawmill_item.json",
 			"tag:terrariamod:wood": {}
 		},
 		"events": {

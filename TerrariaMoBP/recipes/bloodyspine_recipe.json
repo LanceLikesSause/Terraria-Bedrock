@@ -1,4 +1,4 @@
-//bridge-file-version: #7
+//bridge-file-version: #8
 {
 	"format_version": "1.16.100",
 	"minecraft:recipe_shapeless": {
@@ -13,7 +13,7 @@
 				"item": "terrariamod:vertebra"
 			},
 			{
-				"item": "terrariamod:victoriousmushroom"
+				"item": "terrariamod:victoriousmushroom_item"
 			}
 		],
 		"result": [

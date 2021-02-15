@@ -1,0 +1,23 @@
+//bridge-file-version: #13
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "terrariamod:woodenchair_recipe"
+		},
+		"tags": [
+			"workbench"
+		],
+		"ingredients": [
+			{
+				"item": "terrariamod:purity_wood_item",
+				"count": 4
+			}
+		],
+		"result": [
+			{
+				"item": "terrariamod:wooden_chair_item"
+			}
+		]
+	}
+}

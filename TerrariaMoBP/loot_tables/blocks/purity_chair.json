@@ -1,4 +1,4 @@
-//bridge-file-version: #3
+//bridge-file-version: #4
 {
 	"pools": [
 		{
@@ -7,7 +7,7 @@
 				{
 					"type": "item",
 					"weight": 1,
-					"name": "terrariamod:purity_chair",
+					"name": "terrariamod:purity_chair_item",
 					"functions": [
 						{
 							"function": "set_count",

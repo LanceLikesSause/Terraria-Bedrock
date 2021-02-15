@@ -1,4 +1,4 @@
-//bridge-file-version: #15
+//bridge-file-version: #18
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
@@ -30,7 +30,6 @@
 				"texture": "terrariamod:copperaxe"
 			},
 			"tag:minecraft:is_axe": {},
-			"minecraft:render_offsets": "bow",
 			"minecraft:creative_category": {
 				"parent": "itemGroup.name.axe"
 			},

@@ -1,4 +1,4 @@
-//bridge-file-version: #20
+//bridge-file-version: #22
 {
 	"format_version": "1.16.100",
 	"minecraft:block": {
@@ -16,7 +16,7 @@
 			},
 			"minecraft:destroy_time": 1,
 			"tag:terrariamod:wood": {},
-			"minecraft:loot": "loot_tables/blocks/purity_chest.json",
+			"minecraft:loot": "loot_tables/blocks/purity_chest_item.json",
 			"minecraft:ticking": {
 				"looping": false,
 				"range": [
@@ -36,8 +36,7 @@
 			"terrariamod:create_dummy": {
 				"run_command": {
 					"command": [
-						"summon terrariamod:chest_dummy ~~~",
-						"say hi"
+						"summon terrariamod:chest_dummy ~~~"
 					]
 				}
 			},

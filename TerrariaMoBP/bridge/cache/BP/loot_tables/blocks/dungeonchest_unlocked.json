@@ -1,0 +1,3064 @@
+{
+	"file_path": "C:\\Users\\LANCE.LEGAUX\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\TerrariaMoBP\\loot_tables\\blocks\\dungeonchest_unlocked.json",
+	"file_type": "loot_table",
+	"format_version": 1,
+	"file_uuid": "19f611e0_c101_4fe8_a7fb_63491b860bf4",
+	"file_version": 9,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"pools": [
+						{
+							"rolls": 1,
+							"entries": [
+								{
+									"type": "item",
+									"weight": 1,
+									"name": "terrariamod:copperbar",
+									"functions": [
+										{
+											"function": "set_count",
+											"count": {
+												"min": 3,
+												"max": 10
+											}
+										}
+									]
+								},
+								{
+									"type": "item",
+									"weight": 1,
+									"name": "terrariamod:tinbar",
+									"functions": [
+										{
+											"function": "set_count",
+											"count": {
+												"min": 3,
+												"max": 10
+											}
+										}
+									]
+								},
+								{
+									"type": "item",
+									"weight": 1,
+									"name": "terrariamod:ironbar",
+									"functions": [
+										{
+											"function": "set_count",
+											"count": {
+												"min": 3,
+												"max": 10
+											}
+										}
+									]
+								},
+								{
+									"type": "item",
+									"weight": 1,
+									"name": "terrariamod:leadbar",
+									"functions": [
+										{
+											"function": "set_count",
+											"count": {
+												"min": 3,
+												"max": 10
+											}
+										}
+									]
+								},
+								{
+									"type": "item",
+									"weight": 1,
+									"name": "terrariamod:woodenarrow",
+									"functions": [
+										{
+											"function": "set_count",
+											"count": {
+												"min": 25,
+												"max": 50
+											}
+										}
+									]
+								},
+								{
+									"type": "item",
+									"weight": 1,
+									"name": "terrariamod:lesserhealingpotion",
+									"functions": [
+										{
+											"function": "set_count",
+											"count": {
+												"min": 3,
+												"max": 5
+											}
+										}
+									]
+								},
+								{
+									"type": "item",
+									"weight": 1,
+									"name": "terrariamod:silvercoin",
+									"functions": [
+										{
+											"function": "set_count",
+											"count": {
+												"min": 10,
+												"max": 29
+											}
+										}
+									]
+								},
+								{
+									"type": "item",
+									"weight": 1,
+									"name": "terrariamod:grenade",
+									"functions": [
+										{
+											"function": "set_count",
+											"count": {
+												"min": 3,
+												"max": 5
+											}
+										}
+									]
+								},
+								{
+									"type": "item",
+									"weight": 1,
+									"name": "terrariamod:purity_torch_item",
+									"functions": [
+										{
+											"function": "set_count",
+											"count": {
+												"min": 10,
+												"max": 20
+											}
+										}
+									]
+								},
+								{
+									"type": "item",
+									"weight": 1,
+									"name": "terrariamod:bandofregeneration",
+									"functions": [
+										{
+											"function": "set_count",
+											"count": {
+												"min": 1,
+												"max": 1
+											}
+										}
+									]
+								},
+								{
+									"type": "item",
+									"weight": 1,
+									"name": "terrariamod:magicmirror",
+									"functions": [
+										{
+											"function": "set_count",
+											"count": {
+												"min": 1,
+												"max": 1
+											}
+										}
+									]
+								},
+								{
+									"type": "item",
+									"weight": 1,
+									"name": "terrariamod:hermesboots",
+									"functions": [
+										{
+											"function": "set_count",
+											"count": {
+												"min": 1,
+												"max": 1
+											}
+										}
+									]
+								},
+								{
+									"type": "item",
+									"weight": 1,
+									"name": "terrariamod:lavacharm",
+									"functions": [
+										{
+											"function": "set_count",
+											"count": {
+												"min": 1,
+												"max": 1
+											}
+										}
+									]
+								},
+								{
+									"type": "item",
+									"weight": 1,
+									"name": "terrariamod:boomstick",
+									"functions": [
+										{
+											"function": "set_count",
+											"count": {
+												"min": 1,
+												"max": 1
+											}
+										}
+									]
+								}
+							]
+						},
+						{
+							"rolls": {
+								"min": 1,
+								"max": 1
+							},
+							"entries": [
+								{
+									"type": "item",
+									"weight": 1,
+									"name": "terrariamod:aquascepter",
+									"functions": [
+										{
+											"function": "set_count",
+											"count": {
+												"min": 1,
+												"max": 1
+											}
+										}
+									]
+								},
+								{
+									"type": "item",
+									"weight": 1,
+									"name": "terrariamod:muramasa",
+									"functions": [
+										{
+											"function": "set_count",
+											"count": {
+												"min": 1,
+												"max": 1
+											}
+										}
+									]
+								},
+								{
+									"type": "item",
+									"weight": 1,
+									"name": "terrariamod:handgun_loaded",
+									"functions": [
+										{
+											"function": "set_count",
+											"count": {
+												"min": 1,
+												"max": 1
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				"key": "pools",
+				"children": [
+					{
+						"open": [
+							{
+								"rolls": 1,
+								"entries": [
+									{
+										"type": "item",
+										"weight": 1,
+										"name": "terrariamod:copperbar",
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 3,
+													"max": 10
+												}
+											}
+										]
+									},
+									{
+										"type": "item",
+										"weight": 1,
+										"name": "terrariamod:tinbar",
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 3,
+													"max": 10
+												}
+											}
+										]
+									},
+									{
+										"type": "item",
+										"weight": 1,
+										"name": "terrariamod:ironbar",
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 3,
+													"max": 10
+												}
+											}
+										]
+									},
+									{
+										"type": "item",
+										"weight": 1,
+										"name": "terrariamod:leadbar",
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 3,
+													"max": 10
+												}
+											}
+										]
+									},
+									{
+										"type": "item",
+										"weight": 1,
+										"name": "terrariamod:woodenarrow",
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 25,
+													"max": 50
+												}
+											}
+										]
+									},
+									{
+										"type": "item",
+										"weight": 1,
+										"name": "terrariamod:lesserhealingpotion",
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 3,
+													"max": 5
+												}
+											}
+										]
+									},
+									{
+										"type": "item",
+										"weight": 1,
+										"name": "terrariamod:silvercoin",
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 10,
+													"max": 29
+												}
+											}
+										]
+									},
+									{
+										"type": "item",
+										"weight": 1,
+										"name": "terrariamod:grenade",
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 3,
+													"max": 5
+												}
+											}
+										]
+									},
+									{
+										"type": "item",
+										"weight": 1,
+										"name": "terrariamod:purity_torch_item",
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 10,
+													"max": 20
+												}
+											}
+										]
+									},
+									{
+										"type": "item",
+										"weight": 1,
+										"name": "terrariamod:bandofregeneration",
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 1,
+													"max": 1
+												}
+											}
+										]
+									},
+									{
+										"type": "item",
+										"weight": 1,
+										"name": "terrariamod:magicmirror",
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 1,
+													"max": 1
+												}
+											}
+										]
+									},
+									{
+										"type": "item",
+										"weight": 1,
+										"name": "terrariamod:hermesboots",
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 1,
+													"max": 1
+												}
+											}
+										]
+									},
+									{
+										"type": "item",
+										"weight": 1,
+										"name": "terrariamod:lavacharm",
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 1,
+													"max": 1
+												}
+											}
+										]
+									},
+									{
+										"type": "item",
+										"weight": 1,
+										"name": "terrariamod:boomstick",
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 1,
+													"max": 1
+												}
+											}
+										]
+									}
+								]
+							},
+							{
+								"rolls": {
+									"min": 1,
+									"max": 1
+								},
+								"entries": [
+									{
+										"type": "item",
+										"weight": 1,
+										"name": "terrariamod:aquascepter",
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 1,
+													"max": 1
+												}
+											}
+										]
+									},
+									{
+										"type": "item",
+										"weight": 1,
+										"name": "terrariamod:muramasa",
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 1,
+													"max": 1
+												}
+											}
+										]
+									},
+									{
+										"type": "item",
+										"weight": 1,
+										"name": "terrariamod:handgun_loaded",
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 1,
+													"max": 1
+												}
+											}
+										]
+									}
+								]
+							}
+						],
+						"children": [
+							{
+								"data": "1",
+								"key": "rolls"
+							},
+							{
+								"open": {
+									"rolls": 1,
+									"entries": [
+										{
+											"type": "item",
+											"weight": 1,
+											"name": "terrariamod:copperbar",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 3,
+														"max": 10
+													}
+												}
+											]
+										},
+										{
+											"type": "item",
+											"weight": 1,
+											"name": "terrariamod:tinbar",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 3,
+														"max": 10
+													}
+												}
+											]
+										},
+										{
+											"type": "item",
+											"weight": 1,
+											"name": "terrariamod:ironbar",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 3,
+														"max": 10
+													}
+												}
+											]
+										},
+										{
+											"type": "item",
+											"weight": 1,
+											"name": "terrariamod:leadbar",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 3,
+														"max": 10
+													}
+												}
+											]
+										},
+										{
+											"type": "item",
+											"weight": 1,
+											"name": "terrariamod:woodenarrow",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 25,
+														"max": 50
+													}
+												}
+											]
+										},
+										{
+											"type": "item",
+											"weight": 1,
+											"name": "terrariamod:lesserhealingpotion",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 3,
+														"max": 5
+													}
+												}
+											]
+										},
+										{
+											"type": "item",
+											"weight": 1,
+											"name": "terrariamod:silvercoin",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 10,
+														"max": 29
+													}
+												}
+											]
+										},
+										{
+											"type": "item",
+											"weight": 1,
+											"name": "terrariamod:grenade",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 3,
+														"max": 5
+													}
+												}
+											]
+										},
+										{
+											"type": "item",
+											"weight": 1,
+											"name": "terrariamod:purity_torch_item",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 10,
+														"max": 20
+													}
+												}
+											]
+										},
+										{
+											"type": "item",
+											"weight": 1,
+											"name": "terrariamod:bandofregeneration",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 1,
+														"max": 1
+													}
+												}
+											]
+										},
+										{
+											"type": "item",
+											"weight": 1,
+											"name": "terrariamod:magicmirror",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 1,
+														"max": 1
+													}
+												}
+											]
+										},
+										{
+											"type": "item",
+											"weight": 1,
+											"name": "terrariamod:hermesboots",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 1,
+														"max": 1
+													}
+												}
+											]
+										},
+										{
+											"type": "item",
+											"weight": 1,
+											"name": "terrariamod:lavacharm",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 1,
+														"max": 1
+													}
+												}
+											]
+										},
+										{
+											"type": "item",
+											"weight": 1,
+											"name": "terrariamod:boomstick",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 1,
+														"max": 1
+													}
+												}
+											]
+										}
+									]
+								},
+								"key": "entries",
+								"children": [
+									{
+										"open": [
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:copperbar",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 3,
+															"max": 10
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:tinbar",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 3,
+															"max": 10
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:ironbar",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 3,
+															"max": 10
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:leadbar",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 3,
+															"max": 10
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:woodenarrow",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 25,
+															"max": 50
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:lesserhealingpotion",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 3,
+															"max": 5
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:silvercoin",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 10,
+															"max": 29
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:grenade",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 3,
+															"max": 5
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:purity_torch_item",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 10,
+															"max": 20
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:bandofregeneration",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 1
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:magicmirror",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 1
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:hermesboots",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 1
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:lavacharm",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 1
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:boomstick",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 1
+														}
+													}
+												]
+											}
+										],
+										"is_minified": true,
+										"children": {
+											"type": "item",
+											"weight": 1,
+											"name": "terrariamod:copperbar",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 3,
+														"max": 10
+													}
+												}
+											]
+										}
+									},
+									{
+										"open": [
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:copperbar",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 3,
+															"max": 10
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:tinbar",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 3,
+															"max": 10
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:ironbar",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 3,
+															"max": 10
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:leadbar",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 3,
+															"max": 10
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:woodenarrow",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 25,
+															"max": 50
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:lesserhealingpotion",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 3,
+															"max": 5
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:silvercoin",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 10,
+															"max": 29
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:grenade",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 3,
+															"max": 5
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:purity_torch_item",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 10,
+															"max": 20
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:bandofregeneration",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 1
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:magicmirror",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 1
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:hermesboots",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 1
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:lavacharm",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 1
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:boomstick",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 1
+														}
+													}
+												]
+											}
+										],
+										"is_minified": true,
+										"children": {
+											"type": "item",
+											"weight": 1,
+											"name": "terrariamod:tinbar",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 3,
+														"max": 10
+													}
+												}
+											]
+										}
+									},
+									{
+										"open": [
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:copperbar",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 3,
+															"max": 10
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:tinbar",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 3,
+															"max": 10
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:ironbar",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 3,
+															"max": 10
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:leadbar",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 3,
+															"max": 10
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:woodenarrow",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 25,
+															"max": 50
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:lesserhealingpotion",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 3,
+															"max": 5
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:silvercoin",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 10,
+															"max": 29
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:grenade",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 3,
+															"max": 5
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:purity_torch_item",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 10,
+															"max": 20
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:bandofregeneration",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 1
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:magicmirror",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 1
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:hermesboots",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 1
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:lavacharm",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 1
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:boomstick",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 1
+														}
+													}
+												]
+											}
+										],
+										"is_minified": true,
+										"children": {
+											"type": "item",
+											"weight": 1,
+											"name": "terrariamod:ironbar",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 3,
+														"max": 10
+													}
+												}
+											]
+										}
+									},
+									{
+										"open": [
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:copperbar",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 3,
+															"max": 10
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:tinbar",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 3,
+															"max": 10
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:ironbar",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 3,
+															"max": 10
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:leadbar",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 3,
+															"max": 10
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:woodenarrow",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 25,
+															"max": 50
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:lesserhealingpotion",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 3,
+															"max": 5
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:silvercoin",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 10,
+															"max": 29
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:grenade",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 3,
+															"max": 5
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:purity_torch_item",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 10,
+															"max": 20
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:bandofregeneration",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 1
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:magicmirror",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 1
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:hermesboots",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 1
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:lavacharm",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 1
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:boomstick",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 1
+														}
+													}
+												]
+											}
+										],
+										"is_minified": true,
+										"children": {
+											"type": "item",
+											"weight": 1,
+											"name": "terrariamod:leadbar",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 3,
+														"max": 10
+													}
+												}
+											]
+										}
+									},
+									{
+										"open": [
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:copperbar",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 3,
+															"max": 10
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:tinbar",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 3,
+															"max": 10
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:ironbar",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 3,
+															"max": 10
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:leadbar",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 3,
+															"max": 10
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:woodenarrow",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 25,
+															"max": 50
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:lesserhealingpotion",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 3,
+															"max": 5
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:silvercoin",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 10,
+															"max": 29
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:grenade",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 3,
+															"max": 5
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:purity_torch_item",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 10,
+															"max": 20
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:bandofregeneration",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 1
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:magicmirror",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 1
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:hermesboots",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 1
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:lavacharm",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 1
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:boomstick",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 1
+														}
+													}
+												]
+											}
+										],
+										"is_minified": true,
+										"children": {
+											"type": "item",
+											"weight": 1,
+											"name": "terrariamod:woodenarrow",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 25,
+														"max": 50
+													}
+												}
+											]
+										}
+									},
+									{
+										"open": [
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:copperbar",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 3,
+															"max": 10
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:tinbar",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 3,
+															"max": 10
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:ironbar",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 3,
+															"max": 10
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:leadbar",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 3,
+															"max": 10
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:woodenarrow",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 25,
+															"max": 50
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:lesserhealingpotion",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 3,
+															"max": 5
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:silvercoin",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 10,
+															"max": 29
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:grenade",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 3,
+															"max": 5
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:purity_torch_item",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 10,
+															"max": 20
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:bandofregeneration",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 1
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:magicmirror",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 1
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:hermesboots",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 1
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:lavacharm",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 1
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:boomstick",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 1
+														}
+													}
+												]
+											}
+										],
+										"is_minified": true,
+										"children": {
+											"type": "item",
+											"weight": 1,
+											"name": "terrariamod:lesserhealingpotion",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 3,
+														"max": 5
+													}
+												}
+											]
+										}
+									},
+									{
+										"open": [
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:copperbar",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 3,
+															"max": 10
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:tinbar",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 3,
+															"max": 10
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:ironbar",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 3,
+															"max": 10
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:leadbar",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 3,
+															"max": 10
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:woodenarrow",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 25,
+															"max": 50
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:lesserhealingpotion",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 3,
+															"max": 5
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:silvercoin",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 10,
+															"max": 29
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:grenade",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 3,
+															"max": 5
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:purity_torch_item",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 10,
+															"max": 20
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:bandofregeneration",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 1
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:magicmirror",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 1
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:hermesboots",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 1
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:lavacharm",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 1
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:boomstick",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 1
+														}
+													}
+												]
+											}
+										],
+										"is_minified": true,
+										"children": {
+											"type": "item",
+											"weight": 1,
+											"name": "terrariamod:silvercoin",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 10,
+														"max": 29
+													}
+												}
+											]
+										}
+									},
+									{
+										"open": [
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:copperbar",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 3,
+															"max": 10
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:tinbar",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 3,
+															"max": 10
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:ironbar",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 3,
+															"max": 10
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:leadbar",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 3,
+															"max": 10
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:woodenarrow",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 25,
+															"max": 50
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:lesserhealingpotion",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 3,
+															"max": 5
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:silvercoin",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 10,
+															"max": 29
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:grenade",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 3,
+															"max": 5
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:purity_torch_item",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 10,
+															"max": 20
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:bandofregeneration",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 1
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:magicmirror",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 1
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:hermesboots",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 1
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:lavacharm",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 1
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:boomstick",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 1
+														}
+													}
+												]
+											}
+										],
+										"is_minified": true,
+										"children": {
+											"type": "item",
+											"weight": 1,
+											"name": "terrariamod:grenade",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 3,
+														"max": 5
+													}
+												}
+											]
+										}
+									},
+									{
+										"open": [
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:copperbar",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 3,
+															"max": 10
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:tinbar",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 3,
+															"max": 10
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:ironbar",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 3,
+															"max": 10
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:leadbar",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 3,
+															"max": 10
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:woodenarrow",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 25,
+															"max": 50
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:lesserhealingpotion",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 3,
+															"max": 5
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:silvercoin",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 10,
+															"max": 29
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:grenade",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 3,
+															"max": 5
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:purity_torch_item",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 10,
+															"max": 20
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:bandofregeneration",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 1
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:magicmirror",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 1
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:hermesboots",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 1
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:lavacharm",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 1
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "terrariamod:boomstick",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 1
+														}
+													}
+												]
+											}
+										],
+										"is_minified": true,
+										"children": {
+											"type": "item",
+											"weight": 1,
+											"name": "terrariamod:purity_torch_item",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 10,
+														"max": 20
+													}
+												}
+											]
+										}
+									},
+									{
+										"is_minified": true,
+										"children": {
+											"type": "item",
+											"weight": 1,
+											"name": "terrariamod:bandofregeneration",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 1,
+														"max": 1
+													}
+												}
+											]
+										}
+									},
+									{
+										"is_minified": true,
+										"children": {
+											"type": "item",
+											"weight": 1,
+											"name": "terrariamod:magicmirror",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 1,
+														"max": 1
+													}
+												}
+											]
+										}
+									},
+									{
+										"is_minified": true,
+										"children": {
+											"type": "item",
+											"weight": 1,
+											"name": "terrariamod:hermesboots",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 1,
+														"max": 1
+													}
+												}
+											]
+										}
+									},
+									{
+										"is_minified": true,
+										"children": {
+											"type": "item",
+											"weight": 1,
+											"name": "terrariamod:lavacharm",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 1,
+														"max": 1
+													}
+												}
+											]
+										}
+									},
+									{
+										"is_minified": true,
+										"children": {
+											"type": "item",
+											"weight": 1,
+											"name": "terrariamod:boomstick",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 1,
+														"max": 1
+													}
+												}
+											]
+										}
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": [
+							{
+								"rolls": 1,
+								"entries": [
+									{
+										"type": "item",
+										"weight": 1,
+										"name": "terrariamod:copperbar",
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 3,
+													"max": 10
+												}
+											}
+										]
+									},
+									{
+										"type": "item",
+										"weight": 1,
+										"name": "terrariamod:tinbar",
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 3,
+													"max": 10
+												}
+											}
+										]
+									},
+									{
+										"type": "item",
+										"weight": 1,
+										"name": "terrariamod:ironbar",
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 3,
+													"max": 10
+												}
+											}
+										]
+									},
+									{
+										"type": "item",
+										"weight": 1,
+										"name": "terrariamod:leadbar",
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 3,
+													"max": 10
+												}
+											}
+										]
+									},
+									{
+										"type": "item",
+										"weight": 1,
+										"name": "terrariamod:woodenarrow",
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 25,
+													"max": 50
+												}
+											}
+										]
+									},
+									{
+										"type": "item",
+										"weight": 1,
+										"name": "terrariamod:lesserhealingpotion",
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 3,
+													"max": 5
+												}
+											}
+										]
+									},
+									{
+										"type": "item",
+										"weight": 1,
+										"name": "terrariamod:silvercoin",
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 10,
+													"max": 29
+												}
+											}
+										]
+									},
+									{
+										"type": "item",
+										"weight": 1,
+										"name": "terrariamod:grenade",
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 3,
+													"max": 5
+												}
+											}
+										]
+									},
+									{
+										"type": "item",
+										"weight": 1,
+										"name": "terrariamod:purity_torch_item",
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 10,
+													"max": 20
+												}
+											}
+										]
+									},
+									{
+										"type": "item",
+										"weight": 1,
+										"name": "terrariamod:bandofregeneration",
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 1,
+													"max": 1
+												}
+											}
+										]
+									},
+									{
+										"type": "item",
+										"weight": 1,
+										"name": "terrariamod:magicmirror",
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 1,
+													"max": 1
+												}
+											}
+										]
+									},
+									{
+										"type": "item",
+										"weight": 1,
+										"name": "terrariamod:hermesboots",
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 1,
+													"max": 1
+												}
+											}
+										]
+									},
+									{
+										"type": "item",
+										"weight": 1,
+										"name": "terrariamod:lavacharm",
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 1,
+													"max": 1
+												}
+											}
+										]
+									},
+									{
+										"type": "item",
+										"weight": 1,
+										"name": "terrariamod:boomstick",
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 1,
+													"max": 1
+												}
+											}
+										]
+									}
+								]
+							},
+							{
+								"rolls": {
+									"min": 1,
+									"max": 1
+								},
+								"entries": [
+									{
+										"type": "item",
+										"weight": 1,
+										"name": "terrariamod:aquascepter",
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 1,
+													"max": 1
+												}
+											}
+										]
+									},
+									{
+										"type": "item",
+										"weight": 1,
+										"name": "terrariamod:muramasa",
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 1,
+													"max": 1
+												}
+											}
+										]
+									},
+									{
+										"type": "item",
+										"weight": 1,
+										"name": "terrariamod:handgun_loaded",
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 1,
+													"max": 1
+												}
+											}
+										]
+									}
+								]
+							}
+						],
+						"is_minified": true,
+						"children": {
+							"rolls": {
+								"min": 1,
+								"max": 1
+							},
+							"entries": [
+								{
+									"type": "item",
+									"weight": 1,
+									"name": "terrariamod:aquascepter",
+									"functions": [
+										{
+											"function": "set_count",
+											"count": {
+												"min": 1,
+												"max": 1
+											}
+										}
+									]
+								},
+								{
+									"type": "item",
+									"weight": 1,
+									"name": "terrariamod:muramasa",
+									"functions": [
+										{
+											"function": "set_count",
+											"count": {
+												"min": 1,
+												"max": 1
+											}
+										}
+									]
+								},
+								{
+									"type": "item",
+									"weight": 1,
+									"name": "terrariamod:handgun_loaded",
+									"functions": [
+										{
+											"function": "set_count",
+											"count": {
+												"min": 1,
+												"max": 1
+											}
+										}
+									]
+								}
+							]
+						}
+					}
+				]
+			}
+		]
+	}
+}

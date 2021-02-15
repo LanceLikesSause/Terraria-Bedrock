@@ -636,7 +636,7 @@
 		},
 		"BP/blocks/mushroom.json": {
 			"identifiers": [
-				"terrariamod:daybloom"
+				"terrariamod:mushroom"
 			],
 			"events": [],
 			"recipe_tags": [],
@@ -725,12 +725,9 @@
 		},
 		"BP/blocks/wooden_table.json": {
 			"identifiers": [
-				"terrariamod:twooden_door"
+				"terrariamod:wooden_table"
 			],
-			"events": [
-				"terrariamod:open_door",
-				"terrariamod:close_door"
-			],
+			"events": [],
 			"recipe_tags": [],
 			"custom_commands": [],
 			"custom_components": []
@@ -775,9 +772,7 @@
 			"identifiers": [
 				"terrariamod:purity_chain"
 			],
-			"events": [
-				"terrariamod:emit_flame"
-			],
+			"events": [],
 			"recipe_tags": [],
 			"custom_commands": [],
 			"custom_components": []
@@ -807,7 +802,7 @@
 		},
 		"BP/blocks/ash.json": {
 			"identifiers": [
-				"terrariamod:example_block"
+				"terrariamod:ash"
 			],
 			"events": [],
 			"recipe_tags": [],
@@ -1099,15 +1094,6 @@
 			"custom_commands": [],
 			"custom_components": []
 		},
-		"BP/blocks/victoriousmushroom.json": {
-			"identifiers": [
-				"terrariamod:victoriousmushroom"
-			],
-			"events": [],
-			"recipe_tags": [],
-			"custom_commands": [],
-			"custom_components": []
-		},
 		"BP/blocks/tree_bottom_snow.json": {
 			"identifiers": [
 				"terrariamod:tree_bottom_snow"
@@ -1131,15 +1117,6 @@
 		"BP/blocks/tree_top_snow.json": {
 			"identifiers": [
 				"terrariamod:tree_top_snow"
-			],
-			"events": [],
-			"recipe_tags": [],
-			"custom_commands": [],
-			"custom_components": []
-		},
-		"BP/blocks/snow_wood.json": {
-			"identifiers": [
-				"terrariamod:snow_wood"
 			],
 			"events": [],
 			"recipe_tags": [],
@@ -1170,7 +1147,7 @@
 		},
 		"BP/blocks/purity_forest_sapling.json": {
 			"identifiers": [
-				"terrariamod:corruption_sapling"
+				"terrariamod:purity_forest_sapling"
 			],
 			"events": [
 				"terrariamod:grow"
@@ -1181,7 +1158,7 @@
 		},
 		"BP/blocks/purity_desert_sapling.json": {
 			"identifiers": [
-				"terrariamod:corruption_sapling"
+				"terrariamod:purity_desert_sapling"
 			],
 			"events": [
 				"terrariamod:grow"
@@ -1192,7 +1169,7 @@
 		},
 		"BP/blocks/purity_snow_sapling.json": {
 			"identifiers": [
-				"terrariamod:corruption_sapling"
+				"terrariamod:purity_snow_sapling"
 			],
 			"events": [
 				"terrariamod:grow"
@@ -1203,7 +1180,7 @@
 		},
 		"BP/blocks/purity_jungle_sapling.json": {
 			"identifiers": [
-				"terrariamod:corruption_sapling"
+				"terrariamod:purity_jungle_sapling"
 			],
 			"events": [
 				"terrariamod:grow"
@@ -1225,7 +1202,7 @@
 		},
 		"BP/blocks/crimson_sapling.json": {
 			"identifiers": [
-				"terrariamod:corruption_sapling"
+				"terrariamod:crimson_sapling"
 			],
 			"events": [
 				"terrariamod:grow"
@@ -1237,6 +1214,82 @@
 		"BP/blocks/tree_top_corruption.json": {
 			"identifiers": [
 				"terrariamod:tree_top_corruption"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/crimson_wood.json": {
+			"identifiers": [
+				"terrariamod:crimson_wood"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/corrupted_wood.json": {
+			"identifiers": [
+				"terrariamod:corrupted_wood"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/workbench.json": {
+			"identifiers": [
+				"terrariamod:workbench"
+			],
+			"events": [],
+			"recipe_tags": [
+				"workbench"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/bottle_station.json": {
+			"identifiers": [
+				"terrariamod:bottle_station"
+			],
+			"events": [],
+			"recipe_tags": [
+				"bottle"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/jungle_wood.json": {
+			"identifiers": [
+				"terrariamod:jungle_wood"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/purity_wood.json": {
+			"identifiers": [
+				"terrariamod:purity_wood"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/victoriousmushroom_item.json": {
+			"identifiers": [
+				"terrariamod:victoriousmushroom"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/snow_wood.json": {
+			"identifiers": [
+				"terrariamod:snow_wood"
 			],
 			"events": [],
 			"recipe_tags": [],
@@ -1877,7 +1930,9 @@
 			"custom_components": []
 		},
 		"BP/entities/hornet.json": {
-			"events": [],
+			"events": [
+				"terrariamod:despawn_entity"
+			],
 			"bridge_core_tags": [],
 			"identifiers": [
 				"terrariamod:hornet"
@@ -1986,7 +2041,7 @@
 			"events": [],
 			"bridge_core_tags": [],
 			"identifiers": [
-				"terrariamod:frozenzombie"
+				"terrariamod:zombie_terraria"
 			],
 			"animation_references": [],
 			"families": [
@@ -2757,7 +2812,24 @@
 		"e4a74921_2d0b_40c3_ad66_a96d15dd8be2": {},
 		"3bb5c93a_22cf_4183_9ec3_388dfaa7cf00": {},
 		"d30b13cf_1d17_4b39_bdf3_206f7687383d": {},
-		"ec737db8_63b9_4ccf_bea8_76e4ef80dc88": {}
+		"ec737db8_63b9_4ccf_bea8_76e4ef80dc88": {},
+		"f8efd16d_1671_4c1e_9190_abda97523e4a": {},
+		"39996df8_d75b_4585_8877_7f7af4a5d36f": {},
+		"92c0de0f_fe5c_406e_b141_2d4e315efeac": {},
+		"8cfc5885_0223_4c5a_8719_8d24c79b090d": {},
+		"a2178a3d_ddd0_416e_8191_19665e9f8f98": {},
+		"646b30a0_3f02_49b4_8cee_4050e7215a42": {},
+		"f762cd4a_4a5e_4c7c_8da0_e1fe08f1faf3": {},
+		"a1a6e296_7cbe_4f82_86e1_e2e51db0cb7a": {},
+		"39ecb52d_7b9f_4a0c_bd92_090836a28e3f": {},
+		"5e85a454_a9eb_432a_86b1_ede4ba08c6a2": {},
+		"1b8fa554_cf97_4dc1_b214_513e564ed35a": {},
+		"c9141283_334f_4b84_b425_6ac640fb8db0": {},
+		"8d9145fe_f6e1_4d18_9b7e_30d601e116aa": {},
+		"7e0a4d0f_906b_4157_a2d8_13c71bea6b23": {},
+		"99e279ec_cd4f_4c47_8dca_f26192de2703": {},
+		"f49af649_c66d_40f9_b85b_493348b3a5fe": {},
+		"5ed0f797_ec1d_4fd1_91fb_5b02cd7fe23d": {}
 	},
 	"rp_animation_controller": {
 		"RP/animation_controllers/devourer.animation.controller.json": {
@@ -4819,7 +4891,20 @@
 				"mob.ash.straymeow",
 				"mob.ash.purr",
 				"mob.ash.purreow",
-				"get_enchanted_sword.effect"
+				"get_enchanted_sword.effect",
+				"dayone",
+				"night",
+				"jungle",
+				"desert",
+				"corruption",
+				"underground",
+				"snow",
+				"crimson",
+				"terrariamod_gravel_sound",
+				"terrariamod_grass_sound",
+				"terrariamod_sand_sound",
+				"terrariamod_wood_sound",
+				"terrariamod_stone_sound"
 			]
 		}
 	},
@@ -4861,7 +4946,7 @@
 		},
 		"BP/recipes/sawmill_iron_recipe.json": {
 			"tags": [
-				"sawmill"
+				"workbench"
 			]
 		},
 		"BP/recipes/sawmill_lead_recipe.json": {
@@ -4880,11 +4965,6 @@
 			]
 		},
 		"BP/recipes/bed_recipe.json": {
-			"tags": [
-				"sawmill"
-			]
-		},
-		"BP/recipes/woodenchair_recipe.json": {
 			"tags": [
 				"sawmill"
 			]
@@ -5033,6 +5113,21 @@
 			"tags": [
 				"crafting_table"
 			]
+		},
+		"BP/recipes/woodenchair_recipe_item.json": {
+			"tags": [
+				"workbench"
+			]
+		},
+		"BP/recipes/bloodyspine_recipe.json": {
+			"tags": [
+				"alter"
+			]
+		},
+		"BP/recipes/wormfood_recipe.json": {
+			"tags": [
+				"alter"
+			]
 		}
 	},
 	"item": {
@@ -5081,12 +5176,6 @@
 		"BP/items/hellstonesword.json": {
 			"identifiers": [
 				"terrariamod:hellstonesword"
-			],
-			"custom_commands": []
-		},
-		"BP/items/mushroom.json": {
-			"identifiers": [
-				"terrariamod:mushroom"
 			],
 			"custom_commands": []
 		},
@@ -5228,21 +5317,9 @@
 			],
 			"custom_commands": []
 		},
-		"BP/items/corrupted_wood.json": {
-			"identifiers": [
-				"terrariamod:corrupted_wood"
-			],
-			"custom_commands": []
-		},
 		"BP/items/creamsoda.json": {
 			"identifiers": [
 				"terrariamod:creamsoda"
-			],
-			"custom_commands": []
-		},
-		"BP/items/crimson_wood.json": {
-			"identifiers": [
-				"terrariamod:crimson_wood"
 			],
 			"custom_commands": []
 		},
@@ -5366,12 +5443,6 @@
 			],
 			"custom_commands": []
 		},
-		"BP/items/jungle_wood.json": {
-			"identifiers": [
-				"terrariamod:jungle_wood"
-			],
-			"custom_commands": []
-		},
 		"BP/items/leadbar.json": {
 			"identifiers": [
 				"terrariamod:leadbar"
@@ -5453,18 +5524,6 @@
 		"BP/items/poisonedknife.json": {
 			"identifiers": [
 				"terrariamod:poisonedknife"
-			],
-			"custom_commands": []
-		},
-		"BP/items/purity_torch.json": {
-			"identifiers": [
-				"terrariamod:purity_torch"
-			],
-			"custom_commands": []
-		},
-		"BP/items/purity_wood.json": {
-			"identifiers": [
-				"terrariamod:snow_wood"
 			],
 			"custom_commands": []
 		},
@@ -5582,18 +5641,6 @@
 			],
 			"custom_commands": []
 		},
-		"BP/items/victoriousmushroom.json": {
-			"identifiers": [
-				"terrariamod:victoriousmushroom"
-			],
-			"custom_commands": []
-		},
-		"BP/items/vilemushroom.json": {
-			"identifiers": [
-				"terrariamod:vilemushroom"
-			],
-			"custom_commands": []
-		},
 		"BP/items/woodenarrow.json": {
 			"identifiers": [
 				"terrariamod:woodenarrow"
@@ -5678,78 +5725,6 @@
 			],
 			"custom_commands": []
 		},
-		"BP/items/workbench.json": {
-			"identifiers": [
-				"terrariamod:bottle_station"
-			],
-			"custom_commands": []
-		},
-		"BP/items/tfurnace.json": {
-			"identifiers": [
-				"terrariamod:purity_chain"
-			],
-			"custom_commands": []
-		},
-		"BP/items/iron_anvil.json": {
-			"identifiers": [
-				"terrariamod:purity_chain"
-			],
-			"custom_commands": []
-		},
-		"BP/items/purity_loom.json": {
-			"identifiers": [
-				"terrariamod:purity_chain"
-			],
-			"custom_commands": []
-		},
-		"BP/items/sawmill.json": {
-			"identifiers": [
-				"terrariamod:purity_chain"
-			],
-			"custom_commands": []
-		},
-		"BP/items/purity_cobweb.json": {
-			"identifiers": [
-				"terrariamod:purity_chain"
-			],
-			"custom_commands": []
-		},
-		"BP/items/purity_chain.json": {
-			"identifiers": [
-				"terrariamod:purity_chain"
-			],
-			"custom_commands": []
-		},
-		"BP/items/wooden_chair.json": {
-			"identifiers": [
-				"terrariamod:wooden_chair"
-			],
-			"custom_commands": []
-		},
-		"BP/items/wooden_table.json": {
-			"identifiers": [
-				"terrariamod:wooden_table"
-			],
-			"custom_commands": []
-		},
-		"BP/items/purity_chest.json": {
-			"identifiers": [
-				"terrariamod:twooden_door"
-			],
-			"custom_commands": []
-		},
-		"BP/items/twooden_door.json": {
-			"identifiers": [
-				"terrariamod:twooden_door"
-			],
-			"custom_commands": []
-		},
-		"BP/items/purity_candle.json": {
-			"identifiers": [
-				"terrariamod:purity_candle"
-			],
-			"custom_commands": []
-		},
 		"BP/items/woodensword.json": {
 			"identifiers": [
 				"terrariamod:beekeeper"
@@ -5795,36 +5770,6 @@
 		"BP/items/beekeeper.json": {
 			"identifiers": [
 				"terrariamod:beekeeper"
-			],
-			"custom_commands": []
-		},
-		"BP/items/hellforge.json": {
-			"identifiers": [
-				"terrariamod:hellforge"
-			],
-			"custom_commands": []
-		},
-		"BP/items/underworld_transporter.json": {
-			"identifiers": [
-				"terrariamod:underworld_transporter"
-			],
-			"custom_commands": []
-		},
-		"BP/items/purity_campfire.json": {
-			"identifiers": [
-				"terrariamod:purity_campfire"
-			],
-			"custom_commands": []
-		},
-		"BP/items/bottle_station.json": {
-			"identifiers": [
-				"terrariamod:bottle_station"
-			],
-			"custom_commands": []
-		},
-		"BP/items/daybloom.json": {
-			"identifiers": [
-				"terrariamod:daybloom"
 			],
 			"custom_commands": []
 		},
@@ -5942,12 +5887,6 @@
 			],
 			"custom_commands": []
 		},
-		"BP/items/snow_wood.json": {
-			"identifiers": [
-				"terrariamod:snow_wood"
-			],
-			"custom_commands": []
-		},
 		"BP/items/wormholepotion.json": {
 			"identifiers": [
 				"terrariamod:wormholepotion"
@@ -6005,6 +5944,162 @@
 		"BP/items/crimson_acorn.json": {
 			"identifiers": [
 				"terrariamod:crimson_acorn"
+			],
+			"custom_commands": []
+		},
+		"BP/items/bottle_station_item.json": {
+			"identifiers": [
+				"terrariamod:bottle_station_item"
+			],
+			"custom_commands": []
+		},
+		"BP/items/crimson_wood_item.json": {
+			"identifiers": [
+				"terrariamod:crimson_wood_item"
+			],
+			"custom_commands": []
+		},
+		"BP/items/corrupted_wood_item.json": {
+			"identifiers": [
+				"terrariamod:corrupted_wood_item"
+			],
+			"custom_commands": []
+		},
+		"BP/items/hellforge_item.json": {
+			"identifiers": [
+				"terrariamod:hellforge_item"
+			],
+			"custom_commands": []
+		},
+		"BP/items/iron_anvil_item.json": {
+			"identifiers": [
+				"terrariamod:iron_anvil_item"
+			],
+			"custom_commands": []
+		},
+		"BP/items/jungle_wood_item.json": {
+			"identifiers": [
+				"terrariamod:jungle_wood_item"
+			],
+			"custom_commands": []
+		},
+		"BP/items/purity_campfire_item.json": {
+			"identifiers": [
+				"terrariamod:purity_campfire_item"
+			],
+			"custom_commands": []
+		},
+		"BP/items/purity_candle_item.json": {
+			"identifiers": [
+				"terrariamod:purity_candle_item"
+			],
+			"custom_commands": []
+		},
+		"BP/items/purity_chain_item.json": {
+			"identifiers": [
+				"terrariamod:purity_chain_item"
+			],
+			"custom_commands": []
+		},
+		"BP/items/purity_chest_item.json": {
+			"identifiers": [
+				"terrariamod:purity_chest_item"
+			],
+			"custom_commands": []
+		},
+		"BP/items/purity_cobweb_item.json": {
+			"identifiers": [
+				"terrariamod:purity_cobweb_item"
+			],
+			"custom_commands": []
+		},
+		"BP/items/purity_loom_item.json": {
+			"identifiers": [
+				"terrariamod:purity_loom_item"
+			],
+			"custom_commands": []
+		},
+		"BP/items/purity_torch_item.json": {
+			"identifiers": [
+				"terrariamod:purity_torch_item"
+			],
+			"custom_commands": []
+		},
+		"BP/items/purity_wood_item.json": {
+			"identifiers": [
+				"terrariamod:purity_wood_item"
+			],
+			"custom_commands": []
+		},
+		"BP/items/sawmill_item.json": {
+			"identifiers": [
+				"terrariamod:sawmill_item"
+			],
+			"custom_commands": []
+		},
+		"BP/items/snow_wood_item.json": {
+			"identifiers": [
+				"terrariamod:snow_wood_item"
+			],
+			"custom_commands": []
+		},
+		"BP/items/tfurnace_item.json": {
+			"identifiers": [
+				"terrariamod:tfurnace_item"
+			],
+			"custom_commands": []
+		},
+		"BP/items/twooden_door_item.json": {
+			"identifiers": [
+				"terrariamod:twooden_door_item"
+			],
+			"custom_commands": []
+		},
+		"BP/items/underworld_transporter_item.json": {
+			"identifiers": [
+				"terrariamod:underworld_transporter_item"
+			],
+			"custom_commands": []
+		},
+		"BP/items/wooden_chair_item.json": {
+			"identifiers": [
+				"terrariamod:wooden_chair_item"
+			],
+			"custom_commands": []
+		},
+		"BP/items/wooden_table_item.json": {
+			"identifiers": [
+				"terrariamod:wooden_table_item"
+			],
+			"custom_commands": []
+		},
+		"BP/items/workbench_item.json": {
+			"identifiers": [
+				"terrariamod:workbench_item"
+			],
+			"custom_commands": []
+		},
+		"BP/items/daybloom_item.json": {
+			"identifiers": [
+				"terrariamod:daybloom_item"
+			],
+			"custom_commands": []
+		},
+		"BP/items/mushroom_item.json": {
+			"identifiers": [
+				"terrariamod:mushroom_item"
+			],
+			"custom_commands": []
+		},
+		"BP/items/victoriousmushroom_item.json": {
+			"identifiers": [
+				"terrariamod:victoriousmushroom_item"
+			],
+			"custom_commands": []
+		},
+		"BP/items/vilemushroom_item.json": {
+			"identifiers": [
+				"terrariamod:vilemushroom_item"
 			],
 			"custom_commands": []
 		}

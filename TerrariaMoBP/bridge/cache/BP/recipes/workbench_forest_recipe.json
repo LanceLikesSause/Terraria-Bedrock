@@ -1,0 +1,135 @@
+{
+	"file_path": "C:\\Users\\LANCE.LEGAUX\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\TerrariaMoBP\\recipes\\workbench_forest_recipe.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "8c94a672_c26d_4a16_a7f8_e384745a3583",
+	"file_version": 6,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:recipe_shapeless": {
+						"description": {
+							"identifier": "terrariamod:workbench_recipe"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"ingredients": [
+							{
+								"item": "terrariamod:purity_wood_item",
+								"count": 3
+							}
+						],
+						"result": [
+							{
+								"item": "terrariamod:workbench_item"
+							}
+						],
+						"group": "workbench"
+					}
+				},
+				"key": "minecraft:recipe_shapeless",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:workbench_recipe"
+						}
+					},
+					{
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"crafting_table"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:workbench_recipe"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"ingredients": [
+								{
+									"item": "terrariamod:purity_wood_item",
+									"count": 3
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:workbench_item"
+								}
+							],
+							"group": "workbench"
+						},
+						"key": "ingredients",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "terrariamod:purity_wood_item",
+										"count": 3
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "terrariamod:purity_wood_item",
+									"count": 3
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:workbench_recipe"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"ingredients": [
+								{
+									"item": "terrariamod:purity_wood_item",
+									"count": 3
+								}
+							],
+							"result": [
+								{
+									"item": "terrariamod:workbench_item"
+								}
+							],
+							"group": "workbench"
+						},
+						"key": "result",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "terrariamod:workbench_item"
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "terrariamod:workbench_item"
+								}
+							}
+						]
+					},
+					{
+						"data": "workbench",
+						"key": "group"
+					}
+				]
+			}
+		]
+	}
+}

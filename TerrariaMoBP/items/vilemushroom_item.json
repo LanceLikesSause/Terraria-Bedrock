@@ -1,0 +1,27 @@
+//bridge-file-version: #7
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "terrariamod:vilemushroom_item",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:max_stack_size": 64,
+			"minecraft:icon": {
+				"texture": "terrariamod:vilemushroom"
+			},
+			"minecraft:display_name": {
+				"value": "Vile Mushroom"
+			},
+			"minecraft:creative_category": {
+				"parent": "nature"
+			},
+			"minecraft:block_placer": {
+				"block": "terrariamod:vilemushroom",
+				"use_block_description": false
+			}
+		},
+		"events": {}
+	}
+}

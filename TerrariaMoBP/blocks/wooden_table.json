@@ -1,4 +1,4 @@
-//bridge-file-version: #94
+//bridge-file-version: #95
 {
 	"format_version": "1.16.100",
 	"minecraft:block": {
@@ -16,7 +16,7 @@
 					"render_method": "alpha_test"
 				}
 			},
-			"minecraft:loot": "loot_tables/blocks/wooden_table.json"
+			"minecraft:loot": "loot_tables/blocks/wooden_table_item.json"
 		},
 		"events": {}
 	}

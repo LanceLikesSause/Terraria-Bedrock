@@ -1,4 +1,4 @@
-//bridge-file-version: #31
+//bridge-file-version: #32
 {
 	"format_version": "1.16.100",
 	"minecraft:block": {
@@ -8,7 +8,7 @@
 		"components": {
 			"minecraft:block_light_emission": 0.8,
 			"minecraft:block_light_absorption": 0,
-			"minecraft:loot": "loot_tables/blocks/purity_candle.json",
+			"minecraft:loot": "loot_tables/blocks/purity_candle_item.json",
 			"minecraft:geometry": "geometry.purity_candle",
 			"minecraft:material_instances": {
 				"*": {

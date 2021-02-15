@@ -1,0 +1,27 @@
+//bridge-file-version: #12
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "terrariamod:victoriousmushroom",
+			"register_to_creative_menu": true
+		},
+		"components": {
+			"minecraft:destroy_time": 0.1,
+			"minecraft:geometry": "geometry.cross",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "victoriousmushroom",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:entity_collision": false,
+			"minecraft:block_light_emission": 0,
+			"tag:terrariamod:plant": {},
+			"minecraft:display_name": "item.terrariamod:victoriousmushroom.name",
+			"minecraft:loot": "loot_tables/blocks/victoriousmushroom_item.json",
+			"minecraft:block_light_absorption": 0
+		},
+		"events": {}
+	}
+}

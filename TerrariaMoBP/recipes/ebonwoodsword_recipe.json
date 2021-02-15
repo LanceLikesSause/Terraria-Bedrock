@@ -10,7 +10,7 @@
 		],
 		"ingredients": [
 			{
-				"item": "terrariamod:corrupted_wood",
+				"item": "terrariamod:corrupted_wood_item",
 				"count": 3
 			}
 		],

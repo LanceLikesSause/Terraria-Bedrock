@@ -10,7 +10,7 @@
 		],
 		"ingredients": [
 			{
-				"item": "terrariamod:jungle_wood",
+				"item": "terrariamod:jungle_wood_item",
 				"count": 3
 			}
 		],

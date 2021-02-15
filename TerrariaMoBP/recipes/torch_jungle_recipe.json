@@ -1,4 +1,4 @@
-//bridge-file-version: #7
+//bridge-file-version: #9
 {
 	"format_version": "1.16.100",
 	"minecraft:recipe_shaped": {
@@ -17,12 +17,12 @@
 				"item": "terrariamod:gel"
 			},
 			"Y": {
-				"item": "terrariamod:jungle_wood"
+				"item": "terrariamod:jungle_wood_item_item"
 			}
 		},
 		"result": [
 			{
-				"item": "terrariamod:purity_torch",
+				"item": "terrariamod:purity_torch_item",
 				"count": 4
 			}
 		],

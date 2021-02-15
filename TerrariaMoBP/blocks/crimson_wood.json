@@ -1,4 +1,4 @@
-//bridge-file-version: #3
+//bridge-file-version: #6
 {
 	"format_version": "1.16.100",
 	"minecraft:block": {
@@ -7,7 +7,7 @@
 		},
 		"components": {
 			"minecraft:destroy_time": 5,
-			"minecraft:loot": "loot_tables/blocks/crimson_wood.json",
+			"minecraft:loot": "loot_tables/blocks/crimson_wood_item.json",
 			"tag:terrariamod:wood": {}
 		},
 		"events": {}

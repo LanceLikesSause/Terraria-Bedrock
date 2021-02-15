@@ -1,4 +1,4 @@
-//bridge-file-version: #9
+//bridge-file-version: #11
 {
 	"format_version": "1.16.100",
 	"minecraft:recipe_shapeless": {
@@ -10,11 +10,11 @@
 		],
 		"ingredients": [
 			{
-				"item": "terrariamod:mushroom",
+				"item": "terrariamod:mushroom_item",
 				"count": 1
 			},
 			{
-				"item": "terrariamod:daybloom",
+				"item": "terrariamod:daybloom_item",
 				"count": 1
 			},
 			{

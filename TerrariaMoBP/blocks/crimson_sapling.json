@@ -1,4 +1,4 @@
-//bridge-file-version: #45
+//bridge-file-version: #46
 {
 	"format_version": "1.16.100",
 	"minecraft:block": {
@@ -18,8 +18,8 @@
 			"minecraft:ticking": {
 				"looping": false,
 				"range": [
-					0,
-					0
+					70,
+					70
 				],
 				"on_tick": {
 					"event": "terrariamod:grow"

@@ -1,23 +1,9 @@
-//bridge-file-version: #15
+//bridge-file-version: #16
 {
 	"pools": [
 		{
 			"rolls": 1,
 			"entries": [
-				{
-					"type": "item",
-					"weight": 1,
-					"name": "terrariamod:copperbar",
-					"functions": [
-						{
-							"function": "set_count",
-							"count": {
-								"min": 3,
-								"max": 10
-							}
-						}
-					]
-				},
 				{
 					"type": "item",
 					"weight": 1,
@@ -119,7 +105,7 @@
 				{
 					"type": "item",
 					"weight": 1,
-					"name": "minecraft:torch",
+					"name": "terrariamod:purity_torch_item",
 					"functions": [
 						{
 							"function": "set_count",
@@ -193,6 +179,20 @@
 									"chance": 0.3
 								}
 							]
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "terrariamod:copperbar",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 3,
+								"max": 10
+							}
 						}
 					]
 				}

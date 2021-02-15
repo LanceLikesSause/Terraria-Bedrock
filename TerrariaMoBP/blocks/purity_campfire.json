@@ -1,4 +1,4 @@
-//bridge-file-version: #16
+//bridge-file-version: #17
 {
 	"format_version": "1.16.100",
 	"minecraft:block": {
@@ -54,7 +54,7 @@
 			"minecraft:on_step_on": {
 				"event": "terrariamod:regen"
 			},
-			"minecraft:loot": "loot_tables/blocks/purity_campfire.json"
+			"minecraft:loot": "loot_tables/blocks/purity_campfire_item.json"
 		},
 		"events": {
 			"terrariamod:particle": {

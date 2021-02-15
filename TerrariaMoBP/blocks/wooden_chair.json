@@ -1,4 +1,4 @@
-//bridge-file-version: #67
+//bridge-file-version: #68
 {
 	"format_version": "1.16.100",
 	"minecraft:block": {
@@ -24,7 +24,7 @@
 					"render_method": "alpha_test"
 				}
 			},
-			"minecraft:loot": "loot_tables/blocks/wooden_chair.json",
+			"minecraft:loot": "loot_tables/blocks/wooden_chair_item.json",
 			"tag:terrariamod:wood": {},
 			"minecraft:entity_collision": {
 				"origin": [

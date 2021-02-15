@@ -1,4 +1,4 @@
-//bridge-file-version: #2
+//bridge-file-version: #30
 {
 	"entity_sounds": {
 		"entities": {
@@ -756,11 +756,502 @@
 					}
 				}
 			},
-			 "pop" : {
-				"pitch" : [ 1, 1 ],
-				"sound" : "random.pop",
-				"volume" : 6
-			 }
+			"pop": {
+				"pitch": [
+					1,
+					1
+				],
+				"sound": "random.pop",
+				"volume": 6
+			}
+		}
+	},
+	"block_sounds": {
+		"stone": {
+			"events": {
+				"break": {
+					"sound": "terrariamod_stone_sound",
+					"volume": [
+						0.8,
+						1
+					],
+					"pitch": [
+						1,
+						1
+					]
+				},
+				"hit": {
+					"sound": "terrariamod_stone_sound",
+					"volume": [
+						0.8,
+						1
+					],
+					"pitch": [
+						1,
+						1
+					]
+				},
+				"place": {
+					"sound": "terrariamod_stone_sound",
+					"volume": [
+						1,
+						1
+					]
+				}
+			},
+			"pitch": [
+				1,
+				1
+			],
+			"volume": [
+				1,
+				1
+			]
+		},
+		"wood": {
+			"events": {
+				"break": {
+					"sound": "terrariamod_wood_sound",
+					"volume": [
+						0.8,
+						1
+					],
+					"pitch": [
+						1,
+						1
+					]
+				},
+				"hit": {
+					"sound": "terrariamod_wood_sound",
+					"volume": [
+						1,
+						1
+					],
+					"pitch": [
+						1,
+						1
+					]
+				},
+				"place": {
+					"sound": "terrariamod_wood_sound",
+					"volume": [
+						1,
+						1
+					]
+				}
+			},
+			"pitch": [
+				1,
+				1
+			],
+			"volume": [
+				1,
+				1
+			]
+		},
+		"gravel": {
+			"events": {
+				"break": {
+					"sound": "terrariamod_gravel_sound",
+					"volume": [
+						1,
+						1
+					],
+					"pitch": [
+						1,
+						1
+					]
+				},
+				"hit": {
+					"sound": "terrariamod_gravel_sound",
+					"volume": [
+						1,
+						1
+					],
+					"pitch": [
+						1,
+						1
+					]
+				},
+				"place": {
+					"sound": "terrariamod_gravel_sound",
+					"volume": [
+						1,
+						1
+					],
+					"pitch": [
+						1,
+						1
+					]
+				}
+			},
+			"pitch": [
+				1,
+				1
+			],
+			"volume": [
+				1,
+				1
+			]
+		},
+		"grass": {
+			"volume": [
+				1,
+				1
+			],
+			"pitch": [
+				1,
+				1
+			],
+			"events": {
+				"break": {
+					"sound": "terrariamod_grass_sound",
+					"volume": [
+						1,
+						1
+					],
+					"pitch": [
+						1,
+						1
+					]
+				},
+				"hit": {
+					"sound": "terrariamod_grass_sound",
+					"volume": [
+						1,
+						1
+					],
+					"pitch": [
+						1,
+						1
+					]
+				},
+				"place": {
+					"sound": "terrariamod_grass_sound",
+					"volume": [
+						1,
+						1
+					],
+					"pitch": [
+						1,
+						1
+					]
+				}
+			}
+		},
+		"sand": {
+			"volume": [
+				1,
+				1
+			],
+			"pitch": [
+				1,
+				1
+			],
+			"events": {
+				"break": {
+					"volume": [
+						1,
+						1
+					],
+					"pitch": [
+						1,
+						1
+					],
+					"sound": "terrariamod_sand_sound"
+				},
+				"hit": {
+					"sound": "terrariamod_sand_sound",
+					"volume": [
+						1,
+						1
+					],
+					"pitch": [
+						1,
+						1
+					]
+				},
+				"place": {
+					"volume": [
+						1,
+						1
+					],
+					"pitch": [
+						1,
+						1
+					],
+					"sound": "terrariamod_sand_sound"
+				}
+			}
+		}
+	},
+	"interactive_sounds": {
+		"block_sounds": {
+			"stone": {
+				"volume": [
+					1,
+					1
+				],
+				"pitch": [
+					1,
+					1
+				],
+				"events": {
+					"step": {
+						"sound": "terrariamod_stone_sound",
+						"volume": [
+							0,
+							0
+						],
+						"pitch": [
+							1,
+							1
+						]
+					},
+					"fall": {
+						"sound": "terrariamod_stone_sound",
+						"volume": [
+							0,
+							0
+						],
+						"pitch": [
+							1,
+							1
+						]
+					},
+					"jump": {
+						"pitch": [
+							1,
+							1
+						],
+						"volume": [
+							0,
+							0
+						],
+						"sound": "terrariamod_stone_sound"
+					},
+					"land": {
+						"sound": "terrariamod_stone_sound",
+						"volume": [
+							0,
+							0
+						]
+					}
+				}
+			},
+			"wood": {
+				"volume": [
+					1,
+					1
+				],
+				"pitch": [
+					1,
+					1
+				],
+				"events": {
+					"step": {
+						"sound": "terrariamod_wood_sound",
+						"volume": [
+							0,
+							0
+						],
+						"pitch": [
+							1,
+							1
+						]
+					},
+					"fall": {
+						"sound": "terrariamod_wood_sound",
+						"volume": [
+							0,
+							0
+						],
+						"pitch": [
+							1,
+							1
+						]
+					},
+					"jump": {
+						"pitch": [
+							1,
+							1
+						],
+						"volume": [
+							0,
+							0
+						],
+						"sound": "terrariamod_wood_sound"
+					},
+					"land": {
+						"sound": "terrariamod_wood_sound",
+						"volume": [
+							0,
+							0
+						]
+					}
+				}
+			},
+			"gravel": {
+				"volume": [
+					1,
+					1
+				],
+				"pitch": [
+					1,
+					1
+				],
+				"events": {
+					"fall": {
+						"sound": "terrariamod_gravel_sound",
+						"volume": [
+							0,
+							0
+						],
+						"pitch": [
+							1,
+							1
+						]
+					},
+					"step": {
+						"sound": "terrariamod_gravel_sound",
+						"volume": [
+							0,
+							0
+						],
+						"pitch": [
+							1,
+							1
+						]
+					},
+					"jump": {
+						"sound": "terrariamod_gravel_sound",
+						"volume": [
+							0,
+							0
+						],
+						"pitch": [
+							1,
+							1
+						]
+					}
+				}
+			},
+			"grass": {
+				"volume": [
+					1,
+					1
+				],
+				"pitch": [
+					1,
+					1
+				],
+				"events": {
+					"fall": {
+						"sound": "terrariamod_grass_sound",
+						"volume": [
+							0,
+							0
+						],
+						"pitch": [
+							1,
+							1
+						]
+					},
+					"step": {
+						"sound": "terrariamod_grass_sound",
+						"volume": [
+							0,
+							0
+						],
+						"pitch": [
+							1,
+							1
+						]
+					},
+					"jump": {
+						"sound": "terrariamod_grass_sound",
+						"volume": [
+							0,
+							0
+						],
+						"pitch": [
+							1,
+							1
+						]
+					},
+					"land": {
+						"sound": "terrariamod_grass_sound",
+						"volume": [
+							0,
+							0
+						]
+					}
+				}
+			},
+			"sand": {
+				"volume": [
+					1,
+					1
+				],
+				"pitch": [
+					1,
+					1
+				],
+				"events": {
+					"fall": {
+						"sound": "terrariamod_sand_sound",
+						"volume": [
+							0,
+							0
+						],
+						"pitch": [
+							1,
+							1
+						]
+					},
+					"step": {
+						"sound": "terrariamod_sand_sound",
+						"volume": [
+							0,
+							0
+						],
+						"pitch": [
+							1,
+							1
+						]
+					},
+					"jump": {
+						"sound": "terrariamod_sand_sound",
+						"volume": [
+							0,
+							0
+						],
+						"pitch": [
+							1,
+							1
+						]
+					},
+					"land": {
+						"sound": "terrariamod_sand_sound",
+						"volume": [
+							0,
+							0
+						]
+					}
+				}
+			}
+		}
+	},
+	"individual_event_sounds": {
+		"events": {
+			"pop": {
+				"pitch": [
+					1,
+					1
+				],
+				"sound": "random.pop",
+				"volume": 10
+			}
 		}
 	}
 }

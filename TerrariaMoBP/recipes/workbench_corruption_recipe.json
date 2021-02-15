@@ -1,4 +1,4 @@
-//bridge-file-version: #6
+//bridge-file-version: #7
 {
 	"format_version": "1.16.100",
 	"minecraft:recipe_shapeless": {
@@ -10,13 +10,13 @@
 		],
 		"ingredients": [
 			{
-				"item": "terrariamod:corrupted_wood",
+				"item": "terrariamod:corrupted_wood_item",
 				"count": 3
 			}
 		],
 		"result": [
 			{
-				"item": "terrariamod:workbench"
+				"item": "terrariamod:workbench_item"
 			}
 		],
 		"group": "workbench"

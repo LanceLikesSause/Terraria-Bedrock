@@ -1,4 +1,4 @@
-//bridge-file-version: #5
+//bridge-file-version: #8
 {
 	"format_version": "1.16.100",
 	"minecraft:recipe_shapeless": {
@@ -10,7 +10,7 @@
 		],
 		"ingredients": [
 			{
-				"item": "terrariamod:purity_wood",
+				"item": "terrariamod:purity_wood_item",
 				"count": 3
 			},
 			{
@@ -20,7 +20,7 @@
 		],
 		"result": [
 			{
-				"item": "terrariamod:purity_chest"
+				"item": "terrariamod:purity_chest_item"
 			}
 		]
 	}

@@ -1,4 +1,4 @@
-//bridge-file-version: #37
+//bridge-file-version: #38
 {
 	"format_version": "1.16.100",
 	"minecraft:block": {
@@ -7,7 +7,7 @@
 		},
 		"components": {
 			"minecraft:destroy_time": 0.1,
-			"minecraft:loot": "loot_tables/blocks/purity_cobweb.json",
+			"minecraft:loot": "loot_tables/blocks/purity_cobweb_item.json",
 			"minecraft:geometry": "geometry.cross",
 			"minecraft:material_instances": {
 				"*": {

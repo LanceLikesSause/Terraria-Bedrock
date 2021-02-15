@@ -2,8 +2,8 @@
 	"file_path": "C:\\Users\\LANCE.LEGAUX\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\TerrariaMoBP\\blocks\\crimson_sapling.json",
 	"file_type": "block",
 	"format_version": 1,
-	"file_uuid": "e4a74921_2d0b_40c3_ad66_a96d15dd8be2",
-	"file_version": 45,
+	"file_uuid": "99e279ec_cd4f_4c47_8dca_f26192de2703",
+	"file_version": 46,
 	"cache_content": {
 		"children": [
 			{
@@ -30,8 +30,8 @@
 							"minecraft:ticking": {
 								"looping": false,
 								"range": [
-									0,
-									0
+									70,
+									70
 								],
 								"on_tick": {
 									"event": "terrariamod:grow"
@@ -53,42 +53,6 @@
 				"key": "minecraft:block",
 				"children": [
 					{
-						"open": {
-							"description": {
-								"identifier": "terrariamod:crimson_sapling"
-							},
-							"components": {
-								"minecraft:geometry": "geometry.purity_sapling",
-								"minecraft:material_instances": {
-									"*": {
-										"texture": "purity_tree",
-										"render_method": "opaque"
-									}
-								},
-								"minecraft:block_light_emission": 0,
-								"minecraft:block_light_absorption": 0,
-								"minecraft:ticking": {
-									"looping": false,
-									"range": [
-										0,
-										0
-									],
-									"on_tick": {
-										"event": "terrariamod:grow"
-									}
-								}
-							},
-							"events": {
-								"terrariamod:grow": {
-									"condition": "query.biome_has_any_tag('crimson')",
-									"run_command": {
-										"command": [
-											"structure load tree_crimson ~~~"
-										]
-									}
-								}
-							}
-						},
 						"key": "description",
 						"is_minified": true,
 						"children": {
@@ -113,8 +77,8 @@
 								"minecraft:ticking": {
 									"looping": false,
 									"range": [
-										0,
-										0
+										70,
+										70
 									],
 									"on_tick": {
 										"event": "terrariamod:grow"
@@ -133,219 +97,42 @@
 							}
 						},
 						"key": "components",
-						"children": [
-							{
-								"open": {
-									"minecraft:geometry": "geometry.purity_sapling",
-									"minecraft:material_instances": {
-										"*": {
-											"texture": "purity_tree",
-											"render_method": "opaque"
-										}
-									},
-									"minecraft:block_light_emission": 0,
-									"minecraft:block_light_absorption": 0,
-									"minecraft:ticking": {
-										"looping": false,
-										"range": [
-											0,
-											0
-										],
-										"on_tick": {
-											"event": "terrariamod:grow"
-										}
-									}
-								},
-								"data": "geometry.purity_sapling",
-								"key": "minecraft:geometry"
-							},
-							{
-								"key": "minecraft:material_instances",
-								"is_minified": true,
-								"children": {
-									"*": {
-										"texture": "purity_tree",
-										"render_method": "opaque"
-									}
+						"is_minified": true,
+						"children": {
+							"minecraft:geometry": "geometry.purity_sapling",
+							"minecraft:material_instances": {
+								"*": {
+									"texture": "purity_tree",
+									"render_method": "opaque"
 								}
 							},
-							{
-								"data": "0",
-								"key": "minecraft:block_light_emission"
-							},
-							{
-								"data": "0",
-								"key": "minecraft:block_light_absorption"
-							},
-							{
-								"open": {
-									"minecraft:geometry": "geometry.purity_sapling",
-									"minecraft:material_instances": {
-										"*": {
-											"texture": "purity_tree",
-											"render_method": "opaque"
-										}
-									},
-									"minecraft:block_light_emission": 0,
-									"minecraft:block_light_absorption": 0,
-									"minecraft:ticking": {
-										"looping": false,
-										"range": [
-											0,
-											0
-										],
-										"on_tick": {
-											"event": "terrariamod:grow"
-										}
-									}
-								},
-								"key": "minecraft:ticking",
-								"children": [
-									{
-										"open": {
-											"looping": false,
-											"range": [
-												0,
-												0
-											],
-											"on_tick": {
-												"event": "terrariamod:grow"
-											}
-										},
-										"data": "false",
-										"key": "looping"
-									},
-									{
-										"open": {
-											"looping": false,
-											"range": [
-												0,
-												0
-											],
-											"on_tick": {
-												"event": "terrariamod:grow"
-											}
-										},
-										"key": "range",
-										"is_minified": true,
-										"children": [
-											0,
-											0
-										]
-									},
-									{
-										"open": {
-											"looping": false,
-											"range": [
-												0,
-												0
-											],
-											"on_tick": {
-												"event": "terrariamod:grow"
-											}
-										},
-										"key": "on_tick",
-										"is_minified": true,
-										"children": {
-											"event": "terrariamod:grow"
-										}
-									}
-								]
+							"minecraft:block_light_emission": 0,
+							"minecraft:block_light_absorption": 0,
+							"minecraft:ticking": {
+								"looping": false,
+								"range": [
+									70,
+									70
+								],
+								"on_tick": {
+									"event": "terrariamod:grow"
+								}
 							}
-						]
+						}
 					},
 					{
-						"open": {
-							"description": {
-								"identifier": "terrariamod:crimson_sapling"
-							},
-							"components": {
-								"minecraft:geometry": "geometry.purity_sapling",
-								"minecraft:material_instances": {
-									"*": {
-										"texture": "purity_tree",
-										"render_method": "opaque"
-									}
-								},
-								"minecraft:block_light_emission": 0,
-								"minecraft:block_light_absorption": 0,
-								"minecraft:ticking": {
-									"looping": false,
-									"range": [
-										0,
-										0
-									],
-									"on_tick": {
-										"event": "terrariamod:grow"
-									}
-								}
-							},
-							"events": {
-								"terrariamod:grow": {
-									"condition": "query.biome_has_any_tag('crimson')",
-									"run_command": {
-										"command": [
-											"structure load tree_crimson ~~~"
-										]
-									}
-								}
-							}
-						},
 						"key": "events",
-						"children": [
-							{
-								"open": {
-									"terrariamod:grow": {
-										"condition": "query.biome_has_any_tag('crimson')",
-										"run_command": {
-											"command": [
-												"structure load tree_crimson ~~~"
-											]
-										}
-									}
-								},
-								"key": "terrariamod:grow",
-								"children": [
-									{
-										"open": {
-											"condition": "query.biome_has_any_tag('crimson')",
-											"run_command": {
-												"command": [
-													"structure load tree_crimson ~~~"
-												]
-											}
-										},
-										"data": "query.biome_has_any_tag('crimson')",
-										"key": "condition"
-									},
-									{
-										"open": {
-											"condition": "query.biome_has_any_tag('crimson')",
-											"run_command": {
-												"command": [
-													"structure load tree_crimson ~~~"
-												]
-											}
-										},
-										"key": "run_command",
-										"children": [
-											{
-												"open": {
-													"command": [
-														"structure load tree_crimson ~~~"
-													]
-												},
-												"key": "command",
-												"is_minified": true,
-												"children": [
-													"structure load tree_crimson ~~~"
-												]
-											}
-										]
-									}
-								]
+						"is_minified": true,
+						"children": {
+							"terrariamod:grow": {
+								"condition": "query.biome_has_any_tag('crimson')",
+								"run_command": {
+									"command": [
+										"structure load tree_crimson ~~~"
+									]
+								}
 							}
-						]
+						}
 					}
 				]
 			}

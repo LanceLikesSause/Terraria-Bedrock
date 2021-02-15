@@ -1,4 +1,4 @@
-//bridge-file-version: #13
+//bridge-file-version: #14
 {
 	"format_version": 1.12,
 	"minecraft:recipe_shaped": {
@@ -13,7 +13,7 @@
 		],
 		"key": {
 			"#": {
-				"item": "terrariamod:vilemushroom"
+				"item": "terrariamod:vilemushroom_item"
 			},
 			"X": {
 				"item": "terrariamod:rottenchunk"

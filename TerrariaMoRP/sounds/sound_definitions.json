@@ -1,8 +1,7 @@
-//bridge-file-version: #0
+//bridge-file-version: #6
 {
 	"format_version": "1.14.0",
 	"sound_definitions": {
-
 		"bookofskulls.effect": {
 			"category": "neutral",
 			"sounds": [
@@ -385,6 +384,36 @@
 			"category": "music",
 			"sounds": [
 				"sounds/music/crimson"
+			]
+		},
+		"terrariamod_gravel_sound": {
+			"category": "neutral",
+			"sounds": [
+				"sounds/terrariamod_dig/gravel1"
+			]
+		},
+		"terrariamod_grass_sound": {
+			"category": "neutral",
+			"sounds": [
+				"sounds/terrariamod_dig/grass1"
+			]
+		},
+		"terrariamod_sand_sound": {
+			"category": "neutral",
+			"sounds": [
+				"sounds/terrariamod_dig/sand1"
+			]
+		},
+		"terrariamod_wood_sound": {
+			"category": "neutral",
+			"sounds": [
+				"sounds/terrariamod_dig/wood1"
+			]
+		},
+		"terrariamod_stone_sound": {
+			"category": "neutral",
+			"sounds": [
+				"sounds/terrariamod_dig/stone1"
 			]
 		}
 	}

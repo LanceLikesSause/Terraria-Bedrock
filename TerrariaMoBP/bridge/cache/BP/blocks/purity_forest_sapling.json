@@ -2,8 +2,8 @@
 	"file_path": "C:\\Users\\LANCE.LEGAUX\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\TerrariaMoBP\\blocks\\purity_forest_sapling.json",
 	"file_type": "block",
 	"format_version": 1,
-	"file_uuid": "27d2a91e_10d4_48de_bb6a_f9d37a88449c",
-	"file_version": 43,
+	"file_uuid": "5e85a454_a9eb_432a_86b1_ede4ba08c6a2",
+	"file_version": 44,
 	"cache_content": {
 		"children": [
 			{
@@ -30,8 +30,8 @@
 							"minecraft:ticking": {
 								"looping": false,
 								"range": [
-									0,
-									0
+									70,
+									70
 								],
 								"on_tick": {
 									"event": "terrariamod:grow"
@@ -53,42 +53,6 @@
 				"key": "minecraft:block",
 				"children": [
 					{
-						"open": {
-							"description": {
-								"identifier": "terrariamod:purity_forest_sapling"
-							},
-							"components": {
-								"minecraft:geometry": "geometry.purity_sapling",
-								"minecraft:material_instances": {
-									"*": {
-										"texture": "purity_tree",
-										"render_method": "opaque"
-									}
-								},
-								"minecraft:block_light_emission": 0,
-								"minecraft:block_light_absorption": 0,
-								"minecraft:ticking": {
-									"looping": false,
-									"range": [
-										0,
-										0
-									],
-									"on_tick": {
-										"event": "terrariamod:grow"
-									}
-								}
-							},
-							"events": {
-								"terrariamod:grow": {
-									"condition": "query.biome_has_any_tag('purity_forest')",
-									"run_command": {
-										"command": [
-											"structure load tree ~~~"
-										]
-									}
-								}
-							}
-						},
 						"key": "description",
 						"is_minified": true,
 						"children": {
@@ -113,8 +77,8 @@
 								"minecraft:ticking": {
 									"looping": false,
 									"range": [
-										0,
-										0
+										70,
+										70
 									],
 									"on_tick": {
 										"event": "terrariamod:grow"
@@ -135,27 +99,6 @@
 						"key": "components",
 						"children": [
 							{
-								"open": {
-									"minecraft:geometry": "geometry.purity_sapling",
-									"minecraft:material_instances": {
-										"*": {
-											"texture": "purity_tree",
-											"render_method": "opaque"
-										}
-									},
-									"minecraft:block_light_emission": 0,
-									"minecraft:block_light_absorption": 0,
-									"minecraft:ticking": {
-										"looping": false,
-										"range": [
-											0,
-											0
-										],
-										"on_tick": {
-											"event": "terrariamod:grow"
-										}
-									}
-								},
 								"data": "geometry.purity_sapling",
 								"key": "minecraft:geometry"
 							},
@@ -191,8 +134,8 @@
 									"minecraft:ticking": {
 										"looping": false,
 										"range": [
-											0,
-											0
+											70,
+											70
 										],
 										"on_tick": {
 											"event": "terrariamod:grow"
@@ -202,16 +145,6 @@
 								"key": "minecraft:ticking",
 								"children": [
 									{
-										"open": {
-											"looping": false,
-											"range": [
-												0,
-												0
-											],
-											"on_tick": {
-												"event": "terrariamod:grow"
-											}
-										},
 										"data": "false",
 										"key": "looping"
 									},
@@ -219,8 +152,8 @@
 										"open": {
 											"looping": false,
 											"range": [
-												0,
-												0
+												70,
+												70
 											],
 											"on_tick": {
 												"event": "terrariamod:grow"
@@ -229,21 +162,11 @@
 										"key": "range",
 										"is_minified": true,
 										"children": [
-											0,
-											0
+											70,
+											70
 										]
 									},
 									{
-										"open": {
-											"looping": false,
-											"range": [
-												0,
-												0
-											],
-											"on_tick": {
-												"event": "terrariamod:grow"
-											}
-										},
 										"key": "on_tick",
 										"is_minified": true,
 										"children": {
@@ -255,89 +178,18 @@
 						]
 					},
 					{
-						"open": {
-							"description": {
-								"identifier": "terrariamod:purity_forest_sapling"
-							},
-							"components": {
-								"minecraft:geometry": "geometry.purity_sapling",
-								"minecraft:material_instances": {
-									"*": {
-										"texture": "purity_tree",
-										"render_method": "opaque"
-									}
-								},
-								"minecraft:block_light_emission": 0,
-								"minecraft:block_light_absorption": 0,
-								"minecraft:ticking": {
-									"looping": false,
-									"range": [
-										0,
-										0
-									],
-									"on_tick": {
-										"event": "terrariamod:grow"
-									}
-								}
-							},
-							"events": {
-								"terrariamod:grow": {
-									"condition": "query.biome_has_any_tag('purity_forest')",
-									"run_command": {
-										"command": [
-											"structure load tree ~~~"
-										]
-									}
-								}
-							}
-						},
 						"key": "events",
-						"children": [
-							{
-								"open": {
-									"terrariamod:grow": {
-										"condition": "query.biome_has_any_tag('purity_forest')",
-										"run_command": {
-											"command": [
-												"structure load tree ~~~"
-											]
-										}
-									}
-								},
-								"key": "terrariamod:grow",
-								"children": [
-									{
-										"data": "query.biome_has_any_tag('purity_forest')",
-										"key": "condition"
-									},
-									{
-										"open": {
-											"condition": "query.biome_has_any_tag('purity_forest')",
-											"run_command": {
-												"command": [
-													"structure load tree ~~~"
-												]
-											}
-										},
-										"key": "run_command",
-										"children": [
-											{
-												"open": {
-													"command": [
-														"structure load tree ~~~"
-													]
-												},
-												"key": "command",
-												"is_minified": true,
-												"children": [
-													"structure load tree ~~~"
-												]
-											}
-										]
-									}
-								]
+						"is_minified": true,
+						"children": {
+							"terrariamod:grow": {
+								"condition": "query.biome_has_any_tag('purity_forest')",
+								"run_command": {
+									"command": [
+										"structure load tree ~~~"
+									]
+								}
 							}
-						]
+						}
 					}
 				]
 			}

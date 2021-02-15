@@ -10,7 +10,7 @@
 		],
 		"ingredients": [
 			{
-				"item": "terrariamod:crimson_wood",
+				"item": "terrariamod:crimson_wood_item",
 				"count": 3
 			}
 		],

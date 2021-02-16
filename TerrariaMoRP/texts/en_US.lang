@@ -1,5 +1,5 @@
-##bridge-file-version: #432
-###########how to play
+##bridge-file-version: #434
+############how to play
 terrariamod.category.dakon=Terraria Mod Tutorial
 howtoplay.category.dakon=Terraria Guide
 howtoplay.template.title=Credits
@@ -126,6 +126,7 @@ item.terrariamod:daybloom.name=Daybloom
 item.terrariamod:silk.name=Silk
 item.terrariamod:mushroom.name=Mushroom §9Heals 15 HP
 item.terrariamod:pruity_seeds.name=Seed
+tile.torch_block.name=Torch
 
 ##crimson
 tile.terrariamod:tree_bottom_crimson.name=Crimson Tree Stem

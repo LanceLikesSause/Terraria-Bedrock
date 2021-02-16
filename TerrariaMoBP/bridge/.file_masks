@@ -2823,6 +2823,16 @@
 						}
 					}
 				}
+			},
+			"2715de35_24f0_4059_8cf6_575f613c4c54": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
 			}
 		}
 	},
@@ -3148,9 +3158,6 @@
 		"data": {}
 	},
 	"BP/recipes/poisonedknife_recipe.json": {
-		"data": {}
-	},
-	"BP/blocks/purity_torch.json": {
 		"data": {}
 	},
 	"BP/blocks/crimsonheart.json": {
@@ -4780,6 +4787,33 @@
 		"data": {}
 	},
 	"BP/loot_tables/blocks/underworld_transporter_item.json": {
+		"data": {}
+	},
+	"BP/items/new_torch.json": {
+		"data": {}
+	},
+	"BP/blocks/purity_torch.json": {
+		"data": {}
+	},
+	"BP/blocks/tree_top.json": {
+		"data": {}
+	},
+	"BP/blocks/tree_top_crimson.json": {
+		"data": {}
+	},
+	"BP/blocks/tree_top_jungle.json": {
+		"data": {}
+	},
+	"BP/blocks/tree_log.json": {
+		"data": {}
+	},
+	"BP/blocks/tree_log_corruption.json": {
+		"data": {}
+	},
+	"BP/blocks/tree_log_crimson.json": {
+		"data": {}
+	},
+	"BP/blocks/tree_log_jungle.json": {
 		"data": {}
 	}
 }

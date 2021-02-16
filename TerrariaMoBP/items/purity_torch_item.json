@@ -1,4 +1,4 @@
-//bridge-file-version: #13
+//bridge-file-version: #20
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
@@ -14,13 +14,24 @@
 			"minecraft:display_name": {
 				"value": "Torch\n§9Provides light"
 			},
-			"minecraft:block_placer": {
-				"block": "terrariamod:purity_torch"
-			},
 			"minecraft:creative_category": {
 				"parent": "construction"
+			},
+			"minecraft:on_use": {
+				"on_use": {
+					"event": "terrariamod:use_torch"
+				}
 			}
 		},
-		"events": {}
+		"events": {
+			"terrariamod:use_torch": {
+				"run_command": {
+					"command": [
+						"clear @s terrariamod:purity_torch_item 0 1",
+						"give @s terrariamod:purity_torch"
+					]
+				}
+			}
+		}
 	}
 }

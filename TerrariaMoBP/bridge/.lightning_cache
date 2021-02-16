@@ -623,17 +623,6 @@
 			"custom_components": [],
 			"custom_commands": []
 		},
-		"BP/blocks/purity_torch.json": {
-			"identifiers": [
-				"terrariamod:purity_torch"
-			],
-			"events": [
-				"terrariamod:flame"
-			],
-			"recipe_tags": [],
-			"custom_commands": [],
-			"custom_components": []
-		},
 		"BP/blocks/mushroom.json": {
 			"identifiers": [
 				"terrariamod:mushroom"
@@ -1290,6 +1279,81 @@
 		"BP/blocks/snow_wood.json": {
 			"identifiers": [
 				"terrariamod:snow_wood"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/purity_torch.json": {
+			"identifiers": [
+				"terrariamod:purity_torch"
+			],
+			"events": [
+				"set",
+				"torch"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/tree_top.json": {
+			"identifiers": [
+				"terrariamod:tree_top"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/tree_top_crimson.json": {
+			"identifiers": [
+				"terrariamod:tree_top_crimson"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/tree_top_jungle.json": {
+			"identifiers": [
+				"terrariamod:tree_top_jungle"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/tree_log.json": {
+			"identifiers": [
+				"terrariamod:tree_log"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/tree_log_corruption.json": {
+			"identifiers": [
+				"terrariamod:tree_log_corruption"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/tree_log_crimson.json": {
+			"identifiers": [
+				"terrariamod:tree_log_crimson"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/tree_log_jungle.json": {
+			"identifiers": [
+				"terrariamod:tree_log_jungle"
 			],
 			"events": [],
 			"recipe_tags": [],
@@ -2830,7 +2894,15 @@
 		"99e279ec_cd4f_4c47_8dca_f26192de2703": {},
 		"f49af649_c66d_40f9_b85b_493348b3a5fe": {},
 		"5ed0f797_ec1d_4fd1_91fb_5b02cd7fe23d": {},
-		"b9b16c84_a56b_49c3_93db_479eda1ac207": {}
+		"b9b16c84_a56b_49c3_93db_479eda1ac207": {},
+		"4cece48e_efc5_47fb_8a3a_7d12dec2907d": {},
+		"3fcdff1d_6727_422c_ab0e_d3a5c73dcd74": {},
+		"2715de35_24f0_4059_8cf6_575f613c4c54": {},
+		"98fffd71_6137_47e6_9566_89cc1688026d": {},
+		"c997a0d7_06d8_4700_a8ed_57ae9b5eb9d3": {},
+		"85ec9530_4af0_46b7_a896_98e10b6c60ee": {},
+		"d231b359_6765_443b_9951_6a37cd0ba6cc": {},
+		"ec226489_c100_42d2_9cc4_bf11e6db51bb": {}
 	},
 	"rp_animation_controller": {
 		"RP/animation_controllers/devourer.animation.controller.json": {
@@ -6102,6 +6174,10 @@
 			"identifiers": [
 				"terrariamod:vilemushroom_item"
 			],
+			"custom_commands": []
+		},
+		"BP/items/new_torch.json": {
+			"identifiers": [],
 			"custom_commands": []
 		}
 	},

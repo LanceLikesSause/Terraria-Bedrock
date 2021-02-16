@@ -1,45 +1,123 @@
-//bridge-file-version: #40
+//bridge-file-version: #36
 {
-	"format_version": "1.16.100",
 	"minecraft:block": {
 		"description": {
+			"properties": {
+				"bridge:block_rotation": [
+					2,
+					3,
+					4,
+					5
+				],
+				"ihg:face": [
+					2,
+					3,
+					4,
+					5,
+					1
+				]
+			},
 			"identifier": "terrariamod:purity_torch"
 		},
+		"permutations": [
+			{
+				"condition": "query.block_property('ihg:face') == 2 ",
+				"components": {
+					"minecraft:geometry": "geometry.purity_torch_attached",
+					"minecraft:rotation": [
+						0,
+						180,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('ihg:face') == 3",
+				"components": {
+					"minecraft:geometry": "geometry.purity_torch_attached",
+					"minecraft:rotation": [
+						0,
+						0,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('ihg:face') == 4",
+				"components": {
+					"minecraft:geometry": "geometry.purity_torch_attached",
+					"minecraft:rotation": [
+						0,
+						270,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('ihg:face') == 5",
+				"components": {
+					"minecraft:geometry": "geometry.purity_torch_attached",
+					"minecraft:rotation": [
+						0,
+						90,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('ihg:face') == 1 || query.block_property('ihg:face') == 0",
+				"components": {
+					"minecraft:geometry": "geometry.purity_torch",
+					"minecraft:rotation": [
+						0,
+						0,
+						0
+					],
+					"minecraft:pick_collision": {
+						"size": [
+							4,
+							9,
+							4
+						],
+						"origin": [
+							-2,
+							0,
+							-2
+						]
+					}
+				}
+			}
+		],
 		"components": {
-			"minecraft:block_light_emission": 0.8,
-			"minecraft:block_light_absorption": 0,
-			"minecraft:loot": "loot_tables/blocks/purity_torch_item.json",
-			"minecraft:geometry": "geometry.purity_torch",
+			"minecraft:on_player_placing": {
+				"event": "set"
+			},
 			"minecraft:material_instances": {
 				"*": {
 					"texture": "purity_torch",
 					"render_method": "opaque"
 				}
 			},
-			"minecraft:entity_collision": false,
-			"tag:terrariamod:plant": {},
-			"minecraft:destroy_time": 0.1,
-			"minecraft:ticking": {
-				"looping": true,
-				"range": [
-					1,
-					1
-				],
-				"on_tick": {
-					"event": "terrariamod:flame",
-					"target": "self"
-				}
-			},
+			"minecraft:block_light_emission": 0.9,
+			"minecraft:geometry": "geometry.purity_torch_attached",
+			"minecraft:block_light_absorption": 0.9,
 			"minecraft:pick_collision": {
-				"origin": [
-					-1,
-					0,
-					-1
-				],
 				"size": [
-					2,
-					8,
-					2
+					6,
+					9,
+					7
+				],
+				"origin": [
+					-3,
+					6,
+					-8
+				]
+			},
+			"minecraft:entity_collision": {
+				"size": [
+					0,
+					0,
+					0
 				]
 			},
 			"minecraft:placement_filter": {
@@ -56,16 +134,33 @@
 						]
 					}
 				]
-			}
+			},
+			"minecraft:loot": "loot_tables/blocks/purity_torch_item.json",
+			"minecraft:display_name": "torch_block"
 		},
 		"events": {
-			"terrariamod:flame": {
+			"set": {
+				"sequence": [
+					{
+						"set_block_property": {
+							"bridge:block_rotation": "query.cardinal_facing_2d"
+						}
+					},
+					{
+						"set_block_property": {
+							"ihg:face": "query.block_face"
+						}
+					}
+				]
+			},
+			"torch": {
 				"run_command": {
 					"command": [
-						"particle minecraft:basic_flame_particle ~ ~0.1 ~"
+						"particle minecraft:basic_flame_particle ~ ~0.2 ~"
 					]
 				}
 			}
 		}
-	}
+	},
+	"format_version": "1.16.100"
 }

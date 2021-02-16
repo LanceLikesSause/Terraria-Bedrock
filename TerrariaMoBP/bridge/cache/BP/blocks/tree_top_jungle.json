@@ -1,0 +1,99 @@
+{
+	"file_path": "C:\\Users\\LANCE.LEGAUX\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\TerrariaMoBP\\blocks\\tree_top_jungle.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "a91c6bdd_5396_46c9_86bd_76675f15d380",
+	"file_version": 2,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:block": {
+						"description": {
+							"identifier": "terrariamod:tree_top_jungle"
+						},
+						"components": {
+							"minecraft:destroy_time": 2,
+							"minecraft:block_light_emission": 0,
+							"minecraft:block_light_absorption": 0,
+							"minecraft:explosion_resistance": 0,
+							"minecraft:loot": "loot_tables/blocks/jungle_tree_top.json",
+							"minecraft:geometry": "geometry.treetop_jungle",
+							"minecraft:material_instances": {
+								"*": {
+									"texture": "jungle_tree",
+									"render_method": "alpha_test"
+								}
+							},
+							"tag:terrariamod:wood": {},
+							"tag:terrariamod:plant": {}
+						},
+						"events": {}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:tree_top_jungle"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:tree_top_jungle"
+							},
+							"components": {
+								"minecraft:destroy_time": 2,
+								"minecraft:block_light_emission": 0,
+								"minecraft:block_light_absorption": 0,
+								"minecraft:explosion_resistance": 0,
+								"minecraft:loot": "loot_tables/blocks/jungle_tree_top.json",
+								"minecraft:geometry": "geometry.treetop_jungle",
+								"minecraft:material_instances": {
+									"*": {
+										"texture": "jungle_tree",
+										"render_method": "alpha_test"
+									}
+								},
+								"tag:terrariamod:wood": {},
+								"tag:terrariamod:plant": {}
+							},
+							"events": {}
+						},
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:destroy_time": 2,
+							"minecraft:block_light_emission": 0,
+							"minecraft:block_light_absorption": 0,
+							"minecraft:explosion_resistance": 0,
+							"minecraft:loot": "loot_tables/blocks/jungle_tree_top.json",
+							"minecraft:geometry": "geometry.treetop_jungle",
+							"minecraft:material_instances": {
+								"*": {
+									"texture": "jungle_tree",
+									"render_method": "alpha_test"
+								}
+							},
+							"tag:terrariamod:wood": {},
+							"tag:terrariamod:plant": {}
+						}
+					},
+					{
+						"key": "events",
+						"is_minified": true,
+						"children": {}
+					}
+				]
+			}
+		]
+	}
+}

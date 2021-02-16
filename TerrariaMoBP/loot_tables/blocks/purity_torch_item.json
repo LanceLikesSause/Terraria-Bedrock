@@ -7,7 +7,7 @@
 				{
 					"type": "item",
 					"weight": 1,
-					"name": "terrariamod:purity_torch_item",
+					"name": "terrariamod:purity_torch",
 					"functions": [
 						{
 							"function": "set_count",

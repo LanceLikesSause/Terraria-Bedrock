@@ -1,4 +1,4 @@
-//bridge-file-version: #48
+//bridge-file-version: #49
 {
 	"terrariamod:shadoworb": {
 		"sound": "wood"
@@ -456,5 +456,9 @@
 	},
 	"terrariamod:purity_tall_grass": {
 		"sound": "grass"
+	},
+	"terrariamod:dungeon_mob_spawner": {
+		"sound": "stone",
+		"textures": "dungeon_mob_spawner"
 	}
 }

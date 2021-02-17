@@ -925,7 +925,7 @@
 		},
 		"BP/blocks/dungeon_spawner.json": {
 			"identifiers": [
-				"terrariamod:beehive_spawner"
+				"terrariamod:dungeon_spawner"
 			],
 			"events": [
 				"terrariamod:spawn"
@@ -1356,6 +1356,17 @@
 				"terrariamod:tree_log_jungle"
 			],
 			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/dungeon_mob_spawner.json": {
+			"identifiers": [
+				"terrariamod:dungeon_mob_spawner"
+			],
+			"events": [
+				"terrariamod:spawn_mob"
+			],
 			"recipe_tags": [],
 			"custom_commands": [],
 			"custom_components": []
@@ -2902,7 +2913,10 @@
 		"c997a0d7_06d8_4700_a8ed_57ae9b5eb9d3": {},
 		"85ec9530_4af0_46b7_a896_98e10b6c60ee": {},
 		"d231b359_6765_443b_9951_6a37cd0ba6cc": {},
-		"ec226489_c100_42d2_9cc4_bf11e6db51bb": {}
+		"ec226489_c100_42d2_9cc4_bf11e6db51bb": {},
+		"6ed650c6_06c0_413e_8bf8_a5dbbe7afb3f": {},
+		"b69211b8_f8da_4c71_a3f7_0b2753d027a2": {},
+		"ede25b4d_791d_4cc1_9e50_3f8cbb88994c": {}
 	},
 	"rp_animation_controller": {
 		"RP/animation_controllers/devourer.animation.controller.json": {

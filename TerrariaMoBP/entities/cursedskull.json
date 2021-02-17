@@ -1,4 +1,4 @@
-//bridge-file-version: #24
+//bridge-file-version: #27
 {
 	"format_version": "1.16.0",
 	"minecraft:entity": {
@@ -47,16 +47,6 @@
 			},
 			"minecraft:attack": {
 				"damage": 35
-			},
-			"minecraft:breathable": {
-				"total_supply": 15,
-				"suffocate_time": 0,
-				"breathes_air": true,
-				"breathes_water": false,
-				"breathes_solids": false,
-				"breathe_blocks": [
-					"terrariamod:pinkbrick"
-				]
 			},
 			"minecraft:collision_box": {
 				"width": 0.9,
@@ -133,8 +123,8 @@
 				"goal_radius": 1,
 				"angle_change": 15,
 				"radius_range": [
-					5,
-					15
+					2,
+					4
 				],
 				"height_offset_range": [
 					-4,
@@ -152,6 +142,20 @@
 				},
 				"despawn_from_inactivity": true,
 				"despawn_from_chance": true
+			},
+			"minecraft:breathable": {
+				"suffocate_time": 0,
+				"total_supply": 0,
+				"breathes_air": true,
+				"breathes_water": false,
+				"breathes_lava": false,
+				"breathes_solids": false,
+				"non_breathe_blocks": [
+					"terrariamod:pinkbrick",
+					"terrariamod:pinkbrick_slab",
+					"terrariamod:pinkbrick_wall"
+				],
+				"inhale_time": 0
 			}
 		},
 		"events": {}

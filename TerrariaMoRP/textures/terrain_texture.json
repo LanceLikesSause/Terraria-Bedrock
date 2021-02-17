@@ -1,4 +1,4 @@
-//bridge-file-version: #45
+//bridge-file-version: #46
 {
 	"resource_pack_name": "vanilla",
 	"texture_name": "atlas.terrain",
@@ -426,6 +426,11 @@
 		"purity_tall_grass_five": {
 			"textures": [
 				"textures/blocks/purity_tall_grass_five"
+			]
+		},
+		"dungeon_mob_spawner": {
+			"textures": [
+				"textures/blocks/dungeon_mob_spawner"
 			]
 		}
 	}

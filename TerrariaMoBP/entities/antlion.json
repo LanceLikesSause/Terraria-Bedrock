@@ -1,4 +1,4 @@
-//bridge-file-version: #10
+//bridge-file-version: #12
 {
 	"format_version": "1.16.200",
 	"minecraft:entity": {
@@ -162,8 +162,8 @@
 			},
 			"minecraft:behavior.ranged_attack": {
 				"priority": 0,
-				"attack_interval_min": 1,
-				"attack_interval_max": 3,
+				"attack_interval_min": 8,
+				"attack_interval_max": 10,
 				"attack_radius": 15
 			},
 			"minecraft:loot": {

@@ -1,0 +1,292 @@
+{
+	"file_path": "C:\\Users\\LANCE.LEGAUX\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\TerrariaMoBP\\feature_rules\\purity_cave_featurerule.json",
+	"file_type": "feature_rule",
+	"format_version": 1,
+	"file_uuid": "70283e5c_6a6e_4497_b034_71d8f56b5d7f",
+	"file_version": 31,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.13.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.13.0",
+					"minecraft:feature_rules": {
+						"description": {
+							"identifier": "minecraft:purity_cave_featurerule",
+							"places_feature": "minecraft:purity_cave_feature"
+						},
+						"conditions": {
+							"minecraft:biome_filter": [
+								{
+									"any_of": [
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "overworld"
+										}
+									]
+								}
+							],
+							"placement_pass": "before_underground_pass"
+						},
+						"distribution": {
+							"iterations": 17,
+							"coordinate_eval_order": "zyx",
+							"x": {
+								"distribution": "uniform",
+								"extent": [
+									0,
+									16
+								]
+							},
+							"y": {
+								"distribution": "uniform",
+								"extent": [
+									0,
+									65
+								]
+							},
+							"z": {
+								"distribution": "uniform",
+								"extent": [
+									0,
+									16
+								]
+							},
+							"scatter_chance": {
+								"numerator": 1,
+								"denominator": 2
+							}
+						}
+					}
+				},
+				"key": "minecraft:feature_rules",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "minecraft:purity_cave_featurerule",
+							"places_feature": "minecraft:purity_cave_feature"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "minecraft:purity_cave_featurerule",
+								"places_feature": "minecraft:purity_cave_feature"
+							},
+							"conditions": {
+								"minecraft:biome_filter": [
+									{
+										"any_of": [
+											{
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "overworld"
+											}
+										]
+									}
+								],
+								"placement_pass": "before_underground_pass"
+							},
+							"distribution": {
+								"iterations": 17,
+								"coordinate_eval_order": "zyx",
+								"x": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								},
+								"y": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										65
+									]
+								},
+								"z": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								},
+								"scatter_chance": {
+									"numerator": 1,
+									"denominator": 2
+								}
+							}
+						},
+						"key": "conditions",
+						"is_minified": true,
+						"children": {
+							"minecraft:biome_filter": [
+								{
+									"any_of": [
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "overworld"
+										}
+									]
+								}
+							],
+							"placement_pass": "before_underground_pass"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "minecraft:purity_cave_featurerule",
+								"places_feature": "minecraft:purity_cave_feature"
+							},
+							"conditions": {
+								"minecraft:biome_filter": [
+									{
+										"any_of": [
+											{
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "overworld"
+											}
+										]
+									}
+								],
+								"placement_pass": "before_underground_pass"
+							},
+							"distribution": {
+								"iterations": 17,
+								"coordinate_eval_order": "zyx",
+								"x": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								},
+								"y": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										65
+									]
+								},
+								"z": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								},
+								"scatter_chance": {
+									"numerator": 1,
+									"denominator": 2
+								}
+							}
+						},
+						"key": "distribution",
+						"children": [
+							{
+								"data": "17",
+								"key": "iterations"
+							},
+							{
+								"data": "zyx",
+								"key": "coordinate_eval_order"
+							},
+							{
+								"key": "x",
+								"is_minified": true,
+								"children": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								}
+							},
+							{
+								"open": {
+									"iterations": 17,
+									"coordinate_eval_order": "zyx",
+									"x": {
+										"distribution": "uniform",
+										"extent": [
+											0,
+											16
+										]
+									},
+									"y": {
+										"distribution": "uniform",
+										"extent": [
+											0,
+											65
+										]
+									},
+									"z": {
+										"distribution": "uniform",
+										"extent": [
+											0,
+											16
+										]
+									},
+									"scatter_chance": {
+										"numerator": 1,
+										"denominator": 2
+									}
+								},
+								"key": "y",
+								"children": [
+									{
+										"data": "uniform",
+										"key": "distribution"
+									},
+									{
+										"open": {
+											"distribution": "uniform",
+											"extent": [
+												0,
+												65
+											]
+										},
+										"key": "extent",
+										"is_minified": true,
+										"children": [
+											0,
+											65
+										]
+									}
+								]
+							},
+							{
+								"key": "z",
+								"is_minified": true,
+								"children": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								}
+							},
+							{
+								"key": "scatter_chance",
+								"is_minified": true,
+								"children": {
+									"numerator": 1,
+									"denominator": 2
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

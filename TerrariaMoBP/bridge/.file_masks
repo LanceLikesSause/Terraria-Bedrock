@@ -4815,5 +4815,14 @@
 	},
 	"BP/blocks/tree_log_jungle.json": {
 		"data": {}
+	},
+	"BP/loot_tables/blocks/copperore.json": {
+		"data": {}
+	},
+	"BP/blocks/dungeon_mob_spawner.json": {
+		"data": {}
+	},
+	"BP/spawn_rules/angrybones.json": {
+		"data": {}
 	}
 }

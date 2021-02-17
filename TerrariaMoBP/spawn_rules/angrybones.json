@@ -3,18 +3,15 @@
 	"format_version": "1.8.0",
 	"minecraft:spawn_rules": {
 		"description": {
-			"identifier": "terrariamod:skeleton_terraria",
-			"population_control": "monster"
+			"identifier": "terrariamod:blueslime",
+			"population_control": "animal"
 		},
 		"conditions": [
 			{
+				"minecraft:spawns_on_surface": {},
 				"minecraft:spawns_underground": {},
-				"minecraft:height_filter": {
-					"min": 0,
-					"max": 63
-				},
 				"minecraft:weight": {
-					"default": 99999999
+					"default": 90000000
 				},
 				"minecraft:herd": {
 					"min_size": 1,
@@ -23,8 +20,11 @@
 				"minecraft:biome_filter": {
 					"test": "has_biome_tag",
 					"operator": "==",
-					"value": "purity"
-				}
+					"value": "purity_forest"
+				},
+				"minecraft:spawns_on_block_filter": [
+					"terrariamod:pinkbrick_slab"
+				]
 			}
 		]
 	}

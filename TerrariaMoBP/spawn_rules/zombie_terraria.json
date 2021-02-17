@@ -1,4 +1,4 @@
-//bridge-file-version: #5
+//bridge-file-version: #7
 {
 	"format_version": "1.8.0",
 	"minecraft:spawn_rules": {
@@ -13,10 +13,6 @@
 					"min": 0,
 					"max": 7,
 					"adjust_for_weather": true
-				},
-				"minecraft:difficulty_filter": {
-					"min": "easy",
-					"max": "hard"
 				},
 				"minecraft:weight": {
 					"default": 900000

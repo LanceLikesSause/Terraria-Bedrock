@@ -1,7 +1,7 @@
-//bridge-file-version: #6
+//bridge-file-version: #17
 All Biomes = Forest Biome
-Jungle/Jungle Edge Biomes = Jungle Biome
+Jungle/Jungle Edge/Bamboo Jungle/Warm Ocean Biomes  = Jungle Biome
 Normal Ocean = Corruption / Crimson Biomes
-Cold Biomes = Snowy Biome
-Desert Biomes = Desert BIome
+Cold Beach (done) /Cold Ocean(done)/Cold Taiga(done)/Deep Cold Ocean(done)/Deep Frozen Ocean(done)/Ice Mountians(done)/Ice Plains(done)/Ice Plains Spikes(done)Biomes = Snowy Biome
+Desert/Desert Hills/Desert Mutated Biomes = Desert BIome
 

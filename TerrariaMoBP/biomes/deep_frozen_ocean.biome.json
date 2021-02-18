@@ -1,4 +1,4 @@
-//bridge-file-version: #0
+//bridge-file-version: #1
 {
 	"format_version": "1.13.0",
 	"minecraft:biome": {
@@ -17,6 +17,14 @@
 			"minecraft:overworld_height": {
 				"noise_type": "lowlands"
 			},
+			"minecraft:surface_parameters": {
+				"sea_floor_depth": 7,
+				"sea_floor_material": "terrariamod:purity_ice",
+				"foundation_material": "terrariamod:purity_ice",
+				"mid_material": "terrariamod:purity_ice",
+				"top_material": "terrariamod:purity_snow",
+				"sea_material": "terrariamod:purity_ice"
+			},
 			"minecraft:overworld_generation_rules": {
 				"hills_transformation": "desert_hills",
 				"mutate_transformation": "desert_mutated",
@@ -26,14 +34,6 @@
 						3
 					]
 				]
-			},
-			"minecraft:frozen_ocean_surface": {
-				"top_material": "terrariamod:purity_grass",
-				"mid_material": "terrariamod:purity_dirt",
-				"foundation_material": "terrariamod:purity_stone",
-				"sea_floor_depth": 3,
-				"sea_floor_material": "terrariamod:purity_sandstone",
-				"sea_material": "minecraft:water"
 			},
 			"purity": {},
 			"purity_snow": {},

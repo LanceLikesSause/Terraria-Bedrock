@@ -1,3 +1,0 @@
-tile.{{PROJ_PREFIX}}:{{IDENTIFIER}}.name={{IDENTIFIER_NAME}}
-
-item.{{PROJ_PREFIX}}:{{IDENTIFIER}}_seeds.name={{IDENTIFIER_NAME}} Seeds

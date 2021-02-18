@@ -1,4 +1,4 @@
-//bridge-file-version: #10
+//bridge-file-version: #13
 {
 	"format_version": "1.8.0",
 	"minecraft:client_entity": {
@@ -18,11 +18,11 @@
 				"default": "geometry.demoneye"
 			},
 			"animations": {
-				"move": "animation.demoneye"
+				"flying": "animation.demoneye.flying"
 			},
 			"animation_controllers": [
 				{
-					"move": "controller.animation.humanoid.move"
+					"flying": "controller.animation.vulture"
 				}
 			],
 			"render_controllers": [

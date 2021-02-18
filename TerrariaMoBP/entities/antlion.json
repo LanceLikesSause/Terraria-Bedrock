@@ -1,4 +1,4 @@
-//bridge-file-version: #12
+//bridge-file-version: #13
 {
 	"format_version": "1.16.200",
 	"minecraft:entity": {
@@ -57,10 +57,6 @@
 			"minecraft:behavior.melee_attack": {
 				"priority": 3,
 				"speed_multiplier": 1.5
-			},
-			"minecraft:behavior.move_towards_restriction": {
-				"priority": 5,
-				"speed_multiplier": 1
 			},
 			"minecraft:behavior.random_stroll": {
 				"priority": 7,

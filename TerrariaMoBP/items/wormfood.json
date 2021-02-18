@@ -1,4 +1,4 @@
-//bridge-file-version: #16
+//bridge-file-version: #17
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
@@ -28,7 +28,7 @@
 				"run_command": {
 					"command": [
 						"summon terrariamod:eaterofworlds",
-						"stopsound @a eyeofcthulhu.music",
+						"stopsound @a",
 						"playsound eyeofcthulhu.music @a",
 						"tellraw @a {\"rawtext\":[{\"text\":\"§4The Eater of Worlds\"},{\"text\":\"§r has awoken!\"}]}",
 						"clear @s terrariamod:wormfood 0 1"

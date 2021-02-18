@@ -1,4 +1,4 @@
-//bridge-file-version: #36
+//bridge-file-version: #38
 {
 	"format_version": "1.16.0",
 	"minecraft:entity": {
@@ -9,6 +9,7 @@
 			"is_experimental": false,
 			"scripts": {
 				"animate": [
+					"bridge_execute_commands",
 					"bridge_execute_commands"
 				]
 			},
@@ -17,18 +18,7 @@
 			}
 		},
 		"component_groups": {
-			"terrariamod:interacted_1": {
-				"minecraft:spawn_entity": {
-					"entities": [
-						{
-							"single_use": true,
-							"spawn_entity": "terrariamod:skeletron_head",
-							"min_wait_time": 1,
-							"max_wait_time": 1
-						}
-					]
-				}
-			},
+			"terrariamod:interacted_1": {},
 			"bridge:execute_command_id_1": {
 				"minecraft:skin_id": {
 					"value": 1
@@ -271,7 +261,6 @@
 			"terrariamod:on_interact_1": {
 				"add": {
 					"component_groups": [
-						"terrariamod:interacted_1",
 						"bridge:execute_command_id_1"
 					]
 				}
@@ -286,11 +275,13 @@
 			"bridge:remove_command_id_1": {
 				"add": {
 					"component_groups": [
+						"bridge:execute_no_command",
 						"bridge:execute_no_command"
 					]
 				},
 				"remove": {
 					"component_groups": [
+						"bridge:execute_command_id_1",
 						"bridge:execute_command_id_1"
 					]
 				}
@@ -298,11 +289,13 @@
 			"bridge:remove_command_id_2": {
 				"add": {
 					"component_groups": [
+						"bridge:execute_no_command",
 						"bridge:execute_no_command"
 					]
 				},
 				"remove": {
 					"component_groups": [
+						"bridge:execute_command_id_2",
 						"bridge:execute_command_id_2"
 					]
 				}

@@ -1,4 +1,4 @@
-//bridge-file-version: #10
+//bridge-file-version: #11
 {
 	"format_version": "1.16.0",
 	"minecraft:entity": {
@@ -96,7 +96,6 @@
 			"minecraft:behavior.nearest_attackable_target": {
 				"priority": 1,
 				"reselect_targets": true,
-				"scan_interval": 1,
 				"within_radius": 64,
 				"must_see_forget_duration": 0.5,
 				"target_search_height": 80,
@@ -109,7 +108,8 @@
 						},
 						"max_dist": 64
 					}
-				]
+				],
+				"scan_interval": 5
 			},
 			"minecraft:behavior.swoop_attack": {
 				"priority": 2,

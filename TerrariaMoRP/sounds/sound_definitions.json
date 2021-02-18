@@ -1,4 +1,4 @@
-//bridge-file-version: #6
+//bridge-file-version: #11
 {
 	"format_version": "1.14.0",
 	"sound_definitions": {
@@ -414,6 +414,36 @@
 			"category": "neutral",
 			"sounds": [
 				"sounds/terrariamod_dig/stone1"
+			]
+		},
+		"desert_underground": {
+			"category": "music",
+			"sounds": [
+				"sounds/music/desert_underground"
+			]
+		},
+		"jungle_underground": {
+			"category": "music",
+			"sounds": [
+				"sounds/music/jungle_underground"
+			]
+		},
+		"ice": {
+			"category": "music",
+			"sounds": [
+				"sounds/music/ice"
+			]
+		},
+		"crimson_underground": {
+			"category": "music",
+			"sounds": [
+				"sounds/music/crimson_underground"
+			]
+		},
+		"corruption_underground": {
+			"category": "music",
+			"sounds": [
+				"sounds/music/corruption_underground"
 			]
 		}
 	}

@@ -1,4 +1,4 @@
-//bridge-file-version: #8
+//bridge-file-version: #9
 {
 	"format_version": "1.13.0",
 	"minecraft:ore_feature": {
@@ -22,6 +22,12 @@
 			},
 			{
 				"name": "terrariamod:purity_snow"
+			},
+			{
+				"name": "terrariamod:purity_sand"
+			},
+			{
+				"name": "terrariamod:purity_sandstone"
 			}
 		]
 	}

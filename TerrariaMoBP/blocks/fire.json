@@ -1,0 +1,56 @@
+//bridge-file-version: #21
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "terrariamod:purity_campfire_two"
+		},
+		"components": {
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "purity_tree",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:geometry": "geometry.purity_campfire",
+			"minecraft:block_light_emission": 0,
+			"minecraft:block_light_absorption": 0,
+			"minecraft:destroy_time": 1,
+			"minecraft:pick_collision": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					8,
+					16
+				]
+			},
+			"minecraft:entity_collision": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					8,
+					16
+				]
+			},
+			"minecraft:on_step_on": {
+				"event": "terrariamod:burn"
+			}
+		},
+		"events": {
+			"terrariamod:burn": {
+				"damage": {
+					"amount": 2,
+					"type": "fire"
+				}
+			}
+		}
+	}
+}

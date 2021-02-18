@@ -1,0 +1,26 @@
+{
+  "format_version" : "1.10.0",
+  "animation_controllers" : {
+    "controller.animation.hellstonesword.wield": {
+      "initial_state": "first_person",
+      "states": {
+        "first_person": {
+          "animations": [ "wield" ],
+          "transitions": [
+            {
+              "hellstonesword_blocking": "c.is_first_person && q.is_sneaking"
+            }
+          ]
+        },
+        "hellstonesword_blocking": {
+          "animations": [ "blocking" ],
+          "transitions": [
+            {
+              "first_person": "c.is_first_person && !q.is_sneaking"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

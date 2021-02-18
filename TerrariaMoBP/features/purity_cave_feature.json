@@ -1,4 +1,4 @@
-//bridge-file-version: #10
+//bridge-file-version: #11
 {
 	"format_version": "1.13.0",
 	"minecraft:ore_feature": {
@@ -27,10 +27,10 @@
 				"name": "terrariamod:purity_sandstone"
 			},
 			{
-				"name": "terrariamod:jungle_grass"
+				"name": "terrariamod:purity_snow"
 			},
 			{
-				"name": "terrariamod:purity_snow"
+				"name": "terrariamod:jungle_grass"
 			},
 			{
 				"name": "terrariamod:crimson_grass"
@@ -46,6 +46,9 @@
 			},
 			{
 				"name": "terrariamod:purity_ice"
+			},
+			{
+				"name": "terrariamod:purity_mud"
 			}
 		]
 	}

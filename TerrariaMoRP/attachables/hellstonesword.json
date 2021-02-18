@@ -1,26 +1,37 @@
-//bridge-file-version: #3
 {
-	"format_version": "1.10.0",
-	"minecraft:attachable": {
-		"description": {
-			"identifier": "terrariamod:hellstonesword",
-			"materials": {
-				"default": "armor",
-				"enchanted": "armor_enchanted"
-			},
-			"textures": {
-				"default": "textures/models/armor/copper_chestplate_layer_1",
-				"enchanted": "textures/misc/enchanted_item_glint"
-			},
-			"geometry": {
-				"default": "geometry.player.armor.chestplate"
-			},
-			"scripts": {
-				"parent_setup": "variable.chestplate_layer_visible = 0.0;"
-			},
-			"render_controllers": [
-				"controller.render.armor"
-			]
-		}
-	}
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "terrariamod:hellstonesword",
+      "materials": {
+        "default": "entity_alphatest",
+        "enchanted": "entity_alphatest_glint"
+      },
+      "textures": {
+        "default": "textures/entity/hellstonesword",
+        "enchanted": "textures/misc/enchanted_item_glint"
+      },
+      "geometry": {
+        "default": "geometry.hellstonesword"
+      },
+      "animations": {
+        "wield_controller": "controller.animation.hellstonesword.wield",
+        "wield": "animation.hellstonesword.first_person_wield",
+        "blocking": "animation.hellstonesword.first_person_blocking",
+        "default": "animation.hellstonesword.default",
+        "is_using_item": "animation.hellstonesword.is_using_item"
+      },
+      "scripts": {
+        "animate": [
+          { "wield_controller": "c.is_first_person && c.item_slot == 'main_hand' && c.item_slot != 'off_hand' && q.get_equipped_item_name == 'hellstonesword'"
+          },
+          { "default": "!c.is_first_person && c.item_slot == 'main_hand' && c.item_slot != 'off_hand' && q.get_equipped_item_name == 'hellstonesword' && !q.is_sneaking"
+          },
+          { "is_using_item": "!c.is_first_person && c.item_slot == 'main_hand' && c.item_slot != 'off_hand' && q.get_equipped_item_name == 'hellstonesword' && q.is_sneaking"
+          }
+        ]
+      },
+      "render_controllers": [ "controller.render.item_default" ]
+    }
+  }
 }

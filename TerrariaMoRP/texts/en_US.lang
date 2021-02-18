@@ -1,5 +1,5 @@
-##bridge-file-version: #434
-############how to play
+##bridge-file-version: #435
+#############how to play
 terrariamod.category.dakon=Terraria Mod Tutorial
 howtoplay.category.dakon=Terraria Guide
 howtoplay.template.title=Credits
@@ -102,6 +102,7 @@ tile.terrariamod:tree_bottom_jungle.name=Jungle Tree Stem
 tile.terrariamod:tree_log_jungle=Jungle Tree Log
 tile.terrariamod:tree_top_jungle=Jungle Tree Top
 item.terrariamod:jungle_wood.name=Rich Mahogany Wood
+tile.terrariamod:purity_mud.name=Mud
 
 ##forest
 item.terrariamod:acorn.name=Acorn

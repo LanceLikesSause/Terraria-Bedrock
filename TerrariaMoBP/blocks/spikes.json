@@ -1,4 +1,4 @@
-//bridge-file-version: #31
+//bridge-file-version: #33
 {
 	"format_version": "1.16.100",
 	"minecraft:block": {
@@ -57,16 +57,14 @@
 				"event": "terrariamod:rotate"
 			},
 			"minecraft:on_step_on": {
-				"event": "terrariamod:walk",
-				"target": "player"
+				"event": "terrariamod:walk"
 			}
 		},
 		"events": {
 			"terrariamod:walk": {
-				"run_command": {
-					"command": [
-						"effect @p[r=1] instant_damage 1 2"
-					]
+				"damage": {
+					"amount": 1,
+					"type": "fire_tick"
 				}
 			},
 			"terrariamod:rotate": {

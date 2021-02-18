@@ -31,9 +31,13 @@
 			"minecraft:creative_category": {
 				"parent": "itemGroup.name.sword"
 			},
-			"minecraft:wearable": {
-				"slot": "slot.weapon.mainhand"
-			}
+            "minecraft:wearable": {
+               "slot": "slot.weapon.offhand"
+            },
+            "minecraft:armor": {
+              "texture_type": "hellstonesword"
+            },
+			"minecraft:shield": {}
 		},
 		"events": {
 			"terrariamod:hellstone": {

@@ -1,4 +1,4 @@
-//bridge-file-version: #37
+//bridge-file-version: #39
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
@@ -31,16 +31,25 @@
 		},
 		"events": {
 			"terrariamod:shoot": {
-				"shoot": {
-					"projectile": "terrariamod:musketball_projectile_minishark",
-					"launch_power": 1
-				},
-				"run_command": {
-					"command": [
-						"clear @s terrariamod:musketball 0 1",
-						"playsound minishark.effect @s ~~~"
-					]
-				}
+				"randomize": [
+					{
+						"weight": 9,
+						"run_command": {
+							"command": [
+								"clear @s terrariamod:musketball 0 1",
+								"playsound minishark.effect @s ~~~"
+							]
+						},
+						"shoot": {
+							"projectile": "terrariamod:musketball_projectile_minishark",
+							"launch_power": 1
+						}
+					},
+					{
+						"weight": 1,
+						"swing": {}
+					}
+				]
 			}
 		}
 	}

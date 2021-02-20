@@ -1,4 +1,4 @@
-//bridge-file-version: #182
+//bridge-file-version: #190
 {
 	"format_version": "1.16.100",
 	"minecraft:block": {
@@ -112,7 +112,7 @@
 				"run_command": {
 					"command": [
 						"playsound twooden_door_open.effect @p ~~~",
-						"setblock ~ ~1 ~ air"
+						"setblock ~ ~1 ~ barrier"
 					]
 				}
 			},
@@ -123,7 +123,7 @@
 				"run_command": {
 					"command": [
 						"playsound twooden_door_close.effect @p ~~~",
-						"setblock ~ ~1 ~ barrier"
+						"setblock ~ ~1 ~ air"
 					]
 				}
 			},

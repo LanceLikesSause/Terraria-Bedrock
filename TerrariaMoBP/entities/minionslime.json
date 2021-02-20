@@ -11,7 +11,7 @@
 		"component_groups": {},
 		"components": {
 			"minecraft:collision_box": {
-				"width": 0.6,
+				"width": 1.0,
 				"height": 1.9
 			},
 			"minecraft:movement.basic": {},

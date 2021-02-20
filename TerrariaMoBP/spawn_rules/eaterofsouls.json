@@ -1,26 +1,30 @@
-//bridge-file-version: #4
+//bridge-file-version: #28
 {
 	"format_version": "1.8.0",
 	"minecraft:spawn_rules": {
 		"description": {
 			"identifier": "terrariamod:eaterofsouls",
-			"population_control": "monster"
+			"population_control": "animal"
 		},
 		"conditions": [
 			{
-				"minecraft:spawns_on_surface": {},
+				"minecraft:weight": {
+					"default": 999999
+				},
+				"minecraft:herd": {
+					"min_size": 1,
+					"max_size": 3
+				},
 				"minecraft:biome_filter": {
 					"test": "has_biome_tag",
 					"operator": "==",
 					"value": "corruption"
 				},
-				"minecraft:weight": {
-					"default": 1
+				"minecraft:distance_filter": {
+					"min": 0,
+					"max": 10
 				},
-				"minecraft:herd": {
-					"min_size": 1,
-					"max_size": 1
-				}
+				"minecraft:spawns_on_surface": {}
 			}
 		]
 	}

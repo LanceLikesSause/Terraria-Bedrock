@@ -1,4 +1,4 @@
-//bridge-file-version: #4
+//bridge-file-version: #24
 {
 	"format_version": "1.8.0",
 	"minecraft:spawn_rules": {
@@ -8,13 +8,8 @@
 		},
 		"conditions": [
 			{
-				"minecraft:brightness_filter": {
-					"min": 0,
-					"max": 15,
-					"adjust_for_weather": false
-				},
 				"minecraft:weight": {
-					"default": 900000
+					"default": 999999
 				},
 				"minecraft:herd": {
 					"min_size": 1,
@@ -25,7 +20,16 @@
 					"operator": "==",
 					"value": "purity_forest"
 				},
-				"minecraft:spawns_underground": {}
+				"minecraft:distance_filter": {
+					"min": 0,
+					"max": 10
+				},
+				"minecraft:spawns_on_surface": {},
+				"minecraft:brightness_filter": {
+					"min": 7,
+					"max": 15,
+					"adjust_for_weather": true
+				}
 			}
 		]
 	}

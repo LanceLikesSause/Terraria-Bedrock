@@ -1,4 +1,4 @@
-//bridge-file-version: #14
+//bridge-file-version: #18
 {
 	"format_version": "1.16.100",
 	"minecraft:block": {
@@ -9,7 +9,6 @@
 			"minecraft:destroy_time": 4,
 			"minecraft:friction": 0.6,
 			"minecraft:map_color": "#00ff00",
-			"minecraft:block_light_emission": 1,
 			"minecraft:material_instances": {
 				"*": {
 					"texture": "ash",

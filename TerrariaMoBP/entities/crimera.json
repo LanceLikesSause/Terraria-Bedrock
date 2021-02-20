@@ -1,4 +1,4 @@
-//bridge-file-version: #9
+//bridge-file-version: #10
 {
 	"format_version": "1.13.0",
 	"minecraft:entity": {
@@ -127,8 +127,8 @@
 			"minecraft:behavior.swoop_attack": {
 				"priority": 2,
 				"delay_range": [
-					10,
-					5
+					1,
+					2
 				]
 			},
 			"minecraft:behavior.circle_around_anchor": {

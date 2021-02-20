@@ -1,9 +1,10 @@
+//bridge-file-version: #0
 {
-  "format_version": "1.13.0",
-  "minecraft:biome": {
-    "description": {
-      "identifier": "ocean"
-    },
+	"format_version": "1.13.0",
+	"minecraft:biome": {
+		"description": {
+			"identifier": "ocean"
+		},
 		"components": {
 			"minecraft:climate": {
 				"downfall": 0,
@@ -14,7 +15,7 @@
 				"temperature": 2
 			},
 			"minecraft:overworld_height": {
-				"noise_type": "extreme"
+				"noise_type": "default"
 			},
 			"minecraft:surface_parameters": {
 				"sea_floor_depth": 7,
@@ -35,7 +36,8 @@
 				]
 			},
 			"corruption": {},
-			"overworld": {}
+			"overworld": {},
+			"corruption_forest": {}
 		}
 	}
 }

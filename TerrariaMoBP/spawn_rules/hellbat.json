@@ -1,4 +1,4 @@
-//bridge-file-version: #3
+//bridge-file-version: #36
 {
 	"format_version": "1.8.0",
 	"minecraft:spawn_rules": {
@@ -8,17 +8,21 @@
 		},
 		"conditions": [
 			{
+				"minecraft:weight": {
+					"default": 999999
+				},
+				"minecraft:herd": {
+					"min_size": 1,
+					"max_size": 1
+				},
 				"minecraft:biome_filter": {
 					"test": "has_biome_tag",
 					"operator": "==",
 					"value": "underworld"
 				},
-				"minecraft:weight": {
-					"default": 100
-				},
-				"minecraft:herd": {
-					"min_size": 1,
-					"max_size": 1
+				"minecraft:distance_filter": {
+					"min": 0,
+					"max": 10
 				},
 				"minecraft:spawns_underground": {}
 			}

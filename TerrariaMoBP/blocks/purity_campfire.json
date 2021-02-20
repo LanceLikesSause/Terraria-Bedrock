@@ -1,4 +1,4 @@
-//bridge-file-version: #17
+//bridge-file-version: #18
 {
 	"format_version": "1.16.100",
 	"minecraft:block": {
@@ -77,11 +77,10 @@
 				}
 			},
 			"terrariamod:regen": {
-				"add_mob_effect": {
-					"effect": "regeneration",
-					"target": "self",
-					"duration": 20,
-					"amplifier": 10
+				"run_command": {
+					"command": [
+						"effect @p instant_damage"
+					]
 				}
 			}
 		}

@@ -93,7 +93,7 @@
 			"minecraft:jump.static": {},
 			"minecraft:can_climb": {},
 			"minecraft:collision_box": {
-				"width": 0.6,
+				"width": 1.0,
 				"height": 0.7
 			},
 			"minecraft:health": {
@@ -113,15 +113,16 @@
 				"priority": 0
 			},
 			"minecraft:behavior.stalk_and_pounce_on_target": {
-				"priority": 7,
-				"stalk_speed": 1.2,
+				"priority": 0,
+				"stalk_speed": 0.1,
 				"max_stalk_dist": 12,
 				"leap_height": 0.9,
 				"leap_dist": 0.8,
 				"pounce_max_dist": 5,
-				"interest_time": 2,
-				"stuck_time": 2,
+				"interest_time": 0.1,
+				"stuck_time": 0.1,
 				"strike_dist": 2,
+				"set_persistent": true,
 				"stuck_blocks": {
 					"test": "is_block",
 					"subject": "block",

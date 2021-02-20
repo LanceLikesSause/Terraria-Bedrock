@@ -1,22 +1,15 @@
-//bridge-file-version: #4
+//bridge-file-version: #32
 {
 	"format_version": "1.8.0",
 	"minecraft:spawn_rules": {
 		"description": {
 			"identifier": "terrariamod:facemonster",
-			"population_control": "monster"
+			"population_control": "animal"
 		},
 		"conditions": [
 			{
-				"minecraft:spawns_on_surface": {},
-				"minecraft:spawns_underground": {},
-				"minecraft:brightness_filter": {
-					"min": 0,
-					"max": 15,
-					"adjust_for_weather": false
-				},
 				"minecraft:weight": {
-					"default": 900000
+					"default": 999999
 				},
 				"minecraft:herd": {
 					"min_size": 1,
@@ -26,7 +19,12 @@
 					"test": "has_biome_tag",
 					"operator": "==",
 					"value": "crimson"
-				}
+				},
+				"minecraft:distance_filter": {
+					"min": 0,
+					"max": 10
+				},
+				"minecraft:spawns_on_surface": {}
 			}
 		]
 	}

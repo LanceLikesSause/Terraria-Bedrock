@@ -1,4 +1,4 @@
-//bridge-file-version: #0
+//bridge-file-version: #3
 {
 	"format_version": "1.10.0",
 	"animation_controllers": {
@@ -24,7 +24,8 @@
 						"/spawnpoint @e[type=player,r=3] ~~~",
 						"/say Spawnpoint set",
 						"/tickingarea add ~~~ ~~~ bed",
-						"@s bridge:remove_command_id_1"
+						"@s bridge:remove_command_id_1",
+						"/weather clear"
 					]
 				},
 				"execute_command_id_2": {

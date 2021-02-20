@@ -1,4 +1,4 @@
-//bridge-file-version: #11
+//bridge-file-version: #13
 {
 	"format_version": "1.16.100",
 	"minecraft:block": {
@@ -18,7 +18,7 @@
 					"render_method": "alpha_test"
 				}
 			},
-			"minecraft:geometry": "geometry.cross",
+			"minecraft:geometry": "geometry.crystalheart",
 			"minecraft:block_light_absorption": 0,
 			"minecraft:block_light_emission": 0.5
 		},

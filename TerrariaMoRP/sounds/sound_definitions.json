@@ -1,4 +1,4 @@
-//bridge-file-version: #11
+//bridge-file-version: #25
 {
 	"format_version": "1.14.0",
 	"sound_definitions": {
@@ -212,126 +212,6 @@
 				"sounds/mobs/demoneye/death1"
 			]
 		},
-		"mob.ash.eat": {
-			"sounds": [
-				"sounds/mob/ash/eat1",
-				"sounds/mob/ash/eat2"
-			]
-		},
-		"mob.ash.hiss": {
-			"category": "neutral",
-			"sounds": [
-				{
-					"name": "sounds/mob/ash/hiss1",
-					"volume": 0.4
-				},
-				{
-					"name": "sounds/mob/ash/hiss2",
-					"volume": 0.4
-				},
-				{
-					"name": "sounds/mobash/hiss3",
-					"volume": 0.4
-				}
-			]
-		},
-		"mob.ash.hit": {
-			"category": "neutral",
-			"sounds": [
-				"sounds/mob/ash/hitt1",
-				"sounds/mob/ash/hitt2",
-				"sounds/mob/ash/hitt3"
-			]
-		},
-		"mob.ash.meow": {
-			"category": "neutral",
-			"sounds": [
-				{
-					"name": "sounds/mob/ash/meow1",
-					"volume": 0.4
-				},
-				{
-					"name": "sounds/mob/ash/meow2",
-					"volume": 0.3
-				},
-				{
-					"name": "sounds/mob/ash/meow3",
-					"volume": 0.4
-				},
-				{
-					"name": "sounds/mob/ash/meow4",
-					"volume": 0.3
-				}
-			]
-		},
-		"mob.ash.beg": {
-			"category": "neutral",
-			"sounds": [
-				{
-					"name": "sounds/mob/ash/beg1",
-					"volume": 0.7
-				},
-				{
-					"name": "sounds/mob/ash/beg2",
-					"volume": 0.7
-				},
-				{
-					"name": "sounds/mob/ash/beg3",
-					"volume": 0.7
-				}
-			]
-		},
-		"mob.ash.straymeow": {
-			"category": "neutral",
-			"sounds": [
-				{
-					"name": "sounds/mob/ash/stray/idle1",
-					"volume": 0.35
-				},
-				{
-					"name": "sounds/mob/ash/stray/idle2",
-					"volume": 0.35
-				},
-				{
-					"name": "sounds/mob/ash/stray/idle3",
-					"volume": 0.35
-				},
-				{
-					"name": "sounds/mob/ash/stray/idle4",
-					"volume": 0.35
-				}
-			]
-		},
-		"mob.ash.purr": {
-			"category": "neutral",
-			"sounds": [
-				{
-					"name": "sounds/mob/ash/purr1",
-					"volume": 0.4
-				},
-				{
-					"name": "sounds/mob/ash/purr2",
-					"volume": 0.4
-				},
-				{
-					"name": "sounds/mob/ash/purr3",
-					"volume": 0.4
-				}
-			]
-		},
-		"mob.ash.purreow": {
-			"category": "neutral",
-			"sounds": [
-				{
-					"name": "sounds/mob/ash/purreow1",
-					"volume": 0.4
-				},
-				{
-					"name": "sounds/mob/ash/purreow2",
-					"volume": 0.4
-				}
-			]
-		},
 		"get_enchanted_sword.effect": {
 			"category": "music",
 			"sounds": [
@@ -341,49 +221,141 @@
 		"dayone": {
 			"category": "music",
 			"sounds": [
-				"sounds/music/day1"
+				{
+					"name": "sounds/music/day1",
+					"volume": 0.3,
+					"stream": true
+				}
 			]
 		},
 		"night": {
 			"category": "music",
 			"sounds": [
-				"sounds/music/night"
+				{
+					"name": "sounds/music/night",
+					"volume": 0.3,
+					"stream": true
+				}
 			]
 		},
 		"jungle": {
 			"category": "music",
 			"sounds": [
-				"sounds/music/jungle"
+				{
+					"name": "sounds/music/jungle",
+					"volume": 0.3,
+					"stream": true
+				}
 			]
 		},
 		"desert": {
 			"category": "music",
 			"sounds": [
-				"sounds/music/desert"
+				{
+					"name": "sounds/music/desert",
+					"volume": 0.3,
+					"stream": true
+				}
 			]
 		},
 		"corruption": {
 			"category": "music",
 			"sounds": [
-				"sounds/music/corruption"
+				{
+					"name": "sounds/music/corruption",
+					"stream": true,
+					"volume": 0.3
+				}
 			]
 		},
 		"underground": {
 			"category": "music",
 			"sounds": [
-				"sounds/music/underground"
+				{
+					"name": "sounds/music/underground",
+					"stream": true,
+					"volume": 0.3
+				}
 			]
 		},
 		"snow": {
 			"category": "music",
 			"sounds": [
-				"sounds/music/snow"
+				{
+					"name": "sounds/music/snow",
+					"stream": true,
+					"volume": 0.3
+				}
 			]
 		},
 		"crimson": {
 			"category": "music",
 			"sounds": [
-				"sounds/music/crimson"
+				{
+					"name": "sounds/music/crimson",
+					"stream": true,
+					"volume": 0.3
+				}
+			]
+		},
+		"desert_underground": {
+			"category": "music",
+			"sounds": [
+				{
+					"name": "sounds/music/desert_underground",
+					"stream": true,
+					"volume": 0.3
+				}
+			]
+		},
+		"jungle_underground": {
+			"category": "music",
+			"sounds": [
+				{
+					"name": "sounds/music/jungle_underground",
+					"stream": true,
+					"volume": 0.3
+				}
+			]
+		},
+		"ice": {
+			"category": "music",
+			"sounds": [
+				{
+					"name": "sounds/music/ice",
+					"stream": true,
+					"volume": 0.3
+				}
+			]
+		},
+		"crimson_underground": {
+			"category": "music",
+			"sounds": [
+				{
+					"name": "sounds/music/crimson_underground",
+					"stream": true,
+					"volume": 0.3
+				}
+			]
+		},
+		"corruption_underground": {
+			"category": "music",
+			"sounds": [
+				{
+					"name": "sounds/music/corruption_underground",
+					"stream": true,
+					"volume": 0.3
+				}
+			]
+		},
+		"underworld": {
+			"category": "music",
+			"sounds": [
+				{
+					"name": "sounds/music/underworld",
+					"stream": true,
+					"volume": 0.3
+				}
 			]
 		},
 		"terrariamod_gravel_sound": {
@@ -414,36 +386,6 @@
 			"category": "neutral",
 			"sounds": [
 				"sounds/terrariamod_dig/stone1"
-			]
-		},
-		"desert_underground": {
-			"category": "music",
-			"sounds": [
-				"sounds/music/desert_underground"
-			]
-		},
-		"jungle_underground": {
-			"category": "music",
-			"sounds": [
-				"sounds/music/jungle_underground"
-			]
-		},
-		"ice": {
-			"category": "music",
-			"sounds": [
-				"sounds/music/ice"
-			]
-		},
-		"crimson_underground": {
-			"category": "music",
-			"sounds": [
-				"sounds/music/crimson_underground"
-			]
-		},
-		"corruption_underground": {
-			"category": "music",
-			"sounds": [
-				"sounds/music/corruption_underground"
 			]
 		}
 	}

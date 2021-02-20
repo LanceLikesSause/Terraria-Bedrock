@@ -1,4 +1,4 @@
-//bridge-file-version: #23
+//bridge-file-version: #24
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
@@ -24,6 +24,10 @@
 				"on_use": {
 					"event": "terrariamod:projectile"
 				}
+			},
+			"minecraft:cooldown": {
+				"category": "terrariamod_enchantedsword",
+				"duration": 0.1
 			}
 		},
 		"events": {

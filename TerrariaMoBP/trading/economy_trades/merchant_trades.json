@@ -1,4 +1,4 @@
-//bridge-file-version: #7
+//bridge-file-version: #9
 {
 	"tiers": [
 		{
@@ -17,7 +17,8 @@
 						{
 							"item": "terrariamod:copperpickaxe"
 						}
-					]
+					],
+					"max_uses": 10000000000000000
 				},
 				{
 					"wants": [
@@ -33,7 +34,8 @@
 						{
 							"item": "terrariamod:coppersword"
 						}
-					]
+					],
+					"max_uses": 999999999999999
 				}
 			]
 		},
@@ -51,9 +53,10 @@
 					],
 					"gives": [
 						{
-							"item": "minecraft:torch"
+							"item": "terrariamod:purity_torch_item"
 						}
-					]
+					],
+					"max_uses": 999999999999999
 				},
 				{
 					"wants": [
@@ -69,7 +72,8 @@
 						{
 							"item": "terrariamod:lesserhealingpotion"
 						}
-					]
+					],
+					"max_uses": 99999999999999
 				}
 			]
 		},
@@ -89,101 +93,8 @@
 						{
 							"item": "terrariamod:woodenarrow"
 						}
-					]
-				},
-				{
-					"wants": [
-						{
-							"item": "minecraft:emerald",
-							"quantity": {
-								"min": 16,
-								"max": 19
-							}
-						}
 					],
-					"gives": [
-						{
-							"item": "minecraft:diamond_chestplate",
-							"functions": [
-								{
-									"function": "enchant_with_levels",
-									"treasure": false,
-									"levels": {
-										"min": 5,
-										"max": 19
-									}
-								}
-							]
-						}
-					]
-				}
-			]
-		},
-		{
-			"trades": [
-				{
-					"wants": [
-						{
-							"item": "minecraft:emerald",
-							"quantity": {
-								"min": 5,
-								"max": 7
-							}
-						}
-					],
-					"gives": [
-						{
-							"item": "minecraft:chainmail_boots"
-						}
-					]
-				},
-				{
-					"wants": [
-						{
-							"item": "minecraft:emerald",
-							"quantity": {
-								"min": 9,
-								"max": 11
-							}
-						}
-					],
-					"gives": [
-						{
-							"item": "minecraft:chainmail_leggings"
-						}
-					]
-				},
-				{
-					"wants": [
-						{
-							"item": "minecraft:emerald",
-							"quantity": {
-								"min": 5,
-								"max": 7
-							}
-						}
-					],
-					"gives": [
-						{
-							"item": "minecraft:chainmail_helmet"
-						}
-					]
-				},
-				{
-					"wants": [
-						{
-							"item": "minecraft:emerald",
-							"quantity": {
-								"min": 11,
-								"max": 15
-							}
-						}
-					],
-					"gives": [
-						{
-							"item": "minecraft:chainmail_chestplate"
-						}
-					]
+					"max_uses": 10000000000000000
 				}
 			]
 		}

@@ -1,12 +1,20 @@
-//bridge-file-version: #0
+//bridge-file-version: #6
 {
 	"format_version": "1.16.0",
 	"minecraft:entity": {
 		"description": {
-			"identifier": "terrariamod:redslime",
+			"identifier": "terrariamod:jungleslime",
 			"is_spawnable": true,
 			"is_summonable": true,
-			"is_experimental": false
+			"is_experimental": false,
+			"animations": {
+				"greenslime_death": "controller.animation.greenslime_death"
+			},
+			"scripts": {
+				"animate": [
+					"greenslime_death"
+				]
+			}
 		},
 		"components": {
 			"minecraft:type_family": {
@@ -93,18 +101,18 @@
 			"minecraft:jump.static": {},
 			"minecraft:can_climb": {},
 			"minecraft:collision_box": {
-				"width": 1.0,
+				"width": 1,
 				"height": 0.7
 			},
 			"minecraft:health": {
-				"value": 35,
-				"max": 35
+				"value": 14,
+				"max": 14
 			},
 			"minecraft:movement": {
 				"value": 0.3
 			},
 			"minecraft:attack": {
-				"damage": 12
+				"damage": 60
 			},
 			"minecraft:despawn": {
 				"despawn_from_distance": {}
@@ -151,7 +159,7 @@
 			},
 			"minecraft:conditional_bandwidth_optimization": {}
 		},
-		"events": {},
-		"component_groups": {}
+		"component_groups": {},
+		"events": {}
 	}
 }

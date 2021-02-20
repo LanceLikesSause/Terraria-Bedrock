@@ -1,4 +1,4 @@
-//bridge-file-version: #10
+//bridge-file-version: #11
 {
 	"tiers": [
 		{
@@ -17,7 +17,8 @@
 						{
 							"item": "terrariamod:grenade"
 						}
-					]
+					],
+					"max_uses": 999999999999999
 				},
 				{
 					"wants": [
@@ -33,7 +34,8 @@
 						{
 							"item": "terrariamod:bomb"
 						}
-					]
+					],
+					"max_uses": 100000000000000000
 				}
 			]
 		},
@@ -53,7 +55,8 @@
 						{
 							"item": "terrariamod:dynamite"
 						}
-					]
+					],
+					"max_uses": 1000000000000000000
 				}
 			]
 		}

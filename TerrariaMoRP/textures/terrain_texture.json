@@ -1,4 +1,4 @@
-//bridge-file-version: #47
+//bridge-file-version: #48
 {
 	"resource_pack_name": "vanilla",
 	"texture_name": "atlas.terrain",
@@ -213,9 +213,6 @@
 		},
 		"junglespores": {
 			"textures": "textures/blocks/junglespores"
-		},
-		"crystalheart": {
-			"textures": "textures/blocks/crystalheart"
 		},
 		"surfacechest": {
 			"textures": "textures/blocks/surfacechest"

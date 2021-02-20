@@ -1,4 +1,4 @@
-//bridge-file-version: #9
+//bridge-file-version: #10
 {
 	"format_version": "1.10.0",
 	"animation_controllers": {
@@ -13,7 +13,7 @@
 				},
 				"spawn_next_stage": {
 					"on_entry": [
-						"/say hi"
+						"/say The Arms Dealer has died"
 					]
 				}
 			}

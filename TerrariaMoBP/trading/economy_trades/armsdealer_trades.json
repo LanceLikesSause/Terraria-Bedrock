@@ -1,4 +1,4 @@
-//bridge-file-version: #19
+//bridge-file-version: #21
 {
 	"tiers": [
 		{
@@ -17,7 +17,8 @@
 						{
 							"item": "terrariamod:musketball"
 						}
-					]
+					],
+					"max_uses": 1e+22
 				},
 				{
 					"wants": [
@@ -33,7 +34,8 @@
 						{
 							"item": "terrariamod:flintlockpistol"
 						}
-					]
+					],
+					"max_uses": 1000000000000000000
 				},
 				{
 					"wants": [
@@ -49,7 +51,8 @@
 						{
 							"item": "terrariamod:minishark"
 						}
-					]
+					],
+					"max_uses": 999999999999999
 				}
 			]
 		}

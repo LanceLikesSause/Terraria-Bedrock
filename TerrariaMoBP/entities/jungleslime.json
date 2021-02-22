@@ -1,4 +1,4 @@
-//bridge-file-version: #6
+//bridge-file-version: #7
 {
 	"format_version": "1.16.0",
 	"minecraft:entity": {
@@ -105,14 +105,14 @@
 				"height": 0.7
 			},
 			"minecraft:health": {
-				"value": 14,
-				"max": 14
+				"value": 60,
+				"max": 60
 			},
 			"minecraft:movement": {
 				"value": 0.3
 			},
 			"minecraft:attack": {
-				"damage": 60
+				"damage": 18
 			},
 			"minecraft:despawn": {
 				"despawn_from_distance": {}

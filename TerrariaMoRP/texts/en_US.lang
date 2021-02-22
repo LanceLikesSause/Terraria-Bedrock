@@ -1,5 +1,5 @@
-##bridge-file-version: #435
-#############how to play
+##bridge-file-version: #436
+##############how to play
 terrariamod.category.dakon=Terraria Mod Tutorial
 howtoplay.category.dakon=Terraria Guide
 howtoplay.template.title=Credits
@@ -289,6 +289,12 @@ entity.terrariamod:woodenarrow_projectile_tungsten.name=Tungsten Bow
 entity.terrariamod:woodenarrow_projectile_gold.name=Gold Bow
 entity.terrariamod:woodenarrow_projectile_platinum.name=Platinum Bow
 
+item.spawn_egg.entity.terrariamod:iceslime.name=Spawn Ice Slime
+entity.terrariamod:iceslime.name=Ice Slime
+item.spawn_egg.entity.terrariamod:jungleslime.name=Spawn Jungle Slime
+entity.terrariamod:jungleslime.name=Jungle Slime
+item.spawn_egg.entity.terrariamod:snatcher.name=Spawn Snatcher
+entity.terrariamod:snatcher.name=Snatcher
 item.spawn_egg.entity.terrariamod:frozenzombie.name=Spawn Frozen Zombie
 entity.terrariamod:frozenzombie.name=Frozen Zombie
 item.spawn_egg.entity.terrariamod:iceslime.name=Spawn Ice Slime

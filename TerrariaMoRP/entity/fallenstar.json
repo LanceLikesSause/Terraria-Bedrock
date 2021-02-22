@@ -1,0 +1,27 @@
+//bridge-file-version: #8
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "terrariamod:fallenstar",
+			"min_engine_version": "1.8.0",
+			"materials": {
+				"default": "zombie"
+			},
+			"textures": {
+				"default": "textures/entity/pamobile/fallenstar"
+			},
+			"geometry": {
+				"default": "geometry.fallenstar"
+			},
+			"spawn_egg": {
+				"base_color": "#C5FE5A",
+				"overlay_color": "#391414"
+			},
+			"render_controllers": [
+				"controller.render.zombie"
+			],
+			"enable_attachables": true
+		}
+	}
+}

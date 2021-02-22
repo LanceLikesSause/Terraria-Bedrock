@@ -1,0 +1,30 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.snatcher.idle": {
+			"loop": true,
+			"override_previous_animation": true
+		},
+		"animation.snatcher.attack": {
+			"loop": true,
+			"animation_length": 1.04,
+			"override_previous_animation": true,
+			"bones": {
+				"eyetop": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.52": [0, 0, 10],
+						"1.04": [0, 0, 0]
+					}
+				},
+				"eyebottom": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.52": [0, 0, -10],
+						"1.04": [0, 0, 0]
+					}
+				}
+			}
+		}
+	}
+}

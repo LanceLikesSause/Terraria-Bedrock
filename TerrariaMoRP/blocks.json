@@ -1,4 +1,4 @@
-//bridge-file-version: #53
+//bridge-file-version: #54
 {
 	"terrariamod:shadoworb": {
 		"sound": "wood"
@@ -359,7 +359,7 @@
 		"sound": "grass",
 		"textures": {
 			"up": "jungle_grass_top",
-			"down": "purity_dirt",
+			"down": "purity_mud",
 			"side": "jungle_grass_side"
 		}
 	},

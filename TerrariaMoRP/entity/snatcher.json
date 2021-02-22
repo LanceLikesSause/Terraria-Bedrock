@@ -1,0 +1,37 @@
+//bridge-file-version: #27
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "terrariamod:snatcher",
+			"min_engine_version": "1.8.0",
+			"materials": {
+				"default": "zombie"
+			},
+			"textures": {
+				"default": "textures/entity/pamobile/snatcher"
+			},
+			"geometry": {
+				"default": "geometry.snatcher"
+			},
+			"spawn_egg": {
+				"base_color": "#C5FE5A",
+				"overlay_color": "#391414"
+			},
+			"scripts": {
+				"animate": [
+					"ctrl"
+				]
+			},
+			"render_controllers": [
+				"controller.render.zombie"
+			],
+			"enable_attachables": true,
+			"animations": {
+				"ctrl": "controller.animation.snatcher",
+				"attack": "animation.snatcher.attack",
+				"idle": "animation.snatcher.idle"
+			}
+		}
+	}
+}

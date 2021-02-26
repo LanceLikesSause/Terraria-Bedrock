@@ -1,0 +1,58 @@
+//bridge-file-version: #2
+{
+	"format_version": "1.13.0",
+	"minecraft:biome": {
+		"description": {
+			"identifier": "purity_jungle"
+		},
+		"components": {
+			"minecraft:surface_parameters": {
+				"sea_floor_depth": 0,
+				"sea_material": "minecraft:water",
+				"foundation_material": "terrariamod:purity_mud",
+				"top_material": "terrariamod:jungle_grass",
+				"mid_material": "terrariamod:purity_mud",
+				"sea_floor_material": "terrariamod:purity_sand"
+			},
+			"minecraft:overworld_height": {
+				"noise_type": "lowlands"
+			},
+			"minecraft:climate": {
+				"downfall": 0.5,
+				"snow_accumulation": [
+					0,
+					0.5
+				],
+				"temperature": 0.5
+			},
+			"minecraft:overworld_generation_rules": {
+				"generate_for_climates": [
+					[
+						"frozen",
+						1
+					],
+					[
+						"cold",
+						1
+					],
+					[
+						"medium",
+						1
+					],
+					[
+						"lukewarm",
+						1
+					],
+					[
+						"warm",
+						1
+					]
+				]
+			},
+			"ocean": {},
+			"deep": {},
+			"purity": {},
+			"purity_jungle": {}
+		}
+	}
+}

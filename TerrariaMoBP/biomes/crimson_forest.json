@@ -1,0 +1,20 @@
+{
+	"format_version": "1.13.0",
+
+	"minecraft:biome": {
+		"description": {
+			"identifier": "crimson_forest"
+		},
+
+		"components": {
+			"minecraft:nether_generation_rules": {
+				"target_temperature": 0,
+				"target_humidity": 0,
+				"target_altitude": 0,
+				"target_weirdness": 0,
+
+				"weight": 1
+			}
+		}
+	}
+}

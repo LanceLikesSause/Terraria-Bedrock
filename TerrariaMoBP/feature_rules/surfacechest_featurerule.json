@@ -1,4 +1,4 @@
-//bridge-file-version: #24
+//bridge-file-version: #25
 {
 	"format_version": "1.13.0",
 	"minecraft:feature_rules": {
@@ -7,6 +7,7 @@
 			"places_feature": "minecraft:surfacechest_feature"
 		},
 		"conditions": {
+			"placement_pass": "final_pass",
 			"minecraft:biome_filter": [
 				{
 					"any_of": [
@@ -22,8 +23,7 @@
 						}
 					]
 				}
-			],
-			"placement_pass": "final_pass"
+			]
 		},
 		"distribution": {
 			"iterations": 1,

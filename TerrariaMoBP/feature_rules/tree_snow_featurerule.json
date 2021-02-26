@@ -1,4 +1,4 @@
-//bridge-file-version: #9
+//bridge-file-version: #11
 {
 	"format_version": "1.13.0",
 	"minecraft:feature_rules": {
@@ -9,11 +9,6 @@
 		"conditions": {
 			"placement_pass": "surface_pass",
 			"minecraft:biome_filter": [
-				{
-					"test": "has_biome_tag",
-					"operator": "==",
-					"value": "overworld"
-				},
 				{
 					"test": "has_biome_tag",
 					"operator": "==",

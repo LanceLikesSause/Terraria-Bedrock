@@ -1,0 +1,78 @@
+//bridge-file-version: #2
+{
+	"format_version": "1.13.0",
+	"minecraft:biome": {
+		"description": {
+			"identifier": "plains"
+		},
+		"components": {
+			"minecraft:surface_parameters": {
+				"foundation_material": {
+					"name": "minecraft:concrete",
+					"states": {
+						"color": "lime"
+					}
+				},
+				"top_material": {
+					"name": "minecraft:concrete",
+					"states": {
+						"color": "lime"
+					}
+				},
+				"mid_material": {
+					"name": "minecraft:concrete",
+					"states": {
+						"color": "lime"
+					}
+				},
+				"sea_floor_depth": 0,
+				"sea_material": "minecraft:water",
+				"sea_floor_material": {
+					"name": "minecraft:concrete",
+					"states": {
+						"color": "lime"
+					}
+				}
+			},
+			"minecraft:overworld_height": {
+				"noise_type": "lowlands"
+			},
+			"minecraft:climate": {
+				"downfall": 0.5,
+				"snow_accumulation": [
+					0,
+					0.5
+				],
+				"temperature": 0.5
+			},
+			"minecraft:overworld_generation_rules": {
+				"generate_for_climates": [
+					[
+						"frozen",
+						0
+					],
+					[
+						"cold",
+						0
+					],
+					[
+						"medium",
+						1
+					],
+					[
+						"lukewarm",
+						0
+					],
+					[
+						"warm",
+						0
+					]
+				],
+				"hills_transformation": "purity_forest",
+				"river_transformation": "purity_forest",
+				"shore_transformation": "purity_forest",
+				"mutate_transformation": "purity_forest"
+			}
+		}
+	}
+}

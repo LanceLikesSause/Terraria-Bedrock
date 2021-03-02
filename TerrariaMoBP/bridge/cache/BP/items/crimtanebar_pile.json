@@ -1,0 +1,104 @@
+{
+	"file_path": "C:\\Users\\LANCE.LEGAUX\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\TerrariaMoBP\\items\\crimtanebar_pile.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "3ddf87c5_06b0_4252_997e_0e25a33c1bd0",
+	"file_version": 8,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "terrariamod:crimtanebar_pile"
+						},
+						"components": {
+							"minecraft:display_name": {
+								"value": "Pile of Crimtane Bars"
+							},
+							"minecraft:icon": {
+								"texture": "terrariamod:crimtanebar_pile"
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:crimtanebar_pile"
+							},
+							"components": {
+								"minecraft:display_name": {
+									"value": "Pile of Crimtane Bars"
+								},
+								"minecraft:icon": {
+									"texture": "terrariamod:crimtanebar_pile"
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:crimtanebar_pile"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:crimtanebar_pile"
+							},
+							"components": {
+								"minecraft:display_name": {
+									"value": "Pile of Crimtane Bars"
+								},
+								"minecraft:icon": {
+									"texture": "terrariamod:crimtanebar_pile"
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"open": {
+									"minecraft:display_name": {
+										"value": "Pile of Crimtane Bars"
+									},
+									"minecraft:icon": {
+										"texture": "terrariamod:crimtanebar_pile"
+									}
+								},
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "Pile of Crimtane Bars"
+								}
+							},
+							{
+								"open": {
+									"minecraft:display_name": {
+										"value": "Pile of Crimtane Bars"
+									},
+									"minecraft:icon": {
+										"texture": "terrariamod:crimtanebar_pile"
+									}
+								},
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "terrariamod:crimtanebar_pile"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

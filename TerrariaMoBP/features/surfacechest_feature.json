@@ -1,23 +1,15 @@
-//bridge-file-version: #19
+//bridge-file-version: #23
 {
 	"format_version": "1.13.0",
-	"minecraft:single_block_feature": {
+	"minecraft:structure_template_feature": {
 		"description": {
 			"identifier": "minecraft:surfacechest_feature"
 		},
-		"places_block": "terrariamod:surfacechest",
-		"enforce_survivability_rules": true,
-		"enforce_placement_rules": true,
-		"may_replace": [
-			{
-				"name": "minecraft:air"
-			}
-		],
-		"may_attach_to": {
-			"min_sides_must_attach": 1,
-			"bottom": [
-				"terrariamod:purity_grass"
-			]
+		"structure_name": "mystructure:surfacechest_room1",
+		"adjustment_radius": 1,
+		"facing_direction": "random",
+		"constraints": {
+			"grounded": {}
 		}
 	}
 }

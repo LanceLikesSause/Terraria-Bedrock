@@ -10,7 +10,7 @@
 		],
 		"ingredients": [
 			{
-				"item": "terrariamod:leadblock",
+				"item": "terrariamod:leadbar_pile",
 				"count": 4
 			}
 		],

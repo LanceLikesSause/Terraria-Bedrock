@@ -10,7 +10,7 @@
 		],
 		"ingredients": [
 			{
-				"item": "terrariamod:platinumblock",
+				"item": "terrariamod:platinumbar_pile",
 				"count": 2
 			},
 			{

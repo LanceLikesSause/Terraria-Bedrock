@@ -1,0 +1,422 @@
+{
+	"file_path": "C:\\Users\\LANCE.LEGAUX\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\TerrariaMoBP\\blocks\\purity_campfire.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "61ca6117_0314_43bb_9d0a_4ebca77229cf",
+	"file_version": 19,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:block": {
+						"description": {
+							"identifier": "terrariamod:purity_campfire"
+						},
+						"components": {
+							"minecraft:material_instances": {
+								"*": {
+									"texture": "purity_tree",
+									"render_method": "alpha_test"
+								}
+							},
+							"minecraft:geometry": "geometry.purity_campfire",
+							"minecraft:block_light_emission": 0,
+							"minecraft:block_light_absorption": 0,
+							"minecraft:destroy_time": 1,
+							"tag:terrariamod:wood": {},
+							"minecraft:pick_collision": {
+								"origin": [
+									-8,
+									0,
+									-8
+								],
+								"size": [
+									16,
+									8,
+									16
+								]
+							},
+							"minecraft:entity_collision": {
+								"origin": [
+									-8,
+									0,
+									-8
+								],
+								"size": [
+									16,
+									8,
+									16
+								]
+							},
+							"minecraft:ticking": {
+								"looping": true,
+								"range": [
+									0.1,
+									0.1
+								],
+								"on_tick": {
+									"event": "terrariamod:particle"
+								}
+							},
+							"minecraft:on_step_on": {
+								"event": "terrariamod:regen"
+							},
+							"minecraft:loot": "loot_tables/blocks/purity_campfire_item.json"
+						},
+						"events": {
+							"terrariamod:particle": {
+								"run_command": {
+									"command": [
+										"particle minecraft:basic_flame_particle ~ ~ ~",
+										"particle minecraft:basic_flame_particle ~ ~ ~0.1",
+										"particle minecraft:basic_flame_particle ~0.1 ~ ~",
+										"particle minecraft:basic_flame_particle ~0.3 ~ ~",
+										"particle minecraft:basic_flame_particle ~ ~ ~0.3",
+										"particle minecraft:basic_flame_particle ~ ~ ~-0.1",
+										"particle minecraft:basic_flame_particle ~-0.1 ~ ~",
+										"particle minecraft:basic_flame_particle ~-0.3 ~ ~",
+										"particle minecraft:basic_flame_particle ~ ~ ~-0.3",
+										"particle minecraft:basic_flame_particle ~0.1 ~ ~0.1",
+										"particle minecraft:basic_flame_particle ~-0.1 ~ ~-0.1",
+										"particle minecraft:basic_flame_particle ~0.3 ~ ~0.3",
+										"particle minecraft:basic_flame_particle ~-0.3 ~ ~-0.3"
+									]
+								}
+							},
+							"terrariamod:regen": {
+								"run_command": {
+									"command": [
+										"effect @p instant_health"
+									]
+								}
+							}
+						}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:purity_campfire"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:purity_campfire"
+							},
+							"components": {
+								"minecraft:material_instances": {
+									"*": {
+										"texture": "purity_tree",
+										"render_method": "alpha_test"
+									}
+								},
+								"minecraft:geometry": "geometry.purity_campfire",
+								"minecraft:block_light_emission": 0,
+								"minecraft:block_light_absorption": 0,
+								"minecraft:destroy_time": 1,
+								"tag:terrariamod:wood": {},
+								"minecraft:pick_collision": {
+									"origin": [
+										-8,
+										0,
+										-8
+									],
+									"size": [
+										16,
+										8,
+										16
+									]
+								},
+								"minecraft:entity_collision": {
+									"origin": [
+										-8,
+										0,
+										-8
+									],
+									"size": [
+										16,
+										8,
+										16
+									]
+								},
+								"minecraft:ticking": {
+									"looping": true,
+									"range": [
+										0.1,
+										0.1
+									],
+									"on_tick": {
+										"event": "terrariamod:particle"
+									}
+								},
+								"minecraft:on_step_on": {
+									"event": "terrariamod:regen"
+								},
+								"minecraft:loot": "loot_tables/blocks/purity_campfire_item.json"
+							},
+							"events": {
+								"terrariamod:particle": {
+									"run_command": {
+										"command": [
+											"particle minecraft:basic_flame_particle ~ ~ ~",
+											"particle minecraft:basic_flame_particle ~ ~ ~0.1",
+											"particle minecraft:basic_flame_particle ~0.1 ~ ~",
+											"particle minecraft:basic_flame_particle ~0.3 ~ ~",
+											"particle minecraft:basic_flame_particle ~ ~ ~0.3",
+											"particle minecraft:basic_flame_particle ~ ~ ~-0.1",
+											"particle minecraft:basic_flame_particle ~-0.1 ~ ~",
+											"particle minecraft:basic_flame_particle ~-0.3 ~ ~",
+											"particle minecraft:basic_flame_particle ~ ~ ~-0.3",
+											"particle minecraft:basic_flame_particle ~0.1 ~ ~0.1",
+											"particle minecraft:basic_flame_particle ~-0.1 ~ ~-0.1",
+											"particle minecraft:basic_flame_particle ~0.3 ~ ~0.3",
+											"particle minecraft:basic_flame_particle ~-0.3 ~ ~-0.3"
+										]
+									}
+								},
+								"terrariamod:regen": {
+									"run_command": {
+										"command": [
+											"effect @p instant_health"
+										]
+									}
+								}
+							}
+						},
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:material_instances": {
+								"*": {
+									"texture": "purity_tree",
+									"render_method": "alpha_test"
+								}
+							},
+							"minecraft:geometry": "geometry.purity_campfire",
+							"minecraft:block_light_emission": 0,
+							"minecraft:block_light_absorption": 0,
+							"minecraft:destroy_time": 1,
+							"tag:terrariamod:wood": {},
+							"minecraft:pick_collision": {
+								"origin": [
+									-8,
+									0,
+									-8
+								],
+								"size": [
+									16,
+									8,
+									16
+								]
+							},
+							"minecraft:entity_collision": {
+								"origin": [
+									-8,
+									0,
+									-8
+								],
+								"size": [
+									16,
+									8,
+									16
+								]
+							},
+							"minecraft:ticking": {
+								"looping": true,
+								"range": [
+									0.1,
+									0.1
+								],
+								"on_tick": {
+									"event": "terrariamod:particle"
+								}
+							},
+							"minecraft:on_step_on": {
+								"event": "terrariamod:regen"
+							},
+							"minecraft:loot": "loot_tables/blocks/purity_campfire_item.json"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:purity_campfire"
+							},
+							"components": {
+								"minecraft:material_instances": {
+									"*": {
+										"texture": "purity_tree",
+										"render_method": "alpha_test"
+									}
+								},
+								"minecraft:geometry": "geometry.purity_campfire",
+								"minecraft:block_light_emission": 0,
+								"minecraft:block_light_absorption": 0,
+								"minecraft:destroy_time": 1,
+								"tag:terrariamod:wood": {},
+								"minecraft:pick_collision": {
+									"origin": [
+										-8,
+										0,
+										-8
+									],
+									"size": [
+										16,
+										8,
+										16
+									]
+								},
+								"minecraft:entity_collision": {
+									"origin": [
+										-8,
+										0,
+										-8
+									],
+									"size": [
+										16,
+										8,
+										16
+									]
+								},
+								"minecraft:ticking": {
+									"looping": true,
+									"range": [
+										0.1,
+										0.1
+									],
+									"on_tick": {
+										"event": "terrariamod:particle"
+									}
+								},
+								"minecraft:on_step_on": {
+									"event": "terrariamod:regen"
+								},
+								"minecraft:loot": "loot_tables/blocks/purity_campfire_item.json"
+							},
+							"events": {
+								"terrariamod:particle": {
+									"run_command": {
+										"command": [
+											"particle minecraft:basic_flame_particle ~ ~ ~",
+											"particle minecraft:basic_flame_particle ~ ~ ~0.1",
+											"particle minecraft:basic_flame_particle ~0.1 ~ ~",
+											"particle minecraft:basic_flame_particle ~0.3 ~ ~",
+											"particle minecraft:basic_flame_particle ~ ~ ~0.3",
+											"particle minecraft:basic_flame_particle ~ ~ ~-0.1",
+											"particle minecraft:basic_flame_particle ~-0.1 ~ ~",
+											"particle minecraft:basic_flame_particle ~-0.3 ~ ~",
+											"particle minecraft:basic_flame_particle ~ ~ ~-0.3",
+											"particle minecraft:basic_flame_particle ~0.1 ~ ~0.1",
+											"particle minecraft:basic_flame_particle ~-0.1 ~ ~-0.1",
+											"particle minecraft:basic_flame_particle ~0.3 ~ ~0.3",
+											"particle minecraft:basic_flame_particle ~-0.3 ~ ~-0.3"
+										]
+									}
+								},
+								"terrariamod:regen": {
+									"run_command": {
+										"command": [
+											"effect @p instant_health"
+										]
+									}
+								}
+							}
+						},
+						"key": "events",
+						"children": [
+							{
+								"key": "terrariamod:particle",
+								"is_minified": true,
+								"children": {
+									"run_command": {
+										"command": [
+											"particle minecraft:basic_flame_particle ~ ~ ~",
+											"particle minecraft:basic_flame_particle ~ ~ ~0.1",
+											"particle minecraft:basic_flame_particle ~0.1 ~ ~",
+											"particle minecraft:basic_flame_particle ~0.3 ~ ~",
+											"particle minecraft:basic_flame_particle ~ ~ ~0.3",
+											"particle minecraft:basic_flame_particle ~ ~ ~-0.1",
+											"particle minecraft:basic_flame_particle ~-0.1 ~ ~",
+											"particle minecraft:basic_flame_particle ~-0.3 ~ ~",
+											"particle minecraft:basic_flame_particle ~ ~ ~-0.3",
+											"particle minecraft:basic_flame_particle ~0.1 ~ ~0.1",
+											"particle minecraft:basic_flame_particle ~-0.1 ~ ~-0.1",
+											"particle minecraft:basic_flame_particle ~0.3 ~ ~0.3",
+											"particle minecraft:basic_flame_particle ~-0.3 ~ ~-0.3"
+										]
+									}
+								}
+							},
+							{
+								"open": {
+									"terrariamod:particle": {
+										"run_command": {
+											"command": [
+												"particle minecraft:basic_flame_particle ~ ~ ~",
+												"particle minecraft:basic_flame_particle ~ ~ ~0.1",
+												"particle minecraft:basic_flame_particle ~0.1 ~ ~",
+												"particle minecraft:basic_flame_particle ~0.3 ~ ~",
+												"particle minecraft:basic_flame_particle ~ ~ ~0.3",
+												"particle minecraft:basic_flame_particle ~ ~ ~-0.1",
+												"particle minecraft:basic_flame_particle ~-0.1 ~ ~",
+												"particle minecraft:basic_flame_particle ~-0.3 ~ ~",
+												"particle minecraft:basic_flame_particle ~ ~ ~-0.3",
+												"particle minecraft:basic_flame_particle ~0.1 ~ ~0.1",
+												"particle minecraft:basic_flame_particle ~-0.1 ~ ~-0.1",
+												"particle minecraft:basic_flame_particle ~0.3 ~ ~0.3",
+												"particle minecraft:basic_flame_particle ~-0.3 ~ ~-0.3"
+											]
+										}
+									},
+									"terrariamod:regen": {
+										"run_command": {
+											"command": [
+												"effect @p instant_health"
+											]
+										}
+									}
+								},
+								"key": "terrariamod:regen",
+								"children": [
+									{
+										"open": {
+											"run_command": {
+												"command": [
+													"effect @p instant_health"
+												]
+											}
+										},
+										"key": "run_command",
+										"children": [
+											{
+												"open": {
+													"command": [
+														"effect @p instant_health"
+													]
+												},
+												"key": "command",
+												"is_minified": true,
+												"children": [
+													"effect @p instant_health"
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

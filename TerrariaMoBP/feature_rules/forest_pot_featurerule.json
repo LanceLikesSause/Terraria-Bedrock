@@ -1,4 +1,4 @@
-//bridge-file-version: #26
+//bridge-file-version: #28
 {
 	"format_version": "1.13.0",
 	"minecraft:feature_rules": {
@@ -9,25 +9,15 @@
 		"conditions": {
 			"minecraft:biome_filter": [
 				{
-					"any_of": [
-						{
-							"test": "has_biome_tag",
-							"operator": "==",
-							"value": "purity"
-						},
-						{
-							"test": "has_biome_tag",
-							"operator": "==",
-							"value": "overworld"
-						}
-					]
+					"test": "has_biome_tag",
+					"operator": "==",
+					"value": "purity_forest"
 				}
 			],
 			"placement_pass": "final_pass"
 		},
 		"distribution": {
 			"iterations": 1,
-			"coordinate_eval_order": "zyx",
 			"x": {
 				"distribution": "uniform",
 				"extent": [
@@ -46,7 +36,8 @@
 			"scatter_chance": {
 				"numerator": 1,
 				"denominator": 12
-			}
+			},
+			"coordinate_eval_order": "xzy"
 		}
 	}
 }

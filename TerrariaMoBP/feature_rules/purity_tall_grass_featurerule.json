@@ -1,4 +1,4 @@
-//bridge-file-version: #11
+//bridge-file-version: #15
 {
 	"format_version": "1.13.0",
 	"minecraft:feature_rules": {
@@ -11,12 +11,7 @@
 				{
 					"test": "has_biome_tag",
 					"operator": "==",
-					"value": "overworld"
-				},
-				{
-					"test": "has_biome_tag",
-					"operator": "==",
-					"value": "purity"
+					"value": "purity_forest"
 				}
 			],
 			"placement_pass": "surface_pass"
@@ -30,7 +25,7 @@
 				"numerator": 1,
 				"denominator": 2
 			},
-			"coordinate_eval_order": "xyz"
+			"coordinate_eval_order": "xzy"
 		}
 	}
 }

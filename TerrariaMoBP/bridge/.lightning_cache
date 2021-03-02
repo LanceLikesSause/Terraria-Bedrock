@@ -1,0 +1,356 @@
+{
+	"feature": {
+		"BP/features/tree_feature.json": {
+			"identifiers": [
+				"minecraft:tree_feature"
+			]
+		},
+		"BP/features/purityclay_feature.json": {
+			"identifiers": [
+				"minecraft:purityclay_feature"
+			]
+		},
+		"BP/features/surfacechest_feature.json": {
+			"identifiers": [
+				"minecraft:surfacechest_feature"
+			]
+		}
+	},
+	"feature_rule": {
+		"BP/feature_rules/tree_featurerule.json": {
+			"identifiers": [
+				"minecraft:tree_featurerule"
+			]
+		},
+		"BP/feature_rules/purity_cactus_featurerule.json": {
+			"identifiers": [
+				"minecraft:purity_cactus_featurerule"
+			]
+		},
+		"BP/feature_rules/tree_crimson_featurerule.json": {
+			"identifiers": [
+				"minecraft:tree_crimson_featurerule"
+			]
+		},
+		"BP/feature_rules/tree_corruption_featurerule.json": {
+			"identifiers": [
+				"minecraft:tree_corruption_featurerule"
+			]
+		},
+		"BP/feature_rules/tree_snow_featurerule.json": {
+			"identifiers": [
+				"minecraft:tree_snow_featurerule"
+			]
+		},
+		"BP/feature_rules/tree_jungle_featurerule.json": {
+			"identifiers": [
+				"minecraft:tree_jungle_featurerule"
+			]
+		},
+		"BP/feature_rules/surfacechest_featurerule.json": {
+			"identifiers": [
+				"minecraft:surfacechest_featurerule"
+			]
+		},
+		"BP/feature_rules/daybloom_featurerule.json": {
+			"identifiers": [
+				"minecraft:daybloom_featurerule"
+			]
+		},
+		"BP/feature_rules/purity_tall_grass_featurerule.json": {
+			"identifiers": [
+				"minecraft:purity_tall_grass_featurerule"
+			]
+		},
+		"BP/feature_rules/crimsonalter_featurerule.json": {
+			"identifiers": [
+				"minecraft:crimsonalter_featurerule"
+			]
+		},
+		"BP/feature_rules/crimsonheart_featurerule.json": {
+			"identifiers": [
+				"minecraft:crimsonheart_featurerule"
+			]
+		},
+		"BP/feature_rules/forest_pot_featurerule.json": {
+			"identifiers": [
+				"minecraft:forest_pot_featurerule"
+			]
+		},
+		"BP/feature_rules/purity_mushroom_featurerule.json": {
+			"identifiers": [
+				"minecraft:purity_mushroom_featurerule"
+			]
+		},
+		"BP/feature_rules/shadoworb_featurerule.json": {
+			"identifiers": [
+				"minecraft:shadoworb_featurerule"
+			]
+		},
+		"BP/feature_rules/demonalter_featurerule.json": {
+			"identifiers": [
+				"minecraft:demonalter_featurerule"
+			]
+		},
+		"BP/feature_rules/cavernchest_featurerule.json": {
+			"identifiers": [
+				"minecraft:cavernchest_featurerule"
+			]
+		},
+		"BP/feature_rules/undergroundchest_featurerule.json": {
+			"identifiers": [
+				"minecraft:undergroundchest_featurerule"
+			]
+		},
+		"BP/feature_rules/vilemushroom_featurerule.json": {
+			"identifiers": [
+				"minecraft:vilemushroom_featurerule"
+			]
+		},
+		"BP/feature_rules/victoriousmushroom_featurerule.json": {
+			"identifiers": [
+				"minecraft:victoriousmushroom_featurerule"
+			]
+		}
+	},
+	"biome": {
+		"BP/biomes/purity_forest.json": {
+			"tags": [
+				"corruption",
+				"corruption_forest"
+			]
+		},
+		"BP/biomes/purity_snow.json": {
+			"tags": [
+				"purity",
+				"purity_snow"
+			]
+		},
+		"BP/biomes/purity_jungle.json": {
+			"tags": [
+				"purity",
+				"purity_jungle"
+			]
+		},
+		"BP/biomes/purity_desert.json": {
+			"tags": [
+				"purity",
+				"purity_desert"
+			]
+		},
+		"BP/biomes/plains.json": {
+			"tags": []
+		},
+		"BP/biomes/corruption_forest.json": {
+			"tags": [
+				"corruption",
+				"corruption_forest"
+			]
+		}
+	},
+	"block": {
+		"BP/blocks/ash.json": {
+			"identifiers": [
+				"terrariamod:wood_platform"
+			],
+			"events": [
+				"terrariamod:fall",
+				"terrariamod:stay"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/wood_platform.json": {
+			"identifiers": [
+				"terrariamod:wood_platform"
+			],
+			"events": [
+				"terrariamod:fall",
+				"terrariamod:stay"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/purity_campfire.json": {
+			"identifiers": [
+				"terrariamod:purity_campfire"
+			],
+			"events": [
+				"terrariamod:particle",
+				"terrariamod:regen"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		}
+	},
+	"function": {
+		"06f3c091_2b8e_4b6c_a6bc_11bf7fa7866e": {},
+		"a32ef165_a13e_476f_8778_4882836be5a1": {},
+		"e659ecb3_322c_43db_8c01_71b40b45a77b": {},
+		"50e79421_9209_47a1_adf7_20be9971c4a0": {},
+		"generic": {},
+		"eda7be79_5334_44cf_b8d4_4c7d4ef6b1cd": {},
+		"61ca6117_0314_43bb_9d0a_4ebca77229cf": {}
+	},
+	"entity": {
+		"BP/entities/player.json": {
+			"events": [
+				"minecraft:gain_bad_omen",
+				"minecraft:clear_add_bad_omen",
+				"minecraft:trigger_raid",
+				"minecraft:remove_raid_trigger",
+				"minecraft:mana",
+				"minecraft:hellstone_event",
+				"minecraft:entity_spawned",
+				"bridge:remove_command_id_1"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"minecraft:player"
+			],
+			"animation_references": [
+				"mana",
+				"health",
+				"lifecrystal",
+				"music"
+			],
+			"families": [
+				"player"
+			],
+			"custom_components": [],
+			"custom_commands": []
+		}
+	},
+	"animation_controller": {
+		"BP/animation_controllers/bridge/commands_purity_bed.json": {
+			"ids": [
+				"controller.animation.bridge_purity_bed.execute_commands"
+			],
+			"custom_commands": []
+		}
+	},
+	"item": {
+		"BP/items/magicmirror.json": {
+			"identifiers": [
+				"terrariamod:magicmirror"
+			],
+			"custom_commands": []
+		},
+		"BP/items/recallpotion.json": {
+			"identifiers": [
+				"terrariamod:recallpotion"
+			],
+			"custom_commands": []
+		},
+		"BP/items/debugpickaxe.json": {
+			"identifiers": [
+				"terrariamod:debugpickaxe"
+			],
+			"custom_commands": []
+		},
+		"BP/items/copperbar_pile.json": {
+			"identifiers": [
+				"terrariamod:tinbar_pile"
+			],
+			"custom_commands": []
+		},
+		"BP/items/tinbar_pile.json": {
+			"identifiers": [
+				"terrariamod:tinbar_pile"
+			],
+			"custom_commands": []
+		},
+		"BP/items/leadbar_pile.json": {
+			"identifiers": [
+				"terrariamod:tinbar_pile"
+			],
+			"custom_commands": []
+		},
+		"BP/items/ironbar_pile.json": {
+			"identifiers": [
+				"terrariamod:tinbar_pile"
+			],
+			"custom_commands": []
+		},
+		"BP/items/silverbar_pile.json": {
+			"identifiers": [
+				"terrariamod:tinbar_pile"
+			],
+			"custom_commands": []
+		},
+		"BP/items/tungstenbar_pile.json": {
+			"identifiers": [
+				"terrariamod:tinbar_pile"
+			],
+			"custom_commands": []
+		},
+		"BP/items/platinumbar_pile.json": {
+			"identifiers": [
+				"terrariamod:tinbar_pile"
+			],
+			"custom_commands": []
+		},
+		"BP/items/goldbar_pile.json": {
+			"identifiers": [
+				"terrariamod:tinbar_pile"
+			],
+			"custom_commands": []
+		},
+		"BP/items/demonitebar_pile.json": {
+			"identifiers": [
+				"terrariamod:tinbar_pile"
+			],
+			"custom_commands": []
+		},
+		"BP/items/crimtanebar_pile.json": {
+			"identifiers": [
+				"terrariamod:tinbar_pile"
+			],
+			"custom_commands": []
+		},
+		"BP/items/meteoritebar_pile.json": {
+			"identifiers": [
+				"terrariamod:tinbar_pile"
+			],
+			"custom_commands": []
+		},
+		"BP/items/hellstonebar_pile.json": {
+			"identifiers": [
+				"terrariamod:tinbar_pile"
+			],
+			"custom_commands": []
+		}
+	},
+	"fog": {
+		"RP/fogs/purity_forest_fog.json": {
+			"identifiers": [
+				"terrariamod:purity_forest_fog"
+			]
+		},
+		"RP/fogs/purity_jungle_fog.json": {
+			"identifiers": [
+				"terrariamod:purity_forest_fog"
+			]
+		},
+		"RP/fogs/purity_snow_fog.json": {
+			"identifiers": [
+				"terrariamod:purity_forest_fog"
+			]
+		},
+		"RP/fogs/purity_desert_fog.json": {
+			"identifiers": [
+				"terrariamod:purity_forest_fog"
+			]
+		}
+	},
+	"recipe": {
+		"BP/recipes/copperaxe_recipe.json": {
+			"tags": [
+				"iron_anvil"
+			]
+		}
+	}
+}

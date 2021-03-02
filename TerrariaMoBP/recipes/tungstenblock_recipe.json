@@ -3,7 +3,7 @@
 	"format_version": "1.16.100",
 	"minecraft:recipe_shapeless": {
 		"description": {
-			"identifier": "terrariamod:tungstenblock_recipe"
+			"identifier": "terrariamod:tungstenbar_pile_recipe"
 		},
 		"tags": [
 			"tfurnace"
@@ -16,7 +16,7 @@
 		],
 		"result": [
 			{
-				"item": "terrariamod:tungstenblock"
+				"item": "terrariamod:tungstenbar_pile"
 			}
 		]
 	}

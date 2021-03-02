@@ -1,4 +1,4 @@
-//bridge-file-version: #0
+//bridge-file-version: #1
 {
 	"format_version": "1.16.0",
 	"minecraft:entity": {
@@ -188,6 +188,9 @@
 			},
 			"minecraft:equipment": {
 				"table": "loot_tables/entities/player_starting_items.json"
+			},
+			"minecraft:inventory": {
+				"inventory_size": 90
 			}
 		},
 		"events": {

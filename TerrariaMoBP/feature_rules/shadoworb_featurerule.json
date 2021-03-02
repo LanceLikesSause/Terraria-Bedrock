@@ -1,4 +1,4 @@
-//bridge-file-version: #22
+//bridge-file-version: #24
 {
 	"format_version": "1.13.0",
 	"minecraft:feature_rules": {
@@ -12,12 +12,7 @@
 				{
 					"test": "has_biome_tag",
 					"operator": "==",
-					"value": "overworld"
-				},
-				{
-					"test": "has_biome_tag",
-					"operator": "==",
-					"value": "corruption"
+					"value": "corruption_forest"
 				}
 			]
 		},
@@ -42,7 +37,7 @@
 				"numerator": 1,
 				"denominator": 4
 			},
-			"coordinate_eval_order": "xyz"
+			"coordinate_eval_order": "xzy"
 		}
 	}
 }

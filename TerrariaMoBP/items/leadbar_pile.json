@@ -1,0 +1,18 @@
+//bridge-file-version: #9
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "terrariamod:leadbar_pile"
+		},
+		"components": {
+			"minecraft:display_name": {
+				"value": "Pile of Lead Bars"
+			},
+			"minecraft:icon": {
+				"texture": "terrariamod:leadbar_pile"
+			}
+		},
+		"events": {}
+	}
+}

@@ -1,4 +1,4 @@
-//bridge-file-version: #18
+//bridge-file-version: #19
 {
 	"format_version": "1.16.100",
 	"minecraft:block": {
@@ -79,7 +79,7 @@
 			"terrariamod:regen": {
 				"run_command": {
 					"command": [
-						"effect @p instant_damage"
+						"effect @p instant_health"
 					]
 				}
 			}

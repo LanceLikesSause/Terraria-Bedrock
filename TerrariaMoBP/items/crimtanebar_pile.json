@@ -1,0 +1,18 @@
+//bridge-file-version: #8
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "terrariamod:crimtanebar_pile"
+		},
+		"components": {
+			"minecraft:display_name": {
+				"value": "Pile of Crimtane Bars"
+			},
+			"minecraft:icon": {
+				"texture": "terrariamod:crimtanebar_pile"
+			}
+		},
+		"events": {}
+	}
+}

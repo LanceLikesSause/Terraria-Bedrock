@@ -10,7 +10,7 @@
 		],
 		"ingredients": [
 			{
-				"item": "terrariamod:goldblock",
+				"item": "terrariamod:goldbar_pile",
 				"count": 4
 			}
 		],

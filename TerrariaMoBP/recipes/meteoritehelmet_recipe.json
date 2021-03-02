@@ -10,7 +10,7 @@
 		],
 		"ingredients": [
 			{
-				"item": "terrariamod:meteoriteblock",
+				"item": "terrariamod:meteoritebar_pile",
 				"count": 2
 			},
 			{

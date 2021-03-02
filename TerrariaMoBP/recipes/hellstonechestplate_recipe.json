@@ -10,7 +10,7 @@
 		],
 		"ingredients": [
 			{
-				"item": "terrariamod:hellstoneblock",
+				"item": "terrariamod:hellstonebar_pile",
 				"count": 5
 			},
 			{

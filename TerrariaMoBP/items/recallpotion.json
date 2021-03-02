@@ -1,4 +1,4 @@
-//bridge-file-version: #6
+//bridge-file-version: #8
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
@@ -26,14 +26,29 @@
 			}
 		},
 		"events": {
-			"terrariamod:tp_to_player": {
-				"run_command": {
-					"command": [
-						"playsound effect.magicmirror @s ~~~",
-						"tp @s @e[type=terrariamod:purity_bed] true",
-						"particle terrariamod:magicmirror_effect ~~~"
-					]
-				}
+			"minecraft:use": {
+				"sequence": [
+					{
+						"run_command": {
+							"command": [
+								"playsound effect.magicmirror @s ~~~",
+								"tp @s @e[type=terrariamod:purity_bed] true",
+								"particle terrariamod:magicmirror_effect ~~~"
+							]
+						},
+						"condition": "q.scoreboard('hasbed')==1"
+					},
+					{
+						"run_command": {
+							"command": [
+								"tp @s 0 80 0",
+								"playsound effect.magicmirror @s ~~~",
+								"particle terrariamod:magicmirror_effect ~~~"
+							]
+						},
+						"condition": "q.scoreboard('hasbed')==0"
+					}
+				]
 			}
 		}
 	}

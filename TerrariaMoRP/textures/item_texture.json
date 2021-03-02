@@ -1,4 +1,4 @@
-//bridge-file-version: #4
+//bridge-file-version: #12
 {
 	"resource_pack_name": "TerrariaModLLS",
 	"texture_name": "atlas.items",
@@ -723,6 +723,66 @@
 		"terrariamod:recallpotion": {
 			"textures": [
 				"textures/items/potions/recallpotion"
+			]
+		},
+		"terrariamod:copperbar_pile": {
+			"textures": [
+				"textures/items/bar_piles/copperbar_pile"
+			]
+		},
+		"terrariamod:tinbar_pile": {
+			"textures": [
+				"textures/items/bar_piles/tinbar_pile"
+			]
+		},
+		"terrariamod:leadbar_pile": {
+			"textures": [
+				"textures/items/bar_piles/leadbar_pile"
+			]
+		},
+		"terrariamod:ironbar_pile": {
+			"textures": [
+				"textures/items/bar_piles/ironbar_pile"
+			]
+		},
+		"terrariamod:silverbar_pile": {
+			"textures": [
+				"textures/items/bar_piles/silverbar_pile"
+			]
+		},
+		"terrariamod:tungstenbar_pile": {
+			"textures": [
+				"textures/items/bar_piles/tungstenbar_pile"
+			]
+		},
+		"terrariamod:platinumbar_pile": {
+			"textures": [
+				"textures/items/bar_piles/platinumbar_pile"
+			]
+		},
+		"terrariamod:goldbar_pile": {
+			"textures": [
+				"textures/items/bar_piles/goldbar_pile"
+			]
+		},
+		"terrariamod:crimtanebar_pile": {
+			"textures": [
+				"textures/items/bar_piles/crimtanebar_pile"
+			]
+		},
+		"terrariamod:demonitebar_pile": {
+			"textures": [
+				"textures/items/bar_piles/demonitebar_pile"
+			]
+		},
+		"terrariamod:meteoritebar_pile": {
+			"textures": [
+				"textures/items/bar_piles/meteoritebar_pile"
+			]
+		},
+		"terrariamod:hellstonebar_pile": {
+			"textures": [
+				"textures/items/bar_piles/hellstonebar_pile"
 			]
 		}
 	}

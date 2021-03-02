@@ -1,4 +1,4 @@
-//bridge-file-version: #0
+//bridge-file-version: #1
 {
 	"format_version": 2,
 	"header": {
@@ -41,22 +41,12 @@
 		{
 			"folder_name": "crimson_pack",
 			"name": "§4The Crimson§f: \nSpawns the crimson biome, brain of cthulhu, crimstane, etc",
-			"memory_tier": 0,
-			"metadata": {
-				"metadata": {}
-			}
+			"memory_tier": 0
 		},
 		{
 			"folder_name": "corruption_pack",
 			"name": "§5The Corruption§f: \nSpawns the corruption biome, eater of worlds, demonite, etc",
 			"memory_tier": 1
 		}
-	],
-	"metadata": {
-		"authors": [
-			"Todd Everett Griffin (@goddtriffin)"
-		],
-		"url": "https://github.com/goddtriffin/DeathSwap",
-		"license": "TBD"
-	}
+	]
 }

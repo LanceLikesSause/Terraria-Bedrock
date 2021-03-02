@@ -1,0 +1,18 @@
+//bridge-file-version: #8
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "terrariamod:goldbar_pile"
+		},
+		"components": {
+			"minecraft:display_name": {
+				"value": "Pile of Gold Bars"
+			},
+			"minecraft:icon": {
+				"texture": "terrariamod:goldbar_pile"
+			}
+		},
+		"events": {}
+	}
+}

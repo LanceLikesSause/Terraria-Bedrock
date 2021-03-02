@@ -10,7 +10,7 @@
 		],
 		"ingredients": [
 			{
-				"item": "terrariamod:tinblock",
+				"item": "terrariamod:tinbar_pile",
 				"count": 5
 			}
 		],

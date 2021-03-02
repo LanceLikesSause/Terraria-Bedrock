@@ -1,0 +1,52 @@
+//bridge-file-version: #36
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "terrariamod:wood_platform",
+			"properties": {
+				"terrariamod:sneaking": [
+					true,
+					false
+				]
+			}
+		},
+		"components": {
+			"minecraft:destroy_time": 4,
+			"tag:terrariamod:wood": {}
+		},
+		"permutations": [
+			{
+				"components": {
+					"minecraft:on_interact": {
+						"event": "terrariamod:fall",
+						"condition": "query.is_sneaking"
+					},
+					"minecraft:entity_collision": false
+				},
+				"condition": "query.block_property('terrariamod:sneaking')==true"
+			},
+			{
+				"condition": "query.block_property('terrariamod:sneaking')==false\r",
+				"components": {
+					"minecraft:on_interact": {
+						"event": "terrariamod:stay",
+						"condition": "!query.is_sneaking"
+					}
+				}
+			}
+		],
+		"events": {
+			"terrariamod:fall": {
+				"set_block_property": {
+					"terrariamod:sneaking": false
+				}
+			},
+			"terrariamod:stay": {
+				"set_block_property": {
+					"terrariamod:sneaking": true
+				}
+			}
+		}
+	}
+}

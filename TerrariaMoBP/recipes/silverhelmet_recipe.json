@@ -10,7 +10,7 @@
 		],
 		"ingredients": [
 			{
-				"item": "terrariamod:silverblock",
+				"item": "terrariamod:silverbar_pile",
 				"count": 2
 			},
 			{

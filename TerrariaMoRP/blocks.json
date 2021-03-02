@@ -1,4 +1,4 @@
-//bridge-file-version: #54
+//bridge-file-version: #55
 {
 	"terrariamod:shadoworb": {
 		"sound": "wood"
@@ -125,8 +125,8 @@
 		"sound": "stone"
 	},
 	"terrariamod:purity_snow": {
-		"sound": "snow",
-		"textures": "purity_snow"
+		"textures": "purity_snow",
+		"sound": "gravel"
 	},
 	"terrariamod:purity_sand": {
 		"sound": "sand",

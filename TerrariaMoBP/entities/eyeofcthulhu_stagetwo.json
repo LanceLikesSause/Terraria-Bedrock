@@ -1,4 +1,4 @@
-//bridge-file-version: #43
+//bridge-file-version: #46
 {
 	"format_version": "1.16.0",
 	"minecraft:entity": {
@@ -26,8 +26,8 @@
 			},
 			"minecraft:nameable": {},
 			"minecraft:health": {
-				"value": 2800,
-				"max": 2800
+				"value": 1400,
+				"max": 1400
 			},
 			"minecraft:hurt_on_condition": {
 				"damage_conditions": [
@@ -130,8 +130,8 @@
 			},
 			"minecraft:behavior.swoop_attack": {
 				"priority": 2,
-				"damage_reach": 2.5,
-				"speed_multiplier": 30,
+				"damage_reach": 3.5,
+				"speed_multiplier": 60,
 				"delay_range": [
 					3,
 					3

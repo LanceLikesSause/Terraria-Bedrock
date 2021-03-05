@@ -1,4 +1,4 @@
-//bridge-file-version: #11
+//bridge-file-version: #12
 {
 	"format_version": "1.16.0",
 	"minecraft:entity": {
@@ -109,7 +109,7 @@
 						"max_dist": 64
 					}
 				],
-				"scan_interval": 5
+				"scan_interval": 20
 			},
 			"minecraft:behavior.swoop_attack": {
 				"priority": 2,

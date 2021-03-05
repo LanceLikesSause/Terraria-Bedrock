@@ -1,4 +1,4 @@
-//bridge-file-version: #6
+//bridge-file-version: #7
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
@@ -11,7 +11,7 @@
 				"texture": "terrariamod:starting_items_package"
 			},
 			"minecraft:display_name": {
-				"value": "Package "
+				"value": "Please interact with this item to before starting!"
 			},
 			"minecraft:on_use": {
 				"on_use": {
@@ -28,7 +28,9 @@
 					"command": [
 						"give @s terrariamod:coppersword",
 						"give @s terrariamod:copperpickaxe",
-						"give @s terrariamod:copperaxe"
+						"give @s terrariamod:copperaxe",
+						"tp @s 0 80 0",
+						"gamerule keepinventory true"
 					]
 				}
 			}

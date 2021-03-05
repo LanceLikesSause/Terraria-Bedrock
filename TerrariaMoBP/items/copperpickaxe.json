@@ -22,7 +22,7 @@
 						"block": {
 							"tags": "query.any_tag('terrariamod:stone', 'terrariamod:dirt')"
 						},
-						"speed": 2
+						"speed": 3
 					}
 				]
 			},

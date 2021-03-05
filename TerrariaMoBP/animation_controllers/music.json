@@ -1,17 +1,9 @@
-//bridge-file-version: #258
+//bridge-file-version: #276
 {
 	"format_version": "1.10.0",
 	"animation_controllers": {
 		"controller.animation.music": {
-			"initial_state": "wait",
 			"states": {
-				"wait": {
-					"transitions": [
-						{
-							"default": "query.life_time>10"
-						}
-					]
-				},
 				"default": {
 					"transitions": [
 						{
@@ -55,6 +47,9 @@
 						},
 						{
 							"underworld_music": "query.biome_has_any_tag('underworld')"
+						},
+						{
+							"vanilla": "query.biome_has_any_tag('overworld')"
 						}
 					],
 					"on_entry": [
@@ -214,8 +209,23 @@
 							"default": "query.time_stamp>v.time+2600 || !query.biome_has_any_tag('underworld')"
 						}
 					]
+				},
+				"vanilla": {
+					"on_entry": [
+						"/gamerule sendcommandfeedback false",
+						"/tp @s ^ ^ ^-1",
+						"/say this biome can't be entered!",
+						"/gamerule sendcommandfeedback true",
+						"v.time = q.time_stamp;"
+					],
+					"transitions": [
+						{
+							"default": "query.time_stamp>v.time+0.1 || !query.biome_has_any_tag('overworld')"
+						}
+					]
 				}
-			}
+			},
+			"initial_state": "default"
 		}
 	}
 }

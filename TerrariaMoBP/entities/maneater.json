@@ -1,4 +1,4 @@
-//bridge-file-version: #77
+//bridge-file-version: #81
 {
 	"format_version": "1.16.0",
 	"minecraft:entity": {
@@ -59,7 +59,7 @@
 			"minecraft:behavior.melee_attack": {
 				"priority": 0,
 				"speed_multiplier": 1,
-				"reach_multiplier": 10
+				"reach_multiplier": 0.5
 			},
 			"minecraft:behavior.move_towards_restriction": {
 				"priority": 5,
@@ -124,21 +124,8 @@
 				"probability": 1
 			},
 			"minecraft:collision_box": {
-				"width": 1,
+				"width": 10,
 				"height": 3
-			},
-			"minecraft:custom_hit_test": {
-				"hitboxes": [
-					{
-						"width": 900,
-						"height": 50,
-						"pivot": [
-							0,
-							0,
-							0
-						]
-					}
-				]
 			}
 		}
 	}

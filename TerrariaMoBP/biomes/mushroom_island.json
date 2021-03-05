@@ -1,55 +1,47 @@
+//bridge-file-version: #0
 {
-  "format_version": "1.13.0",
-
-  "minecraft:biome": {
-    "description": {
-      "identifier": "mushroom_island"
-    },
-
-    "components": {
-      "minecraft:surface_parameters": {
-        "foundation_material": {
-          "name": "minecraft:concrete",
-
-          "states": {
-            "color": "purple"
-          }
-        },
-
-        "top_material": {
-          "name": "minecraft:concrete",
-
-          "states": {
-            "color": "purple"
-          }
-        },
-        "mid_material": {
-          "name": "minecraft:concrete",
-
-          "states": {
-            "color": "purple"
-          }
-        },
-
-        "sea_floor_depth": 0,
-        "sea_material": "minecraft:water",
-        "sea_floor_material": {
-          "name": "minecraft:concrete",
-
-          "states": {
-            "color": "purple"
-          }
-        }
-      },
-      "minecraft:overworld_height": {
-        "noise_type": "lowlands"
-      },
-
-      "minecraft:climate": {
-        "downfall": 0.5,
-        "snow_accumulation": [0, 0.5],
-        "temperature": 0.5
-      }
-    }
-  }
+	"format_version": "1.13.0",
+	"minecraft:biome": {
+		"description": {
+			"identifier": "mushroom_island"
+		},
+		"components": {
+			"minecraft:surface_parameters": {
+				"foundation_material": {
+					"name": "minecraft:concrete",
+					"states": {
+						"color": "purple"
+					}
+				},
+				"top_material": {
+					"name": "minecraft:lava"
+				},
+				"mid_material": {
+					"name": "minecraft:lava",
+					"states": {
+						"color": "purple"
+					}
+				},
+				"sea_floor_depth": 0,
+				"sea_material": "minecraft:water",
+				"sea_floor_material": {
+					"name": "minecraft:concrete",
+					"states": {
+						"color": "purple"
+					}
+				}
+			},
+			"minecraft:overworld_height": {
+				"noise_type": "lowlands"
+			},
+			"minecraft:climate": {
+				"downfall": 0.5,
+				"snow_accumulation": [
+					0,
+					0.5
+				],
+				"temperature": 0.5
+			}
+		}
+	}
 }

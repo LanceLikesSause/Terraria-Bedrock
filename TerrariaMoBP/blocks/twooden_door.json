@@ -1,4 +1,4 @@
-//bridge-file-version: #190
+//bridge-file-version: #200
 {
 	"format_version": "1.16.100",
 	"minecraft:block": {
@@ -6,8 +6,8 @@
 			"identifier": "terrariamod:twooden_door",
 			"properties": {
 				"terrariamod:is_opened": [
-					false,
-					true
+					0,
+					1
 				]
 			}
 		},
@@ -30,7 +30,7 @@
 		},
 		"permutations": [
 			{
-				"condition": "query.block_property('terrariamod:is_opened') == true",
+				"condition": "query.block_property('terrariamod:is_opened') == 1",
 				"components": {
 					"minecraft:rotation": [
 						0,
@@ -62,12 +62,12 @@
 						]
 					},
 					"minecraft:on_interact": {
-						"event": "terrariamod:close_door"
+						"event": "terrariamod:open_door"
 					}
 				}
 			},
 			{
-				"condition": "query.block_property('terrariamod:is_opened') == false",
+				"condition": "query.block_property('terrariamod:is_opened') == 0",
 				"components": {
 					"minecraft:rotation": [
 						0,
@@ -75,7 +75,7 @@
 						0
 					],
 					"minecraft:on_interact": {
-						"event": "terrariamod:open_door"
+						"event": "terrariamod:close_door"
 					},
 					"minecraft:entity_collision": {
 						"origin": [
@@ -107,7 +107,7 @@
 		"events": {
 			"terrariamod:open_door": {
 				"set_block_property": {
-					"terrariamod:is_opened": true
+					"terrariamod:is_opened": 0
 				},
 				"run_command": {
 					"command": [
@@ -118,7 +118,7 @@
 			},
 			"terrariamod:close_door": {
 				"set_block_property": {
-					"terrariamod:is_opened": false
+					"terrariamod:is_opened": 1
 				},
 				"run_command": {
 					"command": [
@@ -132,6 +132,11 @@
 					"command": [
 						"setblock ~ ~1 ~ air"
 					]
+				}
+			},
+			"terrariamod:create_door": {
+				"set_block_property": {
+					"terrariamod:is_opened": 0
 				}
 			}
 		}

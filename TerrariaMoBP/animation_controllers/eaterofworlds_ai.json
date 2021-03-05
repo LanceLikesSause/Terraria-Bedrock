@@ -1,0 +1,62 @@
+//bridge-file-version: #116
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.eaterofworlds_ai": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"choose": "query.life_time>0"
+						}
+					]
+				},
+				"choose": {
+					"transitions": [
+						{
+							"move_charge": "math.random(0, 2)>0.1 && math.random(0, 2) <1.8"
+						},
+						{
+							"move_to_player": "math.random(0, 2)> 1.8 && math.random(0, 2) <1.9"
+						},
+						{
+							"circle_player": "math.random(0, 2)> 1.9"
+						}
+					]
+				},
+				"move_charge": {
+					"on_entry": [
+						"/execute @e[type=terrariamod:eaterofworlds] ~ ~ ~ tp @s ^ ^ ^1",
+						"v.time = q.time_stamp;"
+					],
+					"transitions": [
+						{
+							"choose": "query.time_stamp>v.time+0.1"
+						}
+					]
+				},
+				"move_to_player": {
+					"transitions": [
+						{
+							"choose": "query.life_time>0"
+						}
+					],
+					"on_entry": [
+						"/execute @e[type=terrariamod:eaterofworlds] ~ ~ ~ tp @s ^ ^ ^1 facing @p"
+					]
+				},
+				"circle_player": {
+					"transitions": [
+						{
+							"choose": "query.life_time>0\r"
+						}
+					],
+					"on_entry": [
+						"/execute @e[type=terrariamod:eaterofworlds] ~ ~ ~ tp @s ^ ^ ^1 facing @p"
+					]
+				}
+			},
+			"initial_state": "default"
+		}
+	}
+}

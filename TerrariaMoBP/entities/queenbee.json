@@ -1,4 +1,4 @@
-//bridge-file-version: #70
+//bridge-file-version: #101
 {
 	"format_version": "1.16.0",
 	"minecraft:entity": {
@@ -24,16 +24,11 @@
 				"minecraft:spawn_entity": {
 					"entities": [
 						{
-							"min_wait_time": 5,
-							"max_wait_time": 10,
+							"min_wait_time": 2,
+							"max_wait_time": 3,
 							"spawn_entity": "terrariamod:queenbee_bee"
 						}
 					]
-				}
-			},
-			"terrariamod:posion": {
-				"minecraft:shooter": {
-					"def": "terrariamod:queenbee_projectile"
 				}
 			}
 		},
@@ -150,8 +145,8 @@
 			"minecraft:timer": {
 				"looping": true,
 				"time": [
-					3,
-					3
+					1,
+					1
 				],
 				"time_down_event": {
 					"event": "terrariamod:switch_attack"
@@ -174,14 +169,6 @@
 						"add": {
 							"component_groups": [
 								"terrariamod:summon"
-							]
-						}
-					},
-					{
-						"weight": 1,
-						"add": {
-							"component_groups": [
-								"terrariamod:posion"
 							]
 						}
 					}

@@ -1,4 +1,4 @@
-//bridge-file-version: #0
+//bridge-file-version: #39
 {
 	"format_version": "1.16.0",
 	"minecraft:entity": {
@@ -6,7 +6,15 @@
 			"identifier": "terrariamod:kingslime",
 			"is_spawnable": true,
 			"is_summonable": true,
-			"is_experimental": false
+			"is_experimental": false,
+			"scripts": {
+				"animate": [
+					"bridge_execute_commands"
+				]
+			},
+			"animations": {
+				"bridge_execute_commands": "controller.animation.bridge_kingslime.execute_commands"
+			}
 		},
 		"components": {
 			"minecraft:type_family": {
@@ -34,42 +42,11 @@
 									"test": "is_family",
 									"subject": "other",
 									"value": "player"
-								}
-							]
-						},
-						"max_dist": 35
-					},
-					{
-						"filters": {
-							"any_of": [
+								},
 								{
 									"test": "is_family",
 									"subject": "other",
 									"value": "villager"
-								},
-								{
-									"test": "is_family",
-									"subject": "other",
-									"value": "wandering_trader"
-								}
-							]
-						},
-						"max_dist": 35,
-						"must_see": false
-					},
-					{
-						"filters": {
-							"all_of": [
-								{
-									"test": "is_family",
-									"subject": "other",
-									"value": "baby_turtle"
-								},
-								{
-									"test": "in_water",
-									"subject": "other",
-									"operator": "!=",
-									"value": true
 								}
 							]
 						},
@@ -96,7 +73,7 @@
 			"minecraft:jump.static": {},
 			"minecraft:can_climb": {},
 			"minecraft:collision_box": {
-				"width": 1.0,
+				"width": 1,
 				"height": 0.7
 			},
 			"minecraft:health": {
@@ -110,32 +87,24 @@
 			"minecraft:spawn_entity": {
 				"entities": [
 					{
-						"min_wait_time": 3,
-						"max_wait_time": 7,
-						"num_to_spawn": 20,
-						"spawn_entity": "terrariamod:greenslime",
-						"single_use": true
+						"min_wait_time": 5,
+						"max_wait_time": 60,
+						"spawn_entity": "terrariamod:greenslime"
 					},
 					{
-						"min_wait_time": 3,
-						"max_wait_time": 7,
-						"num_to_spawn": 20,
-						"spawn_entity": "terrariamod:blueslime",
-						"single_use": true
+						"min_wait_time": 5,
+						"max_wait_time": 60,
+						"spawn_entity": "terrariamod:blueslime"
 					},
 					{
-						"min_wait_time": 3,
-						"max_wait_time": 7,
-						"num_to_spawn": 20,
-						"spawn_entity": "terrariamod:yellowslime",
-						"single_use": true
+						"min_wait_time": 5,
+						"max_wait_time": 60,
+						"spawn_entity": "terrariamod:redslime"
 					},
 					{
-						"min_wait_time": 3,
-						"max_wait_time": 7,
-						"num_to_spawn": 20,
-						"spawn_entity": "terrariamod:redslime",
-						"single_use": true
+						"min_wait_time": 5,
+						"max_wait_time": 60,
+						"spawn_entity": "terrariamod:yellowslime"
 					}
 				]
 			},
@@ -166,7 +135,8 @@
 					"subject": "block",
 					"operator": "==",
 					"value": "snow_layer"
-				}
+				},
+				"set_persistent": true
 			},
 			"minecraft:behavior.random_stroll": {
 				"priority": 13,
@@ -188,9 +158,60 @@
 				"is_pushable": true,
 				"is_pushable_by_piston": true
 			},
-			"minecraft:conditional_bandwidth_optimization": {}
+			"minecraft:conditional_bandwidth_optimization": {},
+			"minecraft:timer": {
+				"looping": true,
+				"time": [
+					6,
+					36
+				],
+				"time_down_event": {
+					"event": "terrariamod:tp"
+				}
+			},
+			"minecraft:area_attack": {
+				"damage_range": 1,
+				"damage_per_tick": 1,
+				"entity_filter": {
+					"test": "is_family",
+					"subject": "other",
+					"value": "player"
+				},
+				"cause": "contact"
+			}
 		},
-		"events": {},
-		"component_groups": {}
+		"events": {
+			"terrariamod:tp": {
+				"add": {
+					"component_groups": [
+						"bridge:execute_command_id_1"
+					]
+				}
+			},
+			"bridge:remove_command_id_1": {
+				"add": {
+					"component_groups": [
+						"bridge:execute_no_command"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"bridge:execute_command_id_1"
+					]
+				}
+			}
+		},
+		"component_groups": {
+			"bridge:execute_command_id_1": {
+				"minecraft:skin_id": {
+					"value": 1
+				}
+			},
+			"bridge:execute_no_command": {
+				"minecraft:skin_id": {
+					"value": 0
+				}
+			}
+		}
 	}
 }

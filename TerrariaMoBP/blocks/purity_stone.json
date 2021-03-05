@@ -1,4 +1,4 @@
-//bridge-file-version: #5
+//bridge-file-version: #7
 {
 	"format_version": "1.16.100",
 	"minecraft:block": {
@@ -7,7 +7,7 @@
 			"register_to_creative_menu": true
 		},
 		"components": {
-			"minecraft:destroy_time": 5,
+			"minecraft:destroy_time": 3,
 			"tag:terrariamod:stone": {},
 			"minecraft:map_color": "#646464"
 		},

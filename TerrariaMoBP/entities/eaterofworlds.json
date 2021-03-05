@@ -1,4 +1,4 @@
-//bridge-file-version: #19
+//bridge-file-version: #51
 {
 	"format_version": "1.16.0",
 	"minecraft:entity": {
@@ -6,12 +6,29 @@
 			"identifier": "terrariamod:eaterofworlds",
 			"is_spawnable": true,
 			"is_summonable": true,
-			"is_experimental": false
+			"is_experimental": false,
+			"animations": {
+				"ai": "controller.animation.eaterofworlds_ai"
+			},
+			"scripts": {
+				"animate": [
+					"ai"
+				]
+			}
 		},
 		"component_groups": {
 			"terrariamod:despawn": {
 				"minecraft:instant_despawn": {
 					"remove_child_entities": true
+				}
+			}
+		},
+		"events": {
+			"terrariamod:despawn_entity": {
+				"add": {
+					"component_groups": [
+						"terrariamod:despawn"
+					]
 				}
 			}
 		},
@@ -23,46 +40,12 @@
 				]
 			},
 			"minecraft:collision_box": {
-				"width": 0.6,
-				"height": 1.9
+				"width": 5,
+				"height": 10
 			},
-			"minecraft:movement.basic": {
-				"max_turn": 3
-			},
-			"minecraft:navigation.walk": {
-				"is_amphibious": true,
-				"can_pass_doors": true,
-				"can_walk": true,
-				"can_break_doors": true
-			},
-			"minecraft:annotation.break_door": {},
-			"minecraft:jump.static": {},
 			"minecraft:health": {
 				"value": 10050,
 				"max": 10050
-			},
-			"minecraft:hurt_on_condition": {
-				"damage_conditions": [
-					{
-						"filters": {
-							"test": "in_lava",
-							"subject": "self",
-							"operator": "==",
-							"value": true
-						},
-						"cause": "lava",
-						"damage_per_tick": 4
-					}
-				]
-			},
-			"minecraft:breathable": {
-				"total_supply": 15,
-				"suffocate_time": 0,
-				"breathes_air": true,
-				"breathes_water": true
-			},
-			"minecraft:attack": {
-				"damage": 22
 			},
 			"minecraft:loot": {
 				"table": "loot_tables/entities/eaterofworlds.json"
@@ -72,21 +55,6 @@
 					"max_distance": 60,
 					"min_distance": 80
 				}
-			},
-			"minecraft:behavior.melee_attack": {
-				"priority": 3,
-				"speed_multiplier": 1
-			},
-			"minecraft:behavior.move_towards_restriction": {
-				"priority": 5,
-				"speed_multiplier": 1
-			},
-			"minecraft:behavior.random_stroll": {
-				"priority": 7,
-				"speed_multiplier": 1
-			},
-			"minecraft:behavior.hurt_by_target": {
-				"priority": 1
 			},
 			"minecraft:behavior.nearest_attackable_target": {
 				"priority": 2,
@@ -155,39 +123,36 @@
 					}
 				]
 			},
-			"minecraft:physics": {},
-			"minecraft:pushable": {
-				"is_pushable": true,
-				"is_pushable_by_piston": true
-			},
-			"minecraft:movement": {
-				"value": 0.25
+			"minecraft:physics": {
+				"has_gravity": false,
+				"has_collision": false
 			},
 			"minecraft:scale": {
 				"value": 3
 			},
-			"minecraft:boss": {
-				"hud_range": 100,
-				"name": "The Eater of Worlds"
-			},
 			"minecraft:environment_sensor": {
-				"triggers": {
-					"filters": {
-						"test": "has_biome_tag",
-						"operator": "!=",
-						"value": "corruption"
-					},
-					"event": "terrariamod:despawn_entity"
-				}
-			}
-		},
-		"events": {
-			"terrariamod:despawn_entity": {
-				"add": {
-					"component_groups": [
-						"terrariamod:despawn"
-					]
-				}
+				"triggers": [
+					{
+						"filters": {
+							"test": "has_biome_tag",
+							"operator": "!=",
+							"value": "corruption"
+						},
+						"event": "terrariamod:despawn_entity"
+					}
+				]
+			},
+			"minecraft:attack": {
+				"damage": 22
+			},
+			"minecraft:area_attack": {
+				"damage_range": 5,
+				"damage_per_tick": 1,
+				"cause": "contact"
+			},
+			"minecraft:boss": {
+				"hud_range": 1000,
+				"name": "Eater of Worlds"
 			}
 		}
 	}

@@ -1,4 +1,4 @@
-//bridge-file-version: #46
+//bridge-file-version: #47
 {
 	"format_version": "1.16.100",
 	"minecraft:block": {
@@ -16,13 +16,14 @@
 				}
 			},
 			"minecraft:entity_collision": false,
-			"minecraft:block_light_emission": 1,
 			"minecraft:loot": "loot_tables/blocks/shadoworb.json",
 			"tag:terrariamod:stone": {},
 			"minecraft:on_player_destroyed": {
 				"event": "terrariamod:trigger_event",
 				"target": "self"
-			}
+			},
+			"minecraft:block_light_emission": 0,
+			"minecraft:block_light_absorption": 0
 		},
 		"events": {
 			"terrariamod:interact": {

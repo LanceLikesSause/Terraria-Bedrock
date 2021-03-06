@@ -1,4 +1,4 @@
-//bridge-file-version: #51
+//bridge-file-version: #52
 {
 	"format_version": "1.16.0",
 	"minecraft:entity": {
@@ -23,15 +23,7 @@
 				}
 			}
 		},
-		"events": {
-			"terrariamod:despawn_entity": {
-				"add": {
-					"component_groups": [
-						"terrariamod:despawn"
-					]
-				}
-			}
-		},
+		"events": {},
 		"components": {
 			"minecraft:type_family": {
 				"family": [
@@ -129,18 +121,6 @@
 			},
 			"minecraft:scale": {
 				"value": 3
-			},
-			"minecraft:environment_sensor": {
-				"triggers": [
-					{
-						"filters": {
-							"test": "has_biome_tag",
-							"operator": "!=",
-							"value": "corruption"
-						},
-						"event": "terrariamod:despawn_entity"
-					}
-				]
 			},
 			"minecraft:attack": {
 				"damage": 22

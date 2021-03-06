@@ -1,4 +1,4 @@
-//bridge-file-version: #0
+//bridge-file-version: #1
 {
 	"format_version": "1.13.0",
 	"minecraft:biome": {
@@ -6,31 +6,6 @@
 			"identifier": "mushroom_island"
 		},
 		"components": {
-			"minecraft:surface_parameters": {
-				"foundation_material": {
-					"name": "minecraft:concrete",
-					"states": {
-						"color": "purple"
-					}
-				},
-				"top_material": {
-					"name": "minecraft:lava"
-				},
-				"mid_material": {
-					"name": "minecraft:lava",
-					"states": {
-						"color": "purple"
-					}
-				},
-				"sea_floor_depth": 0,
-				"sea_material": "minecraft:water",
-				"sea_floor_material": {
-					"name": "minecraft:concrete",
-					"states": {
-						"color": "purple"
-					}
-				}
-			},
 			"minecraft:overworld_height": {
 				"noise_type": "lowlands"
 			},
@@ -41,6 +16,22 @@
 					0.5
 				],
 				"temperature": 0.5
+			},
+			"minecraft:surface_parameters": {
+				"foundation_material": {
+					"name": "minecraft:barrier"
+				},
+				"top_material": {
+					"name": "minecraft:barrier"
+				},
+				"mid_material": {
+					"name": "minecraft:barrier"
+				},
+				"sea_floor_depth": 0,
+				"sea_material": "minecraft:barrier",
+				"sea_floor_material": {
+					"name": "minecraft:barrier"
+				}
 			}
 		}
 	}

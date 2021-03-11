@@ -12,12 +12,12 @@
 			},
 			"bones": [
 				{
-					"name": "all",
+					"name": "eaterofworlds",
 					"pivot": [0, 1, 0]
 				},
 				{
 					"name": "body19",
-					"parent": "all",
+					"parent": "eaterofworlds",
 					"pivot": [0, 1, 570],
 					"cubes": [
 						{
@@ -36,7 +36,7 @@
 				},
 				{
 					"name": "body18",
-					"parent": "all",
+					"parent": "eaterofworlds",
 					"pivot": [0, 1, 544],
 					"cubes": [
 						{
@@ -55,7 +55,7 @@
 				},
 				{
 					"name": "body17",
-					"parent": "all",
+					"parent": "eaterofworlds",
 					"pivot": [0, 1, 518],
 					"cubes": [
 						{
@@ -74,7 +74,7 @@
 				},
 				{
 					"name": "body16",
-					"parent": "all",
+					"parent": "eaterofworlds",
 					"pivot": [0, 1, 492],
 					"cubes": [
 						{
@@ -93,7 +93,7 @@
 				},
 				{
 					"name": "body15",
-					"parent": "all",
+					"parent": "eaterofworlds",
 					"pivot": [0, 1, 466],
 					"cubes": [
 						{
@@ -112,7 +112,7 @@
 				},
 				{
 					"name": "body14",
-					"parent": "all",
+					"parent": "eaterofworlds",
 					"pivot": [0, 1, 440],
 					"cubes": [
 						{
@@ -131,7 +131,7 @@
 				},
 				{
 					"name": "body13",
-					"parent": "all",
+					"parent": "eaterofworlds",
 					"pivot": [0, 1, 414],
 					"cubes": [
 						{
@@ -150,7 +150,7 @@
 				},
 				{
 					"name": "body12",
-					"parent": "all",
+					"parent": "eaterofworlds",
 					"pivot": [0, 1, 388],
 					"cubes": [
 						{
@@ -169,7 +169,7 @@
 				},
 				{
 					"name": "body11",
-					"parent": "all",
+					"parent": "eaterofworlds",
 					"pivot": [0, 1, 362],
 					"cubes": [
 						{
@@ -188,7 +188,7 @@
 				},
 				{
 					"name": "body10",
-					"parent": "all",
+					"parent": "eaterofworlds",
 					"pivot": [0, 1, 336],
 					"cubes": [
 						{
@@ -207,7 +207,7 @@
 				},
 				{
 					"name": "body9",
-					"parent": "all",
+					"parent": "eaterofworlds",
 					"pivot": [0, 1, 310],
 					"cubes": [
 						{
@@ -226,7 +226,7 @@
 				},
 				{
 					"name": "body8",
-					"parent": "all",
+					"parent": "eaterofworlds",
 					"pivot": [0, 1, 284],
 					"cubes": [
 						{
@@ -245,7 +245,7 @@
 				},
 				{
 					"name": "body7",
-					"parent": "all",
+					"parent": "eaterofworlds",
 					"pivot": [0, 1, 258],
 					"cubes": [
 						{
@@ -264,7 +264,7 @@
 				},
 				{
 					"name": "body6",
-					"parent": "all",
+					"parent": "eaterofworlds",
 					"pivot": [0, 1, 232],
 					"cubes": [
 						{
@@ -283,7 +283,7 @@
 				},
 				{
 					"name": "body5",
-					"parent": "all",
+					"parent": "eaterofworlds",
 					"pivot": [0, 1, 206],
 					"cubes": [
 						{
@@ -302,7 +302,7 @@
 				},
 				{
 					"name": "body4",
-					"parent": "all",
+					"parent": "eaterofworlds",
 					"pivot": [0, 1, 180],
 					"cubes": [
 						{
@@ -321,7 +321,7 @@
 				},
 				{
 					"name": "body3",
-					"parent": "all",
+					"parent": "eaterofworlds",
 					"pivot": [0, 1, 154],
 					"cubes": [
 						{
@@ -340,7 +340,7 @@
 				},
 				{
 					"name": "body2",
-					"parent": "all",
+					"parent": "eaterofworlds",
 					"pivot": [0, 1, 128],
 					"cubes": [
 						{
@@ -359,7 +359,7 @@
 				},
 				{
 					"name": "tail",
-					"parent": "all",
+					"parent": "eaterofworlds",
 					"pivot": [0, 1, 555],
 					"cubes": [
 						{
@@ -426,7 +426,7 @@
 				},
 				{
 					"name": "body",
-					"parent": "all",
+					"parent": "eaterofworlds",
 					"pivot": [0, 1, 102],
 					"cubes": [
 						{
@@ -553,7 +553,7 @@
 				},
 				{
 					"name": "head",
-					"parent": "all",
+					"parent": "eaterofworlds",
 					"pivot": [0, 1, 102],
 					"cubes": [
 						{

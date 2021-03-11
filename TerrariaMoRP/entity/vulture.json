@@ -24,15 +24,7 @@
 				"base_color": "#FFFFFF",
 				"overlay_color": "#6A0000"
 			},
-			"animations": {
-				"flying": "animation.vulture.flying"
-			},
-			"enable_attachables": true,
-			"animation_controllers": [
-				{
-					"flying": "controller.animation.humanoid.move"
-				}
-			]
+			"enable_attachables": true
 		}
 	}
 }

@@ -28,6 +28,12 @@
 			},
 			{
 				"name": "terrariamod:purity_sandstone"
+			},
+			{
+				"name": "terrariamod:ebonstone"
+			},
+			{
+				"name": "terrariamod:crimstone"
 			}
 		]
 	}

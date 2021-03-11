@@ -1,0 +1,59 @@
+{
+	"tiers": [
+		{
+			"trades": [
+				{
+					"wants": [
+						{
+							"item": "terrariamod:coppercoin",
+							"quantity": {
+								"min": 7,
+								"max": 7
+							}
+						}
+					],
+					"gives": [
+						{
+							"item": "terrariamod:musketball"
+						}
+					],
+					"max_uses": -1
+				},
+				{
+					"wants": [
+						{
+							"item": "terrariamod:goldcoin",
+							"quantity": {
+								"min": 5,
+								"max": 5
+							}
+						}
+					],
+					"gives": [
+						{
+							"item": "terrariamod:flintlockpistol"
+						}
+					],
+					"max_uses": -1
+				},
+				{
+					"wants": [
+						{
+							"item": "terrariamod:goldcoin",
+							"quantity": {
+								"min": 35,
+								"max": 35
+							}
+						}
+					],
+					"gives": [
+						{
+							"item": "terrariamod:minishark"
+						}
+					],
+					"max_uses": -1
+				}
+			]
+		}
+	]
+}

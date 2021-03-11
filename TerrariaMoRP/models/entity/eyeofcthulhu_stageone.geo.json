@@ -12,7 +12,20 @@
 			},
 			"bones": [
 				{
+					"name": "eyeofcthulhu",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "one",
+					"parent": "eyeofcthulhu",
+					"pivot": [-4.5, 23, 54],
+					"cubes": [
+						{"origin": [25, 19, 4], "size": [29, 8, 8], "pivot": [-3, 7, 8], "rotation": [0, -90, 0], "uv": [144, 180]}
+					]
+				},
+				{
 					"name": "unknown_bone",
+					"parent": "eyeofcthulhu",
 					"pivot": [1.85714, 15, 1.42857],
 					"cubes": [
 						{"origin": [-19, -5, -20], "size": [40, 40, 40], "pivot": [-3, 7, 8], "rotation": [0, -90, 0], "uv": [0, 0]},
@@ -25,31 +38,27 @@
 					]
 				},
 				{
-					"name": "one",
-					"pivot": [-4.5, 23, 54],
+					"name": "four",
+					"parent": "eyeofcthulhu",
+					"pivot": [15.5, 7, 45],
 					"cubes": [
-						{"origin": [25, 19, 4], "size": [29, 8, 8], "pivot": [-3, 7, 8], "rotation": [0, -90, 0], "uv": [144, 180]}
-					]
-				},
-				{
-					"name": "two",
-					"pivot": [-4, 7, 50],
-					"cubes": [
-						{"origin": [25, 3, 4], "size": [26, 8, 8], "pivot": [-3, 7, 8], "rotation": [0, -90, 0], "uv": [160, 68]}
+						{"origin": [25, 3, -16], "size": [21, 8, 8], "pivot": [-3, 7, 8], "rotation": [0, -90, 0], "uv": [0, 180]}
 					]
 				},
 				{
 					"name": "three",
+					"parent": "eyeofcthulhu",
 					"pivot": [8.5, 23, 54],
 					"cubes": [
 						{"origin": [25, 19, -8], "size": [41, 8, 8], "pivot": [-3, 7, 8], "rotation": [0, -90, 0], "uv": [160, 52]}
 					]
 				},
 				{
-					"name": "four",
-					"pivot": [15.5, 7, 45],
+					"name": "two",
+					"parent": "eyeofcthulhu",
+					"pivot": [-4, 7, 50],
 					"cubes": [
-						{"origin": [25, 3, -16], "size": [21, 8, 8], "pivot": [-3, 7, 8], "rotation": [0, -90, 0], "uv": [0, 180]}
+						{"origin": [25, 3, 4], "size": [26, 8, 8], "pivot": [-3, 7, 8], "rotation": [0, -90, 0], "uv": [160, 68]}
 					]
 				}
 			]

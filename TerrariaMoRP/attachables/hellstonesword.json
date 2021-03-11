@@ -3,35 +3,27 @@
   "minecraft:attachable": {
     "description": {
       "identifier": "terrariamod:hellstonesword",
+      "item": { "terrariamod:hellstonesword": "query.owner_identifier == 'minecraft:player'" },
       "materials": {
-        "default": "entity_alphatest",
-        "enchanted": "entity_alphatest_glint"
+        "default": "armor_enchanted",
+        "enchanted": "armor_enchanted"
       },
       "textures": {
-        "default": "textures/entity/hellstonesword",
+        "default": "textures/models/hellstonesword",
         "enchanted": "textures/misc/enchanted_item_glint"
       },
       "geometry": {
         "default": "geometry.hellstonesword"
       },
       "animations": {
-        "wield_controller": "controller.animation.hellstonesword.wield",
-        "wield": "animation.hellstonesword.first_person_wield",
-        "blocking": "animation.hellstonesword.first_person_blocking",
-        "default": "animation.hellstonesword.default",
-        "is_using_item": "animation.hellstonesword.is_using_item"
+        "wield": "animation.hellstonesword.wield"
       },
       "scripts": {
         "animate": [
-          { "wield_controller": "c.is_first_person && c.item_slot == 'main_hand' && c.item_slot != 'off_hand' && q.get_equipped_item_name == 'hellstonesword'"
-          },
-          { "default": "!c.is_first_person && c.item_slot == 'main_hand' && c.item_slot != 'off_hand' && q.get_equipped_item_name == 'hellstonesword' && !q.is_sneaking"
-          },
-          { "is_using_item": "!c.is_first_person && c.item_slot == 'main_hand' && c.item_slot != 'off_hand' && q.get_equipped_item_name == 'hellstonesword' && q.is_sneaking"
-          }
+          "wield"
         ]
       },
-      "render_controllers": [ "controller.render.item_default" ]
+      "render_controllers": [ "controller.render.armor" ]
     }
   }
 }

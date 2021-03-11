@@ -1,51 +1,12 @@
 {
   "format_version": "1.10.0",
   "animations": {
-    "animation.hellstonesword.first_person_wield": {
+    "animation.hellstonesword.wield": {
       "loop": true,
       "bones": {
         "rightitem": {
-          "rotation": [ "c.is_first_person ? 90.0 : 0.0", "c.is_first_person ? 55.0 : 0.0", "c.is_first_person ? -35.0 : 0.0" ],
-          "position": [ "c.is_first_person ? 1.0 : 0.0", "c.is_first_person ? 10.0 : 0.0", "c.is_first_person ? 8.0 : 0.0" ],
-          "scale": [2, 2, 2]
-        }
-      }
-    },
-    "animation.hellstonesword.first_person_blocking": {
-      "loop": "hold_on_last_frame",
-      "bones": {
-        "rightitem": {
-          "rotation": {
-            "0.0": [
-              "c.is_first_person ? 90.0 : 0.0", "c.is_first_person ? 35.0 : 0.0", "c.is_first_person ? -35.0 : 0.0" ],
-            "0.15": [
-              "c.is_first_person ? 90.0 : 0.0", "c.is_first_person ? 35.0 : 0.0", "c.is_first_person ? -35.0 : 0.0" ]
-          },
-          "position": {
-            "0.0": [
-              "c.is_first_person ? 1.0 : 0.0", "c.is_first_person ? 10.0 : 0.0", "c.is_first_person ? 8.0 : 0.0" ],
-            "0.15": [
-              "c.is_first_person ? 7.0 : 0.0", "c.is_first_person ? 10.0 : 0.0", "c.is_first_person ? 0.0 : 0.0" ]
-          },
-          "scale": [2, 2, 2]
-        }
-      }
-    },
-    "animation.hellstonesword.default": {
-      "loop": true,
-      "bones": {
-        "rightitem": {
-          "rotation": [90, 0, 90],
-          "position": [0, 0, -1]
-        }
-      }
-    },
-    "animation.hellstonesword.is_using_item": {
-      "loop": true,
-      "bones": {
-        "rightitem": {
-          "rotation": [-10, 0, 12.5],
-          "position": [4, 0, -6]
+          "position": [ "c.is_first_person ? -4.0 : 0.0", "c.is_first_person ? 20.0 : 20.0", "c.is_first_person ? 3.0 : 10.0" ],
+          "rotation": [ "c.is_first_person ? -15.0 : 0.0", "c.is_first_person ? 55.0 : 0.0", "c.is_first_person ? -35.0 : 0.0" ]
         }
       }
     }

@@ -1,4 +1,4 @@
-//bridge-file-version: #35
+//bridge-file-version: #38
 {
 	"format_version": "1.13.0",
 	"minecraft:feature_rules": {
@@ -7,26 +7,23 @@
 			"places_feature": "minecraft:purity_cave_feature"
 		},
 		"conditions": {
-			"placement_pass": "before_underground_pass",
-			"minecraft:biome_filter": {
-				"any_of": [
-					{
-						"test": "has_biome_tag",
-						"operator": "==",
-						"value": "purity"
-					},
-					{
-						"test": "has_biome_tag",
-						"operator": "==",
-						"value": "crimson "
-					},
-					{
-						"test": "has_biome_tag",
-						"operator": "==",
-						"value": "corruption"
-					}
-				]
-			}
+			"minecraft:biome_filter": [
+				{
+					"any_of": [
+						{
+							"test": "has_biome_tag",
+							"operator": "==",
+							"value": "evil"
+						},
+						{
+							"test": "has_biome_tag",
+							"operator": "==",
+							"value": "purity"
+						}
+					]
+				}
+			],
+			"placement_pass": "before_underground_pass"
 		},
 		"distribution": {
 			"iterations": 32,
@@ -42,7 +39,7 @@
 				"distribution": "uniform",
 				"extent": [
 					0,
-					65
+					92
 				]
 			},
 			"z": {

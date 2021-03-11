@@ -7,21 +7,14 @@
 				"default": {
 					"transitions": [
 						{
-							"command": "!query.is_alive"
-						}
-					]
-				},
-				"command": {
-					"transitions": [
-						{
-							"finished_command": "query.all_animations_finished"
+							"finished_command": "!query.is_alive"
 						}
 					]
 				},
 				"finished_command": {
 					"transitions": [
 						{
-							"default": "query.all_animations_finished"
+							"default": "query.is_alive"
 						}
 					],
 					"on_exit": [

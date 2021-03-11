@@ -1,4 +1,4 @@
-//bridge-file-version: #68
+//bridge-file-version: #93
 {
 	"format_version": "1.16.100",
 	"minecraft:block": {
@@ -34,7 +34,7 @@
 				],
 				"size": [
 					16,
-					8,
+					16,
 					16
 				]
 			},
@@ -62,15 +62,7 @@
 			},
 			"minecraft:on_interact": {
 				"target": "self",
-				"event": "terrariamod:rotate"
-			},
-			"minecraft:on_step_off": {
-				"target": "self",
-				"event": "terrariamod:stand"
-			},
-			"minecraft:on_step_on": {
-				"target": "self",
-				"event": "terrariamod:sit"
+				"event": "terrariamod:choose"
 			}
 		},
 		"permutations": [
@@ -137,7 +129,51 @@
 			"terrariamod:rotate": {
 				"set_block_property": {
 					"terrariamod:facing": "query.cardinal_facing_2d-2"
-				},
+				}
+			},
+			"terrariamod:sit": {
+				"sequence": [
+					{
+						"run_command": {
+							"command": [
+								"kill @e[type=terrariamod:dummy_rideable]"
+							]
+						}
+					},
+					{
+						"run_command": {
+							"command": [
+								"tp @p ~~-1.5~"
+							]
+						}
+					},
+					{
+						"run_command": {
+							"command": [
+								"ride @p summon_ride terrariamod:dummy_rideable no_ride_change"
+							],
+							"target": "self"
+						}
+					}
+				]
+			},
+			"terrariamod:choose": {
+				"sequence": [
+					{
+						"condition": "!query.is_sneaking",
+						"trigger": {
+							"event": "terrariamod:sit"
+						}
+					},
+					{
+						"condition": "query.is_sneaking",
+						"trigger": {
+							"event": "terrariamod:rotate"
+						}
+					}
+				]
+			},
+			"terrariamod:ui": {
 				"run_command": {
 					"command": [
 						"tellraw @a {\"rawtext\":[{\"text\":\"§eChair NPC Scores:\"}]}",
@@ -157,20 +193,6 @@
 						"tellraw @a {\"rawtext\":[{\"score\":{\"objective\":\"ammo\",\"name\":\"@p\"}}]}",
 						"tellraw @a {\"rawtext\":[{\"text\":\"Arms Dealer's Score:\"}]}",
 						"tellraw @a {\"rawtext\":[{\"score\":{\"objective\":\"armsstat\",\"name\":\"@p\"}}]}"
-					]
-				}
-			},
-			"terrariamod:sit": {
-				"run_command": {
-					"command": [
-						"playanimation @e[r=1] animation.player.riding.legs animation.player.riding.legs 999 animation.player.riding.legs"
-					]
-				}
-			},
-			"terrariamod:stand": {
-				"run_command": {
-					"command": [
-						"playanimation @e[r=1] animation.player.riding.legs"
 					]
 				}
 			}

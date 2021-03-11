@@ -1,0 +1,63 @@
+{
+	"tiers": [
+		{
+			"trades": [
+				{
+					"wants": [
+						{
+							"item": "terrariamod:coppercoin",
+							"quantity": {
+								"min": 75,
+								"max": 75
+							}
+						}
+					],
+					"gives": [
+						{
+							"item": "terrariamod:grenade"
+						}
+					],
+					"max_uses": -1
+				},
+				{
+					"wants": [
+						{
+							"item": "terrariamod:silvercoin",
+							"quantity": {
+								"min": 3,
+								"max": 3
+							}
+						}
+					],
+					"gives": [
+						{
+							"item": "terrariamod:bomb"
+						}
+					],
+					"max_uses": -1
+				}
+			]
+		},
+		{
+			"trades": [
+				{
+					"wants": [
+						{
+							"item": "terrariamod:silvercoin",
+							"quantity": {
+								"min": 20,
+								"max": 20
+							}
+						}
+					],
+					"gives": [
+						{
+							"item": "terrariamod:dynamite"
+						}
+					],
+					"max_uses": -1
+				}
+			]
+		}
+	]
+}

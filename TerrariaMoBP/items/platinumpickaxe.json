@@ -1,4 +1,4 @@
-//bridge-file-version: #68
+//bridge-file-version: #69
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
@@ -22,7 +22,14 @@
 						"block": {
 							"tags": "query.any_tag('terrariamod:stone', 'terrariamod:dirt')"
 						},
-						"speed": 8
+						"speed": 7
+					},
+					{
+						"block": "minecraft:obsidian",
+						"speed": 8,
+						"on_dig": {
+							"event": "terrariamod:get_obsidian"
+						}
 					}
 				]
 			},
@@ -35,6 +42,7 @@
 			"minecraft:creative_category": {
 				"parent": "itemGroup.name.pickaxe"
 			}
-		}
+		},
+		"events": {}
 	}
 }

@@ -3,7 +3,7 @@
 	"format_version": "1.13.0",
 	"minecraft:ore_feature": {
 		"description": {
-			"identifier": "minecraft:lava_feature"
+			"identifier": "minecraft:lava_cavern_feature"
 		},
 		"count": 30,
 		"places_block": "minecraft:lava",

@@ -1,7 +1,11 @@
-//bridge-file-version: #55
+//bridge-file-version: #60
 {
 	"terrariamod:shadoworb": {
 		"sound": "wood"
+	},
+	"terrariamod:obsidianbrick": {
+		"sound": "stone",
+		"textures": "obsidianbrick"
 	},
 	"terrariamod:purity_campfire": {
 		"sound": "wood"
@@ -463,5 +467,13 @@
 	"terrariamod:purity_mud": {
 		"sound": "gravel",
 		"textures": "purity_mud"
+	},
+	"terrariamod:cloud": {
+		"sound": "cloth",
+		"textures": "cloud"
+	},
+	"terrariamod:sunplate": {
+		"sound": "stone",
+		"textures": "sunplate"
 	}
 }

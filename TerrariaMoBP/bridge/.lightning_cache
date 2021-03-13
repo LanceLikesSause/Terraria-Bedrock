@@ -1,0 +1,176 @@
+{
+	"feature_rule": {
+		"BP/feature_rules/hellforge_featurerule.json": {
+			"identifiers": [
+				"minecraft:hellforge_featurerule"
+			]
+		},
+		"BP/feature_rules/purity_cave_underworld_featurerule.json": {
+			"identifiers": [
+				"minecraft:purity_cave_underworld_featurerule"
+			]
+		},
+		"BP/feature_rules/floatingisland_featurerule.json": {
+			"identifiers": [
+				"minecraft:floatingisland_featurerule"
+			]
+		}
+	},
+	"function": {
+		"65eca81f_a134_4519_91e6_1832296da674": {},
+		"9f8d524a_599a_45a3_9a2e_e4069d093e94": {},
+		"ba787f67_a600_48eb_a7ee_48e49103c2e3": {},
+		"24f72e67_4a7d_4887_8c64_c6bac2bd3de1": {},
+		"bf7842ec_ab1d_4b06_9eed_2759229a216d": {},
+		"generic": {},
+		"f5e7657c_281e_44aa_9339_bd78411e4b77": {},
+		"7050962b_5054_4877_afef_330fed551146": {},
+		"7c513e58_02d8_4b9b_8150_ebc40eeb10bc": {}
+	},
+	"entity": {
+		"BP/entities/player.json": {
+			"events": [
+				"minecraft:gain_bad_omen",
+				"minecraft:clear_add_bad_omen",
+				"minecraft:trigger_raid",
+				"minecraft:remove_raid_trigger",
+				"minecraft:mana",
+				"minecraft:hellstone_event",
+				"minecraft:entity_spawned",
+				"bridge:remove_command_id_1"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"minecraft:player"
+			],
+			"animation_references": [
+				"mana",
+				"health",
+				"lifecrystal",
+				"music"
+			],
+			"families": [
+				"player"
+			],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/entities/starfury_projectile.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:starfury_projectile"
+			],
+			"animation_references": [
+				"fall"
+			],
+			"families": [],
+			"custom_commands": [],
+			"custom_components": []
+		}
+	},
+	"item": {
+		"BP/items/goldpickaxe.json": {
+			"identifiers": [
+				"terrariamod:goldpickaxe"
+			],
+			"custom_commands": []
+		},
+		"BP/items/platinumpickaxe.json": {
+			"identifiers": [
+				"terrariamod:platinumpickaxe"
+			],
+			"custom_commands": []
+		},
+		"BP/items/gravitationpotion.json": {
+			"identifiers": [
+				"terrariamod:gravitationpotion"
+			],
+			"custom_commands": []
+		},
+		"BP/items/starting_items_package.json": {
+			"identifiers": [
+				"terrariamod:starting_items_package"
+			],
+			"custom_commands": []
+		}
+	},
+	"animation_controller": {
+		"BP/animation_controllers/music.json": {
+			"ids": [
+				"controller.animation.music"
+			],
+			"custom_commands": []
+		},
+		"BP/animation_controllers/starfury_projectile_fall.json": {
+			"ids": [
+				"controller.animation.starfury_projectile_fall"
+			],
+			"custom_commands": []
+		}
+	},
+	"biome": {
+		"BP/biomes/purity_snow.json": {
+			"tags": [
+				"purity",
+				"purity_snow"
+			]
+		},
+		"BP/biomes/purity_jungle.json": {
+			"tags": [
+				"purity",
+				"purity_jungle"
+			]
+		},
+		"BP/biomes/purity_forest.json": {
+			"tags": [
+				"purity",
+				"purity_forest"
+			]
+		},
+		"BP/biomes/purity_desert.json": {
+			"tags": [
+				"purity",
+				"purity_desert"
+			]
+		}
+	},
+	"block": {
+		"BP/blocks/cloud.json": {
+			"identifiers": [
+				"terrariamod:cloud"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/sunplate.json": {
+			"identifiers": [
+				"terrariamod:sunplate"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/skyislandchest.json": {
+			"identifiers": [
+				"terrariamod:skyislandchest"
+			],
+			"events": [
+				"terrariamod:destroy"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		}
+	},
+	"feature": {
+		"BP/features/floatingisland_feature.json": {
+			"identifiers": [
+				"minecraft:floatingisland_feature"
+			]
+		}
+	}
+}

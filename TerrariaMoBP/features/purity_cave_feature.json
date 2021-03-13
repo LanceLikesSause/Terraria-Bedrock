@@ -5,7 +5,7 @@
 		"description": {
 			"identifier": "minecraft:purity_cave_feature"
 		},
-		"count": 65,
+		"count": 45,
 		"places_block": "minecraft:air",
 		"may_replace": [
 			{
@@ -49,7 +49,10 @@
 			},
 			{
 				"name": "terrariamod:purity_mud"
-			}
+			},
+			{
+				"name": "terrariamod:ash"
+			}			
 		]
 	}
 }

@@ -37,7 +37,7 @@
 					],
 					"transitions": [
 						{
-							"choose": "query.time_stamp>v.time+0.1"
+							"choose": "query.time_stamp>v.time+1"
 						}
 					]
 				},

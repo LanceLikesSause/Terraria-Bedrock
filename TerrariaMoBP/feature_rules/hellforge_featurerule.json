@@ -1,4 +1,4 @@
-//bridge-file-version: #21
+//bridge-file-version: #49
 {
 	"format_version": "1.13.0",
 	"minecraft:feature_rules": {
@@ -13,17 +13,17 @@
 						{
 							"test": "has_biome_tag",
 							"operator": "==",
-							"value": "nether"
+							"value": "evil"
 						},
 						{
 							"test": "has_biome_tag",
 							"operator": "==",
-							"value": "underworld"
+							"value": "purity"
 						}
 					]
 				}
 			],
-			"placement_pass": "underground_pass"
+			"placement_pass": "before_underground_pass"
 		},
 		"distribution": {
 			"iterations": 1,
@@ -31,17 +31,11 @@
 			"x": {
 				"distribution": "uniform",
 				"extent": [
-					0,
+					14,
 					16
 				]
 			},
-			"y": {
-				"distribution": "uniform",
-				"extent": [
-					0,
-					60
-				]
-			},
+			"y": 2,
 			"z": {
 				"distribution": "uniform",
 				"extent": [
@@ -51,7 +45,7 @@
 			},
 			"scatter_chance": {
 				"numerator": 1,
-				"denominator": 4
+				"denominator": 2
 			}
 		}
 	}

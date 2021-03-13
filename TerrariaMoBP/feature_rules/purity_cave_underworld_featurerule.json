@@ -1,10 +1,10 @@
-//bridge-file-version: #28
+//bridge-file-version: #44
 {
 	"format_version": "1.13.0",
 	"minecraft:feature_rules": {
 		"description": {
-			"identifier": "minecraft:lava_featurerule",
-			"places_feature": "minecraft:lava_feature"
+			"identifier": "minecraft:purity_cave_underworld_featurerule",
+			"places_feature": "minecraft:purity_cave_feature"
 		},
 		"conditions": {
 			"minecraft:biome_filter": [
@@ -23,25 +23,19 @@
 					]
 				}
 			],
-			"placement_pass": "underground_pass"
+			"placement_pass": "before_underground_pass"
 		},
 		"distribution": {
-			"iterations": 30,
+			"iterations": 64,
 			"coordinate_eval_order": "zyx",
 			"x": {
 				"distribution": "uniform",
 				"extent": [
-					0,
+					14,
 					16
 				]
 			},
-			"y": {
-				"distribution": "uniform",
-				"extent": [
-					0,
-					20
-				]
-			},
+			"y": 15,
 			"z": {
 				"distribution": "uniform",
 				"extent": [

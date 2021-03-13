@@ -1,0 +1,15 @@
+//bridge-file-version: #19
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "terrariamod:obsidianbrick",
+			"category": "blocks"
+		},
+		"components": {
+			"minecraft:destroy_time": 4,
+			"tag:terrariamod:stone": {}
+		},
+		"events": {}
+	}
+}

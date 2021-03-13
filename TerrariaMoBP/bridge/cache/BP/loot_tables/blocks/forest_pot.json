@@ -1,0 +1,475 @@
+{
+	"file_path": "C:\\Users\\LANCE.LEGAUX\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\TerrariaMoBP\\loot_tables\\blocks\\forest_pot.json",
+	"file_type": "loot_table",
+	"format_version": 1,
+	"file_uuid": "1a81c341_fbe7_426d_afd6_b58e3b6147d4",
+	"file_version": 8,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"pools": [
+						{
+							"rolls": 1,
+							"entries": [
+								{
+									"type": "item",
+									"weight": 1,
+									"name": "terrariamod:wormholepotion",
+									"functions": [
+										{
+											"function": "set_count",
+											"count": {
+												"min": 1,
+												"max": 1
+											}
+										}
+									]
+								},
+								{
+									"type": "item",
+									"weight": 1,
+									"name": "terrariamod:purity_torch_item",
+									"functions": [
+										{
+											"function": "set_count",
+											"count": {
+												"min": 4,
+												"max": 12
+											}
+										}
+									]
+								},
+								{
+									"type": "item",
+									"weight": 1,
+									"name": "terrariamod:woodenarrow",
+									"functions": [
+										{
+											"function": "set_count",
+											"count": {
+												"min": 10,
+												"max": 20
+											}
+										}
+									]
+								},
+								{
+									"type": "item",
+									"weight": 1,
+									"name": "terrariamod:lesserhealingpotion",
+									"functions": [
+										{
+											"function": "set_count",
+											"count": {
+												"min": 0,
+												"max": 1
+											}
+										}
+									]
+								},
+								{
+									"type": "item",
+									"weight": 1,
+									"name": "terrariamod:healingpotion",
+									"functions": [
+										{
+											"function": "set_count",
+											"count": {
+												"min": 0,
+												"max": 1
+											}
+										}
+									]
+								},
+								{
+									"type": "item",
+									"weight": 1,
+									"name": "terrariamod:recallpotion",
+									"functions": [
+										{
+											"function": "set_count",
+											"count": {
+												"min": 1,
+												"max": 6
+											}
+										}
+									]
+								},
+								{
+									"type": "item",
+									"weight": 1,
+									"name": "terrariamod:gravitationpotion",
+									"functions": [
+										{
+											"function": "set_count",
+											"count": {
+												"min": 1,
+												"max": 6
+											}
+										},
+										{
+											"conditions": [
+												{
+													"condition": "random_chance",
+													"chance": 0.3
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				"key": "pools",
+				"children": [
+					{
+						"open": [
+							{
+								"rolls": 1,
+								"entries": [
+									{
+										"type": "item",
+										"weight": 1,
+										"name": "terrariamod:wormholepotion",
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 1,
+													"max": 1
+												}
+											}
+										]
+									},
+									{
+										"type": "item",
+										"weight": 1,
+										"name": "terrariamod:purity_torch_item",
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 4,
+													"max": 12
+												}
+											}
+										]
+									},
+									{
+										"type": "item",
+										"weight": 1,
+										"name": "terrariamod:woodenarrow",
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 10,
+													"max": 20
+												}
+											}
+										]
+									},
+									{
+										"type": "item",
+										"weight": 1,
+										"name": "terrariamod:lesserhealingpotion",
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 0,
+													"max": 1
+												}
+											}
+										]
+									},
+									{
+										"type": "item",
+										"weight": 1,
+										"name": "terrariamod:healingpotion",
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 0,
+													"max": 1
+												}
+											}
+										]
+									},
+									{
+										"type": "item",
+										"weight": 1,
+										"name": "terrariamod:recallpotion",
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 1,
+													"max": 6
+												}
+											}
+										]
+									},
+									{
+										"type": "item",
+										"weight": 1,
+										"name": "terrariamod:gravitationpotion",
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 1,
+													"max": 6
+												}
+											},
+											{
+												"conditions": [
+													{
+														"condition": "random_chance",
+														"chance": 0.3
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						],
+						"children": [
+							{
+								"data": "1",
+								"key": "rolls"
+							},
+							{
+								"open": {
+									"rolls": 1,
+									"entries": [
+										{
+											"type": "item",
+											"weight": 1,
+											"name": "terrariamod:wormholepotion",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 1,
+														"max": 1
+													}
+												}
+											]
+										},
+										{
+											"type": "item",
+											"weight": 1,
+											"name": "terrariamod:purity_torch_item",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 4,
+														"max": 12
+													}
+												}
+											]
+										},
+										{
+											"type": "item",
+											"weight": 1,
+											"name": "terrariamod:woodenarrow",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 10,
+														"max": 20
+													}
+												}
+											]
+										},
+										{
+											"type": "item",
+											"weight": 1,
+											"name": "terrariamod:lesserhealingpotion",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 0,
+														"max": 1
+													}
+												}
+											]
+										},
+										{
+											"type": "item",
+											"weight": 1,
+											"name": "terrariamod:healingpotion",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 0,
+														"max": 1
+													}
+												}
+											]
+										},
+										{
+											"type": "item",
+											"weight": 1,
+											"name": "terrariamod:recallpotion",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 1,
+														"max": 6
+													}
+												}
+											]
+										},
+										{
+											"type": "item",
+											"weight": 1,
+											"name": "terrariamod:gravitationpotion",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 1,
+														"max": 6
+													}
+												},
+												{
+													"conditions": [
+														{
+															"condition": "random_chance",
+															"chance": 0.3
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								"key": "entries",
+								"is_minified": true,
+								"children": [
+									{
+										"type": "item",
+										"weight": 1,
+										"name": "terrariamod:wormholepotion",
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 1,
+													"max": 1
+												}
+											}
+										]
+									},
+									{
+										"type": "item",
+										"weight": 1,
+										"name": "terrariamod:purity_torch_item",
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 4,
+													"max": 12
+												}
+											}
+										]
+									},
+									{
+										"type": "item",
+										"weight": 1,
+										"name": "terrariamod:woodenarrow",
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 10,
+													"max": 20
+												}
+											}
+										]
+									},
+									{
+										"type": "item",
+										"weight": 1,
+										"name": "terrariamod:lesserhealingpotion",
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 0,
+													"max": 1
+												}
+											}
+										]
+									},
+									{
+										"type": "item",
+										"weight": 1,
+										"name": "terrariamod:healingpotion",
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 0,
+													"max": 1
+												}
+											}
+										]
+									},
+									{
+										"type": "item",
+										"weight": 1,
+										"name": "terrariamod:recallpotion",
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 1,
+													"max": 6
+												}
+											}
+										]
+									},
+									{
+										"type": "item",
+										"weight": 1,
+										"name": "terrariamod:gravitationpotion",
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 1,
+													"max": 6
+												}
+											},
+											{
+												"conditions": [
+													{
+														"condition": "random_chance",
+														"chance": 0.3
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

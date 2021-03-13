@@ -13,12 +13,12 @@
 						{
 							"test": "has_biome_tag",
 							"operator": "==",
-							"value": "nether"
+							"value": "purity"
 						},
 						{
 							"test": "has_biome_tag",
 							"operator": "==",
-							"value": "underworld"
+							"value": "evil"
 						}
 					]
 				}
@@ -39,7 +39,7 @@
 				"distribution": "uniform",
 				"extent": [
 					0,
-					60
+					30
 				]
 			},
 			"z": {

@@ -1,0 +1,34 @@
+//bridge-file-version: #9
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "terrariamod:skyislandchest",
+			"register_to_creative_menu": true
+		},
+		"components": {
+			"minecraft:geometry": "geometry.chest",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "chest",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:destroy_time": 1,
+			"minecraft:loot": "loot_tables/blocks/skyislandchest.json",
+			"tag:terrariamod:wood": {},
+			"minecraft:on_player_destroyed": {
+				"event": "terrariamod:destroy"
+			}
+		},
+		"events": {
+			"terrariamod:destroy": {
+				"run_command": {
+					"command": [
+						"execute @a[scores={coins=30..}] ~~~ scoreboard players add @a explosives 1"
+					]
+				}
+			}
+		}
+	}
+}

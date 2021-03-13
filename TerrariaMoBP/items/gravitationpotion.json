@@ -1,0 +1,39 @@
+//bridge-file-version: #11
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "terrariamod:gravitationpotion",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "terrariamod:gravitationpotion"
+			},
+			"minecraft:display_name": {
+				"value": "Gravitation Potion\n§9Allows the control of gravity"
+			},
+			"minecraft:creative_category": {
+				"parent": "equipment"
+			},
+			"minecraft:food": {
+				"on_consume": {
+					"event": "terrariamod:gravity_reverse"
+				},
+				"can_always_eat": true
+			},
+			"minecraft:use_duration": 0.5,
+			"minecraft:use_animation": "drink"
+		},
+		"events": {
+			"terrariamod:gravity_reverse": {
+				"add_mob_effect": {
+					"amplifier": 5,
+					"effect": "levitation",
+					"target": "holder",
+					"duration": 20
+				}
+			}
+		}
+	}
+}

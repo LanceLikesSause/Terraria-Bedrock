@@ -8,8 +8,6 @@
 		},
 		"components": {
 			"minecraft:destroy_time": 4,
-			"minecraft:friction": 0.6,
-			"minecraft:map_color": "#00ff00",
 			"minecraft:material_instances": {
 				"*": {
 					"texture": "ash",

@@ -1,4 +1,4 @@
-//bridge-file-version: #12
+//bridge-file-version: #13
 {
 	"resource_pack_name": "TerrariaModLLS",
 	"texture_name": "atlas.items",
@@ -783,6 +783,11 @@
 		"terrariamod:hellstonebar_pile": {
 			"textures": [
 				"textures/items/bar_piles/hellstonebar_pile"
+			]
+		},
+		"terrariamod:gravitationpotion": {
+			"textures": [
+				"textures/items/potions/gravitationpotion"
 			]
 		}
 	}

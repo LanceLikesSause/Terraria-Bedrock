@@ -1,12 +1,15 @@
-//bridge-file-version: #48
+//bridge-file-version: #52
 {
-	"resource_pack_name": "vanilla",
+	"resource_pack_name": "terrariamod",
 	"texture_name": "atlas.terrain",
 	"padding": 8,
 	"num_mip_levels": 4,
 	"texture_data": {
 		"shadoworb": {
 			"textures": "textures/blocks/shadoworb"
+		},
+		"obsidianbrick": {
+			"textures": "textures/blocks/obsidianbrick"
 		},
 		"wooden_chair": {
 			"textures": [
@@ -433,6 +436,16 @@
 		"purity_mud": {
 			"textures": [
 				"textures/blocks/purity_mud"
+			]
+		},
+		"cloud": {
+			"textures": [
+				"textures/blocks/cloud"
+			]
+		},
+		"sunplate": {
+			"textures": [
+				"textures/blocks/sunplate"
 			]
 		}
 	}

@@ -1,4 +1,4 @@
-//bridge-file-version: #105
+//bridge-file-version: #117
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
@@ -14,10 +14,10 @@
 				"on_hurt_entity": {
 					"event": "terrariamod:hellstone"
 				},
-				"on_not_hurt_entity": {
+				"on_hit_block": {
 					"event": "terrariamod:hellstone"
 				},
-				"on_hit_block": {
+				"on_not_hurt_entity": {
 					"event": "terrariamod:hellstone"
 				}
 			},
@@ -29,26 +29,26 @@
 			},
 			"minecraft:creative_category": {
 				"parent": "itemGroup.name.sword"
-			},
-			"minecraft:render_offsets": {
-				"main_hand": {
-				  "first_person": {
-					"scale": [0.0,0.0,0.0]
-				  },
-				  "third_person": {
-					"scale": [0.0,0.0,0.0]
-				  }
-				}
-			  }
+			}
 		},
 		"events": {
 			"terrariamod:hellstone": {
-				"run_command": {
-					"command": [
-						"execute @e[r=5,type=!player] ~~~ setblock ~~~ fire 0 replace",
-						"particle terrariamod:rocketboots_effect ~~~"
-					]
-				}
+				"sequence": [
+					{
+						"run_command": {
+							"command": [
+								"particle terrariamod:rocketboots_effect ~~~"
+							]
+						}
+					},
+					{
+						"run_command": {
+							"command": [
+								"execute @e[r=5,type=!player] ~~~ fill ~~~ ~~~ fire 0 replace air"
+							]
+						}
+					}
+				]
 			}
 		}
 	}

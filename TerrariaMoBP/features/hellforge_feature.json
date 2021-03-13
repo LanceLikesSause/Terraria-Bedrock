@@ -1,17 +1,16 @@
 //bridge-file-version: #17
 {
 	"format_version": "1.13.0",
-	"minecraft:single_block_feature": {
+	"minecraft:structure_template_feature": {
 		"description": {
 			"identifier": "minecraft:hellforge_feature"
 		},
-		"places_block": "terrariamod:hellforge",
-		"enforce_survivability_rules": true,
-		"enforce_placement_rules": true,
-		"may_replace": [
-			{
-				"name": "minecraft:air"
-			}
-		]
+		"structure_name": "mystructure:ruinedhouse",
+		"adjustment_radius": 1,
+		"facing_direction": "random",
+		"constraints": {
+			"grounded": {}
+		}
 	}
 }
+	

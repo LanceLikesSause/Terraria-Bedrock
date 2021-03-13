@@ -1,0 +1,16 @@
+//bridge-file-version: #13
+{
+	"format_version": "1.13.0",
+	"minecraft:ore_feature": {
+		"description": {
+			"identifier": "minecraft:lava_underworld_feature"
+		},
+		"count": 60,
+		"places_block": "minecraft:lava",
+		"may_replace": [
+			{
+				"name": "minecraft:air"
+			}
+		]
+	}
+}

@@ -1,42 +1,41 @@
-//bridge-file-version: #4
 {
-	"format_version": "1.10.0",
-	"minecraft:client_entity": {
-		"description": {
-			"identifier": "terrariamod:devourer",
-			"materials": {
-				"default": "zombie"
-			},
-			"textures": {
-				"default": "textures/entity/pamobile/devourer"
-			},
-			"particle_effects": {
-				"bounce_effect": "terrariamod:slime_effect"
-			},
-			"geometry": {
-				"default": "geometry.devourer"
-			},
-			"animations": {
-				"walk": "animation.devourer.walk",
-				"attack": "animation.devourer.attack",
-				"pounce": "animation.devourer.pounce",
-				"humanoid_big_head": "animation.humanoid.big_head",
-				"look_at_target": "animation.humanoid.look_at_target.default.v1.0",
-				"ctrl": "controller.animation.devourer.attack"
-			},
-			"scripts": {
-				"animate": [
-					"ctrl"
-				]
-			},
-			"render_controllers": [
-				"controller.render.zombie"
-			],
-			"enable_attachables": false,
-			"spawn_egg": {
-				"base_color": "#949493",
-				"overlay_color": "#651818"
-			}
-		}
-	}
-}
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "terrariamod:devourer",
+        "materials": {
+          "default": "zombie"
+        },
+        "textures": {
+          "default": "textures/entity/pamobile/devourer"
+        },
+        "particle_effects": {
+    		"bounce_effect": "terrariamod:slime_effect"
+ 		},
+        "geometry": {
+          "default": "geometry.devourer"
+        },
+        "animations": {
+          "walk": "animation.devourer.walk",
+          "attack": "animation.devourer.attack",
+          "pounce": "animation.devourer.pounce",
+          "humanoid_big_head": "animation.humanoid.big_head",
+          "look_at_target": "animation.humanoid.look_at_target.default.v1.0",
+          "ctrl": "controller.animation.devourer.attack"
+        },
+        "scripts": {
+          "animate": [
+            "ctrl"
+          ]
+        },
+        "render_controllers": [
+          "controller.render.zombie"
+        ],
+        "enable_attachables": false,
+        "spawn_egg": {
+          "base_color": "#949493",
+          "overlay_color": "#651818"
+        }
+      }
+    }
+  }

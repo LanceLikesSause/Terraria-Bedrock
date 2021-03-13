@@ -1,4 +1,4 @@
-//bridge-file-version: #15
+//bridge-file-version: #17
 {
 	"format_version": "1.13.0",
 	"minecraft:biome": {
@@ -15,7 +15,10 @@
 				"mid_material": "terrariamod:purity_dirt"
 			},
 			"minecraft:overworld_height": {
-				"noise_type": "lowlands"
+				"noise_params": [
+					4,
+					0
+				]
 			},
 			"minecraft:climate": {
 				"downfall": 0.5,
@@ -48,21 +51,44 @@
 						100
 					]
 				],
-				"hills_transformation": [
-					"corruption_forest"
-				],
-				"mutate_transformation": [
-					"corruption_forest"
-				],
-				"shore_transformation": [
-					"corruption_forest"
-				],
-				"river_transformation": [
-					"corruption_forest"
+				"river_transformation": "corruption_forest",
+				"shore_transformation": "corruption_forest"
+			},
+			"minecraft:surface_material_adjustments": {
+				"adjustments": [
+					{
+						"materials": {
+							"foundation_material": "terrariamod:ash"
+						},
+						"noise_range": [
+							-1,
+							1
+						],
+						"height_range": [
+							0,
+							30
+						],
+						"noise_frequency_scale": 1
+					},
+					{
+						"materials": {
+							"foundation_material": "terrariamod:purity_stone"
+						},
+						"noise_range": [
+							-1,
+							1
+						],
+						"height_range": [
+							30,
+							90
+						],
+						"noise_frequency_scale": 1
+					}
 				]
 			},
 			"corruption": {},
-			"corruption_forest": {}
+			"corruption_forest": {},
+			"evil": {}
 		}
 	}
 }

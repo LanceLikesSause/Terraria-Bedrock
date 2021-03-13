@@ -1,0 +1,398 @@
+{
+	"file_path": "C:\\Users\\LANCE.LEGAUX\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\TerrariaMoBP\\items\\gravitationpotion.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "63b2db4b_e826_424e_b86a_6fa2e4b6ff87",
+	"file_version": 11,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "terrariamod:gravitationpotion",
+							"category": "equipment"
+						},
+						"components": {
+							"minecraft:icon": {
+								"texture": "terrariamod:gravitationpotion"
+							},
+							"minecraft:display_name": {
+								"value": "Gravitation Potion\n§9Allows the control of gravity"
+							},
+							"minecraft:creative_category": {
+								"parent": "equipment"
+							},
+							"minecraft:food": {
+								"on_consume": {
+									"event": "terrariamod:gravity_reverse"
+								},
+								"can_always_eat": true
+							},
+							"minecraft:use_duration": 0.5,
+							"minecraft:use_animation": "drink"
+						},
+						"events": {
+							"terrariamod:gravity_reverse": {
+								"add_mob_effect": {
+									"amplifier": 5,
+									"effect": "levitation",
+									"target": "holder",
+									"duration": 20
+								}
+							}
+						}
+					}
+				},
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "terrariamod:gravitationpotion",
+							"category": "equipment"
+						},
+						"components": {
+							"minecraft:icon": {
+								"texture": "terrariamod:gravitationpotion"
+							},
+							"minecraft:display_name": {
+								"value": "Gravitation Potion\n§9Allows the control of gravity"
+							},
+							"minecraft:creative_category": {
+								"parent": "equipment"
+							},
+							"minecraft:food": {
+								"on_consume": {
+									"event": "terrariamod:gravity_reverse"
+								},
+								"can_always_eat": true
+							},
+							"minecraft:use_duration": 0.5,
+							"minecraft:use_animation": "drink"
+						},
+						"events": {
+							"terrariamod:gravity_reverse": {
+								"add_mob_effect": {
+									"amplifier": 5,
+									"effect": "levitation",
+									"target": "holder",
+									"duration": 20
+								}
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:gravitationpotion",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:icon": {
+									"texture": "terrariamod:gravitationpotion"
+								},
+								"minecraft:display_name": {
+									"value": "Gravitation Potion\n§9Allows the control of gravity"
+								},
+								"minecraft:creative_category": {
+									"parent": "equipment"
+								},
+								"minecraft:food": {
+									"on_consume": {
+										"event": "terrariamod:gravity_reverse"
+									},
+									"can_always_eat": true
+								},
+								"minecraft:use_duration": 0.5,
+								"minecraft:use_animation": "drink"
+							},
+							"events": {
+								"terrariamod:gravity_reverse": {
+									"add_mob_effect": {
+										"amplifier": 5,
+										"effect": "levitation",
+										"target": "holder",
+										"duration": 20
+									}
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:gravitationpotion",
+							"category": "equipment"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:gravitationpotion",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:icon": {
+									"texture": "terrariamod:gravitationpotion"
+								},
+								"minecraft:display_name": {
+									"value": "Gravitation Potion\n§9Allows the control of gravity"
+								},
+								"minecraft:creative_category": {
+									"parent": "equipment"
+								},
+								"minecraft:food": {
+									"on_consume": {
+										"event": "terrariamod:gravity_reverse"
+									},
+									"can_always_eat": true
+								},
+								"minecraft:use_duration": 0.5,
+								"minecraft:use_animation": "drink"
+							},
+							"events": {
+								"terrariamod:gravity_reverse": {
+									"add_mob_effect": {
+										"amplifier": 5,
+										"effect": "levitation",
+										"target": "holder",
+										"duration": 20
+									}
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"open": {
+									"minecraft:icon": {
+										"texture": "terrariamod:gravitationpotion"
+									},
+									"minecraft:display_name": {
+										"value": "Gravitation Potion\n§9Allows the control of gravity"
+									},
+									"minecraft:creative_category": {
+										"parent": "equipment"
+									},
+									"minecraft:food": {
+										"on_consume": {
+											"event": "terrariamod:gravity_reverse"
+										},
+										"can_always_eat": true
+									},
+									"minecraft:use_duration": 0.5,
+									"minecraft:use_animation": "drink"
+								},
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "terrariamod:gravitationpotion"
+								}
+							},
+							{
+								"open": {
+									"minecraft:icon": {
+										"texture": "terrariamod:gravitationpotion"
+									},
+									"minecraft:display_name": {
+										"value": "Gravitation Potion\n§9Allows the control of gravity"
+									},
+									"minecraft:creative_category": {
+										"parent": "equipment"
+									},
+									"minecraft:food": {
+										"on_consume": {
+											"event": "terrariamod:gravity_reverse"
+										},
+										"can_always_eat": true
+									},
+									"minecraft:use_duration": 0.5,
+									"minecraft:use_animation": "drink"
+								},
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "Gravitation Potion\n§9Allows the control of gravity"
+								}
+							},
+							{
+								"open": {
+									"minecraft:icon": {
+										"texture": "terrariamod:gravitationpotion"
+									},
+									"minecraft:display_name": {
+										"value": "Gravitation Potion\n§9Allows the control of gravity"
+									},
+									"minecraft:creative_category": {
+										"parent": "equipment"
+									},
+									"minecraft:food": {
+										"on_consume": {
+											"event": "terrariamod:gravity_reverse"
+										},
+										"can_always_eat": true
+									},
+									"minecraft:use_duration": 0.5,
+									"minecraft:use_animation": "drink"
+								},
+								"key": "minecraft:creative_category",
+								"is_minified": true,
+								"children": {
+									"parent": "equipment"
+								}
+							},
+							{
+								"open": {
+									"minecraft:icon": {
+										"texture": "terrariamod:gravitationpotion"
+									},
+									"minecraft:display_name": {
+										"value": "Gravitation Potion\n§9Allows the control of gravity"
+									},
+									"minecraft:creative_category": {
+										"parent": "equipment"
+									},
+									"minecraft:food": {
+										"on_consume": {
+											"event": "terrariamod:gravity_reverse"
+										},
+										"can_always_eat": true
+									},
+									"minecraft:use_duration": 0.5,
+									"minecraft:use_animation": "drink"
+								},
+								"key": "minecraft:food",
+								"children": [
+									{
+										"open": {
+											"on_consume": {
+												"event": "terrariamod:gravity_reverse"
+											},
+											"can_always_eat": true
+										},
+										"key": "on_consume",
+										"is_minified": true,
+										"children": {
+											"event": "terrariamod:gravity_reverse"
+										}
+									},
+									{
+										"data": "true",
+										"key": "can_always_eat"
+									}
+								]
+							},
+							{
+								"open": {
+									"minecraft:icon": {
+										"texture": "terrariamod:gravitationpotion"
+									},
+									"minecraft:display_name": {
+										"value": "Gravitation Potion\n§9Allows the control of gravity"
+									},
+									"minecraft:creative_category": {
+										"parent": "equipment"
+									},
+									"minecraft:food": {
+										"on_consume": {
+											"event": "terrariamod:gravity_reverse"
+										},
+										"can_always_eat": true
+									},
+									"minecraft:use_duration": 0.5,
+									"minecraft:use_animation": "drink"
+								},
+								"data": "0.5",
+								"key": "minecraft:use_duration"
+							},
+							{
+								"data": "drink",
+								"key": "minecraft:use_animation"
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:gravitationpotion",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:icon": {
+									"texture": "terrariamod:gravitationpotion"
+								},
+								"minecraft:display_name": {
+									"value": "Gravitation Potion\n§9Allows the control of gravity"
+								},
+								"minecraft:creative_category": {
+									"parent": "equipment"
+								},
+								"minecraft:food": {
+									"on_consume": {
+										"event": "terrariamod:gravity_reverse"
+									},
+									"can_always_eat": true
+								},
+								"minecraft:use_duration": 0.5,
+								"minecraft:use_animation": "drink"
+							},
+							"events": {
+								"terrariamod:gravity_reverse": {
+									"add_mob_effect": {
+										"amplifier": 5,
+										"effect": "levitation",
+										"target": "holder",
+										"duration": 20
+									}
+								}
+							}
+						},
+						"key": "events",
+						"children": [
+							{
+								"open": {
+									"terrariamod:gravity_reverse": {
+										"add_mob_effect": {
+											"amplifier": 5,
+											"effect": "levitation",
+											"target": "holder",
+											"duration": 20
+										}
+									}
+								},
+								"key": "terrariamod:gravity_reverse",
+								"children": [
+									{
+										"open": {
+											"add_mob_effect": {
+												"amplifier": 5,
+												"effect": "levitation",
+												"target": "holder",
+												"duration": 20
+											}
+										},
+										"key": "add_mob_effect",
+										"is_minified": true,
+										"children": {
+											"amplifier": 5,
+											"effect": "levitation",
+											"target": "holder",
+											"duration": 20
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

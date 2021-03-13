@@ -1,0 +1,131 @@
+{
+	"BP/feature_rules/hellforge_featurerule.json": {
+		"data": {}
+	},
+	"BP/feature_rules/purity_cave_underworld_featurerule.json": {
+		"data": {}
+	},
+	"BP/entities/player.json": {
+		"data": {}
+	},
+	"BP/animation_controllers/bridge/custom_item_behavior.json": {
+		"data": {
+			"9f8d524a_599a_45a3_9a2e_e4069d093e94": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"71b72e07_8619_4ae9_94a6_48117ef02155": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"b0c17a5f_19d5_4720_be8e_1767cec9d4b0": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"63b2db4b_e826_424e_b86a_6fa2e4b6ff87": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"7c513e58_02d8_4b9b_8150_ebc40eeb10bc": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			}
+		}
+	},
+	"BP/items/goldpickaxe.json": {
+		"data": {}
+	},
+	"BP/items/platinumpickaxe.json": {
+		"data": {}
+	},
+	"BP/animation_controllers/music.json": {
+		"data": {}
+	},
+	"BP/biomes/purity_snow.json": {
+		"data": {}
+	},
+	"BP/biomes/purity_jungle.json": {
+		"data": {}
+	},
+	"BP/biomes/purity_forest.json": {
+		"data": {}
+	},
+	"BP/biomes/purity_desert.json": {
+		"data": {}
+	},
+	"BP/blocks/cloud.json": {
+		"data": {}
+	},
+	"RP/textures/terrain_texture.json": {
+		"data": {}
+	},
+	"RP/blocks.json": {
+		"data": {}
+	},
+	"BP/blocks/sunplate.json": {
+		"data": {}
+	},
+	"BP/blocks/skyislandchest.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/skyislandchest.json": {
+		"data": {}
+	},
+	"BP/animation_controllers/starfury_projectile_fall.json": {
+		"data": {}
+	},
+	"BP/entities/starfury_projectile.json": {
+		"data": {}
+	},
+	"BP/feature_rules/floatingisland_featurerule.json": {
+		"data": {}
+	},
+	"BP/features/floatingisland_feature.json": {
+		"data": {}
+	},
+	"RP/textures/item_texture.json": {
+		"data": {}
+	},
+	"BP/items/gravitationpotion.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/surfacechest.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/forest_pot.json": {
+		"data": {}
+	},
+	"BP/items/starting_items_package.json": {
+		"data": {}
+	}
+}

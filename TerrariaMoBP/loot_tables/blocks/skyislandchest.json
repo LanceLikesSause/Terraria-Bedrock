@@ -1,0 +1,282 @@
+//bridge-file-version: #23
+{
+	"pools": [
+		{
+			"rolls": 6,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "terrariamod:copperbar",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 3,
+								"max": 10
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "terrariamod:tinbar",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 3,
+								"max": 10
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "terrariamod:ironbar",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 3,
+								"max": 10
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "terrariamod:leadbar",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 3,
+								"max": 10
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "terrariamod:woodenarrow",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 25,
+								"max": 50
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "terrariamod:lesserhealingpotion",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 3,
+								"max": 5
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "terrariamod:silvercoin",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 10,
+								"max": 29
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "terrariamod:grenade",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 3,
+								"max": 5
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "terrariamod:purity_torch_item",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 10,
+								"max": 20
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "terrariamod:aglet",
+					"functions": [
+						{
+							"conditions": [
+								{
+									"condition": "random_chance",
+									"chance": 0.3
+								}
+							]
+						},
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 1
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "terrariamod:woodenboomerang",
+					"functions": [
+						{
+							"conditions": [
+								{
+									"condition": "random_chance",
+									"chance": 0.3
+								}
+							]
+						},
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 1
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "terrariamod:throwingknife",
+					"functions": [
+						{
+							"conditions": [
+								{
+									"condition": "random_chance",
+									"chance": 0.3
+								}
+							]
+						},
+						{
+							"function": "set_count",
+							"count": {
+								"min": 150,
+								"max": 299
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "terrariamod:umbrella",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 1
+							}
+						},
+						{
+							"conditions": [
+								{
+									"condition": "random_chance",
+									"chance": 0.3
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "terrariamod:shuriken",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 25,
+								"max": 50
+							}
+						},
+						{
+							"conditions": [
+								{
+									"condition": "random_chance",
+									"chance": 0.3
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "terrariamod:recallpotion",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 6
+							}
+						},
+						{
+							"conditions": [
+								{
+									"condition": "random_chance",
+									"chance": 0.3
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 10,
+					"name": "terrariamod:starfury",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 1
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

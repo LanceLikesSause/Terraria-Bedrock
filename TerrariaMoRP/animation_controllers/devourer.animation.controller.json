@@ -11,9 +11,6 @@
           "transitions": [
             {
               "attack_state": "variable.attack_time > 0"
-            },
-            {
-              "prepare_state": "!query.is_moving && query.all_animations_finished" 
             }
           ],
           "blend_transition": 0.1
@@ -25,17 +22,6 @@
           "transitions": [
             {
               "default_state": "query.all_animations_finished"
-            }
-          ],
-          "blend_transition": 0.1
-        },
-        "prepare_state": {
-          "animations": [
-              "pounce"
-          ],
-          "transitions": [
-            {
-              "default_state": "query.is_moving"
             }
           ],
           "blend_transition": 0.1

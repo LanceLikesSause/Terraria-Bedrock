@@ -1,0 +1,6 @@
+//bridge-file-version: #27
+Underworld = 0-30 (30 blocks)
+Cavern = 30-80 (50 blocks)
+Underground= 80-110 (30 blocks)
+Surface=110-256 (146 blocks)
+

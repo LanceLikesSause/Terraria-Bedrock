@@ -1,0 +1,22 @@
+//bridge-file-version: #36
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.starfury_projectile_fall": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"spawn_next_stage": "query.life_time>0"
+						}
+					]
+				},
+				"spawn_next_stage": {
+					"on_entry": [
+						"/tp ^ ^5 ^1"
+					]
+				}
+			}
+		}
+	}
+}

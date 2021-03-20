@@ -1,4 +1,4 @@
-//bridge-file-version: #32
+//bridge-file-version: #58
 {
 	"entity_sounds": {
 		"entities": {
@@ -695,29 +695,6 @@
 					}
 				}
 			},
-			"terrariamod:ash": {
-				"volume": 1,
-				"pitch": [
-					0.8,
-					1.2
-				],
-				"events": {
-					"ambient.tame": "mob.ash.meow",
-					"ambient": "mob.ash.straymeow",
-					"hurt": {
-						"sound": "mob.ash.hit",
-						"volume": 0.45
-					},
-					"death": {
-						"sound": "mob.ash.hit",
-						"volume": 0.5,
-						"pitch": 0.9
-					},
-					"purr": "mob.ash.purr",
-					"purreow": "mob.ash.purreow",
-					"eat": "mob.ash.eat"
-				}
-			},
 			"terrariamod:brainofcthulhu_stageone": {
 				"volume": 0.9,
 				"pitch": [
@@ -763,6 +740,48 @@
 				],
 				"sound": "random.pop",
 				"volume": 6
+			},
+			"terrariamod:fireimp": {
+				"volume": 1,
+				"pitch": 1,
+				"events": {
+					"hurt": {
+						"sound": "demon.hurt",
+						"volume": 1,
+						"pitch": 1.1
+					},
+					"ambient": {
+						"sound": "demon.ambient",
+						"volume": 1,
+						"pitch": 1.1
+					},
+					"death": {
+						"sound": "demon.death",
+						"volume": 1,
+						"pitch": 0.9
+					}
+				}
+			},
+			"terrariamod:lavaslime": {
+				"volume": 1,
+				"pitch": 1,
+				"events": {
+					"hurt": {
+						"sound": "slime.hurt",
+						"volume": 1,
+						"pitch": 1.1
+					},
+					"ambient": {
+						"sound": "slime.ambient",
+						"volume": 1,
+						"pitch": 1.1
+					},
+					"death": {
+						"sound": "slime.death",
+						"volume": 1,
+						"pitch": 0.9
+					}
+				}
 			}
 		}
 	},

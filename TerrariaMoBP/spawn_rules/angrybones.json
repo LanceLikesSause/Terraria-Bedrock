@@ -1,0 +1,35 @@
+//bridge-file-version: #31
+{
+	"format_version": "1.8.0",
+	"minecraft:spawn_rules": {
+		"description": {
+			"identifier": "terrariamod:angrybones",
+			"population_control": "animal"
+		},
+		"conditions": [
+			{
+				"minecraft:weight": {
+					"default": 999999
+				},
+				"minecraft:herd": {
+					"min_size": 1,
+					"max_size": 3
+				},
+				"minecraft:distance_filter": {
+					"min": 0,
+					"max": 10
+				},
+				"minecraft:brightness_filter": {
+					"min": 0,
+					"max": 15,
+					"adjust_for_weather": true
+				},
+				"minecraft:spawns_underground": {},
+				"minecraft:spawns_on_block_filter": [
+					"terrariamod:pinkbrick_wall"
+				],
+				"minecraft:spawns_on_surface": {}
+			}
+		]
+	}
+}

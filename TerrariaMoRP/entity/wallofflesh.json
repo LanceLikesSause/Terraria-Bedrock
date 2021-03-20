@@ -1,0 +1,29 @@
+//bridge-file-version: #19
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "terrariamod:wallofflesh",
+			"materials": {
+				"default": "zombie"
+			},
+			"textures": {
+				"default": "textures/entity/pamobile/wallofflesh"
+			},
+			"particle_effects": {
+				"bounce_effect": "terrariamod:slime_effect"
+			},
+			"geometry": {
+				"default": "geometry.wallofflesh"
+			},
+			"render_controllers": [
+				"controller.render.zombie"
+			],
+			"enable_attachables": false,
+			"spawn_egg": {
+				"base_color": "#949493",
+				"overlay_color": "#651818"
+			}
+		}
+	}
+}

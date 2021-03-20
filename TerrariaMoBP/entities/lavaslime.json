@@ -1,4 +1,4 @@
-//bridge-file-version: #0
+//bridge-file-version: #1
 {
 	"format_version": "1.16.0",
 	"minecraft:entity": {
@@ -93,7 +93,7 @@
 			"minecraft:jump.static": {},
 			"minecraft:can_climb": {},
 			"minecraft:collision_box": {
-				"width": 1.0,
+				"width": 1,
 				"height": 0.7
 			},
 			"minecraft:health": {
@@ -149,7 +149,8 @@
 				"is_pushable": true,
 				"is_pushable_by_piston": true
 			},
-			"minecraft:conditional_bandwidth_optimization": {}
+			"minecraft:conditional_bandwidth_optimization": {},
+			"minecraft:fire_immune": true
 		},
 		"events": {},
 		"component_groups": {}

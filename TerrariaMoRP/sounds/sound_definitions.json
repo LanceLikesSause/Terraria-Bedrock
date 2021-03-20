@@ -1,6 +1,5 @@
-//bridge-file-version: #25
+//bridge-file-version: #32
 {
-	"format_version": "1.14.0",
 	"sound_definitions": {
 		"bookofskulls.effect": {
 			"category": "neutral",
@@ -212,6 +211,18 @@
 				"sounds/mobs/demoneye/death1"
 			]
 		},
+		"wallofflesh.hurt": {
+			"category": "hostile",
+			"sounds": [
+				"sounds/mobs/wallofflesh/hurt1"
+			]
+		},
+		"wallofflesh.death": {
+			"category": "hostile",
+			"sounds": [
+				"sounds/mobs/wallofflesh/death1"
+			]
+		},
 		"get_enchanted_sword.effect": {
 			"category": "music",
 			"sounds": [
@@ -388,5 +399,6 @@
 				"sounds/terrariamod_dig/stone1"
 			]
 		}
-	}
+	},
+	"format_version": "1.14.0"
 }

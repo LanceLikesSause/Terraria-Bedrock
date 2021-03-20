@@ -1,4 +1,4 @@
-//bridge-file-version: #12
+//bridge-file-version: #13
 {
 	"format_version": "1.16.0",
 	"minecraft:entity": {
@@ -147,7 +147,8 @@
 					"max_distance": 50,
 					"min_distance": 30
 				}
-			}
+			},
+			"minecraft:fire_immune": true
 		},
 		"events": {}
 	}

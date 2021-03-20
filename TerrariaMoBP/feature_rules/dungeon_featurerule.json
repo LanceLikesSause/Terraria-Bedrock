@@ -1,4 +1,4 @@
-//bridge-file-version: #38
+//bridge-file-version: #42
 {
 	"format_version": "1.13.0",
 	"minecraft:feature_rules": {
@@ -35,7 +35,7 @@
 					16
 				]
 			},
-			"y": 34,
+			"y": 35,
 			"z": {
 				"distribution": "uniform",
 				"extent": [
@@ -45,7 +45,7 @@
 			},
 			"scatter_chance": {
 				"numerator": 1,
-				"denominator": 180
+				"denominator": 600
 			}
 		}
 	}

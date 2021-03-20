@@ -1,0 +1,41 @@
+//bridge-file-version: #7
+{
+	"format_version": "1.16.100",
+	"minecraft:fog_settings": {
+		"description": {
+			"identifier": "terrariamod:underground_fog"
+		},
+		"distance": {
+			"water": {
+				"fog_start": 0.3,
+				"fog_end": 0.8,
+				"fog_color": "#1778D2",
+				"render_distance_type": "render"
+			},
+			"air": {
+				"fog_start": 0.3,
+				"fog_end": 0.8,
+				"fog_color": "#464646",
+				"render_distance_type": "render"
+			},
+			"weather": {
+				"fog_start": 0.3,
+				"fog_end": 0.8,
+				"fog_color": "#1778D2",
+				"render_distance_type": "render"
+			},
+			"lava": {
+				"fog_start": 0.3,
+				"fog_end": 0.8,
+				"fog_color": "#1778D2",
+				"render_distance_type": "render"
+			},
+			"lava_resistance": {
+				"fog_start": 0.3,
+				"fog_end": 0.8,
+				"fog_color": "#1778D2",
+				"render_distance_type": "render"
+			}
+		}
+	}
+}

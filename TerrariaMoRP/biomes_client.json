@@ -1,24 +1,6 @@
-//bridge-file-version: #3
+//bridge-file-version: #4
 {
 	"biomes": {
-		"purity_forest": {
-			"fog_identifier": "terrariamod:purity_forest_fog"
-		},
-		"purity_jungle": {
-			"fog_identifier": "terrariamod:purity_jungle_fog"
-		},
-		"purity_snow": {
-			"fog_identifier": "terrariamod:purity_snow_fog"
-		},
-		"purity_desert": {
-			"fog_identifier": "terrariamod:purity_desert_fog"
-		},
-		"corruption_forest": {
-			"fog_identifier": "terrariamod:corruption_forest_fog"
-		},
-		"tcrimson_forest": {
-			"fog_identifier": "terrariamod:tcrimson_forest_fog"
-		},
 		"default": {
 			"fog_identifier": "minecraft:fog_default"
 		}

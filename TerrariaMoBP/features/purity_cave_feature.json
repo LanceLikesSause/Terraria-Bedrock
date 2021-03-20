@@ -1,11 +1,11 @@
-//bridge-file-version: #12
+//bridge-file-version: #13
 {
 	"format_version": "1.13.0",
 	"minecraft:ore_feature": {
 		"description": {
 			"identifier": "minecraft:purity_cave_feature"
 		},
-		"count": 45,
+		"count": 65,
 		"places_block": "minecraft:air",
 		"may_replace": [
 			{
@@ -52,7 +52,7 @@
 			},
 			{
 				"name": "terrariamod:ash"
-			}			
+			}
 		]
 	}
 }

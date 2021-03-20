@@ -1,4 +1,4 @@
-//bridge-file-version: #25
+//bridge-file-version: #26
 {
 	"format_version": "1.16.0",
 	"minecraft:entity": {
@@ -182,7 +182,8 @@
 				"family": [
 					"terraria_players_enemy"
 				]
-			}
+			},
+			"minecraft:fire_immune": true
 		},
 		"events": {}
 	}

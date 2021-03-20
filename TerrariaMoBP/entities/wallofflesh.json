@@ -1,0 +1,283 @@
+//bridge-file-version: #163
+{
+	"format_version": "1.16.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "terrariamod:wallofflesh",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false,
+			"animations": {
+				"ai": "controller.animation.wallofflesh_ai",
+				"bridge_execute_commands": "controller.animation.bridge_wallofflesh.execute_commands"
+			},
+			"scripts": {
+				"animate": [
+					"ai",
+					"bridge_execute_commands"
+				]
+			}
+		},
+		"component_groups": {
+			"terrariamod:despawn": {
+				"minecraft:instant_despawn": {
+					"remove_child_entities": true
+				}
+			},
+			"bridge:execute_command_id_1": {
+				"minecraft:skin_id": {
+					"value": 1
+				}
+			},
+			"bridge:execute_no_command": {
+				"minecraft:skin_id": {
+					"value": 0
+				}
+			},
+			"bridge:execute_command_id_2": {
+				"minecraft:skin_id": {
+					"value": 2
+				}
+			}
+		},
+		"events": {
+			"terrariamod:choose": {
+				"sequence": [
+					{
+						"filters": {
+							"test": "distance_to_nearest_player",
+							"operator": ">",
+							"value": 90
+						},
+						"add": {
+							"component_groups": [
+								"bridge:execute_command_id_1"
+							]
+						}
+					},
+					{
+						"filters": {
+							"test": "distance_to_nearest_player",
+							"operator": "<",
+							"value": 90
+						}
+					},
+					{
+						"filters": {
+							"test": "clock_time",
+							"operator": ">",
+							"value": 500
+						},
+						"add": {
+							"component_groups": [
+								"terrariamod:despawn",
+								"bridge:execute_command_id_2"
+							]
+						}
+					}
+				]
+			},
+			"bridge:remove_command_id_1": {
+				"add": {
+					"component_groups": [
+						"bridge:execute_no_command"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"bridge:execute_command_id_1"
+					]
+				}
+			},
+			"bridge:remove_command_id_2": {
+				"add": {
+					"component_groups": [
+						"bridge:execute_no_command"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"bridge:execute_command_id_2"
+					]
+				}
+			}
+		},
+		"components": {
+			"minecraft:collision_box": {
+				"width": 0.6,
+				"height": 10
+			},
+			"minecraft:movement.basic": {},
+			"minecraft:navigation.walk": {
+				"is_amphibious": true,
+				"can_pass_doors": true,
+				"can_walk": true,
+				"can_break_doors": true
+			},
+			"minecraft:annotation.break_door": {},
+			"minecraft:jump.static": {},
+			"minecraft:health": {
+				"value": 8000,
+				"max": 8000
+			},
+			"minecraft:hurt_on_condition": {
+				"damage_conditions": [
+					{
+						"filters": {
+							"test": "in_lava",
+							"subject": "self",
+							"operator": "==",
+							"value": true
+						},
+						"cause": "lava",
+						"damage_per_tick": 4
+					}
+				]
+			},
+			"minecraft:breathable": {
+				"breathes_air": true,
+				"breathes_water": true,
+				"breathes_solids": true,
+				"breathes_lava": true
+			},
+			"minecraft:attack": {
+				"damage": 50
+			},
+			"minecraft:loot": {
+				"table": "loot_tables/entities/angrybones.json"
+			},
+			"minecraft:behavior.melee_attack": {
+				"priority": 9,
+				"speed_multiplier": 0.7
+			},
+			"minecraft:behavior.nearest_attackable_target": {
+				"priority": 2,
+				"must_see": true,
+				"reselect_targets": true,
+				"within_radius": 25,
+				"must_see_forget_duration": 17,
+				"entity_types": [
+					{
+						"filters": {
+							"any_of": [
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "player"
+								},
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "snowgolem"
+								},
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "irongolem"
+								}
+							]
+						},
+						"max_dist": 35
+					},
+					{
+						"filters": {
+							"any_of": [
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "villager"
+								},
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "wandering_trader"
+								}
+							]
+						},
+						"max_dist": 35,
+						"must_see": false
+					},
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "baby_turtle"
+								},
+								{
+									"test": "in_water",
+									"subject": "other",
+									"operator": "!=",
+									"value": true
+								}
+							]
+						},
+						"max_dist": 35
+					}
+				]
+			},
+			"minecraft:physics": {},
+			"minecraft:pushable": {
+				"is_pushable": true,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:movement": {
+				"value": 0
+			},
+			"minecraft:behavior.ranged_attack": {
+				"priority": 0,
+				"attack_interval_min": 0.1,
+				"attack_interval_max": 0.2,
+				"attack_radius": 15,
+				"burst_interval": 0.1
+			},
+			"minecraft:type_family": {
+				"family": [
+					"terraria_players_enemy"
+				]
+			},
+			"minecraft:timer": {
+				"looping": true,
+				"time": [
+					1,
+					1
+				],
+				"time_down_event": {
+					"event": "terrariamod:choose"
+				}
+			},
+			"minecraft:shooter": {
+				"def": "terrariamod:wallofflesh_projectile"
+			},
+			"minecraft:behavior.move_towards_restriction": {
+				"priority": 9,
+				"speed_multiplier": 1
+			},
+			"minecraft:behavior.random_stroll": {
+				"priority": 9,
+				"speed_multiplier": 1
+			},
+			"minecraft:behavior.look_at_player": {
+				"priority": 9,
+				"look_distance": 6,
+				"probability": 0.02
+			},
+			"minecraft:behavior.random_look_around": {
+				"priority": 9
+			},
+			"minecraft:behavior.hurt_by_target": {
+				"priority": 9
+			},
+			"minecraft:scale": {
+				"value": 3
+			},
+			"minecraft:fire_immune": true,
+			"minecraft:boss": {
+				"should_darken_sky": false,
+				"hud_range": 30,
+				"name": "The Wall of Flesh"
+			}
+		}
+	}
+}

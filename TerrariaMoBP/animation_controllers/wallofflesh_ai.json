@@ -1,0 +1,29 @@
+//bridge-file-version: #155
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.wallofflesh_ai": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"move_to_player": "query.life_time>0"
+						}
+					]
+				},
+				"move_to_player": {
+					"transitions": [
+						{
+							"default": "query.time_stamp>v.time+0.1"
+						}
+					],
+					"on_entry": [
+						"/tp @s ^ ^0.1 ^0.1 facing @p",
+						"v.time = q.time_stamp;"
+					]
+				}
+			},
+			"initial_state": "default"
+		}
+	}
+}

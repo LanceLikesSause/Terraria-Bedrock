@@ -1,4 +1,4 @@
-//bridge-file-version: #328
+//bridge-file-version: #351
 {
 	"format_version": "1.10.0",
 	"animation_controllers": {
@@ -56,13 +56,22 @@
 						}
 					],
 					"on_entry": [
-						"/stopsound @s"
+						"/stopsound @s",
+						"/fog @s remove purity_forest_fog",
+						"/fog @s remove purity_desert_fog",
+						"/fog @s remove corruption_forest_fog",
+						"/fog @s remove purity_jungle_fog",
+						"/fog @s remove purity_snow_fog",
+						"/fog @s remove tcrimson_forest_fog",
+						"/fog @s remove underground_fog",
+						"/fog @s remove underworld_fog"
 					]
 				},
 				"forest_day_music": {
 					"on_entry": [
 						"/playsound dayone @s",
-						"v.time = q.time_stamp;"
+						"v.time = q.time_stamp;",
+						"/fog @s push terrariamod:purity_forest_fog purity_forest_fog"
 					],
 					"transitions": [
 						{
@@ -73,7 +82,8 @@
 				"forest_night_music": {
 					"on_entry": [
 						"/playsound night @s",
-						"v.time = q.time_stamp;"
+						"v.time = q.time_stamp;",
+						"/fog @s push terrariamod:purity_forest_fog purity_forest_fog"
 					],
 					"transitions": [
 						{
@@ -84,7 +94,8 @@
 				"corruption_music": {
 					"on_entry": [
 						"/playsound corruption @s",
-						"v.time = q.time_stamp;"
+						"v.time = q.time_stamp;",
+						"/fog @s push terrariamod:corruption_forest_fog corruption_forest_fog"
 					],
 					"transitions": [
 						{
@@ -95,7 +106,8 @@
 				"jungle_music": {
 					"on_entry": [
 						"/playsound jungle @s",
-						"v.time = q.time_stamp;"
+						"v.time = q.time_stamp;",
+						"/fog @s push terrariamod:purity_jungle_fog purity_jungle_fog"
 					],
 					"transitions": [
 						{
@@ -106,7 +118,8 @@
 				"desert_music": {
 					"on_entry": [
 						"/playsound desert @s",
-						"v.time = q.time_stamp;"
+						"v.time = q.time_stamp;",
+						"/fog @s push terrariamod:purity_desert_fog purity_desert_fog"
 					],
 					"transitions": [
 						{
@@ -117,7 +130,8 @@
 				"snow_music": {
 					"on_entry": [
 						"/playsound snow @s",
-						"v.time = q.time_stamp;"
+						"v.time = q.time_stamp;",
+						"/fog @s push terrariamod:purity_snow_fog purity_snow_fog"
 					],
 					"transitions": [
 						{
@@ -128,7 +142,8 @@
 				"crimson_music": {
 					"on_entry": [
 						"/playsound crimson @s",
-						"v.time = q.time_stamp;"
+						"v.time = q.time_stamp;",
+						"/fog @s push terrariamod:tcrimson_forest_fog tcrimson_forest_fog"
 					],
 					"transitions": [
 						{
@@ -139,7 +154,8 @@
 				"underground_music": {
 					"on_entry": [
 						"/playsound underground @s",
-						"v.time = q.time_stamp;"
+						"v.time = q.time_stamp;",
+						"/fog @s push terrariamod:underground_fog underground_fog"
 					],
 					"transitions": [
 						{
@@ -150,7 +166,8 @@
 				"desert_underground_music": {
 					"on_entry": [
 						"/playsound desert_underground @s",
-						"v.time = q.time_stamp;"
+						"v.time = q.time_stamp;",
+						"/fog @s push terrariamod:purity_desert_fog purity_desert_fog"
 					],
 					"transitions": [
 						{
@@ -161,7 +178,8 @@
 				"jungle_underground_music": {
 					"on_entry": [
 						"/playsound jungle_underground @s",
-						"v.time = q.time_stamp;"
+						"v.time = q.time_stamp;",
+						"/fog @s push terrariamod:purity_jungle_fog purity_jungle_fog"
 					],
 					"transitions": [
 						{
@@ -172,7 +190,8 @@
 				"ice_music": {
 					"on_entry": [
 						"/playsound ice @s",
-						"v.time = q.time_stamp;"
+						"v.time = q.time_stamp;",
+						"/fog @s push terrariamod:purity_snow_fog purity_snow_fog"
 					],
 					"transitions": [
 						{
@@ -183,7 +202,8 @@
 				"crimson_underground_music": {
 					"on_entry": [
 						"/playsound crimson_underground @s",
-						"v.time = q.time_stamp;"
+						"v.time = q.time_stamp;",
+						"/fog @s push terrariamod:crimson_forest_fog crimson_forest_fog"
 					],
 					"transitions": [
 						{
@@ -194,7 +214,8 @@
 				"corruption_underground_music": {
 					"on_entry": [
 						"/playsound corruption_underground @s",
-						"v.time = q.time_stamp;"
+						"v.time = q.time_stamp;",
+						"/fog @s push terrariamod:forest_corruption_fog corruption_forest_fog"
 					],
 					"transitions": [
 						{
@@ -205,7 +226,8 @@
 				"underworld_music": {
 					"on_entry": [
 						"/playsound underworld @s",
-						"v.time = q.time_stamp;"
+						"v.time = q.time_stamp;",
+						"/fog @s push terrariamod:underworld_fog underworld_fog"
 					],
 					"transitions": [
 						{

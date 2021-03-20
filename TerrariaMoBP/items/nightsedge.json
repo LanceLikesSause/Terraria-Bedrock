@@ -1,4 +1,4 @@
-//bridge-file-version: #16
+//bridge-file-version: #17
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
@@ -9,6 +9,24 @@
 		"components": {
 			"minecraft:max_stack_size": 1,
 			"minecraft:hand_equipped": true,
+			"minecraft:render_offsets": {
+				"main_hand": {
+					"first_person": {
+						"scale": [
+							0.025,
+							0.025,
+							0.025
+						]
+					},
+					"third_person": {
+						"scale": [
+							0.06,
+							0.06,
+							0.06
+						]
+					}
+				}
+			},
 			"minecraft:damage": 42,
 			"minecraft:icon": {
 				"texture": "terrariamod:nightsedge"
@@ -20,11 +38,15 @@
 				"parent": "itemGroup.name.sword"
 			},
 			"minecraft:weapon": {
-					"on_not_hurt_entity": {
-						"event": "terrariamod:nightsedge_effect"
-					}
+				"on_not_hurt_entity": {
+					"event": "terrariamod:nightsedge_effect"
 				}
 			},
+			"minecraft:cooldown": {
+				"category": "bruh",
+				"duration": 20
+			}
+		},
 		"events": {
 			"terrariamod:nightsedge_effect": {
 				"run_command": {

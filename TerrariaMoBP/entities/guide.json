@@ -1,0 +1,329 @@
+//bridge-file-version: #42
+{
+	"format_version": "1.16.100",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "terrariamod:guide",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false,
+			"animations": {
+				"guide_death": "controller.animation.guide_death"
+			},
+			"scripts": {
+				"animate": [
+					"guide_death"
+				]
+			}
+		},
+		"component_groups": {},
+		"components": {
+			"minecraft:behavior.trade_interest": {
+				"priority": 5,
+				"within_radius": 6,
+				"interest_time": 45,
+				"remove_item_time": 1,
+				"carried_item_switch_time": 2,
+				"cooldown": 2
+			},
+			"minecraft:type_family": {
+				"family": [
+					"villager",
+					"mob"
+				]
+			},
+			"minecraft:mark_variant": {
+				"value": 0
+			},
+			"minecraft:breathable": {
+				"total_supply": 15,
+				"suffocate_time": 0
+			},
+			"minecraft:health": {
+				"value": 250,
+				"max": 250
+			},
+			"minecraft:hurt_on_condition": {
+				"damage_conditions": [
+					{
+						"filters": {
+							"test": "in_lava",
+							"subject": "self",
+							"operator": "==",
+							"value": true
+						},
+						"cause": "lava",
+						"damage_per_tick": 4
+					}
+				]
+			},
+			"minecraft:hide": {},
+			"minecraft:collision_box": {
+				"width": 0.6,
+				"height": 1.9
+			},
+			"minecraft:nameable": {},
+			"minecraft:movement": {
+				"value": 0.5
+			},
+			"minecraft:navigation.walk": {
+				"can_path_over_water": true,
+				"can_pass_doors": true,
+				"can_open_doors": true,
+				"avoid_water": true
+			},
+			"minecraft:follow_range": {
+				"value": 128
+			},
+			"minecraft:annotation.open_door": {},
+			"minecraft:movement.basic": {},
+			"minecraft:jump.static": {},
+			"minecraft:can_climb": {},
+			"minecraft:inventory": {
+				"inventory_size": 8,
+				"private": true
+			},
+			"minecraft:dweller": {
+				"dwelling_type": "village",
+				"dweller_role": "inhabitant",
+				"update_interval_base": 60,
+				"update_interval_variant": 40,
+				"can_find_poi": true,
+				"can_migrate": true,
+				"first_founding_reward": 5
+			},
+			"minecraft:persistent": {},
+			"minecraft:behavior.float": {
+				"priority": 0
+			},
+			"minecraft:behavior.hide": {
+				"priority": 0,
+				"speed_multiplier": 0.8,
+				"poi_type": "bed",
+				"duration": 30
+			},
+			"minecraft:behavior.panic": {
+				"priority": 1,
+				"speed_multiplier": 0.6
+			},
+			"minecraft:behavior.trade_with_player": {
+				"priority": 2
+			},
+			"minecraft:behavior.avoid_mob_type": {
+				"priority": 4,
+				"entity_types": [
+					{
+						"filters": {
+							"any_of": [
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "zombie"
+								},
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "zombie_villager"
+								},
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "zombie_pigman"
+								},
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "illager"
+								},
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "vex"
+								}
+							]
+						},
+						"max_dist": 8,
+						"walk_speed_multiplier": 0.6,
+						"sprint_speed_multiplier": 0.6
+					}
+				]
+			},
+			"minecraft:behavior.pickup_items": {
+				"priority": 4,
+				"max_dist": 3,
+				"goal_radius": 2,
+				"speed_multiplier": 0.5,
+				"can_pickup_to_hand_or_equipment": false
+			},
+			"minecraft:behavior.move_indoors": {
+				"priority": 6,
+				"speed_multiplier": 0.8,
+				"timeout_cooldown": 8
+			},
+			"minecraft:behavior.look_at_trading_player": {
+				"priority": 7
+			},
+			"minecraft:behavior.look_at_player": {
+				"priority": 8,
+				"look_distance": 8,
+				"probability": 0.02
+			},
+			"minecraft:behavior.share_items": {
+				"priority": 9,
+				"max_dist": 3,
+				"goal_radius": 2,
+				"speed_multiplier": 0.5,
+				"entity_types": [
+					{
+						"filters": {
+							"test": "is_family",
+							"subject": "other",
+							"value": "villager"
+						}
+					}
+				]
+			},
+			"minecraft:behavior.random_stroll": {
+				"priority": 10,
+				"speed_multiplier": 0.6
+			},
+			"minecraft:physics": {},
+			"minecraft:pushable": {
+				"is_pushable": true,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:behavior.nearest_attackable_target": {
+				"priority": 2,
+				"must_see": true,
+				"reselect_targets": true,
+				"entity_types": [
+					{
+						"filters": {
+							"test": "is_family",
+							"subject": "other",
+							"value": "slimes_terraria"
+						},
+						"max_dist": 8
+					}
+				]
+			},
+			"minecraft:behavior.ranged_attack": {
+				"priority": 0,
+				"attack_interval_min": 1,
+				"attack_interval_max": 3,
+				"attack_radius": 15
+			},
+			"minecraft:shooter": {
+				"def": "terrariamod:musketball_projectile_flintlockpistol"
+			},
+			"minecraft:behavior.move_to_block": {
+				"priority": 5,
+				"speed_multiplier": 1,
+				"tick_interval": 1,
+				"target_blocks": [
+					"terrariamod:wooden_chair"
+				],
+				"search_range": 60
+			},
+			"minecraft:interact": {
+				"interactions": [
+					{
+						"interact_text": "Talk",
+						"on_interact": {
+							"event": "terrariamod:talk"
+						}
+					}
+				]
+			},
+			"minecraft:equipment": {
+				"table": "loot_tables/entities/guide.json"
+			}
+		},
+		"events": {
+			"terrariamod:talk": {
+				"randomize": [
+					{
+						"weight": 1,
+						"run_command": {
+							"command": [
+								"say You can use your pickaxe to dig though dirt, and your axe to chop down trees. Just place your crosshair over the tile and click!"
+							]
+						}
+					},
+					{
+						"weight": 1,
+						"run_command": {
+							"command": [
+								"say If you want to survive you will need to create weapons and shelter. Start by chooping down trees and gathering wood."
+							]
+						}
+					},
+					{
+						"weight": 1,
+						"run_command": {
+							"command": [
+								"say Open your crafting menu. When you have enough wood, create a workbench. This will allow you to create more complicated things."
+							]
+						}
+					},
+					{
+						"run_command": {
+							"command": [
+								"say You can build a shelter by placing wood or other blocks in the world."
+							]
+						},
+						"weight": 1
+					},
+					{
+						"weight": 1,
+						"run_command": {
+							"command": [
+								"say Once you have a wooden sword, you might try to gather some gel from the slimes. Combine wood and gel to make a torch."
+							]
+						}
+					},
+					{
+						"weight": 1,
+						"run_command": {
+							"command": [
+								"say You should do some mining to find some metal ore. You can craft very useful things with it."
+							]
+						}
+					},
+					{
+						"weight": 1,
+						"run_command": {
+							"command": [
+								"say Once you have some ore, you will need to turn it into bar in order to make items with it. This requires a furnace!"
+							]
+						}
+					},
+					{
+						"weight": 1,
+						"run_command": {
+							"command": [
+								"say You can create a furnace out of torches, wood, and stone. You can craft it in a workbench."
+							]
+						}
+					},
+					{
+						"weight": 1,
+						"run_command": {
+							"command": [
+								"say You will need an anvil to make most things out of metal bars."
+							]
+						}
+					},
+					{
+						"weight": 1,
+						"run_command": {
+							"command": [
+								"say Anvils can be crafted out of lead."
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

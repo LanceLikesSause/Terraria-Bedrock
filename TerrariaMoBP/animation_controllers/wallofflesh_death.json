@@ -1,0 +1,29 @@
+//bridge-file-version: #161
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.wallofflesh_death": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"move_to_player": "!query.is_alive"
+						}
+					]
+				},
+				"move_to_player": {
+					"transitions": [
+						{
+							"default": "query.time_stamp>v.time+5"
+						}
+					],
+					"on_entry": [
+						"/say This is the end of the addon for now!",
+						"v.time = q.time_stamp;"
+					]
+				}
+			},
+			"initial_state": "default"
+		}
+	}
+}

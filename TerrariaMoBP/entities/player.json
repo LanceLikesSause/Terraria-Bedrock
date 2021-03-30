@@ -1,4 +1,4 @@
-//bridge-file-version: #0
+//bridge-file-version: #4
 {
 	"format_version": "1.16.0",
 	"minecraft:entity": {
@@ -7,14 +7,16 @@
 				"mana": "controller.animation.mana",
 				"health": "controller.animation.health",
 				"lifecrystal": "controller.animation.lifecrystal",
-				"music": "controller.animation.music"
+				"music": "controller.animation.music",
+				"event": "controller.animation.event"
 			},
 			"scripts": {
 				"animate": [
 					"mana",
 					"health",
 					"lifecrystal",
-					"music"
+					"music",
+					"event"
 				]
 			},
 			"identifier": "minecraft:player",

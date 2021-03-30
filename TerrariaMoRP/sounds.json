@@ -1,4 +1,4 @@
-//bridge-file-version: #58
+//bridge-file-version: #62
 {
 	"entity_sounds": {
 		"entities": {
@@ -129,6 +129,8 @@
 			"terrariamod:angrybones": {
 				"volume": 1,
 				"pitch": [
+					0.9,
+					1,
 					0.9,
 					1
 				],
@@ -780,6 +782,22 @@
 						"sound": "slime.death",
 						"volume": 1,
 						"pitch": 0.9
+					}
+				}
+			},
+			"terrariamod:wallofflesh": {
+				"volume": 1,
+				"pitch": 1,
+				"events": {
+					"hurt": {
+						"sound": "wallofflesh.hurt",
+						"volume": 1,
+						"pitch": 1
+					},
+					"death": {
+						"sound": "wallofflesh.death",
+						"volume": 1,
+						"pitch": 1
 					}
 				}
 			}

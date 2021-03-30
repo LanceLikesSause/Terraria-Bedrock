@@ -11,7 +11,10 @@
 			},
 			"minecraft:icon": {
 				"texture": "terrariamod:hellstonebar_pile"
-			}
+			},
+			"minecraft:creative_category": {
+				"parent": "items"
+			}			
 		},
 		"events": {}
 	}

@@ -1,4 +1,4 @@
-//bridge-file-version: #16
+//bridge-file-version: #21
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
@@ -15,7 +15,7 @@
 			},
 			"minecraft:on_use": {
 				"on_use": {
-					"event": "terrariamod:give_starting_items"
+					"event": "terrariamod:start"
 				}
 			},
 			"minecraft:creative_category": {
@@ -23,7 +23,7 @@
 			}
 		},
 		"events": {
-			"terrariamod:give_starting_items": {
+			"terrariamod:start": {
 				"run_command": {
 					"command": [
 						"give @s terrariamod:coppersword",
@@ -33,7 +33,9 @@
 						"gamerule keepinventory true",
 						"clear @s terrariamod:starting_items_package 0 1",
 						"setworldspawn 0 140 0",
-						"spawnpoint @s 0 140 0"
+						"spawnpoint @s 0 140 0",
+						"summon terrariamod:guide 0 140 0",
+						"gamerule doweathercycle false"
 					]
 				}
 			}

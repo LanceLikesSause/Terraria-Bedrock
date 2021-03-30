@@ -1,4 +1,4 @@
-//bridge-file-version: #155
+//bridge-file-version: #156
 {
 	"format_version": "1.10.0",
 	"animation_controllers": {
@@ -18,7 +18,7 @@
 						}
 					],
 					"on_entry": [
-						"/tp @s ^ ^0.1 ^0.1 facing @p",
+						"/tp @s ^ ^ ^0.1 facing @p",
 						"v.time = q.time_stamp;"
 					]
 				}

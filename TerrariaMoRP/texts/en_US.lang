@@ -1,5 +1,5 @@
-##bridge-file-version: #436
-##############how to play
+##bridge-file-version: #456
+###############how to play
 terrariamod.category.dakon=Terraria Mod Tutorial
 howtoplay.category.dakon=Terraria Guide
 howtoplay.template.title=Credits
@@ -67,16 +67,31 @@ terrariamod.tempeight.text2=The Queen Bee will drop variety of items when killed
 
 tile.terrariamod:underworld_transporter.name=Underworld Transporter
 
+##Blood Moon
+entity.terrariamod:bloodzombie.name=Blood Zombie
+item.spawn_egg.entity.terrariamod:bloodzombie.name=Spawn Blood Zombie 
+entity.terrariamod:thegroom.name=The Groom
+item.spawn_egg.entity.terrariamod:thegroom.name=Spawn The Groom 
+terrariamod:drippler.name=Drippler
+item.spawn_egg.entity.terrariamod:drippler.name=Spawn Drippler
 
+##Goblin Army
+entity.terrariamod:goblin_sorcerer.name=Goblin Sorcerer
+item.spawn_egg.entity.terrariamod:goblin_sorcerer.name=Spawn Goblin Sorcerer
+enity.terrariamod:goblin_peon.name=Goblin Peon
+item.spawn_egg.entity.terrariamod:goblin_peon.name=Spawn Goblin Peon
+enity.terrariamod:golbin_thief.name=Goblin Thief
+item.spawn_egg.entity.terrariamod:golbin_thief.name=Spawn Goblin Thief
+enity.terrariamod:goblin_warrior.name=Goblin Warrior
+item.spawn_egg.entity.terrariamod:goblin_warrior.name=Spawn Goblin Warrior
+enity.terrariamod:goblin_archer.name=Goblin Archer
+item.spawn_egg.entity.terrariamod:goblin_archer.name=Spawn Goblin Archer
 ##snow
 tile.terrariamod:tree_bottom_snow.name=Snow Tree Stem
 tile.terrariamod:tree_log_snow=Snow Tree Log
 tile.terrariamod:tree_top_snow=Snow Tree Top
 tile.terrariamod:purity_snow.name=Snow
 item.terrariamod:snow_wood.name=Boreal Wood
-
-
-
 
 ##desert
 tile.terrariamod:purity_cactus_bottom.name=Cactus Stem
@@ -85,6 +100,7 @@ tile.terrariamod:purity_cactus_top.name=Cactus Top
 tile.terrariamod:cactus_block.name=Cactus Block
 tile.terrariamod:purity_sandstone.name=Sandstone
 tile.terrariamod:purity_sand.name=Sand
+entity.terrariamod:antlion.name=Antlion
 
 
 ##jungle
@@ -289,6 +305,17 @@ entity.terrariamod:woodenarrow_projectile_tungsten.name=Tungsten Bow
 entity.terrariamod:woodenarrow_projectile_gold.name=Gold Bow
 entity.terrariamod:woodenarrow_projectile_platinum.name=Platinum Bow
 
+
+item.spawn_egg.entity.terrariamod:wallofflesh.name=Spawn Wall of Flesh
+entity.terrariamod:wallofflesh.name=Wall of Flesh
+item.spawn_egg.entity.terrariamod:sandslime.name=Spawn Sand Slime
+entity.terrariamod:sandslime.name=Sand Slime
+item.spawn_egg.entity.terrariamod:vulture.name=Spawn Vulture
+entity.terrariamod:vulture.name=Vulture
+item.spawn_egg.entity.terrariamod:antlion.name=Spawn Antlion
+entity.terrariamod:antlion.name=Antlion
+item.spawn_egg.entity.terrariamod:maneater.name=Spawn Man Eater
+entity.terrariamod:maneater.name=Man Eater
 item.spawn_egg.entity.terrariamod:iceslime.name=Spawn Ice Slime
 entity.terrariamod:iceslime.name=Ice Slime
 item.spawn_egg.entity.terrariamod:jungleslime.name=Spawn Jungle Slime

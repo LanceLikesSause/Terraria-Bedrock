@@ -1,4 +1,4 @@
-//bridge-file-version: #19
+//bridge-file-version: #31
 {
 	"format_version": "1.10.0",
 	"minecraft:client_entity": {
@@ -23,6 +23,14 @@
 			"spawn_egg": {
 				"base_color": "#949493",
 				"overlay_color": "#651818"
+			},
+			"animations": {
+				"loop": "animation.wallofflesh.general"
+			},
+			"scripts": {
+				"animate": [
+					"loop"
+				]
 			}
 		}
 	}

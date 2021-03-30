@@ -11,6 +11,9 @@
 			},
 			"minecraft:icon": {
 				"texture": "terrariamod:tungstenbar_pile"
+			},
+			"minecraft:creative_category": {
+				"parent": "items"
 			}
 		},
 		"events": {}

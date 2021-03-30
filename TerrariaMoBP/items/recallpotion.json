@@ -1,4 +1,4 @@
-//bridge-file-version: #8
+//bridge-file-version: #12
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
@@ -17,7 +17,7 @@
 			"minecraft:use_duration": 0.3,
 			"minecraft:food": {
 				"on_consume": {
-					"event": "terrariamod:tp_to_player"
+					"event": "minecraft:use"
 				},
 				"can_always_eat": true
 			},
@@ -41,7 +41,7 @@
 					{
 						"run_command": {
 							"command": [
-								"tp @s 0 80 0",
+								"tp @s 0 140 0",
 								"playsound effect.magicmirror @s ~~~",
 								"particle terrariamod:magicmirror_effect ~~~"
 							]

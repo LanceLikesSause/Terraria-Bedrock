@@ -1,4 +1,4 @@
-//bridge-file-version: #34
+//bridge-file-version: #36
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
@@ -28,10 +28,9 @@
 				"run_command": {
 					"command": [
 						"summon terrariamod:wallofflesh",
-						"stopsound @s",
-						"playsound eyeofcthulhu.music @s",
 						"tellraw @a {\"rawtext\":[{\"text\":\"§4Wall of Flesh\"},{\"text\":\"§r has awoken!\"}]}",
-						"clear @s terrariamod:guidevoodoodoll 0 1"
+						"clear @s terrariamod:guidevoodoodoll 0 1",
+						"kill @e[type=terrariamod:guide]"
 					]
 				}
 			}

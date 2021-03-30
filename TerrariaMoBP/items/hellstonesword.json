@@ -1,4 +1,4 @@
-//bridge-file-version: #117
+//bridge-file-version: #120
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
@@ -10,17 +10,6 @@
 			"minecraft:max_stack_size": 1,
 			"minecraft:foil": true,
 			"minecraft:damage": 36,
-			"minecraft:weapon": {
-				"on_hurt_entity": {
-					"event": "terrariamod:hellstone"
-				},
-				"on_hit_block": {
-					"event": "terrariamod:hellstone"
-				},
-				"on_not_hurt_entity": {
-					"event": "terrariamod:hellstone"
-				}
-			},
 			"minecraft:display_name": {
 				"value": "Fiery Greatsword\n§9'It's made out of fire!'"
 			},
@@ -29,6 +18,12 @@
 			},
 			"minecraft:creative_category": {
 				"parent": "itemGroup.name.sword"
+			},
+			"minecraft:weapon": {
+				"on_hurt_entity": {
+					"target": "self",
+					"event": "terrariamod:hellstone"
+				}
 			}
 		},
 		"events": {
@@ -44,8 +39,9 @@
 					{
 						"run_command": {
 							"command": [
-								"execute @e[r=5,type=!player] ~~~ fill ~~~ ~~~ fire 0 replace air"
-							]
+								"setblock ~~~ fire"
+							],
+							"target": "other"
 						}
 					}
 				]

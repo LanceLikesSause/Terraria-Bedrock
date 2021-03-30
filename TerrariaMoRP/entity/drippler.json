@@ -1,0 +1,26 @@
+//bridge-file-version: #20
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "terrariamod:drippler",
+			"textures": {
+				"default": "textures/entity/pamobile/drippler.png"
+			},
+			"spawn_egg": {
+				"base_color": "#FFFFFF",
+				"overlay_color": "#D21717"
+			},
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"geometry": {
+				"default": "geometry.drippler"
+			},
+			"render_controllers": [
+				"controller.render.zombie"
+			],
+			"enable_attachables": true
+		}
+	}
+}

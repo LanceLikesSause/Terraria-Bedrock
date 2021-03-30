@@ -1,4 +1,4 @@
-//bridge-file-version: #13
+//bridge-file-version: #14
 {
 	"format_version": "1.16.200",
 	"minecraft:entity": {
@@ -87,52 +87,6 @@
 									"test": "is_family",
 									"subject": "other",
 									"value": "player"
-								},
-								{
-									"test": "is_family",
-									"subject": "other",
-									"value": "snowgolem"
-								},
-								{
-									"test": "is_family",
-									"subject": "other",
-									"value": "irongolem"
-								}
-							]
-						},
-						"max_dist": 35
-					},
-					{
-						"filters": {
-							"any_of": [
-								{
-									"test": "is_family",
-									"subject": "other",
-									"value": "villager"
-								},
-								{
-									"test": "is_family",
-									"subject": "other",
-									"value": "wandering_trader"
-								}
-							]
-						},
-						"max_dist": 35,
-						"must_see": false
-					},
-					{
-						"filters": {
-							"all_of": [
-								{
-									"test": "is_family",
-									"subject": "other",
-									"value": "baby_turtle"
-								},
-								{
-									"test": "in_water",
-									"subject": "other",
-									"operator": "!=",
-									"value": true
 								}
 							]
 						},

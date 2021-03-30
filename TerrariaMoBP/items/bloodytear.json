@@ -1,0 +1,37 @@
+//bridge-file-version: #48
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "terrariamod:bloodytear",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:creative_category": {
+				"parent": "nature"
+			},
+			"minecraft:on_use": {
+				"on_use": {
+					"event": "terrariamod:summon",
+					"condition": "query.time_of_day<0.25 || query.time_of_day>0.75"
+				}
+			},
+			"minecraft:display_name": {
+				"value": "Bloody Tear§9Summons the Blood Moon 'What a horrible night to have a curse.'"
+			},
+			"minecraft:icon": {
+				"texture": "terrariamod:bloodytear"
+			}
+		},
+		"events": {
+			"terrariamod:summon": {
+				"run_command": {
+					"command": [
+						"function blood_moon",
+						"clear @s terrariamod:bloodytear 0 1"
+					]
+				}
+			}
+		}
+	}
+}

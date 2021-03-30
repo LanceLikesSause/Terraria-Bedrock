@@ -1,0 +1,33 @@
+//bridge-file-version: #4
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.loop": {
+			"initial_state": "default_state",
+			"states": {
+				"default_state": {
+					"animations": [
+						"loop"
+					],
+					"transitions": [
+						{
+							"prepare_state": "query.all_animations_finished"
+						}
+					],
+					"blend_transition": 1.5
+				},
+				"prepare_state": {
+					"animations": [
+						"loop"
+					],
+					"transitions": [
+						{
+							"default_state": "query.all_animations_finished"
+						}
+					],
+					"blend_transition": 0.1
+				}
+			}
+		}
+	}
+}

@@ -1,4 +1,4 @@
-//bridge-file-version: #13
+//bridge-file-version: #16
 {
 	"resource_pack_name": "TerrariaModLLS",
 	"texture_name": "atlas.items",
@@ -788,6 +788,16 @@
 		"terrariamod:gravitationpotion": {
 			"textures": [
 				"textures/items/potions/gravitationpotion"
+			]
+		},
+		"terrariamod:bloodytear": {
+			"textures": [
+				"textures/items/pamobile/bloodytear"
+			]
+		},
+		"terrariamod:goblinbattlestandard": {
+			"textures": [
+				"textures/items/pamobile/goblinbattlestandard"
 			]
 		}
 	}

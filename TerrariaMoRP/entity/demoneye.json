@@ -1,4 +1,4 @@
-//bridge-file-version: #13
+//bridge-file-version: #14
 {
 	"format_version": "1.8.0",
 	"minecraft:client_entity": {
@@ -20,13 +20,13 @@
 			"animations": {
 				"flying": "animation.demoneye.flying"
 			},
+			"render_controllers": [
+				"controller.render.zombie"
+			],
 			"animation_controllers": [
 				{
 					"flying": "controller.animation.vulture"
 				}
-			],
-			"render_controllers": [
-				"controller.render.zombie"
 			],
 			"enable_attachables": true
 		}

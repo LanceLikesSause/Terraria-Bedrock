@@ -1,4 +1,4 @@
-//bridge-file-version: #60
+//bridge-file-version: #62
 {
 	"format_version": "1.16.0",
 	"minecraft:entity": {
@@ -9,23 +9,20 @@
 			"is_experimental": false,
 			"animations": {
 				"to_stage_2": "controller.animation.eyeofcthulhu.to_stage_2",
-				"bridge_execute_commands": "controller.animation.bridge_eyeofcthulhu_stageone.execute_commands"
+				"bridge_execute_commands": "controller.animation.bridge_eyeofcthulhu_stageone.execute_commands",
+				"other": "controller.animation.boss_1_other"
 			},
 			"scripts": {
 				"animate": [
 					"to_stage_2",
 					"bridge_execute_commands",
 					"bridge_execute_commands",
-					"bridge_execute_commands"
+					"bridge_execute_commands",
+					"other"
 				]
 			}
 		},
 		"components": {
-			"minecraft:type_family": {
-				"family": [
-					"terraria_players_enemy"
-				]
-			},
 			"minecraft:nameable": {},
 			"minecraft:health": {
 				"value": 1400,
@@ -179,6 +176,12 @@
 					},
 					"event": "terrariamod:despawn_entity"
 				}
+			},
+			"minecraft:type_family": {
+				"family": [
+					"terraria_players_enemy",
+					"terraria_boss"
+				]
 			}
 		},
 		"events": {

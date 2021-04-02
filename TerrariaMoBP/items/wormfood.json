@@ -1,4 +1,4 @@
-//bridge-file-version: #17
+//bridge-file-version: #21
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
@@ -21,6 +21,10 @@
 					"event": "terrariamod:summon",
 					"condition": "query.biome_has_any_tag('corruption')"
 				}
+			},
+			"minecraft:cooldown": {
+				"category": "terrariamod_bosses",
+				"duration": 20
 			}
 		},
 		"events": {
@@ -28,8 +32,6 @@
 				"run_command": {
 					"command": [
 						"summon terrariamod:eaterofworlds",
-						"stopsound @a",
-						"playsound eyeofcthulhu.music @a",
 						"tellraw @a {\"rawtext\":[{\"text\":\"§4The Eater of Worlds\"},{\"text\":\"§r has awoken!\"}]}",
 						"clear @s terrariamod:wormfood 0 1"
 					]

@@ -1,0 +1,176 @@
+{
+	"BP/entities/skeletron_head_stagetwo.json": {
+		"data": {}
+	},
+	"BP/entities/skeletron_head.json": {
+		"data": {}
+	},
+	"BP/entities/skeletron_arm.json": {
+		"data": {}
+	},
+	"BP/blocks/purity_campfire.json": {
+		"data": {}
+	},
+	"BP/biomes/purity_snow.json": {
+		"data": {}
+	},
+	"BP/entities/eaterofworlds.json": {
+		"data": {}
+	},
+	"BP/entities/player.json": {
+		"data": {}
+	},
+	"BP/animation_controllers/bridge/custom_item_behavior.json": {
+		"data": {
+			"ecd24485_1e19_413d_81c7_8554ac83cc39": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"b205d07e_3268_4925_b0de_b591a0d0da28": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"5edb7ab0_5549_40a5_9594_1f86a27c8f6b": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"b74cdf48_0d5c_474b_bb55_99657af0ec45": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"598527c5_258a_4fef_bb02_d41f4755b1e9": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"9fd3ca85_27d9_4eea_9acb_2ef5f0e170e6": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"d1a00f49_b097_4433_9546_ba24d853ec91": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"5687944b_12de_4ebf_b241_ceb616463ffd": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			}
+		}
+	},
+	"BP/items/wormfood.json": {
+		"data": {}
+	},
+	"BP/items/slimecrown.json": {
+		"data": {}
+	},
+	"BP/items/suspiciouslookingeye.json": {
+		"data": {}
+	},
+	"BP/items/bloodyspine.json": {
+		"data": {}
+	},
+	"BP/items/abeemination.json": {
+		"data": {}
+	},
+	"BP/items/guidevoodoodoll.json": {
+		"data": {}
+	},
+	"BP/entities/wallofflesh.json": {
+		"data": {}
+	},
+	"BP/animation_controllers/music.json": {
+		"data": {}
+	},
+	"BP/items/spacegun.json": {
+		"data": {}
+	},
+	"BP/items/tinbar_pile.json": {
+		"data": {}
+	},
+	"BP/entities/kingslime.json": {
+		"data": {}
+	},
+	"BP/animation_controllers/boss_2_other.json": {
+		"data": {}
+	},
+	"BP/animation_controllers/boss_1_other.json": {
+		"data": {}
+	},
+	"BP/entities/eyeofcthulhu_stageone.json": {
+		"data": {}
+	},
+	"BP/entities/eyeofcthulhu_stagetwo.json": {
+		"data": {}
+	},
+	"BP/entities/brainofcthulhu_stageone.json": {
+		"data": {}
+	},
+	"BP/animation_controllers/boss_3_other.json": {
+		"data": {}
+	},
+	"BP/entities/brainofcthulhu_stagetwo.json": {
+		"data": {}
+	},
+	"BP/animation_controllers/boss_5_other.json": {
+		"data": {}
+	},
+	"BP/entities/queenbee.json": {
+		"data": {}
+	},
+	"RP/entity/servantofcthulhu.json": {
+		"data": {}
+	},
+	"RP/sounds/sound_definitions.json": {
+		"data": {}
+	},
+	"BP/entities/minionslime.json": {
+		"data": {}
+	}
+}

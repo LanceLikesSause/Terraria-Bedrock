@@ -1,0 +1,547 @@
+{
+	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\TerrariaMoBP\\entities\\eaterofworlds.json",
+	"file_type": "entity",
+	"format_version": 1,
+	"file_uuid": "b3c3c73d_d7ae_4351_8f35_88bdfb3ddb90",
+	"file_version": 58,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.0",
+					"minecraft:entity": {
+						"description": {
+							"identifier": "terrariamod:eaterofworlds",
+							"is_spawnable": true,
+							"is_summonable": true,
+							"is_experimental": false,
+							"animations": {
+								"ai": "controller.animation.eaterofworlds_ai",
+								"other": "controller.animation.boss_1_other"
+							},
+							"scripts": {
+								"animate": [
+									"ai",
+									"other"
+								]
+							}
+						},
+						"component_groups": {
+							"terrariamod:despawn": {
+								"minecraft:instant_despawn": {
+									"remove_child_entities": true
+								}
+							}
+						},
+						"events": {},
+						"components": {
+							"minecraft:collision_box": {
+								"width": 5,
+								"height": 10
+							},
+							"minecraft:health": {
+								"value": 10050,
+								"max": 10050
+							},
+							"minecraft:loot": {
+								"table": "loot_tables/entities/eaterofworlds.json"
+							},
+							"minecraft:despawn": {
+								"despawn_from_distance": {
+									"max_distance": 60,
+									"min_distance": 80
+								}
+							},
+							"minecraft:physics": {
+								"has_gravity": false,
+								"has_collision": false
+							},
+							"minecraft:scale": {
+								"value": 3
+							},
+							"minecraft:attack": {
+								"damage": 22
+							},
+							"minecraft:area_attack": {
+								"damage_range": 5,
+								"damage_per_tick": 1,
+								"cause": "contact",
+								"entity_filter": {
+									"any_of": [
+										{
+											"test": "is_family",
+											"subject": "other",
+											"value": "player"
+										},
+										{
+											"test": "is_family",
+											"subject": "other",
+											"value": "villager"
+										}
+									]
+								}
+							},
+							"minecraft:boss": {
+								"hud_range": 1000,
+								"name": "Eater of Worlds"
+							},
+							"minecraft:breathable": {
+								"breathes_water": true,
+								"breathes_lava": true,
+								"breathes_solids": true,
+								"breathes_air": true
+							},
+							"minecraft:type_family": {
+								"family": [
+									"terraria_players_enemy",
+									"terraria_boss"
+								]
+							}
+						}
+					}
+				},
+				"key": "minecraft:entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:eaterofworlds",
+								"is_spawnable": true,
+								"is_summonable": true,
+								"is_experimental": false,
+								"animations": {
+									"ai": "controller.animation.eaterofworlds_ai",
+									"other": "controller.animation.boss_1_other"
+								},
+								"scripts": {
+									"animate": [
+										"ai",
+										"other"
+									]
+								}
+							},
+							"component_groups": {
+								"terrariamod:despawn": {
+									"minecraft:instant_despawn": {
+										"remove_child_entities": true
+									}
+								}
+							},
+							"events": {},
+							"components": {
+								"minecraft:collision_box": {
+									"width": 5,
+									"height": 10
+								},
+								"minecraft:health": {
+									"value": 10050,
+									"max": 10050
+								},
+								"minecraft:loot": {
+									"table": "loot_tables/entities/eaterofworlds.json"
+								},
+								"minecraft:despawn": {
+									"despawn_from_distance": {
+										"max_distance": 60,
+										"min_distance": 80
+									}
+								},
+								"minecraft:physics": {
+									"has_gravity": false,
+									"has_collision": false
+								},
+								"minecraft:scale": {
+									"value": 3
+								},
+								"minecraft:attack": {
+									"damage": 22
+								},
+								"minecraft:area_attack": {
+									"damage_range": 5,
+									"damage_per_tick": 1,
+									"cause": "contact",
+									"entity_filter": {
+										"any_of": [
+											{
+												"test": "is_family",
+												"subject": "other",
+												"value": "player"
+											},
+											{
+												"test": "is_family",
+												"subject": "other",
+												"value": "villager"
+											}
+										]
+									}
+								},
+								"minecraft:boss": {
+									"hud_range": 1000,
+									"name": "Eater of Worlds"
+								},
+								"minecraft:breathable": {
+									"breathes_water": true,
+									"breathes_lava": true,
+									"breathes_solids": true,
+									"breathes_air": true
+								},
+								"minecraft:type_family": {
+									"family": [
+										"terraria_players_enemy",
+										"terraria_boss"
+									]
+								}
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"data": "terrariamod:eaterofworlds",
+								"key": "identifier"
+							},
+							{
+								"data": "true",
+								"key": "is_spawnable"
+							},
+							{
+								"data": "true",
+								"key": "is_summonable"
+							},
+							{
+								"data": "false",
+								"key": "is_experimental"
+							},
+							{
+								"open": {
+									"identifier": "terrariamod:eaterofworlds",
+									"is_spawnable": true,
+									"is_summonable": true,
+									"is_experimental": false,
+									"animations": {
+										"ai": "controller.animation.eaterofworlds_ai",
+										"other": "controller.animation.boss_1_other"
+									},
+									"scripts": {
+										"animate": [
+											"ai",
+											"other"
+										]
+									}
+								},
+								"key": "animations",
+								"is_minified": true,
+								"children": {
+									"ai": "controller.animation.eaterofworlds_ai",
+									"other": "controller.animation.boss_1_other"
+								}
+							},
+							{
+								"open": {
+									"identifier": "terrariamod:eaterofworlds",
+									"is_spawnable": true,
+									"is_summonable": true,
+									"is_experimental": false,
+									"animations": {
+										"ai": "controller.animation.eaterofworlds_ai",
+										"other": "controller.animation.boss_1_other"
+									},
+									"scripts": {
+										"animate": [
+											"ai",
+											"other"
+										]
+									}
+								},
+								"key": "scripts",
+								"children": [
+									{
+										"open": {
+											"animate": [
+												"ai",
+												"other"
+											]
+										},
+										"key": "animate",
+										"is_minified": true,
+										"children": [
+											"ai",
+											"other"
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"key": "component_groups",
+						"is_minified": true,
+						"children": {
+							"terrariamod:despawn": {
+								"minecraft:instant_despawn": {
+									"remove_child_entities": true
+								}
+							}
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:eaterofworlds",
+								"is_spawnable": true,
+								"is_summonable": true,
+								"is_experimental": false,
+								"animations": {
+									"ai": "controller.animation.eaterofworlds_ai",
+									"other": "controller.animation.boss_1_other"
+								},
+								"scripts": {
+									"animate": [
+										"ai",
+										"other"
+									]
+								}
+							},
+							"component_groups": {
+								"terrariamod:despawn": {
+									"minecraft:instant_despawn": {
+										"remove_child_entities": true
+									}
+								}
+							},
+							"events": {},
+							"components": {
+								"minecraft:collision_box": {
+									"width": 5,
+									"height": 10
+								},
+								"minecraft:health": {
+									"value": 10050,
+									"max": 10050
+								},
+								"minecraft:loot": {
+									"table": "loot_tables/entities/eaterofworlds.json"
+								},
+								"minecraft:despawn": {
+									"despawn_from_distance": {
+										"max_distance": 60,
+										"min_distance": 80
+									}
+								},
+								"minecraft:physics": {
+									"has_gravity": false,
+									"has_collision": false
+								},
+								"minecraft:scale": {
+									"value": 3
+								},
+								"minecraft:attack": {
+									"damage": 22
+								},
+								"minecraft:area_attack": {
+									"damage_range": 5,
+									"damage_per_tick": 1,
+									"cause": "contact",
+									"entity_filter": {
+										"any_of": [
+											{
+												"test": "is_family",
+												"subject": "other",
+												"value": "player"
+											},
+											{
+												"test": "is_family",
+												"subject": "other",
+												"value": "villager"
+											}
+										]
+									}
+								},
+								"minecraft:boss": {
+									"hud_range": 1000,
+									"name": "Eater of Worlds"
+								},
+								"minecraft:breathable": {
+									"breathes_water": true,
+									"breathes_lava": true,
+									"breathes_solids": true,
+									"breathes_air": true
+								},
+								"minecraft:type_family": {
+									"family": [
+										"terraria_players_enemy",
+										"terraria_boss"
+									]
+								}
+							}
+						},
+						"key": "events",
+						"is_minified": true,
+						"children": {}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:eaterofworlds",
+								"is_spawnable": true,
+								"is_summonable": true,
+								"is_experimental": false,
+								"animations": {
+									"ai": "controller.animation.eaterofworlds_ai",
+									"other": "controller.animation.boss_1_other"
+								},
+								"scripts": {
+									"animate": [
+										"ai",
+										"other"
+									]
+								}
+							},
+							"component_groups": {
+								"terrariamod:despawn": {
+									"minecraft:instant_despawn": {
+										"remove_child_entities": true
+									}
+								}
+							},
+							"events": {},
+							"components": {
+								"minecraft:collision_box": {
+									"width": 5,
+									"height": 10
+								},
+								"minecraft:health": {
+									"value": 10050,
+									"max": 10050
+								},
+								"minecraft:loot": {
+									"table": "loot_tables/entities/eaterofworlds.json"
+								},
+								"minecraft:despawn": {
+									"despawn_from_distance": {
+										"max_distance": 60,
+										"min_distance": 80
+									}
+								},
+								"minecraft:physics": {
+									"has_gravity": false,
+									"has_collision": false
+								},
+								"minecraft:scale": {
+									"value": 3
+								},
+								"minecraft:attack": {
+									"damage": 22
+								},
+								"minecraft:area_attack": {
+									"damage_range": 5,
+									"damage_per_tick": 1,
+									"cause": "contact",
+									"entity_filter": {
+										"any_of": [
+											{
+												"test": "is_family",
+												"subject": "other",
+												"value": "player"
+											},
+											{
+												"test": "is_family",
+												"subject": "other",
+												"value": "villager"
+											}
+										]
+									}
+								},
+								"minecraft:boss": {
+									"hud_range": 1000,
+									"name": "Eater of Worlds"
+								},
+								"minecraft:breathable": {
+									"breathes_water": true,
+									"breathes_lava": true,
+									"breathes_solids": true,
+									"breathes_air": true
+								},
+								"minecraft:type_family": {
+									"family": [
+										"terraria_players_enemy",
+										"terraria_boss"
+									]
+								}
+							}
+						},
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:collision_box": {
+								"width": 5,
+								"height": 10
+							},
+							"minecraft:health": {
+								"value": 10050,
+								"max": 10050
+							},
+							"minecraft:loot": {
+								"table": "loot_tables/entities/eaterofworlds.json"
+							},
+							"minecraft:despawn": {
+								"despawn_from_distance": {
+									"max_distance": 60,
+									"min_distance": 80
+								}
+							},
+							"minecraft:physics": {
+								"has_gravity": false,
+								"has_collision": false
+							},
+							"minecraft:scale": {
+								"value": 3
+							},
+							"minecraft:attack": {
+								"damage": 22
+							},
+							"minecraft:area_attack": {
+								"damage_range": 5,
+								"damage_per_tick": 1,
+								"cause": "contact",
+								"entity_filter": {
+									"any_of": [
+										{
+											"test": "is_family",
+											"subject": "other",
+											"value": "player"
+										},
+										{
+											"test": "is_family",
+											"subject": "other",
+											"value": "villager"
+										}
+									]
+								}
+							},
+							"minecraft:boss": {
+								"hud_range": 1000,
+								"name": "Eater of Worlds"
+							},
+							"minecraft:breathable": {
+								"breathes_water": true,
+								"breathes_lava": true,
+								"breathes_solids": true,
+								"breathes_air": true
+							},
+							"minecraft:type_family": {
+								"family": [
+									"terraria_players_enemy",
+									"terraria_boss"
+								]
+							}
+						}
+					}
+				]
+			}
+		]
+	}
+}

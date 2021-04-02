@@ -1,4 +1,4 @@
-//bridge-file-version: #101
+//bridge-file-version: #103
 {
 	"format_version": "1.16.0",
 	"minecraft:entity": {
@@ -6,7 +6,15 @@
 			"identifier": "terrariamod:queenbee",
 			"is_spawnable": true,
 			"is_summonable": true,
-			"is_experimental": false
+			"is_experimental": false,
+			"scripts": {
+				"animate": [
+					"other"
+				]
+			},
+			"animations": {
+				"other": "controller.animation.boss_5_other"
+			}
 		},
 		"component_groups": {
 			"terrariamod:ram": {
@@ -33,11 +41,6 @@
 			}
 		},
 		"components": {
-			"minecraft:type_family": {
-				"family": [
-					"terraria_players_enemy"
-				]
-			},
 			"minecraft:loot": {
 				"table": "loot_tables/entities/queenbee.json"
 			},
@@ -151,6 +154,12 @@
 				"time_down_event": {
 					"event": "terrariamod:switch_attack"
 				}
+			},
+			"minecraft:type_family": {
+				"family": [
+					"terraria_players_enemy",
+					"terraria_boss"
+				]
 			}
 		},
 		"events": {

@@ -1,4 +1,4 @@
-//bridge-file-version: #19
+//bridge-file-version: #22
 {
 	"format_version": "1.16.0",
 	"minecraft:entity": {
@@ -9,11 +9,13 @@
 			"is_experimental": false,
 			"scripts": {
 				"animate": [
-					"bridge_execute_commands"
+					"bridge_execute_commands",
+					"other"
 				]
 			},
 			"animations": {
-				"bridge_execute_commands": "controller.animation.bridge_brainofcthulhu_stagetwo.execute_commands"
+				"bridge_execute_commands": "controller.animation.bridge_brainofcthulhu_stagetwo.execute_commands",
+				"other": "controller.animation.boss_3_other"
 			}
 		},
 		"component_groups": {
@@ -36,11 +38,6 @@
 		"components": {
 			"minecraft:experience_reward": {
 				"on_death": "query.last_hit_by_player ? 5 : 0"
-			},
-			"minecraft:type_family": {
-				"family": [
-					"terraria_players_enemy"
-				]
 			},
 			"minecraft:loot": {
 				"table": "loot_tables/entities/brainofcthulhu.json"
@@ -190,6 +187,12 @@
 					},
 					"event": "terrariamod:despawn_entity"
 				}
+			},
+			"minecraft:type_family": {
+				"family": [
+					"terraria_players_enemy",
+					"terraria_boss"
+				]
 			}
 		},
 		"events": {

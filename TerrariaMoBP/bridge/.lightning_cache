@@ -1,0 +1,464 @@
+{
+	"entity": {
+		"BP/entities/skeletron_head_stagetwo.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:skeletron_head_stagetwo"
+			],
+			"animation_references": [
+				"skeletron_head_stagetwo_death",
+				"other"
+			],
+			"families": [
+				"terraria_players_enemy",
+				"terraria_boss"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/skeletron_head.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:skeletron_head"
+			],
+			"animation_references": [
+				"skeletron_head_death",
+				"other"
+			],
+			"families": [
+				"terraria_players_enemy",
+				"terraria_boss"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/skeletron_arm.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:skeletron_arm"
+			],
+			"animation_references": [
+				"skeletron_arm_death",
+				"other"
+			],
+			"families": [
+				"terraria_players_enemy",
+				"terraria_boss"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/eaterofworlds.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:eaterofworlds"
+			],
+			"animation_references": [
+				"ai",
+				"other"
+			],
+			"families": [
+				"terraria_players_enemy",
+				"terraria_boss"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/player.json": {
+			"events": [
+				"minecraft:gain_bad_omen",
+				"minecraft:clear_add_bad_omen",
+				"minecraft:trigger_raid",
+				"minecraft:remove_raid_trigger",
+				"minecraft:mana",
+				"minecraft:hellstone_event",
+				"minecraft:entity_spawned",
+				"bridge:remove_command_id_1"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"minecraft:player"
+			],
+			"animation_references": [
+				"mana",
+				"health",
+				"lifecrystal",
+				"music",
+				"event"
+			],
+			"families": [
+				"player"
+			],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/entities/wallofflesh.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:wallofflesh"
+			],
+			"animation_references": [
+				"ai",
+				"other"
+			],
+			"families": [
+				"terraria_players_enemy",
+				"terraria_boss"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/kingslime.json": {
+			"events": [
+				"terrariamod:tp",
+				"bridge:remove_command_id_1"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:kingslime"
+			],
+			"animation_references": [
+				"bridge_execute_commands",
+				"other"
+			],
+			"families": [
+				"terraria_players_enemy",
+				"terraria_boss"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/eyeofcthulhu_stageone.json": {
+			"events": [
+				"terrariamod:despawn_entity"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:eyeofcthulhu_stageone"
+			],
+			"animation_references": [
+				"to_stage_2",
+				"bridge_execute_commands",
+				"other"
+			],
+			"families": [
+				"terraria_players_enemy",
+				"terraria_boss"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/eyeofcthulhu_stagetwo.json": {
+			"events": [
+				"terrariamod:despawn_entity"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:eyeofcthulhu_stagetwo"
+			],
+			"animation_references": [
+				"other"
+			],
+			"families": [
+				"terraria_players_enemy",
+				"terraria_boss"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/brainofcthulhu_stageone.json": {
+			"events": [
+				"terrariamod:despawn_entity",
+				"bridge:remove_command_id_1"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:brainofcthulhu_stageone"
+			],
+			"animation_references": [
+				"to_stage_2",
+				"bridge_execute_commands",
+				"other"
+			],
+			"families": [
+				"terraria_players_enemy",
+				"terraria_boss"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/brainofcthulhu_stagetwo.json": {
+			"events": [
+				"terrariamod:despawn_entity",
+				"bridge:remove_command_id_1"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:brainofcthulhu_stagetwo"
+			],
+			"animation_references": [
+				"bridge_execute_commands",
+				"other"
+			],
+			"families": [
+				"terraria_players_enemy",
+				"terraria_boss"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/queenbee.json": {
+			"events": [
+				"terrariamod:switch_attack"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:queenbee"
+			],
+			"animation_references": [
+				"other"
+			],
+			"families": [
+				"terraria_players_enemy",
+				"terraria_boss"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/minionslime.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:minionslime"
+			],
+			"animation_references": [],
+			"families": [
+				"minionslime",
+				"monster",
+				"mob"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		}
+	},
+	"function": {
+		"3b692332_5f20_43fd_b2e0_62b14256c105": {},
+		"generic": {},
+		"ecd24485_1e19_413d_81c7_8554ac83cc39": {},
+		"88beb231_b7da_444d_b5ec_9a92d126fbb4": {},
+		"b205d07e_3268_4925_b0de_b591a0d0da28": {},
+		"5edb7ab0_5549_40a5_9594_1f86a27c8f6b": {},
+		"b74cdf48_0d5c_474b_bb55_99657af0ec45": {},
+		"598527c5_258a_4fef_bb02_d41f4755b1e9": {},
+		"9fd3ca85_27d9_4eea_9acb_2ef5f0e170e6": {},
+		"21a251ff_ce66_4694_a8a0_bc395238f4ad": {},
+		"196f38df_6cfd_4608_889e_fffaefc95f85": {},
+		"d1a00f49_b097_4433_9546_ba24d853ec91": {},
+		"52a3464a_02ff_455b_9849_7113e9327ede": {},
+		"18c3e570_79e9_432d_85bd_21731b052794": {},
+		"b1881a08_e37f_41e9_91f4_54a7416b2795": {},
+		"436e7bf1_d9f7_452b_a280_58f1d2519ea3": {},
+		"15f7f3d3_97e8_42e9_ae4c_9c30b91bb88d": {},
+		"9ae98414_ca8f_4ce4_b51c_b5a1f6faf149": {},
+		"eaaf601a_ef82_4dff_ade7_c812fd922c97": {},
+		"e1d2344e_33a4_43c9_a280_7784faa9f907": {},
+		"d6582a36_6661_4079_b0dd_0e4e0980dc83": {},
+		"cdc2b8b2_72a0_436d_84c5_0a2178a575b4": {}
+	},
+	"block": {
+		"BP/blocks/purity_campfire.json": {
+			"identifiers": [
+				"terrariamod:purity_campfire"
+			],
+			"events": [
+				"terrariamod:particle",
+				"terrariamod:regen"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		}
+	},
+	"biome": {
+		"BP/biomes/purity_snow.json": {
+			"tags": [
+				"purity",
+				"purity_snow"
+			]
+		}
+	},
+	"item": {
+		"BP/items/wormfood.json": {
+			"identifiers": [
+				"terrariamod:wormfood"
+			],
+			"custom_commands": []
+		},
+		"BP/items/slimecrown.json": {
+			"identifiers": [
+				"terrariamod:slimecrown"
+			],
+			"custom_commands": []
+		},
+		"BP/items/suspiciouslookingeye.json": {
+			"identifiers": [
+				"terrariamod:suspiciouslookingeye"
+			],
+			"custom_commands": []
+		},
+		"BP/items/bloodyspine.json": {
+			"identifiers": [
+				"terrariamod:bloodyspine"
+			],
+			"custom_commands": []
+		},
+		"BP/items/abeemination.json": {
+			"identifiers": [
+				"terrariamod:abeemination"
+			],
+			"custom_commands": []
+		},
+		"BP/items/guidevoodoodoll.json": {
+			"identifiers": [
+				"terrariamod:guidevoodoodoll"
+			],
+			"custom_commands": []
+		},
+		"BP/items/spacegun.json": {
+			"identifiers": [
+				"terrariamod:spacegun"
+			],
+			"custom_commands": []
+		},
+		"BP/items/tinbar_pile.json": {
+			"identifiers": [
+				"terrariamod:tinbar_pile"
+			],
+			"custom_commands": []
+		}
+	},
+	"animation_controller": {
+		"BP/animation_controllers/music.json": {
+			"ids": [
+				"controller.animation.music"
+			],
+			"custom_commands": []
+		},
+		"BP/animation_controllers/boss_2_other.json": {
+			"ids": [
+				"controller.animation.boss_1_other"
+			],
+			"custom_commands": []
+		},
+		"BP/animation_controllers/boss_1_other.json": {
+			"ids": [
+				"controller.animation.boss_1_other"
+			],
+			"custom_commands": []
+		},
+		"BP/animation_controllers/boss_3_other.json": {
+			"ids": [
+				"controller.animation.boss_1_other"
+			],
+			"custom_commands": []
+		},
+		"BP/animation_controllers/boss_5_other.json": {
+			"ids": [
+				"controller.animation.boss_1_other"
+			],
+			"custom_commands": []
+		}
+	},
+	"client_entity": {
+		"RP/entity/servantofcthulhu.json": {
+			"identifiers": [
+				"terrariamod:servantofcthulhu"
+			],
+			"particle_references": [],
+			"animation_references": [],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		}
+	},
+	"sound_definition": {
+		"RP/sounds/sound_definitions.json": {
+			"ids": [
+				"bookofskulls.effect",
+				"twooden_door_open.effect",
+				"twooden_door_close.effect",
+				"bow.effect",
+				"minishark.effect",
+				"handgun.effect",
+				"phoenixblaster.effect",
+				"boomstick.effect",
+				"lifecrystal.effect",
+				"eyeofcthulhu.swoop",
+				"sporemob.death",
+				"effect.magicmirror",
+				"trackone.main",
+				"player_terraria.hurt",
+				"woodenarrow_projectile.main",
+				"bossone.main",
+				"demon.hurt",
+				"demon.ambient",
+				"demon.death",
+				"zombie_terraria.hurt",
+				"zombie_terraria.ambient",
+				"zombie_terraria.death",
+				"skeleton_terraria.hurt",
+				"skeleton_terraria.ambient",
+				"skeleton_terraria.death",
+				"skeletron.death",
+				"skeletron.hurt",
+				"skeletron.ambient",
+				"slime.ambient",
+				"slime.hurt",
+				"slime.death",
+				"demoneye.hurt",
+				"demoneye.death",
+				"wallofflesh.hurt",
+				"wallofflesh.death",
+				"get_enchanted_sword.effect",
+				"dayone",
+				"night",
+				"jungle",
+				"desert",
+				"corruption",
+				"underground",
+				"snow",
+				"crimson",
+				"desert_underground",
+				"jungle_underground",
+				"ice",
+				"crimson_underground",
+				"corruption_underground",
+				"underworld",
+				"terrariamod_gravel_sound",
+				"terrariamod_grass_sound",
+				"terrariamod_sand_sound",
+				"terrariamod_wood_sound",
+				"terrariamod_stone_sound",
+				"bossone",
+				"bosstwo",
+				"bossthree",
+				"bossfive"
+			]
+		}
+	}
+}

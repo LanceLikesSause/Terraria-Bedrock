@@ -1,4 +1,4 @@
-//bridge-file-version: #46
+//bridge-file-version: #57
 {
 	"format_version": "1.16.0",
 	"minecraft:entity": {
@@ -6,7 +6,15 @@
 			"identifier": "terrariamod:eyeofcthulhu_stagetwo",
 			"is_spawnable": true,
 			"is_summonable": true,
-			"is_experimental": false
+			"is_experimental": false,
+			"animations": {
+				"other": "controller.animation.boss_1_other"
+			},
+			"scripts": {
+				"animate": [
+					"other"
+				]
+			}
 		},
 		"component_groups": {
 			"terrariamod:despawn": {
@@ -16,11 +24,6 @@
 			}
 		},
 		"components": {
-			"minecraft:type_family": {
-				"family": [
-					"terraria_players_enemy"
-				]
-			},
 			"minecraft:loot": {
 				"table": "loot_tables/entities/eyeofcthulhu.json"
 			},
@@ -126,15 +129,17 @@
 						},
 						"max_dist": 64
 					}
-				]
+				],
+				"attack_interval": 1,
+				"persist_time": 20
 			},
 			"minecraft:behavior.swoop_attack": {
 				"priority": 2,
-				"damage_reach": 3.5,
-				"speed_multiplier": 60,
+				"damage_reach": 5,
+				"speed_multiplier": 90,
 				"delay_range": [
-					3,
-					3
+					0.1,
+					0.5
 				]
 			},
 			"minecraft:behavior.circle_around_anchor": {
@@ -169,6 +174,12 @@
 					},
 					"event": "terrariamod:despawn_entity"
 				}
+			},
+			"minecraft:type_family": {
+				"family": [
+					"terraria_players_enemy",
+					"terraria_boss"
+				]
 			}
 		},
 		"events": {

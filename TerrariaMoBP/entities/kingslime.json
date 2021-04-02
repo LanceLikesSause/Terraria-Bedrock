@@ -1,4 +1,4 @@
-//bridge-file-version: #39
+//bridge-file-version: #45
 {
 	"format_version": "1.16.0",
 	"minecraft:entity": {
@@ -9,20 +9,16 @@
 			"is_experimental": false,
 			"scripts": {
 				"animate": [
-					"bridge_execute_commands"
+					"bridge_execute_commands",
+					"other"
 				]
 			},
 			"animations": {
-				"bridge_execute_commands": "controller.animation.bridge_kingslime.execute_commands"
+				"bridge_execute_commands": "controller.animation.bridge_kingslime.execute_commands",
+				"other": "controller.animation.boss_1_other"
 			}
 		},
 		"components": {
-			"minecraft:type_family": {
-				"family": [
-					"slimes_terraria",
-					"terraria_players_enemy"
-				]
-			},
 			"minecraft:behavior.nearest_attackable_target": {
 				"priority": 2,
 				"must_see": true,
@@ -178,6 +174,12 @@
 					"value": "player"
 				},
 				"cause": "contact"
+			},
+			"minecraft:type_family": {
+				"family": [
+					"terraria_players_enemy",
+					"terraria_boss"
+				]
 			}
 		},
 		"events": {

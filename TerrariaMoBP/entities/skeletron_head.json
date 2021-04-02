@@ -1,4 +1,4 @@
-//bridge-file-version: #29
+//bridge-file-version: #33
 {
 	"format_version": "1.16.0",
 	"minecraft:entity": {
@@ -9,11 +9,13 @@
 			"is_experimental": false,
 			"scripts": {
 				"animate": [
-					"skeletron_head_death"
+					"skeletron_head_death",
+					"other"
 				]
 			},
 			"animations": {
-				"skeletron_head_death": "controller.animation.skeletron_head_death"
+				"skeletron_head_death": "controller.animation.skeletron_head_death",
+				"other": "controller.animation.boss_1_other"
 			}
 		},
 		"component_groups": {},
@@ -127,11 +129,6 @@
 				"width": 3,
 				"height": 3
 			},
-			"minecraft:type_family": {
-				"family": [
-					"terraria_players_enemy"
-				]
-			},
 			"minecraft:spawn_entity": {
 				"entities": [
 					{
@@ -142,6 +139,18 @@
 						"max_wait_time": 0,
 						"spawn_method": "born"
 					}
+				]
+			},
+			"minecraft:breathable": {
+				"breathes_water": true,
+				"breathes_lava": true,
+				"breathes_air": true,
+				"breathes_solids": true
+			},
+			"minecraft:type_family": {
+				"family": [
+					"terraria_players_enemy",
+					"terraria_boss"
 				]
 			}
 		},

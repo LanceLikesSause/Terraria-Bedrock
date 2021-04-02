@@ -1,5 +1,6 @@
-//bridge-file-version: #32
+//bridge-file-version: #38
 {
+	"format_version": "1.14.0",
 	"sound_definitions": {
 		"bookofskulls.effect": {
 			"category": "neutral",
@@ -53,12 +54,6 @@
 			"category": "music",
 			"sounds": [
 				"sounds/effects/health_crystal"
-			]
-		},
-		"eyeofcthulhu.music": {
-			"category": "music",
-			"sounds": [
-				"sounds/mobs/eyeofcthulhu/bossone"
 			]
 		},
 		"eyeofcthulhu.swoop": {
@@ -398,7 +393,46 @@
 			"sounds": [
 				"sounds/terrariamod_dig/stone1"
 			]
+		},
+		"bossone": {
+			"category": "music",
+			"sounds": [
+				{
+					"name": "sounds/music/bossone",
+					"stream": true,
+					"volume": 0.3
+				}
+			]
+		},
+		"bosstwo": {
+			"category": "music",
+			"sounds": [
+				{
+					"name": "sounds/music/bosstwo",
+					"stream": true,
+					"volume": 0.3
+				}
+			]
+		},
+		"bossthree": {
+			"category": "music",
+			"sounds": [
+				{
+					"name": "sounds/music/bossthree",
+					"stream": true,
+					"volume": 0.3
+				}
+			]
+		},
+		"bossfive": {
+			"category": "music",
+			"sounds": [
+				{
+					"name": "sounds/music/bossfive",
+					"stream": true,
+					"volume": 0.3
+				}
+			]
 		}
-	},
-	"format_version": "1.14.0"
+	}
 }

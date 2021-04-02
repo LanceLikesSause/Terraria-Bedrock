@@ -1,4 +1,4 @@
-//bridge-file-version: #15
+//bridge-file-version: #17
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
@@ -20,6 +20,10 @@
 				"on_use": {
 					"event": "terrariamod:summon"
 				}
+			},
+			"minecraft:cooldown": {
+				"category": "terrariamod_bosses",
+				"duration": 20
 			}
 		},
 		"events": {
@@ -27,8 +31,6 @@
 				"run_command": {
 					"command": [
 						"summon terrariamod:kingslime",
-						"stopsound @a",
-						"playsound eyeofcthulhu.music @a",
 						"tellraw @a {\"rawtext\":[{\"text\":\"§4The King Slime\"},{\"text\":\"§r has awoken!\"}]}",
 						"clear @s terrariamod:slimecrown 0 1"
 					]

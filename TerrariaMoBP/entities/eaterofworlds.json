@@ -1,4 +1,4 @@
-//bridge-file-version: #55
+//bridge-file-version: #58
 {
 	"format_version": "1.16.0",
 	"minecraft:entity": {
@@ -8,11 +8,13 @@
 			"is_summonable": true,
 			"is_experimental": false,
 			"animations": {
-				"ai": "controller.animation.eaterofworlds_ai"
+				"ai": "controller.animation.eaterofworlds_ai",
+				"other": "controller.animation.boss_1_other"
 			},
 			"scripts": {
 				"animate": [
-					"ai"
+					"ai",
+					"other"
 				]
 			}
 		},
@@ -25,12 +27,6 @@
 		},
 		"events": {},
 		"components": {
-			"minecraft:type_family": {
-				"family": [
-					"eaterofworlds",
-					"terraria_players_enemy"
-				]
-			},
 			"minecraft:collision_box": {
 				"width": 5,
 				"height": 10
@@ -80,6 +76,18 @@
 			"minecraft:boss": {
 				"hud_range": 1000,
 				"name": "Eater of Worlds"
+			},
+			"minecraft:breathable": {
+				"breathes_water": true,
+				"breathes_lava": true,
+				"breathes_solids": true,
+				"breathes_air": true
+			},
+			"minecraft:type_family": {
+				"family": [
+					"terraria_players_enemy",
+					"terraria_boss"
+				]
 			}
 		}
 	}

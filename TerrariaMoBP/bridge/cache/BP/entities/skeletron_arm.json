@@ -1,0 +1,1089 @@
+{
+	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\TerrariaMoBP\\entities\\skeletron_arm.json",
+	"file_type": "entity",
+	"format_version": 1,
+	"file_uuid": "e371dc70_25c1_424e_8046_d8539ce72ab5",
+	"file_version": 30,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.0",
+					"minecraft:entity": {
+						"description": {
+							"identifier": "terrariamod:skeletron_arm",
+							"is_spawnable": true,
+							"is_summonable": true,
+							"is_experimental": false,
+							"scripts": {
+								"animate": [
+									"skeletron_arm_death",
+									"other"
+								]
+							},
+							"animations": {
+								"skeletron_arm_death": "controller.animation.skeletron_arm_death",
+								"other": "controller.animation.boss_1_other"
+							}
+						},
+						"component_groups": {},
+						"components": {
+							"minecraft:health": {
+								"value": 4400,
+								"max": 4400
+							},
+							"minecraft:hurt_on_condition": {
+								"damage_conditions": [
+									{
+										"filters": {
+											"test": "in_lava",
+											"subject": "self",
+											"operator": "==",
+											"value": true
+										},
+										"cause": "lava",
+										"damage_per_tick": 4
+									}
+								]
+							},
+							"minecraft:physics": {
+								"has_gravity": false,
+								"has_collision": false
+							},
+							"minecraft:attack": {
+								"damage": 32
+							},
+							"minecraft:movement": {
+								"value": 1.8
+							},
+							"minecraft:movement.glide": {
+								"start_speed": 0.1,
+								"speed_when_turning": 0.2
+							},
+							"minecraft:follow_range": {
+								"value": 64,
+								"max": 64
+							},
+							"minecraft:despawn": {
+								"despawn_from_distance": {}
+							},
+							"minecraft:behavior.avoid_mob_type": {
+								"priority": 0,
+								"max_dist": 16,
+								"ignore_visibility": true,
+								"entity_types": [
+									{
+										"filters": {
+											"any_of": [
+												{
+													"test": "is_family",
+													"subject": "other",
+													"value": "ocelot"
+												},
+												{
+													"test": "is_family",
+													"subject": "other",
+													"value": "cat"
+												}
+											]
+										},
+										"max_dist": 16
+									}
+								]
+							},
+							"minecraft:behavior.nearest_attackable_target": {
+								"priority": 1,
+								"reselect_targets": true,
+								"scan_interval": 64,
+								"within_radius": 64,
+								"must_see_forget_duration": 0.5,
+								"target_search_height": 80,
+								"entity_types": [
+									{
+										"filters": {
+											"test": "is_family",
+											"subject": "other",
+											"value": "player"
+										},
+										"max_dist": 64
+									}
+								]
+							},
+							"minecraft:behavior.circle_around_anchor": {
+								"priority": 3,
+								"radius_change": 1,
+								"radius_adjustment_chance": 0.004,
+								"height_adjustment_chance": 0.002857,
+								"goal_radius": 1,
+								"angle_change": 15,
+								"radius_range": [
+									5,
+									15
+								],
+								"height_offset_range": [
+									-4,
+									5
+								],
+								"height_above_target_range": [
+									6,
+									12
+								]
+							},
+							"minecraft:behavior.swoop_attack": {
+								"priority": 2,
+								"damage_reach": 1.2,
+								"speed_multiplier": 3,
+								"delay_range": [
+									1,
+									2
+								]
+							},
+							"minecraft:boss": {
+								"hud_range": 36,
+								"name": "Skeletron's Hand"
+							},
+							"minecraft:collision_box": {
+								"width": 3,
+								"height": 3
+							},
+							"minecraft:behavior.follow_parent": {
+								"priority": 0,
+								"speed_multiplier": 1.2
+							},
+							"minecraft:breathable": {
+								"breathes_water": true,
+								"breathes_lava": true,
+								"breathes_air": true,
+								"breathes_solids": true
+							},
+							"minecraft:type_family": {
+								"family": [
+									"terraria_players_enemy",
+									"terraria_boss"
+								]
+							}
+						},
+						"events": {}
+					}
+				},
+				"key": "minecraft:entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:skeletron_arm",
+								"is_spawnable": true,
+								"is_summonable": true,
+								"is_experimental": false,
+								"scripts": {
+									"animate": [
+										"skeletron_arm_death",
+										"other"
+									]
+								},
+								"animations": {
+									"skeletron_arm_death": "controller.animation.skeletron_arm_death",
+									"other": "controller.animation.boss_1_other"
+								}
+							},
+							"component_groups": {},
+							"components": {
+								"minecraft:health": {
+									"value": 4400,
+									"max": 4400
+								},
+								"minecraft:hurt_on_condition": {
+									"damage_conditions": [
+										{
+											"filters": {
+												"test": "in_lava",
+												"subject": "self",
+												"operator": "==",
+												"value": true
+											},
+											"cause": "lava",
+											"damage_per_tick": 4
+										}
+									]
+								},
+								"minecraft:physics": {
+									"has_gravity": false,
+									"has_collision": false
+								},
+								"minecraft:attack": {
+									"damage": 32
+								},
+								"minecraft:movement": {
+									"value": 1.8
+								},
+								"minecraft:movement.glide": {
+									"start_speed": 0.1,
+									"speed_when_turning": 0.2
+								},
+								"minecraft:follow_range": {
+									"value": 64,
+									"max": 64
+								},
+								"minecraft:despawn": {
+									"despawn_from_distance": {}
+								},
+								"minecraft:behavior.avoid_mob_type": {
+									"priority": 0,
+									"max_dist": 16,
+									"ignore_visibility": true,
+									"entity_types": [
+										{
+											"filters": {
+												"any_of": [
+													{
+														"test": "is_family",
+														"subject": "other",
+														"value": "ocelot"
+													},
+													{
+														"test": "is_family",
+														"subject": "other",
+														"value": "cat"
+													}
+												]
+											},
+											"max_dist": 16
+										}
+									]
+								},
+								"minecraft:behavior.nearest_attackable_target": {
+									"priority": 1,
+									"reselect_targets": true,
+									"scan_interval": 64,
+									"within_radius": 64,
+									"must_see_forget_duration": 0.5,
+									"target_search_height": 80,
+									"entity_types": [
+										{
+											"filters": {
+												"test": "is_family",
+												"subject": "other",
+												"value": "player"
+											},
+											"max_dist": 64
+										}
+									]
+								},
+								"minecraft:behavior.circle_around_anchor": {
+									"priority": 3,
+									"radius_change": 1,
+									"radius_adjustment_chance": 0.004,
+									"height_adjustment_chance": 0.002857,
+									"goal_radius": 1,
+									"angle_change": 15,
+									"radius_range": [
+										5,
+										15
+									],
+									"height_offset_range": [
+										-4,
+										5
+									],
+									"height_above_target_range": [
+										6,
+										12
+									]
+								},
+								"minecraft:behavior.swoop_attack": {
+									"priority": 2,
+									"damage_reach": 1.2,
+									"speed_multiplier": 3,
+									"delay_range": [
+										1,
+										2
+									]
+								},
+								"minecraft:boss": {
+									"hud_range": 36,
+									"name": "Skeletron's Hand"
+								},
+								"minecraft:collision_box": {
+									"width": 3,
+									"height": 3
+								},
+								"minecraft:behavior.follow_parent": {
+									"priority": 0,
+									"speed_multiplier": 1.2
+								},
+								"minecraft:breathable": {
+									"breathes_water": true,
+									"breathes_lava": true,
+									"breathes_air": true,
+									"breathes_solids": true
+								},
+								"minecraft:type_family": {
+									"family": [
+										"terraria_players_enemy",
+										"terraria_boss"
+									]
+								}
+							},
+							"events": {}
+						},
+						"key": "description",
+						"children": [
+							{
+								"data": "terrariamod:skeletron_arm",
+								"key": "identifier"
+							},
+							{
+								"data": "true",
+								"key": "is_spawnable"
+							},
+							{
+								"data": "true",
+								"key": "is_summonable"
+							},
+							{
+								"data": "false",
+								"key": "is_experimental"
+							},
+							{
+								"open": {
+									"identifier": "terrariamod:skeletron_arm",
+									"is_spawnable": true,
+									"is_summonable": true,
+									"is_experimental": false,
+									"scripts": {
+										"animate": [
+											"skeletron_arm_death",
+											"other"
+										]
+									},
+									"animations": {
+										"skeletron_arm_death": "controller.animation.skeletron_arm_death",
+										"other": "controller.animation.boss_1_other"
+									}
+								},
+								"key": "scripts",
+								"children": [
+									{
+										"open": {
+											"animate": [
+												"skeletron_arm_death",
+												"other"
+											]
+										},
+										"key": "animate",
+										"is_minified": true,
+										"children": [
+											"skeletron_arm_death",
+											"other"
+										]
+									}
+								]
+							},
+							{
+								"open": {
+									"identifier": "terrariamod:skeletron_arm",
+									"is_spawnable": true,
+									"is_summonable": true,
+									"is_experimental": false,
+									"scripts": {
+										"animate": [
+											"skeletron_arm_death",
+											"other"
+										]
+									},
+									"animations": {
+										"skeletron_arm_death": "controller.animation.skeletron_arm_death",
+										"other": "controller.animation.boss_1_other"
+									}
+								},
+								"key": "animations",
+								"is_minified": true,
+								"children": {
+									"skeletron_arm_death": "controller.animation.skeletron_arm_death",
+									"other": "controller.animation.boss_1_other"
+								}
+							}
+						]
+					},
+					{
+						"key": "component_groups",
+						"is_minified": true,
+						"children": {}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:skeletron_arm",
+								"is_spawnable": true,
+								"is_summonable": true,
+								"is_experimental": false,
+								"scripts": {
+									"animate": [
+										"skeletron_arm_death",
+										"other"
+									]
+								},
+								"animations": {
+									"skeletron_arm_death": "controller.animation.skeletron_arm_death",
+									"other": "controller.animation.boss_1_other"
+								}
+							},
+							"component_groups": {},
+							"components": {
+								"minecraft:health": {
+									"value": 4400,
+									"max": 4400
+								},
+								"minecraft:hurt_on_condition": {
+									"damage_conditions": [
+										{
+											"filters": {
+												"test": "in_lava",
+												"subject": "self",
+												"operator": "==",
+												"value": true
+											},
+											"cause": "lava",
+											"damage_per_tick": 4
+										}
+									]
+								},
+								"minecraft:physics": {
+									"has_gravity": false,
+									"has_collision": false
+								},
+								"minecraft:attack": {
+									"damage": 32
+								},
+								"minecraft:movement": {
+									"value": 1.8
+								},
+								"minecraft:movement.glide": {
+									"start_speed": 0.1,
+									"speed_when_turning": 0.2
+								},
+								"minecraft:follow_range": {
+									"value": 64,
+									"max": 64
+								},
+								"minecraft:despawn": {
+									"despawn_from_distance": {}
+								},
+								"minecraft:behavior.avoid_mob_type": {
+									"priority": 0,
+									"max_dist": 16,
+									"ignore_visibility": true,
+									"entity_types": [
+										{
+											"filters": {
+												"any_of": [
+													{
+														"test": "is_family",
+														"subject": "other",
+														"value": "ocelot"
+													},
+													{
+														"test": "is_family",
+														"subject": "other",
+														"value": "cat"
+													}
+												]
+											},
+											"max_dist": 16
+										}
+									]
+								},
+								"minecraft:behavior.nearest_attackable_target": {
+									"priority": 1,
+									"reselect_targets": true,
+									"scan_interval": 64,
+									"within_radius": 64,
+									"must_see_forget_duration": 0.5,
+									"target_search_height": 80,
+									"entity_types": [
+										{
+											"filters": {
+												"test": "is_family",
+												"subject": "other",
+												"value": "player"
+											},
+											"max_dist": 64
+										}
+									]
+								},
+								"minecraft:behavior.circle_around_anchor": {
+									"priority": 3,
+									"radius_change": 1,
+									"radius_adjustment_chance": 0.004,
+									"height_adjustment_chance": 0.002857,
+									"goal_radius": 1,
+									"angle_change": 15,
+									"radius_range": [
+										5,
+										15
+									],
+									"height_offset_range": [
+										-4,
+										5
+									],
+									"height_above_target_range": [
+										6,
+										12
+									]
+								},
+								"minecraft:behavior.swoop_attack": {
+									"priority": 2,
+									"damage_reach": 1.2,
+									"speed_multiplier": 3,
+									"delay_range": [
+										1,
+										2
+									]
+								},
+								"minecraft:boss": {
+									"hud_range": 36,
+									"name": "Skeletron's Hand"
+								},
+								"minecraft:collision_box": {
+									"width": 3,
+									"height": 3
+								},
+								"minecraft:behavior.follow_parent": {
+									"priority": 0,
+									"speed_multiplier": 1.2
+								},
+								"minecraft:breathable": {
+									"breathes_water": true,
+									"breathes_lava": true,
+									"breathes_air": true,
+									"breathes_solids": true
+								},
+								"minecraft:type_family": {
+									"family": [
+										"terraria_players_enemy",
+										"terraria_boss"
+									]
+								}
+							},
+							"events": {}
+						},
+						"key": "components",
+						"children": [
+							{
+								"key": "minecraft:health",
+								"is_minified": true,
+								"children": {
+									"value": 4400,
+									"max": 4400
+								}
+							},
+							{
+								"key": "minecraft:hurt_on_condition",
+								"is_minified": true,
+								"children": {
+									"damage_conditions": [
+										{
+											"filters": {
+												"test": "in_lava",
+												"subject": "self",
+												"operator": "==",
+												"value": true
+											},
+											"cause": "lava",
+											"damage_per_tick": 4
+										}
+									]
+								}
+							},
+							{
+								"key": "minecraft:physics",
+								"is_minified": true,
+								"children": {
+									"has_gravity": false,
+									"has_collision": false
+								}
+							},
+							{
+								"key": "minecraft:attack",
+								"is_minified": true,
+								"children": {
+									"damage": 32
+								}
+							},
+							{
+								"key": "minecraft:movement",
+								"is_minified": true,
+								"children": {
+									"value": 1.8
+								}
+							},
+							{
+								"key": "minecraft:movement.glide",
+								"is_minified": true,
+								"children": {
+									"start_speed": 0.1,
+									"speed_when_turning": 0.2
+								}
+							},
+							{
+								"key": "minecraft:follow_range",
+								"is_minified": true,
+								"children": {
+									"value": 64,
+									"max": 64
+								}
+							},
+							{
+								"key": "minecraft:despawn",
+								"is_minified": true,
+								"children": {
+									"despawn_from_distance": {}
+								}
+							},
+							{
+								"key": "minecraft:behavior.avoid_mob_type",
+								"is_minified": true,
+								"children": {
+									"priority": 0,
+									"max_dist": 16,
+									"ignore_visibility": true,
+									"entity_types": [
+										{
+											"filters": {
+												"any_of": [
+													{
+														"test": "is_family",
+														"subject": "other",
+														"value": "ocelot"
+													},
+													{
+														"test": "is_family",
+														"subject": "other",
+														"value": "cat"
+													}
+												]
+											},
+											"max_dist": 16
+										}
+									]
+								}
+							},
+							{
+								"key": "minecraft:behavior.nearest_attackable_target",
+								"is_minified": true,
+								"children": {
+									"priority": 1,
+									"reselect_targets": true,
+									"scan_interval": 64,
+									"within_radius": 64,
+									"must_see_forget_duration": 0.5,
+									"target_search_height": 80,
+									"entity_types": [
+										{
+											"filters": {
+												"test": "is_family",
+												"subject": "other",
+												"value": "player"
+											},
+											"max_dist": 64
+										}
+									]
+								}
+							},
+							{
+								"key": "minecraft:behavior.circle_around_anchor",
+								"is_minified": true,
+								"children": {
+									"priority": 3,
+									"radius_change": 1,
+									"radius_adjustment_chance": 0.004,
+									"height_adjustment_chance": 0.002857,
+									"goal_radius": 1,
+									"angle_change": 15,
+									"radius_range": [
+										5,
+										15
+									],
+									"height_offset_range": [
+										-4,
+										5
+									],
+									"height_above_target_range": [
+										6,
+										12
+									]
+								}
+							},
+							{
+								"key": "minecraft:behavior.swoop_attack",
+								"is_minified": true,
+								"children": {
+									"priority": 2,
+									"damage_reach": 1.2,
+									"speed_multiplier": 3,
+									"delay_range": [
+										1,
+										2
+									]
+								}
+							},
+							{
+								"key": "minecraft:boss",
+								"is_minified": true,
+								"children": {
+									"hud_range": 36,
+									"name": "Skeletron's Hand"
+								}
+							},
+							{
+								"key": "minecraft:collision_box",
+								"is_minified": true,
+								"children": {
+									"width": 3,
+									"height": 3
+								}
+							},
+							{
+								"key": "minecraft:behavior.follow_parent",
+								"is_minified": true,
+								"children": {
+									"priority": 0,
+									"speed_multiplier": 1.2
+								}
+							},
+							{
+								"key": "minecraft:breathable",
+								"is_minified": true,
+								"children": {
+									"breathes_water": true,
+									"breathes_lava": true,
+									"breathes_air": true,
+									"breathes_solids": true
+								}
+							},
+							{
+								"open": {
+									"minecraft:health": {
+										"value": 4400,
+										"max": 4400
+									},
+									"minecraft:hurt_on_condition": {
+										"damage_conditions": [
+											{
+												"filters": {
+													"test": "in_lava",
+													"subject": "self",
+													"operator": "==",
+													"value": true
+												},
+												"cause": "lava",
+												"damage_per_tick": 4
+											}
+										]
+									},
+									"minecraft:physics": {
+										"has_gravity": false,
+										"has_collision": false
+									},
+									"minecraft:attack": {
+										"damage": 32
+									},
+									"minecraft:movement": {
+										"value": 1.8
+									},
+									"minecraft:movement.glide": {
+										"start_speed": 0.1,
+										"speed_when_turning": 0.2
+									},
+									"minecraft:follow_range": {
+										"value": 64,
+										"max": 64
+									},
+									"minecraft:despawn": {
+										"despawn_from_distance": {}
+									},
+									"minecraft:behavior.avoid_mob_type": {
+										"priority": 0,
+										"max_dist": 16,
+										"ignore_visibility": true,
+										"entity_types": [
+											{
+												"filters": {
+													"any_of": [
+														{
+															"test": "is_family",
+															"subject": "other",
+															"value": "ocelot"
+														},
+														{
+															"test": "is_family",
+															"subject": "other",
+															"value": "cat"
+														}
+													]
+												},
+												"max_dist": 16
+											}
+										]
+									},
+									"minecraft:behavior.nearest_attackable_target": {
+										"priority": 1,
+										"reselect_targets": true,
+										"scan_interval": 64,
+										"within_radius": 64,
+										"must_see_forget_duration": 0.5,
+										"target_search_height": 80,
+										"entity_types": [
+											{
+												"filters": {
+													"test": "is_family",
+													"subject": "other",
+													"value": "player"
+												},
+												"max_dist": 64
+											}
+										]
+									},
+									"minecraft:behavior.circle_around_anchor": {
+										"priority": 3,
+										"radius_change": 1,
+										"radius_adjustment_chance": 0.004,
+										"height_adjustment_chance": 0.002857,
+										"goal_radius": 1,
+										"angle_change": 15,
+										"radius_range": [
+											5,
+											15
+										],
+										"height_offset_range": [
+											-4,
+											5
+										],
+										"height_above_target_range": [
+											6,
+											12
+										]
+									},
+									"minecraft:behavior.swoop_attack": {
+										"priority": 2,
+										"damage_reach": 1.2,
+										"speed_multiplier": 3,
+										"delay_range": [
+											1,
+											2
+										]
+									},
+									"minecraft:boss": {
+										"hud_range": 36,
+										"name": "Skeletron's Hand"
+									},
+									"minecraft:collision_box": {
+										"width": 3,
+										"height": 3
+									},
+									"minecraft:behavior.follow_parent": {
+										"priority": 0,
+										"speed_multiplier": 1.2
+									},
+									"minecraft:breathable": {
+										"breathes_water": true,
+										"breathes_lava": true,
+										"breathes_air": true,
+										"breathes_solids": true
+									},
+									"minecraft:type_family": {
+										"family": [
+											"terraria_players_enemy",
+											"terraria_boss"
+										]
+									}
+								},
+								"key": "minecraft:type_family",
+								"children": [
+									{
+										"open": {
+											"family": [
+												"terraria_players_enemy",
+												"terraria_boss"
+											]
+										},
+										"key": "family",
+										"is_minified": true,
+										"children": [
+											"terraria_players_enemy",
+											"terraria_boss"
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:skeletron_arm",
+								"is_spawnable": true,
+								"is_summonable": true,
+								"is_experimental": false,
+								"scripts": {
+									"animate": [
+										"skeletron_arm_death",
+										"other"
+									]
+								},
+								"animations": {
+									"skeletron_arm_death": "controller.animation.skeletron_arm_death",
+									"other": "controller.animation.boss_1_other"
+								}
+							},
+							"component_groups": {},
+							"components": {
+								"minecraft:health": {
+									"value": 4400,
+									"max": 4400
+								},
+								"minecraft:hurt_on_condition": {
+									"damage_conditions": [
+										{
+											"filters": {
+												"test": "in_lava",
+												"subject": "self",
+												"operator": "==",
+												"value": true
+											},
+											"cause": "lava",
+											"damage_per_tick": 4
+										}
+									]
+								},
+								"minecraft:physics": {
+									"has_gravity": false,
+									"has_collision": false
+								},
+								"minecraft:attack": {
+									"damage": 32
+								},
+								"minecraft:movement": {
+									"value": 1.8
+								},
+								"minecraft:movement.glide": {
+									"start_speed": 0.1,
+									"speed_when_turning": 0.2
+								},
+								"minecraft:follow_range": {
+									"value": 64,
+									"max": 64
+								},
+								"minecraft:despawn": {
+									"despawn_from_distance": {}
+								},
+								"minecraft:behavior.avoid_mob_type": {
+									"priority": 0,
+									"max_dist": 16,
+									"ignore_visibility": true,
+									"entity_types": [
+										{
+											"filters": {
+												"any_of": [
+													{
+														"test": "is_family",
+														"subject": "other",
+														"value": "ocelot"
+													},
+													{
+														"test": "is_family",
+														"subject": "other",
+														"value": "cat"
+													}
+												]
+											},
+											"max_dist": 16
+										}
+									]
+								},
+								"minecraft:behavior.nearest_attackable_target": {
+									"priority": 1,
+									"reselect_targets": true,
+									"scan_interval": 64,
+									"within_radius": 64,
+									"must_see_forget_duration": 0.5,
+									"target_search_height": 80,
+									"entity_types": [
+										{
+											"filters": {
+												"test": "is_family",
+												"subject": "other",
+												"value": "player"
+											},
+											"max_dist": 64
+										}
+									]
+								},
+								"minecraft:behavior.circle_around_anchor": {
+									"priority": 3,
+									"radius_change": 1,
+									"radius_adjustment_chance": 0.004,
+									"height_adjustment_chance": 0.002857,
+									"goal_radius": 1,
+									"angle_change": 15,
+									"radius_range": [
+										5,
+										15
+									],
+									"height_offset_range": [
+										-4,
+										5
+									],
+									"height_above_target_range": [
+										6,
+										12
+									]
+								},
+								"minecraft:behavior.swoop_attack": {
+									"priority": 2,
+									"damage_reach": 1.2,
+									"speed_multiplier": 3,
+									"delay_range": [
+										1,
+										2
+									]
+								},
+								"minecraft:boss": {
+									"hud_range": 36,
+									"name": "Skeletron's Hand"
+								},
+								"minecraft:collision_box": {
+									"width": 3,
+									"height": 3
+								},
+								"minecraft:behavior.follow_parent": {
+									"priority": 0,
+									"speed_multiplier": 1.2
+								},
+								"minecraft:breathable": {
+									"breathes_water": true,
+									"breathes_lava": true,
+									"breathes_air": true,
+									"breathes_solids": true
+								},
+								"minecraft:type_family": {
+									"family": [
+										"terraria_players_enemy",
+										"terraria_boss"
+									]
+								}
+							},
+							"events": {}
+						},
+						"key": "events",
+						"is_minified": true,
+						"children": {}
+					}
+				]
+			}
+		]
+	}
+}

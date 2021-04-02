@@ -1,9 +1,10 @@
-//bridge-file-version: #8
+//bridge-file-version: #9
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
 		"description": {
-			"identifier": "terrariamod:tinbar_pile"
+			"identifier": "terrariamod:tinbar_pile",
+			"category": "items"
 		},
 		"components": {
 			"minecraft:display_name": {
@@ -11,6 +12,9 @@
 			},
 			"minecraft:icon": {
 				"texture": "terrariamod:tinbar_pile"
+			},
+			"minecraft:creative_category": {
+				"parent": "items"
 			}
 		},
 		"events": {}

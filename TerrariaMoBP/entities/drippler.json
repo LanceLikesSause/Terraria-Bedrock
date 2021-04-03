@@ -1,4 +1,4 @@
-//bridge-file-version: #19
+//bridge-file-version: #23
 {
 	"format_version": "1.16.0",
 	"minecraft:entity": {
@@ -12,7 +12,8 @@
 		"components": {
 			"minecraft:type_family": {
 				"family": [
-					"terraria_players_enemy"
+					"terraria_players_enemy",
+					"terraria_boss"
 				]
 			},
 			"minecraft:nameable": {},
@@ -150,8 +151,19 @@
 			},
 			"minecraft:loot": {
 				"table": "loot_tables/entities/blood_moon.json"
+			},
+			"minecraft:on_death": {
+				"event": "terrariamod:hurt"
 			}
 		},
-		"events": {}
+		"events": {
+			"terrariamod:hurt": {
+				"run_command": {
+					"command": [
+						"effect @e[type=terrariamod:bloodmoon_dummy] instant_damage 1 1"
+					]
+				}
+			}
+		}
 	}
 }

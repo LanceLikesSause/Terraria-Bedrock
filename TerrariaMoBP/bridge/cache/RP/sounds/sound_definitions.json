@@ -3,7 +3,7 @@
 	"file_type": "sound_definition",
 	"format_version": 1,
 	"file_uuid": "346d8a25_c009_4672_b716_91af655ccf63",
-	"file_version": 38,
+	"file_version": 41,
 	"cache_content": {
 		"children": [
 			{
@@ -441,6 +441,26 @@
 							"sounds": [
 								{
 									"name": "sounds/music/bossfive",
+									"stream": true,
+									"volume": 0.3
+								}
+							]
+						},
+						"goblinarmy": {
+							"category": "music",
+							"sounds": [
+								{
+									"name": "sounds/music/goblinarmy",
+									"stream": true,
+									"volume": 0.3
+								}
+							]
+						},
+						"bloodmoon": {
+							"category": "music",
+							"sounds": [
+								{
+									"name": "sounds/music/bloodmoon",
 									"stream": true,
 									"volume": 0.3
 								}
@@ -1088,440 +1108,6 @@
 						}
 					},
 					{
-						"open": {
-							"bookofskulls.effect": {
-								"category": "neutral",
-								"sounds": [
-									"sounds/effects/bookofskulls"
-								]
-							},
-							"twooden_door_open.effect": {
-								"category": "neutral",
-								"sounds": [
-									"sounds/effects/twooden_door_open"
-								]
-							},
-							"twooden_door_close.effect": {
-								"category": "neutral",
-								"sounds": [
-									"sounds/effects/twooden_door_close"
-								]
-							},
-							"bow.effect": {
-								"category": "neutral",
-								"sounds": [
-									"sounds/effects/bow"
-								]
-							},
-							"minishark.effect": {
-								"category": "neutral",
-								"sounds": [
-									"sounds/effects/minishark"
-								]
-							},
-							"handgun.effect": {
-								"category": "neutral",
-								"sounds": [
-									"sounds/effects/handgun"
-								]
-							},
-							"phoenixblaster.effect": {
-								"category": "neutral",
-								"sounds": [
-									"sounds/effects/phoenixblaster"
-								]
-							},
-							"boomstick.effect": {
-								"category": "neutral",
-								"sounds": [
-									"sounds/effects/boomstick"
-								]
-							},
-							"lifecrystal.effect": {
-								"category": "music",
-								"sounds": [
-									"sounds/effects/health_crystal"
-								]
-							},
-							"eyeofcthulhu.swoop": {
-								"category": "music",
-								"sounds": [
-									"sounds/mobs/eyeofcthulhu/roar"
-								]
-							},
-							"sporemob.death": {
-								"category": "hostile",
-								"sounds": [
-									"sounds/mobs/sporemob/death1"
-								]
-							},
-							"effect.magicmirror": {
-								"category": "music",
-								"sounds": [
-									"sounds/effects/magicmirror"
-								]
-							},
-							"trackone.main": {
-								"category": "music",
-								"sounds": [
-									"sounds/music/track/track1"
-								]
-							},
-							"player_terraria.hurt": {
-								"category": "hostile",
-								"sounds": [
-									"sounds/mobs/player_terraria/hurt1"
-								]
-							},
-							"woodenarrow_projectile.main": {
-								"category": "ambient",
-								"sounds": [
-									"sounds/music/effects/woodenarrow_projectile"
-								]
-							},
-							"bossone.main": {
-								"category": "music",
-								"sounds": [
-									"sounds/music/track/boss1"
-								]
-							},
-							"demon.hurt": {
-								"category": "hostile",
-								"sounds": [
-									"sounds/mobs/demon/hurt1"
-								]
-							},
-							"demon.ambient": {
-								"category": "hostile",
-								"sounds": [
-									"sounds/mobs/demon/ambient1",
-									"sounds/mobs/demon/ambient2",
-									"sounds/mobs/demon/ambient3"
-								]
-							},
-							"demon.death": {
-								"category": "hostile",
-								"sounds": [
-									"sounds/mobs/demon/death1"
-								]
-							},
-							"zombie_terraria.hurt": {
-								"category": "hostile",
-								"sounds": [
-									"sounds/mobs/zombie_terraria/hurt1"
-								]
-							},
-							"zombie_terraria.ambient": {
-								"category": "hostile",
-								"sounds": [
-									"sounds/mobs/zombie_terraria/ambient1",
-									"sounds/mobs/zombie_terraria/ambient2",
-									"sounds/mobs/zombie_terraria/ambient3"
-								]
-							},
-							"zombie_terraria.death": {
-								"category": "hostile",
-								"sounds": [
-									"sounds/mobs/zombie_terraria/death1"
-								]
-							},
-							"skeleton_terraria.hurt": {
-								"category": "hostile",
-								"sounds": [
-									"sounds/mobs/skeleton_terraria/hurt1"
-								]
-							},
-							"skeleton_terraria.ambient": {
-								"category": "hostile",
-								"sounds": [
-									"sounds/mobs/skeleton_terraria/ambient1",
-									"sounds/mobs/skeleton_terraria/ambient2",
-									"sounds/mobs/skeleton_terraria/ambient3"
-								]
-							},
-							"skeleton_terraria.death": {
-								"category": "hostile",
-								"sounds": [
-									"sounds/mobs/skeleton_terraria/death1"
-								]
-							},
-							"skeletron.death": {
-								"category": "hostile",
-								"sounds": [
-									"sounds/mobs/skeleton_terraria/death1"
-								]
-							},
-							"skeletron.hurt": {
-								"category": "hostile",
-								"sounds": [
-									"sounds/mobs/skeleton_terraria/hurt1"
-								]
-							},
-							"skeletron.ambient": {
-								"category": "hostile",
-								"sounds": [
-									"sounds/mobs/skeleton_terraria/hurt1"
-								]
-							},
-							"slime.ambient": {
-								"category": "hostile",
-								"sounds": [
-									"sounds/mobs/slime/ambient1"
-								]
-							},
-							"slime.hurt": {
-								"category": "hostile",
-								"sounds": [
-									"sounds/mobs/slime/hurt1"
-								]
-							},
-							"slime.death": {
-								"category": "hostile",
-								"sounds": [
-									"sounds/mobs/slime/death1"
-								]
-							},
-							"demoneye.hurt": {
-								"category": "hostile",
-								"sounds": [
-									"sounds/mobs/demoneye/hurt1"
-								]
-							},
-							"demoneye.death": {
-								"category": "hostile",
-								"sounds": [
-									"sounds/mobs/demoneye/death1"
-								]
-							},
-							"wallofflesh.hurt": {
-								"category": "hostile",
-								"sounds": [
-									"sounds/mobs/wallofflesh/hurt1"
-								]
-							},
-							"wallofflesh.death": {
-								"category": "hostile",
-								"sounds": [
-									"sounds/mobs/wallofflesh/death1"
-								]
-							},
-							"get_enchanted_sword.effect": {
-								"category": "music",
-								"sounds": [
-									"sounds/effects/loz"
-								]
-							},
-							"dayone": {
-								"category": "music",
-								"sounds": [
-									{
-										"name": "sounds/music/day1",
-										"volume": 0.3,
-										"stream": true
-									}
-								]
-							},
-							"night": {
-								"category": "music",
-								"sounds": [
-									{
-										"name": "sounds/music/night",
-										"volume": 0.3,
-										"stream": true
-									}
-								]
-							},
-							"jungle": {
-								"category": "music",
-								"sounds": [
-									{
-										"name": "sounds/music/jungle",
-										"volume": 0.3,
-										"stream": true
-									}
-								]
-							},
-							"desert": {
-								"category": "music",
-								"sounds": [
-									{
-										"name": "sounds/music/desert",
-										"volume": 0.3,
-										"stream": true
-									}
-								]
-							},
-							"corruption": {
-								"category": "music",
-								"sounds": [
-									{
-										"name": "sounds/music/corruption",
-										"stream": true,
-										"volume": 0.3
-									}
-								]
-							},
-							"underground": {
-								"category": "music",
-								"sounds": [
-									{
-										"name": "sounds/music/underground",
-										"stream": true,
-										"volume": 0.3
-									}
-								]
-							},
-							"snow": {
-								"category": "music",
-								"sounds": [
-									{
-										"name": "sounds/music/snow",
-										"stream": true,
-										"volume": 0.3
-									}
-								]
-							},
-							"crimson": {
-								"category": "music",
-								"sounds": [
-									{
-										"name": "sounds/music/crimson",
-										"stream": true,
-										"volume": 0.3
-									}
-								]
-							},
-							"desert_underground": {
-								"category": "music",
-								"sounds": [
-									{
-										"name": "sounds/music/desert_underground",
-										"stream": true,
-										"volume": 0.3
-									}
-								]
-							},
-							"jungle_underground": {
-								"category": "music",
-								"sounds": [
-									{
-										"name": "sounds/music/jungle_underground",
-										"stream": true,
-										"volume": 0.3
-									}
-								]
-							},
-							"ice": {
-								"category": "music",
-								"sounds": [
-									{
-										"name": "sounds/music/ice",
-										"stream": true,
-										"volume": 0.3
-									}
-								]
-							},
-							"crimson_underground": {
-								"category": "music",
-								"sounds": [
-									{
-										"name": "sounds/music/crimson_underground",
-										"stream": true,
-										"volume": 0.3
-									}
-								]
-							},
-							"corruption_underground": {
-								"category": "music",
-								"sounds": [
-									{
-										"name": "sounds/music/corruption_underground",
-										"stream": true,
-										"volume": 0.3
-									}
-								]
-							},
-							"underworld": {
-								"category": "music",
-								"sounds": [
-									{
-										"name": "sounds/music/underworld",
-										"stream": true,
-										"volume": 0.3
-									}
-								]
-							},
-							"terrariamod_gravel_sound": {
-								"category": "neutral",
-								"sounds": [
-									"sounds/terrariamod_dig/gravel1"
-								]
-							},
-							"terrariamod_grass_sound": {
-								"category": "neutral",
-								"sounds": [
-									"sounds/terrariamod_dig/grass1"
-								]
-							},
-							"terrariamod_sand_sound": {
-								"category": "neutral",
-								"sounds": [
-									"sounds/terrariamod_dig/sand1"
-								]
-							},
-							"terrariamod_wood_sound": {
-								"category": "neutral",
-								"sounds": [
-									"sounds/terrariamod_dig/wood1"
-								]
-							},
-							"terrariamod_stone_sound": {
-								"category": "neutral",
-								"sounds": [
-									"sounds/terrariamod_dig/stone1"
-								]
-							},
-							"bossone": {
-								"category": "music",
-								"sounds": [
-									{
-										"name": "sounds/music/bossone",
-										"stream": true,
-										"volume": 0.3
-									}
-								]
-							},
-							"bosstwo": {
-								"category": "music",
-								"sounds": [
-									{
-										"name": "sounds/music/bosstwo",
-										"stream": true,
-										"volume": 0.3
-									}
-								]
-							},
-							"bossthree": {
-								"category": "music",
-								"sounds": [
-									{
-										"name": "sounds/music/bossthree",
-										"stream": true,
-										"volume": 0.3
-									}
-								]
-							},
-							"bossfive": {
-								"category": "music",
-								"sounds": [
-									{
-										"name": "sounds/music/bossfive",
-										"stream": true,
-										"volume": 0.3
-									}
-								]
-							}
-						},
 						"key": "bossone",
 						"children": [
 							{
@@ -1561,440 +1147,6 @@
 						]
 					},
 					{
-						"open": {
-							"bookofskulls.effect": {
-								"category": "neutral",
-								"sounds": [
-									"sounds/effects/bookofskulls"
-								]
-							},
-							"twooden_door_open.effect": {
-								"category": "neutral",
-								"sounds": [
-									"sounds/effects/twooden_door_open"
-								]
-							},
-							"twooden_door_close.effect": {
-								"category": "neutral",
-								"sounds": [
-									"sounds/effects/twooden_door_close"
-								]
-							},
-							"bow.effect": {
-								"category": "neutral",
-								"sounds": [
-									"sounds/effects/bow"
-								]
-							},
-							"minishark.effect": {
-								"category": "neutral",
-								"sounds": [
-									"sounds/effects/minishark"
-								]
-							},
-							"handgun.effect": {
-								"category": "neutral",
-								"sounds": [
-									"sounds/effects/handgun"
-								]
-							},
-							"phoenixblaster.effect": {
-								"category": "neutral",
-								"sounds": [
-									"sounds/effects/phoenixblaster"
-								]
-							},
-							"boomstick.effect": {
-								"category": "neutral",
-								"sounds": [
-									"sounds/effects/boomstick"
-								]
-							},
-							"lifecrystal.effect": {
-								"category": "music",
-								"sounds": [
-									"sounds/effects/health_crystal"
-								]
-							},
-							"eyeofcthulhu.swoop": {
-								"category": "music",
-								"sounds": [
-									"sounds/mobs/eyeofcthulhu/roar"
-								]
-							},
-							"sporemob.death": {
-								"category": "hostile",
-								"sounds": [
-									"sounds/mobs/sporemob/death1"
-								]
-							},
-							"effect.magicmirror": {
-								"category": "music",
-								"sounds": [
-									"sounds/effects/magicmirror"
-								]
-							},
-							"trackone.main": {
-								"category": "music",
-								"sounds": [
-									"sounds/music/track/track1"
-								]
-							},
-							"player_terraria.hurt": {
-								"category": "hostile",
-								"sounds": [
-									"sounds/mobs/player_terraria/hurt1"
-								]
-							},
-							"woodenarrow_projectile.main": {
-								"category": "ambient",
-								"sounds": [
-									"sounds/music/effects/woodenarrow_projectile"
-								]
-							},
-							"bossone.main": {
-								"category": "music",
-								"sounds": [
-									"sounds/music/track/boss1"
-								]
-							},
-							"demon.hurt": {
-								"category": "hostile",
-								"sounds": [
-									"sounds/mobs/demon/hurt1"
-								]
-							},
-							"demon.ambient": {
-								"category": "hostile",
-								"sounds": [
-									"sounds/mobs/demon/ambient1",
-									"sounds/mobs/demon/ambient2",
-									"sounds/mobs/demon/ambient3"
-								]
-							},
-							"demon.death": {
-								"category": "hostile",
-								"sounds": [
-									"sounds/mobs/demon/death1"
-								]
-							},
-							"zombie_terraria.hurt": {
-								"category": "hostile",
-								"sounds": [
-									"sounds/mobs/zombie_terraria/hurt1"
-								]
-							},
-							"zombie_terraria.ambient": {
-								"category": "hostile",
-								"sounds": [
-									"sounds/mobs/zombie_terraria/ambient1",
-									"sounds/mobs/zombie_terraria/ambient2",
-									"sounds/mobs/zombie_terraria/ambient3"
-								]
-							},
-							"zombie_terraria.death": {
-								"category": "hostile",
-								"sounds": [
-									"sounds/mobs/zombie_terraria/death1"
-								]
-							},
-							"skeleton_terraria.hurt": {
-								"category": "hostile",
-								"sounds": [
-									"sounds/mobs/skeleton_terraria/hurt1"
-								]
-							},
-							"skeleton_terraria.ambient": {
-								"category": "hostile",
-								"sounds": [
-									"sounds/mobs/skeleton_terraria/ambient1",
-									"sounds/mobs/skeleton_terraria/ambient2",
-									"sounds/mobs/skeleton_terraria/ambient3"
-								]
-							},
-							"skeleton_terraria.death": {
-								"category": "hostile",
-								"sounds": [
-									"sounds/mobs/skeleton_terraria/death1"
-								]
-							},
-							"skeletron.death": {
-								"category": "hostile",
-								"sounds": [
-									"sounds/mobs/skeleton_terraria/death1"
-								]
-							},
-							"skeletron.hurt": {
-								"category": "hostile",
-								"sounds": [
-									"sounds/mobs/skeleton_terraria/hurt1"
-								]
-							},
-							"skeletron.ambient": {
-								"category": "hostile",
-								"sounds": [
-									"sounds/mobs/skeleton_terraria/hurt1"
-								]
-							},
-							"slime.ambient": {
-								"category": "hostile",
-								"sounds": [
-									"sounds/mobs/slime/ambient1"
-								]
-							},
-							"slime.hurt": {
-								"category": "hostile",
-								"sounds": [
-									"sounds/mobs/slime/hurt1"
-								]
-							},
-							"slime.death": {
-								"category": "hostile",
-								"sounds": [
-									"sounds/mobs/slime/death1"
-								]
-							},
-							"demoneye.hurt": {
-								"category": "hostile",
-								"sounds": [
-									"sounds/mobs/demoneye/hurt1"
-								]
-							},
-							"demoneye.death": {
-								"category": "hostile",
-								"sounds": [
-									"sounds/mobs/demoneye/death1"
-								]
-							},
-							"wallofflesh.hurt": {
-								"category": "hostile",
-								"sounds": [
-									"sounds/mobs/wallofflesh/hurt1"
-								]
-							},
-							"wallofflesh.death": {
-								"category": "hostile",
-								"sounds": [
-									"sounds/mobs/wallofflesh/death1"
-								]
-							},
-							"get_enchanted_sword.effect": {
-								"category": "music",
-								"sounds": [
-									"sounds/effects/loz"
-								]
-							},
-							"dayone": {
-								"category": "music",
-								"sounds": [
-									{
-										"name": "sounds/music/day1",
-										"volume": 0.3,
-										"stream": true
-									}
-								]
-							},
-							"night": {
-								"category": "music",
-								"sounds": [
-									{
-										"name": "sounds/music/night",
-										"volume": 0.3,
-										"stream": true
-									}
-								]
-							},
-							"jungle": {
-								"category": "music",
-								"sounds": [
-									{
-										"name": "sounds/music/jungle",
-										"volume": 0.3,
-										"stream": true
-									}
-								]
-							},
-							"desert": {
-								"category": "music",
-								"sounds": [
-									{
-										"name": "sounds/music/desert",
-										"volume": 0.3,
-										"stream": true
-									}
-								]
-							},
-							"corruption": {
-								"category": "music",
-								"sounds": [
-									{
-										"name": "sounds/music/corruption",
-										"stream": true,
-										"volume": 0.3
-									}
-								]
-							},
-							"underground": {
-								"category": "music",
-								"sounds": [
-									{
-										"name": "sounds/music/underground",
-										"stream": true,
-										"volume": 0.3
-									}
-								]
-							},
-							"snow": {
-								"category": "music",
-								"sounds": [
-									{
-										"name": "sounds/music/snow",
-										"stream": true,
-										"volume": 0.3
-									}
-								]
-							},
-							"crimson": {
-								"category": "music",
-								"sounds": [
-									{
-										"name": "sounds/music/crimson",
-										"stream": true,
-										"volume": 0.3
-									}
-								]
-							},
-							"desert_underground": {
-								"category": "music",
-								"sounds": [
-									{
-										"name": "sounds/music/desert_underground",
-										"stream": true,
-										"volume": 0.3
-									}
-								]
-							},
-							"jungle_underground": {
-								"category": "music",
-								"sounds": [
-									{
-										"name": "sounds/music/jungle_underground",
-										"stream": true,
-										"volume": 0.3
-									}
-								]
-							},
-							"ice": {
-								"category": "music",
-								"sounds": [
-									{
-										"name": "sounds/music/ice",
-										"stream": true,
-										"volume": 0.3
-									}
-								]
-							},
-							"crimson_underground": {
-								"category": "music",
-								"sounds": [
-									{
-										"name": "sounds/music/crimson_underground",
-										"stream": true,
-										"volume": 0.3
-									}
-								]
-							},
-							"corruption_underground": {
-								"category": "music",
-								"sounds": [
-									{
-										"name": "sounds/music/corruption_underground",
-										"stream": true,
-										"volume": 0.3
-									}
-								]
-							},
-							"underworld": {
-								"category": "music",
-								"sounds": [
-									{
-										"name": "sounds/music/underworld",
-										"stream": true,
-										"volume": 0.3
-									}
-								]
-							},
-							"terrariamod_gravel_sound": {
-								"category": "neutral",
-								"sounds": [
-									"sounds/terrariamod_dig/gravel1"
-								]
-							},
-							"terrariamod_grass_sound": {
-								"category": "neutral",
-								"sounds": [
-									"sounds/terrariamod_dig/grass1"
-								]
-							},
-							"terrariamod_sand_sound": {
-								"category": "neutral",
-								"sounds": [
-									"sounds/terrariamod_dig/sand1"
-								]
-							},
-							"terrariamod_wood_sound": {
-								"category": "neutral",
-								"sounds": [
-									"sounds/terrariamod_dig/wood1"
-								]
-							},
-							"terrariamod_stone_sound": {
-								"category": "neutral",
-								"sounds": [
-									"sounds/terrariamod_dig/stone1"
-								]
-							},
-							"bossone": {
-								"category": "music",
-								"sounds": [
-									{
-										"name": "sounds/music/bossone",
-										"stream": true,
-										"volume": 0.3
-									}
-								]
-							},
-							"bosstwo": {
-								"category": "music",
-								"sounds": [
-									{
-										"name": "sounds/music/bosstwo",
-										"stream": true,
-										"volume": 0.3
-									}
-								]
-							},
-							"bossthree": {
-								"category": "music",
-								"sounds": [
-									{
-										"name": "sounds/music/bossthree",
-										"stream": true,
-										"volume": 0.3
-									}
-								]
-							},
-							"bossfive": {
-								"category": "music",
-								"sounds": [
-									{
-										"name": "sounds/music/bossfive",
-										"stream": true,
-										"volume": 0.3
-									}
-								]
-							}
-						},
 						"key": "bosstwo",
 						"children": [
 							{
@@ -2034,440 +1186,6 @@
 						]
 					},
 					{
-						"open": {
-							"bookofskulls.effect": {
-								"category": "neutral",
-								"sounds": [
-									"sounds/effects/bookofskulls"
-								]
-							},
-							"twooden_door_open.effect": {
-								"category": "neutral",
-								"sounds": [
-									"sounds/effects/twooden_door_open"
-								]
-							},
-							"twooden_door_close.effect": {
-								"category": "neutral",
-								"sounds": [
-									"sounds/effects/twooden_door_close"
-								]
-							},
-							"bow.effect": {
-								"category": "neutral",
-								"sounds": [
-									"sounds/effects/bow"
-								]
-							},
-							"minishark.effect": {
-								"category": "neutral",
-								"sounds": [
-									"sounds/effects/minishark"
-								]
-							},
-							"handgun.effect": {
-								"category": "neutral",
-								"sounds": [
-									"sounds/effects/handgun"
-								]
-							},
-							"phoenixblaster.effect": {
-								"category": "neutral",
-								"sounds": [
-									"sounds/effects/phoenixblaster"
-								]
-							},
-							"boomstick.effect": {
-								"category": "neutral",
-								"sounds": [
-									"sounds/effects/boomstick"
-								]
-							},
-							"lifecrystal.effect": {
-								"category": "music",
-								"sounds": [
-									"sounds/effects/health_crystal"
-								]
-							},
-							"eyeofcthulhu.swoop": {
-								"category": "music",
-								"sounds": [
-									"sounds/mobs/eyeofcthulhu/roar"
-								]
-							},
-							"sporemob.death": {
-								"category": "hostile",
-								"sounds": [
-									"sounds/mobs/sporemob/death1"
-								]
-							},
-							"effect.magicmirror": {
-								"category": "music",
-								"sounds": [
-									"sounds/effects/magicmirror"
-								]
-							},
-							"trackone.main": {
-								"category": "music",
-								"sounds": [
-									"sounds/music/track/track1"
-								]
-							},
-							"player_terraria.hurt": {
-								"category": "hostile",
-								"sounds": [
-									"sounds/mobs/player_terraria/hurt1"
-								]
-							},
-							"woodenarrow_projectile.main": {
-								"category": "ambient",
-								"sounds": [
-									"sounds/music/effects/woodenarrow_projectile"
-								]
-							},
-							"bossone.main": {
-								"category": "music",
-								"sounds": [
-									"sounds/music/track/boss1"
-								]
-							},
-							"demon.hurt": {
-								"category": "hostile",
-								"sounds": [
-									"sounds/mobs/demon/hurt1"
-								]
-							},
-							"demon.ambient": {
-								"category": "hostile",
-								"sounds": [
-									"sounds/mobs/demon/ambient1",
-									"sounds/mobs/demon/ambient2",
-									"sounds/mobs/demon/ambient3"
-								]
-							},
-							"demon.death": {
-								"category": "hostile",
-								"sounds": [
-									"sounds/mobs/demon/death1"
-								]
-							},
-							"zombie_terraria.hurt": {
-								"category": "hostile",
-								"sounds": [
-									"sounds/mobs/zombie_terraria/hurt1"
-								]
-							},
-							"zombie_terraria.ambient": {
-								"category": "hostile",
-								"sounds": [
-									"sounds/mobs/zombie_terraria/ambient1",
-									"sounds/mobs/zombie_terraria/ambient2",
-									"sounds/mobs/zombie_terraria/ambient3"
-								]
-							},
-							"zombie_terraria.death": {
-								"category": "hostile",
-								"sounds": [
-									"sounds/mobs/zombie_terraria/death1"
-								]
-							},
-							"skeleton_terraria.hurt": {
-								"category": "hostile",
-								"sounds": [
-									"sounds/mobs/skeleton_terraria/hurt1"
-								]
-							},
-							"skeleton_terraria.ambient": {
-								"category": "hostile",
-								"sounds": [
-									"sounds/mobs/skeleton_terraria/ambient1",
-									"sounds/mobs/skeleton_terraria/ambient2",
-									"sounds/mobs/skeleton_terraria/ambient3"
-								]
-							},
-							"skeleton_terraria.death": {
-								"category": "hostile",
-								"sounds": [
-									"sounds/mobs/skeleton_terraria/death1"
-								]
-							},
-							"skeletron.death": {
-								"category": "hostile",
-								"sounds": [
-									"sounds/mobs/skeleton_terraria/death1"
-								]
-							},
-							"skeletron.hurt": {
-								"category": "hostile",
-								"sounds": [
-									"sounds/mobs/skeleton_terraria/hurt1"
-								]
-							},
-							"skeletron.ambient": {
-								"category": "hostile",
-								"sounds": [
-									"sounds/mobs/skeleton_terraria/hurt1"
-								]
-							},
-							"slime.ambient": {
-								"category": "hostile",
-								"sounds": [
-									"sounds/mobs/slime/ambient1"
-								]
-							},
-							"slime.hurt": {
-								"category": "hostile",
-								"sounds": [
-									"sounds/mobs/slime/hurt1"
-								]
-							},
-							"slime.death": {
-								"category": "hostile",
-								"sounds": [
-									"sounds/mobs/slime/death1"
-								]
-							},
-							"demoneye.hurt": {
-								"category": "hostile",
-								"sounds": [
-									"sounds/mobs/demoneye/hurt1"
-								]
-							},
-							"demoneye.death": {
-								"category": "hostile",
-								"sounds": [
-									"sounds/mobs/demoneye/death1"
-								]
-							},
-							"wallofflesh.hurt": {
-								"category": "hostile",
-								"sounds": [
-									"sounds/mobs/wallofflesh/hurt1"
-								]
-							},
-							"wallofflesh.death": {
-								"category": "hostile",
-								"sounds": [
-									"sounds/mobs/wallofflesh/death1"
-								]
-							},
-							"get_enchanted_sword.effect": {
-								"category": "music",
-								"sounds": [
-									"sounds/effects/loz"
-								]
-							},
-							"dayone": {
-								"category": "music",
-								"sounds": [
-									{
-										"name": "sounds/music/day1",
-										"volume": 0.3,
-										"stream": true
-									}
-								]
-							},
-							"night": {
-								"category": "music",
-								"sounds": [
-									{
-										"name": "sounds/music/night",
-										"volume": 0.3,
-										"stream": true
-									}
-								]
-							},
-							"jungle": {
-								"category": "music",
-								"sounds": [
-									{
-										"name": "sounds/music/jungle",
-										"volume": 0.3,
-										"stream": true
-									}
-								]
-							},
-							"desert": {
-								"category": "music",
-								"sounds": [
-									{
-										"name": "sounds/music/desert",
-										"volume": 0.3,
-										"stream": true
-									}
-								]
-							},
-							"corruption": {
-								"category": "music",
-								"sounds": [
-									{
-										"name": "sounds/music/corruption",
-										"stream": true,
-										"volume": 0.3
-									}
-								]
-							},
-							"underground": {
-								"category": "music",
-								"sounds": [
-									{
-										"name": "sounds/music/underground",
-										"stream": true,
-										"volume": 0.3
-									}
-								]
-							},
-							"snow": {
-								"category": "music",
-								"sounds": [
-									{
-										"name": "sounds/music/snow",
-										"stream": true,
-										"volume": 0.3
-									}
-								]
-							},
-							"crimson": {
-								"category": "music",
-								"sounds": [
-									{
-										"name": "sounds/music/crimson",
-										"stream": true,
-										"volume": 0.3
-									}
-								]
-							},
-							"desert_underground": {
-								"category": "music",
-								"sounds": [
-									{
-										"name": "sounds/music/desert_underground",
-										"stream": true,
-										"volume": 0.3
-									}
-								]
-							},
-							"jungle_underground": {
-								"category": "music",
-								"sounds": [
-									{
-										"name": "sounds/music/jungle_underground",
-										"stream": true,
-										"volume": 0.3
-									}
-								]
-							},
-							"ice": {
-								"category": "music",
-								"sounds": [
-									{
-										"name": "sounds/music/ice",
-										"stream": true,
-										"volume": 0.3
-									}
-								]
-							},
-							"crimson_underground": {
-								"category": "music",
-								"sounds": [
-									{
-										"name": "sounds/music/crimson_underground",
-										"stream": true,
-										"volume": 0.3
-									}
-								]
-							},
-							"corruption_underground": {
-								"category": "music",
-								"sounds": [
-									{
-										"name": "sounds/music/corruption_underground",
-										"stream": true,
-										"volume": 0.3
-									}
-								]
-							},
-							"underworld": {
-								"category": "music",
-								"sounds": [
-									{
-										"name": "sounds/music/underworld",
-										"stream": true,
-										"volume": 0.3
-									}
-								]
-							},
-							"terrariamod_gravel_sound": {
-								"category": "neutral",
-								"sounds": [
-									"sounds/terrariamod_dig/gravel1"
-								]
-							},
-							"terrariamod_grass_sound": {
-								"category": "neutral",
-								"sounds": [
-									"sounds/terrariamod_dig/grass1"
-								]
-							},
-							"terrariamod_sand_sound": {
-								"category": "neutral",
-								"sounds": [
-									"sounds/terrariamod_dig/sand1"
-								]
-							},
-							"terrariamod_wood_sound": {
-								"category": "neutral",
-								"sounds": [
-									"sounds/terrariamod_dig/wood1"
-								]
-							},
-							"terrariamod_stone_sound": {
-								"category": "neutral",
-								"sounds": [
-									"sounds/terrariamod_dig/stone1"
-								]
-							},
-							"bossone": {
-								"category": "music",
-								"sounds": [
-									{
-										"name": "sounds/music/bossone",
-										"stream": true,
-										"volume": 0.3
-									}
-								]
-							},
-							"bosstwo": {
-								"category": "music",
-								"sounds": [
-									{
-										"name": "sounds/music/bosstwo",
-										"stream": true,
-										"volume": 0.3
-									}
-								]
-							},
-							"bossthree": {
-								"category": "music",
-								"sounds": [
-									{
-										"name": "sounds/music/bossthree",
-										"stream": true,
-										"volume": 0.3
-									}
-								]
-							},
-							"bossfive": {
-								"category": "music",
-								"sounds": [
-									{
-										"name": "sounds/music/bossfive",
-										"stream": true,
-										"volume": 0.3
-									}
-								]
-							}
-						},
 						"key": "bossthree",
 						"children": [
 							{
@@ -2498,6 +1216,45 @@
 										"is_minified": true,
 										"children": {
 											"name": "sounds/music/bossthree",
+											"stream": true,
+											"volume": 0.3
+										}
+									}
+								]
+							}
+						]
+					},
+					{
+						"key": "bossfive",
+						"children": [
+							{
+								"data": "music",
+								"key": "category"
+							},
+							{
+								"open": {
+									"category": "music",
+									"sounds": [
+										{
+											"name": "sounds/music/bossfive",
+											"stream": true,
+											"volume": 0.3
+										}
+									]
+								},
+								"key": "sounds",
+								"children": [
+									{
+										"open": [
+											{
+												"name": "sounds/music/bossfive",
+												"stream": true,
+												"volume": 0.3
+											}
+										],
+										"is_minified": true,
+										"children": {
+											"name": "sounds/music/bossfive",
 											"stream": true,
 											"volume": 0.3
 										}
@@ -2939,9 +1696,29 @@
 										"volume": 0.3
 									}
 								]
+							},
+							"goblinarmy": {
+								"category": "music",
+								"sounds": [
+									{
+										"name": "sounds/music/goblinarmy",
+										"stream": true,
+										"volume": 0.3
+									}
+								]
+							},
+							"bloodmoon": {
+								"category": "music",
+								"sounds": [
+									{
+										"name": "sounds/music/bloodmoon",
+										"stream": true,
+										"volume": 0.3
+									}
+								]
 							}
 						},
-						"key": "bossfive",
+						"key": "goblinarmy",
 						"children": [
 							{
 								"data": "music",
@@ -2952,7 +1729,7 @@
 									"category": "music",
 									"sounds": [
 										{
-											"name": "sounds/music/bossfive",
+											"name": "sounds/music/goblinarmy",
 											"stream": true,
 											"volume": 0.3
 										}
@@ -2963,14 +1740,507 @@
 									{
 										"open": [
 											{
-												"name": "sounds/music/bossfive",
+												"name": "sounds/music/goblinarmy",
 												"stream": true,
 												"volume": 0.3
 											}
 										],
 										"is_minified": true,
 										"children": {
-											"name": "sounds/music/bossfive",
+											"name": "sounds/music/goblinarmy",
+											"stream": true,
+											"volume": 0.3
+										}
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"bookofskulls.effect": {
+								"category": "neutral",
+								"sounds": [
+									"sounds/effects/bookofskulls"
+								]
+							},
+							"twooden_door_open.effect": {
+								"category": "neutral",
+								"sounds": [
+									"sounds/effects/twooden_door_open"
+								]
+							},
+							"twooden_door_close.effect": {
+								"category": "neutral",
+								"sounds": [
+									"sounds/effects/twooden_door_close"
+								]
+							},
+							"bow.effect": {
+								"category": "neutral",
+								"sounds": [
+									"sounds/effects/bow"
+								]
+							},
+							"minishark.effect": {
+								"category": "neutral",
+								"sounds": [
+									"sounds/effects/minishark"
+								]
+							},
+							"handgun.effect": {
+								"category": "neutral",
+								"sounds": [
+									"sounds/effects/handgun"
+								]
+							},
+							"phoenixblaster.effect": {
+								"category": "neutral",
+								"sounds": [
+									"sounds/effects/phoenixblaster"
+								]
+							},
+							"boomstick.effect": {
+								"category": "neutral",
+								"sounds": [
+									"sounds/effects/boomstick"
+								]
+							},
+							"lifecrystal.effect": {
+								"category": "music",
+								"sounds": [
+									"sounds/effects/health_crystal"
+								]
+							},
+							"eyeofcthulhu.swoop": {
+								"category": "music",
+								"sounds": [
+									"sounds/mobs/eyeofcthulhu/roar"
+								]
+							},
+							"sporemob.death": {
+								"category": "hostile",
+								"sounds": [
+									"sounds/mobs/sporemob/death1"
+								]
+							},
+							"effect.magicmirror": {
+								"category": "music",
+								"sounds": [
+									"sounds/effects/magicmirror"
+								]
+							},
+							"trackone.main": {
+								"category": "music",
+								"sounds": [
+									"sounds/music/track/track1"
+								]
+							},
+							"player_terraria.hurt": {
+								"category": "hostile",
+								"sounds": [
+									"sounds/mobs/player_terraria/hurt1"
+								]
+							},
+							"woodenarrow_projectile.main": {
+								"category": "ambient",
+								"sounds": [
+									"sounds/music/effects/woodenarrow_projectile"
+								]
+							},
+							"bossone.main": {
+								"category": "music",
+								"sounds": [
+									"sounds/music/track/boss1"
+								]
+							},
+							"demon.hurt": {
+								"category": "hostile",
+								"sounds": [
+									"sounds/mobs/demon/hurt1"
+								]
+							},
+							"demon.ambient": {
+								"category": "hostile",
+								"sounds": [
+									"sounds/mobs/demon/ambient1",
+									"sounds/mobs/demon/ambient2",
+									"sounds/mobs/demon/ambient3"
+								]
+							},
+							"demon.death": {
+								"category": "hostile",
+								"sounds": [
+									"sounds/mobs/demon/death1"
+								]
+							},
+							"zombie_terraria.hurt": {
+								"category": "hostile",
+								"sounds": [
+									"sounds/mobs/zombie_terraria/hurt1"
+								]
+							},
+							"zombie_terraria.ambient": {
+								"category": "hostile",
+								"sounds": [
+									"sounds/mobs/zombie_terraria/ambient1",
+									"sounds/mobs/zombie_terraria/ambient2",
+									"sounds/mobs/zombie_terraria/ambient3"
+								]
+							},
+							"zombie_terraria.death": {
+								"category": "hostile",
+								"sounds": [
+									"sounds/mobs/zombie_terraria/death1"
+								]
+							},
+							"skeleton_terraria.hurt": {
+								"category": "hostile",
+								"sounds": [
+									"sounds/mobs/skeleton_terraria/hurt1"
+								]
+							},
+							"skeleton_terraria.ambient": {
+								"category": "hostile",
+								"sounds": [
+									"sounds/mobs/skeleton_terraria/ambient1",
+									"sounds/mobs/skeleton_terraria/ambient2",
+									"sounds/mobs/skeleton_terraria/ambient3"
+								]
+							},
+							"skeleton_terraria.death": {
+								"category": "hostile",
+								"sounds": [
+									"sounds/mobs/skeleton_terraria/death1"
+								]
+							},
+							"skeletron.death": {
+								"category": "hostile",
+								"sounds": [
+									"sounds/mobs/skeleton_terraria/death1"
+								]
+							},
+							"skeletron.hurt": {
+								"category": "hostile",
+								"sounds": [
+									"sounds/mobs/skeleton_terraria/hurt1"
+								]
+							},
+							"skeletron.ambient": {
+								"category": "hostile",
+								"sounds": [
+									"sounds/mobs/skeleton_terraria/hurt1"
+								]
+							},
+							"slime.ambient": {
+								"category": "hostile",
+								"sounds": [
+									"sounds/mobs/slime/ambient1"
+								]
+							},
+							"slime.hurt": {
+								"category": "hostile",
+								"sounds": [
+									"sounds/mobs/slime/hurt1"
+								]
+							},
+							"slime.death": {
+								"category": "hostile",
+								"sounds": [
+									"sounds/mobs/slime/death1"
+								]
+							},
+							"demoneye.hurt": {
+								"category": "hostile",
+								"sounds": [
+									"sounds/mobs/demoneye/hurt1"
+								]
+							},
+							"demoneye.death": {
+								"category": "hostile",
+								"sounds": [
+									"sounds/mobs/demoneye/death1"
+								]
+							},
+							"wallofflesh.hurt": {
+								"category": "hostile",
+								"sounds": [
+									"sounds/mobs/wallofflesh/hurt1"
+								]
+							},
+							"wallofflesh.death": {
+								"category": "hostile",
+								"sounds": [
+									"sounds/mobs/wallofflesh/death1"
+								]
+							},
+							"get_enchanted_sword.effect": {
+								"category": "music",
+								"sounds": [
+									"sounds/effects/loz"
+								]
+							},
+							"dayone": {
+								"category": "music",
+								"sounds": [
+									{
+										"name": "sounds/music/day1",
+										"volume": 0.3,
+										"stream": true
+									}
+								]
+							},
+							"night": {
+								"category": "music",
+								"sounds": [
+									{
+										"name": "sounds/music/night",
+										"volume": 0.3,
+										"stream": true
+									}
+								]
+							},
+							"jungle": {
+								"category": "music",
+								"sounds": [
+									{
+										"name": "sounds/music/jungle",
+										"volume": 0.3,
+										"stream": true
+									}
+								]
+							},
+							"desert": {
+								"category": "music",
+								"sounds": [
+									{
+										"name": "sounds/music/desert",
+										"volume": 0.3,
+										"stream": true
+									}
+								]
+							},
+							"corruption": {
+								"category": "music",
+								"sounds": [
+									{
+										"name": "sounds/music/corruption",
+										"stream": true,
+										"volume": 0.3
+									}
+								]
+							},
+							"underground": {
+								"category": "music",
+								"sounds": [
+									{
+										"name": "sounds/music/underground",
+										"stream": true,
+										"volume": 0.3
+									}
+								]
+							},
+							"snow": {
+								"category": "music",
+								"sounds": [
+									{
+										"name": "sounds/music/snow",
+										"stream": true,
+										"volume": 0.3
+									}
+								]
+							},
+							"crimson": {
+								"category": "music",
+								"sounds": [
+									{
+										"name": "sounds/music/crimson",
+										"stream": true,
+										"volume": 0.3
+									}
+								]
+							},
+							"desert_underground": {
+								"category": "music",
+								"sounds": [
+									{
+										"name": "sounds/music/desert_underground",
+										"stream": true,
+										"volume": 0.3
+									}
+								]
+							},
+							"jungle_underground": {
+								"category": "music",
+								"sounds": [
+									{
+										"name": "sounds/music/jungle_underground",
+										"stream": true,
+										"volume": 0.3
+									}
+								]
+							},
+							"ice": {
+								"category": "music",
+								"sounds": [
+									{
+										"name": "sounds/music/ice",
+										"stream": true,
+										"volume": 0.3
+									}
+								]
+							},
+							"crimson_underground": {
+								"category": "music",
+								"sounds": [
+									{
+										"name": "sounds/music/crimson_underground",
+										"stream": true,
+										"volume": 0.3
+									}
+								]
+							},
+							"corruption_underground": {
+								"category": "music",
+								"sounds": [
+									{
+										"name": "sounds/music/corruption_underground",
+										"stream": true,
+										"volume": 0.3
+									}
+								]
+							},
+							"underworld": {
+								"category": "music",
+								"sounds": [
+									{
+										"name": "sounds/music/underworld",
+										"stream": true,
+										"volume": 0.3
+									}
+								]
+							},
+							"terrariamod_gravel_sound": {
+								"category": "neutral",
+								"sounds": [
+									"sounds/terrariamod_dig/gravel1"
+								]
+							},
+							"terrariamod_grass_sound": {
+								"category": "neutral",
+								"sounds": [
+									"sounds/terrariamod_dig/grass1"
+								]
+							},
+							"terrariamod_sand_sound": {
+								"category": "neutral",
+								"sounds": [
+									"sounds/terrariamod_dig/sand1"
+								]
+							},
+							"terrariamod_wood_sound": {
+								"category": "neutral",
+								"sounds": [
+									"sounds/terrariamod_dig/wood1"
+								]
+							},
+							"terrariamod_stone_sound": {
+								"category": "neutral",
+								"sounds": [
+									"sounds/terrariamod_dig/stone1"
+								]
+							},
+							"bossone": {
+								"category": "music",
+								"sounds": [
+									{
+										"name": "sounds/music/bossone",
+										"stream": true,
+										"volume": 0.3
+									}
+								]
+							},
+							"bosstwo": {
+								"category": "music",
+								"sounds": [
+									{
+										"name": "sounds/music/bosstwo",
+										"stream": true,
+										"volume": 0.3
+									}
+								]
+							},
+							"bossthree": {
+								"category": "music",
+								"sounds": [
+									{
+										"name": "sounds/music/bossthree",
+										"stream": true,
+										"volume": 0.3
+									}
+								]
+							},
+							"bossfive": {
+								"category": "music",
+								"sounds": [
+									{
+										"name": "sounds/music/bossfive",
+										"stream": true,
+										"volume": 0.3
+									}
+								]
+							},
+							"goblinarmy": {
+								"category": "music",
+								"sounds": [
+									{
+										"name": "sounds/music/goblinarmy",
+										"stream": true,
+										"volume": 0.3
+									}
+								]
+							},
+							"bloodmoon": {
+								"category": "music",
+								"sounds": [
+									{
+										"name": "sounds/music/bloodmoon",
+										"stream": true,
+										"volume": 0.3
+									}
+								]
+							}
+						},
+						"key": "bloodmoon",
+						"children": [
+							{
+								"data": "music",
+								"key": "category"
+							},
+							{
+								"open": {
+									"category": "music",
+									"sounds": [
+										{
+											"name": "sounds/music/bloodmoon",
+											"stream": true,
+											"volume": 0.3
+										}
+									]
+								},
+								"key": "sounds",
+								"children": [
+									{
+										"open": [
+											{
+												"name": "sounds/music/bloodmoon",
+												"stream": true,
+												"volume": 0.3
+											}
+										],
+										"is_minified": true,
+										"children": {
+											"name": "sounds/music/bloodmoon",
 											"stream": true,
 											"volume": 0.3
 										}

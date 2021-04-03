@@ -1,4 +1,4 @@
-//bridge-file-version: #16
+//bridge-file-version: #17
 {
 	"resource_pack_name": "TerrariaModLLS",
 	"texture_name": "atlas.items",
@@ -798,6 +798,11 @@
 		"terrariamod:goblinbattlestandard": {
 			"textures": [
 				"textures/items/pamobile/goblinbattlestandard"
+			]
+		},
+		"terrariamod:thiefsknife": {
+			"textures": [
+				"textures/items/thiefsknife"
 			]
 		}
 	}

@@ -1,4 +1,4 @@
-//bridge-file-version: #112
+//bridge-file-version: #156
 {
 	"format_version": "1.10.0",
 	"animation_controllers": {
@@ -8,16 +8,16 @@
 				"choose": {
 					"transitions": [
 						{
-							"goblin_army": "math.random(0, 10)>0.0 && math.random(0, 10)<0.1 && query.time_stamp>v.time+100000"
+							"goblin_army": "math.random(0, 10)>0 && math.random(0, 10)<1 && query.time_stamp>v.time+30000 && query.scoreboard('ammo')>0 && query.scoreboard('lcrystals')>0 "
 						},
 						{
-							"blood_moon": "math.random(0, 10)>0.1 && math.random(0, 10)<0.2 && query.time_stamp>v.time+10000"
+							"blood_moon": "math.random(0, 10)>1 && math.random(0, 10)<2 && query.time_stamp>v.time+30000 && query.scoreboard('lcrystals')>10"
 						},
 						{
-							"rain": "math.random(0, 10)>0.2 && math.random(0, 10)<3.0 && query.time_stamp>v.time+10000"
+							"rain": "math.random(0, 10)>2 && math.random(0, 10)<3 && query.time_stamp>v.time+30000"
 						},
 						{
-							"slime_rain": "math.random(0, 10)>0.3 && math.random(0, 10)<4.0 && query.time_stamp>v.time+10000"
+							"slime_rain": "math.random(0, 10)>3 && math.random(0, 10)<4 && query.time_stamp>v.time+30000"
 						}
 					],
 					"on_entry": [
@@ -30,7 +30,7 @@
 					],
 					"transitions": [
 						{
-							"choose": "query.all_animations_finished"
+							"choose": "query.time_stamp>v.time+1"
 						}
 					]
 				},
@@ -40,7 +40,7 @@
 					],
 					"transitions": [
 						{
-							"choose": "query.all_animations_finished"
+							"choose": "query.time_stamp>v.time+1"
 						}
 					]
 				},
@@ -50,7 +50,7 @@
 					],
 					"transitions": [
 						{
-							"choose": "query.all_animations_finished"
+							"choose": "query.time_stamp>v.time+1"
 						}
 					]
 				},
@@ -60,7 +60,7 @@
 					],
 					"transitions": [
 						{
-							"choose": "query.all_animations_finished"
+							"choose": "query.time_stamp>v.time+1"
 						}
 					]
 				}

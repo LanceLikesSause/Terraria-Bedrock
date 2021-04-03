@@ -1,4 +1,7 @@
+##bridge-file-version: #460
 ##bridge-file-version: #456
+#####################Version Number
+terrariamod.version.number=2.4.4
 ###############how to play
 terrariamod.category.dakon=Terraria Mod Tutorial
 howtoplay.category.dakon=Terraria Guide

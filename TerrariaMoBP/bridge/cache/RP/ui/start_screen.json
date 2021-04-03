@@ -1,0 +1,577 @@
+{
+	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\TerrariaMoRP\\ui\\start_screen.json",
+	"file_type": "unknown",
+	"format_version": 1,
+	"file_uuid": "61bf3e4d_37e0_4545_ab7b_749f5d11a15e",
+	"file_version": 8,
+	"cache_content": {
+		"children": [
+			{
+				"data": "start",
+				"key": "namespace"
+			},
+			{
+				"open": {
+					"namespace": "start",
+					"background": {
+						"type": "image",
+						"fill": true,
+						"uv": {},
+						"texture": "textures/ui/background",
+						"layer": 3
+					},
+					"text_panel": {
+						"type": "panel",
+						"size": [
+							"100%-2px",
+							10
+						],
+						"offset": [
+							0,
+							-20
+						],
+						"anchor_from": "bottom_middle",
+						"anchor_to": "bottom_middle",
+						"controls": [
+							{
+								"paragraph_6@how_to_play_common.paragraph": {
+									"$text": "terrariamod.version.number"
+								}
+							}
+						]
+					},
+					"title_bg": {
+						"type": "image",
+						"texture": "textures/ui/title",
+						"layer": 0,
+						"uv": {},
+						"size": [
+							"50%",
+							"50%"
+						]
+					},
+					"title_panel": {
+						"type": "panel",
+						"anchor_from": "top_middle",
+						"anchor_to": "center",
+						"size": [
+							"default",
+							"100%x"
+						],
+						"offset": [
+							"0%",
+							"20%"
+						],
+						"controls": [
+							{
+								"title_bg@start.title_bg": {}
+							}
+						]
+					},
+					"buttons_panel": {
+						"type": "panel",
+						"size": [
+							"100%",
+							"100%"
+						],
+						"anchor_from": "top_middle",
+						"anchor_to": "top_middle",
+						"controls": [
+							{
+								"t_play_button@start.t_play_button": {
+									"offset": [
+										0,
+										0
+									]
+								}
+							},
+							{
+								"t_settings_button@start.t_settings_button": {
+									"offset": [
+										0,
+										64
+									]
+								}
+							},
+							{
+								"t_profile_button@start.t_profile_button": {
+									"offset": [
+										0,
+										128
+									]
+								}
+							}
+						]
+					},
+					"t_play_button@common_buttons.light_text_button": {
+						"$border_visible": false,
+						"size": [
+							120,
+							60
+						],
+						"$hover_button_texture": "textures/ui/play_sprite_hover",
+						"$pressed_button_texture": "textures/ui/play_sprite",
+						"$default_button_texture": "textures/ui/play_sprite",
+						"$pressed_button_name": "$play_button_target"
+					},
+					"t_settings_button@common_buttons.light_text_button": {
+						"$border_visible": false,
+						"size": [
+							120,
+							60
+						],
+						"$hover_button_texture": "textures/ui/settings_sprite_hover",
+						"$pressed_button_texture": "textures/ui/settings_sprite",
+						"$default_button_texture": "textures/ui/settings_sprite",
+						"$pressed_button_name": "button.menu_settings"
+					},
+					"t_profile_button@common_buttons.light_text_button": {
+						"$border_visible": false,
+						"size": [
+							120,
+							60
+						],
+						"$hover_button_texture": "textures/ui/profile_sprite_hover",
+						"$pressed_button_texture": "textures/ui/profile_sprite",
+						"$default_button_texture": "textures/ui/profile_sprite",
+						"$pressed_button_name": "button.to_profile_screen"
+					},
+					"start_screen_content": {
+						"type": "panel",
+						"controls": [
+							{
+								"title@start.title_panel": {
+									"layer": 1
+								}
+							},
+							{
+								"buttons@start.buttons_panel": {
+									"layer": 1
+								}
+							},
+							{
+								"text@start.text_panel": {
+									"layer": 1
+								}
+							}
+						]
+					},
+					"start_screen@common.base_screen": {
+						"$screen_bg_content": "background",
+						"$screen_animations": [
+							"@common.screen_exit_animation_push_fade",
+							"@common.screen_exit_animation_pop_fade",
+							"@common.screen_entrance_animation_push_fade",
+							"@common.screen_entrance_animation_pop_fade"
+						],
+						"$screen_content": "start.start_screen_content"
+					}
+				},
+				"key": "background",
+				"is_minified": true,
+				"children": {
+					"type": "image",
+					"fill": true,
+					"uv": {},
+					"texture": "textures/ui/background",
+					"layer": 3
+				}
+			},
+			{
+				"open": {
+					"namespace": "start",
+					"background": {
+						"type": "image",
+						"fill": true,
+						"uv": {},
+						"texture": "textures/ui/background",
+						"layer": 3
+					},
+					"text_panel": {
+						"type": "panel",
+						"size": [
+							"100%-2px",
+							10
+						],
+						"offset": [
+							0,
+							-20
+						],
+						"anchor_from": "bottom_middle",
+						"anchor_to": "bottom_middle",
+						"controls": [
+							{
+								"paragraph_6@how_to_play_common.paragraph": {
+									"$text": "terrariamod.version.number"
+								}
+							}
+						]
+					},
+					"title_bg": {
+						"type": "image",
+						"texture": "textures/ui/title",
+						"layer": 0,
+						"uv": {},
+						"size": [
+							"50%",
+							"50%"
+						]
+					},
+					"title_panel": {
+						"type": "panel",
+						"anchor_from": "top_middle",
+						"anchor_to": "center",
+						"size": [
+							"default",
+							"100%x"
+						],
+						"offset": [
+							"0%",
+							"20%"
+						],
+						"controls": [
+							{
+								"title_bg@start.title_bg": {}
+							}
+						]
+					},
+					"buttons_panel": {
+						"type": "panel",
+						"size": [
+							"100%",
+							"100%"
+						],
+						"anchor_from": "top_middle",
+						"anchor_to": "top_middle",
+						"controls": [
+							{
+								"t_play_button@start.t_play_button": {
+									"offset": [
+										0,
+										0
+									]
+								}
+							},
+							{
+								"t_settings_button@start.t_settings_button": {
+									"offset": [
+										0,
+										64
+									]
+								}
+							},
+							{
+								"t_profile_button@start.t_profile_button": {
+									"offset": [
+										0,
+										128
+									]
+								}
+							}
+						]
+					},
+					"t_play_button@common_buttons.light_text_button": {
+						"$border_visible": false,
+						"size": [
+							120,
+							60
+						],
+						"$hover_button_texture": "textures/ui/play_sprite_hover",
+						"$pressed_button_texture": "textures/ui/play_sprite",
+						"$default_button_texture": "textures/ui/play_sprite",
+						"$pressed_button_name": "$play_button_target"
+					},
+					"t_settings_button@common_buttons.light_text_button": {
+						"$border_visible": false,
+						"size": [
+							120,
+							60
+						],
+						"$hover_button_texture": "textures/ui/settings_sprite_hover",
+						"$pressed_button_texture": "textures/ui/settings_sprite",
+						"$default_button_texture": "textures/ui/settings_sprite",
+						"$pressed_button_name": "button.menu_settings"
+					},
+					"t_profile_button@common_buttons.light_text_button": {
+						"$border_visible": false,
+						"size": [
+							120,
+							60
+						],
+						"$hover_button_texture": "textures/ui/profile_sprite_hover",
+						"$pressed_button_texture": "textures/ui/profile_sprite",
+						"$default_button_texture": "textures/ui/profile_sprite",
+						"$pressed_button_name": "button.to_profile_screen"
+					},
+					"start_screen_content": {
+						"type": "panel",
+						"controls": [
+							{
+								"title@start.title_panel": {
+									"layer": 1
+								}
+							},
+							{
+								"buttons@start.buttons_panel": {
+									"layer": 1
+								}
+							},
+							{
+								"text@start.text_panel": {
+									"layer": 1
+								}
+							}
+						]
+					},
+					"start_screen@common.base_screen": {
+						"$screen_bg_content": "background",
+						"$screen_animations": [
+							"@common.screen_exit_animation_push_fade",
+							"@common.screen_exit_animation_pop_fade",
+							"@common.screen_entrance_animation_push_fade",
+							"@common.screen_entrance_animation_pop_fade"
+						],
+						"$screen_content": "start.start_screen_content"
+					}
+				},
+				"key": "text_panel",
+				"children": [
+					{
+						"data": "panel",
+						"key": "type"
+					},
+					{
+						"key": "size",
+						"is_minified": true,
+						"children": [
+							"100%-2px",
+							10
+						]
+					},
+					{
+						"key": "offset",
+						"is_minified": true,
+						"children": [
+							0,
+							-20
+						]
+					},
+					{
+						"data": "bottom_middle",
+						"key": "anchor_from"
+					},
+					{
+						"data": "bottom_middle",
+						"key": "anchor_to"
+					},
+					{
+						"open": {
+							"type": "panel",
+							"size": [
+								"100%-2px",
+								10
+							],
+							"offset": [
+								0,
+								-20
+							],
+							"anchor_from": "bottom_middle",
+							"anchor_to": "bottom_middle",
+							"controls": [
+								{
+									"paragraph_6@how_to_play_common.paragraph": {
+										"$text": "terrariamod.version.number"
+									}
+								}
+							]
+						},
+						"key": "controls",
+						"children": [
+							{
+								"open": [
+									{
+										"paragraph_6@how_to_play_common.paragraph": {
+											"$text": "terrariamod.version.number"
+										}
+									}
+								],
+								"children": [
+									{
+										"open": {
+											"paragraph_6@how_to_play_common.paragraph": {
+												"$text": "terrariamod.version.number"
+											}
+										},
+										"key": "paragraph_6@how_to_play_common.paragraph",
+										"is_minified": true,
+										"children": {
+											"$text": "terrariamod.version.number"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"key": "title_bg",
+				"is_minified": true,
+				"children": {
+					"type": "image",
+					"texture": "textures/ui/title",
+					"layer": 0,
+					"uv": {},
+					"size": [
+						"50%",
+						"50%"
+					]
+				}
+			},
+			{
+				"key": "title_panel",
+				"is_minified": true,
+				"children": {
+					"type": "panel",
+					"anchor_from": "top_middle",
+					"anchor_to": "center",
+					"size": [
+						"default",
+						"100%x"
+					],
+					"offset": [
+						"0%",
+						"20%"
+					],
+					"controls": [
+						{
+							"title_bg@start.title_bg": {}
+						}
+					]
+				}
+			},
+			{
+				"key": "buttons_panel",
+				"is_minified": true,
+				"children": {
+					"type": "panel",
+					"size": [
+						"100%",
+						"100%"
+					],
+					"anchor_from": "top_middle",
+					"anchor_to": "top_middle",
+					"controls": [
+						{
+							"t_play_button@start.t_play_button": {
+								"offset": [
+									0,
+									0
+								]
+							}
+						},
+						{
+							"t_settings_button@start.t_settings_button": {
+								"offset": [
+									0,
+									64
+								]
+							}
+						},
+						{
+							"t_profile_button@start.t_profile_button": {
+								"offset": [
+									0,
+									128
+								]
+							}
+						}
+					]
+				}
+			},
+			{
+				"key": "t_play_button@common_buttons.light_text_button",
+				"is_minified": true,
+				"children": {
+					"$border_visible": false,
+					"size": [
+						120,
+						60
+					],
+					"$hover_button_texture": "textures/ui/play_sprite_hover",
+					"$pressed_button_texture": "textures/ui/play_sprite",
+					"$default_button_texture": "textures/ui/play_sprite",
+					"$pressed_button_name": "$play_button_target"
+				}
+			},
+			{
+				"key": "t_settings_button@common_buttons.light_text_button",
+				"is_minified": true,
+				"children": {
+					"$border_visible": false,
+					"size": [
+						120,
+						60
+					],
+					"$hover_button_texture": "textures/ui/settings_sprite_hover",
+					"$pressed_button_texture": "textures/ui/settings_sprite",
+					"$default_button_texture": "textures/ui/settings_sprite",
+					"$pressed_button_name": "button.menu_settings"
+				}
+			},
+			{
+				"key": "t_profile_button@common_buttons.light_text_button",
+				"is_minified": true,
+				"children": {
+					"$border_visible": false,
+					"size": [
+						120,
+						60
+					],
+					"$hover_button_texture": "textures/ui/profile_sprite_hover",
+					"$pressed_button_texture": "textures/ui/profile_sprite",
+					"$default_button_texture": "textures/ui/profile_sprite",
+					"$pressed_button_name": "button.to_profile_screen"
+				}
+			},
+			{
+				"key": "start_screen_content",
+				"is_minified": true,
+				"children": {
+					"type": "panel",
+					"controls": [
+						{
+							"title@start.title_panel": {
+								"layer": 1
+							}
+						},
+						{
+							"buttons@start.buttons_panel": {
+								"layer": 1
+							}
+						},
+						{
+							"text@start.text_panel": {
+								"layer": 1
+							}
+						}
+					]
+				}
+			},
+			{
+				"key": "start_screen@common.base_screen",
+				"is_minified": true,
+				"children": {
+					"$screen_bg_content": "background",
+					"$screen_animations": [
+						"@common.screen_exit_animation_push_fade",
+						"@common.screen_exit_animation_pop_fade",
+						"@common.screen_entrance_animation_push_fade",
+						"@common.screen_entrance_animation_pop_fade"
+					],
+					"$screen_content": "start.start_screen_content"
+				}
+			}
+		]
+	}
+}

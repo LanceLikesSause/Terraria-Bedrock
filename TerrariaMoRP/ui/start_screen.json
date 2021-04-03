@@ -1,13 +1,13 @@
-//bridge-file-version: #1
+//bridge-file-version: #8
 {
 	"namespace": "start",
-	  "background": {
+	"background": {
 		"type": "image",
 		"fill": true,
-		"uv": "",
+		"uv": {},
 		"texture": "textures/ui/background",
 		"layer": 3
-	  },
+	},
 	"text_panel": {
 		"type": "panel",
 		"size": [
@@ -21,114 +21,137 @@
 		"anchor_from": "bottom_middle",
 		"anchor_to": "bottom_middle",
 		"controls": [
-			{},
 			{
-				"version": {
-					"type": "label",
-					"shadow": true,
-					"layer": 1,
-					"text": "Terraria Bedrock V2.4.4 beta 2\nCreated by LanceLikesSause\nHelp from others in the discord",
-					"size": [
-						{
-							"default": 10
-						}
-					],
-					"anchor_from": "top_left",
-					"anchor_to": "top_left"
+				"paragraph_6@how_to_play_common.paragraph": {
+					"$text": "terrariamod.version.number"
 				}
-			},
-			{}
+			}
 		]
 	},
-  "title_bg": {
-    "type": "image",
-    "texture": "textures/ui/title",
-    "layer": 0,
-    "uv": "",
-    "size": [ "50%", "50%" ]
-  }, 
-  "title_panel": {
-    "type": "panel",
-    "anchor_from": "top_middle",
-    "anchor_to": "center",
-    "size": [ "default", "100%x" ],
-    "offset": [ "0%", "20%" ],
-    "controls": [
-      {
-        "title_bg@start.title_bg":{}
-      }
-    ]
-  },
-  "buttons_panel":{
-    "type": "panel",
-    "size": [ "100%", "100%" ],
-    "anchor_from": "top_middle",
-    "anchor_to": "top_middle",
-    "controls": [
-	{
-                    "t_play_button@start.t_play_button": {
-                      "offset": [ 0, 0 ]
-                    }
+	"title_bg": {
+		"type": "image",
+		"texture": "textures/ui/title",
+		"layer": 0,
+		"uv": {},
+		"size": [
+			"50%",
+			"50%"
+		]
 	},
-	{
-                   "t_settings_button@start.t_settings_button": {
-                      "offset": [ 0, 64 ]
-                    }
+	"title_panel": {
+		"type": "panel",
+		"anchor_from": "top_middle",
+		"anchor_to": "center",
+		"size": [
+			"default",
+			"100%x"
+		],
+		"offset": [
+			"0%",
+			"20%"
+		],
+		"controls": [
+			{
+				"title_bg@start.title_bg": {}
+			}
+		]
 	},
-	{
-		            "t_profile_button@start.t_profile_button": {
-                      "offset": [ 0, 128 ]
-                    }
+	"buttons_panel": {
+		"type": "panel",
+		"size": [
+			"100%",
+			"100%"
+		],
+		"anchor_from": "top_middle",
+		"anchor_to": "top_middle",
+		"controls": [
+			{
+				"t_play_button@start.t_play_button": {
+					"offset": [
+						0,
+						0
+					]
+				}
+			},
+			{
+				"t_settings_button@start.t_settings_button": {
+					"offset": [
+						0,
+						64
+					]
+				}
+			},
+			{
+				"t_profile_button@start.t_profile_button": {
+					"offset": [
+						0,
+						128
+					]
+				}
+			}
+		]
+	},
+	"t_play_button@common_buttons.light_text_button": {
+		"$border_visible": false,
+		"size": [
+			120,
+			60
+		],
+		"$hover_button_texture": "textures/ui/play_sprite_hover",
+		"$pressed_button_texture": "textures/ui/play_sprite",
+		"$default_button_texture": "textures/ui/play_sprite",
+		"$pressed_button_name": "$play_button_target"
+	},
+	"t_settings_button@common_buttons.light_text_button": {
+		"$border_visible": false,
+		"size": [
+			120,
+			60
+		],
+		"$hover_button_texture": "textures/ui/settings_sprite_hover",
+		"$pressed_button_texture": "textures/ui/settings_sprite",
+		"$default_button_texture": "textures/ui/settings_sprite",
+		"$pressed_button_name": "button.menu_settings"
+	},
+	"t_profile_button@common_buttons.light_text_button": {
+		"$border_visible": false,
+		"size": [
+			120,
+			60
+		],
+		"$hover_button_texture": "textures/ui/profile_sprite_hover",
+		"$pressed_button_texture": "textures/ui/profile_sprite",
+		"$default_button_texture": "textures/ui/profile_sprite",
+		"$pressed_button_name": "button.to_profile_screen"
+	},
+	"start_screen_content": {
+		"type": "panel",
+		"controls": [
+			{
+				"title@start.title_panel": {
+					"layer": 1
+				}
+			},
+			{
+				"buttons@start.buttons_panel": {
+					"layer": 1
+				}
+			},
+			{
+				"text@start.text_panel": {
+					"layer": 1
+				}
+			}
+		]
+	},
+	"start_screen@common.base_screen": {
+		"$screen_bg_content": "background",
+		"$screen_animations": [
+			"@common.screen_exit_animation_push_fade",
+			"@common.screen_exit_animation_pop_fade",
+			"@common.screen_entrance_animation_push_fade",
+			"@common.screen_entrance_animation_pop_fade"
+		],
+		"$screen_content": "start.start_screen_content"
 	}
-    ]
-  },
-  "t_play_button@common_buttons.light_text_button": {
-    "$border_visible": false,
-    "size": [ 120, 60 ],
-    "$hover_button_texture": "textures/ui/play_sprite_hover",
-    "$pressed_button_texture": "textures/ui/play_sprite",
-    "$default_button_texture": "textures/ui/play_sprite",
-    "$pressed_button_name": "$play_button_target"
-  }, 
-  "t_settings_button@common_buttons.light_text_button": {
-    "$border_visible": false,
-    "size": [ 120, 60 ],
-    "$hover_button_texture": "textures/ui/settings_sprite_hover",
-    "$pressed_button_texture": "textures/ui/settings_sprite",
-    "$default_button_texture": "textures/ui/settings_sprite",
-    "$pressed_button_name": "button.menu_settings"
-  }, 
-  "t_profile_button@common_buttons.light_text_button": {
-    "$border_visible": false,
-    "size": [ 120, 60 ],
-    "$hover_button_texture": "textures/ui/profile_sprite_hover",
-    "$pressed_button_texture": "textures/ui/profile_sprite",
-    "$default_button_texture": "textures/ui/profile_sprite",
-    "$pressed_button_name": "button.to_profile_screen"
-  },
-  "start_screen_content": {
-    "type": "panel",
-    "controls": [
-      {
-        "title@start.title_panel": { "layer": 1 }
-      },
-      {
-        "buttons@start.buttons_panel": { "layer": 1 }
-      },
-      {
-        "text@start.text_panel": { "layer": 1 }
-      }
-    ]
-  },
-  "start_screen@common.base_screen": {
-    "$screen_bg_content": "background",
-
-    "$screen_animations": [
-      "@common.screen_exit_animation_push_fade",
-      "@common.screen_exit_animation_pop_fade",
-      "@common.screen_entrance_animation_push_fade",
-      "@common.screen_entrance_animation_pop_fade"
-    ],
-    "$screen_content": "start.start_screen_content"
-  }
 }

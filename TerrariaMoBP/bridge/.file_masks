@@ -101,6 +101,16 @@
 						}
 					}
 				}
+			},
+			"64a3dfa3_e44e_4862_82f6_085cb0815882": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
 			}
 		}
 	},
@@ -171,6 +181,72 @@
 		"data": {}
 	},
 	"BP/entities/minionslime.json": {
+		"data": {}
+	},
+	"RP/ui/start_screen.json": {
+		"data": {}
+	},
+	"RP/manifest.json": {
+		"data": {}
+	},
+	"BP/manifest.json": {
+		"data": {}
+	},
+	"BP/items/thiefsknife.json": {
+		"data": {}
+	},
+	"RP/textures/item_texture.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/thiefsknife.json": {
+		"data": {}
+	},
+	"BP/entities/goblin_thief.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/goblinwarrior.json": {
+		"data": {}
+	},
+	"BP/entities/goblin_warrior.json": {
+		"data": {}
+	},
+	"BP/recipes/puritychest_iron_recipe.json": {
+		"data": {}
+	},
+	"BP/recipes/puritychest_lead_recipe.json": {
+		"data": {}
+	},
+	"BP/animation_controllers/event.json": {
+		"data": {}
+	},
+	"BP/entities/goblinarmy_dummy.json": {
+		"data": {}
+	},
+	"BP/entities/goblin_sorcerer.json": {
+		"data": {}
+	},
+	"BP/entities/goblin_peon.json": {
+		"data": {}
+	},
+	"BP/entities/goblin_archer.json": {
+		"data": {}
+	},
+	"BP/animation_controllers/goblinarmy_other.json": {
+		"data": {}
+	},
+	"BP/entities/bloodmoon_dummy.json": {
+		"data": {}
+	},
+	"BP/animation_controllers/bloodmoon_other.json": {
+		"data": {}
+	},
+	"BP/entities/thegroom.json": {
+		"data": {}
+	},
+	"BP/entities/bloodzombie.json": {
+		"data": {}
+	},
+	"BP/entities/drippler.json": {
 		"data": {}
 	}
 }

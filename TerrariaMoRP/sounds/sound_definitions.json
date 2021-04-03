@@ -1,4 +1,4 @@
-//bridge-file-version: #38
+//bridge-file-version: #41
 {
 	"format_version": "1.14.0",
 	"sound_definitions": {
@@ -429,6 +429,26 @@
 			"sounds": [
 				{
 					"name": "sounds/music/bossfive",
+					"stream": true,
+					"volume": 0.3
+				}
+			]
+		},
+		"goblinarmy": {
+			"category": "music",
+			"sounds": [
+				{
+					"name": "sounds/music/goblinarmy",
+					"stream": true,
+					"volume": 0.3
+				}
+			]
+		},
+		"bloodmoon": {
+			"category": "music",
+			"sounds": [
+				{
+					"name": "sounds/music/bloodmoon",
 					"stream": true,
 					"volume": 0.3
 				}

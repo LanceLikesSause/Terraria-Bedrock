@@ -3,7 +3,7 @@
 	"file_type": "animation_controller",
 	"format_version": 1,
 	"file_uuid": "15f7f3d3_97e8_42e9_ae4c_9c30b91bb88d",
-	"file_version": 441,
+	"file_version": 451,
 	"cache_content": {
 		"children": [
 			{
@@ -77,6 +77,12 @@
 										},
 										{
 											"boss_5_music": "query.scoreboard('boss_2_alive')==5"
+										},
+										{
+											"goblin_army_music": "query.scoreboard('boss_2_alive')==10"
+										},
+										{
+											"blood_moon_music": "query.scoreboard('boss_2_alive')==11"
 										}
 									],
 									"on_entry": [
@@ -327,6 +333,27 @@
 											"default": "query.time_stamp>v.time+2740 || query.scoreboard('boss_2_alive')==0"
 										}
 									]
+								},
+								"goblin_army_music": {
+									"on_entry": [
+										"/playsound goblinarmy @p",
+										"v.time = q.time_stamp;"
+									],
+									"transitions": [
+										{
+											"default": "query.time_stamp>v.time+2740 || query.scoreboard('boss_2_alive')==0"
+										}
+									]
+								},
+								"blood_moon_music": {
+									"on_entry": [
+										"/playsound bloodmoon @p"
+									],
+									"transitions": [
+										{
+											"default": "query.time_stamp>v.time+2740 || query.scoreboard('boss_2_alive')==0"
+										}
+									]
 								}
 							},
 							"initial_state": "default"
@@ -400,6 +427,12 @@
 											},
 											{
 												"boss_5_music": "query.scoreboard('boss_2_alive')==5"
+											},
+											{
+												"goblin_army_music": "query.scoreboard('boss_2_alive')==10"
+											},
+											{
+												"blood_moon_music": "query.scoreboard('boss_2_alive')==11"
 											}
 										],
 										"on_entry": [
@@ -650,6 +683,27 @@
 												"default": "query.time_stamp>v.time+2740 || query.scoreboard('boss_2_alive')==0"
 											}
 										]
+									},
+									"goblin_army_music": {
+										"on_entry": [
+											"/playsound goblinarmy @p",
+											"v.time = q.time_stamp;"
+										],
+										"transitions": [
+											{
+												"default": "query.time_stamp>v.time+2740 || query.scoreboard('boss_2_alive')==0"
+											}
+										]
+									},
+									"blood_moon_music": {
+										"on_entry": [
+											"/playsound bloodmoon @p"
+										],
+										"transitions": [
+											{
+												"default": "query.time_stamp>v.time+2740 || query.scoreboard('boss_2_alive')==0"
+											}
+										]
 									}
 								},
 								"initial_state": "default"
@@ -721,6 +775,12 @@
 												},
 												{
 													"boss_5_music": "query.scoreboard('boss_2_alive')==5"
+												},
+												{
+													"goblin_army_music": "query.scoreboard('boss_2_alive')==10"
+												},
+												{
+													"blood_moon_music": "query.scoreboard('boss_2_alive')==11"
 												}
 											],
 											"on_entry": [
@@ -971,6 +1031,27 @@
 													"default": "query.time_stamp>v.time+2740 || query.scoreboard('boss_2_alive')==0"
 												}
 											]
+										},
+										"goblin_army_music": {
+											"on_entry": [
+												"/playsound goblinarmy @p",
+												"v.time = q.time_stamp;"
+											],
+											"transitions": [
+												{
+													"default": "query.time_stamp>v.time+2740 || query.scoreboard('boss_2_alive')==0"
+												}
+											]
+										},
+										"blood_moon_music": {
+											"on_entry": [
+												"/playsound bloodmoon @p"
+											],
+											"transitions": [
+												{
+													"default": "query.time_stamp>v.time+2740 || query.scoreboard('boss_2_alive')==0"
+												}
+											]
 										}
 									},
 									"initial_state": "default"
@@ -1040,6 +1121,12 @@
 													},
 													{
 														"boss_5_music": "query.scoreboard('boss_2_alive')==5"
+													},
+													{
+														"goblin_army_music": "query.scoreboard('boss_2_alive')==10"
+													},
+													{
+														"blood_moon_music": "query.scoreboard('boss_2_alive')==11"
 													}
 												],
 												"on_entry": [
@@ -1290,6 +1377,27 @@
 														"default": "query.time_stamp>v.time+2740 || query.scoreboard('boss_2_alive')==0"
 													}
 												]
+											},
+											"goblin_army_music": {
+												"on_entry": [
+													"/playsound goblinarmy @p",
+													"v.time = q.time_stamp;"
+												],
+												"transitions": [
+													{
+														"default": "query.time_stamp>v.time+2740 || query.scoreboard('boss_2_alive')==0"
+													}
+												]
+											},
+											"blood_moon_music": {
+												"on_entry": [
+													"/playsound bloodmoon @p"
+												],
+												"transitions": [
+													{
+														"default": "query.time_stamp>v.time+2740 || query.scoreboard('boss_2_alive')==0"
+													}
+												]
 											}
 										},
 										"key": "default",
@@ -1356,6 +1464,12 @@
 														},
 														{
 															"boss_5_music": "query.scoreboard('boss_2_alive')==5"
+														},
+														{
+															"goblin_army_music": "query.scoreboard('boss_2_alive')==10"
+														},
+														{
+															"blood_moon_music": "query.scoreboard('boss_2_alive')==11"
 														}
 													],
 													"on_entry": [
@@ -1469,207 +1583,27 @@
 														}
 													},
 													{
-														"open": [
-															{
-																"forest_night_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day<0.25 || query.time_of_day>0.75 &&  query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
-															},
-															{
-																"forest_day_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day>0.25 || query.time_of_day<0.75 && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
-															},
-															{
-																"desert_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
-															},
-															{
-																"jungle_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
-															},
-															{
-																"corruption_music": "query.biome_has_any_tag('corruption') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
-															},
-															{
-																"snow_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
-															},
-															{
-																"crimson_music": "query.biome_has_any_tag('crimson') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
-															},
-															{
-																"underground_music": "query.position(1)>30 && query.position(1)<80 && query.scoreboard('boss_2_alive')==0"
-															},
-															{
-																"desert_underground_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
-															},
-															{
-																"jungle_underground_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
-															},
-															{
-																"ice_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
-															},
-															{
-																"crimson_underground_music": "query.biome_has_any_tag('crimson') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
-															},
-															{
-																"corruption_underground_music": "query.biome_has_any_tag('corruption') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
-															},
-															{
-																"underworld_music": " query.position(1)>0 && query.position(1)<30 && query.scoreboard('boss_2_alive')==0"
-															},
-															{
-																"vanilla": "query.biome_has_any_tag('overworld') && query.scoreboard('boss_2_alive')==0"
-															},
-															{
-																"forest_underground_music": "query.biome_has_any_tag('purity_forest') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
-															},
-															{
-																"boss_2_music": "query.scoreboard('boss_2_alive')==2"
-															},
-															{
-																"boss_1_music": "query.scoreboard('boss_2_alive')==1"
-															},
-															{
-																"boss_3_music": "query.scoreboard('boss_2_alive')==3"
-															},
-															{
-																"boss_5_music": "query.scoreboard('boss_2_alive')==5"
-															}
-														],
 														"is_minified": true,
 														"children": {
 															"boss_2_music": "query.scoreboard('boss_2_alive')==2"
 														}
 													},
 													{
-														"open": [
-															{
-																"forest_night_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day<0.25 || query.time_of_day>0.75 &&  query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
-															},
-															{
-																"forest_day_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day>0.25 || query.time_of_day<0.75 && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
-															},
-															{
-																"desert_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
-															},
-															{
-																"jungle_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
-															},
-															{
-																"corruption_music": "query.biome_has_any_tag('corruption') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
-															},
-															{
-																"snow_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
-															},
-															{
-																"crimson_music": "query.biome_has_any_tag('crimson') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
-															},
-															{
-																"underground_music": "query.position(1)>30 && query.position(1)<80 && query.scoreboard('boss_2_alive')==0"
-															},
-															{
-																"desert_underground_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
-															},
-															{
-																"jungle_underground_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
-															},
-															{
-																"ice_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
-															},
-															{
-																"crimson_underground_music": "query.biome_has_any_tag('crimson') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
-															},
-															{
-																"corruption_underground_music": "query.biome_has_any_tag('corruption') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
-															},
-															{
-																"underworld_music": " query.position(1)>0 && query.position(1)<30 && query.scoreboard('boss_2_alive')==0"
-															},
-															{
-																"vanilla": "query.biome_has_any_tag('overworld') && query.scoreboard('boss_2_alive')==0"
-															},
-															{
-																"forest_underground_music": "query.biome_has_any_tag('purity_forest') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
-															},
-															{
-																"boss_2_music": "query.scoreboard('boss_2_alive')==2"
-															},
-															{
-																"boss_1_music": "query.scoreboard('boss_2_alive')==1"
-															},
-															{
-																"boss_3_music": "query.scoreboard('boss_2_alive')==3"
-															},
-															{
-																"boss_5_music": "query.scoreboard('boss_2_alive')==5"
-															}
-														],
 														"is_minified": true,
 														"children": {
 															"boss_1_music": "query.scoreboard('boss_2_alive')==1"
 														}
 													},
 													{
-														"open": [
-															{
-																"forest_night_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day<0.25 || query.time_of_day>0.75 &&  query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
-															},
-															{
-																"forest_day_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day>0.25 || query.time_of_day<0.75 && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
-															},
-															{
-																"desert_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
-															},
-															{
-																"jungle_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
-															},
-															{
-																"corruption_music": "query.biome_has_any_tag('corruption') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
-															},
-															{
-																"snow_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
-															},
-															{
-																"crimson_music": "query.biome_has_any_tag('crimson') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
-															},
-															{
-																"underground_music": "query.position(1)>30 && query.position(1)<80 && query.scoreboard('boss_2_alive')==0"
-															},
-															{
-																"desert_underground_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
-															},
-															{
-																"jungle_underground_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
-															},
-															{
-																"ice_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
-															},
-															{
-																"crimson_underground_music": "query.biome_has_any_tag('crimson') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
-															},
-															{
-																"corruption_underground_music": "query.biome_has_any_tag('corruption') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
-															},
-															{
-																"underworld_music": " query.position(1)>0 && query.position(1)<30 && query.scoreboard('boss_2_alive')==0"
-															},
-															{
-																"vanilla": "query.biome_has_any_tag('overworld') && query.scoreboard('boss_2_alive')==0"
-															},
-															{
-																"forest_underground_music": "query.biome_has_any_tag('purity_forest') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
-															},
-															{
-																"boss_2_music": "query.scoreboard('boss_2_alive')==2"
-															},
-															{
-																"boss_1_music": "query.scoreboard('boss_2_alive')==1"
-															},
-															{
-																"boss_3_music": "query.scoreboard('boss_2_alive')==3"
-															},
-															{
-																"boss_5_music": "query.scoreboard('boss_2_alive')==5"
-															}
-														],
 														"is_minified": true,
 														"children": {
 															"boss_3_music": "query.scoreboard('boss_2_alive')==3"
+														}
+													},
+													{
+														"is_minified": true,
+														"children": {
+															"boss_5_music": "query.scoreboard('boss_2_alive')==5"
 														}
 													},
 													{
@@ -1733,11 +1667,91 @@
 															},
 															{
 																"boss_5_music": "query.scoreboard('boss_2_alive')==5"
+															},
+															{
+																"goblin_army_music": "query.scoreboard('boss_2_alive')==10"
+															},
+															{
+																"blood_moon_music": "query.scoreboard('boss_2_alive')==11"
 															}
 														],
 														"is_minified": true,
 														"children": {
-															"boss_5_music": "query.scoreboard('boss_2_alive')==5"
+															"goblin_army_music": "query.scoreboard('boss_2_alive')==10"
+														}
+													},
+													{
+														"open": [
+															{
+																"forest_night_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day<0.25 || query.time_of_day>0.75 &&  query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
+															},
+															{
+																"forest_day_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day>0.25 || query.time_of_day<0.75 && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
+															},
+															{
+																"desert_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
+															},
+															{
+																"jungle_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
+															},
+															{
+																"corruption_music": "query.biome_has_any_tag('corruption') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
+															},
+															{
+																"snow_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
+															},
+															{
+																"crimson_music": "query.biome_has_any_tag('crimson') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
+															},
+															{
+																"underground_music": "query.position(1)>30 && query.position(1)<80 && query.scoreboard('boss_2_alive')==0"
+															},
+															{
+																"desert_underground_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
+															},
+															{
+																"jungle_underground_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
+															},
+															{
+																"ice_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
+															},
+															{
+																"crimson_underground_music": "query.biome_has_any_tag('crimson') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
+															},
+															{
+																"corruption_underground_music": "query.biome_has_any_tag('corruption') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
+															},
+															{
+																"underworld_music": " query.position(1)>0 && query.position(1)<30 && query.scoreboard('boss_2_alive')==0"
+															},
+															{
+																"vanilla": "query.biome_has_any_tag('overworld') && query.scoreboard('boss_2_alive')==0"
+															},
+															{
+																"forest_underground_music": "query.biome_has_any_tag('purity_forest') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
+															},
+															{
+																"boss_2_music": "query.scoreboard('boss_2_alive')==2"
+															},
+															{
+																"boss_1_music": "query.scoreboard('boss_2_alive')==1"
+															},
+															{
+																"boss_3_music": "query.scoreboard('boss_2_alive')==3"
+															},
+															{
+																"boss_5_music": "query.scoreboard('boss_2_alive')==5"
+															},
+															{
+																"goblin_army_music": "query.scoreboard('boss_2_alive')==10"
+															},
+															{
+																"blood_moon_music": "query.scoreboard('boss_2_alive')==11"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"blood_moon_music": "query.scoreboard('boss_2_alive')==11"
 														}
 													}
 												]
@@ -1793,19 +1807,57 @@
 									},
 									{
 										"key": "corruption_music",
-										"is_minified": true,
-										"children": {
-											"on_entry": [
-												"/playsound corruption @s",
-												"v.time = q.time_stamp;",
-												"/fog @s push terrariamod:corruption_forest_fog corruption_forest_fog"
-											],
-											"transitions": [
-												{
-													"default": "query.time_stamp>v.time+1520 || !query.biome_has_any_tag('corruption') || query.position(1)<110 || query.position(1)>256 || query.scoreboard('boss_2_alive')>0"
-												}
-											]
-										}
+										"children": [
+											{
+												"open": {
+													"on_entry": [
+														"/playsound corruption @s",
+														"v.time = q.time_stamp;",
+														"/fog @s push terrariamod:corruption_forest_fog corruption_forest_fog"
+													],
+													"transitions": [
+														{
+															"default": "query.time_stamp>v.time+1520 || !query.biome_has_any_tag('corruption') || query.position(1)<110 || query.position(1)>256 || query.scoreboard('boss_2_alive')>0"
+														}
+													]
+												},
+												"key": "on_entry",
+												"is_minified": true,
+												"children": [
+													"/playsound corruption @s",
+													"v.time = q.time_stamp;",
+													"/fog @s push terrariamod:corruption_forest_fog corruption_forest_fog"
+												]
+											},
+											{
+												"open": {
+													"on_entry": [
+														"/playsound corruption @s",
+														"v.time = q.time_stamp;",
+														"/fog @s push terrariamod:corruption_forest_fog corruption_forest_fog"
+													],
+													"transitions": [
+														{
+															"default": "query.time_stamp>v.time+1520 || !query.biome_has_any_tag('corruption') || query.position(1)<110 || query.position(1)>256 || query.scoreboard('boss_2_alive')>0"
+														}
+													]
+												},
+												"key": "transitions",
+												"children": [
+													{
+														"open": [
+															{
+																"default": "query.time_stamp>v.time+1520 || !query.biome_has_any_tag('corruption') || query.position(1)<110 || query.position(1)>256 || query.scoreboard('boss_2_alive')>0"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"default": "query.time_stamp>v.time+1520 || !query.biome_has_any_tag('corruption') || query.position(1)<110 || query.position(1)>256 || query.scoreboard('boss_2_alive')>0"
+														}
+													}
+												]
+											}
+										]
 									},
 									{
 										"key": "jungle_music",
@@ -1985,21 +2037,49 @@
 									},
 									{
 										"key": "vanilla",
-										"is_minified": true,
-										"children": {
-											"on_entry": [
-												"/gamerule sendcommandfeedback false",
-												"/tp @s ^ ^ ^-1",
-												"/say this biome can't be entered!",
-												"/gamerule sendcommandfeedback true",
-												"v.time = q.time_stamp;"
-											],
-											"transitions": [
-												{
-													"default": "query.time_stamp>v.time+0.1 || !query.biome_has_any_tag('overworld') || query.scoreboard('boss_2_alive')>0"
-												}
-											]
-										}
+										"children": [
+											{
+												"key": "on_entry",
+												"is_minified": true,
+												"children": [
+													"/gamerule sendcommandfeedback false",
+													"/tp @s ^ ^ ^-1",
+													"/say this biome can't be entered!",
+													"/gamerule sendcommandfeedback true",
+													"v.time = q.time_stamp;"
+												]
+											},
+											{
+												"open": {
+													"on_entry": [
+														"/gamerule sendcommandfeedback false",
+														"/tp @s ^ ^ ^-1",
+														"/say this biome can't be entered!",
+														"/gamerule sendcommandfeedback true",
+														"v.time = q.time_stamp;"
+													],
+													"transitions": [
+														{
+															"default": "query.time_stamp>v.time+0.1 || !query.biome_has_any_tag('overworld') || query.scoreboard('boss_2_alive')>0"
+														}
+													]
+												},
+												"key": "transitions",
+												"children": [
+													{
+														"open": [
+															{
+																"default": "query.time_stamp>v.time+0.1 || !query.biome_has_any_tag('overworld') || query.scoreboard('boss_2_alive')>0"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"default": "query.time_stamp>v.time+0.1 || !query.biome_has_any_tag('overworld') || query.scoreboard('boss_2_alive')>0"
+														}
+													}
+												]
+											}
+										]
 									},
 									{
 										"key": "forest_underground_music",
@@ -2042,320 +2122,6 @@
 										]
 									},
 									{
-										"open": {
-											"default": {
-												"transitions": [
-													{
-														"forest_night_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day<0.25 || query.time_of_day>0.75 &&  query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
-													},
-													{
-														"forest_day_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day>0.25 || query.time_of_day<0.75 && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
-													},
-													{
-														"desert_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
-													},
-													{
-														"jungle_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
-													},
-													{
-														"corruption_music": "query.biome_has_any_tag('corruption') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
-													},
-													{
-														"snow_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
-													},
-													{
-														"crimson_music": "query.biome_has_any_tag('crimson') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
-													},
-													{
-														"underground_music": "query.position(1)>30 && query.position(1)<80 && query.scoreboard('boss_2_alive')==0"
-													},
-													{
-														"desert_underground_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
-													},
-													{
-														"jungle_underground_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
-													},
-													{
-														"ice_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
-													},
-													{
-														"crimson_underground_music": "query.biome_has_any_tag('crimson') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
-													},
-													{
-														"corruption_underground_music": "query.biome_has_any_tag('corruption') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
-													},
-													{
-														"underworld_music": " query.position(1)>0 && query.position(1)<30 && query.scoreboard('boss_2_alive')==0"
-													},
-													{
-														"vanilla": "query.biome_has_any_tag('overworld') && query.scoreboard('boss_2_alive')==0"
-													},
-													{
-														"forest_underground_music": "query.biome_has_any_tag('purity_forest') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
-													},
-													{
-														"boss_2_music": "query.scoreboard('boss_2_alive')==2"
-													},
-													{
-														"boss_1_music": "query.scoreboard('boss_2_alive')==1"
-													},
-													{
-														"boss_3_music": "query.scoreboard('boss_2_alive')==3"
-													},
-													{
-														"boss_5_music": "query.scoreboard('boss_2_alive')==5"
-													}
-												],
-												"on_entry": [
-													"/fog @s remove purity_forest_fog",
-													"/fog @s remove purity_desert_fog",
-													"/fog @s remove corruption_forest_fog",
-													"/fog @s remove purity_jungle_fog",
-													"/fog @s remove purity_snow_fog",
-													"/fog @s remove tcrimson_forest_fog",
-													"/fog @s remove underground_fog",
-													"/fog @s remove underworld_fog",
-													"/stopsound @s"
-												]
-											},
-											"forest_day_music": {
-												"on_entry": [
-													"/playsound dayone @s",
-													"v.time = q.time_stamp;",
-													"/fog @s push terrariamod:purity_forest_fog purity_forest_fog"
-												],
-												"transitions": [
-													{
-														"default": "query.time_stamp>v.time+1340 || !query.biome_has_any_tag('purity_forest') || query.position(1)<110 || query.position(1)>256 || query.time_of_day==0.75 || query.scoreboard('boss_2_alive')>0"
-													}
-												]
-											},
-											"forest_night_music": {
-												"on_entry": [
-													"/playsound night @s",
-													"v.time = q.time_stamp;",
-													"/fog @s push terrariamod:purity_forest_fog purity_forest_fog"
-												],
-												"transitions": [
-													{
-														"default": "query.time_stamp>v.time+1160 || !query.biome_has_any_tag('purity_forest') || query.position(1)<110 || query.position(1)>256 || query.time_of_day==0.25 || query.scoreboard('boss_2_alive')>0"
-													}
-												]
-											},
-											"corruption_music": {
-												"on_entry": [
-													"/playsound corruption @s",
-													"v.time = q.time_stamp;",
-													"/fog @s push terrariamod:corruption_forest_fog corruption_forest_fog"
-												],
-												"transitions": [
-													{
-														"default": "query.time_stamp>v.time+1520 || !query.biome_has_any_tag('corruption') || query.position(1)<110 || query.position(1)>256 || query.scoreboard('boss_2_alive')>0"
-													}
-												]
-											},
-											"jungle_music": {
-												"on_entry": [
-													"/playsound jungle @s",
-													"v.time = q.time_stamp;",
-													"/fog @s push terrariamod:purity_jungle_fog purity_jungle_fog"
-												],
-												"transitions": [
-													{
-														"default": "query.time_stamp>v.time+1620 || !query.biome_has_any_tag('purity_jungle') || query.position(1)<110 || query.position(1)>256 || query.scoreboard('boss_2_alive')>0"
-													}
-												]
-											},
-											"desert_music": {
-												"on_entry": [
-													"/playsound desert @s",
-													"v.time = q.time_stamp;",
-													"/fog @s push terrariamod:purity_desert_fog purity_desert_fog"
-												],
-												"transitions": [
-													{
-														"default": "query.time_stamp>v.time+1780 || !query.biome_has_any_tag('purity_desert') || query.position(1)<110 || query.position(1)>256 || query.scoreboard('boss_2_alive')>0"
-													}
-												]
-											},
-											"snow_music": {
-												"on_entry": [
-													"/playsound snow @s",
-													"v.time = q.time_stamp;",
-													"/fog @s push terrariamod:purity_snow_fog purity_snow_fog"
-												],
-												"transitions": [
-													{
-														"default": "query.time_stamp>v.time+1880 || !query.biome_has_any_tag('purity_snow') || query.position(1)<110 || query.position(1)>256 || query.scoreboard('boss_2_alive')>0"
-													}
-												]
-											},
-											"crimson_music": {
-												"on_entry": [
-													"/playsound crimson @s",
-													"v.time = q.time_stamp;",
-													"/fog @s push terrariamod:tcrimson_forest_fog tcrimson_forest_fog"
-												],
-												"transitions": [
-													{
-														"default": "query.time_stamp>v.time+2540 || !query.biome_has_any_tag('crimson') || query.position(1)<110 || query.position(1)>256 || query.scoreboard('boss_2_alive')>0"
-													}
-												]
-											},
-											"underground_music": {
-												"on_entry": [
-													"/playsound underground @s",
-													"v.time = q.time_stamp;",
-													"/fog @s push terrariamod:underground_fog underground_fog"
-												],
-												"transitions": [
-													{
-														"default": "query.time_stamp>v.time+3580 || query.position(1)<30 || query.position(1)>80 || query.scoreboard('boss_2_alive')>0"
-													}
-												]
-											},
-											"desert_underground_music": {
-												"on_entry": [
-													"/playsound desert_underground @s",
-													"v.time = q.time_stamp;",
-													"/fog @s push terrariamod:purity_desert_fog purity_desert_fog"
-												],
-												"transitions": [
-													{
-														"default": "query.time_stamp>v.time+2420 || !query.biome_has_any_tag('purity_desert') || query.position(1)<80 || query.position(1)>110 || query.scoreboard('boss_2_alive')>0"
-													}
-												]
-											},
-											"jungle_underground_music": {
-												"on_entry": [
-													"/playsound jungle_underground @s",
-													"v.time = q.time_stamp;",
-													"/fog @s push terrariamod:purity_jungle_fog purity_jungle_fog"
-												],
-												"transitions": [
-													{
-														"default": "query.time_stamp>v.time+2160 || !query.biome_has_any_tag('purity_jungle') || query.position(1)<80 || query.position(1)>110 || query.scoreboard('boss_2_alive')>0"
-													}
-												]
-											},
-											"ice_music": {
-												"on_entry": [
-													"/playsound ice @s",
-													"v.time = q.time_stamp;",
-													"/fog @s push terrariamod:purity_snow_fog purity_snow_fog"
-												],
-												"transitions": [
-													{
-														"default": "query.time_stamp>v.time+1680 || !query.biome_has_any_tag('purity_snow') || query.position(1)<80 || query.position(1)>110 || query.scoreboard('boss_2_alive')>0"
-													}
-												]
-											},
-											"crimson_underground_music": {
-												"on_entry": [
-													"/playsound crimson_underground @s",
-													"v.time = q.time_stamp;",
-													"/fog @s push terrariamod:crimson_forest_fog crimson_forest_fog"
-												],
-												"transitions": [
-													{
-														"default": "query.time_stamp>v.time+3220 || !query.biome_has_any_tag('crimson') || query.position(1)<80 || query.position(1)>110 || query.scoreboard('boss_2_alive')>0"
-													}
-												]
-											},
-											"corruption_underground_music": {
-												"on_entry": [
-													"/playsound corruption_underground @s",
-													"v.time = q.time_stamp;",
-													"/fog @s push terrariamod:forest_corruption_fog corruption_forest_fog"
-												],
-												"transitions": [
-													{
-														"default": "query.time_stamp>v.time+2840 || !query.biome_has_any_tag('corruption') || query.position(1)<80 || query.position(1)>110 || query.scoreboard('boss_2_alive')>0"
-													}
-												]
-											},
-											"underworld_music": {
-												"on_entry": [
-													"/playsound underworld @s",
-													"v.time = q.time_stamp;",
-													"/fog @s push terrariamod:underworld_fog underworld_fog"
-												],
-												"transitions": [
-													{
-														"default": "query.time_stamp>v.time+2600 || query.position(1)>30 || query.scoreboard('boss_2_alive')>0"
-													}
-												]
-											},
-											"vanilla": {
-												"on_entry": [
-													"/gamerule sendcommandfeedback false",
-													"/tp @s ^ ^ ^-1",
-													"/say this biome can't be entered!",
-													"/gamerule sendcommandfeedback true",
-													"v.time = q.time_stamp;"
-												],
-												"transitions": [
-													{
-														"default": "query.time_stamp>v.time+0.1 || !query.biome_has_any_tag('overworld') || query.scoreboard('boss_2_alive')>0"
-													}
-												]
-											},
-											"forest_underground_music": {
-												"on_entry": [
-													"/playsound underground @s",
-													"v.time = q.time_stamp;"
-												],
-												"transitions": [
-													{
-														"default": "query.time_stamp>v.time+2840 || !query.biome_has_any_tag('purity_forest') || query.position(1)<80 || query.position(1)>110 || query.scoreboard('boss_2_alive')>0"
-													}
-												]
-											},
-											"boss_2_music": {
-												"on_entry": [
-													"/playsound bosstwo @p",
-													"v.time = q.time_stamp;"
-												],
-												"transitions": [
-													{
-														"default": "query.time_stamp>v.time+2740 || query.scoreboard('boss_2_alive')==0"
-													}
-												]
-											},
-											"boss_1_music": {
-												"on_entry": [
-													"/playsound bossone @p",
-													"v.time = q.time_stamp;"
-												],
-												"transitions": [
-													{
-														"default": "query.time_stamp>v.time+2740 || query.scoreboard('boss_2_alive')==0"
-													}
-												]
-											},
-											"boss_3_music": {
-												"on_entry": [
-													"/playsound bossthree @p",
-													"v.time = q.time_stamp;"
-												],
-												"transitions": [
-													{
-														"default": "query.time_stamp>v.time+2740 || query.scoreboard('boss_2_alive')==0"
-													}
-												]
-											},
-											"boss_5_music": {
-												"on_entry": [
-													"/playsound bossfive @p",
-													"v.time = q.time_stamp;"
-												],
-												"transitions": [
-													{
-														"default": "query.time_stamp>v.time+2740 || query.scoreboard('boss_2_alive')==0"
-													}
-												]
-											}
-										},
 										"key": "boss_2_music",
 										"children": [
 											{
@@ -2396,320 +2162,6 @@
 										]
 									},
 									{
-										"open": {
-											"default": {
-												"transitions": [
-													{
-														"forest_night_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day<0.25 || query.time_of_day>0.75 &&  query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
-													},
-													{
-														"forest_day_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day>0.25 || query.time_of_day<0.75 && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
-													},
-													{
-														"desert_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
-													},
-													{
-														"jungle_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
-													},
-													{
-														"corruption_music": "query.biome_has_any_tag('corruption') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
-													},
-													{
-														"snow_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
-													},
-													{
-														"crimson_music": "query.biome_has_any_tag('crimson') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
-													},
-													{
-														"underground_music": "query.position(1)>30 && query.position(1)<80 && query.scoreboard('boss_2_alive')==0"
-													},
-													{
-														"desert_underground_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
-													},
-													{
-														"jungle_underground_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
-													},
-													{
-														"ice_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
-													},
-													{
-														"crimson_underground_music": "query.biome_has_any_tag('crimson') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
-													},
-													{
-														"corruption_underground_music": "query.biome_has_any_tag('corruption') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
-													},
-													{
-														"underworld_music": " query.position(1)>0 && query.position(1)<30 && query.scoreboard('boss_2_alive')==0"
-													},
-													{
-														"vanilla": "query.biome_has_any_tag('overworld') && query.scoreboard('boss_2_alive')==0"
-													},
-													{
-														"forest_underground_music": "query.biome_has_any_tag('purity_forest') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
-													},
-													{
-														"boss_2_music": "query.scoreboard('boss_2_alive')==2"
-													},
-													{
-														"boss_1_music": "query.scoreboard('boss_2_alive')==1"
-													},
-													{
-														"boss_3_music": "query.scoreboard('boss_2_alive')==3"
-													},
-													{
-														"boss_5_music": "query.scoreboard('boss_2_alive')==5"
-													}
-												],
-												"on_entry": [
-													"/fog @s remove purity_forest_fog",
-													"/fog @s remove purity_desert_fog",
-													"/fog @s remove corruption_forest_fog",
-													"/fog @s remove purity_jungle_fog",
-													"/fog @s remove purity_snow_fog",
-													"/fog @s remove tcrimson_forest_fog",
-													"/fog @s remove underground_fog",
-													"/fog @s remove underworld_fog",
-													"/stopsound @s"
-												]
-											},
-											"forest_day_music": {
-												"on_entry": [
-													"/playsound dayone @s",
-													"v.time = q.time_stamp;",
-													"/fog @s push terrariamod:purity_forest_fog purity_forest_fog"
-												],
-												"transitions": [
-													{
-														"default": "query.time_stamp>v.time+1340 || !query.biome_has_any_tag('purity_forest') || query.position(1)<110 || query.position(1)>256 || query.time_of_day==0.75 || query.scoreboard('boss_2_alive')>0"
-													}
-												]
-											},
-											"forest_night_music": {
-												"on_entry": [
-													"/playsound night @s",
-													"v.time = q.time_stamp;",
-													"/fog @s push terrariamod:purity_forest_fog purity_forest_fog"
-												],
-												"transitions": [
-													{
-														"default": "query.time_stamp>v.time+1160 || !query.biome_has_any_tag('purity_forest') || query.position(1)<110 || query.position(1)>256 || query.time_of_day==0.25 || query.scoreboard('boss_2_alive')>0"
-													}
-												]
-											},
-											"corruption_music": {
-												"on_entry": [
-													"/playsound corruption @s",
-													"v.time = q.time_stamp;",
-													"/fog @s push terrariamod:corruption_forest_fog corruption_forest_fog"
-												],
-												"transitions": [
-													{
-														"default": "query.time_stamp>v.time+1520 || !query.biome_has_any_tag('corruption') || query.position(1)<110 || query.position(1)>256 || query.scoreboard('boss_2_alive')>0"
-													}
-												]
-											},
-											"jungle_music": {
-												"on_entry": [
-													"/playsound jungle @s",
-													"v.time = q.time_stamp;",
-													"/fog @s push terrariamod:purity_jungle_fog purity_jungle_fog"
-												],
-												"transitions": [
-													{
-														"default": "query.time_stamp>v.time+1620 || !query.biome_has_any_tag('purity_jungle') || query.position(1)<110 || query.position(1)>256 || query.scoreboard('boss_2_alive')>0"
-													}
-												]
-											},
-											"desert_music": {
-												"on_entry": [
-													"/playsound desert @s",
-													"v.time = q.time_stamp;",
-													"/fog @s push terrariamod:purity_desert_fog purity_desert_fog"
-												],
-												"transitions": [
-													{
-														"default": "query.time_stamp>v.time+1780 || !query.biome_has_any_tag('purity_desert') || query.position(1)<110 || query.position(1)>256 || query.scoreboard('boss_2_alive')>0"
-													}
-												]
-											},
-											"snow_music": {
-												"on_entry": [
-													"/playsound snow @s",
-													"v.time = q.time_stamp;",
-													"/fog @s push terrariamod:purity_snow_fog purity_snow_fog"
-												],
-												"transitions": [
-													{
-														"default": "query.time_stamp>v.time+1880 || !query.biome_has_any_tag('purity_snow') || query.position(1)<110 || query.position(1)>256 || query.scoreboard('boss_2_alive')>0"
-													}
-												]
-											},
-											"crimson_music": {
-												"on_entry": [
-													"/playsound crimson @s",
-													"v.time = q.time_stamp;",
-													"/fog @s push terrariamod:tcrimson_forest_fog tcrimson_forest_fog"
-												],
-												"transitions": [
-													{
-														"default": "query.time_stamp>v.time+2540 || !query.biome_has_any_tag('crimson') || query.position(1)<110 || query.position(1)>256 || query.scoreboard('boss_2_alive')>0"
-													}
-												]
-											},
-											"underground_music": {
-												"on_entry": [
-													"/playsound underground @s",
-													"v.time = q.time_stamp;",
-													"/fog @s push terrariamod:underground_fog underground_fog"
-												],
-												"transitions": [
-													{
-														"default": "query.time_stamp>v.time+3580 || query.position(1)<30 || query.position(1)>80 || query.scoreboard('boss_2_alive')>0"
-													}
-												]
-											},
-											"desert_underground_music": {
-												"on_entry": [
-													"/playsound desert_underground @s",
-													"v.time = q.time_stamp;",
-													"/fog @s push terrariamod:purity_desert_fog purity_desert_fog"
-												],
-												"transitions": [
-													{
-														"default": "query.time_stamp>v.time+2420 || !query.biome_has_any_tag('purity_desert') || query.position(1)<80 || query.position(1)>110 || query.scoreboard('boss_2_alive')>0"
-													}
-												]
-											},
-											"jungle_underground_music": {
-												"on_entry": [
-													"/playsound jungle_underground @s",
-													"v.time = q.time_stamp;",
-													"/fog @s push terrariamod:purity_jungle_fog purity_jungle_fog"
-												],
-												"transitions": [
-													{
-														"default": "query.time_stamp>v.time+2160 || !query.biome_has_any_tag('purity_jungle') || query.position(1)<80 || query.position(1)>110 || query.scoreboard('boss_2_alive')>0"
-													}
-												]
-											},
-											"ice_music": {
-												"on_entry": [
-													"/playsound ice @s",
-													"v.time = q.time_stamp;",
-													"/fog @s push terrariamod:purity_snow_fog purity_snow_fog"
-												],
-												"transitions": [
-													{
-														"default": "query.time_stamp>v.time+1680 || !query.biome_has_any_tag('purity_snow') || query.position(1)<80 || query.position(1)>110 || query.scoreboard('boss_2_alive')>0"
-													}
-												]
-											},
-											"crimson_underground_music": {
-												"on_entry": [
-													"/playsound crimson_underground @s",
-													"v.time = q.time_stamp;",
-													"/fog @s push terrariamod:crimson_forest_fog crimson_forest_fog"
-												],
-												"transitions": [
-													{
-														"default": "query.time_stamp>v.time+3220 || !query.biome_has_any_tag('crimson') || query.position(1)<80 || query.position(1)>110 || query.scoreboard('boss_2_alive')>0"
-													}
-												]
-											},
-											"corruption_underground_music": {
-												"on_entry": [
-													"/playsound corruption_underground @s",
-													"v.time = q.time_stamp;",
-													"/fog @s push terrariamod:forest_corruption_fog corruption_forest_fog"
-												],
-												"transitions": [
-													{
-														"default": "query.time_stamp>v.time+2840 || !query.biome_has_any_tag('corruption') || query.position(1)<80 || query.position(1)>110 || query.scoreboard('boss_2_alive')>0"
-													}
-												]
-											},
-											"underworld_music": {
-												"on_entry": [
-													"/playsound underworld @s",
-													"v.time = q.time_stamp;",
-													"/fog @s push terrariamod:underworld_fog underworld_fog"
-												],
-												"transitions": [
-													{
-														"default": "query.time_stamp>v.time+2600 || query.position(1)>30 || query.scoreboard('boss_2_alive')>0"
-													}
-												]
-											},
-											"vanilla": {
-												"on_entry": [
-													"/gamerule sendcommandfeedback false",
-													"/tp @s ^ ^ ^-1",
-													"/say this biome can't be entered!",
-													"/gamerule sendcommandfeedback true",
-													"v.time = q.time_stamp;"
-												],
-												"transitions": [
-													{
-														"default": "query.time_stamp>v.time+0.1 || !query.biome_has_any_tag('overworld') || query.scoreboard('boss_2_alive')>0"
-													}
-												]
-											},
-											"forest_underground_music": {
-												"on_entry": [
-													"/playsound underground @s",
-													"v.time = q.time_stamp;"
-												],
-												"transitions": [
-													{
-														"default": "query.time_stamp>v.time+2840 || !query.biome_has_any_tag('purity_forest') || query.position(1)<80 || query.position(1)>110 || query.scoreboard('boss_2_alive')>0"
-													}
-												]
-											},
-											"boss_2_music": {
-												"on_entry": [
-													"/playsound bosstwo @p",
-													"v.time = q.time_stamp;"
-												],
-												"transitions": [
-													{
-														"default": "query.time_stamp>v.time+2740 || query.scoreboard('boss_2_alive')==0"
-													}
-												]
-											},
-											"boss_1_music": {
-												"on_entry": [
-													"/playsound bossone @p",
-													"v.time = q.time_stamp;"
-												],
-												"transitions": [
-													{
-														"default": "query.time_stamp>v.time+2740 || query.scoreboard('boss_2_alive')==0"
-													}
-												]
-											},
-											"boss_3_music": {
-												"on_entry": [
-													"/playsound bossthree @p",
-													"v.time = q.time_stamp;"
-												],
-												"transitions": [
-													{
-														"default": "query.time_stamp>v.time+2740 || query.scoreboard('boss_2_alive')==0"
-													}
-												]
-											},
-											"boss_5_music": {
-												"on_entry": [
-													"/playsound bossfive @p",
-													"v.time = q.time_stamp;"
-												],
-												"transitions": [
-													{
-														"default": "query.time_stamp>v.time+2740 || query.scoreboard('boss_2_alive')==0"
-													}
-												]
-											}
-										},
 										"key": "boss_1_music",
 										"children": [
 											{
@@ -2732,6 +2184,141 @@
 												]
 											},
 											{
+												"key": "transitions",
+												"children": [
+													{
+														"open": [
+															{
+																"default": "query.time_stamp>v.time+2740 || query.scoreboard('boss_2_alive')==0"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"default": "query.time_stamp>v.time+2740 || query.scoreboard('boss_2_alive')==0"
+														}
+													}
+												]
+											}
+										]
+									},
+									{
+										"key": "boss_3_music",
+										"children": [
+											{
+												"open": {
+													"on_entry": [
+														"/playsound bossthree @p",
+														"v.time = q.time_stamp;"
+													],
+													"transitions": [
+														{
+															"default": "query.time_stamp>v.time+2740 || query.scoreboard('boss_2_alive')==0"
+														}
+													]
+												},
+												"key": "on_entry",
+												"is_minified": true,
+												"children": [
+													"/playsound bossthree @p",
+													"v.time = q.time_stamp;"
+												]
+											},
+											{
+												"key": "transitions",
+												"is_minified": true,
+												"children": [
+													{
+														"default": "query.time_stamp>v.time+2740 || query.scoreboard('boss_2_alive')==0"
+													}
+												]
+											}
+										]
+									},
+									{
+										"key": "boss_5_music",
+										"children": [
+											{
+												"open": {
+													"on_entry": [
+														"/playsound bossfive @p",
+														"v.time = q.time_stamp;"
+													],
+													"transitions": [
+														{
+															"default": "query.time_stamp>v.time+2740 || query.scoreboard('boss_2_alive')==0"
+														}
+													]
+												},
+												"key": "on_entry",
+												"is_minified": true,
+												"children": [
+													"/playsound bossfive @p",
+													"v.time = q.time_stamp;"
+												]
+											},
+											{
+												"open": {
+													"on_entry": [
+														"/playsound bossfive @p",
+														"v.time = q.time_stamp;"
+													],
+													"transitions": [
+														{
+															"default": "query.time_stamp>v.time+2740 || query.scoreboard('boss_2_alive')==0"
+														}
+													]
+												},
+												"key": "transitions",
+												"children": [
+													{
+														"open": [
+															{
+																"default": "query.time_stamp>v.time+2740 || query.scoreboard('boss_2_alive')==0"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"default": "query.time_stamp>v.time+2740 || query.scoreboard('boss_2_alive')==0"
+														}
+													}
+												]
+											}
+										]
+									},
+									{
+										"key": "goblin_army_music",
+										"children": [
+											{
+												"open": {
+													"on_entry": [
+														"/playsound goblinarmy @p",
+														"v.time = q.time_stamp;"
+													],
+													"transitions": [
+														{
+															"default": "query.time_stamp>v.time+2740 || query.scoreboard('boss_2_alive')==0"
+														}
+													]
+												},
+												"key": "on_entry",
+												"is_minified": true,
+												"children": [
+													"/playsound goblinarmy @p",
+													"v.time = q.time_stamp;"
+												]
+											},
+											{
+												"open": {
+													"on_entry": [
+														"/playsound goblinarmy @p",
+														"v.time = q.time_stamp;"
+													],
+													"transitions": [
+														{
+															"default": "query.time_stamp>v.time+2740 || query.scoreboard('boss_2_alive')==0"
+														}
+													]
+												},
 												"key": "transitions",
 												"children": [
 													{
@@ -2812,6 +2399,12 @@
 													},
 													{
 														"boss_5_music": "query.scoreboard('boss_2_alive')==5"
+													},
+													{
+														"goblin_army_music": "query.scoreboard('boss_2_alive')==10"
+													},
+													{
+														"blood_moon_music": "query.scoreboard('boss_2_alive')==11"
 													}
 												],
 												"on_entry": [
@@ -3062,15 +2655,35 @@
 														"default": "query.time_stamp>v.time+2740 || query.scoreboard('boss_2_alive')==0"
 													}
 												]
+											},
+											"goblin_army_music": {
+												"on_entry": [
+													"/playsound goblinarmy @p",
+													"v.time = q.time_stamp;"
+												],
+												"transitions": [
+													{
+														"default": "query.time_stamp>v.time+2740 || query.scoreboard('boss_2_alive')==0"
+													}
+												]
+											},
+											"blood_moon_music": {
+												"on_entry": [
+													"/playsound bloodmoon @p"
+												],
+												"transitions": [
+													{
+														"default": "query.time_stamp>v.time+2740 || query.scoreboard('boss_2_alive')==0"
+													}
+												]
 											}
 										},
-										"key": "boss_3_music",
+										"key": "blood_moon_music",
 										"children": [
 											{
 												"open": {
 													"on_entry": [
-														"/playsound bossthree @p",
-														"v.time = q.time_stamp;"
+														"/playsound bloodmoon @p"
 													],
 													"transitions": [
 														{
@@ -3081,343 +2694,13 @@
 												"key": "on_entry",
 												"is_minified": true,
 												"children": [
-													"/playsound bossthree @p",
-													"v.time = q.time_stamp;"
+													"/playsound bloodmoon @p"
 												]
 											},
-											{
-												"key": "transitions",
-												"is_minified": true,
-												"children": [
-													{
-														"default": "query.time_stamp>v.time+2740 || query.scoreboard('boss_2_alive')==0"
-													}
-												]
-											}
-										]
-									},
-									{
-										"open": {
-											"default": {
-												"transitions": [
-													{
-														"forest_night_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day<0.25 || query.time_of_day>0.75 &&  query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
-													},
-													{
-														"forest_day_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day>0.25 || query.time_of_day<0.75 && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
-													},
-													{
-														"desert_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
-													},
-													{
-														"jungle_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
-													},
-													{
-														"corruption_music": "query.biome_has_any_tag('corruption') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
-													},
-													{
-														"snow_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
-													},
-													{
-														"crimson_music": "query.biome_has_any_tag('crimson') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
-													},
-													{
-														"underground_music": "query.position(1)>30 && query.position(1)<80 && query.scoreboard('boss_2_alive')==0"
-													},
-													{
-														"desert_underground_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
-													},
-													{
-														"jungle_underground_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
-													},
-													{
-														"ice_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
-													},
-													{
-														"crimson_underground_music": "query.biome_has_any_tag('crimson') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
-													},
-													{
-														"corruption_underground_music": "query.biome_has_any_tag('corruption') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
-													},
-													{
-														"underworld_music": " query.position(1)>0 && query.position(1)<30 && query.scoreboard('boss_2_alive')==0"
-													},
-													{
-														"vanilla": "query.biome_has_any_tag('overworld') && query.scoreboard('boss_2_alive')==0"
-													},
-													{
-														"forest_underground_music": "query.biome_has_any_tag('purity_forest') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
-													},
-													{
-														"boss_2_music": "query.scoreboard('boss_2_alive')==2"
-													},
-													{
-														"boss_1_music": "query.scoreboard('boss_2_alive')==1"
-													},
-													{
-														"boss_3_music": "query.scoreboard('boss_2_alive')==3"
-													},
-													{
-														"boss_5_music": "query.scoreboard('boss_2_alive')==5"
-													}
-												],
-												"on_entry": [
-													"/fog @s remove purity_forest_fog",
-													"/fog @s remove purity_desert_fog",
-													"/fog @s remove corruption_forest_fog",
-													"/fog @s remove purity_jungle_fog",
-													"/fog @s remove purity_snow_fog",
-													"/fog @s remove tcrimson_forest_fog",
-													"/fog @s remove underground_fog",
-													"/fog @s remove underworld_fog",
-													"/stopsound @s"
-												]
-											},
-											"forest_day_music": {
-												"on_entry": [
-													"/playsound dayone @s",
-													"v.time = q.time_stamp;",
-													"/fog @s push terrariamod:purity_forest_fog purity_forest_fog"
-												],
-												"transitions": [
-													{
-														"default": "query.time_stamp>v.time+1340 || !query.biome_has_any_tag('purity_forest') || query.position(1)<110 || query.position(1)>256 || query.time_of_day==0.75 || query.scoreboard('boss_2_alive')>0"
-													}
-												]
-											},
-											"forest_night_music": {
-												"on_entry": [
-													"/playsound night @s",
-													"v.time = q.time_stamp;",
-													"/fog @s push terrariamod:purity_forest_fog purity_forest_fog"
-												],
-												"transitions": [
-													{
-														"default": "query.time_stamp>v.time+1160 || !query.biome_has_any_tag('purity_forest') || query.position(1)<110 || query.position(1)>256 || query.time_of_day==0.25 || query.scoreboard('boss_2_alive')>0"
-													}
-												]
-											},
-											"corruption_music": {
-												"on_entry": [
-													"/playsound corruption @s",
-													"v.time = q.time_stamp;",
-													"/fog @s push terrariamod:corruption_forest_fog corruption_forest_fog"
-												],
-												"transitions": [
-													{
-														"default": "query.time_stamp>v.time+1520 || !query.biome_has_any_tag('corruption') || query.position(1)<110 || query.position(1)>256 || query.scoreboard('boss_2_alive')>0"
-													}
-												]
-											},
-											"jungle_music": {
-												"on_entry": [
-													"/playsound jungle @s",
-													"v.time = q.time_stamp;",
-													"/fog @s push terrariamod:purity_jungle_fog purity_jungle_fog"
-												],
-												"transitions": [
-													{
-														"default": "query.time_stamp>v.time+1620 || !query.biome_has_any_tag('purity_jungle') || query.position(1)<110 || query.position(1)>256 || query.scoreboard('boss_2_alive')>0"
-													}
-												]
-											},
-											"desert_music": {
-												"on_entry": [
-													"/playsound desert @s",
-													"v.time = q.time_stamp;",
-													"/fog @s push terrariamod:purity_desert_fog purity_desert_fog"
-												],
-												"transitions": [
-													{
-														"default": "query.time_stamp>v.time+1780 || !query.biome_has_any_tag('purity_desert') || query.position(1)<110 || query.position(1)>256 || query.scoreboard('boss_2_alive')>0"
-													}
-												]
-											},
-											"snow_music": {
-												"on_entry": [
-													"/playsound snow @s",
-													"v.time = q.time_stamp;",
-													"/fog @s push terrariamod:purity_snow_fog purity_snow_fog"
-												],
-												"transitions": [
-													{
-														"default": "query.time_stamp>v.time+1880 || !query.biome_has_any_tag('purity_snow') || query.position(1)<110 || query.position(1)>256 || query.scoreboard('boss_2_alive')>0"
-													}
-												]
-											},
-											"crimson_music": {
-												"on_entry": [
-													"/playsound crimson @s",
-													"v.time = q.time_stamp;",
-													"/fog @s push terrariamod:tcrimson_forest_fog tcrimson_forest_fog"
-												],
-												"transitions": [
-													{
-														"default": "query.time_stamp>v.time+2540 || !query.biome_has_any_tag('crimson') || query.position(1)<110 || query.position(1)>256 || query.scoreboard('boss_2_alive')>0"
-													}
-												]
-											},
-											"underground_music": {
-												"on_entry": [
-													"/playsound underground @s",
-													"v.time = q.time_stamp;",
-													"/fog @s push terrariamod:underground_fog underground_fog"
-												],
-												"transitions": [
-													{
-														"default": "query.time_stamp>v.time+3580 || query.position(1)<30 || query.position(1)>80 || query.scoreboard('boss_2_alive')>0"
-													}
-												]
-											},
-											"desert_underground_music": {
-												"on_entry": [
-													"/playsound desert_underground @s",
-													"v.time = q.time_stamp;",
-													"/fog @s push terrariamod:purity_desert_fog purity_desert_fog"
-												],
-												"transitions": [
-													{
-														"default": "query.time_stamp>v.time+2420 || !query.biome_has_any_tag('purity_desert') || query.position(1)<80 || query.position(1)>110 || query.scoreboard('boss_2_alive')>0"
-													}
-												]
-											},
-											"jungle_underground_music": {
-												"on_entry": [
-													"/playsound jungle_underground @s",
-													"v.time = q.time_stamp;",
-													"/fog @s push terrariamod:purity_jungle_fog purity_jungle_fog"
-												],
-												"transitions": [
-													{
-														"default": "query.time_stamp>v.time+2160 || !query.biome_has_any_tag('purity_jungle') || query.position(1)<80 || query.position(1)>110 || query.scoreboard('boss_2_alive')>0"
-													}
-												]
-											},
-											"ice_music": {
-												"on_entry": [
-													"/playsound ice @s",
-													"v.time = q.time_stamp;",
-													"/fog @s push terrariamod:purity_snow_fog purity_snow_fog"
-												],
-												"transitions": [
-													{
-														"default": "query.time_stamp>v.time+1680 || !query.biome_has_any_tag('purity_snow') || query.position(1)<80 || query.position(1)>110 || query.scoreboard('boss_2_alive')>0"
-													}
-												]
-											},
-											"crimson_underground_music": {
-												"on_entry": [
-													"/playsound crimson_underground @s",
-													"v.time = q.time_stamp;",
-													"/fog @s push terrariamod:crimson_forest_fog crimson_forest_fog"
-												],
-												"transitions": [
-													{
-														"default": "query.time_stamp>v.time+3220 || !query.biome_has_any_tag('crimson') || query.position(1)<80 || query.position(1)>110 || query.scoreboard('boss_2_alive')>0"
-													}
-												]
-											},
-											"corruption_underground_music": {
-												"on_entry": [
-													"/playsound corruption_underground @s",
-													"v.time = q.time_stamp;",
-													"/fog @s push terrariamod:forest_corruption_fog corruption_forest_fog"
-												],
-												"transitions": [
-													{
-														"default": "query.time_stamp>v.time+2840 || !query.biome_has_any_tag('corruption') || query.position(1)<80 || query.position(1)>110 || query.scoreboard('boss_2_alive')>0"
-													}
-												]
-											},
-											"underworld_music": {
-												"on_entry": [
-													"/playsound underworld @s",
-													"v.time = q.time_stamp;",
-													"/fog @s push terrariamod:underworld_fog underworld_fog"
-												],
-												"transitions": [
-													{
-														"default": "query.time_stamp>v.time+2600 || query.position(1)>30 || query.scoreboard('boss_2_alive')>0"
-													}
-												]
-											},
-											"vanilla": {
-												"on_entry": [
-													"/gamerule sendcommandfeedback false",
-													"/tp @s ^ ^ ^-1",
-													"/say this biome can't be entered!",
-													"/gamerule sendcommandfeedback true",
-													"v.time = q.time_stamp;"
-												],
-												"transitions": [
-													{
-														"default": "query.time_stamp>v.time+0.1 || !query.biome_has_any_tag('overworld') || query.scoreboard('boss_2_alive')>0"
-													}
-												]
-											},
-											"forest_underground_music": {
-												"on_entry": [
-													"/playsound underground @s",
-													"v.time = q.time_stamp;"
-												],
-												"transitions": [
-													{
-														"default": "query.time_stamp>v.time+2840 || !query.biome_has_any_tag('purity_forest') || query.position(1)<80 || query.position(1)>110 || query.scoreboard('boss_2_alive')>0"
-													}
-												]
-											},
-											"boss_2_music": {
-												"on_entry": [
-													"/playsound bosstwo @p",
-													"v.time = q.time_stamp;"
-												],
-												"transitions": [
-													{
-														"default": "query.time_stamp>v.time+2740 || query.scoreboard('boss_2_alive')==0"
-													}
-												]
-											},
-											"boss_1_music": {
-												"on_entry": [
-													"/playsound bossone @p",
-													"v.time = q.time_stamp;"
-												],
-												"transitions": [
-													{
-														"default": "query.time_stamp>v.time+2740 || query.scoreboard('boss_2_alive')==0"
-													}
-												]
-											},
-											"boss_3_music": {
-												"on_entry": [
-													"/playsound bossthree @p",
-													"v.time = q.time_stamp;"
-												],
-												"transitions": [
-													{
-														"default": "query.time_stamp>v.time+2740 || query.scoreboard('boss_2_alive')==0"
-													}
-												]
-											},
-											"boss_5_music": {
-												"on_entry": [
-													"/playsound bossfive @p",
-													"v.time = q.time_stamp;"
-												],
-												"transitions": [
-													{
-														"default": "query.time_stamp>v.time+2740 || query.scoreboard('boss_2_alive')==0"
-													}
-												]
-											}
-										},
-										"key": "boss_5_music",
-										"children": [
 											{
 												"open": {
 													"on_entry": [
-														"/playsound bossfive @p",
-														"v.time = q.time_stamp;"
+														"/playsound bloodmoon @p"
 													],
 													"transitions": [
 														{
@@ -3425,19 +2708,18 @@
 														}
 													]
 												},
-												"key": "on_entry",
-												"is_minified": true,
-												"children": [
-													"/playsound bossfive @p",
-													"v.time = q.time_stamp;"
-												]
-											},
-											{
 												"key": "transitions",
-												"is_minified": true,
 												"children": [
 													{
-														"default": "query.time_stamp>v.time+2740 || query.scoreboard('boss_2_alive')==0"
+														"open": [
+															{
+																"default": "query.time_stamp>v.time+2740 || query.scoreboard('boss_2_alive')==0"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"default": "query.time_stamp>v.time+2740 || query.scoreboard('boss_2_alive')==0"
+														}
 													}
 												]
 											}

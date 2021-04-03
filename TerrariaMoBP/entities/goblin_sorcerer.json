@@ -1,4 +1,4 @@
-//bridge-file-version: #28
+//bridge-file-version: #33
 {
 	"format_version": "1.16.0",
 	"minecraft:entity": {
@@ -179,11 +179,23 @@
 			},
 			"minecraft:type_family": {
 				"family": [
-					"terraria_players_enemy"
+					"terraria_players_enemy",
+					"terraria_boss"
 				]
+			},
+			"minecraft:on_death": {
+				"event": "terrariamod:hurt"
 			}
 		},
 		"component_groups": {},
-		"events": {}
+		"events": {
+			"terrariamod:hurt": {
+				"run_command": {
+					"command": [
+						"effect @e[type=terrariamod:goblinarmy_dummy] instant_damage 1 1"
+					]
+				}
+			}
+		}
 	}
 }

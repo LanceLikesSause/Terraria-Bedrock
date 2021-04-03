@@ -1,9 +1,9 @@
-//bridge-file-version: #8
+//bridge-file-version: #9
 {
 	"format_version": "1.16.100",
 	"minecraft:recipe_shapeless": {
 		"description": {
-			"identifier": "terrariamod:puritychest_recipe"
+			"identifier": "terrariamod:puritychest_iron_recipe"
 		},
 		"tags": [
 			"workbench"

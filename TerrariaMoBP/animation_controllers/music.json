@@ -1,4 +1,4 @@
-//bridge-file-version: #441
+//bridge-file-version: #451
 {
 	"format_version": "1.10.0",
 	"animation_controllers": {
@@ -65,6 +65,12 @@
 						},
 						{
 							"boss_5_music": "query.scoreboard('boss_2_alive')==5"
+						},
+						{
+							"goblin_army_music": "query.scoreboard('boss_2_alive')==10"
+						},
+						{
+							"blood_moon_music": "query.scoreboard('boss_2_alive')==11"
 						}
 					],
 					"on_entry": [
@@ -309,6 +315,27 @@
 					"on_entry": [
 						"/playsound bossfive @p",
 						"v.time = q.time_stamp;"
+					],
+					"transitions": [
+						{
+							"default": "query.time_stamp>v.time+2740 || query.scoreboard('boss_2_alive')==0"
+						}
+					]
+				},
+				"goblin_army_music": {
+					"on_entry": [
+						"/playsound goblinarmy @p",
+						"v.time = q.time_stamp;"
+					],
+					"transitions": [
+						{
+							"default": "query.time_stamp>v.time+2740 || query.scoreboard('boss_2_alive')==0"
+						}
+					]
+				},
+				"blood_moon_music": {
+					"on_entry": [
+						"/playsound bloodmoon @p"
 					],
 					"transitions": [
 						{

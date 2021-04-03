@@ -244,6 +244,168 @@
 			],
 			"custom_commands": [],
 			"custom_components": []
+		},
+		"BP/entities/goblin_thief.json": {
+			"events": [
+				"terrariamod:hurt"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:goblin_thief"
+			],
+			"animation_references": [],
+			"families": [
+				"terraria_players_enemy",
+				"terraria_boss"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/goblin_warrior.json": {
+			"events": [
+				"terrariamod:hurt"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:goblin_warrior"
+			],
+			"animation_references": [],
+			"families": [
+				"terraria_players_enemy",
+				"terraria_boss"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/goblinarmy_dummy.json": {
+			"events": [
+				"terrariamod:tp"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:bloodmoon_dummy"
+			],
+			"animation_references": [
+				"other"
+			],
+			"families": [
+				"terraria_boss"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/goblin_sorcerer.json": {
+			"events": [
+				"terrariamod:hurt"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:goblin_sorcerer"
+			],
+			"animation_references": [],
+			"families": [
+				"terraria_players_enemy",
+				"terraria_boss"
+			],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/entities/goblin_peon.json": {
+			"events": [
+				"terrariamod:hurt"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:goblin_peon"
+			],
+			"animation_references": [],
+			"families": [
+				"terraria_players_enemy",
+				"terraria_boss"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/goblin_archer.json": {
+			"events": [
+				"terrariamod:hurt"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:goblin_archer"
+			],
+			"animation_references": [],
+			"families": [
+				"terraria_players_enemy",
+				"terraria_boss"
+			],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/entities/bloodmoon_dummy.json": {
+			"events": [
+				"terrariamod:tp"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:bloodmoon_dummy"
+			],
+			"animation_references": [
+				"other"
+			],
+			"families": [
+				"terraria_boss"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/thegroom.json": {
+			"events": [
+				"terrariamod:hurt"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:thegroom"
+			],
+			"animation_references": [],
+			"families": [
+				"terraria_players_enemy",
+				"terraria_boss"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/bloodzombie.json": {
+			"events": [
+				"terrariamod:hurt"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:bloodzombie"
+			],
+			"animation_references": [],
+			"families": [
+				"terraria_players_enemy",
+				"terraria_boss"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/drippler.json": {
+			"events": [
+				"terrariamod:hurt"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:drippler"
+			],
+			"animation_references": [],
+			"families": [
+				"terraria_players_enemy",
+				"terraria_boss"
+			],
+			"custom_commands": [],
+			"custom_components": []
 		}
 	},
 	"function": {
@@ -268,7 +430,27 @@
 		"eaaf601a_ef82_4dff_ade7_c812fd922c97": {},
 		"e1d2344e_33a4_43c9_a280_7784faa9f907": {},
 		"d6582a36_6661_4079_b0dd_0e4e0980dc83": {},
-		"cdc2b8b2_72a0_436d_84c5_0a2178a575b4": {}
+		"cdc2b8b2_72a0_436d_84c5_0a2178a575b4": {},
+		"9d26ac91_43d0_4c60_9e3b_4d49059c2c37": {},
+		"4d06c08e_8bca_4418_aa13_b55622e9b303": {},
+		"BP/functions/goblin_army.mcfunction": {
+			"custom_commands": []
+		},
+		"60afe71d_7581_44cc_8f30_161afea1e3a8": {},
+		"f7d30aa0_9de9_4fa8_9b75_3b99e5d1161c": {},
+		"36d5c6aa_1024_4169_a228_fc8bd4004d1c": {},
+		"4ee77841_02a0_4864_aebd_0185591c3f72": {},
+		"9c8c005d_8000_4750_9603_8347be338287": {},
+		"07b7bdbd_c0cc_4c63_b920_024f820aa3cd": {},
+		"678322bd_1a71_4b02_b00e_f8a6a123777d": {},
+		"982c857a_960a_4866_8949_67707be4a9f6": {},
+		"f9b4b504_009e_46c6_b1d3_f938727d5879": {},
+		"BP/functions/blood_moon.mcfunction": {
+			"custom_commands": []
+		},
+		"a53f8e1b_c8d3_484d_8339_fc363e4ecbe4": {},
+		"7c09e3e5_e745_4c32_8117_0a2acdd052bb": {},
+		"614e7b31_b970_40a7_8524_ccc74c517a4f": {}
 	},
 	"block": {
 		"BP/blocks/purity_campfire.json": {
@@ -340,6 +522,12 @@
 				"terrariamod:tinbar_pile"
 			],
 			"custom_commands": []
+		},
+		"BP/items/thiefsknife.json": {
+			"identifiers": [
+				"terrariamod:thiefsknife"
+			],
+			"custom_commands": []
 		}
 	},
 	"animation_controller": {
@@ -369,7 +557,25 @@
 		},
 		"BP/animation_controllers/boss_5_other.json": {
 			"ids": [
-				"controller.animation.boss_1_other"
+				"controller.animation.bloodmoon_other"
+			],
+			"custom_commands": []
+		},
+		"BP/animation_controllers/event.json": {
+			"ids": [
+				"controller.animation.event"
+			],
+			"custom_commands": []
+		},
+		"BP/animation_controllers/goblinarmy_other.json": {
+			"ids": [
+				"controller.animation.bloodmoon_other"
+			],
+			"custom_commands": []
+		},
+		"BP/animation_controllers/bloodmoon_other.json": {
+			"ids": [
+				"controller.animation.bloodmoon_other"
 			],
 			"custom_commands": []
 		}
@@ -457,7 +663,21 @@
 				"bossone",
 				"bosstwo",
 				"bossthree",
-				"bossfive"
+				"bossfive",
+				"goblinarmy",
+				"bloodmoon"
+			]
+		}
+	},
+	"recipe": {
+		"BP/recipes/puritychest_iron_recipe.json": {
+			"tags": [
+				"workbench"
+			]
+		},
+		"BP/recipes/puritychest_lead_recipe.json": {
+			"tags": [
+				"workbench"
 			]
 		}
 	}

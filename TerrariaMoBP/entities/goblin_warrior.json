@@ -1,6 +1,6 @@
-//bridge-file-version: #27
+//bridge-file-version: #35
 {
-	"format_version": "1.16.0",
+	"format_version": "1.16.200",
 	"minecraft:entity": {
 		"description": {
 			"identifier": "terrariamod:goblin_warrior",
@@ -61,10 +61,6 @@
 			},
 			"minecraft:behavior.melee_attack": {
 				"priority": 3,
-				"speed_multiplier": 1
-			},
-			"minecraft:behavior.move_towards_restriction": {
-				"priority": 5,
 				"speed_multiplier": 1
 			},
 			"minecraft:behavior.random_stroll": {
@@ -159,15 +155,30 @@
 			},
 			"minecraft:type_family": {
 				"family": [
-					"terraria_players_enemy"
+					"terraria_players_enemy",
+					"terraria_boss"
 				]
 			},
 			"minecraft:break_blocks": {
 				"breakable_blocks": [
 					"terrariamod:twooden_door"
 				]
+			},
+			"minecraft:equipment": {
+				"table": "loot_tables/blocks/goblinwarrior.json"
+			},
+			"minecraft:on_death": {
+				"event": "terrariamod:hurt"
 			}
 		},
-		"events": {}
+		"events": {
+			"terrariamod:hurt": {
+				"run_command": {
+					"command": [
+						"effect @e[type=terrariamod:goblinarmy_dummy] instant_damage 1 1"
+					]
+				}
+			}
+		}
 	}
 }

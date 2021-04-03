@@ -1,4 +1,4 @@
-#Terraria Bedrock
+# Terraria Bedrock
 A Minecraft bedrock addon that aims to add all of Terraria's content into Minecraft
 # Description
 Like Terraria? Think Minecraft could use some of Terraria's ores, tools, weapons, enemies, bosses, and biomes? Try the Terraria Mod it adds lots of Terraria's features, and my goal is to soon have add all of Terrraria's content into Minecraft! Fight the Eye of Cthulu, dig for rare ores, explore the dangerous Crimson biome, and much more!

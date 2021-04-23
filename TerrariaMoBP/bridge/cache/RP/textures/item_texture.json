@@ -3,7 +3,7 @@
 	"file_type": "item_texture",
 	"format_version": 1,
 	"file_uuid": "83cdef5d_b01d_41e6_b57e_be3709fbbece",
-	"file_version": 17,
+	"file_version": 23,
 	"cache_content": {
 		"children": [
 			{
@@ -819,6 +819,21 @@
 						"terrariamod:thiefsknife": {
 							"textures": [
 								"textures/items/thiefsknife"
+							]
+						},
+						"terrariamod:grapplinghook": {
+							"textures": [
+								"textures/items/hooks/grapplinghook"
+							]
+						},
+						"terrariamod:livingwoodwand": {
+							"textures": [
+								"textures/items/weapons/livingwoodwand"
+							]
+						},
+						"terrariamod:leafwand": {
+							"textures": [
+								"textures/items/weapons/leafwand"
 							]
 						}
 					}
@@ -2595,6 +2610,49 @@
 						}
 					},
 					{
+						"key": "terrariamod:thiefsknife",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/items/thiefsknife"
+							]
+						}
+					},
+					{
+						"key": "terrariamod:grapplinghook",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/hooks/grapplinghook"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/hooks/grapplinghook"
+								]
+							}
+						]
+					},
+					{
+						"key": "terrariamod:livingwoodwand",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/weapons/livingwoodwand"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/weapons/livingwoodwand"
+								]
+							}
+						]
+					},
+					{
 						"open": {
 							"terrariamod:bookofskulls": {
 								"textures": "textures/items/guns/bookofskulls"
@@ -3397,20 +3455,35 @@
 								"textures": [
 									"textures/items/thiefsknife"
 								]
+							},
+							"terrariamod:grapplinghook": {
+								"textures": [
+									"textures/items/hooks/grapplinghook"
+								]
+							},
+							"terrariamod:livingwoodwand": {
+								"textures": [
+									"textures/items/weapons/livingwoodwand"
+								]
+							},
+							"terrariamod:leafwand": {
+								"textures": [
+									"textures/items/weapons/leafwand"
+								]
 							}
 						},
-						"key": "terrariamod:thiefsknife",
+						"key": "terrariamod:leafwand",
 						"children": [
 							{
 								"open": {
 									"textures": [
-										"textures/items/thiefsknife"
+										"textures/items/weapons/leafwand"
 									]
 								},
 								"key": "textures",
 								"is_minified": true,
 								"children": [
-									"textures/items/thiefsknife"
+									"textures/items/weapons/leafwand"
 								]
 							}
 						]

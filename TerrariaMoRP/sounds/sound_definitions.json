@@ -1,4 +1,4 @@
-//bridge-file-version: #41
+//bridge-file-version: #42
 {
 	"format_version": "1.14.0",
 	"sound_definitions": {
@@ -449,6 +449,16 @@
 			"sounds": [
 				{
 					"name": "sounds/music/bloodmoon",
+					"stream": true,
+					"volume": 0.3
+				}
+			]
+		},
+		"rain": {
+			"category": "music",
+			"sounds": [
+				{
+					"name": "sounds/music/rain",
 					"stream": true,
 					"volume": 0.3
 				}

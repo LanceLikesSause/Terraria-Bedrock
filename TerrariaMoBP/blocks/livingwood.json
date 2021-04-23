@@ -1,0 +1,15 @@
+//bridge-file-version: #41
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "terrariamod:livingwood",
+			"category": "blocks"
+		},
+		"components": {
+			"minecraft:destroy_time": 5,
+			"tag:terrariamod:wood": {}
+		},
+		"events": {}
+	}
+}

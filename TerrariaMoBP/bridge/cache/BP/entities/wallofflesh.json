@@ -3,7 +3,7 @@
 	"file_type": "entity",
 	"format_version": 1,
 	"file_uuid": "e2875790_4c14_41b4_8e1d_5dccda03fd65",
-	"file_version": 245,
+	"file_version": 305,
 	"cache_content": {
 		"children": [
 			{
@@ -30,7 +30,20 @@
 								]
 							}
 						},
-						"component_groups": {},
+						"component_groups": {
+							"terrariamod:summon_hungry": {
+								"minecraft:timer": {
+									"looping": false,
+									"time": [
+										0.1,
+										0.1
+									],
+									"time_down_event": {
+										"event": "terrariamod:summon_hungry"
+									}
+								}
+							}
+						},
 						"components": {
 							"minecraft:health": {
 								"value": 8000,
@@ -61,7 +74,7 @@
 								"max": 0.5
 							},
 							"minecraft:scale": {
-								"value": 5
+								"value": 4
 							},
 							"minecraft:area_attack": {
 								"damage_range": 3,
@@ -79,11 +92,6 @@
 								"attack_interval_max": 1,
 								"attack_radius": 15
 							},
-							"minecraft:movement": {
-								"value": 0
-							},
-							"minecraft:navigation.walk": {},
-							"minecraft:movement.basic": {},
 							"minecraft:behavior.nearest_attackable_target": {
 								"priority": 1,
 								"set_persistent": true,
@@ -108,9 +116,78 @@
 									"terraria_boss"
 								]
 							},
-							"minecraft:fire_immune": true
+							"minecraft:fire_immune": true,
+							"minecraft:environment_sensor": {
+								"triggers": [
+									{
+										"filters": {
+											"test": "distance_to_nearest_player",
+											"operator": ">",
+											"value": 90
+										},
+										"event": "terrariamod:tried_to_escape"
+									}
+								]
+							},
+							"minecraft:timer": {
+								"looping": false,
+								"time": [
+									18000,
+									18000
+								],
+								"time_down_event": {
+									"event": "terrariamod:time_up"
+								}
+							},
+							"minecraft:on_death": {
+								"event": "terrariamod:death"
+							}
 						},
-						"events": {}
+						"events": {
+							"terrariamod:tried_to_escape": {
+								"run_command": {
+									"command": [
+										"kill @a",
+										"say players tried to escape"
+									]
+								}
+							},
+							"terrariamod:time_up": {
+								"run_command": {
+									"command": [
+										"kill @s",
+										"kill @e",
+										"say players were licked"
+									]
+								}
+							},
+							"terrariamod:death": {
+								"run_command": {
+									"command": [
+										"say The Wall of Flesh has been defeated"
+									]
+								}
+							},
+							"terrariamod:summon_hungry": {
+								"run_command": {
+									"command": [
+										"summon terrariamod:thehungry ~ ~ ~",
+										"summon terrariamod:thehungry ~ ~5 ~",
+										"summon terrariamod:thehungry ~ ~-5 ~",
+										"summon terrariamod:thehungry ~ ~10 ~",
+										"summon terrariamod:thehungry ~ ~15 ~",
+										"summon terrariamod:thehungry ~ ~20 ~"
+									]
+								}
+							},
+							"minecraft:entity_spawned": {
+								"add": {
+									"component_groups": [
+										"terrariamod:summon_hungry"
+									]
+								}
+							}
+						}
 					}
 				},
 				"key": "minecraft:entity",
@@ -133,7 +210,20 @@
 									]
 								}
 							},
-							"component_groups": {},
+							"component_groups": {
+								"terrariamod:summon_hungry": {
+									"minecraft:timer": {
+										"looping": false,
+										"time": [
+											0.1,
+											0.1
+										],
+										"time_down_event": {
+											"event": "terrariamod:summon_hungry"
+										}
+									}
+								}
+							},
 							"components": {
 								"minecraft:health": {
 									"value": 8000,
@@ -164,7 +254,7 @@
 									"max": 0.5
 								},
 								"minecraft:scale": {
-									"value": 5
+									"value": 4
 								},
 								"minecraft:area_attack": {
 									"damage_range": 3,
@@ -182,11 +272,6 @@
 									"attack_interval_max": 1,
 									"attack_radius": 15
 								},
-								"minecraft:movement": {
-									"value": 0
-								},
-								"minecraft:navigation.walk": {},
-								"minecraft:movement.basic": {},
 								"minecraft:behavior.nearest_attackable_target": {
 									"priority": 1,
 									"set_persistent": true,
@@ -211,9 +296,78 @@
 										"terraria_boss"
 									]
 								},
-								"minecraft:fire_immune": true
+								"minecraft:fire_immune": true,
+								"minecraft:environment_sensor": {
+									"triggers": [
+										{
+											"filters": {
+												"test": "distance_to_nearest_player",
+												"operator": ">",
+												"value": 90
+											},
+											"event": "terrariamod:tried_to_escape"
+										}
+									]
+								},
+								"minecraft:timer": {
+									"looping": false,
+									"time": [
+										18000,
+										18000
+									],
+									"time_down_event": {
+										"event": "terrariamod:time_up"
+									}
+								},
+								"minecraft:on_death": {
+									"event": "terrariamod:death"
+								}
 							},
-							"events": {}
+							"events": {
+								"terrariamod:tried_to_escape": {
+									"run_command": {
+										"command": [
+											"kill @a",
+											"say players tried to escape"
+										]
+									}
+								},
+								"terrariamod:time_up": {
+									"run_command": {
+										"command": [
+											"kill @s",
+											"kill @e",
+											"say players were licked"
+										]
+									}
+								},
+								"terrariamod:death": {
+									"run_command": {
+										"command": [
+											"say The Wall of Flesh has been defeated"
+										]
+									}
+								},
+								"terrariamod:summon_hungry": {
+									"run_command": {
+										"command": [
+											"summon terrariamod:thehungry ~ ~ ~",
+											"summon terrariamod:thehungry ~ ~5 ~",
+											"summon terrariamod:thehungry ~ ~-5 ~",
+											"summon terrariamod:thehungry ~ ~10 ~",
+											"summon terrariamod:thehungry ~ ~15 ~",
+											"summon terrariamod:thehungry ~ ~20 ~"
+										]
+									}
+								},
+								"minecraft:entity_spawned": {
+									"add": {
+										"component_groups": [
+											"terrariamod:summon_hungry"
+										]
+									}
+								}
+							}
 						},
 						"key": "description",
 						"children": [
@@ -295,11 +449,6 @@
 						]
 					},
 					{
-						"key": "component_groups",
-						"is_minified": true,
-						"children": {}
-					},
-					{
 						"open": {
 							"description": {
 								"identifier": "terrariamod:wallofflesh",
@@ -317,7 +466,20 @@
 									]
 								}
 							},
-							"component_groups": {},
+							"component_groups": {
+								"terrariamod:summon_hungry": {
+									"minecraft:timer": {
+										"looping": false,
+										"time": [
+											0.1,
+											0.1
+										],
+										"time_down_event": {
+											"event": "terrariamod:summon_hungry"
+										}
+									}
+								}
+							},
 							"components": {
 								"minecraft:health": {
 									"value": 8000,
@@ -348,7 +510,7 @@
 									"max": 0.5
 								},
 								"minecraft:scale": {
-									"value": 5
+									"value": 4
 								},
 								"minecraft:area_attack": {
 									"damage_range": 3,
@@ -366,11 +528,6 @@
 									"attack_interval_max": 1,
 									"attack_radius": 15
 								},
-								"minecraft:movement": {
-									"value": 0
-								},
-								"minecraft:navigation.walk": {},
-								"minecraft:movement.basic": {},
 								"minecraft:behavior.nearest_attackable_target": {
 									"priority": 1,
 									"set_persistent": true,
@@ -395,9 +552,334 @@
 										"terraria_boss"
 									]
 								},
-								"minecraft:fire_immune": true
+								"minecraft:fire_immune": true,
+								"minecraft:environment_sensor": {
+									"triggers": [
+										{
+											"filters": {
+												"test": "distance_to_nearest_player",
+												"operator": ">",
+												"value": 90
+											},
+											"event": "terrariamod:tried_to_escape"
+										}
+									]
+								},
+								"minecraft:timer": {
+									"looping": false,
+									"time": [
+										18000,
+										18000
+									],
+									"time_down_event": {
+										"event": "terrariamod:time_up"
+									}
+								},
+								"minecraft:on_death": {
+									"event": "terrariamod:death"
+								}
 							},
-							"events": {}
+							"events": {
+								"terrariamod:tried_to_escape": {
+									"run_command": {
+										"command": [
+											"kill @a",
+											"say players tried to escape"
+										]
+									}
+								},
+								"terrariamod:time_up": {
+									"run_command": {
+										"command": [
+											"kill @s",
+											"kill @e",
+											"say players were licked"
+										]
+									}
+								},
+								"terrariamod:death": {
+									"run_command": {
+										"command": [
+											"say The Wall of Flesh has been defeated"
+										]
+									}
+								},
+								"terrariamod:summon_hungry": {
+									"run_command": {
+										"command": [
+											"summon terrariamod:thehungry ~ ~ ~",
+											"summon terrariamod:thehungry ~ ~5 ~",
+											"summon terrariamod:thehungry ~ ~-5 ~",
+											"summon terrariamod:thehungry ~ ~10 ~",
+											"summon terrariamod:thehungry ~ ~15 ~",
+											"summon terrariamod:thehungry ~ ~20 ~"
+										]
+									}
+								},
+								"minecraft:entity_spawned": {
+									"add": {
+										"component_groups": [
+											"terrariamod:summon_hungry"
+										]
+									}
+								}
+							}
+						},
+						"key": "component_groups",
+						"children": [
+							{
+								"open": {
+									"terrariamod:summon_hungry": {
+										"minecraft:timer": {
+											"looping": false,
+											"time": [
+												0.1,
+												0.1
+											],
+											"time_down_event": {
+												"event": "terrariamod:summon_hungry"
+											}
+										}
+									}
+								},
+								"key": "terrariamod:summon_hungry",
+								"children": [
+									{
+										"open": {
+											"minecraft:timer": {
+												"looping": false,
+												"time": [
+													0.1,
+													0.1
+												],
+												"time_down_event": {
+													"event": "terrariamod:summon_hungry"
+												}
+											}
+										},
+										"key": "minecraft:timer",
+										"children": [
+											{
+												"data": "false",
+												"key": "looping"
+											},
+											{
+												"open": {
+													"looping": false,
+													"time": [
+														0.1,
+														0.1
+													],
+													"time_down_event": {
+														"event": "terrariamod:summon_hungry"
+													}
+												},
+												"key": "time",
+												"is_minified": true,
+												"children": [
+													0.1,
+													0.1
+												]
+											},
+											{
+												"open": {
+													"looping": false,
+													"time": [
+														0.1,
+														0.1
+													],
+													"time_down_event": {
+														"event": "terrariamod:summon_hungry"
+													}
+												},
+												"key": "time_down_event",
+												"is_minified": true,
+												"children": {
+													"event": "terrariamod:summon_hungry"
+												}
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:wallofflesh",
+								"is_spawnable": true,
+								"is_summonable": true,
+								"is_experimental": false,
+								"animations": {
+									"ai": "controller.animation.wallofflesh_ai",
+									"other": "controller.animation.boss_2_other"
+								},
+								"scripts": {
+									"animate": [
+										"ai",
+										"other"
+									]
+								}
+							},
+							"component_groups": {
+								"terrariamod:summon_hungry": {
+									"minecraft:timer": {
+										"looping": false,
+										"time": [
+											0.1,
+											0.1
+										],
+										"time_down_event": {
+											"event": "terrariamod:summon_hungry"
+										}
+									}
+								}
+							},
+							"components": {
+								"minecraft:health": {
+									"value": 8000,
+									"max": 8000
+								},
+								"minecraft:physics": {
+									"has_gravity": false
+								},
+								"minecraft:attack": {
+									"damage": 50
+								},
+								"minecraft:breathable": {
+									"breathes_air": true,
+									"breathes_water": true,
+									"breathes_solids": true,
+									"breathes_lava": true
+								},
+								"minecraft:collision_box": {
+									"width": 0.9,
+									"height": 0.5
+								},
+								"minecraft:boss": {
+									"hud_range": 56,
+									"name": "The Wall of Flesh"
+								},
+								"minecraft:knockback_resistance": {
+									"value": 0.5,
+									"max": 0.5
+								},
+								"minecraft:scale": {
+									"value": 4
+								},
+								"minecraft:area_attack": {
+									"damage_range": 3,
+									"damage_per_tick": 5,
+									"cause": "contact",
+									"entity_filter": {
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									}
+								},
+								"minecraft:behavior.ranged_attack": {
+									"priority": 0,
+									"attack_interval_min": 1,
+									"attack_interval_max": 1,
+									"attack_radius": 15
+								},
+								"minecraft:behavior.nearest_attackable_target": {
+									"priority": 1,
+									"set_persistent": true,
+									"attack_interval": 1,
+									"entity_types": [
+										{
+											"filters": {
+												"test": "is_family",
+												"subject": "other",
+												"value": "player"
+											}
+										}
+									],
+									"within_radius": 30
+								},
+								"minecraft:shooter": {
+									"def": "terrariamod:wallofflesh_projectile"
+								},
+								"minecraft:type_family": {
+									"family": [
+										"terraria_players_enemy",
+										"terraria_boss"
+									]
+								},
+								"minecraft:fire_immune": true,
+								"minecraft:environment_sensor": {
+									"triggers": [
+										{
+											"filters": {
+												"test": "distance_to_nearest_player",
+												"operator": ">",
+												"value": 90
+											},
+											"event": "terrariamod:tried_to_escape"
+										}
+									]
+								},
+								"minecraft:timer": {
+									"looping": false,
+									"time": [
+										18000,
+										18000
+									],
+									"time_down_event": {
+										"event": "terrariamod:time_up"
+									}
+								},
+								"minecraft:on_death": {
+									"event": "terrariamod:death"
+								}
+							},
+							"events": {
+								"terrariamod:tried_to_escape": {
+									"run_command": {
+										"command": [
+											"kill @a",
+											"say players tried to escape"
+										]
+									}
+								},
+								"terrariamod:time_up": {
+									"run_command": {
+										"command": [
+											"kill @s",
+											"kill @e",
+											"say players were licked"
+										]
+									}
+								},
+								"terrariamod:death": {
+									"run_command": {
+										"command": [
+											"say The Wall of Flesh has been defeated"
+										]
+									}
+								},
+								"terrariamod:summon_hungry": {
+									"run_command": {
+										"command": [
+											"summon terrariamod:thehungry ~ ~ ~",
+											"summon terrariamod:thehungry ~ ~5 ~",
+											"summon terrariamod:thehungry ~ ~-5 ~",
+											"summon terrariamod:thehungry ~ ~10 ~",
+											"summon terrariamod:thehungry ~ ~15 ~",
+											"summon terrariamod:thehungry ~ ~20 ~"
+										]
+									}
+								},
+								"minecraft:entity_spawned": {
+									"add": {
+										"component_groups": [
+											"terrariamod:summon_hungry"
+										]
+									}
+								}
+							}
 						},
 						"key": "components",
 						"children": [
@@ -458,89 +940,10 @@
 								}
 							},
 							{
-								"open": {
-									"minecraft:health": {
-										"value": 8000,
-										"max": 8000
-									},
-									"minecraft:physics": {
-										"has_gravity": false
-									},
-									"minecraft:attack": {
-										"damage": 50
-									},
-									"minecraft:breathable": {
-										"breathes_air": true,
-										"breathes_water": true,
-										"breathes_solids": true,
-										"breathes_lava": true
-									},
-									"minecraft:collision_box": {
-										"width": 0.9,
-										"height": 0.5
-									},
-									"minecraft:boss": {
-										"hud_range": 56,
-										"name": "The Wall of Flesh"
-									},
-									"minecraft:knockback_resistance": {
-										"value": 0.5,
-										"max": 0.5
-									},
-									"minecraft:scale": {
-										"value": 5
-									},
-									"minecraft:area_attack": {
-										"damage_range": 3,
-										"damage_per_tick": 5,
-										"cause": "contact",
-										"entity_filter": {
-											"test": "is_family",
-											"subject": "other",
-											"value": "player"
-										}
-									},
-									"minecraft:behavior.ranged_attack": {
-										"priority": 0,
-										"attack_interval_min": 1,
-										"attack_interval_max": 1,
-										"attack_radius": 15
-									},
-									"minecraft:movement": {
-										"value": 0
-									},
-									"minecraft:navigation.walk": {},
-									"minecraft:movement.basic": {},
-									"minecraft:behavior.nearest_attackable_target": {
-										"priority": 1,
-										"set_persistent": true,
-										"attack_interval": 1,
-										"entity_types": [
-											{
-												"filters": {
-													"test": "is_family",
-													"subject": "other",
-													"value": "player"
-												}
-											}
-										],
-										"within_radius": 30
-									},
-									"minecraft:shooter": {
-										"def": "terrariamod:wallofflesh_projectile"
-									},
-									"minecraft:type_family": {
-										"family": [
-											"terraria_players_enemy",
-											"terraria_boss"
-										]
-									},
-									"minecraft:fire_immune": true
-								},
 								"key": "minecraft:scale",
 								"is_minified": true,
 								"children": {
-									"value": 5
+									"value": 4
 								}
 							},
 							{
@@ -566,23 +969,6 @@
 									"attack_interval_max": 1,
 									"attack_radius": 15
 								}
-							},
-							{
-								"key": "minecraft:movement",
-								"is_minified": true,
-								"children": {
-									"value": 0
-								}
-							},
-							{
-								"key": "minecraft:navigation.walk",
-								"is_minified": true,
-								"children": {}
-							},
-							{
-								"key": "minecraft:movement.basic",
-								"is_minified": true,
-								"children": {}
 							},
 							{
 								"key": "minecraft:behavior.nearest_attackable_target",
@@ -623,13 +1009,646 @@
 							{
 								"data": "true",
 								"key": "minecraft:fire_immune"
+							},
+							{
+								"key": "minecraft:environment_sensor",
+								"children": [
+									{
+										"open": {
+											"triggers": [
+												{
+													"filters": {
+														"test": "distance_to_nearest_player",
+														"operator": ">",
+														"value": 90
+													},
+													"event": "terrariamod:tried_to_escape"
+												}
+											]
+										},
+										"key": "triggers",
+										"children": [
+											{
+												"open": [
+													{
+														"filters": {
+															"test": "distance_to_nearest_player",
+															"operator": ">",
+															"value": 90
+														},
+														"event": "terrariamod:tried_to_escape"
+													}
+												],
+												"children": [
+													{
+														"open": {
+															"filters": {
+																"test": "distance_to_nearest_player",
+																"operator": ">",
+																"value": 90
+															},
+															"event": "terrariamod:tried_to_escape"
+														},
+														"key": "filters",
+														"is_minified": true,
+														"children": {
+															"test": "distance_to_nearest_player",
+															"operator": ">",
+															"value": 90
+														}
+													},
+													{
+														"data": "terrariamod:tried_to_escape",
+														"key": "event"
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"key": "minecraft:timer",
+								"children": [
+									{
+										"data": "false",
+										"key": "looping"
+									},
+									{
+										"open": {
+											"looping": false,
+											"time": [
+												18000,
+												18000
+											],
+											"time_down_event": {
+												"event": "terrariamod:time_up"
+											}
+										},
+										"key": "time",
+										"is_minified": true,
+										"children": [
+											18000,
+											18000
+										]
+									},
+									{
+										"open": {
+											"looping": false,
+											"time": [
+												18000,
+												18000
+											],
+											"time_down_event": {
+												"event": "terrariamod:time_up"
+											}
+										},
+										"key": "time_down_event",
+										"is_minified": true,
+										"children": {
+											"event": "terrariamod:time_up"
+										}
+									}
+								]
+							},
+							{
+								"key": "minecraft:on_death",
+								"is_minified": true,
+								"children": {
+									"event": "terrariamod:death"
+								}
 							}
 						]
 					},
 					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:wallofflesh",
+								"is_spawnable": true,
+								"is_summonable": true,
+								"is_experimental": false,
+								"animations": {
+									"ai": "controller.animation.wallofflesh_ai",
+									"other": "controller.animation.boss_2_other"
+								},
+								"scripts": {
+									"animate": [
+										"ai",
+										"other"
+									]
+								}
+							},
+							"component_groups": {
+								"terrariamod:summon_hungry": {
+									"minecraft:timer": {
+										"looping": false,
+										"time": [
+											0.1,
+											0.1
+										],
+										"time_down_event": {
+											"event": "terrariamod:summon_hungry"
+										}
+									}
+								}
+							},
+							"components": {
+								"minecraft:health": {
+									"value": 8000,
+									"max": 8000
+								},
+								"minecraft:physics": {
+									"has_gravity": false
+								},
+								"minecraft:attack": {
+									"damage": 50
+								},
+								"minecraft:breathable": {
+									"breathes_air": true,
+									"breathes_water": true,
+									"breathes_solids": true,
+									"breathes_lava": true
+								},
+								"minecraft:collision_box": {
+									"width": 0.9,
+									"height": 0.5
+								},
+								"minecraft:boss": {
+									"hud_range": 56,
+									"name": "The Wall of Flesh"
+								},
+								"minecraft:knockback_resistance": {
+									"value": 0.5,
+									"max": 0.5
+								},
+								"minecraft:scale": {
+									"value": 4
+								},
+								"minecraft:area_attack": {
+									"damage_range": 3,
+									"damage_per_tick": 5,
+									"cause": "contact",
+									"entity_filter": {
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									}
+								},
+								"minecraft:behavior.ranged_attack": {
+									"priority": 0,
+									"attack_interval_min": 1,
+									"attack_interval_max": 1,
+									"attack_radius": 15
+								},
+								"minecraft:behavior.nearest_attackable_target": {
+									"priority": 1,
+									"set_persistent": true,
+									"attack_interval": 1,
+									"entity_types": [
+										{
+											"filters": {
+												"test": "is_family",
+												"subject": "other",
+												"value": "player"
+											}
+										}
+									],
+									"within_radius": 30
+								},
+								"minecraft:shooter": {
+									"def": "terrariamod:wallofflesh_projectile"
+								},
+								"minecraft:type_family": {
+									"family": [
+										"terraria_players_enemy",
+										"terraria_boss"
+									]
+								},
+								"minecraft:fire_immune": true,
+								"minecraft:environment_sensor": {
+									"triggers": [
+										{
+											"filters": {
+												"test": "distance_to_nearest_player",
+												"operator": ">",
+												"value": 90
+											},
+											"event": "terrariamod:tried_to_escape"
+										}
+									]
+								},
+								"minecraft:timer": {
+									"looping": false,
+									"time": [
+										18000,
+										18000
+									],
+									"time_down_event": {
+										"event": "terrariamod:time_up"
+									}
+								},
+								"minecraft:on_death": {
+									"event": "terrariamod:death"
+								}
+							},
+							"events": {
+								"terrariamod:tried_to_escape": {
+									"run_command": {
+										"command": [
+											"kill @a",
+											"say players tried to escape"
+										]
+									}
+								},
+								"terrariamod:time_up": {
+									"run_command": {
+										"command": [
+											"kill @s",
+											"kill @e",
+											"say players were licked"
+										]
+									}
+								},
+								"terrariamod:death": {
+									"run_command": {
+										"command": [
+											"say The Wall of Flesh has been defeated"
+										]
+									}
+								},
+								"terrariamod:summon_hungry": {
+									"run_command": {
+										"command": [
+											"summon terrariamod:thehungry ~ ~ ~",
+											"summon terrariamod:thehungry ~ ~5 ~",
+											"summon terrariamod:thehungry ~ ~-5 ~",
+											"summon terrariamod:thehungry ~ ~10 ~",
+											"summon terrariamod:thehungry ~ ~15 ~",
+											"summon terrariamod:thehungry ~ ~20 ~"
+										]
+									}
+								},
+								"minecraft:entity_spawned": {
+									"add": {
+										"component_groups": [
+											"terrariamod:summon_hungry"
+										]
+									}
+								}
+							}
+						},
 						"key": "events",
-						"is_minified": true,
-						"children": {}
+						"children": [
+							{
+								"key": "terrariamod:tried_to_escape",
+								"children": [
+									{
+										"open": {
+											"run_command": {
+												"command": [
+													"kill @a",
+													"say players tried to escape"
+												]
+											}
+										},
+										"key": "run_command",
+										"children": [
+											{
+												"open": {
+													"command": [
+														"kill @a",
+														"say players tried to escape"
+													]
+												},
+												"key": "command",
+												"is_minified": true,
+												"children": [
+													"kill @a",
+													"say players tried to escape"
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": {
+									"terrariamod:tried_to_escape": {
+										"run_command": {
+											"command": [
+												"kill @a",
+												"say players tried to escape"
+											]
+										}
+									},
+									"terrariamod:time_up": {
+										"run_command": {
+											"command": [
+												"kill @s",
+												"kill @e",
+												"say players were licked"
+											]
+										}
+									},
+									"terrariamod:death": {
+										"run_command": {
+											"command": [
+												"say The Wall of Flesh has been defeated"
+											]
+										}
+									},
+									"terrariamod:summon_hungry": {
+										"run_command": {
+											"command": [
+												"summon terrariamod:thehungry ~ ~ ~",
+												"summon terrariamod:thehungry ~ ~5 ~",
+												"summon terrariamod:thehungry ~ ~-5 ~",
+												"summon terrariamod:thehungry ~ ~10 ~",
+												"summon terrariamod:thehungry ~ ~15 ~",
+												"summon terrariamod:thehungry ~ ~20 ~"
+											]
+										}
+									},
+									"minecraft:entity_spawned": {
+										"add": {
+											"component_groups": [
+												"terrariamod:summon_hungry"
+											]
+										}
+									}
+								},
+								"key": "terrariamod:time_up",
+								"children": [
+									{
+										"open": {
+											"run_command": {
+												"command": [
+													"kill @s",
+													"kill @e",
+													"say players were licked"
+												]
+											}
+										},
+										"key": "run_command",
+										"children": [
+											{
+												"open": {
+													"command": [
+														"kill @s",
+														"kill @e",
+														"say players were licked"
+													]
+												},
+												"key": "command",
+												"is_minified": true,
+												"children": [
+													"kill @s",
+													"kill @e",
+													"say players were licked"
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": {
+									"terrariamod:tried_to_escape": {
+										"run_command": {
+											"command": [
+												"kill @a",
+												"say players tried to escape"
+											]
+										}
+									},
+									"terrariamod:time_up": {
+										"run_command": {
+											"command": [
+												"kill @s",
+												"kill @e",
+												"say players were licked"
+											]
+										}
+									},
+									"terrariamod:death": {
+										"run_command": {
+											"command": [
+												"say The Wall of Flesh has been defeated"
+											]
+										}
+									},
+									"terrariamod:summon_hungry": {
+										"run_command": {
+											"command": [
+												"summon terrariamod:thehungry ~ ~ ~",
+												"summon terrariamod:thehungry ~ ~5 ~",
+												"summon terrariamod:thehungry ~ ~-5 ~",
+												"summon terrariamod:thehungry ~ ~10 ~",
+												"summon terrariamod:thehungry ~ ~15 ~",
+												"summon terrariamod:thehungry ~ ~20 ~"
+											]
+										}
+									},
+									"minecraft:entity_spawned": {
+										"add": {
+											"component_groups": [
+												"terrariamod:summon_hungry"
+											]
+										}
+									}
+								},
+								"key": "terrariamod:death",
+								"children": [
+									{
+										"open": {
+											"run_command": {
+												"command": [
+													"say The Wall of Flesh has been defeated"
+												]
+											}
+										},
+										"key": "run_command",
+										"children": [
+											{
+												"open": {
+													"command": [
+														"say The Wall of Flesh has been defeated"
+													]
+												},
+												"key": "command",
+												"is_minified": true,
+												"children": [
+													"say The Wall of Flesh has been defeated"
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": {
+									"terrariamod:tried_to_escape": {
+										"run_command": {
+											"command": [
+												"kill @a",
+												"say players tried to escape"
+											]
+										}
+									},
+									"terrariamod:time_up": {
+										"run_command": {
+											"command": [
+												"kill @s",
+												"kill @e",
+												"say players were licked"
+											]
+										}
+									},
+									"terrariamod:death": {
+										"run_command": {
+											"command": [
+												"say The Wall of Flesh has been defeated"
+											]
+										}
+									},
+									"terrariamod:summon_hungry": {
+										"run_command": {
+											"command": [
+												"summon terrariamod:thehungry ~ ~ ~",
+												"summon terrariamod:thehungry ~ ~5 ~",
+												"summon terrariamod:thehungry ~ ~-5 ~",
+												"summon terrariamod:thehungry ~ ~10 ~",
+												"summon terrariamod:thehungry ~ ~15 ~",
+												"summon terrariamod:thehungry ~ ~20 ~"
+											]
+										}
+									},
+									"minecraft:entity_spawned": {
+										"add": {
+											"component_groups": [
+												"terrariamod:summon_hungry"
+											]
+										}
+									}
+								},
+								"key": "terrariamod:summon_hungry",
+								"children": [
+									{
+										"open": {
+											"run_command": {
+												"command": [
+													"summon terrariamod:thehungry ~ ~ ~",
+													"summon terrariamod:thehungry ~ ~5 ~",
+													"summon terrariamod:thehungry ~ ~-5 ~",
+													"summon terrariamod:thehungry ~ ~10 ~",
+													"summon terrariamod:thehungry ~ ~15 ~",
+													"summon terrariamod:thehungry ~ ~20 ~"
+												]
+											}
+										},
+										"key": "run_command",
+										"children": [
+											{
+												"open": {
+													"command": [
+														"summon terrariamod:thehungry ~ ~ ~",
+														"summon terrariamod:thehungry ~ ~5 ~",
+														"summon terrariamod:thehungry ~ ~-5 ~",
+														"summon terrariamod:thehungry ~ ~10 ~",
+														"summon terrariamod:thehungry ~ ~15 ~",
+														"summon terrariamod:thehungry ~ ~20 ~"
+													]
+												},
+												"key": "command",
+												"is_minified": true,
+												"children": [
+													"summon terrariamod:thehungry ~ ~ ~",
+													"summon terrariamod:thehungry ~ ~5 ~",
+													"summon terrariamod:thehungry ~ ~-5 ~",
+													"summon terrariamod:thehungry ~ ~10 ~",
+													"summon terrariamod:thehungry ~ ~15 ~",
+													"summon terrariamod:thehungry ~ ~20 ~"
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": {
+									"terrariamod:tried_to_escape": {
+										"run_command": {
+											"command": [
+												"kill @a",
+												"say players tried to escape"
+											]
+										}
+									},
+									"terrariamod:time_up": {
+										"run_command": {
+											"command": [
+												"kill @s",
+												"kill @e",
+												"say players were licked"
+											]
+										}
+									},
+									"terrariamod:death": {
+										"run_command": {
+											"command": [
+												"say The Wall of Flesh has been defeated"
+											]
+										}
+									},
+									"terrariamod:summon_hungry": {
+										"run_command": {
+											"command": [
+												"summon terrariamod:thehungry ~ ~ ~",
+												"summon terrariamod:thehungry ~ ~5 ~",
+												"summon terrariamod:thehungry ~ ~-5 ~",
+												"summon terrariamod:thehungry ~ ~10 ~",
+												"summon terrariamod:thehungry ~ ~15 ~",
+												"summon terrariamod:thehungry ~ ~20 ~"
+											]
+										}
+									},
+									"minecraft:entity_spawned": {
+										"add": {
+											"component_groups": [
+												"terrariamod:summon_hungry"
+											]
+										}
+									}
+								},
+								"key": "minecraft:entity_spawned",
+								"children": [
+									{
+										"open": {
+											"add": {
+												"component_groups": [
+													"terrariamod:summon_hungry"
+												]
+											}
+										},
+										"key": "add",
+										"children": [
+											{
+												"open": {
+													"component_groups": [
+														"terrariamod:summon_hungry"
+													]
+												},
+												"key": "component_groups",
+												"is_minified": true,
+												"children": [
+													"terrariamod:summon_hungry"
+												]
+											}
+										]
+									}
+								]
+							}
+						]
 					}
 				]
 			}

@@ -3,7 +3,7 @@
 	"file_type": "animation_controller",
 	"format_version": 1,
 	"file_uuid": "15f7f3d3_97e8_42e9_ae4c_9c30b91bb88d",
-	"file_version": 451,
+	"file_version": 491,
 	"cache_content": {
 		"children": [
 			{
@@ -19,70 +19,73 @@
 								"default": {
 									"transitions": [
 										{
-											"forest_night_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day<0.25 || query.time_of_day>0.75 &&  query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
+											"forest_night_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day<0.25 || query.time_of_day>0.75 &&  query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 										},
 										{
-											"forest_day_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day>0.25 || query.time_of_day<0.75 && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
+											"forest_day_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day>0.25 || query.time_of_day<0.75 && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 										},
 										{
-											"desert_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
+											"desert_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 										},
 										{
-											"jungle_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
+											"jungle_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 										},
 										{
-											"corruption_music": "query.biome_has_any_tag('corruption') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
+											"corruption_music": "query.biome_has_any_tag('corruption') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 										},
 										{
-											"snow_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
+											"snow_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 										},
 										{
-											"crimson_music": "query.biome_has_any_tag('crimson') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
+											"crimson_music": "query.biome_has_any_tag('crimson') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 										},
 										{
-											"underground_music": "query.position(1)>30 && query.position(1)<80 && query.scoreboard('boss_2_alive')==0"
+											"underground_music": "query.position(1)>30 && query.position(1)<80 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 										},
 										{
-											"desert_underground_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
+											"desert_underground_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 										},
 										{
-											"jungle_underground_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
+											"jungle_underground_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 										},
 										{
-											"ice_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
+											"ice_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 										},
 										{
-											"crimson_underground_music": "query.biome_has_any_tag('crimson') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
+											"crimson_underground_music": "query.biome_has_any_tag('crimson') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 										},
 										{
-											"corruption_underground_music": "query.biome_has_any_tag('corruption') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
+											"corruption_underground_music": "query.biome_has_any_tag('corruption') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 										},
 										{
-											"underworld_music": " query.position(1)>0 && query.position(1)<30 && query.scoreboard('boss_2_alive')==0"
+											"underworld_music": " query.position(1)>0 && query.position(1)<30 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 										},
 										{
-											"vanilla": "query.biome_has_any_tag('overworld') && query.scoreboard('boss_2_alive')==0"
+											"vanilla": "query.biome_has_any_tag('overworld') && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 										},
 										{
-											"forest_underground_music": "query.biome_has_any_tag('purity_forest') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
+											"forest_underground_music": "query.biome_has_any_tag('purity_forest') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 										},
 										{
-											"boss_2_music": "query.scoreboard('boss_2_alive')==2"
+											"boss_2_music": "query.scoreboard('boss_2_alive')==2 && !query.is_in_water_or_rain"
 										},
 										{
-											"boss_1_music": "query.scoreboard('boss_2_alive')==1"
+											"boss_1_music": "query.scoreboard('boss_2_alive')==1  && !query.is_in_water_or_rain"
 										},
 										{
-											"boss_3_music": "query.scoreboard('boss_2_alive')==3"
+											"boss_3_music": "query.scoreboard('boss_2_alive')==3  && !query.is_in_water_or_rain"
 										},
 										{
-											"boss_5_music": "query.scoreboard('boss_2_alive')==5"
+											"boss_5_music": "query.scoreboard('boss_2_alive')==5  && !query.is_in_water_or_rain"
 										},
 										{
-											"goblin_army_music": "query.scoreboard('boss_2_alive')==10"
+											"goblin_army_music": "query.scoreboard('boss_2_alive')==10  && !query.is_in_water_or_rain"
 										},
 										{
-											"blood_moon_music": "query.scoreboard('boss_2_alive')==11"
+											"blood_moon_music": "query.scoreboard('boss_2_alive')==11  && !query.is_in_water_or_rain"
+										},
+										{
+											"forest_rain_music": "!query.is_in_water  && query.is_in_water_or_rain && query.biome_has_any_tag('purity_forest') && query.position(1)>110 && query.position(1)<256"
 										}
 									],
 									"on_entry": [
@@ -105,7 +108,7 @@
 									],
 									"transitions": [
 										{
-											"default": "query.time_stamp>v.time+1340 || !query.biome_has_any_tag('purity_forest') || query.position(1)<110 || query.position(1)>256 || query.time_of_day==0.75 || query.scoreboard('boss_2_alive')>0"
+											"default": "query.time_stamp>v.time+1340 || !query.biome_has_any_tag('purity_forest') || query.position(1)<110 || query.position(1)>256 || query.time_of_day==0.75 || query.scoreboard('boss_2_alive')>0 || query.is_in_water_or_rain"
 										}
 									]
 								},
@@ -117,7 +120,7 @@
 									],
 									"transitions": [
 										{
-											"default": "query.time_stamp>v.time+1160 || !query.biome_has_any_tag('purity_forest') || query.position(1)<110 || query.position(1)>256 || query.time_of_day==0.25 || query.scoreboard('boss_2_alive')>0"
+											"default": "query.time_stamp>v.time+1160 || !query.biome_has_any_tag('purity_forest') || query.position(1)<110 || query.position(1)>256 || query.time_of_day==0.25 || query.scoreboard('boss_2_alive')>0 || query.is_in_water_or_rain"
 										}
 									]
 								},
@@ -347,11 +350,24 @@
 								},
 								"blood_moon_music": {
 									"on_entry": [
-										"/playsound bloodmoon @p"
+										"/playsound bloodmoon @p",
+										"v.time = q.time_stamp;"
 									],
 									"transitions": [
 										{
 											"default": "query.time_stamp>v.time+2740 || query.scoreboard('boss_2_alive')==0"
+										}
+									]
+								},
+								"forest_rain_music": {
+									"on_entry": [
+										"/playsound rain @p",
+										"v.time = q.time_stamp;",
+										"/function rain"
+									],
+									"transitions": [
+										{
+											"default": "query.time_stamp>v.time+1980 || !query.is_in_water  && !query.is_in_water_or_rain || !query.biome_has_any_tag('purity_forest') || query.position(1)<110 || query.position(1)>256"
 										}
 									]
 								}
@@ -369,70 +385,73 @@
 									"default": {
 										"transitions": [
 											{
-												"forest_night_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day<0.25 || query.time_of_day>0.75 &&  query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
+												"forest_night_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day<0.25 || query.time_of_day>0.75 &&  query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 											},
 											{
-												"forest_day_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day>0.25 || query.time_of_day<0.75 && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
+												"forest_day_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day>0.25 || query.time_of_day<0.75 && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 											},
 											{
-												"desert_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
+												"desert_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 											},
 											{
-												"jungle_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
+												"jungle_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 											},
 											{
-												"corruption_music": "query.biome_has_any_tag('corruption') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
+												"corruption_music": "query.biome_has_any_tag('corruption') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 											},
 											{
-												"snow_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
+												"snow_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 											},
 											{
-												"crimson_music": "query.biome_has_any_tag('crimson') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
+												"crimson_music": "query.biome_has_any_tag('crimson') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 											},
 											{
-												"underground_music": "query.position(1)>30 && query.position(1)<80 && query.scoreboard('boss_2_alive')==0"
+												"underground_music": "query.position(1)>30 && query.position(1)<80 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 											},
 											{
-												"desert_underground_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
+												"desert_underground_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 											},
 											{
-												"jungle_underground_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
+												"jungle_underground_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 											},
 											{
-												"ice_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
+												"ice_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 											},
 											{
-												"crimson_underground_music": "query.biome_has_any_tag('crimson') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
+												"crimson_underground_music": "query.biome_has_any_tag('crimson') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 											},
 											{
-												"corruption_underground_music": "query.biome_has_any_tag('corruption') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
+												"corruption_underground_music": "query.biome_has_any_tag('corruption') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 											},
 											{
-												"underworld_music": " query.position(1)>0 && query.position(1)<30 && query.scoreboard('boss_2_alive')==0"
+												"underworld_music": " query.position(1)>0 && query.position(1)<30 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 											},
 											{
-												"vanilla": "query.biome_has_any_tag('overworld') && query.scoreboard('boss_2_alive')==0"
+												"vanilla": "query.biome_has_any_tag('overworld') && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 											},
 											{
-												"forest_underground_music": "query.biome_has_any_tag('purity_forest') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
+												"forest_underground_music": "query.biome_has_any_tag('purity_forest') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 											},
 											{
-												"boss_2_music": "query.scoreboard('boss_2_alive')==2"
+												"boss_2_music": "query.scoreboard('boss_2_alive')==2 && !query.is_in_water_or_rain"
 											},
 											{
-												"boss_1_music": "query.scoreboard('boss_2_alive')==1"
+												"boss_1_music": "query.scoreboard('boss_2_alive')==1  && !query.is_in_water_or_rain"
 											},
 											{
-												"boss_3_music": "query.scoreboard('boss_2_alive')==3"
+												"boss_3_music": "query.scoreboard('boss_2_alive')==3  && !query.is_in_water_or_rain"
 											},
 											{
-												"boss_5_music": "query.scoreboard('boss_2_alive')==5"
+												"boss_5_music": "query.scoreboard('boss_2_alive')==5  && !query.is_in_water_or_rain"
 											},
 											{
-												"goblin_army_music": "query.scoreboard('boss_2_alive')==10"
+												"goblin_army_music": "query.scoreboard('boss_2_alive')==10  && !query.is_in_water_or_rain"
 											},
 											{
-												"blood_moon_music": "query.scoreboard('boss_2_alive')==11"
+												"blood_moon_music": "query.scoreboard('boss_2_alive')==11  && !query.is_in_water_or_rain"
+											},
+											{
+												"forest_rain_music": "!query.is_in_water  && query.is_in_water_or_rain && query.biome_has_any_tag('purity_forest') && query.position(1)>110 && query.position(1)<256"
 											}
 										],
 										"on_entry": [
@@ -455,7 +474,7 @@
 										],
 										"transitions": [
 											{
-												"default": "query.time_stamp>v.time+1340 || !query.biome_has_any_tag('purity_forest') || query.position(1)<110 || query.position(1)>256 || query.time_of_day==0.75 || query.scoreboard('boss_2_alive')>0"
+												"default": "query.time_stamp>v.time+1340 || !query.biome_has_any_tag('purity_forest') || query.position(1)<110 || query.position(1)>256 || query.time_of_day==0.75 || query.scoreboard('boss_2_alive')>0 || query.is_in_water_or_rain"
 											}
 										]
 									},
@@ -467,7 +486,7 @@
 										],
 										"transitions": [
 											{
-												"default": "query.time_stamp>v.time+1160 || !query.biome_has_any_tag('purity_forest') || query.position(1)<110 || query.position(1)>256 || query.time_of_day==0.25 || query.scoreboard('boss_2_alive')>0"
+												"default": "query.time_stamp>v.time+1160 || !query.biome_has_any_tag('purity_forest') || query.position(1)<110 || query.position(1)>256 || query.time_of_day==0.25 || query.scoreboard('boss_2_alive')>0 || query.is_in_water_or_rain"
 											}
 										]
 									},
@@ -697,11 +716,24 @@
 									},
 									"blood_moon_music": {
 										"on_entry": [
-											"/playsound bloodmoon @p"
+											"/playsound bloodmoon @p",
+											"v.time = q.time_stamp;"
 										],
 										"transitions": [
 											{
 												"default": "query.time_stamp>v.time+2740 || query.scoreboard('boss_2_alive')==0"
+											}
+										]
+									},
+									"forest_rain_music": {
+										"on_entry": [
+											"/playsound rain @p",
+											"v.time = q.time_stamp;",
+											"/function rain"
+										],
+										"transitions": [
+											{
+												"default": "query.time_stamp>v.time+1980 || !query.is_in_water  && !query.is_in_water_or_rain || !query.biome_has_any_tag('purity_forest') || query.position(1)<110 || query.position(1)>256"
 											}
 										]
 									}
@@ -717,70 +749,73 @@
 										"default": {
 											"transitions": [
 												{
-													"forest_night_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day<0.25 || query.time_of_day>0.75 &&  query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
+													"forest_night_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day<0.25 || query.time_of_day>0.75 &&  query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 												},
 												{
-													"forest_day_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day>0.25 || query.time_of_day<0.75 && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
+													"forest_day_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day>0.25 || query.time_of_day<0.75 && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 												},
 												{
-													"desert_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
+													"desert_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 												},
 												{
-													"jungle_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
+													"jungle_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 												},
 												{
-													"corruption_music": "query.biome_has_any_tag('corruption') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
+													"corruption_music": "query.biome_has_any_tag('corruption') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 												},
 												{
-													"snow_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
+													"snow_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 												},
 												{
-													"crimson_music": "query.biome_has_any_tag('crimson') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
+													"crimson_music": "query.biome_has_any_tag('crimson') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 												},
 												{
-													"underground_music": "query.position(1)>30 && query.position(1)<80 && query.scoreboard('boss_2_alive')==0"
+													"underground_music": "query.position(1)>30 && query.position(1)<80 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 												},
 												{
-													"desert_underground_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
+													"desert_underground_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 												},
 												{
-													"jungle_underground_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
+													"jungle_underground_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 												},
 												{
-													"ice_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
+													"ice_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 												},
 												{
-													"crimson_underground_music": "query.biome_has_any_tag('crimson') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
+													"crimson_underground_music": "query.biome_has_any_tag('crimson') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 												},
 												{
-													"corruption_underground_music": "query.biome_has_any_tag('corruption') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
+													"corruption_underground_music": "query.biome_has_any_tag('corruption') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 												},
 												{
-													"underworld_music": " query.position(1)>0 && query.position(1)<30 && query.scoreboard('boss_2_alive')==0"
+													"underworld_music": " query.position(1)>0 && query.position(1)<30 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 												},
 												{
-													"vanilla": "query.biome_has_any_tag('overworld') && query.scoreboard('boss_2_alive')==0"
+													"vanilla": "query.biome_has_any_tag('overworld') && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 												},
 												{
-													"forest_underground_music": "query.biome_has_any_tag('purity_forest') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
+													"forest_underground_music": "query.biome_has_any_tag('purity_forest') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 												},
 												{
-													"boss_2_music": "query.scoreboard('boss_2_alive')==2"
+													"boss_2_music": "query.scoreboard('boss_2_alive')==2 && !query.is_in_water_or_rain"
 												},
 												{
-													"boss_1_music": "query.scoreboard('boss_2_alive')==1"
+													"boss_1_music": "query.scoreboard('boss_2_alive')==1  && !query.is_in_water_or_rain"
 												},
 												{
-													"boss_3_music": "query.scoreboard('boss_2_alive')==3"
+													"boss_3_music": "query.scoreboard('boss_2_alive')==3  && !query.is_in_water_or_rain"
 												},
 												{
-													"boss_5_music": "query.scoreboard('boss_2_alive')==5"
+													"boss_5_music": "query.scoreboard('boss_2_alive')==5  && !query.is_in_water_or_rain"
 												},
 												{
-													"goblin_army_music": "query.scoreboard('boss_2_alive')==10"
+													"goblin_army_music": "query.scoreboard('boss_2_alive')==10  && !query.is_in_water_or_rain"
 												},
 												{
-													"blood_moon_music": "query.scoreboard('boss_2_alive')==11"
+													"blood_moon_music": "query.scoreboard('boss_2_alive')==11  && !query.is_in_water_or_rain"
+												},
+												{
+													"forest_rain_music": "!query.is_in_water  && query.is_in_water_or_rain && query.biome_has_any_tag('purity_forest') && query.position(1)>110 && query.position(1)<256"
 												}
 											],
 											"on_entry": [
@@ -803,7 +838,7 @@
 											],
 											"transitions": [
 												{
-													"default": "query.time_stamp>v.time+1340 || !query.biome_has_any_tag('purity_forest') || query.position(1)<110 || query.position(1)>256 || query.time_of_day==0.75 || query.scoreboard('boss_2_alive')>0"
+													"default": "query.time_stamp>v.time+1340 || !query.biome_has_any_tag('purity_forest') || query.position(1)<110 || query.position(1)>256 || query.time_of_day==0.75 || query.scoreboard('boss_2_alive')>0 || query.is_in_water_or_rain"
 												}
 											]
 										},
@@ -815,7 +850,7 @@
 											],
 											"transitions": [
 												{
-													"default": "query.time_stamp>v.time+1160 || !query.biome_has_any_tag('purity_forest') || query.position(1)<110 || query.position(1)>256 || query.time_of_day==0.25 || query.scoreboard('boss_2_alive')>0"
+													"default": "query.time_stamp>v.time+1160 || !query.biome_has_any_tag('purity_forest') || query.position(1)<110 || query.position(1)>256 || query.time_of_day==0.25 || query.scoreboard('boss_2_alive')>0 || query.is_in_water_or_rain"
 												}
 											]
 										},
@@ -1045,11 +1080,24 @@
 										},
 										"blood_moon_music": {
 											"on_entry": [
-												"/playsound bloodmoon @p"
+												"/playsound bloodmoon @p",
+												"v.time = q.time_stamp;"
 											],
 											"transitions": [
 												{
 													"default": "query.time_stamp>v.time+2740 || query.scoreboard('boss_2_alive')==0"
+												}
+											]
+										},
+										"forest_rain_music": {
+											"on_entry": [
+												"/playsound rain @p",
+												"v.time = q.time_stamp;",
+												"/function rain"
+											],
+											"transitions": [
+												{
+													"default": "query.time_stamp>v.time+1980 || !query.is_in_water  && !query.is_in_water_or_rain || !query.biome_has_any_tag('purity_forest') || query.position(1)<110 || query.position(1)>256"
 												}
 											]
 										}
@@ -1063,70 +1111,73 @@
 											"default": {
 												"transitions": [
 													{
-														"forest_night_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day<0.25 || query.time_of_day>0.75 &&  query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
+														"forest_night_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day<0.25 || query.time_of_day>0.75 &&  query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 													},
 													{
-														"forest_day_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day>0.25 || query.time_of_day<0.75 && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
+														"forest_day_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day>0.25 || query.time_of_day<0.75 && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 													},
 													{
-														"desert_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
+														"desert_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 													},
 													{
-														"jungle_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
+														"jungle_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 													},
 													{
-														"corruption_music": "query.biome_has_any_tag('corruption') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
+														"corruption_music": "query.biome_has_any_tag('corruption') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 													},
 													{
-														"snow_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
+														"snow_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 													},
 													{
-														"crimson_music": "query.biome_has_any_tag('crimson') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
+														"crimson_music": "query.biome_has_any_tag('crimson') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 													},
 													{
-														"underground_music": "query.position(1)>30 && query.position(1)<80 && query.scoreboard('boss_2_alive')==0"
+														"underground_music": "query.position(1)>30 && query.position(1)<80 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 													},
 													{
-														"desert_underground_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
+														"desert_underground_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 													},
 													{
-														"jungle_underground_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
+														"jungle_underground_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 													},
 													{
-														"ice_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
+														"ice_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 													},
 													{
-														"crimson_underground_music": "query.biome_has_any_tag('crimson') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
+														"crimson_underground_music": "query.biome_has_any_tag('crimson') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 													},
 													{
-														"corruption_underground_music": "query.biome_has_any_tag('corruption') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
+														"corruption_underground_music": "query.biome_has_any_tag('corruption') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 													},
 													{
-														"underworld_music": " query.position(1)>0 && query.position(1)<30 && query.scoreboard('boss_2_alive')==0"
+														"underworld_music": " query.position(1)>0 && query.position(1)<30 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 													},
 													{
-														"vanilla": "query.biome_has_any_tag('overworld') && query.scoreboard('boss_2_alive')==0"
+														"vanilla": "query.biome_has_any_tag('overworld') && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 													},
 													{
-														"forest_underground_music": "query.biome_has_any_tag('purity_forest') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
+														"forest_underground_music": "query.biome_has_any_tag('purity_forest') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 													},
 													{
-														"boss_2_music": "query.scoreboard('boss_2_alive')==2"
+														"boss_2_music": "query.scoreboard('boss_2_alive')==2 && !query.is_in_water_or_rain"
 													},
 													{
-														"boss_1_music": "query.scoreboard('boss_2_alive')==1"
+														"boss_1_music": "query.scoreboard('boss_2_alive')==1  && !query.is_in_water_or_rain"
 													},
 													{
-														"boss_3_music": "query.scoreboard('boss_2_alive')==3"
+														"boss_3_music": "query.scoreboard('boss_2_alive')==3  && !query.is_in_water_or_rain"
 													},
 													{
-														"boss_5_music": "query.scoreboard('boss_2_alive')==5"
+														"boss_5_music": "query.scoreboard('boss_2_alive')==5  && !query.is_in_water_or_rain"
 													},
 													{
-														"goblin_army_music": "query.scoreboard('boss_2_alive')==10"
+														"goblin_army_music": "query.scoreboard('boss_2_alive')==10  && !query.is_in_water_or_rain"
 													},
 													{
-														"blood_moon_music": "query.scoreboard('boss_2_alive')==11"
+														"blood_moon_music": "query.scoreboard('boss_2_alive')==11  && !query.is_in_water_or_rain"
+													},
+													{
+														"forest_rain_music": "!query.is_in_water  && query.is_in_water_or_rain && query.biome_has_any_tag('purity_forest') && query.position(1)>110 && query.position(1)<256"
 													}
 												],
 												"on_entry": [
@@ -1149,7 +1200,7 @@
 												],
 												"transitions": [
 													{
-														"default": "query.time_stamp>v.time+1340 || !query.biome_has_any_tag('purity_forest') || query.position(1)<110 || query.position(1)>256 || query.time_of_day==0.75 || query.scoreboard('boss_2_alive')>0"
+														"default": "query.time_stamp>v.time+1340 || !query.biome_has_any_tag('purity_forest') || query.position(1)<110 || query.position(1)>256 || query.time_of_day==0.75 || query.scoreboard('boss_2_alive')>0 || query.is_in_water_or_rain"
 													}
 												]
 											},
@@ -1161,7 +1212,7 @@
 												],
 												"transitions": [
 													{
-														"default": "query.time_stamp>v.time+1160 || !query.biome_has_any_tag('purity_forest') || query.position(1)<110 || query.position(1)>256 || query.time_of_day==0.25 || query.scoreboard('boss_2_alive')>0"
+														"default": "query.time_stamp>v.time+1160 || !query.biome_has_any_tag('purity_forest') || query.position(1)<110 || query.position(1)>256 || query.time_of_day==0.25 || query.scoreboard('boss_2_alive')>0 || query.is_in_water_or_rain"
 													}
 												]
 											},
@@ -1391,11 +1442,24 @@
 											},
 											"blood_moon_music": {
 												"on_entry": [
-													"/playsound bloodmoon @p"
+													"/playsound bloodmoon @p",
+													"v.time = q.time_stamp;"
 												],
 												"transitions": [
 													{
 														"default": "query.time_stamp>v.time+2740 || query.scoreboard('boss_2_alive')==0"
+													}
+												]
+											},
+											"forest_rain_music": {
+												"on_entry": [
+													"/playsound rain @p",
+													"v.time = q.time_stamp;",
+													"/function rain"
+												],
+												"transitions": [
+													{
+														"default": "query.time_stamp>v.time+1980 || !query.is_in_water  && !query.is_in_water_or_rain || !query.biome_has_any_tag('purity_forest') || query.position(1)<110 || query.position(1)>256"
 													}
 												]
 											}
@@ -1406,70 +1470,73 @@
 												"open": {
 													"transitions": [
 														{
-															"forest_night_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day<0.25 || query.time_of_day>0.75 &&  query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
+															"forest_night_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day<0.25 || query.time_of_day>0.75 &&  query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 														},
 														{
-															"forest_day_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day>0.25 || query.time_of_day<0.75 && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
+															"forest_day_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day>0.25 || query.time_of_day<0.75 && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 														},
 														{
-															"desert_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
+															"desert_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 														},
 														{
-															"jungle_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
+															"jungle_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 														},
 														{
-															"corruption_music": "query.biome_has_any_tag('corruption') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
+															"corruption_music": "query.biome_has_any_tag('corruption') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 														},
 														{
-															"snow_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
+															"snow_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 														},
 														{
-															"crimson_music": "query.biome_has_any_tag('crimson') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
+															"crimson_music": "query.biome_has_any_tag('crimson') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 														},
 														{
-															"underground_music": "query.position(1)>30 && query.position(1)<80 && query.scoreboard('boss_2_alive')==0"
+															"underground_music": "query.position(1)>30 && query.position(1)<80 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 														},
 														{
-															"desert_underground_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
+															"desert_underground_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 														},
 														{
-															"jungle_underground_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
+															"jungle_underground_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 														},
 														{
-															"ice_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
+															"ice_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 														},
 														{
-															"crimson_underground_music": "query.biome_has_any_tag('crimson') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
+															"crimson_underground_music": "query.biome_has_any_tag('crimson') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 														},
 														{
-															"corruption_underground_music": "query.biome_has_any_tag('corruption') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
+															"corruption_underground_music": "query.biome_has_any_tag('corruption') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 														},
 														{
-															"underworld_music": " query.position(1)>0 && query.position(1)<30 && query.scoreboard('boss_2_alive')==0"
+															"underworld_music": " query.position(1)>0 && query.position(1)<30 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 														},
 														{
-															"vanilla": "query.biome_has_any_tag('overworld') && query.scoreboard('boss_2_alive')==0"
+															"vanilla": "query.biome_has_any_tag('overworld') && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 														},
 														{
-															"forest_underground_music": "query.biome_has_any_tag('purity_forest') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
+															"forest_underground_music": "query.biome_has_any_tag('purity_forest') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 														},
 														{
-															"boss_2_music": "query.scoreboard('boss_2_alive')==2"
+															"boss_2_music": "query.scoreboard('boss_2_alive')==2 && !query.is_in_water_or_rain"
 														},
 														{
-															"boss_1_music": "query.scoreboard('boss_2_alive')==1"
+															"boss_1_music": "query.scoreboard('boss_2_alive')==1  && !query.is_in_water_or_rain"
 														},
 														{
-															"boss_3_music": "query.scoreboard('boss_2_alive')==3"
+															"boss_3_music": "query.scoreboard('boss_2_alive')==3  && !query.is_in_water_or_rain"
 														},
 														{
-															"boss_5_music": "query.scoreboard('boss_2_alive')==5"
+															"boss_5_music": "query.scoreboard('boss_2_alive')==5  && !query.is_in_water_or_rain"
 														},
 														{
-															"goblin_army_music": "query.scoreboard('boss_2_alive')==10"
+															"goblin_army_music": "query.scoreboard('boss_2_alive')==10  && !query.is_in_water_or_rain"
 														},
 														{
-															"blood_moon_music": "query.scoreboard('boss_2_alive')==11"
+															"blood_moon_music": "query.scoreboard('boss_2_alive')==11  && !query.is_in_water_or_rain"
+														},
+														{
+															"forest_rain_music": "!query.is_in_water  && query.is_in_water_or_rain && query.biome_has_any_tag('purity_forest') && query.position(1)>110 && query.position(1)<256"
 														}
 													],
 													"on_entry": [
@@ -1487,271 +1554,1774 @@
 												"key": "transitions",
 												"children": [
 													{
+														"open": [
+															{
+																"forest_night_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day<0.25 || query.time_of_day>0.75 &&  query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"forest_day_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day>0.25 || query.time_of_day<0.75 && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"desert_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"jungle_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"corruption_music": "query.biome_has_any_tag('corruption') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"snow_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"crimson_music": "query.biome_has_any_tag('crimson') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"underground_music": "query.position(1)>30 && query.position(1)<80 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"desert_underground_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"jungle_underground_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"ice_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"crimson_underground_music": "query.biome_has_any_tag('crimson') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"corruption_underground_music": "query.biome_has_any_tag('corruption') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"underworld_music": " query.position(1)>0 && query.position(1)<30 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"vanilla": "query.biome_has_any_tag('overworld') && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"forest_underground_music": "query.biome_has_any_tag('purity_forest') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"boss_2_music": "query.scoreboard('boss_2_alive')==2 && !query.is_in_water_or_rain"
+															},
+															{
+																"boss_1_music": "query.scoreboard('boss_2_alive')==1  && !query.is_in_water_or_rain"
+															},
+															{
+																"boss_3_music": "query.scoreboard('boss_2_alive')==3  && !query.is_in_water_or_rain"
+															},
+															{
+																"boss_5_music": "query.scoreboard('boss_2_alive')==5  && !query.is_in_water_or_rain"
+															},
+															{
+																"goblin_army_music": "query.scoreboard('boss_2_alive')==10  && !query.is_in_water_or_rain"
+															},
+															{
+																"blood_moon_music": "query.scoreboard('boss_2_alive')==11  && !query.is_in_water_or_rain"
+															},
+															{
+																"forest_rain_music": "!query.is_in_water  && query.is_in_water_or_rain && query.biome_has_any_tag('purity_forest') && query.position(1)>110 && query.position(1)<256"
+															}
+														],
 														"is_minified": true,
 														"children": {
-															"forest_night_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day<0.25 || query.time_of_day>0.75 &&  query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
-														}
-													},
-													{
-														"is_minified": true,
-														"children": {
-															"forest_day_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day>0.25 || query.time_of_day<0.75 && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
-														}
-													},
-													{
-														"is_minified": true,
-														"children": {
-															"desert_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
-														}
-													},
-													{
-														"is_minified": true,
-														"children": {
-															"jungle_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
-														}
-													},
-													{
-														"is_minified": true,
-														"children": {
-															"corruption_music": "query.biome_has_any_tag('corruption') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
-														}
-													},
-													{
-														"is_minified": true,
-														"children": {
-															"snow_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
-														}
-													},
-													{
-														"is_minified": true,
-														"children": {
-															"crimson_music": "query.biome_has_any_tag('crimson') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
-														}
-													},
-													{
-														"is_minified": true,
-														"children": {
-															"underground_music": "query.position(1)>30 && query.position(1)<80 && query.scoreboard('boss_2_alive')==0"
-														}
-													},
-													{
-														"is_minified": true,
-														"children": {
-															"desert_underground_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
-														}
-													},
-													{
-														"is_minified": true,
-														"children": {
-															"jungle_underground_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
-														}
-													},
-													{
-														"is_minified": true,
-														"children": {
-															"ice_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
-														}
-													},
-													{
-														"is_minified": true,
-														"children": {
-															"crimson_underground_music": "query.biome_has_any_tag('crimson') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
-														}
-													},
-													{
-														"is_minified": true,
-														"children": {
-															"corruption_underground_music": "query.biome_has_any_tag('corruption') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
-														}
-													},
-													{
-														"is_minified": true,
-														"children": {
-															"underworld_music": " query.position(1)>0 && query.position(1)<30 && query.scoreboard('boss_2_alive')==0"
-														}
-													},
-													{
-														"is_minified": true,
-														"children": {
-															"vanilla": "query.biome_has_any_tag('overworld') && query.scoreboard('boss_2_alive')==0"
-														}
-													},
-													{
-														"is_minified": true,
-														"children": {
-															"forest_underground_music": "query.biome_has_any_tag('purity_forest') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
-														}
-													},
-													{
-														"is_minified": true,
-														"children": {
-															"boss_2_music": "query.scoreboard('boss_2_alive')==2"
-														}
-													},
-													{
-														"is_minified": true,
-														"children": {
-															"boss_1_music": "query.scoreboard('boss_2_alive')==1"
-														}
-													},
-													{
-														"is_minified": true,
-														"children": {
-															"boss_3_music": "query.scoreboard('boss_2_alive')==3"
-														}
-													},
-													{
-														"is_minified": true,
-														"children": {
-															"boss_5_music": "query.scoreboard('boss_2_alive')==5"
+															"forest_night_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day<0.25 || query.time_of_day>0.75 &&  query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 														}
 													},
 													{
 														"open": [
 															{
-																"forest_night_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day<0.25 || query.time_of_day>0.75 &&  query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
+																"forest_night_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day<0.25 || query.time_of_day>0.75 &&  query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 															},
 															{
-																"forest_day_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day>0.25 || query.time_of_day<0.75 && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
+																"forest_day_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day>0.25 || query.time_of_day<0.75 && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 															},
 															{
-																"desert_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
+																"desert_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 															},
 															{
-																"jungle_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
+																"jungle_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 															},
 															{
-																"corruption_music": "query.biome_has_any_tag('corruption') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
+																"corruption_music": "query.biome_has_any_tag('corruption') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 															},
 															{
-																"snow_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
+																"snow_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 															},
 															{
-																"crimson_music": "query.biome_has_any_tag('crimson') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
+																"crimson_music": "query.biome_has_any_tag('crimson') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 															},
 															{
-																"underground_music": "query.position(1)>30 && query.position(1)<80 && query.scoreboard('boss_2_alive')==0"
+																"underground_music": "query.position(1)>30 && query.position(1)<80 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 															},
 															{
-																"desert_underground_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
+																"desert_underground_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 															},
 															{
-																"jungle_underground_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
+																"jungle_underground_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 															},
 															{
-																"ice_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
+																"ice_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 															},
 															{
-																"crimson_underground_music": "query.biome_has_any_tag('crimson') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
+																"crimson_underground_music": "query.biome_has_any_tag('crimson') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 															},
 															{
-																"corruption_underground_music": "query.biome_has_any_tag('corruption') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
+																"corruption_underground_music": "query.biome_has_any_tag('corruption') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 															},
 															{
-																"underworld_music": " query.position(1)>0 && query.position(1)<30 && query.scoreboard('boss_2_alive')==0"
+																"underworld_music": " query.position(1)>0 && query.position(1)<30 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 															},
 															{
-																"vanilla": "query.biome_has_any_tag('overworld') && query.scoreboard('boss_2_alive')==0"
+																"vanilla": "query.biome_has_any_tag('overworld') && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 															},
 															{
-																"forest_underground_music": "query.biome_has_any_tag('purity_forest') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
+																"forest_underground_music": "query.biome_has_any_tag('purity_forest') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 															},
 															{
-																"boss_2_music": "query.scoreboard('boss_2_alive')==2"
+																"boss_2_music": "query.scoreboard('boss_2_alive')==2 && !query.is_in_water_or_rain"
 															},
 															{
-																"boss_1_music": "query.scoreboard('boss_2_alive')==1"
+																"boss_1_music": "query.scoreboard('boss_2_alive')==1  && !query.is_in_water_or_rain"
 															},
 															{
-																"boss_3_music": "query.scoreboard('boss_2_alive')==3"
+																"boss_3_music": "query.scoreboard('boss_2_alive')==3  && !query.is_in_water_or_rain"
 															},
 															{
-																"boss_5_music": "query.scoreboard('boss_2_alive')==5"
+																"boss_5_music": "query.scoreboard('boss_2_alive')==5  && !query.is_in_water_or_rain"
 															},
 															{
-																"goblin_army_music": "query.scoreboard('boss_2_alive')==10"
+																"goblin_army_music": "query.scoreboard('boss_2_alive')==10  && !query.is_in_water_or_rain"
 															},
 															{
-																"blood_moon_music": "query.scoreboard('boss_2_alive')==11"
+																"blood_moon_music": "query.scoreboard('boss_2_alive')==11  && !query.is_in_water_or_rain"
+															},
+															{
+																"forest_rain_music": "!query.is_in_water  && query.is_in_water_or_rain && query.biome_has_any_tag('purity_forest') && query.position(1)>110 && query.position(1)<256"
 															}
 														],
 														"is_minified": true,
 														"children": {
-															"goblin_army_music": "query.scoreboard('boss_2_alive')==10"
+															"forest_day_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day>0.25 || query.time_of_day<0.75 && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 														}
 													},
 													{
 														"open": [
 															{
-																"forest_night_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day<0.25 || query.time_of_day>0.75 &&  query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
+																"forest_night_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day<0.25 || query.time_of_day>0.75 &&  query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 															},
 															{
-																"forest_day_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day>0.25 || query.time_of_day<0.75 && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
+																"forest_day_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day>0.25 || query.time_of_day<0.75 && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 															},
 															{
-																"desert_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
+																"desert_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 															},
 															{
-																"jungle_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
+																"jungle_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 															},
 															{
-																"corruption_music": "query.biome_has_any_tag('corruption') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
+																"corruption_music": "query.biome_has_any_tag('corruption') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 															},
 															{
-																"snow_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
+																"snow_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 															},
 															{
-																"crimson_music": "query.biome_has_any_tag('crimson') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
+																"crimson_music": "query.biome_has_any_tag('crimson') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 															},
 															{
-																"underground_music": "query.position(1)>30 && query.position(1)<80 && query.scoreboard('boss_2_alive')==0"
+																"underground_music": "query.position(1)>30 && query.position(1)<80 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 															},
 															{
-																"desert_underground_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
+																"desert_underground_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 															},
 															{
-																"jungle_underground_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
+																"jungle_underground_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 															},
 															{
-																"ice_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
+																"ice_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 															},
 															{
-																"crimson_underground_music": "query.biome_has_any_tag('crimson') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
+																"crimson_underground_music": "query.biome_has_any_tag('crimson') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 															},
 															{
-																"corruption_underground_music": "query.biome_has_any_tag('corruption') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
+																"corruption_underground_music": "query.biome_has_any_tag('corruption') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 															},
 															{
-																"underworld_music": " query.position(1)>0 && query.position(1)<30 && query.scoreboard('boss_2_alive')==0"
+																"underworld_music": " query.position(1)>0 && query.position(1)<30 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 															},
 															{
-																"vanilla": "query.biome_has_any_tag('overworld') && query.scoreboard('boss_2_alive')==0"
+																"vanilla": "query.biome_has_any_tag('overworld') && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 															},
 															{
-																"forest_underground_music": "query.biome_has_any_tag('purity_forest') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
+																"forest_underground_music": "query.biome_has_any_tag('purity_forest') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 															},
 															{
-																"boss_2_music": "query.scoreboard('boss_2_alive')==2"
+																"boss_2_music": "query.scoreboard('boss_2_alive')==2 && !query.is_in_water_or_rain"
 															},
 															{
-																"boss_1_music": "query.scoreboard('boss_2_alive')==1"
+																"boss_1_music": "query.scoreboard('boss_2_alive')==1  && !query.is_in_water_or_rain"
 															},
 															{
-																"boss_3_music": "query.scoreboard('boss_2_alive')==3"
+																"boss_3_music": "query.scoreboard('boss_2_alive')==3  && !query.is_in_water_or_rain"
 															},
 															{
-																"boss_5_music": "query.scoreboard('boss_2_alive')==5"
+																"boss_5_music": "query.scoreboard('boss_2_alive')==5  && !query.is_in_water_or_rain"
 															},
 															{
-																"goblin_army_music": "query.scoreboard('boss_2_alive')==10"
+																"goblin_army_music": "query.scoreboard('boss_2_alive')==10  && !query.is_in_water_or_rain"
 															},
 															{
-																"blood_moon_music": "query.scoreboard('boss_2_alive')==11"
+																"blood_moon_music": "query.scoreboard('boss_2_alive')==11  && !query.is_in_water_or_rain"
+															},
+															{
+																"forest_rain_music": "!query.is_in_water  && query.is_in_water_or_rain && query.biome_has_any_tag('purity_forest') && query.position(1)>110 && query.position(1)<256"
 															}
 														],
 														"is_minified": true,
 														"children": {
-															"blood_moon_music": "query.scoreboard('boss_2_alive')==11"
+															"desert_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+														}
+													},
+													{
+														"open": [
+															{
+																"forest_night_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day<0.25 || query.time_of_day>0.75 &&  query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"forest_day_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day>0.25 || query.time_of_day<0.75 && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"desert_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"jungle_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"corruption_music": "query.biome_has_any_tag('corruption') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"snow_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"crimson_music": "query.biome_has_any_tag('crimson') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"underground_music": "query.position(1)>30 && query.position(1)<80 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"desert_underground_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"jungle_underground_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"ice_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"crimson_underground_music": "query.biome_has_any_tag('crimson') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"corruption_underground_music": "query.biome_has_any_tag('corruption') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"underworld_music": " query.position(1)>0 && query.position(1)<30 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"vanilla": "query.biome_has_any_tag('overworld') && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"forest_underground_music": "query.biome_has_any_tag('purity_forest') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"boss_2_music": "query.scoreboard('boss_2_alive')==2 && !query.is_in_water_or_rain"
+															},
+															{
+																"boss_1_music": "query.scoreboard('boss_2_alive')==1  && !query.is_in_water_or_rain"
+															},
+															{
+																"boss_3_music": "query.scoreboard('boss_2_alive')==3  && !query.is_in_water_or_rain"
+															},
+															{
+																"boss_5_music": "query.scoreboard('boss_2_alive')==5  && !query.is_in_water_or_rain"
+															},
+															{
+																"goblin_army_music": "query.scoreboard('boss_2_alive')==10  && !query.is_in_water_or_rain"
+															},
+															{
+																"blood_moon_music": "query.scoreboard('boss_2_alive')==11  && !query.is_in_water_or_rain"
+															},
+															{
+																"forest_rain_music": "!query.is_in_water  && query.is_in_water_or_rain && query.biome_has_any_tag('purity_forest') && query.position(1)>110 && query.position(1)<256"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"jungle_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+														}
+													},
+													{
+														"open": [
+															{
+																"forest_night_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day<0.25 || query.time_of_day>0.75 &&  query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"forest_day_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day>0.25 || query.time_of_day<0.75 && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"desert_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"jungle_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"corruption_music": "query.biome_has_any_tag('corruption') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"snow_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"crimson_music": "query.biome_has_any_tag('crimson') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"underground_music": "query.position(1)>30 && query.position(1)<80 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"desert_underground_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"jungle_underground_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"ice_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"crimson_underground_music": "query.biome_has_any_tag('crimson') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"corruption_underground_music": "query.biome_has_any_tag('corruption') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"underworld_music": " query.position(1)>0 && query.position(1)<30 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"vanilla": "query.biome_has_any_tag('overworld') && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"forest_underground_music": "query.biome_has_any_tag('purity_forest') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"boss_2_music": "query.scoreboard('boss_2_alive')==2 && !query.is_in_water_or_rain"
+															},
+															{
+																"boss_1_music": "query.scoreboard('boss_2_alive')==1  && !query.is_in_water_or_rain"
+															},
+															{
+																"boss_3_music": "query.scoreboard('boss_2_alive')==3  && !query.is_in_water_or_rain"
+															},
+															{
+																"boss_5_music": "query.scoreboard('boss_2_alive')==5  && !query.is_in_water_or_rain"
+															},
+															{
+																"goblin_army_music": "query.scoreboard('boss_2_alive')==10  && !query.is_in_water_or_rain"
+															},
+															{
+																"blood_moon_music": "query.scoreboard('boss_2_alive')==11  && !query.is_in_water_or_rain"
+															},
+															{
+																"forest_rain_music": "!query.is_in_water  && query.is_in_water_or_rain && query.biome_has_any_tag('purity_forest') && query.position(1)>110 && query.position(1)<256"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"corruption_music": "query.biome_has_any_tag('corruption') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+														}
+													},
+													{
+														"open": [
+															{
+																"forest_night_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day<0.25 || query.time_of_day>0.75 &&  query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"forest_day_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day>0.25 || query.time_of_day<0.75 && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"desert_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"jungle_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"corruption_music": "query.biome_has_any_tag('corruption') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"snow_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"crimson_music": "query.biome_has_any_tag('crimson') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"underground_music": "query.position(1)>30 && query.position(1)<80 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"desert_underground_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"jungle_underground_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"ice_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"crimson_underground_music": "query.biome_has_any_tag('crimson') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"corruption_underground_music": "query.biome_has_any_tag('corruption') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"underworld_music": " query.position(1)>0 && query.position(1)<30 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"vanilla": "query.biome_has_any_tag('overworld') && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"forest_underground_music": "query.biome_has_any_tag('purity_forest') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"boss_2_music": "query.scoreboard('boss_2_alive')==2 && !query.is_in_water_or_rain"
+															},
+															{
+																"boss_1_music": "query.scoreboard('boss_2_alive')==1  && !query.is_in_water_or_rain"
+															},
+															{
+																"boss_3_music": "query.scoreboard('boss_2_alive')==3  && !query.is_in_water_or_rain"
+															},
+															{
+																"boss_5_music": "query.scoreboard('boss_2_alive')==5  && !query.is_in_water_or_rain"
+															},
+															{
+																"goblin_army_music": "query.scoreboard('boss_2_alive')==10  && !query.is_in_water_or_rain"
+															},
+															{
+																"blood_moon_music": "query.scoreboard('boss_2_alive')==11  && !query.is_in_water_or_rain"
+															},
+															{
+																"forest_rain_music": "!query.is_in_water  && query.is_in_water_or_rain && query.biome_has_any_tag('purity_forest') && query.position(1)>110 && query.position(1)<256"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"snow_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+														}
+													},
+													{
+														"open": [
+															{
+																"forest_night_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day<0.25 || query.time_of_day>0.75 &&  query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"forest_day_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day>0.25 || query.time_of_day<0.75 && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"desert_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"jungle_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"corruption_music": "query.biome_has_any_tag('corruption') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"snow_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"crimson_music": "query.biome_has_any_tag('crimson') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"underground_music": "query.position(1)>30 && query.position(1)<80 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"desert_underground_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"jungle_underground_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"ice_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"crimson_underground_music": "query.biome_has_any_tag('crimson') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"corruption_underground_music": "query.biome_has_any_tag('corruption') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"underworld_music": " query.position(1)>0 && query.position(1)<30 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"vanilla": "query.biome_has_any_tag('overworld') && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"forest_underground_music": "query.biome_has_any_tag('purity_forest') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"boss_2_music": "query.scoreboard('boss_2_alive')==2 && !query.is_in_water_or_rain"
+															},
+															{
+																"boss_1_music": "query.scoreboard('boss_2_alive')==1  && !query.is_in_water_or_rain"
+															},
+															{
+																"boss_3_music": "query.scoreboard('boss_2_alive')==3  && !query.is_in_water_or_rain"
+															},
+															{
+																"boss_5_music": "query.scoreboard('boss_2_alive')==5  && !query.is_in_water_or_rain"
+															},
+															{
+																"goblin_army_music": "query.scoreboard('boss_2_alive')==10  && !query.is_in_water_or_rain"
+															},
+															{
+																"blood_moon_music": "query.scoreboard('boss_2_alive')==11  && !query.is_in_water_or_rain"
+															},
+															{
+																"forest_rain_music": "!query.is_in_water  && query.is_in_water_or_rain && query.biome_has_any_tag('purity_forest') && query.position(1)>110 && query.position(1)<256"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"crimson_music": "query.biome_has_any_tag('crimson') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+														}
+													},
+													{
+														"open": [
+															{
+																"forest_night_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day<0.25 || query.time_of_day>0.75 &&  query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"forest_day_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day>0.25 || query.time_of_day<0.75 && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"desert_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"jungle_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"corruption_music": "query.biome_has_any_tag('corruption') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"snow_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"crimson_music": "query.biome_has_any_tag('crimson') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"underground_music": "query.position(1)>30 && query.position(1)<80 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"desert_underground_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"jungle_underground_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"ice_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"crimson_underground_music": "query.biome_has_any_tag('crimson') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"corruption_underground_music": "query.biome_has_any_tag('corruption') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"underworld_music": " query.position(1)>0 && query.position(1)<30 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"vanilla": "query.biome_has_any_tag('overworld') && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"forest_underground_music": "query.biome_has_any_tag('purity_forest') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"boss_2_music": "query.scoreboard('boss_2_alive')==2 && !query.is_in_water_or_rain"
+															},
+															{
+																"boss_1_music": "query.scoreboard('boss_2_alive')==1  && !query.is_in_water_or_rain"
+															},
+															{
+																"boss_3_music": "query.scoreboard('boss_2_alive')==3  && !query.is_in_water_or_rain"
+															},
+															{
+																"boss_5_music": "query.scoreboard('boss_2_alive')==5  && !query.is_in_water_or_rain"
+															},
+															{
+																"goblin_army_music": "query.scoreboard('boss_2_alive')==10  && !query.is_in_water_or_rain"
+															},
+															{
+																"blood_moon_music": "query.scoreboard('boss_2_alive')==11  && !query.is_in_water_or_rain"
+															},
+															{
+																"forest_rain_music": "!query.is_in_water  && query.is_in_water_or_rain && query.biome_has_any_tag('purity_forest') && query.position(1)>110 && query.position(1)<256"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"underground_music": "query.position(1)>30 && query.position(1)<80 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+														}
+													},
+													{
+														"open": [
+															{
+																"forest_night_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day<0.25 || query.time_of_day>0.75 &&  query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"forest_day_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day>0.25 || query.time_of_day<0.75 && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"desert_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"jungle_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"corruption_music": "query.biome_has_any_tag('corruption') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"snow_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"crimson_music": "query.biome_has_any_tag('crimson') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"underground_music": "query.position(1)>30 && query.position(1)<80 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"desert_underground_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"jungle_underground_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"ice_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"crimson_underground_music": "query.biome_has_any_tag('crimson') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"corruption_underground_music": "query.biome_has_any_tag('corruption') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"underworld_music": " query.position(1)>0 && query.position(1)<30 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"vanilla": "query.biome_has_any_tag('overworld') && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"forest_underground_music": "query.biome_has_any_tag('purity_forest') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"boss_2_music": "query.scoreboard('boss_2_alive')==2 && !query.is_in_water_or_rain"
+															},
+															{
+																"boss_1_music": "query.scoreboard('boss_2_alive')==1  && !query.is_in_water_or_rain"
+															},
+															{
+																"boss_3_music": "query.scoreboard('boss_2_alive')==3  && !query.is_in_water_or_rain"
+															},
+															{
+																"boss_5_music": "query.scoreboard('boss_2_alive')==5  && !query.is_in_water_or_rain"
+															},
+															{
+																"goblin_army_music": "query.scoreboard('boss_2_alive')==10  && !query.is_in_water_or_rain"
+															},
+															{
+																"blood_moon_music": "query.scoreboard('boss_2_alive')==11  && !query.is_in_water_or_rain"
+															},
+															{
+																"forest_rain_music": "!query.is_in_water  && query.is_in_water_or_rain && query.biome_has_any_tag('purity_forest') && query.position(1)>110 && query.position(1)<256"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"desert_underground_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+														}
+													},
+													{
+														"open": [
+															{
+																"forest_night_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day<0.25 || query.time_of_day>0.75 &&  query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"forest_day_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day>0.25 || query.time_of_day<0.75 && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"desert_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"jungle_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"corruption_music": "query.biome_has_any_tag('corruption') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"snow_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"crimson_music": "query.biome_has_any_tag('crimson') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"underground_music": "query.position(1)>30 && query.position(1)<80 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"desert_underground_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"jungle_underground_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"ice_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"crimson_underground_music": "query.biome_has_any_tag('crimson') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"corruption_underground_music": "query.biome_has_any_tag('corruption') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"underworld_music": " query.position(1)>0 && query.position(1)<30 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"vanilla": "query.biome_has_any_tag('overworld') && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"forest_underground_music": "query.biome_has_any_tag('purity_forest') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"boss_2_music": "query.scoreboard('boss_2_alive')==2 && !query.is_in_water_or_rain"
+															},
+															{
+																"boss_1_music": "query.scoreboard('boss_2_alive')==1  && !query.is_in_water_or_rain"
+															},
+															{
+																"boss_3_music": "query.scoreboard('boss_2_alive')==3  && !query.is_in_water_or_rain"
+															},
+															{
+																"boss_5_music": "query.scoreboard('boss_2_alive')==5  && !query.is_in_water_or_rain"
+															},
+															{
+																"goblin_army_music": "query.scoreboard('boss_2_alive')==10  && !query.is_in_water_or_rain"
+															},
+															{
+																"blood_moon_music": "query.scoreboard('boss_2_alive')==11  && !query.is_in_water_or_rain"
+															},
+															{
+																"forest_rain_music": "!query.is_in_water  && query.is_in_water_or_rain && query.biome_has_any_tag('purity_forest') && query.position(1)>110 && query.position(1)<256"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"jungle_underground_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+														}
+													},
+													{
+														"open": [
+															{
+																"forest_night_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day<0.25 || query.time_of_day>0.75 &&  query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"forest_day_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day>0.25 || query.time_of_day<0.75 && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"desert_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"jungle_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"corruption_music": "query.biome_has_any_tag('corruption') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"snow_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"crimson_music": "query.biome_has_any_tag('crimson') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"underground_music": "query.position(1)>30 && query.position(1)<80 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"desert_underground_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"jungle_underground_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"ice_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"crimson_underground_music": "query.biome_has_any_tag('crimson') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"corruption_underground_music": "query.biome_has_any_tag('corruption') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"underworld_music": " query.position(1)>0 && query.position(1)<30 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"vanilla": "query.biome_has_any_tag('overworld') && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"forest_underground_music": "query.biome_has_any_tag('purity_forest') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"boss_2_music": "query.scoreboard('boss_2_alive')==2 && !query.is_in_water_or_rain"
+															},
+															{
+																"boss_1_music": "query.scoreboard('boss_2_alive')==1  && !query.is_in_water_or_rain"
+															},
+															{
+																"boss_3_music": "query.scoreboard('boss_2_alive')==3  && !query.is_in_water_or_rain"
+															},
+															{
+																"boss_5_music": "query.scoreboard('boss_2_alive')==5  && !query.is_in_water_or_rain"
+															},
+															{
+																"goblin_army_music": "query.scoreboard('boss_2_alive')==10  && !query.is_in_water_or_rain"
+															},
+															{
+																"blood_moon_music": "query.scoreboard('boss_2_alive')==11  && !query.is_in_water_or_rain"
+															},
+															{
+																"forest_rain_music": "!query.is_in_water  && query.is_in_water_or_rain && query.biome_has_any_tag('purity_forest') && query.position(1)>110 && query.position(1)<256"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"ice_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+														}
+													},
+													{
+														"open": [
+															{
+																"forest_night_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day<0.25 || query.time_of_day>0.75 &&  query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"forest_day_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day>0.25 || query.time_of_day<0.75 && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"desert_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"jungle_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"corruption_music": "query.biome_has_any_tag('corruption') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"snow_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"crimson_music": "query.biome_has_any_tag('crimson') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"underground_music": "query.position(1)>30 && query.position(1)<80 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"desert_underground_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"jungle_underground_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"ice_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"crimson_underground_music": "query.biome_has_any_tag('crimson') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"corruption_underground_music": "query.biome_has_any_tag('corruption') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"underworld_music": " query.position(1)>0 && query.position(1)<30 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"vanilla": "query.biome_has_any_tag('overworld') && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"forest_underground_music": "query.biome_has_any_tag('purity_forest') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"boss_2_music": "query.scoreboard('boss_2_alive')==2 && !query.is_in_water_or_rain"
+															},
+															{
+																"boss_1_music": "query.scoreboard('boss_2_alive')==1  && !query.is_in_water_or_rain"
+															},
+															{
+																"boss_3_music": "query.scoreboard('boss_2_alive')==3  && !query.is_in_water_or_rain"
+															},
+															{
+																"boss_5_music": "query.scoreboard('boss_2_alive')==5  && !query.is_in_water_or_rain"
+															},
+															{
+																"goblin_army_music": "query.scoreboard('boss_2_alive')==10  && !query.is_in_water_or_rain"
+															},
+															{
+																"blood_moon_music": "query.scoreboard('boss_2_alive')==11  && !query.is_in_water_or_rain"
+															},
+															{
+																"forest_rain_music": "!query.is_in_water  && query.is_in_water_or_rain && query.biome_has_any_tag('purity_forest') && query.position(1)>110 && query.position(1)<256"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"crimson_underground_music": "query.biome_has_any_tag('crimson') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+														}
+													},
+													{
+														"open": [
+															{
+																"forest_night_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day<0.25 || query.time_of_day>0.75 &&  query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"forest_day_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day>0.25 || query.time_of_day<0.75 && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"desert_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"jungle_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"corruption_music": "query.biome_has_any_tag('corruption') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"snow_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"crimson_music": "query.biome_has_any_tag('crimson') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"underground_music": "query.position(1)>30 && query.position(1)<80 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"desert_underground_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"jungle_underground_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"ice_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"crimson_underground_music": "query.biome_has_any_tag('crimson') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"corruption_underground_music": "query.biome_has_any_tag('corruption') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"underworld_music": " query.position(1)>0 && query.position(1)<30 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"vanilla": "query.biome_has_any_tag('overworld') && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"forest_underground_music": "query.biome_has_any_tag('purity_forest') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"boss_2_music": "query.scoreboard('boss_2_alive')==2 && !query.is_in_water_or_rain"
+															},
+															{
+																"boss_1_music": "query.scoreboard('boss_2_alive')==1  && !query.is_in_water_or_rain"
+															},
+															{
+																"boss_3_music": "query.scoreboard('boss_2_alive')==3  && !query.is_in_water_or_rain"
+															},
+															{
+																"boss_5_music": "query.scoreboard('boss_2_alive')==5  && !query.is_in_water_or_rain"
+															},
+															{
+																"goblin_army_music": "query.scoreboard('boss_2_alive')==10  && !query.is_in_water_or_rain"
+															},
+															{
+																"blood_moon_music": "query.scoreboard('boss_2_alive')==11  && !query.is_in_water_or_rain"
+															},
+															{
+																"forest_rain_music": "!query.is_in_water  && query.is_in_water_or_rain && query.biome_has_any_tag('purity_forest') && query.position(1)>110 && query.position(1)<256"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"corruption_underground_music": "query.biome_has_any_tag('corruption') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+														}
+													},
+													{
+														"open": [
+															{
+																"forest_night_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day<0.25 || query.time_of_day>0.75 &&  query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"forest_day_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day>0.25 || query.time_of_day<0.75 && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"desert_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"jungle_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"corruption_music": "query.biome_has_any_tag('corruption') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"snow_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"crimson_music": "query.biome_has_any_tag('crimson') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"underground_music": "query.position(1)>30 && query.position(1)<80 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"desert_underground_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"jungle_underground_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"ice_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"crimson_underground_music": "query.biome_has_any_tag('crimson') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"corruption_underground_music": "query.biome_has_any_tag('corruption') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"underworld_music": " query.position(1)>0 && query.position(1)<30 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"vanilla": "query.biome_has_any_tag('overworld') && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"forest_underground_music": "query.biome_has_any_tag('purity_forest') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"boss_2_music": "query.scoreboard('boss_2_alive')==2 && !query.is_in_water_or_rain"
+															},
+															{
+																"boss_1_music": "query.scoreboard('boss_2_alive')==1  && !query.is_in_water_or_rain"
+															},
+															{
+																"boss_3_music": "query.scoreboard('boss_2_alive')==3  && !query.is_in_water_or_rain"
+															},
+															{
+																"boss_5_music": "query.scoreboard('boss_2_alive')==5  && !query.is_in_water_or_rain"
+															},
+															{
+																"goblin_army_music": "query.scoreboard('boss_2_alive')==10  && !query.is_in_water_or_rain"
+															},
+															{
+																"blood_moon_music": "query.scoreboard('boss_2_alive')==11  && !query.is_in_water_or_rain"
+															},
+															{
+																"forest_rain_music": "!query.is_in_water  && query.is_in_water_or_rain && query.biome_has_any_tag('purity_forest') && query.position(1)>110 && query.position(1)<256"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"underworld_music": " query.position(1)>0 && query.position(1)<30 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+														}
+													},
+													{
+														"open": [
+															{
+																"forest_night_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day<0.25 || query.time_of_day>0.75 &&  query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"forest_day_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day>0.25 || query.time_of_day<0.75 && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"desert_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"jungle_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"corruption_music": "query.biome_has_any_tag('corruption') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"snow_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"crimson_music": "query.biome_has_any_tag('crimson') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"underground_music": "query.position(1)>30 && query.position(1)<80 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"desert_underground_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"jungle_underground_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"ice_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"crimson_underground_music": "query.biome_has_any_tag('crimson') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"corruption_underground_music": "query.biome_has_any_tag('corruption') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"underworld_music": " query.position(1)>0 && query.position(1)<30 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"vanilla": "query.biome_has_any_tag('overworld') && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"forest_underground_music": "query.biome_has_any_tag('purity_forest') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"boss_2_music": "query.scoreboard('boss_2_alive')==2 && !query.is_in_water_or_rain"
+															},
+															{
+																"boss_1_music": "query.scoreboard('boss_2_alive')==1  && !query.is_in_water_or_rain"
+															},
+															{
+																"boss_3_music": "query.scoreboard('boss_2_alive')==3  && !query.is_in_water_or_rain"
+															},
+															{
+																"boss_5_music": "query.scoreboard('boss_2_alive')==5  && !query.is_in_water_or_rain"
+															},
+															{
+																"goblin_army_music": "query.scoreboard('boss_2_alive')==10  && !query.is_in_water_or_rain"
+															},
+															{
+																"blood_moon_music": "query.scoreboard('boss_2_alive')==11  && !query.is_in_water_or_rain"
+															},
+															{
+																"forest_rain_music": "!query.is_in_water  && query.is_in_water_or_rain && query.biome_has_any_tag('purity_forest') && query.position(1)>110 && query.position(1)<256"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"vanilla": "query.biome_has_any_tag('overworld') && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+														}
+													},
+													{
+														"open": [
+															{
+																"forest_night_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day<0.25 || query.time_of_day>0.75 &&  query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"forest_day_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day>0.25 || query.time_of_day<0.75 && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"desert_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"jungle_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"corruption_music": "query.biome_has_any_tag('corruption') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"snow_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"crimson_music": "query.biome_has_any_tag('crimson') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"underground_music": "query.position(1)>30 && query.position(1)<80 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"desert_underground_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"jungle_underground_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"ice_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"crimson_underground_music": "query.biome_has_any_tag('crimson') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"corruption_underground_music": "query.biome_has_any_tag('corruption') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"underworld_music": " query.position(1)>0 && query.position(1)<30 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"vanilla": "query.biome_has_any_tag('overworld') && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"forest_underground_music": "query.biome_has_any_tag('purity_forest') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"boss_2_music": "query.scoreboard('boss_2_alive')==2 && !query.is_in_water_or_rain"
+															},
+															{
+																"boss_1_music": "query.scoreboard('boss_2_alive')==1  && !query.is_in_water_or_rain"
+															},
+															{
+																"boss_3_music": "query.scoreboard('boss_2_alive')==3  && !query.is_in_water_or_rain"
+															},
+															{
+																"boss_5_music": "query.scoreboard('boss_2_alive')==5  && !query.is_in_water_or_rain"
+															},
+															{
+																"goblin_army_music": "query.scoreboard('boss_2_alive')==10  && !query.is_in_water_or_rain"
+															},
+															{
+																"blood_moon_music": "query.scoreboard('boss_2_alive')==11  && !query.is_in_water_or_rain"
+															},
+															{
+																"forest_rain_music": "!query.is_in_water  && query.is_in_water_or_rain && query.biome_has_any_tag('purity_forest') && query.position(1)>110 && query.position(1)<256"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"forest_underground_music": "query.biome_has_any_tag('purity_forest') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+														}
+													},
+													{
+														"open": [
+															{
+																"forest_night_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day<0.25 || query.time_of_day>0.75 &&  query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"forest_day_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day>0.25 || query.time_of_day<0.75 && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"desert_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"jungle_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"corruption_music": "query.biome_has_any_tag('corruption') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"snow_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"crimson_music": "query.biome_has_any_tag('crimson') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"underground_music": "query.position(1)>30 && query.position(1)<80 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"desert_underground_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"jungle_underground_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"ice_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"crimson_underground_music": "query.biome_has_any_tag('crimson') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"corruption_underground_music": "query.biome_has_any_tag('corruption') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"underworld_music": " query.position(1)>0 && query.position(1)<30 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"vanilla": "query.biome_has_any_tag('overworld') && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"forest_underground_music": "query.biome_has_any_tag('purity_forest') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"boss_2_music": "query.scoreboard('boss_2_alive')==2 && !query.is_in_water_or_rain"
+															},
+															{
+																"boss_1_music": "query.scoreboard('boss_2_alive')==1  && !query.is_in_water_or_rain"
+															},
+															{
+																"boss_3_music": "query.scoreboard('boss_2_alive')==3  && !query.is_in_water_or_rain"
+															},
+															{
+																"boss_5_music": "query.scoreboard('boss_2_alive')==5  && !query.is_in_water_or_rain"
+															},
+															{
+																"goblin_army_music": "query.scoreboard('boss_2_alive')==10  && !query.is_in_water_or_rain"
+															},
+															{
+																"blood_moon_music": "query.scoreboard('boss_2_alive')==11  && !query.is_in_water_or_rain"
+															},
+															{
+																"forest_rain_music": "!query.is_in_water  && query.is_in_water_or_rain && query.biome_has_any_tag('purity_forest') && query.position(1)>110 && query.position(1)<256"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"boss_2_music": "query.scoreboard('boss_2_alive')==2 && !query.is_in_water_or_rain"
+														}
+													},
+													{
+														"open": [
+															{
+																"forest_night_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day<0.25 || query.time_of_day>0.75 &&  query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"forest_day_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day>0.25 || query.time_of_day<0.75 && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"desert_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"jungle_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"corruption_music": "query.biome_has_any_tag('corruption') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"snow_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"crimson_music": "query.biome_has_any_tag('crimson') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"underground_music": "query.position(1)>30 && query.position(1)<80 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"desert_underground_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"jungle_underground_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"ice_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"crimson_underground_music": "query.biome_has_any_tag('crimson') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"corruption_underground_music": "query.biome_has_any_tag('corruption') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"underworld_music": " query.position(1)>0 && query.position(1)<30 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"vanilla": "query.biome_has_any_tag('overworld') && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"forest_underground_music": "query.biome_has_any_tag('purity_forest') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"boss_2_music": "query.scoreboard('boss_2_alive')==2 && !query.is_in_water_or_rain"
+															},
+															{
+																"boss_1_music": "query.scoreboard('boss_2_alive')==1  && !query.is_in_water_or_rain"
+															},
+															{
+																"boss_3_music": "query.scoreboard('boss_2_alive')==3  && !query.is_in_water_or_rain"
+															},
+															{
+																"boss_5_music": "query.scoreboard('boss_2_alive')==5  && !query.is_in_water_or_rain"
+															},
+															{
+																"goblin_army_music": "query.scoreboard('boss_2_alive')==10  && !query.is_in_water_or_rain"
+															},
+															{
+																"blood_moon_music": "query.scoreboard('boss_2_alive')==11  && !query.is_in_water_or_rain"
+															},
+															{
+																"forest_rain_music": "!query.is_in_water  && query.is_in_water_or_rain && query.biome_has_any_tag('purity_forest') && query.position(1)>110 && query.position(1)<256"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"boss_1_music": "query.scoreboard('boss_2_alive')==1  && !query.is_in_water_or_rain"
+														}
+													},
+													{
+														"open": [
+															{
+																"forest_night_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day<0.25 || query.time_of_day>0.75 &&  query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"forest_day_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day>0.25 || query.time_of_day<0.75 && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"desert_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"jungle_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"corruption_music": "query.biome_has_any_tag('corruption') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"snow_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"crimson_music": "query.biome_has_any_tag('crimson') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"underground_music": "query.position(1)>30 && query.position(1)<80 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"desert_underground_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"jungle_underground_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"ice_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"crimson_underground_music": "query.biome_has_any_tag('crimson') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"corruption_underground_music": "query.biome_has_any_tag('corruption') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"underworld_music": " query.position(1)>0 && query.position(1)<30 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"vanilla": "query.biome_has_any_tag('overworld') && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"forest_underground_music": "query.biome_has_any_tag('purity_forest') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"boss_2_music": "query.scoreboard('boss_2_alive')==2 && !query.is_in_water_or_rain"
+															},
+															{
+																"boss_1_music": "query.scoreboard('boss_2_alive')==1  && !query.is_in_water_or_rain"
+															},
+															{
+																"boss_3_music": "query.scoreboard('boss_2_alive')==3  && !query.is_in_water_or_rain"
+															},
+															{
+																"boss_5_music": "query.scoreboard('boss_2_alive')==5  && !query.is_in_water_or_rain"
+															},
+															{
+																"goblin_army_music": "query.scoreboard('boss_2_alive')==10  && !query.is_in_water_or_rain"
+															},
+															{
+																"blood_moon_music": "query.scoreboard('boss_2_alive')==11  && !query.is_in_water_or_rain"
+															},
+															{
+																"forest_rain_music": "!query.is_in_water  && query.is_in_water_or_rain && query.biome_has_any_tag('purity_forest') && query.position(1)>110 && query.position(1)<256"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"boss_3_music": "query.scoreboard('boss_2_alive')==3  && !query.is_in_water_or_rain"
+														}
+													},
+													{
+														"open": [
+															{
+																"forest_night_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day<0.25 || query.time_of_day>0.75 &&  query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"forest_day_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day>0.25 || query.time_of_day<0.75 && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"desert_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"jungle_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"corruption_music": "query.biome_has_any_tag('corruption') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"snow_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"crimson_music": "query.biome_has_any_tag('crimson') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"underground_music": "query.position(1)>30 && query.position(1)<80 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"desert_underground_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"jungle_underground_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"ice_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"crimson_underground_music": "query.biome_has_any_tag('crimson') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"corruption_underground_music": "query.biome_has_any_tag('corruption') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"underworld_music": " query.position(1)>0 && query.position(1)<30 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"vanilla": "query.biome_has_any_tag('overworld') && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"forest_underground_music": "query.biome_has_any_tag('purity_forest') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"boss_2_music": "query.scoreboard('boss_2_alive')==2 && !query.is_in_water_or_rain"
+															},
+															{
+																"boss_1_music": "query.scoreboard('boss_2_alive')==1  && !query.is_in_water_or_rain"
+															},
+															{
+																"boss_3_music": "query.scoreboard('boss_2_alive')==3  && !query.is_in_water_or_rain"
+															},
+															{
+																"boss_5_music": "query.scoreboard('boss_2_alive')==5  && !query.is_in_water_or_rain"
+															},
+															{
+																"goblin_army_music": "query.scoreboard('boss_2_alive')==10  && !query.is_in_water_or_rain"
+															},
+															{
+																"blood_moon_music": "query.scoreboard('boss_2_alive')==11  && !query.is_in_water_or_rain"
+															},
+															{
+																"forest_rain_music": "!query.is_in_water  && query.is_in_water_or_rain && query.biome_has_any_tag('purity_forest') && query.position(1)>110 && query.position(1)<256"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"boss_5_music": "query.scoreboard('boss_2_alive')==5  && !query.is_in_water_or_rain"
+														}
+													},
+													{
+														"open": [
+															{
+																"forest_night_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day<0.25 || query.time_of_day>0.75 &&  query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"forest_day_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day>0.25 || query.time_of_day<0.75 && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"desert_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"jungle_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"corruption_music": "query.biome_has_any_tag('corruption') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"snow_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"crimson_music": "query.biome_has_any_tag('crimson') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"underground_music": "query.position(1)>30 && query.position(1)<80 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"desert_underground_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"jungle_underground_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"ice_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"crimson_underground_music": "query.biome_has_any_tag('crimson') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"corruption_underground_music": "query.biome_has_any_tag('corruption') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"underworld_music": " query.position(1)>0 && query.position(1)<30 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"vanilla": "query.biome_has_any_tag('overworld') && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"forest_underground_music": "query.biome_has_any_tag('purity_forest') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"boss_2_music": "query.scoreboard('boss_2_alive')==2 && !query.is_in_water_or_rain"
+															},
+															{
+																"boss_1_music": "query.scoreboard('boss_2_alive')==1  && !query.is_in_water_or_rain"
+															},
+															{
+																"boss_3_music": "query.scoreboard('boss_2_alive')==3  && !query.is_in_water_or_rain"
+															},
+															{
+																"boss_5_music": "query.scoreboard('boss_2_alive')==5  && !query.is_in_water_or_rain"
+															},
+															{
+																"goblin_army_music": "query.scoreboard('boss_2_alive')==10  && !query.is_in_water_or_rain"
+															},
+															{
+																"blood_moon_music": "query.scoreboard('boss_2_alive')==11  && !query.is_in_water_or_rain"
+															},
+															{
+																"forest_rain_music": "!query.is_in_water  && query.is_in_water_or_rain && query.biome_has_any_tag('purity_forest') && query.position(1)>110 && query.position(1)<256"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"goblin_army_music": "query.scoreboard('boss_2_alive')==10  && !query.is_in_water_or_rain"
+														}
+													},
+													{
+														"open": [
+															{
+																"forest_night_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day<0.25 || query.time_of_day>0.75 &&  query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"forest_day_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day>0.25 || query.time_of_day<0.75 && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"desert_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"jungle_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"corruption_music": "query.biome_has_any_tag('corruption') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"snow_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"crimson_music": "query.biome_has_any_tag('crimson') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"underground_music": "query.position(1)>30 && query.position(1)<80 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"desert_underground_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"jungle_underground_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"ice_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"crimson_underground_music": "query.biome_has_any_tag('crimson') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"corruption_underground_music": "query.biome_has_any_tag('corruption') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"underworld_music": " query.position(1)>0 && query.position(1)<30 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"vanilla": "query.biome_has_any_tag('overworld') && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"forest_underground_music": "query.biome_has_any_tag('purity_forest') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"boss_2_music": "query.scoreboard('boss_2_alive')==2 && !query.is_in_water_or_rain"
+															},
+															{
+																"boss_1_music": "query.scoreboard('boss_2_alive')==1  && !query.is_in_water_or_rain"
+															},
+															{
+																"boss_3_music": "query.scoreboard('boss_2_alive')==3  && !query.is_in_water_or_rain"
+															},
+															{
+																"boss_5_music": "query.scoreboard('boss_2_alive')==5  && !query.is_in_water_or_rain"
+															},
+															{
+																"goblin_army_music": "query.scoreboard('boss_2_alive')==10  && !query.is_in_water_or_rain"
+															},
+															{
+																"blood_moon_music": "query.scoreboard('boss_2_alive')==11  && !query.is_in_water_or_rain"
+															},
+															{
+																"forest_rain_music": "!query.is_in_water  && query.is_in_water_or_rain && query.biome_has_any_tag('purity_forest') && query.position(1)>110 && query.position(1)<256"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"blood_moon_music": "query.scoreboard('boss_2_alive')==11  && !query.is_in_water_or_rain"
+														}
+													},
+													{
+														"open": [
+															{
+																"forest_night_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day<0.25 || query.time_of_day>0.75 &&  query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"forest_day_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day>0.25 || query.time_of_day<0.75 && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"desert_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"jungle_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"corruption_music": "query.biome_has_any_tag('corruption') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"snow_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"crimson_music": "query.biome_has_any_tag('crimson') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"underground_music": "query.position(1)>30 && query.position(1)<80 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"desert_underground_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"jungle_underground_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"ice_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"crimson_underground_music": "query.biome_has_any_tag('crimson') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"corruption_underground_music": "query.biome_has_any_tag('corruption') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"underworld_music": " query.position(1)>0 && query.position(1)<30 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"vanilla": "query.biome_has_any_tag('overworld') && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"forest_underground_music": "query.biome_has_any_tag('purity_forest') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+															},
+															{
+																"boss_2_music": "query.scoreboard('boss_2_alive')==2 && !query.is_in_water_or_rain"
+															},
+															{
+																"boss_1_music": "query.scoreboard('boss_2_alive')==1  && !query.is_in_water_or_rain"
+															},
+															{
+																"boss_3_music": "query.scoreboard('boss_2_alive')==3  && !query.is_in_water_or_rain"
+															},
+															{
+																"boss_5_music": "query.scoreboard('boss_2_alive')==5  && !query.is_in_water_or_rain"
+															},
+															{
+																"goblin_army_music": "query.scoreboard('boss_2_alive')==10  && !query.is_in_water_or_rain"
+															},
+															{
+																"blood_moon_music": "query.scoreboard('boss_2_alive')==11  && !query.is_in_water_or_rain"
+															},
+															{
+																"forest_rain_music": "!query.is_in_water  && query.is_in_water_or_rain && query.biome_has_any_tag('purity_forest') && query.position(1)>110 && query.position(1)<256"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"forest_rain_music": "!query.is_in_water  && query.is_in_water_or_rain && query.biome_has_any_tag('purity_forest') && query.position(1)>110 && query.position(1)<256"
 														}
 													}
 												]
@@ -1775,35 +3345,87 @@
 									},
 									{
 										"key": "forest_day_music",
-										"is_minified": true,
-										"children": {
-											"on_entry": [
-												"/playsound dayone @s",
-												"v.time = q.time_stamp;",
-												"/fog @s push terrariamod:purity_forest_fog purity_forest_fog"
-											],
-											"transitions": [
-												{
-													"default": "query.time_stamp>v.time+1340 || !query.biome_has_any_tag('purity_forest') || query.position(1)<110 || query.position(1)>256 || query.time_of_day==0.75 || query.scoreboard('boss_2_alive')>0"
-												}
-											]
-										}
+										"children": [
+											{
+												"key": "on_entry",
+												"is_minified": true,
+												"children": [
+													"/playsound dayone @s",
+													"v.time = q.time_stamp;",
+													"/fog @s push terrariamod:purity_forest_fog purity_forest_fog"
+												]
+											},
+											{
+												"open": {
+													"on_entry": [
+														"/playsound dayone @s",
+														"v.time = q.time_stamp;",
+														"/fog @s push terrariamod:purity_forest_fog purity_forest_fog"
+													],
+													"transitions": [
+														{
+															"default": "query.time_stamp>v.time+1340 || !query.biome_has_any_tag('purity_forest') || query.position(1)<110 || query.position(1)>256 || query.time_of_day==0.75 || query.scoreboard('boss_2_alive')>0 || query.is_in_water_or_rain"
+														}
+													]
+												},
+												"key": "transitions",
+												"children": [
+													{
+														"open": [
+															{
+																"default": "query.time_stamp>v.time+1340 || !query.biome_has_any_tag('purity_forest') || query.position(1)<110 || query.position(1)>256 || query.time_of_day==0.75 || query.scoreboard('boss_2_alive')>0 || query.is_in_water_or_rain"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"default": "query.time_stamp>v.time+1340 || !query.biome_has_any_tag('purity_forest') || query.position(1)<110 || query.position(1)>256 || query.time_of_day==0.75 || query.scoreboard('boss_2_alive')>0 || query.is_in_water_or_rain"
+														}
+													}
+												]
+											}
+										]
 									},
 									{
 										"key": "forest_night_music",
-										"is_minified": true,
-										"children": {
-											"on_entry": [
-												"/playsound night @s",
-												"v.time = q.time_stamp;",
-												"/fog @s push terrariamod:purity_forest_fog purity_forest_fog"
-											],
-											"transitions": [
-												{
-													"default": "query.time_stamp>v.time+1160 || !query.biome_has_any_tag('purity_forest') || query.position(1)<110 || query.position(1)>256 || query.time_of_day==0.25 || query.scoreboard('boss_2_alive')>0"
-												}
-											]
-										}
+										"children": [
+											{
+												"key": "on_entry",
+												"is_minified": true,
+												"children": [
+													"/playsound night @s",
+													"v.time = q.time_stamp;",
+													"/fog @s push terrariamod:purity_forest_fog purity_forest_fog"
+												]
+											},
+											{
+												"open": {
+													"on_entry": [
+														"/playsound night @s",
+														"v.time = q.time_stamp;",
+														"/fog @s push terrariamod:purity_forest_fog purity_forest_fog"
+													],
+													"transitions": [
+														{
+															"default": "query.time_stamp>v.time+1160 || !query.biome_has_any_tag('purity_forest') || query.position(1)<110 || query.position(1)>256 || query.time_of_day==0.25 || query.scoreboard('boss_2_alive')>0 || query.is_in_water_or_rain"
+														}
+													]
+												},
+												"key": "transitions",
+												"children": [
+													{
+														"open": [
+															{
+																"default": "query.time_stamp>v.time+1160 || !query.biome_has_any_tag('purity_forest') || query.position(1)<110 || query.position(1)>256 || query.time_of_day==0.25 || query.scoreboard('boss_2_alive')>0 || query.is_in_water_or_rain"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"default": "query.time_stamp>v.time+1160 || !query.biome_has_any_tag('purity_forest') || query.position(1)<110 || query.position(1)>256 || query.time_of_day==0.25 || query.scoreboard('boss_2_alive')>0 || query.is_in_water_or_rain"
+														}
+													}
+												]
+											}
+										]
 									},
 									{
 										"key": "corruption_music",
@@ -2337,74 +3959,128 @@
 										]
 									},
 									{
+										"key": "blood_moon_music",
+										"children": [
+											{
+												"open": {
+													"on_entry": [
+														"/playsound bloodmoon @p",
+														"v.time = q.time_stamp;"
+													],
+													"transitions": [
+														{
+															"default": "query.time_stamp>v.time+2740 || query.scoreboard('boss_2_alive')==0"
+														}
+													]
+												},
+												"key": "on_entry",
+												"is_minified": true,
+												"children": [
+													"/playsound bloodmoon @p",
+													"v.time = q.time_stamp;"
+												]
+											},
+											{
+												"open": {
+													"on_entry": [
+														"/playsound bloodmoon @p",
+														"v.time = q.time_stamp;"
+													],
+													"transitions": [
+														{
+															"default": "query.time_stamp>v.time+2740 || query.scoreboard('boss_2_alive')==0"
+														}
+													]
+												},
+												"key": "transitions",
+												"children": [
+													{
+														"open": [
+															{
+																"default": "query.time_stamp>v.time+2740 || query.scoreboard('boss_2_alive')==0"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"default": "query.time_stamp>v.time+2740 || query.scoreboard('boss_2_alive')==0"
+														}
+													}
+												]
+											}
+										]
+									},
+									{
 										"open": {
 											"default": {
 												"transitions": [
 													{
-														"forest_night_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day<0.25 || query.time_of_day>0.75 &&  query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
+														"forest_night_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day<0.25 || query.time_of_day>0.75 &&  query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 													},
 													{
-														"forest_day_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day>0.25 || query.time_of_day<0.75 && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
+														"forest_day_music": "query.biome_has_any_tag('purity_forest') && query.time_of_day>0.25 || query.time_of_day<0.75 && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 													},
 													{
-														"desert_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
+														"desert_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 													},
 													{
-														"jungle_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
+														"jungle_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 													},
 													{
-														"corruption_music": "query.biome_has_any_tag('corruption') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
+														"corruption_music": "query.biome_has_any_tag('corruption') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 													},
 													{
-														"snow_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
+														"snow_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 													},
 													{
-														"crimson_music": "query.biome_has_any_tag('crimson') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0"
+														"crimson_music": "query.biome_has_any_tag('crimson') && query.position(1)>110 && query.position(1)<256 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 													},
 													{
-														"underground_music": "query.position(1)>30 && query.position(1)<80 && query.scoreboard('boss_2_alive')==0"
+														"underground_music": "query.position(1)>30 && query.position(1)<80 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 													},
 													{
-														"desert_underground_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
+														"desert_underground_music": "query.biome_has_any_tag('purity_desert') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 													},
 													{
-														"jungle_underground_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
+														"jungle_underground_music": "query.biome_has_any_tag('purity_jungle') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 													},
 													{
-														"ice_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
+														"ice_music": "query.biome_has_any_tag('purity_snow') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 													},
 													{
-														"crimson_underground_music": "query.biome_has_any_tag('crimson') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
+														"crimson_underground_music": "query.biome_has_any_tag('crimson') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 													},
 													{
-														"corruption_underground_music": "query.biome_has_any_tag('corruption') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
+														"corruption_underground_music": "query.biome_has_any_tag('corruption') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 													},
 													{
-														"underworld_music": " query.position(1)>0 && query.position(1)<30 && query.scoreboard('boss_2_alive')==0"
+														"underworld_music": " query.position(1)>0 && query.position(1)<30 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 													},
 													{
-														"vanilla": "query.biome_has_any_tag('overworld') && query.scoreboard('boss_2_alive')==0"
+														"vanilla": "query.biome_has_any_tag('overworld') && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 													},
 													{
-														"forest_underground_music": "query.biome_has_any_tag('purity_forest') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0"
+														"forest_underground_music": "query.biome_has_any_tag('purity_forest') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 													},
 													{
-														"boss_2_music": "query.scoreboard('boss_2_alive')==2"
+														"boss_2_music": "query.scoreboard('boss_2_alive')==2 && !query.is_in_water_or_rain"
 													},
 													{
-														"boss_1_music": "query.scoreboard('boss_2_alive')==1"
+														"boss_1_music": "query.scoreboard('boss_2_alive')==1  && !query.is_in_water_or_rain"
 													},
 													{
-														"boss_3_music": "query.scoreboard('boss_2_alive')==3"
+														"boss_3_music": "query.scoreboard('boss_2_alive')==3  && !query.is_in_water_or_rain"
 													},
 													{
-														"boss_5_music": "query.scoreboard('boss_2_alive')==5"
+														"boss_5_music": "query.scoreboard('boss_2_alive')==5  && !query.is_in_water_or_rain"
 													},
 													{
-														"goblin_army_music": "query.scoreboard('boss_2_alive')==10"
+														"goblin_army_music": "query.scoreboard('boss_2_alive')==10  && !query.is_in_water_or_rain"
 													},
 													{
-														"blood_moon_music": "query.scoreboard('boss_2_alive')==11"
+														"blood_moon_music": "query.scoreboard('boss_2_alive')==11  && !query.is_in_water_or_rain"
+													},
+													{
+														"forest_rain_music": "!query.is_in_water  && query.is_in_water_or_rain && query.biome_has_any_tag('purity_forest') && query.position(1)>110 && query.position(1)<256"
 													}
 												],
 												"on_entry": [
@@ -2427,7 +4103,7 @@
 												],
 												"transitions": [
 													{
-														"default": "query.time_stamp>v.time+1340 || !query.biome_has_any_tag('purity_forest') || query.position(1)<110 || query.position(1)>256 || query.time_of_day==0.75 || query.scoreboard('boss_2_alive')>0"
+														"default": "query.time_stamp>v.time+1340 || !query.biome_has_any_tag('purity_forest') || query.position(1)<110 || query.position(1)>256 || query.time_of_day==0.75 || query.scoreboard('boss_2_alive')>0 || query.is_in_water_or_rain"
 													}
 												]
 											},
@@ -2439,7 +4115,7 @@
 												],
 												"transitions": [
 													{
-														"default": "query.time_stamp>v.time+1160 || !query.biome_has_any_tag('purity_forest') || query.position(1)<110 || query.position(1)>256 || query.time_of_day==0.25 || query.scoreboard('boss_2_alive')>0"
+														"default": "query.time_stamp>v.time+1160 || !query.biome_has_any_tag('purity_forest') || query.position(1)<110 || query.position(1)>256 || query.time_of_day==0.25 || query.scoreboard('boss_2_alive')>0 || query.is_in_water_or_rain"
 													}
 												]
 											},
@@ -2669,42 +4345,61 @@
 											},
 											"blood_moon_music": {
 												"on_entry": [
-													"/playsound bloodmoon @p"
+													"/playsound bloodmoon @p",
+													"v.time = q.time_stamp;"
 												],
 												"transitions": [
 													{
 														"default": "query.time_stamp>v.time+2740 || query.scoreboard('boss_2_alive')==0"
 													}
 												]
+											},
+											"forest_rain_music": {
+												"on_entry": [
+													"/playsound rain @p",
+													"v.time = q.time_stamp;",
+													"/function rain"
+												],
+												"transitions": [
+													{
+														"default": "query.time_stamp>v.time+1980 || !query.is_in_water  && !query.is_in_water_or_rain || !query.biome_has_any_tag('purity_forest') || query.position(1)<110 || query.position(1)>256"
+													}
+												]
 											}
 										},
-										"key": "blood_moon_music",
+										"key": "forest_rain_music",
 										"children": [
 											{
 												"open": {
 													"on_entry": [
-														"/playsound bloodmoon @p"
+														"/playsound rain @p",
+														"v.time = q.time_stamp;",
+														"/function rain"
 													],
 													"transitions": [
 														{
-															"default": "query.time_stamp>v.time+2740 || query.scoreboard('boss_2_alive')==0"
+															"default": "query.time_stamp>v.time+1980 || !query.is_in_water  && !query.is_in_water_or_rain || !query.biome_has_any_tag('purity_forest') || query.position(1)<110 || query.position(1)>256"
 														}
 													]
 												},
 												"key": "on_entry",
 												"is_minified": true,
 												"children": [
-													"/playsound bloodmoon @p"
+													"/playsound rain @p",
+													"v.time = q.time_stamp;",
+													"/function rain"
 												]
 											},
 											{
 												"open": {
 													"on_entry": [
-														"/playsound bloodmoon @p"
+														"/playsound rain @p",
+														"v.time = q.time_stamp;",
+														"/function rain"
 													],
 													"transitions": [
 														{
-															"default": "query.time_stamp>v.time+2740 || query.scoreboard('boss_2_alive')==0"
+															"default": "query.time_stamp>v.time+1980 || !query.is_in_water  && !query.is_in_water_or_rain || !query.biome_has_any_tag('purity_forest') || query.position(1)<110 || query.position(1)>256"
 														}
 													]
 												},
@@ -2713,12 +4408,12 @@
 													{
 														"open": [
 															{
-																"default": "query.time_stamp>v.time+2740 || query.scoreboard('boss_2_alive')==0"
+																"default": "query.time_stamp>v.time+1980 || !query.is_in_water  && !query.is_in_water_or_rain || !query.biome_has_any_tag('purity_forest') || query.position(1)<110 || query.position(1)>256"
 															}
 														],
 														"is_minified": true,
 														"children": {
-															"default": "query.time_stamp>v.time+2740 || query.scoreboard('boss_2_alive')==0"
+															"default": "query.time_stamp>v.time+1980 || !query.is_in_water  && !query.is_in_water_or_rain || !query.biome_has_any_tag('purity_forest') || query.position(1)<110 || query.position(1)>256"
 														}
 													}
 												]

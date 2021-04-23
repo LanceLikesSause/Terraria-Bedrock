@@ -1,4 +1,4 @@
-##bridge-file-version: #460
+##bridge-file-version: #466
 ##bridge-file-version: #456
 #####################Version Number
 terrariamod.version.number=2.4.4
@@ -70,6 +70,10 @@ terrariamod.tempeight.text2=The Queen Bee will drop variety of items when killed
 
 tile.terrariamod:underworld_transporter.name=Underworld Transporter
 
+
+##livingtree
+tile.terrariamod:livingwood.name=Living Wood
+tile.terrariamod:leafblock.name=Leaf Block
 ##Blood Moon
 entity.terrariamod:bloodzombie.name=Blood Zombie
 item.spawn_egg.entity.terrariamod:bloodzombie.name=Spawn Blood Zombie 
@@ -187,6 +191,7 @@ item.terrariamod:demoniteaxe.name=War Axe of the Night
 item.terrariamod:meteoriteaxe.name=Meteorite Axe
 item.terrariamod:hellstoneaxe.name=Hellstone Axe
 
+item.terrariamod:grapplinghook.name=Grappling Hook
 item.terrariamod:copper_chestplate.name=Copper Chestplate
 item.terrariamod:copper_helmet.name=Copper Helmet
 item.terrariamod:copper_greaves.name=Copper Greaves
@@ -309,6 +314,8 @@ entity.terrariamod:woodenarrow_projectile_gold.name=Gold Bow
 entity.terrariamod:woodenarrow_projectile_platinum.name=Platinum Bow
 
 
+item.spawn_egg.entity.terrariamod:thehungry.name=Spawn The Hungry
+entity.terrariamod:thehungry.name=The Hungry
 item.spawn_egg.entity.terrariamod:wallofflesh.name=Spawn Wall of Flesh
 entity.terrariamod:wallofflesh.name=Wall of Flesh
 item.spawn_egg.entity.terrariamod:sandslime.name=Spawn Sand Slime

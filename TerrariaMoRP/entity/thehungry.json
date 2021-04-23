@@ -1,0 +1,41 @@
+//bridge-file-version: #44
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "terrariamod:thehungry",
+			"materials": {
+				"default": "zombie"
+			},
+			"textures": {
+				"default": "textures/entity/pamobile/thehungry"
+			},
+			"geometry": {
+				"default": "geometry.thehungry"
+			},
+			"particle_effects": {
+				"bounce_effect": "terrariamod:slime_effect"
+			},
+			"render_controllers": [
+				"controller.render.zombie"
+			],
+			"enable_attachables": false,
+			"spawn_egg": {
+				"base_color": "#949493",
+				"overlay_color": "#651818"
+			},
+			"animation_controllers": [
+				{
+					"phantom_base_pose": "controller.animation.phantom.base_pose"
+				},
+				{
+					"move": "controller.animation.phantom.move"
+				}
+			],
+			"animations": {
+				"phantom_base_pose": "animation.phantom.base_pose",
+				"move": "animation.thehungry.general"
+			}
+		}
+	}
+}

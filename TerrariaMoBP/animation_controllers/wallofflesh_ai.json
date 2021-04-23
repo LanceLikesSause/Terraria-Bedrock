@@ -1,4 +1,4 @@
-//bridge-file-version: #156
+//bridge-file-version: #206
 {
 	"format_version": "1.10.0",
 	"animation_controllers": {
@@ -7,18 +7,95 @@
 				"default": {
 					"transitions": [
 						{
-							"move_to_player": "query.life_time>0"
+							"choose_speed": "query.life_time>0"
 						}
 					]
 				},
-				"move_to_player": {
+				"choose_speed": {
 					"transitions": [
 						{
-							"default": "query.time_stamp>v.time+0.1"
+							"move_to_player_speed_one": "query.health>6000"
+						},
+						{
+							"move_to_player_speed_two": "query.health<6000 && query.health>4000"
+						},
+						{
+							"move_to_player_speed_three": "query.health<4000 && query.health>2000"
+						},
+						{
+							"move_to_player_speed_four": "query.health<2000 && query.health>1000"
+						},
+						{
+							"move_to_player_speed_five": "query.health<1000 && query.health>500"
+						},
+						{
+							"move_to_player_speed_six": "query.health<500 && query.health>0"
+						}
+					]
+				},
+				"move_to_player_speed_one": {
+					"transitions": [
+						{
+							"choose_speed": "query.time_stamp>v.time+0.1"
 						}
 					],
 					"on_entry": [
 						"/tp @s ^ ^ ^0.1 facing @p",
+						"v.time = q.time_stamp;"
+					]
+				},
+				"move_to_player_speed_two": {
+					"transitions": [
+						{
+							"choose_speed": "query.time_stamp>v.time+0.1"
+						}
+					],
+					"on_entry": [
+						"/tp @s ^ ^ ^0.2 facing @p",
+						"v.time = q.time_stamp;"
+					]
+				},
+				"move_to_player_speed_three": {
+					"transitions": [
+						{
+							"choose_speed": "query.time_stamp>v.time+0.1"
+						}
+					],
+					"on_entry": [
+						"/tp @s ^ ^ ^0.3 facing @p",
+						"v.time = q.time_stamp;"
+					]
+				},
+				"move_to_player_speed_four": {
+					"transitions": [
+						{
+							"choose_speed": "query.time_stamp>v.time+0.1"
+						}
+					],
+					"on_entry": [
+						"/tp @s ^ ^ ^0.4 facing @p",
+						"v.time = q.time_stamp;"
+					]
+				},
+				"move_to_player_speed_five": {
+					"transitions": [
+						{
+							"choose_speed": "query.time_stamp>v.time+0.1"
+						}
+					],
+					"on_entry": [
+						"/tp @s ^ ^ ^0.5 facing @p",
+						"v.time = q.time_stamp;"
+					]
+				},
+				"move_to_player_speed_six": {
+					"transitions": [
+						{
+							"choose_speed": "query.time_stamp>v.time+0.1"
+						}
+					],
+					"on_entry": [
+						"/tp @s ^ ^ ^0.6 facing @p",
 						"v.time = q.time_stamp;"
 					]
 				}

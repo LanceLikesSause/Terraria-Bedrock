@@ -1,4 +1,4 @@
-//bridge-file-version: #52
+//bridge-file-version: #54
 {
 	"resource_pack_name": "terrariamod",
 	"texture_name": "atlas.terrain",
@@ -446,6 +446,16 @@
 		"sunplate": {
 			"textures": [
 				"textures/blocks/sunplate"
+			]
+		},
+		"livingwood": {
+			"textures": [
+				"textures/blocks/livingwood"
+			]
+		},
+		"leafblock": {
+			"textures": [
+				"textures/blocks/leafblock"
 			]
 		}
 	}

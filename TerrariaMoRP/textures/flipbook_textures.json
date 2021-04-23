@@ -1,9 +1,10 @@
-//bridge-file-version: #6
+//bridge-file-version: #8
 [
 	{
 		"flipbook_texture": "textures/blocks/crystalheart",
 		"atlas_tile": "crystalheart",
 		"ticks_per_frame": 10
 	},
+	{},
 	{}
 ]

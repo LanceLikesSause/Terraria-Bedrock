@@ -1,4 +1,4 @@
-//bridge-file-version: #62
+//bridge-file-version: #63
 {
 	"entity_sounds": {
 		"entities": {
@@ -786,6 +786,22 @@
 				}
 			},
 			"terrariamod:wallofflesh": {
+				"volume": 1,
+				"pitch": 1,
+				"events": {
+					"hurt": {
+						"sound": "wallofflesh.hurt",
+						"volume": 1,
+						"pitch": 1
+					},
+					"death": {
+						"sound": "wallofflesh.death",
+						"volume": 1,
+						"pitch": 1
+					}
+				}
+			},
+			"terrariamod:thehungry": {
 				"volume": 1,
 				"pitch": 1,
 				"events": {

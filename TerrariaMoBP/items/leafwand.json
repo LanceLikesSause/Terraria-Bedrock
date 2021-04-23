@@ -1,0 +1,47 @@
+//bridge-file-version: #93
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "terrariamod:leafwand",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:creative_category": {
+				"parent": "equipment"
+			},
+			"minecraft:icon": {
+				"texture": "terrariamod:leafwand"
+			},
+			"minecraft:display_name": {
+				"value": "Leaf Wand§9Places leaf blocks"
+			},
+			"minecraft:cooldown": {
+				"category": "terrariamod_leafwand",
+				"duration": 2
+			},
+			"minecraft:durability": {
+				"max_durability": 200,
+				"damage_chance": {
+					"min": 2,
+					"max": 2
+				}
+			},
+			"minecraft:on_use_on": {
+				"on_use_on": {
+					"event": "terrariamod:place_leaves"
+				}
+			}
+		},
+		"events": {
+			"terrariamod:place_leaves": {
+				"run_command": {
+					"command": [
+						"setblock ~~1~ terrariamod:leafblock"
+					],
+					"target": "block"
+				}
+			}
+		}
+	}
+}

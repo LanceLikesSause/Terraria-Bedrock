@@ -1,4 +1,4 @@
-//bridge-file-version: #17
+//bridge-file-version: #23
 {
 	"resource_pack_name": "TerrariaModLLS",
 	"texture_name": "atlas.items",
@@ -803,6 +803,21 @@
 		"terrariamod:thiefsknife": {
 			"textures": [
 				"textures/items/thiefsknife"
+			]
+		},
+		"terrariamod:grapplinghook": {
+			"textures": [
+				"textures/items/hooks/grapplinghook"
+			]
+		},
+		"terrariamod:livingwoodwand": {
+			"textures": [
+				"textures/items/weapons/livingwoodwand"
+			]
+		},
+		"terrariamod:leafwand": {
+			"textures": [
+				"textures/items/weapons/leafwand"
 			]
 		}
 	}

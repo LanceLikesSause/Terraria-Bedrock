@@ -111,6 +111,86 @@
 						}
 					}
 				}
+			},
+			"2b2eb066_7cb4_4280_ba42_e5e1f16b578f": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"857774c7_8a46_45f2_a348_05d956f18a2c": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"f482a29b_8b5e_4dca_a867_16c743043750": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"f5fdbcfb_1001_4ba4_95fc_1786e5ae1a21": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"691f3767_ed4e_4b57_8596_e4dee31f00f2": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"aef561f9_b099_4427_a367_2d6829e72b77": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"5c3cfa49_0c36_44ef_bd2d_6aab342727bb": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"36dce754_f643_4a45_8648_f124e9398cd3": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
 			}
 		}
 	},
@@ -247,6 +327,84 @@
 		"data": {}
 	},
 	"BP/entities/drippler.json": {
+		"data": {}
+	},
+	"BP/items/starting_items_package.json": {
+		"data": {}
+	},
+	"BP/blocks/twooden_door.json": {
+		"data": {}
+	},
+	"BP/recipes/emptybucket_recipe.json": {
+		"data": {}
+	},
+	"BP/blocks/honey.json": {
+		"data": {}
+	},
+	"BP/items/honey_bucket.json": {
+		"data": {}
+	},
+	"BP/animation_controllers/wallofflesh_ai.json": {
+		"data": {}
+	},
+	"RP/textures/flipbook_textures.json": {
+		"data": {}
+	},
+	"BP/blocks/livingwood.json": {
+		"data": {}
+	},
+	"RP/textures/terrain_texture.json": {
+		"data": {}
+	},
+	"RP/blocks.json": {
+		"data": {}
+	},
+	"BP/items/magicmirror.json": {
+		"data": {}
+	},
+	"BP/items/purity_wood_item.json": {
+		"data": {}
+	},
+	"BP/blocks/leafblock.json": {
+		"data": {}
+	},
+	"BP/items/livingwoodwand.json": {
+		"data": {}
+	},
+	"BP/items/leafwand.json": {
+		"data": {}
+	},
+	"BP/feature_rules/livingtree_featurerule.json": {
+		"data": {}
+	},
+	"BP/features/livingtree_feature.json": {
+		"data": {}
+	},
+	"BP/blocks/livingtree_spawner.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/tree_bottom.json": {
+		"data": {}
+	},
+	"BP/blocks/tree_bottom.json": {
+		"data": {}
+	},
+	"BP/items/water_bucket.json": {
+		"data": {}
+	},
+	"BP/items/empty_bucket.json": {
+		"data": {}
+	},
+	"RP/entity/wallofflesh.json": {
+		"data": {}
+	},
+	"BP/entities/thehungry.json": {
+		"data": {}
+	},
+	"RP/entity/thehungry.json": {
+		"data": {}
+	},
+	"RP/sounds.json": {
 		"data": {}
 	}
 }

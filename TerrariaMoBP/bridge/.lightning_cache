@@ -77,7 +77,8 @@
 				"minecraft:mana",
 				"minecraft:hellstone_event",
 				"minecraft:entity_spawned",
-				"bridge:remove_command_id_1"
+				"bridge:remove_command_id_1",
+				"terrariamod:die"
 			],
 			"bridge_core_tags": [],
 			"identifiers": [
@@ -97,7 +98,13 @@
 			"custom_commands": []
 		},
 		"BP/entities/wallofflesh.json": {
-			"events": [],
+			"events": [
+				"terrariamod:tried_to_escape",
+				"terrariamod:time_up",
+				"terrariamod:death",
+				"terrariamod:summon_hungry",
+				"minecraft:entity_spawned"
+			],
 			"bridge_core_tags": [],
 			"identifiers": [
 				"terrariamod:wallofflesh"
@@ -406,6 +413,24 @@
 			],
 			"custom_commands": [],
 			"custom_components": []
+		},
+		"BP/entities/thehungry.json": {
+			"events": [
+				"terrariamod:detach",
+				"minecraft:entity_spawned",
+				"terrariamod:move_towards_player"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"terrariamod:thehungry"
+			],
+			"animation_references": [],
+			"families": [
+				"terraria_players_enemy",
+				"terraria_boss"
+			],
+			"custom_commands": [],
+			"custom_components": []
 		}
 	},
 	"function": {
@@ -450,7 +475,24 @@
 		},
 		"a53f8e1b_c8d3_484d_8339_fc363e4ecbe4": {},
 		"7c09e3e5_e745_4c32_8117_0a2acdd052bb": {},
-		"614e7b31_b970_40a7_8524_ccc74c517a4f": {}
+		"614e7b31_b970_40a7_8524_ccc74c517a4f": {},
+		"2b2eb066_7cb4_4280_ba42_e5e1f16b578f": {},
+		"BP/functions/rain.mcfunction": {
+			"custom_commands": []
+		},
+		"1c5e213a_0cb1_4a0a_bd4e_1f24e33edb90": {},
+		"97e67789_5e76_4b3b_973d_a508a8a26950": {},
+		"e2875790_4c14_41b4_8e1d_5dccda03fd65": {},
+		"13933eb6_2e0d_4c9b_93f4_fde5f49206e4": {},
+		"054cf23b_8903_423e_9a2e_ecd2addf8468": {},
+		"81c17cd2_fca3_45c5_a88a_7acdce56fcdf": {},
+		"f482a29b_8b5e_4dca_a867_16c743043750": {},
+		"f5fdbcfb_1001_4ba4_95fc_1786e5ae1a21": {},
+		"aef561f9_b099_4427_a367_2d6829e72b77": {},
+		"5e3e23e4_50e5_47f5_a9d6_0814ee86c807": {},
+		"b2598d27_87e9_4508_8f6c_72c3c5481228": {},
+		"36dce754_f643_4a45_8648_f124e9398cd3": {},
+		"b0bddab6_5f60_449f_88c7_41843ea6e8c7": {}
 	},
 	"block": {
 		"BP/blocks/purity_campfire.json": {
@@ -460,6 +502,74 @@
 			"events": [
 				"terrariamod:particle",
 				"terrariamod:regen"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/twooden_door.json": {
+			"identifiers": [
+				"terrariamod:twooden_door"
+			],
+			"events": [
+				"terrariamod:open_door",
+				"terrariamod:close_door",
+				"terrariamod:destroy_door",
+				"terrariamod:create_door"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/honey.json": {
+			"identifiers": [
+				"terrariamod:honey"
+			],
+			"events": [
+				"terrariamod:interaction",
+				"terrariamod:regen",
+				"terrariamod:give"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/livingwood.json": {
+			"identifiers": [
+				"terrariamod:livingwood"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/leafblock.json": {
+			"identifiers": [
+				"terrariamod:livingwood"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/livingtree_spawner.json": {
+			"identifiers": [
+				"terrariamod:livingtree_spawner"
+			],
+			"events": [
+				"terrariamod:spawn"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/tree_bottom.json": {
+			"identifiers": [
+				"terrariamod:tree_bottom"
+			],
+			"events": [
+				"terrariamod:destroy_tree",
+				"terrariamod:shake_tree"
 			],
 			"recipe_tags": [],
 			"custom_components": [],
@@ -501,7 +611,7 @@
 		},
 		"BP/items/abeemination.json": {
 			"identifiers": [
-				"terrariamod:abeemination"
+				"terrariamod:livingwoodwand"
 			],
 			"custom_commands": []
 		},
@@ -526,6 +636,54 @@
 		"BP/items/thiefsknife.json": {
 			"identifiers": [
 				"terrariamod:thiefsknife"
+			],
+			"custom_commands": []
+		},
+		"BP/items/starting_items_package.json": {
+			"identifiers": [
+				"terrariamod:starting_items_package"
+			],
+			"custom_commands": []
+		},
+		"BP/items/honey_bucket.json": {
+			"identifiers": [
+				"terrariamod:honey_bucket"
+			],
+			"custom_commands": []
+		},
+		"BP/items/magicmirror.json": {
+			"identifiers": [
+				"terrariamod:magicmirror"
+			],
+			"custom_commands": []
+		},
+		"BP/items/purity_wood_item.json": {
+			"identifiers": [
+				"terrariamod:purity_wood_item"
+			],
+			"custom_commands": []
+		},
+		"BP/items/livingwoodwand.json": {
+			"identifiers": [
+				"terrariamod:leafwand"
+			],
+			"custom_commands": []
+		},
+		"BP/items/leafwand.json": {
+			"identifiers": [
+				"terrariamod:leafwand"
+			],
+			"custom_commands": []
+		},
+		"BP/items/water_bucket.json": {
+			"identifiers": [
+				"terrariamod:water_bucket"
+			],
+			"custom_commands": []
+		},
+		"BP/items/empty_bucket.json": {
+			"identifiers": [
+				"terrariamod:empty_bucket"
 			],
 			"custom_commands": []
 		}
@@ -578,6 +736,12 @@
 				"controller.animation.bloodmoon_other"
 			],
 			"custom_commands": []
+		},
+		"BP/animation_controllers/wallofflesh_ai.json": {
+			"ids": [
+				"controller.animation.wallofflesh_ai"
+			],
+			"custom_commands": []
 		}
 	},
 	"client_entity": {
@@ -587,6 +751,56 @@
 			],
 			"particle_references": [],
 			"animation_references": [],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/wallofflesh.json": {
+			"identifiers": [
+				"terrariamod:thehungry"
+			],
+			"particle_references": [
+				"bounce_effect"
+			],
+			"animation_references": [
+				"phantom_base_pose",
+				"move"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/thehungry.json": {
+			"identifiers": [
+				"terrariamod:thehungry"
+			],
+			"particle_references": [
+				"bounce_effect"
+			],
+			"animation_references": [
+				"phantom_base_pose",
+				"move"
+			],
 			"sound_references": [],
 			"texture_references": [
 				"default"
@@ -665,7 +879,8 @@
 				"bossthree",
 				"bossfive",
 				"goblinarmy",
-				"bloodmoon"
+				"bloodmoon",
+				"rain"
 			]
 		}
 	},
@@ -678,6 +893,25 @@
 		"BP/recipes/puritychest_lead_recipe.json": {
 			"tags": [
 				"workbench"
+			]
+		},
+		"BP/recipes/emptybucket_recipe.json": {
+			"tags": [
+				"iron_anvil"
+			]
+		}
+	},
+	"feature_rule": {
+		"BP/feature_rules/livingtree_featurerule.json": {
+			"identifiers": [
+				"minecraft:livingtree_featurerule"
+			]
+		}
+	},
+	"feature": {
+		"BP/features/livingtree_feature.json": {
+			"identifiers": [
+				"minecraft:livingtree_feature"
 			]
 		}
 	}

@@ -1,4 +1,4 @@
-//bridge-file-version: #9
+//bridge-file-version: #19
 {
 	"format_version": "1.16.100",
 	"minecraft:block": {
@@ -22,7 +22,10 @@
 			"minecraft:on_player_destroyed": {
 				"event": "terrariamod:destroy_tree"
 			},
-			"tag:terrariamod:plant": {}
+			"tag:terrariamod:plant": {},
+			"minecraft:on_interact": {
+				"event": "terrariamod:shake_tree"
+			}
 		},
 		"events": {
 			"terrariamod:destroy_tree": {
@@ -31,6 +34,23 @@
 						"fill ~ ~ ~ ~ ~7 ~ air 0 destroy"
 					]
 				}
+			},
+			"terrariamod:shake_tree": {
+				"randomize": [
+					{
+						"weight": 4,
+						"spawn_loot": {
+							"table": "loot_tables/blocks/tree_bottom.json"
+						}
+					},
+					{
+						"weight": 1,
+						"die": {},
+						"trigger": {
+							"event": "terrariamod:destroy_tree"
+						}
+					}
+				]
 			}
 		}
 	}

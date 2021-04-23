@@ -1,0 +1,25 @@
+//bridge-file-version: #6
+{
+	"format_version": "1.16.200",
+	"minecraft:block": {
+		"description": {
+			"identifier": "terrariamod:livingtree_spawner"
+		},
+		"components": {
+			"minecraft:random_ticking": {
+				"on_tick": {
+					"event": "terrariamod:spawn"
+				}
+			}
+		},
+		"events": {
+			"terrariamod:spawn": {
+				"run_command": {
+					"command": [
+						"structure load mystructure:livingtree_1 ~~~"
+					]
+				}
+			}
+		}
+	}
+}

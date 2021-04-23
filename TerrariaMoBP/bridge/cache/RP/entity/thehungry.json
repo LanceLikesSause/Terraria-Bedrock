@@ -1,0 +1,444 @@
+{
+	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\TerrariaMoRP\\entity\\thehungry.json",
+	"file_type": "client_entity",
+	"format_version": 1,
+	"file_uuid": "9d8a3ced_4b01_4a6d_8ac2_e67c234f91a2",
+	"file_version": 44,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.8.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "terrariamod:thehungry",
+							"materials": {
+								"default": "zombie"
+							},
+							"textures": {
+								"default": "textures/entity/pamobile/thehungry"
+							},
+							"geometry": {
+								"default": "geometry.thehungry"
+							},
+							"particle_effects": {
+								"bounce_effect": "terrariamod:slime_effect"
+							},
+							"render_controllers": [
+								"controller.render.zombie"
+							],
+							"enable_attachables": false,
+							"spawn_egg": {
+								"base_color": "#949493",
+								"overlay_color": "#651818"
+							},
+							"animation_controllers": [
+								{
+									"phantom_base_pose": "controller.animation.phantom.base_pose"
+								},
+								{
+									"move": "controller.animation.phantom.move"
+								}
+							],
+							"animations": {
+								"phantom_base_pose": "animation.phantom.base_pose",
+								"move": "animation.thehungry.general"
+							}
+						}
+					}
+				},
+				"data": "1.8.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.8.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "terrariamod:thehungry",
+							"materials": {
+								"default": "zombie"
+							},
+							"textures": {
+								"default": "textures/entity/pamobile/thehungry"
+							},
+							"geometry": {
+								"default": "geometry.thehungry"
+							},
+							"particle_effects": {
+								"bounce_effect": "terrariamod:slime_effect"
+							},
+							"render_controllers": [
+								"controller.render.zombie"
+							],
+							"enable_attachables": false,
+							"spawn_egg": {
+								"base_color": "#949493",
+								"overlay_color": "#651818"
+							},
+							"animation_controllers": [
+								{
+									"phantom_base_pose": "controller.animation.phantom.base_pose"
+								},
+								{
+									"move": "controller.animation.phantom.move"
+								}
+							],
+							"animations": {
+								"phantom_base_pose": "animation.phantom.base_pose",
+								"move": "animation.thehungry.general"
+							}
+						}
+					}
+				},
+				"key": "minecraft:client_entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:thehungry",
+								"materials": {
+									"default": "zombie"
+								},
+								"textures": {
+									"default": "textures/entity/pamobile/thehungry"
+								},
+								"geometry": {
+									"default": "geometry.thehungry"
+								},
+								"particle_effects": {
+									"bounce_effect": "terrariamod:slime_effect"
+								},
+								"render_controllers": [
+									"controller.render.zombie"
+								],
+								"enable_attachables": false,
+								"spawn_egg": {
+									"base_color": "#949493",
+									"overlay_color": "#651818"
+								},
+								"animation_controllers": [
+									{
+										"phantom_base_pose": "controller.animation.phantom.base_pose"
+									},
+									{
+										"move": "controller.animation.phantom.move"
+									}
+								],
+								"animations": {
+									"phantom_base_pose": "animation.phantom.base_pose",
+									"move": "animation.thehungry.general"
+								}
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"open": {
+									"identifier": "terrariamod:thehungry",
+									"materials": {
+										"default": "zombie"
+									},
+									"textures": {
+										"default": "textures/entity/pamobile/thehungry"
+									},
+									"geometry": {
+										"default": "geometry.thehungry"
+									},
+									"particle_effects": {
+										"bounce_effect": "terrariamod:slime_effect"
+									},
+									"render_controllers": [
+										"controller.render.zombie"
+									],
+									"enable_attachables": false,
+									"spawn_egg": {
+										"base_color": "#949493",
+										"overlay_color": "#651818"
+									},
+									"animation_controllers": [
+										{
+											"phantom_base_pose": "controller.animation.phantom.base_pose"
+										},
+										{
+											"move": "controller.animation.phantom.move"
+										}
+									],
+									"animations": {
+										"phantom_base_pose": "animation.phantom.base_pose",
+										"move": "animation.thehungry.general"
+									}
+								},
+								"data": "terrariamod:thehungry",
+								"key": "identifier"
+							},
+							{
+								"open": {
+									"identifier": "terrariamod:thehungry",
+									"materials": {
+										"default": "zombie"
+									},
+									"textures": {
+										"default": "textures/entity/pamobile/thehungry"
+									},
+									"geometry": {
+										"default": "geometry.thehungry"
+									},
+									"particle_effects": {
+										"bounce_effect": "terrariamod:slime_effect"
+									},
+									"render_controllers": [
+										"controller.render.zombie"
+									],
+									"enable_attachables": false,
+									"spawn_egg": {
+										"base_color": "#949493",
+										"overlay_color": "#651818"
+									},
+									"animation_controllers": [
+										{
+											"phantom_base_pose": "controller.animation.phantom.base_pose"
+										},
+										{
+											"move": "controller.animation.phantom.move"
+										}
+									],
+									"animations": {
+										"phantom_base_pose": "animation.phantom.base_pose",
+										"move": "animation.thehungry.general"
+									}
+								},
+								"key": "materials",
+								"is_minified": true,
+								"children": {
+									"default": "zombie"
+								}
+							},
+							{
+								"open": {
+									"identifier": "terrariamod:thehungry",
+									"materials": {
+										"default": "zombie"
+									},
+									"textures": {
+										"default": "textures/entity/pamobile/thehungry"
+									},
+									"geometry": {
+										"default": "geometry.thehungry"
+									},
+									"particle_effects": {
+										"bounce_effect": "terrariamod:slime_effect"
+									},
+									"render_controllers": [
+										"controller.render.zombie"
+									],
+									"enable_attachables": false,
+									"spawn_egg": {
+										"base_color": "#949493",
+										"overlay_color": "#651818"
+									},
+									"animation_controllers": [
+										{
+											"phantom_base_pose": "controller.animation.phantom.base_pose"
+										},
+										{
+											"move": "controller.animation.phantom.move"
+										}
+									],
+									"animations": {
+										"phantom_base_pose": "animation.phantom.base_pose",
+										"move": "animation.thehungry.general"
+									}
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": {
+									"default": "textures/entity/pamobile/thehungry"
+								}
+							},
+							{
+								"open": {
+									"identifier": "terrariamod:thehungry",
+									"materials": {
+										"default": "zombie"
+									},
+									"textures": {
+										"default": "textures/entity/pamobile/thehungry"
+									},
+									"geometry": {
+										"default": "geometry.thehungry"
+									},
+									"particle_effects": {
+										"bounce_effect": "terrariamod:slime_effect"
+									},
+									"render_controllers": [
+										"controller.render.zombie"
+									],
+									"enable_attachables": false,
+									"spawn_egg": {
+										"base_color": "#949493",
+										"overlay_color": "#651818"
+									},
+									"animation_controllers": [
+										{
+											"phantom_base_pose": "controller.animation.phantom.base_pose"
+										},
+										{
+											"move": "controller.animation.phantom.move"
+										}
+									],
+									"animations": {
+										"phantom_base_pose": "animation.phantom.base_pose",
+										"move": "animation.thehungry.general"
+									}
+								},
+								"key": "geometry",
+								"is_minified": true,
+								"children": {
+									"default": "geometry.thehungry"
+								}
+							},
+							{
+								"key": "particle_effects",
+								"is_minified": true,
+								"children": {
+									"bounce_effect": "terrariamod:slime_effect"
+								}
+							},
+							{
+								"key": "render_controllers",
+								"is_minified": true,
+								"children": [
+									"controller.render.zombie"
+								]
+							},
+							{
+								"data": "false",
+								"key": "enable_attachables"
+							},
+							{
+								"key": "spawn_egg",
+								"is_minified": true,
+								"children": {
+									"base_color": "#949493",
+									"overlay_color": "#651818"
+								}
+							},
+							{
+								"open": {
+									"identifier": "terrariamod:thehungry",
+									"materials": {
+										"default": "zombie"
+									},
+									"textures": {
+										"default": "textures/entity/pamobile/thehungry"
+									},
+									"geometry": {
+										"default": "geometry.thehungry"
+									},
+									"particle_effects": {
+										"bounce_effect": "terrariamod:slime_effect"
+									},
+									"render_controllers": [
+										"controller.render.zombie"
+									],
+									"enable_attachables": false,
+									"spawn_egg": {
+										"base_color": "#949493",
+										"overlay_color": "#651818"
+									},
+									"animation_controllers": [
+										{
+											"phantom_base_pose": "controller.animation.phantom.base_pose"
+										},
+										{
+											"move": "controller.animation.phantom.move"
+										}
+									],
+									"animations": {
+										"phantom_base_pose": "animation.phantom.base_pose",
+										"move": "animation.thehungry.general"
+									}
+								},
+								"key": "animation_controllers",
+								"children": [
+									{
+										"open": [
+											{
+												"phantom_base_pose": "controller.animation.phantom.base_pose"
+											},
+											{
+												"move": "controller.animation.phantom.move"
+											}
+										],
+										"is_minified": true,
+										"children": {
+											"phantom_base_pose": "controller.animation.phantom.base_pose"
+										}
+									},
+									{
+										"open": [
+											{
+												"phantom_base_pose": "controller.animation.phantom.base_pose"
+											},
+											{
+												"move": "controller.animation.phantom.move"
+											}
+										],
+										"is_minified": true,
+										"children": {
+											"move": "controller.animation.phantom.move"
+										}
+									}
+								]
+							},
+							{
+								"open": {
+									"identifier": "terrariamod:thehungry",
+									"materials": {
+										"default": "zombie"
+									},
+									"textures": {
+										"default": "textures/entity/pamobile/thehungry"
+									},
+									"geometry": {
+										"default": "geometry.thehungry"
+									},
+									"particle_effects": {
+										"bounce_effect": "terrariamod:slime_effect"
+									},
+									"render_controllers": [
+										"controller.render.zombie"
+									],
+									"enable_attachables": false,
+									"spawn_egg": {
+										"base_color": "#949493",
+										"overlay_color": "#651818"
+									},
+									"animation_controllers": [
+										{
+											"phantom_base_pose": "controller.animation.phantom.base_pose"
+										},
+										{
+											"move": "controller.animation.phantom.move"
+										}
+									],
+									"animations": {
+										"phantom_base_pose": "animation.phantom.base_pose",
+										"move": "animation.thehungry.general"
+									}
+								},
+								"key": "animations",
+								"is_minified": true,
+								"children": {
+									"phantom_base_pose": "animation.phantom.base_pose",
+									"move": "animation.thehungry.general"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

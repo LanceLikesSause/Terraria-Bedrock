@@ -1,0 +1,22 @@
+//bridge-file-version: #13
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "terrariamod:water_bucket",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "terrariamod:empty_bucket"
+			},
+			"minecraft:creative_category": {
+				"parent": "equipment"
+			},
+			"minecraft:display_name": {
+				"value": "Water Bucket§9Contains a small amount of water"
+			}
+		},
+		"events": {}
+	}
+}

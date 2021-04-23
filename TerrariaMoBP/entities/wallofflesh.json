@@ -1,4 +1,4 @@
-//bridge-file-version: #245
+//bridge-file-version: #305
 {
 	"format_version": "1.16.100",
 	"minecraft:entity": {
@@ -18,7 +18,20 @@
 				]
 			}
 		},
-		"component_groups": {},
+		"component_groups": {
+			"terrariamod:summon_hungry": {
+				"minecraft:timer": {
+					"looping": false,
+					"time": [
+						0.1,
+						0.1
+					],
+					"time_down_event": {
+						"event": "terrariamod:summon_hungry"
+					}
+				}
+			}
+		},
 		"components": {
 			"minecraft:health": {
 				"value": 8000,
@@ -49,7 +62,7 @@
 				"max": 0.5
 			},
 			"minecraft:scale": {
-				"value": 5
+				"value": 4
 			},
 			"minecraft:area_attack": {
 				"damage_range": 3,
@@ -67,11 +80,6 @@
 				"attack_interval_max": 1,
 				"attack_radius": 15
 			},
-			"minecraft:movement": {
-				"value": 0
-			},
-			"minecraft:navigation.walk": {},
-			"minecraft:movement.basic": {},
 			"minecraft:behavior.nearest_attackable_target": {
 				"priority": 1,
 				"set_persistent": true,
@@ -96,8 +104,77 @@
 					"terraria_boss"
 				]
 			},
-			"minecraft:fire_immune": true
+			"minecraft:fire_immune": true,
+			"minecraft:environment_sensor": {
+				"triggers": [
+					{
+						"filters": {
+							"test": "distance_to_nearest_player",
+							"operator": ">",
+							"value": 90
+						},
+						"event": "terrariamod:tried_to_escape"
+					}
+				]
+			},
+			"minecraft:timer": {
+				"looping": false,
+				"time": [
+					18000,
+					18000
+				],
+				"time_down_event": {
+					"event": "terrariamod:time_up"
+				}
+			},
+			"minecraft:on_death": {
+				"event": "terrariamod:death"
+			}
 		},
-		"events": {}
+		"events": {
+			"terrariamod:tried_to_escape": {
+				"run_command": {
+					"command": [
+						"kill @a",
+						"say players tried to escape"
+					]
+				}
+			},
+			"terrariamod:time_up": {
+				"run_command": {
+					"command": [
+						"kill @s",
+						"kill @e",
+						"say players were licked"
+					]
+				}
+			},
+			"terrariamod:death": {
+				"run_command": {
+					"command": [
+						"say The Wall of Flesh has been defeated"
+					]
+				}
+			},
+			"terrariamod:summon_hungry": {
+				"run_command": {
+					"command": [
+						"summon terrariamod:thehungry ~ ~ ~",
+						"summon terrariamod:thehungry ~ ~5 ~",
+						"summon terrariamod:thehungry ~ ~-5 ~",
+						"summon terrariamod:thehungry ~ ~10 ~",
+						"summon terrariamod:thehungry ~ ~15 ~",
+						"summon terrariamod:thehungry ~ ~20 ~"
+					]
+				}
+			},
+			"minecraft:entity_spawned": {
+				"add": {
+					"component_groups": [
+						"terrariamod:summon_hungry"
+					]
+				}
+			}
+		}
 	}
 }

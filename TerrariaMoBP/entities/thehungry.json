@@ -1,4 +1,4 @@
-//bridge-file-version: #315
+//bridge-file-version: #316
 {
 	"format_version": "1.16.100",
 	"minecraft:entity": {
@@ -168,7 +168,7 @@
 			"terrariamod:move_towards_player": {
 				"run_command": {
 					"command": [
-						"tp @s ^ ^ ^0.2 facing @p"
+						"tp @s ^ ^ ^0.1 facing @p"
 					]
 				}
 			}

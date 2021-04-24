@@ -52,15 +52,15 @@
 			"custom_components": []
 		},
 		"BP/entities/eaterofworlds.json": {
-			"events": [],
+			"events": [
+				"terrariamod:move_towards_player",
+				"terrariamod:despawn"
+			],
 			"bridge_core_tags": [],
 			"identifiers": [
 				"terrariamod:eaterofworlds"
 			],
-			"animation_references": [
-				"ai",
-				"other"
-			],
+			"animation_references": [],
 			"families": [
 				"terraria_players_enemy",
 				"terraria_boss"
@@ -492,7 +492,8 @@
 		"5e3e23e4_50e5_47f5_a9d6_0814ee86c807": {},
 		"b2598d27_87e9_4508_8f6c_72c3c5481228": {},
 		"36dce754_f643_4a45_8648_f124e9398cd3": {},
-		"b0bddab6_5f60_449f_88c7_41843ea6e8c7": {}
+		"b0bddab6_5f60_449f_88c7_41843ea6e8c7": {},
+		"b3c3c73d_d7ae_4351_8f35_88bdfb3ddb90": {}
 	},
 	"block": {
 		"BP/blocks/purity_campfire.json": {

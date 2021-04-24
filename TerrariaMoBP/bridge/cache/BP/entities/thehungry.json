@@ -3,7 +3,7 @@
 	"file_type": "entity",
 	"format_version": 1,
 	"file_uuid": "b0bddab6_5f60_449f_88c7_41843ea6e8c7",
-	"file_version": 315,
+	"file_version": 316,
 	"cache_content": {
 		"children": [
 			{
@@ -180,7 +180,7 @@
 							"terrariamod:move_towards_player": {
 								"run_command": {
 									"command": [
-										"tp @s ^ ^ ^0.2 facing @p"
+										"tp @s ^ ^ ^0.1 facing @p"
 									]
 								}
 							}
@@ -357,7 +357,7 @@
 								"terrariamod:move_towards_player": {
 									"run_command": {
 										"command": [
-											"tp @s ^ ^ ^0.2 facing @p"
+											"tp @s ^ ^ ^0.1 facing @p"
 										]
 									}
 								}
@@ -373,209 +373,12 @@
 						}
 					},
 					{
-						"open": {
-							"description": {
-								"identifier": "terrariamod:thehungry",
-								"is_spawnable": true,
-								"is_summonable": true,
-								"is_experimental": false
-							},
-							"component_groups": {
-								"terrariamod:attached_group": {
-									"minecraft:health": {
-										"value": 240,
-										"max": 240
-									},
-									"minecraft:timer": {
-										"looping": true,
-										"time": [
-											30,
-											30
-										],
-										"time_down_event": {
-											"event": "terrariamod:detach"
-										}
-									},
-									"minecraft:environment_sensor": {
-										"triggers": {
-											"event": "terrariamod:move_towards_player"
-										}
-									},
-									"minecraft:attack": {
-										"damage": 60
-									}
-								},
-								"terrariamod:detached_group": {
-									"minecraft:movement": {
-										"value": 1.8
-									},
-									"minecraft:movement.glide": {
-										"start_speed": 0.1,
-										"speed_when_turning": 0.2
-									},
-									"minecraft:behavior.swoop_attack": {
-										"priority": 2,
-										"damage_reach": 0.2,
-										"speed_multiplier": 1,
-										"delay_range": [
-											1,
-											2
-										]
-									},
-									"minecraft:behavior.circle_around_anchor": {
-										"priority": 3,
-										"radius_change": 1,
-										"radius_adjustment_chance": 0.004,
-										"height_adjustment_chance": 0.002857,
-										"goal_radius": 1,
-										"angle_change": 15,
-										"radius_range": [
-											5,
-											15
-										],
-										"height_offset_range": [
-											-4,
-											5
-										],
-										"height_above_target_range": [
-											1,
-											2
-										]
-									},
-									"minecraft:health": {
-										"value": 80,
-										"max": 80
-									},
-									"minecraft:attack": {
-										"damage": 30
-									}
-								}
-							},
-							"components": {
-								"minecraft:physics": {
-									"has_gravity": false
-								},
-								"minecraft:breathable": {
-									"breathes_air": true,
-									"breathes_water": true,
-									"breathes_solids": true,
-									"breathes_lava": true
-								},
-								"minecraft:collision_box": {
-									"width": 0.9,
-									"height": 0.5
-								},
-								"minecraft:knockback_resistance": {
-									"value": 0.5,
-									"max": 0.5
-								},
-								"minecraft:scale": {
-									"value": 1
-								},
-								"minecraft:area_attack": {
-									"damage_range": 1,
-									"damage_per_tick": 5,
-									"cause": "contact",
-									"entity_filter": {
-										"test": "is_family",
-										"subject": "other",
-										"value": "player"
-									}
-								},
-								"minecraft:behavior.ranged_attack": {
-									"priority": 0,
-									"attack_interval_min": 1,
-									"attack_interval_max": 1,
-									"attack_radius": 15
-								},
-								"minecraft:movement": {
-									"value": 0
-								},
-								"minecraft:behavior.nearest_attackable_target": {
-									"priority": 1,
-									"set_persistent": true,
-									"attack_interval": 1,
-									"entity_types": [
-										{
-											"filters": {
-												"test": "is_family",
-												"subject": "other",
-												"value": "player"
-											}
-										}
-									],
-									"within_radius": 30
-								},
-								"minecraft:shooter": {
-									"def": "terrariamod:wallofflesh_projectile"
-								},
-								"minecraft:type_family": {
-									"family": [
-										"terraria_players_enemy",
-										"terraria_boss"
-									]
-								},
-								"minecraft:fire_immune": true
-							},
-							"events": {
-								"terrariamod:detach": {
-									"add": {
-										"component_groups": [
-											"terrariamod:detached_group"
-										]
-									},
-									"remove": {
-										"component_groups": [
-											"terrariamod:attached_group"
-										]
-									}
-								},
-								"minecraft:entity_spawned": {
-									"add": {
-										"component_groups": [
-											"terrariamod:attached_group"
-										]
-									}
-								},
-								"terrariamod:move_towards_player": {
-									"run_command": {
-										"command": [
-											"tp @s ^ ^ ^0.2 facing @p"
-										]
-									}
-								}
-							}
-						},
 						"key": "component_groups",
 						"children": [
 							{
 								"key": "terrariamod:attached_group",
 								"children": [
 									{
-										"open": {
-											"minecraft:health": {
-												"value": 240,
-												"max": 240
-											},
-											"minecraft:timer": {
-												"looping": true,
-												"time": [
-													30,
-													30
-												],
-												"time_down_event": {
-													"event": "terrariamod:detach"
-												}
-											},
-											"minecraft:environment_sensor": {
-												"triggers": {
-													"event": "terrariamod:move_towards_player"
-												}
-											},
-											"minecraft:attack": {
-												"damage": 60
-											}
-										},
 										"key": "minecraft:health",
 										"is_minified": true,
 										"children": {
@@ -849,359 +652,74 @@
 						]
 					},
 					{
-						"open": {
-							"description": {
-								"identifier": "terrariamod:thehungry",
-								"is_spawnable": true,
-								"is_summonable": true,
-								"is_experimental": false
-							},
-							"component_groups": {
-								"terrariamod:attached_group": {
-									"minecraft:health": {
-										"value": 240,
-										"max": 240
-									},
-									"minecraft:timer": {
-										"looping": true,
-										"time": [
-											30,
-											30
-										],
-										"time_down_event": {
-											"event": "terrariamod:detach"
-										}
-									},
-									"minecraft:environment_sensor": {
-										"triggers": {
-											"event": "terrariamod:move_towards_player"
-										}
-									},
-									"minecraft:attack": {
-										"damage": 60
-									}
-								},
-								"terrariamod:detached_group": {
-									"minecraft:movement": {
-										"value": 1.8
-									},
-									"minecraft:movement.glide": {
-										"start_speed": 0.1,
-										"speed_when_turning": 0.2
-									},
-									"minecraft:behavior.swoop_attack": {
-										"priority": 2,
-										"damage_reach": 0.2,
-										"speed_multiplier": 1,
-										"delay_range": [
-											1,
-											2
-										]
-									},
-									"minecraft:behavior.circle_around_anchor": {
-										"priority": 3,
-										"radius_change": 1,
-										"radius_adjustment_chance": 0.004,
-										"height_adjustment_chance": 0.002857,
-										"goal_radius": 1,
-										"angle_change": 15,
-										"radius_range": [
-											5,
-											15
-										],
-										"height_offset_range": [
-											-4,
-											5
-										],
-										"height_above_target_range": [
-											1,
-											2
-										]
-									},
-									"minecraft:health": {
-										"value": 80,
-										"max": 80
-									},
-									"minecraft:attack": {
-										"damage": 30
-									}
-								}
-							},
-							"components": {
-								"minecraft:physics": {
-									"has_gravity": false
-								},
-								"minecraft:breathable": {
-									"breathes_air": true,
-									"breathes_water": true,
-									"breathes_solids": true,
-									"breathes_lava": true
-								},
-								"minecraft:collision_box": {
-									"width": 0.9,
-									"height": 0.5
-								},
-								"minecraft:knockback_resistance": {
-									"value": 0.5,
-									"max": 0.5
-								},
-								"minecraft:scale": {
-									"value": 1
-								},
-								"minecraft:area_attack": {
-									"damage_range": 1,
-									"damage_per_tick": 5,
-									"cause": "contact",
-									"entity_filter": {
-										"test": "is_family",
-										"subject": "other",
-										"value": "player"
-									}
-								},
-								"minecraft:behavior.ranged_attack": {
-									"priority": 0,
-									"attack_interval_min": 1,
-									"attack_interval_max": 1,
-									"attack_radius": 15
-								},
-								"minecraft:movement": {
-									"value": 0
-								},
-								"minecraft:behavior.nearest_attackable_target": {
-									"priority": 1,
-									"set_persistent": true,
-									"attack_interval": 1,
-									"entity_types": [
-										{
-											"filters": {
-												"test": "is_family",
-												"subject": "other",
-												"value": "player"
-											}
-										}
-									],
-									"within_radius": 30
-								},
-								"minecraft:shooter": {
-									"def": "terrariamod:wallofflesh_projectile"
-								},
-								"minecraft:type_family": {
-									"family": [
-										"terraria_players_enemy",
-										"terraria_boss"
-									]
-								},
-								"minecraft:fire_immune": true
-							},
-							"events": {
-								"terrariamod:detach": {
-									"add": {
-										"component_groups": [
-											"terrariamod:detached_group"
-										]
-									},
-									"remove": {
-										"component_groups": [
-											"terrariamod:attached_group"
-										]
-									}
-								},
-								"minecraft:entity_spawned": {
-									"add": {
-										"component_groups": [
-											"terrariamod:attached_group"
-										]
-									}
-								},
-								"terrariamod:move_towards_player": {
-									"run_command": {
-										"command": [
-											"tp @s ^ ^ ^0.2 facing @p"
-										]
-									}
-								}
-							}
-						},
 						"key": "components",
-						"children": [
-							{
-								"key": "minecraft:physics",
-								"is_minified": true,
-								"children": {
-									"has_gravity": false
+						"is_minified": true,
+						"children": {
+							"minecraft:physics": {
+								"has_gravity": false
+							},
+							"minecraft:breathable": {
+								"breathes_air": true,
+								"breathes_water": true,
+								"breathes_solids": true,
+								"breathes_lava": true
+							},
+							"minecraft:collision_box": {
+								"width": 0.9,
+								"height": 0.5
+							},
+							"minecraft:knockback_resistance": {
+								"value": 0.5,
+								"max": 0.5
+							},
+							"minecraft:scale": {
+								"value": 1
+							},
+							"minecraft:area_attack": {
+								"damage_range": 1,
+								"damage_per_tick": 5,
+								"cause": "contact",
+								"entity_filter": {
+									"test": "is_family",
+									"subject": "other",
+									"value": "player"
 								}
 							},
-							{
-								"key": "minecraft:breathable",
-								"is_minified": true,
-								"children": {
-									"breathes_air": true,
-									"breathes_water": true,
-									"breathes_solids": true,
-									"breathes_lava": true
-								}
+							"minecraft:behavior.ranged_attack": {
+								"priority": 0,
+								"attack_interval_min": 1,
+								"attack_interval_max": 1,
+								"attack_radius": 15
 							},
-							{
-								"key": "minecraft:collision_box",
-								"is_minified": true,
-								"children": {
-									"width": 0.9,
-									"height": 0.5
-								}
+							"minecraft:movement": {
+								"value": 0
 							},
-							{
-								"key": "minecraft:knockback_resistance",
-								"is_minified": true,
-								"children": {
-									"value": 0.5,
-									"max": 0.5
-								}
-							},
-							{
-								"key": "minecraft:scale",
-								"is_minified": true,
-								"children": {
-									"value": 1
-								}
-							},
-							{
-								"open": {
-									"minecraft:physics": {
-										"has_gravity": false
-									},
-									"minecraft:breathable": {
-										"breathes_air": true,
-										"breathes_water": true,
-										"breathes_solids": true,
-										"breathes_lava": true
-									},
-									"minecraft:collision_box": {
-										"width": 0.9,
-										"height": 0.5
-									},
-									"minecraft:knockback_resistance": {
-										"value": 0.5,
-										"max": 0.5
-									},
-									"minecraft:scale": {
-										"value": 1
-									},
-									"minecraft:area_attack": {
-										"damage_range": 1,
-										"damage_per_tick": 5,
-										"cause": "contact",
-										"entity_filter": {
+							"minecraft:behavior.nearest_attackable_target": {
+								"priority": 1,
+								"set_persistent": true,
+								"attack_interval": 1,
+								"entity_types": [
+									{
+										"filters": {
 											"test": "is_family",
 											"subject": "other",
 											"value": "player"
 										}
-									},
-									"minecraft:behavior.ranged_attack": {
-										"priority": 0,
-										"attack_interval_min": 1,
-										"attack_interval_max": 1,
-										"attack_radius": 15
-									},
-									"minecraft:movement": {
-										"value": 0
-									},
-									"minecraft:behavior.nearest_attackable_target": {
-										"priority": 1,
-										"set_persistent": true,
-										"attack_interval": 1,
-										"entity_types": [
-											{
-												"filters": {
-													"test": "is_family",
-													"subject": "other",
-													"value": "player"
-												}
-											}
-										],
-										"within_radius": 30
-									},
-									"minecraft:shooter": {
-										"def": "terrariamod:wallofflesh_projectile"
-									},
-									"minecraft:type_family": {
-										"family": [
-											"terraria_players_enemy",
-											"terraria_boss"
-										]
-									},
-									"minecraft:fire_immune": true
-								},
-								"key": "minecraft:area_attack",
-								"is_minified": true,
-								"children": {
-									"damage_range": 1,
-									"damage_per_tick": 5,
-									"cause": "contact",
-									"entity_filter": {
-										"test": "is_family",
-										"subject": "other",
-										"value": "player"
 									}
-								}
+								],
+								"within_radius": 30
 							},
-							{
-								"key": "minecraft:behavior.ranged_attack",
-								"is_minified": true,
-								"children": {
-									"priority": 0,
-									"attack_interval_min": 1,
-									"attack_interval_max": 1,
-									"attack_radius": 15
-								}
+							"minecraft:shooter": {
+								"def": "terrariamod:wallofflesh_projectile"
 							},
-							{
-								"key": "minecraft:movement",
-								"is_minified": true,
-								"children": {
-									"value": 0
-								}
+							"minecraft:type_family": {
+								"family": [
+									"terraria_players_enemy",
+									"terraria_boss"
+								]
 							},
-							{
-								"key": "minecraft:behavior.nearest_attackable_target",
-								"is_minified": true,
-								"children": {
-									"priority": 1,
-									"set_persistent": true,
-									"attack_interval": 1,
-									"entity_types": [
-										{
-											"filters": {
-												"test": "is_family",
-												"subject": "other",
-												"value": "player"
-											}
-										}
-									],
-									"within_radius": 30
-								}
-							},
-							{
-								"key": "minecraft:shooter",
-								"is_minified": true,
-								"children": {
-									"def": "terrariamod:wallofflesh_projectile"
-								}
-							},
-							{
-								"key": "minecraft:type_family",
-								"is_minified": true,
-								"children": {
-									"family": [
-										"terraria_players_enemy",
-										"terraria_boss"
-									]
-								}
-							},
-							{
-								"data": "true",
-								"key": "minecraft:fire_immune"
-							}
-						]
+							"minecraft:fire_immune": true
+						}
 					},
 					{
 						"open": {
@@ -1371,7 +889,7 @@
 								"terrariamod:move_towards_player": {
 									"run_command": {
 										"command": [
-											"tp @s ^ ^ ^0.2 facing @p"
+											"tp @s ^ ^ ^0.1 facing @p"
 										]
 									}
 								}
@@ -1380,34 +898,6 @@
 						"key": "events",
 						"children": [
 							{
-								"open": {
-									"terrariamod:detach": {
-										"add": {
-											"component_groups": [
-												"terrariamod:detached_group"
-											]
-										},
-										"remove": {
-											"component_groups": [
-												"terrariamod:attached_group"
-											]
-										}
-									},
-									"minecraft:entity_spawned": {
-										"add": {
-											"component_groups": [
-												"terrariamod:attached_group"
-											]
-										}
-									},
-									"terrariamod:move_towards_player": {
-										"run_command": {
-											"command": [
-												"tp @s ^ ^ ^0.2 facing @p"
-											]
-										}
-									}
-								},
 								"key": "terrariamod:detach",
 								"children": [
 									{
@@ -1471,34 +961,6 @@
 								]
 							},
 							{
-								"open": {
-									"terrariamod:detach": {
-										"add": {
-											"component_groups": [
-												"terrariamod:detached_group"
-											]
-										},
-										"remove": {
-											"component_groups": [
-												"terrariamod:attached_group"
-											]
-										}
-									},
-									"minecraft:entity_spawned": {
-										"add": {
-											"component_groups": [
-												"terrariamod:attached_group"
-											]
-										}
-									},
-									"terrariamod:move_towards_player": {
-										"run_command": {
-											"command": [
-												"tp @s ^ ^ ^0.2 facing @p"
-											]
-										}
-									}
-								},
 								"key": "minecraft:entity_spawned",
 								"children": [
 									{
@@ -1551,7 +1013,7 @@
 									"terrariamod:move_towards_player": {
 										"run_command": {
 											"command": [
-												"tp @s ^ ^ ^0.2 facing @p"
+												"tp @s ^ ^ ^0.1 facing @p"
 											]
 										}
 									}
@@ -1562,7 +1024,7 @@
 										"open": {
 											"run_command": {
 												"command": [
-													"tp @s ^ ^ ^0.2 facing @p"
+													"tp @s ^ ^ ^0.1 facing @p"
 												]
 											}
 										},
@@ -1571,13 +1033,13 @@
 											{
 												"open": {
 													"command": [
-														"tp @s ^ ^ ^0.2 facing @p"
+														"tp @s ^ ^ ^0.1 facing @p"
 													]
 												},
 												"key": "command",
 												"is_minified": true,
 												"children": [
-													"tp @s ^ ^ ^0.2 facing @p"
+													"tp @s ^ ^ ^0.1 facing @p"
 												]
 											}
 										]

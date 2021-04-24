@@ -1,4 +1,4 @@
-//bridge-file-version: #58
+//bridge-file-version: #65
 {
 	"format_version": "1.16.0",
 	"minecraft:entity": {
@@ -6,17 +6,7 @@
 			"identifier": "terrariamod:eaterofworlds",
 			"is_spawnable": true,
 			"is_summonable": true,
-			"is_experimental": false,
-			"animations": {
-				"ai": "controller.animation.eaterofworlds_ai",
-				"other": "controller.animation.boss_1_other"
-			},
-			"scripts": {
-				"animate": [
-					"ai",
-					"other"
-				]
-			}
+			"is_experimental": false
 		},
 		"component_groups": {
 			"terrariamod:despawn": {
@@ -25,7 +15,22 @@
 				}
 			}
 		},
-		"events": {},
+		"events": {
+			"terrariamod:move_towards_player": {
+				"run_command": {
+					"command": [
+						"tp @s ^ ^ ^0.2 facing @p"
+					]
+				}
+			},
+			"terrariamod:despawn": {
+				"add": {
+					"component_groups": [
+						"terrariamod:despawn"
+					]
+				}
+			}
+		},
 		"components": {
 			"minecraft:collision_box": {
 				"width": 5,
@@ -88,6 +93,26 @@
 					"terraria_players_enemy",
 					"terraria_boss"
 				]
+			},
+			"minecraft:timer": {
+				"looping": true,
+				"time": [
+					0.1,
+					0.1
+				],
+				"time_down_event": {
+					"event": "terrariamod:move_towards_player"
+				}
+			},
+			"minecraft:environment_sensor": {
+				"triggers": {
+					"filters": {
+						"test": "has_biome_tag",
+						"operator": "!=",
+						"value": "corruption"
+					},
+					"event": "terrariamod:despawn"
+				}
 			}
 		}
 	}

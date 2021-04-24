@@ -1,8 +1,8 @@
-//bridge-file-version: #13
+//bridge-file-version: #14
 {
 	"pools": [
 		{
-			"rolls": 5,
+			"rolls": 1,
 			"entries": [
 				{
 					"type": "item",

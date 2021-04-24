@@ -1,4 +1,4 @@
-//bridge-file-version: #20
+//bridge-file-version: #21
 {
 	"format_version": "1.16.200",
 	"minecraft:entity": {
@@ -19,8 +19,8 @@
 		"component_groups": {},
 		"components": {
 			"minecraft:health": {
-				"value": 300,
-				"max": 300
+				"value": 100,
+				"max": 100
 			},
 			"minecraft:boss": {
 				"name": "Blood Moon",

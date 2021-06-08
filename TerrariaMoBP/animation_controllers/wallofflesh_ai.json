@@ -1,4 +1,4 @@
-//bridge-file-version: #206
+//bridge-file-version: #211
 {
 	"format_version": "1.10.0",
 	"animation_controllers": {
@@ -30,6 +30,9 @@
 						},
 						{
 							"move_to_player_speed_six": "query.health<500 && query.health>0"
+						},
+						{
+							"death": "!query.is_alive && query.last_hit_by_player"
 						}
 					]
 				},
@@ -98,7 +101,19 @@
 						"/tp @s ^ ^ ^0.6 facing @p",
 						"v.time = q.time_stamp;"
 					]
-				}
+				},
+				"death": {
+					"transitions": [
+						{
+							"end": "query.time_stamp>v.time+0.1"
+						}
+					],
+					"on_entry": [
+						"/say The Wall of Flesh has been defeated",
+						"v.time = q.time_stamp;"
+					]
+				},
+				"end": {}
 			},
 			"initial_state": "default"
 		}

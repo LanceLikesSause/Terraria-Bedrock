@@ -1,4 +1,4 @@
-//bridge-file-version: #63
+//bridge-file-version: #64
 {
 	"entity_sounds": {
 		"entities": {
@@ -811,7 +811,7 @@
 						"pitch": 1
 					},
 					"death": {
-						"sound": "wallofflesh.death",
+						"sound": "wallofflesh.hurt",
 						"volume": 1,
 						"pitch": 1
 					}

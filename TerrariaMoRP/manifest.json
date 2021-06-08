@@ -1,8 +1,8 @@
-//bridge-file-version: #8
+//bridge-file-version: #9
 {
 	"format_version": 2,
 	"header": {
-		"name": "Terraria Bedrock terrariamod.version.number",
+		"name": "Terraria Bedrock 2.5",
 		"description": "A addon that tranforms Minecraft into Terraria! Adds all of Terraria's blocks, items, enemies, npcs, boss, structures, etc into Minecraft bedrock, such as the Eye of Cthulhu, Skeletron, and the Wall of Flesh! Please press read more...By LanceLikesSause, Ryorama, TofuOfApple, and DuneSciFyeOur Discord: §ehttps://discord.gg/qrUUVcUb §fTutorial is in how to play section",
 		"uuid": "fb73eae4-1425-483c-b81e-bd78d3869ee1",
 		"version": [

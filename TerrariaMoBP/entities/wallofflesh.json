@@ -1,4 +1,4 @@
-//bridge-file-version: #305
+//bridge-file-version: #322
 {
 	"format_version": "1.16.100",
 	"minecraft:entity": {
@@ -49,10 +49,6 @@
 				"breathes_solids": true,
 				"breathes_lava": true
 			},
-			"minecraft:collision_box": {
-				"width": 0.9,
-				"height": 0.5
-			},
 			"minecraft:boss": {
 				"hud_range": 56,
 				"name": "The Wall of Flesh"
@@ -65,14 +61,14 @@
 				"value": 4
 			},
 			"minecraft:area_attack": {
-				"damage_range": 3,
-				"damage_per_tick": 5,
-				"cause": "contact",
+				"damage_range": 1.5,
+				"damage_per_tick": 50,
 				"entity_filter": {
 					"test": "is_family",
 					"subject": "other",
 					"value": "player"
-				}
+				},
+				"cause": "entity_attack"
 			},
 			"minecraft:behavior.ranged_attack": {
 				"priority": 0,
@@ -127,8 +123,9 @@
 					"event": "terrariamod:time_up"
 				}
 			},
-			"minecraft:on_death": {
-				"event": "terrariamod:death"
+			"minecraft:collision_box": {
+				"width": 3,
+				"height": 20
 			}
 		},
 		"events": {

@@ -1,4 +1,4 @@
-//bridge-file-version: #120
+//bridge-file-version: #125
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
@@ -42,6 +42,14 @@
 								"setblock ~~~ fire"
 							],
 							"target": "other"
+						}
+					},
+					{
+						"add_mob_effect": {
+							"effect": "fire_resistance",
+							"target": "holder",
+							"duration": 6,
+							"amplifier": 1
 						}
 					}
 				]

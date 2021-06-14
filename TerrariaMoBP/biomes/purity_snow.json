@@ -1,4 +1,4 @@
-//bridge-file-version: #20
+//bridge-file-version: #25
 {
 	"format_version": "1.13.0",
 	"minecraft:biome": {
@@ -58,7 +58,7 @@
 				"adjustments": [
 					{
 						"materials": {
-							"foundation_material": "terrariamod:ash"
+							"foundation_material": "minecraft:lava"
 						},
 						"noise_range": [
 							-1,
@@ -66,6 +66,34 @@
 						],
 						"height_range": [
 							0,
+							10
+						],
+						"noise_frequency_scale": 1
+					},
+					{
+						"materials": {
+							"foundation_material": "minecraft:air"
+						},
+						"noise_range": [
+							-1,
+							1
+						],
+						"height_range": [
+							10,
+							25
+						],
+						"noise_frequency_scale": 1
+					},
+					{
+						"materials": {
+							"foundation_material": "terrariamod:ash"
+						},
+						"noise_range": [
+							-1,
+							1
+						],
+						"height_range": [
+							25,
 							30
 						],
 						"noise_frequency_scale": 1

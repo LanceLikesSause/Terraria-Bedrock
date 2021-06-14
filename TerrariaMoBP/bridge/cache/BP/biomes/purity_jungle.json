@@ -1,0 +1,380 @@
+{
+	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\TerrariaMoBP\\biomes\\purity_jungle.json",
+	"file_type": "biome",
+	"format_version": 1,
+	"file_uuid": "50420867_d24c_48d0_b39e_71c00b9df4ce",
+	"file_version": 10,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.13.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.13.0",
+					"minecraft:biome": {
+						"description": {
+							"identifier": "purity_jungle"
+						},
+						"components": {
+							"minecraft:surface_parameters": {
+								"sea_floor_depth": 0,
+								"sea_material": "minecraft:water",
+								"foundation_material": "terrariamod:purity_mud",
+								"top_material": "terrariamod:jungle_grass",
+								"mid_material": "terrariamod:purity_mud",
+								"sea_floor_material": "terrariamod:purity_sand"
+							},
+							"minecraft:overworld_height": {
+								"noise_params": [
+									4,
+									0.8
+								]
+							},
+							"minecraft:climate": {
+								"downfall": 0.5,
+								"snow_accumulation": [
+									0,
+									0.5
+								],
+								"temperature": 0.5
+							},
+							"minecraft:overworld_generation_rules": {
+								"generate_for_climates": [
+									[
+										"frozen",
+										1
+									],
+									[
+										"cold",
+										1
+									],
+									[
+										"medium",
+										1
+									],
+									[
+										"lukewarm",
+										1
+									],
+									[
+										"warm",
+										1
+									]
+								]
+							},
+							"minecraft:surface_material_adjustments": {
+								"adjustments": [
+									{
+										"materials": {
+											"foundation_material": "minecraft:lava"
+										},
+										"noise_range": [
+											-1,
+											1
+										],
+										"height_range": [
+											0,
+											10
+										],
+										"noise_frequency_scale": 1
+									},
+									{
+										"materials": {
+											"foundation_material": "minecraft:air"
+										},
+										"noise_range": [
+											-1,
+											1
+										],
+										"height_range": [
+											10,
+											25
+										],
+										"noise_frequency_scale": 1
+									},
+									{
+										"materials": {
+											"foundation_material": "terrariamod:ash"
+										},
+										"noise_range": [
+											-1,
+											1
+										],
+										"height_range": [
+											25,
+											30
+										],
+										"noise_frequency_scale": 1
+									},
+									{
+										"materials": {
+											"foundation_material": "terrariamod:purity_stone"
+										},
+										"noise_range": [
+											-1,
+											1
+										],
+										"height_range": [
+											30,
+											80
+										],
+										"noise_frequency_scale": 1
+									}
+								]
+							},
+							"ocean": {},
+							"deep": {},
+							"purity": {},
+							"purity_jungle": {}
+						}
+					}
+				},
+				"key": "minecraft:biome",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "purity_jungle"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "purity_jungle"
+							},
+							"components": {
+								"minecraft:surface_parameters": {
+									"sea_floor_depth": 0,
+									"sea_material": "minecraft:water",
+									"foundation_material": "terrariamod:purity_mud",
+									"top_material": "terrariamod:jungle_grass",
+									"mid_material": "terrariamod:purity_mud",
+									"sea_floor_material": "terrariamod:purity_sand"
+								},
+								"minecraft:overworld_height": {
+									"noise_params": [
+										4,
+										0.8
+									]
+								},
+								"minecraft:climate": {
+									"downfall": 0.5,
+									"snow_accumulation": [
+										0,
+										0.5
+									],
+									"temperature": 0.5
+								},
+								"minecraft:overworld_generation_rules": {
+									"generate_for_climates": [
+										[
+											"frozen",
+											1
+										],
+										[
+											"cold",
+											1
+										],
+										[
+											"medium",
+											1
+										],
+										[
+											"lukewarm",
+											1
+										],
+										[
+											"warm",
+											1
+										]
+									]
+								},
+								"minecraft:surface_material_adjustments": {
+									"adjustments": [
+										{
+											"materials": {
+												"foundation_material": "minecraft:lava"
+											},
+											"noise_range": [
+												-1,
+												1
+											],
+											"height_range": [
+												0,
+												10
+											],
+											"noise_frequency_scale": 1
+										},
+										{
+											"materials": {
+												"foundation_material": "minecraft:air"
+											},
+											"noise_range": [
+												-1,
+												1
+											],
+											"height_range": [
+												10,
+												25
+											],
+											"noise_frequency_scale": 1
+										},
+										{
+											"materials": {
+												"foundation_material": "terrariamod:ash"
+											},
+											"noise_range": [
+												-1,
+												1
+											],
+											"height_range": [
+												25,
+												30
+											],
+											"noise_frequency_scale": 1
+										},
+										{
+											"materials": {
+												"foundation_material": "terrariamod:purity_stone"
+											},
+											"noise_range": [
+												-1,
+												1
+											],
+											"height_range": [
+												30,
+												80
+											],
+											"noise_frequency_scale": 1
+										}
+									]
+								},
+								"ocean": {},
+								"deep": {},
+								"purity": {},
+								"purity_jungle": {}
+							}
+						},
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:surface_parameters": {
+								"sea_floor_depth": 0,
+								"sea_material": "minecraft:water",
+								"foundation_material": "terrariamod:purity_mud",
+								"top_material": "terrariamod:jungle_grass",
+								"mid_material": "terrariamod:purity_mud",
+								"sea_floor_material": "terrariamod:purity_sand"
+							},
+							"minecraft:overworld_height": {
+								"noise_params": [
+									4,
+									0.8
+								]
+							},
+							"minecraft:climate": {
+								"downfall": 0.5,
+								"snow_accumulation": [
+									0,
+									0.5
+								],
+								"temperature": 0.5
+							},
+							"minecraft:overworld_generation_rules": {
+								"generate_for_climates": [
+									[
+										"frozen",
+										1
+									],
+									[
+										"cold",
+										1
+									],
+									[
+										"medium",
+										1
+									],
+									[
+										"lukewarm",
+										1
+									],
+									[
+										"warm",
+										1
+									]
+								]
+							},
+							"minecraft:surface_material_adjustments": {
+								"adjustments": [
+									{
+										"materials": {
+											"foundation_material": "minecraft:lava"
+										},
+										"noise_range": [
+											-1,
+											1
+										],
+										"height_range": [
+											0,
+											10
+										],
+										"noise_frequency_scale": 1
+									},
+									{
+										"materials": {
+											"foundation_material": "minecraft:air"
+										},
+										"noise_range": [
+											-1,
+											1
+										],
+										"height_range": [
+											10,
+											25
+										],
+										"noise_frequency_scale": 1
+									},
+									{
+										"materials": {
+											"foundation_material": "terrariamod:ash"
+										},
+										"noise_range": [
+											-1,
+											1
+										],
+										"height_range": [
+											25,
+											30
+										],
+										"noise_frequency_scale": 1
+									},
+									{
+										"materials": {
+											"foundation_material": "terrariamod:purity_stone"
+										},
+										"noise_range": [
+											-1,
+											1
+										],
+										"height_range": [
+											30,
+											80
+										],
+										"noise_frequency_scale": 1
+									}
+								]
+							},
+							"ocean": {},
+							"deep": {},
+							"purity": {},
+							"purity_jungle": {}
+						}
+					}
+				]
+			}
+		]
+	}
+}

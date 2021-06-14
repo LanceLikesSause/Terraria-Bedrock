@@ -1,0 +1,772 @@
+{
+	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\TerrariaMoBP\\entities\\bloodmoon_dummy.json",
+	"file_type": "entity",
+	"format_version": 1,
+	"file_uuid": "982c857a_960a_4866_8949_67707be4a9f6",
+	"file_version": 21,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.200",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.200",
+					"minecraft:entity": {
+						"description": {
+							"identifier": "terrariamod:bloodmoon_dummy",
+							"runtime_identifier": {},
+							"is_summonable": true,
+							"is_spawnable": true,
+							"animations": {
+								"other": "controller.animation.bloodmoon_other"
+							},
+							"scripts": {
+								"animate": [
+									"other"
+								]
+							}
+						},
+						"component_groups": {},
+						"components": {
+							"minecraft:health": {
+								"value": 100,
+								"max": 100
+							},
+							"minecraft:boss": {
+								"name": "Blood Moon",
+								"hud_range": 30
+							},
+							"minecraft:timer": {
+								"looping": true,
+								"time": [
+									1,
+									1
+								],
+								"time_down_event": {
+									"event": "terrariamod:tp"
+								}
+							},
+							"minecraft:physics": {
+								"has_collision": false,
+								"has_gravity": false
+							},
+							"minecraft:type_family": {
+								"family": [
+									"terraria_boss"
+								]
+							},
+							"minecraft:damage_sensor": {
+								"triggers": [
+									{
+										"on_damage": {
+											"filters": {
+												"subject": "other",
+												"test": "is_family",
+												"value": "player"
+											}
+										},
+										"deals_damage": false
+									}
+								]
+							}
+						},
+						"events": {
+							"terrariamod:tp": {
+								"run_command": {
+									"command": [
+										"tp @s @p"
+									]
+								}
+							}
+						}
+					}
+				},
+				"key": "minecraft:entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:bloodmoon_dummy",
+								"runtime_identifier": {},
+								"is_summonable": true,
+								"is_spawnable": true,
+								"animations": {
+									"other": "controller.animation.bloodmoon_other"
+								},
+								"scripts": {
+									"animate": [
+										"other"
+									]
+								}
+							},
+							"component_groups": {},
+							"components": {
+								"minecraft:health": {
+									"value": 100,
+									"max": 100
+								},
+								"minecraft:boss": {
+									"name": "Blood Moon",
+									"hud_range": 30
+								},
+								"minecraft:timer": {
+									"looping": true,
+									"time": [
+										1,
+										1
+									],
+									"time_down_event": {
+										"event": "terrariamod:tp"
+									}
+								},
+								"minecraft:physics": {
+									"has_collision": false,
+									"has_gravity": false
+								},
+								"minecraft:type_family": {
+									"family": [
+										"terraria_boss"
+									]
+								},
+								"minecraft:damage_sensor": {
+									"triggers": [
+										{
+											"on_damage": {
+												"filters": {
+													"subject": "other",
+													"test": "is_family",
+													"value": "player"
+												}
+											},
+											"deals_damage": false
+										}
+									]
+								}
+							},
+							"events": {
+								"terrariamod:tp": {
+									"run_command": {
+										"command": [
+											"tp @s @p"
+										]
+									}
+								}
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"open": {
+									"identifier": "terrariamod:bloodmoon_dummy",
+									"runtime_identifier": {},
+									"is_summonable": true,
+									"is_spawnable": true,
+									"animations": {
+										"other": "controller.animation.bloodmoon_other"
+									},
+									"scripts": {
+										"animate": [
+											"other"
+										]
+									}
+								},
+								"data": "terrariamod:bloodmoon_dummy",
+								"key": "identifier"
+							},
+							{
+								"open": {
+									"identifier": "terrariamod:bloodmoon_dummy",
+									"runtime_identifier": {},
+									"is_summonable": true,
+									"is_spawnable": true,
+									"animations": {
+										"other": "controller.animation.bloodmoon_other"
+									},
+									"scripts": {
+										"animate": [
+											"other"
+										]
+									}
+								},
+								"key": "runtime_identifier",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"data": "true",
+								"key": "is_summonable"
+							},
+							{
+								"data": "true",
+								"key": "is_spawnable"
+							},
+							{
+								"open": {
+									"identifier": "terrariamod:bloodmoon_dummy",
+									"runtime_identifier": {},
+									"is_summonable": true,
+									"is_spawnable": true,
+									"animations": {
+										"other": "controller.animation.bloodmoon_other"
+									},
+									"scripts": {
+										"animate": [
+											"other"
+										]
+									}
+								},
+								"key": "animations",
+								"is_minified": true,
+								"children": {
+									"other": "controller.animation.bloodmoon_other"
+								}
+							},
+							{
+								"open": {
+									"identifier": "terrariamod:bloodmoon_dummy",
+									"runtime_identifier": {},
+									"is_summonable": true,
+									"is_spawnable": true,
+									"animations": {
+										"other": "controller.animation.bloodmoon_other"
+									},
+									"scripts": {
+										"animate": [
+											"other"
+										]
+									}
+								},
+								"key": "scripts",
+								"children": [
+									{
+										"open": {
+											"animate": [
+												"other"
+											]
+										},
+										"key": "animate",
+										"is_minified": true,
+										"children": [
+											"other"
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"key": "component_groups",
+						"is_minified": true,
+						"children": {}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:bloodmoon_dummy",
+								"runtime_identifier": {},
+								"is_summonable": true,
+								"is_spawnable": true,
+								"animations": {
+									"other": "controller.animation.bloodmoon_other"
+								},
+								"scripts": {
+									"animate": [
+										"other"
+									]
+								}
+							},
+							"component_groups": {},
+							"components": {
+								"minecraft:health": {
+									"value": 100,
+									"max": 100
+								},
+								"minecraft:boss": {
+									"name": "Blood Moon",
+									"hud_range": 30
+								},
+								"minecraft:timer": {
+									"looping": true,
+									"time": [
+										1,
+										1
+									],
+									"time_down_event": {
+										"event": "terrariamod:tp"
+									}
+								},
+								"minecraft:physics": {
+									"has_collision": false,
+									"has_gravity": false
+								},
+								"minecraft:type_family": {
+									"family": [
+										"terraria_boss"
+									]
+								},
+								"minecraft:damage_sensor": {
+									"triggers": [
+										{
+											"on_damage": {
+												"filters": {
+													"subject": "other",
+													"test": "is_family",
+													"value": "player"
+												}
+											},
+											"deals_damage": false
+										}
+									]
+								}
+							},
+							"events": {
+								"terrariamod:tp": {
+									"run_command": {
+										"command": [
+											"tp @s @p"
+										]
+									}
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"open": {
+									"minecraft:health": {
+										"value": 100,
+										"max": 100
+									},
+									"minecraft:boss": {
+										"name": "Blood Moon",
+										"hud_range": 30
+									},
+									"minecraft:timer": {
+										"looping": true,
+										"time": [
+											1,
+											1
+										],
+										"time_down_event": {
+											"event": "terrariamod:tp"
+										}
+									},
+									"minecraft:physics": {
+										"has_collision": false,
+										"has_gravity": false
+									},
+									"minecraft:type_family": {
+										"family": [
+											"terraria_boss"
+										]
+									},
+									"minecraft:damage_sensor": {
+										"triggers": [
+											{
+												"on_damage": {
+													"filters": {
+														"subject": "other",
+														"test": "is_family",
+														"value": "player"
+													}
+												},
+												"deals_damage": false
+											}
+										]
+									}
+								},
+								"key": "minecraft:health",
+								"is_minified": true,
+								"children": {
+									"value": 100,
+									"max": 100
+								}
+							},
+							{
+								"open": {
+									"minecraft:health": {
+										"value": 100,
+										"max": 100
+									},
+									"minecraft:boss": {
+										"name": "Blood Moon",
+										"hud_range": 30
+									},
+									"minecraft:timer": {
+										"looping": true,
+										"time": [
+											1,
+											1
+										],
+										"time_down_event": {
+											"event": "terrariamod:tp"
+										}
+									},
+									"minecraft:physics": {
+										"has_collision": false,
+										"has_gravity": false
+									},
+									"minecraft:type_family": {
+										"family": [
+											"terraria_boss"
+										]
+									},
+									"minecraft:damage_sensor": {
+										"triggers": [
+											{
+												"on_damage": {
+													"filters": {
+														"subject": "other",
+														"test": "is_family",
+														"value": "player"
+													}
+												},
+												"deals_damage": false
+											}
+										]
+									}
+								},
+								"key": "minecraft:boss",
+								"is_minified": true,
+								"children": {
+									"name": "Blood Moon",
+									"hud_range": 30
+								}
+							},
+							{
+								"open": {
+									"minecraft:health": {
+										"value": 100,
+										"max": 100
+									},
+									"minecraft:boss": {
+										"name": "Blood Moon",
+										"hud_range": 30
+									},
+									"minecraft:timer": {
+										"looping": true,
+										"time": [
+											1,
+											1
+										],
+										"time_down_event": {
+											"event": "terrariamod:tp"
+										}
+									},
+									"minecraft:physics": {
+										"has_collision": false,
+										"has_gravity": false
+									},
+									"minecraft:type_family": {
+										"family": [
+											"terraria_boss"
+										]
+									},
+									"minecraft:damage_sensor": {
+										"triggers": [
+											{
+												"on_damage": {
+													"filters": {
+														"subject": "other",
+														"test": "is_family",
+														"value": "player"
+													}
+												},
+												"deals_damage": false
+											}
+										]
+									}
+								},
+								"key": "minecraft:timer",
+								"children": [
+									{
+										"data": "true",
+										"key": "looping"
+									},
+									{
+										"open": {
+											"looping": true,
+											"time": [
+												1,
+												1
+											],
+											"time_down_event": {
+												"event": "terrariamod:tp"
+											}
+										},
+										"key": "time",
+										"is_minified": true,
+										"children": [
+											1,
+											1
+										]
+									},
+									{
+										"open": {
+											"looping": true,
+											"time": [
+												1,
+												1
+											],
+											"time_down_event": {
+												"event": "terrariamod:tp"
+											}
+										},
+										"key": "time_down_event",
+										"is_minified": true,
+										"children": {
+											"event": "terrariamod:tp"
+										}
+									}
+								]
+							},
+							{
+								"open": {
+									"minecraft:health": {
+										"value": 100,
+										"max": 100
+									},
+									"minecraft:boss": {
+										"name": "Blood Moon",
+										"hud_range": 30
+									},
+									"minecraft:timer": {
+										"looping": true,
+										"time": [
+											1,
+											1
+										],
+										"time_down_event": {
+											"event": "terrariamod:tp"
+										}
+									},
+									"minecraft:physics": {
+										"has_collision": false,
+										"has_gravity": false
+									},
+									"minecraft:type_family": {
+										"family": [
+											"terraria_boss"
+										]
+									},
+									"minecraft:damage_sensor": {
+										"triggers": [
+											{
+												"on_damage": {
+													"filters": {
+														"subject": "other",
+														"test": "is_family",
+														"value": "player"
+													}
+												},
+												"deals_damage": false
+											}
+										]
+									}
+								},
+								"key": "minecraft:physics",
+								"is_minified": true,
+								"children": {
+									"has_collision": false,
+									"has_gravity": false
+								}
+							},
+							{
+								"open": {
+									"minecraft:health": {
+										"value": 100,
+										"max": 100
+									},
+									"minecraft:boss": {
+										"name": "Blood Moon",
+										"hud_range": 30
+									},
+									"minecraft:timer": {
+										"looping": true,
+										"time": [
+											1,
+											1
+										],
+										"time_down_event": {
+											"event": "terrariamod:tp"
+										}
+									},
+									"minecraft:physics": {
+										"has_collision": false,
+										"has_gravity": false
+									},
+									"minecraft:type_family": {
+										"family": [
+											"terraria_boss"
+										]
+									},
+									"minecraft:damage_sensor": {
+										"triggers": [
+											{
+												"on_damage": {
+													"filters": {
+														"subject": "other",
+														"test": "is_family",
+														"value": "player"
+													}
+												},
+												"deals_damage": false
+											}
+										]
+									}
+								},
+								"key": "minecraft:type_family",
+								"children": [
+									{
+										"open": {
+											"family": [
+												"terraria_boss"
+											]
+										},
+										"key": "family",
+										"is_minified": true,
+										"children": [
+											"terraria_boss"
+										]
+									}
+								]
+							},
+							{
+								"key": "minecraft:damage_sensor",
+								"is_minified": true,
+								"children": {
+									"triggers": [
+										{
+											"on_damage": {
+												"filters": {
+													"subject": "other",
+													"test": "is_family",
+													"value": "player"
+												}
+											},
+											"deals_damage": false
+										}
+									]
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:bloodmoon_dummy",
+								"runtime_identifier": {},
+								"is_summonable": true,
+								"is_spawnable": true,
+								"animations": {
+									"other": "controller.animation.bloodmoon_other"
+								},
+								"scripts": {
+									"animate": [
+										"other"
+									]
+								}
+							},
+							"component_groups": {},
+							"components": {
+								"minecraft:health": {
+									"value": 100,
+									"max": 100
+								},
+								"minecraft:boss": {
+									"name": "Blood Moon",
+									"hud_range": 30
+								},
+								"minecraft:timer": {
+									"looping": true,
+									"time": [
+										1,
+										1
+									],
+									"time_down_event": {
+										"event": "terrariamod:tp"
+									}
+								},
+								"minecraft:physics": {
+									"has_collision": false,
+									"has_gravity": false
+								},
+								"minecraft:type_family": {
+									"family": [
+										"terraria_boss"
+									]
+								},
+								"minecraft:damage_sensor": {
+									"triggers": [
+										{
+											"on_damage": {
+												"filters": {
+													"subject": "other",
+													"test": "is_family",
+													"value": "player"
+												}
+											},
+											"deals_damage": false
+										}
+									]
+								}
+							},
+							"events": {
+								"terrariamod:tp": {
+									"run_command": {
+										"command": [
+											"tp @s @p"
+										]
+									}
+								}
+							}
+						},
+						"key": "events",
+						"children": [
+							{
+								"open": {
+									"terrariamod:tp": {
+										"run_command": {
+											"command": [
+												"tp @s @p"
+											]
+										}
+									}
+								},
+								"key": "terrariamod:tp",
+								"children": [
+									{
+										"open": {
+											"run_command": {
+												"command": [
+													"tp @s @p"
+												]
+											}
+										},
+										"key": "run_command",
+										"children": [
+											{
+												"open": {
+													"command": [
+														"tp @s @p"
+													]
+												},
+												"key": "command",
+												"is_minified": true,
+												"children": [
+													"tp @s @p"
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

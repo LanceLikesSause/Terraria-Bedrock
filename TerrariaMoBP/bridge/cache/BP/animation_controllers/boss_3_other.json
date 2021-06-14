@@ -1,0 +1,257 @@
+{
+	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\TerrariaMoBP\\animation_controllers\\boss_3_other.json",
+	"file_type": "animation_controller",
+	"format_version": 1,
+	"file_uuid": "d6582a36_6661_4079_b0dd_0e4e0980dc83",
+	"file_version": 214,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"animation_controllers": {
+						"controller.animation.boss_3_other": {
+							"states": {
+								"default": {
+									"transitions": [
+										{
+											"spawns": "query.is_alive"
+										}
+									]
+								},
+								"spawns": {
+									"on_entry": [
+										"/scoreboard objectives add boss_2_alive dummy boss_2_alive",
+										"/scoreboard players set @p boss_2_alive 3",
+										"/gamerule domobspawning false",
+										"/kill @e[family=!terraria_boss,type=!player]"
+									],
+									"transitions": [
+										{
+											"death": "!query.is_alive"
+										}
+									]
+								},
+								"death": {
+									"on_entry": [
+										"/scoreboard players set @p boss_2_alive 0",
+										"/gamerule domobspawning true"
+									]
+								}
+							},
+							"initial_state": "default"
+						}
+					}
+				},
+				"key": "animation_controllers",
+				"children": [
+					{
+						"open": {
+							"controller.animation.boss_3_other": {
+								"states": {
+									"default": {
+										"transitions": [
+											{
+												"spawns": "query.is_alive"
+											}
+										]
+									},
+									"spawns": {
+										"on_entry": [
+											"/scoreboard objectives add boss_2_alive dummy boss_2_alive",
+											"/scoreboard players set @p boss_2_alive 3",
+											"/gamerule domobspawning false",
+											"/kill @e[family=!terraria_boss,type=!player]"
+										],
+										"transitions": [
+											{
+												"death": "!query.is_alive"
+											}
+										]
+									},
+									"death": {
+										"on_entry": [
+											"/scoreboard players set @p boss_2_alive 0",
+											"/gamerule domobspawning true"
+										]
+									}
+								},
+								"initial_state": "default"
+							}
+						},
+						"key": "controller.animation.boss_3_other",
+						"children": [
+							{
+								"open": {
+									"states": {
+										"default": {
+											"transitions": [
+												{
+													"spawns": "query.is_alive"
+												}
+											]
+										},
+										"spawns": {
+											"on_entry": [
+												"/scoreboard objectives add boss_2_alive dummy boss_2_alive",
+												"/scoreboard players set @p boss_2_alive 3",
+												"/gamerule domobspawning false",
+												"/kill @e[family=!terraria_boss,type=!player]"
+											],
+											"transitions": [
+												{
+													"death": "!query.is_alive"
+												}
+											]
+										},
+										"death": {
+											"on_entry": [
+												"/scoreboard players set @p boss_2_alive 0",
+												"/gamerule domobspawning true"
+											]
+										}
+									},
+									"initial_state": "default"
+								},
+								"key": "states",
+								"children": [
+									{
+										"key": "default",
+										"is_minified": true,
+										"children": {
+											"transitions": [
+												{
+													"spawns": "query.is_alive"
+												}
+											]
+										}
+									},
+									{
+										"open": {
+											"default": {
+												"transitions": [
+													{
+														"spawns": "query.is_alive"
+													}
+												]
+											},
+											"spawns": {
+												"on_entry": [
+													"/scoreboard objectives add boss_2_alive dummy boss_2_alive",
+													"/scoreboard players set @p boss_2_alive 3",
+													"/gamerule domobspawning false",
+													"/kill @e[family=!terraria_boss,type=!player]"
+												],
+												"transitions": [
+													{
+														"death": "!query.is_alive"
+													}
+												]
+											},
+											"death": {
+												"on_entry": [
+													"/scoreboard players set @p boss_2_alive 0",
+													"/gamerule domobspawning true"
+												]
+											}
+										},
+										"key": "spawns",
+										"children": [
+											{
+												"open": {
+													"on_entry": [
+														"/scoreboard objectives add boss_2_alive dummy boss_2_alive",
+														"/scoreboard players set @p boss_2_alive 3",
+														"/gamerule domobspawning false",
+														"/kill @e[family=!terraria_boss,type=!player]"
+													],
+													"transitions": [
+														{
+															"death": "!query.is_alive"
+														}
+													]
+												},
+												"key": "on_entry",
+												"is_minified": true,
+												"children": [
+													"/scoreboard objectives add boss_2_alive dummy boss_2_alive",
+													"/scoreboard players set @p boss_2_alive 3",
+													"/gamerule domobspawning false",
+													"/kill @e[family=!terraria_boss,type=!player]"
+												]
+											},
+											{
+												"key": "transitions",
+												"is_minified": true,
+												"children": [
+													{
+														"death": "!query.is_alive"
+													}
+												]
+											}
+										]
+									},
+									{
+										"open": {
+											"default": {
+												"transitions": [
+													{
+														"spawns": "query.is_alive"
+													}
+												]
+											},
+											"spawns": {
+												"on_entry": [
+													"/scoreboard objectives add boss_2_alive dummy boss_2_alive",
+													"/scoreboard players set @p boss_2_alive 3",
+													"/gamerule domobspawning false",
+													"/kill @e[family=!terraria_boss,type=!player]"
+												],
+												"transitions": [
+													{
+														"death": "!query.is_alive"
+													}
+												]
+											},
+											"death": {
+												"on_entry": [
+													"/scoreboard players set @p boss_2_alive 0",
+													"/gamerule domobspawning true"
+												]
+											}
+										},
+										"key": "death",
+										"children": [
+											{
+												"open": {
+													"on_entry": [
+														"/scoreboard players set @p boss_2_alive 0",
+														"/gamerule domobspawning true"
+													]
+												},
+												"key": "on_entry",
+												"is_minified": true,
+												"children": [
+													"/scoreboard players set @p boss_2_alive 0",
+													"/gamerule domobspawning true"
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"data": "default",
+								"key": "initial_state"
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

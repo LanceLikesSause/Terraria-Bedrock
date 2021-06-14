@@ -38,8 +38,8 @@
 			"y": {
 				"distribution": "uniform",
 				"extent": [
-					0,
-					20
+					30,
+					50
 				]
 			},
 			"z": {
@@ -51,7 +51,7 @@
 			},
 			"scatter_chance": {
 				"numerator": 1,
-				"denominator": 30
+				"denominator": 20
 			}
 		}
 	}

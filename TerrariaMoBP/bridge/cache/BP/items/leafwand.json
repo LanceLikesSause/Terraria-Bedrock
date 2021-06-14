@@ -1,0 +1,490 @@
+{
+	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\TerrariaMoBP\\items\\leafwand.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "aef561f9_b099_4427_a367_2d6829e72b77",
+	"file_version": 93,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "terrariamod:leafwand",
+							"category": "equipment"
+						},
+						"components": {
+							"minecraft:creative_category": {
+								"parent": "equipment"
+							},
+							"minecraft:icon": {
+								"texture": "terrariamod:leafwand"
+							},
+							"minecraft:display_name": {
+								"value": "Leaf Wand§9Places leaf blocks"
+							},
+							"minecraft:cooldown": {
+								"category": "terrariamod_leafwand",
+								"duration": 2
+							},
+							"minecraft:durability": {
+								"max_durability": 200,
+								"damage_chance": {
+									"min": 2,
+									"max": 2
+								}
+							},
+							"minecraft:on_use_on": {
+								"on_use_on": {
+									"event": "terrariamod:place_leaves"
+								}
+							}
+						},
+						"events": {
+							"terrariamod:place_leaves": {
+								"run_command": {
+									"command": [
+										"setblock ~~1~ terrariamod:leafblock"
+									],
+									"target": "block"
+								}
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:leafwand",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:creative_category": {
+									"parent": "equipment"
+								},
+								"minecraft:icon": {
+									"texture": "terrariamod:leafwand"
+								},
+								"minecraft:display_name": {
+									"value": "Leaf Wand§9Places leaf blocks"
+								},
+								"minecraft:cooldown": {
+									"category": "terrariamod_leafwand",
+									"duration": 2
+								},
+								"minecraft:durability": {
+									"max_durability": 200,
+									"damage_chance": {
+										"min": 2,
+										"max": 2
+									}
+								},
+								"minecraft:on_use_on": {
+									"on_use_on": {
+										"event": "terrariamod:place_leaves"
+									}
+								}
+							},
+							"events": {
+								"terrariamod:place_leaves": {
+									"run_command": {
+										"command": [
+											"setblock ~~1~ terrariamod:leafblock"
+										],
+										"target": "block"
+									}
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:leafwand",
+							"category": "equipment"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:leafwand",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:creative_category": {
+									"parent": "equipment"
+								},
+								"minecraft:icon": {
+									"texture": "terrariamod:leafwand"
+								},
+								"minecraft:display_name": {
+									"value": "Leaf Wand§9Places leaf blocks"
+								},
+								"minecraft:cooldown": {
+									"category": "terrariamod_leafwand",
+									"duration": 2
+								},
+								"minecraft:durability": {
+									"max_durability": 200,
+									"damage_chance": {
+										"min": 2,
+										"max": 2
+									}
+								},
+								"minecraft:on_use_on": {
+									"on_use_on": {
+										"event": "terrariamod:place_leaves"
+									}
+								}
+							},
+							"events": {
+								"terrariamod:place_leaves": {
+									"run_command": {
+										"command": [
+											"setblock ~~1~ terrariamod:leafblock"
+										],
+										"target": "block"
+									}
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"open": {
+									"minecraft:creative_category": {
+										"parent": "equipment"
+									},
+									"minecraft:icon": {
+										"texture": "terrariamod:leafwand"
+									},
+									"minecraft:display_name": {
+										"value": "Leaf Wand§9Places leaf blocks"
+									},
+									"minecraft:cooldown": {
+										"category": "terrariamod_leafwand",
+										"duration": 2
+									},
+									"minecraft:durability": {
+										"max_durability": 200,
+										"damage_chance": {
+											"min": 2,
+											"max": 2
+										}
+									},
+									"minecraft:on_use_on": {
+										"on_use_on": {
+											"event": "terrariamod:place_leaves"
+										}
+									}
+								},
+								"key": "minecraft:creative_category",
+								"is_minified": true,
+								"children": {
+									"parent": "equipment"
+								}
+							},
+							{
+								"open": {
+									"minecraft:creative_category": {
+										"parent": "equipment"
+									},
+									"minecraft:icon": {
+										"texture": "terrariamod:leafwand"
+									},
+									"minecraft:display_name": {
+										"value": "Leaf Wand§9Places leaf blocks"
+									},
+									"minecraft:cooldown": {
+										"category": "terrariamod_leafwand",
+										"duration": 2
+									},
+									"minecraft:durability": {
+										"max_durability": 200,
+										"damage_chance": {
+											"min": 2,
+											"max": 2
+										}
+									},
+									"minecraft:on_use_on": {
+										"on_use_on": {
+											"event": "terrariamod:place_leaves"
+										}
+									}
+								},
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "terrariamod:leafwand"
+								}
+							},
+							{
+								"open": {
+									"minecraft:creative_category": {
+										"parent": "equipment"
+									},
+									"minecraft:icon": {
+										"texture": "terrariamod:leafwand"
+									},
+									"minecraft:display_name": {
+										"value": "Leaf Wand§9Places leaf blocks"
+									},
+									"minecraft:cooldown": {
+										"category": "terrariamod_leafwand",
+										"duration": 2
+									},
+									"minecraft:durability": {
+										"max_durability": 200,
+										"damage_chance": {
+											"min": 2,
+											"max": 2
+										}
+									},
+									"minecraft:on_use_on": {
+										"on_use_on": {
+											"event": "terrariamod:place_leaves"
+										}
+									}
+								},
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "Leaf Wand§9Places leaf blocks"
+								}
+							},
+							{
+								"open": {
+									"minecraft:creative_category": {
+										"parent": "equipment"
+									},
+									"minecraft:icon": {
+										"texture": "terrariamod:leafwand"
+									},
+									"minecraft:display_name": {
+										"value": "Leaf Wand§9Places leaf blocks"
+									},
+									"minecraft:cooldown": {
+										"category": "terrariamod_leafwand",
+										"duration": 2
+									},
+									"minecraft:durability": {
+										"max_durability": 200,
+										"damage_chance": {
+											"min": 2,
+											"max": 2
+										}
+									},
+									"minecraft:on_use_on": {
+										"on_use_on": {
+											"event": "terrariamod:place_leaves"
+										}
+									}
+								},
+								"key": "minecraft:cooldown",
+								"is_minified": true,
+								"children": {
+									"category": "terrariamod_leafwand",
+									"duration": 2
+								}
+							},
+							{
+								"open": {
+									"minecraft:creative_category": {
+										"parent": "equipment"
+									},
+									"minecraft:icon": {
+										"texture": "terrariamod:leafwand"
+									},
+									"minecraft:display_name": {
+										"value": "Leaf Wand§9Places leaf blocks"
+									},
+									"minecraft:cooldown": {
+										"category": "terrariamod_leafwand",
+										"duration": 2
+									},
+									"minecraft:durability": {
+										"max_durability": 200,
+										"damage_chance": {
+											"min": 2,
+											"max": 2
+										}
+									},
+									"minecraft:on_use_on": {
+										"on_use_on": {
+											"event": "terrariamod:place_leaves"
+										}
+									}
+								},
+								"key": "minecraft:durability",
+								"children": [
+									{
+										"data": "200",
+										"key": "max_durability"
+									},
+									{
+										"open": {
+											"max_durability": 200,
+											"damage_chance": {
+												"min": 2,
+												"max": 2
+											}
+										},
+										"key": "damage_chance",
+										"is_minified": true,
+										"children": {
+											"min": 2,
+											"max": 2
+										}
+									}
+								]
+							},
+							{
+								"open": {
+									"minecraft:creative_category": {
+										"parent": "equipment"
+									},
+									"minecraft:icon": {
+										"texture": "terrariamod:leafwand"
+									},
+									"minecraft:display_name": {
+										"value": "Leaf Wand§9Places leaf blocks"
+									},
+									"minecraft:cooldown": {
+										"category": "terrariamod_leafwand",
+										"duration": 2
+									},
+									"minecraft:durability": {
+										"max_durability": 200,
+										"damage_chance": {
+											"min": 2,
+											"max": 2
+										}
+									},
+									"minecraft:on_use_on": {
+										"on_use_on": {
+											"event": "terrariamod:place_leaves"
+										}
+									}
+								},
+								"key": "minecraft:on_use_on",
+								"children": [
+									{
+										"open": {
+											"on_use_on": {
+												"event": "terrariamod:place_leaves"
+											}
+										},
+										"key": "on_use_on",
+										"is_minified": true,
+										"children": {
+											"event": "terrariamod:place_leaves"
+										}
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:leafwand",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:creative_category": {
+									"parent": "equipment"
+								},
+								"minecraft:icon": {
+									"texture": "terrariamod:leafwand"
+								},
+								"minecraft:display_name": {
+									"value": "Leaf Wand§9Places leaf blocks"
+								},
+								"minecraft:cooldown": {
+									"category": "terrariamod_leafwand",
+									"duration": 2
+								},
+								"minecraft:durability": {
+									"max_durability": 200,
+									"damage_chance": {
+										"min": 2,
+										"max": 2
+									}
+								},
+								"minecraft:on_use_on": {
+									"on_use_on": {
+										"event": "terrariamod:place_leaves"
+									}
+								}
+							},
+							"events": {
+								"terrariamod:place_leaves": {
+									"run_command": {
+										"command": [
+											"setblock ~~1~ terrariamod:leafblock"
+										],
+										"target": "block"
+									}
+								}
+							}
+						},
+						"key": "events",
+						"children": [
+							{
+								"open": {
+									"terrariamod:place_leaves": {
+										"run_command": {
+											"command": [
+												"setblock ~~1~ terrariamod:leafblock"
+											],
+											"target": "block"
+										}
+									}
+								},
+								"key": "terrariamod:place_leaves",
+								"children": [
+									{
+										"open": {
+											"run_command": {
+												"command": [
+													"setblock ~~1~ terrariamod:leafblock"
+												],
+												"target": "block"
+											}
+										},
+										"key": "run_command",
+										"children": [
+											{
+												"open": {
+													"command": [
+														"setblock ~~1~ terrariamod:leafblock"
+													],
+													"target": "block"
+												},
+												"key": "command",
+												"is_minified": true,
+												"children": [
+													"setblock ~~1~ terrariamod:leafblock"
+												]
+											},
+											{
+												"data": "block",
+												"key": "target"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

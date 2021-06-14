@@ -1,0 +1,336 @@
+{
+	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\TerrariaMoBP\\features\\junglespores_feature.json",
+	"file_type": "feature",
+	"format_version": 1,
+	"file_uuid": "d3351938_742b_49dd_acae_f6196f60deb2",
+	"file_version": 10,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.0",
+					"minecraft:ore_feature": {
+						"description": {
+							"identifier": "minecraft:junglespores_feature"
+						},
+						"count": 3,
+						"replace_rules": [
+							{
+								"places_block": "terrariamod:junglespores",
+								"may_replace": [
+									{
+										"name": "terrariamod:purity_stone"
+									},
+									{
+										"name": "terrariamod:purity_dirt"
+									},
+									{
+										"name": "terrariamod:purity_grass"
+									},
+									{
+										"name": "terrariamod:crimson_grass"
+									},
+									{
+										"name": "terrariamod:corrupted_grass"
+									},
+									{
+										"name": "terrariamod:crimstone"
+									},
+									{
+										"name": "terrariamod:ebonstone"
+									},
+									{
+										"name": "terrariamod:jungle_grass"
+									},
+									{
+										"name": "terrariamod:purity_mud"
+									},
+									{
+										"name": "terrariamod:purity_clay"
+									},
+									{
+										"name": "terrariamod:purity_snow"
+									},
+									{
+										"name": "terrariamod:purity_ice"
+									},
+									{
+										"name": "terrariamod:purity_sand"
+									},
+									{
+										"name": "terrariamod:purity_sandstone"
+									},
+									{
+										"name": "terrariamod:purity_stone"
+									},
+									{
+										"name": "terrariamod:ash"
+									}
+								]
+							}
+						]
+					}
+				},
+				"data": "1.16.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.0",
+					"minecraft:ore_feature": {
+						"description": {
+							"identifier": "minecraft:junglespores_feature"
+						},
+						"count": 3,
+						"replace_rules": [
+							{
+								"places_block": "terrariamod:junglespores",
+								"may_replace": [
+									{
+										"name": "terrariamod:purity_stone"
+									},
+									{
+										"name": "terrariamod:purity_dirt"
+									},
+									{
+										"name": "terrariamod:purity_grass"
+									},
+									{
+										"name": "terrariamod:crimson_grass"
+									},
+									{
+										"name": "terrariamod:corrupted_grass"
+									},
+									{
+										"name": "terrariamod:crimstone"
+									},
+									{
+										"name": "terrariamod:ebonstone"
+									},
+									{
+										"name": "terrariamod:jungle_grass"
+									},
+									{
+										"name": "terrariamod:purity_mud"
+									},
+									{
+										"name": "terrariamod:purity_clay"
+									},
+									{
+										"name": "terrariamod:purity_snow"
+									},
+									{
+										"name": "terrariamod:purity_ice"
+									},
+									{
+										"name": "terrariamod:purity_sand"
+									},
+									{
+										"name": "terrariamod:purity_sandstone"
+									},
+									{
+										"name": "terrariamod:purity_stone"
+									},
+									{
+										"name": "terrariamod:ash"
+									}
+								]
+							}
+						]
+					}
+				},
+				"key": "minecraft:ore_feature",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "minecraft:junglespores_feature"
+						}
+					},
+					{
+						"data": "3",
+						"key": "count"
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "minecraft:junglespores_feature"
+							},
+							"count": 3,
+							"replace_rules": [
+								{
+									"places_block": "terrariamod:junglespores",
+									"may_replace": [
+										{
+											"name": "terrariamod:purity_stone"
+										},
+										{
+											"name": "terrariamod:purity_dirt"
+										},
+										{
+											"name": "terrariamod:purity_grass"
+										},
+										{
+											"name": "terrariamod:crimson_grass"
+										},
+										{
+											"name": "terrariamod:corrupted_grass"
+										},
+										{
+											"name": "terrariamod:crimstone"
+										},
+										{
+											"name": "terrariamod:ebonstone"
+										},
+										{
+											"name": "terrariamod:jungle_grass"
+										},
+										{
+											"name": "terrariamod:purity_mud"
+										},
+										{
+											"name": "terrariamod:purity_clay"
+										},
+										{
+											"name": "terrariamod:purity_snow"
+										},
+										{
+											"name": "terrariamod:purity_ice"
+										},
+										{
+											"name": "terrariamod:purity_sand"
+										},
+										{
+											"name": "terrariamod:purity_sandstone"
+										},
+										{
+											"name": "terrariamod:purity_stone"
+										},
+										{
+											"name": "terrariamod:ash"
+										}
+									]
+								}
+							]
+						},
+						"key": "replace_rules",
+						"children": [
+							{
+								"open": [
+									{
+										"places_block": "terrariamod:junglespores",
+										"may_replace": [
+											{
+												"name": "terrariamod:purity_stone"
+											},
+											{
+												"name": "terrariamod:purity_dirt"
+											},
+											{
+												"name": "terrariamod:purity_grass"
+											},
+											{
+												"name": "terrariamod:crimson_grass"
+											},
+											{
+												"name": "terrariamod:corrupted_grass"
+											},
+											{
+												"name": "terrariamod:crimstone"
+											},
+											{
+												"name": "terrariamod:ebonstone"
+											},
+											{
+												"name": "terrariamod:jungle_grass"
+											},
+											{
+												"name": "terrariamod:purity_mud"
+											},
+											{
+												"name": "terrariamod:purity_clay"
+											},
+											{
+												"name": "terrariamod:purity_snow"
+											},
+											{
+												"name": "terrariamod:purity_ice"
+											},
+											{
+												"name": "terrariamod:purity_sand"
+											},
+											{
+												"name": "terrariamod:purity_sandstone"
+											},
+											{
+												"name": "terrariamod:purity_stone"
+											},
+											{
+												"name": "terrariamod:ash"
+											}
+										]
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"places_block": "terrariamod:junglespores",
+									"may_replace": [
+										{
+											"name": "terrariamod:purity_stone"
+										},
+										{
+											"name": "terrariamod:purity_dirt"
+										},
+										{
+											"name": "terrariamod:purity_grass"
+										},
+										{
+											"name": "terrariamod:crimson_grass"
+										},
+										{
+											"name": "terrariamod:corrupted_grass"
+										},
+										{
+											"name": "terrariamod:crimstone"
+										},
+										{
+											"name": "terrariamod:ebonstone"
+										},
+										{
+											"name": "terrariamod:jungle_grass"
+										},
+										{
+											"name": "terrariamod:purity_mud"
+										},
+										{
+											"name": "terrariamod:purity_clay"
+										},
+										{
+											"name": "terrariamod:purity_snow"
+										},
+										{
+											"name": "terrariamod:purity_ice"
+										},
+										{
+											"name": "terrariamod:purity_sand"
+										},
+										{
+											"name": "terrariamod:purity_sandstone"
+										},
+										{
+											"name": "terrariamod:purity_stone"
+										},
+										{
+											"name": "terrariamod:ash"
+										}
+									]
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

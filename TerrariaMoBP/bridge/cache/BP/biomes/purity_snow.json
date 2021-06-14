@@ -1,0 +1,791 @@
+{
+	"file_path": "C:\\Users\\Lance\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\TerrariaMoBP\\biomes\\purity_snow.json",
+	"file_type": "biome",
+	"format_version": 1,
+	"file_uuid": "c1984f90_929f_4c53_97c8_9b65c1eebe53",
+	"file_version": 25,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.13.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.13.0",
+					"minecraft:biome": {
+						"description": {
+							"identifier": "purity_snow"
+						},
+						"components": {
+							"minecraft:surface_parameters": {
+								"sea_floor_depth": 0,
+								"sea_material": "terrariamod:purity_snow",
+								"foundation_material": "terrariamod:purity_ice",
+								"top_material": "terrariamod:purity_snow",
+								"sea_floor_material": "terrariamod:purity_sand",
+								"mid_material": "terrariamod:purity_snow"
+							},
+							"minecraft:overworld_height": {
+								"noise_params": [
+									4,
+									0.8
+								]
+							},
+							"minecraft:climate": {
+								"downfall": 0.5,
+								"snow_accumulation": [
+									0,
+									0.5
+								],
+								"temperature": 0.5
+							},
+							"minecraft:overworld_generation_rules": {
+								"generate_for_climates": [
+									[
+										"frozen",
+										1
+									],
+									[
+										"cold",
+										1
+									],
+									[
+										"medium",
+										1
+									],
+									[
+										"lukewarm",
+										1
+									],
+									[
+										"warm",
+										1
+									]
+								],
+								"river_transformation": "purity_forest",
+								"shore_transformation": "purity_forest"
+							},
+							"minecraft:surface_material_adjustments": {
+								"adjustments": [
+									{
+										"materials": {
+											"foundation_material": "minecraft:lava"
+										},
+										"noise_range": [
+											-1,
+											1
+										],
+										"height_range": [
+											0,
+											10
+										],
+										"noise_frequency_scale": 1
+									},
+									{
+										"materials": {
+											"foundation_material": "minecraft:air"
+										},
+										"noise_range": [
+											-1,
+											1
+										],
+										"height_range": [
+											10,
+											25
+										],
+										"noise_frequency_scale": 1
+									},
+									{
+										"materials": {
+											"foundation_material": "terrariamod:ash"
+										},
+										"noise_range": [
+											-1,
+											1
+										],
+										"height_range": [
+											25,
+											30
+										],
+										"noise_frequency_scale": 1
+									},
+									{
+										"materials": {
+											"foundation_material": "terrariamod:purity_stone"
+										},
+										"noise_range": [
+											-1,
+											1
+										],
+										"height_range": [
+											30,
+											80
+										],
+										"noise_frequency_scale": 1
+									}
+								]
+							},
+							"purity": {},
+							"purity_snow": {}
+						}
+					}
+				},
+				"key": "minecraft:biome",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "purity_snow"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "purity_snow"
+							},
+							"components": {
+								"minecraft:surface_parameters": {
+									"sea_floor_depth": 0,
+									"sea_material": "terrariamod:purity_snow",
+									"foundation_material": "terrariamod:purity_ice",
+									"top_material": "terrariamod:purity_snow",
+									"sea_floor_material": "terrariamod:purity_sand",
+									"mid_material": "terrariamod:purity_snow"
+								},
+								"minecraft:overworld_height": {
+									"noise_params": [
+										4,
+										0.8
+									]
+								},
+								"minecraft:climate": {
+									"downfall": 0.5,
+									"snow_accumulation": [
+										0,
+										0.5
+									],
+									"temperature": 0.5
+								},
+								"minecraft:overworld_generation_rules": {
+									"generate_for_climates": [
+										[
+											"frozen",
+											1
+										],
+										[
+											"cold",
+											1
+										],
+										[
+											"medium",
+											1
+										],
+										[
+											"lukewarm",
+											1
+										],
+										[
+											"warm",
+											1
+										]
+									],
+									"river_transformation": "purity_forest",
+									"shore_transformation": "purity_forest"
+								},
+								"minecraft:surface_material_adjustments": {
+									"adjustments": [
+										{
+											"materials": {
+												"foundation_material": "minecraft:lava"
+											},
+											"noise_range": [
+												-1,
+												1
+											],
+											"height_range": [
+												0,
+												10
+											],
+											"noise_frequency_scale": 1
+										},
+										{
+											"materials": {
+												"foundation_material": "minecraft:air"
+											},
+											"noise_range": [
+												-1,
+												1
+											],
+											"height_range": [
+												10,
+												25
+											],
+											"noise_frequency_scale": 1
+										},
+										{
+											"materials": {
+												"foundation_material": "terrariamod:ash"
+											},
+											"noise_range": [
+												-1,
+												1
+											],
+											"height_range": [
+												25,
+												30
+											],
+											"noise_frequency_scale": 1
+										},
+										{
+											"materials": {
+												"foundation_material": "terrariamod:purity_stone"
+											},
+											"noise_range": [
+												-1,
+												1
+											],
+											"height_range": [
+												30,
+												80
+											],
+											"noise_frequency_scale": 1
+										}
+									]
+								},
+								"purity": {},
+								"purity_snow": {}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"key": "minecraft:surface_parameters",
+								"is_minified": true,
+								"children": {
+									"sea_floor_depth": 0,
+									"sea_material": "terrariamod:purity_snow",
+									"foundation_material": "terrariamod:purity_ice",
+									"top_material": "terrariamod:purity_snow",
+									"sea_floor_material": "terrariamod:purity_sand",
+									"mid_material": "terrariamod:purity_snow"
+								}
+							},
+							{
+								"key": "minecraft:overworld_height",
+								"is_minified": true,
+								"children": {
+									"noise_params": [
+										4,
+										0.8
+									]
+								}
+							},
+							{
+								"key": "minecraft:climate",
+								"is_minified": true,
+								"children": {
+									"downfall": 0.5,
+									"snow_accumulation": [
+										0,
+										0.5
+									],
+									"temperature": 0.5
+								}
+							},
+							{
+								"key": "minecraft:overworld_generation_rules",
+								"is_minified": true,
+								"children": {
+									"generate_for_climates": [
+										[
+											"frozen",
+											1
+										],
+										[
+											"cold",
+											1
+										],
+										[
+											"medium",
+											1
+										],
+										[
+											"lukewarm",
+											1
+										],
+										[
+											"warm",
+											1
+										]
+									],
+									"river_transformation": "purity_forest",
+									"shore_transformation": "purity_forest"
+								}
+							},
+							{
+								"open": {
+									"minecraft:surface_parameters": {
+										"sea_floor_depth": 0,
+										"sea_material": "terrariamod:purity_snow",
+										"foundation_material": "terrariamod:purity_ice",
+										"top_material": "terrariamod:purity_snow",
+										"sea_floor_material": "terrariamod:purity_sand",
+										"mid_material": "terrariamod:purity_snow"
+									},
+									"minecraft:overworld_height": {
+										"noise_params": [
+											4,
+											0.8
+										]
+									},
+									"minecraft:climate": {
+										"downfall": 0.5,
+										"snow_accumulation": [
+											0,
+											0.5
+										],
+										"temperature": 0.5
+									},
+									"minecraft:overworld_generation_rules": {
+										"generate_for_climates": [
+											[
+												"frozen",
+												1
+											],
+											[
+												"cold",
+												1
+											],
+											[
+												"medium",
+												1
+											],
+											[
+												"lukewarm",
+												1
+											],
+											[
+												"warm",
+												1
+											]
+										],
+										"river_transformation": "purity_forest",
+										"shore_transformation": "purity_forest"
+									},
+									"minecraft:surface_material_adjustments": {
+										"adjustments": [
+											{
+												"materials": {
+													"foundation_material": "minecraft:lava"
+												},
+												"noise_range": [
+													-1,
+													1
+												],
+												"height_range": [
+													0,
+													10
+												],
+												"noise_frequency_scale": 1
+											},
+											{
+												"materials": {
+													"foundation_material": "minecraft:air"
+												},
+												"noise_range": [
+													-1,
+													1
+												],
+												"height_range": [
+													10,
+													25
+												],
+												"noise_frequency_scale": 1
+											},
+											{
+												"materials": {
+													"foundation_material": "terrariamod:ash"
+												},
+												"noise_range": [
+													-1,
+													1
+												],
+												"height_range": [
+													25,
+													30
+												],
+												"noise_frequency_scale": 1
+											},
+											{
+												"materials": {
+													"foundation_material": "terrariamod:purity_stone"
+												},
+												"noise_range": [
+													-1,
+													1
+												],
+												"height_range": [
+													30,
+													80
+												],
+												"noise_frequency_scale": 1
+											}
+										]
+									},
+									"purity": {},
+									"purity_snow": {}
+								},
+								"key": "minecraft:surface_material_adjustments",
+								"children": [
+									{
+										"open": {
+											"adjustments": [
+												{
+													"materials": {
+														"foundation_material": "minecraft:lava"
+													},
+													"noise_range": [
+														-1,
+														1
+													],
+													"height_range": [
+														0,
+														10
+													],
+													"noise_frequency_scale": 1
+												},
+												{
+													"materials": {
+														"foundation_material": "minecraft:air"
+													},
+													"noise_range": [
+														-1,
+														1
+													],
+													"height_range": [
+														10,
+														25
+													],
+													"noise_frequency_scale": 1
+												},
+												{
+													"materials": {
+														"foundation_material": "terrariamod:ash"
+													},
+													"noise_range": [
+														-1,
+														1
+													],
+													"height_range": [
+														25,
+														30
+													],
+													"noise_frequency_scale": 1
+												},
+												{
+													"materials": {
+														"foundation_material": "terrariamod:purity_stone"
+													},
+													"noise_range": [
+														-1,
+														1
+													],
+													"height_range": [
+														30,
+														80
+													],
+													"noise_frequency_scale": 1
+												}
+											]
+										},
+										"key": "adjustments",
+										"children": [
+											{
+												"children": [
+													{
+														"open": {
+															"materials": {
+																"foundation_material": "minecraft:lava"
+															},
+															"noise_range": [
+																-1,
+																1
+															],
+															"height_range": [
+																0,
+																10
+															],
+															"noise_frequency_scale": 1
+														},
+														"key": "materials",
+														"is_minified": true,
+														"children": {
+															"foundation_material": "minecraft:lava"
+														}
+													},
+													{
+														"key": "noise_range",
+														"is_minified": true,
+														"children": [
+															-1,
+															1
+														]
+													},
+													{
+														"key": "height_range",
+														"is_minified": true,
+														"children": [
+															0,
+															10
+														]
+													},
+													{
+														"data": "1",
+														"key": "noise_frequency_scale"
+													}
+												]
+											},
+											{
+												"open": [
+													{
+														"materials": {
+															"foundation_material": "minecraft:lava"
+														},
+														"noise_range": [
+															-1,
+															1
+														],
+														"height_range": [
+															0,
+															10
+														],
+														"noise_frequency_scale": 1
+													},
+													{
+														"materials": {
+															"foundation_material": "minecraft:air"
+														},
+														"noise_range": [
+															-1,
+															1
+														],
+														"height_range": [
+															10,
+															25
+														],
+														"noise_frequency_scale": 1
+													},
+													{
+														"materials": {
+															"foundation_material": "terrariamod:ash"
+														},
+														"noise_range": [
+															-1,
+															1
+														],
+														"height_range": [
+															25,
+															30
+														],
+														"noise_frequency_scale": 1
+													},
+													{
+														"materials": {
+															"foundation_material": "terrariamod:purity_stone"
+														},
+														"noise_range": [
+															-1,
+															1
+														],
+														"height_range": [
+															30,
+															80
+														],
+														"noise_frequency_scale": 1
+													}
+												],
+												"children": [
+													{
+														"open": {
+															"materials": {
+																"foundation_material": "minecraft:air"
+															},
+															"noise_range": [
+																-1,
+																1
+															],
+															"height_range": [
+																10,
+																25
+															],
+															"noise_frequency_scale": 1
+														},
+														"key": "materials",
+														"is_minified": true,
+														"children": {
+															"foundation_material": "minecraft:air"
+														}
+													},
+													{
+														"key": "noise_range",
+														"is_minified": true,
+														"children": [
+															-1,
+															1
+														]
+													},
+													{
+														"open": {
+															"materials": {
+																"foundation_material": "minecraft:air"
+															},
+															"noise_range": [
+																-1,
+																1
+															],
+															"height_range": [
+																10,
+																25
+															],
+															"noise_frequency_scale": 1
+														},
+														"key": "height_range",
+														"is_minified": true,
+														"children": [
+															10,
+															25
+														]
+													},
+													{
+														"data": "1",
+														"key": "noise_frequency_scale"
+													}
+												]
+											},
+											{
+												"children": [
+													{
+														"open": {
+															"materials": {
+																"foundation_material": "terrariamod:ash"
+															},
+															"noise_range": [
+																-1,
+																1
+															],
+															"height_range": [
+																25,
+																30
+															],
+															"noise_frequency_scale": 1
+														},
+														"key": "materials",
+														"is_minified": true,
+														"children": {
+															"foundation_material": "terrariamod:ash"
+														}
+													},
+													{
+														"key": "noise_range",
+														"is_minified": true,
+														"children": [
+															-1,
+															1
+														]
+													},
+													{
+														"open": {
+															"materials": {
+																"foundation_material": "terrariamod:ash"
+															},
+															"noise_range": [
+																-1,
+																1
+															],
+															"height_range": [
+																25,
+																30
+															],
+															"noise_frequency_scale": 1
+														},
+														"key": "height_range",
+														"is_minified": true,
+														"children": [
+															25,
+															30
+														]
+													},
+													{
+														"data": "1",
+														"key": "noise_frequency_scale"
+													}
+												]
+											},
+											{
+												"children": [
+													{
+														"key": "materials",
+														"is_minified": true,
+														"children": {
+															"foundation_material": "terrariamod:purity_stone"
+														}
+													},
+													{
+														"key": "noise_range",
+														"is_minified": true,
+														"children": [
+															-1,
+															1
+														]
+													},
+													{
+														"open": {
+															"materials": {
+																"foundation_material": "terrariamod:purity_stone"
+															},
+															"noise_range": [
+																-1,
+																1
+															],
+															"height_range": [
+																30,
+																80
+															],
+															"noise_frequency_scale": 1
+														},
+														"key": "height_range",
+														"is_minified": true,
+														"children": [
+															30,
+															80
+														]
+													},
+													{
+														"data": "1",
+														"key": "noise_frequency_scale"
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"key": "purity",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"key": "purity_snow",
+								"is_minified": true,
+								"children": {}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

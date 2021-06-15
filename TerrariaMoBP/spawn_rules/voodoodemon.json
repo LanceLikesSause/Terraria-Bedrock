@@ -16,8 +16,8 @@
 					"max_size": 1
 				},
 				"minecraft:distance_filter": {
-					"min": 0,
-					"max": 10
+					"min": 6,
+					"max": 15
 				},
 				"minecraft:spawns_underground": {},
 				"minecraft:height_filter": {

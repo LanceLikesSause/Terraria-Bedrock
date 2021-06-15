@@ -21,8 +21,8 @@
 					"max_size": 3
 				},
 				"minecraft:distance_filter": {
-					"min": 0,
-					"max": 10
+					"min": 6,
+					"max": 15
 				},
 				"minecraft:biome_filter": {
 					"test": "has_biome_tag",

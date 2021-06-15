@@ -25,16 +25,6 @@
 			},
 			"minecraft:on_interact": {
 				"event": "terrariamod:interaction"
-			},
-			"minecraft:ticking": {
-				"looping": false,
-				"range": [
-					0.1,
-					0.1
-				],
-				"on_tick": {
-					"event": "terrariamod:give"
-				}
 			}
 		},
 		"events": {
@@ -71,15 +61,6 @@
 					"effect": "regeneration",
 					"amplifier": 2,
 					"duration": 30
-				}
-			},
-			"terrariamod:give": {
-				"run_command": {
-					"command": [
-						"gamerule sendcommandfeedback false",
-						"give @p terrariamod:empty_bucket",
-						"gamerule sendcommandfeedback true"
-					]
 				}
 			}
 		}

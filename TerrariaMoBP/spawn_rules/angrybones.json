@@ -16,8 +16,8 @@
 					"max_size": 3
 				},
 				"minecraft:distance_filter": {
-					"min": 0,
-					"max": 10
+					"min": 6,
+					"max": 15
 				},
 				"minecraft:brightness_filter": {
 					"min": 0,

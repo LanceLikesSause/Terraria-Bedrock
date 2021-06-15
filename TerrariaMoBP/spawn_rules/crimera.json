@@ -21,8 +21,8 @@
 					"value": "crimson"
 				},
 				"minecraft:distance_filter": {
-					"min": 0,
-					"max": 10
+					"min": 6,
+					"max": 15
 				},
 				"minecraft:spawns_on_surface": {}
 			}

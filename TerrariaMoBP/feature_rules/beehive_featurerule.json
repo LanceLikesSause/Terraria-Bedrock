@@ -21,7 +21,7 @@
 			"placement_pass": "final_pass"
 		},
 		"distribution": {
-			"iterations": 1,
+			"iterations": 4,
 			"coordinate_eval_order": "zyx",
 			"x": {
 				"distribution": "uniform",
@@ -30,7 +30,7 @@
 					16
 				]
 			},
-			"y": 34,
+			"y": 90,
 			"z": {
 				"distribution": "uniform",
 				"extent": [
@@ -40,7 +40,7 @@
 			},
 			"scatter_chance": {
 				"numerator": 1,
-				"denominator": 12
+				"denominator": 4
 			}
 		}
 	}

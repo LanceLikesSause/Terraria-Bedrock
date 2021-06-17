@@ -46,18 +46,8 @@
 				"has_gravity": false,
 				"has_collision": false
 			},
-			"minecraft:pushable": {
-				"is_pushable": true,
-				"is_pushable_by_piston": true
-			},
 			"minecraft:attack": {
 				"damage": 15
-			},
-			"minecraft:breathable": {
-				"total_supply": 15,
-				"suffocate_time": 0,
-				"breathes_air": true,
-				"breathes_water": false
 			},
 			"minecraft:collision_box": {
 				"width": 3,

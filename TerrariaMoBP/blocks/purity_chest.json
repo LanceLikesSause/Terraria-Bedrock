@@ -14,7 +14,7 @@
 					"render_method": "alpha_test"
 				}
 			},
-			"minecraft:destroy_time": 1,
+			"minecraft:destroy_time": 999,
 			"tag:terrariamod:wood": {},
 			"minecraft:loot": "loot_tables/blocks/purity_chest_item.json",
 			"minecraft:ticking": {

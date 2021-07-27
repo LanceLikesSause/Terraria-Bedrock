@@ -8,11 +8,7 @@
 			"is_experimental": false
 		},
 		"components": {
-			"minecraft:destroy_time": 1,
-			"minecraft:block_light_emission": 0,
-			"minecraft:block_light_absorption": 0,
-			"minecraft:explosion_resistance": 5,
-			"minecraft:loot": "loot_tables/ebonstone.json",
+			"minecraft:destroy_time": 3,
 			"tag:terrariamod:stone": {}
 		},
 		"events": {}

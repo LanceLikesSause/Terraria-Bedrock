@@ -1,6 +1,6 @@
-//bridge-file-version: #57
+//bridge-file-version: #59
 {
-	"format_version": "1.16.0",
+	"format_version": "1.16.100",
 	"minecraft:entity": {
 		"description": {
 			"identifier": "terrariamod:eyeofcthulhu_stagetwo",
@@ -187,6 +187,11 @@
 				"add": {
 					"component_groups": [
 						"terrariamod:despawn"
+					]
+				},
+				"run_command": {
+					"command": [
+						"scoreboard players set @p boss_2_alive 0"
 					]
 				}
 			}

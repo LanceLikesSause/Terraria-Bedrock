@@ -24,7 +24,8 @@
 				"on_tick": {
 					"event": "terrariamod:grow"
 				}
-			}
+			},
+			"minecraft:loot": "loot_tables/blocks/purity_snow_sapling.json"
 		},
 		"events": {
 			"terrariamod:grow": {

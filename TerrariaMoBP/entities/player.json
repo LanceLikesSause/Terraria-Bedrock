@@ -1,4 +1,4 @@
-//bridge-file-version: #4
+//bridge-file-version: #30
 {
 	"format_version": "1.16.100",
 	"minecraft:entity": {
@@ -195,7 +195,7 @@
 				"inventory_size": 90
 			},
 			"minecraft:on_death": {
-				"event": "terrariamod:die"
+				"event": "terrariamod:kill_all_bosses"
 			}
 		},
 		"events": {
@@ -268,13 +268,23 @@
 					]
 				}
 			},
-			"terrariamod:die": {
-				"run_command": {
-					"command": [
-						"kill @e[type=terrariamod:wallofflesh]",
-						"kill @e"
-					]
-				}
+			"terrariamod:kill_all_bosses": {
+				"sequence": [
+					{
+						"run_command": {
+							"command": [
+								"kill @e[family=terraria_boss]"
+							]
+						}
+					},
+					{
+						"run_command": {
+							"command": [
+								"summon terrariamod:dummy_reset_music"
+							]
+						}
+					}
+				]
 			}
 		}
 	}

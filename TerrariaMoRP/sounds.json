@@ -273,10 +273,10 @@
 				}
 			},
 			"terrariamod:kingslime": {
-				"volume": 1,
+				"volume": 2,
 				"pitch": [
-					0.9,
-					1
+					0.6,
+					0.8
 				],
 				"events": {
 					"hurt": {

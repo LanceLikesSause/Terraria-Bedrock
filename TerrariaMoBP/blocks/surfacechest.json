@@ -14,19 +14,22 @@
 					"render_method": "alpha_test"
 				}
 			},
-			"minecraft:destroy_time": 1,
-			"minecraft:loot": "loot_tables/blocks/surfacechest.json",
+			"minecraft:destroy_time": 999,
 			"tag:terrariamod:wood": {},
-			"minecraft:on_player_destroyed": {
-				"event": "terrariamod:destroy"
+			"minecraft:on_interact": {
+				"event": "terrariamod:open"
 			}
 		},
 		"events": {
-			"terrariamod:destroy": {
+			"terrariamod:open": {
 				"run_command": {
 					"command": [
-						"execute @a[scores={coins=30..}] ~~~ scoreboard players add @a explosives 1"
+						"execute @a[scores={coins=30..}] ~~~ scoreboard players add @a explosives 1",
+						"setblock ~~~ air 0 replace"
 					]
+				},
+				"spawn_loot": {
+					"table": "loot_tables/blocks/surfacechest.json"
 				}
 			}
 		}

@@ -1,6 +1,6 @@
-//bridge-file-version: #45
+//bridge-file-version: #143
 {
-	"format_version": "1.16.0",
+	"format_version": "1.16.100",
 	"minecraft:entity": {
 		"description": {
 			"identifier": "terrariamod:kingslime",
@@ -9,19 +9,86 @@
 			"is_experimental": false,
 			"scripts": {
 				"animate": [
-					"bridge_execute_commands",
 					"other"
 				]
 			},
 			"animations": {
-				"bridge_execute_commands": "controller.animation.bridge_kingslime.execute_commands",
 				"other": "controller.animation.boss_1_other"
 			}
 		},
 		"components": {
+			"minecraft:collision_box": {
+				"width": 1,
+				"height": 1
+			},
+			"minecraft:scale": {
+				"value": 6
+			},
+			"minecraft:movement.basic": {},
+			"minecraft:navigation.walk": {
+				"is_amphibious": true,
+				"can_pass_doors": true,
+				"can_walk": true,
+				"can_break_doors": true
+			},
+			"minecraft:annotation.break_door": {},
+			"minecraft:jump.static": {},
+			"minecraft:health": {
+				"value": 2000,
+				"max": 2000
+			},
+			"minecraft:hurt_on_condition": {
+				"damage_conditions": [
+					{
+						"filters": {
+							"test": "in_lava",
+							"subject": "self",
+							"operator": "==",
+							"value": true
+						},
+						"cause": "lava",
+						"damage_per_tick": 4
+					}
+				]
+			},
+			"minecraft:breathable": {
+				"total_supply": 15,
+				"suffocate_time": 0,
+				"breathes_air": true,
+				"breathes_water": true
+			},
+			"minecraft:attack": {
+				"damage": 40
+			},
+			"minecraft:despawn": {
+				"despawn_from_distance": {
+					"max_distance": 60,
+					"min_distance": 80
+				}
+			},
+			"minecraft:behavior.melee_attack": {
+				"priority": 3,
+				"speed_multiplier": 1,
+				"reach_multiplier": 1
+			},
+			"minecraft:behavior.random_stroll": {
+				"priority": 7,
+				"speed_multiplier": 1
+			},
+			"minecraft:behavior.look_at_player": {
+				"priority": 8,
+				"look_distance": 6,
+				"probability": 0.02
+			},
+			"minecraft:behavior.random_look_around": {
+				"priority": 9
+			},
+			"minecraft:behavior.hurt_by_target": {
+				"priority": 1
+			},
 			"minecraft:behavior.nearest_attackable_target": {
 				"priority": 2,
-				"must_see": true,
+				"must_see": false,
 				"reselect_targets": true,
 				"within_radius": 25,
 				"must_see_forget_duration": 17,
@@ -32,53 +99,49 @@
 								{
 									"test": "is_family",
 									"subject": "other",
-									"value": "minionslime"
-								},
-								{
-									"test": "is_family",
-									"subject": "other",
 									"value": "player"
-								},
-								{
-									"test": "is_family",
-									"subject": "other",
-									"value": "villager"
 								}
 							]
 						},
-						"max_dist": 35
+						"max_dist": 999
 					}
 				]
 			},
-			"minecraft:breathable": {
-				"totalSupply": 15,
-				"suffocateTime": 0
+			"minecraft:physics": {},
+			"minecraft:pushable": {
+				"is_pushable": true,
+				"is_pushable_by_piston": true
 			},
-			"minecraft:scale": {
-				"value": 6
+			"minecraft:movement": {
+				"value": 0.25
 			},
-			"minecraft:navigation.walk": {
-				"can_path_over_water": true,
-				"avoid_water": true,
-				"avoid_damage_blocks": true
+			"minecraft:type_family": {
+				"family": [
+					"terraria_players_enemy",
+					"terraria_boss"
+				]
 			},
-			"minecraft:movement.basic": {},
-			"minecraft:loot": {
-				"table": "loot_tables/entities/greenslime.json"
-			},
-			"minecraft:jump.static": {},
-			"minecraft:can_climb": {},
-			"minecraft:collision_box": {
-				"width": 1,
-				"height": 0.7
-			},
-			"minecraft:health": {
-				"value": 2000,
-				"max": 2000
+			"minecraft:break_blocks": {
+				"breakable_blocks": [
+					"terrariamod:twooden_door"
+				]
 			},
 			"minecraft:boss": {
 				"name": "King Slime",
-				"hud_range": 36
+				"hud_range": 99
+			},
+			"minecraft:loot": {
+				"table": "loot_tables/entities/kingslime.json"
+			},
+			"minecraft:timer": {
+				"looping": true,
+				"time": [
+					7,
+					20
+				],
+				"time_down_event": {
+					"event": "terrariamod:play_animation"
+				}
 			},
 			"minecraft:spawn_entity": {
 				"entities": [
@@ -90,130 +153,35 @@
 					{
 						"min_wait_time": 5,
 						"max_wait_time": 60,
-						"spawn_entity": "terrariamod:blueslime"
-					},
-					{
-						"min_wait_time": 5,
-						"max_wait_time": 60,
 						"spawn_entity": "terrariamod:redslime"
 					},
 					{
 						"min_wait_time": 5,
 						"max_wait_time": 60,
 						"spawn_entity": "terrariamod:yellowslime"
+					},
+					{
+						"min_wait_time": 5,
+						"max_wait_time": 60,
+						"spawn_entity": "terrariamod:blueslime"
 					}
 				]
 			},
-			"minecraft:movement": {
-				"value": 0.3
-			},
-			"minecraft:attack": {
-				"damage": 40
-			},
-			"minecraft:despawn": {
-				"despawn_from_distance": {}
-			},
-			"minecraft:behavior.float": {
-				"priority": 0
-			},
-			"minecraft:behavior.stalk_and_pounce_on_target": {
-				"priority": 7,
-				"stalk_speed": 1.2,
-				"max_stalk_dist": 12,
-				"leap_height": 0.9,
-				"leap_dist": 0.8,
-				"pounce_max_dist": 5,
-				"interest_time": 0.1,
-				"stuck_time": 2,
-				"strike_dist": 2,
-				"stuck_blocks": {
-					"test": "is_block",
-					"subject": "block",
-					"operator": "==",
-					"value": "snow_layer"
-				},
-				"set_persistent": true
-			},
-			"minecraft:behavior.random_stroll": {
-				"priority": 13,
-				"speed_multiplier": 0.8
-			},
-			"minecraft:behavior.look_at_player": {
-				"priority": 14,
-				"look_distance": 6,
-				"probability": 0.02
-			},
-			"minecraft:behavior.random_look_around": {
-				"priority": 15
-			},
-			"minecraft:balloonable": {
-				"mass": 0.6
-			},
-			"minecraft:physics": {},
-			"minecraft:pushable": {
-				"is_pushable": true,
-				"is_pushable_by_piston": true
-			},
-			"minecraft:conditional_bandwidth_optimization": {},
-			"minecraft:timer": {
-				"looping": true,
-				"time": [
-					6,
-					36
-				],
-				"time_down_event": {
-					"event": "terrariamod:tp"
-				}
-			},
-			"minecraft:area_attack": {
-				"damage_range": 1,
-				"damage_per_tick": 1,
-				"entity_filter": {
-					"test": "is_family",
-					"subject": "other",
-					"value": "player"
-				},
-				"cause": "contact"
-			},
-			"minecraft:type_family": {
-				"family": [
-					"terraria_players_enemy",
-					"terraria_boss"
-				]
+			"minecraft:knockback_resistance": {
+				"value": 0.9,
+				"max": 0.9
 			}
 		},
 		"events": {
-			"terrariamod:tp": {
-				"add": {
-					"component_groups": [
-						"bridge:execute_command_id_1"
-					]
-				}
-			},
-			"bridge:remove_command_id_1": {
-				"add": {
-					"component_groups": [
-						"bridge:execute_no_command"
-					]
-				},
-				"remove": {
-					"component_groups": [
-						"bridge:execute_command_id_1"
+			"terrariamod:play_animation": {
+				"run_command": {
+					"command": [
+						"playanimation @s animation.kingslime.dissolve",
+						"tp @s @p"
 					]
 				}
 			}
 		},
-		"component_groups": {
-			"bridge:execute_command_id_1": {
-				"minecraft:skin_id": {
-					"value": 1
-				}
-			},
-			"bridge:execute_no_command": {
-				"minecraft:skin_id": {
-					"value": 0
-				}
-			}
-		}
+		"component_groups": {}
 	}
 }

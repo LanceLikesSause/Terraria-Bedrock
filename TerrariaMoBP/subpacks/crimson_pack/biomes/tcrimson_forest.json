@@ -32,23 +32,23 @@
 				"generate_for_climates": [
 					[
 						"frozen",
-						100
+						50
 					],
 					[
 						"cold",
-						100
+						50
 					],
 					[
 						"medium",
-						100
+						50
 					],
 					[
 						"lukewarm",
-						100
+						50
 					],
 					[
 						"warm",
-						100
+						50
 					]
 				],
 				"river_transformation": "tcrimson_forest",

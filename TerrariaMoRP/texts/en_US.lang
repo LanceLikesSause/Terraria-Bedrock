@@ -126,6 +126,7 @@ tile.terrariamod:tree_log_jungle=Jungle Tree Log
 tile.terrariamod:tree_top_jungle=Jungle Tree Top
 item.terrariamod:jungle_wood.name=Rich Mahogany Wood
 tile.terrariamod:purity_mud.name=Mud
+tile.terrariamod:jungle_grass.name=Jungle Grass
 
 ##forest
 item.terrariamod:acorn.name=Acorn
@@ -610,3 +611,7 @@ item.terrariamod:hi=Hi
 item.terrariamod:hi.name=Hi
 
 item.terrariamod:delte.name=Delte
+
+tile.terrariamod:obsidianbrick.name=Obsidian Brick
+tile.terrariamod:sunplate.name=Sunplate
+tile.terrariamod:cloud.name=Cloud

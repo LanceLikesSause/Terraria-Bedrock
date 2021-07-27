@@ -20,7 +20,8 @@
 			},
 			"minecraft:loot": "loot_tables/blocks/forest_pot.json",
 			"minecraft:block_light_emission": 0,
-			"minecraft:block_light_absorption": 0
+			"minecraft:block_light_absorption": 0,
+			"minecraft:entity_collision": false
 		},
 		"events": {
 			"terrariamod:destroy": {

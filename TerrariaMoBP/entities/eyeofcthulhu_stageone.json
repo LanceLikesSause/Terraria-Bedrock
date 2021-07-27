@@ -1,6 +1,6 @@
-//bridge-file-version: #62
+//bridge-file-version: #65
 {
-	"format_version": "1.16.0",
+	"format_version": "1.16.100",
 	"minecraft:entity": {
 		"description": {
 			"identifier": "terrariamod:eyeofcthulhu_stageone",
@@ -9,15 +9,11 @@
 			"is_experimental": false,
 			"animations": {
 				"to_stage_2": "controller.animation.eyeofcthulhu.to_stage_2",
-				"bridge_execute_commands": "controller.animation.bridge_eyeofcthulhu_stageone.execute_commands",
 				"other": "controller.animation.boss_1_other"
 			},
 			"scripts": {
 				"animate": [
 					"to_stage_2",
-					"bridge_execute_commands",
-					"bridge_execute_commands",
-					"bridge_execute_commands",
 					"other"
 				]
 			}
@@ -46,8 +42,18 @@
 				"has_gravity": false,
 				"has_collision": false
 			},
+			"minecraft:pushable": {
+				"is_pushable": true,
+				"is_pushable_by_piston": true
+			},
 			"minecraft:attack": {
 				"damage": 15
+			},
+			"minecraft:breathable": {
+				"total_supply": 15,
+				"suffocate_time": 0,
+				"breathes_air": true,
+				"breathes_water": false
 			},
 			"minecraft:collision_box": {
 				"width": 3,
@@ -179,6 +185,11 @@
 				"add": {
 					"component_groups": [
 						"terrariamod:despawn"
+					]
+				},
+				"run_command": {
+					"command": [
+						"scoreboard players set @p boss_2_alive 0"
 					]
 				}
 			}

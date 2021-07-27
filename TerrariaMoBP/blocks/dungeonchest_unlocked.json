@@ -13,10 +13,23 @@
 					"render_method": "alpha_test"
 				}
 			},
-			"minecraft:destroy_time": 0.1,
-			"minecraft:loot": "loot_tables/blocks/dungeonchest_unlocked.json",
-			"tag:terrariamod:wood": {}
+			"minecraft:destroy_time": 999,
+			"tag:terrariamod:wood": {},
+			"minecraft:on_interact": {
+				"event": "terrariamod:open"
+			}
 		},
-		"events": {}
+		"events": {
+			"terrariamod:open": {
+				"run_command": {
+					"command": [
+						"setblock ~~~ air 0 replace"
+					]
+				},
+				"spawn_loot": {
+					"table": "loot_tables/blocks/dungeonchest_unlocked.json"
+				}
+			}
+		}
 	}
 }

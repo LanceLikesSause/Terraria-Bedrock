@@ -1,0 +1,21 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.eyeofcthulhu.to_stage_2": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"spawn_next_stage": "!query.is_alive"
+						}
+					]
+				},
+				"spawn_next_stage": {
+					"on_entry": [
+						"/summon terrariamod:eyeofcthulhu_stagetwo"
+					]
+				}
+			}
+		}
+	}
+}

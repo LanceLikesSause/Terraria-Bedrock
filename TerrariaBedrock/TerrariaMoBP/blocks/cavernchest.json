@@ -1,0 +1,36 @@
+//bridge-file-version: #4
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "terrariamod:cavernchest"
+		},
+		"components": {
+			"minecraft:geometry": "geometry.chest",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "chest",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:loot": "loot_tables/empty.json",
+			"minecraft:destroy_time": 999,
+			"tag:terrariamod:wood": {},
+			"minecraft:on_interact": {
+				"event": "terrariamod:open"
+			}
+		},
+		"events": {
+			"terrariamod:open": {
+				"run_command": {
+					"command": [
+						"setblock ~~~ air 0 replace"
+					]
+				},
+				"spawn_loot": {
+					"table": "loot_tables/blocks/cavernchest.json"
+				}
+			}
+		}
+	}
+}

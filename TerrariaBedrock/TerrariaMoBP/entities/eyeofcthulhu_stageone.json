@@ -1,0 +1,199 @@
+//bridge-file-version: #65
+{
+	"format_version": "1.16.100",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "terrariamod:eyeofcthulhu_stageone",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false,
+			"animations": {
+				"to_stage_2": "controller.animation.eyeofcthulhu.to_stage_2",
+				"other": "controller.animation.boss_1_other"
+			},
+			"scripts": {
+				"animate": [
+					"to_stage_2",
+					"other"
+				]
+			}
+		},
+		"components": {
+			"minecraft:nameable": {},
+			"minecraft:health": {
+				"value": 1400,
+				"max": 1400
+			},
+			"minecraft:hurt_on_condition": {
+				"damage_conditions": [
+					{
+						"filters": {
+							"test": "in_lava",
+							"subject": "self",
+							"operator": "==",
+							"value": true
+						},
+						"cause": "lava",
+						"damage_per_tick": 4
+					}
+				]
+			},
+			"minecraft:physics": {
+				"has_gravity": false,
+				"has_collision": false
+			},
+			"minecraft:attack": {
+				"damage": 15
+			},
+			"minecraft:collision_box": {
+				"width": 3,
+				"height": 3
+			},
+			"minecraft:movement": {
+				"value": 3
+			},
+			"minecraft:movement.glide": {
+				"start_speed": 0.1,
+				"speed_when_turning": 0.2
+			},
+			"minecraft:burns_in_daylight": {},
+			"minecraft:follow_range": {
+				"value": 64,
+				"max": 64
+			},
+			"minecraft:behavior.avoid_mob_type": {
+				"priority": 0,
+				"max_dist": 16,
+				"ignore_visibility": true,
+				"entity_types": [
+					{
+						"filters": {
+							"any_of": [
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "ocelot"
+								},
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "cat"
+								}
+							]
+						},
+						"max_dist": 16,
+						"walk_speed_multiplier": 1,
+						"sprint_speed_multiplier": 1
+					}
+				]
+			},
+			"minecraft:behavior.nearest_attackable_target": {
+				"priority": 1,
+				"reselect_targets": true,
+				"scan_interval": 10,
+				"within_radius": 64,
+				"must_see_forget_duration": 0.5,
+				"target_search_height": 80,
+				"entity_types": [
+					{
+						"filters": {
+							"test": "is_family",
+							"subject": "other",
+							"value": "player"
+						},
+						"max_dist": 64
+					},
+					{
+						"filters": {
+							"test": "is_family",
+							"subject": "other",
+							"value": "villager"
+						}
+					}
+				]
+			},
+			"minecraft:behavior.swoop_attack": {
+				"priority": 2,
+				"damage_reach": 0.9,
+				"speed_multiplier": 2,
+				"delay_range": [
+					1,
+					2
+				]
+			},
+			"minecraft:behavior.circle_around_anchor": {
+				"priority": 3,
+				"radius_change": 1,
+				"radius_adjustment_chance": 0.004,
+				"height_adjustment_chance": 0.002857,
+				"goal_radius": 1,
+				"angle_change": 15,
+				"radius_range": [
+					5,
+					15
+				],
+				"height_offset_range": [
+					-4,
+					5
+				],
+				"height_above_target_range": [
+					8,
+					12
+				]
+			},
+			"minecraft:boss": {
+				"name": "The Eye of Cthulhu §9Stage One",
+				"hud_range": 56
+			},
+			"minecraft:spawn_entity": {
+				"entities": [
+					{
+						"min_wait_time": 36,
+						"max_wait_time": 46,
+						"spawn_entity": "terrariamod:servantofcthulhu"
+					}
+				]
+			},
+			"minecraft:environment_sensor": {
+				"triggers": {
+					"filters": {
+						"test": "is_daytime",
+						"value": true
+					},
+					"event": "terrariamod:despawn_entity"
+				}
+			},
+			"minecraft:type_family": {
+				"family": [
+					"terraria_players_enemy",
+					"terraria_boss"
+				]
+			},
+			"minecraft:knockback_resistance": {
+				"value": 0.9,
+				"max": 0.9
+			}
+		},
+		"events": {
+			"terrariamod:despawn_entity": {
+				"add": {
+					"component_groups": [
+						"terrariamod:despawn"
+					]
+				},
+				"run_command": {
+					"command": [
+						"scoreboard players set @p boss_2_alive 0"
+					]
+				}
+			}
+		},
+		"component_groups": {
+			"terrariamod:despawn": {
+				"minecraft:instant_despawn": {
+					"remove_child_entities": true
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,43 @@
+//bridge-file-version: #6
+{
+	"format_version": "1.16.200",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "terrariamod:fallenstar",
+			"runtime_identifier": {},
+			"is_summonable": true,
+			"is_spawnable": false,
+			"scripts": {
+				"animate": [
+					"fall"
+				]
+			},
+			"animations": {
+				"fall": "controller.animation.fallenstar_fall"
+			}
+		},
+		"component_groups": {},
+		"components": {
+			"minecraft:health": {
+				"value": 1,
+				"max": 1
+			},
+			"minecraft:physics": {
+				"has_collision": true,
+				"has_gravity": true
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"cause": "fall",
+						"deals_damage": false
+					}
+				]
+			},
+			"minecraft:loot": {
+				"table": "loot_tables/entities/fallenstar.json"
+			}
+		},
+		"events": {}
+	}
+}

@@ -1,0 +1,51 @@
+//bridge-file-version: #211
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.wallofflesh_ai": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"choose_speed": "query.life_time>0"
+						}
+					]
+				},
+				"choose_speed": {
+					"transitions": [
+						{
+							"move_to_player_speed_one": "query.health>0"
+						},
+						{
+							"death": "!query.is_alive && query.last_hit_by_player"
+						}
+					]
+				},
+				"move_to_player_speed_one": {
+					"transitions": [
+						{
+							"choose_speed": "query.time_stamp>v.time+0.1"
+						}
+					],
+					"on_entry": [
+						"/tp @s ^ ^ ^0.1 facing @p",
+						"v.time = q.time_stamp;"
+					]
+				},
+				"death": {
+					"transitions": [
+						{
+							"end": "query.time_stamp>v.time+0.1"
+						}
+					],
+					"on_entry": [
+						"/say The Wall of Flesh has been defeated",
+						"v.time = q.time_stamp;"
+					]
+				},
+				"end": {}
+			},
+			"initial_state": "default"
+		}
+	}
+}

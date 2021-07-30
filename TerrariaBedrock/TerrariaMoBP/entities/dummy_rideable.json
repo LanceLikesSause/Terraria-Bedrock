@@ -1,0 +1,31 @@
+//bridge-file-version: #2
+{
+	"format_version": "1.16.200",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "terrariamod:dummy_rideable",
+			"runtime_identifier": {},
+			"is_summonable": true,
+			"is_spawnable": false
+		},
+		"component_groups": {},
+		"components": {
+			"minecraft:rideable": {
+				"controlling_seat": 1,
+				"interact_text": "sit",
+				"seat_count": 1,
+				"pull_in_entities": true
+			},
+			"minecraft:health": {
+				"value": 1,
+				"max": 1
+			},
+			"minecraft:type_family": {
+				"family": [
+					"terraria_dummies"
+				]
+			}
+		},
+		"events": {}
+	}
+}

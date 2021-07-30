@@ -1,0 +1,73 @@
+//bridge-file-version: #18
+{
+	"format_version": "1.16.200",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "terrariamod:goblinarmy_dummy",
+			"runtime_identifier": {},
+			"is_summonable": true,
+			"is_spawnable": false,
+			"animations": {
+				"other": "controller.animation.goblinarmy_other"
+			},
+			"scripts": {
+				"animate": [
+					"other"
+				]
+			}
+		},
+		"component_groups": {},
+		"components": {
+			"minecraft:health": {
+				"value": 300,
+				"max": 300
+			},
+			"minecraft:boss": {
+				"name": "Goblin Army",
+				"hud_range": 30
+			},
+			"minecraft:timer": {
+				"looping": true,
+				"time": [
+					1,
+					1
+				],
+				"time_down_event": {
+					"event": "terrariamod:tp"
+				}
+			},
+			"minecraft:physics": {
+				"has_collision": false,
+				"has_gravity": false
+			},
+			"minecraft:type_family": {
+				"family": [
+					"terraria_boss"
+				]
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"on_damage": {
+							"filters": {
+								"subject": "other",
+								"test": "is_family",
+								"value": "player"
+							}
+						},
+						"deals_damage": false
+					}
+				]
+			}
+		},
+		"events": {
+			"terrariamod:tp": {
+				"run_command": {
+					"command": [
+						"tp @s @p"
+					]
+				}
+			}
+		}
+	}
+}

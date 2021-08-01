@@ -1,6 +1,6 @@
-//bridge-file-version: #22
+//bridge-file-version: #25
 {
-	"format_version": "1.16.0",
+	"format_version": "1.16.100",
 	"minecraft:entity": {
 		"description": {
 			"identifier": "terrariamod:brainofcthulhu_stagetwo",
@@ -9,12 +9,10 @@
 			"is_experimental": false,
 			"scripts": {
 				"animate": [
-					"bridge_execute_commands",
 					"other"
 				]
 			},
 			"animations": {
-				"bridge_execute_commands": "controller.animation.bridge_brainofcthulhu_stagetwo.execute_commands",
 				"other": "controller.animation.boss_3_other"
 			}
 		},
@@ -202,17 +200,11 @@
 						"terrariamod:despawn",
 						"bridge:execute_command_id_1"
 					]
-				}
-			},
-			"bridge:remove_command_id_1": {
-				"add": {
-					"component_groups": [
-						"bridge:execute_no_command"
-					]
 				},
-				"remove": {
-					"component_groups": [
-						"bridge:execute_command_id_1"
+				"run_command": {
+					"command": [
+						"scoreboard players set @p boss_2_alive 0",
+						"gamerule domobspawning true"
 					]
 				}
 			}

@@ -1,4 +1,4 @@
-//bridge-file-version: #214
+//bridge-file-version: #215
 {
 	"format_version": "1.10.0",
 	"animation_controllers": {
@@ -16,7 +16,7 @@
 						"/scoreboard objectives add boss_2_alive dummy boss_2_alive",
 						"/scoreboard players set @p boss_2_alive 5",
 						"/gamerule domobspawning false",
-						"/kill @e[family=!terraria_boss,type=!player,family=!terraria_dummies]"
+						"/kill @e[family=!terraria_boss,type=!player,family=!terraria_dummies,family=!terraria_npc]"
 					],
 					"transitions": [
 						{

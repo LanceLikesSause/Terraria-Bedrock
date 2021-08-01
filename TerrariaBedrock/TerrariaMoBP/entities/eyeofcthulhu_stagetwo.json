@@ -1,4 +1,4 @@
-//bridge-file-version: #59
+//bridge-file-version: #60
 {
 	"format_version": "1.16.100",
 	"minecraft:entity": {
@@ -191,7 +191,8 @@
 				},
 				"run_command": {
 					"command": [
-						"scoreboard players set @p boss_2_alive 0"
+						"scoreboard players set @p boss_2_alive 0",
+						"gamerule domobspawning true"
 					]
 				}
 			}

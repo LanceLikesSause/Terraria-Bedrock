@@ -1,4 +1,4 @@
-//bridge-file-version: #67
+//bridge-file-version: #68
 {
 	"format_version": "1.16.100",
 	"minecraft:entity": {
@@ -20,27 +20,6 @@
 			"terrariamod:despawn": {
 				"minecraft:instant_despawn": {
 					"remove_child_entities": true
-				}
-			}
-		},
-		"events": {
-			"terrariamod:move_towards_player": {
-				"run_command": {
-					"command": [
-						"tp @s ^ ^ ^0.2 facing @p"
-					]
-				}
-			},
-			"terrariamod:despawn": {
-				"add": {
-					"component_groups": [
-						"terrariamod:despawn"
-					]
-				},
-				"run_command": {
-					"command": [
-						"scoreboard players set @p boss_2_alive 0"
-					]
 				}
 			}
 		},
@@ -125,6 +104,28 @@
 						"value": "corruption"
 					},
 					"event": "terrariamod:despawn"
+				}
+			}
+		},
+		"events": {
+			"terrariamod:move_towards_player": {
+				"run_command": {
+					"command": [
+						"tp @s ^ ^ ^0.2 facing @p"
+					]
+				}
+			},
+			"terrariamod:despawn": {
+				"add": {
+					"component_groups": [
+						"terrariamod:despawn"
+					]
+				},
+				"run_command": {
+					"command": [
+						"scoreboard players set @p boss_2_alive 0",
+						"gamerule domobspawning true"
+					]
 				}
 			}
 		}

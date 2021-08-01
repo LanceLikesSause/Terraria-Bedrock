@@ -1,4 +1,4 @@
-//bridge-file-version: #55
+//bridge-file-version: #56
 {
 	"format_version": "1.16.0",
 	"minecraft:entity": {
@@ -43,12 +43,6 @@
 				"remove_item_time": 1,
 				"carried_item_switch_time": 2,
 				"cooldown": 2
-			},
-			"minecraft:type_family": {
-				"family": [
-					"villager",
-					"mob"
-				]
 			},
 			"minecraft:mark_variant": {
 				"value": 0
@@ -208,6 +202,11 @@
 						},
 						"interact_text": "heal"
 					}
+				]
+			},
+			"minecraft:type_family": {
+				"family": [
+					"terraria_npc"
 				]
 			}
 		},

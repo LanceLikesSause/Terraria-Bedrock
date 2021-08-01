@@ -1,4 +1,4 @@
-//bridge-file-version: #322
+//bridge-file-version: #325
 {
 	"format_version": "1.16.100",
 	"minecraft:entity": {
@@ -169,6 +169,11 @@
 				"add": {
 					"component_groups": [
 						"terrariamod:summon_hungry"
+					]
+				},
+				"run_command": {
+					"command": [
+						"tp @s ^ ^ ^-30 facing @p"
 					]
 				}
 			}

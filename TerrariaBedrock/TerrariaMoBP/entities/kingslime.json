@@ -1,4 +1,4 @@
-//bridge-file-version: #143
+//bridge-file-version: #144
 {
 	"format_version": "1.16.100",
 	"minecraft:entity": {
@@ -172,6 +172,7 @@
 				"max": 0.9
 			}
 		},
+		"component_groups": {},
 		"events": {
 			"terrariamod:play_animation": {
 				"run_command": {
@@ -181,7 +182,6 @@
 					]
 				}
 			}
-		},
-		"component_groups": {}
+		}
 	}
 }

@@ -1,4 +1,4 @@
-//bridge-file-version: #491
+//bridge-file-version: #497
 {
 	"format_version": "1.10.0",
 	"animation_controllers": {
@@ -49,12 +49,6 @@
 							"underworld_music": " query.position(1)>0 && query.position(1)<30 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 						},
 						{
-							"vanilla": "query.biome_has_any_tag('overworld') && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
-						},
-						{
-							"to_high_up": "query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain && query.position(1)>230 && query.position(1)<256"
-						},
-						{
 							"forest_underground_music": "query.biome_has_any_tag('purity_forest') && query.position(1)>80 && query.position(1)<110 && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
 						},
 						{
@@ -77,6 +71,12 @@
 						},
 						{
 							"forest_rain_music": "!query.is_in_water  && query.is_in_water_or_rain && query.biome_has_any_tag('purity_forest') && query.position(1)>110 && query.position(1)<230"
+						},
+						{
+							"vanilla": "query.biome_has_any_tag('overworld') && query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain"
+						},
+						{
+							"to_high_up": "query.scoreboard('boss_2_alive')==0 && !query.is_in_water_or_rain && query.position(1)>230 && query.position(1)<256"
 						}
 					],
 					"on_entry": [
@@ -259,20 +259,6 @@
 						}
 					]
 				},
-				"vanilla": {
-					"on_entry": [
-						"/gamerule sendcommandfeedback false",
-						"/tp @s ^ ^ ^-1",
-						"/say this biome can't be entered!",
-						"/gamerule sendcommandfeedback true",
-						"v.time = q.time_stamp;"
-					],
-					"transitions": [
-						{
-							"default": "query.time_stamp>v.time+0.1 || !query.biome_has_any_tag('overworld') || query.scoreboard('boss_2_alive')>0"
-						}
-					]
-				},
 				"forest_underground_music": {
 					"on_entry": [
 						"/playsound underground @s",
@@ -359,6 +345,19 @@
 					"transitions": [
 						{
 							"default": "query.time_stamp>v.time+1980 || !query.is_in_water  && !query.is_in_water_or_rain || !query.biome_has_any_tag('purity_forest') || query.position(1)<110 || query.position(1)>230"
+						}
+					]
+				},
+				"vanilla": {
+					"on_entry": [
+						"/gamerule sendcommandfeedback false",
+						"/say It is not recommended to enter this biome! Vanilla mobs and structures will spawn here!",
+						"/gamerule sendcommandfeedback true",
+						"v.time = q.time_stamp;"
+					],
+					"transitions": [
+						{
+							"default": "query.time_stamp>v.time+3 || !query.biome_has_any_tag('overworld') || query.scoreboard('boss_2_alive')>0"
 						}
 					]
 				},

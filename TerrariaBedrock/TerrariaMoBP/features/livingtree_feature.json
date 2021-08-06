@@ -1,25 +1,47 @@
-//bridge-file-version: #38
+//bridge-file-version: #55
 {
 	"format_version": "1.13.0",
-	"minecraft:single_block_feature": {
+	"minecraft:tree_feature": {
 		"description": {
 			"identifier": "minecraft:livingtree_feature"
 		},
-		"places_block": {
-			"name": "terrariamod:livingtree_spawner"
+		"fancy_trunk": {
+			"trunk_height": {
+				"base": 40,
+				"variance": 1,
+				"scale": 1
+			},
+			"trunk_width": 5,
+			"trunk_block": {
+				"name": "terrariamod:livingwood"
+			},
+			"branches": {
+				"slope": 0.381,
+				"density": 1,
+				"min_altitude_factor": 0.1
+			},
+			"width_scale": 1,
+			"foliage_altitude_factor": 0.3
 		},
-		"enforce_survivability_rules": true,
-		"enforce_placement_rules": true,
-		"may_replace": [
-			{
-				"name": "minecraft:air"
+		"fancy_canopy": {
+			"height": 6,
+			"radius": 3,
+			"leaf_block": {
+				"name": "terrariamod:leafblock"
 			}
+		},
+		"base_block": [
+			"terrariamod:purity_dirt"
 		],
-		"may_attach_to": {
-			"min_sides_must_attach": 1,
-			"bottom": [
-				"terrariamod:purity_grass"
-			]
-		}
+		"may_grow_on": [
+			"terrariamod:purity_grass"
+		],
+		"may_replace": [
+			"minecraft:air"
+		],
+		"may_grow_through": [
+			"terrariamod:purity_dirt",
+			"terrariamod:purity_grass"
+		]
 	}
 }

@@ -1,4 +1,4 @@
-//bridge-file-version: #27
+//bridge-file-version: #33
 {
 	"format_version": "1.8.0",
 	"minecraft:spawn_rules": {
@@ -9,11 +9,11 @@
 		"conditions": [
 			{
 				"minecraft:weight": {
-					"default": 999999
+					"default": 100000
 				},
 				"minecraft:herd": {
 					"min_size": 1,
-					"max_size": 3
+					"max_size": 1
 				},
 				"minecraft:biome_filter": {
 					"test": "has_biome_tag",

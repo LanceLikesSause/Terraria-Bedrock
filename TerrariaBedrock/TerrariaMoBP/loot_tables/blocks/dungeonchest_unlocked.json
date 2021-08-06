@@ -239,7 +239,7 @@
 				{
 					"type": "item",
 					"weight": 1,
-					"name": "terrariamod:handgun_loaded",
+					"name": "terrariamod:handgun",
 					"functions": [
 						{
 							"function": "set_count",

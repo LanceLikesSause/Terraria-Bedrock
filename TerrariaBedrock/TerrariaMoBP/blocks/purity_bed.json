@@ -1,0 +1,43 @@
+//bridge-file-version: #33
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "terrariamod:purity_bed",
+			"category": "blocks"
+		},
+		"components": {
+			"minecraft:destroy_time": 0.1,
+			"tag:terrariamod:plant": {},
+			"minecraft:loot": "loot_tables/entities/purity_bed.json",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "purity_bed"
+				}
+			},
+			"minecraft:geometry": "geometry.purity_bed",
+			"minecraft:on_placed": {
+				"event": "terrariamod:summon_bed_dummy"
+			},
+			"minecraft:on_player_destroyed": {
+				"event": "terrariamod:kill_bed_dummy"
+			}
+		},
+		"events": {
+			"terrariamod:summon_bed_dummy": {
+				"run_command": {
+					"command": [
+						"summon terrariamod:purity_bed_dummy ~ ~1 ~"
+					]
+				}
+			},
+			"terrariamod:kill_bed_dummy": {
+				"run_command": {
+					"command": [
+						"kill @e[type=terrariamod:purity_bed_dummy,r=2]"
+					]
+				}
+			}
+		}
+	}
+}

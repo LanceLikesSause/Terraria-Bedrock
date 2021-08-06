@@ -1,0 +1,47 @@
+//bridge-file-version: #26
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "terrariamod:crimson_rod",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:icon": {
+				"texture": "terrariamod:crimson_rod"
+			},
+			"minecraft:display_name": {
+				"value": "Crimson Rod\n§9+12 Magic Damage\n§9Summons a cloud to rain blood on your foes"
+			},
+			"minecraft:creative_category": {
+				"parent": "equipment"
+			},
+			"minecraft:hand_equipped": true,
+			"minecraft:on_use": {
+				"on_use": {
+					"event": "terrariamod:summon_cloud"
+				}
+			},
+			"minecraft:cooldown": {
+				"category": "terraria_crimson_rod",
+				"duration": 1
+			}
+		},
+		"events": {
+			"terrariamod:summon_cloud": {
+				"shoot": {
+					"projectile": "terrariamod:blood_cloud",
+					"launch_power": 1
+				},
+				"swing": {},
+				"run_command": {
+					"command": [
+						"playsound bookofskulls.effect @s",
+						"kill @e[type=terrariamod:blood_cloud]"
+					]
+				}
+			}
+		}
+	}
+}

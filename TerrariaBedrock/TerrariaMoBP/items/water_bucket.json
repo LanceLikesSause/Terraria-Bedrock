@@ -14,7 +14,7 @@
 				"parent": "equipment"
 			},
 			"minecraft:display_name": {
-				"value": "Water Bucket§9Contains a small amount of water"
+				"value": "Water Bucket\n§9Contains a small amount of water"
 			}
 		},
 		"events": {}

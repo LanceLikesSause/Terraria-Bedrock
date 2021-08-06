@@ -15,7 +15,8 @@
 					"event": "terrariamod:crimson_spread"
 				}
 			},
-			"minecraft:map_color": "#C31B1B"
+			"minecraft:map_color": "#C31B1B",
+			"minecraft:loot": "loot_tables/blocks/crimson_grass.json"
 		},
 		"events": {
 			"terrariamod:crimson_spread": {

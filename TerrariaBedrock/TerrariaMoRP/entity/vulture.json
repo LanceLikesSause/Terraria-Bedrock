@@ -1,6 +1,6 @@
-//bridge-file-version: #36
+//bridge-file-version: #39
 {
-	"format_version": "1.8.0",
+	"format_version": "1.10.0",
 	"minecraft:client_entity": {
 		"description": {
 			"identifier": "terrariamod:vulture",
@@ -24,7 +24,15 @@
 				"base_color": "#FFFFFF",
 				"overlay_color": "#6A0000"
 			},
-			"enable_attachables": true
+			"enable_attachables": true,
+			"animations": {
+				"loop": "animation.vulture.general"
+			},
+			"scripts": {
+				"animate": [
+					"loop"
+				]
+			}
 		}
 	}
 }

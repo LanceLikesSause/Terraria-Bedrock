@@ -1,0 +1,38 @@
+//bridge-file-version: #8
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "terrariamod:underworldchest",
+			"register_to_creative_menu": true
+		},
+		"components": {
+			"minecraft:geometry": "geometry.chest",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "chest",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:loot": "loot_tables/empty.json",
+			"minecraft:destroy_time": 999,
+			"tag:terrariamod:wood": {},
+			"minecraft:on_interact": {
+				"event": "terrariamod:open"
+			}
+		},
+		"events": {
+			"terrariamod:open": {
+				"run_command": {
+					"command": [
+						"execute @a[scores={coins=30..}] ~~~ scoreboard players add @a explosives 1",
+						"setblock ~~~ air 0 replace"
+					]
+				},
+				"spawn_loot": {
+					"table": "loot_tables/blocks/underworldchest.json"
+				}
+			}
+		}
+	}
+}

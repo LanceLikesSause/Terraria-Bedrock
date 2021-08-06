@@ -15,7 +15,7 @@
 				"texture": "terrariamod:bonesword"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:bonesword.name"
+				"value": "Bone Sword"
 			},
 			"minecraft:creative_category": {
 				"parent": "itemGroup.name.sword"

@@ -1,0 +1,25 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.vulture.general": {
+			"loop": true,
+			"animation_length": 0.32,
+			"bones": {
+				"wingright": {
+					"rotation": {
+						"0.0": [0, 60, 0],
+						"0.16": [0, 0, 0],
+						"0.32": [0, 60, 0]
+					}
+				},
+				"wingleft": {
+					"rotation": {
+						"0.0": [0, -60, 0],
+						"0.16": [0, 0, 0],
+						"0.32": [0, -60, 0]
+					}
+				}
+			}
+		}
+	}
+}

@@ -16,7 +16,7 @@
 				}
 			},
 			"minecraft:display_name": {
-				"value": "Goblin Battle Standard§9Summons a Goblin Army"
+				"value": "Goblin Battle Standard\n§9Summons a Goblin Army"
 			},
 			"minecraft:icon": {
 				"texture": "terrariamod:goblinbattlestandard"

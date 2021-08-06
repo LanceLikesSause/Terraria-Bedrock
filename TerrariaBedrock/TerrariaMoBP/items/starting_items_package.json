@@ -1,4 +1,4 @@
-//bridge-file-version: #22
+//bridge-file-version: #33
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
@@ -29,13 +29,10 @@
 						"give @s terrariamod:coppersword",
 						"give @s terrariamod:copperpickaxe",
 						"give @s terrariamod:copperaxe",
-						"tp @s 0 140 0",
-						"gamerule keepinventory true",
 						"clear @s terrariamod:starting_items_package 0 1",
-						"setworldspawn 0 140 0",
-						"spawnpoint @s 0 140 0",
-						"summon terrariamod:guide 0 140 0",
-						"gamerule doweathercycle false"
+						"summon terrariamod:guide ~~~",
+						"gamerule doweathercycle false",
+						"dialogue open @e[type=terrariamod:npc_dummy] @p start_game"
 					]
 				}
 			}

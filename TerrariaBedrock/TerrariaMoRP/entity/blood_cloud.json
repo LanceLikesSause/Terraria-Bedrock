@@ -1,0 +1,36 @@
+//bridge-file-version: #20
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "terrariamod:blood_cloud",
+			"materials": {
+				"default": "zombie"
+			},
+			"textures": {
+				"default": "textures/entity/pamobile/blood_cloud"
+			},
+			"geometry": {
+				"default": "geometry.blood_cloud"
+			},
+			"animations": {
+				"loop": "animation.blood_cloud.rain"
+			},
+			"scripts": {
+				"animate": [
+					"loop"
+				]
+			},
+			"render_controllers": [
+				"controller.render.zombie"
+			],
+			"spawn_egg": {
+				"base_color": "#949493",
+				"overlay_color": "#651818"
+			},
+			"particle_effects": {
+				"blood_rain": "terrariamod:bloodrain_effect"
+			}
+		}
+	}
+}

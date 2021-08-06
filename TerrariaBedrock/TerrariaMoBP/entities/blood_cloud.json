@@ -1,0 +1,110 @@
+//bridge-file-version: #55
+{
+	"format_version": "1.16.100",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "terrariamod:blood_cloud",
+			"runtime_identifier": {},
+			"is_summonable": true,
+			"is_spawnable": false
+		},
+		"component_groups": {
+			"terrariamod:moving_state": {
+				"minecraft:timer": {
+					"looping": false,
+					"time": [
+						0.1,
+						0.1
+					],
+					"time_down_event": {
+						"event": "terrariamod:start_raining"
+					}
+				},
+				"minecraft:projectile": {
+					"on_hit": {
+						"remove_on_hit": {}
+					}
+				}
+			},
+			"terrariamod:raining_state": {
+				"minecraft:area_attack": {
+					"damage_range": 3,
+					"damage_per_tick": 12,
+					"cause": "contact",
+					"entity_filter": {
+						"any_of": [
+							{
+								"test": "is_family",
+								"subject": "other",
+								"value": "terraria_players_enemy"
+							},
+							{
+								"test": "is_family",
+								"subject": "other",
+								"value": "villager"
+							}
+						]
+					}
+				},
+				"minecraft:physics": {
+					"has_gravity": false
+				},
+				"minecraft:movement.hover": {},
+				"minecraft:timer": {
+					"looping": false,
+					"time": [
+						100,
+						100
+					],
+					"time_down_event": {
+						"event": "terrariamod:time_up"
+					}
+				}
+			}
+		},
+		"components": {
+			"minecraft:collision_box": {
+				"width": 0.5,
+				"height": 1
+			},
+			"minecraft:type_family": {
+				"family": [
+					"terraria_dummies"
+				]
+			}
+		},
+		"events": {
+			"minecraft:entity_spawned": {
+				"add": {
+					"component_groups": [
+						"terrariamod:moving_state"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"terrariamod:raining_state"
+					]
+				}
+			},
+			"terrariamod:start_raining": {
+				"add": {
+					"component_groups": [
+						"terrariamod:raining_state"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"terrariamod:moving_state"
+					]
+				}
+			},
+			"terrariamod:time_up": {
+				"run_command": {
+					"command": [
+						"kill @s"
+					]
+				}
+			}
+		}
+	}
+}

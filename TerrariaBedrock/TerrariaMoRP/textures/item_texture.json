@@ -1,4 +1,4 @@
-//bridge-file-version: #23
+//bridge-file-version: #29
 {
 	"resource_pack_name": "TerrariaModLLS",
 	"texture_name": "atlas.items",
@@ -818,6 +818,36 @@
 		"terrariamod:leafwand": {
 			"textures": [
 				"textures/items/weapons/leafwand"
+			]
+		},
+		"terrariamod:crimson_rod": {
+			"textures": [
+				"textures/items/weapons/crimson_rod"
+			]
+		},
+		"terrariamod:flower_of_fire": {
+			"textures": [
+				"textures/items/guns/flower_of_fire"
+			]
+		},
+		"terrariamod:restorationpotion": {
+			"textures": [
+				"textures/items/potions/restorationpotion"
+			]
+		},
+		"terrariamod:pink_gel": {
+			"textures": [
+				"textures/items/pamobile/pink_gel"
+			]
+		},
+		"terrariamod:obsidianskinpotion": {
+			"textures": [
+				"textures/items/potions/obsidianskinpotion"
+			]
+		},
+		"terrariamod:shiny_red_ballon": {
+			"textures": [
+				"textures/items/accessories/shiny_red_ballon"
 			]
 		}
 	}

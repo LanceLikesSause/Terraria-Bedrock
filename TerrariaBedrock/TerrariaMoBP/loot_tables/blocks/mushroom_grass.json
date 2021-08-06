@@ -7,7 +7,7 @@
 				{
 					"type": "item",
 					"weight": 1,
-					"name": "minecraft:dirt",
+					"name": "terrariamod:purity_dirt",
 					"functions": [
 						{
 							"function": "set_count",

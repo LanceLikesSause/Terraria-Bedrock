@@ -9,7 +9,7 @@
 		"components": {
 			"minecraft:max_stack_size": 1,
 			"minecraft:hand_equipped": true,
-			"minecraft:damage": 21,
+			"minecraft:damage": 26,
 			"minecraft:weapon": {},
 			"minecraft:icon": {
 				"texture": "terrariamod:muramasa"

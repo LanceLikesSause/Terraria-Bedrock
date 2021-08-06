@@ -1,4 +1,4 @@
-//bridge-file-version: #54
+//bridge-file-version: #55
 {
 	"resource_pack_name": "terrariamod",
 	"texture_name": "atlas.terrain",
@@ -456,6 +456,11 @@
 		"leafblock": {
 			"textures": [
 				"textures/blocks/leafblock"
+			]
+		},
+		"purity_bed": {
+			"textures": [
+				"textures/blocks/purity_bed"
 			]
 		}
 	}

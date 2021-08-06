@@ -1,0 +1,170 @@
+//bridge-file-version: #114
+{
+	"format_version": "1.16.100",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "start_game",
+				"npc_name": {
+					"rawtext": [
+						{
+							"translate": "Terraria Bedrock setup..."
+						}
+					]
+				},
+				"text": {
+					"rawtext": [
+						{
+							"translate": "Choose an option...",
+							"with": [
+								0
+							]
+						}
+					]
+				},
+				"buttons": [
+					{
+						"name": {
+							"rawtext": [
+								{
+									"translate": "Difficulties"
+								}
+							]
+						},
+						"commands": [
+							"/dialogue open @s @initiator choose_difficulty"
+						]
+					},
+					{
+						"name": {
+							"rawtext": [
+								{
+									"translate": "what to put?"
+								}
+							]
+						},
+						"commands": [
+							"/dialogue open @s @initiator credits"
+						]
+					}
+				],
+				"on_close_commands": {}
+			},
+			{
+				"scene_tag": "choose_difficulty",
+				"npc_name": {
+					"rawtext": [
+						{
+							"translate": "Terraria Bedrock"
+						}
+					]
+				},
+				"text": {
+					"rawtext": [
+						{
+							"translate": "Choose Difficulty",
+							"with": [
+								0
+							]
+						}
+					]
+				},
+				"buttons": [
+					{
+						"name": {
+							"rawtext": [
+								{
+									"translate": "Softcore"
+								}
+							]
+						},
+						"commands": [
+							"/scoreboard objectives add tm_difficulty dummy difficulty",
+							"/scoreboard players set @p[c=1] tm_difficulty 1",
+							"/gamerule keepinventory true",
+							"/say set to softcore"
+						]
+					},
+					{
+						"name": {
+							"rawtext": [
+								{
+									"translate": "Mediumcore"
+								}
+							]
+						},
+						"commands": [
+							"/scoreboard objectives add tm_difficulty dummy difficulty",
+							"/scoreboard players set @p[c=1] tm_difficulty 2",
+							"/gamerule keepinventory false",
+							"/say set to mediumcore"
+						]
+					},
+					{
+						"name": {
+							"rawtext": [
+								{
+									"translate": "Hardcore"
+								}
+							]
+						},
+						"commands": [
+							"/scoreboard objectives add tm_difficulty dummy difficulty",
+							"/scoreboard players set @p[c=1] tm_difficulty 3",
+							"/gamerule keepinventory false",
+							"/say set to hardcore"
+						]
+					},
+					{
+						"name": {
+							"rawtext": [
+								{
+									"translate": "Close"
+								}
+							]
+						},
+						"commands": [
+							"/dialogue open @s @initiator start_game"
+						]
+					}
+				],
+				"on_close_commands": {}
+			},
+			{
+				"scene_tag": "credits",
+				"npc_name": {
+					"rawtext": [
+						{
+							"translate": "Credits"
+						}
+					]
+				},
+				"text": {
+					"rawtext": [
+						{
+							"translate": "made by blah blah blah",
+							"with": [
+								0
+							]
+						}
+					]
+				},
+				"buttons": [
+					{
+						"name": {
+							"rawtext": [
+								{
+									"translate": "Close"
+								}
+							]
+						},
+						"commands": [
+							"/dialogue open @s @initiator start_game"
+						]
+					}
+				],
+				"on_close_commands": {}
+			}
+		]
+	}
+}

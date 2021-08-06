@@ -1,0 +1,16 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.blood_cloud.rain": {
+			"loop": true,
+			"animation_length": 0.44,
+			"override_previous_animation": true,
+			"particle_effects": {
+				"0.0": {
+					"effect": "blood_rain",
+					"locator": "bloodrain_locator"
+				}
+			}
+		}
+	}
+}

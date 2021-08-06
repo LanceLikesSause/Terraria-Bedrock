@@ -30,7 +30,7 @@
 				"texture": "terrariamod:bonepickaxe"
 			},
 			"minecraft:display_name": {
-				"value": "item.terrariamod:bonepickaxe.name"
+				"value": "Bone Pickaxe"
 			},
 			"minecraft:creative_category": {
 				"parent": "itemGroup.name.pickaxe"

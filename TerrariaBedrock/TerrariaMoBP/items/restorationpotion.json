@@ -1,0 +1,48 @@
+//bridge-file-version: #17
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "terrariamod:restorationpotion",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "terrariamod:restorationpotion"
+			},
+			"minecraft:display_name": {
+				"value": "Restoration Potion\n§9Reduced potion cooldown\n§9+90 Health§9+80 Mana"
+			},
+			"minecraft:creative_category": {
+				"parent": "equipment"
+			},
+			"minecraft:food": {
+				"on_consume": {
+					"event": "terrariamod:gravity_reverse"
+				},
+				"can_always_eat": true
+			},
+			"minecraft:use_duration": 0.5,
+			"minecraft:use_animation": "drink",
+			"minecraft:cooldown": {
+				"category": "chorusfruit",
+				"duration": 1
+			}
+		},
+		"events": {
+			"terrariamod:gravity_reverse": {
+				"add_mob_effect": {
+					"effect": "regeneration",
+					"target": "holder",
+					"duration": 4,
+					"amplifier": 50
+				},
+				"run_command": {
+					"command": [
+						"scoreboard players add @s mana 80"
+					]
+				}
+			}
+		}
+	}
+}

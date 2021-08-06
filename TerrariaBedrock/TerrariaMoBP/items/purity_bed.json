@@ -1,4 +1,4 @@
-//bridge-file-version: #3
+//bridge-file-version: #4
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
@@ -13,11 +13,11 @@
 			"minecraft:display_name": {
 				"value": "Bed"
 			},
-			"minecraft:entity_placer": {
-				"entity": "terrariamod:purity_bed"
-			},
 			"minecraft:creative_category": {
 				"parent": "construction"
+			},
+			"minecraft:block_placer": {
+				"block": "terrariamod:purity_bed"
 			}
 		},
 		"events": {}

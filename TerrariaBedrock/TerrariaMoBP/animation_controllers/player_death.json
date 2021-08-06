@@ -1,0 +1,32 @@
+//bridge-file-version: #55
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.player_death": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"finished_command": "!query.is_alive"
+						}
+					]
+				},
+				"finished_command": {
+					"transitions": [
+						{
+							"default": "query.is_alive"
+						}
+					],
+					"on_exit": [
+						"/function life_crystal_tick",
+						"/execute @s[scores={tm_difficulty=2}] ~~~ give @s terrariamod:copperpickaxe",
+						"/execute @s[scores={tm_difficulty=2}] ~~~ give @s terrariamod:copperaxe",
+						"/execute @s[scores={tm_difficulty=2}] ~~~ give @s terrariamod:coppersword",
+						"/execute @s[scores={tm_difficulty=3}] ~~~ function hardcore_death",
+						"/execute @s[scores={tm_difficulty=1}] ~~~ function softcore_death"
+					]
+				}
+			}
+		}
+	}
+}

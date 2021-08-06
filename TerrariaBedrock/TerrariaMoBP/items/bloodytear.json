@@ -17,7 +17,7 @@
 				}
 			},
 			"minecraft:display_name": {
-				"value": "Bloody Tear§9Summons the Blood Moon 'What a horrible night to have a curse.'"
+				"value": "Bloody Tear\n§9Summons the Blood Moon\n'What a horrible night to have a curse.'"
 			},
 			"minecraft:icon": {
 				"texture": "terrariamod:bloodytear"

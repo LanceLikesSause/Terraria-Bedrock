@@ -1,4 +1,4 @@
-//bridge-file-version: #0
+//bridge-file-version: #1
 {
 	"format_version": "1.16.0",
 	"minecraft:entity": {
@@ -107,7 +107,7 @@
 				"despawn_from_distance": {}
 			},
 			"minecraft:loot": {
-				"table": "loot_tables/entities/greenslime.json"
+				"table": "loot_tables/entities/pinkslime.json"
 			},
 			"minecraft:behavior.float": {
 				"priority": 0

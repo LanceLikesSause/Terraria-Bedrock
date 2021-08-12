@@ -1,0 +1,43 @@
+//bridge-file-version: #38
+{
+	"format_version": "1.13.0",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "minecraft:glowing_mushroom_biome_featurerule",
+			"places_feature": "minecraft:glowing_mushroom_biome_feature"
+		},
+		"conditions": {
+			"placement_pass": "final_pass",
+			"minecraft:biome_filter": [
+				{
+					"test": "has_biome_tag",
+					"operator": "==",
+					"value": "purity_forest"
+				}
+			]
+		},
+		"distribution": {
+			"iterations": 1,
+			"scatter_chance": {
+				"numerator": 1,
+				"denominator": 100
+			},
+			"coordinate_eval_order": "xzy",
+			"x": {
+				"distribution": "uniform",
+				"extent": [
+					0,
+					16
+				]
+			},
+			"y": 40,
+			"z": {
+				"distribution": "uniform",
+				"extent": [
+					0,
+					16
+				]
+			}
+		}
+	}
+}

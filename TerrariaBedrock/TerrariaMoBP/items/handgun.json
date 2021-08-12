@@ -1,4 +1,3 @@
-//bridge-file-version: #27
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
@@ -13,7 +12,7 @@
 				"texture": "terrariamod:handgun"
 			},
 			"minecraft:display_name": {
-				"value": "Handgun\n§9+17 Projectile Damage\n§9Place musket ball in the offhand to use"
+				"value": "Handgun\n§9+17 Projectile Damage\n§9Place musket balls in the offhand to use"
 			},
 			"minecraft:creative_category": {
 				"parent": "equipment"

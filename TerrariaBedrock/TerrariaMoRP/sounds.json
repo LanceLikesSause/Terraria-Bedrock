@@ -1,4 +1,4 @@
-//bridge-file-version: #64
+//bridge-file-version: #65
 {
 	"entity_sounds": {
 		"entities": {
@@ -814,6 +814,30 @@
 						"sound": "wallofflesh.hurt",
 						"volume": 1,
 						"pitch": 1
+					}
+				}
+			},
+			"terrariamod:bunny": {
+				"volume": 1,
+				"pitch": [
+					0.9,
+					1
+				],
+				"events": {
+					"hurt": {
+						"sound": "slime.hurt",
+						"volume": 1,
+						"pitch": 1.1
+					},
+					"ambient": {
+						"sound": "slime.ambient",
+						"volume": 1,
+						"pitch": 1.1
+					},
+					"death": {
+						"sound": "slime.death",
+						"volume": 1,
+						"pitch": 0.9
 					}
 				}
 			}

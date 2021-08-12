@@ -1,0 +1,13 @@
+//bridge-file-version: #5
+{
+	"format_version": "1.16.100",
+	"minecraft:structure_template_feature": {
+		"description": {
+			"identifier": "minecraft:glowing_mushroom_biome_feature"
+		},
+		"structure_name": "mystructure:glowingmushroomb",
+		"adjustment_radius": 1,
+		"constraints": {},
+		"facing_direction": "random"
+	}
+}

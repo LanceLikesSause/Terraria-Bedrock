@@ -1,32 +1,32 @@
 {
-  "format_version": "1.10.0",
-  "animation_controllers": {
-    "controller.animation.devourer.attack": {
-      "initial_state": "default_state",
-      "states": {
-        "default_state": {
-          "animations": [
-              "walk"
-          ],
-          "transitions": [
-            {
-              "attack_state": "variable.attack_time > 0"
-            }
-          ],
-          "blend_transition": 0.1
-        },
-        "attack_state": {
-          "animations": [
-            "attack"
-          ],
-          "transitions": [
-            {
-              "default_state": "query.all_animations_finished"
-            }
-          ],
-          "blend_transition": 0.1
-        }
-      }
-    }
-  }
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.devourer.attack": {
+			"initial_state": "default_state",
+			"states": {
+				"default_state": {
+					"animations": [
+						"walk"
+					],
+					"transitions": [
+						{
+							"attack_state": "variable.attack_time>0"
+						}
+					],
+					"blend_transition": 0.1
+				},
+				"attack_state": {
+					"animations": [
+						"attack"
+					],
+					"transitions": [
+						{
+							"default_state": "query.all_animations_finished"
+						}
+					],
+					"blend_transition": 0.1
+				}
+			}
+		}
+	}
 }

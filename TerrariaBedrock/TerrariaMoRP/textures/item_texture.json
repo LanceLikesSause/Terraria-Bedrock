@@ -1,4 +1,4 @@
-//bridge-file-version: #29
+//bridge-file-version: #31
 {
 	"resource_pack_name": "TerrariaModLLS",
 	"texture_name": "atlas.items",
@@ -20,9 +20,6 @@
 		},
 		"terrariamod:purity_campfire": {
 			"textures": "textures/items/block_placers/purity_campfire"
-		},
-		"terrariamod:underworld_transporter": {
-			"textures": "textures/items/block_placers/underworld_transporter"
 		},
 		"terrariamod:hellforge": {
 			"textures": "textures/items/block_placers/hellforge"
@@ -848,6 +845,36 @@
 		"terrariamod:shiny_red_ballon": {
 			"textures": [
 				"textures/items/accessories/shiny_red_ballon"
+			]
+		},
+		"terrariamod:lava_bucket": {
+			"textures": [
+				"textures/items/lava_bucket"
+			]
+		},
+		"terrariamod:water_bucket": {
+			"textures": [
+				"textures/items/water_bucket"
+			]
+		},
+		"terrariamod:bug_net": {
+			"textures": [
+				"textures/items/bug_net"
+			]
+		},
+		"terrariamod:goldfish_item": {
+			"textures": [
+				"textures/items/catches/goldfish_item"
+			]
+		},
+		"terrariamod:worm_item": {
+			"textures": [
+				"textures/items/catches/worm_item"
+			]
+		},
+		"terrariamod:bunny_item": {
+			"textures": [
+				"textures/items/catches/bunny_item"
 			]
 		}
 	}

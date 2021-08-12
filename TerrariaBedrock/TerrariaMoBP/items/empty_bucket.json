@@ -1,4 +1,4 @@
-//bridge-file-version: #20
+//bridge-file-version: #1
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
@@ -14,9 +14,27 @@
 				"parent": "equipment"
 			},
 			"minecraft:display_name": {
-				"value": "Empty Bucket\n§9Can be used to scoop up a small amount of liquid"
+				"value": "Empty Bucket\n§9Can be used to scoop up a small amount of honey"
+			},
+			"minecraft:on_use_on": {
+				"on_use_on": {
+					"event": "terrariamod:scope"
+				}
 			}
 		},
-		"events": {}
+		"events": {
+			"terrariamod:scope": {
+				"run_command": {
+					"command": [
+						"gamerule sendcommandfeedback false",
+						"summon armor_stand ~~~",
+						"execute @e[type=armor_stand] ~~~ detect ~ ~ ~ terrariamod:honey 0 function take_crude_oil",
+						"tp @e[type=armor_stand] ~1000 ~ ~",
+						"gamerule sendcommandfeedback true"
+					],
+					"target": "block"
+				}
+			}
+		}
 	}
 }

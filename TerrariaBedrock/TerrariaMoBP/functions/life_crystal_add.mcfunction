@@ -1,10 +1,7 @@
-#bridge-file-version: #50
 scoreboard objectives add lcrystals dummy lcrystals
 scoreboard objectives add flc dummy flc
- 
 scoreboard players add @s lcrystals 1
 execute @s[scores={lcrystals=..68}] ~ ~ ~ clear @s terrariamod:lifecrystal 0 1
- 
 execute @s[scores={lcrystals=1}] ~ ~ ~ effect @s health_boost 100000000 1 true
 execute @s[scores={lcrystals=2}] ~ ~ ~ effect @s health_boost 100000000 2 true
 execute @s[scores={lcrystals=3}] ~ ~ ~ effect @s health_boost 100000000 3 true
@@ -72,5 +69,3 @@ execute @s[scores={lcrystals=65}] ~ ~ ~ effect @s health_boost 100000000 65 true
 execute @s[scores={lcrystals=66}] ~ ~ ~ effect @s health_boost 100000000 66 true
 execute @s[scores={lcrystals=67}] ~ ~ ~ effect @s health_boost 100000000 67 true
 execute @s[scores={lcrystals=67..}] ~ ~ ~ effect @s health_boost 100000000 67 true
- 
- 

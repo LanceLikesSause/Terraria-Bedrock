@@ -1,0 +1,26 @@
+//bridge-file-version: #15
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "terrariamod:worm_item",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:hand_equipped": true,
+			"minecraft:icon": {
+				"texture": "terrariamod:worm_item"
+			},
+			"minecraft:display_name": {
+				"value": "Worm"
+			},
+			"minecraft:creative_category": {
+				"parent": "nature"
+			},
+			"minecraft:entity_placer": {
+				"entity": "terrariamod:worm"
+			}
+		},
+		"events": {}
+	}
+}

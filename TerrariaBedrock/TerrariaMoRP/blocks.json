@@ -1,4 +1,4 @@
-//bridge-file-version: #63
+//bridge-file-version: #64
 {
 	"terrariamod:shadoworb": {
 		"sound": "wood"
@@ -166,17 +166,11 @@
 	"terrariamod:daybloom": {
 		"sound": "grass"
 	},
-	"terrariamod:mushroom_hat": {
-		"sound": "wood",
-		"textures": "mushroom_hat"
+	"terrariamod:giant_glowing_mushroom_hat": {
+		"sound": "wood"
 	},
-	"terrariamod:mushroom_stem": {
-		"sound": "wood",
-		"textures": {
-			"down": "mushroom_stem_up",
-			"side": "mushroom_stem_side",
-			"up": "mushroom_stem_up"
-		}
+	"terrariamod:giant_glowing_mushroom_stem": {
+		"sound": "wood"
 	},
 	"terrariamod:mushroom_grass": {
 		"sound": "grass",
@@ -390,10 +384,6 @@
 	"terrariamod:redbrick": {
 		"sound": "stone",
 		"textures": "redbrick"
-	},
-	"terrariamod:underworld_transporter": {
-		"sound": "stone",
-		"textures": "underworld_transporter"
 	},
 	"terrariamod:purity_candle": {
 		"sound": "wood"

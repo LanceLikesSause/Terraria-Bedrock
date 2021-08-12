@@ -1,4 +1,4 @@
-//bridge-file-version: #58
+//bridge-file-version: #0
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
@@ -20,7 +20,11 @@
 			"minecraft:use_animation": "eat",
 			"minecraft:block_placer": {
 				"use_block_description": false,
-				"block": "terrariamod:purity_jungle_sapling"
+				"block": "terrariamod:purity_jungle_sapling",
+				"use_on": [
+					"terrariamod:jungle_grass",
+					"terrariamod:purity_mud"
+				]
 			},
 			"minecraft:creative_category": {
 				"parent": "nature"

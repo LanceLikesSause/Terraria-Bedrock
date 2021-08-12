@@ -1,4 +1,4 @@
-//bridge-file-version: #57
+//bridge-file-version: #0
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
@@ -20,7 +20,10 @@
 			"minecraft:use_animation": "eat",
 			"minecraft:block_placer": {
 				"use_block_description": false,
-				"block": "terrariamod:purity_snow_sapling"
+				"block": "terrariamod:purity_snow_sapling",
+				"use_on": [
+					"terrariamod:purity_snow"
+				]
 			},
 			"minecraft:creative_category": {
 				"parent": "nature"

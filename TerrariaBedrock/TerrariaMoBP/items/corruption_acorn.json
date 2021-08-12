@@ -1,4 +1,4 @@
-//bridge-file-version: #60
+//bridge-file-version: #0
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
@@ -20,7 +20,11 @@
 			"minecraft:use_animation": "eat",
 			"minecraft:block_placer": {
 				"use_block_description": false,
-				"block": "terrariamod:corruption_sapling"
+				"block": "terrariamod:corruption_sapling",
+				"use_on": [
+					"terrariamod:corrupted_grass",
+					"terrariamod:purity_dirt"
+				]
 			},
 			"minecraft:creative_category": {
 				"parent": "nature"

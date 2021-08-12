@@ -1,0 +1,59 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.giant_glowing_mushroom_hat",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "bb_main",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-12.32, 0, -12.32],
+							"size": [24.64, 15.4, 24.64],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [16, 16]},
+								"east": {"uv": [0, 0], "uv_size": [16, 16]},
+								"south": {"uv": [0, 0], "uv_size": [16, 16]},
+								"west": {"uv": [0, 0], "uv_size": [16, 16]},
+								"up": {"uv": [16, 16], "uv_size": [-16, -16]},
+								"down": {"uv": [16, 16], "uv_size": [-16, -16]}
+							}
+						},
+						{
+							"origin": [-9.24, 15.4, -9.24],
+							"size": [18.48, 6.16, 18.48],
+							"uv": {
+								"north": {"uv": [12, 12], "uv_size": [12, 4]},
+								"east": {"uv": [0, 12], "uv_size": [12, 4]},
+								"south": {"uv": [36, 12], "uv_size": [12, 4]},
+								"west": {"uv": [24, 12], "uv_size": [12, 4]},
+								"up": {"uv": [12, 0], "uv_size": [12, 12]},
+								"down": {"uv": [24, 12], "uv_size": [12, -12]}
+							}
+						},
+						{
+							"origin": [-6.16, 21.56, -6.16],
+							"size": [12.32, 3.08, 12.32],
+							"uv": {
+								"north": {"uv": [8, 8], "uv_size": [8, 2]},
+								"east": {"uv": [0, 8], "uv_size": [8, 2]},
+								"south": {"uv": [24, 8], "uv_size": [8, 2]},
+								"west": {"uv": [16, 8], "uv_size": [8, 2]},
+								"up": {"uv": [8, 0], "uv_size": [8, 8]},
+								"down": {"uv": [16, 8], "uv_size": [8, -8]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

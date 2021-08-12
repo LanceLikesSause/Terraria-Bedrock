@@ -1,0 +1,41 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "terrariamod:lava_bucket",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "terrariamod:lava_bucket"
+			},
+			"minecraft:creative_category": {
+				"parent": "equipment"
+			},
+			"minecraft:display_name": {
+				"value": "Lava Bucket\n§9Contains a small amount of lava\nCan be poured out"
+			},
+			"minecraft:on_use_on": {
+				"on_use_on": {
+					"event": "terrariamod:scope"
+				}
+			},
+			"minecraft:block_placer": {
+				"block": "minecraft:lava"
+			}
+		},
+		"events": {
+			"terrariamod:scope": {
+				"run_command": {
+					"target": "block",
+					"command": [
+						"gamerule sendcommandfeedback false",
+						"give @p terrariamod:empty_bucket",
+						"gamerule sendcommandfeedback true"
+					]
+				}
+			}
+		}
+	}
+}

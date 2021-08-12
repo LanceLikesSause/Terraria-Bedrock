@@ -1,3 +1,4 @@
+##bridge-file-version: #469
 ##bridge-file-version: #466
 ##bridge-file-version: #456
 #####################Version Number
@@ -93,6 +94,11 @@ enity.terrariamod:goblin_warrior.name=Goblin Warrior
 item.spawn_egg.entity.terrariamod:goblin_warrior.name=Spawn Goblin Warrior
 enity.terrariamod:goblin_archer.name=Goblin Archer
 item.spawn_egg.entity.terrariamod:goblin_archer.name=Spawn Goblin Archer
+
+##glowing mushroom
+tile.terrariamod:giant_glowing_mushroom_hat.name=Giant Glowing Mushroom Hat
+tile.terrariamod:giant_glowing_mushroom_stem.name=Giant Glowing Mushroom Stem 
+
 ##snow
 tile.terrariamod:tree_bottom_snow.name=Snow Tree Stem
 tile.terrariamod:tree_log_snow=Snow Tree Log
@@ -240,8 +246,8 @@ tile.terrariamod:wooden_chair.name=Wooden Chair
 tile.terrariamod:bottle_station.name=Bottle Station
 tile.terrariamod:purity_campire.name=Campfire
 tile.terrariamod:crimson_alter.name=Crimson Alter
-tile.terrariamod:demon_alter.name=Demon Alter
-tile.terrariamod:demon_alter=Demon Alter
+tile.terrariamod:demon_alter.name=Demon Altar
+tile.terrariamod:demon_alter=Demon Altar
 tile.terrariamod:crimson_alter=Crimson Alter
 tile.terrariamod:workbench.name=Workbench
 tile.terrariamod:workbench.name=Workbench
@@ -443,6 +449,12 @@ item.spawn_egg.entity.terrariamod:hornet.name=Spawn Hornet
 entity.terrariamod:hornet.name=Hornet
 item.spawn_egg.entity.terrariamod:goblin_thief.name=Spawn Goblin Theif
 entity.terrariamod:goblin_thief.name=Goblin Theif
+item.spawn_egg.entity.terrariamod:bunny.name=Bunny
+entity.terrariamod:bunny.name=Bunny
+item.spawn_egg.entity.terrariamod:goldfish.name=Goldfish
+entity.terrariamod:goldfish.name=Goldfish
+item.spawn_egg.entity.terrariamod:worm.name=Worm
+entity.terrariamod:worm.name=Worm
 
 tile.terrariamod:copperblock.name=Copper Block
 tile.terrariamod:tinblock.name=Tin Block

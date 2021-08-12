@@ -1,14 +1,22 @@
 {
-  "format_version": "1.10.0",
-  "animations": {
-    "animation.hellstonesword.wield": {
-      "loop": true,
-      "bones": {
-        "rightitem": {
-          "position": [ "c.is_first_person ? -4.0 : 0.0", "c.is_first_person ? 20.0 : 20.0", "c.is_first_person ? 3.0 : 10.0" ],
-          "rotation": [ "c.is_first_person ? -15.0 : 0.0", "c.is_first_person ? 55.0 : 0.0", "c.is_first_person ? -35.0 : 0.0" ]
-        }
-      }
-    }
-  }
+	"format_version": "1.10.0",
+	"animations": {
+		"animation.hellstonesword.wield": {
+			"loop": true,
+			"bones": {
+				"rightitem": {
+					"position": [
+						"c.is_first_person?-4:0",
+						"c.is_first_person?20:20",
+						"c.is_first_person?3:10"
+					],
+					"rotation": [
+						"c.is_first_person?-15:0",
+						"c.is_first_person?55:0",
+						"c.is_first_person?-35:0"
+					]
+				}
+			}
+		}
+	}
 }

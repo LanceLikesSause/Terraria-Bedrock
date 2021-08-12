@@ -8,7 +8,7 @@
 				"npc_name": {
 					"rawtext": [
 						{
-							"translate": "Terraria Bedrock setup..."
+							"translate": "Terraria Bedrock setup"
 						}
 					]
 				},
@@ -27,31 +27,31 @@
 						"name": {
 							"rawtext": [
 								{
-									"translate": "Difficulties"
+									"translate": "Your difficulty"
 								}
 							]
 						},
 						"commands": [
-							"/dialogue open @s @initiator choose_difficulty"
+							"/dialogue open @s @initiator choose_character_difficulty"
 						]
 					},
 					{
 						"name": {
 							"rawtext": [
 								{
-									"translate": "what to put?"
+									"translate": "World difficulty"
 								}
 							]
 						},
 						"commands": [
-							"/dialogue open @s @initiator credits"
+							"/dialogue open @s @initiator choose_world_difficulty"
 						]
 					}
 				],
 				"on_close_commands": {}
 			},
 			{
-				"scene_tag": "choose_difficulty",
+				"scene_tag": "choose_character_difficulty",
 				"npc_name": {
 					"rawtext": [
 						{
@@ -62,7 +62,7 @@
 				"text": {
 					"rawtext": [
 						{
-							"translate": "Choose Difficulty",
+							"translate": "Choose your difficulty",
 							"with": [
 								0
 							]
@@ -131,18 +131,18 @@
 				"on_close_commands": {}
 			},
 			{
-				"scene_tag": "credits",
+				"scene_tag": "choose_world_difficulty",
 				"npc_name": {
 					"rawtext": [
 						{
-							"translate": "Credits"
+							"translate": "Terraria Bedrock setup"
 						}
 					]
 				},
 				"text": {
 					"rawtext": [
 						{
-							"translate": "made by blah blah blah",
+							"translate": "Choose your world's difficulty. §4Warning the following buttons will not do anything, they are there for when world difficulty is actually added.",
 							"with": [
 								0
 							]
@@ -150,6 +150,42 @@
 					]
 				},
 				"buttons": [
+					{
+						"name": {
+							"rawtext": [
+								{
+									"translate": "Journey"
+								}
+							]
+						}
+					},
+					{
+						"name": {
+							"rawtext": [
+								{
+									"translate": "Classic"
+								}
+							]
+						}
+					},
+					{
+						"name": {
+							"rawtext": [
+								{
+									"translate": "Expert"
+								}
+							]
+						}
+					},
+					{
+						"name": {
+							"rawtext": [
+								{
+									"translate": "Master"
+								}
+							]
+						}
+					},
 					{
 						"name": {
 							"rawtext": [

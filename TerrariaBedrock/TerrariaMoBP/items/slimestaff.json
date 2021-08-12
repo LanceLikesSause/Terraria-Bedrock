@@ -1,4 +1,4 @@
-//bridge-file-version: #7
+//bridge-file-version: #0
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
@@ -22,7 +22,8 @@
 			},
 			"minecraft:creative_category": {
 				"parent": "equipment"
-			}
+			},
+			"minecraft:hand_equipped": true
 		},
 		"events": {
 			"terrariamod:use": {

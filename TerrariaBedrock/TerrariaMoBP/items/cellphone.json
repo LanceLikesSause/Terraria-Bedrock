@@ -1,4 +1,3 @@
-//bridge-file-version: #10
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
@@ -8,7 +7,7 @@
 		},
 		"components": {
 			"minecraft:display_name": {
-				"value": "Cell Phone\n§9Displays everything, Allows you to return home at will, Also doesn't really finished lol"
+				"value": "Cell Phone\n§9Displays everything\n§9Allows you to return home at will\n§9(isn't finished)"
 			},
 			"minecraft:icon": {
 				"texture": "terrariamod:cellphone"

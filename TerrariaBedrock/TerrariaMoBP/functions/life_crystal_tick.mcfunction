@@ -1,4 +1,3 @@
-#bridge-file-version: #24
 execute @s ~ ~ ~ effect @s instant_health 9 9 true
 execute @s[scores={lcrystals=1}] ~ ~ ~ effect @s health_boost 100000000 1 true
 execute @s[scores={lcrystals=2}] ~ ~ ~ effect @s health_boost 100000000 2 true

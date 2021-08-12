@@ -1,0 +1,29 @@
+//bridge-file-version: #14
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "terrariamod:goldfish",
+			"materials": {
+				"default": "zombie"
+			},
+			"particle_effects": {
+				"bounce_effect": "terrariamod:slime_effect"
+			},
+			"textures": {
+				"default": "textures/entity/pamobile/goldfish"
+			},
+			"geometry": {
+				"walk": "geometry.goldfish_walking",
+				"swim": "geometry.goldfish_swimming"
+			},
+			"render_controllers": [
+				"controller.render.goldfish"
+			],
+			"spawn_egg": {
+				"base_color": "#949493",
+				"overlay_color": "#651818"
+			}
+		}
+	}
+}

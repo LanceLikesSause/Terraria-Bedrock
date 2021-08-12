@@ -1,0 +1,25 @@
+//bridge-file-version: #16
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.goldfish": {
+			"arrays": {
+				"geometries": {
+					"Array.models": [
+						"Geometry.walk",
+						"Geometry.swim"
+					]
+				}
+			},
+			"geometry": "Array.models[query.is_in_water]",
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"textures": [
+				"Texture.default"
+			]
+		}
+	}
+}

@@ -1,0 +1,188 @@
+//bridge-file-version: #13
+{
+	"format_version": "1.16.100",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "terrariamod:bunny",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false,
+			"runtime_identifier": "minecraft:rabbit"
+		},
+		"components": {
+			"minecraft:is_hidden_when_invisible": {},
+			"minecraft:type_family": {
+				"family": [
+					"mob",
+					"villager"
+				]
+			},
+			"minecraft:breathable": {
+				"total_supply": 15,
+				"suffocate_time": 0
+			},
+			"minecraft:nameable": {},
+			"minecraft:health": {
+				"value": 5,
+				"max": 5
+			},
+			"minecraft:hurt_on_condition": {
+				"damage_conditions": [
+					{
+						"filters": {
+							"test": "in_lava",
+							"subject": "self",
+							"operator": "==",
+							"value": true
+						},
+						"cause": "lava",
+						"damage_per_tick": 4
+					}
+				]
+			},
+			"minecraft:collision_box": {
+				"width": 0.67,
+				"height": 0.67
+			},
+			"minecraft:movement": {
+				"value": 0.3
+			},
+			"minecraft:navigation.walk": {
+				"can_path_over_water": true,
+				"avoid_water": true
+			},
+			"minecraft:movement.skip": {},
+			"minecraft:jump.dynamic": {},
+			"minecraft:can_climb": {},
+			"minecraft:leashable": {
+				"soft_distance": 4,
+				"hard_distance": 6,
+				"max_distance": 10
+			},
+			"minecraft:balloonable": {
+				"mass": 0.4
+			},
+			"minecraft:despawn": {
+				"despawn_from_distance": {}
+			},
+			"minecraft:behavior.float": {
+				"priority": 0
+			},
+			"minecraft:behavior.panic": {
+				"priority": 1,
+				"speed_multiplier": 2.2
+			},
+			"minecraft:behavior.avoid_mob_type": {
+				"priority": 4,
+				"entity_types": [
+					{
+						"filters": {
+							"test": "is_family",
+							"subject": "other",
+							"value": "player"
+						},
+						"max_dist": 8,
+						"walk_speed_multiplier": 1.5,
+						"sprint_speed_multiplier": 1.8
+					},
+					{
+						"filters": {
+							"test": "is_family",
+							"subject": "other",
+							"value": "wolf"
+						},
+						"max_dist": 4,
+						"walk_speed_multiplier": 1.5,
+						"sprint_speed_multiplier": 1.8
+					},
+					{
+						"filters": {
+							"test": "is_family",
+							"subject": "other",
+							"value": "monster"
+						},
+						"max_dist": 4,
+						"walk_speed_multiplier": 1.5,
+						"sprint_speed_multiplier": 1.5
+					}
+				]
+			},
+			"minecraft:behavior.breed": {
+				"priority": 2,
+				"speed_multiplier": 0.8
+			},
+			"minecraft:behavior.tempt": {
+				"priority": 3,
+				"speed_multiplier": 1,
+				"items": [
+					"golden_carrot",
+					"carrot",
+					"yellow_flower"
+				]
+			},
+			"minecraft:behavior.raid_garden": {
+				"priority": 5,
+				"blocks": [
+					"minecraft:carrots"
+				],
+				"search_range": 16,
+				"goal_radius": 0.8
+			},
+			"minecraft:behavior.random_stroll": {
+				"priority": 6,
+				"speed_multiplier": 0.6,
+				"xz_dist": 2,
+				"y_dist": 1
+			},
+			"minecraft:behavior.look_at_player": {
+				"priority": 11
+			},
+			"minecraft:physics": {},
+			"minecraft:pushable": {
+				"is_pushable": true,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:conditional_bandwidth_optimization": {},
+			"minecraft:interact": {
+				"interactions": [
+					{
+						"interact_text": "Catch",
+						"on_interact": {
+							"filters": {
+								"subject": "player",
+								"test": "has_equipment",
+								"domain": "hand",
+								"operator": "equals",
+								"value": "terrariamod:bug_net"
+							},
+							"event": "terrariamod:catch"
+						}
+					}
+				]
+			}
+		},
+		"component_groups": {
+			"terrariamod:despawn_group": {
+				"minecraft:instant_despawn": {
+					"remove_child_entities": true
+				}
+			}
+		},
+		"events": {
+			"terrariamod:catch": {
+				"add": {
+					"component_groups": [
+						"terrariamod:despawn_group"
+					]
+				},
+				"run_command": {
+					"command": [
+						"gamerule sendcommandfeedback false",
+						"give @p terrariamod:bunny_item",
+						"gamerule sendcommandfeedback true"
+					]
+				}
+			}
+		}
+	}
+}

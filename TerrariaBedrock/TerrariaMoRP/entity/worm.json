@@ -1,0 +1,25 @@
+//bridge-file-version: #5
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "terrariamod:worm",
+			"materials": {
+				"default": "zombie"
+			},
+			"textures": {
+				"default": "textures/entity/pamobile/worm"
+			},
+			"geometry": {
+				"default": "geometry.worm"
+			},
+			"render_controllers": [
+				"controller.render.zombie"
+			],
+			"spawn_egg": {
+				"base_color": "#552807",
+				"overlay_color": "#D27517"
+			}
+		}
+	}
+}

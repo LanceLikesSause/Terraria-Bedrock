@@ -1,4 +1,4 @@
-//bridge-file-version: #26
+//bridge-file-version: #28
 {
 	"format_version": "1.13.0",
 	"minecraft:feature_rules": {
@@ -17,15 +17,27 @@
 			]
 		},
 		"distribution": {
-			"iterations": 12,
-			"y": "query.heightmap(variable.worldx, variable.worldz)",
+			"iterations": 5,
 			"scatter_chance": {
 				"numerator": 1,
 				"denominator": 2
 			},
 			"coordinate_eval_order": "xzy",
-			"x": 0,
-			"z": 0
+			"x": {
+				"distribution": "uniform",
+				"extent": [
+					0,
+					16
+				]
+			},
+			"y": "query.heightmap(variable.worldx, variable.worldz)",
+			"z": {
+				"distribution": "uniform",
+				"extent": [
+					0,
+					16
+				]
+			}
 		}
 	}
 }

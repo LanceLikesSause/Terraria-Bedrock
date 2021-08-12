@@ -1,6 +1,6 @@
-//bridge-file-version: #38
+//bridge-file-version: #18
 {
-	"format_version": "1.16.0",
+	"format_version": "1.16.100",
 	"minecraft:entity": {
 		"description": {
 			"identifier": "terrariamod:oldman",
@@ -202,10 +202,6 @@
 					}
 				]
 			},
-			"minecraft:behavior.move_towards_restriction": {
-				"priority": 10,
-				"speed_multiplier": 0.6
-			},
 			"minecraft:behavior.random_stroll": {
 				"priority": 10,
 				"speed_multiplier": 0.6
@@ -239,18 +235,28 @@
 			"minecraft:shooter": {
 				"def": "terrariamod:musketball_projectile_flintlockpistol"
 			},
+			"minecraft:npc": {},
 			"minecraft:interact": {
 				"interactions": [
 					{
-						"cooldown": 999,
 						"interact_text": "curse",
 						"on_interact": {
+							"filters": {
+								"test": "is_daytime",
+								"operator": "equals",
+								"value": true
+							},
 							"event": "terrariamod:on_interact_1"
 						}
 					},
 					{
 						"interact_text": "talk",
 						"on_interact": {
+							"filters": {
+								"test": "is_daytime",
+								"operator": "not",
+								"value": true
+							},
 							"event": "terrariamod:on_interact_2"
 						}
 					}
@@ -259,44 +265,37 @@
 		},
 		"events": {
 			"terrariamod:on_interact_1": {
-				"add": {
-					"component_groups": [
-						"bridge:execute_command_id_1"
-					]
-				}
+				"randomize": [
+					{
+						"weight": 1,
+						"run_command": {
+							"command": [
+								"say I cannot let you enter until you free me of my curse."
+							]
+						}
+					},
+					{
+						"weight": 1,
+						"run_command": {
+							"command": [
+								"say Come back at night if you wish to enter."
+							]
+						}
+					},
+					{
+						"weight": 1,
+						"run_command": {
+							"command": [
+								"say My master cannot be summoned under the light of day."
+							]
+						}
+					}
+				]
 			},
 			"terrariamod:on_interact_2": {
-				"add": {
-					"component_groups": [
-						"bridge:execute_command_id_2"
-					]
-				}
-			},
-			"bridge:remove_command_id_1": {
-				"add": {
-					"component_groups": [
-						"bridge:execute_no_command",
-						"bridge:execute_no_command"
-					]
-				},
-				"remove": {
-					"component_groups": [
-						"bridge:execute_command_id_1",
-						"bridge:execute_command_id_1"
-					]
-				}
-			},
-			"bridge:remove_command_id_2": {
-				"add": {
-					"component_groups": [
-						"bridge:execute_no_command",
-						"bridge:execute_no_command"
-					]
-				},
-				"remove": {
-					"component_groups": [
-						"bridge:execute_command_id_2",
-						"bridge:execute_command_id_2"
+				"run_command": {
+					"command": [
+						"dialogue open @s @p oldman_dialogue"
 					]
 				}
 			}

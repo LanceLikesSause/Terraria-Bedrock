@@ -4,7 +4,7 @@
 	"minecraft:entity": {
 		"description": {
 			"animations": {
-				"mana": "controller.animation.mana",
+				"world_creation": "controller.animation.world_creation",
 				"health": "controller.animation.health",
 				"player_death": "controller.animation.player_death",
 				"music": "controller.animation.music",
@@ -12,7 +12,7 @@
 			},
 			"scripts": {
 				"animate": [
-					"mana",
+					"world_creation",
 					"health",
 					"player_death",
 					"music",
@@ -83,7 +83,7 @@
 		},
 		"components": {
 			"minecraft:experience_reward": {
-				"on_death": "Math.Min(query.player_level * 7, 100)"
+				"on_death": "math.min(query.player_level*7,100)"
 			},
 			"minecraft:type_family": {
 				"family": [

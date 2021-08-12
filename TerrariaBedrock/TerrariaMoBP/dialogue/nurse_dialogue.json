@@ -1,0 +1,52 @@
+//bridge-file-version: #131
+{
+	"format_version": "1.16.100",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "nurse_dialogue",
+				"npc_name": {
+					"rawtext": [
+						{
+							"translate": "Nurse"
+						}
+					]
+				},
+				"text": {
+					"rawtext": [
+						{
+							"translate": "Turn your head and cough.",
+							"with": [
+								0
+							]
+						}
+					]
+				},
+				"buttons": [
+					{
+						"name": {
+							"rawtext": [
+								{
+									"translate": "Heal"
+								}
+							]
+						},
+						"commands": [
+							"/effect @p regeneration 5 9"
+						]
+					},
+					{
+						"name": {
+							"rawtext": [
+								{
+									"translate": "Close"
+								}
+							]
+						}
+					}
+				],
+				"on_close_commands": {}
+			}
+		]
+	}
+}

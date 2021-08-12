@@ -1,0 +1,45 @@
+//bridge-file-version: #5
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "terrariamod:bunny",
+			"min_engine_version": "1.8.0",
+			"materials": {
+				"default": "rabbit"
+			},
+			"textures": {
+				"toast": "textures/entity/rabbit/toast",
+				"salt": "textures/entity/rabbit/salt",
+				"gold": "textures/entity/rabbit/gold",
+				"white_splotched": "textures/entity/rabbit/white_splotched",
+				"black": "textures/entity/rabbit/blackrabbit",
+				"white": "textures/entity/rabbit/white",
+				"brown": "textures/entity/pamobile/bunny"
+			},
+			"geometry": {
+				"default": "geometry.rabbit.v1.8"
+			},
+			"animations": {
+				"move": "animation.rabbit.move",
+				"baby_transform": "animation.rabbit.baby_transform",
+				"look_at_target": "animation.common.look_at_target"
+			},
+			"animation_controllers": [
+				{
+					"general": "controller.animation.rabbit.general"
+				},
+				{
+					"baby": "controller.animation.rabbit.baby"
+				}
+			],
+			"render_controllers": [
+				"controller.render.rabbit"
+			],
+			"spawn_egg": {
+				"texture": "spawn_egg",
+				"texture_index": 24
+			}
+		}
+	}
+}

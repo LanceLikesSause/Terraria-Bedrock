@@ -1,4 +1,4 @@
-//bridge-file-version: #55
+//bridge-file-version: #60
 {
 	"resource_pack_name": "terrariamod",
 	"texture_name": "atlas.terrain",
@@ -108,15 +108,6 @@
 		},
 		"hellforge": {
 			"textures": "textures/blocks/hellforge"
-		},
-		"mushroom_hat": {
-			"textures": "textures/blocks/mushroom_hat"
-		},
-		"mushroom_stem_up": {
-			"textures": "textures/blocks/mushroom_stem_up"
-		},
-		"mushroom_stem_side": {
-			"textures": "textures/blocks/mushroom_stem_side"
 		},
 		"mushroom_grass_up": {
 			"textures": "textures/blocks/mushroom_grass_up"
@@ -304,11 +295,6 @@
 				"textures/blocks/redbrick"
 			]
 		},
-		"underworld_transporter": {
-			"textures": [
-				"textures/blocks/underworld_transporter"
-			]
-		},
 		"purity_candle": {
 			"textures": [
 				"textures/blocks/purity_candle"
@@ -461,6 +447,21 @@
 		"purity_bed": {
 			"textures": [
 				"textures/blocks/purity_bed"
+			]
+		},
+		"crystalheart": {
+			"textures": [
+				"textures/blocks/crystalheart"
+			]
+		},
+		"giant_glowing_mushroom_hat": {
+			"textures": [
+				"textures/blocks/giant_glowing_mushroom_hat"
+			]
+		},
+		"giant_glowing_mushroom_stem": {
+			"textures": [
+				"textures/blocks/giant_glowing_mushroom_stem"
 			]
 		}
 	}

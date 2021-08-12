@@ -1,0 +1,26 @@
+//bridge-file-version: #6
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "terrariamod:goldfish_item",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:hand_equipped": true,
+			"minecraft:icon": {
+				"texture": "terrariamod:goldfish_item"
+			},
+			"minecraft:display_name": {
+				"value": "Gold Fish\n§9'It's smiling, might be a good snack'"
+			},
+			"minecraft:creative_category": {
+				"parent": "nature"
+			},
+			"minecraft:entity_placer": {
+				"entity": "terrariamod:goldfish"
+			}
+		},
+		"events": {}
+	}
+}

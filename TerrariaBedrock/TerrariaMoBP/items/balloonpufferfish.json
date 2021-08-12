@@ -1,4 +1,3 @@
-//bridge-file-version: #39
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
@@ -15,7 +14,7 @@
 				"texture": "terrariamod:balloonpufferfish"
 			},
 			"minecraft:display_name": {
-				"value": "Ballon Pufferfish\n§9Increases jump height"
+				"value": "Balloon Pufferfish\n§9Increases jump height"
 			},
 			"minecraft:on_use": {
 				"on_use": {

@@ -1,0 +1,52 @@
+//bridge-file-version: #126
+{
+	"format_version": "1.16.100",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "oldman_dialogue",
+				"npc_name": {
+					"rawtext": [
+						{
+							"translate": "Old Man"
+						}
+					]
+				},
+				"text": {
+					"rawtext": [
+						{
+							"translate": "Defeat my master, and I will grant you passage into the Dungeon.",
+							"with": [
+								0
+							]
+						}
+					]
+				},
+				"buttons": [
+					{
+						"name": {
+							"rawtext": [
+								{
+									"translate": "Curse"
+								}
+							]
+						},
+						"commands": [
+							"/summon terrariamod:skeletron_head"
+						]
+					},
+					{
+						"name": {
+							"rawtext": [
+								{
+									"translate": "Close"
+								}
+							]
+						}
+					}
+				],
+				"on_close_commands": {}
+			}
+		]
+	}
+}

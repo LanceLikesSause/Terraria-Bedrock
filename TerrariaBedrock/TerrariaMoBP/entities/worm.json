@@ -1,0 +1,88 @@
+//bridge-file-version: #8
+{
+	"format_version": "1.16.100",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "terrariamod:worm",
+			"runtime_identifier": {},
+			"is_summonable": true,
+			"is_spawnable": true
+		},
+		"component_groups": {
+			"terrariamod:despawn_group": {
+				"minecraft:instant_despawn": {
+					"remove_child_entities": true
+				}
+			}
+		},
+		"components": {
+			"minecraft:navigation.walk": {
+				"is_amphibious": true,
+				"can_pass_doors": true,
+				"can_walk": true,
+				"can_break_doors": true
+			},
+			"minecraft:jump.static": {},
+			"minecraft:breathable": {
+				"total_supply": 15,
+				"suffocate_time": 0,
+				"breathes_air": true,
+				"breathes_water": true
+			},
+			"minecraft:behavior.random_stroll": {
+				"priority": 7,
+				"speed_multiplier": 1
+			},
+			"minecraft:behavior.look_at_player": {
+				"priority": 8,
+				"look_distance": 6,
+				"probability": 0.02
+			},
+			"minecraft:behavior.random_look_around": {
+				"priority": 9
+			},
+			"minecraft:physics": {},
+			"minecraft:pushable": {
+				"is_pushable": true,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:movement": {
+				"value": 0.25
+			},
+			"minecraft:movement.basic": {},
+			"minecraft:interact": {
+				"interactions": [
+					{
+						"interact_text": "Catch",
+						"on_interact": {
+							"filters": {
+								"subject": "player",
+								"test": "has_equipment",
+								"domain": "hand",
+								"operator": "equals",
+								"value": "terrariamod:bug_net"
+							},
+							"event": "terrariamod:catch"
+						}
+					}
+				]
+			}
+		},
+		"events": {
+			"terrariamod:catch": {
+				"add": {
+					"component_groups": [
+						"terrariamod:despawn_group"
+					]
+				},
+				"run_command": {
+					"command": [
+						"gamerule sendcommandfeedback false",
+						"give @p terrariamod:worm_item",
+						"gamerule sendcommandfeedback true"
+					]
+				}
+			}
+		}
+	}
+}

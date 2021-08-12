@@ -1,4 +1,4 @@
-//bridge-file-version: #13
+//bridge-file-version: #3
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
@@ -8,15 +8,34 @@
 		},
 		"components": {
 			"minecraft:icon": {
-				"texture": "terrariamod:empty_bucket"
+				"texture": "terrariamod:water_bucket"
 			},
 			"minecraft:creative_category": {
 				"parent": "equipment"
 			},
 			"minecraft:display_name": {
-				"value": "Water Bucket\n§9Contains a small amount of water"
+				"value": "Water Bucket\n§9Contains a small amount of water\nCan be poured out"
+			},
+			"minecraft:on_use_on": {
+				"on_use_on": {
+					"event": "terrariamod:use"
+				}
+			},
+			"minecraft:block_placer": {
+				"block": "minecraft:water"
 			}
 		},
-		"events": {}
+		"events": {
+			"terrariamod:use": {
+				"run_command": {
+					"target": "block",
+					"command": [
+						"gamerule sendcommandfeedback false",
+						"give @p terrariamod:empty_bucket",
+						"gamerule sendcommandfeedback true"
+					]
+				}
+			}
+		}
 	}
 }

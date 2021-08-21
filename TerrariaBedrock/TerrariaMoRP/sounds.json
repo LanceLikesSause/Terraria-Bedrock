@@ -1,4 +1,4 @@
-//bridge-file-version: #65
+//bridge-file-version: #67
 {
 	"entity_sounds": {
 		"entities": {
@@ -740,8 +740,8 @@
 					1,
 					1
 				],
-				"sound": "random.pop",
-				"volume": 6
+				"volume": 6,
+				"sound": "random.pop"
 			},
 			"terrariamod:fireimp": {
 				"volume": 1,
@@ -840,6 +840,102 @@
 						"pitch": 0.9
 					}
 				}
+			},
+			"terrariamod:dummy_depthmeter": {
+				"volume": 0,
+				"pitch": [
+					0,
+					0
+				],
+				"events": {
+					"hurt": {
+						"sound": "slime.hurt",
+						"volume": 0,
+						"pitch": 0
+					},
+					"ambient": {
+						"sound": "slime.ambient",
+						"volume": 0,
+						"pitch": 0
+					},
+					"death": {
+						"sound": "slime.death",
+						"volume": 0,
+						"pitch": 0
+					}
+				}
+			},
+			"terrariamod:dummy_piggy_bank": {
+				"volume": 0,
+				"pitch": [
+					0,
+					0
+				],
+				"events": {
+					"hurt": {
+						"sound": "slime.hurt",
+						"volume": 0,
+						"pitch": 0
+					},
+					"ambient": {
+						"sound": "slime.ambient",
+						"volume": 0,
+						"pitch": 0
+					},
+					"death": {
+						"sound": "slime.death",
+						"volume": 0,
+						"pitch": 0
+					}
+				}
+			},
+			"terrariamod:dummy_chest": {
+				"volume": 0,
+				"pitch": [
+					0,
+					0
+				],
+				"events": {
+					"hurt": {
+						"sound": "slime.hurt",
+						"volume": 0,
+						"pitch": 0
+					},
+					"ambient": {
+						"sound": "slime.ambient",
+						"volume": 0,
+						"pitch": 0
+					},
+					"death": {
+						"sound": "slime.death",
+						"volume": 0,
+						"pitch": 0
+					}
+				}
+			},
+			"terrariamod:harpy": {
+				"events": {
+					"hurt": {
+						"sound": "slime.hurt",
+						"volume": 1,
+						"pitch": 1.1
+					},
+					"ambient": {
+						"sound": "slime.ambient",
+						"volume": 1,
+						"pitch": 1.1
+					},
+					"death": {
+						"sound": "slime.death",
+						"volume": 1,
+						"pitch": 0.9
+					}
+				},
+				"pitch": [
+					0.9,
+					1
+				],
+				"volume": 1
 			}
 		}
 	},

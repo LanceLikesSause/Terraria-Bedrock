@@ -5,7 +5,7 @@
 			"identifier": "terrariamod:purity_wood"
 		},
 		"components": {
-			"minecraft:destroy_time": 5,
+			"minecraft:destroy_time": 3,
 			"minecraft:loot": "loot_tables/blocks/purity_wood_item.json",
 			"tag:terrariamod:wood": {}
 		},

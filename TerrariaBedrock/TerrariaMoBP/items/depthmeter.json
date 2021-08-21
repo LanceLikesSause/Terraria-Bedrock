@@ -31,7 +31,8 @@
 			"minecraft:use": {
 				"run_command": {
 					"command": [
-						"function depthmeter"
+						"summon terrariamod:dummy_depthmeter ~~~",
+						"kill @e[type=terrariamod:dummy_depthmeter]"
 					]
 				}
 			}

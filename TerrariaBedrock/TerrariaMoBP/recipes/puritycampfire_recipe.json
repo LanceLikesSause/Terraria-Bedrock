@@ -6,16 +6,17 @@
 			"identifier": "terrariamod:puritycampfire_recipe"
 		},
 		"tags": [
-			"workbench"
+			"workbench",
+			"crafting_table"
 		],
 		"ingredients": [
 			{
 				"item": "terrariamod:purity_wood_item",
-				"count": 4
+				"count": 2
 			},
 			{
 				"item": "terrariamod:purity_torch_item",
-				"count": 5
+				"count": 2
 			}
 		],
 		"result": [

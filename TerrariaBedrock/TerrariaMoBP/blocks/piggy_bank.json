@@ -1,0 +1,47 @@
+//bridge-file-version: #10
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "terrariamod:piggy_bank"
+		},
+		"components": {
+			"minecraft:destroy_time": 0.1,
+			"minecraft:geometry": "geometry.piggy_bank",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "piggy_bank",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:entity_collision": false,
+			"minecraft:block_light_emission": 0,
+			"tag:terrariamod:plant": {},
+			"minecraft:block_light_absorption": 0,
+			"minecraft:on_placed": {
+				"event": "terrariamod:create_dummy"
+			},
+			"minecraft:on_player_destroyed": {
+				"event": "terrariamod:destroy_dummy",
+				"target": "self"
+			},
+			"minecraft:loot": "loot_tables/blocks/piggy_bank.json"
+		},
+		"events": {
+			"terrariamod:create_dummy": {
+				"run_command": {
+					"command": [
+						"summon terrariamod:dummy_piggy_bank ~~~"
+					]
+				}
+			},
+			"terrariamod:destroy_dummy": {
+				"run_command": {
+					"command": [
+						"kill @e[type=terrariamod:dummy_piggy_bank,r=2]"
+					]
+				}
+			}
+		}
+	}
+}

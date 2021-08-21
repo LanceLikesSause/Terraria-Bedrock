@@ -1,4 +1,4 @@
-//bridge-file-version: #60
+//bridge-file-version: #64
 {
 	"resource_pack_name": "terrariamod",
 	"texture_name": "atlas.terrain",
@@ -22,11 +22,8 @@
 		"purity_loom": {
 			"textures": "textures/blocks/purity_loom"
 		},
-		"sawmill_two": {
-			"textures": "textures/blocks/sawmill_two"
-		},
-		"sawmill_one": {
-			"textures": "textures/blocks/sawmill_one"
+		"sawmill": {
+			"textures": "textures/blocks/sawmill"
 		},
 		"purity_chain": {
 			"textures": "textures/blocks/purity_chain"
@@ -462,6 +459,36 @@
 		"giant_glowing_mushroom_stem": {
 			"textures": [
 				"textures/blocks/giant_glowing_mushroom_stem"
+			]
+		},
+		"cactus_toliet": {
+			"textures": [
+				"textures/blocks/cactus_toliet"
+			]
+		},
+		"piggy_bank": {
+			"textures": [
+				"textures/blocks/piggy_bank"
+			]
+		},
+		"blinkroot": {
+			"textures": [
+				"textures/blocks/blinkroot"
+			]
+		},
+		"deathweed": {
+			"textures": [
+				"textures/blocks/deathweed"
+			]
+		},
+		"fireblossom": {
+			"textures": [
+				"textures/blocks/fireblossom"
+			]
+		},
+		"moonglow": {
+			"textures": [
+				"textures/blocks/moonglow"
 			]
 		}
 	}

@@ -52,6 +52,10 @@
 					"min": 7,
 					"max": 15,
 					"adjust_for_weather": true
+				},
+				"minecraft:height_filter": {
+					"min": 110,
+					"max": 220
 				}
 			}
 		]

@@ -1,0 +1,37 @@
+//bridge-file-version: #5
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "terrariamod:fireblossom"
+		},
+		"components": {
+			"minecraft:destroy_time": 0.1,
+			"minecraft:geometry": "geometry.cross",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "fireblossom",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:entity_collision": false,
+			"minecraft:block_light_emission": 0,
+			"tag:terrariamod:plant": {},
+			"minecraft:block_light_absorption": 0,
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"block_filter": [
+							"terrariamod:ash"
+						],
+						"allowed_faces": [
+							"up"
+						]
+					}
+				]
+			},
+			"minecraft:loot": "loot_tables/blocks/fireblossom_item.json"
+		},
+		"events": {}
+	}
+}

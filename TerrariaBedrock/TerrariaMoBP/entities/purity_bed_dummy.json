@@ -1,20 +1,13 @@
+//bridge-file-version: #1
 {
-	"format_version": "1.16.0",
+	"format_version": "1.16.100",
 	"minecraft:entity": {
 		"description": {
 			"identifier": "terrariamod:purity_bed_dummy",
 			"is_spawnable": false,
 			"is_summonable": true,
 			"is_experimental": false,
-			"runtime_identifier": "minecraft:shulker",
-			"scripts": {
-				"animate": [
-					"bridge_execute_commands"
-				]
-			},
-			"animations": {
-				"bridge_execute_commands": "controller.animation.bridge_purity_bed.execute_commands"
-			}
+			"runtime_identifier": "minecraft:shulker"
 		},
 		"components": {
 			"minecraft:collision_box": {
@@ -70,60 +63,28 @@
 		},
 		"events": {
 			"terrariamod:set_spawn": {
-				"add": {
-					"component_groups": [
-						"bridge:execute_command_id_1"
+				"run_command": {
+					"command": [
+						"spawnpoint @e[type=player,r=3] ~~~",
+						"say Spawnpoint set",
+						"tickingarea add ~~~ ~~~ bed",
+						"weather clear",
+						"scoreboard objectives add hasbed dummy hasbed",
+						"scoreboard players set @e[type=player,r=3] hasbed 1"
 					]
 				}
 			},
 			"terrariamod:remove_spawn": {
-				"add": {
-					"component_groups": [
-						"bridge:execute_command_id_2"
-					]
-				}
-			},
-			"bridge:remove_command_id_1": {
-				"add": {
-					"component_groups": [
-						"bridge:execute_no_command"
-					]
-				},
-				"remove": {
-					"component_groups": [
-						"bridge:execute_command_id_1"
-					]
-				}
-			},
-			"bridge:remove_command_id_2": {
-				"add": {
-					"component_groups": [
-						"bridge:execute_no_command"
-					]
-				},
-				"remove": {
-					"component_groups": [
-						"bridge:execute_command_id_2"
+				"run_command": {
+					"command": [
+						"tickingarea remove_all",
+						"say Removed spawnpoints",
+						"scoreboard players set @e[type=player,r=3] hasbed 0",
+						"scoreboard objectives add hasbed dummy hasbed"
 					]
 				}
 			}
 		},
-		"component_groups": {
-			"bridge:execute_command_id_1": {
-				"minecraft:skin_id": {
-					"value": 1
-				}
-			},
-			"bridge:execute_no_command": {
-				"minecraft:skin_id": {
-					"value": 0
-				}
-			},
-			"bridge:execute_command_id_2": {
-				"minecraft:skin_id": {
-					"value": 2
-				}
-			}
-		}
+		"component_groups": {}
 	}
 }

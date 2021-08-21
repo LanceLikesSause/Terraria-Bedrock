@@ -1,4 +1,4 @@
-//bridge-file-version: #28
+//bridge-file-version: #30
 {
 	"format_version": "1.13.0",
 	"minecraft:feature_rules": {
@@ -7,14 +7,14 @@
 			"places_feature": "minecraft:tree_feature"
 		},
 		"conditions": {
-			"placement_pass": "final_pass",
 			"minecraft:biome_filter": [
 				{
 					"test": "has_biome_tag",
 					"operator": "==",
 					"value": "purity_forest"
 				}
-			]
+			],
+			"placement_pass": "before_underground_pass"
 		},
 		"distribution": {
 			"iterations": 5,

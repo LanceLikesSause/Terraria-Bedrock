@@ -24,7 +24,11 @@
 					"min": 6,
 					"max": 15
 				},
-				"minecraft:spawns_on_surface": {}
+				"minecraft:spawns_on_surface": {},
+				"minecraft:height_filter": {
+					"min": 110,
+					"max": 220
+				}
 			}
 		]
 	}

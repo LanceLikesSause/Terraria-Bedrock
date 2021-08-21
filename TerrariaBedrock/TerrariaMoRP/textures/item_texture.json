@@ -1,4 +1,4 @@
-//bridge-file-version: #31
+//bridge-file-version: #41
 {
 	"resource_pack_name": "TerrariaModLLS",
 	"texture_name": "atlas.items",
@@ -91,7 +91,7 @@
 			"textures": "textures/items/purity_bed"
 		},
 		"terrariamod:jungle_wood": {
-			"textures": "textures/items/jungle_wood"
+			"textures": "textures/items/block_placers/jungle_wood"
 		},
 		"terrariamod:acorn": {
 			"textures": "textures/items/pamobile/acorn"
@@ -100,13 +100,13 @@
 			"textures": "textures/items/pamobile/victoriousmushroom"
 		},
 		"terrariamod:crimson_wood": {
-			"textures": "textures/items/crimson_wood"
+			"textures": "textures/items/block_placers/crimson_wood"
 		},
 		"terrariamod:corrupted_wood": {
-			"textures": "textures/items/corrupted_wood"
+			"textures": "textures/items/block_placers/corrupted_wood"
 		},
 		"terrariamod:purity_wood": {
-			"textures": "textures/items/purity_wood"
+			"textures": "textures/items/block_placers/purity_wood"
 		},
 		"terrariamod:cellphone": {
 			"textures": "textures/items/cellphone"
@@ -628,254 +628,199 @@
 			"textures": "textures/items/armor/meteorite_greaves"
 		},
 		"terrariamod:wormfood": {
-			"textures": [
-				"textures/items/pamobile/wormfood"
-			]
+			"textures": "textures/items/pamobile/wormfood"
 		},
 		"terrariamod:rottenchunk": {
-			"textures": [
-				"textures/items/pamobile/rottenchunk"
-			]
+			"textures": "textures/items/pamobile/rottenchunk"
 		},
 		"terrariamod:vilemushroom": {
-			"textures": [
-				"textures/items/pamobile/vilemushroom"
-			]
+			"textures": "textures/items/pamobile/vilemushroom"
 		},
 		"terrariamod:purity_torch": {
-			"textures": [
-				"textures/items/purity_torch"
-			]
+			"textures": "textures/items/purity_torch"
 		},
 		"terrariamod:empty_bucket": {
-			"textures": [
-				"textures/items/empty_bucket"
-			]
+			"textures": "textures/items/empty_bucket"
 		},
 		"terrariamod:honey_bucket": {
-			"textures": [
-				"textures/items/honey_bucket"
-			]
+			"textures": "textures/items/honey_bucket"
 		},
 		"terrariamod:bottle_honey": {
-			"textures": [
-				"textures/items/potions/bottle_honey"
-			]
+			"textures": "textures/items/potions/bottle_honey"
 		},
 		"terrariamod:thebeesknees": {
-			"textures": [
-				"textures/items/guns/thebeesknees"
-			]
+			"textures": "textures/items/guns/thebeesknees"
 		},
 		"terrariamod:beegun": {
-			"textures": [
-				"textures/items/guns/bee_gun"
-			]
+			"textures": "textures/items/guns/bee_gun"
 		},
 		"terrariamod:beenade": {
-			"textures": [
-				"textures/items/guns/beenade"
-			]
+			"textures": "textures/items/guns/beenade"
 		},
 		"terrariamod:nectar": {
-			"textures": [
-				"textures/items/weapons/nectar"
-			]
+			"textures": "textures/items/weapons/nectar"
 		},
 		"terrariamod:beewax": {
-			"textures": [
-				"textures/items/pamobile/beewax"
-			]
+			"textures": "textures/items/pamobile/beewax"
 		},
 		"terrariamod:abeemination": {
-			"textures": [
-				"textures/items/pamobile/abeemination"
-			]
+			"textures": "textures/items/pamobile/abeemination"
 		},
 		"terrariamod:hornetstaff": {
-			"textures": [
-				"textures/items/weapons/hornetstaff"
-			]
+			"textures": "textures/items/weapons/hornetstaff"
 		},
 		"terrariamod:snow_wood": {
-			"textures": [
-				"textures/items/snow_wood"
-			]
+			"textures": "textures/items/block_placers/snow_wood"
 		},
 		"terrariamod:wormholepotion": {
-			"textures": [
-				"textures/items/potions/wormholepotion"
-			]
+			"textures": "textures/items/potions/wormholepotion"
 		},
 		"terrariamod:purity_seeds": {
-			"textures": [
-				"textures/items/purity_seeds"
-			]
+			"textures": "textures/items/purity_seeds"
 		},
 		"terrariamod:starting_items_package": {
-			"textures": [
-				"textures/items/starting_items_package"
-			]
+			"textures": "textures/items/starting_items_package"
 		},
 		"terrariamod:recallpotion": {
-			"textures": [
-				"textures/items/potions/recallpotion"
-			]
+			"textures": "textures/items/potions/recallpotion"
 		},
 		"terrariamod:copperbar_pile": {
-			"textures": [
-				"textures/items/bar_piles/copperbar_pile"
-			]
+			"textures": "textures/items/bar_piles/copperbar_pile"
 		},
 		"terrariamod:tinbar_pile": {
-			"textures": [
-				"textures/items/bar_piles/tinbar_pile"
-			]
+			"textures": "textures/items/bar_piles/tinbar_pile"
 		},
 		"terrariamod:leadbar_pile": {
-			"textures": [
-				"textures/items/bar_piles/leadbar_pile"
-			]
+			"textures": "textures/items/bar_piles/leadbar_pile"
 		},
 		"terrariamod:ironbar_pile": {
-			"textures": [
-				"textures/items/bar_piles/ironbar_pile"
-			]
+			"textures": "textures/items/bar_piles/ironbar_pile"
 		},
 		"terrariamod:silverbar_pile": {
-			"textures": [
-				"textures/items/bar_piles/silverbar_pile"
-			]
+			"textures": "textures/items/bar_piles/silverbar_pile"
 		},
 		"terrariamod:tungstenbar_pile": {
-			"textures": [
-				"textures/items/bar_piles/tungstenbar_pile"
-			]
+			"textures": "textures/items/bar_piles/tungstenbar_pile"
 		},
 		"terrariamod:platinumbar_pile": {
-			"textures": [
-				"textures/items/bar_piles/platinumbar_pile"
-			]
+			"textures": "textures/items/bar_piles/platinumbar_pile"
 		},
 		"terrariamod:goldbar_pile": {
-			"textures": [
-				"textures/items/bar_piles/goldbar_pile"
-			]
+			"textures": "textures/items/bar_piles/goldbar_pile"
 		},
 		"terrariamod:crimtanebar_pile": {
-			"textures": [
-				"textures/items/bar_piles/crimtanebar_pile"
-			]
+			"textures": "textures/items/bar_piles/crimtanebar_pile"
 		},
 		"terrariamod:demonitebar_pile": {
-			"textures": [
-				"textures/items/bar_piles/demonitebar_pile"
-			]
+			"textures": "textures/items/bar_piles/demonitebar_pile"
 		},
 		"terrariamod:meteoritebar_pile": {
-			"textures": [
-				"textures/items/bar_piles/meteoritebar_pile"
-			]
+			"textures": "textures/items/bar_piles/meteoritebar_pile"
 		},
 		"terrariamod:hellstonebar_pile": {
-			"textures": [
-				"textures/items/bar_piles/hellstonebar_pile"
-			]
+			"textures": "textures/items/bar_piles/hellstonebar_pile"
 		},
 		"terrariamod:gravitationpotion": {
-			"textures": [
-				"textures/items/potions/gravitationpotion"
-			]
+			"textures": "textures/items/potions/gravitationpotion"
 		},
 		"terrariamod:bloodytear": {
-			"textures": [
-				"textures/items/pamobile/bloodytear"
-			]
+			"textures": "textures/items/pamobile/bloodytear"
 		},
 		"terrariamod:goblinbattlestandard": {
-			"textures": [
-				"textures/items/pamobile/goblinbattlestandard"
-			]
+			"textures": "textures/items/pamobile/goblinbattlestandard"
 		},
 		"terrariamod:thiefsknife": {
-			"textures": [
-				"textures/items/thiefsknife"
-			]
+			"textures": "textures/items/thiefsknife"
 		},
 		"terrariamod:grapplinghook": {
-			"textures": [
-				"textures/items/hooks/grapplinghook"
-			]
+			"textures": "textures/items/hooks/grapplinghook"
 		},
 		"terrariamod:livingwoodwand": {
-			"textures": [
-				"textures/items/weapons/livingwoodwand"
-			]
+			"textures": "textures/items/weapons/livingwoodwand"
 		},
 		"terrariamod:leafwand": {
-			"textures": [
-				"textures/items/weapons/leafwand"
-			]
+			"textures": "textures/items/weapons/leafwand"
 		},
 		"terrariamod:crimson_rod": {
-			"textures": [
-				"textures/items/weapons/crimson_rod"
-			]
+			"textures": "textures/items/weapons/crimson_rod"
 		},
 		"terrariamod:flower_of_fire": {
-			"textures": [
-				"textures/items/guns/flower_of_fire"
-			]
+			"textures": "textures/items/guns/flower_of_fire"
 		},
 		"terrariamod:restorationpotion": {
-			"textures": [
-				"textures/items/potions/restorationpotion"
-			]
+			"textures": "textures/items/potions/restorationpotion"
 		},
 		"terrariamod:pink_gel": {
-			"textures": [
-				"textures/items/pamobile/pink_gel"
-			]
+			"textures": "textures/items/pamobile/pink_gel"
 		},
 		"terrariamod:obsidianskinpotion": {
-			"textures": [
-				"textures/items/potions/obsidianskinpotion"
-			]
+			"textures": "textures/items/potions/obsidianskinpotion"
 		},
 		"terrariamod:shiny_red_ballon": {
-			"textures": [
-				"textures/items/accessories/shiny_red_ballon"
-			]
+			"textures": "textures/items/accessories/shiny_red_ballon"
 		},
 		"terrariamod:lava_bucket": {
-			"textures": [
-				"textures/items/lava_bucket"
-			]
+			"textures": "textures/items/lava_bucket"
 		},
 		"terrariamod:water_bucket": {
-			"textures": [
-				"textures/items/water_bucket"
-			]
+			"textures": "textures/items/water_bucket"
 		},
 		"terrariamod:bug_net": {
-			"textures": [
-				"textures/items/bug_net"
-			]
+			"textures": "textures/items/bug_net"
 		},
 		"terrariamod:goldfish_item": {
-			"textures": [
-				"textures/items/catches/goldfish_item"
-			]
+			"textures": "textures/items/catches/goldfish_item"
 		},
 		"terrariamod:worm_item": {
-			"textures": [
-				"textures/items/catches/worm_item"
-			]
+			"textures": "textures/items/catches/worm_item"
 		},
 		"terrariamod:bunny_item": {
-			"textures": [
-				"textures/items/catches/bunny_item"
-			]
+			"textures": "textures/items/catches/bunny_item"
+		},
+		"terrariamod:cactus_toliet_item": {
+			"textures": "textures/items/block_placers/cactus_toliet"
+		},
+		"terrariamod:piggy_bank_item": {
+			"textures": "textures/items/block_placers/piggy_bank"
+		},
+		"terrariamod:feather": {
+			"textures": "textures/items/pamobile/feather"
+		},
+		"terrariamod:blinkroot_item": {
+			"textures": "textures/items/block_placers/blinkroot"
+		},
+		"terrariamod:fireblossom_item": {
+			"textures": "textures/items/block_placers/fireblossom"
+		},
+		"terrariamod:deathweed_item": {
+			"textures": "textures/items/block_placers/deathweed"
+		},
+		"terrariamod:moonglow": {
+			"textures": "textures/items/block_placers/moonglow"
+		},
+		"terrariamod:manapotion": {
+			"textures": "textures/items/potions/manapotion"
+		},
+		"terrariamod:lessermanapotion": {
+			"textures": "textures/items/potions/lessermanapotion"
+		},
+		"terrariamod:invisibilitypotion": {
+			"textures": "textures/items/potions/invisibilitypotion"
+		},
+		"terrariamod:ironskinpotion": {
+			"textures": "textures/items/potions/ironskinpotion"
+		},
+		"terrariamod:miningpotion": {
+			"textures": "textures/items/potions/miningpotion"
+		},
+		"terrariamod:antlion_mandible": {
+			"textures": "textures/items/pamobile/antlion_mandible"
+		},
+		"terrariamod:featherfallpotion": {
+			"textures": "textures/items/potions/featherfallpotion"
+		},
+		"terrariamod:terragrim": {
+			"textures": "textures/items/swords/terragrim"
 		}
 	}
 }

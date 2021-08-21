@@ -7,9 +7,6 @@
 			"materials": {
 				"default": "zombie"
 			},
-			"particle_effects": {
-				"bounce_effect": "terrariamod:slime_effect"
-			},
 			"textures": {
 				"default": "textures/entity/pamobile/goldfish"
 			},

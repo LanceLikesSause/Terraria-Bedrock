@@ -1,0 +1,25 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.harpy.general": {
+			"loop": true,
+			"animation_length": 0.36,
+			"bones": {
+				"rightWing": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.2": [0, -40, 0],
+						"0.36": [0, 0, 0]
+					}
+				},
+				"leftWing": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.2": [0, 40, 0],
+						"0.36": [0, 0, 0]
+					}
+				}
+			}
+		}
+	}
+}

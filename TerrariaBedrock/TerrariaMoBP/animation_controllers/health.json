@@ -70,7 +70,7 @@
 							"ten_half_heart": "query.health<=210"
 						},
 						{
-							"eleven_heart": "query.health<=220"
+							"eleven_heart": "query.health<=200"
 						},
 						{
 							"eleven_half_heart": "query.health<=230"

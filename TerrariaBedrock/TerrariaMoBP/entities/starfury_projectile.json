@@ -5,15 +5,7 @@
 			"identifier": "terrariamod:starfury_projectile",
 			"is_spawnable": false,
 			"is_summonable": true,
-			"is_experimental": false,
-			"scripts": {
-				"animate": [
-					"fall"
-				]
-			},
-			"animations": {
-				"fall": "controller.animation.starfury_projectile_fall"
-			}
+			"is_experimental": false
 		},
 		"component_groups": {},
 		"components": {
@@ -29,7 +21,6 @@
 						"destroy_on_hit": true
 					}
 				},
-				"hit_sound": "bow.hit",
 				"power": 1.4,
 				"gravity": 0.1,
 				"anchor": 0,

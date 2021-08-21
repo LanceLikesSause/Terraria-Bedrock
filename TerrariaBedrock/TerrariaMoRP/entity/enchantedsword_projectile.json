@@ -8,13 +8,13 @@
 				"default": "arrow"
 			},
 			"textures": {
-				"default": "textures/items/swords/enchantedsword"
+				"default": "textures/items/projectiles/enchantedsword_projectile"
 			},
 			"geometry": {
-				"default": "geometry.item_sprite"
+				"default": "geometry.enchantedsword_projectile"
 			},
 			"animations": {
-				"move": "animation.arrow.move"
+				"move": "animation.arrow_fire.move"
 			},
 			"scripts": {
 				"pre_animation": [

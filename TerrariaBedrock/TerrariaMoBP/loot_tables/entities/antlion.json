@@ -19,6 +19,20 @@
 							}
 						}
 					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "terrariamod:antlion_mandible",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 3,
+								"max": 4
+							}
+						}
+					]
 				}
 			]
 		}

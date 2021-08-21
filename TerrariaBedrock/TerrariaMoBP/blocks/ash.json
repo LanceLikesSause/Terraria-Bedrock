@@ -6,7 +6,7 @@
 			"category": "blocks"
 		},
 		"components": {
-			"minecraft:destroy_time": 4,
+			"minecraft:destroy_time": 3,
 			"minecraft:material_instances": {
 				"*": {
 					"texture": "ash",

@@ -4,7 +4,7 @@
 		"description": {
 			"identifier": "minecraft:tlava_feature"
 		},
-		"count": 50,
+		"count": 30,
 		"replace_rules": [
 			{
 				"places_block": "minecraft:lava",

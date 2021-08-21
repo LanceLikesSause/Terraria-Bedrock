@@ -1,0 +1,28 @@
+//bridge-file-version: #2
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "terrariamod:miningpotion_recipe"
+		},
+		"tags": [
+			"bottle"
+		],
+		"ingredients": [
+			{
+				"item": "terrariamod:blinkroot_item"
+			},
+			{
+				"item": "terrariamod:antlion_mandible"
+			},
+			{
+				"item": "terrariamod:bottle"
+			}
+		],
+		"result": [
+			{
+				"item": "terrariamod:miningpotion"
+			}
+		]
+	}
+}

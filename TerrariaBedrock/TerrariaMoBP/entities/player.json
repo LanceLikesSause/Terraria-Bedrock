@@ -1,4 +1,4 @@
-//bridge-file-version: #0
+//bridge-file-version: #1
 {
 	"format_version": "1.16.100",
 	"minecraft:entity": {
@@ -198,7 +198,8 @@
 				"table": "loot_tables/entities/player_starting_items.json"
 			},
 			"minecraft:inventory": {
-				"inventory_size": 90
+				"inventory_size": 90,
+				"container_type": "inventory"
 			},
 			"minecraft:on_death": {
 				"event": "terrariamod:kill_all_bosses"

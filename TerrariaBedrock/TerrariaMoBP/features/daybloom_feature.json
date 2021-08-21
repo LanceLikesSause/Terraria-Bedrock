@@ -1,8 +1,9 @@
+//bridge-file-version: #1
 {
 	"format_version": "1.13.0",
 	"minecraft:single_block_feature": {
 		"description": {
-			"identifier": "minecraft:daybloom_feature"
+			"identifier": "terrariamod:daybloom_feature"
 		},
 		"places_block": "terrariamod:daybloom",
 		"enforce_survivability_rules": true,

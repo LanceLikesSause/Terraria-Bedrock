@@ -18,7 +18,7 @@
 				"minecraft:biome_filter": {
 					"test": "has_biome_tag",
 					"operator": "==",
-					"value": "purity_forest"
+					"value": "purity"
 				},
 				"minecraft:distance_filter": {
 					"min": 2,

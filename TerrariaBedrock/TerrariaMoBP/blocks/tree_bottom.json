@@ -1,8 +1,15 @@
+//bridge-file-version: #15
 {
 	"format_version": "1.16.100",
 	"minecraft:block": {
 		"description": {
-			"identifier": "terrariamod:tree_bottom"
+			"identifier": "terrariamod:tree_bottom",
+			"properties": {
+				"terrariamod:can_shake": [
+					true,
+					false
+				]
+			}
 		},
 		"components": {
 			"minecraft:destroy_time": 2,
@@ -21,10 +28,7 @@
 			"minecraft:on_player_destroyed": {
 				"event": "terrariamod:destroy_tree"
 			},
-			"tag:terrariamod:plant": {},
-			"minecraft:on_interact": {
-				"event": "terrariamod:shake_tree"
-			}
+			"tag:terrariamod:plant": {}
 		},
 		"events": {
 			"terrariamod:destroy_tree": {
@@ -35,22 +39,34 @@
 				}
 			},
 			"terrariamod:shake_tree": {
-				"randomize": [
+				"sequence": [
 					{
-						"weight": 4,
+						"weight": 1,
 						"spawn_loot": {
 							"table": "loot_tables/blocks/tree_bottom.json"
 						}
 					},
 					{
 						"weight": 1,
-						"die": {},
-						"trigger": {
-							"event": "terrariamod:destroy_tree"
+						"set_block_property": {
+							"terrariamod:can_shake": false
 						}
 					}
 				]
 			}
-		}
+		},
+		"permutations": [
+			{
+				"condition": "query.block_property('terrariamod:can_shake') == true",
+				"components": {
+					"minecraft:on_interact": {
+						"event": "terrariamod:shake_tree"
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('terrariamod:can_shake') == false"
+			}
+		]
 	}
 }

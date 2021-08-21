@@ -22,6 +22,10 @@
 							"tags": "query.any_tag('terrariamod:stone', 'terrariamod:dirt')"
 						},
 						"speed": 9
+					},
+					{
+						"block": "minecraft:obsidian",
+						"speed": 20
 					}
 				]
 			},

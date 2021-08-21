@@ -230,7 +230,7 @@
 					],
 					"transitions": [
 						{
-							"default": "query.time_stamp>v.time+3220||!query.biome_has_any_tag('crimson')||query.position(1)<80||query.position(1)>110||query.scoreboard('boss_2_alive')>0"
+							"default": "query.time_stamp>v.time+3200||!query.biome_has_any_tag('crimson')||query.position(1)<80||query.position(1)>110||query.scoreboard('boss_2_alive')>0"
 						}
 					]
 				},

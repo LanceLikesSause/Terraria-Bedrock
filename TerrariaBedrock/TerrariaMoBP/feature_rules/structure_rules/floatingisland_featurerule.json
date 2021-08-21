@@ -7,11 +7,22 @@
 			"places_feature": "minecraft:floatingisland_feature"
 		},
 		"conditions": {
-			"minecraft:biome_filter": {
-				"test": "has_biome_tag",
-				"operator": "==",
-				"value": "purity"
-			},
+			"minecraft:biome_filter": [
+				{
+					"any_of": [
+						{
+							"test": "has_biome_tag",
+							"operator": "==",
+							"value": "evil"
+						},
+						{
+							"test": "has_biome_tag",
+							"operator": "==",
+							"value": "purity"
+						}
+					]
+				}
+			],
 			"placement_pass": "sky_pass"
 		},
 		"distribution": {
@@ -21,7 +32,7 @@
 				"distribution": "uniform",
 				"extent": [
 					180,
-					220
+					200
 				]
 			},
 			"z": 0,

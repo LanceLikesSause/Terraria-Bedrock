@@ -1,0 +1,73 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.depthmeter": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"underworld": "query.position(1)>0&&query.position(1)<30"
+						},
+						{
+							"cavern": "query.position(1)>30&&query.position(1)<80"
+						},
+						{
+							"underground": "query.position(1)>80&&query.position(1)<110"
+						},
+						{
+							"surface": "query.position(1)>110&&query.position(1)<256"
+						}
+					],
+					"on_entry": [
+						"/say hi"
+					]
+				},
+				"underworld": {
+					"on_entry": [
+						"/say Layer: Underworld",
+						"v.time=q.time_stamp;"
+					],
+					"transitions": [
+						{
+							"default": "query.time_stamp>v.time+20"
+						}
+					]
+				},
+				"cavern": {
+					"on_entry": [
+						"/say Layer: Cavern",
+						"v.time=q.time_stamp;"
+					],
+					"transitions": [
+						{
+							"default": "query.time_stamp>v.time+20"
+						}
+					]
+				},
+				"underground": {
+					"on_entry": [
+						"/say Layer: Underground",
+						"v.time=q.time_stamp;"
+					],
+					"transitions": [
+						{
+							"default": "query.time_stamp>v.time+20"
+						}
+					]
+				},
+				"surface": {
+					"on_entry": [
+						"/say Layer: Surface",
+						"v.time=q.time_stamp;"
+					],
+					"transitions": [
+						{
+							"default": "query.time_stamp>v.time+20"
+						}
+					]
+				}
+			},
+			"initial_state": "default"
+		}
+	}
+}

@@ -14,7 +14,7 @@
 				"parent": "equipment"
 			},
 			"minecraft:display_name": {
-				"value": "Empty Bucket\n§9Can be used to scoop up a small amount of honey"
+				"value": "Empty Bucket\n§9Can be used to scoop up a small amount of liquid"
 			},
 			"minecraft:on_use_on": {
 				"on_use_on": {

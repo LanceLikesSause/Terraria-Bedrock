@@ -1,3 +1,4 @@
+//bridge-file-version: #0
 {
 	"format_version": "1.16.100",
 	"minecraft:block": {
@@ -16,33 +17,26 @@
 			"minecraft:destroy_time": 999,
 			"tag:terrariamod:wood": {},
 			"minecraft:loot": "loot_tables/blocks/purity_chest_item.json",
-			"minecraft:ticking": {
-				"looping": false,
-				"range": [
-					0.1,
-					0.1
-				],
-				"on_tick": {
-					"event": "terrariamod:create_dummy"
-				}
-			},
 			"minecraft:on_player_destroyed": {
 				"event": "terrariamod:destroy_dummy",
 				"target": "self"
+			},
+			"minecraft:on_placed": {
+				"event": "terrariamod:create_dummy"
 			}
 		},
 		"events": {
 			"terrariamod:create_dummy": {
 				"run_command": {
 					"command": [
-						"summon terrariamod:chest_dummy ~~~"
+						"summon terrariamod:dummy_chest ~~~"
 					]
 				}
 			},
 			"terrariamod:destroy_dummy": {
 				"run_command": {
 					"command": [
-						"kill @e[type=terrariamod:chest_dummy,r=2]"
+						"kill @e[type=terrariamod:dummy_chest,r=2]"
 					]
 				}
 			}

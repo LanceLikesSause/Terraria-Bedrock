@@ -1,0 +1,57 @@
+//bridge-file-version: #2
+{
+	"format_version": "1.13.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "terrariamod:feather_projectile",
+			"is_spawnable": false,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"component_groups": {},
+		"components": {
+			"minecraft:collision_box": {
+				"width": 0.25,
+				"height": 0.25
+			},
+			"minecraft:hurt_on_condition": {
+				"damage_conditions": [
+					{
+						"filters": {
+							"test": "in_lava",
+							"subject": "self",
+							"operator": "==",
+							"value": true
+						},
+						"cause": "lava",
+						"damage_per_tick": 4
+					}
+				]
+			},
+			"minecraft:projectile": {
+				"on_hit": {
+					"impact_damage": {
+						"damage": [
+							25,
+							30
+						],
+						"knockback": true,
+						"semi_random_diff_damage": false,
+						"destroy_on_hit": false
+					}
+				},
+				"power": 1.4,
+				"gravity": 0.03,
+				"anchor": 0.1,
+				"should_bounce": true,
+				"offset": [
+					0,
+					-0.1,
+					0
+				],
+				"catch_fire": false
+			}
+		},
+		"events": {}
+	}
+}

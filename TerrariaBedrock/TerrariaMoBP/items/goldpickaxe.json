@@ -42,14 +42,6 @@
 				"parent": "itemGroup.name.pickaxe"
 			}
 		},
-		"events": {
-			"terrariamod:get_obsidian": {
-				"run_command": {
-					"command": [
-						"give @s obsidian"
-					]
-				}
-			}
-		}
+		"events": {}
 	}
 }

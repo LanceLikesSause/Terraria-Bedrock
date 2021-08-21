@@ -1,0 +1,23 @@
+//bridge-file-version: #12
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "terrariamod:cactus_toliet_recipe"
+		},
+		"tags": [
+			"sawmill"
+		],
+		"ingredients": [
+			{
+				"item": "terrariamod:cactus_block",
+				"count": 6
+			}
+		],
+		"result": [
+			{
+				"item": "terrariamod:cactus_toliet_item"
+			}
+		]
+	}
+}

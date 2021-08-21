@@ -11,7 +11,7 @@
 		"components": {
 			"minecraft:rideable": {
 				"controlling_seat": 1,
-				"interact_text": "sit",
+				"interact_text": "Sit",
 				"seat_count": 1,
 				"pull_in_entities": true
 			},

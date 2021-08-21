@@ -1,0 +1,45 @@
+//bridge-file-version: #31
+{
+	"format_version": "1.13.0",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "minecraft:blinkroot_featurerule",
+			"places_feature": "minecraft:blinkroot_feature"
+		},
+		"conditions": {
+			"placement_pass": "underground_pass",
+			"minecraft:biome_filter": [
+				{
+					"test": "has_biome_tag",
+					"operator": "==",
+					"value": "purity_forest"
+				}
+			]
+		},
+		"distribution": {
+			"iterations": 999,
+			"x": {
+				"distribution": "uniform",
+				"extent": [
+					0,
+					16
+				]
+			},
+			"y": {
+				"distribution": "uniform",
+				"extent": [
+					30,
+					200
+				]
+			},
+			"z": {
+				"distribution": "uniform",
+				"extent": [
+					0,
+					16
+				]
+			},
+			"coordinate_eval_order": "xzy"
+		}
+	}
+}

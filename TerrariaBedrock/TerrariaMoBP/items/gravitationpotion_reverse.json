@@ -1,0 +1,38 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "terrariamod:gravitationpotion_reverse",
+			"category": "commands"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "terrariamod:gravitationpotion"
+			},
+			"minecraft:display_name": {
+				"value": "Gravitation Potion\n§9Use to reverse effect"
+			},
+			"minecraft:creative_category": {
+				"parent": "commands"
+			},
+			"minecraft:on_use": {
+				"on_use": {
+					"event": "terrariamod:gravity_reverse"
+				}
+			},
+			"minecraft:use_duration": 0.5,
+			"minecraft:use_animation": "drink"
+		},
+		"events": {
+			"terrariamod:gravity_reverse": {
+				"run_command": {
+					"command": [
+						"effect @s clear",
+						"replaceitem entity @a slot.weapon.mainhand 0 terrariamod:gravitationpotion"
+					],
+					"target": "holder"
+				}
+			}
+		}
+	}
+}

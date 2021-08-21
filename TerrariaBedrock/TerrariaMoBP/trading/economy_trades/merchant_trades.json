@@ -36,11 +36,7 @@
 						}
 					],
 					"max_uses": -1
-				}
-			]
-		},
-		{
-			"trades": [
+				},
 				{
 					"wants": [
 						{
@@ -74,11 +70,7 @@
 						}
 					],
 					"max_uses": -1
-				}
-			]
-		},
-		{
-			"trades": [
+				},
 				{
 					"wants": [
 						{
@@ -95,11 +87,7 @@
 						}
 					],
 					"max_uses": -1
-				}
-			]
-		},
-		{
-			"trades": [
+				},
 				{
 					"wants": [
 						{
@@ -110,6 +98,76 @@
 					"gives": [
 						{
 							"item": "terrariamod:bug_net"
+						}
+					],
+					"max_uses": -1
+				},
+				{
+					"wants": [
+						{
+							"item": "terrariamod:coppercoin",
+							"quantity": 15
+						}
+					],
+					"gives": [
+						{
+							"item": "terrariamod:shuriken"
+						}
+					],
+					"max_uses": -1
+				},
+				{
+					"wants": [
+						{
+							"item": "terrariamod:silvercoin",
+							"quantity": 3
+						}
+					],
+					"gives": [
+						{
+							"item": "terrariamod:tfurnace_item"
+						}
+					],
+					"max_uses": -1
+				},
+				{
+					"wants": [
+						{
+							"item": "terrariamod:coppercoin",
+							"quantity": 50
+						}
+					],
+					"gives": [
+						{
+							"item": "terrariamod:throwingknife"
+						}
+					],
+					"max_uses": -1
+				},
+				{
+					"wants": [
+						{
+							"item": "terrariamod:silvercoin",
+							"quantity": 50
+						}
+					],
+					"gives": [
+						{
+							"item": "terrariamod:iron_anvil_item"
+						}
+					],
+					"max_uses": -1
+				},
+				{
+					"wants": [
+						{
+							"item": "terrariamod:silvercoin",
+							"quantity": 1
+						}
+					],
+					"gives": [
+						{
+							"item": "terrariamod:lessermanapotion"
 						}
 					],
 					"max_uses": -1

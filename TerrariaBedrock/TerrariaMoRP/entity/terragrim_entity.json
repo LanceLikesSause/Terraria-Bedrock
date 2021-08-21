@@ -1,0 +1,36 @@
+//bridge-file-version: #25
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "terrariamod:terragrim_entity",
+			"materials": {
+				"default": "zombie"
+			},
+			"textures": {
+				"default": "textures/entity/pamobile/terragrim_entity"
+			},
+			"geometry": {
+				"default": "geometry.item_sprite"
+			},
+			"animations": {
+				"loop": "animation.terragrim_entity.general"
+			},
+			"scripts": {
+				"animate": [
+					"loop"
+				]
+			},
+			"render_controllers": [
+				"controller.render.zombie"
+			],
+			"spawn_egg": {
+				"base_color": "#949493",
+				"overlay_color": "#651818"
+			},
+			"particle_effects": {
+				"blood_rain": "terrariamod:bloodrain_effect"
+			}
+		}
+	}
+}

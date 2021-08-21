@@ -1,0 +1,87 @@
+//bridge-file-version: #26
+{
+	"format_version": "1.16.100",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "terrariamod:dummy_piggy_bank",
+			"runtime_identifier": {},
+			"is_summonable": true,
+			"is_spawnable": false
+		},
+		"component_groups": {
+			"terrariamod:is_tamed": {
+				"minecraft:is_tamed": {},
+				"minecraft:inventory": {
+					"inventory_size": 27,
+					"private": false,
+					"restrict_to_owner": true,
+					"container_type": "inventory"
+				}
+			},
+			"terrariamod:not_tamed": {
+				"minecraft:tameable": {
+					"probability": 1,
+					"tame_event": {
+						"event": "terrariamod:tame",
+						"target": "self"
+					},
+					"tame_items": [
+						"terrariamod:coppercoin",
+						"terrariamod:coppercoin_pile",
+						"terrariamod:silvercoin",
+						"terrariamod:silvercoin_pile",
+						"terrariamod:goldcoin",
+						"terrariamod:goldcoin_pile",
+						"terrariamod:platinumcoin",
+						"terrariamod:platinumcoin_pile"
+					]
+				}
+			}
+		},
+		"components": {
+			"minecraft:collision_box": {
+				"width": 0.5,
+				"height": 1
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"cause": "all",
+						"deals_damage": false
+					}
+				]
+			},
+			"minecraft:type_family": {
+				"family": [
+					"terraria_dummies"
+				]
+			}
+		},
+		"events": {
+			"terrariamod:tame": {
+				"add": {
+					"component_groups": [
+						"terrariamod:is_tamed"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"terrariamod:not_tamed"
+					]
+				}
+			},
+			"minecraft:entity_spawned": {
+				"add": {
+					"component_groups": [
+						"terrariamod:not_tamed"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"terrariamod:is_tamed"
+					]
+				}
+			}
+		}
+	}
+}

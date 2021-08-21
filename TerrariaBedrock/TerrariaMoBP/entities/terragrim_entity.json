@@ -1,0 +1,81 @@
+//bridge-file-version: #9
+{
+	"format_version": "1.16.100",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "terrariamod:terragrim_entity",
+			"runtime_identifier": {},
+			"is_summonable": true,
+			"is_spawnable": false
+		},
+		"components": {
+			"minecraft:movement.hover": {},
+			"minecraft:collision_box": {
+				"width": 0.5,
+				"height": 1
+			},
+			"minecraft:physics": {
+				"has_gravity": false
+			},
+			"minecraft:area_attack": {
+				"damage_range": 3,
+				"damage_per_tick": 17,
+				"cause": "contact",
+				"entity_filter": {
+					"any_of": [
+						{
+							"test": "is_family",
+							"subject": "other",
+							"value": "terraria_players_enemy"
+						},
+						{
+							"test": "is_family",
+							"subject": "other",
+							"value": "villager"
+						}
+					]
+				}
+			},
+			"minecraft:type_family": {
+				"family": [
+					"terraria_dummies"
+				]
+			},
+			"minecraft:timer": {
+				"looping": false,
+				"time": 3,
+				"time_down_event": {
+					"event": "terrariamod:despawn_event"
+				}
+			},
+			"minecraft:environment_sensor": {
+				"triggers": {
+					"event": "terrariamod:follow_player"
+				}
+			}
+		},
+		"component_groups": {
+			"terrariamod:depawn_group": {
+				"minecraft:instant_despawn": {
+					"remove_child_entities": true
+				}
+			}
+		},
+		"events": {
+			"terrariamod:despawn_event": {
+				"add": {
+					"component_groups": [
+						"terrariamod:depawn_group"
+					]
+				}
+			},
+			"terrariamod:follow_player": {
+				"run_command": {
+					"command": [
+						"tp @s @p"
+					]
+				}
+			}
+		}
+	}
+}

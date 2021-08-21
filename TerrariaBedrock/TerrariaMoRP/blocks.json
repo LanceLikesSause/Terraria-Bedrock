@@ -473,5 +473,8 @@
 	"terrariamod:leafblock": {
 		"sound": "grass",
 		"textures": "leafblock"
+	},
+	"cactus_toliet": {
+		"sound": "cactus"
 	}
 }

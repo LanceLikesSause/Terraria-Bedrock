@@ -29,17 +29,17 @@
 		},
 		"events": {
 			"terrariamod:summon_cloud": {
-				"shoot": {
-					"projectile": "terrariamod:blood_cloud",
-					"launch_power": 1
-				},
-				"swing": {},
 				"run_command": {
 					"command": [
 						"playsound bookofskulls.effect @s",
 						"kill @e[type=terrariamod:blood_cloud]"
 					]
-				}
+				},
+				"shoot": {
+					"projectile": "terrariamod:blood_cloud",
+					"launch_power": 1
+				},
+				"swing": {}
 			}
 		}
 	}

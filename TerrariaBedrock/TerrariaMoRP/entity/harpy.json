@@ -1,0 +1,38 @@
+//bridge-file-version: #39
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "terrariamod:harpy",
+			"materials": {
+				"default": "phantom",
+				"invisible": "phantom_invisible"
+			},
+			"textures": {
+				"default": "textures/entity/pamobile/harpy"
+			},
+			"geometry": {
+				"default": "geometry.harpy"
+			},
+			"particle_effects": {
+				"wing_dust": "minecraft:phantom_trail_particle"
+			},
+			"render_controllers": [
+				"controller.render.phantom"
+			],
+			"spawn_egg": {
+				"base_color": "#FFFFFF",
+				"overlay_color": "#6A0000"
+			},
+			"enable_attachables": true,
+			"animations": {
+				"loop": "animation.harpy.general"
+			},
+			"scripts": {
+				"animate": [
+					"loop"
+				]
+			}
+		}
+	}
+}

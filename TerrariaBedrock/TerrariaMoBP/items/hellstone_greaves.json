@@ -17,7 +17,7 @@
 				"texture": "terrariamod:hellstone_greaves"
 			},
 			"minecraft:display_name": {
-				"value": "Hellstone Greaves\n§9+8 Armor"
+				"value": "Molten Greaves\n§9+8 Armor"
 			},
 			"minecraft:creative_category": {
 				"parent": "itemGroup.name.leggings"

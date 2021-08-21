@@ -1,3 +1,4 @@
+##bridge-file-version: #471
 ##bridge-file-version: #469
 ##bridge-file-version: #466
 ##bridge-file-version: #456
@@ -141,7 +142,7 @@ tile.terrariamod:tree_log.name=Tree Log
 tile.terrariamod:tree_top.name=Tree Leaves
 tile.terrariamod:purity_sapling.name=Sapling
 item.terrariamod:purity_torch.name=Torch
-entity.terrariamod:purity_bed.name=Bed
+entity.terrariamod:purity_bed_dummy.name=Bed
 item.terrariamod:purity_bed.name=Bed
 tile.terrariamod:purity_cobweb.name=Cobweb
 tile.terrariamod:purity_chain.name=Chains
@@ -455,6 +456,10 @@ item.spawn_egg.entity.terrariamod:goldfish.name=Goldfish
 entity.terrariamod:goldfish.name=Goldfish
 item.spawn_egg.entity.terrariamod:worm.name=Worm
 entity.terrariamod:worm.name=Worm
+item.spawn_egg.entity.terrariamod:dummy_depthmeter.name=Spawn Depth Meter Dummy
+entity.terrariamod:dummy_depthmeter.name=Depth Meter
+item.spawn_egg.entity.terrariamod:harpy.name=Spawn Harpy
+entity.terrariamod:harpy.name=Harpy
 
 tile.terrariamod:copperblock.name=Copper Block
 tile.terrariamod:tinblock.name=Tin Block
@@ -597,7 +602,6 @@ item.terrariamod:thebeesknees.name=The Bee's Knees §9+26 Projectile Damage
 item.terrariamod:beegun.name=Bee Gun §9+9 Projectile Damage
 item.terrariamod:beenade.name=Beenade §9+12 Explosive Damage
 
-
 item.terrariamod:grenade.name=Grenade §9+3 Explosive
 item.terrariamod:bomb.name=Bomb §9+2 Explosive
 item.terrariamod:dynamite.name=Dynamite §9+6 Explosive
@@ -620,15 +624,9 @@ item.terrariamod:regenerationpotion.name=Regeneration Potion §9Regeneration Eff
 item.terrariamod:glowing_mushroom.name=Glowing Mushroom 
 item.terrariamod:ale.name=Ale §9Beer...
 
-
-item.terrariamod:hi=Hi
-item.terrariamod:hi.name=Hi
-
-item.terrariamod:delte.name=Delte
-
 tile.terrariamod:obsidianbrick.name=Obsidian Brick
 tile.terrariamod:sunplate.name=Sunplate
 tile.terrariamod:cloud.name=Cloud
 tile.terrariamod:skyislandchest.name=Sky Island Chest
+tile.terrariamod:ash.name=Ash
 
-entity

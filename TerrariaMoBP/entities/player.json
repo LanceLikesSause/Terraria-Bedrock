@@ -1,4 +1,4 @@
-//bridge-file-version: #1
+//bridge-file-version: #44
 {
 	"format_version": "1.16.100",
 	"minecraft:entity": {
@@ -60,25 +60,6 @@
 				"minecraft:spell_effects": {
 					"remove_effects": "bad_omen"
 				}
-			},
-			"minecraft:hellstone_group": {
-				"minecraft:home": {}
-			},
-			"terrariamod:hardcore_death_group": {
-				"minecraft:skin_id": {
-					"value": 1
-				},
-				"minecraft:variant": {
-					"value": 1
-				}
-			},
-			"terrariamod:spawned": {
-				"minecraft:skin_id": {
-					"value": 0
-				},
-				"minecraft:variant": {
-					"value": 0
-				}
 			}
 		},
 		"components": {
@@ -97,7 +78,7 @@
 					0.3
 				],
 				"time_down_event": {
-					"event": "minecraft:mana"
+					"event": "terrariamod:regen_mana"
 				}
 			},
 			"minecraft:is_hidden_when_invisible": {},
@@ -206,6 +187,24 @@
 			}
 		},
 		"events": {
+			"terrariamod:regen_mana": {
+				"run_command": {
+					"command": [
+						"execute @s[scores={mana_crystal=20}] ~~~ execute @s[scores={mana=..19}] ~~~ scoreboard players add @s mana 1",
+						"execute @s[scores={mana_crystal=40}] ~~~ execute @s[scores={mana=..39}] ~~~ scoreboard players add @s mana 1",
+						"execute @s[scores={mana_crystal=60}] ~~~ execute @s[scores={mana=..59}] ~~~ scoreboard players add @s mana 1",
+						"execute @s[scores={mana_crystal=80}] ~~~ execute @s[scores={mana=..79}] ~~~ scoreboard players add @s mana 1",
+						"execute @s[scores={mana_crystal=100}] ~~~ execute @s[scores={mana=..99}] ~~~ scoreboard players add @s mana 1",
+						"execute @s[scores={mana_crystal=120}] ~~~ execute @s[scores={mana=..119}] ~~~ scoreboard players add @s mana 1",
+						"execute @s[scores={mana_crystal=140}] ~~~ execute @s[scores={mana=..139}] ~~~ scoreboard players add @s mana 1",
+						"execute @s[scores={mana_crystal=160}] ~~~ execute @s[scores={mana=..159}] ~~~ scoreboard players add @s mana 1",
+						"execute @s[scores={mana_crystal=180}] ~~~ execute @s[scores={mana=..179}] ~~~ scoreboard players add @s mana 1",
+						"execute @s[scores={mana_crystal=190}] ~~~ execute @s[scores={mana=..199}] ~~~ scoreboard players add @s mana 1",
+						"execute @s[scores={mana_crystal=200..}] ~~~ execute @s[scores={mana=..199}] ~~~ scoreboard players add @s mana 1",
+						"titleraw @s actionbar {\"rawtext\":[{\"text\":\"\\ue103\"},{\"text\":\"Health:\"},{\"score\":{\"name\":\"@s\",\"objective\":\"health\"}},{\"text\":\"/\"},{\"score\":{\"name\":\"@s\",\"objective\":\"lcrystals\"}},{\"text\":\"   \\ue100\"},{\"text\":\"Mana:\"},{\"score\":{\"name\":\"@s\",\"objective\":\"mana\"}},{\"text\":\"/\"},{\"score\":{\"name\":\"@s\",\"objective\":\"mana_crystal\"}}]}"
+					]
+				}
+			},
 			"minecraft:gain_bad_omen": {
 				"add": {
 					"component_groups": [
@@ -236,44 +235,6 @@
 				"remove": {
 					"component_groups": [
 						"minecraft:raid_trigger"
-					]
-				}
-			},
-			"minecraft:mana": {
-				"run_command": {
-					"command": [
-						"execute @s[scores={mana=..18}] ~~~ scoreboard players add @s mana 1"
-					]
-				}
-			},
-			"minecraft:hellstone_event": {
-				"add": {
-					"component_groups": [
-						"minecraft:hellstone_group"
-					]
-				}
-			},
-			"terrariamod:hardcore_death": {
-				"add": {
-					"component_groups": [
-						"terrariamod:hardcore_death_group"
-					]
-				},
-				"remove": {
-					"component_groups": [
-						"terrariamod:spawned"
-					]
-				}
-			},
-			"minecraft:entity_spawned": {
-				"add": {
-					"component_groups": [
-						"terrariamod:spawned"
-					]
-				},
-				"remove": {
-					"component_groups": [
-						"terrariamod:hardcore_death_group"
 					]
 				}
 			}

@@ -26,7 +26,7 @@
 			},
 			"minecraft:cooldown": {
 				"category": "terrariamod_enchantedsword",
-				"duration": 0.1
+				"duration": 0.5
 			}
 		},
 		"events": {

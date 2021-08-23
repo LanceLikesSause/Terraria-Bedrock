@@ -16,7 +16,7 @@
 				"texture": "terrariamod:hellstone_chestplate"
 			},
 			"minecraft:display_name": {
-				"value": "Molten Chestplate\n§9+9 Armor"
+				"value": "Molten Breastplate\n§9+9 Armor"
 			},
 			"minecraft:max_stack_size": 1,
 			"minecraft:creative_category": {

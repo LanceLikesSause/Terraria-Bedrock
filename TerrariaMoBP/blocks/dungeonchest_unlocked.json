@@ -27,7 +27,7 @@
 					]
 				},
 				"spawn_loot": {
-					"table": "loot_tables/blocks/dungeonchest_unlocked.json"
+					"table": "loot_tables/treasure/dungeonchest_unlocked.json"
 				}
 			}
 		}

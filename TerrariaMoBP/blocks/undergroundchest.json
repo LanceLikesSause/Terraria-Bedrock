@@ -27,7 +27,7 @@
 					]
 				},
 				"spawn_loot": {
-					"table": "loot_tables/blocks/undergroundchest.json"
+					"table": "loot_tables/treasure/undergroundchest.json"
 				}
 			}
 		}

@@ -171,6 +171,20 @@
 						}
 					],
 					"max_uses": -1
+				},
+				{
+					"wants": [
+						{
+							"item": "terrariamod:goldcoin",
+							"quantity": 1
+						}
+					],
+					"gives": [
+						{
+							"item": "terrariamod:piggy_bank_item"
+						}
+					],
+					"max_uses": -1
 				}
 			]
 		}

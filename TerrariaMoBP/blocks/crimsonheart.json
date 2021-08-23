@@ -16,7 +16,7 @@
 			},
 			"minecraft:entity_collision": false,
 			"minecraft:block_light_emission": 1,
-			"minecraft:loot": "loot_tables/blocks/crimsonheart.json",
+			"minecraft:loot": "loot_tables/treasure/crimsonheart.json",
 			"tag:terrariamod:stone": {},
 			"minecraft:on_player_destroyed": {
 				"event": "terrariamod:trigger_event",

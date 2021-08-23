@@ -1,0 +1,37 @@
+//bridge-file-version: #12
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "terrariamod:mana_crystal",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:max_stack_size": 64,
+			"minecraft:icon": {
+				"texture": "terrariamod:mana_crystal"
+			},
+			"minecraft:display_name": {
+				"value": "Mana Crystal\n§9Permanently increases maximum mana by 20"
+			},
+			"minecraft:creative_category": {
+				"parent": "nature"
+			},
+			"minecraft:on_use": {
+				"on_use": {
+					"event": "terrariamod:upgrade_mana"
+				}
+			}
+		},
+		"events": {
+			"terrariamod:upgrade_mana": {
+				"run_command": {
+					"command": [
+						"function mana_add",
+						"playsound mana_crystal.effect @p[r=5] ~~~"
+					]
+				}
+			}
+		}
+	}
+}

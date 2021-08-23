@@ -16,7 +16,7 @@
 				"texture": "terrariamod:crimtane_chestplate"
 			},
 			"minecraft:display_name": {
-				"value": "Crimtane Chestplate\n§9+7 Armor"
+				"value": "Crimson Scalemail\n§9+7 Armor"
 			},
 			"minecraft:creative_category": {
 				"parent": "itemGroup.name.chestplate"

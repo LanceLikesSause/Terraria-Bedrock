@@ -1,3 +1,4 @@
+//bridge-file-version: #24
 {
 	"format_version": "1.10.0",
 	"animation_controllers": {
@@ -13,7 +14,6 @@
 				},
 				"command": {
 					"on_exit": [
-						"/function mana",
 						"/scoreboard objectives add nursestat dummy nursestat",
 						"/scoreboard objectives add merchantstat dummy merchantstat",
 						"/scoreboard objectives add demostat dummy demostat",
@@ -22,7 +22,16 @@
 						"/scoreboard objectives add ammo dummy ammo",
 						"/scoreboard objectives add armsstat dummy armsstat",
 						"/summon terrariamod:dummy_npc",
-						"/tickingarea add circle ~~~ 3 circle"
+						"/tickingarea add circle ~~~ 3 circle",
+						"/scoreboard objectives add health dummy health",
+						"/execute @s[tag=!begin] ~ ~ ~ scoreboard players set @s health 100",
+						"/scoreboard objectives add mana dummy mana",
+						"/execute @s[tag=!begin] ~ ~ ~ scoreboard players set @s mana 20",
+						"/scoreboard objectives add mana_crystal dummy mana_crystal",
+						"/scoreboard players set @s mana_crystal 20",
+						"/scoreboard objectives add lcrystals dummy lcrystals",
+						"/scoreboard players set @s lcrystals 100",
+						"/tag @s add begin"
 					],
 					"transitions": [
 						{

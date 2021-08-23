@@ -14,7 +14,7 @@
 				"slot": "slot.armor.head"
 			},
 			"minecraft:display_name": {
-				"value": "Copper Chainmail\n§9+1 Armor"
+				"value": "Copper Helmet\n§9+1 Armor"
 			},
 			"minecraft:icon": {
 				"texture": "terrariamod:copper_helmet"

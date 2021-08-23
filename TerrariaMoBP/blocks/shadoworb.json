@@ -15,7 +15,7 @@
 				}
 			},
 			"minecraft:entity_collision": false,
-			"minecraft:loot": "loot_tables/blocks/shadoworb.json",
+			"minecraft:loot": "loot_tables/treasure/shadoworb.json",
 			"tag:terrariamod:stone": {},
 			"minecraft:on_player_destroyed": {
 				"event": "terrariamod:trigger_event",

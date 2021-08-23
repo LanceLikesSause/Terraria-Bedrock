@@ -28,7 +28,7 @@
 					]
 				},
 				"spawn_loot": {
-					"table": "loot_tables/blocks/skyislandchest.json"
+					"table": "loot_tables/treasure/skyislandchest.json"
 				}
 			}
 		}

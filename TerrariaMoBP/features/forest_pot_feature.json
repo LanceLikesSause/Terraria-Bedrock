@@ -15,7 +15,8 @@
 		"may_attach_to": {
 			"min_sides_must_attach": 1,
 			"bottom": [
-				"terrariamod:purity_grass"
+				"terrariamod:purity_dirt",
+				"terrariamod:purity_mud"
 			]
 		}
 	}

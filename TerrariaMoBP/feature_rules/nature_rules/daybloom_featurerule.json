@@ -17,7 +17,7 @@
 			"placement_pass": "underground_pass"
 		},
 		"distribution": {
-			"iterations": 30,
+			"iterations": 10,
 			"x": {
 				"distribution": "uniform",
 				"extent": [

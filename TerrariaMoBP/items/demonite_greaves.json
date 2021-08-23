@@ -17,7 +17,7 @@
 				"texture": "terrariamod:demonite_greaves"
 			},
 			"minecraft:display_name": {
-				"value": "Demonite Chestplate\n§9+6 Armor"
+				"value": "Shadow Greaves\n§9+6 Armor"
 			},
 			"minecraft:creative_category": {
 				"parent": "itemGroup.name.leggings"

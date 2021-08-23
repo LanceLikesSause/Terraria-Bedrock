@@ -50,10 +50,10 @@
 				"sounds/effects/boomstick"
 			]
 		},
-		"lifecrystal.effect": {
+		"life_crystal.effect": {
 			"category": "music",
 			"sounds": [
-				"sounds/effects/health_crystal"
+				"sounds/effects/life_crystal"
 			]
 		},
 		"eyeofcthulhu.swoop": {
@@ -468,6 +468,12 @@
 			"category": "neutral",
 			"sounds": [
 				"sounds/effects/throw_fire"
+			]
+		},
+		"mana_crystal.effect": {
+			"category": "music",
+			"sounds": [
+				"sounds/effects/mana_crystal"
 			]
 		}
 	}

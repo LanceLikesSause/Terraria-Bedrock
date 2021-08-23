@@ -27,7 +27,7 @@
 					]
 				},
 				"spawn_loot": {
-					"table": "loot_tables/blocks/cavernchest.json"
+					"table": "loot_tables/treasure/cavernchest.json"
 				}
 			}
 		}

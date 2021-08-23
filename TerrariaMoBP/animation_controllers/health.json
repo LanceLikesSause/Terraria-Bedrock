@@ -1,3 +1,4 @@
+//bridge-file-version: #3
 {
 	"format_version": "1.10.0",
 	"animation_controllers": {
@@ -130,7 +131,7 @@
 				},
 				"one_heart": {
 					"on_entry": [
-						"/titleraw @s actionbar {\"rawtext\":[{\"text\":\"\\ue103\"}]}"
+						"/scoreboard players set @s health 20"
 					],
 					"transitions": [
 						{
@@ -140,7 +141,7 @@
 				},
 				"two_heart": {
 					"on_entry": [
-						"/titleraw @s actionbar {\"rawtext\":[{\"text\":\"\\ue103\\ue103\"}]}"
+						"/scoreboard players set @s health 40"
 					],
 					"transitions": [
 						{
@@ -150,7 +151,7 @@
 				},
 				"three_heart": {
 					"on_entry": [
-						"/titleraw @s actionbar {\"rawtext\":[{\"text\":\"\\ue103\\ue103\\ue103\"}]}"
+						"/scoreboard players set @s health 60"
 					],
 					"transitions": [
 						{
@@ -160,7 +161,7 @@
 				},
 				"four_heart": {
 					"on_entry": [
-						"/titleraw @s actionbar {\"rawtext\":[{\"text\":\"\\ue103\\ue103\\ue103\\ue103\"}]}"
+						"/scoreboard players set @s health 80"
 					],
 					"transitions": [
 						{
@@ -170,7 +171,7 @@
 				},
 				"five_heart": {
 					"on_entry": [
-						"/titleraw @s actionbar {\"rawtext\":[{\"text\":\"\\ue103\\ue103\\ue103\\ue103\\ue103\"}]}"
+						"/scoreboard players set @s health 100"
 					],
 					"transitions": [
 						{
@@ -180,7 +181,7 @@
 				},
 				"one_half_heart": {
 					"on_entry": [
-						"/titleraw @s actionbar {\"rawtext\":[{\"text\":\"\\ue103\\ue104\"}]}"
+						"/scoreboard players set @s health 30"
 					],
 					"transitions": [
 						{
@@ -190,7 +191,7 @@
 				},
 				"two_half_heart": {
 					"on_entry": [
-						"/titleraw @s actionbar {\"rawtext\":[{\"text\":\"\\ue103\\ue103\\ue104\"}]}"
+						"/scoreboard players set @s health 50"
 					],
 					"transitions": [
 						{
@@ -200,7 +201,7 @@
 				},
 				"three_half_heart": {
 					"on_entry": [
-						"/titleraw @s actionbar {\"rawtext\":[{\"text\":\"\\ue103\\ue103\\ue103\\ue104\"}]}"
+						"/scoreboard players set @s health 70"
 					],
 					"transitions": [
 						{
@@ -210,7 +211,7 @@
 				},
 				"four_half_heart": {
 					"on_entry": [
-						"/titleraw @s actionbar {\"rawtext\":[{\"text\":\"\\ue103\\ue103\\ue103\\ue103\\ue104\"}]}"
+						"/scoreboard players set @s health 90"
 					],
 					"transitions": [
 						{
@@ -220,7 +221,7 @@
 				},
 				"zero_half_heart": {
 					"on_entry": [
-						"/titleraw @s actionbar {\"rawtext\":[{\"text\":\"\\ue104\"}]}"
+						"/scoreboard players set @s health 10"
 					],
 					"transitions": [
 						{
@@ -230,7 +231,7 @@
 				},
 				"five_half_heart": {
 					"on_entry": [
-						"/titleraw @s actionbar {\"rawtext\":[{\"text\":\"\\ue103\\ue103\\ue103\\ue103\\ue103\\ue104\"}]}"
+						"/scoreboard players set @s health 110"
 					],
 					"transitions": [
 						{
@@ -240,7 +241,7 @@
 				},
 				"six_heart": {
 					"on_entry": [
-						"/titleraw @s actionbar {\"rawtext\":[{\"text\":\"\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\"}]}"
+						"/scoreboard players set @s health 120"
 					],
 					"transitions": [
 						{
@@ -250,7 +251,7 @@
 				},
 				"six_half_heart": {
 					"on_entry": [
-						"/titleraw @s actionbar {\"rawtext\":[{\"text\":\"\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue104\"}]}"
+						"/scoreboard players set @s health 130"
 					],
 					"transitions": [
 						{
@@ -260,7 +261,7 @@
 				},
 				"seven_heart": {
 					"on_entry": [
-						"/titleraw @s actionbar {\"rawtext\":[{\"text\":\"\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\"}]}"
+						"/scoreboard players set @s health 140"
 					],
 					"transitions": [
 						{
@@ -270,7 +271,7 @@
 				},
 				"seven_half_heart": {
 					"on_entry": [
-						"/titleraw @s actionbar {\"rawtext\":[{\"text\":\"\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue104\"}]}"
+						"/scoreboard players set @s health 150"
 					],
 					"transitions": [
 						{
@@ -280,7 +281,7 @@
 				},
 				"eight_heart": {
 					"on_entry": [
-						"/titleraw @s actionbar {\"rawtext\":[{\"text\":\"\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\"}]}"
+						"/scoreboard players set @s health 160"
 					],
 					"transitions": [
 						{
@@ -290,7 +291,7 @@
 				},
 				"eight_half_heart": {
 					"on_entry": [
-						"/titleraw @s actionbar {\"rawtext\":[{\"text\":\"\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue104\"}]}"
+						"/scoreboard players set @s health 170"
 					],
 					"transitions": [
 						{
@@ -300,7 +301,7 @@
 				},
 				"nine_heart": {
 					"on_entry": [
-						"/titleraw @s actionbar {\"rawtext\":[{\"text\":\"\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\"}]}"
+						"/scoreboard players set @s health 180"
 					],
 					"transitions": [
 						{
@@ -310,7 +311,7 @@
 				},
 				"nine_half_heart": {
 					"on_entry": [
-						"/titleraw @s actionbar {\"rawtext\":[{\"text\":\"\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue104\"}]}"
+						"/scoreboard players set @s health 190"
 					],
 					"transitions": [
 						{
@@ -320,7 +321,7 @@
 				},
 				"ten_heart": {
 					"on_entry": [
-						"/titleraw @s actionbar {\"rawtext\":[{\"text\":\"\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\"}]}"
+						"/scoreboard players set @s health 200"
 					],
 					"transitions": [
 						{
@@ -330,7 +331,7 @@
 				},
 				"ten_half_heart": {
 					"on_entry": [
-						"/titleraw @s actionbar {\"rawtext\":[{\"text\":\"\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue104\"}]}"
+						"/scoreboard players set @s health 210"
 					],
 					"transitions": [
 						{
@@ -340,7 +341,7 @@
 				},
 				"eleven_heart": {
 					"on_entry": [
-						"/titleraw @s actionbar {\"rawtext\":[{\"text\":\"\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\"}]}"
+						"/scoreboard players set @s health 220"
 					],
 					"transitions": [
 						{
@@ -350,7 +351,7 @@
 				},
 				"eleven_half_heart": {
 					"on_entry": [
-						"/titleraw @s actionbar {\"rawtext\":[{\"text\":\"\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue104\"}]}"
+						"/scoreboard players set @s health 230"
 					],
 					"transitions": [
 						{
@@ -360,7 +361,7 @@
 				},
 				"twelve_heart": {
 					"on_entry": [
-						"/titleraw @s actionbar {\"rawtext\":[{\"text\":\"\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\"}]}"
+						"/scoreboard players set @s health 240"
 					],
 					"transitions": [
 						{
@@ -370,7 +371,7 @@
 				},
 				"twelve_half_heart": {
 					"on_entry": [
-						"/titleraw @s actionbar {\"rawtext\":[{\"text\":\"\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue104\"}]}"
+						"/scoreboard players set @s health 250"
 					],
 					"transitions": [
 						{
@@ -380,7 +381,7 @@
 				},
 				"thirteen_heart": {
 					"on_entry": [
-						"/titleraw @s actionbar {\"rawtext\":[{\"text\":\"\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\"}]}"
+						"/scoreboard players set @s health 260"
 					],
 					"transitions": [
 						{
@@ -390,7 +391,7 @@
 				},
 				"thirteen_half_heart": {
 					"on_entry": [
-						"/titleraw @s actionbar {\"rawtext\":[{\"text\":\"\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue104\"}]}"
+						"/scoreboard players set @s health 270"
 					],
 					"transitions": [
 						{
@@ -400,7 +401,7 @@
 				},
 				"fourteen_heart": {
 					"on_entry": [
-						"/titleraw @s actionbar {\"rawtext\":[{\"text\":\"\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\"}]}"
+						"/scoreboard players set @s health 280"
 					],
 					"transitions": [
 						{
@@ -410,7 +411,7 @@
 				},
 				"fourteen_half_heart": {
 					"on_entry": [
-						"/titleraw @s actionbar {\"rawtext\":[{\"text\":\"\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue104\"}]}"
+						"/scoreboard players set @s health 290"
 					],
 					"transitions": [
 						{
@@ -420,7 +421,7 @@
 				},
 				"fifteen_heart": {
 					"on_entry": [
-						"/titleraw @s actionbar {\"rawtext\":[{\"text\":\"\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\"}]}"
+						"/scoreboard players set @s health 300"
 					],
 					"transitions": [
 						{
@@ -430,7 +431,7 @@
 				},
 				"fifteen_half_heart": {
 					"on_entry": [
-						"/titleraw @s actionbar {\"rawtext\":[{\"text\":\"\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue104\"}]}"
+						"/scoreboard players set @s health 310"
 					],
 					"transitions": [
 						{
@@ -440,7 +441,7 @@
 				},
 				"sixteen_heart": {
 					"on_entry": [
-						"/titleraw @s actionbar {\"rawtext\":[{\"text\":\"\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\"}]}"
+						"/scoreboard players set @s health 320"
 					],
 					"transitions": [
 						{
@@ -450,7 +451,7 @@
 				},
 				"sixteen_half_heart": {
 					"on_entry": [
-						"/titleraw @s actionbar {\"rawtext\":[{\"text\":\"\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue104\"}]}"
+						"/scoreboard players set @s health 330"
 					],
 					"transitions": [
 						{
@@ -460,7 +461,7 @@
 				},
 				"seventeen_heart": {
 					"on_entry": [
-						"/titleraw @s actionbar {\"rawtext\":[{\"text\":\"\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\"}]}"
+						"/scoreboard players set @s health 340"
 					],
 					"transitions": [
 						{
@@ -470,7 +471,7 @@
 				},
 				"seventeen_half_heart": {
 					"on_entry": [
-						"/titleraw @s actionbar {\"rawtext\":[{\"text\":\"\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue104\"}]}"
+						"/scoreboard players set @s health 350"
 					],
 					"transitions": [
 						{
@@ -480,7 +481,7 @@
 				},
 				"eighteen_heart": {
 					"on_entry": [
-						"/titleraw @s actionbar {\"rawtext\":[{\"text\":\"\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\"}]}"
+						"/scoreboard players set @s health 360"
 					],
 					"transitions": [
 						{
@@ -490,7 +491,7 @@
 				},
 				"eighteen_half_heart": {
 					"on_entry": [
-						"/titleraw @s actionbar {\"rawtext\":[{\"text\":\"\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue104\"}]}"
+						"/scoreboard players set @s health 370"
 					],
 					"transitions": [
 						{
@@ -500,7 +501,7 @@
 				},
 				"nineteen_heart": {
 					"on_entry": [
-						"/titleraw @s actionbar {\"rawtext\":[{\"text\":\"\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\"}]}"
+						"/scoreboard players set @s health 380"
 					],
 					"transitions": [
 						{
@@ -510,7 +511,7 @@
 				},
 				"nineteen_half_heart": {
 					"on_entry": [
-						"/titleraw @s actionbar {\"rawtext\":[{\"text\":\"\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue104\"}]}"
+						"/scoreboard players set @s health 390"
 					],
 					"transitions": [
 						{
@@ -520,7 +521,17 @@
 				},
 				"twenty_heart": {
 					"on_entry": [
-						"/titleraw @s actionbar {\"rawtext\":[{\"text\":\"\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\\ue103\"}]}"
+						"/scoreboard players set @s health 400"
+					],
+					"transitions": [
+						{
+							"default": "query.all_animations_finished"
+						}
+					]
+				},
+				"over": {
+					"on_entry": [
+						"/say over!!!!!"
 					],
 					"transitions": [
 						{

@@ -16,7 +16,7 @@
 				"texture": "terrariamod:demonite_chestplate"
 			},
 			"minecraft:display_name": {
-				"value": "Demonite Chestplate\n§9+7 Armor"
+				"value": "Shadow Scalemail\n§9+7 Armor"
 			},
 			"minecraft:creative_category": {
 				"parent": "itemGroup.name.chestplate"

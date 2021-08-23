@@ -7,7 +7,7 @@
 		},
 		"components": {
 			"minecraft:display_name": {
-				"value": "Guide Voodoodoll\n§9'You are a terrible person.'\n§9Needs to be used in the underworld"
+				"value": "Guide Voodoo Doll\n§9'You are a terrible person.'\n§9Needs to be used in the underworld"
 			},
 			"minecraft:icon": {
 				"texture": "terrariamod:guidevoodoodoll"

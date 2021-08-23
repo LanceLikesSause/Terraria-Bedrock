@@ -4,7 +4,7 @@
 		"description": {
 			"identifier": "minecraft:rubyore_feature"
 		},
-		"count": 3,
+		"count": 10,
 		"replace_rules": [
 			{
 				"places_block": "terrariamod:rubyore",

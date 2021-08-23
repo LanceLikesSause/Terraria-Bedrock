@@ -1,4 +1,4 @@
-//bridge-file-version: #41
+//bridge-file-version: #42
 {
 	"resource_pack_name": "TerrariaModLLS",
 	"texture_name": "atlas.items",
@@ -821,6 +821,9 @@
 		},
 		"terrariamod:terragrim": {
 			"textures": "textures/items/swords/terragrim"
+		},
+		"terrariamod:mana_crystal": {
+			"textures": "textures/items/pamobile/mana_crystal"
 		}
 	}
 }

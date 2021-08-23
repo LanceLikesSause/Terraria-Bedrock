@@ -3,14 +3,14 @@
 	"format_version": "1.16.100",
 	"minecraft:recipe_shapeless": {
 		"description": {
-			"identifier": "terrariamod:nightsedge_recipe"
+			"identifier": "terrariamod:nightsedge_corruption_recipe"
 		},
 		"tags": [
-			"iron_anvil"
+			"alter"
 		],
 		"ingredients": [
 			{
-				"item": "terrariamod:crimtanesword",
+				"item": "terrariamod:demonitesword",
 				"count": 1
 			},
 			{

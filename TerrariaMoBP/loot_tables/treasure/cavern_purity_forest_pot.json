@@ -1,0 +1,173 @@
+//bridge-file-version: #40
+{
+	"pools": [
+		{
+			"conditions": [
+				{
+					"condition": "random_chance",
+					"chance": 0.02
+				}
+			],
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "terrariamod:ironskinpotion",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 1
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "terrariamod:miningpotion",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 1
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "terrariamod:recallpotion",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 6
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "terrariamod:gravitationpotion",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 1
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "terrariamod:purity_torch",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 4,
+								"max": 12
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "terrariamod:woodenarrow",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 10,
+								"max": 20
+							}
+						}
+					],
+					"pools": [
+						{
+							"conditions": [
+								{
+									"condition": "random_chance",
+									"chance": 0.5
+								}
+							],
+							"entries": [
+								{
+									"type": "item",
+									"name": "terrariamod:shuriken",
+									"weight": 1,
+									"functions": [
+										{
+											"function": "set_count",
+											"count": {
+												"min": 10,
+												"max": 20
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "terrariamod:lesserhealingpotion",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 1
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "terrariamod:bomb",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 4
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "terrariamod:coppercoin",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 80,
+								"max": 99
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

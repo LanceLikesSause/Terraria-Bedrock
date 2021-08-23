@@ -239,7 +239,7 @@
 			"minecraft:interact": {
 				"interactions": [
 					{
-						"interact_text": "curse",
+						"interact_text": "Curse",
 						"on_interact": {
 							"filters": {
 								"test": "is_daytime",
@@ -250,7 +250,7 @@
 						}
 					},
 					{
-						"interact_text": "talk",
+						"interact_text": "Talk",
 						"on_interact": {
 							"filters": {
 								"test": "is_daytime",

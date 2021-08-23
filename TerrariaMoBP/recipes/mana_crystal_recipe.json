@@ -1,0 +1,25 @@
+//bridge-file-version: #14
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "terrariamod:mana_crystal_recipe"
+		},
+		"tags": [
+			"crafting_table",
+			"workbench"
+		],
+		"group": "terrariamod",
+		"ingredients": [
+			{
+				"item": "terrariamod:fallenstars",
+				"count": 3
+			}
+		],
+		"result": [
+			{
+				"item": "terrariamod:mana_crystal"
+			}
+		]
+	}
+}

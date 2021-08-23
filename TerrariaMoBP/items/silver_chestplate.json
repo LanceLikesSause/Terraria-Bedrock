@@ -14,7 +14,7 @@
 				"slot": "slot.armor.chest"
 			},
 			"minecraft:display_name": {
-				"value": "Silver Chestplate\n§9+6 Armor"
+				"value": "Silver Chainmail\n§9+6 Armor"
 			},
 			"minecraft:icon": {
 				"texture": "terrariamod:silver_chestplate"

@@ -1,4 +1,4 @@
-//bridge-file-version: #2
+//bridge-file-version: #3
 {
 	"format_version": "1.16.100",
 	"minecraft:block": {
@@ -8,27 +8,8 @@
 		},
 		"components": {
 			"minecraft:destroy_time": 1,
-			"tag:terrariamod:dirt": {},
-			"minecraft:ticking": {
-				"looping": true,
-				"range": [
-					1,
-					1
-				],
-				"on_tick": {
-					"event": "terrariamod:detect_air",
-					"condition": "q.block_neighbor_has_any_tag(0,-1,0,'grass')"
-				}
-			}
+			"tag:terrariamod:dirt": {}
 		},
-		"events": {
-			"terrariamod:detect_air": {
-				"run_command": {
-					"command": [
-						"say fall!"
-					]
-				}
-			}
-		}	
+		"events": {}
 	}
 }

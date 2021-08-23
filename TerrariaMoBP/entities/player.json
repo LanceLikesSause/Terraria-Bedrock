@@ -78,7 +78,7 @@
 					0.3
 				],
 				"time_down_event": {
-					"event": "terrariamod:regen_mana"
+					"event": "terrariamod:regen_mana_and_display_mana_and_health"
 				}
 			},
 			"minecraft:is_hidden_when_invisible": {},
@@ -187,7 +187,7 @@
 			}
 		},
 		"events": {
-			"terrariamod:regen_mana": {
+			"terrariamod:regen_mana_and_display_mana_and_health": {
 				"run_command": {
 					"command": [
 						"execute @s[scores={mana_crystal=20}] ~~~ execute @s[scores={mana=..19}] ~~~ scoreboard players add @s mana 1",

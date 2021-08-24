@@ -894,7 +894,7 @@
 		"terrariamod:livingwood_item": {
 			"textures": "textures/items/block_placers/livingwood"
 		},
-		"terrariamod:meterorite_item": {
+		"terrariamod:meteorite_item": {
 			"textures": "textures/items/block_placers/meteorite"
 		},
 		"terrariamod:mud_item": {

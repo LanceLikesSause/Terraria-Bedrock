@@ -5,7 +5,7 @@
 		"description": {
 			"identifier": "terrariamod:goldfish",
 			"materials": {
-				"default": "zombie"
+				"default": "entity"
 			},
 			"textures": {
 				"default": "textures/entity/pamobile/goldfish"

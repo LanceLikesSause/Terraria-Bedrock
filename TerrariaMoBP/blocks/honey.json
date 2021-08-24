@@ -22,6 +22,18 @@
 					16
 				]
 			},
+			"minecraft:pick_collision": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					8,
+					16
+				]
+			},
 			"minecraft:on_interact": {
 				"event": "terrariamod:interaction"
 			}

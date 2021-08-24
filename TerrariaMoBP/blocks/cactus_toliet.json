@@ -28,26 +28,26 @@
 			"tag:terrariamod:wood": {},
 			"minecraft:entity_collision": {
 				"origin": [
-					-8,
+					-4,
 					0,
-					-8
+					-4
 				],
 				"size": [
-					16,
-					16,
-					16
+					8,
+					8,
+					8
 				]
 			},
 			"minecraft:pick_collision": {
 				"origin": [
-					-8,
+					-4,
 					0,
-					-8
+					-4
 				],
 				"size": [
-					16,
 					8,
-					16
+					8,
+					8
 				]
 			},
 			"minecraft:ticking": {

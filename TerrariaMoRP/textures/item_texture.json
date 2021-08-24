@@ -824,6 +824,120 @@
 		},
 		"terrariamod:mana_crystal": {
 			"textures": "textures/items/pamobile/mana_crystal"
+		},
+		"terrariamod:ash_item": {
+			"textures": "textures/items/block_placers/ash"
+		},
+		"terrariamod:cactus_item": {
+			"textures": "textures/items/block_placers/cactus"
+		},
+		"terrariamod:clay_item": {
+			"textures": "textures/items/block_placers/clay"
+		},
+		"terrariamod:cloud_item": {
+			"textures": "textures/items/block_placers/cloud"
+		},
+		"terrariamod:cloud_item": {
+			"textures": "textures/items/block_placers/cloud"
+		},
+		"terrariamod:copperore_item": {
+			"textures": "textures/items/block_placers/copperore"
+		},
+		"terrariamod:crimsand_item": {
+			"textures": "textures/items/block_placers/crimsand"
+		},
+		"terrariamod:crimstone_item": {
+			"textures": "textures/items/block_placers/crimstone"
+		},
+		"terrariamod:crimtaneore_item": {
+			"textures": "textures/items/block_placers/crimtaneore"
+		},
+		"terrariamod:demoniteore_item": {
+			"textures": "textures/items/block_placers/demoniteore"
+		},
+		"terrariamod:purity_dirt_item": {
+			"textures": "textures/items/block_placers/purity_dirt"
+		},
+		"terrariamod:ebonstone_item": {
+			"textures": "textures/items/block_placers/ebonstone"
+		},
+		"terrariamod:goldore_item": {
+			"textures": "textures/items/block_placers/goldore"
+		},
+		"terrariamod:graybrick_item": {
+			"textures": "textures/items/block_placers/graybrick"
+		},
+		"terrariamod:hellstone_item": {
+			"textures": "textures/items/block_placers/hellstone"
+		},
+		"terrariamod:hive_block_item": {
+			"textures": "textures/items/block_placers/hive_block"
+		},
+		"terrariamod:purity_ice_item": {
+			"textures": "textures/items/block_placers/purity_ice"
+		},
+		"terrariamod:ironore_item": {
+			"textures": "textures/items/block_placers/ironore"
+		},
+		"terrariamod:hive_block_item": {
+			"textures": "textures/items/block_placers/hive_block"
+		},
+		"terrariamod:junglespores_item": {
+			"textures": "textures/items/block_placers/junglespores"
+		},
+		"terrariamod:leadore_item": {
+			"textures": "textures/items/block_placers/leadore"
+		},
+		"terrariamod:leafblock_item": {
+			"textures": "textures/items/block_placers/leafblock"
+		},
+		"terrariamod:livingwood_item": {
+			"textures": "textures/items/block_placers/livingwood"
+		},
+		"terrariamod:meterorite_item": {
+			"textures": "textures/items/block_placers/meteorite"
+		},
+		"terrariamod:mud_item": {
+			"textures": "textures/items/block_placers/mud"
+		},
+		"terrariamod:obsidianbrick_item": {
+			"textures": "textures/items/block_placers/obsidianbrick"
+		},
+		"terrariamod:platinumore_item": {
+			"textures": "textures/items/block_placers/platinumore"
+		},
+		"terrariamod:redbrick_item": {
+			"textures": "textures/items/block_placers/redbrick"
+		},
+		"terrariamod:purity_sand_item": {
+			"textures": "textures/items/block_placers/purity_sand"
+		},
+		"terrariamod:purity_sandstone_item": {
+			"textures": "textures/items/block_placers/purity_sandstone"
+		},
+		"terrariamod:silverore_item": {
+			"textures": "textures/items/block_placers/silverore"
+		},
+		"terrariamod:purity_snow_item": {
+			"textures": "textures/items/block_placers/purity_snow"
+		},
+		"terrariamod:spikes_item": {
+			"textures": "textures/items/block_placers/spikes"
+		},
+		"terrariamod:purity_stone_item": {
+			"textures": "textures/items/block_placers/purity_stone"
+		},
+		"terrariamod:sunplate_item": {
+			"textures": "textures/items/block_placers/sunplate"
+		},
+		"terrariamod:tinore_item": {
+			"textures": "textures/items/block_placers/tinore"
+		},
+		"terrariamod:tungstenore_item": {
+			"textures": "textures/items/block_placers/tungstenore"
+		},
+		"terrariamod:coppershortsword": {
+			"textures": "textures/items/swords/coppershortsword"
 		}
 	}
 }

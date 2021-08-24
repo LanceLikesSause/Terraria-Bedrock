@@ -3,7 +3,7 @@
 	"format_version": "1.16.100",
 	"minecraft:recipe_shapeless": {
 		"description": {
-			"identifier": "terrariamod:woodenarrow_recipe"
+			"identifier": "terrariamod:woodenarrow_forest_recipe"
 		},
 		"tags": [
 			"workbench"
@@ -13,7 +13,7 @@
 				"item": "terrariamod:purity_wood_item"
 			},
 			{
-				"item": "terrariamod:purity_stone"
+				"item": "terrariamod:purity_stone_item"
 			}
 		],
 		"result": [

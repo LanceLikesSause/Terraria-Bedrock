@@ -27,6 +27,7 @@
 					"render_method": "alpha_test"
 				}
 			},
+			"minecraft:loot": "loot_tables/blocks/spikes.json",
 			"minecraft:pick_collision": {
 				"origin": [
 					-8,

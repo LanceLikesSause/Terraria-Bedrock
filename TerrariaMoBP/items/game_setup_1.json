@@ -27,7 +27,7 @@
 					"command": [
 						"gamerule sendcommandfeedback false",
 						"give @s terrariamod:game_setup_2",
-						"give @s terrariamod:coppersword",
+						"give @s terrariamod:coppershortsword",
 						"give @s terrariamod:copperpickaxe",
 						"give @s terrariamod:copperaxe",
 						"clear @s terrariamod:game_setup_1 0 1",

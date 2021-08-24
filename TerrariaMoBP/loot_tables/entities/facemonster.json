@@ -34,7 +34,32 @@
 				{
 					"type": "item",
 					"weight": 1,
-					"name": "terrariamod:deepmeter",
+					"name": "terrariamod:depthmeter",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 1
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"conditions": [
+				{
+					"condition": "random_chance",
+					"chance": 0.33
+				}
+			],
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "terrariamod:vertebra",
 					"functions": [
 						{
 							"function": "set_count",

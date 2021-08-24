@@ -10,7 +10,7 @@
 		],
 		"ingredients": [
 			{
-				"item": "terrariamod:leadore",
+				"item": "terrariamod:leadore_item",
 				"count": 3
 			}
 		],

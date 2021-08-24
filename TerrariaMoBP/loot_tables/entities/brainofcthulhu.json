@@ -28,7 +28,7 @@
 				{
 					"type": "item",
 					"weight": 1,
-					"name": "terrariamod:crimtaneore",
+					"name": "terrariamod:crimtaneore_item",
 					"functions": [
 						{
 							"function": "set_count",

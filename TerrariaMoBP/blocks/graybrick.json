@@ -7,7 +7,7 @@
 		},
 		"components": {
 			"minecraft:destroy_time": 3,
-			"minecraft:loot": "loot_tables/blocks/copperore.json",
+			"minecraft:loot": "loot_tables/blocks/graybrick.json",
 			"minecraft:explosion_resistance": 0.5,
 			"tag:terrariamod:stone": {}
 		},

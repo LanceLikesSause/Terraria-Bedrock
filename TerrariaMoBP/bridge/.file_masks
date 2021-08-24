@@ -1,0 +1,41 @@
+{
+	"BP/entities/player.json": {
+		"data": {}
+	},
+	"BP/animation_controllers/world_creation.json": {
+		"data": {}
+	},
+	"BP/animation_controllers/health.json": {
+		"data": {}
+	},
+	"BP/animation_controllers/bridge/custom_item_behavior.json": {
+		"data": {
+			"09eafe78_1ea5_42e0_8916_d5807d12e405": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"fc96e33a_94d3_4f16_ab08_72ce2ca66887": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			}
+		}
+	},
+	"BP/items/lifecrystal.json": {
+		"data": {}
+	},
+	"BP/items/mana_crystal.json": {
+		"data": {}
+	}
+}

@@ -7,7 +7,8 @@
 		"components": {
 			"minecraft:destroy_time": 1,
 			"tag:terrariamod:dirt": {},
-			"minecraft:map_color": "#CBD9E6"
+			"minecraft:map_color": "#CBD9E6",
+			"minecraft:loot": "loot_tables/blocks/purity_snow.json"
 		},
 		"events": {}
 	}

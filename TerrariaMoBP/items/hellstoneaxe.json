@@ -19,7 +19,7 @@
 				"destroy_speeds": [
 					{
 						"block": {
-							"tags": "query.any_tag('terrariamod:wood')"
+							"tags": "query.any_tag('terrariamod:tree', 'terrariamod:cactus')"
 						},
 						"speed": 11
 					}

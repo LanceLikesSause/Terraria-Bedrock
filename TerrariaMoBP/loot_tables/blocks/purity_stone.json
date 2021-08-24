@@ -7,7 +7,7 @@
 				{
 					"type": "item",
 					"weight": 1,
-					"name": "terrariamod:purity_stone",
+					"name": "terrariamod:purity_stone_item",
 					"functions": [
 						{
 							"function": "set_count",

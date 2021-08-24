@@ -7,7 +7,7 @@
 				{
 					"type": "item",
 					"weight": 1,
-					"name": "terrariamod:tinore",
+					"name": "terrariamod:tinore_item",
 					"functions": [
 						{
 							"function": "set_count",

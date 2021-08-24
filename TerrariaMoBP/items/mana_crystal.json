@@ -28,7 +28,8 @@
 				"run_command": {
 					"command": [
 						"function mana_add",
-						"playsound mana_crystal.effect @p[r=5] ~~~"
+						"playsound mana_crystal.effect @p[r=5] ~~~",
+						"clear @p[r=2] terrariamod:mana_crystal 0 1"
 					]
 				}
 			}

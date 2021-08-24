@@ -10,7 +10,7 @@
 		],
 		"ingredients": [
 			{
-				"item": "terrariamod:silverore",
+				"item": "terrariamod:silverore_item",
 				"count": 3
 			}
 		],

@@ -6,7 +6,8 @@
 		},
 		"components": {
 			"minecraft:destroy_time": 1,
-			"tag:terrariamod:stone": {}
+			"tag:terrariamod:stone": {},
+			"minecraft:loot": "loot_tables/blocks/redbrick.json"
 		},
 		"events": {}
 	}

@@ -15,7 +15,7 @@
 				}
 			},
 			"minecraft:map_color": "#C31B1B",
-			"minecraft:loot": "loot_tables/blocks/crimson_grass.json"
+			"minecraft:loot": "loot_tables/blocks/purity_dirt.json"
 		},
 		"events": {
 			"terrariamod:crimson_spread": {

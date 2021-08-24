@@ -7,7 +7,7 @@
 				{
 					"type": "item",
 					"weight": 1,
-					"name": "terrariamod:cactus_block",
+					"name": "terrariamod:cactus_item",
 					"functions": [
 						{
 							"function": "set_count",

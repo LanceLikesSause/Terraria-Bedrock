@@ -10,13 +10,13 @@
 		],
 		"ingredients": [
 			{
-				"item": "terrariamod:purity_clay",
+				"item": "terrariamod:purity_clay_item",
 				"count": 2
 			}
 		],
 		"result": [
 			{
-				"item": "terrariamod:redbrick"
+				"item": "terrariamod:redbrick_item"
 			}
 		]
 	}

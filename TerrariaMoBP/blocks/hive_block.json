@@ -9,7 +9,8 @@
 			"tag:terrariamod:wood": {},
 			"minecraft:on_player_destroyed": {
 				"event": "terrariamod:break_hive"
-			}
+			},
+			"minecraft:loot": "loot_tables/blocks/hive_block.json"
 		},
 		"events": {
 			"terrariamod:break_hive": {

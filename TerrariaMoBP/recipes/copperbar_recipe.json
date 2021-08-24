@@ -10,7 +10,7 @@
 		],
 		"ingredients": [
 			{
-				"item": "terrariamod:copperore",
+				"item": "terrariamod:copperore_item",
 				"count": 3
 			}
 		],

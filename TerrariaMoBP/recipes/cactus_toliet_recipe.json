@@ -10,7 +10,7 @@
 		],
 		"ingredients": [
 			{
-				"item": "terrariamod:cactus_block",
+				"item": "terrariamod:cactus_item",
 				"count": 6
 			}
 		],

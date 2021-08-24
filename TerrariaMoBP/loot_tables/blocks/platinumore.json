@@ -7,7 +7,7 @@
 				{
 					"type": "item",
 					"weight": 1,
-					"name": "terrariamod:platinumore",
+					"name": "terrariamod:platinumore_item",
 					"functions": [
 						{
 							"function": "set_count",

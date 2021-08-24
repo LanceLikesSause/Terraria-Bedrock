@@ -14,7 +14,7 @@
 				}
 			},
 			"minecraft:map_color": "#6D2DE7",
-			"minecraft:loot": "loot_tables/blocks/corrupted_grass.json"
+			"minecraft:loot": "loot_tables/blocks/purity_dirt.json"
 		},
 		"events": {
 			"terrariamod:corruption_spread": {

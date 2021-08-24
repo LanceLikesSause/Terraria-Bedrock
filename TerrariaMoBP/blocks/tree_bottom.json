@@ -24,7 +24,7 @@
 					"render_method": "alpha_test"
 				}
 			},
-			"tag:terrariamod:wood": {},
+			"tag:terrariamod:tree": {},
 			"minecraft:on_player_destroyed": {
 				"event": "terrariamod:destroy_tree"
 			},

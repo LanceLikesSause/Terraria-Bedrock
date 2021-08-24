@@ -6,7 +6,8 @@
 		},
 		"components": {
 			"minecraft:destroy_time": 1,
-			"tag:terrariamod:wood": {}
+			"tag:terrariamod:wood": {},
+			"minecraft:loot": "loot_tables/blocks/cactus_block.json"
 		},
 		"events": {}
 	}

@@ -7,7 +7,7 @@
 				{
 					"type": "item",
 					"weight": 1,
-					"name": "terrariamod:tungstenore",
+					"name": "terrariamod:tungstenore_item",
 					"functions": [
 						{
 							"function": "set_count",

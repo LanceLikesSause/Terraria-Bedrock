@@ -10,7 +10,7 @@
 		],
 		"ingredients": [
 			{
-				"item": "terrariamod:tungstenore",
+				"item": "terrariamod:tungstenore_item",
 				"count": 3
 			}
 		],

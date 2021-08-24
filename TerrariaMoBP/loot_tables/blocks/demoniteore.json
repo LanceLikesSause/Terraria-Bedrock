@@ -7,7 +7,7 @@
 				{
 					"type": "item",
 					"weight": 1,
-					"name": "terrariamod:demoniteore",
+					"name": "terrariamod:demoniteore_item",
 					"functions": [
 						{
 							"function": "set_count",

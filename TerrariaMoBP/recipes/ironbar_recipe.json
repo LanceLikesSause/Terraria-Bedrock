@@ -10,7 +10,7 @@
 		],
 		"ingredients": [
 			{
-				"item": "terrariamod:ironore",
+				"item": "terrariamod:ironore_item",
 				"count": 3
 			}
 		],

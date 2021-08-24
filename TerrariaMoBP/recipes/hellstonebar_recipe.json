@@ -10,7 +10,7 @@
 		],
 		"ingredients": [
 			{
-				"item": "terrariamod:hellstone",
+				"item": "terrariamod:hellstone_item",
 				"count": 3
 			},
 			{

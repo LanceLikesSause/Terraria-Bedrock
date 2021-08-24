@@ -10,7 +10,7 @@
 		],
 		"ingredients": [
 			{
-				"item": "terrariamod:demoniteore",
+				"item": "terrariamod:demoniteore_item",
 				"count": 3
 			}
 		],

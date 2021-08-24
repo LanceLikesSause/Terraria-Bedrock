@@ -17,7 +17,8 @@
 			},
 			"minecraft:on_step_on": {
 				"event": "terrariamod:walk"
-			}
+			},
+			"minecraft:loot": "loot_tables/blocks/empty.json"
 		},
 		"events": {
 			"terrariamod:destroy": {
@@ -26,7 +27,7 @@
 				},
 				"run_command": {
 					"command": [
-						"give @p[r=3] terrariamod:hellstone"
+						"give @p[r=3] terrariamod:hellstone_item"
 					]
 				}
 			},

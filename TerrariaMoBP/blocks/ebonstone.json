@@ -8,7 +8,8 @@
 		},
 		"components": {
 			"minecraft:destroy_time": 3,
-			"tag:terrariamod:stone": {}
+			"tag:terrariamod:stone": {},
+			"minecraft:loot": "loot_tables/blocks/ebonstone.json"
 		},
 		"events": {}
 	}

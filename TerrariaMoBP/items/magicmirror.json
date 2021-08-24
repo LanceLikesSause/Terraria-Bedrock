@@ -33,7 +33,7 @@
 						"run_command": {
 							"command": [
 								"playsound effect.magicmirror @s ~~~",
-								"tp @s @e[type=terrariamod:purity_bed] true",
+								"tp @s @e[type=terrariamod:purity_bed_dummy] false",
 								"particle terrariamod:magicmirror_effect ~~~"
 							]
 						},

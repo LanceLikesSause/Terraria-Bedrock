@@ -10,7 +10,7 @@
 		],
 		"ingredients": [
 			{
-				"item": "terrariamod:platinumore",
+				"item": "terrariamod:platinumore_item",
 				"count": 3
 			}
 		],

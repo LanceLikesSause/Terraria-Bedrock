@@ -16,7 +16,7 @@
 					"render_method": "alpha_test"
 				}
 			},
-			"tag:terrariamod:wood": {},
+			"tag:terrariamod:tree": {},
 			"minecraft:loot": "loot_tables/blocks/corruption_tree_top.json",
 			"tag:terrariamod:plant": {}
 		},

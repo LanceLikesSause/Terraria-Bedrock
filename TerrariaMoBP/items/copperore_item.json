@@ -1,0 +1,25 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "terrariamod:copperore_item",
+			"category": "construction"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "terrariamod:copperore_item"
+			},
+			"minecraft:display_name": {
+				"value": "Copper Ore"
+			},
+			"minecraft:block_placer": {
+				"block": "terrariamod:copperore",
+				"use_block_description": true
+			},
+			"minecraft:max_stack_size": 64,
+			"minecraft:creative_category": {
+				"parent": "construction"
+			}
+		}
+	}
+}

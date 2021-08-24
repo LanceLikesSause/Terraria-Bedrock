@@ -10,13 +10,13 @@
 		],
 		"ingredients": [
 			{
-				"item": "terrariamod:purity_stone",
+				"item": "terrariamod:purity_stone_item",
 				"count": 2
 			}
 		],
 		"result": [
 			{
-				"item": "terrariamod:graybrick"
+				"item": "terrariamod:graybrick_item"
 			}
 		]
 	}

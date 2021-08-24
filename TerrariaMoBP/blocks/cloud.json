@@ -8,7 +8,8 @@
 		},
 		"components": {
 			"minecraft:destroy_time": 0.1,
-			"tag:terrariamod:plant": {}
+			"tag:terrariamod:plant": {},
+			"minecraft:loot": "loot_tables/blocks/cloud.json"
 		},
 		"events": {}
 	}

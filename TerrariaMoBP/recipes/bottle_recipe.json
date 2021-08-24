@@ -10,7 +10,7 @@
 		],
 		"ingredients": [
 			{
-				"item": "terrariamod:purity_sand",
+				"item": "terrariamod:purity_sand_item",
 				"count": 3
 			}
 		],

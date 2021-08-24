@@ -32,7 +32,8 @@
 				"run_command": {
 					"command": [
 						"function life_crystal_add",
-						"playsound life_crystal.effect @p[r=5] ~~~"
+						"playsound life_crystal.effect @p[r=5] ~~~",
+						"clear @p[r=2] terrariamod:lifecrystal 0 1"
 					]
 				}
 			}

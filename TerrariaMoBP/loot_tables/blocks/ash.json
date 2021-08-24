@@ -7,7 +7,7 @@
 				{
 					"type": "item",
 					"weight": 1,
-					"name": "terrariamod:ash",
+					"name": "terrariamod:ash_item",
 					"functions": [
 						{
 							"function": "set_count",

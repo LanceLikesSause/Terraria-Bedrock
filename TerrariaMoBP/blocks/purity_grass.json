@@ -9,7 +9,7 @@
 			"minecraft:destroy_time": 1,
 			"tag:terrariamod:dirt": {},
 			"minecraft:map_color": "#25B447",
-			"minecraft:loot": "loot_tables/blocks/purity_grass.json"
+			"minecraft:loot": "loot_tables/blocks/purity_dirt.json"
 		},
 		"events": {}
 	}

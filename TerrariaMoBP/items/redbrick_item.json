@@ -1,0 +1,25 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "terrariamod:redbrick_item",
+			"category": "construction"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "terrariamod:redbrick_item"
+			},
+			"minecraft:display_name": {
+				"value": "Red Brick"
+			},
+			"minecraft:block_placer": {
+				"block": "terrariamod:redbrick",
+				"use_block_description": true
+			},
+			"minecraft:max_stack_size": 64,
+			"minecraft:creative_category": {
+				"parent": "construction"
+			}
+		}
+	}
+}

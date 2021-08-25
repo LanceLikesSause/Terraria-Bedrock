@@ -21,6 +21,20 @@
 				{
 					"type": "item",
 					"weight": 1,
+					"name": "terrariamod:gravitationpotion",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
 					"name": "terrariamod:tinbar",
 					"functions": [
 						{

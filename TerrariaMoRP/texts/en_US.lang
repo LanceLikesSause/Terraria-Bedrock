@@ -231,7 +231,7 @@ item.terrariamod:meteorite_helmet.name=Meteorite Helmet
 item.terrariamod:meteorite_greaves.name=Meteorite Greaves
 
 #crafting blocks
-entity.unknown.name=Chest
+entity.unknown.name=Container
 entity.terrariamod:chest_dummy.name=Chest
 tile.terrariamod:purity_chest.name=Chest
 tile.terrariamod:purity_candle.name=Candle

@@ -4,7 +4,7 @@
   "hud_actionbar_text": {
     "type": "image",
     "size": [ "100%c + 12px", "100%c + 5px" ],
-    "offset": [1, -1],
+    "offset": [-5, 5],
     "anchor_from": "top_right",
     "anchor_to": "top_right",
     "texture": "textures/ui/hud_tip_text_background",

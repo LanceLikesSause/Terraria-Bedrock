@@ -14,9 +14,6 @@
 			"geometry": {
 				"default": "geometry.harpy"
 			},
-			"particle_effects": {
-				"wing_dust": "minecraft:phantom_trail_particle"
-			},
 			"render_controllers": [
 				"controller.render.phantom"
 			],

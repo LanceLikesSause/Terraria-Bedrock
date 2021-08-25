@@ -14,7 +14,7 @@
 				"texture": "terrariamod:aglet"
 			},
 			"minecraft:display_name": {
-				"value": "Aglet\n§9Slight increased movement speed"
+				"value": "Aglet\n§9Slightly increases movement speed"
 			},
 			"minecraft:on_use": {
 				"on_use": {

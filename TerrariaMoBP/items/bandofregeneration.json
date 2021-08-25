@@ -32,7 +32,7 @@
 					"effect": "regeneration",
 					"target": "holder",
 					"duration": 1500,
-					"amplifier": 0
+					"amplifier": 1
 				}
 			}
 		}

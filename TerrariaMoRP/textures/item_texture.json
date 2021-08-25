@@ -938,6 +938,9 @@
 		},
 		"terrariamod:coppershortsword": {
 			"textures": "textures/items/swords/coppershortsword"
+		},
+		"terrariamod:cloud_in_a_bottle": {
+			"textures": "textures/items/accessories/cloud_in_a_bottle"
 		}
 	}
 }

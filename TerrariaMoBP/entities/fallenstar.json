@@ -1,3 +1,4 @@
+//bridge-file-version: #3
 {
 	"format_version": "1.16.200",
 	"minecraft:entity": {
@@ -15,7 +16,13 @@
 				"fall": "controller.animation.fallenstar_fall"
 			}
 		},
-		"component_groups": {},
+		"component_groups": {
+			"terrariamod:despawn_group": {
+				"minecraft:instant_despawn": {
+					"remove_child_entities": true
+				}
+			}
+		},
 		"components": {
 			"minecraft:health": {
 				"value": 1,
@@ -35,8 +42,27 @@
 			},
 			"minecraft:loot": {
 				"table": "loot_tables/entities/fallenstar.json"
+			},
+			"minecraft:environment_sensor": {
+				"triggers": {
+					"filters": {
+						"subject": "self",
+						"test": "is_daytime",
+						"operator": "==",
+						"value": true
+					},
+					"event": "terrariamod:despawn_in_daytime"
+				}
 			}
 		},
-		"events": {}
+		"events": {
+			"terrariamod:despawn_in_daytime": {
+				"add": {
+					"component_groups": [
+						"terrariamod:despawn_group"
+					]
+				}
+			}
+		}
 	}
 }

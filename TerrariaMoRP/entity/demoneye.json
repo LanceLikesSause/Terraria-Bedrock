@@ -1,33 +1,33 @@
 //bridge-file-version: #14
 {
-	"format_version": "1.8.0",
+	"format_version": "1.10.0",
 	"minecraft:client_entity": {
 		"description": {
 			"identifier": "terrariamod:demoneye",
-			"textures": {
-				"default": "textures/entity/pamobile/demoneye.png"
-			},
-			"spawn_egg": {
-				"base_color": "#FFFFFF",
-				"overlay_color": "#D21717"
-			},
 			"materials": {
 				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/pamobile/demoneye.png"
 			},
 			"geometry": {
 				"default": "geometry.demoneye"
 			},
-			"animations": {
-				"flying": "animation.demoneye.flying"
-			},
 			"render_controllers": [
 				"controller.render.zombie"
 			],
-			"animation_controllers": [
-				{
-					"flying": "controller.animation.vulture"
-				}
-			],
+			"spawn_egg": {
+				"base_color": "#FFFFFF",
+				"overlay_color": "#D21717"
+			},
+			"animations": {
+				"loop": "animation.demoneye.flying"
+			},
+			"scripts": {
+				"animate": [
+					"loop"
+				]
+			},
 			"enable_attachables": true
 		}
 	}

@@ -2,6 +2,30 @@
 {
 	"format_version": "1.14.0",
 	"sound_definitions": {
+		"player_terraria.hurt": {
+			"category": "player",
+			"sounds": [
+				"sounds/mobs/player_terraria/hurt"
+			]
+		},
+		"player_terraria.die": {
+			"category": "player",
+			"sounds": [
+				"sounds/mobs/player_terraria/death"
+			]
+		},
+		"player_terraria.attack.nodamage": {
+			"category": "player",
+			"sounds": [
+				"sounds/mobs/player_terraria/swing_nodamage"
+			]
+		},
+		"player_terraria.attack.strong": {
+			"category": "player",
+			"sounds": [
+				"sounds/mobs/player_terraria/swing_strong"
+			]
+		},
 		"bookofskulls.effect": {
 			"category": "neutral",
 			"sounds": [
@@ -78,12 +102,6 @@
 			"category": "music",
 			"sounds": [
 				"sounds/music/track/track1"
-			]
-		},
-		"player_terraria.hurt": {
-			"category": "hostile",
-			"sounds": [
-				"sounds/mobs/player_terraria/hurt1"
 			]
 		},
 		"woodenarrow_projectile.main": {
@@ -465,7 +483,7 @@
 			]
 		},
 		"throw_fire.effect": {
-			"category": "neutral",
+			"category": "music",
 			"sounds": [
 				"sounds/effects/throw_fire"
 			]

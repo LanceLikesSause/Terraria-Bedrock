@@ -1,0 +1,49 @@
+{
+    "namespace": "debug_screen",
+    "patchy_watermark": {
+        "type": "label",
+        "text": "Terraria Bedrock 2.7.0 - Beta - Build 3",
+        "color": [
+            1,
+            1,
+            1
+        ],
+        "shadow": true,
+        "anchor_from": "top_left",
+        "anchor_to": "top_left",
+        "alpha": 10,
+        "font_size": "medium"
+    },
+    "debug_screen@common.base_screen": {
+        "send_telemetry": false,
+        "screen_not_flushable": true,
+        "render_game_behind": true,
+        "is_showing_menu": false,
+        "low_frequency_rendering": true,
+        "is_modal": true,
+        "should_steal_mouse": false,
+        "render_only_when_topmost": false,
+        "screen_draws_last": true,
+        "always_accepts_input": true,
+        "$screen_content": "debug_screen.content_panel",
+        "$screen_animations": {},
+        "$use_loading_bars": false
+    },
+    "content_panel": {
+        "type": "panel",
+        "clips_children": false,
+        "size": [
+            "100%",
+            "100%"
+        ],
+        "controls": [
+            {
+                "patchy_watermark@debug_screen.patchy_watermark": {}
+            }
+        ]
+    },
+    "special_render": {
+        "type": "custom",
+        "renderer": "debug_screen_renderer"
+    }
+}

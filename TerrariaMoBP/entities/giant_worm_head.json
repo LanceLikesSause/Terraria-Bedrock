@@ -1,0 +1,183 @@
+//bridge-file-version: #85
+{
+	"format_version": "1.16.100",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "terrariamod:giant_worm_head",
+			"is_summonable": true,
+			"is_spawnable": true
+		},
+		"component_groups": {
+			"terrariamod:aim_at_player": {
+				"minecraft:timer": {
+					"looping": true,
+					"time": [
+						0.1,
+						0.1
+					],
+					"time_down_event": {
+						"event": "terrariamod:move_towards_the_player"
+					}
+				},
+				"minecraft:environment_sensor": {
+					"triggers": [
+						{
+							"filters": {
+								"test": "distance_to_nearest_player",
+								"operator": "<",
+								"value": 4
+							},
+							"event": "terrariamod:trans_miss"
+						}
+					]
+				}
+			},
+			"terrariamod:miss_player": {
+				"minecraft:environment_sensor": {
+					"triggers": [
+						{
+							"filters": {
+								"test": "distance_to_nearest_player",
+								"operator": ">",
+								"value": 4
+							},
+							"event": "terrariamod:trans_player"
+						}
+					]
+				},
+				"minecraft:timer": {
+					"looping": true,
+					"time": [
+						0.1,
+						0.1
+					],
+					"time_down_event": {
+						"event": "terrariamod:miss_the_player"
+					}
+				}
+			}
+		},
+		"components": {
+			"minecraft:health": {
+				"value": 30,
+				"max": 30
+			},
+			"minecraft:area_attack": {
+				"damage_range": 2,
+				"damage_per_tick": 8,
+				"cause": "contact",
+				"entity_filter": {
+					"any_of": [
+						{
+							"test": "is_family",
+							"subject": "other",
+							"value": "player"
+						},
+						{
+							"test": "is_family",
+							"subject": "other",
+							"value": "villager"
+						}
+					]
+				}
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"deals_damage": false,
+						"cause": "suffocation"
+					}
+				]
+			},
+			"minecraft:type_family": {
+				"family": [
+					"terrariamod_giant_worm_head",
+					"terrariamod_giant_worm_segment"
+				]
+			},
+			"minecraft:collision_box": {
+				"width": 1,
+				"height": 1
+			},
+			"minecraft:on_death": {
+				"event": "terrariamod:kill_all_segments"
+			}
+		},
+		"events": {
+			"terrariamod:kill_all_segments": {
+				"run_command": {
+					"command": [
+						"kill @e[family=terrariamod_giant_worm_segment]"
+					]
+				}
+			},
+			"terrariamod:move_towards_the_player": {
+				"run_command": {
+					"command": [
+						"function worm_ai",
+						"tp @s ^ ^ ^0.3 facing @p"
+					]
+				}
+			},
+			"minecraft:entity_spawned": {
+				"run_command": {
+					"command": [
+						"summon terrariamod:giant_worm_body_1",
+						"summon terrariamod:giant_worm_body_2",
+						"summon terrariamod:giant_worm_body_3",
+						"summon terrariamod:giant_worm_body_4",
+						"summon terrariamod:giant_worm_body_5",
+						"summon terrariamod:giant_worm_tail"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"terrariamod:aim_at_player"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"terrariamod:miss_player"
+					]
+				}
+			},
+			"terrariamod:miss_the_player": {
+				"run_command": {
+					"command": [
+						"function worm_ai",
+						"tp @s ^ ^ ^0.3"
+					]
+				}
+			},
+			"terrariamod:trans_player": {
+				"add": {
+					"component_groups": [
+						"terrariamod:aim_at_player"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"terrariamod:miss_player"
+					]
+				}
+			},
+			"terrariamod:trans_miss": {
+				"add": {
+					"component_groups": [
+						"terrariamod:miss_player"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"terrariamod:aim_at_player"
+					]
+				},
+				"run_command":{
+					"command":[
+						"tp @s ^ ^ ^0.3 facing @p"
+					]
+				}
+			}
+		}
+	}
+}

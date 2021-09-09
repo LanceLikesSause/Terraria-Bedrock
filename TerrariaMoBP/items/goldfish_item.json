@@ -12,7 +12,7 @@
 				"texture": "terrariamod:goldfish_item"
 			},
 			"minecraft:display_name": {
-				"value": "Gold Fish\n§9'It's smiling, might be a good snack'"
+				"value": "Goldfish\n§9'It's smiling, might be a good snack'"
 			},
 			"minecraft:creative_category": {
 				"parent": "nature"

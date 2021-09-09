@@ -1,0 +1,37 @@
+//bridge-file-version: #46
+{
+	"format_version": "1.13.0",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "terrariamod:corruption_chasm_featurerule",
+			"places_feature": "terrariamod:cave_feature"
+		},
+		"conditions": {
+			"placement_pass": "surface_pass",
+			"minecraft:biome_filter": [
+				{
+					"test": "has_biome_tag",
+					"operator": "==",
+					"value": "corruption_forest"
+				}
+			]
+		},
+		"distribution": {
+			"iterations": 20,
+			"x": 3,
+			"y": {
+				"distribution": "uniform",
+				"extent": [
+					80,
+					130
+				]
+			},
+			"z": 6,
+			"coordinate_eval_order": "xzy",
+			"scatter_chance": {
+				"numerator": 1,
+				"denominator": 7
+			}
+		}
+	}
+}

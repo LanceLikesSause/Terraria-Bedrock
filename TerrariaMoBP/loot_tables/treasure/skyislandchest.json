@@ -1,8 +1,9 @@
 //bridge-file-version: #28
+//bridge-file-version: #25
 {
 	"pools": [
 		{
-			"rolls": 6,
+			"rolls": 3,
 			"entries": [
 				{
 					"type": "item",
@@ -177,28 +178,6 @@
 				{
 					"type": "item",
 					"weight": 1,
-					"name": "terrariamod:throwingknife",
-					"functions": [
-						{
-							"conditions": [
-								{
-									"condition": "random_chance",
-									"chance": 0.3
-								}
-							]
-						},
-						{
-							"function": "set_count",
-							"count": {
-								"min": 150,
-								"max": 299
-							}
-						}
-					]
-				},
-				{
-					"type": "item",
-					"weight": 1,
 					"name": "terrariamod:umbrella",
 					"functions": [
 						{
@@ -228,6 +207,28 @@
 							"count": {
 								"min": 25,
 								"max": 50
+							}
+						},
+						{
+							"conditions": [
+								{
+									"condition": "random_chance",
+									"chance": 0.3
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "terrariamod:throwingknife",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 150,
+								"max": 299
 							}
 						},
 						{

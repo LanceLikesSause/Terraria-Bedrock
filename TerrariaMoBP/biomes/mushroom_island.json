@@ -17,21 +17,13 @@
 				"temperature": 0.5
 			},
 			"minecraft:surface_parameters": {
-				"foundation_material": {
-					"name": "minecraft:barrier"
-				},
-				"top_material": {
-					"name": "minecraft:barrier"
-				},
-				"mid_material": {
-					"name": "minecraft:barrier"
-				},
 				"sea_floor_depth": 0,
-				"sea_material": "minecraft:barrier",
-				"sea_floor_material": {
-					"name": "minecraft:barrier"
-				}
-			}
+				"sea_material": "minecraft:water",
+				"foundation_material": "terrariamod:purity_stone",
+				"top_material": "terrariamod:purity_grass",
+				"sea_floor_material": "terrariamod:purity_sand",
+				"mid_material": "terrariamod:purity_dirt"
+			},
 		}
 	}
 }

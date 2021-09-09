@@ -13,17 +13,12 @@
 						{
 							"test": "has_biome_tag",
 							"operator": "==",
-							"value": "evil"
-						},
-						{
-							"test": "has_biome_tag",
-							"operator": "==",
 							"value": "purity"
 						}
 					]
 				}
 			],
-			"placement_pass": "first_pass"
+			"placement_pass": "final_pass"
 		},
 		"distribution": {
 			"iterations": 90,

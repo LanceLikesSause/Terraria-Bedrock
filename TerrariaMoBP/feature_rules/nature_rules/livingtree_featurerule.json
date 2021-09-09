@@ -21,7 +21,7 @@
 			"y": "query.heightmap(variable.worldx, variable.worldz)",
 			"scatter_chance": {
 				"numerator": 1,
-				"denominator": 90
+				"denominator": 500
 			},
 			"coordinate_eval_order": "xzy",
 			"x": 10,

@@ -21,7 +21,7 @@
 					"workbench"
 				]
 			},
-			"minecraft:block_light_emission": 1,
+			"minecraft:block_light_emission": 0,
 			"tag:terrariamod:wood": {}
 		},
 		"events": {}

@@ -14,6 +14,7 @@
 				},
 				"command": {
 					"on_exit": [
+						"/gamerule sendcommandfeedback false",
 						"/scoreboard objectives add nursestat dummy nursestat",
 						"/scoreboard objectives add merchantstat dummy merchantstat",
 						"/scoreboard objectives add demostat dummy demostat",
@@ -31,7 +32,18 @@
 						"/execute @s[tag=!begin] ~ ~ ~ scoreboard players set @s mana_crystal 20",
 						"/scoreboard objectives add lcrystals dummy lcrystals",
 						"/execute @s[tag=!begin] ~ ~ ~ scoreboard players set @s lcrystals 100",
-						"/tag @s add begin"
+						"/execute @s[tag=!begin] ~ ~ ~ give @s terrariamod:game_setup_2",
+						"/execute @s[tag=!begin] ~ ~ ~ give @s terrariamod:coppershortsword",
+						"/execute @s[tag=!begin] ~ ~ ~ give @s terrariamod:copperpickaxe",
+						"/execute @s[tag=!begin] ~ ~ ~ give @s terrariamod:copperaxe",
+						"/execute @s[tag=!begin] ~ ~ ~ clear @s terrariamod:game_setup_1 0 1",
+						"/execute @s[tag=!begin] ~ ~ ~ summon terrariamod:guide ~~~",
+						"/execute @s[tag=!begin] ~ ~ ~ gamerule doweathercycle false",
+						"/execute @s[tag=!begin] ~ ~ ~ tp @s 0 130 0",
+						"/execute @s[tag=!begin] ~ ~ ~ spawnpoint @s ~~~",
+						"/execute @s[tag=!begin] ~ ~ ~ setworldspawn ~~~",
+						"/tag @s add begin",
+						"/gamerule sendcommandfeedback true"
 					],
 					"transitions": [
 						{

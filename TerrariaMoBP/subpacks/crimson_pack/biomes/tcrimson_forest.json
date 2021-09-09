@@ -17,7 +17,7 @@
 			"minecraft:overworld_height": {
 				"noise_params": [
 					4,
-					0
+					1
 				]
 			},
 			"minecraft:climate": {

@@ -7,7 +7,7 @@
 		},
 		"components": {
 			"minecraft:display_name": {
-				"value": "Cell Phone\n§9Displays everything\n§9Allows you to return home at will\n§9(isn't finished)"
+				"value": "Cell Phone\n§9Displays everything\n§9why is this even in the addon it's useless O_o"
 			},
 			"minecraft:icon": {
 				"texture": "terrariamod:cellphone"

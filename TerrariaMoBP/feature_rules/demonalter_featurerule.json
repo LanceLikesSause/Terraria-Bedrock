@@ -1,0 +1,39 @@
+//bridge-file-version: #13
+{
+	"format_version": "1.13.0",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "terrariamod:demonalter_featurerule",
+			"places_feature": "terrariamod:demonalter_feature"
+		},
+		"conditions": {
+			"placement_pass": "surface_pass",
+			"minecraft:biome_filter": [
+				{
+					"test": "has_biome_tag",
+					"operator": "==",
+					"value": "corruption_forest"
+				}
+			]
+		},
+		"distribution": {
+			"iterations": 10,
+			"x": {
+				"distribution": "uniform",
+				"extent": [
+					0,
+					16
+				]
+			},
+			"y": 90,
+			"z": {
+				"distribution": "uniform",
+				"extent": [
+					0,
+					16
+				]
+			},
+			"coordinate_eval_order": "xzy"
+		}
+	}
+}

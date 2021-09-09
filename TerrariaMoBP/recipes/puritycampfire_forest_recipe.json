@@ -5,10 +5,7 @@
 		"description": {
 			"identifier": "terrariamod:puritycampfire_forest_recipe"
 		},
-		"tags": [
-			"workbench",
-			"crafting_table"
-		],
+		"tags": ["workbench","crafting_table"],
 		"ingredients": [
 			{
 				"item": "terrariamod:purity_wood_item",

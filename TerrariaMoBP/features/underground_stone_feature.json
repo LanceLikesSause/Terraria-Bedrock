@@ -1,0 +1,19 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:ore_feature": {
+		"description": {
+			"identifier": "terrariamod:underground_stone_feature"
+		},
+		"count": 50,
+		"replace_rules": [
+			{
+				"places_block": "terrariamod:purity_stone",
+				"may_replace": [
+					{
+						"name": "terrariamod:purity_dirt"
+					}
+				]
+			}
+		]
+	}
+}

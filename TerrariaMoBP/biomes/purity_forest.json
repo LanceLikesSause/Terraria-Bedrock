@@ -1,4 +1,4 @@
-//bridge-file-version: #13
+//bridge-file-version: #15
 {
 	"format_version": "1.13.0",
 	"minecraft:biome": {
@@ -9,7 +9,7 @@
 			"minecraft:surface_parameters": {
 				"sea_floor_depth": 0,
 				"sea_material": "minecraft:water",
-				"foundation_material": "terrariamod:purity_stone",
+				"foundation_material": "terrariamod:purity_dirt",
 				"top_material": "terrariamod:purity_grass",
 				"sea_floor_material": "terrariamod:purity_sand",
 				"mid_material": "terrariamod:purity_dirt"

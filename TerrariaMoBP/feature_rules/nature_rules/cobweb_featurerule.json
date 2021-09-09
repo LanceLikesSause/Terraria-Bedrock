@@ -1,10 +1,10 @@
-//bridge-file-version: #19
+//bridge-file-version: #21
 {
 	"format_version": "1.13.0",
 	"minecraft:feature_rules": {
 		"description": {
-			"identifier": "minecraft:cobweb_featurerule",
-			"places_feature": "minecraft:cobweb_feature"
+			"identifier": "terrariamod:cobweb_featurerule",
+			"places_feature": "terrariamod:cobweb_feature"
 		},
 		"conditions": {
 			"minecraft:biome_filter": [

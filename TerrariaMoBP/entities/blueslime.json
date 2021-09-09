@@ -19,7 +19,8 @@
 			"minecraft:type_family": {
 				"family": [
 					"slimes_terraria",
-					"terraria_players_enemy"
+					"terraria_players_enemy",
+					"terrariamod_giant_worm_head"
 				]
 			},
 			"minecraft:behavior.nearest_attackable_target": {

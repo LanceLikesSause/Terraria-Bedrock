@@ -1,4 +1,4 @@
-//bridge-file-version: #31
+//bridge-file-version: #32
 {
 	"format_version": "1.8.0",
 	"minecraft:spawn_rules": {
@@ -26,8 +26,8 @@
 				},
 				"minecraft:spawns_on_surface": {},
 				"minecraft:height_filter": {
-					"min": 110,
-					"max": 220
+					"min": 80,
+					"max": 200
 				}
 			}
 		]

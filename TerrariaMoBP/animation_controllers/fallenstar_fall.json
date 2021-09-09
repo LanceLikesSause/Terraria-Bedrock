@@ -12,7 +12,7 @@
 				},
 				"spawn_next_stage": {
 					"on_entry": [
-						"/tp @s ~ ~5 ~"
+						"/tp @s ~ 200 ~"
 					]
 				}
 			}

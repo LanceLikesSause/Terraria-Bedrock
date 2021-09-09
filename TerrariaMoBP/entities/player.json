@@ -78,7 +78,7 @@
 					0.5
 				],
 				"time_down_event": {
-					"event": "terrariamod:regen_mana_and_display_mana_and_health"
+					"event": "terrariamod:mana_and_health"
 				}
 			},
 			"minecraft:is_hidden_when_invisible": {},
@@ -175,9 +175,6 @@
 				"value": 100,
 				"max": 100
 			},
-			"minecraft:equipment": {
-				"table": "loot_tables/entities/player_starting_items.json"
-			},
 			"minecraft:inventory": {
 				"inventory_size": 90,
 				"container_type": "inventory"
@@ -187,20 +184,32 @@
 			}
 		},
 		"events": {
-			"terrariamod:regen_mana_and_display_mana_and_health": {
+			//A giant set or commands that regenerates mana depending on the max mana and prevents the mana from going over the max mana. It also displays the health and mana on the actionbar.
+			"terrariamod:mana_and_health": {
 				"run_command": {
 					"command": [
 						"execute @s[scores={mana_crystal=20}] ~~~ execute @s[scores={mana=..20}] ~~~ scoreboard players add @s mana 1",
+						"execute @s[scores={mana_crystal=20}] ~~~ execute @s[scores={mana=20..}] ~~~ scoreboard players set @s mana 20",
 						"execute @s[scores={mana_crystal=40}] ~~~ execute @s[scores={mana=..40}] ~~~ scoreboard players add @s mana 2",
+						"execute @s[scores={mana_crystal=40}] ~~~ execute @s[scores={mana=40..}] ~~~ scoreboard players set @s mana 40",
 						"execute @s[scores={mana_crystal=60}] ~~~ execute @s[scores={mana=..60}] ~~~ scoreboard players add @s mana 3",
+						"execute @s[scores={mana_crystal=60}] ~~~ execute @s[scores={mana=60..}] ~~~ scoreboard players set @s mana 60",
 						"execute @s[scores={mana_crystal=80}] ~~~ execute @s[scores={mana=..80}] ~~~ scoreboard players add @s mana 4",
+						"execute @s[scores={mana_crystal=80}] ~~~ execute @s[scores={mana=80..}] ~~~ scoreboard players set @s mana 80",
 						"execute @s[scores={mana_crystal=100}] ~~~ execute @s[scores={mana=..100}] ~~~ scoreboard players add @s mana 5",
+						"execute @s[scores={mana_crystal=100}] ~~~ execute @s[scores={mana=100..}] ~~~ scoreboard players set @s mana 100",
 						"execute @s[scores={mana_crystal=120}] ~~~ execute @s[scores={mana=..120}] ~~~ scoreboard players add @s mana 6",
+						"execute @s[scores={mana_crystal=120}] ~~~ execute @s[scores={mana=120..}] ~~~ scoreboard players set @s mana 120",
 						"execute @s[scores={mana_crystal=140}] ~~~ execute @s[scores={mana=..140}] ~~~ scoreboard players add @s mana 7",
+						"execute @s[scores={mana_crystal=140}] ~~~ execute @s[scores={mana=140..}] ~~~ scoreboard players set @s mana 140",
 						"execute @s[scores={mana_crystal=160}] ~~~ execute @s[scores={mana=..160}] ~~~ scoreboard players add @s mana 8",
+						"execute @s[scores={mana_crystal=160}] ~~~ execute @s[scores={mana=160..}] ~~~ scoreboard players set @s mana 160",
 						"execute @s[scores={mana_crystal=180}] ~~~ execute @s[scores={mana=..180}] ~~~ scoreboard players add @s mana 9",
-						"execute @s[scores={mana_crystal=190}] ~~~ execute @s[scores={mana=..200}] ~~~ scoreboard players add @s mana 10",
-						"execute @s[scores={mana_crystal=200..}] ~~~ execute @s[scores={mana=..199}] ~~~ scoreboard players add @s mana 11",
+						"execute @s[scores={mana_crystal=180}] ~~~ execute @s[scores={mana=180..}] ~~~ scoreboard players set @s mana 180",
+						"execute @s[scores={mana_crystal=190}] ~~~ execute @s[scores={mana=..190}] ~~~ scoreboard players add @s mana 10",
+						"execute @s[scores={mana_crystal=190}] ~~~ execute @s[scores={mana=190..}] ~~~ scoreboard players set @s mana 190",
+						"execute @s[scores={mana_crystal=200..}] ~~~ execute @s[scores={mana=..200}] ~~~ scoreboard players add @s mana 11",
+						"execute @s[scores={mana_crystal=200}] ~~~ execute @s[scores={mana=200..}] ~~~ scoreboard players set @s mana 200",
 						"titleraw @s actionbar {\"rawtext\":[{\"text\":\"\\ue103\"},{\"text\":\"Health:\"},{\"score\":{\"name\":\"@s\",\"objective\":\"health\"}},{\"text\":\"/\"},{\"score\":{\"name\":\"@s\",\"objective\":\"lcrystals\"}},{\"text\":\"   \\ue100\"},{\"text\":\"Mana:\"},{\"score\":{\"name\":\"@s\",\"objective\":\"mana\"}},{\"text\":\"/\"},{\"score\":{\"name\":\"@s\",\"objective\":\"mana_crystal\"}}]}"
 					]
 				}

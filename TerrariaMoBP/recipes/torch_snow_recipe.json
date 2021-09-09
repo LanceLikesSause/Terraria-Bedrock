@@ -6,7 +6,8 @@
 			"identifier": "terrariamod:torch_snow_recipe"
 		},
 		"tags": [
-			"crafting_table"
+			"crafting_table",
+			"workbench"
 		],
 		"pattern": [
 			"#",

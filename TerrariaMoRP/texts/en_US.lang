@@ -1,5 +1,15 @@
 #####################Version Number
 terrariamod.version.number=2.4.4
+
+###ui buttons
+menu.returnToGame=Close Menu
+menu.howToPlay=Info
+menu.settings=Settings
+pauseScreen.quit=Save & Exit
+menu.profile=Profile
+menu.achievements=Achievements
+#############
+
 ###############how to play
 terrariamod.category.dakon=Terraria Mod Tutorial
 howtoplay.category.dakon=Terraria Guide
@@ -107,7 +117,6 @@ tile.terrariamod:purity_cactus_top.name=Cactus Top
 tile.terrariamod:cactus_block.name=Cactus Block
 tile.terrariamod:purity_sandstone.name=Sandstone
 tile.terrariamod:purity_sand.name=Sand
-
 
 ##jungle
 tile.terrariamod:larva.name=Larva
@@ -319,6 +328,7 @@ entity.terrariamod:woodenarrow_projectile_tin.name=Silver Bow
 entity.terrariamod:woodenarrow_projectile_tungsten.name=Tungsten Bow
 entity.terrariamod:woodenarrow_projectile_gold.name=Gold Bow
 entity.terrariamod:woodenarrow_projectile_platinum.name=Platinum Bow
+entity.terrariamod:feather_projectile.name=Harpy Feather
 
 #mobs
 item.spawn_egg.entity.terrariamod:thehungry.name=Spawn The Hungry
@@ -441,8 +451,14 @@ item.spawn_egg.entity.terrariamod:kingslime.name=Spawn King Slime
 entity.terrariamod:kingslime.name=King Slime
 item.spawn_egg.entity.terrariamod:zombie_terraria.name=Spawn Zombie
 entity.terrariamod:zombie_terraria.name=Zombie
-item.spawn_egg.entity.terrariamod:giantworm.name=Spawn Giant Worm 
-entity.terrariamod:giantworm.name=Giant Worm 
+item.spawn_egg.entity.terrariamod:giant_worm_head.name=Spawn Giant Worm 
+entity.terrariamod:giant_worm_head.name=Giant Worm 
+entity.terrariamod:giant_worm_body_1.name=Giant Worm
+entity.terrariamod:giant_worm_body_2.name=Giant Worm
+entity.terrariamod:giant_worm_body_3.name=Giant Worm
+entity.terrariamod:giant_worm_body_4.name=Giant Worm
+entity.terrariamod:giant_worm_body_5.name=Giant Worm
+entity.terrariamod:giant_worm_tail.name=Giant Worm
 item.spawn_egg.entity.terrariamod:skeletron_head.name=Spawn Skeletron
 entity.terrariamod:skeletron_head.name=Skeletron
 item.spawn_egg.entity.terrariamod:hornet.name=Spawn Hornet
@@ -459,6 +475,8 @@ item.spawn_egg.entity.terrariamod:dummy_depthmeter.name=Spawn Depth Meter Dummy
 entity.terrariamod:dummy_depthmeter.name=Depth Meter
 item.spawn_egg.entity.terrariamod:harpy.name=Spawn Harpy
 entity.terrariamod:harpy.name=Harpy
+entity.terrariamod:umbrellaslime.name=Umbrella Slime
+item.spawn_egg.entity.terrariamod:umbrellaslime.name=Spawn Umbrella Slime
 
 #dungeon blocks
 tile.terrariamod:greenbrick.name=Green Bricks

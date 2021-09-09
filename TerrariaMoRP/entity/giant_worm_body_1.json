@@ -1,0 +1,35 @@
+//bridge-file-version: #20
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "terrariamod:giant_worm_body_1",
+			"min_engine_version": "1.8.0",
+			"materials": {
+				"default": "zombie"
+			},
+			"textures": {
+				"default": "textures/entity/pamobile/giant_worm"
+			},
+			"geometry": {
+				"default": "geometry.giant_worm_body"
+			},
+			"spawn_egg": {
+				"texture": "spawn_egg",
+				"texture_index": 12
+			},
+			"render_controllers": [
+				"controller.render.zombie"
+			],
+			"enable_attachables": true,
+			"scripts": {
+				"animate": [
+					"look_at"
+				]
+			},
+			"animations": {
+				"look_at": "animation.worm_look.facing"
+			}
+		}
+	}
+}

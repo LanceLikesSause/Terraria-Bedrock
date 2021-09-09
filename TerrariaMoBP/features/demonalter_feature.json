@@ -1,22 +1,17 @@
+//bridge-file-version: #5
 {
 	"format_version": "1.13.0",
 	"minecraft:single_block_feature": {
 		"description": {
-			"identifier": "minecraft:demonalter_feature"
+			"identifier": "terrariamod:demonalter_feature"
 		},
 		"places_block": "terrariamod:demon_alter",
-		"enforce_survivability_rules": true,
-		"enforce_placement_rules": true,
+		"enforce_survivability_rules": false,
+		"enforce_placement_rules": false,
 		"may_replace": [
 			{
 				"name": "minecraft:air"
 			}
-		],
-		"may_attach_to": {
-			"min_sides_must_attach": 1,
-			"bottom": [
-				"terrariamod:corrupted_grass"
-			]
-		}
+		]
 	}
 }

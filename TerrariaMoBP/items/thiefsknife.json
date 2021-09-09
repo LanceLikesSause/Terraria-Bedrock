@@ -2,9 +2,13 @@
 	"format_version": "1.16.100",
 	"minecraft:item": {
 		"description": {
-			"identifier": "terrariamod:thiefsknife"
+			"identifier": "terrariamod:thiefsknife",
+			"category": "commands"
 		},
 		"components": {
+			"minecraft:creative_category": {
+				"parent": "commands"
+			},
 			"minecraft:icon": {
 				"texture": "terrariamod:thiefsknife"
 			}

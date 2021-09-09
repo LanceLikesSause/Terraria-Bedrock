@@ -1,0 +1,112 @@
+//bridge-file-version: #17
+{
+	"format_version": "1.16.100",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "terrariamod:giant_worm_body_3",
+			"is_summonable": true,
+			"is_spawnable": false
+		},
+		"component_groups": {},
+		"events": {},
+		"components": {
+			"minecraft:area_attack": {
+				"damage_range": 2,
+				"damage_per_tick": 4,
+				"cause": "contact",
+				"entity_filter": {
+					"any_of": [
+						{
+							"test": "is_family",
+							"subject": "other",
+							"value": "player"
+						},
+						{
+							"test": "is_family",
+							"subject": "other",
+							"value": "villager"
+						}
+					]
+				}
+			},
+			"minecraft:collision_box": {
+				"width": 0.6,
+				"height": 1.9
+			},
+			"minecraft:health": {
+				"value": 30,
+				"max": 30
+			},
+			"minecraft:attack": {
+				"damage": 14
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"cause": "suffocation",
+						"deals_damage": false
+					}
+				]
+			},
+			"minecraft:loot": {
+				"table": "loot_tables/entities/zombie_terraria.json"
+			},
+			"minecraft:physics": {},
+			"minecraft:type_family": {
+				"family": [
+					"terrariamod_giant_worm_body_3",
+					"terrariamod_giant_worm_segment"
+				]
+			},
+			"minecraft:movement": {
+				"value": 0.25
+			},
+			"minecraft:despawn": {
+				"despawn_from_distance": {
+					"max_distance": 60,
+					"min_distance": 80
+				}
+			},
+			"minecraft:navigation.walk": {
+				"is_amphibious": true,
+				"can_pass_doors": true,
+				"can_walk": true,
+				"can_break_doors": true
+			},
+			"minecraft:behavior.nearest_attackable_target": {
+				"priority": 2,
+				"must_see": false,
+				"reselect_targets": true,
+				"within_radius": 25,
+				"must_see_forget_duration": 17,
+				"entity_types": [
+					{
+						"filters": {
+							"any_of": [
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "terrariamod_giant_worm_body_2"
+								}
+							]
+						},
+						"max_dist": 35
+					}
+				]
+			},
+			"minecraft:on_death": {
+				"event": "terrariamod:kill_all_segments"
+			}
+		},
+		"events": {
+			"terrariamod:kill_all_segments": {
+				"run_command": {
+					"command": [
+						"kill @e[family=terrariamod_giant_worm_segment]"
+					]
+				}
+			}
+		}
+		}
+	}
+}

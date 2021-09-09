@@ -1,0 +1,16 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:single_block_feature": {
+		"description": {
+			"identifier": "minecraft:ruined_portal"
+		},
+		"places_block": "terrariamod:beehive_spawner",
+		"may_replace": [
+			{
+				"name": "minecraft:air"
+			}
+		],
+		"enforce_survivability_rules": true,
+		"enforce_placement_rules": true
+	}
+}

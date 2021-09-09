@@ -6,7 +6,8 @@
 			"identifier": "terrariamod:poisonedknife_recipe"
 		},
 		"tags": [
-			"crafting_table"
+			"crafting_table",
+			"workbench"
 		],
 		"ingredients": [
 			{

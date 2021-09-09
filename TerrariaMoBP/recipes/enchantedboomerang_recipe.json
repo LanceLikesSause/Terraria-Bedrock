@@ -6,7 +6,8 @@
 			"identifier": "terrariamod:enchantedboomerang_recipe"
 		},
 		"tags": [
-			"crafting_table"
+			"crafting_table",
+			"workbench"
 		],
 		"ingredients": [
 			{

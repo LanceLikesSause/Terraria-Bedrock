@@ -12,7 +12,7 @@
 				},
 				"spawn_next_stage": {
 					"on_entry": [
-						"/say The Guide has died"
+						"/tellraw @a {\"rawtext\":[{\"text\":\"The Guide has died\"}]}"
 					]
 				}
 			}

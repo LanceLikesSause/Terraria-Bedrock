@@ -13,7 +13,7 @@
 				"spawn_next_stage": {
 					"on_entry": [
 						"/scoreboard players set @a merchantstat 0",
-						"/say The Merchant has died"
+						"/tellraw @a {\"rawtext\":[{\"text\":\"The Merchant has died\"}]}"
 					]
 				}
 			}

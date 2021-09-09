@@ -27,7 +27,7 @@
 		},
 		"distribution": {
 			"iterations": 1,
-			"coordinate_eval_order": "zyx",
+			"coordinate_eval_order": "xzy",
 			"x": {
 				"distribution": "uniform",
 				"extent": [
@@ -35,13 +35,7 @@
 					16
 				]
 			},
-			"y": {
-				"distribution": "uniform",
-				"extent": [
-					60,
-					128
-				]
-			},
+			"y": "query.heightmap(variable.worldx, variable.worldz)",
 			"z": {
 				"distribution": "uniform",
 				"extent": [
@@ -51,7 +45,7 @@
 			},
 			"scatter_chance": {
 				"numerator": 1,
-				"denominator": 20
+				"denominator": 100
 			}
 		}
 	}

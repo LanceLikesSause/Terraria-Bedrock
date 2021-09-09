@@ -10,7 +10,7 @@
 		"component_groups": {},
 		"components": {
 			"minecraft:area_attack": {
-				"damage_range": 2,
+				"damage_range": 1,
 				"damage_per_tick": 4,
 				"cause": "contact",
 				"entity_filter": {

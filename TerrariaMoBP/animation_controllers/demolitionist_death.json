@@ -13,7 +13,7 @@
 				"spawn_next_stage": {
 					"on_entry": [
 						"/scoreboard players set @a demostat 0",
-						"/say The Demolitionist has died"
+						"/tellraw @a {\"rawtext\":[{\"text\":\"The Demolitionist has died\"}]}"
 					]
 				}
 			}

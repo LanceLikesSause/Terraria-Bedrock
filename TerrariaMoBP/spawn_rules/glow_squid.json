@@ -2,7 +2,7 @@
   "format_version": "1.8.0",
   "minecraft:spawn_rules": {
     "description": {
-      "identifier": "minecraft:cod",
+      "identifier": "minecraft:glow_squid",
       "population_control": "water_animal"
     },
     "conditions": [

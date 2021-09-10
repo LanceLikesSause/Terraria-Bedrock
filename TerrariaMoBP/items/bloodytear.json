@@ -12,7 +12,7 @@
 			"minecraft:on_use": {
 				"on_use": {
 					"event": "terrariamod:summon",
-					"condition": "query.time_of_day<0.25||query.time_of_day>0.75"
+					"condition": "query.time_of_day<0.25||query.time_of_day>0.75 && query.scoreboard('boss_2_alive')!=11"
 				}
 			},
 			"minecraft:display_name": {
@@ -26,8 +26,9 @@
 			"terrariamod:summon": {
 				"run_command": {
 					"command": [
-						"function events/blood_moon",
-						"clear @s terrariamod:bloodytear 0 1"
+						"summon terrariamod:bloodmoon_dummy",
+						"clear @s terrariamod:bloodytear 0 1",
+						"tellraw @a {\"rawtext\":[{\"text\":\"The Blood Moon is rising...\"}]}"
 					]
 				}
 			}

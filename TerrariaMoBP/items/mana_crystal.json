@@ -19,7 +19,8 @@
 			},
 			"minecraft:on_use": {
 				"on_use": {
-					"event": "terrariamod:upgrade_mana"
+					"event": "terrariamod:upgrade_mana",
+					"condition": "query.scoreboard('mana_crystal')<200"
 				}
 			}
 		},

@@ -26,7 +26,8 @@
 				},
 				"blood_moon": {
 					"on_entry": [
-						"/function events/blood_moon"
+						"/summon terrariamod:bloodmoon_dummy",
+						"/tellraw @a {\"rawtext\":[{\"text\":\"The Blood Moon is rising...\"}]}"
 					],
 					"transitions": [
 						{
@@ -36,7 +37,8 @@
 				},
 				"goblin_army": {
 					"on_entry": [
-						"/function events/goblin_army"
+						"/summon terrariamod:goblinarmy_dummy",
+						"/tellraw @a {\"rawtext\":[{\"text\":\"A goblin army has arrived!\"}]}"
 					],
 					"transitions": [
 						{

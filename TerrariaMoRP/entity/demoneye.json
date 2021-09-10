@@ -27,8 +27,7 @@
 				"animate": [
 					"loop"
 				]
-			},
-			"enable_attachables": true
+			}
 		}
 	}
 }

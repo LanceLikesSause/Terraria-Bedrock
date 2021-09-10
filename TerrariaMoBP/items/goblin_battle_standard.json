@@ -11,7 +11,8 @@
 			},
 			"minecraft:on_use": {
 				"on_use": {
-					"event": "terrariamod:summon"
+					"event": "terrariamod:summon",
+					"condition": "query.scoreboard('boss_2_alive')!=10"
 				}
 			},
 			"minecraft:display_name": {
@@ -25,8 +26,9 @@
 			"terrariamod:summon": {
 				"run_command": {
 					"command": [
-						"clear @s terrariamod:bloodytear 0 1",
-						"function events/goblin_army"
+						"summon terrariamod:goblinarmy_dummy",
+						"clear @s terrariamod:goblinbattlestandard 0 1",
+						"tellraw @a {\"rawtext\":[{\"text\":\"A goblin army has arrived!\"}]}"
 					]
 				}
 			}

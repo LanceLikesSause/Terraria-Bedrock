@@ -20,7 +20,7 @@
 					"tfurnace"
 				]
 			},
-			"minecraft:block_light_emission": 0,
+			"minecraft:block_light_emission": 1,
 			"minecraft:loot": "loot_tables/blocks/tfurnace_item.json",
 			"tag:terrariamod:stone": {}
 		},

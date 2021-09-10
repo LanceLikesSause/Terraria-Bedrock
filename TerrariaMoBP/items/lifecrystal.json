@@ -20,7 +20,7 @@
 			"minecraft:on_use": {
 				"on_use": {
 					"event": "minecraft:use",
-					"target": "self"
+					"condition": "query.scoreboard('lcrystals')<400"
 				}
 			},
 			"minecraft:creative_category": {

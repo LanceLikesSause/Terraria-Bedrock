@@ -18,7 +18,7 @@
 				"texture": "terrariamod:spacegun"
 			},
 			"minecraft:display_name": {
-				"value": "Space Gun\n§9+19 Magic Damage"
+				"value": "Space Gun\n§9+19 Magic Damage\nUses 6 Mana"
 			},
 			"minecraft:creative_category": {
 				"parent": "equipment"

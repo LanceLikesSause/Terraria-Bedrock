@@ -1,0 +1,41 @@
+{
+	"function": {
+		"9abafbe6_c944_45da_bc1c_6a900ba4d13b": {},
+		"a14a4018_497f_4dcd_8ddb_5b944f49c6ef": {}
+	},
+	"entity": {
+		"BP/entities/player.json": {
+			"events": [
+				"terrariamod:mana_and_health",
+				"minecraft:gain_bad_omen",
+				"minecraft:clear_add_bad_omen",
+				"minecraft:trigger_raid",
+				"minecraft:remove_raid_trigger"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"minecraft:player"
+			],
+			"animation_references": [
+				"world_creation",
+				"health",
+				"player_death",
+				"music",
+				"event"
+			],
+			"families": [
+				"player"
+			],
+			"custom_components": [],
+			"custom_commands": []
+		}
+	},
+	"item": {
+		"BP/items/cloud_in_a_bottle.json": {
+			"identifiers": [
+				"terrariamod:aglet"
+			],
+			"custom_commands": []
+		}
+	}
+}

@@ -1,4 +1,4 @@
-//bridge-file-version: #64
+//bridge-file-version: #65
 {
 	"resource_pack_name": "terrariamod",
 	"texture_name": "atlas.terrain",
@@ -489,6 +489,51 @@
 		"moonglow": {
 			"textures": [
 				"textures/blocks/moonglow"
+			]
+		},
+		"thorns_corruption": {
+			"textures": [
+				"textures/blocks/thorns_corruption"
+			]
+		},
+		"gold_chest": {
+			"textures": [
+				"textures/blocks/gold_chest"
+			]
+		},
+		"frozen_chest": {
+			"textures": [
+				"textures/blocks/frozen_chest"
+			]
+		},
+		"ivy_chest": {
+			"textures": [
+				"textures/blocks/ivy_chest"
+			]
+		},
+		"sandstone_chest": {
+			"textures": [
+				"textures/blocks/sandstone_chest"
+			]
+		},
+		"skyware_chest": {
+			"textures": [
+				"textures/blocks/skyware_chest"
+			]
+		},
+		"shadow_chest": {
+			"textures": [
+				"textures/blocks/shadow_chest"
+			]
+		},
+		"living_wood_chest": {
+			"textures": [
+				"textures/blocks/living_wood_chest"
+			]
+		},
+		"rich_mahogany_chest": {
+			"textures": [
+				"textures/blocks/rich_mahogany_chest"
 			]
 		}
 	}

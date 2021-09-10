@@ -1,0 +1,26 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "terrariamod:rich_mahogany_chest_item",
+			"category": "construction"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "terrariamod:rich_mahogany_chest_item"
+			},
+			"minecraft:display_name": {
+				"value": "Rich Mahogany Chest"
+			},
+			"minecraft:block_placer": {
+				"block": "terrariamod:rich_mahogany_chest",
+				"use_block_description": true
+			},
+			"minecraft:max_stack_size": 64,
+			"minecraft:creative_category": {
+				"parent": "construction"
+			}
+		},
+		"events": {}
+	}
+}

@@ -49,7 +49,7 @@
 				]
 			},
 			"minecraft:loot": {
-				"table": "loot_tables/entities/zombie_terraria.json"
+				"table": "loot_tables/empty.json"
 			},
 			"minecraft:physics": {},
 			"minecraft:type_family": {

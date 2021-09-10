@@ -9,7 +9,7 @@
 			"minecraft:geometry": "geometry.chest",
 			"minecraft:material_instances": {
 				"*": {
-					"texture": "chest",
+					"texture": "shadow_chest",
 					"render_method": "alpha_test"
 				}
 			},

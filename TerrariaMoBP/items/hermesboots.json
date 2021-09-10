@@ -28,11 +28,10 @@
 		},
 		"events": {
 			"minecraft:use": {
-				"add_mob_effect": {
-					"effect": "speed",
-					"target": "holder",
-					"duration": 1500,
-					"amplifier": 4
+				"run_command": {
+					"command": [
+						"effect @s speed 1500 4 true"
+					]
 				}
 			}
 		}

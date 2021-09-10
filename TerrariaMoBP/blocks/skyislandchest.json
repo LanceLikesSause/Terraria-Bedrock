@@ -9,11 +9,11 @@
 			"minecraft:geometry": "geometry.chest",
 			"minecraft:material_instances": {
 				"*": {
-					"texture": "chest",
+					"texture": "skyware_chest",
 					"render_method": "alpha_test"
 				}
 			},
-			"minecraft:loot": "loot_tables/empty.json",
+			"minecraft:loot": "loot_tables/blocks/skyislandchest.json",
 			"minecraft:destroy_time": 999,
 			"tag:terrariamod:wood": {},
 			"minecraft:on_interact": {

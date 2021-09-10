@@ -8,8 +8,19 @@
 		"components": {
 			"minecraft:destroy_time": 1,
 			"tag:terrariamod:stone": {},
-			"minecraft:loot": "loot_tables/blocks/meteorite.json"
+			"minecraft:loot": "loot_tables/blocks/meteorite.json",
+			"minecraft:on_step_on": {
+				"event": "terrariamod:burn"
+			}
 		},
-		"events": {}
+		"events": {
+			"terrariamod:burn": {
+				"damage": {
+					"amount": 50,
+					"target": "self",
+					"type": "fire"
+				}
+			}
+		}
 	}
 }

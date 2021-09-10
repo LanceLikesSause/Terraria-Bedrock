@@ -1,4 +1,4 @@
-//bridge-file-version: #0
+//bridge-file-version: #4
 {
 	"format_version": "1.16.100",
 	"minecraft:entity": {
@@ -184,7 +184,6 @@
 			}
 		},
 		"events": {
-			//A giant set or commands that regenerates mana depending on the max mana and prevents the mana from going over the max mana. It also displays the health and mana on the actionbar.
 			"terrariamod:mana_and_health": {
 				"run_command": {
 					"command": [

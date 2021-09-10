@@ -18,8 +18,8 @@
 		"component_groups": {},
 		"components": {
 			"minecraft:health": {
-				"value": 100,
-				"max": 100
+				"value": 300,
+				"max": 300
 			},
 			"minecraft:boss": {
 				"name": "Blood Moon",
@@ -28,12 +28,24 @@
 			"minecraft:timer": {
 				"looping": true,
 				"time": [
-					1,
-					1
+					10,
+					10
 				],
 				"time_down_event": {
-					"event": "terrariamod:tp"
+					"event": "terrariamod:summoning"
 				}
+			},
+			"minecraft:environment_sensor": {
+					"triggers": [
+						{
+							"filters": {
+								"test": "distance_to_nearest_player",
+								"operator": "<",
+								"value": 4
+							},
+							"event": "terrariamod:tp_to_player"
+						}
+					]
 			},
 			"minecraft:physics": {
 				"has_collision": false,
@@ -60,10 +72,19 @@
 			}
 		},
 		"events": {
-			"terrariamod:tp": {
+			"terrariamod:tp_to_player": {
 				"run_command": {
 					"command": [
 						"tp @s @p"
+					]
+				}
+			},
+			"terrariamod:summoning": {
+				"run_command": {
+					"command": [
+						"summon terrariamod:bloodzombie ~10 ~5 ~10",
+						"summon terrariamod:thegroom ~-10 ~5 ~10",
+						"summon terrariamod:drippler ~-10 ~5 ~-10"
 					]
 				}
 			}

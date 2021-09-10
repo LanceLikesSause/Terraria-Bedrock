@@ -29,11 +29,10 @@
 		},
 		"events": {
 			"minecraft:use": {
-				"add_mob_effect": {
-					"target": "holder",
-					"duration": 15,
-					"amplifier": 1,
-					"effect": "levitation"
+				"run_command": {
+					"command": [
+						"effect @s levitation 1500 15 true"
+					]
 				}
 			}
 		}

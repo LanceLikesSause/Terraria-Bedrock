@@ -1,4 +1,4 @@
-//bridge-file-version: #66
+//bridge-file-version: #68
 {
 	"terrariamod:shadoworb": {
 		"sound": "wood"
@@ -474,7 +474,10 @@
 		"sound": "grass",
 		"textures": "leafblock"
 	},
-	"cactus_toliet": {
+	"terrariamod:cactus_toliet": {
 		"sound": "cactus"
+	},
+	"terrariamod:thorns_corruption": {
+		"sound": "grass"
 	}
 }

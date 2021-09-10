@@ -164,18 +164,6 @@
 			"minecraft:shooter": {
 				"def": "terrariamod:woodenarrow_projectile"
 			},
-			"minecraft:teleport": {
-				"random_teleports": true,
-				"random_teleport_cube": [
-					3,
-					1,
-					3
-				],
-				"target_distance": 4,
-				"target_teleport_chance": 0.05,
-				"min_random_teleport_time": 6,
-				"max_random_teleport_time": 9
-			},
 			"minecraft:type_family": {
 				"family": [
 					"terraria_players_enemy",

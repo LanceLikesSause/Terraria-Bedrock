@@ -1,12 +1,11 @@
 //bridge-file-version: #5
 {
-	"format_version": "1.8.0",
+	"format_version": "1.10.0",
 	"minecraft:client_entity": {
 		"description": {
 			"identifier": "terrariamod:eyeofcthulhu_stageone",
 			"materials": {
-				"default": "phantom",
-				"invisible": "phantom_invisible"
+				"default": "entity_alphatest"
 			},
 			"textures": {
 				"default": "textures/entity/pamobile/eyeofcthulhu_stageone"
@@ -14,27 +13,20 @@
 			"geometry": {
 				"default": "geometry.eyeofcthulhu_stageone"
 			},
-			"animations": {
-				"phantom_base_pose": "animation.phantom.base_pose",
-				"move": "animation.eyeofcthulhu_stageone.fly"
-			},
-			"animation_controllers": [
-				{
-					"phantom_base_pose": "controller.animation.phantom.base_pose"
-				},
-				{
-					"move": "controller.animation.phantom.move"
-				}
-			],
-			"particle_effects": {
-				"wing_dust": "minecraft:phantom_trail_particle"
-			},
 			"render_controllers": [
-				"controller.render.phantom"
+				"controller.render.zombie"
 			],
 			"spawn_egg": {
 				"base_color": "#FFFFFF",
 				"overlay_color": "#6A0000"
+			},
+			"animations": {
+				"loop": "animation.eyeofcthulhu_stageone.fly"
+			},
+			"scripts": {
+				"animate": [
+					"loop"
+				]
 			}
 		}
 	}

@@ -16,7 +16,7 @@
 			},
 			"minecraft:destroy_time": 999,
 			"tag:terrariamod:wood": {},
-			"minecraft:loot": "loot_tables/blocks/purity_chest_item.json",
+			"minecraft:loot": "loot_tables/blocks/purity_chest.json",
 			"minecraft:on_player_destroyed": {
 				"event": "terrariamod:destroy_dummy",
 				"target": "self"

@@ -493,6 +493,12 @@
 			"sounds": [
 				"sounds/effects/mana_crystal"
 			]
+		},
+		"whoopie_cushion.effect": {
+			"category": "music",
+			"sounds": [
+				"sounds/effects/whoopie_cushion"
+			]
 		}
 	}
 }

@@ -11,7 +11,7 @@
 				"texture": "terrariamod:crimson_rod"
 			},
 			"minecraft:display_name": {
-				"value": "Crimson Rod\n§9+12 Magic Damage\n§9Summons a cloud to rain blood on your foes"
+				"value": "Crimson Rod\n§9+12 Magic Damage\n§9Summons a cloud to rain blood on your foes\nUses 10 mana"
 			},
 			"minecraft:creative_category": {
 				"parent": "equipment"
@@ -32,7 +32,9 @@
 				"run_command": {
 					"command": [
 						"playsound bookofskulls.effect @s",
-						"kill @e[type=terrariamod:blood_cloud]"
+						"kill @e[type=terrariamod:blood_cloud]",
+						"scoreboard players remove @s mana 12",
+						"function mana"
 					]
 				},
 				"shoot": {

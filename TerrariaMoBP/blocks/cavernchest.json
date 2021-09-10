@@ -8,7 +8,7 @@
 			"minecraft:geometry": "geometry.chest",
 			"minecraft:material_instances": {
 				"*": {
-					"texture": "chest",
+					"texture": "gold_chest",
 					"render_method": "alpha_test"
 				}
 			},

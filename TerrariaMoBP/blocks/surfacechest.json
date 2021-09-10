@@ -13,7 +13,7 @@
 					"render_method": "alpha_test"
 				}
 			},
-			"minecraft:loot": "loot_tables/empty.json",
+			"minecraft:loot": "loot_tables/blocks/purity_chest.json",
 			"minecraft:destroy_time": 999,
 			"tag:terrariamod:wood": {},
 			"minecraft:on_interact": {

@@ -2,6 +2,12 @@
 {
 	"pools": [
 		{
+			"conditions": [
+				{
+					"condition": "random_chance",
+					"chance": 0.1
+				}
+			],
 			"rolls": 5,
 			"entries": [
 				{

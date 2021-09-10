@@ -168,7 +168,13 @@
 				]
 			},
 			"minecraft:equipment": {
-				"table": "loot_tables/blocks/thiefsknife.json"
+				"table": "loot_tables/blocks/thiefsknife.json",
+				"slot_drop_chance": [
+					{
+						"slot": "slot.weapon.mainhand",
+						"drop_chance": 0
+					}
+				]
 			},
 			"minecraft:on_death": {
 				"event": "terrariamod:hurt"

@@ -941,6 +941,33 @@
 		},
 		"terrariamod:cloud_in_a_bottle": {
 			"textures": "textures/items/accessories/cloud_in_a_bottle"
+		},
+		"terrariamod:whoopie_cushion": {
+			"textures": "textures/items/novelty/whoopie_cushion"
+		},
+		"terrariamod:gold_chest_item": {
+			"textures": "textures/items/block_placers/gold_chest"
+		},
+		"terrariamod:frozen_chest_item": {
+			"textures": "textures/items/block_placers/frozen_chest"
+		},
+		"terrariamod:ivy_chest_item": {
+			"textures": "textures/items/block_placers/ivy_chest"
+		},
+		"terrariamod:sandstone_chest_item": {
+			"textures": "textures/items/block_placers/sandstone_chest"
+		},
+		"terrariamod:skyware_chest_item": {
+			"textures": "textures/items/block_placers/skyware_chest"
+		},
+		"terrariamod:shadow_chest_item": {
+			"textures": "textures/items/block_placers/shadow_chest"
+		},
+		"terrariamod:living_wood_chest_item": {
+			"textures": "textures/items/block_placers/living_wood_chest"
+		},
+		"terrariamod:rich_mahogany_chest_item": {
+			"textures": "textures/items/block_placers/rich_mahogany_chest"
 		}
 	}
 }

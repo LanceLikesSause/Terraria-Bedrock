@@ -18,7 +18,7 @@
 				"texture": "terrariamod:flower_of_fire"
 			},
 			"minecraft:display_name": {
-				"value": "Flower of Fire\n§9+48 Magic Damage\n§9Throws balls of fire"
+				"value": "Flower of Fire\n§9+48 Magic Damage\n§9Throws balls of fire\nUses 12 Mana"
 			},
 			"minecraft:creative_category": {
 				"parent": "equipment"
@@ -37,7 +37,7 @@
 				"run_command": {
 					"command": [
 						"playsound throw_fire.effect @s",
-						"scoreboard players remove @s mana 18",
+						"scoreboard players remove @s mana 12",
 						"function mana"
 					]
 				},

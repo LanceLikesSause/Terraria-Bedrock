@@ -28,12 +28,24 @@
 			"minecraft:timer": {
 				"looping": true,
 				"time": [
-					1,
-					1
+					10,
+					10
 				],
 				"time_down_event": {
-					"event": "terrariamod:tp"
+					"event": "terrariamod:summoning"
 				}
+			},
+			"minecraft:environment_sensor": {
+					"triggers": [
+						{
+							"filters": {
+								"test": "distance_to_nearest_player",
+								"operator": "<",
+								"value": 4
+							},
+							"event": "terrariamod:tp_to_player"
+						}
+					]
 			},
 			"minecraft:physics": {
 				"has_collision": false,
@@ -60,10 +72,21 @@
 			}
 		},
 		"events": {
-			"terrariamod:tp": {
+			"terrariamod:tp_to_player": {
 				"run_command": {
 					"command": [
 						"tp @s @p"
+					]
+				}
+			},
+			"terrariamod:summoning": {
+				"run_command": {
+					"command": [
+						"summon terrariamod:goblin_sorcerer ~10 ~5 ~10",
+						"summon terrariamod:goblin_peon ~-10 ~5 ~10",
+						"summon terrariamod:goblin_thief ~-10 ~5 ~-10",
+						"summon terrariamod:goblin_warrior ~-10 ~5 ~-10",
+						"summon terrariamod:goblin_archer ~-10 ~5 ~-10"
 					]
 				}
 			}

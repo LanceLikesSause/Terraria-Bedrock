@@ -12,7 +12,7 @@
 				"texture": "terrariamod:undertaker"
 			},
 			"minecraft:display_name": {
-				"value": "Undertaker\n§9+15 Projectile Damage\n§9Place musket balls in the offhand to use"
+				"value": "The Undertaker\n§9+15 Projectile Damage\n§9Place musket balls in the offhand to use"
 			},
 			"minecraft:creative_category": {
 				"parent": "equipment"

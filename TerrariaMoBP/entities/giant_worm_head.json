@@ -1,4 +1,4 @@
-//bridge-file-version: #85
+//bridge-file-version: #88
 {
 	"format_version": "1.16.100",
 	"minecraft:entity": {
@@ -8,6 +8,7 @@
 			"is_spawnable": true
 		},
 		"component_groups": {
+
 			"terrariamod:aim_at_player": {
 				"minecraft:timer": {
 					"looping": true,
@@ -16,6 +17,11 @@
 						0.1
 					],
 					"time_down_event": {
+						"filters": {
+							"test": "distance_to_nearest_player",
+							"operator": "<",
+							"value": 20
+						},
 						"event": "terrariamod:move_towards_the_player"
 					}
 				},
@@ -52,12 +58,20 @@
 						0.1
 					],
 					"time_down_event": {
+						"filters": {
+							"test": "distance_to_nearest_player",
+							"operator": "<",
+							"value": 20
+						},
 						"event": "terrariamod:miss_the_player"
 					}
 				}
 			}
 		},
 		"components": {
+			"minecraft:loot": {
+				"table": "loot_tables/entities/giant_worm.json"
+			},
 			"minecraft:health": {
 				"value": 30,
 				"max": 30
@@ -172,8 +186,8 @@
 						"terrariamod:aim_at_player"
 					]
 				},
-				"run_command":{
-					"command":[
+				"run_command": {
+					"command": [
 						"tp @s ^ ^ ^0.3 facing @p"
 					]
 				}

@@ -27,7 +27,8 @@
 				"on_use": {
 					"event": "terrariamod:projectile"
 				}
-			}
+			},
+			"minecraft:can_destroy_in_creative": false
 		},
 		"events": {
 			"terrariamod:projectile": {

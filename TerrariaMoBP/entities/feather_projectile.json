@@ -6,7 +6,8 @@
 			"identifier": "terrariamod:feather_projectile",
 			"is_spawnable": false,
 			"is_summonable": true,
-			"is_experimental": false
+			"is_experimental": false,
+			"runtime_identifier": "minecraft:snowball"
 		},
 		"component_groups": {},
 		"components": {

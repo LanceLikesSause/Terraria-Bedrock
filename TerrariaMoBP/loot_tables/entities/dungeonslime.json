@@ -28,7 +28,7 @@
 				{
 					"type": "item",
 					"weight": 1,
-					"name": "terrariamod:goldenkey_dungeon",
+					"name": "terrariamod:golden_key",
 					"functions": [
 						{
 							"function": "set_count",

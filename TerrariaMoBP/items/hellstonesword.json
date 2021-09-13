@@ -24,7 +24,8 @@
 					"target": "self"
 				}
 			},
-			"minecraft:damage": 36
+			"minecraft:damage": 36,
+			"minecraft:can_destroy_in_creative": false
 		},
 		"events": {
 			"terrariamod:hellstone": {

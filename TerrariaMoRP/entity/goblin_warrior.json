@@ -14,10 +14,6 @@
 			"geometry": {
 				"default": "geometry.zombie"
 			},
-			"spawn_egg": {
-				"base_color": "#C5FE5A",
-				"overlay_color": "#391414"
-			},
 			"scripts": {
 				"pre_animation": [
 					"variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;"
@@ -93,7 +89,10 @@
 			"render_controllers": [
 				"controller.render.zombie"
 			],
-			"enable_attachables": true
+			"enable_attachables": true,
+			"spawn_egg": {
+				"texture": "terrariamod:spawn_goblin_warrior"
+			}
 		}
 	}
 }

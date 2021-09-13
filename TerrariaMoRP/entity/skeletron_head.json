@@ -32,10 +32,9 @@
 			"render_controllers": [
 				"controller.render.phantom"
 			],
-			"spawn_egg": {
-				"base_color": "#444D56",
-				"overlay_color": "#4A7151"
-			}
+		    "spawn_egg": {
+		    	"texture": "terrariamod:spawn_skeletron"
+		    }
 		}
 	}
 }

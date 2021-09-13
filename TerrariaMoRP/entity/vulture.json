@@ -14,16 +14,9 @@
 			"geometry": {
 				"default": "geometry.vulture"
 			},
-			"particle_effects": {
-				"wing_dust": "minecraft:phantom_trail_particle"
-			},
 			"render_controllers": [
 				"controller.render.phantom"
 			],
-			"spawn_egg": {
-				"base_color": "#FFFFFF",
-				"overlay_color": "#6A0000"
-			},
 			"enable_attachables": true,
 			"animations": {
 				"loop": "animation.vulture.general"
@@ -32,7 +25,10 @@
 				"animate": [
 					"loop"
 				]
-			}
+			},
+		    "spawn_egg": {
+		    	"texture": "terrariamod:spawn_vulture"
+		    }	
 		}
 	}
 }

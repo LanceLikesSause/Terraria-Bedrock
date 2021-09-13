@@ -17,10 +17,6 @@
 			"render_controllers": [
 				"controller.render.phantom"
 			],
-			"spawn_egg": {
-				"base_color": "#FFFFFF",
-				"overlay_color": "#6A0000"
-			},
 			"enable_attachables": true,
 			"animations": {
 				"loop": "animation.harpy.general"
@@ -29,6 +25,9 @@
 				"animate": [
 					"loop"
 				]
+			},
+			"spawn_egg": {
+				"texture": "terrariamod:spawn_harpy"
 			}
 		}
 	}

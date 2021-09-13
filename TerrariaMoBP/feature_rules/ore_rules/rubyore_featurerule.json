@@ -38,8 +38,8 @@
 			"y": {
 				"distribution": "uniform",
 				"extent": [
-					0,
-					40
+					30,
+					50
 				]
 			},
 			"z": {

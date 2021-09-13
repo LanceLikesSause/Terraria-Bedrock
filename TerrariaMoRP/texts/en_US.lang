@@ -1,5 +1,11 @@
-#####################Version Number
-terrariamod.version.number=2.4.4
+##Pack Name and Description
+pack.name=Terraria Bedrock 2.7.0.5
+pack.description=A addon that tranforms Minecraft into Terraria! Adds all of Terraria's blocks, items, enemies, npcs, boss, structures, etc into Minecraft bedrock, such as the Eye of Cthulhu, Skeletron, and the Wall of Flesh!
+pack.version=2.7.0.5
+
+##Containers
+container.purity_chest.name=Chest
+container.piggy_bank.name=Piggy Bank
 
 ###ui buttons
 menu.returnToGame=Close Menu
@@ -9,71 +15,6 @@ pauseScreen.quit=Save & Exit
 menu.profile=Profile
 menu.achievements=Achievements
 #############
-
-###############how to play
-terrariamod.category.dakon=Terraria Mod Tutorial
-howtoplay.category.dakon=Terraria Guide
-howtoplay.template.title=Credits
-howtoplay.template=Credits
-terrariamod.credits.title0=Credits
-terrariamod.credits.text0=Creator: LanceLikesSause Developers:Ryorama, DuneSciFye, and TofuOfApple. 
-terrariamod.credits.text1=Terraria belongs to Re-Logic Studios and 505 Games.
-howtoplay.tempone.title=Getting Started
-howtoplay.tempone=Getting Started
-terrariamod.header.title0=Chooping Trees
-terrariamod.tempone.text0=This a guide for the Terraria Mod for Minecraft bedrock. You will start of with nothing but your own hands and the clothes on your back. First you must collect basic resources, do this by chooping trees in the area with your hands, they will give you 8 wood.
-terrariamod.header.title1=Slimes and Torches
-terrariamod.tempone.text1=You will also need to kill slimes while it's still day, they will drop gel which can be used to craft torches. You can craft these by placing 1 gel and 1 wood in your personal 2x2 inventory.
-terrariamod.header.title2=Building a base
-terrariamod.tempone.text2=Before the sun sets you will need to build a shelter to protect your self for the §4creatures§f of the night. You may want to make room for any NPCs you want to get later. Getting NPCs is explained in the Housing section of this Tutorial. 
-terrariamod.header.title3=Upgrading Gear
-terrariamod.tempone.text3=Gather ores like copper, and lead so you can make them into better gear. You can create a workbench, by putting 3 wood into your personal crafting space. Workbenches can be used to craft wooden bows, arrows, cactus swords, pickaxes, upgrading and downgrading coin stacks, and NPCs. Use 4 stone, 4 wood, and a torch to craft a furnace, this block will allow you to craft bars like copper or lead bar from your ores by putting 3 ores into the furnace's grid. Use these bars in the furnace to create a material block by putting 4 bars in the grid. Use 5 lead or iron bars in a workbench to create a iron or lead anvil. The anvil can craft pickaxes, swords, armors, axes, bows, throwing items, and guns from your bars. §eNote: All item recipes are in the recipe book.
-terrariamod.header.title4=Random Chest
-terrariamod.tempone.text4=Some items can be obtained from surface chest that are found on the surface or a few blocks underground such as shurikens. Golden chests in wooden cabins can be found much deeper underground. They can contain much better items like hermes boots that give the player a speed effect.
-howtoplay.temptwo.title=Evil Biomes
-howtoplay.temptwo=Evil Biomes
-terrariamod.temptwo.title0=Crimson Biome
-terrariamod.temptwo.text0=The Crimson Biome is a evil biome filled with dangeous enemies. You will have to go to this biome in order to summon the Eye of Cthulhu and Brain of Cthulhu. If you defeat the enemies here (blood crawler, face monster, etc) you can obtain verterba. Interact with the crimson alters and craft the bloody spine using the vertebra and vicouis mushrooms which summon the Brain of Cthulhu. You can also craft the suspicious looking eye with the alter using lens from demon eyes.
-terrariamod.temptwo.title1=Corruption Biome
-terrariamod.temptwo.text1=The Corruption Biome like the Crimson Biomes is filled with powerful enemies compared to purity ones. You will need to go there in order to summon the Eater of Worlds and Eye of Cthulhu. If you kill the enemies here they will drop rotten chucks. Interact with the demon alters in this biomes to craft worm food using the rotten chunks and vile mushrooms which summons the Eater of Worlds. You can also craft the Suspicious Looking Eye just like with the crimson alter.
-howtoplay.tempthree=Health
-howtoplay.tempthree.title=Health
-terrariamod.tempfour.title0=Life Crystals
-terrariamod.tempfour.text0=Crystal Hearts are found from layers 0 to 32 when broken they will drop a Life Crystals. Use one in your hand and it will give you 20 more hp. You will keep the extra hp even if you die. 
-terrariamod.tempfour.title1=Bottle Station
-terrariamod.tempfour.text1=A bottle stand can be used to create potions and healing items. To create one put 3 sand into a furnace which will return a bottle. Put that bottle into a furnace to get a bottle station. Open the recipe bottle in the bottle stand to see the items it can craft.
-howtoplay.tempfour=Underworld
-howtoplay.tempfour.title=Underworld
-terrariamod.tempfive.title0=Getting to the Underworld
-terrariamod.tempfive.text0=In order to go to the underworld dimenson you must craft a Underworld Transporter. To craft it place 8 platinum bars into a workbench. Place the block and then interact with it, then the block will create the portal. §kWalk though it and accept your demise.
-terrariamod.tempfive.title1=Exploring the Underworld.
-terrariamod.tempfive.text1=The underworld contains very dangeous enemies such as demons, vodoo demons, lava slimes, etc. There is a very valuable ore there called §eHellstone§f. You can craft the hellstone into powerful gear, using the same recipes as the other ores.
-howtoplay.tempfive=Sawmill
-howtoplay.tempfive.title=Sawmill
-terrariamod.tempsix.title0=Crafting the sawmill
-terrariamod.tempsix.text0=To craft a sawmill you must place 4 wood of any type, 1 chain, and 2 iron or lead bars in a workbench in any order.
-terrariamod.tempsix.title1=Creating the bed
-terrariamod.tempsix.text1=With the sawmill you can create a bed. To do this you will need wood, and silk. To create silk you will need to craft the loom with the sawmill. To craft the loom place 4 wood into the sawmill. Finally in the loom place 7 cobwebs in the loom to get the silk. Cobwebs can be gotten from caves.
-terrariamod.tempsix.title2=Using the bed
-terrariamod.tempsix.text2=To use the bed you must interact with the ground. Interact with the bed to set you're spawn point, and break it to remove you're spawn point. Using the magic mirror will teleport you to your bed.
-howtoplay.tempsix.title=Housing
-howtoplay.tempsix=Housing
-terrariamod.tempseven.title0=Making a house for NPCs
-terrariamod.tempseven.text0=It is recommended that you make a house to spawn your NPCs in so they aren't indanger however this isn't required. You will need to craft a wooden chair or any other type of chair. 
-terrariamod.tempseven.title1=How NPCs spawn in
-terrariamod.tempseven.text1=The chair will spawn in the NPCs using a system. The system works like this, if the player has more then 100 hp (used at least on heart crystal) then the Nurse will spawn after some time, if the player gotten enough coins then Merchant will spawn in after some time, if the player has destroyed enough surface , underground, and cavern chest the Demolitionist will spawn after some time, if the player has destroyed a crimson heart or the corruption version then the Arms Dealer will spawn after some time. You can right-click / interact with the chair to see the score that control when the npcs spawn in. It will display the coins, explosives, and health scores when a score is more then 30 then the merchant, nurse, demolitionist, and arms dealer stats will increase, when these stats reaches 360 they will spawn in.
-terrariamod.tempseven.title2=Furniture
-terrariamod.tempseven.text2=You can decorate your house with blocks like torches, tables, candles, etc. You can craft these blocks in the workbench, they have all their recipes in the recipe book.
-howtoplay.tempseven.title=Bee Hive
-howtoplay.tempseven=Bee Hive
-terrariamod.tempeight.title0=Finding the Bee Hive
-terrariamod.tempeight.text0=To Find the Bee Hive you must first find the Jungle Biome. This biome is pretty rare so you will probably need to search alot to find it. Once you get there the bee hive structure will spawn in half of all chucks on y level 34.
-terrariamod.tempeight.title1=Summoning the Queen Bee
-terrariamod.tempeight.text1=In order to summon the Queen Bee you need to find the Larva block. It's a yellow block with a bee inside which is found in the bee hive. If you mine it, it will break instantly and summon the Queen Bee.
-terrariamod.tempeight.title2=Getting items
-terrariamod.tempeight.text2=The Queen Bee will drop variety of items when killed. This includes bee wax which can be crafted into beenades, and the hornet staff these recipes can be found in the recipe book.
-###End of how to play
-
 
 ##livingtree
 tile.terrariamod:livingwood.name=Living Wood
@@ -240,7 +181,6 @@ item.terrariamod:meteorite_helmet.name=Meteorite Helmet
 item.terrariamod:meteorite_greaves.name=Meteorite Greaves
 
 #crafting blocks
-entity.unknown.name=Container
 entity.terrariamod:chest_dummy.name=Chest
 tile.terrariamod:purity_chest.name=Chest
 tile.terrariamod:purity_candle.name=Candle
@@ -403,8 +343,8 @@ item.spawn_egg.entity.terrariamod:undeadminer.name=Spawn Undead Miner
 entity.terrariamod:undeadminer.name=Undead Miner
 item.spawn_egg.entity.terrariamod:cavebat.name=Spawn Cave Bat
 entity.terrariamod:cavebat.name=Cave Bat 
-item.spawn_egg.entity.terrariamod:skeleton_terraria.name=Spawn Skeleton
-entity.terrariamod:skeleton_terraria.name=Skeleton 
+item.spawn_egg.entity.terrariamod:skeleton.name=Spawn Skeleton
+entity.terrariamod:skeleton.name=Skeleton 
 item.spawn_egg.entity.terrariamod:demolitionist.name=Spawn Demolitionist
 entity.terrariamod:demolitionist.name=Demolitionist
 item.spawn_egg.entity.terrariamod:nurse.name=Spawn Nurse
@@ -449,8 +389,8 @@ item.spawn_egg.entity.terrariamod:guide.name=Spawn Guide
 entity.terrariamod:guide.name=Guide
 item.spawn_egg.entity.terrariamod:kingslime.name=Spawn King Slime
 entity.terrariamod:kingslime.name=King Slime
-item.spawn_egg.entity.terrariamod:zombie_terraria.name=Spawn Zombie
-entity.terrariamod:zombie_terraria.name=Zombie
+item.spawn_egg.entity.terrariamod:zombie.name=Spawn Zombie
+entity.terrariamod:zombie.name=Zombie
 item.spawn_egg.entity.terrariamod:giant_worm_head.name=Spawn Giant Worm 
 entity.terrariamod:giant_worm_head.name=Giant Worm 
 entity.terrariamod:giant_worm_body_1.name=Giant Worm
@@ -459,6 +399,8 @@ entity.terrariamod:giant_worm_body_3.name=Giant Worm
 entity.terrariamod:giant_worm_body_4.name=Giant Worm
 entity.terrariamod:giant_worm_body_5.name=Giant Worm
 entity.terrariamod:giant_worm_tail.name=Giant Worm
+entity.terrariamod:giantworm.name=Giant Worm
+item.spawn_egg.entity.terrariamod:giantworm.name=Spawn Giant Worm
 item.spawn_egg.entity.terrariamod:skeletron_head.name=Spawn Skeletron
 entity.terrariamod:skeletron_head.name=Skeletron
 item.spawn_egg.entity.terrariamod:hornet.name=Spawn Hornet
@@ -633,10 +575,73 @@ item.terrariamod:regenerationpotion.name=Regeneration Potion §9Regeneration Eff
 item.terrariamod:glowing_mushroom.name=Glowing Mushroom 
 item.terrariamod:ale.name=Ale §9Beer...
 
-#oth er
+#other
 tile.terrariamod:obsidianbrick.name=Obsidian Brick
 tile.terrariamod:sunplate.name=Sunplate
 tile.terrariamod:cloud.name=Cloud
 tile.terrariamod:skyislandchest.name=Sky Island Chest
 tile.terrariamod:ash.name=Ash
 
+###############how to play
+terrariamod.category.dakon=Terraria Mod Tutorial
+howtoplay.category.dakon=Terraria Guide
+howtoplay.template.title=Credits
+howtoplay.template=Credits
+terrariamod.credits.title0=Credits
+terrariamod.credits.text0=Creator: LanceLikesSause Developers:Ryorama, DuneSciFye, and TofuOfApple. 
+terrariamod.credits.text1=Terraria belongs to Re-Logic Studios and 505 Games.
+howtoplay.tempone.title=Getting Started
+howtoplay.tempone=Getting Started
+terrariamod.header.title0=Chooping Trees
+terrariamod.tempone.text0=This a guide for the Terraria Mod for Minecraft bedrock. You will start of with nothing but your own hands and the clothes on your back. First you must collect basic resources, do this by chooping trees in the area with your hands, they will give you 8 wood.
+terrariamod.header.title1=Slimes and Torches
+terrariamod.tempone.text1=You will also need to kill slimes while it's still day, they will drop gel which can be used to craft torches. You can craft these by placing 1 gel and 1 wood in your personal 2x2 inventory.
+terrariamod.header.title2=Building a base
+terrariamod.tempone.text2=Before the sun sets you will need to build a shelter to protect your self for the §4creatures§f of the night. You may want to make room for any NPCs you want to get later. Getting NPCs is explained in the Housing section of this Tutorial. 
+terrariamod.header.title3=Upgrading Gear
+terrariamod.tempone.text3=Gather ores like copper, and lead so you can make them into better gear. You can create a workbench, by putting 3 wood into your personal crafting space. Workbenches can be used to craft wooden bows, arrows, cactus swords, pickaxes, upgrading and downgrading coin stacks, and NPCs. Use 4 stone, 4 wood, and a torch to craft a furnace, this block will allow you to craft bars like copper or lead bar from your ores by putting 3 ores into the furnace's grid. Use these bars in the furnace to create a material block by putting 4 bars in the grid. Use 5 lead or iron bars in a workbench to create a iron or lead anvil. The anvil can craft pickaxes, swords, armors, axes, bows, throwing items, and guns from your bars. §eNote: All item recipes are in the recipe book.
+terrariamod.header.title4=Random Chest
+terrariamod.tempone.text4=Some items can be obtained from surface chest that are found on the surface or a few blocks underground such as shurikens. Golden chests in wooden cabins can be found much deeper underground. They can contain much better items like hermes boots that give the player a speed effect.
+howtoplay.temptwo.title=Evil Biomes
+howtoplay.temptwo=Evil Biomes
+terrariamod.temptwo.title0=Crimson Biome
+terrariamod.temptwo.text0=The Crimson Biome is a evil biome filled with dangeous enemies. You will have to go to this biome in order to summon the Eye of Cthulhu and Brain of Cthulhu. If you defeat the enemies here (blood crawler, face monster, etc) you can obtain verterba. Interact with the crimson alters and craft the bloody spine using the vertebra and vicouis mushrooms which summon the Brain of Cthulhu. You can also craft the suspicious looking eye with the alter using lens from demon eyes.
+terrariamod.temptwo.title1=Corruption Biome
+terrariamod.temptwo.text1=The Corruption Biome like the Crimson Biomes is filled with powerful enemies compared to purity ones. You will need to go there in order to summon the Eater of Worlds and Eye of Cthulhu. If you kill the enemies here they will drop rotten chucks. Interact with the demon alters in this biomes to craft worm food using the rotten chunks and vile mushrooms which summons the Eater of Worlds. You can also craft the Suspicious Looking Eye just like with the crimson alter.
+howtoplay.tempthree=Health
+howtoplay.tempthree.title=Health
+terrariamod.tempfour.title0=Life Crystals
+terrariamod.tempfour.text0=Crystal Hearts are found from layers 0 to 32 when broken they will drop a Life Crystals. Use one in your hand and it will give you 20 more hp. You will keep the extra hp even if you die. 
+terrariamod.tempfour.title1=Bottle Station
+terrariamod.tempfour.text1=A bottle stand can be used to create potions and healing items. To create one put 3 sand into a furnace which will return a bottle. Put that bottle into a furnace to get a bottle station. Open the recipe bottle in the bottle stand to see the items it can craft.
+howtoplay.tempfour=Underworld
+howtoplay.tempfour.title=Underworld
+terrariamod.tempfive.title0=Getting to the Underworld
+terrariamod.tempfive.text0=In order to go to the underworld dimenson you must craft a Underworld Transporter. To craft it place 8 platinum bars into a workbench. Place the block and then interact with it, then the block will create the portal. §kWalk though it and accept your demise.
+terrariamod.tempfive.title1=Exploring the Underworld.
+terrariamod.tempfive.text1=The underworld contains very dangeous enemies such as demons, vodoo demons, lava slimes, etc. There is a very valuable ore there called §eHellstone§f. You can craft the hellstone into powerful gear, using the same recipes as the other ores.
+howtoplay.tempfive=Sawmill
+howtoplay.tempfive.title=Sawmill
+terrariamod.tempsix.title0=Crafting the sawmill
+terrariamod.tempsix.text0=To craft a sawmill you must place 4 wood of any type, 1 chain, and 2 iron or lead bars in a workbench in any order.
+terrariamod.tempsix.title1=Creating the bed
+terrariamod.tempsix.text1=With the sawmill you can create a bed. To do this you will need wood, and silk. To create silk you will need to craft the loom with the sawmill. To craft the loom place 4 wood into the sawmill. Finally in the loom place 7 cobwebs in the loom to get the silk. Cobwebs can be gotten from caves.
+terrariamod.tempsix.title2=Using the bed
+terrariamod.tempsix.text2=To use the bed you must interact with the ground. Interact with the bed to set you're spawn point, and break it to remove you're spawn point. Using the magic mirror will teleport you to your bed.
+howtoplay.tempsix.title=Housing
+howtoplay.tempsix=Housing
+terrariamod.tempseven.title0=Making a house for NPCs
+terrariamod.tempseven.text0=It is recommended that you make a house to spawn your NPCs in so they aren't indanger however this isn't required. You will need to craft a wooden chair or any other type of chair. 
+terrariamod.tempseven.title1=How NPCs spawn in
+terrariamod.tempseven.text1=The chair will spawn in the NPCs using a system. The system works like this, if the player has more then 100 hp (used at least on heart crystal) then the Nurse will spawn after some time, if the player gotten enough coins then Merchant will spawn in after some time, if the player has destroyed enough surface , underground, and cavern chest the Demolitionist will spawn after some time, if the player has destroyed a crimson heart or the corruption version then the Arms Dealer will spawn after some time. You can right-click / interact with the chair to see the score that control when the npcs spawn in. It will display the coins, explosives, and health scores when a score is more then 30 then the merchant, nurse, demolitionist, and arms dealer stats will increase, when these stats reaches 360 they will spawn in.
+terrariamod.tempseven.title2=Furniture
+terrariamod.tempseven.text2=You can decorate your house with blocks like torches, tables, candles, etc. You can craft these blocks in the workbench, they have all their recipes in the recipe book.
+howtoplay.tempseven.title=Bee Hive
+howtoplay.tempseven=Bee Hive
+terrariamod.tempeight.title0=Finding the Bee Hive
+terrariamod.tempeight.text0=To Find the Bee Hive you must first find the Jungle Biome. This biome is pretty rare so you will probably need to search alot to find it. Once you get there the bee hive structure will spawn in half of all chucks on y level 34.
+terrariamod.tempeight.title1=Summoning the Queen Bee
+terrariamod.tempeight.text1=In order to summon the Queen Bee you need to find the Larva block. It's a yellow block with a bee inside which is found in the bee hive. If you mine it, it will break instantly and summon the Queen Bee.
+terrariamod.tempeight.title2=Getting items
+terrariamod.tempeight.text2=The Queen Bee will drop variety of items when killed. This includes bee wax which can be crafted into beenades, and the hornet staff these recipes can be found in the recipe book.
+###End of how to play

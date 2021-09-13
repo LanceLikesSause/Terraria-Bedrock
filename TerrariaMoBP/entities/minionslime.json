@@ -4,12 +4,15 @@
 	"minecraft:entity": {
 		"description": {
 			"identifier": "terrariamod:minionslime",
-			"is_spawnable": true,
+			"is_spawnable": false,
 			"is_summonable": true,
 			"is_experimental": false
 		},
 		"component_groups": {},
 		"components": {
+			"minecraft:scale": {
+				"value": 0.7
+			},
 			"minecraft:collision_box": {
 				"width": 1,
 				"height": 1.9

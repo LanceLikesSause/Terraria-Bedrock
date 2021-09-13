@@ -1,3 +1,4 @@
+//bridge-file-version: #0
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
@@ -6,6 +7,7 @@
 			"category": "equipment"
 		},
 		"components": {
+			"minecraft:hand_equipped": true,
 			"minecraft:throwable": {
 				"do_swing_animation": true
 			},
@@ -22,8 +24,22 @@
 			},
 			"minecraft:creative_category": {
 				"parent": "equipment"
+			},
+			"minecraft:on_use": {
+				"on_use": {
+					"event": "terrariamod:throw"
+				}
 			}
 		},
-		"events": {}
+		"events": {
+			"terrariamod:throw": {
+				"swing": {},
+				"run_command": {
+					"command": [
+						"playsound player_terraria.attack.nodamage @s"
+					]
+				}
+			}
+		}
 	}
 }

@@ -27,7 +27,8 @@
 			"minecraft:cooldown": {
 				"category": "terrariamod_enchantedsword",
 				"duration": 0.5
-			}
+			},
+			"minecraft:can_destroy_in_creative": false
 		},
 		"events": {
 			"terrariamod:projectile": {

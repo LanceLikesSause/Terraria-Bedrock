@@ -1,4 +1,4 @@
-//bridge-file-version: #6
+//bridge-file-version: #7
 {
 	"format_version": "1.8.0",
 	"minecraft:client_entity": {
@@ -13,10 +13,6 @@
 			},
 			"geometry": {
 				"default": "geometry.bloodzombie"
-			},
-			"spawn_egg": {
-				"base_color": "#C5FE5A",
-				"overlay_color": "#391414"
 			},
 			"scripts": {
 				"pre_animation": [
@@ -93,7 +89,10 @@
 			"render_controllers": [
 				"controller.render.zombie"
 			],
-			"enable_attachables": true
+			"enable_attachables": true,
+			"spawn_egg": {
+				"texture": "terrariamod:spawn_blood_zombie"
+			}
 		}
 	}
 }

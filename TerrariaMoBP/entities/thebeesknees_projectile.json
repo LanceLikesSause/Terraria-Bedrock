@@ -35,7 +35,6 @@
 				"power": 1.6,
 				"gravity": 0.01,
 				"angleoffset": 0,
-				"shoot_sound": "terrariamod:woodenarrow_projectile",
 				"offset": [
 					0,
 					0,

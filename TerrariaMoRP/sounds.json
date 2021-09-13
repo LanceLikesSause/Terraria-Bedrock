@@ -1,4 +1,4 @@
-//bridge-file-version: #70
+//bridge-file-version: #84
 {
 	"entity_sounds": {
 		"entities": {
@@ -152,7 +152,7 @@
 					}
 				}
 			},
-			"terrariamod:skeleton_terraria": {
+			"terrariamod:skeleton": {
 				"volume": 1,
 				"pitch": [
 					0.9,
@@ -200,7 +200,7 @@
 					}
 				}
 			},
-			"terrariamod:zombie_terraria": {
+			"terrariamod:zombie": {
 				"volume": 1,
 				"pitch": [
 					0.9,
@@ -936,6 +936,48 @@
 					1
 				],
 				"volume": 1
+			},
+			"terrariamod:bloodcrawler": {
+				"volume": 1,
+				"pitch": 1,
+				"events": {
+					"hurt": {
+						"sound": "blood_crawler.hurt",
+						"volume": 1,
+						"pitch": 1.1
+					},
+					"ambient": {
+						"sound": "blood_crawler.ambient",
+						"volume": 1,
+						"pitch": 1.1
+					},
+					"death": {
+						"sound": "blood_crawler.death",
+						"volume": 1,
+						"pitch": 0.9
+					}
+				}
+			},
+			"terrariamod:bloodzombie": {
+				"volume": 1,
+				"pitch": 1,
+				"events": {
+					"hurt": {
+						"sound": "blood_zombie.hurt",
+						"volume": 1,
+						"pitch": 1.1
+					},
+					"ambient": {
+						"sound": "blood_zombie.ambient",
+						"volume": 1,
+						"pitch": 1.1
+					},
+					"death": {
+						"sound": "blood_zombie.death",
+						"volume": 1,
+						"pitch": 0.9
+					}
+				}
 			}
 		}
 	},

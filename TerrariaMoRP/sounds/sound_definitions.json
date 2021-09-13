@@ -1,4 +1,4 @@
-//bridge-file-version: #43
+//bridge-file-version: #50
 {
 	"format_version": "1.14.0",
 	"sound_definitions": {
@@ -27,7 +27,7 @@
 			]
 		},
 		"bookofskulls.effect": {
-			"category": "neutral",
+			"category": "player",
 			"sounds": [
 				"sounds/effects/bookofskulls"
 			]
@@ -45,31 +45,31 @@
 			]
 		},
 		"bow.effect": {
-			"category": "neutral",
+			"category": "player",
 			"sounds": [
 				"sounds/effects/bow"
 			]
 		},
 		"minishark.effect": {
-			"category": "neutral",
+			"category": "player",
 			"sounds": [
 				"sounds/effects/minishark"
 			]
 		},
 		"handgun.effect": {
-			"category": "neutral",
+			"category": "player",
 			"sounds": [
 				"sounds/effects/handgun"
 			]
 		},
 		"phoenixblaster.effect": {
-			"category": "neutral",
+			"category": "player",
 			"sounds": [
 				"sounds/effects/phoenixblaster"
 			]
 		},
 		"boomstick.effect": {
-			"category": "neutral",
+			"category": "player",
 			"sounds": [
 				"sounds/effects/boomstick"
 			]
@@ -498,6 +498,45 @@
 			"category": "music",
 			"sounds": [
 				"sounds/effects/whoopie_cushion"
+			]
+		},
+		"blood_crawler.hurt": {
+			"category": "hostile",
+			"sounds": [
+				"sounds/mobs/blood_crawler/hurt1"
+			]
+		},
+		"blood_crawler.death": {
+			"category": "hostile",
+			"sounds": [
+				"sounds/mobs/blood_crawler/death1"
+			]
+		},
+		"blood_crawler.ambient": {
+			"category": "hostile",
+			"sounds": [
+				"sounds/mobs/blood_crawler/ambient1"
+			]
+		},
+		"blood_zombie.hurt": {
+			"category": "hostile",
+			"sounds": {
+				"0": "sounds/mobs/blood_zombie/hurt1",
+				"blood_zombie.death": {}
+			}
+		},
+		"blood_zombie.death": {
+			"category": "hostile",
+			"sounds": [
+				"sounds/mobs/blood_zombie/death1"
+			]
+		},
+		"blood_zombie.ambient": {
+			"category": "hostile",
+			"sounds": [
+				"sounds/mobs/blood_zombie/ambient1",
+				"sounds/mobs/blood_zombie/ambient2",
+				"sounds/mobs/blood_zombie/ambient3"
 			]
 		}
 	}

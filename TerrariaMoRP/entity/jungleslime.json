@@ -38,8 +38,7 @@
 			],
 			"enable_attachables": false,
 			"spawn_egg": {
-				"base_color": "#949493",
-				"overlay_color": "#651818"
+				"texture": "terrariamod:spawn_jungle_slime"
 			}
 		}
 	}

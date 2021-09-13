@@ -18,7 +18,7 @@
 				"texture": "terrariamod:aquascepter"
 			},
 			"minecraft:display_name": {
-				"value": "Aqua Scepter\n§9Sprays out a shower of water"
+				"value": "Aqua Scepter\n§9+19 Magic Damage\n§9Sprays out a shower of water\nUses 6 Mana"
 			},
 			"minecraft:creative_category": {
 				"parent": "equipment"

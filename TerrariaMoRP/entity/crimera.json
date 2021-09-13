@@ -1,4 +1,4 @@
-//bridge-file-version: #0
+//bridge-file-version: #1
 {
 	"format_version": "1.8.0",
 	"minecraft:client_entity": {
@@ -6,10 +6,6 @@
 			"identifier": "terrariamod:crimera",
 			"textures": {
 				"default": "textures/entity/pamobile/crimera.png"
-			},
-			"spawn_egg": {
-				"base_color": "#500505",
-				"overlay_color": "#FF0000"
 			},
 			"materials": {
 				"default": "entity_alphatest"
@@ -92,7 +88,10 @@
 			"render_controllers": [
 				"controller.render.zombie"
 			],
-			"enable_attachables": true
+			"enable_attachables": true,
+			"spawn_egg": {
+				"texture": "terrariamod:spawn_crimera"
+			}
 		}
 	}
 }

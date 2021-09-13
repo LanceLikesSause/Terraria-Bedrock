@@ -5,7 +5,8 @@
 			"identifier": "terrariamod:slimegun_projectile",
 			"is_spawnable": false,
 			"is_summonable": true,
-			"is_experimental": false
+			"is_experimental": false,
+			"runtime_identifier": "minecraft:snowball"
 		},
 		"component_groups": {},
 		"components": {
@@ -40,7 +41,6 @@
 					},
 					"remove_on_hit": {}
 				},
-				"hit_sound": "bow.hit",
 				"power": 1.4,
 				"gravity": 0.03,
 				"anchor": 0.1,

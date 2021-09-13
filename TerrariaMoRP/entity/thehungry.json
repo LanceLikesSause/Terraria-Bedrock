@@ -20,10 +20,6 @@
 				"controller.render.zombie"
 			],
 			"enable_attachables": false,
-			"spawn_egg": {
-				"base_color": "#949493",
-				"overlay_color": "#651818"
-			},
 			"animation_controllers": [
 				{
 					"phantom_base_pose": "controller.animation.phantom.base_pose"
@@ -35,7 +31,10 @@
 			"animations": {
 				"phantom_base_pose": "animation.phantom.base_pose",
 				"move": "animation.thehungry.general"
-			}
+			},
+	        "spawn_egg": {
+	          "texture": "terrariamod:spawn_the_hungry"
+	        } 
 		}
 	}
 }

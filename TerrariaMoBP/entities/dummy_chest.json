@@ -8,10 +8,15 @@
 			"is_summonable": true,
 			"is_spawnable": false
 		},
-		"component_groups": {},
+		"component_groups": {
+			"terrariamod:blank": {}
+		},
 		"components": {
+		    "minecraft:nameable": {
+		    	"allow_name_tag_renaming": false
+		    },
 			"minecraft:inventory": {
-				"inventory_size": 27,
+				"inventory_size": 40,
 				"container_type": "inventory"
 			},
 			"minecraft:collision_box": {

@@ -1,4 +1,4 @@
-//bridge-file-version: #9
+//bridge-file-version: #11
 {
 	"format_version": "1.8.0",
 	"minecraft:client_entity": {
@@ -13,10 +13,6 @@
 			},
 			"geometry": {
 				"default": "geometry.zombie.v1.8"
-			},
-			"spawn_egg": {
-				"base_color": "#676767",
-				"overlay_color": "#D7D7D7"
 			},
 			"scripts": {
 				"pre_animation": [
@@ -93,7 +89,10 @@
 			"render_controllers": [
 				"controller.render.zombie"
 			],
-			"enable_attachables": true
+			"enable_attachables": true,
+			"spawn_egg": {
+				"texture": "terrariamod:spawn_dark_caster"
+			}
 		}
 	}
 }

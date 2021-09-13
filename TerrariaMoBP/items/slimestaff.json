@@ -12,11 +12,12 @@
 				"texture": "terrariamod:slimestaff"
 			},
 			"minecraft:display_name": {
-				"value": "Slime Staff\n§9Summons a baby slime to fight for you"
+				"value": "Slime Staff\n§9Summons a baby slime to fight for you\nUses 10 Mana"
 			},
 			"minecraft:on_use": {
 				"on_use": {
 					"event": "terrariamod:use",
+					"condition": "query.scoreboard('mana')>0",
 					"target": "self"
 				}
 			},
@@ -30,7 +31,10 @@
 				"swing": {},
 				"run_command": {
 					"command": [
-						"function slimestaff"
+						"kill @e[type=terrariamod:minionslime]",
+						"summon terrariamod:minionslime",
+						"scoreboard players remove @s mana 10",
+						"function mana"
 					]
 				}
 			}

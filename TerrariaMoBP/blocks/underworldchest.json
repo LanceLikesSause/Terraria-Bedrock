@@ -17,7 +17,8 @@
 			"minecraft:destroy_time": 999,
 			"tag:terrariamod:wood": {},
 			"minecraft:on_interact": {
-				"event": "terrariamod:open"
+				"event": "terrariamod:open",
+				"condition": "query.equipped_item_any_tag('slot.weapon.mainhand','terrariamod:shadow_key_tag')"
 			}
 		},
 		"events": {

@@ -16,10 +16,9 @@
 			"render_controllers": [
 				"controller.render.zombie"
 			],
-			"spawn_egg": {
-				"base_color": "#552807",
-				"overlay_color": "#D27517"
-			}
+		    "spawn_egg": {
+		    	"texture": "terrariamod:worm_item"
+		    }	
 		}
 	}
 }

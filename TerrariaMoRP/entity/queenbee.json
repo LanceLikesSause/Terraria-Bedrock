@@ -20,10 +20,6 @@
 			"render_controllers": [
 				"controller.render.phantom"
 			],
-			"spawn_egg": {
-				"base_color": "#FFFFFF",
-				"overlay_color": "#6A0000"
-			},
 			"animation_controllers": [
 				{
 					"move": "controller.animation.queenbee"
@@ -35,7 +31,10 @@
 			"animations": {
 				"move": "animation.queenbee.general",
 				"swoop": "animation.queenbee.charge"
-			}
+			},
+		    "spawn_egg": {
+		    	"texture": "terrariamod:spawn_queen_bee"
+		    }
 		}
 	}
 }

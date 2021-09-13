@@ -1,4 +1,4 @@
-//bridge-file-version: #18
+//bridge-file-version: #19
 {
 	"format_version": "1.16.100",
 	"minecraft:entity": {
@@ -210,27 +210,6 @@
 			"minecraft:pushable": {
 				"is_pushable": true,
 				"is_pushable_by_piston": true
-			},
-			"minecraft:behavior.nearest_attackable_target": {
-				"priority": 2,
-				"must_see": true,
-				"reselect_targets": true,
-				"entity_types": [
-					{
-						"filters": {
-							"test": "is_family",
-							"subject": "other",
-							"value": "slimes_terraria"
-						},
-						"max_dist": 8
-					}
-				]
-			},
-			"minecraft:behavior.ranged_attack": {
-				"priority": 0,
-				"attack_interval_min": 1,
-				"attack_interval_max": 3,
-				"attack_radius": 15
 			},
 			"minecraft:shooter": {
 				"def": "terrariamod:musketball_projectile_flintlockpistol"

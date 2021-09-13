@@ -44,7 +44,8 @@
 			"minecraft:cooldown": {
 				"category": "bruh",
 				"duration": 20
-			}
+			},
+			"minecraft:can_destroy_in_creative": false
 		},
 		"events": {
 			"terrariamod:nightsedge_effect": {

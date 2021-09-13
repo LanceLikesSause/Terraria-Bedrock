@@ -3,7 +3,7 @@
 	"minecraft:entity": {
 		"description": {
 			"identifier": "terrariamod:beekeeper_bee",
-			"is_spawnable": true,
+			"is_spawnable": false,
 			"is_summonable": true,
 			"is_experimental": false
 		},
@@ -145,6 +145,12 @@
 				],
 				"time_down_event": {
 					"event": "terrariamod:despawn"
+				}
+			},
+			"minecraft:damage_sensor": {
+				"triggers": {
+					"cause": "all",
+					"deals_damage": false
 				}
 			}
 		},

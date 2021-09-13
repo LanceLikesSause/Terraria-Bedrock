@@ -1,0 +1,23 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "terrariamod:shadow_key",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:max_stack_size": 64,
+			"minecraft:icon": {
+				"texture": "terrariamod:shadow_key"
+			},
+			"minecraft:display_name": {
+				"value": "Shadow Key\n§9Opens all Shadow Chests"
+			},
+			"minecraft:creative_category": {
+				"parent": "items"
+			},
+			"tag:terrariamod:shadow_key_tag": {}
+		},
+		"events": {}
+	}
+}

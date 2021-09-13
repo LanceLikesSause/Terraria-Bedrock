@@ -1,4 +1,4 @@
-//bridge-file-version: #14
+//bridge-file-version: #15
 {
 	"format_version": "1.10.0",
 	"minecraft:client_entity": {
@@ -16,10 +16,6 @@
 			"render_controllers": [
 				"controller.render.zombie"
 			],
-			"spawn_egg": {
-				"base_color": "#FFFFFF",
-				"overlay_color": "#D21717"
-			},
 			"animations": {
 				"loop": "animation.demoneye.flying"
 			},
@@ -27,6 +23,9 @@
 				"animate": [
 					"loop"
 				]
+			},
+			"spawn_egg": {
+				"texture": "terrariamod:spawn_demon_eye"
 			}
 		}
 	}

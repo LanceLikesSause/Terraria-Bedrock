@@ -1,19 +1,11 @@
 {
-	"format_version": "1.13.0",
+	"format_version": "1.16.100",
 	"minecraft:entity": {
 		"description": {
 			"identifier": "terrariamod:beenade",
 			"is_spawnable": false,
 			"is_summonable": true,
-			"is_experimental": false,
-			"scripts": {
-				"animate": [
-					"bridge_execute_commands"
-				]
-			},
-			"animations": {
-				"bridge_execute_commands": "controller.animation.bridge_beenade.execute_commands"
-			}
+			"is_experimental": false
 		},
 		"components": {
 			"minecraft:type_family": {
@@ -60,35 +52,27 @@
 				"angleoffset": 0
 			}
 		},
-		"component_groups": {
-			"bridge:execute_command_id_1": {
-				"minecraft:skin_id": {
-					"value": 1
-				}
-			},
-			"bridge:execute_no_command": {
-				"minecraft:skin_id": {
-					"value": 0
-				}
-			}
-		},
 		"events": {
 			"terrariamod:summon_bees": {
-				"add": {
-					"component_groups": [
-						"bridge:execute_command_id_1"
-					]
-				}
-			},
-			"bridge:remove_command_id_1": {
-				"add": {
-					"component_groups": [
-						"bridge:execute_no_command"
-					]
-				},
-				"remove": {
-					"component_groups": [
-						"bridge:execute_command_id_1"
+				"run_command": {
+					"command": [
+						"summon terrariamod:beekeeper_bee",
+						"summon terrariamod:beekeeper_bee",
+						"summon terrariamod:beekeeper_bee",
+						"summon terrariamod:beekeeper_bee",
+						"summon terrariamod:beekeeper_bee",
+						"summon terrariamod:beekeeper_bee",
+						"summon terrariamod:beekeeper_bee",
+						"summon terrariamod:beekeeper_bee",
+						"summon terrariamod:beekeeper_bee",
+						"summon terrariamod:beekeeper_bee",
+						"summon terrariamod:beekeeper_bee",
+						"summon terrariamod:beekeeper_bee",
+						"summon terrariamod:beekeeper_bee",
+						"summon terrariamod:beekeeper_bee",
+						"summon terrariamod:beekeeper_bee",
+						"summon terrariamod:beekeeper_bee",
+						"summon terrariamod:beekeeper_bee"
 					]
 				}
 			}

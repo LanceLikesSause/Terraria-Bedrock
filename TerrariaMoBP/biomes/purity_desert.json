@@ -57,15 +57,23 @@
 						"materials": {
 							"foundation_material": "minecraft:lava"
 						},
-						"noise_range": [
-							-1,
-							1
-						],
+						"noise_range": [-1, 1],
 						"height_range": [
 							0,
-							10
+							15
 						],
 						"noise_frequency_scale": 1
+					},
+					{
+						"materials": {
+							"foundation_material": "terrariamod:ash"
+						},
+						"height_range": [
+							0,
+							15
+						],
+						"noise_range": [-1, -0.5],
+						"noise_frequency_scale": 0.125
 					},
 					{
 						"materials": {
@@ -76,7 +84,7 @@
 							1
 						],
 						"height_range": [
-							10,
+							15,
 							25
 						],
 						"noise_frequency_scale": 1

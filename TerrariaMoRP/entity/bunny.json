@@ -1,4 +1,4 @@
-//bridge-file-version: #5
+//bridge-file-version: #6
 {
 	"format_version": "1.8.0",
 	"minecraft:client_entity": {
@@ -37,8 +37,7 @@
 				"controller.render.rabbit"
 			],
 			"spawn_egg": {
-				"texture": "spawn_egg",
-				"texture_index": 24
+				"texture": "terrariamod:bunny_item"
 			}
 		}
 	}

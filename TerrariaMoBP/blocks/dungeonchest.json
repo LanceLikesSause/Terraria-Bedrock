@@ -1,0 +1,36 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "terrariamod:dungeonchest"
+		},
+		"components": {
+			"minecraft:geometry": "geometry.chest",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "gold_chest",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:loot": "loot_tables/empty.json",
+			"minecraft:destroy_time": 999,
+			"tag:terrariamod:wood": {},
+			"minecraft:on_interact": {
+				"event": "terrariamod:open",
+				"condition": "query.equipped_item_any_tag('slot.weapon.mainhand','terrariamod:gold_key_tag')"
+			}
+		},
+		"events": {
+			"terrariamod:open": {
+				"run_command": {
+					"command": [
+						"setblock ~~~ air 0 replace"
+					]
+				},
+				"spawn_loot": {
+					"table": "loot_tables/treasure/dungeonchest.json"
+				}
+			}
+		}
+	}
+}

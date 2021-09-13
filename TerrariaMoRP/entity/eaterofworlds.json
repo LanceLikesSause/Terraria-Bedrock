@@ -1,0 +1,28 @@
+//bridge-file-version: #16
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "terrariamod:eaterofworlds",
+			"materials": {
+				"default": "zombie"
+			},
+			"textures": {
+				"default": "textures/entity/pamobile/eaterofworlds"
+			},
+			"particle_effects": {
+				"bounce_effect": "terrariamod:slime_effect"
+			},
+			"geometry": {
+				"default": "geometry.eaterofworlds"
+			},
+			"render_controllers": [
+				"controller.render.zombie"
+			],
+			"enable_attachables": false,
+			"spawn_egg": {
+				"texture": "terrariamod:spawn_eater_of_worlds"
+			}
+		}
+	}
+}

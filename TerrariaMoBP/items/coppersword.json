@@ -18,7 +18,8 @@
 			},
 			"minecraft:creative_category": {
 				"parent": "itemGroup.name.sword"
-			}
+			},
+			"minecraft:can_destroy_in_creative": false
 		},
 		"events": {}
 	}

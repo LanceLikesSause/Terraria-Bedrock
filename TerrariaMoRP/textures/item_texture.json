@@ -1,4 +1,4 @@
-//bridge-file-version: #42
+//bridge-file-version: #93
 {
 	"resource_pack_name": "TerrariaModLLS",
 	"texture_name": "atlas.items",
@@ -222,14 +222,11 @@
 		"terrariamod:muramasa": {
 			"textures": "textures/items/swords/muramasa"
 		},
-		"terrariamod:goldenkey_dungeon": {
-			"textures": "textures/items/pamobile/goldenkey_dungeon"
+		"terrariamod:golden_key": {
+			"textures": "textures/items/pamobile/golden_key"
 		},
 		"terrariamod:waterbolt": {
 			"textures": "textures/items/guns/waterbolt"
-		},
-		"terrariamod:armsdealer_summoner": {
-			"textures": "textures/items/pamobile/armsdealer_summoner"
 		},
 		"terrariamod:boomstick": {
 			"textures": "textures/items/guns/boomstick"
@@ -341,15 +338,6 @@
 		},
 		"terrariamod:bonesword": {
 			"textures": "textures/items/swords/bonesword"
-		},
-		"terrariamod:demolitionist_summoner": {
-			"textures": "textures/items/pamobile/demolitionist_summoner"
-		},
-		"terrariamod:nurse_summoner": {
-			"textures": "textures/items/pamobile/nurse_summoner"
-		},
-		"terrariamod:merchant_summoner": {
-			"textures": "textures/items/pamobile/merchant_summoner"
 		},
 		"terrariamod:grenade": {
 			"textures": "textures/items/weapons/grenade"
@@ -837,9 +825,6 @@
 		"terrariamod:cloud_item": {
 			"textures": "textures/items/block_placers/cloud"
 		},
-		"terrariamod:cloud_item": {
-			"textures": "textures/items/block_placers/cloud"
-		},
 		"terrariamod:copperore_item": {
 			"textures": "textures/items/block_placers/copperore"
 		},
@@ -878,9 +863,6 @@
 		},
 		"terrariamod:ironore_item": {
 			"textures": "textures/items/block_placers/ironore"
-		},
-		"terrariamod:hive_block_item": {
-			"textures": "textures/items/block_placers/hive_block"
 		},
 		"terrariamod:junglespores_item": {
 			"textures": "textures/items/block_placers/junglespores"
@@ -968,6 +950,204 @@
 		},
 		"terrariamod:rich_mahogany_chest_item": {
 			"textures": "textures/items/block_placers/rich_mahogany_chest"
+		},
+		"terrariamod:shadow_key": {
+			"textures": "textures/items/pamobile/shadow_key"
+		},
+		"terrariamod:spawn_zombie": {
+			"textures": "textures/items/spawn_egg/egg_zombie"
+		},
+		"terrariamod:spawn_skeleton": {
+			"textures": "textures/items/spawn_egg/egg_skeleton"
+		},
+		"terrariamod:spawn_demon_eye": {
+			"textures": "textures/items/spawn_egg/egg_demon_eye"
+		},
+		"terrariamod:spawn_angry_bones": {
+			"textures": "textures/items/spawn_egg/egg_angry_bones"
+		},
+		"terrariamod:spawn_antilon": {
+			"textures": "textures/items/spawn_egg/egg_antilon"
+		},
+		"terrariamod:spawn_arms_dealer": {
+			"textures": "textures/items/spawn_egg/egg_arms_dealer"
+		},
+		"terrariamod:spawn_black_slime": {
+			"textures": "textures/items/spawn_egg/egg_black_slime"
+		},
+		"terrariamod:spawn_blood_crawler": {
+			"textures": "textures/items/spawn_egg/egg_blood_crawler"
+		},
+		"terrariamod:spawn_blood_zombie": {
+			"textures": "textures/items/spawn_egg/egg_blood_zombie"
+		},
+		"terrariamod:spawn_blue_slime": {
+			"textures": "textures/items/spawn_egg/egg_blue_slime"
+		},
+		"terrariamod:spawn_brain_of_cthulhu": {
+			"textures": "textures/items/spawn_egg/egg_brain_of_cthulhu"
+		},
+		"terrariamod:spawn_cave_bat": {
+			"textures": "textures/items/spawn_egg/egg_cave_bat"
+		},
+		"terrariamod:spawn_creepers": {
+			"textures": "textures/items/spawn_egg/egg_creepers"
+		},
+		"terrariamod:spawn_crimera": {
+			"textures": "textures/items/spawn_egg/egg_crimera"
+		},
+		"terrariamod:spawn_cursed_skull": {
+			"textures": "textures/items/spawn_egg/egg_cursed_skull"
+		},
+		"terrariamod:spawn_dark_caster": {
+			"textures": "textures/items/spawn_egg/egg_dark_caster"
+		},
+		"terrariamod:spawn_demolitionist": {
+			"textures": "textures/items/spawn_egg/egg_demolitionist"
+		},
+		"terrariamod:spawn_demon": {
+			"textures": "textures/items/spawn_egg/egg_demon"
+		},
+		"terrariamod:spawn_devourer": {
+			"textures": "textures/items/spawn_egg/egg_devourer"
+		},
+		"terrariamod:spawn_drippler": {
+			"textures": "textures/items/spawn_egg/egg_drippler"
+		},
+		"terrariamod:spawn_dungeon_slime": {
+			"textures": "textures/items/spawn_egg/egg_dungeon_slime"
+		},
+		"terrariamod:spawn_eater_of_souls": {
+			"textures": "textures/items/spawn_egg/egg_eater_of_souls"
+		},
+		"terrariamod:spawn_eye_of_cthulhu": {
+			"textures": "textures/items/spawn_egg/egg_eye_of_cthulhu"
+		},
+		"terrariamod:spawn_face_monster": {
+			"textures": "textures/items/spawn_egg/egg_face_monster"
+		},
+		"terrariamod:spawn_fire_imp": {
+			"textures": "textures/items/spawn_egg/egg_fire_imp"
+		},
+		"terrariamod:spawn_frozen_zombie": {
+			"textures": "textures/items/spawn_egg/egg_frozen_zombie"
+		},
+		"terrariamod:spawn_giant_worm": {
+			"textures": "textures/items/spawn_egg/egg_giant_worm"
+		},
+		"terrariamod:spawn_goblin_archer": {
+			"textures": "textures/items/spawn_egg/egg_goblin_archer"
+		},
+		"terrariamod:spawn_goblin_peon": {
+			"textures": "textures/items/spawn_egg/egg_goblin_peon"
+		},
+		"terrariamod:spawn_goblin_sorcerer": {
+			"textures": "textures/items/spawn_egg/egg_goblin_sorcerer"
+		},
+		"terrariamod:spawn_goblin_thief": {
+			"textures": "textures/items/spawn_egg/egg_goblin_thief"
+		},
+		"terrariamod:spawn_goblin_warrior": {
+			"textures": "textures/items/spawn_egg/egg_goblin_warrior"
+		},
+		"terrariamod:spawn_goldfish": {
+			"textures": "textures/items/spawn_egg/egg_goldfish"
+		},
+		"terrariamod:spawn_green_slime": {
+			"textures": "textures/items/spawn_egg/egg_green_slime"
+		},
+		"terrariamod:spawn_guide": {
+			"textures": "textures/items/spawn_egg/egg_guide"
+		},
+		"terrariamod:spawn_harpy": {
+			"textures": "textures/items/spawn_egg/egg_harpy"
+		},
+		"terrariamod:spawn_hellbat": {
+			"textures": "textures/items/spawn_egg/egg_hellbat"
+		},
+		"terrariamod:spawn_hornet": {
+			"textures": "textures/items/spawn_egg/egg_hornet"
+		},
+		"terrariamod:spawn_ice_slime": {
+			"textures": "textures/items/spawn_egg/egg_ice_slime"
+		},
+		"terrariamod:spawn_jungle_slime": {
+			"textures": "textures/items/spawn_egg/egg_jungle_slime"
+		},
+		"terrariamod:spawn_king_slime": {
+			"textures": "textures/items/spawn_egg/egg_king_slime"
+		},
+		"terrariamod:spawn_lava_slime": {
+			"textures": "textures/items/spawn_egg/egg_lava_slime"
+		},
+		"terrariamod:spawn_man_eater": {
+			"textures": "textures/items/spawn_egg/egg_man_eater"
+		},
+		"terrariamod:spawn_merchant": {
+			"textures": "textures/items/spawn_egg/egg_merchant"
+		},
+		"terrariamod:spawn_nurse": {
+			"textures": "textures/items/spawn_egg/egg_nurse"
+		},
+		"terrariamod:spawn_old_man": {
+			"textures": "textures/items/spawn_egg/egg_old_man"
+		},
+		"terrariamod:spawn_pink_slime": {
+			"textures": "textures/items/spawn_egg/egg_pink_slime"
+		},
+		"terrariamod:spawn_purple_slime": {
+			"textures": "textures/items/spawn_egg/egg_purple_slime"
+		},
+		"terrariamod:spawn_queen_bee": {
+			"textures": "textures/items/spawn_egg/egg_queen_bee"
+		},
+		"terrariamod:spawn_red_slime": {
+			"textures": "textures/items/spawn_egg/egg_red_slime"
+		},
+		"terrariamod:spawn_sand_slime": {
+			"textures": "textures/items/spawn_egg/egg_sand_slime"
+		},
+		"terrariamod:spawn_the_hungry": {
+			"textures": "textures/items/spawn_egg/egg_the_hungry"
+		},
+		"terrariamod:spawn_skeletron": {
+			"textures": "textures/items/spawn_egg/egg_skeletron"
+		},
+		"terrariamod:spawn_snatcher": {
+			"textures": "textures/items/spawn_egg/egg_snatcher"
+		},
+		"terrariamod:spawn_spore_skeleton": {
+			"textures": "textures/items/spawn_egg/egg_spore_skeleton"
+		},
+		"terrariamod:spawn_spore_zombie": {
+			"textures": "textures/items/spawn_egg/egg_spore_zombie"
+		},
+		"terrariamod:spawn_the_groom": {
+			"textures": "textures/items/spawn_egg/egg_the_groom"
+		},
+		"terrariamod:spawn_umbrella_slime": {
+			"textures": "textures/items/spawn_egg/egg_umbrella_slime"
+		},
+		"terrariamod:spawn_undead_miner": {
+			"textures": "textures/items/spawn_egg/egg_undead_miner"
+		},
+		"terrariamod:spawn_vulture": {
+			"textures": "textures/items/spawn_egg/egg_vulture"
+		},
+		"terrariamod:spawn_wall_of_flesh": {
+			"textures": "textures/items/spawn_egg/egg_wall_of_flesh"
+		},
+		"terrariamod:spawn_yellow_slime": {
+			"textures": "textures/items/spawn_egg/egg_yellow_slime"
+		},
+		"terrariamod:spawn_queenbee_bee": {
+			"textures": "textures/items/spawn_egg/egg_queenbee_bee"
+		},
+		"terrariamod:spawn_eater_of_worlds": {
+			"textures": "textures/items/spawn_egg/egg_eater_of_worlds"
+		},
+		"terrariamod:golden_ruler": {
+			"textures": "textures/items/extras/golden_ruler"
 		}
 	}
 }

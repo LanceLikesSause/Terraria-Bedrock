@@ -14,10 +14,6 @@
 			"geometry": {
 				"default": "geometry.snatcher"
 			},
-			"spawn_egg": {
-				"base_color": "#C5FE5A",
-				"overlay_color": "#391414"
-			},
 			"scripts": {
 				"animate": [
 					"ctrl"
@@ -31,7 +27,10 @@
 				"ctrl": "controller.animation.snatcher",
 				"attack": "animation.snatcher.attack",
 				"idle": "animation.snatcher.idle"
-			}
+			},
+		    "spawn_egg": {
+		    	"texture": "terrariamod:spawn_man_eater"
+		    }
 		}
 	}
 }

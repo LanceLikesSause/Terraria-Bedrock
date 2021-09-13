@@ -20,10 +20,6 @@
 				"controller.render.zombie"
 			],
 			"enable_attachables": false,
-			"spawn_egg": {
-				"base_color": "#949493",
-				"overlay_color": "#651818"
-			},
 			"animations": {
 				"loop": "animation.wallofflesh.general"
 			},
@@ -31,7 +27,10 @@
 				"animate": [
 					"loop"
 				]
-			}
+			},
+		    "spawn_egg": {
+		    	"texture": "terrariamod:spawn_wall_of_flesh"
+		    }	
 		}
 	}
 }

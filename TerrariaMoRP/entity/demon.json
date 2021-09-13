@@ -1,4 +1,4 @@
-//bridge-file-version: #8
+//bridge-file-version: #11
 {
 	"format_version": "1.8.0",
 	"minecraft:client_entity": {
@@ -6,10 +6,6 @@
 			"identifier": "terrariamod:demon",
 			"textures": {
 				"default": "textures/entity/pamobile/demon.png"
-			},
-			"spawn_egg": {
-				"base_color": "#FFFFFF",
-				"overlay_color": "#D21717"
 			},
 			"materials": {
 				"default": "entity_alphatest"
@@ -92,7 +88,10 @@
 			"render_controllers": [
 				"controller.render.zombie"
 			],
-			"enable_attachables": true
+			"enable_attachables": true,
+			"spawn_egg": {
+				"texture": "terrariamod:spawn_demon"
+			}
 		}
 	}
 }

@@ -7,10 +7,6 @@
 			"textures": {
 				"default": "textures/entity/pamobile/demoneye.png"
 			},
-			"spawn_egg": {
-				"base_color": "#FFFFFF",
-				"overlay_color": "#D21717"
-			},
 			"materials": {
 				"default": "entity_alphatest"
 			},
@@ -20,7 +16,10 @@
 			"render_controllers": [
 				"controller.render.zombie"
 			],
-			"enable_attachables": true
+			"enable_attachables": true,
+		    "spawn_egg": {
+		    	"texture": "terrariamod:spawn_demon_eye"
+		    }
 		}
 	}
 }

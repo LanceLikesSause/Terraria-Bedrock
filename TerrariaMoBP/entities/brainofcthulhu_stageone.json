@@ -1,3 +1,4 @@
+//bridge-file-version: #1
 {
 	"format_version": "1.16.100",
 	"minecraft:entity": {
@@ -197,7 +198,8 @@
 				"run_command": {
 					"command": [
 						"scoreboard players set @p boss_2_alive 0",
-						"gamerule domobspawning true"
+						"gamerule domobspawning true",
+						"tellraw @a {\"rawtext\":[{\"text\":\"The Brain of Cthulhu can only exist in the Crimson biome!\"}]}"
 					]
 				}
 			}

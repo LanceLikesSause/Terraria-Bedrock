@@ -36,11 +36,15 @@
 						"terrariamod:platinumcoin_pile"
 					]
 				}
-			}
+			},
+			"terrariamod:blank": {}
 		},
 		"components": {
+		    "minecraft:nameable": {
+		    	"allow_name_tag_renaming": false
+		    },
 			"minecraft:collision_box": {
-				"width": 0.5,
+				"width": 1,
 				"height": 1
 			},
 			"minecraft:damage_sensor": {

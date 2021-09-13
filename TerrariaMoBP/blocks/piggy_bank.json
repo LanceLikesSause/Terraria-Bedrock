@@ -31,7 +31,7 @@
 			"terrariamod:create_dummy": {
 				"run_command": {
 					"command": [
-						"summon terrariamod:dummy_piggy_bank ~~~"
+						"summon terrariamod:dummy_piggy_bank piggy_bank ~~~"
 					]
 				}
 			},

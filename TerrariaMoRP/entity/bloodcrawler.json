@@ -1,36 +1,33 @@
-//bridge-file-version: #2
+//bridge-file-version: #4
 {
-	"format_version": "1.8.0",
+	"format_version": "1.10.0",
 	"minecraft:client_entity": {
 		"description": {
 			"identifier": "terrariamod:bloodcrawler",
-			"min_engine_version": "1.8.0",
 			"materials": {
-				"default": "spider",
-				"invisible": "spider_invisible"
+				"default": "entity_alphatest"
 			},
 			"textures": {
-				"default": "textures/entity/pamobile/bloodcrawler"
+				"default": "textures/entity/pamobile/bloodcrawler.png"
 			},
 			"geometry": {
 				"default": "geometry.bloodcrawler"
 			},
-			"animations": {
-				"default_leg_pose": "animation.spider.default_leg_pose",
-				"look_at_target": "animation.spider.look_at_target",
-				"walk": "animation.spider.walk"
-			},
-			"animation_controllers": [
-				{
-					"move": "controller.animation.spider.move"
-				}
-			],
 			"render_controllers": [
-				"controller.render.spider"
+				"controller.render.zombie"
 			],
+			"animations": {
+				"loop": "animation.bloodcrawler.walk"
+			},
+			"scripts": {
+				"animate": [
+					{
+						"loop": "query.is_moving"
+					}
+				]
+			},
 			"spawn_egg": {
-				"base_color": "#FF5752",
-				"overlay_color": "#D22117"
+				"texture": "terrariamod:spawn_blood_crawler"
 			}
 		}
 	}

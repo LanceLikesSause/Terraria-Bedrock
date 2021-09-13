@@ -1,4 +1,4 @@
-//bridge-file-version: #5
+//bridge-file-version: #7
 {
 	"format_version": "1.10.0",
 	"minecraft:client_entity": {
@@ -16,10 +16,6 @@
 			"render_controllers": [
 				"controller.render.zombie"
 			],
-			"spawn_egg": {
-				"base_color": "#FFFFFF",
-				"overlay_color": "#6A0000"
-			},
 			"animations": {
 				"loop": "animation.eyeofcthulhu_stageone.fly"
 			},
@@ -27,6 +23,9 @@
 				"animate": [
 					"loop"
 				]
+			},
+			"spawn_egg": {
+				"texture": "terrariamod:spawn_eye_of_cthulhu"
 			}
 		}
 	}

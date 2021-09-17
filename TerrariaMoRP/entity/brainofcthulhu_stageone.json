@@ -9,10 +9,10 @@
 				"invisible": "phantom_invisible"
 			},
 			"textures": {
-				"default": "textures/entity/pamobile/brainofcthulhu_stageone"
+				"default": "textures/entity/pamobile/brain_of_cthulhu_stage_one"
 			},
 			"geometry": {
-				"default": "geometry.brainofcthulhu_stageone"
+				"default": "geometry.brain_of_cthulhu_stage_one"
 			},
 			"animations": {
 				"phantom_base_pose": "animation.phantom.base_pose",
@@ -26,9 +26,6 @@
 					"move": "animation.brainofcthulhu.fly"
 				}
 			],
-			"particle_effects": {
-				"wing_dust": "minecraft:phantom_trail_particle"
-			},
 			"render_controllers": [
 				"controller.render.phantom"
 			],

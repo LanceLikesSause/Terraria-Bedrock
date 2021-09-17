@@ -1,28 +1,25 @@
-//bridge-file-version: #36
 {
-	"format_version": "1.8.0",
 	"minecraft:spawn_rules": {
 		"description": {
-			"identifier": "terrariamod:demon",
+			"identifier": "minecraft:axolotl",
 			"population_control": "animal"
 		},
 		"conditions": [
 			{
+				"minecraft:spawns_underground": {},
+				"minecraft:spawns_underwater": {},
 				"minecraft:weight": {
-					"default": 999999
+					"default": 8
 				},
 				"minecraft:herd": {
 					"min_size": 1,
-					"max_size": 1
+					"max_size": 4,
+					"event": "minecraft:entity_born",
+					"event_skip_count": 2
 				},
-				"minecraft:distance_filter": {
-					"min": 0,
-					"max": 15
-				},
-				"minecraft:spawns_underground": {},
 				"minecraft:height_filter": {
 					"min": 0,
-					"max": 30
+					"max": 63
 				}
 			}
 		]

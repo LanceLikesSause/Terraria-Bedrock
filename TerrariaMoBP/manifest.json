@@ -48,5 +48,12 @@
 			"name": "§5The Corruption§f: \nSpawns the corruption biome, eater of worlds, demonite, etc",
 			"memory_tier": 1
 		}
-	]
+	],
+	"metadata": {
+		"generated_with": {
+			"bridge": [
+				"1.8.3"
+			]
+		}
+	}
 }

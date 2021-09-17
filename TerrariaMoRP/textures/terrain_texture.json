@@ -535,6 +535,9 @@
 			"textures": [
 				"textures/blocks/rich_mahogany_chest"
 			]
+		},
+		"spikes": {
+			"textures": "textures/blocks/spikes"
 		}
 	}
 }

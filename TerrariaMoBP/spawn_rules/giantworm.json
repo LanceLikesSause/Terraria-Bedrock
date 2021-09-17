@@ -4,7 +4,7 @@
 	"minecraft:spawn_rules": {
 		"description": {
 			"identifier": "terrariamod:giant_worm_head",
-			"population_control": "monster"
+			"population_control": "animal"
 		},
 		"conditions": [
 			{

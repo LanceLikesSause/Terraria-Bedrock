@@ -1,4 +1,4 @@
-//bridge-file-version: #3
+//bridge-file-version: #7
 {
 	"format_version": "1.16.100",
 	"minecraft:fog_settings": {
@@ -27,14 +27,14 @@
 			"lava": {
 				"fog_start": 0.3,
 				"fog_end": 0.8,
-				"fog_color": "#1778D2",
-				"render_distance_type": "render"
+				"fog_color": "#81230C",
+				"render_distance_type": "fixed"
 			},
 			"lava_resistance": {
-				"fog_start": 0.3,
-				"fog_end": 0.8,
-				"fog_color": "#1778D2",
-				"render_distance_type": "render"
+				"fog_start": 1,
+				"fog_end": 6,
+				"fog_color": "#81230C",
+				"render_distance_type": "fixed"
 			}
 		}
 	}

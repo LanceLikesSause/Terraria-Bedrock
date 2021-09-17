@@ -4,7 +4,7 @@
 	"minecraft:spawn_rules": {
 		"description": {
 			"identifier": "terrariamod:blackslime",
-			"population_control": "monster"
+			"population_control": "animal"
 		},
 		"conditions": [
 			{

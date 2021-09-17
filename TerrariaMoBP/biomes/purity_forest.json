@@ -88,7 +88,7 @@
 						],
 						"height_range": [
 							15,
-							25
+							24
 						],
 						"noise_frequency_scale": 1
 					},
@@ -101,7 +101,7 @@
 							1
 						],
 						"height_range": [
-							25,
+							24,
 							30
 						],
 						"noise_frequency_scale": 1

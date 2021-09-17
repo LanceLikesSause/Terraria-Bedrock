@@ -24,8 +24,20 @@
 				"denominator": 400
 			},
 			"coordinate_eval_order": "xzy",
-			"x": 10,
-			"z": 10
+			"x": {
+				"distribution": "uniform",
+				"extent": [
+					0,
+					5
+				]
+			},
+			"z": {
+				"distribution": "uniform",
+				"extent": [
+					0,
+					5
+				]
+			}
 		}
 	}
 }

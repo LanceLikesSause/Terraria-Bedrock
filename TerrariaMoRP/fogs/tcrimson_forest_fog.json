@@ -1,4 +1,4 @@
-//bridge-file-version: #10
+//bridge-file-version: #12
 {
 	"format_version": "1.16.100",
 	"minecraft:fog_settings": {
@@ -6,6 +6,12 @@
 			"identifier": "terrariamod:tcrimson_forest_fog"
 		},
 		"distance": {
+			"lava": {
+				"fog_start": 0.3,
+				"fog_end": 0.8,
+				"fog_color": "#1778D2",
+				"render_distance_type": "render"
+			},
 			"water": {
 				"fog_start": 0.3,
 				"fog_end": 0.8,
@@ -24,17 +30,11 @@
 				"fog_color": "#1778D2",
 				"render_distance_type": "render"
 			},
-			"lava": {
-				"fog_start": 0.3,
-				"fog_end": 0.8,
-				"fog_color": "#1778D2",
-				"render_distance_type": "render"
-			},
 			"lava_resistance": {
-				"fog_start": 0.3,
-				"fog_end": 0.8,
-				"fog_color": "#1778D2",
-				"render_distance_type": "render"
+				"fog_start": 1,
+				"fog_end": 6,
+				"fog_color": "#81230C",
+				"render_distance_type": "fixed"
 			}
 		}
 	}

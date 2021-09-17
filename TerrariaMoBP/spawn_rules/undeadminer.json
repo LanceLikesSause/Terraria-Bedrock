@@ -4,7 +4,7 @@
 	"minecraft:spawn_rules": {
 		"description": {
 			"identifier": "terrariamod:undeadminer",
-			"population_control": "monster"
+			"population_control": "animal"
 		},
 		"conditions": [
 			{
@@ -21,7 +21,7 @@
 					"max_size": 3
 				},
 				"minecraft:distance_filter": {
-					"min": 6,
+					"min": 0,
 					"max": 15
 				},
 				"minecraft:biome_filter": {

@@ -18,6 +18,9 @@
 			}
 		},
 		"components": {
+			"minecraft:scale": {
+				"value": 1
+			},
 			"minecraft:nameable": {},
 			"minecraft:health": {
 				"value": 1400,

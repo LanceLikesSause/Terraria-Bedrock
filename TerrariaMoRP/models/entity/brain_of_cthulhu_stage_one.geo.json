@@ -1,0 +1,47 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.brain_of_cthulhu_stage_one",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "brain",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-10, 11, -7], "size": [9, 11, 14], "uv": [0, 25]},
+						{"origin": [-1, 11, -6], "size": [2, 11, 13], "uv": [33, 37]},
+						{"origin": [1, 11, -7], "size": [9, 11, 14], "uv": [0, 0]},
+						{"origin": [-8, 22, -6], "size": [7, 2, 12], "uv": [51, 49]},
+						{"origin": [1, 22, -6], "size": [7, 2, 12], "uv": [0, 50]},
+						{"origin": [-8, 9, -6], "size": [16, 2, 12], "uv": [32, 0]},
+						{"origin": [-6, 7, -5], "size": [12, 2, 10], "uv": [32, 25]}
+					]
+				},
+				{
+					"name": "stem",
+					"pivot": [0, 0, 1],
+					"cubes": [
+						{"origin": [-1, 0, 0], "size": [2, 2, 2], "uv": [0, 0]},
+						{"origin": [-2.5, 6, -2], "size": [5, 1, 6], "uv": [32, 61]},
+						{"origin": [-2, 2, -1], "size": [4, 4, 4], "uv": [54, 63]}
+					]
+				},
+				{
+					"name": "legs",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-7, 0, 0], "size": [14, 7, 0], "pivot": [0, 0, 0], "rotation": [0, 50, 0], "uv": [50, 37]},
+						{"origin": [-6.5, 0, 0], "size": [15, 7, 0], "pivot": [0, 0, 0], "rotation": [0, -50, 0], "uv": [46, 14]}
+					]
+				}
+			]
+		}
+	]
+}

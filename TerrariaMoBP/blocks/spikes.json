@@ -23,7 +23,7 @@
 			"minecraft:geometry": "geometry.spikes",
 			"minecraft:material_instances": {
 				"*": {
-					"texture": "purity_stone",
+					"texture": "spikes",
 					"render_method": "alpha_test"
 				}
 			},
@@ -63,10 +63,10 @@
 		},
 		"events": {
 			"terrariamod:walk": {
-				"run_command": {
-					"command": [
-						"effect @p[r=2] instant_damage"
-					]
+				"damage": {
+					"amount": 60,
+					"target": "self",
+					"type": "contact"
 				}
 			},
 			"terrariamod:rotate": {

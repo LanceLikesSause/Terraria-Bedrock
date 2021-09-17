@@ -37,11 +37,10 @@
 					"target": "self",
 					"type": "fire"
 				},
-				"add_mob_effect": {
-					"effect": "slowness",
-					"target": "self",
-					"duration": 3,
-					"amplifier": 3
+				"run_command": {
+					"command": [
+						"effect @p[r=2] slowness 3 3 true"
+					]
 				}
 			}
 		}

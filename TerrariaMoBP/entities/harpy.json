@@ -34,7 +34,7 @@
 			"minecraft:behavior.float_wander": {
 				"priority": 2,
 				"must_reach": true,
-				"y_dist": 10
+				"y_dist": 4
 			},
 			"minecraft:can_fly": true,
 			"minecraft:loot": {

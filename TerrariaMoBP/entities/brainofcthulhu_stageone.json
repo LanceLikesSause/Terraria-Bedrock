@@ -26,8 +26,8 @@
 			}
 		},
 		"components": {
-			"minecraft:experience_reward": {
-				"on_death": "query.last_hit_by_player?5:0"
+			"minecraft:scale": {
+				"value": 5
 			},
 			"minecraft:nameable": {},
 			"minecraft:health": {
@@ -75,7 +75,6 @@
 				"start_speed": 0.1,
 				"speed_when_turning": 0.2
 			},
-			"minecraft:burns_in_daylight": {},
 			"minecraft:follow_range": {
 				"value": 64,
 				"max": 64

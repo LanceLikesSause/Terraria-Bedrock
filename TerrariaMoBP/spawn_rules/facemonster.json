@@ -3,7 +3,7 @@
 	"format_version": "1.8.0",
 	"minecraft:spawn_rules": {
 		"description": {
-			"identifier": "terrariamod:facemonster",
+			"identifier": "terrariamod:faceanimal",
 			"population_control": "animal"
 		},
 		"conditions": [

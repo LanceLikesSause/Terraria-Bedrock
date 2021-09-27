@@ -181,6 +181,11 @@
 			},
 			"minecraft:on_death": {
 				"event": "terrariamod:hurt"
+			},
+			"minecraft:break_blocks": {
+				"breakable_blocks": [
+					"terrariamod:twooden_door"
+				]
 			}
 		},
 		"component_groups": {},

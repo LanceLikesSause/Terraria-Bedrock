@@ -160,16 +160,16 @@
 					"terraria_boss"
 				]
 			},
-			"minecraft:break_blocks": {
-				"breakable_blocks": [
-					"twooden_door"
-				]
-			},
 			"minecraft:loot": {
 				"table": "loot_tables/entities/thegroom.json"
 			},
 			"minecraft:on_death": {
 				"event": "terrariamod:hurt"
+			},
+			"minecraft:break_blocks": {
+				"breakable_blocks": [
+					"terrariamod:twooden_door"
+				]
 			}
 		},
 		"events": {

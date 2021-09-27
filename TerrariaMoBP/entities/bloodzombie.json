@@ -162,7 +162,7 @@
 			},
 			"minecraft:break_blocks": {
 				"breakable_blocks": [
-					"twooden_door"
+					"terrariamod:twooden_door"
 				]
 			},
 			"minecraft:loot": {

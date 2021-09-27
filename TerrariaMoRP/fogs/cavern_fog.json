@@ -1,0 +1,41 @@
+//bridge-file-version: #9
+{
+	"format_version": "1.16.100",
+	"minecraft:fog_settings": {
+		"description": {
+			"identifier": "terrariamod:cavern_fog"
+		},
+		"distance": {
+			"water": {
+				"fog_start": 20,
+				"fog_end": 25,
+				"fog_color": "#1778D2",
+				"render_distance_type": "fixed"
+			},
+			"air": {
+				"fog_start": 15,
+				"fog_end": 20,
+				"fog_color": "#464646",
+				"render_distance_type": "fixed"
+			},
+			"weather": {
+				"fog_start": 15,
+				"fog_end": 20,
+				"fog_color": "#464646",
+				"render_distance_type": "fixed"
+			},
+			"lava": {
+				"fog_start": 0.3,
+				"fog_end": 0.8,
+				"fog_color": "#81230C",
+				"render_distance_type": "fixed"
+			},
+			"lava_resistance": {
+				"fog_start": 1,
+				"fog_end": 6,
+				"fog_color": "#81230C",
+				"render_distance_type": "fixed"
+			}
+		}
+	}
+}

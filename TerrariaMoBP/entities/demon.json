@@ -14,6 +14,13 @@
 					"terraria_players_enemy"
 				]
 			},
+			"minecraft:scale": {
+				"value": 1.5
+			},
+			"minecraft:collision_box": {
+				"width": 1,
+				"height": 2
+			},
 			"minecraft:loot": {
 				"table": "loot_tables/entities/demon.json"
 			},
@@ -46,18 +53,11 @@
 			"minecraft:attack": {
 				"damage": 42
 			},
-			"minecraft:scale": {
-				"value": 3
-			},
 			"minecraft:breathable": {
 				"total_supply": 15,
 				"suffocate_time": 0,
 				"breathes_air": true,
 				"breathes_water": false
-			},
-			"minecraft:collision_box": {
-				"width": 0.9,
-				"height": 0.5
 			},
 			"minecraft:movement": {
 				"value": 1.8
@@ -70,10 +70,12 @@
 				"value": 64,
 				"max": 64
 			},
-			"minecraft:behavior.avoid_mob_type": {
-				"priority": 0,
-				"max_dist": 16,
-				"ignore_visibility": true,
+			"minecraft:behavior.nearest_attackable_target": {
+				"priority": 2,
+				"must_see": true,
+				"reselect_targets": true,
+				"within_radius": 25,
+				"must_see_forget_duration": 17,
 				"entity_types": [
 					{
 						"filters": {
@@ -81,34 +83,16 @@
 								{
 									"test": "is_family",
 									"subject": "other",
-									"value": "ocelot"
+									"value": "player"
 								},
 								{
 									"test": "is_family",
 									"subject": "other",
-									"value": "cat"
+									"value": "villager"
 								}
 							]
 						},
-						"max_dist": 16
-					}
-				]
-			},
-			"minecraft:behavior.nearest_attackable_target": {
-				"priority": 1,
-				"reselect_targets": true,
-				"scan_interval": 10,
-				"within_radius": 64,
-				"must_see_forget_duration": 0.5,
-				"target_search_height": 80,
-				"entity_types": [
-					{
-						"filters": {
-							"test": "is_family",
-							"subject": "other",
-							"value": "player"
-						},
-						"max_dist": 64
+						"max_dist": 35
 					}
 				]
 			},

@@ -2,7 +2,7 @@
 	"format_version": "1.13.0",
 	"minecraft:tree_feature": {
 		"description": {
-			"identifier": "minecraft:livingtree_feature"
+			"identifier": "terrariamod:livingtree_feature"
 		},
 		"fancy_trunk": {
 			"trunk_height": {

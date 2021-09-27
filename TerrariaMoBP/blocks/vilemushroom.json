@@ -17,6 +17,7 @@
 			"minecraft:entity_collision": false,
 			"minecraft:block_light_emission": 0,
 			"tag:terrariamod:plant": {},
+			"minecraft:block_light_absorption": 0,
 			"minecraft:display_name": "item.terrariamod:vilemushroom.name",
 			"minecraft:loot": "loot_tables/blocks/vilemushroom_item.json"
 		},

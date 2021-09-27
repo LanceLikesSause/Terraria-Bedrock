@@ -7,7 +7,7 @@
 		},
 		"components": {
 			"minecraft:icon": {
-				"texture": "terrariamod:twooden_door"
+				"texture": "terrariamod:wooden_door"
 			},
 			"minecraft:display_name": {
 				"value": "Wooden Door"

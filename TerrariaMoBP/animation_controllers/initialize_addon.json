@@ -1,0 +1,62 @@
+//bridge-file-version: #24
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.initialize_addon": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"command": "query.life_time>0"
+						}
+					]
+				},
+				"command": {
+					"on_exit": [
+						"/gamerule sendcommandfeedback false",
+						"/scoreboard objectives add nursestat dummy nursestat",
+						"/scoreboard objectives add merchantstat dummy merchantstat",
+						"/scoreboard objectives add demostat dummy demostat",
+						"/scoreboard objectives add coins dummy coins",
+						"/scoreboard objectives add explosives dummy explosives",
+						"/scoreboard objectives add ammo dummy ammo",
+						"/scoreboard objectives add armsstat dummy armsstat",
+						"/summon terrariamod:dummy_npc",
+						"/tickingarea add circle ~~~ 3 circle",
+						"/scoreboard objectives add health dummy health",
+						"/execute @s[tag=!begin] ~ ~ ~ scoreboard players set @s health 100",
+						"/scoreboard objectives add mana dummy mana",
+						"/execute @s[tag=!begin] ~ ~ ~ scoreboard players set @s mana 20",
+						"/scoreboard objectives add mana_crystal dummy mana_crystal",
+						"/execute @s[tag=!begin] ~ ~ ~ scoreboard players set @s mana_crystal 20",
+						"/scoreboard objectives add lcrystals dummy lcrystals",
+						"/execute @s[tag=!begin] ~ ~ ~ scoreboard players set @s lcrystals 100",
+						"/scoreboard objectives add hasbed dummy hasbed",
+						"/execute @s[tag=!begin] ~ ~ ~ scoreboard players set @s hasbed 0",
+						"/scoreboard objectives add can_double_jump dummy can_double_jump",
+						"/execute @s[tag=!begin] ~ ~ ~ scoreboard players set @s can_double_jump 1",
+						"/execute @s[tag=!begin] ~ ~ ~ give @s terrariamod:game_setup_2",
+						"/execute @s[tag=!begin] ~ ~ ~ give @s terrariamod:coppershortsword",
+						"/execute @s[tag=!begin] ~ ~ ~ give @s terrariamod:copperpickaxe",
+						"/execute @s[tag=!begin] ~ ~ ~ give @s terrariamod:copperaxe",
+						"/execute @s[tag=!begin] ~ ~ ~ clear @s terrariamod:game_setup_1 0 1",
+						"/execute @s[tag=!begin] ~ ~ ~ summon terrariamod:guide ~~~",
+						"/execute @s[tag=!begin] ~ ~ ~ gamerule doweathercycle false",
+						"/execute @s[tag=!begin] ~ ~ ~ tp @s 0 130 0",
+						"/execute @s[tag=!begin] ~ ~ ~ spawnpoint @s ~~~",
+						"/execute @s[tag=!begin] ~ ~ ~ setworldspawn ~~~",
+						"/tag @s add begin",
+						"/gamerule sendcommandfeedback true"
+					],
+					"transitions": [
+						{
+							"finished_command": "query.life_time>10"
+						}
+					]
+				},
+				"finished_command": {}
+			}
+		}
+	}
+}

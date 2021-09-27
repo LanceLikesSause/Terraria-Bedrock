@@ -7,22 +7,22 @@
 		},
 		"distance": {
 			"water": {
-				"fog_start": 0.3,
-				"fog_end": 0.8,
-				"fog_color": "#BEDFE8",
-				"render_distance_type": "render"
+				"fog_start": 20,
+				"fog_end": 25,
+				"fog_color": "#1778D2",
+				"render_distance_type": "fixed"
 			},
 			"air": {
-				"fog_start": 0.3,
-				"fog_end": 0.8,
-				"fog_color": "#BEDFE8",
-				"render_distance_type": "render"
+				"fog_start": 20,
+				"fog_end": 25,
+				"fog_color": "#ccebe7",
+				"render_distance_type": "fixed"
 			},
 			"weather": {
-				"fog_start": 0.3,
-				"fog_end": 0.8,
-				"fog_color": "#BEDFE8",
-				"render_distance_type": "render"
+				"fog_start": 20,
+				"fog_end": 25,
+				"fog_color": "#ccebe7",
+				"render_distance_type": "fixed"
 			},
 			"lava": {
 				"fog_start": 0.3,

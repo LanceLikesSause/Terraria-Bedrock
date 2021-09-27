@@ -1,57 +1,56 @@
-##Pack Name and Description
+
 pack.name=Terraria Bedrock 2.7.0.5
 pack.description=A addon that tranforms Minecraft into Terraria! Adds all of Terraria's blocks, items, enemies, npcs, boss, structures, etc into Minecraft bedrock, such as the Eye of Cthulhu, Skeletron, and the Wall of Flesh!
 pack.version=2.7.0.5
 
-##Containers
 container.purity_chest.name=Chest
 container.piggy_bank.name=Piggy Bank
 
-###ui buttons
+
 menu.returnToGame=Close Menu
 menu.howToPlay=Info
 menu.settings=Settings
 pauseScreen.quit=Save & Exit
 menu.profile=Profile
 menu.achievements=Achievements
-#############
 
-##livingtree
+
+
 tile.terrariamod:livingwood.name=Living Wood
 tile.terrariamod:leafblock.name=Leaf Block
 
-##blood moon
+
 entity.terrariamod:bloodzombie.name=Blood Zombie
 item.spawn_egg.entity.terrariamod:bloodzombie.name=Spawn Blood Zombie 
 entity.terrariamod:thegroom.name=The Groom
 item.spawn_egg.entity.terrariamod:thegroom.name=Spawn The Groom 
-terrariamod:drippler.name=Drippler
+entity.terrariamod:drippler.name=Drippler
 item.spawn_egg.entity.terrariamod:drippler.name=Spawn Drippler
 
-##goblin army
+
 entity.terrariamod:goblin_sorcerer.name=Goblin Sorcerer
 item.spawn_egg.entity.terrariamod:goblin_sorcerer.name=Spawn Goblin Sorcerer
-enity.terrariamod:goblin_peon.name=Goblin Peon
+entity.terrariamod:goblin_peon.name=Goblin Peon
 item.spawn_egg.entity.terrariamod:goblin_peon.name=Spawn Goblin Peon
 enity.terrariamod:golbin_thief.name=Goblin Thief
 item.spawn_egg.entity.terrariamod:golbin_thief.name=Spawn Goblin Thief
-enity.terrariamod:goblin_warrior.name=Goblin Warrior
+entity.terrariamod:goblin_warrior.name=Goblin Warrior
 item.spawn_egg.entity.terrariamod:goblin_warrior.name=Spawn Goblin Warrior
-enity.terrariamod:goblin_archer.name=Goblin Archer
+entity.terrariamod:goblin_archer.name=Goblin Archer
 item.spawn_egg.entity.terrariamod:goblin_archer.name=Spawn Goblin Archer
 
-##glowing mushroom
+
 tile.terrariamod:giant_glowing_mushroom_hat.name=Giant Glowing Mushroom Hat
 tile.terrariamod:giant_glowing_mushroom_stem.name=Giant Glowing Mushroom Stem 
 
-##snow
+
 tile.terrariamod:tree_bottom_snow.name=Snow Tree Stem
 tile.terrariamod:tree_log_snow=Snow Tree Log
 tile.terrariamod:tree_top_snow=Snow Tree Top
 tile.terrariamod:purity_snow.name=Snow
 item.terrariamod:snow_wood.name=Boreal Wood
 
-##desert
+
 tile.terrariamod:purity_cactus_bottom.name=Cactus Stem
 tile.terrariamod:purity_cactus_middle.name=Cactus Middle
 tile.terrariamod:purity_cactus_top.name=Cactus Top
@@ -59,7 +58,7 @@ tile.terrariamod:cactus_block.name=Cactus Block
 tile.terrariamod:purity_sandstone.name=Sandstone
 tile.terrariamod:purity_sand.name=Sand
 
-##jungle
+
 tile.terrariamod:larva.name=Larva
 item.terrariamod:beewax.name=Bee Wax
 item.terrariamod:abeemination.name=Abeemination
@@ -77,7 +76,7 @@ item.terrariamod:jungle_wood.name=Rich Mahogany Wood
 tile.terrariamod:purity_mud.name=Mud
 tile.terrariamod:jungle_grass.name=Jungle Grass
 
-##forest
+
 item.terrariamod:acorn.name=Acorn
 tile.terrariamod:tree_bottom.name=Tree Stem
 tile.terrariamod:tree_log.name=Tree Log
@@ -102,7 +101,7 @@ item.terrariamod:mushroom.name=Mushroom §9Heals 15 HP
 item.terrariamod:pruity_seeds.name=Seed
 tile.torch_block.name=Torch
 
-##crimson
+
 tile.terrariamod:tree_bottom_crimson.name=Crimson Tree Stem
 tile.terrariamod:tree_log_crimson.name=Crimson Tree Log
 tile.terrariamod:tree_top_crimson.name=Crimson Tree Leaves
@@ -117,7 +116,7 @@ tile.terrariamod:crimstone.name=Crimstone
 tile.terrariamod:crimtaneore.name=Crimtane Ore
 
 
-##corruption
+
 tile.terrariamod:tree_bottom_corruption.name=Tree Stem Corruption
 tile.terrariamod:tree_log_corruption.name=Tree Log Corruption
 tile.terrariamod:tree_top_corruption.name=Tree Leaves Corruption
@@ -127,7 +126,7 @@ item.terrariamod:corrupted_wood.name=Ebonwood
 tile.terrariamod:corrupted_wood.name=Ebonwood 
 tile.terrariamod:ebonestone.name=Ebonestone
 
-#axes
+
 item.terrariamod:copperaxe.name=Copper Axe
 item.terrariamod:copperaxe.desc=Copper Axe
 item.terrariamod:tinaxe.name=Tin Axe
@@ -142,7 +141,7 @@ item.terrariamod:demoniteaxe.name=War Axe of the Night
 item.terrariamod:meteoriteaxe.name=Meteorite Axe
 item.terrariamod:hellstoneaxe.name=Hellstone Axe
 
-#armors
+
 item.terrariamod:copper_chestplate.name=Copper Chestplate
 item.terrariamod:copper_helmet.name=Copper Helmet
 item.terrariamod:copper_greaves.name=Copper Greaves
@@ -180,7 +179,7 @@ item.terrariamod:meteorite_chestplate.name=Meteorite Chestplate
 item.terrariamod:meteorite_helmet.name=Meteorite Helmet
 item.terrariamod:meteorite_greaves.name=Meteorite Greaves
 
-#crafting blocks
+
 entity.terrariamod:chest_dummy.name=Chest
 tile.terrariamod:purity_chest.name=Chest
 tile.terrariamod:purity_candle.name=Candle
@@ -213,7 +212,7 @@ item.terrariamod:woodenarrow.name=Wooden Arrow
 item.terrariamod:musketball.name=Musket Ball
 tile.terrariamod:dungeon_shelves.name=Dungeon Shelves
 
-#coins
+
 item.terrariamod:coppercoin.name=Copper Coin
 item.terrariamod:coppercoin_pile.name=Pile of Copper Coins
 item.terrariamod:silvercoin.name=Silver Coin
@@ -223,16 +222,16 @@ item.terrariamod:goldcoin_pile.name=Pile of Gold Coins
 item.terrariamod:platinumcoin.name=Platinum Coin
 item.terrariamod:platinumcoin_pile.name=Pile of Platinum Coins
 
-#life crystal
+
 item.terrariamod:lifecrystal.name=Life Crystal §9+20 hp
 
-#npc summoners
+
 item.terrariamod:merchant_summoner.name=Merchant Summoner
 item.terrariamod:nurse_summoner.name=Nurse Summoner
 item.terrariamod:demolitionist_summoner.name=Demolitionist Summoner
 item.terrariamod:armsdealer_summoner.name=Arms Dealer Summoner
 
-#items
+
 item.terrariamod:vertebra.name=Vertebra
 item.terrariamod:fallenstars.name=Fallen Star
 item.terrariamod:bloodyspine.name=Bloody Spine
@@ -254,7 +253,7 @@ item.terrariamod:bottle.name=Bottle
 
 item.terrariamod:cellphone.name=Cell Phone
 
-#ranged weapon projectiles
+
 entity.terrariamod:waterbolt_projectile.name=Water Bolt
 entity.terrariamod:musketball_projectile_flintlockpistol.name=Flintlock Pistol
 entity.terrariamod:musketball_projectile_minishark.name=Minishark
@@ -270,7 +269,7 @@ entity.terrariamod:woodenarrow_projectile_gold.name=Gold Bow
 entity.terrariamod:woodenarrow_projectile_platinum.name=Platinum Bow
 entity.terrariamod:feather_projectile.name=Harpy Feather
 
-#mobs
+
 item.spawn_egg.entity.terrariamod:thehungry.name=Spawn The Hungry
 entity.terrariamod:thehungry.name=The Hungry
 item.spawn_egg.entity.terrariamod:wallofflesh.name=Spawn Wall of Flesh
@@ -295,8 +294,8 @@ item.spawn_egg.entity.terrariamod:iceslime.name=Spawn Ice Slime
 entity.terrariamod:iceslime.name=Ice Slime
 item.spawn_egg.entity.terrariamod:nectar_minion.name=Spawn Baby Hornet
 entity.terrariamod:nectar_minion.name=Baby Hornet
-item.spawn_egg.entity.terrariamod:queenbee_bee.name=Spawn Agressive Bee
-entity.terrariamod:queenbee_bee.name=Agressive Bee
+item.spawn_egg.entity.terrariamod:queenbee_bee.name=Spawn Bee
+entity.terrariamod:queenbee_bee.name=Bee
 item.spawn_egg.entity.terrariamod:beekeeper_bee.name=Spawn Friendly Bee
 entity.terrariamod:beekeeper_bee.name=Friendly Bee
 item.spawn_egg.entity.terrariamod:queenbee.name=Spawn Queen Bee
@@ -420,14 +419,14 @@ entity.terrariamod:harpy.name=Harpy
 entity.terrariamod:umbrellaslime.name=Umbrella Slime
 item.spawn_egg.entity.terrariamod:umbrellaslime.name=Spawn Umbrella Slime
 
-#dungeon blocks
+
 tile.terrariamod:greenbrick.name=Green Bricks
 tile.terrariamod:pinkbrick.name=Pink Bricks
 tile.terrariamod:pinkbrick_wall.name=Pink Bricks Wall
 tile.terrariamod:pinkbrick_slab.name=Pink Bricks Slab
 tile.terrariamod:spikes.name=Spikes
 
-#ores
+
 tile.terrariamod:demoniteore.name=Demonite Ore
 tile.terrariamod:copperore.name=Copper Ore
 tile.terrariamod:tinore.name=Tin Ore
@@ -443,7 +442,7 @@ tile.terrariamod:rubyore.name=Rudy Ore
 tile.terrariamod:sapphireore.name=Sapphire Ore
 tile.terrariamod:crystalheart.name=Crystal Heart
 
-#chests
+
 tile.terrariamod:surfacechest.name=Wooden Chest §9Surface
 tile.terrariamod:undergroundchest.name=Gold Chest §9Underground
 tile.terrariamod:cavernchest.name=Gold Chest §9Cavern
@@ -451,7 +450,7 @@ tile.terrariamod:dungeonchest_locked.name=Gold Chest (locked) §9Dungeon
 tile.terrariamod:dungeonchest_unlocked.name=Gold Chest (unloaded) §9Dungeon
 tile.terrariamod:skyislandchest.name=Sky Island Chest
 
-#bars
+
 item.terrariamod:copperbar.name=Copper Bar
 item.terrariamod:tinbar.name=Tin Bar
 item.terrariamod:ironbar.name=Iron Bar
@@ -467,7 +466,7 @@ item.terrariamod:hellstonebar.name=Hellstone Bar
 item.terrariamod:ruby.name=Ruby
 item.terrariamod:sapphire.name=Sapphire
 
-#pickaxes
+
 item.terrariamod:bonepickaxe.name=Bone Pickaxe
 item.terrariamod:cactuspickaxe.name=Cactus Pickaxe
 item.terrariamod:copperpickaxe.name=Copper Pickaxe
@@ -482,7 +481,7 @@ item.terrariamod:crimtanepickaxe.name=Deathbringer Pickaxe
 item.terrariamod:demonitepickaxe.name=Nightmare Pickaxe
 item.terrariamod:hellstonepickaxe.name=Hellstone Pickaxe
 
-#melee weapons
+
 item.terrariamod:beekeeper.name=Bee Keeper
 item.terrariamod:iceblade.name=Ice Blade
 item.terrariamod:enchantedsword.name=Enchanted Sword
@@ -514,7 +513,6 @@ item.terrariamod:slimestaff.name=Slime Staff §9Summons Slime Minions
 item.terrariamod:nectar.name=Nectar §9Summons Baby Hornet
 item.terrariamod:hornetstaff.name=Hornet Staff
 
-#ranged weapons
 item.terrariamod:bookofskulls.name=Book of Skulls §9+29 Magic Damage
 item.terrariamod:aquascepter.name=Aquascepter §9+16 Magic Damage
 item.terrariamod:phoenixblaster.name=Phoenix Blaster §9+24 Projectile Damage
@@ -550,12 +548,10 @@ item.terrariamod:thebeesknees.name=The Bee's Knees §9+26 Projectile Damage
 item.terrariamod:beegun.name=Bee Gun §9+9 Projectile Damage
 item.terrariamod:beenade.name=Beenade §9+12 Explosive Damage
 
-#explosives
 item.terrariamod:grenade.name=Grenade §9+3 Explosive
 item.terrariamod:bomb.name=Bomb §9+2 Explosive
 item.terrariamod:dynamite.name=Dynamite §9+6 Explosive
 
-#accessories
 item.terrariamod:depthmeter.name=Depth Meter §9Displays depth
 item.terrariamod:aglet.name=Aglet §95% increased movement speed
 item.terrariamod:hermesboots.name=Hermes Boots §9Can run super fast
@@ -566,7 +562,6 @@ item.terrariamod:bandofregeneration.name=Band of Regeneration §9Slowly heals
 item.terrariamod:magicmirror.name=Magic Mirror §9Returns to spawn
 item.terrariamod:umbrella.name=Umbrella §9You will fall slower while holding this
 
-#healing items
 item.terrariamod:creamsoda.name=Creamed Soda §9It's so fuzzy!
 item.terrariamod:cartonofmilk.name=Carton Of Milk
 item.terrariamod:lesserhealingpotion.name=Lesser Healing Potion §9Heals 50 HP
@@ -575,14 +570,12 @@ item.terrariamod:regenerationpotion.name=Regeneration Potion §9Regeneration Eff
 item.terrariamod:glowing_mushroom.name=Glowing Mushroom 
 item.terrariamod:ale.name=Ale §9Beer...
 
-#other
 tile.terrariamod:obsidianbrick.name=Obsidian Brick
 tile.terrariamod:sunplate.name=Sunplate
 tile.terrariamod:cloud.name=Cloud
 tile.terrariamod:skyislandchest.name=Sky Island Chest
 tile.terrariamod:ash.name=Ash
 
-###############how to play
 terrariamod.category.dakon=Terraria Mod Tutorial
 howtoplay.category.dakon=Terraria Guide
 howtoplay.template.title=Credits
@@ -644,4 +637,3 @@ terrariamod.tempeight.title1=Summoning the Queen Bee
 terrariamod.tempeight.text1=In order to summon the Queen Bee you need to find the Larva block. It's a yellow block with a bee inside which is found in the bee hive. If you mine it, it will break instantly and summon the Queen Bee.
 terrariamod.tempeight.title2=Getting items
 terrariamod.tempeight.text2=The Queen Bee will drop variety of items when killed. This includes bee wax which can be crafted into beenades, and the hornet staff these recipes can be found in the recipe book.
-###End of how to play

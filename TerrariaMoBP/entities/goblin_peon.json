@@ -50,7 +50,7 @@
 				"damage": 12
 			},
 			"minecraft:loot": {
-				"table": "loot_tables/entities/goblin_raid.json"
+				"table": "loot_tables/entities/goblin_peon.json"
 			},
 			"minecraft:despawn": {
 				"despawn_from_distance": {
@@ -164,7 +164,7 @@
 			},
 			"minecraft:break_blocks": {
 				"breakable_blocks": [
-					"terrariamod:twooden_door"
+					"twooden_door"
 				]
 			},
 			"minecraft:on_death": {

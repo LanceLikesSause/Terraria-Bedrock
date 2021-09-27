@@ -47,7 +47,7 @@
 				"damage": 34
 			},
 			"minecraft:loot": {
-				"table": "loot_tables/entities/zombie_terraria.json"
+				"table": "loot_tables/entities/maneater.json"
 			},
 			"minecraft:despawn": {
 				"despawn_from_distance": {

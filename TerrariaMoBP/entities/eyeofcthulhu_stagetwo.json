@@ -23,6 +23,9 @@
 			}
 		},
 		"components": {
+			"minecraft:scale": {
+				"value": 3
+			},
 			"minecraft:loot": {
 				"table": "loot_tables/entities/eyeofcthulhu.json"
 			},

@@ -3,8 +3,8 @@
 	"format_version": "1.13.0",
 	"minecraft:feature_rules": {
 		"description": {
-			"identifier": "minecraft:livingtree_featurerule",
-			"places_feature": "minecraft:livingtree_feature"
+			"identifier": "terrariamod:livingtree_featurerule",
+			"places_feature": "terrariamod:livingtree_feature"
 		},
 		"conditions": {
 			"placement_pass": "final_pass",

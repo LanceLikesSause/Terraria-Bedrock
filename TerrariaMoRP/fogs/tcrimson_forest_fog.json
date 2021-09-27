@@ -7,28 +7,28 @@
 		},
 		"distance": {
 			"lava": {
-				"fog_start": 0.3,
-				"fog_end": 0.8,
-				"fog_color": "#1778D2",
-				"render_distance_type": "render"
+				"fog_start": 25,
+				"fog_end": 30,
+				"fog_color": "#850b0b",
+				"render_distance_type": "fixed"
 			},
 			"water": {
-				"fog_start": 0.3,
-				"fog_end": 0.8,
+				"fog_start": 20,
+				"fog_end": 25,
 				"fog_color": "#1778D2",
-				"render_distance_type": "render"
+				"render_distance_type": "fixed"
 			},
 			"air": {
-				"fog_start": 0.3,
-				"fog_end": 0.8,
-				"fog_color": "#AA0000",
-				"render_distance_type": "render"
+				"fog_start": 25,
+				"fog_end": 30,
+				"fog_color": "#850b0b",
+				"render_distance_type": "fixed"
 			},
-			"weather": {
-				"fog_start": 0.3,
-				"fog_end": 0.8,
-				"fog_color": "#1778D2",
-				"render_distance_type": "render"
+			"air": {
+				"fog_start": 25,
+				"fog_end": 30,
+				"fog_color": "#850b0b",
+				"render_distance_type": "fixed"
 			},
 			"lava_resistance": {
 				"fog_start": 1,

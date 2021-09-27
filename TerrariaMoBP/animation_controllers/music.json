@@ -178,7 +178,7 @@
 					"on_entry": [
 						"/playsound underground @s",
 						"v.time=q.time_stamp;",
-						"/fog @s push terrariamod:underground_fog underground_fog"
+						"/fog @s push terrariamod:cavern_fog cavern_fog"
 					],
 					"transitions": [
 						{
@@ -226,7 +226,7 @@
 					"on_entry": [
 						"/playsound crimson_underground @s",
 						"v.time=q.time_stamp;",
-						"/fog @s push terrariamod:crimson_forest_fog crimson_forest_fog"
+						"/fog @s push terrariamod:tcrimson_forest_fog tcrimson_forest_fog"
 					],
 					"transitions": [
 						{
@@ -261,6 +261,7 @@
 				"forest_underground_music": {
 					"on_entry": [
 						"/playsound underground @s",
+						"/fog @s push terrariamod:underground_fog underground_fog",
 						"v.time=q.time_stamp;"
 					],
 					"transitions": [

@@ -8,16 +8,16 @@
 				"default": "entity_alphatest"
 			},
 			"textures": {
-				"default": "textures/entity/pamobile/demoneye.png"
+				"default": "textures/entity/pamobile/demon_eye.png"
 			},
 			"geometry": {
-				"default": "geometry.demoneye"
+				"default": "geometry.demon_eye"
 			},
 			"render_controllers": [
 				"controller.render.zombie"
 			],
 			"animations": {
-				"loop": "animation.demoneye.flying"
+				"loop": "animation.demon_eye.flying"
 			},
 			"scripts": {
 				"animate": [

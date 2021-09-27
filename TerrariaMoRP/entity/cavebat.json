@@ -8,17 +8,17 @@
 				"default": "bat"
 			},
 			"textures": {
-				"default": "textures/entity/pamobile/cavebat"
+				"default": "textures/entity/pamobile/cave_bat"
 			},
 			"geometry": {
-				"default": "geometry.cavebat"
+				"default": "geometry.cave_bat"
 			},
 			"scripts": {
 				"scale": 0.35
 			},
 			"animations": {
 				"resting": "animation.bat.resting",
-				"flying": "animation.cavebat.fly"
+				"flying": "animation.cave_bat.flying"
 			},
 			"animation_controllers": [
 				{

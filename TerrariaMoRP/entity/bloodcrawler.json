@@ -8,16 +8,16 @@
 				"default": "entity_alphatest"
 			},
 			"textures": {
-				"default": "textures/entity/pamobile/bloodcrawler.png"
+				"default": "textures/entity/pamobile/blood_crawler.png"
 			},
 			"geometry": {
-				"default": "geometry.bloodcrawler"
+				"default": "geometry.blood_crawler"
 			},
 			"render_controllers": [
 				"controller.render.zombie"
 			],
 			"animations": {
-				"loop": "animation.bloodcrawler.walk"
+				"loop": "animation.blood_crawler.walk"
 			},
 			"scripts": {
 				"animate": [

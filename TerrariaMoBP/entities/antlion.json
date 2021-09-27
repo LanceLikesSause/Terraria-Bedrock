@@ -112,8 +112,8 @@
 			"minecraft:behavior.ranged_attack": {
 				"priority": 0,
 				"attack_interval_min": 3,
-				"attack_interval_max": 6,
-				"attack_radius": 15
+				"attack_interval_max": 3,
+				"attack_radius": 20
 			},
 			"minecraft:loot": {
 				"table": "loot_tables/entities/antlion.json"

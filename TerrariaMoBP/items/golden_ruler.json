@@ -11,7 +11,7 @@
 				"texture": "terrariamod:golden_ruler"
 			},
 			"minecraft:display_name": {
-				"value": "Golden Ruler"
+				"value": "Golden Ruler\nI like jokes about stationery but rulers are where I draw the line"
 			},
 			"minecraft:creative_category": {
 				"parent": "items"

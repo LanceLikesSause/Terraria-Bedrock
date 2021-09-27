@@ -1,10 +1,14 @@
 //bridge-file-version: #3
 {
-	"id": 1588402018287,
-	"name": "Creepers",
 	"pools": [
 		{
 			"rolls": 1,
+			"conditions": [
+				{
+					"condition": "random_chance",
+					"chance": 0.66
+				}
+			],
 			"entries": [
 				{
 					"type": "item",
@@ -24,36 +28,23 @@
 		},
 		{
 			"rolls": 1,
+			"conditions": [
+				{
+					"condition": "random_chance",
+					"chance": 0.66
+				}
+			],
 			"entries": [
 				{
 					"type": "item",
 					"weight": 1,
-					"name": "terrariamod:crimtaneore",
+					"name": "terrariamod:crimtaneore_item",
 					"functions": [
 						{
 							"function": "set_count",
 							"count": {
 								"min": 5,
 								"max": 12
-							}
-						}
-					]
-				}
-			]
-		},
-		{
-			"rolls": 1,
-			"entries": [
-				{
-					"type": "item",
-					"weight": 1,
-					"name": "terrariamod:lesserhealingpotion",
-					"functions": [
-						{
-							"function": "set_count",
-							"count": {
-								"min": 0,
-								"max": 1
 							}
 						}
 					]

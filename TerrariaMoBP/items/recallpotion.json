@@ -7,16 +7,16 @@
 		},
 		"components": {
 			"minecraft:display_name": {
-				"value": "Recall Potion\n§9Teleports you home"
+				"value": "Recall Potion\n9Teleports you home"
 			},
 			"minecraft:creative_category": {
 				"parent": "equipment"
 			},
 			"minecraft:use_animation": "drink",
-			"minecraft:use_duration": 0.3,
+			"minecraft:use_duration": 1.0,
 			"minecraft:food": {
 				"on_consume": {
-					"event": "minecraft:use"
+					"event": "terrariamod:use"
 				},
 				"can_always_eat": true
 			},
@@ -25,7 +25,7 @@
 			}
 		},
 		"events": {
-			"minecraft:use": {
+			"terrariamod:use": {
 				"sequence": [
 					{
 						"run_command": {
@@ -40,7 +40,7 @@
 					{
 						"run_command": {
 							"command": [
-								"tp @s 0 140 0",
+								"tp @s 0 128 0",
 								"playsound effect.magicmirror @s ~~~",
 								"particle terrariamod:magicmirror_effect ~~~"
 							]

@@ -8,16 +8,16 @@
 				"default": "entity_alphatest"
 			},
 			"textures": {
-				"default": "textures/entity/pamobile/eyeofcthulhu_stageone"
+				"default": "textures/entity/pamobile/eye_of_cthulhu_stage_one"
 			},
 			"geometry": {
-				"default": "geometry.eyeofcthulhu_stageone"
+				"default": "geometry.eye_of_cthulhu_stage_one"
 			},
 			"render_controllers": [
 				"controller.render.zombie"
 			],
 			"animations": {
-				"loop": "animation.eyeofcthulhu_stageone.fly"
+				"loop": "animation.eye_of_cthulhu_stage_one.fly"
 			},
 			"scripts": {
 				"animate": [

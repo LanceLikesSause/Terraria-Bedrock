@@ -1,0 +1,28 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.player_double_jump": {
+			"initial_state": "test",
+			"states": {
+				"test": {
+					"transitions": [
+						{
+							"execute": "query.scoreboard('can_double_jump') == 0 && query.is_on_ground == true"
+						}
+					]
+				},
+				"execute": {
+					"transitions": [
+						{
+							"test": "query.is_alive"
+						}
+					],
+					"on_entry": [
+						"/scoreboard objectives add can_double_jump dummy can_double_jump",
+						"/scoreboard players set @s can_double_jump 1"
+					]
+				}
+			}
+		}
+	}
+}

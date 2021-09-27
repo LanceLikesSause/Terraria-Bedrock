@@ -1,7 +1,7 @@
-//bridge-file-version: #19
+//bridge-file-version: #11
 {
 	"id": 1588402018287,
-	"name": "Zombie Terraria",
+	"name": "Skeleton Terraria",
 	"pools": [
 		{
 			"rolls": 1,
@@ -14,8 +14,8 @@
 						{
 							"function": "set_count",
 							"count": {
-								"min": 12,
-								"max": 12
+								"min": 1,
+								"max": 1
 							}
 						}
 					]
@@ -23,18 +23,49 @@
 			]
 		},
 		{
+			"conditions": [
+				{
+					"condition": "random_chance",
+					"chance": 0.04
+				}
+			],
 			"rolls": 1,
 			"entries": [
 				{
 					"type": "item",
 					"weight": 1,
-					"name": "terrariamod:glowing_mushroom",
+					"name": "terrariamod:bonesword",
 					"functions": [
 						{
 							"function": "set_count",
 							"count": {
-								"min": 2,
-								"max": 5
+								"min": 1,
+								"max": 1
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"conditions": [
+				{
+					"condition": "random_chance",
+					"chance": 0.6
+				}
+			],
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "terrariamod:cartonofmilk",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 1
 							}
 						}
 					]

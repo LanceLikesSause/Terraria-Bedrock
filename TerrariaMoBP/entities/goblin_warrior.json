@@ -50,7 +50,7 @@
 				"damage": 25
 			},
 			"minecraft:loot": {
-				"table": "loot_tables/entities/goblin_raid.json"
+				"table": "loot_tables/entities/goblin_warrior.json"
 			},
 			"minecraft:despawn": {
 				"despawn_from_distance": {
@@ -160,11 +160,17 @@
 			},
 			"minecraft:break_blocks": {
 				"breakable_blocks": [
-					"terrariamod:twooden_door"
+					"twooden_door"
 				]
 			},
 			"minecraft:equipment": {
-				"table": "loot_tables/blocks/goblinwarrior.json"
+				"table": "loot_tables/blocks/goblinwarrior.json",
+				"slot_drop_chance": [
+					{
+						"slot": "slot.weapon.mainhand",
+						"drop_chance": 0
+					}
+				]
 			},
 			"minecraft:on_death": {
 				"event": "terrariamod:hurt"

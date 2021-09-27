@@ -18,8 +18,21 @@
 				}
 			},
 			"tag:terrariamod:tree": {},
-			"tag:terrariamod:plant": {}
+			"tag:terrariamod:plant": {},
+			"minecraft:on_player_destroyed": {
+				"event": "terrariamod:destroy_tree"
+			}
 		},
-		"events": {}
+		"events": {
+			"terrariamod:destroy_tree": {
+				"run_command": {
+					"command": [
+						"fill ~ ~7 ~ ~ ~-7 ~ air 0 replace terrariamod:tree_bottom_corruption",
+						"fill ~ ~7 ~ ~ ~-7 ~ air 0 replace terrariamod:tree_log_corruption",
+						"fill ~ ~7 ~ ~ ~-7 ~ air 0 replace terrariamod:tree_top_corruption"
+					]
+				}
+			}
+		}
 	}
 }

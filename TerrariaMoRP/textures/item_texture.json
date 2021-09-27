@@ -51,8 +51,8 @@
 		"terrariamod:purity_candle": {
 			"textures": "textures/items/block_placers/purity_candle"
 		},
-		"terrariamod:twooden_door": {
-			"textures": "textures/items/block_placers/twooden_door"
+		"terrariamod:wooden_door": {
+			"textures": "textures/items/block_placers/wooden_door"
 		},
 		"terrariamod:purity_chest": {
 			"textures": "textures/items/block_placers/purity_chest"
@@ -1062,8 +1062,8 @@
 		"terrariamod:spawn_harpy": {
 			"textures": "textures/items/spawn_egg/egg_harpy"
 		},
-		"terrariamod:spawn_hellbat": {
-			"textures": "textures/items/spawn_egg/egg_hellbat"
+		"terrariamod:spawn_hell_bat": {
+			"textures": "textures/items/spawn_egg/egg_hell_bat"
 		},
 		"terrariamod:spawn_hornet": {
 			"textures": "textures/items/spawn_egg/egg_hornet"
@@ -1148,6 +1148,12 @@
 		},
 		"terrariamod:golden_ruler": {
 			"textures": "textures/items/extras/golden_ruler"
+		},
+		"terrariamod:demon_scythe": {
+			"textures": "textures/items/guns/demon_scythe"
+		},
+		"terrariamod:spiky_ball": {
+			"textures": "textures/items/weapons/spiky_ball"
 		}
 	}
 }

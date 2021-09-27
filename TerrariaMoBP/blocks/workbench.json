@@ -22,6 +22,7 @@
 				]
 			},
 			"minecraft:block_light_emission": 0,
+			"minecraft:block_light_absorption": 0,
 			"tag:terrariamod:wood": {}
 		},
 		"events": {}

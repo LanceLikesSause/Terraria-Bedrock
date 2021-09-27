@@ -47,7 +47,7 @@
 				"damage": 25
 			},
 			"minecraft:loot": {
-				"table": "loot_tables/entities/zombie_terraria.json"
+				"table": "loot_tables/entities/snatcher.json"
 			},
 			"minecraft:despawn": {
 				"despawn_from_distance": {

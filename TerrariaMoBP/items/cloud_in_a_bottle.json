@@ -15,12 +15,13 @@
 				"texture": "terrariamod:cloud_in_a_bottle"
 			},
 			"minecraft:display_name": {
-				"value": "Cloud in a Bottle\n§9Allows the holder to double jump\nNOTE: Not working yet"
+				"value": "Cloud in a Bottle\n§9Allows the holder to double jump\nNOTE: WIP"
 			},
 			"minecraft:on_use": {
 				"on_use": {
-					"event": "minecraft:use",
-					"target": "self"
+					"event": "terrariamod:use",
+					"target": "self",
+					"condition": "!query.is_on_ground && query.is_jumping && query.scoreboard('can_double_jump')==1"
 				}
 			},
 			"minecraft:creative_category": {
@@ -28,10 +29,12 @@
 			}
 		},
 		"events": {
-			"minecraft:use": {
+			"terrariamod:use": {
 				"run_command": {
 					"command": [
-						"say sample text"
+						"effect @s levitation 1 2 true",
+						"scoreboard players set @s can_double_jump 0",
+						"particle terrariamod:cloud_in_a_bottle_effect ~~~"
 					]
 				}
 			}

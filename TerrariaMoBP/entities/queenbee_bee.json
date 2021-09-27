@@ -24,7 +24,7 @@
 				]
 			},
 			"minecraft:loot": {
-				"table": "loot_tables/entities/hornet.json"
+				"table": "loot_tables/entities/empty.json"
 			},
 			"minecraft:nameable": {},
 			"minecraft:health": {

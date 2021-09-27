@@ -162,11 +162,11 @@
 			},
 			"minecraft:break_blocks": {
 				"breakable_blocks": [
-					"terrariamod:twooden_door"
+					"twooden_door"
 				]
 			},
 			"minecraft:loot": {
-				"table": "loot_tables/entities/blood_moon.json"
+				"table": "loot_tables/entities/bloodzombie.json"
 			},
 			"minecraft:on_death": {
 				"event": "terrariamod:hurt"

@@ -8,13 +8,10 @@
 				"default": "zombie"
 			},
 			"textures": {
-				"default": "textures/entity/pamobile/eaterofsouls"
-			},
-			"particle_effects": {
-				"bounce_effect": "terrariamod:slime_effect"
+				"default": "textures/entity/pamobile/eater_of_souls"
 			},
 			"geometry": {
-				"default": "geometry.eaterofsouls"
+				"default": "geometry.eater_of_souls"
 			},
 			"render_controllers": [
 				"controller.render.zombie"

@@ -11,15 +11,14 @@
 			"minecraft:use_duration": 1,
 			"minecraft:hand_equipped": true,
 			"minecraft:display_name": {
-				"value": "Magic Mirror\n§9Gaze in the mirror to return home"
+				"value": "Magic Mirror\nยง9Gaze in the mirror to return home"
 			},
 			"minecraft:icon": {
 				"texture": "terrariamod:magicmirror"
 			},
 			"minecraft:on_use": {
 				"on_use": {
-					"event": "minecraft:use",
-					"target": "self"
+					"event": "terrariamod:use"
 				}
 			},
 			"minecraft:creative_category": {
@@ -27,7 +26,7 @@
 			}
 		},
 		"events": {
-			"minecraft:use": {
+			"terrariamod:use": {
 				"sequence": [
 					{
 						"run_command": {
@@ -42,7 +41,7 @@
 					{
 						"run_command": {
 							"command": [
-								"tp @s 0 130 0",
+								"tp @s 0 128 0",
 								"playsound effect.magicmirror @s ~~~",
 								"particle terrariamod:magicmirror_effect ~~~"
 							]

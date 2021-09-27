@@ -1,0 +1,60 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.demon_eye",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "all",
+					"pivot": [0, -1, 2],
+					"cubes": [
+						{"origin": [-5, 0, -6], "size": [10, 10, 10], "pivot": [0, 3, -1], "rotation": [0, -90, 0], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "veinOne",
+					"parent": "all",
+					"pivot": [-2, 3, 4.5],
+					"cubes": [
+						{"origin": [-2, 1, 4], "size": [0, 4, 7], "pivot": [-2, 3, 7.5], "rotation": [0, 0, 45], "uv": [14, 25]},
+						{"origin": [-2, 1, 4], "size": [0, 4, 7], "pivot": [-2, 3, 7.5], "rotation": [0, 0, -45], "uv": [0, 25]}
+					]
+				},
+				{
+					"name": "vienTwo",
+					"parent": "all",
+					"pivot": [-2, 7, 7.5],
+					"cubes": [
+						{"origin": [-2, 5, 4], "size": [0, 4, 7], "pivot": [-2, 7, 7.5], "rotation": [0, 0, -45], "uv": [14, 21]},
+						{"origin": [-2, 5, 4], "size": [0, 4, 7], "pivot": [-2, 7, 7.5], "rotation": [0, 0, 45], "uv": [0, 21]}
+					]
+				},
+				{
+					"name": "veinThree",
+					"parent": "all",
+					"pivot": [1, 7, 7.5],
+					"cubes": [
+						{"origin": [1, 5, 4], "size": [0, 4, 7], "pivot": [1, 7, 7.5], "rotation": [0, 0, 45], "uv": [14, 17]},
+						{"origin": [1, 5, 4], "size": [0, 4, 7], "pivot": [1, 7, 7.5], "rotation": [0, 0, -45], "uv": [0, 17]}
+					]
+				},
+				{
+					"name": "vienFour",
+					"parent": "all",
+					"pivot": [2, 4, 7.5],
+					"cubes": [
+						{"origin": [2, 2, 4], "size": [0, 4, 7], "pivot": [2, 4, 7.5], "rotation": [0, 0, 45], "uv": [14, 13]},
+						{"origin": [2, 2, 4], "size": [0, 4, 7], "pivot": [2, 4, 7.5], "rotation": [0, 0, -45], "uv": [0, 13]}
+					]
+				}
+			]
+		}
+	]
+}

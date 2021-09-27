@@ -21,7 +21,7 @@
 			"placement_pass": "final_pass"
 		},
 		"distribution": {
-			"iterations": 90,
+			"iterations": 50,
 			"coordinate_eval_order": "zyx",
 			"x": {
 				"distribution": "uniform",

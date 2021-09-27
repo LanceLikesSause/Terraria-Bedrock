@@ -4,19 +4,21 @@
 	"minecraft:entity": {
 		"description": {
 			"animations": {
-				"world_creation": "controller.animation.world_creation",
+				"initialize_addon": "controller.animation.initialize_addon",
 				"health": "controller.animation.health",
 				"player_death": "controller.animation.player_death",
 				"music": "controller.animation.music",
-				"event": "controller.animation.event"
+				"event": "controller.animation.event",
+				"player_double_jump": "controller.animation.player_double_jump"
 			},
 			"scripts": {
 				"animate": [
-					"world_creation",
+					"initialize_addon",
 					"health",
 					"player_death",
 					"music",
-					"event"
+					"event",
+					"player_double_jump"
 				]
 			},
 			"identifier": "minecraft:player",

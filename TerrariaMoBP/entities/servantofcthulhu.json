@@ -15,7 +15,7 @@
 				]
 			},
 			"minecraft:loot": {
-				"table": "loot_tables/entities/demoneye.json"
+				"table": "loot_tables/entities/empty.json"
 			},
 			"minecraft:nameable": {},
 			"minecraft:health": {

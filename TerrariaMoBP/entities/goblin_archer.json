@@ -49,7 +49,7 @@
 				"damage": 20
 			},
 			"minecraft:loot": {
-				"table": "loot_tables/entities/goblin_raid.json"
+				"table": "loot_tables/entities/goblin_sorcerer.json"
 			},
 			"minecraft:despawn": {
 				"despawn_from_distance": {
@@ -171,7 +171,13 @@
 				]
 			},
 			"minecraft:equipment": {
-				"table": "loot_tables/entities/guide.json"
+				"table": "loot_tables/entities/guide.json",
+				"slot_drop_chance": [
+					{
+						"slot": "slot.weapon.mainhand",
+						"drop_chance": 0
+					}
+				]
 			},
 			"minecraft:on_death": {
 				"event": "terrariamod:hurt"

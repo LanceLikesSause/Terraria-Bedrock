@@ -5,7 +5,7 @@
 			"identifier": "terrariamod:tree_top"
 		},
 		"components": {
-			"minecraft:destroy_time": 2,
+			"minecraft:destroy_time": 99,
 			"minecraft:block_light_emission": 0,
 			"minecraft:block_light_absorption": 0,
 			"minecraft:explosion_resistance": 0,

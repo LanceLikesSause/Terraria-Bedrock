@@ -120,11 +120,6 @@
 					"terraria_boss"
 				]
 			},
-			"minecraft:break_blocks": {
-				"breakable_blocks": [
-					"terrariamod:twooden_door"
-				]
-			},
 			"minecraft:boss": {
 				"name": "King Slime",
 				"hud_range": 99

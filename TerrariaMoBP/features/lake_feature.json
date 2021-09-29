@@ -3,7 +3,7 @@
 	"format_version": "1.13.0",
 	"minecraft:ore_feature": {
 		"description": {
-			"identifier": "minecraft:tlake_feature"
+			"identifier": "terrariamod:lake_feature"
 		},
 		"count": 30,
 		"replace_rules": [

@@ -19,7 +19,8 @@
 			"minecraft:hand_equipped": true,
 			"minecraft:on_use": {
 				"on_use": {
-					"event": "terrariamod:summon_cloud"
+					"event": "terrariamod:summon_cloud",
+					"condition": "query.scoreboard('mana')>0"
 				}
 			},
 			"minecraft:cooldown": {

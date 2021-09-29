@@ -32,23 +32,23 @@
 				"generate_for_climates": [
 					[
 						"frozen",
-						50
+						1
 					],
 					[
 						"cold",
-						50
+						100
 					],
 					[
 						"medium",
-						50
+						1
 					],
 					[
 						"lukewarm",
-						50
+						1
 					],
 					[
 						"warm",
-						50
+						1
 					]
 				],
 				"river_transformation": "corruption_forest",

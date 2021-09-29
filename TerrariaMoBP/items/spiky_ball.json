@@ -17,7 +17,7 @@
 				"texture": "terrariamod:spiky_ball"
 			},
 			"minecraft:display_name": {
-				"value": "Flower of Fire\n§9+48 Ranged Damage"
+				"value": "Spiky Ball§9\n+15 Ranged Damage"
 			},
 			"minecraft:creative_category": {
 				"parent": "equipment"

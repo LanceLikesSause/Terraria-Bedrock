@@ -14,8 +14,10 @@
 				"width": 0.6,
 				"height": 1.9
 			},
-			"minecraft:burns_in_daylight": {},
 			"minecraft:movement.basic": {},
+			"minecraft:movement": {
+				"value": 0.25
+			},
 			"minecraft:navigation.walk": {
 				"is_amphibious": true,
 				"can_pass_doors": true,
@@ -24,8 +26,8 @@
 			},
 			"minecraft:jump.static": {},
 			"minecraft:health": {
-				"value": 45,
-				"max": 45
+				"value": 80,
+				"max": 80
 			},
 			"minecraft:hurt_on_condition": {
 				"damage_conditions": [
@@ -48,10 +50,10 @@
 				"breathes_water": true
 			},
 			"minecraft:attack": {
-				"damage": 14
+				"damage": 25
 			},
 			"minecraft:loot": {
-				"table": "loot_tables/entities/zombie.json"
+				"table": "loot_tables/entities/antlion.json"
 			},
 			"minecraft:despawn": {
 				"despawn_from_distance": {
@@ -61,7 +63,7 @@
 			},
 			"minecraft:behavior.melee_attack": {
 				"priority": 3,
-				"speed_multiplier": 1
+				"speed_multiplier": 1.6
 			},
 			"minecraft:behavior.move_towards_restriction": {
 				"priority": 5,
@@ -109,9 +111,6 @@
 			"minecraft:pushable": {
 				"is_pushable": true,
 				"is_pushable_by_piston": true
-			},
-			"minecraft:movement": {
-				"value": 0.25
 			},
 			"minecraft:type_family": {
 				"family": [

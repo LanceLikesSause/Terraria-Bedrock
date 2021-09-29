@@ -4,6 +4,9 @@
 	"padding": 8,
 	"num_mip_levels": 4,
 	"texture_data": {
+		"hollow": {
+			"textures": "textures/blocks/hollow"
+		},
 		"shadoworb": {
 			"textures": "textures/blocks/shadoworb"
 		},
@@ -11,9 +14,7 @@
 			"textures": "textures/blocks/obsidianbrick"
 		},
 		"wooden_chair": {
-			"textures": [
-				"textures/blocks/wooden_chair"
-			]
+			"textures": "textures/blocks/wooden_chair"
 		},
 		"twooden_door": {
 			"textures": "textures/blocks/twooden_door"
@@ -107,9 +108,6 @@
 		},
 		"mushroom_grass_up": {
 			"textures": "textures/blocks/mushroom_grass_up"
-		},
-		"mushroom_grass_down": {
-			"textures": "textures/blocks/mushroom_grass_down"
 		},
 		"mushroom_grass_side": {
 			"textures": "textures/blocks/mushroom_grass_side"
@@ -210,9 +208,6 @@
 		"crimson_grass_up": {
 			"textures": "textures/blocks/crimson_grass_up"
 		},
-		"crimson_grass_down": {
-			"textures": "textures/blocks/crimson_grass_down"
-		},
 		"crimson_grass_side": {
 			"textures": "textures/blocks/crimson_grass_side"
 		},
@@ -262,44 +257,29 @@
 			"textures": "textures/blocks/iron_anvil"
 		},
 		"crimson_wood": {
-			"textures": [
-				"textures/blocks/crimson_wood"
-			]
+			"textures": "textures/blocks/crimson_wood"
 		},
 		"jungle_grass_top": {
-			"textures": [
-				"textures/blocks/jungle_grass_top"
-			]
+			"textures": "textures/blocks/jungle_grass_top"
 		},
 		"jungle_grass_side": {
-			"textures": [
-				"textures/blocks/jungle_grass_side"
-			]
+			"textures": "textures/blocks/jungle_grass_side"
 		},
 		"graybrick": {
-			"textures": [
-				"textures/blocks/graybrick"
-			]
+			"textures": "textures/blocks/graybrick"
 		},
 		"purity_clay": {
-			"textures": [
-				"textures/blocks/purity_clay"
-			]
+			"textures": "textures/blocks/purity_clay"
 		},
 		"redbrick": {
-			"textures": [
-				"textures/blocks/redbrick"
-			]
+			"textures": "textures/blocks/redbrick"
 		},
 		"purity_candle": {
-			"textures": [
-				"textures/blocks/purity_candle"
-			]
+			"textures": "textures/blocks/purity_candle"
 		},
 		"honey": {
-			"textures": [
-				"textures/blocks/honey"
-			]
+			"textures": "textures/blocks/honey"
+
 		},
 		"hive_wall": {
 			"textures": [
@@ -326,217 +306,136 @@
 			]
 		},
 		"hive_block": {
-			"textures": [
-				"textures/blocks/hive_block"
-			]
+			"textures": "textures/blocks/hive_block"
 		},
 		"larva": {
-			"textures": [
-				"textures/blocks/larva"
-			]
+			"textures": "textures/blocks/larva"
 		},
 		"enchantedsword_block": {
-			"textures": [
-				"textures/blocks/enchantedsword_block"
-			]
+			"textures": "textures/blocks/enchantedsword_block"
 		},
 		"purity_cactus": {
-			"textures": [
-				"textures/blocks/purity_cactus"
-			]
+			"textures": "textures/blocks/purity_cactus"
 		},
 		"cactus_block": {
-			"textures": [
-				"textures/blocks/cactus_block"
-			]
+			"textures": "textures/blocks/cactus_block"
 		},
 		"sandstone": {
-			"textures": [
-				"textures/blocks/purity_sandstone"
-			]
+			"textures": "textures/blocks/purity_sandstone"
 		},
 		"purity_ice": {
-			"textures": [
-				"textures/blocks/purity_ice"
-			]
+			"textures": "textures/blocks/purity_ice"
 		},
 		"vile_mushroom": {
-			"textures": [
-				"textures/blocks/vilemushroom"
-			]
+			"textures": "textures/blocks/vilemushroom"
 		},
 		"snow_tree": {
-			"textures": [
-				"textures/blocks/snow_tree"
-			]
+			"textures": "textures/blocks/snow_tree"
 		},
 		"snow_tree_top": {
-			"textures": [
-				"textures/blocks/treetop_snow_top"
-			]
+			"textures": "textures/blocks/treetop_snow_top"
 		},
 		"snow_wood": {
-			"textures": [
-				"textures/blocks/snow_wood"
-			]
+			"textures": "textures/blocks/snow_wood"
 		},
 		"forest_pot": {
-			"textures": [
-				"textures/blocks/forest_pot"
-			]
+			"textures": "textures/blocks/forest_pot"
 		},
 		"purity_tall_grass_one": {
-			"textures": [
-				"textures/blocks/purity_tall_grass_one"
-			]
+			"textures": "textures/blocks/purity_tall_grass_one"
 		},
 		"purity_tall_grass_two": {
-			"textures": [
-				"textures/blocks/purity_tall_grass_two"
-			]
+			"textures": "textures/blocks/purity_tall_grass_two"
 		},
 		"purity_tall_grass_three": {
-			"textures": [
-				"textures/blocks/purity_tall_grass_three"
-			]
+			"textures": "textures/blocks/purity_tall_grass_three"
 		},
 		"purity_tall_grass_four": {
-			"textures": [
-				"textures/blocks/purity_tall_grass_four"
-			]
+			"textures": "textures/blocks/purity_tall_grass_four"
 		},
 		"purity_tall_grass_five": {
-			"textures": [
-				"textures/blocks/purity_tall_grass_five"
-			]
+			"textures": "textures/blocks/purity_tall_grass_five"
 		},
 		"dungeon_mob_spawner": {
-			"textures": [
-				"textures/blocks/dungeon_mob_spawner"
-			]
+			"textures": "textures/blocks/dungeon_mob_spawner"
 		},
 		"purity_mud": {
-			"textures": [
-				"textures/blocks/purity_mud"
-			]
+			"textures": "textures/blocks/purity_mud"
 		},
 		"cloud": {
-			"textures": [
-				"textures/blocks/cloud"
-			]
+			"textures": "textures/blocks/cloud"
 		},
 		"sunplate": {
-			"textures": [
-				"textures/blocks/sunplate"
-			]
+			"textures": "textures/blocks/sunplate"
 		},
 		"livingwood": {
-			"textures": [
-				"textures/blocks/livingwood"
-			]
+			"textures": "textures/blocks/livingwood"
 		},
 		"leafblock": {
-			"textures": [
-				"textures/blocks/leafblock"
-			]
+			"textures": "textures/blocks/leafblock"
 		},
 		"purity_bed": {
-			"textures": [
-				"textures/blocks/purity_bed"
-			]
+			"textures": "textures/blocks/purity_bed"
 		},
 		"crystalheart": {
-			"textures": [
-				"textures/blocks/crystalheart"
-			]
+			"textures": "textures/blocks/crystalheart"
 		},
 		"giant_glowing_mushroom_hat": {
-			"textures": [
-				"textures/blocks/giant_glowing_mushroom_hat"
-			]
+			"textures": "textures/blocks/giant_glowing_mushroom_hat"
 		},
 		"giant_glowing_mushroom_stem": {
-			"textures": [
-				"textures/blocks/giant_glowing_mushroom_stem"
-			]
+			"textures": "textures/blocks/giant_glowing_mushroom_stem"
 		},
 		"cactus_toliet": {
-			"textures": [
-				"textures/blocks/cactus_toliet"
-			]
+			"textures": "textures/blocks/cactus_toliet"
 		},
 		"piggy_bank": {
-			"textures": [
-				"textures/blocks/piggy_bank"
-			]
+			"textures": "textures/blocks/piggy_bank"
 		},
 		"blinkroot": {
-			"textures": [
-				"textures/blocks/blinkroot"
-			]
+			"textures": "textures/blocks/blinkroot"
 		},
 		"deathweed": {
-			"textures": [
-				"textures/blocks/deathweed"
-			]
+			"textures": "textures/blocks/deathweed"
 		},
 		"fireblossom": {
-			"textures": [
-				"textures/blocks/fireblossom"
-			]
+			"textures": "textures/blocks/fireblossom"
 		},
 		"moonglow": {
-			"textures": [
-				"textures/blocks/moonglow"
-			]
+			"textures": "textures/blocks/moonglow"
 		},
-		"thorns_corruption": {
-			"textures": [
-				"textures/blocks/thorns_corruption"
-			]
+		"corruption_thorns": {
+			"textures": "textures/blocks/corruption_thorns"
 		},
 		"gold_chest": {
-			"textures": [
-				"textures/blocks/gold_chest"
-			]
+			"textures": "textures/blocks/gold_chest"
 		},
 		"frozen_chest": {
-			"textures": [
-				"textures/blocks/frozen_chest"
-			]
+			"textures": "textures/blocks/frozen_chest"
 		},
 		"ivy_chest": {
-			"textures": [
-				"textures/blocks/ivy_chest"
-			]
+			"textures": "textures/blocks/ivy_chest"
 		},
 		"sandstone_chest": {
-			"textures": [
-				"textures/blocks/sandstone_chest"
-			]
+			"textures": "textures/blocks/sandstone_chest"
 		},
 		"skyware_chest": {
-			"textures": [
-				"textures/blocks/skyware_chest"
-			]
+			"textures": "textures/blocks/skyware_chest"
 		},
 		"shadow_chest": {
-			"textures": [
-				"textures/blocks/shadow_chest"
-			]
+			"textures": "textures/blocks/shadow_chest"
 		},
 		"living_wood_chest": {
-			"textures": [
-				"textures/blocks/living_wood_chest"
-			]
+			"textures": "textures/blocks/living_wood_chest"
 		},
 		"rich_mahogany_chest": {
-			"textures": [
-				"textures/blocks/rich_mahogany_chest"
-			]
+			"textures": "textures/blocks/rich_mahogany_chest"
 		},
 		"spikes": {
 			"textures": "textures/blocks/spikes"
+		},
+		"crimson_thorns": {
+			"textures": "textures/blocks/crimson_thorns"
 		}
 	}
 }

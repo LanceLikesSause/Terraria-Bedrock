@@ -233,6 +233,20 @@
 				"family": [
 					"terraria_npc"
 				]
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"on_damage": {
+							"filters": {
+								"test": "is_family",
+								"subject": "other",
+								"value": "player"
+							}
+						},
+						"deals_damage": false
+					}
+				]
 			}
 		},
 		"events": {}

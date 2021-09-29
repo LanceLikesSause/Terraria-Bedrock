@@ -1,23 +1,24 @@
-//bridge-file-version: #11
+//bridge-file-version: #32
 {
 	"format_version": "1.13.0",
 	"minecraft:feature_rules": {
 		"description": {
-			"identifier": "terrariamod:crimsonheart_featurerule",
-			"places_feature": "terrariamod:crimsonheart_maker_feature"
+			"identifier": "terrariamod:lake_jungle_featurerule",
+			"places_feature": "terrariamod:lake_jungle_feature"
 		},
 		"conditions": {
-			"placement_pass": "surface_pass",
+			"placement_pass": "final_pass",
 			"minecraft:biome_filter": [
 				{
 					"test": "has_biome_tag",
 					"operator": "==",
-					"value": "tcrimson_forest"
+					"value": "purity_jungle"
 				}
 			]
 		},
 		"distribution": {
-			"iterations": 10,
+			"iterations": 1,
+			"coordinate_eval_order": "xzy",
 			"x": {
 				"distribution": "uniform",
 				"extent": [
@@ -25,15 +26,14 @@
 					16
 				]
 			},
-			"y": 90,
+			"y": "query.heightmap(variable.worldx, variable.worldz)",
 			"z": {
 				"distribution": "uniform",
 				"extent": [
 					0,
 					16
 				]
-			},
-			"coordinate_eval_order": "xzy"
+			}
 		}
 	}
 }

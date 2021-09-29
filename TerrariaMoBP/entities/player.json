@@ -177,10 +177,6 @@
 				"value": 100,
 				"max": 100
 			},
-			"minecraft:inventory": {
-				"inventory_size": 90,
-				"container_type": "inventory"
-			},
 			"minecraft:on_death": {
 				"event": "terrariamod:kill_all_bosses"
 			}

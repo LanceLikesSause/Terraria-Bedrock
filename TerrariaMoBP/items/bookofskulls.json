@@ -18,7 +18,7 @@
 				"texture": "terrariamod:bookofskulls"
 			},
 			"minecraft:display_name": {
-				"value": "Book of Skulls\n§9+29 Projectile Damage\n§9Shoots a skull"
+				"value": "Book of Skulls\n§9+29 Projectile Damage\n§9Shoots a skull\nUses 18 mana"
 			},
 			"minecraft:creative_category": {
 				"parent": "equipment"

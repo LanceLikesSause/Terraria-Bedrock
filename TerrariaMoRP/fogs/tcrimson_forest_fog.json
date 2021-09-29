@@ -19,14 +19,14 @@
 				"render_distance_type": "fixed"
 			},
 			"air": {
-				"fog_start": 25,
-				"fog_end": 30,
+				"fog_start": 35,
+				"fog_end": 45,
 				"fog_color": "#850b0b",
 				"render_distance_type": "fixed"
 			},
-			"air": {
-				"fog_start": 25,
-				"fog_end": 30,
+			"weather": {
+				"fog_start": 35,
+				"fog_end": 45,
 				"fog_color": "#850b0b",
 				"render_distance_type": "fixed"
 			},

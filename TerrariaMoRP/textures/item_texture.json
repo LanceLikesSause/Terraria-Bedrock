@@ -108,9 +108,6 @@
 		"terrariamod:purity_wood": {
 			"textures": "textures/items/block_placers/purity_wood"
 		},
-		"terrariamod:cellphone": {
-			"textures": "textures/items/cellphone"
-		},
 		"terrariamod:guidevoodoodoll": {
 			"textures": "textures/items/pamobile/guidevoodoodoll"
 		},
@@ -308,9 +305,6 @@
 		},
 		"terrariamod:bandofregeneration": {
 			"textures": "textures/items/accessories/bandofregeneration"
-		},
-		"terrariamod:rocketboots": {
-			"textures": "textures/items/accessories/rocketboots"
 		},
 		"terrariamod:lavacharm": {
 			"textures": "textures/items/accessories/lavacharm"
@@ -1154,6 +1148,9 @@
 		},
 		"terrariamod:spiky_ball": {
 			"textures": "textures/items/weapons/spiky_ball"
+		},
+		"terrariamod:spawn_antlion_charger": {
+			"textures": "textures/items/spawn_egg/egg_antlion_charger"
 		}
 	}
 }

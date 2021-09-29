@@ -31,7 +31,7 @@
 				"generate_for_climates": [
 					[
 						"frozen",
-						1
+						100
 					],
 					[
 						"cold",
@@ -50,8 +50,8 @@
 						1
 					]
 				],
-				"river_transformation": "purity_forest",
-				"shore_transformation": "purity_forest"
+				"river_transformation": "purity_snow",
+				"shore_transformation": "purity_snow"
 			},
 			"minecraft:surface_material_adjustments": {
 				"adjustments": [
@@ -121,6 +121,8 @@
 					}
 				]
 			},
+			"ocean": {},
+			"deep": {},
 			"purity": {},
 			"purity_snow": {}
 		}

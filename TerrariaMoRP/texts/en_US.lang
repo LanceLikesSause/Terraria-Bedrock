@@ -1,7 +1,7 @@
 
-pack.name=Terraria Bedrock 2.7.0.5
+pack.name=Terraria Bedrock 2.7.0
 pack.description=A addon that tranforms Minecraft into Terraria! Adds all of Terraria's blocks, items, enemies, npcs, boss, structures, etc into Minecraft bedrock, such as the Eye of Cthulhu, Skeletron, and the Wall of Flesh!
-pack.version=2.7.0.5
+pack.version=2.7.0
 
 container.purity_chest.name=Chest
 container.piggy_bank.name=Piggy Bank
@@ -58,7 +58,6 @@ tile.terrariamod:cactus_block.name=Cactus Block
 tile.terrariamod:purity_sandstone.name=Sandstone
 tile.terrariamod:purity_sand.name=Sand
 
-
 tile.terrariamod:larva.name=Larva
 item.terrariamod:beewax.name=Bee Wax
 item.terrariamod:abeemination.name=Abeemination
@@ -75,7 +74,6 @@ tile.terrariamod:tree_top_jungle=Jungle Tree Top
 item.terrariamod:jungle_wood.name=Rich Mahogany Wood
 tile.terrariamod:purity_mud.name=Mud
 tile.terrariamod:jungle_grass.name=Jungle Grass
-
 
 item.terrariamod:acorn.name=Acorn
 tile.terrariamod:tree_bottom.name=Tree Stem
@@ -101,7 +99,6 @@ item.terrariamod:mushroom.name=Mushroom §9Heals 15 HP
 item.terrariamod:pruity_seeds.name=Seed
 tile.torch_block.name=Torch
 
-
 tile.terrariamod:tree_bottom_crimson.name=Crimson Tree Stem
 tile.terrariamod:tree_log_crimson.name=Crimson Tree Log
 tile.terrariamod:tree_top_crimson.name=Crimson Tree Leaves
@@ -115,8 +112,6 @@ tile.terrariamod:crimsand.name=Crimsand
 tile.terrariamod:crimstone.name=Crimstone
 tile.terrariamod:crimtaneore.name=Crimtane Ore
 
-
-
 tile.terrariamod:tree_bottom_corruption.name=Tree Stem Corruption
 tile.terrariamod:tree_log_corruption.name=Tree Log Corruption
 tile.terrariamod:tree_top_corruption.name=Tree Leaves Corruption
@@ -125,134 +120,6 @@ tile.terrariamod:corrupted_tree.name=Corrupted Tree
 item.terrariamod:corrupted_wood.name=Ebonwood
 tile.terrariamod:corrupted_wood.name=Ebonwood 
 tile.terrariamod:ebonestone.name=Ebonestone
-
-
-item.terrariamod:copperaxe.name=Copper Axe
-item.terrariamod:copperaxe.desc=Copper Axe
-item.terrariamod:tinaxe.name=Tin Axe
-item.terrariamod:leadaxe.name=Lead Axe
-item.terrariamod:ironaxe.name=Iron Axe
-item.terrariamod:silveraxe.name=Silver Axe
-item.terrariamod:tungstenaxe.name=Tungsten Axe
-item.terrariamod:goldaxe.name=Gold Axe
-item.terrariamod:platinumaxe.name=Platinum Axe
-item.terrariamod:crimtaneaxe.name=Crimtane Axe
-item.terrariamod:demoniteaxe.name=War Axe of the Night
-item.terrariamod:meteoriteaxe.name=Meteorite Axe
-item.terrariamod:hellstoneaxe.name=Hellstone Axe
-
-
-item.terrariamod:copper_chestplate.name=Copper Chestplate
-item.terrariamod:copper_helmet.name=Copper Helmet
-item.terrariamod:copper_greaves.name=Copper Greaves
-item.terrariamod:tin_chestplate.name=Tin Chestplate
-item.terrariamod:tin_helmet.name=Tin Helmet
-item.terrariamod:tin_greaves.name=Tin Greaves
-item.terrariamod:lead_chestplate.name=Lead Chestplate
-item.terrariamod:lead_helmet.name=Lead Helmet
-item.terrariamod:lead_greaves.name=Lead Greaves
-item.terrariamod:iron_chestplate.name=Iron Chestplate
-item.terrariamod:iron_helmet.name=Iron Helmet
-item.terrariamod:iron_greaves.name=Iron Greaves
-item.terrariamod:silver_chestplate.name=Silver Chestplate
-item.terrariamod:silver_helmet.name=Silver Helmet
-item.terrariamod:silver_greaves.name=Silver Greaves
-item.terrariamod:tungsten_chestplate.name=Tungsten Chestplate
-item.terrariamod:tungsten_helmet.name=Tungsten Helmet
-item.terrariamod:tungsten_greaves.name=Tungsten Greaves
-item.terrariamod:gold_chestplate.name=Gold Chestplate
-item.terrariamod:gold_helmet.name=Gold Helmet
-item.terrariamod:gold_greaves.name=Gold Greaves
-item.terrariamod:platinum_chestplate.name=Platinum Chestplate
-item.terrariamod:platinum_helmet.name=Platinum Helmet
-item.terrariamod:platinum_greaves.name=Platinum Greaves
-item.terrariamod:hellstone_chestplate.name=Hellstone Chestplate
-item.terrariamod:hellstone_helmet.name=Hellstone Helmet
-item.terrariamod:hellstone_greaves.name=Hellstone Greaves
-item.terrariamod:crimtane_chestplate.name=Crimtane Chestplate
-item.terrariamod:crimtane_helmet.name=Crimtane Helmet
-item.terrariamod:crimtane_greaves.name=Crimtane Greaves
-item.terrariamod:demonite_chestplate.name=Shadow Chestplate
-item.terrariamod:demonite_helmet.name=Shadow Helmet
-item.terrariamod:demonite_greaves.name=Shadow Greaves
-item.terrariamod:meteorite_chestplate.name=Meteorite Chestplate
-item.terrariamod:meteorite_helmet.name=Meteorite Helmet
-item.terrariamod:meteorite_greaves.name=Meteorite Greaves
-
-
-entity.terrariamod:chest_dummy.name=Chest
-tile.terrariamod:purity_chest.name=Chest
-tile.terrariamod:purity_candle.name=Candle
-tile.terrariamod:twooden_door.name=Wooden Door
-tile.terrariamod:wooden_table.name=Wooden Table
-tile.terrariamod:wooden_chair.name=Wooden Chair
-tile.terrariamod:bottle_station.name=Bottle Station
-tile.terrariamod:purity_campire.name=Campfire
-tile.terrariamod:crimson_alter.name=Crimson Alter
-tile.terrariamod:demon_alter.name=Demon Altar
-tile.terrariamod:demon_alter=Demon Altar
-tile.terrariamod:crimson_alter=Crimson Alter
-tile.terrariamod:workbench.name=Workbench
-tile.terrariamod:workbench.name=Workbench
-tile.terrariamod:purity_campfire.name=Campfire
-tile.terrariamod:iron_anvil.name=Iron Anvil
-tile.terrariamod:hellforge.name=Hellforge
-tile.terrariamod:tfurnace.name=Furnace
-tile.terrariamod:tfurnace=Furnace
-tile.terrariamod:purity_loom.name=Loom
-tile.terrariamod:purity_loom=Loom
-tile.terrariamod:workbench=Workbench
-tile.terrariamod:sawmill.name=Sawmill
-title.terrariamod:sawmill=Sawmill
-tile.terrariamod:bottle_station.name=Bottle Station
-tile.terrariamod:bottle_station=Bottle Station
-tile.terrariamod:iron_anvil=Iron Furnace
-item.terrariamod:goldenkey_dungeon.name=Gold Key (Dungeon)
-item.terrariamod:woodenarrow.name=Wooden Arrow
-item.terrariamod:musketball.name=Musket Ball
-tile.terrariamod:dungeon_shelves.name=Dungeon Shelves
-
-
-item.terrariamod:coppercoin.name=Copper Coin
-item.terrariamod:coppercoin_pile.name=Pile of Copper Coins
-item.terrariamod:silvercoin.name=Silver Coin
-item.terrariamod:silvercoin_pile.name=Pile of Silver Coins
-item.terrariamod:goldcoin.name=Gold Coin
-item.terrariamod:goldcoin_pile.name=Pile of Gold Coins
-item.terrariamod:platinumcoin.name=Platinum Coin
-item.terrariamod:platinumcoin_pile.name=Pile of Platinum Coins
-
-
-item.terrariamod:lifecrystal.name=Life Crystal §9+20 hp
-
-
-item.terrariamod:merchant_summoner.name=Merchant Summoner
-item.terrariamod:nurse_summoner.name=Nurse Summoner
-item.terrariamod:demolitionist_summoner.name=Demolitionist Summoner
-item.terrariamod:armsdealer_summoner.name=Arms Dealer Summoner
-
-
-item.terrariamod:vertebra.name=Vertebra
-item.terrariamod:fallenstars.name=Fallen Star
-item.terrariamod:bloodyspine.name=Bloody Spine
-item.terrariamod:tissuesample.name=Tissue Sample
-item.terrariamod:rottenchunk.name=Rotten Chunk
-item.terrariamod:lens.name=Lens
-item.terrariamod:gel.name=Gel
-item.terrariamod:shadowscale.name=Shadow Scale
-item.terrariamod:vilemushroom.name=Vile Mushroom
-item.terrariamod:stinger.name=Stinger
-tile.terrariamod:junglespores.name=Jungle Spores
-item.terrariamod:bezoar.name=Bezoar
-item.terrariamod:suspiciouslookingeye.name=Suspicious Looking Eye
-item.terrariamod:guidevoodoodoll.name=Guide Voodoo Doll §9 Doesn't do anything... Yet ;)
-item.terrariamod:wormfood.name=Worm Food
-item.terrariamod:slimecrown.name=Slime Crown
-item.terrariamod:goldcrown.name=Gold Crown
-item.terrariamod:bottle.name=Bottle
-
-item.terrariamod:cellphone.name=Cell Phone
-
 
 entity.terrariamod:waterbolt_projectile.name=Water Bolt
 entity.terrariamod:musketball_projectile_flintlockpistol.name=Flintlock Pistol
@@ -280,6 +147,8 @@ item.spawn_egg.entity.terrariamod:vulture.name=Spawn Vulture
 entity.terrariamod:vulture.name=Vulture
 item.spawn_egg.entity.terrariamod:antlion.name=Spawn Antlion
 entity.terrariamod:antlion.name=Antlion
+item.spawn_egg.entity.terrariamod:antlion_charger.name=Spawn Antlion Charger
+entity.terrariamod:antlion_charger.name=Antlion Charger
 item.spawn_egg.entity.terrariamod:maneater.name=Spawn Man Eater
 entity.terrariamod:maneater.name=Man Eater
 item.spawn_egg.entity.terrariamod:iceslime.name=Spawn Ice Slime
@@ -426,7 +295,6 @@ tile.terrariamod:pinkbrick_wall.name=Pink Bricks Wall
 tile.terrariamod:pinkbrick_slab.name=Pink Bricks Slab
 tile.terrariamod:spikes.name=Spikes
 
-
 tile.terrariamod:demoniteore.name=Demonite Ore
 tile.terrariamod:copperore.name=Copper Ore
 tile.terrariamod:tinore.name=Tin Ore
@@ -442,133 +310,12 @@ tile.terrariamod:rubyore.name=Rudy Ore
 tile.terrariamod:sapphireore.name=Sapphire Ore
 tile.terrariamod:crystalheart.name=Crystal Heart
 
-
 tile.terrariamod:surfacechest.name=Wooden Chest §9Surface
 tile.terrariamod:undergroundchest.name=Gold Chest §9Underground
 tile.terrariamod:cavernchest.name=Gold Chest §9Cavern
 tile.terrariamod:dungeonchest_locked.name=Gold Chest (locked) §9Dungeon
 tile.terrariamod:dungeonchest_unlocked.name=Gold Chest (unloaded) §9Dungeon
 tile.terrariamod:skyislandchest.name=Sky Island Chest
-
-
-item.terrariamod:copperbar.name=Copper Bar
-item.terrariamod:tinbar.name=Tin Bar
-item.terrariamod:ironbar.name=Iron Bar
-item.terrariamod:leadbar.name=Lead Bar
-item.terrariamod:silverbar.name=Silver Bar
-item.terrariamod:tungstenbar.name=Tungsten Bar
-item.terrariamod:goldbar.name=Gold Bar
-item.terrariamod:platinumbar.name=Platinum Bar
-item.terrariamod:meteoritebar.name=Meteroite Bar
-item.terrariamod:crimtanebar.name=Crimtane Bar
-item.terrariamod:demonitebar.name=Demonite Bar
-item.terrariamod:hellstonebar.name=Hellstone Bar
-item.terrariamod:ruby.name=Ruby
-item.terrariamod:sapphire.name=Sapphire
-
-
-item.terrariamod:bonepickaxe.name=Bone Pickaxe
-item.terrariamod:cactuspickaxe.name=Cactus Pickaxe
-item.terrariamod:copperpickaxe.name=Copper Pickaxe
-item.terrariamod:tinpickaxe.name=Tin Pickaxe
-item.terrariamod:ironpickaxe.name=Iron Pickaxe
-item.terrariamod:leadpickaxe.name=Lead Pickaxe
-item.terrariamod:silverpickaxe.name=Silver Pickaxe
-item.terrariamod:tungstenpickaxe.name=Tungsten Pickaxe
-item.terrariamod:goldpickaxe.name=Gold Pickaxe
-item.terrariamod:platinumpickaxe.name=Platinum Pickaxe
-item.terrariamod:crimtanepickaxe.name=Deathbringer Pickaxe
-item.terrariamod:demonitepickaxe.name=Nightmare Pickaxe
-item.terrariamod:hellstonepickaxe.name=Hellstone Pickaxe
-
-
-item.terrariamod:beekeeper.name=Bee Keeper
-item.terrariamod:iceblade.name=Ice Blade
-item.terrariamod:enchantedsword.name=Enchanted Sword
-item.terrariamod:woodensword.name=Wooden Sword
-item.terrariamod:richmahoganysword.name=Rich Mahogany Sword
-item.terrariamod:shadewoodsword.name=Shadewood Sword
-item.terrariamod:ebonwoodsword.name=Ebonwood Sword
-item.terrariamod:muramasa.name=Muramasa 
-item.terrariamod:zombiearm.name=Zombie Arm
-item.terrariamod:bonesword.name=Bone Sword
-item.terrariamod:cactussword.name=Cactus Sword
-item.terrariamod:coppersword.name=Copper Sword
-item.terrariamod:tinsword.name=Tin Sword
-item.terrariamod:ironsword.name=Iron Sword
-item.terrariamod:leadsword.name=Lead Sword
-item.terrariamod:silversword.name=Silver Sword
-item.terrariamod:tungstensword.name=Tungsten Sword
-item.terrariamod:goldsword.name=Gold Sword 
-item.terrariamod:platinumsword.name=Platinum Sword
-item.terrariamod:bluephaseblade.name=Blue Phaseblade
-item.terrariamod:crimtanesword.name=Blood Butcherer
-item.terrariamod:demonitesword.name=Light's Bane
-item.terrariamod:hellstonesword.name=Fiery Greatsword
-item.terrariamod:bladeofgrass.name=Blade Of Grass
-item.terrariamod:nightsedge.name=Night's Edge
-item.terrariamod:starfury.name=Star Fury
-
-item.terrariamod:slimestaff.name=Slime Staff §9Summons Slime Minions
-item.terrariamod:nectar.name=Nectar §9Summons Baby Hornet
-item.terrariamod:hornetstaff.name=Hornet Staff
-
-item.terrariamod:bookofskulls.name=Book of Skulls §9+29 Magic Damage
-item.terrariamod:aquascepter.name=Aquascepter §9+16 Magic Damage
-item.terrariamod:phoenixblaster.name=Phoenix Blaster §9+24 Projectile Damage
-item.terrariamod:handgun.name=Handgun §9+17 Projectile Damage
-item.terrariamod:undertaker.name=The Undertaker §9+15 Projectile Damage
-tem.terrariamod:musket.name=Musket §9+31 Projectile Damage
-item.terrariamod:waterbolt.name=Water Bolt §9+19 Magic Damage
-item.terrariamod:boomstick.name=Boomstick §9+21 Projectile Damage
-item.terrariamod:minishark.name=Minishark §9+13 Projectile Damage
-item.terrariamod:flintlockpistol.name=Flintlock Pistol §9+17 Projectile Damage
-item.terrariamod:spacegun.name=Space Gun §9+19 Magic Damage
-item.terrariamod:hellstonebow.name=Molten Fury §9+36 Projectile Damage
-item.terrariamod:demonitebow.name=Demon Bow §9+24 Projectile Damage
-item.terrariamod:crimtanebow.name=Tendon Bow §9+24 Projectile Damage 
-item.terrariamod:platinumbow.name=Platinum Bow §9+18 Projectile Damage
-item.terrariamod:goldbow.name=Gold Bow §9+16 Projectile Damage 
-item.terrariamod:tungstenbow.name=Tungsten Bow §9+15 Projectile Damag
-item.terrariamod:silverbow.name=Silver Bow §9+14 Projectile Damage
-item.terrariamod:leadbow.name=Lead Bow §9+14 Projectile Damage
-item.terrariamod:ironbow.name=Iron Bow §9+13 Projectile Damage 
-item.terrariamod:tinbow.name=Tin Bow §9+12 Projectile Damage
-item.terrariamod:copperbow.name=Copper Bow §9+11 Projectile Damage 
-item.terrariamod:woodenbow.name=Wooden Bow §9+9 Projectile Damage
-item.terrariamod:slimegun.name=Slime Gun §9Shoots water
-item.terrariamod:shuriken.name=Shuriken §9+10 Projectile Damage
-item.terrariamod:throwingknife.name=Throwing Knife §9+12 Projectile Damage
-item.terrariamod:poisonedknife.name=Poisoned Knife §9+14 Projectile Damage and Poison
-item.terrariamod:woodenboomerang.name=Wooden Boomerang §9+8 Projectile Damage
-item.terrariamod:enchantedboomerang.name=Enchanted Boomerang §9+13 Projectile Damage
-item.terrariamod:flamarang.name=Flamarang §9+32 Projectile Damage
-item.terrariamod:bone_terraria.name=Bone §9+20 Projectile Damage
-item.terrariamod:thebeesknees.name=The Bee's Knees §9+26 Projectile Damage
-item.terrariamod:beegun.name=Bee Gun §9+9 Projectile Damage
-item.terrariamod:beenade.name=Beenade §9+12 Explosive Damage
-
-item.terrariamod:grenade.name=Grenade §9+3 Explosive
-item.terrariamod:bomb.name=Bomb §9+2 Explosive
-item.terrariamod:dynamite.name=Dynamite §9+6 Explosive
-
-item.terrariamod:depthmeter.name=Depth Meter §9Displays depth
-item.terrariamod:aglet.name=Aglet §95% increased movement speed
-item.terrariamod:hermesboots.name=Hermes Boots §9Can run super fast
-item.terrariamod:balloonpufferfish.name=Balloon Pufferfish §9Increases jump
-item.terrariamod:lavacharm.name=Lava Charm §9Lava Immunity 7 sec
-item.terrariamod:rocketboots.name=Rocket Boots §9Allows flight
-item.terrariamod:bandofregeneration.name=Band of Regeneration §9Slowly heals
-item.terrariamod:magicmirror.name=Magic Mirror §9Returns to spawn
-item.terrariamod:umbrella.name=Umbrella §9You will fall slower while holding this
-
-item.terrariamod:creamsoda.name=Creamed Soda §9It's so fuzzy!
-item.terrariamod:cartonofmilk.name=Carton Of Milk
-item.terrariamod:lesserhealingpotion.name=Lesser Healing Potion §9Heals 50 HP
-item.terrariamod:healingpotion.name=Healing Potion §9Heals 100 HP
-item.terrariamod:regenerationpotion.name=Regeneration Potion §9Regeneration Effect
-item.terrariamod:glowing_mushroom.name=Glowing Mushroom 
-item.terrariamod:ale.name=Ale §9Beer...
 
 tile.terrariamod:obsidianbrick.name=Obsidian Brick
 tile.terrariamod:sunplate.name=Sunplate

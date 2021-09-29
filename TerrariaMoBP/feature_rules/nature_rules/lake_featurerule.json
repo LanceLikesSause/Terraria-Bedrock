@@ -3,8 +3,8 @@
 	"format_version": "1.13.0",
 	"minecraft:feature_rules": {
 		"description": {
-			"identifier": "minecraft:tlake_featurerule",
-			"places_feature": "minecraft:tlake_feature"
+			"identifier": "terrariamod:lake_featurerule",
+			"places_feature": "terrariamod:lake_feature"
 		},
 		"conditions": {
 			"placement_pass": "final_pass",
@@ -20,7 +20,7 @@
 			"iterations": 1,
 			"scatter_chance": {
 				"numerator": 1,
-				"denominator": 5
+				"denominator": 8
 			},
 			"coordinate_eval_order": "xzy",
 			"x": {

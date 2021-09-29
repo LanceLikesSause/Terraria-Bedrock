@@ -2,7 +2,7 @@
 	"format_version": "1.13.0",
 	"minecraft:single_block_feature": {
 		"description": {
-			"identifier": "minecraft:crimsonheart_feature"
+			"identifier": "terrariamod:crimsonheart_feature"
 		},
 		"places_block": "terrariamod:crimsonheart",
 		"enforce_survivability_rules": true,

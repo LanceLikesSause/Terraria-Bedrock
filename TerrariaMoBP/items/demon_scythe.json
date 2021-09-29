@@ -18,7 +18,7 @@
 				"texture": "terrariamod:demon_scythe"
 			},
 			"minecraft:display_name": {
-				"value": "Demon Scyten\n§9+35 Magic Damage\n§9Casts a demon scythe\nUses 14 Mana"
+				"value": "Demon Scythe\n§9+35 Magic Damage\n§9Casts a demon scythe\nUses 14 Mana"
 			},
 			"minecraft:creative_category": {
 				"parent": "equipment"

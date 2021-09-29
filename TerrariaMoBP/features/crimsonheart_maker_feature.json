@@ -1,0 +1,13 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.13.0",
+	"minecraft:sequence_feature": {
+		"description": {
+			"identifier": "terrariamod:crimsonheart_maker_feature"
+		},
+		"features": [
+			"terrariamod:crimsonheart_space_feature",
+			"terrariamod:crimsonheart_block_feature"
+		]
+	}
+}

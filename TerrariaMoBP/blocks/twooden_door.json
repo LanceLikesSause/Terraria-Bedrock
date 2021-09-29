@@ -13,6 +13,7 @@
 		"components": {
 			"minecraft:destroy_time": 1,
 			"tag:terrariamod:wood": {},
+			"tag:terrariamod:door": {},
 			"minecraft:geometry": "geometry.twooden_door",
 			"minecraft:material_instances": {
 				"*": {
@@ -111,7 +112,7 @@
 				"run_command": {
 					"command": [
 						"playsound twooden_door_open.effect @p ~~~",
-						"setblock ~ ~1 ~ barrier"
+						"setblock ~ ~1 ~ terrariamod:door_top"
 					]
 				}
 			},

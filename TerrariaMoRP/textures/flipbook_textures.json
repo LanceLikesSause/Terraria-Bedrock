@@ -5,5 +5,11 @@
 		"atlas_tile": "crystalheart",
 		"ticks_per_frame": 5,
 		"blend_frames": false
+	},
+	{
+		"flipbook_texture": "textures/blocks/hellforge",
+		"atlas_tile": "hellforge",
+		"ticks_per_frame": 20,
+		"blend_frames": false
 	}
 ]

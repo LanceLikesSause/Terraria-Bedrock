@@ -43,13 +43,15 @@
 					],
 					[
 						"lukewarm",
-						1
+						100
 					],
 					[
 						"warm",
 						1
 					]
-				]
+				],
+				"river_transformation": "purity_jungle",
+				"shore_transformation": "purity_jungle"
 			},
 			"minecraft:surface_material_adjustments": {
 				"adjustments": [
@@ -119,8 +121,6 @@
 					}
 				]
 			},
-			"ocean": {},
-			"deep": {},
 			"purity": {},
 			"purity_jungle": {}
 		}

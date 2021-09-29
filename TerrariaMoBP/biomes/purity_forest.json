@@ -32,11 +32,11 @@
 				"generate_for_climates": [
 					[
 						"frozen",
-						100
+						1
 					],
 					[
 						"cold",
-						100
+						1
 					],
 					[
 						"medium",
@@ -44,11 +44,11 @@
 					],
 					[
 						"lukewarm",
-						100
+						1
 					],
 					[
 						"warm",
-						100
+						1
 					]
 				],
 				"river_transformation": "purity_forest",

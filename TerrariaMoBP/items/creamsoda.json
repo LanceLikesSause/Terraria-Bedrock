@@ -21,7 +21,7 @@
 				"texture": "terrariamod:creamsoda"
 			},
 			"minecraft:display_name": {
-				"value": "Cream Soda\n§9Medium improvements to all stats 'It's so fizzy!'"
+				"value": "Cream Soda\n§9Medium improvements to all stats\n'It's so fizzy!'"
 			},
 			"minecraft:use_animation": "drink",
 			"minecraft:creative_category": {

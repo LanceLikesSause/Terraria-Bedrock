@@ -47,9 +47,11 @@
 					],
 					[
 						"warm",
-						1
+						100
 					]
-				]
+				],
+				"river_transformation": "purity_desert",
+				"shore_transformation": "purity_desert"
 			},
 			"minecraft:surface_material_adjustments": {
 				"adjustments": [

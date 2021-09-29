@@ -1,0 +1,56 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:block": {
+        "description": {
+            "identifier": "terrariamod:door_top"
+        },
+        "components": {
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "hollow",
+                    "render_method": "alpha_test"
+                }
+            },
+			"minecraft:unit_cube": {},
+            "tag:collision": {},
+            "minecraft:pick_collision": {
+                "origin": [ -8, 0, -8 ],
+                "size": [ 16, 16, 3 ]
+            },
+            "minecraft:entity_collision": {
+                "origin": [ -8, 0, -8 ],
+                "size": [ 16, 16, 3 ]
+            },
+            "minecraft:loot": "loot_tables/empty.json",
+            "minecraft:destroy_time": 2,
+            "minecraft:on_player_destroyed": {
+                "event": "terrariamod:destroy_door"
+            },
+            "minecraft:flammable": {
+                "flame_odds": 0,
+                "burn_odds": 0
+            },
+            "minecraft:placement_filter": {
+                "conditions": [
+                    {
+                       "block_filter": [ 
+                           {
+                               "tags": "query.any_tag('terrariamod:door')"
+                           }
+                       ],
+                       "allowed_faces": [ "up" ]
+                    }
+                ]
+            },
+            "minecraft:block_light_emission": 0.0,
+            "minecraft:block_light_absorption": 0
+        },
+        "events": {
+            "terrariamod:destroy_door": {
+                "run_command": {
+                    "command": [ "setblock ~ ~-1 ~ air 0 destroy" ]
+                }
+            }
+        }
+    }
+}

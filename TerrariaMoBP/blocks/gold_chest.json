@@ -29,7 +29,6 @@
 			"terrariamod:create_dummy": {
 				"run_command": {
 					"command": [
-						"say fuck",
 						"summon terrariamod:dummy_chest ~~~ terrariamod:blank purity_chest"
 					]
 				}

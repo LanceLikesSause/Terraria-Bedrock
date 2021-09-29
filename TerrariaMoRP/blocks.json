@@ -176,7 +176,7 @@
 		"sound": "grass",
 		"textures": {
 			"up": "mushroom_grass_up",
-			"down": "mushroom_grass_down",
+			"down": "purity_dirt",
 			"side": "mushroom_grass_side"
 		}
 	},
@@ -349,7 +349,7 @@
 		"sound": "grass",
 		"textures": {
 			"up": "crimson_grass_up",
-			"down": "crimson_grass_down",
+			"down": "purity_dirt",
 			"side": "crimson_grass_side"
 		}
 	},
@@ -365,7 +365,7 @@
 		"sound": "grass",
 		"textures": {
 			"up": "corrupted_grass_up",
-			"down": "crimson_grass_down",
+			"down": "purity_dirt",
 			"side": "corrupted_grass_side"
 		}
 	},
@@ -477,7 +477,7 @@
 	"terrariamod:cactus_toliet": {
 		"sound": "cactus"
 	},
-	"terrariamod:thorns_corruption": {
+	"terrariamod:corruption_thorns": {
 		"sound": "grass"
 	}
 }

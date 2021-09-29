@@ -1,7 +1,7 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"animation.blood_crawler.walk": {
+		"animation.blood_crawler.sprinting": {
 			"loop": true,
 			"animation_length": 0.32,
 			"bones": {

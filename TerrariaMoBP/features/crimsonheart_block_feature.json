@@ -1,10 +1,11 @@
+//bridge-file-version: #2
 {
 	"format_version": "1.13.0",
 	"minecraft:single_block_feature": {
 		"description": {
-			"identifier": "terrariamod:crimsonalter_feature"
+			"identifier": "terrariamod:crimsonheart_block_feature"
 		},
-		"places_block": "terrariamod:crimson_alter",
+		"places_block": "terrariamod:crimsonheart",
 		"enforce_survivability_rules": false,
 		"enforce_placement_rules": false,
 		"may_replace": [

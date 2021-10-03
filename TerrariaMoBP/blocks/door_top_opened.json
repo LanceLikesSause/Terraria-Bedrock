@@ -1,0 +1,60 @@
+//bridge-file-version: #33
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "terrariamod:door_top_opened"
+		},
+		"components": {
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "hollow",
+					"render_method": "alpha_test"
+				}
+			},
+			"tag:collision": {},
+			"minecraft:loot": "loot_tables/empty.json",
+			"minecraft:destroy_time": 2,
+			"minecraft:flammable": {
+				"flame_odds": 0,
+				"burn_odds": 0
+			},
+			"minecraft:block_light_emission": 0,
+			"minecraft:block_light_absorption": 0,
+			"minecraft:geometry": "geometry.door_top",
+			"minecraft:entity_collision": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					16,
+					3
+				]
+			},
+			"minecraft:pick_collision": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					16,
+					3
+				]
+			}
+		},
+		"events": {
+			"terrariamod:destroy_door": {
+				"run_command": {
+					"command": [
+						"setblock ~ ~-1 ~ air 0 destroy"
+					]
+				}
+			}
+		}
+	}
+}

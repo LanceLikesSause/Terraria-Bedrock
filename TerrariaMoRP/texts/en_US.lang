@@ -1,7 +1,7 @@
 
-pack.name=Terraria Bedrock 2.7.0
+pack.name=Terraria Bedrock 2.7.0 Release Candidate 3
 pack.description=A addon that tranforms Minecraft into Terraria! Adds all of Terraria's blocks, items, enemies, npcs, boss, structures, etc into Minecraft bedrock, such as the Eye of Cthulhu, Skeletron, and the Wall of Flesh!
-pack.version=2.7.0
+pack.version=2.7.0 Release Candidate 3
 
 container.purity_chest.name=Chest
 container.piggy_bank.name=Piggy Bank

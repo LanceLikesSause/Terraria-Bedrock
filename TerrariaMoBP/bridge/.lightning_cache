@@ -1,0 +1,83 @@
+{
+	"function": {
+		"generic": {},
+		"dd300506_367d_4c92_9b62_b3148a2a6ff8": {},
+		"2cbe38bf_5b0b_4789_a590_61fd0d42d5bf": {},
+		"84955c4b_b412_4c47_ba1a_93ed208a3ca5": {},
+		"c843462d_3ae4_4933_8e9d_f7667e559ff8": {}
+	},
+	"entity": {
+		"BP/entities/player.json": {
+			"events": [
+				"terrariamod:mana_and_health",
+				"minecraft:gain_bad_omen",
+				"minecraft:clear_add_bad_omen",
+				"minecraft:trigger_raid",
+				"minecraft:remove_raid_trigger"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"minecraft:player"
+			],
+			"animation_references": [
+				"initialize_addon",
+				"health",
+				"player_death",
+				"music",
+				"event",
+				"player_double_jump"
+			],
+			"families": [
+				"player"
+			],
+			"custom_components": [],
+			"custom_commands": []
+		}
+	},
+	"item": {
+		"BP/items/twooden_door_item.json": {
+			"identifiers": [
+				"terrariamod:twooden_door_item"
+			],
+			"custom_commands": []
+		}
+	},
+	"block": {
+		"BP/blocks/twooden_door.json": {
+			"identifiers": [
+				"terrariamod:twooden_door"
+			],
+			"events": [
+				"terrariamod:open_door",
+				"terrariamod:close_door",
+				"terrariamod:destroy_door",
+				"terrariamod:create_door"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/door_top_opened.json": {
+			"identifiers": [
+				"terrariamod:door_top_closed"
+			],
+			"events": [
+				"terrariamod:destroy_door"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/door_top_closed.json": {
+			"identifiers": [
+				"terrariamod:door_top_closed"
+			],
+			"events": [
+				"terrariamod:destroy_door"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		}
+	}
+}

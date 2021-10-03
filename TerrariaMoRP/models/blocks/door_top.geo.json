@@ -3,7 +3,7 @@
 	"minecraft:geometry": [
 		{
 			"description": {
-				"identifier": "geometry.twooden_door",
+				"identifier": "geometry.door_top",
 				"texture_width": 28,
 				"texture_height": 28,
 				"visible_bounds_width": 2,
@@ -11,24 +11,6 @@
 				"visible_bounds_offset": [0, 1.25, 0]
 			},
 			"bones": [
-				{
-					"name": "bb_main2",
-					"pivot": [0, 0, 0],
-					"cubes": [
-						{
-							"origin": [7, 0, -8],
-							"size": [1, 16, 16],
-							"uv": {
-								"north": {"uv": [0, 16], "uv_size": [16, 12]},
-								"east": {"uv": [0, 16], "uv_size": [16, 12]},
-								"south": {"uv": [0, 16], "uv_size": [16, 12]},
-								"west": {"uv": [0, 16], "uv_size": [16, 12]},
-								"up": {"uv": [16, 28], "uv_size": [-16, -12]},
-								"down": {"uv": [16, 28], "uv_size": [-16, -12]}
-							}
-						}
-					]
-				},
 				{
 					"name": "bb_main",
 					"pivot": [0, 0, 0],

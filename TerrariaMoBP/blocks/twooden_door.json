@@ -1,3 +1,4 @@
+//bridge-file-version: #66
 {
 	"format_version": "1.16.100",
 	"minecraft:block": {
@@ -26,6 +27,9 @@
 			"minecraft:block_light_emission": 0,
 			"minecraft:on_player_destroyed": {
 				"event": "terrariamod:destroy_door"
+			},
+			"minecraft:on_placed": {
+				"event": "terrariamod:create_door"
 			}
 		},
 		"permutations": [
@@ -96,7 +100,7 @@
 							-8
 						],
 						"size": [
-							1,
+							3,
 							16,
 							16
 						]
@@ -112,7 +116,7 @@
 				"run_command": {
 					"command": [
 						"playsound twooden_door_open.effect @p ~~~",
-						"setblock ~ ~1 ~ terrariamod:door_top"
+						"setblock ~ ~1 ~ terrariamod:door_top_opened"
 					]
 				}
 			},
@@ -123,7 +127,7 @@
 				"run_command": {
 					"command": [
 						"playsound twooden_door_close.effect @p ~~~",
-						"setblock ~ ~1 ~ air"
+						"setblock ~ ~1 ~ terrariamod:door_top_closed"
 					]
 				}
 			},
@@ -135,8 +139,10 @@
 				}
 			},
 			"terrariamod:create_door": {
-				"set_block_property": {
-					"terrariamod:is_opened": 0
+				"run_command": {
+					"command": [
+						"setblock ~ ~1 ~ terrariamod:door_top_opened"
+					]
 				}
 			}
 		}

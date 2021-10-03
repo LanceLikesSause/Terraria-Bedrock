@@ -1,0 +1,136 @@
+{
+	"file_path": "C:\\Users\\Corona-Chan\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\TerrariaMoBP\\items\\twooden_door_item.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "66c7af2f_2bc1_40d7_86d8_df5b1545a17b",
+	"file_version": 1,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "terrariamod:twooden_door_item",
+							"category": "construction"
+						},
+						"components": {
+							"minecraft:icon": {
+								"texture": "terrariamod:wooden_door"
+							},
+							"minecraft:display_name": {
+								"value": "Wooden Door"
+							},
+							"minecraft:block_placer": {
+								"block": "terrariamod:twooden_door",
+								"use_block_description": true
+							},
+							"minecraft:max_stack_size": 64,
+							"minecraft:creative_category": {
+								"parent": "construction"
+							}
+						},
+						"events": {}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "terrariamod:twooden_door_item",
+							"category": "construction"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "terrariamod:twooden_door_item",
+								"category": "construction"
+							},
+							"components": {
+								"minecraft:icon": {
+									"texture": "terrariamod:wooden_door"
+								},
+								"minecraft:display_name": {
+									"value": "Wooden Door"
+								},
+								"minecraft:block_placer": {
+									"block": "terrariamod:twooden_door",
+									"use_block_description": true
+								},
+								"minecraft:max_stack_size": 64,
+								"minecraft:creative_category": {
+									"parent": "construction"
+								}
+							},
+							"events": {}
+						},
+						"key": "components",
+						"children": [
+							{
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "terrariamod:wooden_door"
+								}
+							},
+							{
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "Wooden Door"
+								}
+							},
+							{
+								"open": {
+									"minecraft:icon": {
+										"texture": "terrariamod:wooden_door"
+									},
+									"minecraft:display_name": {
+										"value": "Wooden Door"
+									},
+									"minecraft:block_placer": {
+										"block": "terrariamod:twooden_door",
+										"use_block_description": true
+									},
+									"minecraft:max_stack_size": 64,
+									"minecraft:creative_category": {
+										"parent": "construction"
+									}
+								},
+								"key": "minecraft:block_placer",
+								"is_minified": true,
+								"children": {
+									"block": "terrariamod:twooden_door",
+									"use_block_description": true
+								}
+							},
+							{
+								"data": "64",
+								"key": "minecraft:max_stack_size"
+							},
+							{
+								"key": "minecraft:creative_category",
+								"is_minified": true,
+								"children": {
+									"parent": "construction"
+								}
+							}
+						]
+					},
+					{
+						"key": "events",
+						"is_minified": true,
+						"children": {}
+					}
+				]
+			}
+		]
+	}
+}

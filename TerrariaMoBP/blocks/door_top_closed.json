@@ -12,7 +12,6 @@
 					"render_method": "alpha_test"
 				}
 			},
-			"tag:collision": {},
 			"minecraft:loot": "loot_tables/empty.json",
 			"minecraft:destroy_time": 2,
 			"minecraft:flammable": {
@@ -45,10 +44,14 @@
 					16,
 					16
 				]
+			},
+			"minecraft:on_player_destroyed": {
+				"event": "terrariamod:destroyed",
+				"target": "self"
 			}
 		},
 		"events": {
-			"terrariamod:destroy_door": {
+			"terrariamod:destroyed": {
 				"run_command": {
 					"command": [
 						"setblock ~ ~-1 ~ air 0 destroy"

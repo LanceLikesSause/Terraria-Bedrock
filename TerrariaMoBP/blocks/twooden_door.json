@@ -26,10 +26,8 @@
 			"minecraft:block_light_absorption": 0,
 			"minecraft:block_light_emission": 0,
 			"minecraft:on_player_destroyed": {
-				"event": "terrariamod:destroy_door"
-			},
-			"minecraft:on_placed": {
-				"event": "terrariamod:create_door"
+				"event": "terrariamod:destroyed",
+				"target": "self"
 			}
 		},
 		"permutations": [
@@ -131,14 +129,14 @@
 					]
 				}
 			},
-			"terrariamod:destroy_door": {
+			"terrariamod:destroyed": {
 				"run_command": {
 					"command": [
 						"setblock ~ ~1 ~ air"
 					]
 				}
 			},
-			"terrariamod:create_door": {
+			"terrariamod:setup": {
 				"run_command": {
 					"command": [
 						"setblock ~ ~1 ~ terrariamod:door_top_opened"

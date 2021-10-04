@@ -1,18 +1,16 @@
-//bridge-file-version: #24
+//bridge-file-version: #53
 {
 	"format_version": "1.10.0",
 	"animation_controllers": {
 		"controller.animation.initialize_addon": {
-			"initial_state": "default",
+			"initial_state": "setting_up_the_addon",
 			"states": {
-				"default": {
+				"setting_up_the_addon": {
 					"transitions": [
 						{
-							"command": "query.life_time>0"
+							"setting_the_addons_difficulty": "query.life_time>10"
 						}
-					]
-				},
-				"command": {
+					],
 					"on_exit": [
 						"/gamerule sendcommandfeedback false",
 						"/scoreboard objectives add nursestat dummy nursestat",
@@ -36,11 +34,9 @@
 						"/execute @s[tag=!begin] ~ ~ ~ scoreboard players set @s hasbed 0",
 						"/scoreboard objectives add can_double_jump dummy can_double_jump",
 						"/execute @s[tag=!begin] ~ ~ ~ scoreboard players set @s can_double_jump 1",
-						"/execute @s[tag=!begin] ~ ~ ~ give @s terrariamod:game_setup_2",
 						"/execute @s[tag=!begin] ~ ~ ~ give @s terrariamod:coppershortsword",
 						"/execute @s[tag=!begin] ~ ~ ~ give @s terrariamod:copperpickaxe",
 						"/execute @s[tag=!begin] ~ ~ ~ give @s terrariamod:copperaxe",
-						"/execute @s[tag=!begin] ~ ~ ~ clear @s terrariamod:game_setup_1 0 1",
 						"/execute @s[tag=!begin] ~ ~ ~ summon terrariamod:guide ~~~",
 						"/execute @s[tag=!begin] ~ ~ ~ gamerule doweathercycle false",
 						"/execute @s[tag=!begin] ~ ~ ~ tp @s 0 130 0",
@@ -48,14 +44,22 @@
 						"/execute @s[tag=!begin] ~ ~ ~ setworldspawn ~~~",
 						"/tag @s add begin",
 						"/gamerule sendcommandfeedback true"
+					]
+				},
+				"setting_the_addons_difficulty": {
+					"on_entry": [
+						"v.time=q.time_stamp;"
 					],
 					"transitions": [
 						{
-							"finished_command": "query.life_time>10"
+							"done": "query.time_stamp>v.time+1"
 						}
+					],
+					"on_exit": [
+						"/dialogue open @e[type=terrariamod:npc_dummy] @p start_game"
 					]
 				},
-				"finished_command": {}
+				"done": {}
 			}
 		}
 	}

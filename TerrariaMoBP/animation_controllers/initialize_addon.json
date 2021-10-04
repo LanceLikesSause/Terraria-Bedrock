@@ -52,7 +52,7 @@
 					],
 					"transitions": [
 						{
-							"done": "query.time_stamp>v.time+1"
+							"done": "query.time_stamp>v.time+10"
 						}
 					],
 					"on_exit": [

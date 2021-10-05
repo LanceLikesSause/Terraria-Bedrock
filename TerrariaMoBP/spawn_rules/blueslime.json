@@ -44,8 +44,8 @@
 					"value": "purity_forest"
 				},
 				"minecraft:distance_filter": {
-					"min": 15,
-					"max": 30
+					"min": 30,
+					"max": 50
 				},
 				"minecraft:spawns_on_surface": {},
 				"minecraft:brightness_filter": {

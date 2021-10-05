@@ -42,7 +42,6 @@
 						"/execute @s[tag=!begin] ~ ~ ~ tp @s 0 130 0",
 						"/execute @s[tag=!begin] ~ ~ ~ spawnpoint @s ~~~",
 						"/execute @s[tag=!begin] ~ ~ ~ setworldspawn ~~~",
-						"/tag @s add begin",
 						"/gamerule sendcommandfeedback true"
 					]
 				},
@@ -56,7 +55,8 @@
 						}
 					],
 					"on_exit": [
-						"/execute @s[tag=!begin] ~ ~ ~ dialogue open @e[type=terrariamod:npc_dummy] @p start_game"
+						"/execute @s[tag=!begin] ~ ~ ~ dialogue open @e[type=terrariamod:npc_dummy] @p start_game",
+						"/tag @s add begin"
 					]
 				},
 				"done": {}

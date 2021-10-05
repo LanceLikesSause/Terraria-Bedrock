@@ -15,6 +15,7 @@
 				}
 			},
 			"minecraft:crafting_table": {
+				"custom_description": "Furnace",
 				"grid_size": 3,
 				"crafting_tags": [
 					"tfurnace"

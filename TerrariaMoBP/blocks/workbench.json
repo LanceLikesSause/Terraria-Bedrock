@@ -16,6 +16,7 @@
 				}
 			},
 			"minecraft:crafting_table": {
+				"custom_description": "Workbench",
 				"grid_size": 3,
 				"crafting_tags": [
 					"workbench"

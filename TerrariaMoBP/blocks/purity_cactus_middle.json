@@ -16,8 +16,21 @@
 				}
 			},
 			"minecraft:geometry": "geometry.purity_cactus_middle",
-			"minecraft:loot": "loot_tables/blocks/purity_cactus.json"
+			"minecraft:loot": "loot_tables/blocks/purity_cactus.json",
+			"minecraft:on_player_destroyed": {
+				"event": "terrariamod:destroy_tree"
+			}
 		},
-		"events": {}
+		"events": {
+			"terrariamod:destroy_tree": {
+				"run_command": {
+					"command": [
+						"fill ~ ~7 ~ ~ ~-7 ~ air 0 replace terrariamod:purity_cactus_bottom",
+						"fill ~ ~7 ~ ~ ~-7 ~ air 0 replace terrariamod:purity_cactus_middle",
+						"fill ~ ~7 ~ ~ ~-7 ~ air 0 replace terrariamod:purity_cactus_top"
+					]
+				}
+			}
+		}
 	}
 }

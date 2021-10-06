@@ -5,7 +5,7 @@
 		"description": {
 			"identifier": "terrariamod:lake_jungle_feature"
 		},
-		"count": 50,
+		"count": 90,
 		"replace_rules": [
 			{
 				"places_block": "minecraft:water",

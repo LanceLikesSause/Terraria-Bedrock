@@ -7,7 +7,7 @@
 			"places_feature": "minecraft:tree_jungle_feature"
 		},
 		"conditions": {
-			"placement_pass": "surface_pass",
+			"placement_pass": "final_pass",
 			"minecraft:biome_filter": [
 				{
 					"test": "has_biome_tag",

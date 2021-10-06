@@ -7,7 +7,7 @@
 			"places_feature": "terrariamod:lake_jungle_feature"
 		},
 		"conditions": {
-			"placement_pass": "final_pass",
+			"placement_pass": "first_pass",
 			"minecraft:biome_filter": [
 				{
 					"test": "has_biome_tag",
@@ -33,6 +33,10 @@
 					0,
 					16
 				]
+			},
+			"scatter_chance": {
+				"numerator": 1,
+				"denominator": 4
 			}
 		}
 	}

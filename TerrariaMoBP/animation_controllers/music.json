@@ -273,6 +273,7 @@
 				"boss_2_music": {
 					"on_entry": [
 						"/playsound bosstwo @p",
+						"/fog @s push terrariamod:purity_forest_fog purity_forest_fog",
 						"v.time=q.time_stamp;"
 					],
 					"transitions": [
@@ -284,6 +285,7 @@
 				"boss_1_music": {
 					"on_entry": [
 						"/playsound bossone @p",
+						"/fog @s push terrariamod:purity_forest_fog purity_forest_fog",
 						"v.time=q.time_stamp;"
 					],
 					"transitions": [
@@ -295,6 +297,7 @@
 				"boss_3_music": {
 					"on_entry": [
 						"/playsound bossthree @p",
+						"/fog @s push terrariamod:purity_forest_fog purity_forest_fog",
 						"v.time=q.time_stamp;"
 					],
 					"transitions": [
@@ -306,6 +309,7 @@
 				"boss_5_music": {
 					"on_entry": [
 						"/playsound bossfive @p",
+						"/fog @s push terrariamod:purity_forest_fog purity_forest_fog",
 						"v.time=q.time_stamp;"
 					],
 					"transitions": [
@@ -317,6 +321,7 @@
 				"goblin_army_music": {
 					"on_entry": [
 						"/playsound goblinarmy @p",
+						"/fog @s push terrariamod:purity_forest_fog purity_forest_fog",
 						"v.time=q.time_stamp;"
 					],
 					"transitions": [
@@ -328,6 +333,7 @@
 				"blood_moon_music": {
 					"on_entry": [
 						"/playsound bloodmoon @p",
+						"/fog @s push terrariamod:purity_forest_fog purity_forest_fog",
 						"v.time=q.time_stamp;"
 					],
 					"transitions": [

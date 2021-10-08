@@ -1,17 +1,19 @@
-//bridge-file-version: #53
+//bridge-file-version: #79
 {
 	"format_version": "1.10.0",
 	"animation_controllers": {
 		"controller.animation.initialize_addon": {
-			"initial_state": "setting_up_the_addon",
+			"initial_state": "start",
 			"states": {
-				"setting_up_the_addon": {
+				"start": {
 					"transitions": [
 						{
-							"setting_the_addons_difficulty": "query.life_time>10"
+							"setting_up_the_addon": "query.is_on_ground == true"
 						}
-					],
-					"on_exit": [
+					]
+				},
+				"setting_up_the_addon": {
+					"on_entry": [
 						"/gamerule sendcommandfeedback false",
 						"/scoreboard objectives add nursestat dummy nursestat",
 						"/scoreboard objectives add merchantstat dummy merchantstat",
@@ -42,21 +44,34 @@
 						"/execute @s[tag=!begin] ~ ~ ~ tp @s 0 130 0",
 						"/execute @s[tag=!begin] ~ ~ ~ spawnpoint @s ~~~",
 						"/execute @s[tag=!begin] ~ ~ ~ setworldspawn ~~~",
-						"/gamerule sendcommandfeedback true"
+						"/gamerule sendcommandfeedback true",
+						"v.time=q.time_stamp;"
+					],
+					"transitions": [
+						{
+							"wait": "query.is_on_ground == true"
+						}
 					]
 				},
-				"setting_the_addons_difficulty": {
+				"wait": {
 					"on_entry": [
 						"v.time=q.time_stamp;"
 					],
 					"transitions": [
 						{
-							"done": "query.time_stamp>v.time+10"
+							"setting_the_addons_difficulty": "query.time_stamp>v.time+40"
 						}
-					],
-					"on_exit": [
+					]
+				},
+				"setting_the_addons_difficulty": {
+					"on_entry": [
 						"/execute @s[tag=!begin] ~ ~ ~ dialogue open @e[type=terrariamod:npc_dummy] @p start_game",
-						"/tag @s add begin"
+						"/say pull up difficulty selection"
+					],
+					"transitions": [
+						{
+							"done": "query.is_on_ground == true"
+						}
 					]
 				},
 				"done": {}

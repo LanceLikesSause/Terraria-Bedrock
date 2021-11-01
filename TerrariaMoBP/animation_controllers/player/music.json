@@ -98,7 +98,7 @@
 					],
 					"transitions": [
 						{
-							"default": "query.time_stamp>v.time+1340||!query.biome_has_any_tag('purity_forest')||query.position(1)<110||query.position(1)>230||query.time_of_day==0.75||query.scoreboard('boss_2_alive')>0||query.is_in_water_or_rain"
+							"default": "query.life_time<=2||query.time_stamp>v.time+1340||!query.biome_has_any_tag('purity_forest')||query.position(1)<110||query.position(1)>230||query.time_of_day==0.75||query.scoreboard('boss_2_alive')>0||query.is_in_water_or_rain"
 						}
 					]
 				},

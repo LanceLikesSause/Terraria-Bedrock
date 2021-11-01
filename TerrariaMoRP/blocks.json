@@ -1,5 +1,26 @@
 //bridge-file-version: #68
 {
+    "lava" : {
+       "isotropic" : true,
+       "textures" : {
+          "down" : "terrariamod_lava",
+          "side" : "terrariamod_lava",
+          "up" : "terrariamod_lava"
+       }
+    },
+    "flowing_lava" : {
+       "textures" : {
+          "down" : "terrariamod_lava",
+          "side" : "terrariamod_lava",
+          "up" : "terrariamod_lava"
+       }
+    },
+    "flowing_water" : {
+		"textures" : "terrariamod_water"
+	},
+    "water" : {
+		"textures" : "terrariamod_water"
+    },
 	"terrariamod:shadoworb": {
 		"sound": "wood"
 	},
@@ -164,6 +185,18 @@
 		"sound": "grass"
 	},
 	"terrariamod:daybloom": {
+		"sound": "grass"
+	},
+	"terrariamod:blinkroot": {
+		"sound": "grass"
+	},
+	"terrariamod:deathweed": {
+		"sound": "grass"
+	},
+	"terrariamod:fireblossom": {
+		"sound": "grass"
+	},
+	"terrariamod:moonglow": {
 		"sound": "grass"
 	},
 	"terrariamod:giant_glowing_mushroom_hat": {

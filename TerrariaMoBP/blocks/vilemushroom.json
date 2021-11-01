@@ -2,11 +2,11 @@
 	"format_version": "1.16.100",
 	"minecraft:block": {
 		"description": {
-			"identifier": "terrariamod:vilemushroom",
-			"register_to_creative_menu": true
+			"identifier": "terrariamod:vilemushroom"
 		},
 		"components": {
-			"minecraft:destroy_time": 0.1,
+			"tag:terrariamod:plant": {},
+			"minecraft:destroy_time": 0,
 			"minecraft:geometry": "geometry.cross",
 			"minecraft:material_instances": {
 				"*": {
@@ -14,12 +14,34 @@
 					"render_method": "alpha_test"
 				}
 			},
-			"minecraft:entity_collision": false,
 			"minecraft:block_light_emission": 0,
-			"tag:terrariamod:plant": {},
 			"minecraft:block_light_absorption": 0,
-			"minecraft:display_name": "item.terrariamod:vilemushroom.name",
-			"minecraft:loot": "loot_tables/blocks/vilemushroom_item.json"
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"block_filter": [
+							"terrariamod:corrupted_grass"
+						],
+						"allowed_faces": [
+							"up"
+						]
+					}
+				]
+			},
+			"minecraft:loot": "loot_tables/blocks/vilemushroom_item.json",
+			"minecraft:entity_collision": false,
+			"minecraft:pick_collision": {
+				"origin": [
+					-5,
+					0,
+					-5
+				],
+				"size": [
+					10,
+					13,
+					10
+				]
+			}
 		},
 		"events": {}
 	}

@@ -1,0 +1,28 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "terrariamod:dummy_depthmeter",
+			"runtime_identifier": {},
+			"is_summonable": true,
+			"is_spawnable": false,
+			"animations": {
+				"controller": "controller.animation.depthmeter"
+			},
+			"scripts": {
+				"animate": [
+					"controller"
+				]
+			}
+		},
+		"components": {
+			"minecraft:type_family": {
+				"family": [
+					"terraria_dummies"
+				]
+			}
+		},
+		"events": {},
+		"component_groups": {}
+	}
+}

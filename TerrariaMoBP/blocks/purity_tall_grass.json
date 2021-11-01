@@ -1,23 +1,19 @@
 {
-	"format_version": "1.16.200",
+	"format_version": "1.16.100",
 	"minecraft:block": {
 		"description": {
-			"identifier": "terrariamod:purity_tall_grass",
-			"properties": {
-				"terrariamod:variations": [
-					0,
-					1,
-					2,
-					3,
-					4
-				]
-			}
+			"identifier": "terrariamod:purity_tall_grass"
 		},
 		"components": {
-			"minecraft:destroy_time": 0.1,
+			"minecraft:destroy_time": 0.0,
 			"tag:terrariamod:plant": {},
 			"minecraft:geometry": "geometry.cross",
-			"minecraft:entity_collision": false,
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "purity_tall_grass",
+					"render_method": "alpha_test"
+				}
+			},
 			"minecraft:block_light_emission": 0,
 			"minecraft:block_light_absorption": 0,
 			"minecraft:placement_filter": {
@@ -33,109 +29,19 @@
 				]
 			},
 			"minecraft:loot": "loot_tables/blocks/purity_tall_grass.json",
-			"minecraft:ticking": {
-				"looping": false,
-				"range": [
+			"minecraft:entity_collision": false,
+			"minecraft:pick_collision": {
+				"origin": [
+					-5,
 					0,
-					0
+					-5
 				],
-				"on_tick": {
-					"event": "terrariamod:variations_set_event"
-				}
-			}
-		},
-		"events": {
-			"terrariamod:variations_set_event": {
-				"randomize": [
-					{
-						"weight": 1,
-						"set_block_property": {
-							"terrariamod:variations": 0
-						}
-					},
-					{
-						"weight": 1,
-						"set_block_property": {
-							"terrariamod:variations": 1
-						}
-					},
-					{
-						"weight": 1,
-						"set_block_property": {
-							"terrariamod:variations": 2
-						}
-					},
-					{
-						"weight": 1,
-						"set_block_property": {
-							"terrariamod:variations": 3
-						}
-					},
-					{
-						"weight": 1,
-						"set_block_property": {
-							"terrariamod:variations": 4
-						}
-					}
+				"size": [
+					10,
+					13,
+					10
 				]
 			}
-		},
-		"permutations": [
-			{
-				"condition": "query.block_property('terrariamod:variations') == 0",
-				"components": {
-					"minecraft:material_instances": {
-						"*": {
-							"texture": "purity_tall_grass_one",
-							"render_method": "alpha_test"
-						}
-					}
-				}
-			},
-			{
-				"condition": "query.block_property('terrariamod:variations') == 1",
-				"components": {
-					"minecraft:material_instances": {
-						"*": {
-							"texture": "purity_tall_grass_two",
-							"render_method": "alpha_test"
-						}
-					}
-				}
-			},
-			{
-				"condition": "query.block_property('terrariamod:variations') == 2",
-				"components": {
-					"minecraft:material_instances": {
-						"*": {
-							"texture": "purity_tall_grass_three",
-							"render_method": "alpha_test"
-						}
-					}
-				}
-			},
-			{
-				"condition": "query.block_property('terrariamod:variations') == 3",
-				"components": {
-					"minecraft:material_instances": {
-						"*": {
-							"texture": "purity_tall_grass_four",
-							"render_method": "alpha_test"
-						}
-					}
-				}
-			},
-			{
-				"condition": "query.block_property('terrariamod:variations') == 4",
-				"components": {
-					"minecraft:material_instances": {
-						"*": {
-							"texture": "purity_tall_grass_five",
-							"render_method": "alpha_test"
-						}
-					}
-				}
-			}
-		]
+		}
 	}
 }

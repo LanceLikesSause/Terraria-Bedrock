@@ -4,6 +4,14 @@
 	"padding": 8,
 	"num_mip_levels": 4,
 	"texture_data": {
+		"terrariamod_lava": {
+			"quad" : 1,
+			"textures": "textures/blocks/terrariamod_lava"
+		},
+		"terrariamod_water": {
+			"quad" : 1,
+			"textures": "textures/blocks/terrariamod_water"
+		},
 		"hollow": {
 			"textures": "textures/blocks/hollow"
 		},
@@ -279,7 +287,27 @@
 		},
 		"honey": {
 			"textures": "textures/blocks/honey"
-
+		},
+		"purity_tall_grass": {
+			"textures": {
+				"variations": [
+					{
+						"path": "textures/blocks/purity_tall_grass_one"
+					},
+					{
+						"path": "textures/blocks/purity_tall_grass_two"
+					},
+					{
+						"path": "textures/blocks/purity_tall_grass_three"
+					},
+					{
+						"path": "textures/blocks/purity_tall_grass_four"
+					},
+					{
+						"path": "textures/blocks/purity_tall_grass_five"
+					}
+				]
+			}
 		},
 		"hive_wall": {
 			"textures": [
@@ -340,21 +368,6 @@
 		},
 		"forest_pot": {
 			"textures": "textures/blocks/forest_pot"
-		},
-		"purity_tall_grass_one": {
-			"textures": "textures/blocks/purity_tall_grass_one"
-		},
-		"purity_tall_grass_two": {
-			"textures": "textures/blocks/purity_tall_grass_two"
-		},
-		"purity_tall_grass_three": {
-			"textures": "textures/blocks/purity_tall_grass_three"
-		},
-		"purity_tall_grass_four": {
-			"textures": "textures/blocks/purity_tall_grass_four"
-		},
-		"purity_tall_grass_five": {
-			"textures": "textures/blocks/purity_tall_grass_five"
 		},
 		"dungeon_mob_spawner": {
 			"textures": "textures/blocks/dungeon_mob_spawner"

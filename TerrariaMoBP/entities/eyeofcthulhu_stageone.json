@@ -1,3 +1,4 @@
+//bridge-file-version: #12
 {
 	"format_version": "1.16.100",
 	"minecraft:entity": {
@@ -156,15 +157,6 @@
 					}
 				]
 			},
-			"minecraft:environment_sensor": {
-				"triggers": {
-					"filters": {
-						"test": "is_daytime",
-						"value": true
-					},
-					"event": "terrariamod:despawn_entity"
-				}
-			},
 			"minecraft:type_family": {
 				"family": [
 					"terraria_players_enemy",
@@ -174,6 +166,25 @@
 			"minecraft:knockback_resistance": {
 				"value": 0.9,
 				"max": 0.9
+			},
+			"minecraft:environment_sensor": {
+				"triggers": [
+					{
+						"filters": {
+							"test": "is_daytime",
+							"value": true
+						},
+						"event": "terrariamod:despawn_entity"
+					},
+					{
+						"filters": {
+							"test": "distance_to_nearest_player",
+							"operator": ">",
+							"value": 60
+						},
+						"event": "terrariamod:despawn_entity"
+					}
+				]
 			}
 		},
 		"component_groups": {

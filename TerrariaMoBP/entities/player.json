@@ -1,4 +1,4 @@
-//bridge-file-version: #0
+//bridge-file-version: #5
 {
 	"format_version": "1.16.100",
 	"minecraft:entity": {
@@ -95,6 +95,9 @@
 				"value": 0,
 				"max": 0
 			},
+			"minecraft:player.saturation": {
+				"value": 3
+			},
 			"minecraft:can_climb": {},
 			"minecraft:movement": {
 				"value": 34.6
@@ -140,7 +143,7 @@
 				"is_pushable_by_piston": true
 			},
 			"minecraft:insomnia": {
-				"days_until_insomnia": 3
+				"days_until_insomnia": 999
 			},
 			"minecraft:rideable": {
 				"seat_count": 2,
@@ -241,6 +244,14 @@
 				"remove": {
 					"component_groups": [
 						"minecraft:raid_trigger"
+					]
+				}
+			},
+			"terrariamod:kill_all_bosses": {
+				"run_command": {
+					"command": [
+						"kill @e[family=terraria_boss]",
+						"summon terrariamod:dummy_reset_music"
 					]
 				}
 			}

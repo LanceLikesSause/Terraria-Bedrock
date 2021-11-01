@@ -5,15 +5,7 @@
 			"identifier": "terrariamod:guide",
 			"is_spawnable": true,
 			"is_summonable": true,
-			"is_experimental": false,
-			"animations": {
-				"guide_death": "controller.animation.guide_death"
-			},
-			"scripts": {
-				"animate": [
-					"guide_death"
-				]
-			}
+			"is_experimental": false
 		},
 		"component_groups": {},
 		"components": {
@@ -28,7 +20,7 @@
 			"minecraft:type_family": {
 				"family": [
 					"villager",
-					"mob"
+					"terraria_npc"
 				]
 			},
 			"minecraft:mark_variant": {
@@ -196,9 +188,19 @@
 						"deals_damage": false
 					}
 				]
+			},
+			"minecraft:on_death": {
+				"event": "terrariamod:death_event"
 			}
 		},
 		"events": {
+			"terrariamod:death_event": {
+				"run_command": {
+					"command": [
+						"tellraw @a {\"rawtext\":[{\"text\":\"The Guide has died\"}]}"
+					]
+				}
+			},
 			"terrariamod:talk": {
 				"randomize": [
 					{

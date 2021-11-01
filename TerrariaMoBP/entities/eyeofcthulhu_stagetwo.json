@@ -1,3 +1,4 @@
+//bridge-file-version: #4
 {
 	"format_version": "1.16.100",
 	"minecraft:entity": {
@@ -168,19 +169,29 @@
 				"name": "The Eye of Cthulhu §9Stage Two",
 				"hud_range": 56
 			},
-			"minecraft:environment_sensor": {
-				"triggers": {
-					"filters": {
-						"test": "is_daytime",
-						"value": true
-					},
-					"event": "terrariamod:despawn_entity"
-				}
-			},
 			"minecraft:type_family": {
 				"family": [
 					"terraria_players_enemy",
 					"terraria_boss"
+				]
+			},
+			"minecraft:environment_sensor": {
+				"triggers": [
+					{
+						"filters": {
+							"test": "is_daytime",
+							"value": true
+						},
+						"event": "terrariamod:despawn_entity"
+					},
+					{
+						"filters": {
+							"test": "distance_to_nearest_player",
+							"operator": ">",
+							"value": 60
+						},
+						"event": "terrariamod:despawn_entity"
+					}
 				]
 			}
 		},

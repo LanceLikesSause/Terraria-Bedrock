@@ -5,7 +5,8 @@
 			"identifier": "terrariamod:daybloom"
 		},
 		"components": {
-			"minecraft:destroy_time": 0.1,
+			"tag:terrariamod:plant": {},
+			"minecraft:destroy_time": 0,
 			"minecraft:geometry": "geometry.cross",
 			"minecraft:material_instances": {
 				"*": {
@@ -13,9 +14,7 @@
 					"render_method": "alpha_test"
 				}
 			},
-			"minecraft:entity_collision": false,
 			"minecraft:block_light_emission": 0,
-			"tag:terrariamod:plant": {},
 			"minecraft:block_light_absorption": 0,
 			"minecraft:placement_filter": {
 				"conditions": [
@@ -29,7 +28,20 @@
 					}
 				]
 			},
-			"minecraft:loot": "loot_tables/blocks/daybloom_item.json"
+			"minecraft:loot": "loot_tables/blocks/daybloom_item.json",
+			"minecraft:entity_collision": false,
+			"minecraft:pick_collision": {
+				"origin": [
+					-3,
+					0,
+					-3
+				],
+				"size": [
+					6,
+					8,
+					6
+				]
+			}
 		},
 		"events": {}
 	}

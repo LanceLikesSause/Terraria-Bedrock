@@ -1,0 +1,40 @@
+//bridge-file-version: #1
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "terrariamod:minion_slime",
+        "materials": {
+          "default": "zombie"
+        },
+        "textures": {
+          "default": "textures/entity/pamobile/minion_slime"
+        },
+        "particle_effects": {
+    		  "bounce_effect": "terrariamod:slime_effect"
+ 		    },
+        "geometry": {
+          "default": "geometry.default_slime"
+        },
+        "animations": {
+          "walk": "animation.greenslime.walk",
+          "attack": "animation.greenslime.attack",
+          "pounce": "animation.greenslime.pounce",
+          "ctrl": "controller.animation.greenslime.attack"
+        },
+        "scripts": {
+          "animate": [
+            "ctrl"
+          ]
+        },
+        "render_controllers": [
+          "controller.render.zombie"
+        ],
+        "enable_attachables": false,
+        "spawn_egg": {
+          "base_color": "#949493",
+          "overlay_color": "#651818"
+        }
+      }
+    }
+  }

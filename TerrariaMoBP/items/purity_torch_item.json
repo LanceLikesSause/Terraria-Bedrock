@@ -26,8 +26,10 @@
 			"terrariamod:use_torch": {
 				"run_command": {
 					"command": [
+						"gamerule sendcommandfeedback false",
 						"clear @s terrariamod:purity_torch_item 0 1",
-						"give @s terrariamod:purity_torch"
+						"give @s terrariamod:purity_torch",
+						"gamerule sendcommandfeedback true"
 					]
 				}
 			}

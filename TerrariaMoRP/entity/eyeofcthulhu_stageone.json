@@ -1,4 +1,4 @@
-//bridge-file-version: #7
+//bridge-file-version: #8
 {
 	"format_version": "1.10.0",
 	"minecraft:client_entity": {
@@ -17,7 +17,7 @@
 				"controller.render.zombie"
 			],
 			"animations": {
-				"loop": "animation.eye_of_cthulhu_stage_one.fly"
+				"loop": "animation.eye_of_cthulhu_stage_one.flying"
 			},
 			"scripts": {
 				"animate": [

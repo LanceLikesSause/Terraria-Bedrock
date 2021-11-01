@@ -18,7 +18,7 @@
 					]
 				}
 			],
-			"placement_pass": "final_pass"
+			"placement_pass": "first_pass"
 		},
 		"distribution": {
 			"iterations": 50,

@@ -3,7 +3,7 @@
 	"format_version": "1.16.100",
 	"minecraft:entity": {
 		"description": {
-			"identifier": "terrariamod:purity_bed_dummy",
+			"identifier": "terrariamod:dummy_purity_bed",
 			"is_spawnable": false,
 			"is_summonable": true,
 			"is_experimental": false

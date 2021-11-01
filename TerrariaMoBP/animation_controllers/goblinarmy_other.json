@@ -15,7 +15,7 @@
 						"/scoreboard objectives add boss_2_alive dummy boss_2_alive",
 						"/scoreboard players set @p boss_2_alive 10",
 						"/gamerule domobspawning false",
-						"/kill @e[family=!terraria_boss,type=!player]"
+						"/kill @e[family=!terraria_boss,type=!player,family=!terraria_dummies,family=!terraria_npc]"
 					],
 					"transitions": [
 						{

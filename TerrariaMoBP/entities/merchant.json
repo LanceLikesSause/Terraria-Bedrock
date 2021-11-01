@@ -5,15 +5,7 @@
 			"identifier": "terrariamod:merchant",
 			"is_spawnable": true,
 			"is_summonable": true,
-			"is_experimental": false,
-			"animations": {
-				"merchant_death": "controller.animation.merchant_death"
-			},
-			"scripts": {
-				"animate": [
-					"merchant_death"
-				]
-			}
+			"is_experimental": false
 		},
 		"component_groups": {},
 		"components": {
@@ -231,7 +223,8 @@
 			},
 			"minecraft:type_family": {
 				"family": [
-					"terraria_npc"
+					"terraria_npc",
+					"villager"
 				]
 			},
 			"minecraft:damage_sensor": {
@@ -247,8 +240,19 @@
 						"deals_damage": false
 					}
 				]
+			},
+			"minecraft:on_death": {
+				"event": "terrariamod:death_event"
 			}
 		},
-		"events": {}
+		"events": {
+			"terrariamod:death_event": {
+				"run_command": {
+					"command": [
+						"tellraw @a {\"rawtext\":[{\"text\":\"The Merchant has died\"}]}"
+					]
+				}
+			}
+		}
 	}
 }

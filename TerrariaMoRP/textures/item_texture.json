@@ -1086,8 +1086,8 @@
 		"terrariamod:spawn_old_man": {
 			"textures": "textures/items/spawn_egg/egg_old_man"
 		},
-		"terrariamod:spawn_pink_slime": {
-			"textures": "textures/items/spawn_egg/egg_pink_slime"
+		"terrariamod:spawn_pinky": {
+			"textures": "textures/items/spawn_egg/egg_pinky"
 		},
 		"terrariamod:spawn_purple_slime": {
 			"textures": "textures/items/spawn_egg/egg_purple_slime"

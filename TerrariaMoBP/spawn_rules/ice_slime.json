@@ -1,0 +1,40 @@
+//bridge-file-version: #24
+{
+	"format_version": "1.8.0",
+	"minecraft:spawn_rules": {
+		"description": {
+			"identifier": "terrariamod:ice_slime",
+			"population_control": "animal"
+		},
+		"conditions": [
+			{
+				"minecraft:weight": {
+					"default": 999999
+				},
+				"minecraft:herd": {
+					"min_size": 1,
+					"max_size": 3
+				},
+				"minecraft:biome_filter": {
+					"test": "has_biome_tag",
+					"operator": "==",
+					"value": "purity_snow"
+				},
+				"minecraft:distance_filter": {
+					"min": 6,
+					"max": 15
+				},
+				"minecraft:spawns_on_surface": {},
+				"minecraft:brightness_filter": {
+					"min": 7,
+					"max": 15,
+					"adjust_for_weather": true
+				},
+				"minecraft:height_filter": {
+					"min": 110,
+					"max": 220
+				}
+			}
+		]
+	}
+}

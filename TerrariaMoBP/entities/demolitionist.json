@@ -5,15 +5,7 @@
 			"identifier": "terrariamod:demolitionist",
 			"is_spawnable": true,
 			"is_summonable": true,
-			"is_experimental": false,
-			"scripts": {
-				"animate": [
-					"demolitionist_death"
-				]
-			},
-			"animations": {
-				"demolitionist_death": "controller.animation.demolitionist_death"
-			}
+			"is_experimental": false
 		},
 		"component_groups": {},
 		"components": {
@@ -240,8 +232,19 @@
 						"deals_damage": false
 					}
 				]
+			},
+			"minecraft:on_death": {
+				"event": "terrariamod:death_event"
 			}
 		},
-		"events": {}
+		"events": {
+			"terrariamod:death_event": {
+				"run_command": {
+					"command": [
+						"tellraw @a {\"rawtext\":[{\"text\":\"The Demolitionist has died\"}]}"
+					]
+				}
+			}
+		}
 	}
 }

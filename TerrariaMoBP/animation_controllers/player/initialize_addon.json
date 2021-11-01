@@ -22,7 +22,6 @@
 						"/scoreboard objectives add explosives dummy explosives",
 						"/scoreboard objectives add ammo dummy ammo",
 						"/scoreboard objectives add armsstat dummy armsstat",
-						"/summon terrariamod:dummy_npc",
 						"/tickingarea add circle ~~~ 3 circle",
 						"/scoreboard objectives add health dummy health",
 						"/execute @s[tag=!begin] ~ ~ ~ scoreboard players set @s health 100",
@@ -59,14 +58,14 @@
 					],
 					"transitions": [
 						{
-							"setting_the_addons_difficulty": "query.time_stamp>v.time+40"
+							"setting_the_addons_difficulty": "query.time_stamp>v.time+100"
 						}
 					]
 				},
 				"setting_the_addons_difficulty": {
 					"on_entry": [
-						"/execute @s[tag=!begin] ~ ~ ~ dialogue open @e[type=terrariamod:npc_dummy] @p start_game",
-						"/say pull up difficulty selection"
+						"/execute @s[tag=!begin] ~ ~ ~ dialogue open @e[type=terrariamod:dummy_npc] @p start_game",
+						"/execute @s[tag=!begin] ~ ~ ~ tag @s add begin"
 					],
 					"transitions": [
 						{

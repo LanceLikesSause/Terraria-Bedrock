@@ -6,9 +6,9 @@
 			"register_to_creative_menu": true
 		},
 		"components": {
-			"minecraft:destroy_time": 999,
+			"minecraft:destroy_time": 5,
 			"minecraft:map_color": "#D017D2",
-			"minecraft:explosion_resistance": 0.9,
+			"minecraft:explosion_resistance": 999,
 			"tag:terrariamod:stone": {}
 		},
 		"events": {}

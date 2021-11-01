@@ -6,17 +6,7 @@
 			"identifier": "terrariamod:nurse",
 			"is_spawnable": true,
 			"is_summonable": true,
-			"is_experimental": false,
-			"animations": {
-				"nurse_death": "controller.animation.nurse_death",
-				"bridge_execute_commands": "controller.animation.bridge_nurse.execute_commands"
-			},
-			"scripts": {
-				"animate": [
-					"nurse_death",
-					"bridge_execute_commands"
-				]
-			}
+			"is_experimental": false
 		},
 		"component_groups": {
 			"bridge:execute_command_id_1": {
@@ -169,27 +159,18 @@
 				"aux_val": 24
 			},
 			"minecraft:behavior.move_to_block": {
+				"priority": 5,
 				"speed_multiplier": 1,
-				"priority": 0,
-				"tick_interval": 0.1,
-				"start_chance": 0.3,
-				"search_range": 60,
-				"search_height": 60,
-				"goal_radius": 0,
-				"stay_duration": 12,
-				"target_selection_method": "nearest",
-				"target_offset": [
-					0,
-					0,
-					0
-				],
+				"tick_interval": 1,
 				"target_blocks": [
-					"terrariamod:item.wooden_chair"
-				]
+					"terrariamod:wooden_chair"
+				],
+				"search_range": 60
 			},
 			"minecraft:type_family": {
 				"family": [
-					"terraria_npc"
+					"terraria_npc",
+					"villager"
 				]
 			},
 			"minecraft:npc": {},
@@ -216,9 +197,19 @@
 						"deals_damage": false
 					}
 				]
+			},
+			"minecraft:on_death": {
+				"event": "terrariamod:death_event"
 			}
 		},
 		"events": {
+			"terrariamod:death_event": {
+				"run_command": {
+					"command": [
+						"tellraw @a {\"rawtext\":[{\"text\":\"The Nurse has died\"}]}"
+					]
+				}
+			},
 			"terrariamod:heal": {
 				"run_command": {
 					"command": [

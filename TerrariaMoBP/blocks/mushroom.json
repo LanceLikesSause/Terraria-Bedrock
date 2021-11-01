@@ -5,8 +5,8 @@
 			"identifier": "terrariamod:mushroom"
 		},
 		"components": {
-			"minecraft:destroy_time": 0.1,
-			"minecraft:loot": "loot_tables/blocks/mushroom_item.json",
+			"tag:terrariamod:plant": {},
+			"minecraft:destroy_time": 0,
 			"minecraft:geometry": "geometry.cross",
 			"minecraft:material_instances": {
 				"*": {
@@ -14,9 +14,7 @@
 					"render_method": "alpha_test"
 				}
 			},
-			"minecraft:entity_collision": false,
 			"minecraft:block_light_emission": 0,
-			"tag:terrariamod:plant": {},
 			"minecraft:block_light_absorption": 0,
 			"minecraft:placement_filter": {
 				"conditions": [
@@ -28,6 +26,20 @@
 							"up"
 						]
 					}
+				]
+			},
+			"minecraft:loot": "loot_tables/blocks/mushroom_item.json",
+			"minecraft:entity_collision": false,
+			"minecraft:pick_collision": {
+				"origin": [
+					-5,
+					0,
+					-5
+				],
+				"size": [
+					10,
+					13,
+					10
 				]
 			}
 		},

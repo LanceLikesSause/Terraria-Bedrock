@@ -8,11 +8,6 @@
 					"attack.strong": "player_terraria.attack.strong",
 					"death": "player_terraria.die",
 					"death.in.water": "player_terraria.die",
-					"elderguardian.curse": {
-						"pitch": 1,
-						"sound": "mob.elderguardian.curse",
-						"volume": 1
-					},
 					"hurt": "player_terraria.hurt",
 					"hurt.in.water": "player_terraria.hurt",
 					"throw": {
@@ -22,6 +17,16 @@
 						],
 						"sound": "random.bow",
 						"volume": 0.5
+					},
+					"eat" : {
+						"pitch" : [ 0.80, 1.20 ],
+						"sound" : "terrariamod.eat",
+						"volume" : [ 0.50, 1.10 ]
+					},
+					"drink" : {
+					   "pitch" : [ 0.90, 1.10 ],
+					   "sound" : "terrariamod.drink",
+					   "volume" : 0.350
 					}
 				},
 				"pitch": [
@@ -248,7 +253,7 @@
 					}
 				}
 			},
-			"terrariamod:dungeonslime": {
+			"terrariamod:dungeon_slime": {
 				"volume": 1,
 				"pitch": [
 					0.9,
@@ -256,17 +261,17 @@
 				],
 				"events": {
 					"hurt": {
-						"sound": "slime.hurt",
+						"sound": "general_terrariamod.hurt",
 						"volume": 1,
 						"pitch": 1.1
 					},
 					"ambient": {
-						"sound": "slime.ambient",
+						"sound": "general_terrariamod.ambient",
 						"volume": 1,
 						"pitch": 1.1
 					},
 					"death": {
-						"sound": "slime.death",
+						"sound": "general_terrariamod.death",
 						"volume": 1,
 						"pitch": 0.9
 					}
@@ -280,17 +285,17 @@
 				],
 				"events": {
 					"hurt": {
-						"sound": "slime.hurt",
+						"sound": "general_terrariamod.hurt",
 						"volume": 1,
 						"pitch": 1.1
 					},
 					"ambient": {
-						"sound": "slime.ambient",
+						"sound": "general_terrariamod.ambient",
 						"volume": 1,
 						"pitch": 1.1
 					},
 					"death": {
-						"sound": "slime.death",
+						"sound": "general_terrariamod.death",
 						"volume": 1,
 						"pitch": 0.9
 					}
@@ -344,7 +349,7 @@
 					}
 				}
 			},
-			"terrariamod:greenslime": {
+			"terrariamod:green_slime": {
 				"volume": 1,
 				"pitch": [
 					0.9,
@@ -352,23 +357,23 @@
 				],
 				"events": {
 					"hurt": {
-						"sound": "slime.hurt",
+						"sound": "general_terrariamod.hurt",
 						"volume": 1,
 						"pitch": 1.1
 					},
 					"ambient": {
-						"sound": "slime.ambient",
+						"sound": "general_terrariamod.ambient",
 						"volume": 1,
 						"pitch": 1.1
 					},
 					"death": {
-						"sound": "slime.death",
+						"sound": "general_terrariamod.death",
 						"volume": 1,
 						"pitch": 0.9
 					}
 				}
 			},
-			"terrariamod:blueslime": {
+			"terrariamod:blue_slime": {
 				"volume": 1,
 				"pitch": [
 					0.9,
@@ -376,23 +381,23 @@
 				],
 				"events": {
 					"hurt": {
-						"sound": "slime.hurt",
+						"sound": "general_terrariamod.hurt",
 						"volume": 1,
 						"pitch": 1.1
 					},
 					"ambient": {
-						"sound": "slime.ambient",
+						"sound": "general_terrariamod.ambient",
 						"volume": 1,
 						"pitch": 1.1
 					},
 					"death": {
-						"sound": "slime.death",
+						"sound": "general_terrariamod.death",
 						"volume": 1,
 						"pitch": 0.9
 					}
 				}
 			},
-			"terrariamod:redslime": {
+			"terrariamod:red_slime": {
 				"volume": 1,
 				"pitch": [
 					0.9,
@@ -400,23 +405,23 @@
 				],
 				"events": {
 					"hurt": {
-						"sound": "slime.hurt",
+						"sound": "general_terrariamod.hurt",
 						"volume": 1,
 						"pitch": 1.1
 					},
 					"ambient": {
-						"sound": "slime.ambient",
+						"sound": "general_terrariamod.ambient",
 						"volume": 1,
 						"pitch": 1.1
 					},
 					"death": {
-						"sound": "slime.death",
+						"sound": "general_terrariamod.death",
 						"volume": 1,
 						"pitch": 0.9
 					}
 				}
 			},
-			"terrariamod:purpleslime": {
+			"terrariamod:purple_slime": {
 				"volume": 1,
 				"pitch": [
 					0.9,
@@ -424,23 +429,23 @@
 				],
 				"events": {
 					"hurt": {
-						"sound": "slime.hurt",
+						"sound": "general_terrariamod.hurt",
 						"volume": 1,
 						"pitch": 1.1
 					},
 					"ambient": {
-						"sound": "slime.ambient",
+						"sound": "general_terrariamod.ambient",
 						"volume": 1,
 						"pitch": 1.1
 					},
 					"death": {
-						"sound": "slime.death",
+						"sound": "general_terrariamod.death",
 						"volume": 1,
 						"pitch": 0.9
 					}
 				}
 			},
-			"terrariamod:yellowslime": {
+			"terrariamod:yellow_slime": {
 				"volume": 1,
 				"pitch": [
 					0.9,
@@ -448,23 +453,23 @@
 				],
 				"events": {
 					"hurt": {
-						"sound": "slime.hurt",
+						"sound": "general_terrariamod.hurt",
 						"volume": 1,
 						"pitch": 1.1
 					},
 					"ambient": {
-						"sound": "slime.ambient",
+						"sound": "general_terrariamod.ambient",
 						"volume": 1,
 						"pitch": 1.1
 					},
 					"death": {
-						"sound": "slime.death",
+						"sound": "general_terrariamod.death",
 						"volume": 1,
 						"pitch": 0.9
 					}
 				}
 			},
-			"terrariamod:blackslime": {
+			"terrariamod:black_slime": {
 				"volume": 1,
 				"pitch": [
 					0.9,
@@ -472,23 +477,23 @@
 				],
 				"events": {
 					"hurt": {
-						"sound": "slime.hurt",
+						"sound": "general_terrariamod.hurt",
 						"volume": 1,
 						"pitch": 1.1
 					},
 					"ambient": {
-						"sound": "slime.ambient",
+						"sound": "general_terrariamod.ambient",
 						"volume": 1,
 						"pitch": 1.1
 					},
 					"death": {
-						"sound": "slime.death",
+						"sound": "general_terrariamod.death",
 						"volume": 1,
 						"pitch": 0.9
 					}
 				}
 			},
-			"terrariamod:pinkslime": {
+			"terrariamod:pinky": {
 				"volume": 1,
 				"pitch": [
 					0.9,
@@ -496,23 +501,23 @@
 				],
 				"events": {
 					"hurt": {
-						"sound": "slime.hurt",
+						"sound": "general_terrariamod.hurt",
 						"volume": 1,
 						"pitch": 1.1
 					},
 					"ambient": {
-						"sound": "slime.ambient",
+						"sound": "general_terrariamod.ambient",
 						"volume": 1,
 						"pitch": 1.1
 					},
 					"death": {
-						"sound": "slime.death",
+						"sound": "general_terrariamod.death",
 						"volume": 1,
 						"pitch": 0.9
 					}
 				}
 			},
-			"terrariamod:minionslime": {
+			"terrariamod:minion_slime": {
 				"volume": 1,
 				"pitch": [
 					0.9,
@@ -520,23 +525,23 @@
 				],
 				"events": {
 					"hurt": {
-						"sound": "slime.hurt",
+						"sound": "general_terrariamod.hurt",
 						"volume": 1,
 						"pitch": 1.1
 					},
 					"ambient": {
-						"sound": "slime.ambient",
+						"sound": "general_terrariamod.ambient",
 						"volume": 1,
 						"pitch": 1.1
 					},
 					"death": {
-						"sound": "slime.death",
+						"sound": "general_terrariamod.death",
 						"volume": 1,
 						"pitch": 0.9
 					}
 				}
 			},
-			"terrariamod:iceslime": {
+			"terrariamod:ice_slime": {
 				"volume": 1,
 				"pitch": [
 					0.9,
@@ -544,17 +549,41 @@
 				],
 				"events": {
 					"hurt": {
-						"sound": "slime.hurt",
+						"sound": "general_terrariamod.hurt",
 						"volume": 1,
 						"pitch": 1.1
 					},
 					"ambient": {
-						"sound": "slime.ambient",
+						"sound": "general_terrariamod.ambient",
 						"volume": 1,
 						"pitch": 1.1
 					},
 					"death": {
-						"sound": "slime.death",
+						"sound": "general_terrariamod.death",
+						"volume": 1,
+						"pitch": 0.9
+					}
+				}
+			},
+			"terrariamod:sand_slime": {
+				"volume": 1,
+				"pitch": [
+					0.9,
+					1
+				],
+				"events": {
+					"hurt": {
+						"sound": "general_terrariamod.hurt",
+						"volume": 1,
+						"pitch": 1.1
+					},
+					"ambient": {
+						"sound": "general_terrariamod.ambient",
+						"volume": 1,
+						"pitch": 1.1
+					},
+					"death": {
+						"sound": "general_terrariamod.death",
 						"volume": 1,
 						"pitch": 0.9
 					}
@@ -764,22 +793,22 @@
 					}
 				}
 			},
-			"terrariamod:lavaslime": {
+			"terrariamod:lava_slime": {
 				"volume": 1,
 				"pitch": 1,
 				"events": {
 					"hurt": {
-						"sound": "slime.hurt",
+						"sound": "general_terrariamod.hurt",
 						"volume": 1,
 						"pitch": 1.1
 					},
 					"ambient": {
-						"sound": "slime.ambient",
+						"sound": "general_terrariamod.ambient",
 						"volume": 1,
 						"pitch": 1.1
 					},
 					"death": {
-						"sound": "slime.death",
+						"sound": "general_terrariamod.death",
 						"volume": 1,
 						"pitch": 0.9
 					}
@@ -825,17 +854,17 @@
 				],
 				"events": {
 					"hurt": {
-						"sound": "slime.hurt",
+						"sound": "general_terrariamod.hurt",
 						"volume": 1,
 						"pitch": 1.1
 					},
 					"ambient": {
-						"sound": "slime.ambient",
+						"sound": "general_terrariamod.ambient",
 						"volume": 1,
 						"pitch": 1.1
 					},
 					"death": {
-						"sound": "slime.death",
+						"sound": "general_terrariamod.death",
 						"volume": 1,
 						"pitch": 0.9
 					}
@@ -849,17 +878,17 @@
 				],
 				"events": {
 					"hurt": {
-						"sound": "slime.hurt",
+						"sound": "general_terrariamod.hurt",
 						"volume": 0,
 						"pitch": 0
 					},
 					"ambient": {
-						"sound": "slime.ambient",
+						"sound": "general_terrariamod.ambient",
 						"volume": 0,
 						"pitch": 0
 					},
 					"death": {
-						"sound": "slime.death",
+						"sound": "general_terrariamod.death",
 						"volume": 0,
 						"pitch": 0
 					}
@@ -873,17 +902,17 @@
 				],
 				"events": {
 					"hurt": {
-						"sound": "slime.hurt",
+						"sound": "general_terrariamod.hurt",
 						"volume": 0,
 						"pitch": 0
 					},
 					"ambient": {
-						"sound": "slime.ambient",
+						"sound": "general_terrariamod.ambient",
 						"volume": 0,
 						"pitch": 0
 					},
 					"death": {
-						"sound": "slime.death",
+						"sound": "general_terrariamod.death",
 						"volume": 0,
 						"pitch": 0
 					}
@@ -897,17 +926,17 @@
 				],
 				"events": {
 					"hurt": {
-						"sound": "slime.hurt",
+						"sound": "general_terrariamod.hurt",
 						"volume": 0,
 						"pitch": 0
 					},
 					"ambient": {
-						"sound": "slime.ambient",
+						"sound": "general_terrariamod.ambient",
 						"volume": 0,
 						"pitch": 0
 					},
 					"death": {
-						"sound": "slime.death",
+						"sound": "general_terrariamod.death",
 						"volume": 0,
 						"pitch": 0
 					}
@@ -916,17 +945,17 @@
 			"terrariamod:harpy": {
 				"events": {
 					"hurt": {
-						"sound": "slime.hurt",
+						"sound": "general_terrariamod.hurt",
 						"volume": 1,
 						"pitch": 1.1
 					},
 					"ambient": {
-						"sound": "slime.ambient",
+						"sound": "general_terrariamod.ambient",
 						"volume": 1,
 						"pitch": 1.1
 					},
 					"death": {
-						"sound": "slime.death",
+						"sound": "general_terrariamod.death",
 						"volume": 1,
 						"pitch": 0.9
 					}
@@ -1348,6 +1377,13 @@
 							1,
 							1
 						]
+					},
+					"land": {
+						"sound": "terrariamod_gravel_sound",
+						"volume": [
+							0,
+							0
+						]
 					}
 				}
 			},
@@ -1464,8 +1500,18 @@
 					1,
 					1
 				],
-				"sound": "random.pop",
+				"sound": "terrariamod.pop",
 				"volume": 10
+			},
+			"drop.slot" : {
+				"pitch" : [ 0.550, 0.750 ],
+				"sound" : "terrariamod.pop",
+				"volume" : 0.30
+			},
+			"burp" : {
+				"pitch" : [ 0.90, 1.0 ],
+				"sound" : "terrariamod.eat",
+				"volume" : 0.50
 			}
 		}
 	}

@@ -2,6 +2,24 @@
 {
 	"format_version": "1.14.0",
 	"sound_definitions": {
+		"terrariamod.drink": {
+			"category": "player",
+			"sounds": [
+				"sounds/other/drink"
+			]
+		},
+		"terrariamod.eat": {
+			"category": "player",
+			"sounds": [
+				"sounds/other/eat"
+			]
+		},
+		"terrariamod.pop": {
+			"category": "music",
+			"sounds": [
+				"sounds/other/pop"
+			]
+		},
 		"player_terraria.hurt": {
 			"category": "player",
 			"sounds": [
@@ -194,34 +212,34 @@
 				"sounds/mobs/skeleton_terraria/hurt1"
 			]
 		},
-		"slime.ambient": {
+		"general_terrariamod.ambient": {
 			"category": "hostile",
 			"sounds": [
-				"sounds/mobs/slime/ambient1"
+				"sounds/mobs/general_terrariamod/ambient1"
 			]
 		},
-		"slime.hurt": {
+		"general_terrariamod.hurt": {
 			"category": "hostile",
 			"sounds": [
-				"sounds/mobs/slime/hurt1"
+				"sounds/mobs/general_terrariamod/hurt1"
 			]
 		},
-		"slime.death": {
+		"general_terrariamod.death": {
 			"category": "hostile",
 			"sounds": [
-				"sounds/mobs/slime/death1"
+				"sounds/mobs/general_terrariamod/death1"
 			]
 		},
 		"demoneye.hurt": {
 			"category": "hostile",
 			"sounds": [
-				"sounds/mobs/demoneye/hurt1"
+				"sounds/mobs/general_terrariamod/hurt1"
 			]
 		},
 		"demoneye.death": {
 			"category": "hostile",
 			"sounds": [
-				"sounds/mobs/demoneye/death1"
+				"sounds/mobs/general_terrariamod/death1"
 			]
 		},
 		"wallofflesh.hurt": {

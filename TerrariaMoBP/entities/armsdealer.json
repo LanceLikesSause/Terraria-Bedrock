@@ -5,15 +5,7 @@
 			"identifier": "terrariamod:armsdealer",
 			"is_spawnable": true,
 			"is_summonable": true,
-			"is_experimental": false,
-			"animations": {
-				"armsdealer_death": "controller.animation.armsdealer_death"
-			},
-			"scripts": {
-				"animate": [
-					"armsdealer_death"
-				]
-			}
+			"is_experimental": false
 		},
 		"component_groups": {},
 		"components": {
@@ -247,8 +239,19 @@
 						"deals_damage": false
 					}
 				]
+			},
+			"minecraft:on_death": {
+				"event": "terrariamod:death_event"
 			}
 		},
-		"events": {}
+		"events": {
+			"terrariamod:death_event": {
+				"run_command": {
+					"command": [
+						"tellraw @a {\"rawtext\":[{\"text\":\"The Arms Dealer has died\"}]}"
+					]
+				}
+			}
+		}
 	}
 }

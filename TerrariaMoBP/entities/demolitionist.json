@@ -209,7 +209,6 @@
 				"speed_multiplier": 1,
 				"tick_interval": 1,
 				"target_blocks": [
-					"terrariamod:wooden_chair",
 					"terrariamod:wooden_chair"
 				],
 				"search_range": 60

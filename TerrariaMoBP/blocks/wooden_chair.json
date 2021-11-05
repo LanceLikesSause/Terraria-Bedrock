@@ -142,7 +142,8 @@
 					{
 						"run_command": {
 							"command": [
-								"tp @p ~~-1.5~"
+								"tp @p ~~-1.5~",
+								"gamerule sendcommandfeedback false"
 							]
 						}
 					},
